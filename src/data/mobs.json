@@ -476,5 +476,219 @@
       "cat"
     ],
     "keywords": "axolotl lush caves blue axolotl bucket tame breed"
+  },
+  {
+    "slug": "drowned",
+    "name": "Drowned",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Oceans, rivers, underwater ruins and dripstone cave aquifers at light level 0. Zombies that stay underwater for 15 seconds also convert into drowned.",
+    "howToKill": "Fight from a boat or shore so they cannot reach you; their melee is weak but trident throwers are dangerous from range. A shield blocks thrown tridents.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Standard zombie-family drop"
+      },
+      {
+        "item": "Copper Ingot",
+        "qty": "0-1",
+        "notes": "11% chance in both editions, +2% per Looting level - the only renewable copper source"
+      },
+      {
+        "item": "Trident",
+        "qty": "0-1",
+        "notes": "Only from drowned holding one. Java: 6.25% spawn with a trident, 8.5% drop chance (+1% per Looting). Bedrock: 15% spawn with one, 25% drop chance (+4% per Looting)"
+      },
+      {
+        "item": "Fishing Rod",
+        "qty": "0-1",
+        "notes": "Rare held item in Java, 8.5% drop chance when held"
+      }
+    ],
+    "spawnConditions": "Light level 0 in water in oceans, rivers and dripstone caves; high density around underwater ruins.",
+    "behavior": "Swims fast and sinks to walk on the bottom. Trident throwers keep their distance; others rush you. Attacks villagers and baby turtles, and stomps turtle eggs.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "zombie",
+      "axolotl",
+      "villager"
+    ],
+    "keywords": "drowned trident farm copper drops underwater zombie"
+  },
+  {
+    "slug": "ghast",
+    "name": "Ghast",
+    "type": "Hostile",
+    "health": "10 (5 hearts)",
+    "where": "Nether wastes, soul sand valleys and basalt deltas, anywhere with enough open space (5x4x5).",
+    "howToKill": "Deflect its fireball back with a melee hit - a reflected fireball one-shots it and earns the Return to Sender advancement. Otherwise shoot it with a bow. Fire resistance potions negate the fire damage entirely.",
+    "drops": [
+      {
+        "item": "Gunpowder",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Key ghast farm product"
+      },
+      {
+        "item": "Ghast Tear",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brews Potions of Regeneration"
+      }
+    ],
+    "spawnConditions": "Light level 11 or lower, with 5x4x5 free space, in Nether wastes, soul sand valleys and basalt deltas.",
+    "behavior": "Floats and fires explosive fireballs when you are within 16 blocks. Fireballs cannot break cobblestone or other high blast-resistance blocks.",
+    "tameOrBreed": "Cannot be tamed or bred. (The rideable happy ghast is a separate passive mob grown from a dried ghast block.)",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.2.0",
+    "related": [
+      "blaze",
+      "piglin",
+      "wither"
+    ],
+    "keywords": "ghast tear drops fireball return to sender nether"
+  },
+  {
+    "slug": "piglin",
+    "name": "Piglin",
+    "type": "Neutral",
+    "health": "16 (8 hearts)",
+    "where": "Crimson forests, Nether wastes and bastion remnants.",
+    "howToKill": "Wear at least one piece of gold armor and they leave you alone. They flee from soul fire, soul torches, soul lanterns and zoglins. If you fight, a shield blocks crossbow shots; melee piglins hit hard, so pillar up.",
+    "drops": [
+      {
+        "item": "Held item (gold sword or crossbow)",
+        "qty": "0-1",
+        "notes": "8.5% chance, +1% per Looting level"
+      },
+      {
+        "item": "Bartering loot",
+        "qty": "varies",
+        "notes": "Not a drop: throw a gold ingot at an adult piglin and it throws back items - ender pearls, obsidian, quartz, string, fire charges, iron nuggets, Soul Speed books and more"
+      }
+    ],
+    "spawnConditions": "Light level 11 or lower in crimson forests and Nether wastes; always in bastions. Does not spawn on nether wart blocks.",
+    "behavior": "Attacks players not wearing gold, and anyone who opens a chest or mines gold blocks/ore nearby. Piglins that travel to the Overworld or End zombify after 15 seconds.",
+    "tameOrBreed": "Cannot be tamed or bred. Adults barter; baby piglins take gold but never barter back.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "blaze",
+      "ghast",
+      "ender-dragon"
+    ],
+    "keywords": "piglin bartering gold drops bastion ender pearls"
+  },
+  {
+    "slug": "slime",
+    "name": "Slime",
+    "type": "Hostile",
+    "health": "Big: 16 (8 hearts), Small: 4 (2 hearts), Tiny: 1 (half a heart)",
+    "where": "Swamps at night (Y 51-69, light below 8) and slime chunks below Y=40 at any light level.",
+    "howToKill": "Kill the big one and it splits into 2-4 smaller ones, which split again into tiny slimes. Sweeping Edge swords (Java) clear the splits fast. Tiny slimes deal no damage - punch them freely.",
+    "drops": [
+      {
+        "item": "Slimeball",
+        "qty": "0-2 from tiny slimes (up to 5 with Looting III)",
+        "notes": "Sticky pistons, slime blocks, leads, magma cream"
+      }
+    ],
+    "spawnConditions": "Slime chunks: below Y=40, any light level. Swamps: Y 51-69, light below 8, with rates peaking at full moon and stopping at new moon.",
+    "behavior": "Hops toward players and splits on death. Despawns over time if no player is within 32 blocks.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.0.11",
+    "related": [
+      "axolotl",
+      "zombie",
+      "piglin"
+    ],
+    "keywords": "slime chunk slimeball farm spawn swamp full moon"
+  },
+  {
+    "slug": "iron-golem",
+    "name": "Iron Golem",
+    "type": "Neutral (utility mob)",
+    "health": "100 (50 hearts)",
+    "where": "Villages (spawns automatically when villagers meet the requirements) and caged at some pillager outposts. Players can also build one.",
+    "howToKill": "Pillar up 3+ blocks so it cannot reach you and hit its feet. Avoid killing village golems near a trading hall you still use - prices rise. Build your own with 4 iron blocks in a T plus a carved pumpkin on top.",
+    "drops": [
+      {
+        "item": "Iron Ingot",
+        "qty": "3-5 (Looting does not increase it)",
+        "notes": "The basis of iron farms"
+      },
+      {
+        "item": "Poppy",
+        "qty": "0-2",
+        "notes": "It offers poppies to villager children"
+      }
+    ],
+    "spawnConditions": "Java: villagers that have slept and worked spawn golems when none is detected nearby (panicking villagers spawn them faster). Bedrock: 10+ villagers linked to 20+ beds. Player-built: T of 4 iron blocks with a carved pumpkin placed last.",
+    "behavior": "Patrols villages and attacks most hostile mobs on sight, plus players who attack it or villagers. Huge knockback - it throws targets into the air. Cracks as it takes damage; repair it with iron ingots.",
+    "tameOrBreed": "Cannot be tamed or bred, but a player-built golem never attacks its creator.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.2.1",
+    "related": [
+      "villager",
+      "pillager",
+      "wolf"
+    ],
+    "keywords": "iron golem spawn farm iron drops how to make"
+  },
+  {
+    "slug": "pillager",
+    "name": "Pillager",
+    "type": "Hostile",
+    "health": "24 (12 hearts)",
+    "where": "Pillager outposts, wandering patrols, and village raids.",
+    "howToKill": "Their crossbow hits hard but needs a reload after each shot - rush them during the reload or block with a shield. In raids, focus the banner-carrying captains.",
+    "drops": [
+      {
+        "item": "Crossbow",
+        "qty": "0-1",
+        "notes": "8.5% chance, +1% per Looting level"
+      },
+      {
+        "item": "Ominous Bottle",
+        "qty": "1",
+        "notes": "Only from captains (the ones wearing a banner). Drink it for Bad Omen, which starts a raid when you enter a village"
+      },
+      {
+        "item": "Ominous Banner",
+        "qty": "1",
+        "notes": "From captains; cosmetic trophy"
+      }
+    ],
+    "spawnConditions": "Patrols spawn near players after about 5 in-game days (light level under 8 in Java, 0-7 in Bedrock). Outposts spawn captains continuously; raid waves scale with the Bad Omen level.",
+    "behavior": "Armed with crossbows; shoots players, villagers, wandering traders and iron golems. In Java a pillager whose crossbow breaks turns passive.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (Village & Pillage)",
+    "related": [
+      "villager",
+      "iron-golem",
+      "zombie"
+    ],
+    "keywords": "pillager raid bad omen ominous bottle outpost captain drops"
   }
 ]

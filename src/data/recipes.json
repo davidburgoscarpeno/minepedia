@@ -870,5 +870,523 @@
       "tnt"
     ],
     "keywords": "minecart how to craft rails transport"
+  },
+  {
+    "slug": "diamond-sword",
+    "name": "Diamond Sword",
+    "category": "Weapons",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "qty": 2,
+        "howToGet": "Mine diamond ore or deepslate diamond ore (most common around Y=-59) with an iron pickaxe or better."
+      },
+      {
+        "name": "Stick",
+        "qty": 1,
+        "howToGet": "Craft from 2 wood planks stacked vertically, or get from leaves and dead bushes."
+      }
+    ],
+    "pattern": [
+      "D",
+      "D",
+      "S"
+    ],
+    "uses": [
+      "Main melee weapon: 7 attack damage in Java Edition, 8 in Bedrock Edition, with 1.6 attack speed",
+      "Breaks cobwebs and bamboo faster than other tools",
+      "Can receive combat enchantments like Sharpness, Fire Aspect and Looting"
+    ],
+    "variants": [
+      "Also craftable with wood, stone, iron, gold and netherite; netherite swords are upgraded from diamond on a smithing table, not crafted directly"
+    ],
+    "editionNote": "Same recipe in both editions. Damage differs: Bedrock swords deal 1 more damage than Java at every tier (diamond: 8 vs 7).",
+    "since": "Indev 0.31",
+    "related": [
+      "bow",
+      "shield",
+      "grindstone"
+    ],
+    "keywords": "diamond sword recipe how to make craft damage"
+  },
+  {
+    "slug": "diamond-pickaxe",
+    "name": "Diamond Pickaxe",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "qty": 3,
+        "howToGet": "Mine diamond ore or deepslate diamond ore around Y=-59 with an iron pickaxe or better."
+      },
+      {
+        "name": "Stick",
+        "qty": 2,
+        "howToGet": "Craft from 2 wood planks stacked vertically."
+      }
+    ],
+    "pattern": [
+      "DDD",
+      " S ",
+      " S "
+    ],
+    "uses": [
+      "Mines every pickaxe-breakable block in the game, including obsidian and ancient debris",
+      "1,562 durability in both editions; pair it with Mending or Unbreaking",
+      "Required tier to mine obsidian for a Nether portal or enchanting table"
+    ],
+    "variants": [
+      "Wood, stone, iron, gold and netherite tiers exist; upgrade a diamond pickaxe to netherite on a smithing table with a netherite ingot and smithing template"
+    ],
+    "editionNote": "Identical recipe and mining behavior in Java and Bedrock Edition.",
+    "since": "Indev 0.31",
+    "related": [
+      "diamond-sword",
+      "anvil",
+      "enchanting-table"
+    ],
+    "keywords": "diamond pickaxe recipe how to make craft obsidian"
+  },
+  {
+    "slug": "diamond-axe",
+    "name": "Diamond Axe",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "qty": 3,
+        "howToGet": "Mine diamond ore or deepslate diamond ore around Y=-59 with an iron pickaxe or better."
+      },
+      {
+        "name": "Stick",
+        "qty": 2,
+        "howToGet": "Craft from 2 wood planks stacked vertically."
+      }
+    ],
+    "pattern": [
+      "DD",
+      "DS",
+      " S"
+    ],
+    "uses": [
+      "Fastest tier for chopping wood, stripped logs and wood-derived blocks",
+      "In Java Edition, axes deal 9 attack damage and can disable a shield for 5 seconds on hit",
+      "Works as a weapon in a pinch, but swords are more durable-efficient in Java"
+    ],
+    "variants": [
+      "Wood, stone, iron, gold and netherite tiers; upgrade diamond to netherite on a smithing table"
+    ],
+    "editionNote": "In Java the axe is a serious weapon (9 damage, shield disable). In Bedrock it deals less damage than a diamond sword, so keep it as a tool.",
+    "since": "Indev 0.31",
+    "related": [
+      "diamond-pickaxe",
+      "diamond-sword",
+      "grindstone"
+    ],
+    "keywords": "diamond axe recipe how to make craft chop wood"
+  },
+  {
+    "slug": "bread",
+    "name": "Bread",
+    "category": "Food",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Wheat",
+        "qty": 3,
+        "howToGet": "Grow from wheat seeds on farmland; seeds come from breaking grass. Harvest when the crop turns fully yellow."
+      }
+    ],
+    "pattern": [
+      "WWW"
+    ],
+    "uses": [
+      "Restores 5 hunger points (2.5 drumsticks) and 6.0 saturation",
+      "Early-game staple food once you have a wheat farm",
+      "Villager farmers harvest and share wheat, and you can trade wheat to farmer villagers for emeralds"
+    ],
+    "variants": [
+      "Also found in dungeon, mineshaft, village, stronghold and shipwreck chests"
+    ],
+    "editionNote": "Identical recipe and hunger values in Java and Bedrock Edition.",
+    "since": "Indev 0.31",
+    "related": [
+      "cake",
+      "campfire",
+      "furnace"
+    ],
+    "keywords": "bread recipe how to make craft food hunger wheat"
+  },
+  {
+    "slug": "cake",
+    "name": "Cake",
+    "category": "Food",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Milk Bucket",
+        "qty": 3,
+        "howToGet": "Right-click a cow, mooshroom or goat with an empty bucket."
+      },
+      {
+        "name": "Sugar",
+        "qty": 2,
+        "howToGet": "Craft from sugar cane (1 cane = 1 sugar) or honey bottles."
+      },
+      {
+        "name": "Egg",
+        "qty": 1,
+        "howToGet": "Chickens lay one every 5-10 minutes; collect near any chicken."
+      },
+      {
+        "name": "Wheat",
+        "qty": 3,
+        "howToGet": "Grow from wheat seeds on farmland."
+      }
+    ],
+    "pattern": [
+      "MMM",
+      "SES",
+      "WWW"
+    ],
+    "uses": [
+      "Place it and eat up to 7 slices; each slice restores 2 hunger (1 drumstick) and 0.4 saturation",
+      "The only food in the game that is placed as a block and shared with other players",
+      "Feeds pandas and completes the 'The Lie' achievement/advancement"
+    ],
+    "variants": [
+      "Candle cakes: right-click a placed cake with a candle for a birthday-style cake; only one candle fits"
+    ],
+    "editionNote": "The empty milk buckets stay in the crafting grid in both editions, so you get them back.",
+    "since": "Beta 1.2",
+    "related": [
+      "bread",
+      "campfire",
+      "furnace"
+    ],
+    "keywords": "cake recipe how to make craft milk egg wheat"
+  },
+  {
+    "slug": "golden-apple",
+    "name": "Golden Apple",
+    "category": "Food",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "qty": 8,
+        "howToGet": "Smelt gold ore (common in badlands and below Y=32), craft from 9 gold nuggets, or loot bastions and ruined portals."
+      },
+      {
+        "name": "Apple",
+        "qty": 1,
+        "howToGet": "Drops from oak and dark oak leaves (0.5% chance per leaf block), or loot village and stronghold chests."
+      }
+    ],
+    "pattern": [
+      "GGG",
+      "GAG",
+      "GGG"
+    ],
+    "uses": [
+      "Eating gives Absorption I for 2 minutes and Regeneration II for 5 seconds - the classic clutch heal before a fight",
+      "Cures zombie villagers: feed one after hitting it with a Splash Potion of Weakness",
+      "Feeds horses, donkeys and mules, and speeds up foal growth"
+    ],
+    "variants": [
+      "The Enchanted Golden Apple (Notch Apple) cannot be crafted since Java 1.9 - it only generates as loot in ancient cities, bastions, dungeons, mineshafts, ruined portals and woodland mansions"
+    ],
+    "editionNote": "Same recipe and effects in Java and Bedrock Edition.",
+    "since": "Infdev",
+    "related": [
+      "bread",
+      "cake",
+      "tnt"
+    ],
+    "keywords": "golden apple recipe how to craft notch apple gap"
+  },
+  {
+    "slug": "paper",
+    "name": "Paper",
+    "category": "Materials",
+    "resultCount": 3,
+    "station": "Crafting Table (3x3 or 2x2 grid)",
+    "ingredients": [
+      {
+        "name": "Sugar Cane",
+        "qty": 3,
+        "howToGet": "Grows on dirt, sand or grass next to water in most biomes. Farm it by planting on a waterline block."
+      }
+    ],
+    "pattern": [
+      "CCC"
+    ],
+    "uses": [
+      "Craft books (3 paper + 1 leather), maps, cartography tables and firework rockets",
+      "Librarian villagers buy paper for emeralds - the backbone of early emerald farms",
+      "Also craftable in the 2x2 inventory grid if you stack the cane vertically"
+    ],
+    "variants": [
+      "No variants; sugar cane is the only ingredient"
+    ],
+    "editionNote": "Identical in Java and Bedrock Edition.",
+    "since": "Alpha 1.0.11",
+    "related": [
+      "book",
+      "compass"
+    ],
+    "keywords": "paper recipe how to make craft sugar cane"
+  },
+  {
+    "slug": "book",
+    "name": "Book",
+    "category": "Materials",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 or 2x2 grid)",
+    "ingredients": [
+      {
+        "name": "Paper",
+        "qty": 3,
+        "howToGet": "Craft from 3 sugar cane in a row."
+      },
+      {
+        "name": "Leather",
+        "qty": 1,
+        "howToGet": "Dropped by cows, mooshrooms, horses, donkeys, mules, llamas and hoglins; also from fishing junk and bartering."
+      }
+    ],
+    "pattern": null,
+    "uses": [
+      "Craft bookshelves (needed for a level 30 enchanting setup) and the book and quill",
+      "Librarian villagers buy books for emeralds",
+      "Shapeless recipe: place the paper and leather anywhere in the grid"
+    ],
+    "variants": [
+      "No variants"
+    ],
+    "editionNote": "Shapeless in both Java and Bedrock Edition.",
+    "since": "Alpha 1.0.11",
+    "related": [
+      "paper",
+      "enchanting-table",
+      "bookshelf"
+    ],
+    "keywords": "book recipe how to make craft paper leather"
+  },
+  {
+    "slug": "bookshelf",
+    "name": "Bookshelf",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 6,
+        "howToGet": "Craft from any log."
+      },
+      {
+        "name": "Book",
+        "qty": 3,
+        "howToGet": "Craft from 3 paper + 1 leather, or loot village and stronghold libraries."
+      }
+    ],
+    "pattern": [
+      "PPP",
+      "BBB",
+      "PPP"
+    ],
+    "uses": [
+      "15 bookshelves arranged around an enchanting table (one block gap, same level or one higher) unlock level 30 enchantments",
+      "Village-style decoration; librarian villagers use bookshelves as their workstation",
+      "Silk Touch is required to pick a bookshelf back up as a bookshelf - otherwise it drops 3 books"
+    ],
+    "variants": [
+      "Chiseled bookshelves (1.20) are a different block that stores books; this recipe is the classic decorative bookshelf"
+    ],
+    "editionNote": "Identical in Java and Bedrock Edition.",
+    "since": "Alpha 1.0.11",
+    "related": [
+      "book",
+      "enchanting-table",
+      "grindstone"
+    ],
+    "keywords": "bookshelf recipe how to make craft enchanting level 30"
+  },
+  {
+    "slug": "hopper",
+    "name": "Hopper",
+    "category": "Redstone",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 5,
+        "howToGet": "Smelt iron ore (common around Y=16 and in mountains) or craft from iron nuggets."
+      },
+      {
+        "name": "Chest",
+        "qty": 1,
+        "howToGet": "Craft from 8 wood planks in a ring."
+      }
+    ],
+    "pattern": [
+      "I I",
+      "ICI",
+      " I "
+    ],
+    "uses": [
+      "Moves items between containers automatically - the core of every item sorter and autofarm collection system",
+      "Pulls items from the container above and pushes into the container it points at (sneak-click to place)",
+      "Catches item entities that fall on top of it"
+    ],
+    "variants": [
+      "Minecart with hopper for moving collection; no other variants"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition. Transfer speed is 2.5 items per second in both.",
+    "since": "1.5 (Redstone Update)",
+    "related": [
+      "chest",
+      "furnace",
+      "minecart"
+    ],
+    "keywords": "hopper recipe how to make craft item sorter autofarm"
+  },
+  {
+    "slug": "piston",
+    "name": "Piston",
+    "category": "Redstone",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 3,
+        "howToGet": "Craft from any log."
+      },
+      {
+        "name": "Cobblestone",
+        "qty": 4,
+        "howToGet": "Mine stone with any pickaxe."
+      },
+      {
+        "name": "Iron Ingot",
+        "qty": 1,
+        "howToGet": "Smelt iron ore."
+      },
+      {
+        "name": "Redstone Dust",
+        "qty": 1,
+        "howToGet": "Mine redstone ore below Y=16 (most around Y=-59) with an iron pickaxe or better."
+      }
+    ],
+    "pattern": [
+      "WWW",
+      "CIC",
+      "CRC"
+    ],
+    "uses": [
+      "Pushes up to 12 blocks when powered - the basis of doors, farms, flying machines and hidden bases",
+      "Combine with a slimeball to make a sticky piston, which also pulls one block back"
+    ],
+    "variants": [
+      "Sticky piston: same block with a slimeball added"
+    ],
+    "editionNote": "Identical recipe in both editions. Piston timing and quasi-connectivity differ: Java pistons can be powered diagonally from above (quasi-connectivity), Bedrock cannot - many Java redstone builds break on Bedrock.",
+    "since": "Beta 1.7",
+    "related": [
+      "sticky-piston",
+      "hopper",
+      "tnt"
+    ],
+    "keywords": "piston recipe how to make craft redstone door"
+  },
+  {
+    "slug": "sticky-piston",
+    "name": "Sticky Piston",
+    "category": "Redstone",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 or 2x2 grid)",
+    "ingredients": [
+      {
+        "name": "Slimeball",
+        "qty": 1,
+        "howToGet": "Dropped by small slimes (slime chunks below Y=40 or swamps at night) and by sneezing baby pandas."
+      },
+      {
+        "name": "Piston",
+        "qty": 1,
+        "howToGet": "Craft from 3 planks, 4 cobblestone, 1 iron ingot and 1 redstone dust."
+      }
+    ],
+    "pattern": [
+      "S",
+      "P"
+    ],
+    "uses": [
+      "Extends like a normal piston but also pulls the adjacent block back when retracting - essential for doors, elevators and flying machines",
+      "Shapeless recipe: slimeball above or next to the piston anywhere in the grid"
+    ],
+    "variants": [
+      "Normal piston (no pull)"
+    ],
+    "editionNote": "Same recipe in both editions. In Bedrock, sticky pistons retract their block more slowly, which changes many flying machine and door designs.",
+    "since": "Beta 1.7",
+    "related": [
+      "piston",
+      "hopper",
+      "tnt"
+    ],
+    "keywords": "sticky piston recipe how to make craft slimeball"
+  },
+  {
+    "slug": "ender-chest",
+    "name": "Ender Chest",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Obsidian",
+        "qty": 8,
+        "howToGet": "Mine obsidian (water meeting lava source blocks) with a diamond or netherite pickaxe."
+      },
+      {
+        "name": "Eye of Ender",
+        "qty": 1,
+        "howToGet": "Craft from an ender pearl (endermen) plus blaze powder (blaze rods)."
+      }
+    ],
+    "pattern": [
+      "OOO",
+      "OEO",
+      "OOO"
+    ],
+    "uses": [
+      "Personal cloud storage: every ender chest shows the same 27-slot inventory for each player, anywhere in any dimension",
+      "The contents survive death - store your emergency kit here",
+      "Requires Silk Touch to pick up; otherwise it drops 8 obsidian and loses the eye"
+    ],
+    "variants": [
+      "No variants"
+    ],
+    "editionNote": "Identical in Java and Bedrock Edition.",
+    "since": "1.0.0",
+    "related": [
+      "chest",
+      "paper",
+      "book"
+    ],
+    "keywords": "ender chest recipe how to make craft obsidian eye of ender"
   }
 ]
