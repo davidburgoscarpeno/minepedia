@@ -1,0 +1,1418 @@
+[
+  {
+    "slug": "librarian",
+    "name": "Librarian",
+    "workstation": "Lectern",
+    "intro": "Librarians trade books and related items. Their job site block is the Lectern.",
+    "best": [
+      "Enchanted books at every level, including treasure enchantments like Mending that the enchanting table cannot produce",
+      "24 paper for 1 emerald - a sugar cane farm feeds this trade all game",
+      "Bookshelf for 9 emeralds saves you the leather cost when building a level 30 enchanting setup"
+    ],
+    "notes": [
+      "Enchanted book price is 5-64 emeralds plus 1 book. The enchantment is random among all types, treasure included; better enchantments cost more. Break and replace the lectern before trading to reroll the offered book.",
+      "Once you trade with a librarian, its trades lock forever - reroll before the first trade."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "24 x Paper",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "9 x Emerald",
+        "get": "Bookshelf",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "5-64 x Emerald + Book",
+        "get": "Enchanted Book (random)",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "4 x Book",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "Lantern",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "5-64 x Emerald + Book",
+        "get": "Enchanted Book (random)",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "5 x Ink Sac",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "4 x Glass",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "5-64 x Emerald + Book",
+        "get": "Enchanted Book (random)",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "2 x Book and Quill",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "50% JE / 100% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "4 x Emerald",
+        "get": "Compass",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "5 x Emerald",
+        "get": "Clock",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "5-64 x Emerald + Book",
+        "get": "Enchanted Book (random)",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Master",
+        "want": "3 x Emerald",
+        "get": "Red Candle",
+        "stock": 12,
+        "chance": "100% JE / 75% BE"
+      },
+      {
+        "level": "Master",
+        "want": "3 x Emerald",
+        "get": "Yellow Candle",
+        "stock": 12,
+        "chance": "100% JE / 25% BE"
+      }
+    ],
+    "keywords": "librarian villager trades lectern mending enchanted book reroll"
+  },
+  {
+    "slug": "farmer",
+    "name": "Farmer",
+    "workstation": "Composter",
+    "intro": "Farmers trade crops and food. Their job site block is the Composter.",
+    "best": [
+      "20 wheat (or 26 potatoes / 22 carrots / 15 beetroots) for 1 emerald - the classic first emerald trade",
+      "Golden carrots at master level: the best stacking food in the game (14.4 saturation per carrot)",
+      "Automatically harvests and replants village crops, and shares food with other villagers for breeding"
+    ],
+    "notes": [
+      "Novice farmers pick 2 of the 4 crop trades in Java (each at 40% chance); in Bedrock one slot is always the crop trade and the other is always bread.",
+      "Suspicious stew from farmers gives a random short effect depending on the flower."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "20 x Wheat",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "26 x Potato",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "22 x Carrot",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "15 x Beetroot",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "6 x Bread",
+        "stock": 16,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "6 x Pumpkin",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "4 x Pumpkin Pie",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "4 x Apple",
+        "stock": 16,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "4 x Melon",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "3 x Emerald",
+        "get": "18 x Cookie",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "Emerald",
+        "get": "Suspicious Stew (effect varies)",
+        "stock": 12,
+        "chance": "29% JE / 17% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "Emerald",
+        "get": "Cake",
+        "stock": 12,
+        "chance": "29% JE / 100% BE"
+      },
+      {
+        "level": "Master",
+        "want": "3 x Emerald",
+        "get": "3 x Golden Carrot",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "4 x Emerald",
+        "get": "3 x Glistering Melon Slice",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      }
+    ],
+    "keywords": "farmer villager trades composter wheat golden carrot emerald"
+  },
+  {
+    "slug": "armorer",
+    "name": "Armorer",
+    "workstation": "Blast Furnace",
+    "intro": "Armorers trade foundry items and armor. Their job site block is the Blast Furnace.",
+    "best": [
+      "Full enchanted diamond armor at expert/master - with a cured armorer you can gear up without mining a single diamond",
+      "Iron armor set at novice for cheap early protection",
+      "Buys your spare diamonds and lava buckets at journeyman"
+    ],
+    "notes": [
+      "Enchanted diamond armor comes with a random level 5-19 enchantment; the price scales with the enchantment rolled."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "15 x Coal",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "5 x Emerald",
+        "get": "Iron Helmet",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "9 x Emerald",
+        "get": "Iron Chestplate",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "7 x Emerald",
+        "get": "Iron Leggings",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "4 x Emerald",
+        "get": "Iron Boots",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "4 x Iron Ingot",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "50% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "36 x Emerald",
+        "get": "Bell",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "3 x Emerald",
+        "get": "Chainmail Leggings",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "Chainmail Boots",
+        "stock": 12,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Lava Bucket",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Diamond",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "Chainmail Helmet",
+        "stock": 12,
+        "chance": "40% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "4 x Emerald",
+        "get": "Chainmail Chestplate",
+        "stock": 12,
+        "chance": "40% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "5 x Emerald",
+        "get": "Shield",
+        "stock": 12,
+        "chance": "40% JE / 33% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "19-33 x Emerald",
+        "get": "Enchanted Diamond Leggings",
+        "stock": 3,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "13-27 x Emerald",
+        "get": "Enchanted Diamond Boots",
+        "stock": 3,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "13-27 x Emerald",
+        "get": "Enchanted Diamond Helmet",
+        "stock": 3,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "21-35 x Emerald",
+        "get": "Enchanted Diamond Chestplate",
+        "stock": 3,
+        "chance": "100% JE / 50% BE"
+      }
+    ],
+    "keywords": "armorer villager trades blast furnace diamond armor enchanted"
+  },
+  {
+    "slug": "toolsmith",
+    "name": "Toolsmith",
+    "workstation": "Smithing Table",
+    "intro": "Toolsmiths trade tools and related materials. Their job site block is the Smithing Table.",
+    "best": [
+      "Enchanted diamond pickaxe at master level - often with Fortune, Efficiency or Silk Touch",
+      "Enchanted iron tools at journeyman for fast mid-game gear",
+      "Buys coal, iron, flint and diamonds for emeralds"
+    ],
+    "notes": [
+      "Enchanted tools come with a random level 5-19 enchantment; the emerald price is the base price plus the rolled enchantment cost."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "15 x Coal",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "Stone Axe",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "Stone Shovel",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "Stone Pickaxe",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "Stone Hoe",
+        "stock": 12,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "4 x Iron Ingot",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "36 x Emerald",
+        "get": "Bell",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "30 x Flint",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "6-20 x Emerald",
+        "get": "Enchanted Iron Axe",
+        "stock": 3,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "7-21 x Emerald",
+        "get": "Enchanted Iron Shovel",
+        "stock": 3,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "8-22 x Emerald",
+        "get": "Enchanted Iron Pickaxe",
+        "stock": 3,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "4 x Emerald",
+        "get": "Diamond Hoe",
+        "stock": 3,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "Diamond",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "17-31 x Emerald",
+        "get": "Enchanted Diamond Axe",
+        "stock": 3,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "10-24 x Emerald",
+        "get": "Enchanted Diamond Shovel",
+        "stock": 3,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "18-32 x Emerald",
+        "get": "Enchanted Diamond Pickaxe",
+        "stock": 3,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "toolsmith villager trades smithing table diamond pickaxe enchanted"
+  },
+  {
+    "slug": "weaponsmith",
+    "name": "Weaponsmith",
+    "workstation": "Grindstone",
+    "intro": "Weaponsmiths trade weapons and related materials. Their job site block is the Grindstone.",
+    "best": [
+      "Enchanted diamond sword at master level - can roll Sharpness, Looting or Fire Aspect",
+      "Enchanted iron sword at novice for cheap early damage",
+      "Buys coal, iron, flint and diamonds for emeralds"
+    ],
+    "notes": [
+      "Enchanted weapons come with a random level 5-19 enchantment; the emerald price is the base price plus the rolled enchantment cost."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "15 x Coal",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "3 x Emerald",
+        "get": "Iron Axe",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "7-21 x Emerald",
+        "get": "Enchanted Iron Sword",
+        "stock": 3,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "4 x Iron Ingot",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "36 x Emerald",
+        "get": "Bell",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "24 x Flint",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "Diamond",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "17-31 x Emerald",
+        "get": "Enchanted Diamond Axe",
+        "stock": 3,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "13-27 x Emerald",
+        "get": "Enchanted Diamond Sword",
+        "stock": 3,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "weaponsmith villager trades grindstone diamond sword enchanted"
+  },
+  {
+    "slug": "cleric",
+    "name": "Cleric",
+    "workstation": "Brewing Stand",
+    "intro": "Clerics trade brewing ingredients and magical items. Their job site block is the Brewing Stand.",
+    "best": [
+      "32 rotten flesh for 1 emerald - turns your mob farm's junk into emeralds",
+      "5 emeralds for an ender pearl at expert: no Enderman hunting needed for the End run",
+      "Bottle o' enchanting at master: renewable XP without a mob farm"
+    ],
+    "notes": [
+      "One of the best professions for a trading hall: rotten flesh, gold (from a gold farm) and nether wart all convert to emeralds."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "32 x Rotten Flesh",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "2 x Redstone Dust",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "3 x Gold Ingot",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "Lapis Lazuli",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "2 x Rabbit's Foot",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "4 x Emerald",
+        "get": "Glowstone",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "4 x Turtle Scute",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "9 x Glass Bottle",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "5 x Emerald",
+        "get": "Ender Pearl",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Master",
+        "want": "22 x Nether Wart",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "3 x Emerald",
+        "get": "Bottle o' Enchanting",
+        "stock": 12,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "cleric villager trades brewing stand rotten flesh ender pearl bottle o enchanting"
+  },
+  {
+    "slug": "cartographer",
+    "name": "Cartographer",
+    "workstation": "Cartography Table",
+    "intro": "Cartographers trade maps and exploration items. Their job site block is the Cartography Table.",
+    "best": [
+      "Woodland explorer map at master: the only way to locate a woodland mansion without external tools",
+      "Ocean and trial explorer maps lead you to monuments and trial chambers",
+      "24 paper for 1 emerald - shares the sugar cane pipeline with librarians"
+    ],
+    "notes": [
+      "The glass pane and item frame trade chances depend on the villager's biome outfit.",
+      "Explorer maps require a compass as part of the price."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "24 x Paper",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Novice",
+        "want": "7 x Emerald",
+        "get": "Empty Map",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "11 x Glass Pane",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "50-67% (biome-dependent)"
+      },
+      {
+        "level": "Apprentice",
+        "want": "8 x Emerald + Compass",
+        "get": "Explorer Map (type varies)",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Compass",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "13 x Emerald + Compass",
+        "get": "Ocean Explorer Map",
+        "stock": 12,
+        "chance": "67%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "12 x Emerald + Compass",
+        "get": "Trial Explorer Map",
+        "stock": 12,
+        "chance": "67%"
+      },
+      {
+        "level": "Expert",
+        "want": "7 x Emerald",
+        "get": "Item Frame",
+        "stock": 12,
+        "chance": "33-50% (biome-dependent)"
+      },
+      {
+        "level": "Expert",
+        "want": "3 x Emerald",
+        "get": "Banner (any color)",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "8 x Emerald",
+        "get": "Globe Banner Pattern",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "14 x Emerald + Compass",
+        "get": "Woodland Explorer Map",
+        "stock": 12,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "cartographer villager trades woodland mansion map ocean monument trial chambers"
+  },
+  {
+    "slug": "fletcher",
+    "name": "Fletcher",
+    "workstation": "Fletching Table",
+    "intro": "Fletchers trade bows, arrows and archery supplies. Their job site block is the Fletching Table.",
+    "best": [
+      "32 sticks for 1 emerald - the single fastest emerald trade in the game with a tree farm",
+      "14 string for 1 emerald at journeyman: your spider farm becomes an emerald printer",
+      "Enchanted bows at expert and tipped arrows at master for archery builds"
+    ],
+    "notes": [
+      "The gravel-to-flint trade converts 10 gravel + 1 emerald into 10 flint - useful when you need flint in bulk."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "32 x Stick",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "16 x Arrow",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "10 x Gravel + Emerald",
+        "get": "10 x Flint",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "26 x Flint",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "2 x Emerald",
+        "get": "Bow",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "14 x String",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "3 x Emerald",
+        "get": "Crossbow",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "24 x Feather",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "7-21 x Emerald",
+        "get": "Enchanted Bow",
+        "stock": 3,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "8 x Tripwire Hook",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Master",
+        "want": "8-22 x Emerald",
+        "get": "Enchanted Crossbow",
+        "stock": 3,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "2 x Emerald + 5 x Arrow",
+        "get": "5 x Tipped Arrow",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      }
+    ],
+    "keywords": "fletcher villager trades fletching table sticks emerald arrows"
+  },
+  {
+    "slug": "butcher",
+    "name": "Butcher",
+    "workstation": "Smoker",
+    "intro": "Butchers trade meat and stews. Their job site block is the Smoker.",
+    "best": [
+      "14 raw chicken for 1 emerald - a cooked chicken farm doubles as an emerald source",
+      "Cheap cooked food (8 chicken or 5 porkchops per emerald) for long mining trips",
+      "Buys dried kelp blocks at expert: kelp farms print emeralds"
+    ],
+    "notes": [
+      "All butcher trades are guaranteed in Bedrock; in Java several are chance-based picks."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "14 x Raw Chicken",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "4 x Raw Rabbit",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "7 x Raw Porkchop",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "50% JE / 33% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "Rabbit Stew",
+        "stock": 12,
+        "chance": "50% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "15 x Coal",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "8 x Cooked Chicken",
+        "stock": 16,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "5 x Cooked Porkchop",
+        "stock": 16,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "10 x Raw Beef",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "7 x Raw Mutton",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "10 x Dried Kelp Block",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "10 x Sweet Berries",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "butcher villager trades smoker raw chicken emerald food"
+  },
+  {
+    "slug": "fisherman",
+    "name": "Fisherman",
+    "workstation": "Barrel",
+    "intro": "Fishermen trade fish and fishing gear. Their job site block is the Barrel.",
+    "best": [
+      "20 string for 1 emerald - pairs with fletchers to monetize spider farms",
+      "Enchanted fishing rod at journeyman can roll Luck of the Sea or Lure",
+      "Cooks your raw fish for a small emerald fee"
+    ],
+    "notes": [
+      "The boat trade at master accepts the boat type matching the villager's biome outfit."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "20 x String",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "50%"
+      },
+      {
+        "level": "Novice",
+        "want": "10 x Coal",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "50%"
+      },
+      {
+        "level": "Novice",
+        "want": "3 x Emerald",
+        "get": "Bucket of Cod",
+        "stock": 16,
+        "chance": "50%"
+      },
+      {
+        "level": "Novice",
+        "want": "6 x Raw Cod + Emerald",
+        "get": "6 x Cooked Cod",
+        "stock": 16,
+        "chance": "50%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "15 x Raw Cod",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "2 x Emerald",
+        "get": "Campfire",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "6 x Raw Salmon + Emerald",
+        "get": "6 x Cooked Salmon",
+        "stock": 16,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "13 x Raw Salmon",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "8-22 x Emerald",
+        "get": "Enchanted Fishing Rod",
+        "stock": 3,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "6 x Tropical Fish",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "4 x Pufferfish",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "Boat (biome type)",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "fisherman villager trades barrel fishing rod enchanted string"
+  },
+  {
+    "slug": "leatherworker",
+    "name": "Leatherworker",
+    "workstation": "Cauldron",
+    "intro": "Leatherworkers trade leather armor and horse gear. Their job site block is the Cauldron.",
+    "best": [
+      "Saddle at master level: the only renewable saddle in the game",
+      "Leather horse armor at expert",
+      "Buys rabbit hides and leather for emeralds"
+    ],
+    "notes": [
+      "Dyed leather armor colors are random when bought.",
+      "Most players skip leatherworkers except for the saddle trade."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "6 x Leather",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "3 x Emerald",
+        "get": "Leather Pants",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "7 x Emerald",
+        "get": "Leather Tunic",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "26 x Flint",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "67% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "5 x Emerald",
+        "get": "Leather Cap",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "4 x Emerald",
+        "get": "Leather Boots",
+        "stock": 12,
+        "chance": "67% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "9 x Rabbit Hide",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "7 x Emerald",
+        "get": "Leather Tunic",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "4 x Turtle Scute",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Expert",
+        "want": "6 x Emerald",
+        "get": "Leather Horse Armor",
+        "stock": 12,
+        "chance": "100%"
+      },
+      {
+        "level": "Master",
+        "want": "5 x Emerald",
+        "get": "Leather Cap",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "6 x Emerald",
+        "get": "Saddle",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      }
+    ],
+    "keywords": "leatherworker villager trades cauldron saddle leather armor"
+  },
+  {
+    "slug": "mason",
+    "name": "Mason",
+    "workstation": "Stonecutter",
+    "intro": "Masons trade stone and decorative blocks. Their job site block is the Stonecutter.",
+    "best": [
+      "20 stone for 1 emerald - a stone generator or silk-touch mine feeds this trade forever",
+      "Quartz pillar and quartz block at master for builders",
+      "Buys clay and sells bricks: terracotta builders' favorite"
+    ],
+    "notes": [
+      "Stained and glazed terracotta offers pick a random color; each color is a separate offer in Java."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "10 x Clay Ball",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Novice",
+        "want": "Emerald",
+        "get": "10 x Brick",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "20 x Stone",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "4 x Chiseled Stone Bricks",
+        "stock": 16,
+        "chance": "100%"
+      },
+      {
+        "level": "Journeyman",
+        "want": "16 x Granite",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "29% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "16 x Andesite",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "29% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "16 x Diorite",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "29% JE / 33% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "4 x Dripstone Block",
+        "stock": 16,
+        "chance": "29% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "4 x Polished Andesite",
+        "stock": 16,
+        "chance": "29% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "4 x Polished Diorite",
+        "stock": 16,
+        "chance": "29% JE / 25% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "Emerald",
+        "get": "4 x Polished Granite",
+        "stock": 16,
+        "chance": "29% JE / 25% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "12 x Nether Quartz",
+        "get": "Emerald",
+        "stock": 12,
+        "chance": "6% JE / 100% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "Emerald",
+        "get": "Stained Terracotta (any color)",
+        "stock": 12,
+        "chance": "74% JE / 50% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "Emerald",
+        "get": "Glazed Terracotta (any color)",
+        "stock": 12,
+        "chance": "74% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "Emerald",
+        "get": "Quartz Pillar",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      },
+      {
+        "level": "Master",
+        "want": "Emerald",
+        "get": "Block of Quartz",
+        "stock": 12,
+        "chance": "100% JE / 50% BE"
+      }
+    ],
+    "keywords": "mason villager trades stonecutter stone bricks terracotta quartz"
+  },
+  {
+    "slug": "shepherd",
+    "name": "Shepherd",
+    "workstation": "Loom",
+    "intro": "Shepherds trade wool and dyed items. Their job site block is the Loom.",
+    "best": [
+      "18 wool for 1 emerald - an automatic wool farm turns into emeralds",
+      "Beds for 3 emeralds at journeyman, any color",
+      "Paintings at master for decoration"
+    ],
+    "notes": [
+      "Dye-buying trades pick from a pool of colors; each color has a low individual chance.",
+      "Wool, carpet, bed and banner offers come in random colors; each color counts as a unique offer in Java."
+    ],
+    "trades": [
+      {
+        "level": "Novice",
+        "want": "18 x White Wool",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "18 x Brown Wool",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "18 x Black Wool",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "18 x Gray Wool",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "40% JE / 25% BE"
+      },
+      {
+        "level": "Novice",
+        "want": "2 x Emerald",
+        "get": "Shears",
+        "stock": 12,
+        "chance": "40% JE / 100% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "12 x Dye (white, gray, black, light blue or lime)",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "5% JE / 20% BE each"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "Wool (any color)",
+        "stock": 16,
+        "chance": "68% JE / 50% BE"
+      },
+      {
+        "level": "Apprentice",
+        "want": "Emerald",
+        "get": "4 x Carpet (any color)",
+        "stock": 16,
+        "chance": "68% JE / 50% BE"
+      },
+      {
+        "level": "Journeyman",
+        "want": "12 x Dye (yellow, light gray, orange, red or pink)",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "10% JE / 20% BE each"
+      },
+      {
+        "level": "Journeyman",
+        "want": "3 x Emerald",
+        "get": "Bed (any color)",
+        "stock": 12,
+        "chance": "95% JE / 100% BE"
+      },
+      {
+        "level": "Expert",
+        "want": "12 x Dye (brown, purple, blue, green, magenta or cyan)",
+        "get": "Emerald",
+        "stock": 16,
+        "chance": "9% JE / 17% BE each"
+      },
+      {
+        "level": "Expert",
+        "want": "3 x Emerald",
+        "get": "Banner (any color)",
+        "stock": 12,
+        "chance": "94% JE / 100% BE"
+      },
+      {
+        "level": "Master",
+        "want": "2 x Emerald",
+        "get": "3 x Painting",
+        "stock": 12,
+        "chance": "100%"
+      }
+    ],
+    "keywords": "shepherd villager trades loom wool dye bed painting"
+  }
+]

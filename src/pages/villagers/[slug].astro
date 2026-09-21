@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import villagers from '../../data/villagers.json';
+export function getStaticPaths() {
+  return villagers.map(v => ({ params: { slug: v.slug }, props: { v } }));
+}
+const { v } = Astro.props;
+const levels = ['Novice', 'Apprentice', 'Journeyman', 'Expert', 'Master'];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: `Minecraft ${v.name} Trades (${v.workstation})`,
+    description: `All ${v.name.toLowerCase()} villager trades in Minecraft: full trade table from Novice to Master for Java and Bedrock.`,
+    mainEntityOfPage: `https://minepedia.app/villagers/${v.slug}/`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Villagers', item: 'https://minepedia.app/villagers/' },
+      { '@type': 'ListItem', position: 3, name: v.name, item: `https://minepedia.app/villagers/${v.slug}/` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: `What does a ${v.name.toLowerCase()} villager do in Minecraft?`,
+        acceptedAnswer: { '@type': 'Answer', text: `${v.intro} ${v.best[0]}.` } },
+      { '@type': 'Question', name: `What workstation does a ${v.name.toLowerCase()} need?`,
+        acceptedAnswer: { '@type': 'Answer', text: `A ${v.workstation}. Place it next to an unemployed villager and it becomes a ${v.name.toLowerCase()}. Breaking the block before any trade resets the villager's trades.` } }
+    ]
+  }
+];
+---
+<Base title={`${v.name} Villager Trades`} description={`Minecraft ${v.name.toLowerCase()} villager: full trade table (Novice to Master), workstation, best trades and prices. Java and Bedrock.`} canonicalPath={`/villagers/${v.slug}/`} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/villagers/">Villagers</a> / {v.name}</nav>
+    <h1>{v.name} Villager Trades</h1>
+    <p><span class="badge">Workstation: {v.workstation}</span> <span class="badge java">Java</span> <span class="badge bedrock">Bedrock</span></p>
+    <p>{v.intro}</p>
+
+    <h2>Best trades</h2>
+    <ul>{v.best.map(b => <li>{b}</li>)}</ul>
+
+    <h2>Full trade table</h2>
+    {levels.map(level => {
+      const rows = v.trades.filter(t => t.level === level);
+      return rows.length > 0 && (
+        <div>
+          <h3>{level}</h3>
+          <table class="data">
+            <tr><th>Villager wants</th><th>You get</th><th>In stock</th><th>Chance offered</th></tr>
+            {rows.map(t => (
+              <tr><td>{t.want}</td><td>{t.get}</td><td>{t.stock}</td><td>{t.chance}</td></tr>
+            ))}
+          </table>
+        </div>
+      );
+    })}
+
+    {v.notes.length > 0 && (
+      <div>
+        <h2>Notes</h2>
+        <ul>{v.notes.map(n => <li>{n}</li>)}</ul>
+      </div>
+    )}
+
+    <p><a href="/villagers/">&larr; All villager professions</a></p>
+  </div>
+</Base>
