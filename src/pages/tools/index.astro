@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+const tools = [
+  { href: '/tools/nether-calculator/', name: 'Nether Coordinate Calculator', desc: 'Convert Overworld and Nether coordinates instantly' }
+];
+---
+<Base title="Minecraft Tools & Calculators" description="Free Minecraft tools: nether coordinate calculator, and more calculators coming. Fast, mobile-friendly, no signup." canonicalPath="/tools/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Tools</nav>
+    <h1>Minecraft Tools &amp; Calculators</h1>
+    <p class="sub">Free utilities that make your worlds easier to navigate.</p>
+    <div class="grid-cards" style="margin-top:24px">
+      {tools.map(t => (
+        <a class="card" href={t.href}><h3>{t.name}</h3><p>{t.desc}</p></a>
+      ))}
+    </div>
+  </div>
+</Base>

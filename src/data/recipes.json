@@ -754,5 +754,121 @@
       "bow"
     ],
     "keywords": "fishing rod how to craft fish treasure"
+  },
+  {
+    "slug": "flint-and-steel",
+    "name": "Flint and Steel",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "2x2 inventory grid or crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 1,
+        "howToGet": "Smelt iron ore in a furnace."
+      },
+      {
+        "name": "Flint",
+        "qty": 1,
+        "howToGet": "Mine gravel: 10% chance per block. Fortune III gravel mining guarantees flint."
+      }
+    ],
+    "pattern": [
+      "I ",
+      " F"
+    ],
+    "uses": [
+      "Lights fires on most blocks",
+      "Lights nether portals",
+      "Ignites TNT and creepers",
+      "Lights campfires and candles"
+    ],
+    "variants": [
+      "Fire Charge (blaze powder + coal + gunpowder, one-use alternative that also works in dispensers)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Alpha v1.0.1",
+    "related": [
+      "bucket",
+      "shears"
+    ],
+    "keywords": "flint and steel how to craft lighter fire portal"
+  },
+  {
+    "slug": "grindstone",
+    "name": "Grindstone",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 2,
+        "howToGet": "Craft planks into sticks."
+      },
+      {
+        "name": "Stone Slab",
+        "qty": 1,
+        "howToGet": "Craft 3 stone in a row for 6 slabs. Smelt cobblestone into stone first."
+      },
+      {
+        "name": "Wood Planks (any)",
+        "qty": 2,
+        "howToGet": "Craft a log into planks."
+      }
+    ],
+    "pattern": [
+      "SLS",
+      "P P"
+    ],
+    "uses": [
+      "Removes enchantments from an item and returns some XP",
+      "Repairs items by combining two of the same type (enchantments are lost)",
+      "Job site block for weaponsmith villagers"
+    ],
+    "variants": [],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "1.14",
+    "related": [
+      "anvil",
+      "enchanting-table"
+    ],
+    "keywords": "grindstone how to craft remove enchantments disenchant"
+  },
+  {
+    "slug": "minecart",
+    "name": "Minecart",
+    "category": "Transport",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 5,
+        "howToGet": "Smelt iron ore in a furnace."
+      }
+    ],
+    "pattern": [
+      "I I",
+      "III"
+    ],
+    "uses": [
+      "Rides rails for fast travel",
+      "Transports mobs and villagers once they enter",
+      "Base for minecart with chest, hopper, furnace, TNT and command block"
+    ],
+    "variants": [
+      "Minecart with Chest",
+      "Minecart with Hopper",
+      "Minecart with Furnace (Java)",
+      "Minecart with TNT"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock; powered-rail boost behavior differs slightly.",
+    "since": "Infdev",
+    "related": [
+      "boat",
+      "tnt"
+    ],
+    "keywords": "minecart how to craft rails transport"
   }
 ]

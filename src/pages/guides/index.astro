@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import guides from '../../data/guides.json';
+---
+<Base title="Minecraft Guides" description="Evergreen Minecraft guides: how to find diamonds, make a nether portal, tame horses, breed villagers, get elytra, enchant and more. Java and Bedrock." canonicalPath="/guides/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Guides</nav>
+    <h1>Minecraft Guides</h1>
+    <p class="sub">{guides.length} step-by-step guides with quick answers, materials and FAQs.</p>
+    <SearchBox placeholder="Search guides, items, commands..." />
+    <div class="grid-cards" style="margin-top:24px">
+      {guides.map(g => (
+        <a class="card" href={`/guides/${g.slug}/`}>
+          <h3>{g.name}</h3>
+          <p>{g.quickAnswer.split('.')[0]}.</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

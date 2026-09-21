@@ -7,16 +7,35 @@
     "where": "Overworld, anywhere the light level is 0 (night, caves, dark forests).",
     "howToKill": "Hit and retreat to stay out of its 3-block explosion trigger, or shoot it from a distance. A shield blocks most of the explosion if you raise it in time. Cats scare creepers away.",
     "drops": [
-      { "item": "Gunpowder", "qty": "0-2 (up to 5 with Looting III)", "notes": "Key ingredient for TNT and firework rockets" },
-      { "item": "Music disc", "qty": "1", "notes": "Only when killed by a skeleton's arrow" },
-      { "item": "Creeper head", "qty": "1", "notes": "Only when killed by a charged creeper's explosion" }
+      {
+        "item": "Gunpowder",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Key ingredient for TNT and firework rockets"
+      },
+      {
+        "item": "Music disc",
+        "qty": "1",
+        "notes": "Only when killed by a skeleton's arrow"
+      },
+      {
+        "item": "Creeper head",
+        "qty": "1",
+        "notes": "Only when killed by a charged creeper's explosion"
+      }
     ],
     "spawnConditions": "Light level 0, on solid blocks in the Overworld. Does not spawn in mushroom fields.",
     "behavior": "Silently approaches players and detonates after 1.5 seconds within 3 blocks. Explosion power: 3 (charged by lightning: 6, twice as destructive).",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Classic 0.24",
-    "related": ["zombie", "skeleton", "spider"],
+    "related": [
+      "zombie",
+      "skeleton",
+      "spider"
+    ],
     "keywords": "creeper drops gunpowder explosion how to kill spawn"
   },
   {
@@ -27,16 +46,35 @@
     "where": "Overworld at light level 0. Zombie villagers spawn instead of normal zombies 5% of the time.",
     "howToKill": "Any weapon works; it is slow and melee-only. Burns in sunlight unless wearing a helmet or standing in water or shade.",
     "drops": [
-      { "item": "Rotten Flesh", "qty": "0-2 (up to 5 with Looting III)", "notes": "Emergency food; trade with cleric villagers" },
-      { "item": "Iron Ingot / Carrot / Potato", "qty": "0-1 rare drop", "notes": "2.5% each, up to 5.5% with Looting III" },
-      { "item": "Equipped armor, weapons or items", "qty": "always if picked up", "notes": "Zombies wearing gear drop it (8.5% base for natural spawns)" }
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Emergency food; trade with cleric villagers"
+      },
+      {
+        "item": "Iron Ingot / Carrot / Potato",
+        "qty": "0-1 rare drop",
+        "notes": "2.5% each, up to 5.5% with Looting III"
+      },
+      {
+        "item": "Equipped armor, weapons or items",
+        "qty": "always if picked up",
+        "notes": "Zombies wearing gear drop it (8.5% base for natural spawns)"
+      }
     ],
     "spawnConditions": "Light level 0. Sieges can spawn zombies around villages at midnight. Drowned convert from zombies that stay underwater.",
     "behavior": "Pursues players and villagers, breaks wooden doors on Hard difficulty, calls reinforcements when hurt (Java). Picks up items and wears armor.",
     "tameOrBreed": "Cannot be tamed or bred. Zombie villagers can be cured with Weakness + golden apple.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Classic 0.24",
-    "related": ["creeper", "skeleton", "drowned"],
+    "related": [
+      "creeper",
+      "skeleton",
+      "drowned"
+    ],
     "keywords": "zombie drops rotten flesh iron how to kill spawn"
   },
   {
@@ -47,16 +85,35 @@
     "where": "Overworld at light level 0; also in Nether fortresses and soul sand valleys.",
     "howToKill": "Close the distance using cover or a shield, then melee. Their arrows are slow at short range but deadly in groups.",
     "drops": [
-      { "item": "Bone", "qty": "0-2 (up to 5 with Looting III)", "notes": "Bone meal for farms, taming wolves" },
-      { "item": "Arrow", "qty": "0-2 (up to 5 with Looting III)", "notes": "Infinite arrows with a skeleton farm" },
-      { "item": "Bow", "qty": "rare", "notes": "8.5% drop chance, sometimes enchanted" }
+      {
+        "item": "Bone",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Bone meal for farms, taming wolves"
+      },
+      {
+        "item": "Arrow",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Infinite arrows with a skeleton farm"
+      },
+      {
+        "item": "Bow",
+        "qty": "rare",
+        "notes": "8.5% drop chance, sometimes enchanted"
+      }
     ],
     "spawnConditions": "Light level 0 in the Overworld; light level 7 or less in Nether fortresses and soul sand valleys.",
     "behavior": "Shoots arrows from up to 16 blocks, strafes around targets (Java), burns in sunlight, retreats from wolves.",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Classic 0.24",
-    "related": ["zombie", "creeper", "stray"],
+    "related": [
+      "zombie",
+      "creeper",
+      "stray"
+    ],
     "keywords": "skeleton drops bones arrows how to kill spawn"
   },
   {
@@ -67,15 +124,30 @@
     "where": "Overworld at light level 0. Cave spiders spawn from spawners in mineshafts.",
     "howToKill": "Easy melee target; it jumps when attacking. In daylight it stops attacking unless provoked. Bane of Arthropods swords kill it fast.",
     "drops": [
-      { "item": "String", "qty": "0-2 (up to 5 with Looting III)", "notes": "Bows, fishing rods, wool, leads" },
-      { "item": "Spider Eye", "qty": "0-1 (up to 4 with Looting III)", "notes": "Brewing ingredient; do not eat unless desperate" }
+      {
+        "item": "String",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Bows, fishing rods, wool, leads"
+      },
+      {
+        "item": "Spider Eye",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brewing ingredient; do not eat unless desperate"
+      }
     ],
     "spawnConditions": "Light level 0 in the Overworld, needs a 3x3x2 space but only a 1-block-high center.",
     "behavior": "Hostile below light level 12, neutral in daylight. Climbs walls and sees through blocks to track you.",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Classic 0.26",
-    "related": ["cave-spider", "zombie", "skeleton"],
+    "related": [
+      "cave-spider",
+      "zombie",
+      "skeleton"
+    ],
     "keywords": "spider drops string spider eye how to kill"
   },
   {
@@ -86,14 +158,24 @@
     "where": "All three dimensions at light level 0; very common in the End and in warped forests.",
     "howToKill": "Fight under a 2-block-high roof: it is 3 blocks tall and cannot reach you. Attack its legs. It teleports away from arrows and water, so use melee.",
     "drops": [
-      { "item": "Ender Pearl", "qty": "0-1 (up to 4 with Looting III)", "notes": "Essential for Eyes of Ender to reach the End" }
+      {
+        "item": "Ender Pearl",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Essential for Eyes of Ender to reach the End"
+      }
     ],
     "spawnConditions": "Light level 0 in the Overworld and Nether; light level 7 or less in the End.",
     "behavior": "Neutral until you look at its face (crosshair on its head) or attack it. Picks up and moves certain blocks. Takes damage from water.",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Beta 1.8",
-    "related": ["shulker", "ender-dragon"],
+    "related": [
+      "shulker",
+      "ender-dragon"
+    ],
     "keywords": "enderman ender pearl how to kill teleport spawn"
   },
   {
@@ -104,14 +186,24 @@
     "where": "Deep Dark biome, summoned by sculk shriekers after 4 warnings. Spawns from the ground near the shrieker.",
     "howToKill": "You are not meant to fight it: sneak away and break the shriekers. If you must fight, it has no armor but huge health; its sonic boom ignores armor and shields. Killing it drops only a sculk catalyst - no real reward.",
     "drops": [
-      { "item": "Sculk Catalyst", "qty": "1", "notes": "Spreads sculk when mobs die nearby; only drop" }
+      {
+        "item": "Sculk Catalyst",
+        "qty": "1",
+        "notes": "Spreads sculk when mobs die nearby; only drop"
+      }
     ],
     "spawnConditions": "Only via sculk shrieker activation (natural shriekers, 4 triggers), in the Deep Dark below Y=0.",
     "behavior": "Blind: hunts by sound and smell. Vibrations from walking, projectiles or blocks attract it. Sonic boom pierces walls and shields. Burrows away after 60 seconds of calm.",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "1.19",
-    "related": ["ender-dragon", "wither"],
+    "related": [
+      "ender-dragon",
+      "wither"
+    ],
     "keywords": "warden deep dark sculk shrieker how to kill sonic boom"
   },
   {
@@ -122,14 +214,24 @@
     "where": "Nether fortresses, from spawners and natural spawns at light level 11 or less.",
     "howToKill": "Use a shield against its triple fireballs, or snowballs (they deal 3 damage each to blazes). A strength potion finishes them quickly. Fire Resistance removes most of the threat.",
     "drops": [
-      { "item": "Blaze Rod", "qty": "0-1 (up to 4 with Looting III)", "notes": "Brewing stands, fuel, Eyes of Ender - the gate to beating the game" }
+      {
+        "item": "Blaze Rod",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brewing stands, fuel, Eyes of Ender - the gate to beating the game"
+      }
     ],
     "spawnConditions": "Nether fortresses, light level 11 or less. Spawners sit in small stairwell rooms.",
     "behavior": "Flies, shoots three fireballs in a burst, sets targets on fire on contact. Immune to fire and lava; takes extra damage from snowballs.",
     "tameOrBreed": "Cannot be tamed or bred.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Beta 1.9 Prerelease",
-    "related": ["wither-skeleton", "ghast"],
+    "related": [
+      "wither-skeleton",
+      "ghast"
+    ],
     "keywords": "blaze rod nether fortress drops how to kill"
   },
   {
@@ -140,15 +242,30 @@
     "where": "Grassy biomes of the Overworld, in herds of up to 4. Needs grass and light level 9+ to spawn (Java).",
     "howToKill": "Any weapon; it runs when hit. Looting increases leather and beef drops.",
     "drops": [
-      { "item": "Raw Beef (Steak if killed by fire)", "qty": "1-3 (up to 6 with Looting III)", "notes": "Cooked into steak: one of the best foods" },
-      { "item": "Leather", "qty": "0-2 (up to 5 with Looting III)", "notes": "Books, item frames, leather armor" }
+      {
+        "item": "Raw Beef (Steak if killed by fire)",
+        "qty": "1-3 (up to 6 with Looting III)",
+        "notes": "Cooked into steak: one of the best foods"
+      },
+      {
+        "item": "Leather",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Books, item frames, leather armor"
+      }
     ],
     "spawnConditions": "Grass blocks with light level 9 or higher (Java), 2 blocks of space. Also spawns with world generation.",
     "behavior": "Wanders, follows players holding wheat, can be milked with a bucket for infinite milk.",
     "tameOrBreed": "Breed two adults with wheat. Baby grows up in 20 minutes (faster if fed wheat).",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Alpha v1.0.8",
-    "related": ["pig", "sheep", "mooshroom"],
+    "related": [
+      "pig",
+      "sheep",
+      "mooshroom"
+    ],
     "keywords": "cow drops leather beef breed milk farm"
   },
   {
@@ -159,14 +276,25 @@
     "where": "Grassy biomes of the Overworld, in herds. Common everywhere except snowy and badlands biomes.",
     "howToKill": "Any weapon; it flees when hurt. Kills by fire drop cooked porkchops directly.",
     "drops": [
-      { "item": "Raw Porkchop (Cooked if killed by fire)", "qty": "1-3 (up to 6 with Looting III)", "notes": "Cooked porkchop is a top-tier food (8 hunger points)" }
+      {
+        "item": "Raw Porkchop (Cooked if killed by fire)",
+        "qty": "1-3 (up to 6 with Looting III)",
+        "notes": "Cooked porkchop is a top-tier food (8 hunger points)"
+      }
     ],
     "spawnConditions": "Grass blocks with light level 9 or higher (Java).",
     "behavior": "Wanders, follows players holding carrots, potatoes or beetroots. Can be saddled and steered with a carrot on a stick.",
     "tameOrBreed": "Breed two adults with carrots, potatoes or beetroots.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Classic 0.24",
-    "related": ["cow", "sheep", "chicken"],
+    "related": [
+      "cow",
+      "sheep",
+      "chicken"
+    ],
     "keywords": "pig drops porkchop breed saddle ride"
   },
   {
@@ -177,14 +305,176 @@
     "where": "Forests, taigas and groves, in packs of 4. Different variants per biome since 1.20.5.",
     "howToKill": "Wild wolves are neutral; attack one and the whole pack turns hostile. Tamed wolves teleport to you and fight for you.",
     "drops": [
-      { "item": "Nothing (1-3 XP orbs)", "qty": "-", "notes": "Killing wolves gives no items" }
+      {
+        "item": "Nothing (1-3 XP orbs)",
+        "qty": "-",
+        "notes": "Killing wolves gives no items"
+      }
     ],
     "spawnConditions": "Grass, snow or coarse dirt in forest-type biomes, light level 9+ (Java).",
     "behavior": "Neutral in packs: hurts one, hurts all. Tamed wolves follow, teleport to you, sit on command and attack your targets.",
     "tameOrBreed": "Tame with bones (each bone has a 1 in 3 chance). Breed two tamed wolves with any meat; the pup is born tamed.",
-    "editions": ["java", "bedrock"],
+    "editions": [
+      "java",
+      "bedrock"
+    ],
     "since": "Beta 1.4",
-    "related": ["cat", "fox", "axolotl"],
+    "related": [
+      "cat",
+      "fox",
+      "axolotl"
+    ],
     "keywords": "wolf tame bones breed dog variants"
+  },
+  {
+    "slug": "villager",
+    "name": "Villager",
+    "type": "Passive",
+    "health": "20 (10 hearts)",
+    "where": "Villages in plains, desert, savanna, taiga, snowy and meadow biomes. Zombie villagers appear at night anywhere.",
+    "howToKill": "You should not: killing villagers drops your village popularity and iron golems will attack you. They have no drops and give only 1-3 XP.",
+    "drops": [
+      {
+        "item": "Nothing",
+        "qty": "-",
+        "notes": "Villagers drop no items; their value is trading"
+      }
+    ],
+    "spawnConditions": "Generate with villages and igloo basements; never spawn naturally afterwards - breed them or cure zombie villagers to repopulate.",
+    "behavior": "Work at their job site block by day, gossip at the meeting point, sleep at night. Panic from zombies and raid mobs. 15 professions, each with its own trades.",
+    "tameOrBreed": "Breed with food (3 bread or 12 carrots/potatoes/beetroots each) plus spare valid beds. Cure zombie villagers with a Weakness splash potion + golden apple for big trade discounts.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "zombie",
+      "wandering-trader"
+    ],
+    "keywords": "villager trades professions breed cure zombie villager"
+  },
+  {
+    "slug": "shulker",
+    "name": "Shulker",
+    "type": "Hostile",
+    "health": "30 (15 hearts)",
+    "where": "End Cities in the outer End islands, camouflaged on walls and ceilings.",
+    "howToKill": "Kill it while its shell is open to shoot - closed, it takes 80% less damage and deflects arrows. Melee with a sharp sword when it opens, or punch arrows back. Dodge the homing bullets or break them with any hit.",
+    "drops": [
+      {
+        "item": "Shulker Shell",
+        "qty": "0-1 (Java: 50%, +6.25% per Looting level; Bedrock: 0-1 up to 4 with Looting III)",
+        "notes": "Two shells + a chest = shulker box, the portable inventory"
+      }
+    ],
+    "spawnConditions": "Spawn once with End City generation and do not respawn naturally. A shulker hit by another shulker's bullet can duplicate (Java).",
+    "behavior": "Stays disguised as a purpur block, opens to fire homing bullets that cause 10 seconds of levitation - deadly over the void. Teleports when hurt.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.9",
+    "related": [
+      "enderman",
+      "ender-dragon"
+    ],
+    "keywords": "shulker shell end city levitation shulker box"
+  },
+  {
+    "slug": "ender-dragon",
+    "name": "Ender Dragon",
+    "type": "Boss",
+    "health": "200 (100 hearts)",
+    "where": "The End dimension - the central island. Respawn it by placing 4 end crystals on the exit portal edges.",
+    "howToKill": "Destroy the end crystals on the obsidian pillars first (shoot the exposed ones, pillar up to the caged ones) so it cannot heal. Then hit it with a bow while it flies and with a sword when it perches on the exit portal. Beds explode in the End: place one and detonate it as the dragon perches for massive damage. Bring Slow Falling or a water bucket for knockback.",
+    "drops": [
+      {
+        "item": "12,000 XP (first kill; 500 afterwards)",
+        "qty": "-",
+        "notes": "The biggest XP drop in the game"
+      },
+      {
+        "item": "Dragon Egg",
+        "qty": "1",
+        "notes": "First kill only, on top of the exit portal - trophy item"
+      },
+      {
+        "item": "Opens the exit portal + End Gateway",
+        "qty": "-",
+        "notes": "The gateway leads to the outer islands (elytra!)"
+      }
+    ],
+    "spawnConditions": "One dragon per End dimension; resummon with 4 end crystals arranged on each side of the exit portal.",
+    "behavior": "Circles the island, breathes dragon's breath (area damage cloud), charges at players, and perches on the exit portal where it is immune to arrows. Heals from end crystals.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.0.0",
+    "related": [
+      "wither",
+      "shulker"
+    ],
+    "keywords": "ender dragon how to kill end crystals boss fight"
+  },
+  {
+    "slug": "wither",
+    "name": "Wither",
+    "type": "Boss",
+    "health": "300 (150 hearts) Java / 600 Bedrock",
+    "where": "Spawned by the player anywhere: 4 soul sand or soul soil in a T shape with 3 wither skeleton skulls on top.",
+    "howToKill": "Spawn it in a cramped bedrock ceiling (Java: under the exit portal fountain; Bedrock: a deep cave) so it cannot fly away. It is immune to arrows below half health - finish it with a Smite V sword. Bring strength potions, golden apples and milk to cure the Wither effect.",
+    "drops": [
+      {
+        "item": "Nether Star",
+        "qty": "1",
+        "notes": "Crafts the beacon - the reason to fight it"
+      }
+    ],
+    "spawnConditions": "Player-built: T of soul sand/soil + 3 wither skeleton skulls (skull last). Wither skeleton skulls drop in Nether fortresses at 2.5% (5.5% with Looting III).",
+    "behavior": "On spawn it charges up and explodes, then flies shooting explosive skulls that inflict the Wither effect (drains health, kills hearts). Breaks most blocks on contact. Below half health it gains a shield against projectiles (Java) or dashes and spawns wither skeletons (Bedrock).",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2",
+    "related": [
+      "ender-dragon",
+      "wither-skeleton",
+      "blaze"
+    ],
+    "keywords": "wither boss how to spawn nether star beacon skulls"
+  },
+  {
+    "slug": "axolotl",
+    "name": "Axolotl",
+    "type": "Passive (aquatic)",
+    "health": "14 (7 hearts)",
+    "where": "Lush caves, in water below Y=63 with clay nearby and total darkness. Five colors; blue only from breeding (1 in 1200).",
+    "howToKill": "Do not - they are helpers. If you must know: they play dead when hurt, regenerating health.",
+    "drops": [
+      {
+        "item": "Nothing (1-3 XP)",
+        "qty": "-",
+        "notes": "No item drops"
+      }
+    ],
+    "spawnConditions": "Water in lush caves, light level 0, below Y=63, within 5 blocks of a clay block.",
+    "behavior": "Swims, plays dead when damaged (regenerates), attacks fish, squid, drowned and guardians when led into battle with a bucket. Grants you Regeneration and removes Mining Fatigue for helping it fight.",
+    "tameOrBreed": "Cannot be tamed but trusts players carrying tropical fish buckets. Breed two with a bucket of tropical fish. Carry it in a water bucket - it survives 5 minutes out of water.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.17",
+    "related": [
+      "wolf",
+      "cat"
+    ],
+    "keywords": "axolotl lush caves blue axolotl bucket tame breed"
   }
 ]
