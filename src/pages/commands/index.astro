@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import commands from '../../data/commands.json';
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Minecraft Commands List',
+  description: 'Complete list of Minecraft commands with syntax, examples and Java/Bedrock differences.',
+  url: 'https://minepedia.app/commands/'
+};
+---
+<Base title="Minecraft Commands" description="Every Minecraft command explained: syntax, examples, targets and the differences between Java and Bedrock Edition." canonicalPath="/commands/" jsonLd={jsonLd}>
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Commands</nav>
+    <h1>Minecraft Commands</h1>
+    <p class="sub">Syntax, examples and edition differences for every important command. Cheats or operator permissions required.</p>
+    <SearchBox placeholder="Search commands, items, mobs..." />
+    <div class="grid-cards" style="margin-top:24px">
+      {commands.map(c => (
+        <a class="card" href={`/commands/${c.slug}/`}>
+          <h3>{c.name}</h3>
+          <p>{c.summary}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

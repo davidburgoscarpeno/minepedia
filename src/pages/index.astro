@@ -1,17 +1,50 @@
 ---
-
+import Base from '../layouts/Base.astro';
+import SearchBox from '../components/SearchBox.astro';
+import commands from '../data/commands.json';
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'WebSite',
+  name: 'Minepedia', url: 'https://minepedia.app/',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://minepedia.app/search/?q={search_term_string}' },
+    'query-input': 'required name=search_term_string'
+  }
+};
+const cats = [
+  { href: '/guides/', name: 'Guides', desc: 'How to craft, find, tame, build and more' },
+  { href: '/recipes/', name: 'Crafting Recipes', desc: 'Every recipe with ingredients and uses' },
+  { href: '/commands/', name: 'Commands', desc: 'Syntax and examples for every command' },
+  { href: '/enchantments/', name: 'Enchantments', desc: 'Max levels, uses and incompatibilities' },
+  { href: '/mobs/', name: 'Mobs', desc: 'Drops, spawning and behavior' },
+  { href: '/tools/', name: 'Tools & Calculators', desc: 'Nether coords, XP, command generators' },
+  { href: '/seeds/', name: 'Seeds', desc: 'Searchable world seeds with coordinates' },
+  { href: '/biomes/', name: 'Biomes', desc: 'Resources, mobs and structures per biome' }
+];
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="Minepedia" description="Minepedia: Minecraft guides, crafting recipes, commands, enchantments, mobs, seeds and tools - fast, accurate and always up to date." canonicalPath="/" jsonLd={jsonLd}>
+  <div class="container">
+    <section class="hero">
+      <h1>The Minecraft knowledge base</h1>
+      <p>Guides, recipes, commands, enchantments, mobs and tools. Accurate for Java and Bedrock.</p>
+      <SearchBox autofocus={true} />
+    </section>
+    <section class="section">
+      <h2>Categories</h2>
+      <div class="grid-cards">
+        {cats.map(cat => (
+          <a class="card" href={cat.href}><h3>{cat.name}</h3><p>{cat.desc}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      <h2>Popular commands</h2>
+      <p class="sub">The commands players search for most.</p>
+      <div class="grid-cards">
+        {commands.slice(0, 6).map(c => (
+          <a class="card" href={`/commands/${c.slug}/`}><h3>{c.name}</h3><p>{c.summary}</p></a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

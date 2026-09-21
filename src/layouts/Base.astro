@@ -1,0 +1,66 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  jsonLd?: object | object[];
+  ogType?: string;
+  noindex?: boolean;
+}
+const { title, description, canonicalPath, jsonLd, ogType = 'website', noindex = false } = Astro.props;
+const site = 'https://minepedia.app';
+const canonical = canonicalPath ? `${site}${canonicalPath}` : Astro.url.href;
+const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes, Commands & Tools' : `${title} | Minepedia`;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex,follow" />}
+  <meta property="og:site_name" content="Minepedia" />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <svg class="cube" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 3 9v14l13 7 13-7V9L16 2z" fill="#4caf50"/><path d="M16 2 3 9l13 7 13-7-13-7z" fill="#66d46b"/><path d="M16 16v13L3 23V9l13 7z" fill="#3d8b40"/></svg>
+        Minepedia
+      </a>
+      <nav class="main-nav">
+        <a href="/guides/">Guides</a>
+        <a href="/recipes/">Recipes</a>
+        <a href="/commands/">Commands</a>
+        <a href="/enchantments/">Enchantments</a>
+        <a href="/mobs/">Mobs</a>
+        <a href="/tools/">Tools</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Minepedia</strong> - Minecraft guides, recipes, commands, enchantments, mobs and tools.</p>
+      <p class="notice-fan">Minepedia is a fan-made resource. Not affiliated with Mojang Studios or Microsoft. "Minecraft" is a trademark of Mojang Synergies AB.</p>
+    </div>
+  </footer>
+</body>
+</html>
+<style is:global>
+  @import '../styles/global.css';
+</style>

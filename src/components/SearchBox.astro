@@ -1,0 +1,46 @@
+---
+interface Props { placeholder?: string; autofocus?: boolean }
+const { placeholder = 'Search items, mobs, commands, guides...', autofocus = false } = Astro.props;
+---
+<div class="search-wrap">
+  <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input class="search-input" type="search" placeholder={placeholder} aria-label="Search Minepedia" autofocus={autofocus} />
+  <div class="search-results" role="listbox"></div>
+</div>
+<script>
+  let indexPromise: Promise<any[]> | null = null;
+  function loadIndex() {
+    if (!indexPromise) indexPromise = fetch('/search-index.json').then(r => r.json()).catch(() => []);
+    return indexPromise;
+  }
+  document.querySelectorAll<HTMLDivElement>('.search-wrap').forEach(wrap => {
+    const input = wrap.querySelector<HTMLInputElement>('.search-input')!;
+    const box = wrap.querySelector<HTMLDivElement>('.search-results')!;
+    let items: any[] = [];
+    input.addEventListener('focus', async () => { items = await loadIndex(); });
+    input.addEventListener('input', async () => {
+      if (!items.length) items = await loadIndex();
+      const q = input.value.trim().toLowerCase();
+      if (q.length < 2) { box.classList.remove('open'); box.innerHTML = ''; return; }
+      const terms = q.split(/\s+/);
+      const scored = items.map(it => {
+        const name = it.name.toLowerCase();
+        const hay = (it.name + ' ' + it.kind + ' ' + (it.keywords || '')).toLowerCase();
+        if (!terms.every(t => hay.includes(t))) return null;
+        let score = 0;
+        if (name === q) score = 100;
+        else if (name.startsWith(q)) score = 60;
+        else if (name.includes(q)) score = 30;
+        else score = 10;
+        return { it, score };
+      }).filter(Boolean) as { it: any; score: number }[];
+      scored.sort((a, b) => b.score - a.score);
+      const top = scored.slice(0, 12);
+      box.innerHTML = top.length
+        ? top.map(({ it }) => `<a href="${it.url}" role="option"><span>${it.name}</span><span class="kind">${it.kind}</span></a>`).join('')
+        : `<a href="/search/?q=${encodeURIComponent(q)}" role="option"><span>No quick matches - search everything</span><span class="kind">all</span></a>`;
+      box.classList.add('open');
+    });
+    document.addEventListener('click', e => { if (!wrap.contains(e.target as Node)) box.classList.remove('open'); });
+  });
+</script>
