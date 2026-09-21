@@ -1,0 +1,243 @@
+[
+  {
+    "slug": "diamond",
+    "name": "Diamond",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine diamond ore or deepslate diamond ore with an iron pickaxe or better - generates from Y=16 down to bedrock, peaking around Y=-59",
+      "Loot chests in shipwrecks, buried treasure, mineshafts, bastions, end cities and strongholds",
+      "Craft from a block of diamond (9 per block)"
+    ],
+    "uses": [
+      "Craft diamond tools, weapons and armor",
+      "Craft the enchanting table (2 diamonds), jukebox (1) and firework stars with trail effect",
+      "Trade to armorer, toolsmith and weaponsmith villagers for emeralds",
+      "Duplicate smithing templates at the crafting table (7 diamonds + template + block)"
+    ],
+    "renewable": "Non-renewable as a raw item (no farm produces it), but diamond gear is renewable through villager trading.",
+    "editionNote": "Identical generation and uses in Java and Bedrock. Fortune III raises the drop to 2.2 diamonds per ore on average.",
+    "since": "Indev 0.31",
+    "related": [
+      "netherite-ingot",
+      "iron-ingot"
+    ],
+    "keywords": "diamond how to find minecraft y level fortune"
+  },
+  {
+    "slug": "netherite-ingot",
+    "name": "Netherite Ingot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft from 4 netherite scraps + 4 gold ingots (shapeless recipe)",
+      "Smelt ancient debris into netherite scraps - ancient debris generates in the Nether between Y=8 and Y=119, most common around Y=15",
+      "Loot bastion remnant treasure rooms for scraps, ingots and ancient debris"
+    ],
+    "uses": [
+      "Upgrade diamond gear to netherite on a smithing table (1 netherite upgrade smithing template + 1 ingot per piece)",
+      "Netherite items float in lava, never burn, and have higher durability, damage and knockback resistance than diamond",
+      "Craft lodestone (8 chiseled stone bricks + 1 ingot)"
+    ],
+    "renewable": "Non-renewable: ancient debris does not regenerate and no farm produces it.",
+    "editionNote": "Identical in Java and Bedrock. Ancient debris never generates exposed to air, so strip mining or bed/TNT blasting at Y=15 is the standard method.",
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "diamond",
+      "nether-star"
+    ],
+    "keywords": "netherite ingot ancient debris how to get y level upgrade smithing"
+  },
+  {
+    "slug": "iron-ingot",
+    "name": "Iron Ingot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Smelt iron ore or raw iron - ore generates in two batches (peak around Y=16 and Y=232 in mountains)",
+      "Iron golem drops 3-5 per kill: the basis of iron farms",
+      "Craft from 9 iron nuggets or a block of iron",
+      "Loot village, mineshaft, dungeon and shipwreck chests"
+    ],
+    "uses": [
+      "The workhorse crafting material: tools, armor, buckets, anvils, hoppers, pistons, shields, shears, rails and more",
+      "Craft a block of iron (9 ingots) for beacons and iron golems",
+      "Trade to armorer, toolsmith and weaponsmith villagers (4 ingots per emerald)"
+    ],
+    "renewable": "Renewable via iron golem farms, zombie drops (rare) and bartering-adjacent sources.",
+    "editionNote": "Identical in both editions. Iron golem farm designs differ heavily between Java (villager gossip/panic) and Bedrock (beds + villagers).",
+    "since": "Classic 0.31",
+    "related": [
+      "diamond",
+      "netherite-ingot"
+    ],
+    "keywords": "iron ingot how to get farm iron golem minecraft"
+  },
+  {
+    "slug": "ender-pearl",
+    "name": "Ender Pearl",
+    "category": "Material",
+    "stackSize": "16",
+    "howToGet": [
+      "Kill endermen: 0-1 pearls, up to 4 with Looting III",
+      "Trade with expert cleric villagers: 5 emeralds per pearl",
+      "Barter gold ingots with piglins (small chance, 2-4 pearls)",
+      "Loot stronghold altar chests"
+    ],
+    "uses": [
+      "Craft eyes of ender (pearl + blaze powder) to find and activate the End portal",
+      "Thrown pearls teleport you where they land, dealing 5 fall damage - the classic escape and traversal tool",
+      "Pearl teleporting works across dimensions and can clip through 1-block ceilings"
+    ],
+    "renewable": "Renewable via enderman farms (the fastest source), cleric trading and piglin bartering.",
+    "editionNote": "In Java, thrown pearls create a 10-second chunk-loading ticket. In Bedrock there is no such mechanic - pearl cannons and chunk loaders do not work.",
+    "since": "Beta 1.8",
+    "related": [
+      "blaze-rod",
+      "ender-eye"
+    ],
+    "keywords": "ender pearl how to get enderman farm cleric trade teleport"
+  },
+  {
+    "slug": "blaze-rod",
+    "name": "Blaze Rod",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill blazes in Nether fortresses: 0-1 rods, up to 4 with Looting III - blaze spawners in fortresses make this farmable",
+      "No other source: blazes are the only mob that drops them"
+    ],
+    "uses": [
+      "Craft blaze powder (1 rod = 2 powder): fuel for the brewing stand and ingredient for eyes of ender",
+      "Brewing stand fuel: 1 powder brews 20 batches",
+      "Craft the brewing stand itself (1 rod + 3 cobblestone)"
+    ],
+    "renewable": "Renewable via blaze spawner farms in Nether fortresses.",
+    "editionNote": "Identical in Java and Bedrock. Blazes only spawn in fortress bounding boxes, so farms must be built inside a fortress.",
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "ender-pearl",
+      "nether-star"
+    ],
+    "keywords": "blaze rod how to get blaze farm brewing fuel"
+  },
+  {
+    "slug": "totem-of-undying",
+    "name": "Totem of Undying",
+    "category": "Combat",
+    "stackSize": "1",
+    "howToGet": [
+      "Kill an evoker (woodland mansions and raid waves): always drops exactly 1, unaffected by Looting",
+      "Raid farms make totems fully farmable - evokers spawn in raid waves 5+"
+    ],
+    "uses": [
+      "Hold it in either hand: when you would die, it is consumed instead, restoring you to 1 heart with status effects",
+      "Java Edition: Regeneration II for 45s, Fire Resistance I for 40s and Absorption I for 5s. Bedrock Edition: Regeneration II for 30s and Absorption for 5s",
+      "Only works while held - totems in your inventory or ender chest do nothing"
+    ],
+    "renewable": "Renewable via raid farms; technically unlimited.",
+    "editionNote": "Effect durations differ: Regeneration II lasts 45s in Java and 30s in Bedrock. The void kills you in both editions - a totem does not save you from /kill or void damage below the world.",
+    "since": "1.11 (Exploration Update)",
+    "related": [
+      "nether-star",
+      "elytra"
+    ],
+    "keywords": "totem of undying evoker raid farm how to get"
+  },
+  {
+    "slug": "elytra",
+    "name": "Elytra",
+    "category": "Utility",
+    "stackSize": "1",
+    "howToGet": [
+      "Found in the item frame of end ships, which generate with some end cities on the outer End islands",
+      "Kill the ender dragon first to open the gateways to the outer islands",
+      "One elytra per end ship - bring ender pearls or blocks for the bridge"
+    ],
+    "uses": [
+      "Glide: jump and press jump again mid-air to spread your wings; firework rockets boost you",
+      "Repair on an anvil with phantom membranes (or combine two damaged elytra); Mending is strongly recommended",
+      "Pair with Unbreaking III: 432 base durability lasts roughly 28 minutes of flight per point of wear"
+    ],
+    "renewable": "Not farmable, but effectively unlimited: end cities generate endlessly outward on the outer islands.",
+    "editionNote": "Identical flight mechanics in both editions. Firework rocket boosting works the same in Java and Bedrock.",
+    "since": "1.9 (Combat Update)",
+    "related": [
+      "totem-of-undying",
+      "nether-star"
+    ],
+    "keywords": "elytra how to find end ship city fly fireworks repair"
+  },
+  {
+    "slug": "trident",
+    "name": "Trident",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Dropped only by drowned holding a trident - never craftable",
+      "Java: 6.25% of drowned spawn with one, 8.5% drop chance (+1% per Looting level)",
+      "Bedrock: 15% of drowned spawn with one, 25% drop chance (+4% per Looting level)",
+      "Drowned farms (river or converted zombie designs) are the practical source"
+    ],
+    "uses": [
+      "Melee (9 damage) and throwable weapon - it comes back with Loyalty",
+      "Exclusive enchantments: Loyalty (returns), Channeling (summons lightning in thunderstorms), Riptide (launches you in water/rain), Impaling (bonus damage vs aquatic mobs)",
+      "Riptide tridents are the fastest pre-elytra travel in rain"
+    ],
+    "renewable": "Renewable via drowned farms; repair by combining two tridents or with Mending.",
+    "editionNote": "Drop rates are much better in Bedrock (25% vs 8.5% base). Impaling also differs: in Bedrock it damages any mob touching water or standing in rain; in Java it only affects aquatic mobs.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "elytra",
+      "totem-of-undying"
+    ],
+    "keywords": "trident how to get drowned drop rate riptide channeling loyalty"
+  },
+  {
+    "slug": "nether-star",
+    "name": "Nether Star",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Dropped by the Wither: exactly 1 per kill (Java: unaffected by Looting; the drop cannot burn or despawn for 10 minutes)",
+      "Summon the Wither with 4 soul sand/soil in a T plus 3 wither skeleton skulls",
+      "Farm wither skeletons in Nether fortresses for skulls (2.5% base, up to 5.5% with Looting III in Java)"
+    ],
+    "uses": [
+      "Craft the beacon (5 glass + 3 obsidian + 1 nether star) for area status effects and a light beam",
+      "Beacons need a pyramid of iron, gold, diamond, emerald or netherite blocks underneath"
+    ],
+    "renewable": "Renewable: the Wither can be summoned and killed repeatedly.",
+    "editionNote": "In Java the nether star cannot be destroyed by explosions and despawns only after 10 minutes; in Bedrock it can be destroyed by explosions - keep it away from the Wither fight.",
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "blaze-rod",
+      "netherite-ingot"
+    ],
+    "keywords": "nether star wither beacon how to get skull farm"
+  },
+  {
+    "slug": "slimeball",
+    "name": "Slimeball",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill tiny slimes: 0-2 slimeballs, up to 5 with Looting III - slimes spawn in slime chunks below Y=40 or in swamps at night (peaks at full moon)",
+      "Baby pandas have a rare chance to sneeze out a slimeball",
+      "Slime farms on slime chunks are the bulk source"
+    ],
+    "uses": [
+      "Sticky pistons (the heart of most redstone contraptions)",
+      "Slime blocks (9 slimeballs) for flying machines, bounce pads and entity launchers",
+      "Leads (4 string + 1 slimeball) and magma cream (with blaze powder)"
+    ],
+    "renewable": "Renewable via slime farms and panda farms.",
+    "editionNote": "Slime chunk locations are identical between editions for the same seed. Swamp spawning depends on the moon phase in both editions.",
+    "since": "Alpha 1.0.11",
+    "related": [
+      "gunpowder",
+      "blaze-rod"
+    ],
+    "keywords": "slimeball how to get slime chunk farm sticky piston"
+  }
+]
