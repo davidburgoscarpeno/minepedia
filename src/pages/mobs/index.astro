@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import mobs from '../../data/mobs.json';
+const groups = ['Hostile', 'Neutral (tameable)', 'Neutral (hostile in darkness)', 'Neutral', 'Passive', 'Boss'];
+const byType = (t: string) => mobs.filter(m => m.type === t || m.type.startsWith(t));
+const present = [...new Set(mobs.map(m => m.type))];
+---
+<Base title="Minecraft Mobs" description="Minecraft mob database: drops, spawn conditions, behavior, how to kill, tame or breed every mob. Java and Bedrock." canonicalPath="/mobs/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Mobs</nav>
+    <h1>Minecraft Mobs</h1>
+    <p class="sub">{mobs.length} mobs with drops, spawn conditions and strategies.</p>
+    <SearchBox placeholder="Search mobs, items, commands..." />
+    {present.map(t => (
+      <section class="section">
+        <h2>{t}</h2>
+        <div class="grid-cards">
+          {mobs.filter(m => m.type === t).map(m => (
+            <a class="card" href={`/mobs/${m.slug}/`}>
+              <h3>{m.name}</h3>
+              <p>Drops: {m.drops.map(d => d.item.split('(')[0].trim()).filter((v,i,a) => a.indexOf(v)===i).join(', ') || 'None'}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

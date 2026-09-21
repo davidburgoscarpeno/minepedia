@@ -1,0 +1,758 @@
+[
+  {
+    "slug": "crafting-table",
+    "name": "Crafting Table",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "2x2 inventory grid",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 4,
+        "howToGet": "Place any log in a crafting slot to get 4 planks per log. Punch a tree to get logs."
+      }
+    ],
+    "pattern": [
+      "PP",
+      "PP"
+    ],
+    "uses": [
+      "Unlocks the 3x3 crafting grid needed for most recipes in the game",
+      "Place it on the ground and right-click to use it"
+    ],
+    "variants": [
+      "Only one type exists; the wood used does not change its appearance"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Indev 0.31",
+    "related": [
+      "furnace",
+      "chest",
+      "torch"
+    ],
+    "keywords": "crafting table how to make craft 3x3 workbench"
+  },
+  {
+    "slug": "torch",
+    "name": "Torch",
+    "category": "Lighting",
+    "resultCount": 4,
+    "station": "2x2 inventory grid or crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 1,
+        "howToGet": "Craft 2 planks vertically to get 4 sticks."
+      },
+      {
+        "name": "Coal or Charcoal",
+        "qty": 1,
+        "howToGet": "Mine coal ore (common between Y=0 and Y=320, most around Y=95) or smelt logs in a furnace to make charcoal."
+      }
+    ],
+    "pattern": [
+      "C",
+      "S"
+    ],
+    "uses": [
+      "Provides light level 14, preventing hostile mobs from spawning nearby",
+      "Marks paths in caves",
+      "Melts snow and ice within 2 blocks"
+    ],
+    "variants": [
+      "Soul Torch (stick + coal + soul soil/soul sand, dimmer, scares piglins)",
+      "Redstone Torch (stick + redstone dust, used for circuits)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Indev 0.31",
+    "related": [
+      "crafting-table",
+      "furnace"
+    ],
+    "keywords": "torch light how to craft coal charcoal stick"
+  },
+  {
+    "slug": "chest",
+    "name": "Chest",
+    "category": "Storage",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 8,
+        "howToGet": "Craft 2 logs into 8 planks."
+      }
+    ],
+    "pattern": [
+      "PPP",
+      "P P",
+      "PPP"
+    ],
+    "uses": [
+      "Stores 27 stacks of items",
+      "Two chests placed side by side form a large chest with 54 slots",
+      "Can be locked with a hopper chain for item sorting systems"
+    ],
+    "variants": [
+      "Trapped Chest (chest + tripwire hook, sends redstone signal)",
+      "Ender Chest (8 obsidian + eye of ender, shared inventory across all ender chests)",
+      "Barrel (6 planks + 2 slabs, works under blocks)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Indev 0.31",
+    "related": [
+      "crafting-table"
+    ],
+    "keywords": "chest storage how to craft planks"
+  },
+  {
+    "slug": "furnace",
+    "name": "Furnace",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Cobblestone",
+        "qty": 8,
+        "howToGet": "Mine stone with any pickaxe. Cobbled deepslate or blackstone also work."
+      }
+    ],
+    "pattern": [
+      "CCC",
+      "C C",
+      "CCC"
+    ],
+    "uses": [
+      "Smelts ores into ingots",
+      "Cooks food",
+      "Makes charcoal from logs, glass from sand, smooth stone from stone",
+      "Fuel: coal, charcoal, lava bucket, blaze rods, wood items"
+    ],
+    "variants": [
+      "Blast Furnace (smelts ores and metal gear twice as fast)",
+      "Smoker (cooks food twice as fast)"
+    ],
+    "editionNote": "Java and Bedrock accept cobblestone, cobbled deepslate and blackstone.",
+    "since": "Indev 0.31",
+    "related": [
+      "blast-furnace",
+      "smoker",
+      "campfire",
+      "crafting-table"
+    ],
+    "keywords": "furnace how to craft smelt cobblestone"
+  },
+  {
+    "slug": "bed",
+    "name": "Bed",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Wool (same color)",
+        "qty": 3,
+        "howToGet": "Shear sheep with shears (1-3 wool, sheep regrows it) or craft 4 string into 1 wool."
+      },
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 3,
+        "howToGet": "Craft a log into 4 planks."
+      }
+    ],
+    "pattern": [
+      "WWW",
+      "PPP"
+    ],
+    "uses": [
+      "Sleep through the night, skipping to morning",
+      "Sets your respawn point",
+      "Explodes violently if used in the Nether or the End - also used as a weapon against the Ender Dragon and for ancient debris mining"
+    ],
+    "variants": [
+      "16 dye colors; the wool color sets the bed color (Java allows re-dyeing, Bedrock requires matching wool)"
+    ],
+    "editionNote": "In Java you can re-dye a bed with dye; in Bedrock you must craft it with colored wool.",
+    "since": "Beta 1.3",
+    "related": [
+      "crafting-table",
+      "torch"
+    ],
+    "keywords": "bed how to craft sleep respawn wool planks"
+  },
+  {
+    "slug": "boat",
+    "name": "Boat",
+    "category": "Transport",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any overworld wood)",
+        "qty": 5,
+        "howToGet": "Craft 2 logs into 8 planks. The wood type sets the boat's look."
+      }
+    ],
+    "pattern": [
+      "P P",
+      "PPP"
+    ],
+    "uses": [
+      "Fast travel over water",
+      "Traps mobs that walk into it (useful for capturing villagers, zombies and even the Ender Dragon's endermen)",
+      "Prevents fall damage when landed"
+    ],
+    "variants": [
+      "Boat with Chest (boat + chest, adds 27 storage slots)",
+      "One variant per wood type plus bamboo raft"
+    ],
+    "editionNote": "Since 1.19 both editions use 5 planks only. Older Bedrock versions also needed a wooden shovel.",
+    "since": "Alpha v1.0.6",
+    "related": [
+      "chest",
+      "crafting-table"
+    ],
+    "keywords": "boat how to craft water travel planks"
+  },
+  {
+    "slug": "shield",
+    "name": "Shield",
+    "category": "Combat",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Wood Planks (any type)",
+        "qty": 6,
+        "howToGet": "Craft 2 logs into 8 planks."
+      },
+      {
+        "name": "Iron Ingot",
+        "qty": 1,
+        "howToGet": "Smelt iron ore (common in mountains and between Y=16 and Y=320, peak near Y=16 and Y=232)."
+      }
+    ],
+    "pattern": [
+      "PIP",
+      "PPP",
+      " P "
+    ],
+    "uses": [
+      "Blocks melee hits, arrows and explosions from the front when raised (right-click)",
+      "Blocks 100% of damage from most frontal attacks; axes disable it for 5 seconds",
+      "Can be decorated with a banner"
+    ],
+    "variants": [
+      "Any banner pattern applied via crafting (Java only)"
+    ],
+    "editionNote": "Applying banners to shields works in Java Edition only.",
+    "since": "1.9",
+    "related": [
+      "anvil",
+      "bow"
+    ],
+    "keywords": "shield how to craft block defense iron planks"
+  },
+  {
+    "slug": "bucket",
+    "name": "Bucket",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 3,
+        "howToGet": "Smelt iron ore in a furnace."
+      }
+    ],
+    "pattern": [
+      "I I",
+      " I "
+    ],
+    "uses": [
+      "Picks up water, lava, milk and powder snow",
+      "Water bucket clutch: place water before landing to negate all fall damage",
+      "Carries fish, axolotls and tadpoles when used on them",
+      "Lava buckets smelt 100 items as furnace fuel"
+    ],
+    "variants": [
+      "Filled variants: water, lava, milk, powder snow, and aquatic mob buckets"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Infdev",
+    "related": [
+      "furnace",
+      "shears"
+    ],
+    "keywords": "bucket how to craft water lava iron"
+  },
+  {
+    "slug": "anvil",
+    "name": "Anvil",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Block of Iron",
+        "qty": 3,
+        "howToGet": "Craft 9 iron ingots per block (27 total)."
+      },
+      {
+        "name": "Iron Ingot",
+        "qty": 4,
+        "howToGet": "Smelt iron ore. Total iron needed: 31 ingots."
+      }
+    ],
+    "pattern": [
+      "BBB",
+      " I ",
+      "III"
+    ],
+    "uses": [
+      "Repairs items keeping their enchantments",
+      "Combines enchantments from two items or an item and an enchanted book",
+      "Renames items",
+      "Damages entities it falls on"
+    ],
+    "variants": [
+      "Degrades with use: Anvil, Chipped Anvil, Damaged Anvil, then breaks"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock. Repair cost mechanics differ slightly between editions.",
+    "since": "1.4.2",
+    "related": [
+      "enchanting-table",
+      "grindstone"
+    ],
+    "keywords": "anvil how to craft repair rename iron"
+  },
+  {
+    "slug": "enchanting-table",
+    "name": "Enchanting Table",
+    "category": "Magic",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Obsidian",
+        "qty": 4,
+        "howToGet": "Mine obsidian (water touching lava source) with a diamond or netherite pickaxe."
+      },
+      {
+        "name": "Diamond",
+        "qty": 2,
+        "howToGet": "Mine diamond ore deep underground, most common near Y=-59."
+      },
+      {
+        "name": "Book",
+        "qty": 1,
+        "howToGet": "Craft 3 paper + 1 leather. Paper comes from sugar cane; leather from cows."
+      }
+    ],
+    "pattern": [
+      " B ",
+      "DOD",
+      "OOO"
+    ],
+    "uses": [
+      "Applies random enchantments to tools, weapons, armor and books using lapis lazuli and XP levels",
+      "Surrounding it with up to 15 bookshelves unlocks level 30 enchantments (one-block gap)"
+    ],
+    "variants": [
+      "No variants"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "1.0.0",
+    "related": [
+      "anvil",
+      "grindstone"
+    ],
+    "keywords": "enchanting table how to craft obsidian diamond book enchant"
+  },
+  {
+    "slug": "campfire",
+    "name": "Campfire",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 3,
+        "howToGet": "Craft planks into sticks."
+      },
+      {
+        "name": "Coal or Charcoal",
+        "qty": 1,
+        "howToGet": "Mine coal ore or smelt logs."
+      },
+      {
+        "name": "Log or Stem (any)",
+        "qty": 3,
+        "howToGet": "Chop any tree."
+      }
+    ],
+    "pattern": [
+      " S ",
+      "SCS",
+      "LLL"
+    ],
+    "uses": [
+      "Cooks up to 4 food items at once with no fuel",
+      "Light level 15",
+      "Smoke signal rises 10 blocks (24 with a hay bale underneath)",
+      "Damages mobs standing on it; can be extinguished with water or a shovel"
+    ],
+    "variants": [
+      "Soul Campfire (soul soil/soul sand instead of coal, light 10, cooks just the same)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "1.14",
+    "related": [
+      "furnace",
+      "smoker",
+      "torch"
+    ],
+    "keywords": "campfire how to craft cook light"
+  },
+  {
+    "slug": "blast-furnace",
+    "name": "Blast Furnace",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 5,
+        "howToGet": "Smelt iron ore."
+      },
+      {
+        "name": "Furnace",
+        "qty": 1,
+        "howToGet": "Craft 8 cobblestone."
+      },
+      {
+        "name": "Smooth Stone",
+        "qty": 3,
+        "howToGet": "Smelt regular stone in a furnace."
+      }
+    ],
+    "pattern": [
+      "III",
+      "IFI",
+      "SSS"
+    ],
+    "uses": [
+      "Smelts ores, raw metals and metal tools/armor twice as fast as a furnace",
+      "Only accepts smeltable mineral items - no food",
+      "Job site block for armorer villagers"
+    ],
+    "variants": [],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "1.14",
+    "related": [
+      "furnace",
+      "smoker"
+    ],
+    "keywords": "blast furnace how to craft smelt fast iron"
+  },
+  {
+    "slug": "smoker",
+    "name": "Smoker",
+    "category": "Utility",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Log or Stem (any)",
+        "qty": 4,
+        "howToGet": "Chop any tree."
+      },
+      {
+        "name": "Furnace",
+        "qty": 1,
+        "howToGet": "Craft 8 cobblestone."
+      }
+    ],
+    "pattern": [
+      " L ",
+      "LFL",
+      " L "
+    ],
+    "uses": [
+      "Cooks food twice as fast as a furnace",
+      "Only cooks food items",
+      "Job site block for butcher villagers"
+    ],
+    "variants": [],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "1.14",
+    "related": [
+      "furnace",
+      "blast-furnace",
+      "campfire"
+    ],
+    "keywords": "smoker how to craft cook food fast"
+  },
+  {
+    "slug": "shears",
+    "name": "Shears",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 2,
+        "howToGet": "Smelt iron ore."
+      }
+    ],
+    "pattern": [
+      " I",
+      "I "
+    ],
+    "uses": [
+      "Harvests wool from sheep without killing them (1-3 wool)",
+      "Collects leaves, vines, honeycomb, cobwebs and glow lichen as blocks",
+      "Disarms tripwire without triggering it",
+      "Removes a pumpkin from a snow golem"
+    ],
+    "variants": [],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Beta 1.7",
+    "related": [
+      "bucket",
+      "bed"
+    ],
+    "keywords": "shears how to craft wool honeycomb"
+  },
+  {
+    "slug": "compass",
+    "name": "Compass",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "qty": 4,
+        "howToGet": "Smelt iron ore."
+      },
+      {
+        "name": "Redstone Dust",
+        "qty": 1,
+        "howToGet": "Mine redstone ore deep underground (below Y=16, most near Y=-59)."
+      }
+    ],
+    "pattern": [
+      " I ",
+      "IRI",
+      " I "
+    ],
+    "uses": [
+      "Points to your world spawn point",
+      "Used on a lodestone it becomes a Lodestone Compass pointing to that block - works in any dimension",
+      "Crafting ingredient for maps and the recovery compass"
+    ],
+    "variants": [
+      "Recovery Compass (compass + 8 echo shards, points to your last death location)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Alpha v1.1.0",
+    "related": [
+      "clock",
+      "crafting-table"
+    ],
+    "keywords": "compass how to craft spawn lodestone redstone"
+  },
+  {
+    "slug": "clock",
+    "name": "Clock",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "qty": 4,
+        "howToGet": "Smelt gold ore (badlands has the most, near the surface) or craft from gold nuggets dropped by zombified piglins."
+      },
+      {
+        "name": "Redstone Dust",
+        "qty": 1,
+        "howToGet": "Mine redstone ore below Y=16."
+      }
+    ],
+    "pattern": [
+      " G ",
+      "GRG",
+      " G "
+    ],
+    "uses": [
+      "Shows the position of the sun and moon - tells the time of day underground",
+      "Spins randomly in the Nether and the End (no daylight there)",
+      "Piglins are attracted to gold items including clocks"
+    ],
+    "variants": [],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Alpha v1.2.0",
+    "related": [
+      "compass"
+    ],
+    "keywords": "clock how to craft time gold redstone"
+  },
+  {
+    "slug": "ladder",
+    "name": "Ladder",
+    "category": "Utility",
+    "resultCount": 3,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 7,
+        "howToGet": "Craft 2 planks vertically for 4 sticks."
+      }
+    ],
+    "pattern": [
+      "S S",
+      "SSS",
+      "S S"
+    ],
+    "uses": [
+      "Climbs vertical surfaces when placed on block sides",
+      "Stops fall damage if you grab it while falling (hold sneak)",
+      "Can hold water in place as a waterlogged block"
+    ],
+    "variants": [
+      "Vines and scaffolding are climbable alternatives"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Infdev",
+    "related": [
+      "crafting-table"
+    ],
+    "keywords": "ladder how to craft climb sticks"
+  },
+  {
+    "slug": "tnt",
+    "name": "TNT",
+    "category": "Redstone",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Gunpowder",
+        "qty": 5,
+        "howToGet": "Kill creepers, ghasts or witches. Creeper farms are the steady source."
+      },
+      {
+        "name": "Sand or Red Sand",
+        "qty": 4,
+        "howToGet": "Dig it in deserts and beaches."
+      }
+    ],
+    "pattern": [
+      "GSG",
+      "SGS",
+      "GSG"
+    ],
+    "uses": [
+      "Explodes 4 seconds after ignition (flint and steel, redstone, fire, explosions)",
+      "Clears large areas fast for mining and terraforming",
+      "Ammo for TNT cannons and dupers (Java)"
+    ],
+    "variants": [
+      "TNT Minecart (TNT + minecart, explodes on impact)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock; explosion physics differ slightly.",
+    "since": "Classic 0.26",
+    "related": [
+      "minecart"
+    ],
+    "keywords": "tnt how to craft gunpowder sand explosion"
+  },
+  {
+    "slug": "bow",
+    "name": "Bow",
+    "category": "Combat",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 3,
+        "howToGet": "Craft planks into sticks."
+      },
+      {
+        "name": "String",
+        "qty": 3,
+        "howToGet": "Kill spiders, break cobwebs with a sword, or barter with piglins."
+      }
+    ],
+    "pattern": [
+      " ST",
+      "S T",
+      " ST"
+    ],
+    "uses": [
+      "Shoots arrows; hold right-click to draw for more damage and range",
+      "Fully drawn shots can crit",
+      "Best enchantments: Power, Infinity, Flame, Punch, Unbreaking, Mending"
+    ],
+    "variants": [
+      "Crossbow (3 sticks + 2 string + 1 iron ingot + 1 tripwire hook, loads and holds arrows)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock Edition.",
+    "since": "Classic 0.24",
+    "related": [
+      "shield",
+      "fishing-rod"
+    ],
+    "keywords": "bow how to craft arrows string sticks"
+  },
+  {
+    "slug": "fishing-rod",
+    "name": "Fishing Rod",
+    "category": "Tools",
+    "resultCount": 1,
+    "station": "Crafting table",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 3,
+        "howToGet": "Craft planks into sticks."
+      },
+      {
+        "name": "String",
+        "qty": 2,
+        "howToGet": "Kill spiders or break cobwebs with a sword."
+      }
+    ],
+    "pattern": [
+      "  S",
+      " ST",
+      "S T"
+    ],
+    "uses": [
+      "Catches fish, treasure (enchanted books, name tags, saddles) and junk from water",
+      "Treasure fishing needs open water: 5x4x5 area of water or lily pads with air above",
+      "Hooks and pulls mobs and players toward you",
+      "Best enchantments: Luck of the Sea, Lure, Unbreaking, Mending"
+    ],
+    "variants": [
+      "Carrot on a Stick (fishing rod + carrot, steers pigs)",
+      "Warped Fungus on a Stick (steers striders)"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock; fishing loot tables match.",
+    "since": "Alpha v1.1.1",
+    "related": [
+      "bow"
+    ],
+    "keywords": "fishing rod how to craft fish treasure"
+  }
+]

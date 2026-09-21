@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import mobs from '../../data/mobs.json';
+export function getStaticPaths() {
+  return mobs.map(m => ({ params: { slug: m.slug }, props: { m } }));
+}
+const { m } = Astro.props;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: `${m.name} in Minecraft: drops, spawning and how to deal with it`,
+    description: `${m.name}: ${m.type}. ${m.behavior}`,
+    mainEntityOfPage: `https://minepedia.app/mobs/${m.slug}/`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Mobs', item: 'https://minepedia.app/mobs/' },
+      { '@type': 'ListItem', position: 3, name: m.name, item: `https://minepedia.app/mobs/${m.slug}/` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: `Where do you find ${m.name} in Minecraft?`,
+        acceptedAnswer: { '@type': 'Answer', text: m.where } },
+      { '@type': 'Question', name: `What does ${m.name} drop?`,
+        acceptedAnswer: { '@type': 'Answer', text: m.drops.map(d => `${d.item}: ${d.qty}${d.notes ? ' - ' + d.notes : ''}`).join('. ') } }
+    ]
+  }
+];
+---
+<Base title={`${m.name} - drops, spawn, how to kill`} description={`${m.name} in Minecraft: where to find it, what it drops (${m.drops.map(d => d.item.split('(')[0].trim()).join(', ')}), how to kill it and how it behaves.`} canonicalPath={`/mobs/${m.slug}/`} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/mobs/">Mobs</a> / {m.name}</nav>
+    <h1>{m.name}</h1>
+    <p>
+      <span class="badge">{m.type}</span>
+      <span class="badge">Health: {m.health}</span>
+      {m.editions.map(ed => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
+    </p>
+    <div class="quick-answer"><strong>Quick answer:</strong> {m.where}</div>
+    <h2>How to find {m.name}</h2>
+    <p>{m.where}</p>
+    <p><strong>Spawn conditions:</strong> {m.spawnConditions}</p>
+    <h2>Drops</h2>
+    <table class="data">
+      <tr><th>Item</th><th>Amount</th><th>Notes</th></tr>
+      {m.drops.map(d => <tr><td>{d.item}</td><td>{d.qty}</td><td>{d.notes}</td></tr>)}
+    </table>
+    <h2>How to kill {m.name}</h2>
+    <p>{m.howToKill}</p>
+    <h2>Behavior</h2>
+    <p>{m.behavior}</p>
+    <h2>Taming and breeding</h2>
+    <p>{m.tameOrBreed}</p>
+    {m.related.length > 0 && (
+      <p><strong>Related mobs:</strong> {m.related.map(rel => {
+        const target = mobs.find(x => x.slug === rel);
+        return target ? <a href={`/mobs/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
+      })}</p>
+    )}
+  </div>
+</Base>

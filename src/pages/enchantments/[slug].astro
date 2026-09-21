@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import ench from '../../data/enchantments.json';
+export function getStaticPaths() {
+  return ench.map(e => ({ params: { slug: e.slug }, props: { e } }));
+}
+const { e } = Astro.props;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: `${e.name} enchantment in Minecraft: what it does and how to get it`,
+    description: e.whatItDoes,
+    mainEntityOfPage: `https://minepedia.app/enchantments/${e.slug}/`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Enchantments', item: 'https://minepedia.app/enchantments/' },
+      { '@type': 'ListItem', position: 3, name: e.name, item: `https://minepedia.app/enchantments/${e.slug}/` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: `What does ${e.name} do in Minecraft?`,
+        acceptedAnswer: { '@type': 'Answer', text: e.whatItDoes } },
+      { '@type': 'Question', name: `What is the max level of ${e.name}?`,
+        acceptedAnswer: { '@type': 'Answer', text: `The maximum level of ${e.name} is ${e.maxLevel}.` } }
+    ]
+  }
+];
+---
+<Base title={`${e.name} enchantment`} description={`${e.name} in Minecraft (max level ${e.maxLevel}): ${e.whatItDoes.split('.')[0]}. How to get it, best uses and incompatibilities.`} canonicalPath={`/enchantments/${e.slug}/`} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/enchantments/">Enchantments</a> / {e.name}</nav>
+    <h1>{e.name}</h1>
+    <p>
+      <span class="badge">Max level {e.maxLevel}</span>
+      {e.treasure && <span class="badge" style="color:var(--gold);border-color:#6b5a2a">Treasure</span>}
+      {e.editions.map(ed => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
+    </p>
+    <div class="quick-answer"><strong>Quick answer:</strong> {e.whatItDoes}</div>
+    <h2>Applies to</h2>
+    <p>{e.appliesTo}.</p>
+    <h2>How to get {e.name}</h2>
+    <ul>{e.howToGet.map(h => <li>{h}</li>)}</ul>
+    <h2>Best uses</h2>
+    <p>{e.bestUses}</p>
+    {e.incompatibleWith.length > 0 && (
+      <div>
+        <h2>Incompatible with</h2>
+        <p>{e.incompatibleWith.join(', ')} - an item can only hold one of these.</p>
+      </div>
+    )}
+    {e.related.length > 0 && (
+      <p><strong>Related:</strong> {e.related.map(rel => {
+        const target = ench.find(x => x.slug === rel);
+        return target ? <a href={`/enchantments/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
+      })}</p>
+    )}
+  </div>
+</Base>

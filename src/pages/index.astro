@@ -2,6 +2,9 @@
 import Base from '../layouts/Base.astro';
 import SearchBox from '../components/SearchBox.astro';
 import commands from '../data/commands.json';
+import recipes from '../data/recipes.json';
+import enchantments from '../data/enchantments.json';
+import mobs from '../data/mobs.json';
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: 'Minepedia', url: 'https://minepedia.app/',
@@ -34,6 +37,33 @@ const cats = [
       <div class="grid-cards">
         {cats.map(cat => (
           <a class="card" href={cat.href}><h3>{cat.name}</h3><p>{cat.desc}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      <h2>Latest crafting recipes</h2>
+      <p class="sub">Step-by-step recipes with materials and uses.</p>
+      <div class="grid-cards">
+        {recipes.slice(0, 6).map(r => (
+          <a class="card" href={`/recipes/${r.slug}/`}><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      <h2>Enchantments</h2>
+      <p class="sub">What they do and how to get them.</p>
+      <div class="grid-cards">
+        {enchantments.slice(0, 6).map(e => (
+          <a class="card" href={`/enchantments/${e.slug}/`}><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      <h2>Mob database</h2>
+      <p class="sub">Drops, spawning and strategies.</p>
+      <div class="grid-cards">
+        {mobs.slice(0, 6).map(m => (
+          <a class="card" href={`/mobs/${m.slug}/`}><h3>{m.name}</h3><p>{m.type}</p></a>
         ))}
       </div>
     </section>

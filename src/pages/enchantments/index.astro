@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import ench from '../../data/enchantments.json';
+---
+<Base title="Minecraft Enchantments" description="Every Minecraft enchantment explained: what it does, max level, how to get it, best uses and incompatibilities. Java and Bedrock." canonicalPath="/enchantments/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Enchantments</nav>
+    <h1>Minecraft Enchantments</h1>
+    <p class="sub">{ench.length} enchantments with max levels, best uses and how to get each one.</p>
+    <SearchBox placeholder="Search enchantments, items, commands..." />
+    <div class="grid-cards" style="margin-top:24px">
+      {ench.map(e => (
+        <a class="card" href={`/enchantments/${e.slug}/`}>
+          <h3>{e.name} <span class="badge">{e.maxLevel}</span></h3>
+          <p>{e.whatItDoes.split('.')[0]}.</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

@@ -1,10 +1,14 @@
 import commands from '../data/commands.json';
+import recipes from '../data/recipes.json';
+import enchantments from '../data/enchantments.json';
+import mobs from '../data/mobs.json';
 
 export async function GET() {
   const items = [
-    ...commands.map(c => ({
-      name: `${c.name} command`, kind: 'command', url: `/commands/${c.slug}/`, keywords: c.keywords
-    }))
+    ...commands.map(c => ({ name: `${c.name} command`, kind: 'command', url: `/commands/${c.slug}/`, keywords: c.keywords })),
+    ...recipes.map(r => ({ name: `${r.name} recipe`, kind: 'recipe', url: `/recipes/${r.slug}/`, keywords: r.keywords })),
+    ...enchantments.map(e => ({ name: e.name, kind: 'enchantment', url: `/enchantments/${e.slug}/`, keywords: e.keywords })),
+    ...mobs.map(m => ({ name: m.name, kind: 'mob', url: `/mobs/${m.slug}/`, keywords: m.keywords }))
   ];
   return new Response(JSON.stringify(items), { headers: { 'Content-Type': 'application/json' } });
 }
