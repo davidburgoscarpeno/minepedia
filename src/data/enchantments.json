@@ -450,5 +450,84 @@
       "unbreaking"
     ],
     "keywords": "aqua affinity enchantment underwater mining speed"
+  },
+  {
+    "slug": "depth-strider",
+    "name": "Depth Strider",
+    "maxLevel": "III",
+    "appliesTo": "Boots",
+    "whatItDoes": "Reduces how much water slows your movement: each level removes one third of the penalty, so Depth Strider III lets you swim at full walking speed. Also reduces how fast flowing water pushes you.",
+    "howToGet": [
+      "Enchanting table (all levels)",
+      "Enchanted books from loot, fishing and librarian villagers",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Core piece of the diving set with Respiration III and Aqua Affinity for ocean monuments and underwater builds.",
+    "incompatibleWith": [
+      "Frost Walker"
+    ],
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.8 (Bountiful Update)",
+    "related": [
+      "respiration",
+      "aqua-affinity",
+      "feather-falling"
+    ],
+    "keywords": "depth strider enchantment boots swim faster underwater"
+  },
+  {
+    "slug": "soul-speed",
+    "name": "Soul Speed",
+    "maxLevel": "III",
+    "appliesTo": "Boots",
+    "whatItDoes": "Increases movement speed on soul sand and soul soil - Soul Speed III makes you slightly faster on those blocks than normal walking on land. Each step on a soul block has a 4% chance to drain 1 boot durability.",
+    "howToGet": [
+      "Barter with piglins (gold ingots) - they can offer enchanted books or iron boots with Soul Speed",
+      "Loot bastion remnant chests",
+      "Not available from the enchanting table: it is a treasure enchantment"
+    ],
+    "bestUses": "Soul sand valleys and nether highways. Bring spare boots or Mending - the durability drain adds up on long runs.",
+    "incompatibleWith": [],
+    "treasure": true,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "depth-strider",
+      "feather-falling",
+      "unbreaking"
+    ],
+    "keywords": "soul speed enchantment boots soul sand bartering treasure"
+  },
+  {
+    "slug": "swift-sneak",
+    "name": "Swift Sneak",
+    "maxLevel": "III",
+    "appliesTo": "Leggings",
+    "whatItDoes": "Increases sneaking speed: each level adds 15% of walking speed, so Swift Sneak III lets you sneak at 75% of normal walking speed.",
+    "howToGet": [
+      "Loot chests in ancient cities in the deep dark - the only source in the game",
+      "Not available from the enchanting table, trading or fishing: it is a treasure enchantment exclusive to ancient cities"
+    ],
+    "bestUses": "Ancient city looting runs - sneak past sculk sensors and the Warden much faster. Apply it to leggings in an anvil.",
+    "incompatibleWith": [],
+    "treasure": true,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "soul-speed",
+      "depth-strider",
+      "mending"
+    ],
+    "keywords": "swift sneak enchantment leggings ancient city warden sneaking faster"
   }
 ]

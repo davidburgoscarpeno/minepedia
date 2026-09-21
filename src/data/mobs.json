@@ -690,5 +690,141 @@
       "zombie"
     ],
     "keywords": "pillager raid bad omen ominous bottle outpost captain drops"
+  },
+  {
+    "slug": "hoglin",
+    "name": "Hoglin",
+    "type": "Hostile",
+    "health": "40 (20 hearts)",
+    "where": "Crimson forests and bastion remnants (hoglin stables).",
+    "howToKill": "Their charge knocks you high into the air - fight with your back to a wall, never near a cliff or lava. They flee from warped fungus placed or held nearby, and from respawn anchors and nether portals.",
+    "drops": [
+      {
+        "item": "Raw Porkchop",
+        "qty": "2-4 (up to 7 with Looting III)",
+        "notes": "Cooked if it dies on fire - hoglin farms are solid food farms"
+      },
+      {
+        "item": "Leather",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": ""
+      }
+    ],
+    "spawnConditions": "Crimson forests at any light level; never spawn on nether wart blocks. Breedable with crimson fungus.",
+    "behavior": "Charges players with huge knockback. Runs from warped fungus, portals and respawn anchors. Zombifies into a zoglin after 15 seconds in the Overworld or End.",
+    "tameOrBreed": "Cannot be tamed. Breed two adults with crimson fungus; the baby follows parents. One of the few hostile mobs that can be bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "piglin",
+      "ghast",
+      "cow"
+    ],
+    "keywords": "hoglin drops porkchop breed crimson fungus zoglin"
+  },
+  {
+    "slug": "guardian",
+    "name": "Guardian",
+    "type": "Hostile",
+    "health": "30 (15 hearts)",
+    "where": "In and around ocean monuments - the only place they spawn.",
+    "howToKill": "Fight them out of water or with Depth Strider + Respiration gear. Their laser charges for 2 seconds: break line of sight behind a pillar to reset it. In melee, watch the spikes - hitting a guardian with extended spikes hurts you back (Thorns-like).",
+    "drops": [
+      {
+        "item": "Prismarine Shard",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Prismarine blocks, sea lanterns"
+      },
+      {
+        "item": "Prismarine Crystals",
+        "qty": "0-1",
+        "notes": "40% chance; sea lanterns"
+      },
+      {
+        "item": "Raw Cod",
+        "qty": "0-1",
+        "notes": "40% chance; cooked if killed by fire"
+      }
+    ],
+    "spawnConditions": "Only inside the 58x58 ocean monument bounding box, in water. Guardian farms drain the monument and funnel spawns into kill chambers.",
+    "behavior": "Swims around the monument and zaps players, squid and axolotls with a charging laser. Spikes extend when it takes damage and reflect part of melee hits.",
+    "tameOrBreed": "Cannot be tamed or bred. Axolotls attack guardians and help you raid monuments.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.8 (Bountiful Update)",
+    "related": [
+      "axolotl",
+      "drowned",
+      "elder-guardian"
+    ],
+    "keywords": "guardian ocean monument drops prismarine sea lantern farm"
+  },
+  {
+    "slug": "witch",
+    "name": "Witch",
+    "type": "Hostile",
+    "health": "26 (13 hearts)",
+    "where": "Swamp witch huts at night, raids (from wave 3-4), and anywhere a villager is struck by lightning.",
+    "howToKill": "Rush it before it drinks: witches drink Potions of Healing (4 hearts), Fire Resistance, Water Breathing and Swiftness. A bow from outside its potion range works too. Never let it splash you near other mobs.",
+    "drops": [
+      {
+        "item": "Glass Bottle / Glowstone Dust / Gunpowder / Redstone / Spider Eye / Stick / Sugar",
+        "qty": "4-8 item types, 0-2 each (Looting adds more)",
+        "notes": "Witch farms produce all of these, especially redstone and glowstone"
+      },
+      {
+        "item": "Potion being drunk",
+        "qty": "1",
+        "notes": "8.5% chance (+1% per Looting) if killed mid-drink"
+      }
+    ],
+    "spawnConditions": "Witch huts in swamps (a 7x9x4 spawn volume), raids, and villagers converted by lightning. Raid farms double as witch farms.",
+    "behavior": "Throws splash potions of Poison (up to 44s), Slowness, Weakness and Harming. Drinks counter-potions: heals when hurt, fire resistance when burning, water breathing when submerged, swiftness when far away.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "pillager",
+      "villager",
+      "zombie"
+    ],
+    "keywords": "witch drops redstone farm potions swamp hut"
+  },
+  {
+    "slug": "phantom",
+    "name": "Phantom",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "The Overworld night sky, above players who have not slept or died for 3+ in-game days.",
+    "howToKill": "They swoop down in a straight line - sidestep and hit them as they pass, or shoot them circling overhead. They burn in daylight. Cats scare phantoms away, so keep one nearby or sleep regularly.",
+    "drops": [
+      {
+        "item": "Phantom Membrane",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Repairs elytra on an anvil; brews Potions of Slow Falling"
+      }
+    ],
+    "spawnConditions": "Above sea level at night or during thunderstorms, targeting players with 3+ days without sleep (the insomnia timer resets when you sleep or die). Spawn attempts start after 1 hour of insomnia.",
+    "behavior": "Circles high above its target and dives in straight attack runs. Undead: burns in sunlight, despawns at dawn, hurt by Healing potions and healed by Harming.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "zombie",
+      "skeleton",
+      "creeper"
+    ],
+    "keywords": "phantom membrane elytra repair sleep insomnia spawn"
   }
 ]

@@ -1388,5 +1388,176 @@
       "book"
     ],
     "keywords": "ender chest recipe how to make craft obsidian eye of ender"
+  },
+  {
+    "slug": "crossbow",
+    "name": "Crossbow",
+    "category": "Weapons",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Stick",
+        "qty": 3,
+        "howToGet": "Craft from 2 wood planks stacked vertically."
+      },
+      {
+        "name": "Iron Ingot",
+        "qty": 1,
+        "howToGet": "Smelt iron ore or craft from iron nuggets."
+      },
+      {
+        "name": "String",
+        "qty": 2,
+        "howToGet": "Kill spiders, break cobwebs with a sword or shears, or fish."
+      },
+      {
+        "name": "Tripwire Hook",
+        "qty": 1,
+        "howToGet": "Craft from an iron ingot, a stick and a plank in a column, or loot jungle temples."
+      }
+    ],
+    "pattern": [
+      "SIS",
+      "THT",
+      " S "
+    ],
+    "uses": [
+      "Ranged weapon: load with arrows or firework rockets (rockets explode on impact with multishot spreads)",
+      "Higher damage than a bow (9 damage average, up to 11 with enchanted crits) but slower to reload",
+      "Pillagers and fletcher villagers are the other sources - a crossbow drops from pillagers 8.5% of the time"
+    ],
+    "variants": [
+      "Enchantments: Quick Charge III (faster reload), Multishot (3 arrows), Piercing IV (through multiple mobs). Multishot and Piercing are incompatible"
+    ],
+    "editionNote": "Same recipe in both editions. In Java, crossbows held by piglins and pillagers appear loaded.",
+    "since": "1.14 (Village & Pillage)",
+    "related": [
+      "bow",
+      "fishing-rod",
+      "shield"
+    ],
+    "keywords": "crossbow recipe how to make craft multishot piercing quick charge"
+  },
+  {
+    "slug": "firework-rocket",
+    "name": "Firework Rocket",
+    "category": "Utility",
+    "resultCount": 3,
+    "station": "Crafting Table (3x3 or 2x2 grid)",
+    "ingredients": [
+      {
+        "name": "Paper",
+        "qty": 1,
+        "howToGet": "Craft from 3 sugar cane in a row."
+      },
+      {
+        "name": "Gunpowder",
+        "qty": 1,
+        "howToGet": "Kill creepers (0-2, up to 5 with Looting III), ghasts or witches. Use up to 3 gunpowder for a longer flight."
+      }
+    ],
+    "pattern": null,
+    "uses": [
+      "Elytra boosting: the more gunpowder (max 3), the longer the boost - flight 3 rockets are the standard",
+      "Crossbow ammunition: add a firework star to make the rocket explode on impact",
+      "Celebration fireworks: craft with a firework star (gunpowder + dye + extras) for colors, shapes, trails and twinkle"
+    ],
+    "variants": [
+      "Shapeless: 1 paper + 1-3 gunpowder. Add a firework star for an explosive version; leave it out for a pure elytra rocket with no explosion"
+    ],
+    "editionNote": "Identical in Java and Bedrock. Rockets without a star deal no damage - always use those for elytra flight.",
+    "since": "1.4.6",
+    "related": [
+      "tnt",
+      "bow",
+      "paper"
+    ],
+    "keywords": "firework rocket recipe elytra boost gunpowder flight duration 3"
+  },
+  {
+    "slug": "lead",
+    "name": "Lead",
+    "category": "Utility",
+    "resultCount": 2,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "String",
+        "qty": 4,
+        "howToGet": "Kill spiders, break cobwebs with a sword or shears, or fish."
+      },
+      {
+        "name": "Slimeball",
+        "qty": 1,
+        "howToGet": "Kill tiny slimes (slime chunks below Y=40 or swamps at night) or collect from sneezing baby pandas."
+      }
+    ],
+    "pattern": [
+      "SS ",
+      "SB ",
+      "  S"
+    ],
+    "uses": [
+      "Tie up animals: attach to fences or drag horses, cows, llamas and boats-with-passengers around",
+      "The alternative to building canals and tunnels for moving animals long distances",
+      "Also drops from wandering trader llamas separating from their caravan"
+    ],
+    "variants": [
+      "No variants; leads break if stretched beyond 10 blocks"
+    ],
+    "editionNote": "Identical recipe in Java and Bedrock. In Java you can leash multiple animals at once, one per lead.",
+    "since": "1.6 (Horse Update)",
+    "related": [
+      "fishing-rod",
+      "chest",
+      "boat"
+    ],
+    "keywords": "lead recipe how to make craft leash slimeball string animals"
+  },
+  {
+    "slug": "dispenser",
+    "name": "Dispenser",
+    "category": "Redstone",
+    "resultCount": 1,
+    "station": "Crafting Table (3x3 grid)",
+    "ingredients": [
+      {
+        "name": "Cobblestone",
+        "qty": 7,
+        "howToGet": "Mine stone with any pickaxe."
+      },
+      {
+        "name": "Bow",
+        "qty": 1,
+        "howToGet": "Craft from 3 sticks + 3 string, or get from skeletons. A damaged bow works too."
+      },
+      {
+        "name": "Redstone Dust",
+        "qty": 1,
+        "howToGet": "Mine redstone ore below Y=16 with an iron pickaxe or better."
+      }
+    ],
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CRC"
+    ],
+    "uses": [
+      "Fires or uses whatever is inside when powered: arrows for traps, water buckets for farms, shears for automatic wool farms, bone meal for crop accelerators",
+      "Core component of automatic farms, item elevators and TNT cannons",
+      "Unlike a dropper, it uses the item instead of just ejecting it"
+    ],
+    "variants": [
+      "Dropper: same shell with a redstone instead of the bow - ejects items without using them"
+    ],
+    "editionNote": "Identical recipe in both editions. In Java, dispensers can place shulker boxes and powder snow; behavior for a few items differs on Bedrock.",
+    "since": "Beta 1.2",
+    "related": [
+      "piston",
+      "hopper",
+      "tnt"
+    ],
+    "keywords": "dispenser recipe how to make craft redstone automatic farm bow"
   }
 ]
