@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import guides from '../../data/guides.json';
+import GameShot from '../../components/GameShot.astro';
 ---
 <Base title="Minecraft Guides" description="Evergreen Minecraft guides: how to find diamonds, make a nether portal, tame horses, breed villagers, get elytra, enchant and more. Java and Bedrock." canonicalPath="/guides/">
   <div class="container">
@@ -9,6 +10,7 @@ import guides from '../../data/guides.json';
     <h1>Minecraft Guides</h1>
     <p class="sub">{guides.length} step-by-step guides with quick answers, materials and FAQs.</p>
     <SearchBox placeholder="Search guides, items, commands..." />
+    <GameShot id="guides-block-breaking" />
     <div class="grid-cards" style="margin-top:24px">
       {guides.map(g => (
         <a class="card" href={`/guides/${g.slug}/`}>

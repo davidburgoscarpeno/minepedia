@@ -1,10 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import mobs from '../../data/mobs.json';
+import GameShot from '../../components/GameShot.astro';
 export function getStaticPaths() {
   return mobs.map(m => ({ params: { slug: m.slug }, props: { m } }));
 }
 const { m } = Astro.props;
+const SHOT_BY_SLUG = { 'piglin': 'mobs-piglins-bartering' };
+const shotId = SHOT_BY_SLUG[m.slug];
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -42,6 +45,7 @@ const jsonLd = [
       {m.editions.map(ed => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
     </p>
     <div class="quick-answer"><strong>Quick answer:</strong> {m.where}</div>
+    {shotId && <GameShot id={shotId} />}
     <h2>How to find {m.name}</h2>
     <p>{m.where}</p>
     <p><strong>Spawn conditions:</strong> {m.spawnConditions}</p>

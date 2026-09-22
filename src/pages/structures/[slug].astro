@@ -1,10 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import structures from '../../data/structures.json';
+import GameShot from '../../components/GameShot.astro';
 export function getStaticPaths() {
   return structures.map(s => ({ params: { slug: s.slug }, props: { s } }));
 }
 const { s } = Astro.props;
+const SHOT_BY_SLUG = { 'ancient-city': 'biomes-deep-dark' };
+const shotId = SHOT_BY_SLUG[s.slug];
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -37,6 +40,7 @@ const jsonLd = [
     <nav class="crumbs"><a href="/">Home</a> / <a href="/structures/">Structures</a> / {s.name}</nav>
     <h1>{s.name}</h1>
     <p><span class="badge">{s.dimension}</span></p>
+    {shotId && <GameShot id={shotId} />}
     <h2>How to find it</h2>
     <ul>{s.howToFind.map(h => <li>{h}</li>)}</ul>
     <h2>Loot</h2>

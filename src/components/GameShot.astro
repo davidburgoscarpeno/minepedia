@@ -1,0 +1,11 @@
+---
+import shots from '../data/screenshots.json';
+interface Props { id: string }
+const { id } = Astro.props;
+const s = shots.find(x => x.id === id);
+if (!s) throw new Error(`GameShot: unknown id ${id}`);
+---
+<figure class="gameshot" style="margin:20px 0">
+  <img src={`/screenshots/${s.file}`} alt={s.alt} width={s.w} height={s.h} loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block" />
+  <figcaption style="font-size:12px;opacity:.65;margin-top:6px">{s.caption}. Gameplay screenshot by <a href={s.source} rel="noopener">{s.author}</a> via Wikimedia Commons, <a href={s.licenseUrl} rel="noopener">{s.license}</a>.</figcaption>
+</figure>

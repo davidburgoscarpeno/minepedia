@@ -1,10 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import guides from '../../data/guides.json';
+import GameShot from '../../components/GameShot.astro';
 export function getStaticPaths() {
   return guides.map(g => ({ params: { slug: g.slug }, props: { g } }));
 }
 const { g } = Astro.props;
+const SHOT_BY_SLUG = { 'how-to-find-diamonds': 'guides-mining-diamonds', 'how-to-find-end-city': 'structures-end-city' };
+const shotId = SHOT_BY_SLUG[g.slug];
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'HowTo',
@@ -35,6 +38,7 @@ const jsonLd = [
     <h1>{g.name}</h1>
     <p><span class="badge">Guide</span> <span class="badge java">Java</span> <span class="badge bedrock">Bedrock</span></p>
     <div class="quick-answer"><strong>Quick answer:</strong> {g.quickAnswer}</div>
+    {shotId && <GameShot id={shotId} />}
     <h2>What you need</h2>
     <ul>{g.materials.map(m => <li>{m}</li>)}</ul>
     <h2>Step by step</h2>

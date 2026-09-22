@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import villagers from '../../data/villagers.json';
+import GameShot from '../../components/GameShot.astro';
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -29,6 +30,7 @@ const jsonLd = [
     <h1>Minecraft Villager Trades</h1>
     <p class="sub">All 13 professions with complete trade tables, verified against the Minecraft Wiki. Java and Bedrock.</p>
     <SearchBox placeholder="Search villagers, mobs, recipes..." />
+    <GameShot id="villagers-114" />
 
     <div class="quick-answer"><strong>Quick answer:</strong> Give an unemployed villager a job by placing a workstation block next to it (a lectern makes a librarian, a composter a farmer...). Trade to level it up from Novice to Master and unlock better trades. Cure zombie villagers for permanent discounts, and never hit villagers you trade with.</div>
 

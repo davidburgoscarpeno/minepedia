@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import biomes from '../../data/biomes.json';
+import GameShot from '../../components/GameShot.astro';
 ---
 <Base title="Minecraft Biomes" description="Minecraft biome guide: resources, mobs, structures and tips for plains, desert, jungle, badlands, deep dark, swamp and more. Java and Bedrock." canonicalPath="/biomes/">
   <div class="container">
@@ -9,6 +10,7 @@ import biomes from '../../data/biomes.json';
     <h1>Minecraft Biomes</h1>
     <p class="sub">{biomes.length} biomes: what to find, what to fear and when to go.</p>
     <SearchBox placeholder="Search biomes, mobs, items..." />
+    <GameShot id="biomes-frozen-ocean" />
     <div class="grid-cards">
       {biomes.map(b => (
         <a class="card" href={`/biomes/${b.slug}/`}>

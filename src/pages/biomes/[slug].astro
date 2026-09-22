@@ -1,10 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import biomes from '../../data/biomes.json';
+import GameShot from '../../components/GameShot.astro';
 export function getStaticPaths() {
   return biomes.map(b => ({ params: { slug: b.slug }, props: { b } }));
 }
 const { b } = Astro.props;
+const SHOT_BY_SLUG = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city' };
+const shotId = SHOT_BY_SLUG[b.slug];
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -38,6 +41,7 @@ const jsonLd = [
     <h1>{b.name}</h1>
     <p><span class="badge">{b.category}</span></p>
     <p>{b.description}</p>
+    {shotId && <GameShot id={shotId} />}
     <h2>Resources</h2>
     <ul>{b.resources.map(r => <li>{r}</li>)}</ul>
     <h2>Mobs</h2>

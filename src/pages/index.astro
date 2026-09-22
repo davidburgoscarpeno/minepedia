@@ -6,6 +6,7 @@ import recipes from '../data/recipes.json';
 import enchantments from '../data/enchantments.json';
 import mobs from '../data/mobs.json';
 import guides from '../data/guides.json';
+import GameShot from '../components/GameShot.astro';
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: 'Minepedia', url: 'https://minepedia.app/',
@@ -41,6 +42,7 @@ const cats = [
       <p>Guides, recipes, commands, enchantments, mobs and tools. Accurate for Java and Bedrock.</p>
       <img src="/hero.svg" alt="Pixel-art voxel landscape: blocky mountains, trees and sun" width="1200" height="360" loading="eager" style="width:100%;max-width:760px;height:auto;border-radius:14px;margin:0 auto 22px;display:block" />
       <SearchBox autofocus={true} />
+      <GameShot id="home-mountains" />
     </section>
     <section class="section">
       <h2>Categories</h2>
