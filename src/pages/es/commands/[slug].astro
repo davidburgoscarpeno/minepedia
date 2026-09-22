@@ -1,0 +1,9 @@
+---
+import CommandDetail from '../../../components/pages/CommandDetail.astro';
+import commands from '../../../data/commands.json';
+export function getStaticPaths() {
+  return commands.map(c => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props;
+---
+<CommandDetail c={c} lang="es" />

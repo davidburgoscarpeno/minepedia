@@ -1,0 +1,98 @@
+---
+import Base from '../../layouts/Base.astro';
+import commands from '../../data/commands.json';
+import commandsEs from '../../data/commands-es.json';
+
+interface Props { c: any; lang: 'en' | 'es'; }
+const { c, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (commandsEs as any)[c.slug] : null;
+const summary = ov?.summary ?? c.summary;
+const description = ov?.description ?? c.description;
+const targets = ov?.targets ?? c.targets;
+const permission = ov?.permission ?? c.permission;
+const tips: string[] = ov?.tips ?? c.tips;
+const examples = c.examples.map((ex: any, i: number) => ({ ...ex, note: ov?.notes?.[i] ?? ex.note }));
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Comandos', crumbHref: '/es/commands/',
+  h1: `Comando ${c.name} de Minecraft`,
+  since: 'Desde', quickLabel: 'Respuesta rápida:', syntaxLabel: 'Sintaxis:',
+  syntaxH: 'Sintaxis', edition: 'Edición', syntaxCol: 'Sintaxis',
+  targetsLabel: 'Objetivos / argumentos:', requiresLabel: 'Requiere:',
+  examplesH: 'Ejemplos', tipsH: 'Consejos', relatedH: 'Comandos relacionados',
+  copy: 'Copiar', copied: 'Copiado',
+  title: `Comando ${c.name}`,
+  desc: `${c.name} en Minecraft: ${summary} Sintaxis, ejemplos y diferencias Java/Bedrock.`,
+  canonical: `/es/commands/${c.slug}/`, alt: `/commands/${c.slug}/`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Commands', crumbHref: '/commands/',
+  h1: `Minecraft ${c.name} command`,
+  since: 'Since', quickLabel: 'Quick answer:', syntaxLabel: 'Syntax:',
+  syntaxH: 'Syntax', edition: 'Edition', syntaxCol: 'Syntax',
+  targetsLabel: 'Targets / arguments:', requiresLabel: 'Requires:',
+  examplesH: 'Examples', tipsH: 'Tips', relatedH: 'Related commands',
+  copy: 'Copy', copied: 'Copied',
+  title: `${c.name} command`,
+  desc: `${c.name} in Minecraft: ${summary} Syntax, examples and Java/Bedrock differences.`,
+  canonical: `/commands/${c.slug}/`, alt: `/es/commands/${c.slug}/`
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.h1,
+    description: summary,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: c.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {c.name}</nav>
+    <h1>{L.h1}</h1>
+    <p>
+      {c.editions.map((e: string) => <span class={`badge ${e}`}>{e === 'java' ? 'Java Edition' : 'Bedrock Edition'}</span>)}
+      <span class="badge">{L.since} {c.since}</span>
+    </p>
+    <div class="quick-answer"><strong>{L.quickLabel}</strong> {summary} {L.syntaxLabel} <code>{c.syntax}</code></div>
+    <p>{description}</p>
+    <h2>{L.syntaxH}</h2>
+    <table class="data">
+      <tr><th>{L.edition}</th><th>{L.syntaxCol}</th></tr>
+      <tr><td>Java</td><td><code>{c.syntax}</code></td></tr>
+      <tr><td>Bedrock</td><td><code>{c.syntaxBedrock}</code></td></tr>
+    </table>
+    <p><strong>{L.targetsLabel}</strong> {targets}. <strong>{L.requiresLabel}</strong> {permission}.</p>
+    <h2>{L.examplesH}</h2>
+    {examples.map((ex: any) => (
+      <div class="copy-cmd">
+        <code>{ex.code}</code>
+        <button class="copy-btn" data-copy={ex.code} data-label={L.copy} data-copied={L.copied}>{L.copy}</button>
+      </div>
+      <p style="margin-top:-6px;color:var(--text-dim);font-size:.9rem">{ex.note}</p>
+    ))}
+    <h2>{L.tipsH}</h2>
+    <ul>{tips.map(t => <li>{t}</li>)}</ul>
+    <h2>{L.relatedH}</h2>
+    <p>{c.related.map((r: string) => <a href={isES ? `/es/commands/${r.replace('/', '')}/` : `/commands/${r.replace('/', '')}/`} style="margin-right:12px">{r}</a>)}</p>
+  </div>
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        await navigator.clipboard.writeText(btn.dataset.copy || '');
+        btn.textContent = btn.dataset.copied || 'Copied';
+        setTimeout(() => (btn.textContent = btn.dataset.label || 'Copy'), 1500);
+      });
+    });
+  </script>
+</Base>

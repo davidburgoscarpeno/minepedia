@@ -1,0 +1,471 @@
+{
+ "give": {
+  "summary": "Da uno o más objetos a un jugador.",
+  "description": "El comando /give añade objetos directamente al inventario de un jugador, sin craftearlos ni encontrarlos. En Java Edition también puedes adjuntar datos NBT para personalizar el objeto; Bedrock Edition usa un valor de datos y el formato de componentes json.",
+  "targets": "@p jugador más cercano, @a todos los jugadores, @r jugador aleatorio, @s tú mismo, @e entidades (no para /give)",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Los nombres de objetos necesitan el namespace minecraft: en Java Edition; en Bedrock es opcional.",
+   "La cantidad es opcional y por defecto es 1. El tamaño máximo de stack sigue aplicando por objeto.",
+   "En Java 1.20.5+, el NBT de /give se sustituyó por componentes de objeto, p. ej. /give @s diamond_sword[minecraft:custom_name='{\"text\":\"Excalibur\"}']."
+  ],
+  "notes": [
+   "Da al jugador más cercano un stack de 64 diamantes",
+   "Date una espada de hierro",
+   "Da al jugador Steve 3 manzanas doradas encantadas"
+  ]
+ },
+ "tp": {
+  "summary": "Teletransporta a un jugador o entidad a unas coordenadas o a otra entidad.",
+  "description": "/tp (alias de /teleport) mueve al instante jugadores o entidades a unas coordenadas exactas, o a la posición de otra entidad. Las coordenadas pueden ser absolutas, relativas (~) o, en Java Edition, locales (^) según hacia dónde mire el objetivo.",
+  "targets": "@s, @p, @a, @r, @e o un nombre de jugador; coordenadas x y z",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Usa ~ delante de un número para moverte en relación a la posición actual.",
+   "Teletransportarse a chunks sin cargar los carga; valores de y muy altos pueden causar daño por caída al llegar.",
+   "En Java Edition /teleport y /tp son el mismo comando."
+  ],
+  "notes": [
+   "Teletranspórtate a x=100, y=64, z=-250",
+   "Teletransporta al jugador más cercano hasta Steve",
+   "Teletranspórtate 50 bloques hacia arriba"
+  ]
+ },
+ "summon": {
+  "summary": "Genera cualquier mob o entidad en la posición que elijas.",
+  "description": "/summon crea una entidad (un mob, objeto, proyectil o vehículo) en las coordenadas indicadas, o en tu posición si no das ninguna. Java Edition acepta datos NBT para nombres personalizados, equipamiento, cambios de IA y más.",
+  "targets": "Cualquier tipo de entidad, p. ej. minecraft:zombie, minecraft:warden, minecraft:item",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Los IDs de entidad usan el namespace minecraft: en Java Edition.",
+   "Invocar bosses como el Wither o el Ender Dragon con /summon los genera sin el ritual habitual, pero el combate es el mismo.",
+   "En Java, añade NBT para mobs personalizados, p. ej. /summon zombie ~ ~ ~ {CustomName:'{\"text\":\"Bob\"}',NoAI:1b}."
+  ],
+  "notes": [
+   "Genera un creeper en tu posición",
+   "Genera un aldeano zombi en x=100, y=65, z=100",
+   "Haz caer un rayo donde estás"
+  ]
+ },
+ "locate": {
+  "summary": "Encuentra las coordenadas de la estructura, bioma o punto de interés más cercano.",
+  "description": "/locate busca la estructura (aldea, fortaleza, ciudad antigua...), bioma o punto de interés más cercano y devuelve sus coordenadas, en las que puedes hacer clic para teletransportarte. El radio de búsqueda es grande, así que funciona incluso para estructuras raras.",
+  "targets": "structure, biome (Java), poi (Java)",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Bedrock Edition solo soporta /locate structure (además de /locate biome desde 1.19.10 en algunas versiones; structure es el fiable).",
+   "Haz clic en las coordenadas verdes del chat para obtener un /tp listo.",
+   "Algunas estructuras solo se generan en dimensiones concretas, ejecútalo en la correcta (p. ej. bastion_remnant en el Nether)."
+  ],
+  "notes": [
+   "Encuentra la fortaleza más cercana",
+   "Encuentra la ciudad antigua más cercana",
+   "Encuentra el bioma cherry grove más cercano (solo Java)"
+  ]
+ },
+ "gamemode": {
+  "summary": "Cambia a un jugador entre los modos supervivencia, creativo, aventura y espectador.",
+  "description": "/gamemode cambia cómo interactúa un jugador con el mundo: supervivencia (vida y hambre), creativo (bloques ilimitados, vuelo), aventura (no se rompen bloques sin las herramientas adecuadas) y espectador (atraviesa bloques volando, solo Java).",
+  "targets": "survival, creative, adventure, spectator (solo Java); objetivo de jugador opcional",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Las formas cortas funcionan en Java: /gamemode c, /gamemode s, /gamemode a, /gamemode sp.",
+   "El modo espectador no existe en Bedrock Edition.",
+   "En servidores, cambiar el modo de otro jugador requiere permisos de operador más altos."
+  ],
+  "notes": [
+   "Ponte en modo creativo",
+   "Devuelve a todos los jugadores a supervivencia",
+   "Entra en modo espectador (solo Java Edition)"
+  ]
+ },
+ "fill": {
+  "summary": "Rellena una región del mundo con un bloque, o sustituye bloques dentro de ella.",
+  "description": "/fill coloca bloques en un volumen rectangular entre dos coordenadas de esquina. Los modos controlan qué pasa con los bloques existentes: replace (por defecto), destroy, hollow, keep, outline; y el filtro replace permite cambiar un bloque por otro. Java Edition limita un solo fill a 32.768 bloques por defecto.",
+  "targets": "Dos esquinas (x y z) y un ID de bloque",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "El límite de bloques por defecto (Java: commandModificationBlockLimit) es 32.768: divide los trabajos grandes en varios fills.",
+   "hollow rellena solo la carcasa exterior; keep solo rellena bloques de aire; outline solo los bordes.",
+   "Para sustituir un bloque por otro en Java: /fill x1 y1 z1 x2 y2 z2 stone replace dirt."
+  ],
+  "notes": [
+   "Rellena una plataforma de 11x11 con piedra",
+   "Despeja un espacio a tu alrededor",
+   "Construye una caja de cristal hueca (sintaxis Bedrock)"
+  ]
+ },
+ "effect": {
+  "summary": "Aplica o quita efectos de estado como velocidad, fuerza o regeneración.",
+  "description": "/effect give aplica un efecto de estado tipo poción a jugadores o mobs, con duración en segundos y amplificador (nivel menos uno). /effect clear quita efectos. Java moderno admite duración infinita con la palabra clave infinite.",
+  "targets": "give o clear, un objetivo de entidad, un ID de efecto",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "El amplificador es el nivel menos 1: amplificador 0 = nivel I, amplificador 3 = nivel IV.",
+   "Bedrock limita la duración a valores altos pero finitos; Java 1.19.4+ acepta infinite.",
+   "Usa /effect clear @s sin efecto para quitarte todos."
+  ],
+  "notes": [
+   "Date Velocidad II durante 60 segundos",
+   "Regeneración permanente en el jugador más cercano (Java)",
+   "Cura a todo el mundo del veneno"
+  ]
+ },
+ "time": {
+  "summary": "Cambia o consulta la hora del día del mundo.",
+  "description": "/time set mueve el reloj del juego a un momento concreto (day, noon, night, midnight) o a un número exacto de ticks. /time add avanza el reloj y /time query lo lee. Un día de Minecraft dura 24.000 ticks: 20 minutos reales.",
+  "targets": "set, add, query (daytime, gametime, day)",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "day = 1000, noon = 6000, atardecer ~ 12000, night = 13000, midnight = 18000 ticks.",
+   "/time query day te dice cuántos días completos de juego han pasado en el mundo.",
+   "Congela el ciclo de día y noche con /gamerule doDaylightCycle false."
+  ],
+  "notes": [
+   "Salta a la mañana (tick 1000)",
+   "Salta a la noche (tick 13000)",
+   "Avanza el reloj 6000 ticks (5 minutos reales)"
+  ]
+ },
+ "weather": {
+  "summary": "Cambia el clima.",
+  "description": "/weather pone el clima actual en despejado, lluvia o tormenta, opcionalmente durante una duración concreta en segundos. Sin duración, el clima dura su tiempo aleatorio normal.",
+  "targets": "ninguno",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Las tormentas permiten cargar creepers, convertir aldeanos en brujas y cerdos en piglins zombificados con un tridente de Channeling.",
+   "Se puede dormir durante una tormenta: no hace falta quitarla para usar la cama."
+  ],
+  "notes": [
+   "Quita la lluvia ya",
+   "Diez minutos de tormenta: suficiente para una sesión de creepers cargados o Channeling",
+   "Lluvia: hora de Riptide"
+  ]
+ },
+ "enchant": {
+  "summary": "Encanta el objeto que el jugador lleva en la mano.",
+  "description": "/enchant aplica un encantamiento al objeto de la mano principal del jugador objetivo, respetando las reglas normales de compatibilidad: no puedes poner Toque de seda en un pico de Fortuna ni Filo en un arco. En Java solo supera los niveles normales si el encantamiento lo permite.",
+  "targets": "jugadores con un objeto encantable en la mano",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "El objeto debe estar en la mano principal: los de la mano secundaria se ignoran.",
+   "Falla en silencio si el encantamiento es incompatible o el nivel está fuera de rango; /give con NBT/componentes se salta esas reglas en Java."
+  ],
+  "notes": [
+   "Pon Filo V a la espada que llevas en la mano",
+   "Irrompibilidad III en el objeto que sostienes",
+   "Reparación en el objeto que sostiene Steve (el nivel por defecto es 1)"
+  ]
+ },
+ "setblock": {
+  "summary": "Coloca un solo bloque en unas coordenadas exactas.",
+  "description": "/setblock cambia el bloque de la posición indicada por cualquier bloque que nombres. Modos: replace (por defecto, cambia cualquier bloque), keep (solo rellena aire), destroy (rompe el bloque anterior y lo suelta).",
+  "targets": "una posición de bloque",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Usa ~ ~ ~ para tu propia posición, ~ ~-1 ~ para el bloque bajo tus pies.",
+   "Encadénalo en bloques de comandos con /fill para construcciones programadas; /fill es más rápido para volúmenes."
+  ],
+  "notes": [
+   "Coloca un bloque de diamante en esas coordenadas",
+   "Pon un bloque de cristal justo bajo tus pies",
+   "Cofre ya lleno de diamantes (NBT de Java)"
+  ]
+ },
+ "kill": {
+  "summary": "Mata entidades al instante.",
+  "description": "/kill elimina la entidad objetivo inmediatamente: mobs, objetos, vehículos o jugadores (incluso en creativo, los jugadores mueren). Sin objetivo, mata a quien ejecuta el comando.",
+  "targets": "cualquier entidad; sin objetivo, el ejecutor",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "@e sin selector de tipo mata todo lo cargado, incluidos soportes de armadura, cuadros y tú: añade siempre un type.",
+   "Limpieza de objetos en servidores: /kill @e[type=item] es el comando antilag estándar."
+  ],
+  "notes": [
+   "Mata todos los zombis cargados",
+   "Limpia todos los objetos tirados en el suelo: limpieza antilag",
+   "Mátate (reapareces en tu punto de spawn)"
+  ]
+ },
+ "clear": {
+  "summary": "Quita objetos de inventarios.",
+  "description": "/clear borra los objetos que coincidan del inventario de un jugador. Sin especificar objeto, vacía todo el inventario; con objeto y maxCount, solo quita esa cantidad.",
+  "targets": "jugadores",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Ideal para mapas de aventura: comprueba si un jugador tiene un objeto ejecutando /clear con maxCount 0; tiene éxito sin borrar nada (Java).",
+   "Los valores de datos de Bedrock permiten apuntar a variantes concretas de pociones o herramientas."
+  ],
+  "notes": [
+   "Vacía todo tu inventario",
+   "Quita hasta 64 de tierra al jugador más cercano",
+   "Quita todas las espadas de netherite que lleva Steve"
+  ]
+ },
+ "spawnpoint": {
+  "summary": "Define dónde reaparecen los jugadores.",
+  "description": "/spawnpoint cambia el punto de reaparición individual de un jugador sin necesitar cama. A diferencia de /setworldspawn, solo afecta a los objetivos que nombres, y funciona en cualquier dimensión: pon una reaparición en el Nether sin ancla de reaparición.",
+  "targets": "jugadores",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Las camas y los anclas de reaparición tienen prioridad sobre /spawnpoint cuando son válidas; rómpelas y se aplicará el spawnpoint.",
+   "Para un valor global para jugadores nuevos, usa /setworldspawn."
+  ],
+  "notes": [
+   "Reaparece donde estás",
+   "Manda la reaparición de todos los jugadores a esas coordenadas",
+   "Mueve solo el punto de reaparición de Steve"
+  ]
+ },
+ "xp": {
+  "summary": "Da, fija o consulta puntos y niveles de experiencia.",
+  "description": "/xp añade o fija experiencia. Java usa /xp add @s 100 points o 10 levels, /xp set @s 30 levels, /xp query @s levels. Bedrock usa /xp 100 @s para puntos y /xp 10L @s para niveles.",
+  "targets": "jugadores",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Las cantidades negativas funcionan en Java: /xp add @s -10 levels quita niveles.",
+   "Niveles y puntos son cosas distintas: añadir niveles cuesta el precio real de la curva, así que 30 niveles dan mucha más XP total que 30 puntos. Nuestra calculadora de XP muestra las matemáticas exactas."
+  ],
+  "notes": [
+   "Sube directo a +30 niveles (Java)",
+   "100 niveles en Bedrock",
+   "Reinicia el nivel de todos (Java)"
+  ]
+ },
+ "execute": {
+  "summary": "Ejecuta otro comando con el contexto cambiado: como otra entidad, en una posición, en una dimensión, o solo si se cumple una condición.",
+  "description": "/execute es el comando más potente de Minecraft. Encadena subcomandos que cambian quién lo ejecuta (as), dónde (at, positioned), en qué dimensión (in) y bajo qué condiciones (if, unless), y termina con run seguido de cualquier comando. También puede guardar resultados en puntuaciones, boss bars o datos de bloques/objetos con store. Bedrock Edition adoptó la misma sintaxis encadenada en 1.19.50; la antigua forma 'execute <origen> <posición> <comando>' es legacy.",
+  "targets": "Cualquier entidad o posición; @s se refiere al ejecutor actual",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Encadena tantos subcomandos como necesites: execute as @a at @s if block ~ ~-1 ~ grass_block run effect give @s speed 5.",
+   "/execute store result permite capturar la salida de un comando en una puntuación de scoreboard o boss bar.",
+   "Comprueba condiciones con if/unless en lugar de largos comparadores de redstone."
+  ],
+  "notes": [
+   "Pon un bloque de diamante bajo cada zombi",
+   "Ejecuta /say solo si hay un cofre en esas coordenadas",
+   "Genera un ghast en el Nether desde el Overworld"
+  ]
+ },
+ "clone": {
+  "summary": "Copia todos los bloques de una región a otra ubicación.",
+  "description": "/clone duplica una región rectangular del mundo (edificios, redstone, granjas) en unas coordenadas nuevas. Los tres modos controlan el solapamiento: normal se niega a clonar sobre sí mismo, force permite copias solapadas y move borra el original tras copiar. Masked omite los bloques de aire, replace copia todo incluido el aire, y filtered copia solo el tipo de bloque que indiques.",
+  "targets": "Regiones de bloques definidas por dos esquinas opuestas",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "El destino es la esquina noroeste más baja de la copia.",
+   "Hay un límite de volumen (cientos de miles de bloques) por clonación: divide las construcciones grandes en secciones.",
+   "Combínalo con bloques de estructura o de comandos para mecanismos de copiar-pegar repetibles."
+  ],
+  "notes": [
+   "Copia la región entre las dos esquinas a las coordenadas 100 60 100",
+   "Mueve un edificio sin copiar su aire, borrando el original",
+   "Copia solo los ladrillos de piedra de la región"
+  ]
+ },
+ "damage": {
+  "summary": "Aplica una cantidad fija de daño a entidades, con tipo de daño o atacante opcionales.",
+  "description": "/damage hiere entidades directamente, usando la lógica real de daño del juego: armadura, encantamientos y resistencias cuentan. Tú eliges el tipo de daño (generic, on_fire, freeze, magic...) y opcionalmente atribuyes el golpe a una entidad atacante o a una ubicación, lo que importa para la atribución de muertes, el aggro y los mensajes de muerte.",
+  "targets": "Cualquier entidad con vida (jugadores y mobs)",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "La cantidad es en puntos de vida: 2 = un corazón.",
+   "Usa minecraft:kill o /kill para eliminación garantizada; /damage respeta tótems y resistencia.",
+   "Bedrock llama al argumento de tipo de daño cause: DamageCause."
+  ],
+  "notes": [
+   "Haz 5 corazones de daño genérico al creeper más cercano",
+   "Haz daño de fuego al jugador más cercano",
+   "Daña a un zombi como si lo hubieras golpeado tú"
+  ]
+ },
+ "defaultgamemode": {
+  "summary": "Define el modo de juego por defecto para los jugadores nuevos que entran a un mundo o servidor.",
+  "description": "/defaultgamemode decide qué modo de juego reciben los jugadores nuevos al entrar a un servidor multijugador o mundo LAN. Si force-gamemode está activado en server.properties, todos los jugadores pasan a este modo en cada entrada. No cambia el modo de los jugadores ya conectados: usa /gamemode para eso.",
+  "targets": "El mundo o servidor en sí, no jugadores concretos",
+  "permission": "Nivel de operador 2",
+  "tips": [
+   "Combínalo con force-gamemode=true en server.properties para fijar a todo el mundo en un modo.",
+   "Bedrock Edition no tiene /defaultgamemode; configúralo en los ajustes del mundo."
+  ],
+  "notes": [
+   "Los visitantes nuevos aparecen en modo aventura",
+   "Los jugadores nuevos entran en supervivencia"
+  ]
+ },
+ "difficulty": {
+  "summary": "Define o consulta la dificultad del mundo.",
+  "description": "/difficulty cambia entre pacífico, fácil, normal y difícil. En pacífico los mobs hostiles dejan de aparecer y los jugadores regeneran vida; en difícil los zombis pueden romper puertas de madera y el hambre puede matar. Ejecútalo sin argumentos para ver la dificultad actual. En un servidor multijugador el cambio dura hasta el reinicio, cuando se recarga la dificultad de server.properties.",
+  "targets": "Todo el mundo o servidor",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "En el modo Hardcore de Java la dificultad está fijada en difícil y este comando no puede cambiarla.",
+   "Pasar a pacífico elimina al instante a casi todos los mobs hostiles: vuelve atrás para restaurar los spawns normales.",
+   "Bedrock también acepta números: 0 pacífico, 1 fácil, 2 normal, 3 difícil."
+  ],
+  "notes": [
+   "Pon el mundo en dificultad difícil",
+   "Elimina mobs hostiles y para el daño por hambre",
+   "Consulta la dificultad actual"
+  ]
+ },
+ "gamerule": {
+  "summary": "Cambia reglas del mundo como mob griefing, keep inventory, propagación del fuego y ciclo de día.",
+  "description": "/gamerule activa o desactiva las reglas fundamentales de un mundo: si los creepers destruyen bloques (mobGriefing), si los jugadores conservan los objetos al morir (keepInventory), si el fuego se propaga (doFireTick), el ciclo de día (doDaylightCycle) y decenas más. Ejecútalo solo con el nombre de la regla para leer su valor actual. Las reglas se guardan por mundo.",
+  "targets": "Todo el mundo",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock); algunas reglas de Bedrock funcionan sin trucos",
+  "tips": [
+   "KeepInventory solo afecta a las muertes posteriores a activarlo.",
+   "sendCommandFeedback false oculta la salida de los comandos en el chat de otros jugadores.",
+   "En Bedrock, muchas reglas también se cambian en los ajustes del mundo sin trucos."
+  ],
+  "notes": [
+   "Los jugadores conservan sus objetos al morir",
+   "Evita que creepers, endermen y ghasts dañen bloques",
+   "Congela el tiempo en el momento actual"
+  ]
+ },
+ "seed": {
+  "summary": "Muestra la semilla del mundo, lista para copiar.",
+  "description": "/seed imprime la semilla numérica con la que se generó tu mundo. Cualquiera con la semilla y la misma versión puede recrear el mismo terreno. Al hacer clic en la semilla del chat se copia al portapapeles. Bedrock Edition no tiene /seed: abre los ajustes del mundo para verla ahí.",
+  "targets": "Sin argumentos",
+  "permission": "Ninguno en un jugador (nivel 0) / nivel de operador 2 en servidores",
+  "tips": [
+   "La semilla por sí sola no reproduce las estructuras exactamente entre versiones distintas: el terreno cambia entre grandes actualizaciones.",
+   "Usa nuestra sección de semillas para semillas famosas verificadas como pack.png.",
+   "Los servidores suelen ocultar /seed a los no operadores."
+  ],
+  "notes": [
+   "Muestra la semilla del mundo actual"
+  ]
+ },
+ "setworldspawn": {
+  "summary": "Define el punto de spawn del mundo, donde aparecen los jugadores nuevos y a donde apuntan las brújulas.",
+  "description": "/setworldspawn mueve el punto de spawn global del mundo. Los jugadores nuevos sin cama aparecen ahí, los que mueren sin punto de reaparición vuelven ahí, y las brújulas apuntan a ese punto. En Java también puedes fijar el ángulo de orientación y poner el spawn en otras dimensiones. La aleatoriedad habitual de la zona de spawn sigue aplicando.",
+  "targets": "El punto de spawn del mundo",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Esto cambia el spawn para todos; usa /spawnpoint para jugadores concretos.",
+   "La regla spawnRadius de Java controla cuánto se dispersan los jugadores alrededor.",
+   "Las brújulas siempre apuntan al spawn del mundo, no a las camas."
+  ],
+  "notes": [
+   "Pon el spawn del mundo donde estás",
+   "Pon el spawn del mundo en unas coordenadas concretas",
+   "Java: fija el spawn y haz que los jugadores miren al este al reaparecer"
+  ]
+ },
+ "schedule": {
+  "summary": "Retrasa la ejecución de una función un tiempo determinado o hasta que se cargue una zona.",
+  "description": "/schedule ejecuta una función más tarde en lugar de al instante: tras N ticks o segundos (Java: unidad tick con sufijo 's' opcional; Bedrock: delay add con un tiempo), o cuando una región termina de cargarse (on_area_loaded de Bedrock). Usa schedule clear para cancelar una función en cola. Es la forma estándar de crear temporizadores, bucles y eventos retrasados en data packs y add-ons.",
+  "targets": "Funciones de data packs (Java) o behavior packs (Bedrock)",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Una función que se programa a sí misma es un temporizador repetitivo: recuerda tener una forma de pararla.",
+   "append encola otra ejecución; replace (por defecto) sobrescribe la pendiente.",
+   "Los tiempos de Java son en ticks por defecto; añade s para segundos o d para días."
+  ],
+  "notes": [
+   "Java: ejecuta la función en 100 ticks (5 segundos)",
+   "Java: ejecuta en 20 segundos",
+   "Bedrock: ejecuta myfunction en 200 ticks"
+  ]
+ },
+ "loot": {
+  "summary": "Genera botín de tablas de loot y lo da, inserta o genera donde elijas.",
+  "description": "/loot tira cualquier tabla de botín (drops de mobs, botín de cofres, pesca, drops de bloques) y envía el resultado a un jugador, un contenedor, el mundo o un hueco de objeto. Las fuentes incluyen kill (drops de una entidad), loot (una tabla concreta), fish (botín de pesca en un punto) y mine (lo que soltaría un bloque). Es la base de cofres personalizados, recompensas aleatorias y botín de data packs.",
+  "targets": "Jugadores, contenedores, posiciones del mundo o huecos de objeto",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Las tablas de botín viven en minecraft:loot_tables: explora las tablas vanilla para inspirarte.",
+   "Usa /loot para probar al instante las tablas personalizadas de tu data pack.",
+   "La fuente mine respeta la herramienta que indiques, así que los drops de Toque de seda funcionan."
+  ],
+  "notes": [
+   "Java: tira los drops de una vaca a tu inventario",
+   "Java: suelta botín de tesoro enterrado en el suelo",
+   "Bedrock: genera los drops de un zombi en unas coordenadas"
+  ]
+ },
+ "fillbiome": {
+  "summary": "Cambia el bioma de una región 3D, sustituyendo el color del césped, el clima y los spawns de mobs.",
+  "description": "/fillbiome reescribe los datos de bioma de una región sin tocar bloques. Los biomas se guardan en celdas de 4x4x4 bloques, así que los bordes se ajustan a esa cuadrícula. El cambio afecta al color del césped y del cielo, a la nieve y la lluvia, y a qué mobs aparecen: un parche nevado en las llanuras o una granja de océano cálido se hacen posibles. La variante replace solo cambia las celdas de un bioma concreto.",
+  "targets": "Celdas de bioma dentro de la región indicada",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Los cambios pueden necesitar reloguear o recargar chunks para verse en el cliente.",
+   "Los cambios de bioma afectan al spawn de mobs: haz un foso de mushroom fields para parar los spawns hostiles.",
+   "Bedrock Edition no tiene /fillbiome."
+  ],
+  "notes": [
+   "Convierte la zona a tu alrededor en llanuras nevadas",
+   "Haz que una región se comporte como océano cálido",
+   "Convierte solo las celdas de llanuras en desierto"
+  ]
+ },
+ "attribute": {
+  "summary": "Lee y modifica atributos de entidades como vida máxima, velocidad, daño de ataque y escala.",
+  "description": "/attribute expone las estadísticas numéricas de cada entidad: generic.max_health, generic.movement_speed, generic.attack_damage, generic.scale y más. Puedes leer valores, sobrescribir el valor base o apilar modificadores (el mismo sistema que usan los efectos de poción y el equipamiento). Es cómo los data packs y mapas de aventura crean bosses personalizados con 200 de vida o el doble de velocidad.",
+  "targets": "Una entidad cada vez (jugadores, mobs y algunas más)",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "base set persiste; usa base reset para restaurar el valor vanilla.",
+   "Los modificadores se apilan con el equipamiento: consulta los totales actuales con get.",
+   "generic.scale (1.20.5+) cambia el tamaño, la hitbox y el alcance de la entidad a la vez."
+  ],
+  "notes": [
+   "Date 20 corazones de forma permanente",
+   "Haz un zombi el doble de rápido",
+   "Encógete a la mitad de tamaño (Java 1.20.5+)"
+  ]
+ },
+ "item": {
+  "summary": "Coloca, modifica o copia objetos en huecos concretos del inventario de bloques o entidades.",
+  "description": "/item es la herramienta quirúrgica de los inventarios: replace pone un objeto exacto en un hueco (un hueco de cofre, de la hotbar de un jugador, de armadura o de la mano secundaria), mientras que modify aplica un modificador de objeto, como una función de tabla de botín, a lo que ya haya ahí. Bedrock Edition no tiene /item: su equivalente es /replaceitem.",
+  "targets": "Contenedores de bloques y huecos de inventario de entidades",
+  "permission": "Trucos activados / nivel de operador 2",
+  "tips": [
+   "Los nombres de hueco importan: container.0 a container.26 para cofres, weapon.mainhand, armor.head, horse.saddle...",
+   "Combínalo con componentes de objeto (1.20.5+) para dar equipamiento renombrado, encantado o irrompible.",
+   "Usa /item modify con modificadores de objeto para encantar o renombrar objetos sobre la marcha."
+  ],
+  "notes": [
+   "Pon una espada de netherite en tu mano principal",
+   "Llena el primer hueco de un cofre con un stack de diamantes",
+   "Equipa una calabaza tallada sin abrir el inventario"
+  ]
+ },
+ "scoreboard": {
+  "summary": "Crea objetivos de scoreboard y lleva puntuaciones de jugadores y entidades.",
+  "description": "/scoreboard es la columna vertebral de mapas, minijuegos y economías de servidor. Un objective define qué se registra (puntos dummy, muertes, bloques minados, vida...), y los subcomandos de players fijan, suman, restan, reinician y comparan puntuaciones. Las puntuaciones alimentan condiciones de /execute, marcadores de equipo, sidebars y lógica de boss bars.",
+  "targets": "Objetivos (nombre + criterio) y titulares de puntuación (jugadores o entidades)",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Los objetivos dummy solo cambian por comandos: perfectos para moneda y temporizadores.",
+   "Java admite muchos criterios registrados como minecraft.mined:minecraft.stone; Bedrock se limita a dummy.",
+   "Comprueba puntuaciones con /execute if score @s money matches 100.."
+  ],
+  "notes": [
+   "Crea un objetivo dummy llamado kills",
+   "Muestra el objetivo kills en la sidebar",
+   "Da a cada jugador 100 puntos de money"
+  ]
+ },
+ "function": {
+  "summary": "Ejecuta todos los comandos de un archivo de función, en orden, al instante.",
+  "description": "/function ejecuta un archivo .mcfunction de un data pack (Java) o behavior pack (Bedrock): una lista de comandos, uno por línea, ejecutados en secuencia como si se escribieran. Las funciones son cómo los mapas y data packs organizan la lógica (configuraciones, temporizadores, eventos) y en vanilla no aceptan argumentos. Combínalas con /schedule para ejecuciones retrasadas o repetidas.",
+  "targets": "Un archivo de función o, en Java, un tag de funciones (#namespace:tag)",
+  "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Las funciones viven en data/<namespace>/functions/ (Java) o en functions/ de un behavior pack (Bedrock).",
+   "Un comando por línea, sin barra inicial; # abre un comentario.",
+   "En Java, los tags minecraft:tick y minecraft:load ejecutan funciones automáticamente cada tick o al cargar."
+  ],
+  "notes": [
+   "Java: ejecuta la función setup/arena del data pack mypack",
+   "Java: ejecuta todas las funciones del tag tick",
+   "Bedrock: ejecuta la función start_game de un behavior pack"
+  ]
+ }
+}

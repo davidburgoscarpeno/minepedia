@@ -33,7 +33,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', na
     <SearchBox placeholder={S.placeholder} lang={lang} />
     <div class="grid-cards" style="margin-top:24px">
       {commands.map(c => (
-        <a class="card" href={`/commands/${c.slug}/`}>
+        <a class="card" href={lang === 'es' ? `/es/commands/${c.slug}/` : `/commands/${c.slug}/`}>
           <img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{c.name}</h3>
           <p>{c.summary}</p>

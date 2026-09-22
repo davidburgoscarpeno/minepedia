@@ -1,65 +1,9 @@
 ---
-import Base from '../../layouts/Base.astro';
+import CommandDetail from '../../components/pages/CommandDetail.astro';
 import commands from '../../data/commands.json';
 export function getStaticPaths() {
   return commands.map(c => ({ params: { slug: c.slug }, props: { c } }));
 }
 const { c } = Astro.props;
-const jsonLd = [
-  {
-    '@context': 'https://schema.org', '@type': 'Article',
-    headline: `Minecraft ${c.name} command: syntax and examples`,
-    description: c.summary,
-    mainEntityOfPage: `https://minepedia.app/commands/${c.slug}/`,
-    author: { '@type': 'Organization', name: 'Minepedia' }
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
-      { '@type': 'ListItem', position: 2, name: 'Commands', item: 'https://minepedia.app/commands/' },
-      { '@type': 'ListItem', position: 3, name: c.name, item: `https://minepedia.app/commands/${c.slug}/` }
-    ]
-  }
-];
 ---
-<Base title={`${c.name} command`} description={`${c.name} in Minecraft: ${c.summary} Syntax, examples and Java/Bedrock differences.`} canonicalPath={`/commands/${c.slug}/`} jsonLd={jsonLd} ogType="article">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/commands/">Commands</a> / {c.name}</nav>
-    <h1>Minecraft {c.name} command</h1>
-    <p>
-      {c.editions.map(e => <span class={`badge ${e}`}>{e === 'java' ? 'Java Edition' : 'Bedrock Edition'}</span>)}
-      <span class="badge">Since {c.since}</span>
-    </p>
-    <div class="quick-answer"><strong>Quick answer:</strong> {c.summary} Syntax: <code>{c.syntax}</code></div>
-    <p>{c.description}</p>
-    <h2>Syntax</h2>
-    <table class="data">
-      <tr><th>Edition</th><th>Syntax</th></tr>
-      <tr><td>Java</td><td><code>{c.syntax}</code></td></tr>
-      <tr><td>Bedrock</td><td><code>{c.syntaxBedrock}</code></td></tr>
-    </table>
-    <p><strong>Targets / arguments:</strong> {c.targets}. <strong>Requires:</strong> {c.permission}.</p>
-    <h2>Examples</h2>
-    {c.examples.map(ex => (
-      <div class="copy-cmd">
-        <code>{ex.code}</code>
-        <button class="copy-btn" data-copy={ex.code}>Copy</button>
-      </div>
-      <p style="margin-top:-6px;color:var(--text-dim);font-size:.9rem">{ex.note}</p>
-    ))}
-    <h2>Tips</h2>
-    <ul>{c.tips.map(t => <li>{t}</li>)}</ul>
-    <h2>Related commands</h2>
-    <p>{c.related.map(r => <a href={`/commands/${r.replace('/', '')}/`} style="margin-right:12px">{r}</a>)}</p>
-  </div>
-  <script>
-    document.querySelectorAll<HTMLButtonElement>('.copy-btn').forEach(btn => {
-      btn.addEventListener('click', async () => {
-        await navigator.clipboard.writeText(btn.dataset.copy || '');
-        btn.textContent = 'Copied';
-        setTimeout(() => (btn.textContent = 'Copy'), 1500);
-      });
-    });
-  </script>
-</Base>
+<CommandDetail c={c} lang="en" />
