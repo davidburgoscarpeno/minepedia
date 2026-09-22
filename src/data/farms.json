@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "iron-farm",
+    "name": "Iron Farm",
+    "produces": "Iron ingots (3-5 per golem) and poppies",
+    "difficulty": "Intermediate",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "An iron farm spawns iron golems on purpose, kills them with lava and collects the iron with hoppers. The designs are completely different per edition: Java uses 3 villagers scared by a zombie; Bedrock needs 10 villagers, 20 beds and a big spawning floor.",
+    "mechanics": [
+      "Java Edition: a villager that has slept and worked recently can spawn an iron golem when it does not detect one nearby. Scared villagers (who can see a zombie) spawn golems much faster. Golems spawn in a 16x12x16 box around the village center.",
+      "Bedrock Edition: iron golems spawn when a village has at least 10 villagers linked to 20 beds, and 75% of villagers have worked at their workstation that day. Golems spawn in a 16x6x16 area around the village center.",
+      "In both editions the kill system is the same: water pushes the golem into lava blades that kill it without destroying the drops, and hoppers feed chests."
+    ],
+    "materials": [
+      "3 villagers + 3 beds + 3 workstations (Java) or 10 villagers + 20 beds (Bedrock)",
+      "1 zombie in a name-tagged boat or minecart (Java only)",
+      "~200 building blocks for the pods and platform",
+      "Water buckets, 4-8 hoppers, 1-2 chests, lava bucket, signs or trapdoors to hold the lava"
+    ],
+    "steps": [
+      "Java: build a spawning platform (at least 8x8) 6+ blocks above the villagers, with water channels flowing to a central lava kill hole.",
+      "Java: place 3 villagers in pods below with their beds and workstations, and position the zombie so all three can see it but it cannot reach them. Nametag the zombie so it never despawns.",
+      "Bedrock: build a 20x20-ish floor with 20 beds, bring 10 villagers with workstations, and make the spawning floor where golems appear a separate platform with the same lava-and-hopper kill setup.",
+      "Both: golems spawn on the platform, water pushes them into lava, iron falls into hoppers. Check that no caves or ground near the platform can steal spawns.",
+      "Both: build at least 8 blocks above ground and 80+ blocks from any real village so the centers do not merge."
+    ],
+    "rates": "A simple Java 3-villager design produces roughly 300-400 iron ingots per hour. Bigger multi-module designs pass 1,000/hour. Bedrock rates are lower for the same footprint.",
+    "tips": [
+      "Keep every spawnable block outside the platform slabs or leaf-covered so golems can only spawn in the water.",
+      "The zombie must see the villagers through a gap - trapdoors work well as a sightline.",
+      "If rates drop to zero in Java, a golem is probably stuck somewhere: villagers stop spawning while one is detected nearby."
+    ],
+    "keywords": "iron farm minecraft java bedrock villagers zombie golem iron per hour"
+  },
+  {
+    "slug": "mob-farm",
+    "name": "Mob Farm (XP and Drops)",
+    "produces": "Gunpowder, bones, string, arrows, rotten flesh - and XP if you kill by hand",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "A mob farm is a dark box where hostile mobs spawn, get flushed by water into a drop chute and land at your feet with half a heart - one punch each, and the XP and drops are yours. Build it high over an ocean so caves cannot steal the spawns.",
+    "mechanics": [
+      "Hostile mobs spawn at light level 0 on solid blocks, in a sphere around the player: 24 to 128 blocks away in Java.",
+      "Rates depend entirely on how many other dark spots exist nearby - spawnproofing caves below or building 100+ blocks above the ocean surface is what makes a farm fast.",
+      "Fall damage math: mobs take 1 damage per block after the first 3, so a 22-block drop leaves zombies and skeletons (20 HP) at half a heart. Give spiders a different chute or they climb.",
+      "Bedrock rates are much lower than Java for the same design, and simulation distance limits the spawning area."
+    ],
+    "materials": [
+      "~500-1500 solid blocks for platforms and the chute (cobblestone is fine)",
+      "Slabs, trapdoors and water buckets for the flush system",
+      "4-8 hoppers and chests for collection",
+      "Torches to light the outside when you are done"
+    ],
+    "steps": [
+      "Pick an ocean biome and pillar up: build the collection point at least 100 blocks above the water so the farm is the only spawnable space in range.",
+      "Build 2-4 spawning platforms (about 8x8 each) with 2-block ceilings so endermen cannot spawn, water on the edges pushing to the center hole.",
+      "Drop chute: 22 blocks for one-punch kills, or 24+ for automatic kills if you only want drops (no XP).",
+      "Stand at the bottom with a Looting III sword: one hit kills each mob and multiplies the drops.",
+      "Light the roof and every outside surface when finished so mobs only spawn inside."
+    ],
+    "rates": "A basic single-player tower gives a few thousand items per hour in Java with good positioning. Bedrock designs produce less - expect a fraction of Java rates.",
+    "tips": [
+      "AFK spot matters: in Java, stand so the platforms are 24-40 blocks from you - closer than 24 blocks and nothing spawns.",
+      "Add a roof of slabs: phantoms spawn above you if you AFK outdoors for days.",
+      "Creepers only: build with trapdoors on the ceiling - creepers are shorter than zombies and skeletons."
+    ],
+    "keywords": "mob farm xp farm minecraft gunpowder bones creeper farm dark room spawner"
+  },
+  {
+    "slug": "sugarcane-farm",
+    "name": "Automatic Sugarcane Farm",
+    "produces": "Sugar cane (paper for books, rockets and trading)",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Plant sugar cane on a waterline, place a piston facing it at height 3 and an observer watching the top: when the cane grows to 3 blocks, the observer fires the piston and the cane drops into water streams leading to hoppers. Fully automatic, works in both editions.",
+    "mechanics": [
+      "Sugar cane grows only on dirt, sand, grass, podzol or similar blocks directly next to water, up to 3 blocks tall.",
+      "Growth is random-tick based and identical in Java and Bedrock - the same design works in both.",
+      "An observer facing the cane detects the growth to height 3 and pulses the piston below it, breaking the top two blocks while the base stays planted.",
+      "Broken cane falls into flowing water channels that feed hoppers and chests."
+    ],
+    "materials": [
+      "Per module: 1 observer, 1 piston, 1-3 building blocks, 1 sugar cane, water source",
+      "Hoppers + chest for collection (1 hopper per 2-4 modules is enough)",
+      "Solid blocks to wall the farm so cane cannot fly out"
+    ],
+    "steps": [
+      "Dig a trench for the waterline and plant sugar cane along both sides.",
+      "At height 2 behind the cane, place a row of pistons facing the cane; at height 3 place observers facing the cane, touching each piston's back.",
+      "Wire the observers to the pistons (the observer faces the cane, its output touches the piston - no redstone dust needed).",
+      "Add a water stream or hopper line under the cane to collect the drops into a chest.",
+      "Scale by repeating modules side by side and stacking floors on top."
+    ],
+    "rates": "Each plant grows to harvest height every few minutes on average; a 20-cane module produces roughly a stack per hour. Stack floors for real volume.",
+    "tips": [
+      "Bone meal does not work on sugar cane in Java (it does in Bedrock) - wait for natural growth in Java.",
+      "Feed the cane to a fletcher-adjacent setup: paper to librarians, rockets for elytra, sugar for cake.",
+      "Cover the water with lily pads or buttons if items get stuck."
+    ],
+    "keywords": "sugar cane farm automatic observer piston minecraft paper rockets"
+  },
+  {
+    "slug": "gold-xp-farm",
+    "name": "Gold and XP Farm",
+    "produces": "Gold nuggets, gold ingots, rotten flesh - and huge amounts of XP",
+    "difficulty": "Advanced",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "In Java, zombified piglins spawn inside large nether portal frames - build giant portals, funnel the piglins into a kill zone and swing your sword for endless gold and XP. In Bedrock, portals do not spawn piglins; use a zombified piglin platform farm in the nether wastes with a trident killer instead.",
+    "mechanics": [
+      "Java: every active nether portal block can spawn a zombified piglin at light level 11 or lower - bigger portals and more frames mean more spawns. Many designs stack portals above the Nether bedrock ceiling (build limit) for maximum rates.",
+      "Bedrock: zombified piglins spawn naturally throughout the nether wastes; farms use big spawn platforms at low Y with turtle-egg bait or drop chutes, and a trident killer for AFK XP.",
+      "Trident killer (Bedrock + works in Java): pistons push a thrown trident back and forth, killing mobs while crediting you with the kill - full XP while AFK."
+    ],
+    "materials": [
+      "Java: obsidian for the biggest portal frames you can build (a max portal is 23x23 inside) plus flint and steel",
+      "Collection: turtle egg (bait), magma blocks or fall damage, hoppers and chests",
+      "Looting III sword for manual killing; a trident with Loyalty for a trident killer",
+      "Bedrock variant: ~1000 blocks for spawn platforms and the trident killer (pistons, observers, lever)"
+    ],
+    "steps": [
+      "Java: build one or more max-size portals in the Nether, ideally on the nether roof (above Y=128) where no other spawns compete.",
+      "Lure or flush piglins to a kill chamber: they path toward turtle eggs and fall into the collection point.",
+      "Kill with a Looting III sword sweep for gold nuggets (craft into ingots) plus XP, or set a trident killer for AFK mode.",
+      "Bedrock: build large platforms in a nether wastes area around Y=30-40, drop the piglins 22+ blocks to a trident killer, and AFK nearby.",
+      "Store the rotten flesh for cleric trading - 32 flesh per emerald turns the byproduct into emeralds."
+    ],
+    "rates": "Portal-based Java farms are among the fastest XP sources in the game - level 30 in a couple of minutes of swinging, plus chests of gold per hour. Bedrock platform farms are slower but still top-tier XP.",
+    "tips": [
+      "Keep anger management in mind: hitting one piglin angers the group, which is exactly what you want at the kill point and nowhere else.",
+      "Gold feeds bartering farms (piglin bartering for pearls, quartz, obsidian) and golden apples/carrots.",
+      "On Java, building on the nether roof requires breaking bedrock or ender-pearling up - check current methods for your version."
+    ],
+    "keywords": "gold farm xp farm zombified piglin portal farm trident killer minecraft"
+  },
+  {
+    "slug": "raid-farm",
+    "name": "Raid Farm",
+    "produces": "Totems of undying, emeralds, enchanted books, redstone, glowstone, saddles",
+    "difficulty": "Advanced",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "A raid farm triggers Bad Omen raids at a pillager outpost on purpose, funnels every wave into a kill zone and harvests the drops: totems from evokers, emeralds from everyone, and witch loot on top. It is the most loot-dense farm in the game - and one of the most complex to build.",
+    "mechanics": [
+      "Kill a pillager captain (banner carrier) to get Bad Omen - since 1.21 captains drop an Ominous Bottle you drink when ready, which makes timing the farm far easier.",
+      "Entering a village with Bad Omen starts a raid: waves of pillagers, vindicators, evokers, witches and ravagers scale with difficulty and Bad Omen level.",
+      "Farm designs define an artificial 'village' (beds + workstations) near the outpost so raids trigger where you want, then push raid mobs into lava blades, fall damage or a trident killer.",
+      "Raid mobs drop emeralds and enchanted books (vindicators/pillagers), totems (evokers, always 1), redstone/glowstone/gunpowder (witches) and saddles (ravagers)."
+    ],
+    "materials": [
+      "A pillager outpost with spawn-proofed surroundings",
+      "Villager pods (2-3 villagers with beds and workstations) to anchor the raid location",
+      "Water streams, lava, signs, ~1000 building blocks, hoppers and storage for the output",
+      "Trident killer for AFK XP mode (optional)"
+    ],
+    "steps": [
+      "Find a pillager outpost and flatten or slab everything around it except the spots you want captains to spawn on.",
+      "Build the artificial village pods at the correct distance so the raid triggers at the outpost but the mobs spawn in your funnel - this distance is edition-specific, so follow a design made for your exact version.",
+      "Drink an Ominous Bottle at the outpost, walk to the village marker to start the raid, and let the water channels deliver each wave to the kill zone.",
+      "Kill evokers before they summon vexes - totems are the prize. Looting III multiplies the emeralds.",
+      "Repeat: raid farms chain raids continuously once the timing is set up."
+    ],
+    "rates": "Top Java designs produce thousands of emeralds per hour plus stacks of totems. Even simple outpost farms out-earn almost any other loot source.",
+    "tips": [
+      "Bad Omen level sets the wave count: level 5 Ominous Bottles (from higher-level captains) give the longest raids.",
+      "Keep the villagers unreachable: one ravager in the pod ends the farm until you restock.",
+      "Designs break between versions more than any other farm - verify the design matches your game version exactly, and note that Java and Bedrock raid spawning works completely differently."
+    ],
+    "keywords": "raid farm totem farm bad omen ominous bottle pillager outpost emerald farm"
+  }
+]
