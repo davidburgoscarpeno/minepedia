@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import structures from '../../data/structures.json';
+import structuresEs from '../../data/structures-es.json';
+import GameShot from '../GameShot.astro';
+
+interface Props { s: any; lang: 'en' | 'es'; }
+const { s, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (structuresEs as any)[s.slug] : null;
+const howToFind = ov?.howToFind ?? s.howToFind;
+const loot = ov?.loot ?? s.loot;
+const dangers = ov?.dangers ?? s.dangers;
+const tips = ov?.tips ?? s.tips;
+
+const SHOT_BY_SLUG: Record<string, string> = { 'ancient-city': 'biomes-deep-dark', 'desert-temple': 'structures-desert-temple', 'mineshaft': 'structures-mineshaft' };
+const shotId = SHOT_BY_SLUG[s.slug];
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Estructuras', crumbHref: '/es/structures/',
+  findH: 'Cómo encontrarla', lootH: 'Botín', dangersH: 'Peligros', tipsH: 'Consejos',
+  back: '\u2190 Todas las estructuras',
+  title: `${s.name} (cómo encontrarla)`,
+  desc: `${s.name} en Minecraft: cómo encontrarla, botín completo, peligros y consejos. ${s.dimension}.`,
+  canonical: `/es/structures/${s.slug}/`, alt: `/structures/${s.slug}/`,
+  headline: `${s.name} en Minecraft: cómo encontrarla, botín y peligros`,
+  headlineDesc: `Cómo encontrar ${s.name} en Minecraft, qué botín guarda y cómo sobrevivir.`,
+  faq1: `\u00bfC\u00f3mo se encuentra ${s.name} en Minecraft?`, faq2: `\u00bfQu\u00e9 bot\u00edn hay en ${s.name}?`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Structures', crumbHref: '/structures/',
+  findH: 'How to find it', lootH: 'Loot', dangersH: 'Dangers', tipsH: 'Tips',
+  back: '\u2190 All structures',
+  title: `${s.name} (How to Find)`,
+  desc: `Minecraft ${s.name.toLowerCase()}: how to find it, full loot guide, dangers and tips. ${s.dimension}.`,
+  canonical: `/structures/${s.slug}/`, alt: `/es/structures/${s.slug}/`,
+  headline: `Minecraft ${s.name}: How to Find It, Loot and Dangers`,
+  headlineDesc: `How to find the ${s.name.toLowerCase()} in Minecraft, what loot it holds and how to survive it.`,
+  faq1: `How do you find a ${s.name.toLowerCase()} in Minecraft?`, faq2: `What loot is in a ${s.name.toLowerCase()}?`
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.headline,
+    description: L.headlineDesc,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: s.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1,
+        acceptedAnswer: { '@type': 'Answer', text: howToFind.join(' ') } },
+      { '@type': 'Question', name: L.faq2,
+        acceptedAnswer: { '@type': 'Answer', text: loot.join('; ') + '.' } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article" lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {s.name}</nav>
+    <h1>{s.name}</h1>
+    <p><span class="badge">{s.dimension}</span></p>
+    {shotId && <GameShot id={shotId} />}
+    <h2>{L.findH}</h2>
+    <ul>{howToFind.map((h: string) => <li>{h}</li>)}</ul>
+    <h2>{L.lootH}</h2>
+    <ul>{loot.map((l: string) => <li>{l}</li>)}</ul>
+    <h2>{L.dangersH}</h2>
+    <ul>{dangers.map((d: string) => <li>{d}</li>)}</ul>
+    <h2>{L.tipsH}</h2>
+    <ul>{tips.map((t: string) => <li>{t}</li>)}</ul>
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

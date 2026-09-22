@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import structures from '../../data/structures.json';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+const S = isES ? {
+  title: 'Estructuras de Minecraft',
+  description: 'Guía de estructuras de Minecraft: cómo encontrar aldeas, strongholds, ancient cities, bastions, nether fortresses y trial chambers, con botín y peligros.',
+  h1: 'Estructuras de Minecraft',
+  sub: `${structures.length} estructuras: cómo encontrarlas, qué hay dentro y qué quiere matarte allí.`,
+  crumb: 'Estructuras', home: 'Inicio',
+  placeholder: 'Busca estructuras, botín, mobs...',
+  tip1: 'Todas las estructuras también se pueden encontrar con el comando <a href="/es/commands/locate/">/locate structure</a> (con trucos activados) o con los mapas que venden los <a href="/villagers/cartographer/">aldeanos cartógrafos</a>.',
+  cardHref: (slug: string) => `/es/structures/${slug}/`,
+  canonical: '/es/structures/', alt: '/structures/'
+} : {
+  title: 'Minecraft Structures',
+  description: 'Minecraft structure guide: how to find villages, strongholds, ancient cities, bastions, nether fortresses and trial chambers, with loot tables and dangers.',
+  h1: 'Minecraft Structures',
+  sub: `${structures.length} structures: how to find them, what is inside and what wants to kill you there.`,
+  crumb: 'Structures', home: 'Home',
+  placeholder: 'Search structures, loot, mobs...',
+  tip1: 'Every structure can also be found with the <a href="/commands/locate/">/locate structure</a> command (cheats on) or bought maps from <a href="/villagers/cartographer/">cartographer villagers</a>.',
+  cardHref: (slug: string) => `/structures/${slug}/`,
+  canonical: '/structures/', alt: '/es/structures/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} />
+    <div class="grid-cards">
+      {structures.map(s => (
+        <a class="card" href={S.cardHref(s.slug)}>
+          <img class="pixel-icon" src={`/item-icons/${s.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{s.name}</h3>
+          <p>{s.dimension}</p>
+        </a>
+      ))}
+    </div>
+    <p style="margin-top:24px" set:html={S.tip1}></p>
+  </div>
+</Base>

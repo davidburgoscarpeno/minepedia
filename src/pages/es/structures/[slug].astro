@@ -1,0 +1,9 @@
+---
+import StructureDetail from '../../../components/pages/StructureDetail.astro';
+import structures from '../../../data/structures.json';
+export function getStaticPaths() {
+  return structures.map(s => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props;
+---
+<StructureDetail s={s} lang="es" />

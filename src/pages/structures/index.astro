@@ -1,23 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';
-import SearchBox from '../../components/SearchBox.astro';
-import structures from '../../data/structures.json';
+import StructuresIndex from '../../components/pages/StructuresIndex.astro';
 ---
-<Base title="Minecraft Structures" description="Minecraft structure guide: how to find villages, strongholds, ancient cities, bastions, nether fortresses and trial chambers, with loot tables and dangers." canonicalPath="/structures/">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / Structures</nav>
-    <h1>Minecraft Structures</h1>
-    <p class="sub">{structures.length} structures: how to find them, what is inside and what wants to kill you there.</p>
-    <SearchBox placeholder="Search structures, loot, mobs..." />
-    <div class="grid-cards">
-      {structures.map(s => (
-        <a class="card" href={`/structures/${s.slug}/`}>
-          <img class="pixel-icon" src={`/item-icons/${s.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
-          <h3>{s.name}</h3>
-          <p>{s.dimension}</p>
-        </a>
-      ))}
-    </div>
-    <p style="margin-top:24px">Every structure can also be found with the <a href="/commands/locate/">/locate structure</a> command (cheats on) or bought maps from <a href="/villagers/cartographer/">cartographer villagers</a>.</p>
-  </div>
-</Base>
+<StructuresIndex lang="en" />

@@ -1,54 +1,9 @@
 ---
-import Base from '../../layouts/Base.astro';
+import StructureDetail from '../../components/pages/StructureDetail.astro';
 import structures from '../../data/structures.json';
-import GameShot from '../../components/GameShot.astro';
 export function getStaticPaths() {
   return structures.map(s => ({ params: { slug: s.slug }, props: { s } }));
 }
 const { s } = Astro.props;
-const SHOT_BY_SLUG = { 'ancient-city': 'biomes-deep-dark', 'desert-temple': 'structures-desert-temple', 'mineshaft': 'structures-mineshaft' };
-const shotId = SHOT_BY_SLUG[s.slug];
-const jsonLd = [
-  {
-    '@context': 'https://schema.org', '@type': 'Article',
-    headline: `Minecraft ${s.name}: How to Find It, Loot and Dangers`,
-    description: `How to find the ${s.name.toLowerCase()} in Minecraft, what loot it holds and how to survive it.`,
-    mainEntityOfPage: `https://minepedia.app/structures/${s.slug}/`,
-    author: { '@type': 'Organization', name: 'Minepedia' }
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
-      { '@type': 'ListItem', position: 2, name: 'Structures', item: 'https://minepedia.app/structures/' },
-      { '@type': 'ListItem', position: 3, name: s.name, item: `https://minepedia.app/structures/${s.slug}/` }
-    ]
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: [
-      { '@type': 'Question', name: `How do you find a ${s.name.toLowerCase()} in Minecraft?`,
-        acceptedAnswer: { '@type': 'Answer', text: s.howToFind.join(' ') } },
-      { '@type': 'Question', name: `What loot is in a ${s.name.toLowerCase()}?`,
-        acceptedAnswer: { '@type': 'Answer', text: s.loot.join('; ') + '.' } }
-    ]
-  }
-];
 ---
-<Base title={`${s.name} (How to Find)`} description={`Minecraft ${s.name.toLowerCase()}: how to find it, full loot guide, dangers and tips. ${s.dimension}.`} canonicalPath={`/structures/${s.slug}/`} jsonLd={jsonLd} ogType="article">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/structures/">Structures</a> / {s.name}</nav>
-    <h1>{s.name}</h1>
-    <p><span class="badge">{s.dimension}</span></p>
-    {shotId && <GameShot id={shotId} />}
-    <h2>How to find it</h2>
-    <ul>{s.howToFind.map(h => <li>{h}</li>)}</ul>
-    <h2>Loot</h2>
-    <ul>{s.loot.map(l => <li>{l}</li>)}</ul>
-    <h2>Dangers</h2>
-    <ul>{s.dangers.map(d => <li>{d}</li>)}</ul>
-    <h2>Tips</h2>
-    <ul>{s.tips.map(t => <li>{t}</li>)}</ul>
-    <p><a href="/structures/">&larr; All structures</a></p>
-  </div>
-</Base>
+<StructureDetail s={s} lang="en" />
