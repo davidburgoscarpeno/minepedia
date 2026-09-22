@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
-import skins from '../../data/gallery-skins.json';
+import skins1 from '../../data/gallery-skins.json';
+import skins2 from '../../data/gallery-skins-2.json';
+const skins = [...skins1, ...skins2];
 const cats = [...new Set(skins.map(s => s.category))];
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'CollectionPage',
