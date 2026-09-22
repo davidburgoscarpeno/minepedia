@@ -9,7 +9,7 @@ const profile = merch.profiles[merch.activeProfile];
 const link = (asin: string) => `https://${profile.domain}/dp/${asin}/?tag=${profile.tag}`;
 const cats = [...new Set(merch.products.map(p => p.category))];
 const CAT_ES: Record<string, string> = { 'LEGO': 'LEGO', 'Figures': 'Figuras', 'Plush': 'Peluches', 'Lamps': 'Lámparas', 'Books': 'Libros', 'Clothing': 'Ropa' };
-const AFFIL = 'Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.';
+const AFFIL = lang === 'es' ? 'Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.' : 'As an Amazon Associate, I earn from qualifying purchases.';
 const S = lang === 'es' ? {
   title: 'Merch de Minecraft - Selección',
   description: 'Una pequeña selección de merch de Minecraft: sets de LEGO, figuras, peluches, lámparas, libros y ropa, con enlaces a Amazon.',
@@ -35,7 +35,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', na
       ? <p class="sub">Una selección corta, no un almacén: {merch.products.length} productos entre LEGO, figuras, peluches, lámparas, libros y ropa. Cada enlace va a la página del producto en {profile.domain}, donde puedes comprobar el precio actual, tallas y disponibilidad.</p>
       : <p class="sub">A short curated list, not a warehouse: {merch.products.length} picks across LEGO, figures, plush, lamps, books and clothing. Every link goes to the product page on {profile.domain}, where you can check current price, sizes and availability.</p>}
     <SearchBox placeholder={S.placeholder} lang={lang} />
-    <p class="affiliate-note">{AFFIL}<br /><span class="affiliate-note-en">As an Amazon Associate, I earn from qualifying purchases.</span></p>
+    <p class="affiliate-note">{AFFIL}</p>
     {cats.map(cat => (
       <section class="section">
         <h2>{lang === 'es' ? (CAT_ES[cat] ?? cat) : cat}</h2>

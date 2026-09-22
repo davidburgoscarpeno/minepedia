@@ -120,7 +120,7 @@ const F = lang === 'es' ? {
           </ul>
         </div>
       </div>
-      <p class="notice-fan" style="margin-top:14px">Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.</p>
+      <p class="notice-fan" style="margin-top:14px">{lang === 'es' ? 'Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.' : 'As an Amazon Associate, I earn from qualifying purchases.'}</p>
       <p class="footer-legal">{F.legal.map(([href, label], i) => (<>{i > 0 && ' · '}<a href={href}>{label}</a></>))}</p>
     </div>
   </footer>
