@@ -371,6 +371,132 @@ D('baseball', 'Baseball Slugger', T.sport, ['baseball', 'sport', 'cap', 'team'],
 
 function vest(S, c) { S.frect('body', 'front', 0, 1, 2, 8, c); S.frect('body', 'front', 6, 1, 2, 8, c); S.frect('body', 'back', 0, 1, 8, 8, mul(c, 0.85)); }
 
+// ---------- Batch 3 (tanda 3): 38 more ----------
+T.seasonal = 'Seasonal'; T.gamer = 'Gamers'; T.scifi = 'Sci-Fi';
+
+// Seasonal
+D('santa', 'Santa Claus', T.seasonal, ['santa', 'christmas', 'winter', 'holiday'], 'Santa himself: red suit, white trim, black belt and a fluffy hat. Delivers gifts through any portal.',
+  { skin: SKINS[0], hair: 'bald', shirt: '#c1121f', sleeves: '#c1121f', pants: '#c1121f', shoes: '#1c1c20' },
+  S => { S.frect('head', 'front', 2, 5, 4, 3, hx('#f1f3f6')); beanie(S, hx('#c1121f')); S.frect('hat', 'top', 6, 0, 2, 2, hx('#f1f3f6')); belt(S, hx('#1c1c20'), hx('#ffd166')); S.frect('body', 'front', 0, 0, 8, 1, hx('#f1f3f6')); hands(S, hx('#f1f3f6')); });
+D('christmas-elf', 'Christmas Elf', T.seasonal, ['elf', 'christmas', 'holiday', 'winter'], 'A workshop elf in green and red with a floppy hat and pointy shoes. Wraps presents at record speed.',
+  { skin: SKINS[1], hair: 'short', hairC: HAIRS[3], shirt: '#2e7d32', sleeves: '#2e7d32', pants: '#c1121f', shoes: '#8f1c2b' },
+  S => { beanie(S, hx('#c1121f')); S.frect('hat', 'top', 6, 0, 2, 2, hx('#f1f3f6')); belt(S, hx('#ffd166')); collar(S, hx('#f1f3f6')); });
+D('pumpkin-head', 'Pumpkin Head', T.seasonal, ['pumpkin', 'halloween', 'spooky'], 'A carved pumpkin on a scarecrow body. Spooky season all year, zero fire resistance.',
+  { skin: SKINS[2], hair: 'bald', shirt: '#5c4630', sleeves: '#5c4630', pants: '#3d3225', shoes: '#262019' },
+  S => { hatBox(S, hx('#e8930c')); S.fpx('hat', 'front', 2, 3, hx('#1c1408')); S.fpx('hat', 'front', 5, 3, hx('#1c1408')); S.frect('hat', 'front', 3, 5, 2, 1, hx('#1c1408')); S.frect('hat', 'top', 3, 3, 2, 2, hx('#2e7d32')); });
+D('scarecrow', 'Scarecrow', T.seasonal, ['scarecrow', 'autumn', 'farm', 'harvest'], 'A patched-up scarecrow with straw poking out of every seam. Keeps crows and phantoms away.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[3], shirt: '#8a6a3d', sleeves: '#8a6a3d', pants: '#5c4630', shoes: '#3d3225' },
+  S => { hatBox(S, hx('#6b5a45')); S.frect('hat', 'front', 0, 3, 8, 1, hx('#4a3f31')); hands(S, hx('#d9c98a')); S.frect('body', 'front', 5, 4, 2, 2, hx('#a0522d')); });
+D('easter-bunny', 'Easter Bunny', T.seasonal, ['bunny', 'easter', 'spring', 'cute'], 'A spring bunny onesie with long ears and a cotton tail. Hides eggs in chests.',
+  { skin: SKINS[5], hair: 'buzz', hairC: HAIRS[7], shirt: '#f5f2ea', sleeves: '#f5f2ea', pants: '#f5f2ea', shoes: '#e8a0c0' },
+  S => { hood(S, hx('#efece2')); S.frect('hat', 'top', 1, 0, 2, 6, hx('#f5f2ea')); S.frect('hat', 'top', 5, 0, 2, 6, hx('#f5f2ea')); S.frect('body', 'front', 2, 2, 4, 7, hx('#fce8f0')); });
+D('vampire', 'Count Vampire', T.seasonal, ['vampire', 'halloween', 'gothic', 'cape'], 'A pale count with a high collar, red-lined cape and medallion. Only mines at night.',
+  { skin: SKINS[5], hair: 'short', hairC: HAIRS[1], shirt: '#1c1a20', sleeves: '#1c1a20', pants: '#141218', shoes: '#0e0d11' },
+  S => { S.frect('jacket', 'back', 0, 0, 8, 12, hx('#8f1c2b')); collar(S, hx('#f1f3f6')); S.frect('body', 'front', 3, 2, 2, 2, hx('#ffd166')); S.fpx('head', 'front', 3, 5, hx('#f1f3f6')); S.fpx('head', 'front', 4, 5, hx('#f1f3f6')); });
+D('witch-hat', 'Swamp Witch', T.seasonal, ['witch', 'halloween', 'magic', 'hat'], 'A swamp witch with a pointed hat and potion belt. Throws splash potions, asks questions later.',
+  { skin: SKINS[1], hair: 'long', hairC: HAIRS[1], shirt: '#4a3b5c', sleeves: '#4a3b5c', pants: '#372c46', shoes: '#241d2e' },
+  S => { S.frect('hat', 'top', 2, 2, 4, 4, hx('#2e2438')); S.frect('hat', 'front', 0, 0, 8, 2, hx('#2e2438')); S.frect('hat', 'right', 0, 0, 8, 2, hx('#2e2438')); S.frect('hat', 'left', 0, 0, 8, 2, hx('#2e2438')); S.frect('hat', 'back', 0, 0, 8, 2, hx('#2e2438')); belt(S, hx('#6d28d9'), hx('#22b8a0')); });
+D('snowman', 'Snowman', T.seasonal, ['snowman', 'winter', 'snow', 'carrot'], 'A three-layer snowman with coal buttons, carrot nose and scarf. Melts in the Nether, handle with care.',
+  { skin: SKINS[5], hair: 'bald', shirt: '#f5f8fa', sleeves: '#f5f8fa', pants: '#eef2f5', shoes: '#d9dee2' },
+  S => { S.frect('head', 'front', 3, 4, 2, 1, hx('#e8930c')); S.fpx('body', 'front', 4, 3, hx('#1c1c20')); S.fpx('body', 'front', 4, 5, hx('#1c1c20')); S.fpx('body', 'front', 4, 7, hx('#1c1c20')); scarf(S, hx('#c1121f')); hatBox(S, hx('#2a2f38')); });
+D('beach-vibes', 'Beach Vibes', T.seasonal, ['beach', 'summer', 'vacation', 'tropical'], 'Hawaiian shirt, sunglasses and flip-flops. Building sandcastles on every coastline.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#22b8a0', sleeves: '#22b8a0', pants: '#e8930c', shoes: '#8a6a3d' },
+  S => { glasses(S, hx('#1c1c20')); emblemFlower(S, hx('#e935c1')); collar(S, hx('#f1f3f6')); });
+D('raincoat', 'Raincoat Explorer', T.seasonal, ['rain', 'raincoat', 'storm', 'yellow'], 'A bright yellow raincoat with hood up. Thunderstorms are just free lighting.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[0], shirt: '#f5c93a', sleeves: '#f5c93a', pants: '#2a4d6b', shoes: '#1c2f42' },
+  S => { hood(S, hx('#eab832')); belt(S, hx('#8a6a3d')); });
+
+// Gamers
+D('streamer', 'Streamer', T.gamer, ['streamer', 'twitch', 'content', 'headset'], 'RGB headset, comfy hoodie and a face cam smile. Live every night from the Overworld.',
+  { skin: SKINS[0], hair: 'short', hairC: HAIRS[2], shirt: '#6d28d9', sleeves: '#6d28d9', pants: '#2a2f38', shoes: '#f1f3f6' },
+  S => { headphones(S, hx('#e935c1')); emblemStar(S, hx('#f1f3f6')); });
+D('esports-pro', 'Esports Pro', T.gamer, ['esports', 'pro', 'team', 'jersey'], 'Team jersey, sponsor logos and tournament focus. Clutches 1v5 in UHC.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#1c6ea8', sleeves: '#1c6ea8', pants: '#14181d', shoes: '#f1f3f6' },
+  S => { jerseyNumber(S, 1, hx('#f1f3f6')); S.frect('body', 'front', 0, 1, 2, 1, hx('#ffd166')); headphones(S, hx('#f1f3f6')); });
+D('retro-gamer', 'Retro Gamer', T.gamer, ['retro', 'arcade', '8bit', 'classic'], 'Pixel-heart tee, high-waisted jeans and sneakers. Grew up on Beta 1.7.3.',
+  { skin: SKINS[1], hair: 'short', hairC: HAIRS[0], shirt: '#f1f3f6', sleeves: '#f1f3f6', pants: '#4a5568', shoes: '#c1121f' },
+  S => { emblemHeart(S, hx('#c1121f')); cap(S, hx('#2a2f38')); });
+D('vr-player', 'VR Player', T.gamer, ['vr', 'virtual reality', 'headset', 'future'], 'Full VR visor and haptic vest. Swings at mobs that are definitely not there.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[1], shirt: '#2a2f38', sleeves: '#2a2f38', pants: '#1c2026', shoes: '#101216' },
+  S => { S.frect('head', 'front', 0, 2, 8, 3, hx('#14161a')); S.frect('head', 'front', 1, 3, 6, 1, hx('#22d3ee')); emblemBolt(S, hx('#e935c1')); });
+D('speedrunner', 'Speedrunner', T.gamer, ['speedrun', 'any%', 'timer', 'record'], 'Minimal gear, maximum pace, timer always on. Beats the dragon before the toast pops.',
+  { skin: SKINS[3], hair: 'buzz', hairC: HAIRS[1], shirt: '#e8930c', sleeves: '#e8930c', pants: '#1c1c20', shoes: '#f1f3f6' },
+  S => { S.frect('body', 'front', 2, 2, 4, 2, hx('#f1f3f6')); S.fpx('body', 'front', 3, 3, hx('#1c1c20')); S.fpx('body', 'front', 4, 3, hx('#1c1c20')); legStripes(S, hx('#e8930c')); });
+D('cozy-gamer', 'Cozy Gamer', T.gamer, ['cozy', 'blanket', 'casual', 'soft'], 'Oversized sweater, warm socks and hot cocoa energy. Farms bees and vibes.',
+  { skin: SKINS[5], hair: 'long', hairC: HAIRS[2], shirt: '#d9a05b', sleeves: '#d9a05b', pants: '#a87f4a', shoes: '#f1ede4' },
+  S => { scarf(S, hx('#8f1c2b')); emblemHeart(S, hx('#f5f2ea')); });
+D('rgb-gamer', 'RGB Gamer', T.gamer, ['rgb', 'gaming', 'led', 'setup'], 'Black outfit with rainbow LED stripes. The setup glows harder than a beacon.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#1c1c20', sleeves: '#1c1c20', pants: '#14161a', shoes: '#0e0d11' },
+  S => { S.frect('body', 'front', 0, 2, 8, 1, hx('#e93535')); S.frect('body', 'front', 0, 4, 8, 1, hx('#e8930c')); S.frect('body', 'front', 0, 6, 8, 1, hx('#22b8a0')); S.frect('body', 'front', 0, 8, 8, 1, hx('#6d28d9')); headphones(S, hx('#22d3ee')); });
+D('pixel-artist', 'Pixel Artist', T.gamer, ['pixel art', 'artist', 'creative', 'builder'], 'Paint-splattered apron over a beret. Builds statues block by block, judges by grid.',
+  { skin: SKINS[0], hair: 'short', hairC: HAIRS[4], shirt: '#f1f3f6', sleeves: '#f1f3f6', pants: '#4a4f57', shoes: '#2f3339' },
+  S => { apron(S, hx('#8d8d96')); S.fpx('body', 'front', 2, 4, hx('#c1121f')); S.fpx('body', 'front', 5, 5, hx('#2a4d8f')); S.fpx('body', 'front', 3, 6, hx('#f5c93a')); S.frect('hat', 'top', 2, 2, 4, 4, hx('#c1121f')); });
+
+// Sci-Fi
+D('alien', 'Alien Visitor', T.scifi, ['alien', 'ufo', 'space', 'green'], 'A little green visitor with big dark eyes and a silver suit. Came for the bees, stayed for the redstone.',
+  { skin: '#7ac74f', hair: 'bald', shirt: '#b8bcc4', sleeves: '#b8bcc4', pants: '#9aa0a8', shoes: '#6e747c' },
+  S => { S.frect('head', 'front', 1, 3, 2, 2, hx('#14161a')); S.frect('head', 'front', 5, 3, 2, 2, hx('#14161a')); antennae(S, hx('#7ac74f')); emblemStar(S, hx('#22d3ee')); });
+D('robot', 'Robot Unit', T.scifi, ['robot', 'machine', 'metal', 'tech'], 'A brushed-steel robot with glowing core and rivets. Runs on redstone dust and routine.',
+  { skin: '#9aa0a8', hair: 'bald', shirt: '#7d838c', sleeves: '#7d838c', pants: '#5c6169', shoes: '#3d4148' },
+  S => { S.frect('head', 'front', 1, 3, 2, 1, hx('#22d3ee')); S.frect('head', 'front', 5, 3, 2, 1, hx('#22d3ee')); S.frect('body', 'front', 3, 3, 2, 2, hx('#22d3ee')); antennae(S, hx('#e8930c')); });
+D('cyborg', 'Cyborg', T.scifi, ['cyborg', 'half robot', 'future', 'tech'], 'Half human, half machine: one chrome arm, one glowing eye. Updates firmware weekly.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#3d4450', sleeves: '#3d4450', pants: '#2a2f38', shoes: '#1c2026' },
+  S => { S.fpx('head', 'front', 2, 3, hx('#e93535')); S.frect('head', 'front', 5, 2, 2, 4, hx('#9aa0a8')); for (const f of ['front','back','left','right']) S.frect('rarm', f, 0, 0, 4, 12, mul(hx('#9aa0a8'), FACE_SHADE[f])); });
+D('space-marine', 'Space Marine', T.scifi, ['space marine', 'armor', 'sci-fi', 'soldier'], 'Heavy powered armor in gunmetal and hazard orange. Clears strongholds like derelict ships.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[1], shirt: '#4a5568', sleeves: '#4a5568', pants: '#37404b', shoes: '#23282f' },
+  S => { hatBox(S, hx('#4a5568')); S.frect('hat', 'front', 1, 3, 6, 2, hx('#e8930c')); emblemBolt(S, hx('#e8930c')); belt(S, hx('#23282f')); });
+D('android', 'Android', T.scifi, ['android', 'robot', 'sleek', 'future'], 'A sleek white android with a soft blue visor line. Polite, precise, waterproof.',
+  { skin: '#eef2f5', hair: 'bald', shirt: '#e2e8ee', sleeves: '#e2e8ee', pants: '#c9d2da', shoes: '#9aa5b0' },
+  S => { S.frect('head', 'front', 1, 3, 6, 1, hx('#3a6ea8')); S.frect('body', 'front', 3, 2, 2, 1, hx('#3a6ea8')); legStripes(S, hx('#3a6ea8')); });
+D('star-pilot', 'Star Pilot', T.scifi, ['pilot', 'space', 'flight', 'helmet'], 'Flight suit, mission patches and a bubble helmet under one arm. Flies elytra like a starfighter.',
+  { skin: SKINS[0], hair: 'short', hairC: HAIRS[0], shirt: '#e8763a', sleeves: '#e8763a', pants: '#37404b', shoes: '#23282f' },
+  S => { emblemStar(S, hx('#f1f3f6')); chestStrap(S, hx('#4a5568')); belt(S, hx('#23282f')); });
+D('time-traveler', 'Time Traveler', T.scifi, ['time travel', 'clock', 'steampunk', 'adventure'], 'A waistcoat full of gears and goggles on the forehead. Has already seen the next update.',
+  { skin: SKINS[1], hair: 'short', hairC: HAIRS[2], shirt: '#6b5a45', sleeves: '#6b5a45', pants: '#453b2e', shoes: '#2c251d' },
+  S => { glasses(S, hx('#c9a13a')); S.frect('head', 'front', 1, 2, 6, 1, hx('#c9a13a')); tie(S, hx('#8f1c2b')); emblemStar(S, hx('#c9a13a')); });
+D('hologram', 'Hologram', T.scifi, ['hologram', 'glitch', 'digital', 'ghost'], 'A flickering cyan hologram person with scan lines. Rendering at 64 percent stability.',
+  { skin: '#9adbe8', hair: 'bald', shirt: '#7ac7d9', sleeves: '#7ac7d9', pants: '#5aa8bd', shoes: '#3d8296' },
+  S => { for (let y = 1; y < 12; y += 3) { S.frect('body', 'front', 0, y, 8, 1, hx('#bfeef8')); } S.frect('head', 'front', 1, 3, 2, 1, hx('#14161a')); S.frect('head', 'front', 5, 3, 2, 1, hx('#14161a')); });
+
+// Animals extra
+D('axolotl-hoodie', 'Axolotl Hoodie', T.animal, ['axolotl', 'hoodie', 'pink', 'cute'], 'A pink axolotl hoodie with frilly gills and a smile. Lush caves\' favorite resident.',
+  { skin: SKINS[5], hair: 'buzz', hairC: HAIRS[3], shirt: '#f5a8c0', sleeves: '#f5a8c0', pants: '#e890ac', shoes: '#d97898' },
+  S => { hood(S, hx('#f09ab6')); S.frect('hat', 'top', 0, 2, 2, 3, hx('#e8729c')); S.frect('hat', 'top', 6, 2, 2, 3, hx('#e8729c')); S.frect('body', 'front', 2, 2, 4, 7, hx('#fce8f0')); });
+D('parrot-hoodie', 'Parrot Hoodie', T.animal, ['parrot', 'bird', 'hoodie', 'jungle'], 'A tropical parrot hoodie in red, blue and green. Dances near jukeboxes, obviously.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[1], shirt: '#c9352b', sleeves: '#2a6b8f', pants: '#2e7d32', shoes: '#e8930c' },
+  S => { hood(S, hx('#b02e25')); S.frect('hat', 'front', 3, 3, 2, 2, hx('#e8930c')); S.frect('body', 'front', 2, 2, 4, 7, hx('#e8930c')); });
+D('turtle-shell', 'Turtle Shell Kid', T.animal, ['turtle', 'shell', 'ocean', 'scute'], 'A green kid with a big shell on the back. Slow and steady wins the build battle.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[0], shirt: '#5aa843', sleeves: '#5aa843', pants: '#4a8f36', shoes: '#3d7329' },
+  S => { S.frect('jacket', 'back', 0, 0, 8, 10, hx('#6b8f3d')); S.frect('jacket', 'back', 2, 3, 4, 4, hx('#8fb05a')); S.frect('body', 'front', 2, 2, 4, 7, hx('#cfe8a8')); });
+D('rabbit-hoodie', 'Rabbit Hoodie', T.animal, ['rabbit', 'bunny', 'hoodie', 'cute'], 'A soft grey rabbit hoodie with floppy ears. Hops over fences without jumping.',
+  { skin: SKINS[0], hair: 'short', hairC: HAIRS[5], shirt: '#b8bcc4', sleeves: '#b8bcc4', pants: '#9aa0a8', shoes: '#f1ede4' },
+  S => { hood(S, hx('#aab0b8')); S.frect('hat', 'top', 1, 0, 2, 5, hx('#b8bcc4')); S.frect('hat', 'top', 5, 0, 2, 5, hx('#b8bcc4')); S.frect('body', 'front', 2, 2, 4, 7, hx('#f5f2ea')); });
+D('dragon-hoodie', 'Dragon Hoodie', T.animal, ['dragon', 'hoodie', 'ender', 'fantasy'], 'An Ender-dragon hoodie: black scales, purple eyes, tiny wings. The End is coming (to the costume party).',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#2a2430', sleeves: '#2a2430', pants: '#1f1a26', shoes: '#14111a' },
+  S => { hood(S, hx('#241f2b')); horns(S, hx('#6d28d9')); S.frect('hat', 'front', 2, 3, 1, 1, hx('#a55ee8')); S.frect('hat', 'front', 5, 3, 1, 1, hx('#a55ee8')); S.frect('jacket', 'back', 0, 2, 2, 4, hx('#3a3145')); S.frect('jacket', 'back', 6, 2, 2, 4, hx('#3a3145')); });
+D('owl-hoodie', 'Owl Hoodie', T.animal, ['owl', 'bird', 'hoodie', 'night'], 'A barn owl hoodie with big round eyes on the hood. Sees phantoms before they dive.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[0], shirt: '#8a6a4a', sleeves: '#8a6a4a', pants: '#6b5238', shoes: '#4a3b28' },
+  S => { hood(S, hx('#7d603f')); S.frect('hat', 'front', 1, 2, 2, 2, hx('#f1f3f6')); S.frect('hat', 'front', 5, 2, 2, 2, hx('#f1f3f6')); S.frect('body', 'front', 2, 2, 4, 7, hx('#e8dcc8')); });
+
+// Medieval extra
+D('court-jester', 'Court Jester', T.fantasy, ['jester', 'medieval', 'clown', 'funny'], 'A two-tone jester with bells on every point. Entertains the village between raids.',
+  { skin: SKINS[0], hair: 'buzz', hairC: HAIRS[2], shirt: '#c1121f', sleeves: '#c1121f', pants: '#6d28d9', shoes: '#1c1c20' },
+  S => { S.frect('body', 'front', 4, 0, 4, 12, hx('#6d28d9')); S.frect('hat', 'top', 0, 0, 3, 3, hx('#c1121f')); S.frect('hat', 'top', 5, 0, 3, 3, hx('#6d28d9')); S.fpx('hat', 'top', 1, 0, hx('#ffd166')); S.fpx('hat', 'top', 6, 0, hx('#ffd166')); });
+D('plague-doctor', 'Plague Doctor', T.fantasy, ['plague doctor', 'medieval', 'dark', 'mask'], 'Beaked mask, wide-brim hat and heavy coat. Cures zombie villagers, ironically.',
+  { skin: SKINS[1], hair: 'bald', shirt: '#2a2f38', sleeves: '#2a2f38', pants: '#1c2026', shoes: '#101216' },
+  S => { hatBox(S, hx('#1c2026')); S.frect('hat', 'front', 2, 3, 4, 2, hx('#0e1013')); S.frect('head', 'front', 3, 4, 2, 3, hx('#8a7a5c')); belt(S, hx('#101216'), hx('#b8b0a0')); });
+D('bard', 'Traveling Bard', T.fantasy, ['bard', 'music', 'medieval', 'lute'], 'A feather-capped bard with a lute strap and a song for every biome. Buffs the whole party.',
+  { skin: SKINS[1], hair: 'long', hairC: HAIRS[4], shirt: '#2e7d32', sleeves: '#2e7d32', pants: '#5c4630', shoes: '#3d3225' },
+  S => { cap(S, hx('#8f1c2b')); S.frect('hat', 'top', 6, 0, 2, 3, hx('#f1f3f6')); chestStrap(S, hx('#8a6a3d')); emblemStar(S, hx('#ffd166')); });
+D('royal-guard', 'Royal Guard', T.fantasy, ['guard', 'royal', 'soldier', 'castle'], 'Ceremonial guard in crimson and gold with a tall helm. Stands perfectly still. Mostly.',
+  { skin: SKINS[2], hair: 'buzz', hairC: HAIRS[1], shirt: '#8f1c2b', sleeves: '#8f1c2b', pants: '#1c1c20', shoes: '#0e0d11' },
+  S => { hatBox(S, hx('#1c1c20')); S.frect('hat', 'top', 2, 2, 4, 4, hx('#2a2f38')); belt(S, hx('#ffd166')); S.frect('body', 'front', 3, 1, 2, 2, hx('#ffd166')); });
+D('zombie-survivor', 'Zombie Survivor', T.fantasy, ['survivor', 'apocalypse', 'zombie', 'tough'], 'Ripped jacket, bandages and a determined stare. Survived 200 days of hardcore.',
+  { skin: SKINS[1], hair: 'buzz', hairC: HAIRS[1], shirt: '#4a5d6b', sleeves: '#4a5d6b', pants: '#37424b', shoes: '#252d33' },
+  S => { S.frect('head', 'front', 0, 1, 8, 1, hx('#8f1c2b')); S.frect('body', 'front', 1, 5, 2, 2, hx('#e8e2d5')); chestStrap(S, hx('#5c4630')); hands(S, hx('#6b5a45')); });
+D('steampunk', 'Steampunk Engineer', T.scifi, ['steampunk', 'gears', 'goggles', 'brass'], 'Brass goggles, gear-stitched vest and pocket watch. Automates farms with style.',
+  { skin: SKINS[0], hair: 'short', hairC: HAIRS[4], shirt: '#7a5c3d', sleeves: '#e8e2d5', pants: '#4a3b28', shoes: '#262019' },
+  S => { S.frect('head', 'front', 1, 2, 2, 2, hx('#c9a13a')); S.frect('head', 'front', 5, 2, 2, 2, hx('#c9a13a')); vest(S, hx('#5c4630')); tie(S, hx('#8a6a3d')); belt(S, hx('#332619'), hx('#c9a13a')); });
 // ---- run ----
 const outDir = 'public/skins';
 fs.mkdirSync(outDir, { recursive: true });

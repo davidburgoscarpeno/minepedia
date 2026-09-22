@@ -9,7 +9,7 @@ import biomes from '../data/biomes.json';
 import guides from '../data/guides.json';
 import GameShot from '../components/GameShot.astro';
 import shots from '../data/screenshots.json';
-const BIOME_SHOTS = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'mobs-husk', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean', 'crimson-forest': 'mobs-piglins-bartering', 'badlands': 'villagers-114' };
+const BIOME_SHOTS = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: 'Minepedia', url: 'https://minepedia.app/',
@@ -73,7 +73,7 @@ const cats = [
       <div class="skintool">
         <div class="skintool-copy">
           <h2>Make your own Minecraft skin</h2>
-          <p>Paint a skin right in your browser with the free Skin Maker, or grab one of our 64 original designs and edit every pixel.</p>
+          <p>Paint a skin right in your browser with the free Skin Maker, or grab one of our 102 original designs and edit every pixel.</p>
           <div class="cta-row"><a class="cta primary" href="/tools/skin-maker/">Open the Skin Maker</a><a class="cta" href="/skins/">Browse the skin gallery</a></div>
         </div>
         <div class="skintool-prev">
@@ -106,7 +106,7 @@ const cats = [
       <h2>Biomes</h2>
       <p class="sub">Resources, mobs and structures for every biome - each with its own artwork.</p>
       <div class="biome-strip">
-        {['cherry-grove','badlands','lush-caves','mangrove-swamp','ice-spikes','crimson-forest'].map(sl => {
+        {['ice-spikes','lush-caves','jungle','mushroom-fields','windswept-hills','taiga'].map(sl => {
           const shotId = BIOME_SHOTS[sl];
           const sh = shotId && shots.find(x => x.id === shotId);
           const src = sh ? '/screenshots/' + sh.file : `/biome-art/${sl}.png`;
