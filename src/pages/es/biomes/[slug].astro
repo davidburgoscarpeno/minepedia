@@ -1,0 +1,9 @@
+---
+import BiomeDetail from '../../../components/pages/BiomeDetail.astro';
+import biomes from '../../../data/biomes.json';
+export function getStaticPaths() {
+  return biomes.map(b => ({ params: { slug: b.slug }, props: { b } }));
+}
+const { b } = Astro.props;
+---
+<BiomeDetail b={b} lang="es" />

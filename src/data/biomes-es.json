@@ -1,0 +1,598 @@
+{
+ "plains": {
+  "category": "Overworld (templado)",
+  "description": "Pradera plana con pocos árboles: el bioma de inicio clásico y el sitio más fácil para construir, cultivar y encontrar tu primera aldea.",
+  "resources": [
+   "Madera de roble (árboles dispersos, a menudo con colmenas cerca de flores)",
+   "Balas de heno en las aldeas (9 de trigo cada una)",
+   "Caballos y burros como primeras monturas",
+   "Botín de aldea: camas, comida, equipo de hierro, obsidiana en cofres de herreros de armas"
+  ],
+  "mobs": [
+   "Caballos, burros, ovejas, vacas, cerdos",
+   "Patrullas y puestos de pillagers",
+   "Mobs hostiles estándar de noche"
+  ],
+  "structures": [
+   "Aldeas de llanuras",
+   "Puestos de pillagers"
+  ],
+  "whyGo": [
+   "El mejor bioma para empezar un mundo: espacio plano para construir, animales por todas partes y una aldea de ventaja",
+   "Cría y doma de caballos",
+   "Granjas de abejas: los árboles de llanuras cerca de flores tienen un 5% de probabilidad de generarse con un nido"
+  ],
+  "tips": [
+   "Apunta las coordenadas de la aldea pronto: son tu primera cama, comida y puesto de comercio.",
+   "Las piscinas de lava se generan expuestas en las llanuras: obsidiana gratis y acceso al portal del Nether antes que los diamantes."
+  ]
+ },
+ "desert": {
+  "category": "Overworld (seco/cálido)",
+  "description": "Arena, cactus y arbustos muertos sin fin. Nunca llueve, y las pirámides esconden parte del mejor botín del inicio del Overworld.",
+  "resources": [
+   "Arena y arenisca para cristal y construcción",
+   "Cactus para tinte verde y muros defensivos",
+   "Los arbustos muertos sueltan palos",
+   "Fósiles bajo tierra (bloques de hueso)",
+   "Arena sospechosa en pirámides y pozos para arqueología (1.20+)"
+  ],
+  "mobs": [
+   "Husks (80% de los zombis de superficie: no se queman de día e infligen Hambre)",
+   "Camellos en aldeas del desierto (1.20+)",
+   "Conejos"
+  ],
+  "structures": [
+   "Pirámides del desierto (4 cofres de botín + trampa de 9 TNT)",
+   "Aldeas del desierto",
+   "Pozos del desierto (arqueología)"
+  ],
+  "whyGo": [
+   "Pirámides del desierto: manzanas doradas, libros encantados, diamantes y armadura de caballo en 4 cofres; excava por el lado, nunca por la placa de presión central",
+   "Botín de nivel oro sin ir al Nether",
+   "Terreno abierto sin lluvia: visibilidad total para megaproyectos"
+  ],
+  "tips": [
+   "En las pirámides, excava por la pared lateral hasta el nivel de los cofres: la trampa central de TNT destruye el botín.",
+   "Los husks ignoran la luz solar: lleva escudo al amanecer."
+  ]
+ },
+ "jungle": {
+  "category": "Overworld (exuberante)",
+  "description": "Selva densa con árboles gigantes, bambú y lianas. Cuesta moverse, pero está llena de recursos que no existen en ningún otro sitio.",
+  "resources": [
+   "Madera de jungla, bambú, granos de cacao, lianas y sandías",
+   "Botín de templos de jungla y grava sospechosa (arqueología)",
+   "Ocelotes, loros y pandas",
+   "Alfombras de musgo y glow berries en las cuevas frondosas de debajo"
+  ],
+  "mobs": [
+   "Pandas (variante de jungla de bambú)",
+   "Ocelotes",
+   "Loros (domesticables con semillas)",
+   "Mobs hostiles estándar bajo la canopia"
+  ],
+  "structures": [
+   "Templos de jungla (trampas de flechas, cofre con puzle, botín)"
+  ],
+  "whyGo": [
+   "Único bioma con pandas y granos de cacao",
+   "Bambú para andamios: el bloque imprescindible del constructor",
+   "Los loros imitan sonidos de mobs cercanos: un radar de mobs viviente"
+  ],
+  "tips": [
+   "Templos de jungla: desactiva las flechas de las cuerdas trampa antes de tocar los cofres. El cofre oculto tras el puzle de palancas también se alcanza picando directamente la pared.",
+   "Viaja por la canopia, no por el suelo: es el doble de rápido."
+  ]
+ },
+ "badlands": {
+  "category": "Overworld (seco/cálido)",
+  "description": "Mesetas de terracota de colores y cañones de arena roja. El mejor bioma para minar oro del Overworld, con minas abandonadas expuestas en superficie.",
+  "resources": [
+   "Terracota de todos los colores (material de construcción gratis e ilimitado)",
+   "Arena roja y arenisca roja",
+   "El mineral de oro se genera mucho más a menudo y más alto (vetas extra entre Y=32 e Y=256)",
+   "Minas abandonadas de superficie con soportes de roble oscuro y vagonetas con cofre expuestas"
+  ],
+  "mobs": [
+   "Mobs hostiles estándar en cuevas y de noche",
+   "Sin mobs hostiles propios; los husks no aparecen aquí (no es un desierto)"
+  ],
+  "structures": [
+   "Minas abandonadas expuestas",
+   "No se generan aldeas ni puestos de forma natural"
+  ],
+  "whyGo": [
+   "Oro sin el Nether: saltar de mina en mina en badlands es el oro de Overworld más rápido",
+   "Farmeo de terracota para constructores: lleva pala y pico de Toque de seda",
+   "Las badlands erosionadas (la variante de picos) son de los lugares más bonitos para construir"
+  ],
+  "tips": [
+   "Las vagonetas con cofre de estas minas contienen oro, hierro, libros encantados y etiquetas de nombre.",
+   "Sin lluvia ni nieve: la propagación del fuego es tu mayor peligro cerca de la variante boscosa."
+  ]
+ },
+ "mushroom-fields": {
+  "category": "Overworld (isla rara)",
+  "description": "Un bioma insular raro cubierto de micelio y champiñones gigantes. Los mobs hostiles no pueden aparecer aquí de forma natural: el bioma más seguro del juego.",
+  "resources": [
+   "Mooshrooms: estofado de champiñones infinito con un cuenco, y ordeñarlas para estofado normal o sospechoso",
+   "Micelio y bloques de champiñón gigante (Toque de seda)",
+   "Champiñones rojos y marrones"
+  ],
+  "mobs": [
+   "Solo mooshrooms: ningún mob hostil aparece de forma natural, nunca",
+   "Los spawners y los spawns de raid sí funcionan, así que no es por la luz: es a nivel de bioma"
+  ],
+  "structures": [
+   "No se generan estructuras de forma natural"
+  ],
+  "whyGo": [
+   "Construye una base sin protección antimobs: los phantoms y las patrullas aún pueden visitarte, pero nada aparece en la isla",
+   "Granja de mooshrooms para comida ilimitada",
+   "La base definitiva para modo hardcore"
+  ],
+  "tips": [
+   "Lleva tierra y saplings: aquí no se genera hierba ni árboles, y el micelio no sirve para la mayoría de cultivos.",
+   "Los phantoms aún aparecen sobre ti de noche: duerme o lleva un gato."
+  ]
+ },
+ "cherry-grove": {
+  "category": "Overworld (montaña)",
+  "description": "Bosques rosas de cerezo en laderas de montaña, añadidos en la 1.20. Bonitos, tranquilos y la única fuente de madera de cerezo.",
+  "resources": [
+   "Troncos y saplings de cerezo (set de madera rosa)",
+   "Pétalos rosas (cobertura de suelo renovable, con polvo de hueso)",
+   "Nidos de abejas: los cerezos tienen un 5% de probabilidad de generarse con un nido",
+   "Mineral de esmeralda debajo (es un bioma de montaña)"
+  ],
+  "mobs": [
+   "Ovejas, cerdos, conejos",
+   "Abejas",
+   "Mobs hostiles estándar de noche"
+  ],
+  "structures": [
+   "No se generan estructuras de forma natural"
+  ],
+  "whyGo": [
+   "El set de madera rosa: la paleta de construcción más deseada de las últimas versiones",
+   "Pétalos rosas para decorar, renovables con polvo de hueso",
+   "Suele generarse junto a montañas: combina la visita con caza de esmeraldas y carbón en las laderas"
+  ],
+  "tips": [
+   "Las arboledas de cerezo a menudo se esconden dentro de anillos de montañas con aldeas al pie: semillas clásicas de capturas.",
+   "Esquila las hojas: sueltan pétalos rosas al romperlas."
+  ]
+ },
+ "deep-dark": {
+  "category": "Overworld (cueva)",
+  "description": "Un bioma de cueva infestado de sculk por debajo de Y=0, normalmente bajo montañas. No aparece ningún mob de forma natural, salvo el Warden que te invocas tú mismo.",
+  "resources": [
+   "Ciudades antiguas: las mejores tablas de botín del Overworld (esquirlas de eco, swift sneak, manzanas doradas encantadas, fragmentos de disco)",
+   "Bloques de sculk para granjas de XP (los catalizadores convierten muertes de mobs en sculk que guarda XP)",
+   "Deepslate y las vetas de mineral alrededor de Y=-59"
+  ],
+  "mobs": [
+   "El Warden (invocado por sculk shriekers: 500 de vida, mata a través del netherite)",
+   "Nada más aparece de forma natural"
+  ],
+  "structures": [
+   "Ciudades antiguas"
+  ],
+  "whyGo": [
+   "Botín de ciudad antigua: el encantamiento Swift Sneak para pantalones no existe en ningún otro sitio",
+   "Farmeo de catalizadores sculk para almacenar XP",
+   "El desafío de sigilo definitivo"
+  ],
+  "tips": [
+   "Lleva lana: caminar sobre lana y rodear los sensores con lana te hace silencioso. Swift Sneak III lo cambia todo.",
+   "Los shriekers necesitan 4 activaciones (en 10 minutos) para invocar un Warden: rómpelos tras cada fallo en lugar de correr."
+  ]
+ },
+ "swamp": {
+  "category": "Overworld (templado)",
+  "description": "Agua poco profunda, nenúfares y robles cubiertos de lianas. El único bioma donde los slimes aparecen en superficie y las brujas viven en cabañas.",
+  "resources": [
+   "Slimeballs de slimes de superficie (las tasas máximas son en luna llena)",
+   "Cabañas de bruja (spawns de gato y bruja, mesa de crafteo + caldero)",
+   "Orquídeas azules, nenúfares, lianas y discos de arcilla",
+   "Variante de manglar: madera de mangle, lodo y ranas"
+  ],
+  "mobs": [
+   "Slimes de noche (luz por debajo de 8, Y 51-69, depende de la luna)",
+   "Brujas en cabañas; bogged (esqueletos de flechas venenosas) en pantanos y manglares (1.21)",
+   "Ranas y renacuajos (variante de manglar)"
+  ],
+  "structures": [
+   "Cabañas de bruja",
+   "Fósiles bajo tierra"
+  ],
+  "whyGo": [
+   "Slimeballs en superficie sin excavar hasta Y=40: espera a las noches de luna llena",
+   "Ranas para froglights (aliméntalas con magma cubes pequeños)",
+   "Paletas de lodo y madera de mangle de la variante de manglar"
+  ],
+  "tips": [
+   "Las tasas de slime son cero en luna nueva: mira la luna antes de una sesión AFK.",
+   "Las cabañas de bruja permiten granjas de brujas compactas (redstone, glowstone, pólvora) con un volumen de spawn pequeño."
+  ]
+ },
+ "taiga": {
+  "category": "Overworld (frío)",
+  "description": "Bosques de abeto con helechos, arbustos de bayas dulces y podzol. Hogar de lobos, zorros y terreno de cabaña de troncos acogedora.",
+  "resources": [
+   "Madera de abeto (variante de abeto gigante 2x2 en taiga antigua)",
+   "Bayas dulces (comida y cebo para zorros)",
+   "Podzol (crecen champiñones con cualquier luz)",
+   "Rocosas de roca musgosa"
+  ],
+  "mobs": [
+   "Lobos (domesticables con huesos)",
+   "Zorros (confían en jugadores que les dan bayas dulces agachados)",
+   "Conejos",
+   "Aldeanos de aldeas de taiga"
+  ],
+  "structures": [
+   "Aldeas de taiga",
+   "Puestos de pillagers",
+   "Trail ruins (arqueología, 1.20+)"
+  ],
+  "whyGo": [
+   "Domestica una manada de lobos pronto: luchan por ti",
+   "Los zorros llevan objetos en la boca, incluidos tótems y espadas",
+   "La taiga antigua da abetos gigantes: madera a montones por árbol"
+  ],
+  "tips": [
+   "Los lobos se teletransportan a ti: domestica 5+ y tendrás guardaespaldas móvil.",
+   "Los arbustos de bayas dulces dañan y ralentizan a todo lo que los atraviesa: setos defensivos gratis."
+  ]
+ },
+ "windswept-hills": {
+  "category": "Overworld (montaña)",
+  "description": "Montañas escarpadas y rotas con piedra expuesta y salientes flotantes. La única familia de biomas del Overworld con mineral de esmeralda y carbón y hierro de superficie a granel.",
+  "resources": [
+   "Mineral de esmeralda (solo biomas de montaña, de Y=-16 a Y=320, más hacia Y=232)",
+   "Carbón y hierro expuestos en las paredes de los riscos",
+   "Piedra infestada (silverfish) por debajo de Y=0: pica con cuidado",
+   "Cabras en picos irregulares y helados (cuernos, 1.19+)"
+  ],
+  "mobs": [
+   "Cabras (embesten a los jugadores: mantén distancia en los salientes)",
+   "Llamas",
+   "Silverfish de bloques infestados"
+  ],
+  "structures": [
+   "No se generan estructuras de forma natural (pueden aparecer aldeas en los valles de abajo)"
+  ],
+  "whyGo": [
+   "Esmeraldas para comerciar con aldeanos sin saquear cofres",
+   "El carbón y hierro del inicio más rápido: todo está expuesto en los riscos",
+   "Cuernos de cabra para señalizar en multijugador"
+  ],
+  "tips": [
+   "La nieve en polvo de los picos helados te hunde y te congela: las botas de cuero te dejan caminar por encima.",
+   "Las caídas son la principal causa de muerte: lleva un cubo de agua o botas de Feather Falling antes de minar en serio."
+  ]
+ },
+ "forest": {
+  "category": "Overworld (templado)",
+  "description": "Bosque denso de robles y abedules: la clásica granja de árboles con flores, lobos y alguna colmena ocasional.",
+  "resources": [
+   "Madera de roble y abedul en grandes cantidades",
+   "Lobos (domésticalos para protección contra esqueletos)",
+   "Colmenas en robles cerca de flores",
+   "Champiñones en zonas oscuras bajo la canopia"
+  ],
+  "mobs": [
+   "Lobos, ovejas, cerdos, vacas, gallinas",
+   "Conejos",
+   "Mobs hostiles estándar de noche, ocultos entre los árboles"
+  ],
+  "structures": [
+   "Sin estructuras exclusivas; portales en ruinas y aldeas se generan en los bordes"
+  ],
+  "whyGo": [
+   "Madera fiable para el inicio y tus primeros lobos. Los bosques de flores cercanos ofrecen todos los tintes que necesitarás."
+  ],
+  "tips": [
+   "Aclara la canopia al talar: los mobs sobreviven la noche bajo hojas densas.",
+   "Planta saplings con polvo de hueso para una granja de árboles instantánea junto a la base."
+  ]
+ },
+ "savanna": {
+  "category": "Overworld (cálido)",
+  "description": "Pradera seca de hierba dorada con acacias y sin lluvia: aldeas, llamas, caballos y armadillos.",
+  "resources": [
+   "Madera de acacia",
+   "Botín de aldea y comercio fácil (las aldeas de sabana son comunes)",
+   "Llamas para almacenamiento en caravana",
+   "Escamas de armadillo para armadura de lobo (con el cepillo)",
+   "Caballos"
+  ],
+  "mobs": [
+   "Llamas, caballos, burros, armadillos",
+   "Mobs hostiles estándar de noche, muy visibles en campo abierto"
+  ],
+  "structures": [
+   "Aldeas de sabana",
+   "Puestos de pillagers",
+   "Portales en ruinas"
+  ],
+  "whyGo": [
+   "Una base aquí nunca ve lluvia, y la visibilidad despejada facilita farmear de noche. Los armadillos (desde la 1.20.5) dan escamas para armadura de lobo."
+  ],
+  "tips": [
+   "Sin lluvia no hay bonus de suerte al pescar, pero tampoco zombis convirtiéndose en drowned en los ríos cercanos.",
+   "Las variantes de sabana quebrada tienen montañas espectaculares esculpidas por el viento para construir."
+  ]
+ },
+ "ice-spikes": {
+  "category": "Overworld (nevado)",
+  "description": "Una llanura helada rara salpicada de torres de hielo compacto: uno de los biomas más fotogénicos del juego.",
+  "resources": [
+   "Hielo compacto en grandes cantidades (los picos en sí)",
+   "Nieve y hielo normal",
+   "Osos polares (pacíficos salvo cerca de crías)",
+   "Strays: variante de esqueleto con flechas de lentitud"
+  ],
+  "mobs": [
+   "Osos polares, conejos",
+   "Strays de noche (esqueletos expuestos al cielo)",
+   "Mobs hostiles nevados estándar"
+  ],
+  "structures": [
+   "Ninguna exclusiva; algún portal en ruinas ocasional"
+  ],
+  "whyGo": [
+   "Hielo compacto para autopistas de barcas rápidas: la fuente a granel más fácil antes de craftear hielo azul con Toque de seda. El paisaje es un extra."
+  ],
+  "tips": [
+   "Necesitas Toque de seda para recolectar los picos.",
+   "Los strays solo aparecen a cielo abierto: construye un refugio con techo y estarás a salvo.",
+   "El hielo azul (9 de hielo compacto cada uno) es la superficie de barca más rápida; farméalo aquí o en icebergs."
+  ]
+ },
+ "mangrove-swamp": {
+  "category": "Overworld (templado, cálido)",
+  "description": "Un pantano costero denso y embarrado de mangles con raíces enredadas, musgo y ranas blancas cálidas.",
+  "resources": [
+   "Madera de mangle y propágulos (saplings plantables que cuelgan)",
+   "Lodo: craftea lodo compactado y ladrillos de lodo, o conviértelo en arcilla",
+   "Ranas blancas (variante cálida) para froglights perlados",
+   "Abejas y miel en nidos de mangle",
+   "Alfombras de musgo"
+  ],
+  "mobs": [
+   "Ranas, peces tropicales en agua cálida",
+   "Slimes de noche en chunks de pantano",
+   "Mobs hostiles estándar"
+  ],
+  "structures": [
+   "Sin estructuras exclusivas; las cabañas de bruja no se generan aquí (eso es el pantano templado)"
+  ],
+  "whyGo": [
+   "Los ladrillos de lodo son de los bloques de construcción más bonitos, y este es el único sitio donde el lodo se genera de forma natural. Las ranas de aquí son la variante cálida (blanca) para granjas de froglights."
+  ],
+  "tips": [
+   "Lleva pala: el lodo se convierte en arcilla con un dripstone puntiagudo debajo: granja de arcilla renovable.",
+   "Muévete en barca entre las raíces con marea alta; caminar es lento."
+  ]
+ },
+ "lush-caves": {
+  "category": "Overworld (subterráneo)",
+  "description": "Jardines subterráneos luminosos de musgo, pozas de arcilla, glow berries y ajolotes, marcados en superficie por árboles de azalea.",
+  "resources": [
+   "Ajolotes (el azul tiene 1/1200 de probabilidad por cría)",
+   "Glow berries (comida + luz)",
+   "Bloques de musgo, azalea, azalea en flor, flor de esporas",
+   "Arcilla en pozas",
+   "Dripleaf para parkour y granjas",
+   "Peces tropicales"
+  ],
+  "mobs": [
+   "Ajolotes, calamares luminosos, peces tropicales, murciélagos",
+   "Mobs hostiles solo en rincones sin iluminar: el bioma es fácil de asegurar"
+  ],
+  "structures": [
+   "Minas abandonadas y mazmorras pueden cruzarse; el bioma en sí no tiene"
+  ],
+  "whyGo": [
+   "Ajolotes para combate submarino (luchan contra drowned y guardianes), más los materiales de construcción subterráneos más bonitos del juego."
+  ],
+  "tips": [
+   "Encuentra un árbol de azalea en superficie (un único árbol tipo roble con hojas en flor) y excava en vertical a través de su tierra con raíces.",
+   "Captura en cubo ajolotes de todos los colores: se crían con cubos de pez tropical.",
+   "Las flores de esporas se rompen con cualquier herramienta y se sueltan enteras: recógelas para decorar."
+  ]
+ },
+ "dripstone-caves": {
+  "category": "Overworld (subterráneo)",
+  "description": "Cavernas enormes de estalactitas y pilares de dripstone, con vetas ricas en cobre y pozas vigiladas por drowned.",
+  "resources": [
+   "Dripstone puntiagudo (renovable: crece bajo bloques de dripstone con agua o lava encima)",
+   "Mineral de cobre: se genera en cantidades mucho mayores aquí",
+   "Bloques de dripstone para decoración y granjas de lava",
+   "Drowned (fuente de tridentes en acuíferos)"
+  ],
+  "mobs": [
+   "Drowned en aguas subterráneas",
+   "Mobs hostiles de cueva estándar"
+  ],
+  "structures": [
+   "Sin estructuras exclusivas; las minas abandonadas las atraviesan"
+  ],
+  "whyGo": [
+   "El mejor minado de cobre del juego, más granjas de lava infinita: el dripstone puntiagudo goteando lava sobre calderos los llena despacio pero para siempre."
+  ],
+  "tips": [
+   "Caer sobre una estalagmita duplica el daño por caída: mira dónde pisas.",
+   "Las estalactitas caen si se rompe el bloque de encima: trampas gratis.",
+   "Combínala con una cueva frondosa cercana para un ciclo completo de recursos subterráneos."
+  ]
+ },
+ "nether-wastes": {
+  "category": "Nether",
+  "description": "La clásica extensión de netherrack: piglins zombificados, ghasts y mares de lava, con striders surcando los lagos de lava.",
+  "resources": [
+   "Netherrack para fundir en ladrillos del Nether",
+   "Cuarzo del Nether y mineral de oro incrustados en la roca",
+   "Granjas de oro de piglins zombificados (pepitas y lingotes)",
+   "Striders para viajar por lava (silla + hongo distorsionado en un palo)",
+   "Lágrimas de ghast"
+  ],
+  "mobs": [
+   "Piglins zombificados (neutrales hasta que los atacas)",
+   "Ghasts, magma cubes",
+   "Piglins y endermen raros",
+   "Striders sobre lava"
+  ],
+  "structures": [
+   "Fortalezas del Nether",
+   "Bastiones en ruinas",
+   "Portales en ruinas"
+  ],
+  "whyGo": [
+   "El bioma columna vertebral del Nether: cuarzo para XP y componentes de redstone, la ubicación clásica de la granja de oro de piglins zombificados, y terreno de caza de fortalezas."
+  ],
+  "tips": [
+   "Excavar a Y=15 aquí sirve también para minar escombros ancestrales.",
+   "Protege tus túneles de los ghasts con roca o mejor: el netherrack salta por los aires.",
+   "Un golpe a un piglin zombificado pone en contra a toda la zona: pelea a tus condiciones."
+  ]
+ },
+ "crimson-forest": {
+  "category": "Nether",
+  "description": "Un bosque fúngico rojo de enormes hongos carmesí, shroomlights y lianas lloronas, repleto de piglins y hoglins.",
+  "resources": [
+   "Tallos carmesí (madera roja ignífuga) y shroomlights",
+   "Hoglins: la principal fuente de comida del Nether (chuletas) y cuero",
+   "Comercio con piglins (oro por perlas, obsidiana, pociones...)",
+   "Lianas lloronas y nylium carmesí",
+   "Verruga del Nether ocasionalmente en bastiones de aquí"
+  ],
+  "mobs": [
+   "Piglins (hostiles sin armadura de oro, comerciables)",
+   "Hoglins (hostiles, criables, temen el hongo distorsionado)",
+   "Piglins zombificados"
+  ],
+  "structures": [
+   "Se generan bastiones en ruinas",
+   "Portales en ruinas"
+  ],
+  "whyGo": [
+   "Los centros de comercio con piglins funcionan mejor aquí, las granjas de hoglins dan comida infinita, y los tallos carmesí son una madera ignífuga llamativa."
+  ],
+  "tips": [
+   "Lleva una pieza de armadura de oro y los piglins se quedan neutrales.",
+   "Los hoglins evitan el hongo distorsionado: lleva alguno como escudo repelente.",
+   "Los hoglins se zombifican en el Overworld, así que farméalos en el Nether."
+  ]
+ },
+ "warped-forest": {
+  "category": "Nether",
+  "description": "Un bosque fúngico azul cian lleno de endermen: el bioma más tranquilo y seguro del Nether, sin ghasts ni piglins.",
+  "resources": [
+   "Tallos distorsionados (madera azul ignífuga) y shroomlights",
+   "Ender pearls de los densos spawns de endermen: la mejor granja de perlas del inicio",
+   "Hongo distorsionado en un palo para montar striders",
+   "Lianas retorcidas"
+  ],
+  "mobs": [
+   "Endermen (el único spawn hostil común)",
+   "Striders cerca, sobre lava"
+  ],
+  "structures": [
+   "Pueden aparecer bastiones en ruinas y portales en ruinas; sin fortalezas exclusivas"
+  ],
+  "whyGo": [
+   "Caza de endermen: sin otros mobs compitiendo, las tasas de perlas aquí superan a cualquier noche del Overworld. También es el sitio más seguro para viajar o construir en el Nether."
+  ],
+  "tips": [
+   "Un techo de 2 bloques de alto te hace a prueba de endermen mientras los farmeas.",
+   "El hongo distorsionado asusta a los hoglins: plántalo alrededor de los portales.",
+   "Una espada de Saqueo III convierte una visita en stacks de perlas."
+  ]
+ },
+ "soul-sand-valley": {
+  "category": "Nether",
+  "description": "Un cañón brumoso de soul sand y soul soil, pilares de basalto y fósiles antiguos: lento de cruzar, rico en hueso y lágrimas de ghast.",
+  "resources": [
+   "Soul sand (invocación del Wither, ascensores de burbujas) y soul soil",
+   "Bloques de hueso de fósiles gigantes (9 de polvo de hueso cada uno)",
+   "Lágrimas de ghast: los ghasts aparecen aquí en grandes cantidades",
+   "Fósiles del Nether para decoración"
+  ],
+  "mobs": [
+   "Ghasts (muy comunes)",
+   "Esqueletos",
+   "Endermen"
+  ],
+  "structures": [
+   "Fósiles del Nether",
+   "Pueden generarse bastiones y portales en ruinas"
+  ],
+  "whyGo": [
+   "Soul sand/soil a granel, bloques de hueso de fósiles y la mejor caza de lágrimas de ghast del Nether. Las botas con Soul Speed convierten el terreno en una autopista."
+  ],
+  "tips": [
+   "El soul sand te frena: usa botas de Soul Speed o monta un strider por los canales de lava.",
+   "Las bolas de fuego de los ghasts prenden el soul soil en fuego de almas (azul, doble daño): mantén tu base libre de inflamables.",
+   "Esqueletos más ghasts hacen de este el bioma común más peligroso del Nether: no pares de moverte."
+  ]
+ },
+ "basalt-deltas": {
+  "category": "Nether",
+  "description": "Torres grises e irregulares de basalto y blackstone bajo una lluvia de ceniza blanca: la capital de los magma cubes del Nether.",
+  "resources": [
+   "Basalto (basalto pulido para construcción) y blackstone",
+   "Crema de magma de infinitos magma cubes: pociones de resistencia al fuego y bloques de magma",
+   "Caza de escombros ancestrales (el terreno irregular del bioma esconde menos)",
+   "Ambiente de ceniza blanca para construcciones atmosféricas"
+  ],
+  "mobs": [
+   "Magma cubes (por todas partes)",
+   "Ghasts",
+   "Striders en bolsas de lava"
+  ],
+  "structures": [
+   "Bastiones en ruinas; fortalezas del Nether cerca"
+  ],
+  "whyGo": [
+   "Granjas de magma cubes (el spawner de las salas del tesoro de los bastiones más los spawns naturales) y los bloques volcánicos más bonitos. Los dueños de ranas vienen a por froglights."
+  ],
+  "tips": [
+   "El terreno es brutal: cortados pronunciados, bolsas de lava, poca visibilidad: lleva bloques y resistencia al fuego.",
+   "Los magma cubes se dividen como los slimes; una espada de Saqueo sobre los pequeños es la crema de magma más rápida.",
+   "El blackstone de aquí sustituye a la roca en la mayoría de recetas de herramientas de piedra y hornos."
+  ]
+ },
+ "the-end": {
+  "category": "End",
+  "description": "Una dimensión de vacío con islas de end stone: la isla central del dragón, pilares de obsidiana, plantas de chorus y las islas exteriores con ciudades del End.",
+  "resources": [
+   "Ender pearls de endermen infinitos",
+   "Fruta y flores de chorus (islas exteriores)",
+   "End stone y bloques de púrpur",
+   "Élitros, cabezas de dragón y botín de primer nivel en ciudades del End",
+   "Huevo de dragón (uno, de la primera muerte del dragón)"
+  ],
+  "mobs": [
+   "Endermen (por todas partes)",
+   "Ender Dragon (boss, isla central)",
+   "Shulkers (ciudades del End)"
+  ],
+  "structures": [
+   "Pilares de obsidiana con cristales de end",
+   "Portal de salida y puertas de enlace",
+   "Ciudades del End y barcos del End (islas exteriores)"
+  ],
+  "whyGo": [
+   "El endgame: tras el dragón, las islas exteriores guardan el mejor botín de Minecraft: élitros, cajas shulker y equipo de diamante encantado."
+  ],
+  "tips": [
+   "Lleva un cubo de agua o Caída lenta: el vacío es el verdadero asesino aquí.",
+   "Los cascos de calabaza evitan el aggro de los endermen... una calabaza tallada evita el contacto visual pero bloquea la armadura del casco: tú decides.",
+   "Las puertas de enlace te lanzan a unos 1.000 bloques; apunta las coordenadas antes de cruzar."
+  ]
+ }
+}

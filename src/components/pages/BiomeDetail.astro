@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameShot from '../GameShot.astro';
+import BiomeArt from '../BiomeArt.astro';
+import biomes from '../../data/biomes.json';
+import biomesEs from '../../data/biomes-es.json';
+
+interface Props { b: any; lang: 'en' | 'es'; }
+const { b, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (biomesEs as any)[b.slug] : null;
+const category = ov?.category ?? b.category;
+const description = ov?.description ?? b.description;
+const resources: string[] = ov?.resources ?? b.resources;
+const mobList: string[] = ov?.mobs ?? b.mobs;
+const structures: string[] = ov?.structures ?? b.structures;
+const whyGo: string[] = ov?.whyGo ?? b.whyGo;
+const tips: string[] = ov?.tips ?? b.tips;
+
+const SHOT_BY_SLUG: Record<string,string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
+const shotId = SHOT_BY_SLUG[b.slug];
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Biomas', crumbHref: '/es/biomes/',
+  resourcesH: 'Recursos', mobsH: 'Mobs', structuresH: 'Estructuras', whyH: 'Por qué ir', tipsH: 'Consejos',
+  back: '← Todos los biomas',
+  title: `Bioma ${b.name}`,
+  desc: `Bioma ${b.name} de Minecraft: recursos, mobs, estructuras y consejos. Cuándo ir y qué llevar.`,
+  canonical: `/es/biomes/${b.slug}/`, alt: `/biomes/${b.slug}/`,
+  headline: `Bioma ${b.name} de Minecraft: recursos, mobs y estructuras`,
+  faq1: `¿Qué hay en el bioma ${b.name} de Minecraft?`,
+  faq2: `¿Qué estructuras se generan en el bioma ${b.name}?`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Biomes', crumbHref: '/biomes/',
+  resourcesH: 'Resources', mobsH: 'Mobs', structuresH: 'Structures', whyH: 'Why go', tipsH: 'Tips',
+  back: '← All biomes',
+  title: `${b.name} Biome`,
+  desc: `Minecraft ${b.name.toLowerCase()} biome: resources, mobs, structures and tips. When to go and what to bring.`,
+  canonical: `/biomes/${b.slug}/`, alt: `/es/biomes/${b.slug}/`,
+  headline: `Minecraft ${b.name} Biome: Resources, Mobs and Structures`,
+  faq1: `What is in the ${b.name.toLowerCase()} biome in Minecraft?`,
+  faq2: `What structures generate in the ${b.name.toLowerCase()} biome?`
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: L.headline,
+    description: `${b.name}: ${description}`,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`, author: { '@type': 'Organization', name: 'Minepedia' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+    { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+    { '@type': 'ListItem', position: 3, name: b.name, item: `https://minepedia.app${L.canonical}` } ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
+    { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: `${description} ${resources.join('; ')}.` } },
+    { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: structures.join('. ') + '.' } } ] }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {b.name}</nav>
+    <h1>{b.name}</h1>
+    <p><span class="badge">{category}</span></p>
+    <p>{description}</p>
+    {shotId ? <GameShot id={shotId} /> : <BiomeArt slug={b.slug} name={b.name} />}
+    <h2>{L.resourcesH}</h2>
+    <ul>{resources.map(r => <li>{r}</li>)}</ul>
+    <h2>{L.mobsH}</h2>
+    <ul>{mobList.map(m => <li>{m}</li>)}</ul>
+    <h2>{L.structuresH}</h2>
+    <ul>{structures.map(s => <li>{s}</li>)}</ul>
+    <h2>{L.whyH}</h2>
+    <ul>{whyGo.map(w => <li>{w}</li>)}</ul>
+    <h2>{L.tipsH}</h2>
+    <ul>{tips.map(t => <li>{t}</li>)}</ul>
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

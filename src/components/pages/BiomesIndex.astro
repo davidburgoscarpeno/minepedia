@@ -35,7 +35,7 @@ const S = lang === 'es' ? {
     <GameShot id="biomes-frozen-ocean" />
     <div class="grid-cards">
       {biomes.map(b => (
-        <a class="card" href={`/biomes/${b.slug}/`}>
+        <a class="card" {lang === 'es' ? `/es/biomes/${b.slug}/` : `/biomes/${b.slug}/`}>
           <img src={thumb(b.slug)} alt={`Minecraft ${b.name} biome`} width="256" height="144" loading="lazy" style={`width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:8px;${SHOT_BY_SLUG[b.slug] ? "" : "image-rendering:pixelated"}`} />
           <h3>{b.name}</h3>
           <p>{b.description.split('.')[0]}.</p>
