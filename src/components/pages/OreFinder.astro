@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import oresEn from '../../data/ores.json';
+import oresEs from '../../data/ores-es.json';
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+const ores = isES ? oresEs : oresEn;
+
+const L = isES ? {
+  title: 'Buscador de minerales de Minecraft (mejores niveles Y)',
+  desc: 'El mejor nivel Y para cada mena de Minecraft: diamantes en -59, hierro en 14 y 232, ancient debris en 16. Tabla completa de distribución de la 1.21 para Java y Bedrock.',
+  home: 'Inicio', homeHref: '/es/', toolsCrumb: 'Herramientas', toolsHref: '/es/tools/', crumb: 'Buscador de minerales',
+  h1: 'Buscador de minerales: mejores niveles Y',
+  sub: 'Dónde minar cada mena en la 1.21, con datos reales de generación de mundo. Java y Bedrock.',
+  quick: 'Respuesta rápida:', quickText: 'diamantes y redstone en Y=-59, hierro en Y=14 o Y=232 en montañas, oro en Y=-18 (o superficie de badlands), ancient debris en Y=16 en el Nether.',
+  pickH: 'Elige una mena', choose: 'Elige una mena...',
+  chartH: 'Tabla completa de distribución',
+  thOre: 'Mena', thRange: 'Rango', thBest: 'Mejor nivel Y', thNotes: 'Notas',
+  tipsH: 'Consejos de minería que importan más que el nivel Y',
+  tip1: 'las menas de diamante, lapis y oro se generan menos en bloques expuestos al aire. El branch mining supera a correr por cuevas para esas tres.',
+  tip1b: 'Exposición al aire reducida (1.18+):',
+  tip2: ' multiplica los drops de todas las menas excepto hierro y oro (que sueltan bloques en bruto: fúndelos o usa Silk Touch).',
+  tip2b: 'Fortune III',
+  tip3: ' la deepslate se mina más lento: bajo Y=8 la mayoría de las menas vienen en variantes deepslate. Lleva Efficiency IV+ o acepta golpes más lentos.',
+  tip3b: 'La deepslate es más lenta de minar:',
+  tip4: ' las camas explotan en el Nether y cuestan casi nada: el método clásico para ancient debris a Y=15. Lleva fire resistance.',
+  tip4b: 'Minado con camas en el Nether:',
+  related: 'Guías relacionadas:',
+  relatedLinks: '<a href="/es/guides/how-to-find-diamonds/">Cómo encontrar diamantes</a> - <a href="/es/items/netherite-ingot/">Netherite Ingot</a> - <a href="/es/guides/how-to-find-ancient-city/">Deep Dark</a>',
+  canonical: '/es/tools/ore-finder/', alt: '/tools/ore-finder/',
+  msgMineAt: 'mina en', msgRange: 'Rango:',
+  faq1: '¿Cuál es el mejor nivel Y para diamantes en Minecraft?',
+  faq1a: 'Y=-59. La diamond ore se genera desde Y=16 hasta la bedrock con máxima frecuencia en los niveles más profundos, e Y=-59 te mantiene justo encima del suelo de bedrock. El branch mining supera a las cuevas porque los diamantes se generan menos al aire desde la 1.18.',
+  faq2: '¿Cuál es el mejor nivel Y para hierro en Minecraft?',
+  faq2a: 'Dos máximos: Y=14 bajo tierra e Y=232 en montañas. Al principio, mina cuevas y acantilados en biomas de montaña: la tanda de gran altitud en torno a Y=232 es el hierro más denso del juego.'
+} : {
+  title: 'Minecraft Ore Finder (Best Y Levels)',
+  desc: 'Best Y level for every Minecraft ore: diamonds at -59, iron at 14 and 232, ancient debris at 16. Full 1.21 ore distribution chart for Java and Bedrock.',
+  home: 'Home', homeHref: '/', toolsCrumb: 'Tools', toolsHref: '/tools/', crumb: 'Ore Finder',
+  h1: 'Ore Finder: Best Y Levels',
+  sub: 'Where to mine every ore in 1.21, from real world-generation data. Java and Bedrock.',
+  quick: 'Quick answer:', quickText: 'diamonds and redstone at Y=-59, iron at Y=14 or Y=232 on mountains, gold at Y=-18 (or badlands surface), ancient debris at Y=16 in the Nether.',
+  pickH: 'Pick an ore', choose: 'Choose an ore...',
+  chartH: 'Full distribution chart',
+  thOre: 'Ore', thRange: 'Range', thBest: 'Best Y level', thNotes: 'Notes',
+  tipsH: 'Mining tips that matter more than Y level',
+  tip1: ' diamonds, lapis and gold generate less often in blocks exposed to air. Branch mining beats cave running for those three.',
+  tip1b: 'Reduced air exposure (1.18+):',
+  tip2: ' multiplies drops from every ore except iron and gold (which drop raw blocks - smelt them or use Silk Touch).',
+  tip2b: 'Fortune III',
+  tip3: ' below Y=8 most ores come in deepslate variants. Bring Efficiency IV+ or accept the slower swings.',
+  tip3b: 'Deepslate is slower to mine:',
+  tip4: ' beds explode in the Nether and cost almost nothing - the classic ancient debris method at Y=15. Bring fire resistance.',
+  tip4b: 'Bed mining in the Nether:',
+  related: 'Related guides:',
+  relatedLinks: '<a href="/guides/how-to-find-diamonds/">How to Find Diamonds</a> - <a href="/items/netherite-ingot/">Netherite Ingot</a> - <a href="/guides/how-to-find-ancient-city/">Deep Dark</a>',
+  canonical: '/tools/ore-finder/', alt: '/es/tools/ore-finder/',
+  msgMineAt: 'mine at', msgRange: 'Range:',
+  faq1: 'What is the best Y level for diamonds in Minecraft?',
+  faq1a: 'Y=-59. Diamond ore generates from Y=16 down to bedrock with peak frequency at the deepest levels, and Y=-59 keeps you just above the bedrock floor. Branch mining beats caving because diamonds generate less often when exposed to air since 1.18.',
+  faq2: 'What is the best Y level for iron in Minecraft?',
+  faq2a: 'Two peaks: Y=14 underground and Y=232 on mountains. Early game, mine caves and cliffs in mountain biomes - the high-altitude batch around Y=232 is the densest iron in the game.'
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebApplication',
+    name: 'Minecraft Ore Finder',
+    url: `https://minepedia.app${L.canonical}`,
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Any',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: L.faq1a } },
+      { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: L.faq2a } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.toolsHref}>{L.toolsCrumb}</a> / {L.crumb}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {L.quickText}</div>
+
+    <div class="card" style="margin:24px 0">
+      <h3>{L.pickH}</h3>
+      <select id="ore-sel" class="search-input" style="padding:10px;width:100%;max-width:320px">
+        <option value="">{L.choose}</option>
+      </select>
+      <div id="ore-out" style="margin-top:12px"></div>
+    </div>
+
+    <h2>{L.chartH}</h2>
+    <table class="data">
+      <tr><th>{L.thOre}</th><th>{L.thRange}</th><th>{L.thBest}</th><th>{L.thNotes}</th></tr>
+      {ores.map(o => (
+        <tr><td><strong>{o.name}</strong></td><td>{o.range}</td><td>{o.bestY}</td><td>{o.notes}</td></tr>
+      ))}
+    </table>
+
+    <h2>{L.tipsH}</h2>
+    <ul>
+      <li><strong>{L.tip1b}</strong>{L.tip1}</li>
+      <li><strong>{L.tip2b}</strong>{L.tip2}</li>
+      <li><strong>{L.tip3b}</strong>{L.tip3}</li>
+      <li><strong>{L.tip4b}</strong>{L.tip4}</li>
+    </ul>
+    <p>{L.related} <Fragment set:html={L.relatedLinks} /></p>
+  </div>
+  <script define:vars={{ ores, msgMineAt: L.msgMineAt, msgRange: L.msgRange }}>
+    const sel = document.getElementById('ore-sel');
+    const out = document.getElementById('ore-out');
+    ores.forEach(function(o) {
+      const opt = document.createElement('option');
+      opt.value = o.name; opt.textContent = o.name;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener('change', function() {
+      const o = ores.find(function(x) { return x.name === sel.value; });
+      if (!o) { out.innerHTML = ''; return; }
+      out.innerHTML = '<p style="font-size:1.1rem"><strong>' + o.name + '</strong>: ' + msgMineAt + ' <span style="color:var(--accent-bright);font-weight:700">Y=' + o.bestY + '</span></p><p>' + msgRange + ' ' + o.range + '. ' + o.notes + '</p>';
+    });
+  </script>
+</Base>

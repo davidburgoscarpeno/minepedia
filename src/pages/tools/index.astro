@@ -1,22 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';
-const tools = [
-  { href: '/skins/', icon: 'skin-gallery', name: 'Skin Gallery', desc: 'Original skins designed by us - download the PNG or edit them online' },
-  { href: '/tools/skin-maker/', icon: 'skin-maker', name: 'Skin Maker', desc: 'Create and edit Minecraft skins in your browser - paint, preview live, download a game-ready PNG' },
-  { href: '/tools/nether-calculator/', icon: 'nether-calculator', name: 'Nether Coordinate Calculator', desc: 'Convert Overworld and Nether coordinates instantly' },
-  { href: '/tools/xp-calculator/', icon: 'xp-calc', name: 'XP Calculator', desc: 'Levels to XP points, level-up costs and enchanting math' },
-  { href: '/tools/ore-finder/', icon: 'ore-finder', name: 'Ore Finder', desc: 'Best Y level for every ore, with a full 1.21 distribution chart' }
-];
+import ToolsIndex from '../../components/pages/ToolsIndex.astro';
 ---
-<Base title="Minecraft Tools & Calculators" description="Free Minecraft tools: skin maker, nether coordinate calculator, XP calculator and ore finder. Fast, mobile-friendly, no signup." canonicalPath="/tools/">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / Tools</nav>
-    <h1>Minecraft Tools &amp; Calculators</h1>
-    <p class="sub">Free utilities that make your worlds easier to navigate.</p>
-    <div class="grid-cards" style="margin-top:24px">
-      {tools.map(t => (
-        <a class="card" href={t.href}><img class="pixel-icon" src={`/item-icons/${t.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{t.name}</h3><p>{t.desc}</p></a>
-      ))}
-    </div>
-  </div>
-</Base>
+<ToolsIndex lang="en" />

@@ -1,0 +1,121 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+
+const L = isES ? {
+  title: 'Calculadora de coordenadas del Nether',
+  desc: 'Convierte coordenadas de Minecraft entre el Overworld y el Nether (proporción 8:1). Encuentra exactamente dónde construir tu portal enlazado. Java y Bedrock.',
+  home: 'Inicio', homeHref: '/es/', toolsCrumb: 'Herramientas', toolsHref: '/es/tools/', crumb: 'Calculadora del Nether',
+  h1: 'Calculadora de coordenadas del Nether',
+  sub: 'Un bloque del Nether = ocho bloques del Overworld. Convierte al instante y construye tus portales en el sitio correcto.',
+  quick: 'Respuesta rápida:', quickText: 'Del Overworld al Nether: divide X y Z entre 8. Del Nether al Overworld: multiplica X y Z por 8. La Y nunca cambia.',
+  owH: 'Del Overworld al Nether', nH: 'Del Nether al Overworld',
+  owBtn: 'Convertir al Nether', nBtn: 'Convertir al Overworld',
+  linkH: 'Cómo funciona el enlace de portales',
+  linkP: 'Minecraft escala las coordenadas horizontales 8:1 entre dimensiones. Cuando entras en un portal, el juego convierte tu posición (X/8, Z/8 yendo al Nether) y busca un portal activo cerca: dentro de 128 bloques en el Nether, 1024 en el Overworld (Java). Si no existe ninguno, crea uno.',
+  fixH: 'Arreglar un enlace de portal roto',
+  fix1: 'Toma la X y la Z de tu portal del Overworld y divídelas entre 8 (redondea a números enteros).',
+  fix2: 'En el Nether, rompe el portal mal enlazado y construye uno nuevo exactamente en esas coordenadas.',
+  fix3: 'Vuelve a encenderlo y entra de nuevo desde el lado del Overworld. El enlace ahora es 1:1.',
+  related: 'Relacionado:', relatedLink: '<a href="/es/guides/how-to-make-nether-portal/">Cómo hacer un portal al Nether</a>',
+  canonical: '/es/tools/nether-calculator/', alt: '/tools/nether-calculator/',
+  msgError: 'Introduce al menos X y Z.',
+  faq1: '¿Cómo funcionan las coordenadas de los portales del Nether?',
+  faq1a: 'Un bloque recorrido en el Nether equivale a ocho bloques en el Overworld en los ejes X y Z. Divide la X y la Z del Overworld entre 8 para obtener la posición correspondiente del Nether; multiplica la X y la Z del Nether por 8 para el Overworld. La Y se queda igual.',
+  faq2: '¿Por qué se enlazó mi portal al sitio equivocado?',
+  faq2a: 'Los portales buscan un portal existente cerca de las coordenadas escaladas. Si dos portales del Overworld están a menos de 1024 bloques (128 en el Nether), pueden enlazarse al mismo portal del Nether. Construye tu portal del lado del Nether en las coordenadas convertidas exactas para forzar el enlace correcto.'
+} : {
+  title: 'Nether Coordinate Calculator',
+  desc: 'Convert Minecraft coordinates between the Overworld and the Nether (8:1 ratio). Find exactly where to build your linked portal. Java and Bedrock.',
+  home: 'Home', homeHref: '/', toolsCrumb: 'Tools', toolsHref: '/tools/', crumb: 'Nether Calculator',
+  h1: 'Nether Coordinate Calculator',
+  sub: 'One Nether block = eight Overworld blocks. Convert instantly and build your portals in the right spot.',
+  quick: 'Quick answer:', quickText: 'Overworld to Nether: divide X and Z by 8. Nether to Overworld: multiply X and Z by 8. Y never changes.',
+  owH: 'Overworld to Nether', nH: 'Nether to Overworld',
+  owBtn: 'Convert to Nether', nBtn: 'Convert to Overworld',
+  linkH: 'How portal linking works',
+  linkP: 'Minecraft scales horizontal coordinates 8:1 between dimensions. When you enter a portal, the game converts your position (X/8, Z/8 going to the Nether) and looks for an active portal nearby: within 128 blocks in the Nether, 1024 in the Overworld (Java). If none exists, it creates one.',
+  fixH: 'Fix a broken portal link',
+  fix1: 'Take your Overworld portal\'s X and Z and divide by 8 (round to whole numbers).',
+  fix2: 'In the Nether, break the wrongly linked portal and build a new one at exactly those coordinates.',
+  fix3: 'Re-light it and re-enter from the Overworld side. The link is now 1:1.',
+  related: 'Related:', relatedLink: '<a href="/guides/how-to-make-nether-portal/">How to Make a Nether Portal</a>',
+  canonical: '/tools/nether-calculator/', alt: '/es/tools/nether-calculator/',
+  msgError: 'Enter at least X and Z.',
+  faq1: 'How do nether portal coordinates work?',
+  faq1a: 'One block traveled in the Nether equals eight blocks in the Overworld on the X and Z axes. Divide Overworld X and Z by 8 to get the matching Nether position; multiply Nether X and Z by 8 for the Overworld. Y stays the same.',
+  faq2: 'Why did my portal link to the wrong place?',
+  faq2a: 'Portals search for an existing portal near the scaled coordinates. If two Overworld portals are within 1024 blocks (128 in the Nether), they can link to the same Nether portal. Build your Nether-side portal at the exact converted coordinates to force correct linking.'
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebApplication',
+    name: 'Nether Coordinate Calculator',
+    url: `https://minepedia.app${L.canonical}`,
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Any',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: L.faq1a } },
+      { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: L.faq2a } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.toolsHref}>{L.toolsCrumb}</a> / {L.crumb}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {L.quickText}</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:24px 0">
+      <div class="card">
+        <h3>{L.owH}</h3>
+        <div style="display:flex;gap:8px;margin:12px 0">
+          <input id="ow-x" type="number" placeholder="X" class="search-input" style="padding:10px" />
+          <input id="ow-y" type="number" placeholder="Y" class="search-input" style="padding:10px" />
+          <input id="ow-z" type="number" placeholder="Z" class="search-input" style="padding:10px" />
+        </div>
+        <button class="copy-btn" id="ow-btn" style="padding:10px 20px">{L.owBtn}</button>
+        <p id="ow-out" style="font-size:1.1rem;font-weight:700;color:var(--accent-bright)"></p>
+      </div>
+      <div class="card">
+        <h3>{L.nH}</h3>
+        <div style="display:flex;gap:8px;margin:12px 0">
+          <input id="n-x" type="number" placeholder="X" class="search-input" style="padding:10px" />
+          <input id="n-y" type="number" placeholder="Y" class="search-input" style="padding:10px" />
+          <input id="n-z" type="number" placeholder="Z" class="search-input" style="padding:10px" />
+        </div>
+        <button class="copy-btn" id="n-btn" style="padding:10px 20px">{L.nBtn}</button>
+        <p id="n-out" style="font-size:1.1rem;font-weight:700;color:var(--accent-bright)"></p>
+      </div>
+    </div>
+    <h2>{L.linkH}</h2>
+    <p>{L.linkP}</p>
+    <h2>{L.fixH}</h2>
+    <ol>
+      <li>{L.fix1}</li>
+      <li>{L.fix2}</li>
+      <li>{L.fix3}</li>
+    </ol>
+    <p>{L.related} <Fragment set:html={L.relatedLink} /></p>
+  </div>
+  <script define:vars={{ msgError: L.msgError }}>
+    function conv(ids, out, fn) {
+      const vals = ids.map(function(id) { return parseFloat(document.getElementById(id).value); });
+      const x = vals[0], y = vals[1], z = vals[2];
+      const el = document.getElementById(out);
+      if (isNaN(x) || isNaN(z)) { el.textContent = msgError; return; }
+      const yy = isNaN(y) ? 64 : y;
+      el.textContent = 'X: ' + fn(x) + ', Y: ' + yy + ', Z: ' + fn(z);
+    }
+    document.getElementById('ow-btn').addEventListener('click', function() { conv(['ow-x','ow-y','ow-z'], 'ow-out', function(v) { return Math.round(v / 8); }); });
+    document.getElementById('n-btn').addEventListener('click', function() { conv(['n-x','n-y','n-z'], 'n-out', function(v) { return Math.round(v * 8); }); });
+  </script>
+</Base>

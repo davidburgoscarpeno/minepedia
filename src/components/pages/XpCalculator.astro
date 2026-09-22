@@ -1,0 +1,204 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+
+const L = isES ? {
+  title: 'Calculadora de XP de Minecraft',
+  desc: 'Convierte niveles de experiencia de Minecraft a puntos de XP y viceversa. Costes de encantamiento a nivel 30, fórmula de XP por nivel, Java y Bedrock.',
+  home: 'Inicio', homeHref: '/es/', toolsCrumb: 'Herramientas', toolsHref: '/es/tools/', crumb: 'Calculadora de XP',
+  h1: 'Calculadora de XP de Minecraft',
+  sub: 'Convierte entre niveles de experiencia y puntos de XP en bruto. Misma fórmula en Java y Bedrock.',
+  quick: 'Respuesta rápida:', quickText: 'El nivel 30 necesita 1.395 de XP en total. Encantar gasta solo 3 niveles, pero subir de 27 a 30 cuesta 306 de XP mientras que de 0 a 3 cuesta solo 32: encanta en cuanto llegues a 30.',
+  l2xH: 'De niveles a XP', x2lH: 'De XP a niveles', costH: 'Coste de subida de nivel',
+  lvlPh: 'Nivel (ej. 30)', xpPh: 'Puntos de XP (ej. 1395)', fromPh: 'Desde nivel', toPh: 'Hasta nivel',
+  l2xBtn: 'Calcular XP', x2lBtn: 'Calcular nivel', costBtn: 'Calcular coste',
+  howH: 'Cómo funciona la XP en Minecraft',
+  howP: 'Cada nivel cuesta más XP que el anterior. El juego registra tu progreso en puntos de experiencia en bruto, y el nivel se deriva de ellos:',
+  how1: ' cada nivel cuesta 2L + 7 puntos (del nivel 0 al 1 cuesta 7, del 15 al 16 cuesta 37).',
+  how1b: 'Niveles 0-16:',
+  how2: ' cada nivel cuesta 5L - 38 puntos.',
+  how2b: 'Niveles 17-31:',
+  how3: ' cada nivel cuesta 9L - 158 puntos y sigue creciendo.',
+  how3b: 'Nivel 32+:',
+  howP2: 'XP total para alcanzar un nivel L desde cero: L² + 6L (hasta 16), 2,5L² - 40,5L + 360 (17-31), y 4,5L² - 162,5L + 2220 (32+). La fórmula es idéntica en Java y Bedrock Edition.',
+  whyH: 'Por qué deberías encantar exactamente a nivel 30',
+  whyP: 'Un gasto en la enchanting table son 3 niveles, no una cantidad fija de XP. Pasar del nivel 0 al 3 cuesta 32 de XP, pero pasar de 27 a 30 cuesta 306: casi diez veces más por el mismo encantamiento. Así que encanta en cuanto llegues a nivel 30: cada encantamiento posterior cuesta muchos menos puntos totales. La misma lógica aplica al yunque: haz los trabajos caros a niveles bajos, cuando el coste por nivel es pequeño.',
+  srcH: 'Mejores fuentes de XP',
+  src1: ' una buena granja de mobs general o de endermen da nivel 30 en minutos.',
+  src1b: 'Granjas de mobs:',
+  src2: ' los objetos fundidos guardan XP en el horno; saca un objeto tras una gran sesión de fundición (funciona con cactus, cobblestone, kelp).',
+  src2b: 'Bancos de XP en hornos:',
+  src3: ' las menas de quartz, coal, redstone, lapis y diamond sueltan XP: un pico con Fortune no aumenta los drops de XP.',
+  src3b: 'Minar:',
+  src4: ' 3-11 de XP cada una; los clerics maestros las venden por 3 esmeraldas.',
+  src4b: "Bottle o' enchanting:",
+  src5: ' XP constante de bajo nivel mientras haces otras cosas.',
+  src5b: 'Comerciar y criar:',
+  canonical: '/es/tools/xp-calculator/', alt: '/tools/xp-calculator/',
+  msgLvl: 'Introduce un nivel de 0 o más.', msgXp: 'Introduce 0 o más puntos de XP.',
+  msgCost: 'Introduce un nivel inicial y un nivel objetivo mayor.',
+  outL2X: (l: number, xp: string) => `Nivel ${l} = ${xp} XP en total desde el nivel 0`,
+  outX2L: (x: string, lvl: number, prog: number, next: number) => `${x} XP = nivel ${lvl} + ${prog}/${next} hacia el nivel ${lvl + 1}`,
+  outCost: (a: number, b: number, c: string) => `De nivel ${a} a ${b} cuesta ${c} XP`,
+  faq1: '¿Cuánta XP cuesta el nivel 30 en Minecraft?',
+  faq1a: 'Llegar al nivel 30 desde cero cuesta 1.395 puntos de experiencia en total. Sin embargo, encantar a nivel 30 solo gasta 3 niveles, y cada encantamiento posterior cuesta progresivamente menos XP total que volver a farmear desde cero: los niveles altos cuestan más puntos por nivel.',
+  faq2: '¿Es la fórmula de XP igual en Java y Bedrock?',
+  faq2a: 'Sí. Ambas ediciones usan la misma curva de experiencia: los niveles 0-16 cuestan 2L+7 puntos cada uno, los 17-31 cuestan 5L-38, y el nivel 32+ cuesta 9L-158 por nivel.'
+} : {
+  title: 'Minecraft XP Calculator',
+  desc: 'Convert Minecraft experience levels to XP points and back. Level 30 enchanting costs, XP per level formula, Java and Bedrock.',
+  home: 'Home', homeHref: '/', toolsCrumb: 'Tools', toolsHref: '/tools/', crumb: 'XP Calculator',
+  h1: 'Minecraft XP Calculator',
+  sub: 'Convert between experience levels and raw XP points. Same formula in Java and Bedrock.',
+  quick: 'Quick answer:', quickText: 'Level 30 needs 1,395 XP total. Enchanting spends only 3 levels, but going from 27 to 30 costs 306 XP while 0 to 3 costs just 32 XP - so enchant as soon as you hit 30.',
+  l2xH: 'Levels to XP', x2lH: 'XP to levels', costH: 'Level-up cost',
+  lvlPh: 'Level (e.g. 30)', xpPh: 'XP points (e.g. 1395)', fromPh: 'From level', toPh: 'To level',
+  l2xBtn: 'Calculate XP', x2lBtn: 'Calculate level', costBtn: 'Calculate cost',
+  howH: 'How Minecraft XP works',
+  howP: 'Every level costs more XP than the last. The game tracks your progress in raw experience points, and the level is derived from them:',
+  how1: ' each level costs 2L + 7 points (level 0 to 1 costs 7, level 15 to 16 costs 37).',
+  how1b: 'Levels 0-16:',
+  how2: ' each level costs 5L - 38 points.',
+  how2b: 'Levels 17-31:',
+  how3: ' each level costs 9L - 158 points and keeps growing.',
+  how3b: 'Level 32+:',
+  howP2: 'Total XP to reach a level L from zero: L² + 6L (up to 16), 2.5L² - 40.5L + 360 (17-31), and 4.5L² - 162.5L + 2220 (32+). The formula is identical in Java and Bedrock Edition.',
+  whyH: 'Why you should enchant at exactly level 30',
+  whyP: 'An enchanting table spend is 3 levels, not a fixed amount of XP. Going from level 0 to 3 costs 32 XP, but going from 27 to 30 costs 306 XP - almost ten times more for the same enchant. So always enchant the moment you reach level 30: each subsequent enchant costs far fewer total points. The same logic applies to anvil work: do expensive jobs at lower levels when the level cost is small.',
+  srcH: 'Best XP sources',
+  src1: ' a good general mob farm or enderman farm gives level 30 in minutes.',
+  src1b: 'Mob farms:',
+  src2: ' smelted items store XP in the furnace; pull one item out after a big smelting session (works with cactus, cobblestone, kelp).',
+  src2b: 'Furnace XP banks:',
+  src3: ' quartz, coal, redstone, lapis and diamond ore all drop XP - a Fortune pick does not increase XP drops.',
+  src3b: 'Mining:',
+  src4: ' 3-11 XP each; master clerics sell them for 3 emeralds.',
+  src4b: "Bottle o' enchanting:",
+  src5: ' steady low-level XP while doing other work.',
+  src5b: 'Trading and breeding:',
+  canonical: '/tools/xp-calculator/', alt: '/es/tools/xp-calculator/',
+  msgLvl: 'Enter a level of 0 or more.', msgXp: 'Enter 0 or more XP points.',
+  msgCost: 'Enter a start level and a higher target level.',
+  outL2X: (l: number, xp: string) => `Level ${l} = ${xp} XP total from level 0`,
+  outX2L: (x: string, lvl: number, prog: number, next: number) => `${x} XP = level ${lvl} + ${prog}/${next} toward level ${lvl + 1}`,
+  outCost: (a: number, b: number, c: string) => `Level ${a} to ${b} costs ${c} XP`,
+  faq1: 'How much XP does level 30 cost in Minecraft?',
+  faq1a: 'Reaching level 30 from zero takes 1,395 experience points in total. However, enchanting at level 30 only spends 3 levels, and each enchant after that costs progressively less total XP than refarming from zero - higher levels cost more points per level.',
+  faq2: 'Is the XP formula the same in Java and Bedrock?',
+  faq2a: 'Yes. Both editions use the same experience curve: levels 0-16 cost 2L+7 points each, levels 17-31 cost 5L-38, and level 32+ costs 9L-158 per level.'
+};
+
+const msgs = {
+  lvl: L.msgLvl, xp: L.msgXp, cost: L.msgCost,
+  l2x: L.outL2X(999, '###'),
+  x2l: L.outX2L('###', 998, 997, 996),
+  cst: L.outCost(998, 999, '###')
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebApplication',
+    name: 'Minecraft XP Calculator',
+    url: `https://minepedia.app${L.canonical}`,
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Any',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: L.faq1a } },
+      { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: L.faq2a } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.toolsHref}>{L.toolsCrumb}</a> / {L.crumb}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {L.quickText}</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:24px 0">
+      <div class="card">
+        <h3>{L.l2xH}</h3>
+        <div style="display:flex;gap:8px;margin:12px 0">
+          <input id="lvl" type="number" min="0" placeholder={L.lvlPh} class="search-input" style="padding:10px" />
+        </div>
+        <button class="copy-btn" id="lvl-btn" style="padding:10px 20px">{L.l2xBtn}</button>
+        <p id="lvl-out" style="font-size:1.1rem;font-weight:700;color:var(--accent-bright)"></p>
+      </div>
+      <div class="card">
+        <h3>{L.x2lH}</h3>
+        <div style="display:flex;gap:8px;margin:12px 0">
+          <input id="xp" type="number" min="0" placeholder={L.xpPh} class="search-input" style="padding:10px" />
+        </div>
+        <button class="copy-btn" id="xp-btn" style="padding:10px 20px">{L.x2lBtn}</button>
+        <p id="xp-out" style="font-size:1.1rem;font-weight:700;color:var(--accent-bright)"></p>
+      </div>
+      <div class="card">
+        <h3>{L.costH}</h3>
+        <div style="display:flex;gap:8px;margin:12px 0">
+          <input id="lvl-from" type="number" min="0" placeholder={L.fromPh} class="search-input" style="padding:10px" />
+          <input id="lvl-to" type="number" min="0" placeholder={L.toPh} class="search-input" style="padding:10px" />
+        </div>
+        <button class="copy-btn" id="cost-btn" style="padding:10px 20px">{L.costBtn}</button>
+        <p id="cost-out" style="font-size:1.1rem;font-weight:700;color:var(--accent-bright)"></p>
+      </div>
+    </div>
+
+    <h2>{L.howH}</h2>
+    <p>{L.howP}</p>
+    <ul>
+      <li><strong>{L.how1b}</strong>{L.how1}</li>
+      <li><strong>{L.how2b}</strong>{L.how2}</li>
+      <li><strong>{L.how3b}</strong>{L.how3}</li>
+    </ul>
+    <p>{L.howP2}</p>
+
+    <h2>{L.whyH}</h2>
+    <p>{L.whyP}</p>
+
+    <h2>{L.srcH}</h2>
+    <ul>
+      <li><strong>{L.src1b}</strong>{L.src1}</li>
+      <li><strong>{L.src2b}</strong>{L.src2}</li>
+      <li><strong>{L.src3b}</strong>{L.src3}</li>
+      <li><strong>{L.src4b}</strong>{L.src4}</li>
+      <li><strong>{L.src5b}</strong>{L.src5}</li>
+    </ul>
+  </div>
+  <script define:vars={{ msgs }}>
+    function xpForLevel(l) {
+      if (l <= 16) return l * l + 6 * l;
+      if (l <= 31) return Math.floor(2.5 * l * l - 40.5 * l + 360);
+      return Math.floor(4.5 * l * l - 162.5 * l + 2220);
+    }
+    function levelForXp(x) {
+      var l = 0;
+      while (xpForLevel(l + 1) <= x) l++;
+      var into = x - xpForLevel(l);
+      var need = xpForLevel(l + 1) - xpForLevel(l);
+      return { level: l, progress: into, next: need };
+    }
+    function $(id) { return document.getElementById(id); }
+    $('lvl-btn').addEventListener('click', function() {
+      var l = parseInt($('lvl').value);
+      if (isNaN(l) || l < 0) { $('lvl-out').textContent = msgs.lvl; return; }
+      $('lvl-out').textContent = msgs.l2x.replace('999', l).replace('###', xpForLevel(l).toLocaleString('en-US'));
+    });
+    $('xp-btn').addEventListener('click', function() {
+      var x = parseInt($('xp').value);
+      if (isNaN(x) || x < 0) { $('xp-out').textContent = msgs.xp; return; }
+      var r = levelForXp(x);
+      $('xp-out').textContent = msgs.x2l.replace('###', x.toLocaleString('en-US')).split('998').join(String(r.level)).replace('997', r.progress).replace('996', r.next);
+    });
+    $('cost-btn').addEventListener('click', function() {
+      var a = parseInt($('lvl-from').value), b = parseInt($('lvl-to').value);
+      if (isNaN(a) || isNaN(b) || a < 0 || b <= a) { $('cost-out').textContent = msgs.cost; return; }
+      $('cost-out').textContent = msgs.cst.replace('998', a).replace('999', b).replace('###', (xpForLevel(b) - xpForLevel(a)).toLocaleString('en-US'));
+    });
+  </script>
+</Base>

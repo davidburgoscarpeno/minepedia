@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+const tools = isES ? [
+  { href: '/es/skins/', icon: 'skin-gallery', name: 'Galería de skins', desc: 'Skins originales diseñadas por nosotros: descarga el PNG o edítalas online' },
+  { href: '/tools/skin-maker/', icon: 'skin-maker', name: 'Skin Maker', desc: 'Crea y edita skins de Minecraft en tu navegador: pinta, previsualiza en vivo, descarga un PNG listo para el juego' },
+  { href: '/es/tools/nether-calculator/', icon: 'nether-calculator', name: 'Calculadora de coordenadas del Nether', desc: 'Convierte coordenadas del Overworld y del Nether al instante' },
+  { href: '/es/tools/xp-calculator/', icon: 'xp-calc', name: 'Calculadora de XP', desc: 'Niveles a puntos de XP, costes de subida de nivel y matemáticas de encantamiento' },
+  { href: '/es/tools/ore-finder/', icon: 'ore-finder', name: 'Buscador de minerales', desc: 'El mejor nivel Y para cada mena, con la tabla completa de distribución de la 1.21' }
+] : [
+  { href: '/skins/', icon: 'skin-gallery', name: 'Skin Gallery', desc: 'Original skins designed by us - download the PNG or edit them online' },
+  { href: '/tools/skin-maker/', icon: 'skin-maker', name: 'Skin Maker', desc: 'Create and edit Minecraft skins in your browser - paint, preview live, download a game-ready PNG' },
+  { href: '/tools/nether-calculator/', icon: 'nether-calculator', name: 'Nether Coordinate Calculator', desc: 'Convert Overworld and Nether coordinates instantly' },
+  { href: '/tools/xp-calculator/', icon: 'xp-calc', name: 'XP Calculator', desc: 'Levels to XP points, level-up costs and enchanting math' },
+  { href: '/tools/ore-finder/', icon: 'ore-finder', name: 'Ore Finder', desc: 'Best Y level for every ore, with a full 1.21 distribution chart' }
+];
+const L = isES ? {
+  title: 'Herramientas y calculadoras de Minecraft',
+  desc: 'Herramientas gratuitas de Minecraft: editor de skins, calculadora de coordenadas del Nether, calculadora de XP y buscador de minerales. Rápidas, para móvil, sin registro.',
+  home: 'Inicio', homeHref: '/es/', crumb: 'Herramientas', h1: 'Herramientas y calculadoras de Minecraft',
+  sub: 'Utilidades gratuitas que hacen tus mundos más fáciles de recorrer.',
+  canonical: '/es/tools/', alt: '/tools/'
+} : {
+  title: 'Minecraft Tools & Calculators',
+  desc: 'Free Minecraft tools: skin maker, nether coordinate calculator, XP calculator and ore finder. Fast, mobile-friendly, no signup.',
+  home: 'Home', homeHref: '/', crumb: 'Tools', h1: 'Minecraft Tools & Calculators',
+  sub: 'Free utilities that make your worlds easier to navigate.',
+  canonical: '/tools/', alt: '/es/tools/'
+};
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / {L.crumb}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <div class="grid-cards" style="margin-top:24px">
+      {tools.map(t => (
+        <a class="card" href={t.href}><img class="pixel-icon" src={`/item-icons/${t.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{t.name}</h3><p>{t.desc}</p></a>
+      ))}
+    </div>
+  </div>
+</Base>
