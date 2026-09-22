@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import advancements from '../../data/advancements.json';
+import advancementsEs from '../../data/advancements-es.json';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const TABS = ['Minecraft', 'Nether', 'The End', 'Adventure', 'Husbandry'];
+const TAB_ICONS: Record<string, string> = { Minecraft: 'crafting-table', Nether: 'nether-fortress', 'The End': 'ender-chest', Adventure: 'compass', Husbandry: 'bread' };
+
+const S = isES ? {
+  title: 'Advancements de Minecraft (todos los logros de Java)',
+  description: 'Los 126 advancements de Minecraft Java Edition: pestañas Minecraft, Nether, The End, Adventure y Husbandry, con guías paso a paso para los más difíciles. En Bedrock son achievements.',
+  h1: 'Advancements de Minecraft',
+  sub: 'Los 126 advancements de Java Edition, pestaña por pestaña, con guías detalladas para los más buscados.',
+  crumb: 'Advancements', home: 'Inicio',
+  placeholder: 'Busca advancements, guías, mobs...',
+  quickAnswer: '<strong>Respuesta rápida:</strong> los advancements son el sistema de logros de Java Edition: 126 en total, repartidos en 5 pestañas (Minecraft, Nether, The End, Adventure y Husbandry). Bedrock Edition no tiene advancements: usa achievements, un sistema distinto vinculado a tu cuenta de Microsoft y que además da Gamerscore. Esta página cubre Java.',
+  challenge: 'Desafío', goal: 'Objetivo', hidden: 'Oculto', guide: 'Guía',
+  stats: (n: number, g: number) => `${n} advancements, ${g} con guía paso a paso`,
+  canonical: '/es/advancements/', alt: '/advancements/'
+} : {
+  title: 'All Minecraft Advancements (Java Edition Guide)',
+  description: 'All 126 Minecraft Java Edition advancements: Minecraft, Nether, The End, Adventure and Husbandry tabs, with step-by-step guides for the hardest ones. Bedrock has achievements instead.',
+  h1: 'Minecraft Advancements',
+  sub: 'All 126 Java Edition advancements, tab by tab, with detailed guides for the most searched ones.',
+  crumb: 'Advancements', home: 'Home',
+  placeholder: 'Search advancements, guides, mobs...',
+  quickAnswer: '<strong>Quick answer:</strong> advancements are Java Edition\'s achievement system: 126 in total across 5 tabs (Minecraft, Nether, The End, Adventure and Husbandry). Bedrock Edition does not have advancements - it uses achievements, a different system tied to your Microsoft account that also awards Gamerscore. This page covers Java.',
+  challenge: 'Challenge', goal: 'Goal', hidden: 'Hidden', guide: 'Guide',
+  stats: (n: number, g: number) => `${n} advancements, ${g} with step-by-step guides`,
+  canonical: '/advancements/', alt: '/es/advancements/'
+};
+
+const withGuide = advancements.filter((a: any) => a.howToGet);
+const descOf = (a: any) => isES ? ((advancementsEs as any)[a.slug]?.desc ?? a.desc) : a.desc;
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub} {S.stats(advancements.length, withGuide.length)}.</p>
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+
+    {TABS.map(tab => {
+      const list = advancements.filter((a: any) => a.tab === tab && !a.root);
+      return (
+        <div>
+          <h2><img class="pixel-icon" src={`/item-icons/${TAB_ICONS[tab]}.svg`} alt="" width="26" height="26" style="vertical-align:-5px;margin-right:8px" />{tab} <span class="badge">{list.length}</span></h2>
+          <div class="grid-cards">
+            {list.map((a: any) => (
+              a.howToGet ? (
+                <a class="card" href={isES ? `/es/advancements/${a.slug}/` : `/advancements/${a.slug}/`}>
+                  <h3>{a.name}</h3>
+                  <p>{descOf(a)}</p>
+                  <p class="meta">
+                    {a.type === 'challenge' && <span class="badge" style="color:var(--gold);border-color:#6b5a2a">{S.challenge}{a.xp ? ` · ${a.xp}` : ''}</span>}
+                    {a.type === 'goal' && <span class="badge">{S.goal}</span>}
+                    {a.hidden && <span class="badge">{S.hidden}</span>}
+                    <span class="badge">{S.guide}</span>
+                  </p>
+                </a>
+              ) : (
+                <div class="card">
+                  <h3>{a.name}</h3>
+                  <p>{descOf(a)}</p>
+                  <p class="meta">
+                    {a.type === 'challenge' && <span class="badge" style="color:var(--gold);border-color:#6b5a2a">{S.challenge}{a.xp ? ` · ${a.xp}` : ''}</span>}
+                    {a.type === 'goal' && <span class="badge">{S.goal}</span>}
+                    {a.hidden && <span class="badge">{S.hidden}</span>}
+                  </p>
+                </div>
+              )
+            ))}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</Base>

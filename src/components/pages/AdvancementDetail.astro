@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import advancements from '../../data/advancements.json';
+import advancementsEs from '../../data/advancements-es.json';
+
+interface Props { a: any; lang: 'en' | 'es'; }
+const { a, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (advancementsEs as any)[a.slug] : null;
+const desc = ov?.desc ?? a.desc;
+const howToGet: string[] = ov?.howToGet ?? a.howToGet;
+const tips = ov?.tips ?? a.tips;
+const difficulty = ov?.difficulty ?? a.difficulty;
+
+const parentAdv = a.parent ? (advancements as any[]).find(x => x.name === a.parent) : null;
+const children = (advancements as any[]).filter(x => x.parent === a.name && x.howToGet);
+const siblings = (advancements as any[]).filter(x => x.tab === a.tab && x.howToGet && x.slug !== a.slug).slice(0, 6);
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Advancements', crumbHref: '/es/advancements/',
+  challenge: 'Desafío', goal: 'Objetivo', hidden: 'Advancement oculto: solo aparece en la pestaña después de conseguirlo',
+  hiddenBadge: 'Oculto', quick: 'Respuesta rápida:',
+  howH: `Cómo conseguir ${a.name}`, tipsH: 'Consejos', difficultyL: 'Dificultad',
+  parentL: 'Advancement previo', tabL: 'Pestaña', xpL: 'Recompensa',
+  related: 'Más guías de la pestaña',
+  title: `${a.name} (advancement de Minecraft): cómo conseguirlo`,
+  metaDesc: `${a.name} en Minecraft Java: ${desc}. Guía paso a paso, dificultad y consejos para conseguir este advancement de la pestaña ${a.tab}.`,
+  canonical: `/es/advancements/${a.slug}/`, alt: `/advancements/${a.slug}/`,
+  faq1q: `¿Cómo se consigue ${a.name} en Minecraft?`,
+  faq1a: howToGet[0],
+  faq2q: `¿Qué tipo de advancement es ${a.name}?`,
+  faq2a: `${a.name} es un advancement de la pestaña ${a.tab} de Java Edition${a.type === 'challenge' ? `, de tipo desafío${a.xp ? `, y recompensa ${a.xp} de experiencia` : ''}` : a.type === 'goal' ? ', de tipo objetivo' : ''}.${a.hidden ? ' Está oculto hasta que lo consigues.' : ''}`,
+  headline: `${a.name}: cómo conseguir el advancement en Minecraft`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Advancements', crumbHref: '/advancements/',
+  challenge: 'Challenge', goal: 'Goal', hidden: 'Hidden advancement: it only appears in the tab after you earn it',
+  hiddenBadge: 'Hidden', quick: 'Quick answer:',
+  howH: `How to get ${a.name}`, tipsH: 'Tips', difficultyL: 'Difficulty',
+  parentL: 'Previous advancement', tabL: 'Tab', xpL: 'Reward',
+  related: 'More guides from this tab',
+  title: `${a.name} (Minecraft advancement): how to get it`,
+  metaDesc: `${a.name} in Minecraft Java: ${desc}. Step-by-step guide, difficulty and tips for this ${a.tab} tab advancement.`,
+  canonical: `/advancements/${a.slug}/`, alt: `/es/advancements/${a.slug}/`,
+  faq1q: `How do you get ${a.name} in Minecraft?`,
+  faq1a: howToGet[0],
+  faq2q: `What kind of advancement is ${a.name}?`,
+  faq2a: `${a.name} is a ${a.tab} tab advancement in Java Edition${a.type === 'challenge' ? `, of challenge type${a.xp ? `, rewarding ${a.xp} experience` : ''}` : a.type === 'goal' ? ', of goal type' : ''}.${a.hidden ? ' It is hidden until you earn it.' : ''}`,
+  headline: `${a.name}: how to get this Minecraft advancement`
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: L.headline, description: desc,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`, author: { '@type': 'Organization', name: 'Minepedia' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+    { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+    { '@type': 'ListItem', position: 3, name: a.name, item: `https://minepedia.app${L.canonical}` } ] },
+  { '@context': 'https://schema.org', '@type': 'HowTo', name: L.howH, description: desc,
+    step: howToGet.map((text, i) => ({ '@type': 'HowToStep', position: i + 1, text })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
+    { '@type': 'Question', name: L.faq1q, acceptedAnswer: { '@type': 'Answer', text: L.faq1a } },
+    { '@type': 'Question', name: L.faq2q, acceptedAnswer: { '@type': 'Answer', text: L.faq2a } } ] }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.metaDesc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {a.name}</nav>
+    <h1>{a.name}</h1>
+    <p>
+      <span class="badge">{L.tabL}: {a.tab}</span>
+      {a.type === 'challenge' && <span class="badge" style="color:var(--gold);border-color:#6b5a2a">{L.challenge}</span>}
+      {a.type === 'goal' && <span class="badge">{L.goal}</span>}
+      {a.xp && <span class="badge">{L.xpL}: {a.xp}</span>}
+      {a.hidden && <span class="badge">{L.hiddenBadge}</span>}
+      <span class="badge">{L.difficultyL}: {difficulty}</span>
+    </p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {desc}</div>
+    {a.hidden && <p style="color:var(--text-dim);font-size:.9rem">{L.hidden}.</p>}
+    {parentAdv && <p><strong>{L.parentL}:</strong> {parentAdv.howToGet ? <a href={isES ? `/es/advancements/${parentAdv.slug}/` : `/advancements/${parentAdv.slug}/`}>{parentAdv.name}</a> : parentAdv.name}</p>}
+    <h2>{L.howH}</h2>
+    <ol>{howToGet.map(h => <li>{h}</li>)}</ol>
+    <h2>{L.tipsH}</h2>
+    <p>{tips}</p>
+    {siblings.length > 0 && (
+      <p><strong>{L.related} ({a.tab}):</strong> {siblings.map((s: any) => (
+        <a href={isES ? `/es/advancements/${s.slug}/` : `/advancements/${s.slug}/`} style="margin-right:12px">{s.name}</a>
+      ))}</p>
+    )}
+  </div>
+</Base>

@@ -1,0 +1,9 @@
+---
+import AdvancementDetail from '../../components/pages/AdvancementDetail.astro';
+import advancements from '../../data/advancements.json';
+export function getStaticPaths() {
+  return advancements.filter(a => a.howToGet).map(a => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+---
+<AdvancementDetail a={a} lang="en" />
