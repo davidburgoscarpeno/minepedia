@@ -27,7 +27,12 @@ export async function GET() {
     ...versions.map(v => ({ name: v.name, kind: 'version', url: `/versions/${v.slug}/`, keywords: v.keywords })),
     { name: 'Nether Coordinate Calculator', kind: 'tool', url: '/tools/nether-calculator/', keywords: 'nether calculator coordinates convert portal 8:1' },
     { name: 'XP Calculator', kind: 'tool', url: '/tools/xp-calculator/', keywords: 'xp calculator levels experience points enchanting level 30' },
-    { name: 'Ore Finder: Best Y Levels', kind: 'tool', url: '/tools/ore-finder/', keywords: 'ore distribution best y level diamond iron gold mining' }
+    { name: 'Ore Finder: Best Y Levels', kind: 'tool', url: '/tools/ore-finder/', keywords: 'ore distribution best y level diamond iron gold mining' },
+    { name: 'How to Install Mods', kind: 'guide', url: '/mods/install-mods-java/', keywords: 'install mods fabric neoforge modrinth java loader mods folder' },
+    { name: 'Essential Performance Mods', kind: 'guide', url: '/mods/essential-mods/', keywords: 'sodium lithium iris fabric api jei emi jade appleskin performance fps' },
+    { name: 'Best Content Mods', kind: 'guide', url: '/mods/best-content-mods/', keywords: 'create mod botania twilight forest farmers delight terralith mekanism' },
+    { name: 'Shaders Guide', kind: 'guide', url: '/mods/shaders/', keywords: 'shaders iris complementary bsl install vibrant visuals' },
+    { name: 'Bedrock Add-ons', kind: 'guide', url: '/mods/bedrock-addons/', keywords: 'bedrock addons mcaddon marketplace console mobile' }
   ];
   return new Response(JSON.stringify(items), { headers: { 'Content-Type': 'application/json' } });
 }

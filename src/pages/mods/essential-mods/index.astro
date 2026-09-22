@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+const mods = [
+  { name: 'Sodium', loader: 'Fabric / NeoForge', what: 'Rewrites the rendering engine. The single biggest FPS boost in modded Minecraft - often 2-5x more frames, especially on older hardware.' },
+  { name: 'Lithium', loader: 'Fabric / NeoForge', what: 'Server-side logic optimizations: faster mob AI, physics and tick handling. Free TPS on singleplayer and servers.' },
+  { name: 'Iris Shaders', loader: 'Fabric / NeoForge', what: 'Runs shader packs with Sodium-level performance. The modern way to use shaders - replaces OptiFine for most players.' },
+  { name: 'Fabric API', loader: 'Fabric', what: 'The library almost every Fabric mod needs. Not optional: install it first.' },
+  { name: 'Mod Menu', loader: 'Fabric', what: 'Adds a Mods button to the main menu to see and configure everything you installed.' },
+  { name: 'EMI or JEI', loader: 'Fabric / NeoForge', what: 'In-game recipe viewer: press R on any item to see its recipe, U for its uses. You will never alt-tab to a wiki again.' },
+  { name: 'Jade (WAILA)', loader: 'Fabric / NeoForge', what: 'Shows what block or mob you are looking at, plus container contents without opening them.' },
+  { name: 'AppleSkin', loader: 'Fabric / NeoForge', what: 'Shows hunger and saturation values on food and the HUD - know exactly what that golden carrot is worth.' },
+  { name: 'FerriteCore', loader: 'Fabric / NeoForge', what: 'Cuts RAM usage significantly. Pair with Sodium and Lithium for the full performance stack.' },
+  { name: 'Entity Culling', loader: 'Fabric / NeoForge', what: 'Skips rendering entities you cannot see. Big FPS win around farms and mob storage.' },
+  { name: 'Distant Horizons', loader: 'Fabric / NeoForge', what: 'Renders far-away terrain as low-detail LODs: see hundreds of chunks without melting your PC. A generation-defining visual mod.' },
+  { name: 'Xaero\'s Minimap + World Map', loader: 'Fabric / NeoForge', what: 'Clean, configurable minimap and full-screen world map with waypoints. The standard map solution.' }
+];
+---
+<Base title="Essential Minecraft Mods (Performance & QoL)" description="The standard Minecraft mod stack: Sodium, Lithium, Iris, JEI/EMI, Jade, AppleSkin and more. What each one does and which loader it needs." canonicalPath="/mods/essential-mods/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/mods/">Mods</a> / Essential Mods</nav>
+    <h1>Essential Mods: Performance and Quality of Life</h1>
+    <p class="sub">The stack most Java players install on day one. All free, all on Modrinth.</p>
+    <div class="quick-answer"><strong>Quick answer:</strong> install Sodium + Lithium + Iris + FerriteCore for performance, then EMI/JEI + Jade + AppleSkin + Mod Menu for quality of life. That combination keeps the game vanilla but runs dramatically better.</div>
+    {mods.map(m => (
+      <div>
+        <h2>{m.name} <span class="badge">{m.loader}</span></h2>
+        <p>{m.what}</p>
+      </div>
+    ))}
+    <h2>What about OptiFine?</h2>
+    <p>OptiFine was the classic all-in-one for years, but it updates slowly, breaks compatibility with many mods, and its performance features are now covered better by the Sodium stack. Most players have moved to Sodium + Iris. OptiFine is still fine for vanilla-only, single-player shader use if you already know it.</p>
+  </div>
+</Base>

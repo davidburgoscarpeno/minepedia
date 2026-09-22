@@ -1,0 +1,55 @@
+---
+import Base from '../../../layouts/Base.astro';
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'HowTo',
+    name: 'How to install Minecraft mods (Java Edition)',
+    description: 'Install Fabric or NeoForge and add mods with the Modrinth App or manually.',
+    step: [
+      { '@type': 'HowToStep', position: 1, text: 'Decide your loader: Fabric for performance and vanilla-plus mods, NeoForge for big content mods.' },
+      { '@type': 'HowToStep', position: 2, text: 'Install the Modrinth App (easiest) or download the loader installer from its official site.' },
+      { '@type': 'HowToStep', position: 3, text: 'Launch the game once with the loader profile to create the mods folder.' },
+      { '@type': 'HowToStep', position: 4, text: 'Add mods matching your exact game version, plus Fabric API if you use Fabric.' },
+      { '@type': 'HowToStep', position: 5, text: 'Start the game and check the Mods menu - every mod should be listed without errors.' }
+    ] }
+];
+---
+<Base title="How to Install Minecraft Mods (Java)" description="Install Minecraft mods step by step: choose Fabric or NeoForge, use the Modrinth App or the mods folder, match game versions. Free and safe." canonicalPath="/mods/install-mods-java/" jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/mods/">Mods</a> / Install Mods</nav>
+    <h1>How to Install Minecraft Mods (Java Edition)</h1>
+    <p class="sub">Ten minutes, zero cost, no sketchy sites.</p>
+    <div class="quick-answer"><strong>Quick answer:</strong> install the Modrinth App, create an instance, pick Fabric or NeoForge, click Install on the mods you want. Done. The manual way: run the loader's installer, then drop .jar files into the mods folder.</div>
+
+    <h2>1. Pick your loader</h2>
+    <ul>
+      <li><strong>Fabric</strong> - the standard for performance mods (Sodium, Lithium, Iris) and vanilla-plus content. Light and fast to update on new versions.</li>
+      <li><strong>NeoForge</strong> - the modern successor of Forge. Home of most big content mods (Create, Mekanism, Botania). Use it when the mod you want requires it.</li>
+      <li><strong>Forge</strong> - the old classic. Still around, but most active development moved to NeoForge. Only pick it for old modpacks.</li>
+      <li>Check the mod page: it always says which loader it needs. Fabric and NeoForge mods cannot be mixed.</li>
+    </ul>
+
+    <h2>2. The easy way: Modrinth App</h2>
+    <ol>
+      <li>Download the Modrinth App from modrinth.com (free, open source).</li>
+      <li>Create an instance: pick your Minecraft version and loader (Fabric or NeoForge).</li>
+      <li>Browse the built-in mod catalog and click Install - versions and dependencies resolve automatically.</li>
+      <li>Press Play. The app keeps your modded instance separate from vanilla.</li>
+    </ol>
+
+    <h2>3. The manual way</h2>
+    <ol>
+      <li>Download the loader installer from the official site (fabricmc.net or neoforged.net) and run it - it adds a profile to your launcher.</li>
+      <li>Launch that profile once, then close the game. This creates the <code>mods</code> folder.</li>
+      <li>Find the folder: in the Minecraft Launcher, Installations &rarr; hover your profile &rarr; folder icon. Or <code>%appdata%\.minecraft\mods</code> on Windows, <code>~/Library/Application Support/minecraft/mods</code> on Mac.</li>
+      <li>Drop the mod .jar files in. On Fabric you almost always also need <strong>Fabric API</strong> - it is a mod like any other.</li>
+      <li>Launch and open the Mods menu to confirm everything loaded.</li>
+    </ol>
+
+    <h2>4. If the game crashes on startup</h2>
+    <ul>
+      <li>Version mismatch is the cause 90% of the time: check that every mod lists your exact game version.</li>
+      <li>Missing dependency: read the crash screen - it names the missing mod (usually Fabric API or a library).</li>
+      <li>Remove half the mods, test, repeat - you will find the conflicting one in a few rounds.</li>
+    </ul>
+  </div>
+</Base>

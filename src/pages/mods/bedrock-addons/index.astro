@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Minecraft Bedrock Add-ons Guide" description="Bedrock add-ons explained: what they can do, how to install .mcaddon files safely, Marketplace vs free add-ons, and why Java mods do not work on Bedrock." canonicalPath="/mods/bedrock-addons/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/mods/">Mods</a> / Bedrock Add-ons</nav>
+    <h1>Bedrock Add-ons</h1>
+    <p class="sub">Console, mobile and Windows Bedrock - what customization actually looks like.</p>
+    <div class="quick-answer"><strong>Quick answer:</strong> Bedrock does not support Java mods. It supports add-ons (.mcaddon files) that add blocks, items, mobs and recipes through the official API - install by opening the file, then activate it in your world's behavior/resource pack settings.</div>
+    <h2>What add-ons can and cannot do</h2>
+    <ul>
+      <li><strong>Can:</strong> add new blocks, items, mobs, recipes, structures and scripted behaviors via the official API. Modern add-ons are surprisingly capable.</li>
+      <li><strong>Cannot:</strong> change the engine - no performance mods like Sodium, no shader packs like Iris, no deep mechanics changes like Create. That ceiling is what separates add-ons from Java mods.</li>
+      <li>Add-ons are world-scoped: you activate them per world, and achievements are disabled in worlds with behavior packs (unless the add-on is from the Marketplace and marked achievement-safe).</li>
+    </ul>
+    <h2>How to install an add-on</h2>
+    <ol>
+      <li>Get the .mcaddon (or .mcpack) file from a source you trust.</li>
+      <li>Open it - Minecraft launches and imports it automatically (on mobile, use "Open with Minecraft").</li>
+      <li>Create or edit a world &rarr; Behavior Packs and Resource Packs &rarr; activate the add-on, then enable the experiment toggles it asks for.</li>
+      <li>Enter the world. Removing the add-on later removes its content from that world.</li>
+    </ol>
+    <h2>Marketplace vs free add-ons</h2>
+    <ul>
+      <li>The <strong>Marketplace</strong> sells curated worlds, packs and add-ons for Minecoins (real money). Quality control is high and everything works on every device - but it is paid.</li>
+      <li><strong>Free add-ons</strong> live on community sites and creator Discords. Stick to well-known creators and check comments and update dates; skip any site that wraps downloads in ad-link chains or asks for your Microsoft login - that is the classic account-theft trap.</li>
+      <li>Never install "free Minecoins" or "free Marketplace unlocker" anything. It is a scam, every time.</li>
+    </ul>
+  </div>
+</Base>
