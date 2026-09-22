@@ -4,6 +4,7 @@ import SearchBox from '../../components/SearchBox.astro';
 import biomes from '../../data/biomes.json';
 import GameShot from '../../components/GameShot.astro';
 import shots from '../../data/screenshots.json';
+import biomesEs from '../../data/biomes-es.json';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const SHOT_BY_SLUG: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
@@ -35,15 +36,15 @@ const S = lang === 'es' ? {
     <GameShot id="biomes-frozen-ocean" />
     <div class="grid-cards">
       {biomes.map(b => (
-        <a class="card" {lang === 'es' ? `/es/biomes/${b.slug}/` : `/biomes/${b.slug}/`}>
+        <a class="card" href={lang === 'es' ? `/es/biomes/${b.slug}/` : `/biomes/${b.slug}/`}>
           <img src={thumb(b.slug)} alt={`Minecraft ${b.name} biome`} width="256" height="144" loading="lazy" style={`width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:8px;${SHOT_BY_SLUG[b.slug] ? "" : "image-rendering:pixelated"}`} />
           <h3>{b.name}</h3>
-          <p>{b.description.split('.')[0]}.</p>
+          <p>{(lang === 'es' && (biomesEs as any)[b.slug] ? (biomesEs as any)[b.slug].description : b.description).split('.')[0]}.</p>
         </a>
       ))}
     </div>
     {lang === 'es'
-      ? <p style="margin-top:24px">Consejo: encuentra cualquier bioma en tu mundo con el comando <a href="/commands/locate/">/locate biome</a> (con trucos activados), o explora con los mapas de un <a href="/villagers/cartographer/">cartógrafo</a> para localizar estructuras.</p>
+      ? <p style="margin-top:24px">Consejo: encuentra cualquier bioma en tu mundo con el comando <a href="/es/commands/locate/">/locate biome</a> (con trucos activados), o explora con los mapas de un <a href="/villagers/cartographer/">cartógrafo</a> para localizar estructuras.</p>
       : <p style="margin-top:24px">Tip: find any biome in your world with the <a href="/commands/locate/">/locate biome</a> command (cheats on), or by exploring with a <a href="/villagers/cartographer/">cartographer's</a> maps for structure hunts.</p>}
   </div>
 </Base>
