@@ -102,17 +102,19 @@ const jsonLd = [
 </div>
 <style>
 .server-list{display:flex;flex-direction:column;gap:18px;margin:26px 0 8px}
-.server-card{display:flex;gap:18px;background:#fff;border:2px solid var(--border);border-radius:12px;padding:20px 22px}
-.server-rank{font-family:'Monocraft',monospace;font-size:28px;font-weight:700;color:var(--accent);min-width:44px;padding-top:2px}
-.server-name{font-size:22px;margin:0 0 8px;border:none;padding:0}
+.server-card{display:flex;gap:18px;background:var(--bg-raised);border:1px solid var(--border);border-radius:12px;padding:20px 22px;transition:border-color .15s}
+.server-card:hover{border-color:var(--accent-dim)}
+.server-rank{font-family:'Monocraft',monospace;font-size:28px;font-weight:700;color:var(--accent-bright);min-width:44px;padding-top:2px}
+.server-name{font-size:22px;margin:0 0 8px;border:none;padding:0;color:var(--text)}
 .server-ip{margin:0 0 10px;font-size:16px}
-.server-ip code{background:#f1f5f9;border:1px solid var(--border);border-radius:6px;padding:3px 10px;font-size:15px}
-.server-site{font-size:14px;margin-left:10px}
+.server-ip code{background:var(--bg-panel);border:1px solid var(--border);border-radius:6px;padding:3px 10px;font-size:15px;color:var(--accent-bright)}
+.server-site{font-size:14px;margin-left:10px;color:var(--text-dim)}
+.server-site:hover{color:var(--accent-bright)}
 .server-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
-.tag{font-size:13px;background:#eef2ff;border:1px solid #c7d2fe;border-radius:20px;padding:3px 12px;color:#3730a3}
-.tag-live{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
-.server-modes{font-size:14px;color:#475569;margin:0 0 8px}
-.server-desc{margin:0;font-size:15px;line-height:1.55}
+.tag{font-size:13px;background:var(--bg-panel);border:1px solid var(--border);border-radius:20px;padding:3px 12px;color:var(--text-dim)}
+.tag-live{background:var(--accent-dim);border-color:var(--accent);color:#e9edf1}
+.server-modes{font-size:14px;color:var(--accent-bright);margin:0 0 8px}
+.server-desc{margin:0;font-size:15px;line-height:1.55;color:var(--text-dim)}
 .how-steps{line-height:1.7}
 .faq-list dt{font-weight:700;margin-top:16px}
 .faq-list dd{margin:6px 0 0;line-height:1.6}
