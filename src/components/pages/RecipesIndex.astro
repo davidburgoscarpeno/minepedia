@@ -35,7 +35,7 @@ const S = lang === 'es' ? {
         <h2>{lang === 'es' ? (CAT_ES[cat] ?? cat) : cat}</h2>
         <div class="grid-cards">
           {recipes.filter(r => r.category === cat).map(r => (
-            <a class="card" href={`/recipes/${r.slug}/`}>
+            <a class="card" href={lang === 'es' ? `/es/recipes/${r.slug}/` : `/recipes/${r.slug}/`}>
               <img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
               <h3>{r.name}</h3>
               <p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p>

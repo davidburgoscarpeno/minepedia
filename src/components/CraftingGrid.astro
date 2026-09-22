@@ -7,8 +7,9 @@ interface Props {
   resultName: string;
   resultCount: number;
   station: string;
+  lang?: 'en' | 'es';
 }
-const { pattern, legend, ingredients, resultName, resultCount, station } = Astro.props;
+const { pattern, legend, ingredients, resultName, resultCount, station, lang = 'en' } = Astro.props;
 const rows = pattern.map(r => r.padEnd(3, ' '));
 const cols = Math.max(...rows.map(r => r.length));
 const initials: Record<string, string> = {};
@@ -32,4 +33,4 @@ for (const [letter, name] of Object.entries(legend)) {
     <div class="qty">x{resultCount}</div>
   </div>
 </div>
-<p class="craft-legend">{Object.entries(legend).map(([l, n]) => <span><b>{l}</b> = {n}. </span>)} Station: {station}.</p>
+<p class="craft-legend">{Object.entries(legend).map(([l, n]) => <span><b>{l}</b> = {n}. </span>)} {lang === 'es' ? 'Estación' : 'Station'}: {station}.</p>

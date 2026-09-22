@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+import CraftingGrid from '../CraftingGrid.astro';
+import recipes from '../../data/recipes.json';
+import recipesEs from '../../data/recipes-es.json';
+
+interface Props { r: any; lang: 'en' | 'es'; }
+const { r, lang } = Astro.props;
+const isES = lang === 'es';
+
+const CAT_ES: Record<string, string> = { 'Combat': 'Combate', 'Food': 'Comida', 'Lighting': 'Iluminación', 'Magic': 'Magia', 'Materials': 'Materiales', 'Redstone': 'Redstone', 'Storage': 'Almacenamiento', 'Tools': 'Herramientas', 'Transport': 'Transporte', 'Utility': 'Utilidad', 'Weapons': 'Armas' };
+
+const ov: any = isES ? (recipesEs as any)[r.slug] : null;
+const station = ov?.station ?? r.station;
+const uses: string[] = ov?.uses ?? r.uses;
+const variants: string[] = ov?.variants ?? r.variants;
+const editionNote = ov?.editionNote ?? r.editionNote;
+const ingredients = r.ingredients.map((i: any, idx: number) => ({
+  ...i,
+  howToGet: ov?.howToGet?.[idx] ?? i.howToGet
+}));
+
+const ingredientText = ingredients.map((i: any) => `${i.qty}x ${i.name}`).join(' + ');
+
+const L = isES ? {
+  home: 'Inicio', crumb: 'Recetas', crumbHref: '/es/recipes/', h1: `Cómo craftear ${r.name} en Minecraft`,
+  since: 'Desde',
+  quick: `Respuesta rápida: craftea ${r.name} en ${station} con ${ingredientText}. Obtienes ${r.resultCount}.`,
+  recipe: 'Receta', ingTitle: 'Ingredientes y cómo conseguirlos', mat: 'Material', amount: 'Cantidad', how: 'Cómo conseguirlo',
+  usedFor: `¿Para qué sirve ${r.name}?`, variants: 'Variantes', jvb: 'Java vs Bedrock', related: 'Relacionados',
+  title: `Cómo craftear ${r.name}`,
+  desc: `Receta de ${r.name} en Minecraft: ${ingredientText}. Dónde conseguir los materiales, para qué sirve y notas de Java/Bedrock.`,
+  canonical: `/es/recipes/${r.slug}/`, alt: `/recipes/${r.slug}/`, homeHref: '/es/'
+} : {
+  home: 'Home', crumb: 'Recipes', crumbHref: '/recipes/', h1: `How to craft ${r.name} in Minecraft`,
+  since: 'Since',
+  quick: `Quick answer: Craft ${r.name} in a ${station} with ${ingredientText}. You get ${r.resultCount}.`,
+  recipe: 'Recipe', ingTitle: 'Ingredients and how to get them', mat: 'Material', amount: 'Amount', how: 'How to get it',
+  usedFor: `What is ${r.name} used for?`, variants: 'Variants', jvb: 'Java vs Bedrock', related: 'Related',
+  title: `How to craft ${r.name}`,
+  desc: `Minecraft ${r.name} recipe: ${ingredientText}. Where to get the materials, what it is used for, and Java/Bedrock notes.`,
+  canonical: `/recipes/${r.slug}/`, alt: `/es/recipes/${r.slug}/`, homeHref: '/'
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.h1,
+    description: `${r.name}: ${ingredientText}. ${uses[0]}.`,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: r.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.h1,
+        acceptedAnswer: { '@type': 'Answer', text: `${r.name} - ${station}: ${ingredientText} (${r.resultCount}).` } },
+      { '@type': 'Question', name: L.usedFor,
+        acceptedAnswer: { '@type': 'Answer', text: uses.join(' ') } }
+    ]
+  }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {r.name}</nav>
+    <h1>{L.h1}</h1>
+    <p><span class="badge">{isES ? (CAT_ES[r.category] ?? r.category) : r.category}</span> <span class="badge">{L.since} {r.since}</span></p>
+    <div class="quick-answer"><strong>{isES ? 'Respuesta rápida:' : 'Quick answer:'}</strong> {L.quick.replace(/^Respuesta rápida: |^Quick answer: /, '')}</div>
+    {r.pattern && r.pattern.length > 0 && (
+      <div>
+        <h2>{L.recipe}</h2>
+        <CraftingGrid pattern={r.pattern} legend={r.legend || {}} ingredients={r.ingredients} resultName={r.name} resultCount={r.resultCount} station={station} lang={lang} />
+      </div>
+    )}
+    <h2>{L.ingTitle}</h2>
+    <table class="data">
+      <tr><th>{L.mat}</th><th>{L.amount}</th><th>{L.how}</th></tr>
+      {ingredients.map((i: any) => <tr><td>{i.name}</td><td>{i.qty}</td><td>{i.howToGet}</td></tr>)}
+    </table>
+    <h2>{L.usedFor}</h2>
+    <ul>{uses.map(u => <li>{u}</li>)}</ul>
+    {variants.length > 0 && (
+      <div>
+        <h2>{L.variants}</h2>
+        <ul>{variants.map(v => <li>{v}</li>)}</ul>
+      </div>
+    )}
+    <h2>{L.jvb}</h2>
+    <p>{editionNote}</p>
+    {r.related.length > 0 && (
+      <p><strong>{L.related}:</strong> {r.related.map((rel: string) => {
+        const target = recipes.find((x: any) => x.slug === rel);
+        return target ? <a href={isES ? `/es/recipes/${rel}/` : `/recipes/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
+      })}</p>
+    )}
+  </div>
+</Base>

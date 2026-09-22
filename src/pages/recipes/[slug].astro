@@ -1,73 +1,9 @@
 ---
-import Base from '../../layouts/Base.astro';
-import CraftingGrid from '../../components/CraftingGrid.astro';
+import RecipeDetail from '../../components/pages/RecipeDetail.astro';
 import recipes from '../../data/recipes.json';
 export function getStaticPaths() {
   return recipes.map(r => ({ params: { slug: r.slug }, props: { r } }));
 }
 const { r } = Astro.props;
-const ingredientText = r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ');
-const jsonLd = [
-  {
-    '@context': 'https://schema.org', '@type': 'Article',
-    headline: `How to craft ${r.name} in Minecraft`,
-    description: `${r.name} recipe: ${ingredientText}. ${r.uses[0]}.`,
-    mainEntityOfPage: `https://minepedia.app/recipes/${r.slug}/`,
-    author: { '@type': 'Organization', name: 'Minepedia' }
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
-      { '@type': 'ListItem', position: 2, name: 'Crafting Recipes', item: 'https://minepedia.app/recipes/' },
-      { '@type': 'ListItem', position: 3, name: r.name, item: `https://minepedia.app/recipes/${r.slug}/` }
-    ]
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: [
-      { '@type': 'Question', name: `How do you craft ${r.name} in Minecraft?`,
-        acceptedAnswer: { '@type': 'Answer', text: `${r.name} is crafted in a ${r.station} with ${ingredientText}, giving ${r.resultCount} ${r.name}.` } },
-      { '@type': 'Question', name: `What is ${r.name} used for?`,
-        acceptedAnswer: { '@type': 'Answer', text: r.uses.join(' ') } }
-    ]
-  }
-];
-const legend: Record<string,string> = {};
-const patternRows = r.pattern || [];
 ---
-<Base title={`How to craft ${r.name}`} description={`Minecraft ${r.name} recipe: ${ingredientText}. Where to get the materials, what it is used for, and Java/Bedrock notes.`} canonicalPath={`/recipes/${r.slug}/`} jsonLd={jsonLd} ogType="article">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/recipes/">Recipes</a> / {r.name}</nav>
-    <h1>How to craft {r.name} in Minecraft</h1>
-    <p><span class="badge">{r.category}</span> <span class="badge">Since {r.since}</span></p>
-    <div class="quick-answer"><strong>Quick answer:</strong> Craft {r.name} in a {r.station} with {ingredientText}. You get {r.resultCount}.</div>
-    {patternRows.length > 0 && (
-      <div>
-        <h2>Recipe</h2>
-        <CraftingGrid pattern={patternRows} legend={r.legend || {}} ingredients={r.ingredients} resultName={r.name} resultCount={r.resultCount} station={r.station} />
-      </div>
-    )}
-    <h2>Ingredients and how to get them</h2>
-    <table class="data">
-      <tr><th>Material</th><th>Amount</th><th>How to get it</th></tr>
-      {r.ingredients.map(i => <tr><td>{i.name}</td><td>{i.qty}</td><td>{i.howToGet}</td></tr>)}
-    </table>
-    <h2>What is {r.name} used for?</h2>
-    <ul>{r.uses.map(u => <li>{u}</li>)}</ul>
-    {r.variants.length > 0 && (
-      <div>
-        <h2>Variants</h2>
-        <ul>{r.variants.map(v => <li>{v}</li>)}</ul>
-      </div>
-    )}
-    <h2>Java vs Bedrock</h2>
-    <p>{r.editionNote}</p>
-    {r.related.length > 0 && (
-      <p><strong>Related:</strong> {r.related.map(rel => {
-        const target = recipes.find(x => x.slug === rel);
-        return target ? <a href={`/recipes/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
-      })}</p>
-    )}
-  </div>
-</Base>
+<RecipeDetail r={r} lang="en" />
