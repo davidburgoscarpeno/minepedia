@@ -3,7 +3,6 @@ import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import villagers from '../../data/villagers.json';
 import GameShot from '../../components/GameShot.astro';
-import Icon from '../../components/Icon.astro';
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -39,7 +38,7 @@ const jsonLd = [
     <div class="grid-cards">
       {villagers.map(v => (
         <a class="card" href={`/villagers/${v.slug}/`}>
-          <div class="icon"><Icon name="gem" /></div>
+          <img class="pixel-icon" src={`/item-icons/${v.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{v.name}</h3>
           <p>Workstation: {v.workstation}</p>
         </a>

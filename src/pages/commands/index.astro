@@ -2,7 +2,6 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import commands from '../../data/commands.json';
-import Icon from '../../components/Icon.astro';
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
@@ -20,7 +19,7 @@ const jsonLd = {
     <div class="grid-cards" style="margin-top:24px">
       {commands.map(c => (
         <a class="card" href={`/commands/${c.slug}/`}>
-          <div class="icon"><Icon name="term" /></div>
+          <img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{c.name}</h3>
           <p>{c.summary}</p>
         </a>

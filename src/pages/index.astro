@@ -134,7 +134,7 @@ const cats = [
       <p class="sub">The commands players search for most.</p>
       <div class="grid-cards">
         {commands.slice(0, 6).map(c => (
-          <a class="card" href={`/commands/${c.slug}/`}><div class="icon"><Icon name="term" /></div><h3>{c.name}</h3><p>{c.summary}</p></a>
+          <a class="card" href={`/commands/${c.slug}/`}><img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
         ))}
       </div>
     </section>
