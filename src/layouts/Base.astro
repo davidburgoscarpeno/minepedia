@@ -26,9 +26,13 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical} />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content={`${site}/og.png`} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`${site}/og.png`} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="sitemap" href="/sitemap-index.xml" />
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
@@ -57,6 +61,7 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
     <div class="container">
       <p><strong>Minepedia</strong> - Minecraft guides, recipes, commands, enchantments, mobs and tools.</p>
       <p class="notice-fan">Minepedia is a fan-made resource. Not affiliated with Mojang Studios or Microsoft. "Minecraft" is a trademark of Mojang Synergies AB.</p>
+      <p class="footer-legal"><a href="/about/">About</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="/cookies/">Cookies</a></p>
     </div>
   </footer>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b480950c7b2b45c48db471215f2d2590"}'></script>
