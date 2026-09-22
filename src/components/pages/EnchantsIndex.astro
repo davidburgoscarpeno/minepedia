@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import GameShot from '../../components/GameShot.astro';
+import ench from '../../data/enchantments.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
+const S = lang === 'es' ? {
+  title: 'Encantamientos de Minecraft',
+  description: 'Todos los encantamientos de Minecraft explicados: qué hacen, nivel máximo, cómo conseguirlos, mejores usos e incompatibilidades. Java y Bedrock.',
+  h1: 'Encantamientos de Minecraft',
+  sub: `${ench.length} encantamientos con nivel máximo, mejores usos y cómo conseguir cada uno.`,
+  crumb: 'Encantamientos', home: 'Inicio',
+  placeholder: 'Busca encantamientos, objetos, comandos...',
+  for: 'Para:',
+  canonical: '/es/enchantments/', alt: '/enchantments/'
+} : {
+  title: 'Minecraft Enchantments',
+  description: 'Every Minecraft enchantment explained: what it does, max level, how to get it, best uses and incompatibilities. Java and Bedrock.',
+  h1: 'Minecraft Enchantments',
+  sub: `${ench.length} enchantments with max levels, best uses and how to get each one.`,
+  crumb: 'Enchantments', home: 'Home',
+  placeholder: 'Search enchantments, items, commands...',
+  for: 'For:',
+  canonical: '/enchantments/', alt: '/es/enchantments/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    <GameShot id="enchantments-table" />
+    <div class="grid-cards" style="margin-top:24px">
+      {ench.map(e => (
+        <a class="card" href={`/enchantments/${e.slug}/`}>
+          <img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{e.name}<span class="pips">{Array.from({ length: 5 }).map((_, i) => <i class={i < (ROMAN[e.maxLevel] || 1) ? 'on' : ''} />)}</span></h3>
+          <p>{e.whatItDoes.split('.')[0]}.</p>
+          <p class="meta"><b>{S.for}</b> {e.appliesTo}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

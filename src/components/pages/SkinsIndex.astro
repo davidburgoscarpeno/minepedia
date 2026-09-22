@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+import skins1 from '../../data/gallery-skins.json';
+import skins2 from '../../data/gallery-skins-2.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const skins = [...skins1, ...skins2];
+const cats = [...new Set(skins.map(s => s.category))];
+const CAT_ES: Record<string, string> = { 'Animals': 'Animales', 'Fantasy & Adventure': 'Fantasía y aventura', 'Gamers': 'Gamers', 'Professions': 'Profesiones', 'Sci-Fi': 'Ciencia ficción', 'Seasonal': 'De temporada', 'Sports': 'Deportes', 'Styles': 'Estilos' };
+const S = lang === 'es' ? {
+  title: 'Skins de Minecraft - Descargas originales gratis',
+  description: 'Descarga skins originales de Minecraft gratis: caballero, ninja, astronauta, mago, pirata y más. PNG de 64x64 para Java y Bedrock, editables online en nuestro Skin Maker.',
+  h1: 'Skins de Minecraft', crumb: 'Skins', home: 'Inicio',
+  canonical: '/es/skins/', alt: '/skins/'
+} : {
+  title: 'Minecraft Skins - Free Original Downloads',
+  description: 'Download free original Minecraft skins: knight, ninja, astronaut, wizard, pirate and more. 64x64 PNGs for Java and Bedrock, editable online in our Skin Maker.',
+  h1: 'Minecraft Skins', crumb: 'Skins', home: 'Home',
+  canonical: '/skins/', alt: '/es/skins/'
+};
+const faq = lang === 'es' ? [
+  ['¿Estas skins de Minecraft son gratis?', 'Sí. Todas las skins de esta galería son diseños originales de Minepedia, gratis en PNG estándar de 64x64 para Java y Bedrock, sin cuenta y sin marca de agua.'],
+  ['¿Cómo pongo una skin descargada?', 'En Java Edition, abre el Minecraft Launcher, ve a la pestaña Skins y añade el archivo PNG. En Bedrock, las skins por archivo se importan desde el Vestidor donde la plataforma lo permite, o dentro de un skin pack propio.'],
+  ['¿Puedo editar una skin antes de usarla?', 'Sí. Cada skin tiene un botón de Editar que la abre en nuestro editor gratuito en el navegador, donde puedes repintar cualquier píxel y descargar tu propia versión.'],
+  ['¿Son skins oficiales de Minecraft?', 'No. Todos los diseños son fan art original dibujado por Minepedia. No es un producto oficial de Minecraft y no está aprobado por Mojang ni Microsoft ni asociado a ellos.']
+] : [
+  ['Are these Minecraft skins free to download?', 'Yes. Every skin in this gallery is an original Minepedia design, free to download as a standard 64x64 PNG for Java and Bedrock, with no account and no watermark.'],
+  ['How do I apply a downloaded skin?', 'On Java Edition, open the Minecraft Launcher, go to the Skins tab, and add the PNG file. On Bedrock, file-based skins work through the Dressing Room import where the platform allows it, or inside a custom skin pack.'],
+  ['Can I edit a skin before using it?', 'Yes. Every skin has an Edit in Skin Maker button that opens it in our free browser editor, where you can repaint any pixel and download your own version.'],
+  ['Are these official Minecraft skins?', 'No. All designs are original fan art drawn by Minepedia. This is not an official Minecraft product and is not approved by or associated with Mojang or Microsoft.']
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage',
+    name: S.title, url: `https://minepedia.app${S.canonical}`, description: S.description },
+  { '@context': 'https://schema.org', '@type': 'ItemList',
+    itemListElement: skins.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: `${s.name} Minecraft Skin`, url: `https://minepedia.app/skins/${s.slug}/` })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }
+];
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    {lang === 'es'
+      ? <p class="sub">{skins.length} skins originales diseñadas píxel a píxel por Minepedia. Descarga el PNG de 64x64 listo para tu launcher, o abre cualquier skin en el <a href="/tools/skin-maker/">Skin Maker</a> y hazla tuya. Nuevos diseños con regularidad.</p>
+      : <p class="sub">{skins.length} original skins designed pixel by pixel by Minepedia. Download the 64x64 PNG ready for your launcher, or open any skin in the <a href="/tools/skin-maker/">Skin Maker</a> and make it yours. New designs added regularly.</p>}
+    {cats.map(c => (
+      <section>
+        <h2>{lang === 'es' ? (CAT_ES[c] ?? c) : c}</h2>
+        <div class="skin-grid">
+          {skins.filter(s => s.category === c).map(s => (
+            <div class="skin-card">
+              <a href={`/skins/${s.slug}/`} class="skin-prev"><canvas class="skinview" data-src={s.file} data-view="front" data-scale="5" width="80" height="160"></canvas></a>
+              <h3><a href={`/skins/${s.slug}/`}>{s.name}</a></h3>
+              <div class="skin-actions">
+                <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>⬇️ PNG</a>
+                <a class="sbtn" href={`/tools/skin-maker/?skin=${s.file}`}>🎨 {lang === 'es' ? 'Editar' : 'Edit'}</a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+    {lang === 'es' ? (
+      <>
+        <h2>Cómo usar estas skins</h2>
+        <ol>
+          <li><strong>Descarga</strong> el PNG de la skin que te guste (o ábrela antes en el Skin Maker y edítala).</li>
+          <li><strong>Java Edition:</strong> abre el Minecraft Launcher, ve a la pestaña Skins, pulsa "Nueva skin" y selecciona el archivo.</li>
+          <li><strong>Bedrock:</strong> importa el PNG desde el Vestidor donde tu plataforma permita archivos propios, o mételo en un skin pack personalizado.</li>
+        </ol>
+        <h2>Preguntas frecuentes</h2>
+        {faq.map(([q, a]) => <details><summary>{q}</summary><p set:html={a} /></details>)}
+      </>
+    ) : (
+      <>
+        <h2>How to use these skins</h2>
+        <ol>
+          <li><strong>Download</strong> the PNG of the skin you like (or open it in the Skin Maker and edit it first).</li>
+          <li><strong>Java Edition:</strong> open the Minecraft Launcher, go to the Skins tab, click "New skin" and select the file.</li>
+          <li><strong>Bedrock:</strong> import the PNG through the Dressing Room where your platform allows custom files, or pack it into a custom skin pack.</li>
+        </ol>
+        <h2>FAQ</h2>
+        <details><summary>Are these Minecraft skins free to download?</summary><p>Yes. Every skin here is an original Minepedia design, free as a standard 64x64 PNG for Java and Bedrock. No account, no watermark.</p></details>
+        <details><summary>How do I apply a downloaded skin?</summary><p>On Java Edition, add the PNG in the Minecraft Launcher's Skins tab. On Bedrock, use the Dressing Room import where available or a custom skin pack.</p></details>
+        <details><summary>Can I edit a skin before using it?</summary><p>Yes - every card has an Edit button that opens the skin in our free <a href="/tools/skin-maker/">Skin Maker</a>, where you can repaint anything and download your version.</p></details>
+        <details><summary>Are these official Minecraft skins?</summary><p>No. All designs are original fan art drawn by Minepedia. Not an official Minecraft product; not approved by or associated with Mojang or Microsoft.</p></details>
+      </>
+    )}
+  </div>
+  <style>
+    .skin-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px;margin:14px 0 8px}
+    .skin-card{background:#14181f;border:1px solid #232a35;border-radius:12px;padding:12px;text-align:center}
+    .skin-card h3{font-size:14px;margin:8px 0 8px}
+    .skin-card h3 a{color:#e6ebf1;text-decoration:none}
+    .skin-card h3 a:hover{color:#3aa655}
+    .skin-prev{display:block;background:#0d1015;border-radius:10px;padding:6px}
+    .skin-prev canvas{image-rendering:pixelated;width:80px;height:160px}
+    .skin-actions{display:flex;gap:6px;justify-content:center}
+    .sbtn{font-size:12px;padding:6px 10px;border-radius:8px;border:1px solid #2c3542;background:#1c222c;color:#e6ebf1;text-decoration:none}
+    .sbtn:hover{border-color:#3aa655}
+    .sbtn.primary{background:#3aa655;border-color:#3aa655;color:#0b0e12;font-weight:700}
+  </style>
+  <script src="/js/skin-preview.js" is:inline></script>
+</Base>

@@ -1,26 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';
-import SearchBox from '../../components/SearchBox.astro';
-import GameShot from '../../components/GameShot.astro';
-const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
-import ench from '../../data/enchantments.json';
+import EnchantsIndex from '../../components/pages/EnchantsIndex.astro';
 ---
-<Base title="Minecraft Enchantments" description="Every Minecraft enchantment explained: what it does, max level, how to get it, best uses and incompatibilities. Java and Bedrock." canonicalPath="/enchantments/">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / Enchantments</nav>
-    <h1>Minecraft Enchantments</h1>
-    <p class="sub">{ench.length} enchantments with max levels, best uses and how to get each one.</p>
-    <SearchBox placeholder="Search enchantments, items, commands..." />
-    <GameShot id="enchantments-table" />
-    <div class="grid-cards" style="margin-top:24px">
-      {ench.map(e => (
-        <a class="card" href={`/enchantments/${e.slug}/`}>
-          <img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
-          <h3>{e.name}<span class="pips">{Array.from({ length: 5 }).map((_, i) => <i class={i < (ROMAN[e.maxLevel] || 1) ? 'on' : ''} />)}</span></h3>
-          <p>{e.whatItDoes.split('.')[0]}.</p>
-          <p class="meta"><b>For:</b> {e.appliesTo}</p>
-        </a>
-      ))}
-    </div>
-  </div>
-</Base>
+<EnchantsIndex lang="en" />

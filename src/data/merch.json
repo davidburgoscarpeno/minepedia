@@ -1,19 +1,95 @@
 {
   "activeProfile": "es",
   "profiles": {
-    "es": { "domain": "www.amazon.es", "tag": "davezone-21" },
-    "us": { "domain": "www.amazon.com", "tag": "davezone06-20" }
+    "es": {
+      "domain": "www.amazon.es",
+      "tag": "davezone-21"
+    },
+    "us": {
+      "domain": "www.amazon.com",
+      "tag": "davezone06-20"
+    }
   },
   "products": [
-    { "asin": "B0BBRW2S7T", "category": "LEGO", "icon": "cube", "name": "LEGO Minecraft The Panda Haven", "blurb": "Buildable panda-shaped house with animal figures. One of the most giftable Minecraft LEGO sets." },
-    { "asin": "B09BNX79CM", "category": "LEGO", "icon": "cube", "name": "LEGO Minecraft The Fox Lodge", "blurb": "Fox-shaped lodge set with drowned zombie and animal figures. Compact and affordable." },
-    { "asin": "B0CN3SSRPQ", "category": "Figures", "icon": "puzzle", "name": "Mattel Minecraft Steve with Parrot", "blurb": "Classic 3.25-inch Steve action figure with a parrot companion. Vanilla game styling." },
-    { "asin": "B09QLGYM6T", "category": "Plush", "icon": "heart", "name": "Mattel Minecraft Cuutopia Creeper Plush", "blurb": "Soft 25 cm creeper plush from Mattel's Cuutopia line. The mascot gift." },
-    { "asin": "B096WLBGWB", "category": "Lamps", "icon": "star", "name": "Paladone Minecraft Torch Light", "blurb": "Officially licensed torch lamp, battery powered, wall-mountable. Instant room upgrade." },
-    { "asin": "B096HDGJRD", "category": "Lamps", "icon": "star", "name": "Paladone Minecraft Logo Light", "blurb": "Official Minecraft logo lamp with two light modes. Good desk or shelf piece." },
-    { "asin": "0593158113", "category": "Books", "icon": "book", "name": "Minecraft: Guide to Survival (Updated)", "blurb": "Mojang's official survival guide, updated for the modern game. Pairs well with our guides." },
-    { "asin": "0545823269", "category": "Books", "icon": "book", "name": "Minecraft: Essential Handbook (Updated)", "blurb": "The official starter handbook. The classic first Minecraft book for new players." },
-    { "asin": "8419746320", "category": "Books", "icon": "book", "name": "Enigmas 100% Minecraft", "blurb": "Spanish-language Minecraft puzzle and logic book (Montena). Good for young fans." },
-    { "asin": "B0B3JWH3RP", "category": "Clothing", "icon": "shirt", "name": "Minecraft Character Cluster Logo T-Shirt", "blurb": "Official character cluster logo tee. Check sizes on the listing before ordering." }
+    {
+      "asin": "B0BBRW2S7T",
+      "category": "LEGO",
+      "icon": "cube",
+      "name": "LEGO Minecraft The Panda Haven",
+      "blurb": "Buildable panda-shaped house with animal figures. One of the most giftable Minecraft LEGO sets.",
+      "blurb_es": "Casa con forma de panda construible con figuras de animales. Uno de los sets LEGO de Minecraft más regalables."
+    },
+    {
+      "asin": "B09BNX79CM",
+      "category": "LEGO",
+      "icon": "cube",
+      "name": "LEGO Minecraft The Fox Lodge",
+      "blurb": "Fox-shaped lodge set with drowned zombie and animal figures. Compact and affordable.",
+      "blurb_es": "Set de la cabaña del zorro con zombi ahogado y figuras de animales. Compacto y asequible."
+    },
+    {
+      "asin": "B0CN3SSRPQ",
+      "category": "Figures",
+      "icon": "puzzle",
+      "name": "Mattel Minecraft Steve with Parrot",
+      "blurb": "Classic 3.25-inch Steve action figure with a parrot companion. Vanilla game styling.",
+      "blurb_es": "Figura clásica de Steve de 8 cm con loro de compañía. Estilo del juego original."
+    },
+    {
+      "asin": "B09QLGYM6T",
+      "category": "Plush",
+      "icon": "heart",
+      "name": "Mattel Minecraft Cuutopia Creeper Plush",
+      "blurb": "Soft 25 cm creeper plush from Mattel's Cuutopia line. The mascot gift.",
+      "blurb_es": "Peluche blando de creeper de 25 cm de la línea Cuutopia de Mattel. El regalo mascota."
+    },
+    {
+      "asin": "B096WLBGWB",
+      "category": "Lamps",
+      "icon": "star",
+      "name": "Paladone Minecraft Torch Light",
+      "blurb": "Officially licensed torch lamp, battery powered, wall-mountable. Instant room upgrade.",
+      "blurb_es": "Lámpara antorcha con licencia oficial, a pilas y montable en pared. Mejora instantánea de la habitación."
+    },
+    {
+      "asin": "B096HDGJRD",
+      "category": "Lamps",
+      "icon": "star",
+      "name": "Paladone Minecraft Logo Light",
+      "blurb": "Official Minecraft logo lamp with two light modes. Good desk or shelf piece.",
+      "blurb_es": "Lámpara oficial del logo de Minecraft con dos modos de luz. Perfecta para el escritorio o la estantería."
+    },
+    {
+      "asin": "0593158113",
+      "category": "Books",
+      "icon": "book",
+      "name": "Minecraft: Guide to Survival (Updated)",
+      "blurb": "Mojang's official survival guide, updated for the modern game. Pairs well with our guides.",
+      "blurb_es": "La guía oficial de supervivencia de Mojang, actualizada para el juego moderno. Combina bien con nuestras guías."
+    },
+    {
+      "asin": "0545823269",
+      "category": "Books",
+      "icon": "book",
+      "name": "Minecraft: Essential Handbook (Updated)",
+      "blurb": "The official starter handbook. The classic first Minecraft book for new players.",
+      "blurb_es": "El manual oficial para empezar. El primer libro clásico de Minecraft para jugadores nuevos."
+    },
+    {
+      "asin": "8419746320",
+      "category": "Books",
+      "icon": "book",
+      "name": "Enigmas 100% Minecraft",
+      "blurb": "Spanish-language Minecraft puzzle and logic book (Montena). Good for young fans.",
+      "blurb_es": "Libro de enigmas y lógica de Minecraft en español (Montena). Ideal para fans jóvenes."
+    },
+    {
+      "asin": "B0B3JWH3RP",
+      "category": "Clothing",
+      "icon": "shirt",
+      "name": "Minecraft Character Cluster Logo T-Shirt",
+      "blurb": "Official character cluster logo tee. Check sizes on the listing before ordering.",
+      "blurb_es": "Camiseta oficial con el logo y los personajes. Revisa las tallas en la ficha antes de pedirla."
+    }
   ]
 }

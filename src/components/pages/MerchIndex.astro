@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import Icon from '../../components/Icon.astro';
+import merch from '../../data/merch.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const profile = merch.profiles[merch.activeProfile];
+const link = (asin: string) => `https://${profile.domain}/dp/${asin}/?tag=${profile.tag}`;
+const cats = [...new Set(merch.products.map(p => p.category))];
+const CAT_ES: Record<string, string> = { 'LEGO': 'LEGO', 'Figures': 'Figuras', 'Plush': 'Peluches', 'Lamps': 'Lámparas', 'Books': 'Libros', 'Clothing': 'Ropa' };
+const AFFIL = 'Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.';
+const S = lang === 'es' ? {
+  title: 'Merch de Minecraft - Selección',
+  description: 'Una pequeña selección de merch de Minecraft: sets de LEGO, figuras, peluches, lámparas, libros y ropa, con enlaces a Amazon.',
+  h1: 'Merch de Minecraft', crumb: 'Merch', home: 'Inicio',
+  placeholder: 'Busca guías, objetos, comandos...',
+  btn: 'Ver en Amazon',
+  canonical: '/es/merch/', alt: '/merch/'
+} : {
+  title: 'Minecraft Merch - Curated Picks',
+  description: 'A small curated list of Minecraft merch: LEGO sets, figures, plush, lamps, books and clothing, with links to Amazon.',
+  h1: 'Minecraft Merch', crumb: 'Merch', home: 'Home',
+  placeholder: 'Search guides, items, commands...',
+  btn: 'View on Amazon',
+  canonical: '/merch/', alt: '/es/merch/'
+};
+const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: S.h1 + ' - Minepedia', url: `https://minepedia.app${S.canonical}` };
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    {lang === 'es'
+      ? <p class="sub">Una selección corta, no un almacén: {merch.products.length} productos entre LEGO, figuras, peluches, lámparas, libros y ropa. Cada enlace va a la página del producto en {profile.domain}, donde puedes comprobar el precio actual, tallas y disponibilidad.</p>
+      : <p class="sub">A short curated list, not a warehouse: {merch.products.length} picks across LEGO, figures, plush, lamps, books and clothing. Every link goes to the product page on {profile.domain}, where you can check current price, sizes and availability.</p>}
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    <p class="affiliate-note">{AFFIL}<br /><span class="affiliate-note-en">As an Amazon Associate, I earn from qualifying purchases.</span></p>
+    {cats.map(cat => (
+      <section class="section">
+        <h2>{lang === 'es' ? (CAT_ES[cat] ?? cat) : cat}</h2>
+        <div class="grid-cards">
+          {merch.products.filter(p => p.category === cat).map(p => (
+            <div class="card merch-card">
+              <div class="icon"><Icon name={p.icon} /></div>
+              <h3>{p.name}</h3>
+              <p>{lang === 'es' ? p.blurb_es : p.blurb}</p>
+              <a class="merch-btn" href={link(p.asin)} target="_blank" rel="nofollow sponsored noopener">{S.btn}</a>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+    {lang === 'es' ? (
+      <>
+        <h2>Cómo funciona esta lista</h2>
+        <p>Elegimos pocos productos de Minecraft con licencia oficial y bien valorados, y enlazamos directamente a sus páginas de Amazon. No mostramos precios aquí porque cambian; Amazon siempre te muestra el actual. ¿Has comprado algo de esta lista? <a href="/contact/">Cuéntanos</a> qué tal - nos ayuda a decidir qué se queda en la página.</p>
+        <details><summary>¿Son productos oficiales de Minecraft?</summary><p>Todos los productos son merch oficial de Minecraft u oficialmente licenciado (LEGO, Mattel, Paladone, libros de Mojang). Minepedia en sí es un recurso hecho por fans: no es un producto oficial de Minecraft y no está aprobado por Mojang ni Microsoft ni asociado a ellos.</p></details>
+        <details><summary>¿Minepedia gana dinero con estos enlaces?</summary><p>Sí. {AFFIL} A ti no te cuesta nada extra.</p></details>
+      </>
+    ) : (
+      <>
+        <h2>How this list works</h2>
+        <p>We pick a small number of well-reviewed, officially licensed Minecraft products and link straight to their Amazon pages. We do not show prices here because they change; Amazon always shows you the current one. Bought something from this list? <a href="/contact/">Tell us</a> how it went - it shapes what we keep on the page.</p>
+        <details><summary>Are these official Minecraft products?</summary><p>Every pick is either official Minecraft merchandise or officially licensed (LEGO, Mattel, Paladone, Mojang books). Minepedia itself is a fan-made resource, not an official Minecraft product, and not approved by or associated with Mojang or Microsoft.</p></details>
+        <details><summary>Does Minepedia earn money from these links?</summary><p>Yes. {AFFIL} It costs you nothing extra.</p></details>
+      </>
+    )}
+  </div>
+  <style>
+    .affiliate-note{background:#14181f;border:1px solid #232a35;border-radius:10px;padding:10px 14px;font-size:13px;color:#aeb8c4;margin:18px 0 0}
+    .affiliate-note-en{font-size:11px;color:#85909d}
+    .merch-card{display:flex;flex-direction:column}
+    .merch-btn{display:inline-block;margin-top:12px;align-self:flex-start;background:#3aa655;color:#0b0e12;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;text-decoration:none}
+    .merch-btn:hover{background:#4cc968}
+  </style>
+</Base>

@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import commands from '../../data/commands.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const S = lang === 'es' ? {
+  title: 'Comandos de Minecraft',
+  description: 'Todos los comandos de Minecraft explicados: sintaxis, ejemplos, objetivos y diferencias entre Java y Bedrock.',
+  h1: 'Comandos de Minecraft',
+  sub: 'Sintaxis, ejemplos y diferencias entre ediciones para cada comando importante. Requieren trucos o permisos de operador.',
+  crumb: 'Comandos', home: 'Inicio',
+  placeholder: 'Busca comandos, objetos, mobs...',
+  canonical: '/es/commands/', alt: '/commands/',
+  ldName: 'Lista de comandos de Minecraft', ldDesc: 'Lista completa de comandos de Minecraft con sintaxis, ejemplos y diferencias entre Java y Bedrock.', ldUrl: 'https://minepedia.app/es/commands/'
+} : {
+  title: 'Minecraft Commands',
+  description: 'Every Minecraft command explained: syntax, examples, targets and the differences between Java and Bedrock Edition.',
+  h1: 'Minecraft Commands',
+  sub: 'Syntax, examples and edition differences for every important command. Cheats or operator permissions required.',
+  crumb: 'Commands', home: 'Home',
+  placeholder: 'Search commands, items, mobs...',
+  canonical: '/commands/', alt: '/es/commands/',
+  ldName: 'Minecraft Commands List', ldDesc: 'Complete list of Minecraft commands with syntax, examples and Java/Bedrock differences.', ldUrl: 'https://minepedia.app/commands/'
+};
+const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: S.ldName, description: S.ldDesc, url: S.ldUrl };
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    <div class="grid-cards" style="margin-top:24px">
+      {commands.map(c => (
+        <a class="card" href={`/commands/${c.slug}/`}>
+          <img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{c.name}</h3>
+          <p>{c.summary}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

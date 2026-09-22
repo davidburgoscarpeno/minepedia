@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import recipes from '../../data/recipes.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const cats = [...new Set(recipes.map(r => r.category))].sort();
+const CAT_ES: Record<string, string> = { 'Tools': 'Herramientas', 'Weapons': 'Armas', 'Food': 'Comida', 'Building Blocks': 'Bloques de construcción', 'Decoration': 'Decoración', 'Redstone': 'Redstone', 'Transport': 'Transporte', 'Misc': 'Varios', 'Armor': 'Armadura', 'Brewing': 'Alquimia', 'Utility': 'Utilidad', 'Storage': 'Almacenamiento', 'Mechanisms': 'Mecanismos' };
+const S = lang === 'es' ? {
+  title: 'Recetas de crafteo de Minecraft',
+  description: 'Recetas de crafteo de Minecraft con ingredientes, patrones, cómo conseguir cada material, usos y notas de Java/Bedrock.',
+  h1: 'Recetas de crafteo de Minecraft',
+  sub: `${recipes.length} recetas con ingredientes exactos, patrones y cómo conseguir cada material.`,
+  crumb: 'Recetas de crafteo', home: 'Inicio',
+  placeholder: 'Busca recetas, objetos, comandos...',
+  canonical: '/es/recipes/', alt: '/recipes/'
+} : {
+  title: 'Minecraft Crafting Recipes',
+  description: 'Minecraft crafting recipes with ingredients, patterns, how to get each material, uses and Java/Bedrock notes.',
+  h1: 'Minecraft Crafting Recipes',
+  sub: `${recipes.length} recipes with exact ingredients, patterns and how to get every material.`,
+  crumb: 'Crafting Recipes', home: 'Home',
+  placeholder: 'Search recipes, items, commands...',
+  canonical: '/recipes/', alt: '/es/recipes/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    {cats.map(cat => (
+      <section class="section">
+        <h2>{lang === 'es' ? (CAT_ES[cat] ?? cat) : cat}</h2>
+        <div class="grid-cards">
+          {recipes.filter(r => r.category === cat).map(r => (
+            <a class="card" href={`/recipes/${r.slug}/`}>
+              <img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+              <h3>{r.name}</h3>
+              <p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

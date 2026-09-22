@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import biomes from '../../data/biomes.json';
+import GameShot from '../../components/GameShot.astro';
+import shots from '../../data/screenshots.json';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const SHOT_BY_SLUG: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
+const thumb = (slug: string) => { const id = SHOT_BY_SLUG[slug]; const sh = id && shots.find(x => x.id === id); return sh ? '/screenshots/' + sh.file + '?v=20260922' : `/biome-art/${slug}.png`; };
+const S = lang === 'es' ? {
+  title: 'Biomas de Minecraft',
+  description: 'Guía de biomas de Minecraft: recursos, mobs, estructuras y consejos para llanuras, desierto, jungla, badlands, deep dark, pantano y más. Java y Bedrock.',
+  h1: 'Biomas de Minecraft',
+  sub: `${biomes.length} biomas: qué encontrar, qué temer y cuándo ir.`,
+  crumb: 'Biomas', home: 'Inicio',
+  placeholder: 'Busca biomas, mobs, objetos...',
+  canonical: '/es/biomes/', alt: '/biomes/'
+} : {
+  title: 'Minecraft Biomes',
+  description: 'Minecraft biome guide: resources, mobs, structures and tips for plains, desert, jungle, badlands, deep dark, swamp and more. Java and Bedrock.',
+  h1: 'Minecraft Biomes',
+  sub: `${biomes.length} biomes: what to find, what to fear and when to go.`,
+  crumb: 'Biomes', home: 'Home',
+  placeholder: 'Search biomes, mobs, items...',
+  canonical: '/biomes/', alt: '/es/biomes/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} lang={lang} />
+    <GameShot id="biomes-frozen-ocean" />
+    <div class="grid-cards">
+      {biomes.map(b => (
+        <a class="card" href={`/biomes/${b.slug}/`}>
+          <img src={thumb(b.slug)} alt={`Minecraft ${b.name} biome`} width="256" height="144" loading="lazy" style={`width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:8px;${SHOT_BY_SLUG[b.slug] ? "" : "image-rendering:pixelated"}`} />
+          <h3>{b.name}</h3>
+          <p>{b.description.split('.')[0]}.</p>
+        </a>
+      ))}
+    </div>
+    {lang === 'es'
+      ? <p style="margin-top:24px">Consejo: encuentra cualquier bioma en tu mundo con el comando <a href="/commands/locate/">/locate biome</a> (con trucos activados), o explora con los mapas de un <a href="/villagers/cartographer/">cartógrafo</a> para localizar estructuras.</p>
+      : <p style="margin-top:24px">Tip: find any biome in your world with the <a href="/commands/locate/">/locate biome</a> command (cheats on), or by exploring with a <a href="/villagers/cartographer/">cartographer's</a> maps for structure hunts.</p>}
+  </div>
+</Base>

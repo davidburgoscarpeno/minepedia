@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const S = lang === 'es' ? {
+  title: 'Buscar en Minepedia',
+  description: 'Busca entre todas las guías, recetas, encantamientos, mobs, comandos y más de Minepedia.',
+  h1: 'Buscar en Minepedia', crumb: 'Buscar', home: 'Inicio',
+  sub: 'Todas las guías, recetas, mobs, comandos y herramientas del sitio.',
+  placeholder: 'Busca en Minecraft...',
+  typeTo: 'Escribe para buscar entre', pages: 'páginas.',
+  resultsFor: ['resultado para', 'resultados para'],
+  canonical: '/es/search/', alt: '/search/'
+} : {
+  title: 'Search Minepedia',
+  description: 'Search every Minepedia guide, recipe, enchantment, mob, command and more.',
+  h1: 'Search Minepedia', crumb: 'Search', home: 'Home',
+  sub: 'Every guide, recipe, mob, command and tool on the site.',
+  placeholder: 'Search Minecraft...',
+  typeTo: 'Type to search', pages: 'pages.',
+  resultsFor: ['result for', 'results for'],
+  canonical: '/search/', alt: '/es/search/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="search-wrap" style="margin:18px 0 8px">
+      <input id="q" class="search-input" type="search" placeholder={S.placeholder} aria-label={S.placeholder} autofocus />
+    </div>
+    <p id="count" style="color:var(--text-dim);font-size:.9rem"></p>
+    <div id="results" class="grid-cards" style="margin-top:12px"></div>
+  </div>
+  <script define:vars={{ typeTo: S.typeTo, pagesWord: S.pages, rOne: S.resultsFor[0], rMany: S.resultsFor[1] }}>
+    const input = document.getElementById('q');
+    const out = document.getElementById('results');
+    const count = document.getElementById('count');
+    let index = [];
+    fetch('/search-index.json').then(r => r.json()).then(d => { index = d; run(); }).catch(() => {});
+    const params = new URLSearchParams(location.search);
+    if (params.get('q')) input.value = params.get('q');
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+    function run() {
+      const q = input.value.trim().toLowerCase();
+      if (!q) { out.innerHTML = ''; count.textContent = typeTo + ' ' + index.length + ' ' + pagesWord; return; }
+      const terms = q.split(/\s+/);
+      const hits = index.filter(e => {
+        const hay = (e.name + ' ' + (e.keywords || '') + ' ' + e.kind).toLowerCase();
+        return terms.every(t => hay.includes(t));
+      }).slice(0, 60);
+      count.textContent = hits.length + ' ' + (hits.length === 1 ? rOne : rMany) + ' "' + q + '"';
+      out.innerHTML = hits.map(e =>
+        `<a class="card" href="${e.url}"><h3>${esc(e.name)}</h3><p><span class="kind">${esc(e.kind)}</span></p></a>`
+      ).join('');
+    }
+    input.addEventListener('input', run);
+  </script>
+</Base>

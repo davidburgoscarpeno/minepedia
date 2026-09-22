@@ -6,15 +6,47 @@ interface Props {
   jsonLd?: object | object[];
   ogType?: string;
   noindex?: boolean;
+  lang?: 'en' | 'es';
+  altPath?: string;
 }
-const { title, description, canonicalPath, jsonLd, ogType = 'website', noindex = false } = Astro.props;
+const { title, description, canonicalPath, jsonLd, ogType = 'website', noindex = false, lang = 'en', altPath } = Astro.props;
 import AdSlot from '../components/AdSlot.astro';
 const site = 'https://minepedia.app';
 const canonical = canonicalPath ? `${site}${canonicalPath}` : Astro.url.href;
 const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes, Commands & Tools' : `${title} | Minepedia`;
+const P = lang === 'es' ? '/es' : '';
+const esPath = lang === 'en' ? (altPath ?? '/es/') : (canonicalPath ?? Astro.url.pathname);
+const enPath = lang === 'es' ? (altPath ?? '/') : (canonicalPath ?? Astro.url.pathname);
+const NAV: Record<string, [string, string][]> = {
+  en: [
+    ['/guides/', 'Guides'], ['/recipes/', 'Recipes'], ['/commands/', 'Commands'], ['/enchantments/', 'Enchants'],
+    ['/potions/', 'Potions'], ['/mobs/', 'Mobs'], ['/biomes/', 'Biomes'], ['/structures/', 'Structures'],
+    ['/villagers/', 'Trades'], ['/farms/', 'Farms'], ['/tools/', 'Tools'], ['/skins/', 'Skins'], ['/merch/', 'Merch']
+  ],
+  es: [
+    ['/guides/', 'Guías'], ['/es/recipes/', 'Recetas'], ['/es/commands/', 'Comandos'], ['/es/enchantments/', 'Encantamientos'],
+    ['/potions/', 'Pociones'], ['/es/mobs/', 'Mobs'], ['/es/biomes/', 'Biomas'], ['/structures/', 'Estructuras'],
+    ['/villagers/', 'Comercio'], ['/farms/', 'Granjas'], ['/tools/', 'Herramientas'], ['/es/skins/', 'Skins'], ['/es/merch/', 'Merch']
+  ]
+};
+const F = lang === 'es' ? {
+  tagline: 'la base de conocimiento de Minecraft. Guías, recetas, comandos, encantamientos, mobs y herramientas, con precisión para Java y Bedrock.',
+  fan: 'Minepedia es un recurso hecho por fans. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. "Minecraft" es una marca registrada de Mojang Synergies AB.',
+  explore: 'Explorar', reference: 'Referencia',
+  exploreLinks: [['/guides/', 'Guías'], ['/es/recipes/', 'Recetas de crafteo'], ['/es/biomes/', 'Biomas'], ['/es/mobs/', 'Mobs'], ['/seeds/', 'Semillas'], ['/versions/', 'Versiones']] as [string, string][],
+  referenceLinks: [['/es/commands/', 'Comandos'], ['/es/enchantments/', 'Encantamientos'], ['/potions/', 'Pociones'], ['/villagers/', 'Comercio de aldeanos'], ['/farms/', 'Granjas'], ['/servers/', 'Servidores']] as [string, string][],
+  legal: [['/about/', 'Acerca de'], ['/contact/', 'Contacto'], ['/es/privacy/', 'Privacidad'], ['/es/terms/', 'Términos'], ['/es/cookies/', 'Cookies']] as [string, string][]
+} : {
+  tagline: 'the Minecraft knowledge base. Guides, recipes, commands, enchantments, mobs and tools, accurate for Java and Bedrock.',
+  fan: 'Minepedia is a fan-made resource. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. "Minecraft" is a trademark of Mojang Synergies AB.',
+  explore: 'Explore', reference: 'Reference',
+  exploreLinks: [['/guides/', 'Guides'], ['/recipes/', 'Crafting recipes'], ['/biomes/', 'Biomes'], ['/mobs/', 'Mobs'], ['/seeds/', 'Seeds'], ['/versions/', 'Versions']] as [string, string][],
+  referenceLinks: [['/commands/', 'Commands'], ['/enchantments/', 'Enchantments'], ['/potions/', 'Potions'], ['/villagers/', 'Villager trades'], ['/farms/', 'Farms'], ['/servers/', 'Servers']] as [string, string][],
+  legal: [['/about/', 'About'], ['/contact/', 'Contact'], ['/privacy/', 'Privacy'], ['/terms/', 'Terms'], ['/cookies/', 'Cookies']] as [string, string][]
+};
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,6 +54,12 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   {noindex && <meta name="robots" content="noindex,follow" />}
+  {altPath && lang === 'en' && <link rel="alternate" hreflang="en" href={canonical} />}
+  {altPath && lang === 'en' && <link rel="alternate" hreflang="es" href={`${site}${altPath}`} />}
+  {altPath && lang === 'en' && <link rel="alternate" hreflang="x-default" href={canonical} />}
+  {altPath && lang === 'es' && <link rel="alternate" hreflang="es" href={canonical} />}
+  {altPath && lang === 'es' && <link rel="alternate" hreflang="en" href={`${site}${altPath}`} />}
+  {altPath && lang === 'es' && <link rel="alternate" hreflang="x-default" href={`${site}${altPath}`} />}
   <meta property="og:site_name" content="Minepedia" />
   <meta property="og:type" content={ogType} />
   <meta property="og:title" content={fullTitle} />
@@ -30,6 +68,8 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
   <meta property="og:image" content={`${site}/og.png`} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
+  {altPath && <meta property="og:locale:alternate" content={lang === 'es' ? 'en_US' : 'es_ES'} />}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={description} />
@@ -42,25 +82,18 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="/">
+      <a class="brand" href={`${P}/`}>
         <svg class="cube" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 3 9v14l13 7 13-7V9L16 2z" fill="#4caf50"/><path d="M16 2 3 9l13 7 13-7-13-7z" fill="#66d46b"/><path d="M16 16v13L3 23V9l13 7z" fill="#3d8b40"/></svg>
         Minepedia
       </a>
       <nav class="main-nav">
-        <a href="/guides/">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/commands/">Commands</a>
-        <a href="/enchantments/">Enchants</a>
-        <a href="/potions/">Potions</a>
-        <a href="/mobs/">Mobs</a>
-        <a href="/biomes/">Biomes</a>
-        <a href="/structures/">Structures</a>
-        <a href="/villagers/">Trades</a>
-        <a href="/farms/">Farms</a>
-        <a href="/tools/">Tools</a>
-        <a href="/skins/">Skins</a>
-        <a href="/merch/">Merch</a>
+        {NAV[lang].map(([href, label]) => <a href={href}>{label}</a>)}
       </nav>
+      <div class="lang-switch" aria-label="Language / Idioma">
+        {lang === 'en' ? <span class="cur">EN</span> : <a href={enPath}>EN</a>}
+        <span class="sep">|</span>
+        {lang === 'es' ? <span class="cur">ES</span> : <a href={esPath}>ES</a>}
+      </div>
     </div>
   </header>
   <main>
@@ -71,34 +104,24 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
     <div class="container">
       <div class="footer-grid">
         <div>
-          <p style="margin:0 0 6px"><strong style="color:var(--text)">Minepedia</strong> - the Minecraft knowledge base. Guides, recipes, commands, enchantments, mobs and tools, accurate for Java and Bedrock.</p>
-          <p class="notice-fan">Minepedia is a fan-made resource. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. "Minecraft" is a trademark of Mojang Synergies AB.</p>
+          <p style="margin:0 0 6px"><strong style="color:var(--text)">Minepedia</strong> - {F.tagline}</p>
+          <p class="notice-fan">{F.fan}</p>
         </div>
         <div>
-          <h4>Explore</h4>
+          <h4>{F.explore}</h4>
           <ul>
-            <li><a href="/guides/">Guides</a></li>
-            <li><a href="/recipes/">Crafting recipes</a></li>
-            <li><a href="/biomes/">Biomes</a></li>
-            <li><a href="/mobs/">Mobs</a></li>
-            <li><a href="/seeds/">Seeds</a></li>
-            <li><a href="/versions/">Versions</a></li>
+            {F.exploreLinks.map(([href, label]) => <li><a href={href}>{label}</a></li>)}
           </ul>
         </div>
         <div>
-          <h4>Reference</h4>
+          <h4>{F.reference}</h4>
           <ul>
-            <li><a href="/commands/">Commands</a></li>
-            <li><a href="/enchantments/">Enchantments</a></li>
-            <li><a href="/potions/">Potions</a></li>
-            <li><a href="/villagers/">Villager trades</a></li>
-            <li><a href="/farms/">Farms</a></li>
-            <li><a href="/servers/">Servers</a></li>
+            {F.referenceLinks.map(([href, label]) => <li><a href={href}>{label}</a></li>)}
           </ul>
         </div>
       </div>
       <p class="notice-fan" style="margin-top:14px">Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.</p>
-      <p class="footer-legal"><a href="/about/">About</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="/cookies/">Cookies</a></p>
+      <p class="footer-legal">{F.legal.map(([href, label], i) => (<>{i > 0 && ' · '}<a href={href}>{label}</a></>))}</p>
     </div>
   </footer>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b480950c7b2b45c48db471215f2d2590"}'></script>
@@ -106,4 +129,10 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
 </html>
 <style is:global>
   @import '../styles/global.css';
+  .lang-switch{flex-shrink:0;display:flex;gap:6px;align-items:center;font-size:12px;margin-left:10px;color:var(--text-dim)}
+  .lang-switch a{color:var(--text-dim);text-decoration:none}
+  .lang-switch a:hover{color:var(--text)}
+  .lang-switch .cur{color:var(--text);font-weight:700}
+  .lang-switch .sep{opacity:.4}
+  .main-nav{mask-image:linear-gradient(90deg,#000 93%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 93%,transparent)}
 </style>

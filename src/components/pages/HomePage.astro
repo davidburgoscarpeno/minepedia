@@ -1,0 +1,276 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import commands from '../../data/commands.json';
+import recipes from '../../data/recipes.json';
+import enchantments from '../../data/enchantments.json';
+import mobs from '../../data/mobs.json';
+import biomes from '../../data/biomes.json';
+import guides from '../../data/guides.json';
+import GameShot from '../../components/GameShot.astro';
+import shots from '../../data/screenshots.json';
+import Icon from '../../components/Icon.astro';
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const BIOME_SHOTS: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'WebSite',
+  name: 'Minepedia', url: 'https://minepedia.app/',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://minepedia.app/search/?q={search_term_string}' },
+    'query-input': 'required name=search_term_string'
+  }
+};
+const catsEn = [
+  { href: '/guides/', name: 'Guides', desc: 'How to craft, find, tame, build and more', icon: 'book', count: '16' },
+  { href: '/recipes/', name: 'Crafting Recipes', desc: 'Every recipe with visual grids and ingredients', icon: 'grid', count: '40' },
+  { href: '/commands/', name: 'Commands', desc: 'Syntax and examples for every command', icon: 'term', count: '30' },
+  { href: '/enchantments/', name: 'Enchantments', desc: 'Max levels, uses and incompatibilities', icon: 'star', count: '20' },
+  { href: '/potions/', name: 'Potions', desc: 'Every brewing recipe and effect', icon: 'flask', count: '19' },
+  { href: '/mobs/', name: 'Mobs', desc: 'Drops, spawning and behavior', icon: 'sword', count: '41' },
+  { href: '/tools/', name: 'Tools & Calculators', desc: 'Skin maker, nether coords, XP, ore finder', icon: 'wrench', count: '4' },
+  { href: '/villagers/', name: 'Villager Trades', desc: 'All professions, workstations and trade tables', icon: 'gem', count: '13' },
+  { href: '/items/', name: 'Items', desc: 'How to get and farm key items', icon: 'cube', count: '20' },
+  { href: '/farms/', name: 'Farms', desc: 'Iron, XP, gold and raid farms step by step', icon: 'wheat', count: '9' },
+  { href: '/biomes/', name: 'Biomes', desc: 'Resources, mobs and structures per biome', icon: 'mountain', count: '22' },
+  { href: '/structures/', name: 'Structures', desc: 'Villages, strongholds, bastions and more', icon: 'tower', count: '12' },
+  { href: '/seeds/', name: 'Seeds', desc: 'How seeds work + famous verified seeds', icon: 'sprout', count: '3' },
+  { href: '/versions/', name: 'Versions', desc: 'What every update added, 1.20 to 26.3', icon: 'clock', count: '6' },
+  { href: '/mods/', name: 'Mods', desc: 'Install guides, essential mods and shaders', icon: 'puzzle', count: '5' },
+  { href: '/servers/', name: 'Servers', desc: 'Make, host and manage your own server', icon: 'server', count: '4' },
+  { href: '/skins/', name: 'Skins', desc: 'Original skins to download or edit online', icon: 'shirt', count: '16' },
+  { href: '/merch/', name: 'Merch', desc: 'Curated Minecraft LEGO, plush, lamps, books and more', icon: 'bag', count: '10' }
+];
+const catsEs = [
+  { href: '/guides/', name: 'Guías', desc: 'Cómo craftear, encontrar, domar, construir y más', icon: 'book', count: '16' },
+  { href: '/es/recipes/', name: 'Recetas de crafteo', desc: 'Todas las recetas con parrillas visuales e ingredientes', icon: 'grid', count: '40' },
+  { href: '/es/commands/', name: 'Comandos', desc: 'Sintaxis y ejemplos de cada comando', icon: 'term', count: '30' },
+  { href: '/es/enchantments/', name: 'Encantamientos', desc: 'Niveles máximos, usos e incompatibilidades', icon: 'star', count: '20' },
+  { href: '/potions/', name: 'Pociones', desc: 'Todas las recetas de alquimia y efectos', icon: 'flask', count: '19' },
+  { href: '/es/mobs/', name: 'Mobs', desc: 'Drops, aparición y comportamiento', icon: 'sword', count: '41' },
+  { href: '/tools/', name: 'Herramientas y calculadoras', desc: 'Editor de skins, coordenadas del Nether, XP, buscador de minerales', icon: 'wrench', count: '4' },
+  { href: '/villagers/', name: 'Comercio de aldeanos', desc: 'Todas las profesiones, puestos de trabajo y tablas de trueque', icon: 'gem', count: '13' },
+  { href: '/items/', name: 'Objetos', desc: 'Cómo conseguir y farmear los objetos clave', icon: 'cube', count: '20' },
+  { href: '/farms/', name: 'Granjas', desc: 'Granjas de hierro, XP, oro e incursiones paso a paso', icon: 'wheat', count: '9' },
+  { href: '/es/biomes/', name: 'Biomas', desc: 'Recursos, mobs y estructuras por bioma', icon: 'mountain', count: '22' },
+  { href: '/structures/', name: 'Estructuras', desc: 'Aldeas, fortalezas, bastiones y más', icon: 'tower', count: '12' },
+  { href: '/seeds/', name: 'Semillas', desc: 'Cómo funcionan las semillas + semillas famosas verificadas', icon: 'sprout', count: '3' },
+  { href: '/versions/', name: 'Versiones', desc: 'Qué añadió cada actualización, de 1.20 a 26.3', icon: 'clock', count: '6' },
+  { href: '/mods/', name: 'Mods', desc: 'Guías de instalación, mods esenciales y shaders', icon: 'puzzle', count: '5' },
+  { href: '/servers/', name: 'Servidores', desc: 'Crea, aloja y gestiona tu propio servidor', icon: 'server', count: '4' },
+  { href: '/es/skins/', name: 'Skins', desc: 'Skins originales para descargar o editar online', icon: 'shirt', count: '16' },
+  { href: '/es/merch/', name: 'Merch', desc: 'Selección de LEGO, peluches, lámparas, libros y más de Minecraft', icon: 'bag', count: '10' }
+];
+const cats = lang === 'es' ? catsEs : catsEn;
+const S = lang === 'es' ? {
+  title: 'Minepedia',
+  description: 'Minepedia: guías, recetas de crafteo, comandos, encantamientos, mobs, semillas y herramientas de Minecraft - rápido, preciso y siempre al día.',
+  h1: 'La base de conocimiento de Minecraft',
+  heroP: 'Guías, recetas, comandos, encantamientos, mobs, biomas, skins y herramientas. Con precisión para Java y Bedrock.',
+  placeholder: 'Busca objetos, mobs, comandos, guías...',
+  canonical: '/es/', alt: '/'
+} : {
+  title: 'Minepedia',
+  description: 'Minepedia: Minecraft guides, crafting recipes, commands, enchantments, mobs, seeds and tools - fast, accurate and always up to date.',
+  h1: 'The Minecraft knowledge base',
+  heroP: 'Guides, recipes, commands, enchantments, mobs, biomes, skins and tools. Accurate for Java and Bedrock.',
+  placeholder: 'Search items, mobs, commands, guides...',
+  canonical: '/', alt: '/es/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd}>
+  <section class="herov2">
+    <img class="herov2-bg" src="/screenshots/hero-obsidian-sunset.webp?v=20260922" alt="Real Minecraft gameplay in 4K: a diagonal obsidian bridge over the ocean at sunset" width="2560" height="1440" loading="eager" />
+    <div class="herov2-inner container">
+      <h1>{S.h1}</h1>
+      <p>{S.heroP}</p>
+      <SearchBox autofocus={true} placeholder={S.placeholder} lang={lang} />
+      <p class="herov2-credit">Screenshot: <a href="https://commons.wikimedia.org/wiki/File:Diagonal_obsidian_bridge_over_water.png">KittyKot</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a></p>
+    </div>
+  </section>
+  <div class="container">
+    <section class="section">
+      <div class="skintool">
+        <div class="skintool-copy">
+          {lang === 'es' ? (
+            <>
+              <h2>Crea tu propia skin de Minecraft</h2>
+              <p>Pinta una skin en tu navegador con el Skin Maker gratuito, o elige uno de nuestros 102 diseños originales y edita cada píxel.</p>
+              <div class="cta-row"><a class="cta primary" href="/tools/skin-maker/">Abrir el Skin Maker</a><a class="cta" href="/es/skins/">Ver la galería de skins</a></div>
+            </>
+          ) : (
+            <>
+              <h2>Make your own Minecraft skin</h2>
+              <p>Paint a skin right in your browser with the free Skin Maker, or grab one of our 102 original designs and edit every pixel.</p>
+              <div class="cta-row"><a class="cta primary" href="/tools/skin-maker/">Open the Skin Maker</a><a class="cta" href="/skins/">Browse the skin gallery</a></div>
+            </>
+          )}
+        </div>
+        <div class="skintool-prev">
+          {['knight','ninja','astronaut','wizard'].map(sl => (
+            <a href={`/skins/${sl}/`} class="miniskin"><canvas class="skinview" data-src={`/skins/${sl}.png`} data-view="front" data-scale="4" width="64" height="128"></canvas></a>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Guías populares</h2>
+          <p class="sub">Respuestas paso a paso a las preguntas más buscadas.</p>
+        </>
+      ) : (
+        <>
+          <h2>Popular guides</h2>
+          <p class="sub">Step-by-step answers to the most searched questions.</p>
+        </>
+      )}
+      <div class="grid-cards">
+        {guides.slice(0, 6).map(g => (
+          <a class="card" href={`/guides/${g.slug}/`}><h3>{g.name}</h3><p>{g.quickAnswer.split('.')[0]}.</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Base de datos de mobs</h2>
+          <p class="sub">Drops, aparición y estrategias: los 41 mobs con pixel art dibujado a mano.</p>
+        </>
+      ) : (
+        <>
+          <h2>Mob database</h2>
+          <p class="sub">Drops, spawning and strategies - all 41 mobs with hand-drawn pixel art.</p>
+        </>
+      )}
+      <div class="mob-strip">
+        {['creeper','enderman','warden','axolotl','ender-dragon','fox','cat','allay'].map(slug => { const m = mobs.find(x => x.slug === slug); return (
+          <a class="mob-chip" href={`/mobs/${slug}/`}><img src={`/mobs/${slug}.svg`} alt="" width="40" height="40" style="image-rendering:pixelated" /><span>{m.name}</span></a>
+        ); })}
+        <a class="mob-chip more" href={lang === 'es' ? '/es/mobs/' : '/mobs/'}>{lang === 'es' ? '+33 más' : '+33 more'}</a>
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Biomas</h2>
+          <p class="sub">Recursos, mobs y estructuras de cada bioma, todos con su propia ilustración.</p>
+        </>
+      ) : (
+        <>
+          <h2>Biomes</h2>
+          <p class="sub">Resources, mobs and structures for every biome - each with its own artwork.</p>
+        </>
+      )}
+      <div class="biome-strip">
+        {['ice-spikes','lush-caves','jungle','mushroom-fields','windswept-hills','taiga'].map(sl => {
+          const shotId = BIOME_SHOTS[sl];
+          const sh = shotId && shots.find(x => x.id === shotId);
+          const src = sh ? '/screenshots/' + sh.file + '?v=20260922' : `/biome-art/${sl}.png`;
+          return (
+          <a class="biome-chip" href={`/biomes/${sl}/`}><img src={src} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" style={sh ? '' : 'image-rendering:pixelated'} /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
+          );
+        })}
+      </div>
+    </section>
+    <section class="section">
+      <h2>{lang === 'es' ? 'Explora todo' : 'Browse everything'}</h2>
+      <div class="grid-cards">
+        {cats.map(cat => (
+          <a class="card" href={cat.href}>
+            <span class="count">{cat.count}</span>
+            <div class="icon"><Icon name={cat.icon} /></div>
+            <h3>{cat.name}</h3><p>{cat.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Últimas recetas de crafteo</h2>
+          <p class="sub">Recetas paso a paso con materiales y usos.</p>
+        </>
+      ) : (
+        <>
+          <h2>Latest crafting recipes</h2>
+          <p class="sub">Step-by-step recipes with materials and uses.</p>
+        </>
+      )}
+      <div class="grid-cards">
+        {recipes.slice(0, 6).map(r => (
+          <a class="card" href={`/recipes/${r.slug}/`}><img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Encantamientos</h2>
+          <p class="sub">Qué hacen y cómo conseguirlos.</p>
+        </>
+      ) : (
+        <>
+          <h2>Enchantments</h2>
+          <p class="sub">What they do and how to get them.</p>
+        </>
+      )}
+      <div class="grid-cards">
+        {enchantments.slice(0, 6).map(e => (
+          <a class="card" href={`/enchantments/${e.slug}/`}><img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
+        ))}
+      </div>
+    </section>
+    <section class="section">
+      {lang === 'es' ? (
+        <>
+          <h2>Comandos populares</h2>
+          <p class="sub">Los comandos que más buscan los jugadores.</p>
+        </>
+      ) : (
+        <>
+          <h2>Popular commands</h2>
+          <p class="sub">The commands players search for most.</p>
+        </>
+      )}
+      <div class="grid-cards">
+        {commands.slice(0, 6).map(c => (
+          <a class="card" href={`/commands/${c.slug}/`}><img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
+        ))}
+      </div>
+    </section>
+    <GameShot id="biomes-forest" />
+  </div>
+  <style>
+    .herov2{position:relative;overflow:hidden;border-bottom:1px solid #232a35}
+    .herov2-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .herov2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,14,.25) 0%,rgba(8,10,14,.55) 55%,rgba(8,10,14,.92) 100%)}
+    .herov2-inner{position:relative;z-index:1;padding:120px 20px 56px;text-align:center}
+    .herov2-inner h1{text-shadow:0 2px 18px rgba(0,0,0,.7)}
+    .herov2-inner p{text-shadow:0 1px 10px rgba(0,0,0,.7)}
+    .herov2-credit{font-size:11px;opacity:.75;margin:14px 0 0;text-shadow:0 1px 6px rgba(0,0,0,.8)}
+    .herov2-credit a{color:inherit;text-decoration:underline}
+    .skintool{display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:linear-gradient(135deg,#17202b,#14181f);border:1px solid #2c3542;border-radius:16px;padding:26px}
+    .skintool-copy h2{margin-top:0}
+    .skintool-copy p{color:#aeb8c4;max-width:46ch}
+    .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .cta{padding:10px 16px;border-radius:10px;border:1px solid #2c3542;background:#1c222c;color:#e6ebf1;text-decoration:none;font-weight:600}
+    .cta:hover{border-color:#3aa655}
+    .cta.primary{background:#3aa655;border-color:#3aa655;color:#0b0e12}
+    .skintool-prev{display:flex;gap:12px;flex-wrap:wrap}
+    .miniskin{background:#0d1015;border:1px solid #232a35;border-radius:10px;padding:8px;display:block}
+    .miniskin canvas{image-rendering:pixelated;width:64px;height:128px;display:block}
+    .mob-strip{display:flex;gap:10px;flex-wrap:wrap}
+    .mob-chip{display:flex;align-items:center;gap:10px;background:#14181f;border:1px solid #232a35;border-radius:12px;padding:8px 14px 8px 8px;color:#e6ebf1;text-decoration:none;font-size:14px;font-weight:600}
+    .mob-chip:hover{border-color:#3aa655}
+    .mob-chip img{background:#0d1015;border-radius:8px}
+    .mob-chip.more{justify-content:center;padding:8px 16px;color:#3aa655}
+    .biome-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+    .biome-chip{background:#14181f;border:1px solid #232a35;border-radius:12px;overflow:hidden;color:#e6ebf1;text-decoration:none}
+    .biome-chip:hover{border-color:#3aa655}
+    .biome-chip img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+    .biome-chip span{display:block;padding:8px 10px;font-size:13px;font-weight:600}
+  </style>
+  <script src="/js/skin-preview.js" is:inline></script>
+</Base>
