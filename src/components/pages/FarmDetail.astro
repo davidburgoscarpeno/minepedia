@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import farms from '../../data/farms.json';
+import farmsEs from '../../data/farms-es.json';
+
+interface Props { f: any; lang: 'en' | 'es'; }
+const { f, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (farmsEs as any)[f.slug] : null;
+const produces = ov?.produces ?? f.produces;
+const difficulty = ov?.difficulty ?? f.difficulty;
+const quickAnswer = ov?.quickAnswer ?? f.quickAnswer;
+const mechanics = ov?.mechanics ?? f.mechanics;
+const materials = ov?.materials ?? f.materials;
+const steps = ov?.steps ?? f.steps;
+const rates = ov?.rates ?? f.rates;
+const tips = ov?.tips ?? f.tips;
+
+const editionLabel = f.editions === 'both' ? 'Java + Bedrock' : (isES ? 'Diseño distinto por edición' : 'Different design per edition');
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Granjas', crumbHref: '/es/farms/',
+  producesL: 'Produce:', quick: 'Respuesta rápida:',
+  howH: 'Cómo funciona', materialsH: 'Materiales', stepsH: 'Pasos de construcción', ratesH: 'Producción', tipsH: 'Consejos',
+  back: '\u2190 Todas las granjas',
+  title: `${f.name} (cómo construirla)`,
+  desc: `${f.name} en Minecraft: ${quickAnswer.slice(0, 150)} Materiales, pasos, producción y notas Java/Bedrock.`,
+  canonical: `/es/farms/${f.slug}/`, alt: `/farms/${f.slug}/`,
+  howtoName: `Cómo construir una ${f.name} en Minecraft`,
+  faq1: `\u00bfC\u00f3mo se construye una ${f.name} en Minecraft?`,
+  faq2: `\u00bfEsta granja funciona en Bedrock?`,
+  faq2a: f.editions === 'both' ? 'S\u00ed, el mismo dise\u00f1o funciona en Java y Bedrock Edition.' : 'Java y Bedrock necesitan dise\u00f1os distintos para esta granja: mira los detalles por edici\u00f3n en la secci\u00f3n de mec\u00e1nica.'
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Farms', crumbHref: '/farms/',
+  producesL: 'Produces:', quick: 'Quick answer:',
+  howH: 'How it works', materialsH: 'Materials', stepsH: 'Build steps', ratesH: 'Rates', tipsH: 'Tips',
+  back: '\u2190 All farms',
+  title: `${f.name} (How to Build)`,
+  desc: `Minecraft ${f.name.toLowerCase()}: ${quickAnswer.slice(0, 150)} Materials, steps, rates and Java/Bedrock notes.`,
+  canonical: `/farms/${f.slug}/`, alt: `/es/farms/${f.slug}/`,
+  howtoName: `How to build a ${f.name} in Minecraft`,
+  faq1: `How do you build a ${f.name.toLowerCase()} in Minecraft?`,
+  faq2: `Does this ${f.name.toLowerCase()} work on Bedrock?`,
+  faq2a: f.editions === 'both' ? 'Yes, the same design works in Java and Bedrock Edition.' : 'Java and Bedrock need different designs for this farm - see the mechanics section for the per-edition details.'
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'HowTo',
+    name: L.howtoName,
+    description: quickAnswer,
+    step: steps.map((s: string, i: number) => ({ '@type': 'HowToStep', position: i + 1, text: s }))
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: f.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1,
+        acceptedAnswer: { '@type': 'Answer', text: quickAnswer } },
+      { '@type': 'Question', name: L.faq2,
+        acceptedAnswer: { '@type': 'Answer', text: L.faq2a } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article" lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {f.name}</nav>
+    <h1>{f.name}</h1>
+    <p><span class="badge">{difficulty}</span> <span class="badge">{editionLabel}</span></p>
+    <p><strong>{L.producesL}</strong> {produces}</p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {quickAnswer}</div>
+    <h2>{L.howH}</h2>
+    <ul>{mechanics.map((m: string) => <li>{m}</li>)}</ul>
+    <h2>{L.materialsH}</h2>
+    <ul>{materials.map((m: string) => <li>{m}</li>)}</ul>
+    <h2>{L.stepsH}</h2>
+    <ol>{steps.map((s: string) => <li>{s}</li>)}</ol>
+    <h2>{L.ratesH}</h2>
+    <p>{rates}</p>
+    <h2>{L.tipsH}</h2>
+    <ul>{tips.map((t: string) => <li>{t}</li>)}</ul>
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

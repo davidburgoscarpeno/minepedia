@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import farms from '../../data/farms.json';
+import farmsEs from '../../data/farms-es.json';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+const prodOf = (f: any) => isES && (farmsEs as any)[f.slug] ? (farmsEs as any)[f.slug].produces : f.produces;
+
+const S = isES ? {
+  title: 'Granjas de Minecraft',
+  description: 'Las mejores granjas de Minecraft con construcciones paso a paso: granja de hierro, granja de mobs XP, caña de azúcar, granja de oro y raid farm. Diferencias Java y Bedrock explicadas.',
+  h1: 'Granjas de Minecraft',
+  sub: `${farms.length} granjas con materiales, construcción paso a paso y notas honestas de Java/Bedrock.`,
+  crumb: 'Granjas', home: 'Inicio',
+  placeholder: 'Busca granjas, mobs, objetos...',
+  notice: '<strong>Lee esto primero:</strong> la mayoría de los diseños de granjas en internet están hechos para Java Edition y sencillamente no funcionan en Bedrock (consola, móvil, Windows 10/11). Cada página de granja aquí dice claramente en qué edición funciona. Ajusta siempre el diseño a tu edición y versión del juego.',
+  cardHref: (slug: string) => `/es/farms/${slug}/`,
+  canonical: '/es/farms/', alt: '/farms/'
+} : {
+  title: 'Minecraft Farms',
+  description: 'The best Minecraft farms with step-by-step builds: iron farm, mob XP farm, sugarcane, gold farm and raid farm. Java and Bedrock differences explained.',
+  h1: 'Minecraft Farms',
+  sub: `${farms.length} farms with materials, step-by-step builds and honest Java/Bedrock notes.`,
+  crumb: 'Farms', home: 'Home',
+  placeholder: 'Search farms, mobs, items...',
+  notice: '<strong>Read this first:</strong> most farm designs online are built for Java Edition and simply do not work on Bedrock (console, mobile, Windows 10/11). Every farm page here says clearly which edition it works on. Always match a design to your edition and game version.',
+  cardHref: (slug: string) => `/farms/${slug}/`,
+  canonical: '/farms/', alt: '/es/farms/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} />
+    <div class="grid-cards">
+      {farms.map(f => (
+        <a class="card" href={S.cardHref(f.slug)}>
+          <img class="pixel-icon" src={`/item-icons/${f.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{f.name}</h3>
+          <p>{prodOf(f)}</p>
+        </a>
+      ))}
+    </div>
+    <div class="quick-answer" style="margin-top:24px" set:html={S.notice}></div>
+  </div>
+</Base>

@@ -1,23 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';
-import SearchBox from '../../components/SearchBox.astro';
-import farms from '../../data/farms.json';
+import FarmsIndex from '../../components/pages/FarmsIndex.astro';
 ---
-<Base title="Minecraft Farms" description="The best Minecraft farms with step-by-step builds: iron farm, mob XP farm, sugarcane, gold farm and raid farm. Java and Bedrock differences explained." canonicalPath="/farms/">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / Farms</nav>
-    <h1>Minecraft Farms</h1>
-    <p class="sub">{farms.length} farms with materials, step-by-step builds and honest Java/Bedrock notes.</p>
-    <SearchBox placeholder="Search farms, mobs, items..." />
-    <div class="grid-cards">
-      {farms.map(f => (
-        <a class="card" href={`/farms/${f.slug}/`}>
-          <img class="pixel-icon" src={`/item-icons/${f.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
-          <h3>{f.name}</h3>
-          <p>{f.produces}</p>
-        </a>
-      ))}
-    </div>
-    <div class="quick-answer" style="margin-top:24px"><strong>Read this first:</strong> most farm designs online are built for Java Edition and simply do not work on Bedrock (console, mobile, Windows 10/11). Every farm page here says clearly which edition it works on. Always match a design to your edition and game version.</div>
-  </div>
-</Base>
+<FarmsIndex lang="en" />

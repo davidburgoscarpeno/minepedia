@@ -1,0 +1,273 @@
+{
+ "iron-farm": {
+  "produces": "Iron ingots (3-5 por golem) y amapolas",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Una granja de hierro genera iron golems a propósito, los mata con lava y recoge el hierro con tolvas. Los diseños son completamente distintos por edición: Java usa 3 aldeanos asustados por un zombi; Bedrock necesita 10 aldeanos, 20 camas y una plataforma de spawn grande.",
+  "mechanics": [
+   "Java Edition: un aldeano que ha dormido y trabajado hace poco puede generar un iron golem cuando no detecta ninguno cerca. Los aldeanos asustados (que ven un zombi) generan golems mucho más rápido. Los golems aparecen en una caja de 16x12x16 alrededor del centro de la aldea.",
+   "Bedrock Edition: los iron golems aparecen cuando una aldea tiene al menos 10 aldeanos vinculados a 20 camas, y el 75% de los aldeanos ha trabajado en su bloque de trabajo ese día. Los golems aparecen en un área de 16x6x16 alrededor del centro de la aldea.",
+   "En ambas ediciones el sistema de muerte es el mismo: el agua empuja al golem a cuchillas de lava que lo matan sin destruir los drops, y las tolvas alimentan los cofres."
+  ],
+  "materials": [
+   "3 aldeanos + 3 camas + 3 bloques de trabajo (Java) o 10 aldeanos + 20 camas (Bedrock)",
+   "1 zombi en una barca o minecart con name tag (solo Java)",
+   "~200 bloques de construcción para las celdas y la plataforma",
+   "Cubos de agua, 4-8 tolvas, 1-2 cofres, cubo de lava, carteles o trampillas para sujetar la lava"
+  ],
+  "steps": [
+   "Java: construye una plataforma de spawn (al menos 8x8) 6+ bloques por encima de los aldeanos, con canales de agua fluyendo hacia un agujero central de lava.",
+   "Java: coloca 3 aldeanos en celdas debajo con sus camas y bloques de trabajo, y posiciona el zombi de modo que los tres puedan verlo pero no pueda alcanzarlos. Ponle una name tag al zombi para que nunca desaparezca.",
+   "Bedrock: construye un suelo de unos 20x20 con 20 camas, trae 10 aldeanos con bloques de trabajo, y haz que la plataforma donde aparecen los golems sea una plataforma separada con el mismo sistema de lava y tolvas.",
+   "Ambas: los golems aparecen en la plataforma, el agua los empuja a la lava y el hierro cae en las tolvas. Comprueba que ninguna cueva o suelo cercano a la plataforma pueda robar spawns.",
+   "Ambas: construye al menos 8 bloques sobre el suelo y a 80+ bloques de cualquier aldea real para que los centros no se fusionen."
+  ],
+  "rates": "Un diseño sencillo de Java con 3 aldeanos produce unas 300-400 lingotes de hierro por hora. Los diseños grandes de varios módulos pasan de 1.000/hora. Las tasas de Bedrock son menores para el mismo tamaño.",
+  "tips": [
+   "Mantén cada bloque válido para spawn fuera de la plataforma con losas o cubierto de hojas para que los golems solo puedan aparecer en el agua.",
+   "El zombi debe ver a los aldeanos a través de un hueco: las trampillas funcionan bien como línea de visión.",
+   "Si las tasas caen a cero en Java, probablemente haya un golem atascado en algún sitio: los aldeanos dejan de generar mientras detectan uno cerca."
+  ]
+ },
+ "mob-farm": {
+  "produces": "Gunpowder, huesos, string, flechas, rotten flesh, y XP si matas a mano",
+  "difficulty": "Principiante",
+  "quickAnswer": "Una granja de mobs es una caja oscura donde aparecen mobs hostiles, el agua los arrastra a un conducto de caída y aterrizan a tus pies con medio corazón: un puñetazo cada uno y el XP y los drops son tuyos. Constrúyela alta sobre un océano para que las cuevas no roben los spawns.",
+  "mechanics": [
+   "Los mobs hostiles aparecen a nivel de luz 0 sobre bloques sólidos, en una esfera alrededor del jugador: entre 24 y 128 bloques en Java.",
+   "Las tasas dependen por completo de cuántos otros puntos oscuros haya cerca: iluminar las cuevas de abajo o construir a 100+ bloques sobre la superficie del océano es lo que hace rápida una granja.",
+   "La matemática del daño de caída: los mobs reciben 1 de daño por bloque tras los primeros 3, así que una caída de 22 bloques deja a zombis y esqueletos (20 HP) a medio corazón. Dale a las arañas un conducto distinto o treparán.",
+   "Las tasas de Bedrock son mucho menores que las de Java para el mismo diseño, y la simulation distance limita el área de spawn."
+  ],
+  "materials": [
+   "~500-1500 bloques sólidos para las plataformas y el conducto (cobblestone vale)",
+   "Losas, trampillas y cubos de agua para el sistema de arrastre",
+   "4-8 tolvas y cofres para la recolección",
+   "Antorchas para iluminar el exterior cuando termines"
+  ],
+  "steps": [
+   "Elige un bioma de océano y sube en columna: construye el punto de recolección al menos 100 bloques sobre el agua para que la granja sea el único espacio válido de spawn al alcance.",
+   "Construye 2-4 plataformas de spawn (de unos 8x8 cada una) con techos de 2 bloques para que no aparezcan endermen, con agua en los bordes empujando hacia el agujero central.",
+   "Conducto de caída: 22 bloques para matar de un golpe, o 24+ para muertes automáticas si solo quieres drops (sin XP).",
+   "Ponte abajo con una espada Looting III: un golpe mata a cada mob y multiplica los drops.",
+   "Ilumina el techo y toda superficie exterior al terminar para que los mobs solo aparezcan dentro."
+  ],
+  "rates": "Una torre básica de un jugador da unos miles de objetos por hora en Java bien posicionada. Los diseños de Bedrock producen menos: espera una fracción de las tasas de Java.",
+  "tips": [
+   "El punto de AFK importa: en Java, colócate de modo que las plataformas estén a 24-40 bloques de ti; más cerca de 24 bloques y no aparece nada.",
+   "Añade un techo de losas: los phantoms aparecen sobre ti si haces AFK al aire libre durante días.",
+   "¿Solo creepers? Construye con trampillas en el techo: los creepers son más bajos que zombis y esqueletos."
+  ]
+ },
+ "sugarcane-farm": {
+  "produces": "Sugar cane (paper para libros, cohetes y comercio)",
+  "difficulty": "Principiante",
+  "quickAnswer": "Planta sugar cane junto al agua, coloca un pistón mirándola a altura 3 y un observer vigilando la parte superior: cuando la caña crece a 3 bloques, el observer dispara el pistón y la caña cae a corrientes de agua que llevan a tolvas. Totalmente automática, funciona en ambas ediciones.",
+  "mechanics": [
+   "La sugar cane solo crece en dirt, sand, grass, podzol o bloques similares directamente junto al agua, hasta 3 bloques de alto.",
+   "El crecimiento depende de ticks aleatorios y es idéntico en Java y Bedrock: el mismo diseño funciona en ambas.",
+   "Un observer mirando a la caña detecta el crecimiento a altura 3 y pulsa el pistón de debajo, rompiendo los dos bloques superiores mientras la base sigue plantada.",
+   "La caña rota cae a canales de agua que alimentan tolvas y cofres."
+  ],
+  "materials": [
+   "Por módulo: 1 observer, 1 pistón, 1-3 bloques de construcción, 1 sugar cane, fuente de agua",
+   "Tolvas + cofre para la recolección (1 tolva por 2-4 módulos es suficiente)",
+   "Bloques sólidos para cerrar la granja y que la caña no salga volando"
+  ],
+  "steps": [
+   "Cava una zanja para la línea de agua y planta sugar cane a ambos lados.",
+   "A altura 2 detrás de la caña, coloca una fila de pistones mirando a la caña; a altura 3 coloca observers mirando a la caña, tocando la espalda de cada pistón.",
+   "Conecta los observers a los pistones (el observer mira a la caña y su salida toca el pistón: no hace falta redstone dust).",
+   "Añade una corriente de agua o una línea de tolvas bajo la caña para recoger los drops en un cofre.",
+   "Escala repitiendo módulos lado a lado y apilando pisos encima."
+  ],
+  "rates": "Cada planta crece a altura de cosecha cada pocos minutos de media; un módulo de 20 cañas produce aproximadamente un stack por hora. Apila pisos para volumen de verdad.",
+  "tips": [
+   "El bone meal no funciona en la sugar cane en Java (sí en Bedrock): espera al crecimiento natural en Java.",
+   "Lleva la caña a un setup con fletchers cerca: paper para librarians, cohetes para las elytra, azúcar para tartas.",
+   "Cubre el agua con lily pads o botones si los objetos se atascan."
+  ]
+ },
+ "gold-xp-farm": {
+  "produces": "Gold nuggets, gold ingots, rotten flesh, y cantidades enormes de XP",
+  "difficulty": "Avanzada",
+  "quickAnswer": "En Java, los zombified piglins aparecen dentro de marcos de portal al Nether grandes: construye portales gigantes, canaliza los piglins a una zona de muerte y blande tu espada para oro y XP sin fin. En Bedrock los portales no generan piglins; usa una granja de plataformas de zombified piglins en el nether wastes con un trident killer.",
+  "mechanics": [
+   "Java: cada bloque de portal al Nether activo puede generar un zombified piglin a nivel de luz 11 o menos; portales más grandes y más marcos significan más spawns. Muchos diseños apilan portales sobre el techo de bedrock del Nether (límite de construcción) para tasas máximas.",
+   "Bedrock: los zombified piglins aparecen de forma natural por todo el nether wastes; las granjas usan grandes plataformas de spawn a Y baja con cebo de turtle egg o conductos de caída, y un trident killer para XP en AFK.",
+   "Trident killer (Bedrock, y funciona en Java): unos pistones empujan un tridente lanzado de un lado a otro, matando mobs mientras te atribuyen la muerte: XP completo en AFK."
+  ],
+  "materials": [
+   "Java: obsidiana para los marcos de portal más grandes que puedas construir (un portal máximo es 23x23 por dentro) más flint and steel",
+   "Recolección: turtle egg (cebo), magma blocks o daño de caída, tolvas y cofres",
+   "Espada Looting III para matar a mano; un tridente con Loyalty para el trident killer",
+   "Variante Bedrock: ~1000 bloques para plataformas de spawn y el trident killer (pistones, observers, palanca)"
+  ],
+  "steps": [
+   "Java: construye uno o varios portales de tamaño máximo en el Nether, idealmente en el techo del Nether (por encima de Y=128) donde ningún otro spawn compita.",
+   "Atrae o arrastra a los piglins a una cámara de muerte: van hacia los turtle eggs y caen al punto de recolección.",
+   "Mata con un barrido de espada Looting III para gold nuggets (fúndelos en lingotes) más XP, o monta un trident killer para modo AFK.",
+   "Bedrock: construye grandes plataformas en una zona de nether wastes alrededor de Y=30-40, deja caer a los piglins 22+ bloques hasta un trident killer y haz AFK cerca.",
+   "Guarda la rotten flesh para tradear con clerics: 32 carnes por esmeralda convierten el subproducto en esmeraldas."
+  ],
+  "rates": "Las granjas de Java basadas en portales están entre las fuentes de XP más rápidas del juego: nivel 30 en un par de minutos de espadazos, más cofres de oro por hora. Las granjas de plataformas de Bedrock son más lentas pero siguen siendo XP de primer nivel.",
+  "tips": [
+   "Ten en cuenta la gestión de la ira: golpear a un piglin enfada al grupo, que es exactamente lo que quieres en el punto de muerte y en ningún otro sitio.",
+   "El oro alimenta granjas de bartering (piglins por perlas, quartz, obsidiana) y manzanas/zanahorias doradas.",
+   "En Java, construir en el techo del Nether requiere romper bedrock o subir con ender pearls: comprueba los métodos actuales para tu versión."
+  ]
+ },
+ "raid-farm": {
+  "produces": "Totems of undying, esmeraldas, libros encantados, redstone, glowstone, monturas",
+  "difficulty": "Avanzada",
+  "quickAnswer": "Una raid farm provoca raids de Bad Omen en un pillager outpost a propósito, canaliza cada oleada a una zona de muerte y cosecha los drops: totems de los evokers, esmeraldas de todos, y botín de brujas encima. Es la granja con más botín por metro cuadrado del juego, y una de las más complejas de construir.",
+  "mechanics": [
+   "Mata a un capitán pillager (el del estandarte) para conseguir Bad Omen: desde la 1.21 los capitanes sueltan una Ominous Bottle que te bebes cuando estés listo, lo que facilita mucho el ritmo de la granja.",
+   "Entrar en una aldea con Bad Omen inicia una raid: oleadas de pillagers, vindicators, evokers, brujas y ravagers que escalan con la dificultad y el nivel de Bad Omen.",
+   "Los diseños definen una 'aldea' artificial (camas + bloques de trabajo) cerca del outpost para que las raids se disparen donde quieres, y luego empujan a los mobs de la raid a cuchillas de lava, daño de caída o un trident killer.",
+   "Los mobs de raid sueltan esmeraldas y libros encantados (vindicators/pillagers), totems (evokers, siempre 1), redstone/glowstone/gunpowder (brujas) y monturas (ravagers)."
+  ],
+  "materials": [
+   "Un pillager outpost con los alrededores a prueba de spawns",
+   "Celdas de aldeanos (2-3 aldeanos con camas y bloques de trabajo) para anclar la ubicación de la raid",
+   "Corrientes de agua, lava, carteles, ~1000 bloques de construcción, tolvas y almacenamiento para la salida",
+   "Trident killer para el modo XP en AFK (opcional)"
+  ],
+  "steps": [
+   "Encuentra un pillager outpost y aplana o enloseta todo alrededor excepto los puntos donde quieres que aparezcan los capitanes.",
+   "Construye las celdas de la aldea artificial a la distancia correcta para que la raid se dispare en el outpost pero los mobs aparezcan en tu embudo: esta distancia depende de la edición, así que sigue un diseño hecho para tu versión exacta.",
+   "Bébete una Ominous Bottle en el outpost, camina hasta la marca de la aldea para iniciar la raid y deja que los canales de agua entreguen cada oleada a la zona de muerte.",
+   "Mata a los evokers antes de que invoquen vexes: los totems son el premio. Looting III multiplica las esmeraldas.",
+   "Repite: las raid farms encadenan raids sin parar una vez ajustado el ritmo."
+  ],
+  "rates": "Los mejores diseños de Java producen miles de esmeraldas por hora más stacks de totems. Incluso las granjas de outpost sencillas superan a casi cualquier otra fuente de botín.",
+  "tips": [
+   "El nivel de Bad Omen fija el número de oleadas: las Ominous Bottles de nivel 5 (de capitanes de más nivel) dan las raids más largas.",
+   "Mantén a los aldeanos inalcanzables: un ravager en la celda termina la granja hasta que la repongas.",
+   "Los diseños se rompen entre versiones más que ninguna otra granja: verifica que el diseño coincide exactamente con tu versión, y ten en cuenta que el spawn de raids funciona de forma completamente distinta en Java y Bedrock."
+  ]
+ },
+ "witch-farm": {
+  "produces": "Gunpowder, glowstone dust, redstone, glass bottles, sticks, azúcar y spider eyes (4-8 objetos por bruja)",
+  "difficulty": "Intermedia",
+  "quickAnswer": "La cabaña de bruja es el único sitio donde las brujas aparecen a demanda: en Java, las brujas aparecen dentro del bounding box de la cabaña a luz baja, así que cubres toda la caja con suelos, canalizas las brujas a un punto de muerte y saqueas sus ingredientes de pociones. Las tasas de las cabañas en Bedrock son mucho menores: allí las raid farms las superan.",
+  "mechanics": [
+   "Java Edition: las brujas aparecen en cualquier punto dentro del bounding box de la cabaña (un volumen de unos 7x7x4) cuando el nivel de luz es 0. Quitar los bloques de la cabaña no elimina la zona de spawn: lo que importa es el bounding box.",
+   "Java: las brujas cuentan para el límite de mobs hostiles, así que iluminar cada cueva y superficie en 128 bloques alrededor de la granja dispara las tasas.",
+   "Bedrock Edition: las brujas aparecen solo en el suelo de la cabaña a tasas bajas. La mayoría de jugadores de Bedrock consiguen drops de bruja en raid farms.",
+   "Las brujas beben pociones de curación, resistencia al fuego y respiración acuática en mitad del combate: mátalas rápido o por asfixia/daño de caída para que los drops estén garantizados."
+  ],
+  "materials": [
+   "Losas y bloques sólidos para cubrir el bounding box con suelos de spawn",
+   "Cubos de agua para las corrientes de recolección",
+   "Tolvas y cofres",
+   "Antorchas o glow lichen para iluminar los alrededores",
+   "Bloques de construcción para la plataforma de AFK"
+  ],
+  "steps": [
+   "Encuentra una cabaña de bruja en un bioma de pantano (/locate structure minecraft:swamp_hut).",
+   "Java: demuele la cabaña y construye 2-3 suelos de spawn dentro del bounding box, con canales de agua empujando a las brujas por el borde a una caída o cámara de muerte.",
+   "Java: ilumina cada cueva y superficie en 128 bloques: este paso decide tus tasas.",
+   "Construye un punto de AFK a ~120 bloques sobre el pantano para que solo los suelos de la granja estén en rango de spawn.",
+   "Recoge en los cofres: gunpowder para cohetes, glowstone y redstone para alquimia, botellas para miel y pociones."
+  ],
+  "rates": "Una buena granja de brujas de Java con perímetro iluminado produce más de 1.000 drops de bruja por hora. Las granjas de cabaña única sin iluminar dan un goteo. Las cabañas de Bedrock apenas merecen la pena: usa raids.",
+  "tips": [
+   "El bounding box sobrevive a demoler la cabaña: usa una herramienta como Chunkbase con tu seed para verlo con exactitud.",
+   "Las seeds de triple cabaña (tres cabañas al alcance de un solo punto de AFK) triplican la producción: busca una si empiezas un mundo a largo plazo.",
+   "Los gatos de la cabaña siguen apareciendo como mascotas: repelente de creepers gratis."
+  ]
+ },
+ "pumpkin-melon-farm": {
+  "produces": "Calabazas y melones, totalmente automático",
+  "difficulty": "Principiante",
+  "quickAnswer": "Los tallos de calabaza y melón hacen crecer un fruto en un bloque de tierra adyacente aleatorio. Un observer vigilando ese punto dispara un pistón en el momento en que aparece el fruto, rompiéndolo hacia una tolva. Repite el módulo en filas para calabazas y melones infinitos.",
+  "mechanics": [
+   "Un tallo plantado madura y luego hace crecer una calabaza o un melón en un bloque de farmland/dirt/grass adyacente aleatorio con aire encima: el mismo tallo fructifica una y otra vez.",
+   "Un observer mirando al punto del fruto detecta su aparición y emite un pulso de un tick: perfecto para disparar un pistón.",
+   "El pistón rompe el fruto (los melones sueltan 3-7 rodajas) y una hopper minecart o línea de tolvas lo recoge.",
+   "El bone meal acelera el crecimiento del tallo pero no la fructificación: la fruta en sí depende de ticks aleatorios."
+  ],
+  "materials": [
+   "Semillas de calabaza o melón (botín de cofres, o craftéalas de fruta encontrada)",
+   "Farmland, agua para hidratarlo y luz (antorchas o glowstone)",
+   "1 observer + 1 pistón por punto de fruto",
+   "Tolvas o una hopper minecart con raíl por debajo, más cofres",
+   "Bloques de construcción para las filas"
+  ],
+  "steps": [
+   "Laba una fila de farmland hidratada y planta tallos con un bloque de tierra vacío junto a cada tallo (el punto del fruto).",
+   "Coloca un observer mirando a cada punto de fruto (su cara hacia el punto, el punto rojo hacia el pistón).",
+   "Pon un pistón junto a cada punto para que empuje a través y rompa el fruto en el instante en que crece.",
+   "Pasa tolvas o una vía de hopper minecart bajo la fila hasta los cofres.",
+   "Ilumina toda la construcción 24/7 para que los tallos sigan trabajando, y apila pisos en vertical para volumen."
+  ],
+  "rates": "Un solo módulo fructifica cada pocos minutos; una doble fila de 20 módulos produce varios stacks por hora de cada cultivo sin intervención del jugador.",
+  "tips": [
+   "Las rodajas de melón son la base de las glistering melons para pociones de curación; las calabazas se tradean a farmers por esmeraldas (6 calabazas = 1 esmeralda a nivel aprendiz).",
+   "Haz que el punto del fruto sea el ÚNICO punto de crecimiento válido por tallo poniendo losas en los demás bloques adyacentes: el observer nunca falla.",
+   "Las jack o'lanterns de calabaza + antorcha son una gran iluminación submarina."
+  ]
+ },
+ "bamboo-farm": {
+  "produces": "Bambú para combustible, sticks, scaffolding y pandas",
+  "difficulty": "Principiante",
+  "quickAnswer": "El bambú crece hasta 16 bloques de alto y rápido. Un observer en altura detecta el brote al llegar y dispara pistones que rompen toda la columna por encima de la base: bambú totalmente automático con un módulo por planta.",
+  "mechanics": [
+   "El bambú crece un bloque en ticks aleatorios, hasta 12-16 bloques de alto, y cada planta crece de forma independiente y mucho más rápido que otros cultivos.",
+   "Romper cualquier parte de la columna suelta todo lo que hay encima: un solo corte de pistón cerca de la base cosecha la planta entera.",
+   "Un observer vigilando una altura fija dispara cuando el bambú lo alcanza; los pistones o una flying machine hacen el resto.",
+   "Las cosechadoras de flying machine de Java limpian campos enormes; los módulos de columna única con observer funcionan igual en ambas ediciones."
+  ],
+  "materials": [
+   "Bambú (biomas de jungla, cofres de jungle temples, pescando en junglas, cofres de suministros de shipwrecks)",
+   "Observer + pistón por columna",
+   "Tolvas y cofres",
+   "Fuentes de luz",
+   "Opcional (Java): slime blocks, honey blocks y observers para una flying machine"
+  ],
+  "steps": [
+   "Planta filas de bambú en dirt, grass o sand con espacio encima.",
+   "Coloca un pistón a la altura del segundo bloque de cada planta, mirando al bambú.",
+   "Pon un observer sobre el pistón, mirando al bambú, cableado para que su pulso dispare el pistón cuando el brote crezca hasta su cara.",
+   "Pasa una corriente de agua o línea de tolvas por debajo para llevar los drops a los cofres.",
+   "Para gran volumen en Java, construye una flying machine que barra un campo entero y vuelva con un temporizador."
+  ],
+  "rates": "Un módulo de columna única da aproximadamente un bambú cada pocos minutos; una pared de 20 plantas produce varios stacks por hora: suficiente para alimentar hornos para siempre.",
+  "tips": [
+   "El bambú funde 0,25 objetos cada uno (4 bambú por objeto); craftearlo primero en bloques de bambú funde 1,5 objetos por bloque, un combustible más eficiente.",
+   "Da bambú a los pandas para criarlos; los corazones indican que están contentos.",
+   "El scaffolding (6 bambú + 1 string) es el mejor bloque de acceso para construir del juego: la granja se paga sola rápido."
+  ]
+ },
+ "guardian-xp-farm": {
+  "produces": "Prismarine shards, prismarine crystals, pescado y XP masivo",
+  "difficulty": "Avanzada",
+  "quickAnswer": "Los guardians aparecen en el agua dentro del bounding box del ocean monument. Drena o secciona el monumento, canaliza los guardians a un tubo de muerte y mátalos de un golpe con una espada Looting III para la mejor granja combinada de XP y prismarine del juego.",
+  "mechanics": [
+   "Los guardians solo aparecen en bloques de agua dentro del bounding box de 58x58 del monumento, entre Y=39 y el fondo marino: en ningún otro sitio.",
+   "Los diseños de Java drenan todo el monumento (muros de arena + esponjas o flying machines) y luego usan columnas de burbujas o agua corriente para mover a los guardians a un tubo de caída.",
+   "Los diseños de Bedrock suelen seccionar puntos de spawn con columnas de agua, ya que drenar es más difícil; las tasas son menores pero siguen siendo potentes.",
+   "Una caída de 23 bloques deja a los guardians a un golpe; Looting III multiplica shards y crystals."
+  ],
+  "materials": [
+   "Cientos de bloques de arena o grava para los muros divisores (enfoque de drenado)",
+   "Esponjas de las salas de esponjas del monumento",
+   "Bloques de construcción, carteles, soul sand para las columnas de burbujas",
+   "Tolvas, cofres y una espada Looting III",
+   "Conduit o pociones de respiración acuática para la construcción"
+  ],
+  "steps": [
+   "Mata primero a los tres elder guardians para quitarte el Mining Fatigue.",
+   "Aísla el exterior del monumento con arena/grava y drena el interior con esponjas (Java), o secciona las áreas de spawn en Bedrock.",
+   "Construye el sistema de recolección: agua o columnas de burbujas empujando a los guardians a un conducto de caída central de 1x1.",
+   "Ponte en el punto de muerte con Looting III: un espadazo por guardian y las orbes de XP entran en tromba.",
+   "Lleva los drops a cofres y funde el pescado sobrante si también quieres comida cocinada."
+  ],
+  "rates": "Las granjas de monumento drenado de Java están entre las fuentes de XP más rápidas del juego: nivel 30 en minutos, más cofres dobles de prismarine por hora. Las granjas seccionadas de Bedrock dan buen XP y shards a un ritmo más lento.",
+  "tips": [
+   "Las esponjas que necesitas para drenar el monumento están dentro de él: sécalas en el Nether para reutilizarlas al instante.",
+   "Los láseres de los guardians hacen daño: construye el punto de muerte de modo que su línea de visión se rompa antes de que llegues.",
+   "Combínala con una batería de hornos: el excedente de raw cod se convierte en una buena fuente de comida."
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+---
+import FarmDetail from '../../../components/pages/FarmDetail.astro';
+import farms from '../../../data/farms.json';
+export function getStaticPaths() {
+  return farms.map(f => ({ params: { slug: f.slug }, props: { f } }));
+}
+const { f } = Astro.props;
+---
+<FarmDetail f={f} lang="es" />
