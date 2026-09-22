@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import villagers from '../../data/villagers.json';
+import villagersEs from '../../data/villagers-es.json';
+
+interface Props { v: any; lang: 'en' | 'es'; }
+const { v, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (villagersEs as any)[v.slug] : null;
+const intro = ov?.intro ?? v.intro;
+const best = ov?.best ?? v.best;
+const notes = ov?.notes ?? v.notes;
+
+const LEVELS_EN = ['Novice', 'Apprentice', 'Journeyman', 'Expert', 'Master'];
+const LEVELS_ES: Record<string, string> = { 'Novice': 'Novato', 'Apprentice': 'Aprendiz', 'Journeyman': 'Oficial', 'Expert': 'Experto', 'Master': 'Maestro' };
+const levels = LEVELS_EN;
+const levelName = (l: string) => isES ? LEVELS_ES[l] : l;
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Aldeanos', crumbHref: '/es/villagers/',
+  workstationL: 'Bloque de trabajo:',
+  bestH: 'Mejores tradeos', tableH: 'Tabla completa de tradeos',
+  wants: 'El aldeano pide', gets: 'Tú recibes', stock: 'Stock', chance: 'Probabilidad de oferta',
+  notesH: 'Notas', back: '\u2190 Todas las profesiones',
+  title: `Tradeos del aldeano ${v.name}`,
+  desc: `Aldeano ${v.name} en Minecraft: tabla completa de tradeos (de Novato a Maestro), bloque de trabajo, mejores tradeos y precios. Java y Bedrock.`,
+  canonical: `/es/villagers/${v.slug}/`, alt: `/villagers/${v.slug}/`,
+  headline: `Tradeos del aldeano ${v.name} en Minecraft (${v.workstation})`,
+  headlineDesc: `Todos los tradeos del aldeano ${v.name} en Minecraft: tabla completa de Novato a Maestro para Java y Bedrock.`,
+  faq1: `\u00bfQu\u00e9 hace un aldeano ${v.name} en Minecraft?`,
+  faq2: `\u00bfQu\u00e9 bloque de trabajo necesita un ${v.name}?`,
+  faq2a: `Un ${v.workstation}. Col\u00f3calo junto a un aldeano sin trabajo y se convertir\u00e1 en ${v.name}. Romper el bloque antes de cualquier tradeo reinicia los tradeos del aldeano.`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Villagers', crumbHref: '/villagers/',
+  workstationL: 'Workstation:',
+  bestH: 'Best trades', tableH: 'Full trade table',
+  wants: 'Villager wants', gets: 'You get', stock: 'In stock', chance: 'Chance offered',
+  notesH: 'Notes', back: '\u2190 All villager professions',
+  title: `${v.name} Villager Trades`,
+  desc: `Minecraft ${v.name.toLowerCase()} villager: full trade table (Novice to Master), workstation, best trades and prices. Java and Bedrock.`,
+  canonical: `/villagers/${v.slug}/`, alt: `/es/villagers/${v.slug}/`,
+  headline: `Minecraft ${v.name} Trades (${v.workstation})`,
+  headlineDesc: `All ${v.name.toLowerCase()} villager trades in Minecraft: full trade table from Novice to Master for Java and Bedrock.`,
+  faq1: `What does a ${v.name.toLowerCase()} villager do in Minecraft?`,
+  faq2: `What workstation does a ${v.name.toLowerCase()} need?`,
+  faq2a: `A ${v.workstation}. Place it next to an unemployed villager and it becomes a ${v.name.toLowerCase()}. Breaking the block before any trade resets the villager's trades.`
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.headline,
+    description: L.headlineDesc,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: v.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: L.faq1,
+        acceptedAnswer: { '@type': 'Answer', text: `${intro} ${best[0]}.` } },
+      { '@type': 'Question', name: L.faq2,
+        acceptedAnswer: { '@type': 'Answer', text: L.faq2a } }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article" lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {v.name}</nav>
+    <h1>{v.name} Villager Trades</h1>
+    <p><span class="badge">{L.workstationL} {v.workstation}</span> <span class="badge java">Java</span> <span class="badge bedrock">Bedrock</span></p>
+    <p>{intro}</p>
+
+    <h2>{L.bestH}</h2>
+    <ul>{best.map((b: string) => <li>{b}</li>)}</ul>
+
+    <h2>{L.tableH}</h2>
+    {levels.map(level => {
+      const rows = v.trades.filter((t: any) => t.level === level);
+      return rows.length > 0 && (
+        <div>
+          <h3>{levelName(level)}</h3>
+          <table class="data">
+            <tr><th>{L.wants}</th><th>{L.gets}</th><th>{L.stock}</th><th>{L.chance}</th></tr>
+            {rows.map((t: any) => (
+              <tr><td>{t.want}</td><td>{t.get}</td><td>{t.stock}</td><td>{t.chance}</td></tr>
+            ))}
+          </table>
+        </div>
+      );
+    })}
+
+    {notes.length > 0 && (
+      <div>
+        <h2>{L.notesH}</h2>
+        <ul>{notes.map((n: string) => <li>{n}</li>)}</ul>
+      </div>
+    )}
+
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

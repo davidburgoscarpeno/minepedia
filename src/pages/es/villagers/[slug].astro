@@ -1,0 +1,9 @@
+---
+import VillagerDetail from '../../../components/pages/VillagerDetail.astro';
+import villagers from '../../../data/villagers.json';
+export function getStaticPaths() {
+  return villagers.map(v => ({ params: { slug: v.slug }, props: { v } }));
+}
+const { v } = Astro.props;
+---
+<VillagerDetail v={v} lang="es" />
