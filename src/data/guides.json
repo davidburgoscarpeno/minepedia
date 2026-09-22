@@ -1,875 +1,1202 @@
 [
- {
-  "slug": "how-to-find-diamonds",
-  "name": "How to Find Diamonds in Minecraft",
-  "shortTitle": "Find Diamonds",
-  "quickAnswer": "Mine at Y=-59 (just above bedrock) in the Overworld. Diamond ore generates most often at the deepest levels, from Y=16 down to bedrock, peaking near Y=-59. Use an iron pickaxe or better; Fortune III multiplies your diamonds.",
-  "steps": [
-   "Craft an iron pickaxe (3 iron ingots + 2 sticks). Stone or wood pickaxes destroy diamond ore without dropping anything.",
-   "Dig down to Y=-59. Press F3 (Java) or enable coordinates in world settings (Bedrock) to see your Y level. Dig a staircase, never straight down.",
-   "Branch mine: dig a main tunnel and side tunnels every 2 blocks so you expose the most blocks per pickaxe swing.",
-   "Look for diamond ore (light blue specks) in stone or deepslate. Each vein has 1-10 ores; veins near lava pools are easier to spot in caves.",
-   "Mine the ore with your iron+ pickaxe. Each ore drops 1 diamond (up to 4 with Fortune III).",
-   "Alternative: search caves between Y=-50 and -64, loot shipwrecks, buried treasure, mineshafts, bastions and end city chests."
-  ],
-  "materials": [
-   "Iron pickaxe or better (diamond, netherite)",
-   "Torches",
-   "Food",
-   "Water bucket for lava",
-   "Fortune III pickaxe for best yield (optional)"
-  ],
-  "editionNote": "Identical in Java and Bedrock: diamond ore generates from Y=16 to bedrock with peak rates at Y=-59, and reduced exposure to air since 1.18. Coordinates are shown with F3 in Java and the Show Coordinates world toggle in Bedrock.",
-  "versions": "Ore distribution applies to 1.18+ (Caves & Cliffs Part 2). Before 1.18, mine at Y=11-12.",
-  "faq": [
-   {
-    "q": "What is the best Y level for diamonds?",
-    "a": "Y=-59, just above the bedrock layer. Diamond ore is most common at the bottom of the world, but bedrock starts appearing at Y=-60, so -59 keeps you clear of it."
-   },
-   {
-    "q": "Do diamonds spawn more near lava?",
-    "a": "No, but diamond veins near lava lakes in deep caves are easier to see because fewer blocks hide them. Air exposure reduces diamond generation since 1.18, so strip mining beats cave hunting."
-   },
-   {
-    "q": "Can you find diamonds without mining?",
-    "a": "Yes: buried treasure chests, shipwrecks, mineshafts, bastion remnants, end cities and ruined portals can all contain diamonds or diamond gear."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-nether-portal",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/enchantments/fortune/",
-    "label": "Fortune enchantment"
-   },
-   {
-    "url": "/recipes/enchanting-table/",
-    "label": "Enchanting Table recipe"
-   }
-  ],
-  "keywords": "how to find diamonds best y level diamond mining"
- },
- {
-  "slug": "how-to-make-nether-portal",
-  "name": "How to Make a Nether Portal in Minecraft",
-  "shortTitle": "Make a Nether Portal",
-  "quickAnswer": "Build a vertical frame of obsidian at least 4 blocks wide and 5 blocks tall (10 obsidian minimum, corners optional) and light the inside with flint and steel. A full frame with corners uses 14 obsidian.",
-  "steps": [
-   "Get obsidian: pour water over lava source blocks, then mine it with a diamond or netherite pickaxe. You need 10 (economy frame) or 14 (full frame).",
-   "Build the frame upright: two obsidian columns 3 blocks tall, joined by 2 obsidian at the top and 2 at the bottom. Interior space: 2x3.",
-   "Corners are optional - leave them empty to save 4 obsidian.",
-   "Light it: use flint and steel (1 iron ingot + 1 flint from gravel) on the inside of the frame. Fire from lava, a fire charge or a ghast fireball also works.",
-   "The interior fills with purple portal blocks. Stand inside for 4 seconds to teleport to the Nether.",
-   "No diamond pickaxe? Cast the portal in place: make a mold, place lava source blocks where the frame goes, then pour water on each to turn them into obsidian one by one."
-  ],
-  "materials": [
-   "10-14 obsidian",
-   "Flint and steel (1 iron + 1 flint)",
-   "Diamond/netherite pickaxe OR water bucket + lava for casting"
-  ],
-  "editionNote": "Portal mechanics are the same in Java and Bedrock: minimum 4x5 frame, maximum 23x23. Linked portals match Overworld to Nether coordinates at an 8:1 ratio (X and Z divided by 8).",
-  "versions": "Unchanged since Alpha. Crying obsidian and ruined portals added in 1.16 - ruined portals can be repaired into working portals.",
-  "faq": [
-   {
-    "q": "How much obsidian do you need for a nether portal?",
-    "a": "10 blocks minimum if you skip the four corners, or 14 for the complete 4x5 frame."
-   },
-   {
-    "q": "Why won't my nether portal light?",
-    "a": "Check the frame is complete obsidian with a 2x3 empty interior, you are in the Overworld or Nether (portals do not form in the End), and you are lighting the inside face of the frame."
-   },
-   {
-    "q": "How do portals link between dimensions?",
-    "a": "Each Overworld block equals 8 Nether blocks on X and Z. A portal at Overworld 800, 64, 800 links near Nether 100, ~64, 100. Y is not scaled."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-diamonds",
-   "how-to-get-elytra"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/tools/nether-calculator/",
-    "label": "Nether Coordinate Calculator"
-   },
-   {
-    "url": "/recipes/flint-and-steel/",
-    "label": "Flint and Steel recipe"
-   }
-  ],
-  "keywords": "nether portal how to make obsidian flint steel"
- },
- {
-  "slug": "how-to-find-ancient-city",
-  "name": "How to Find an Ancient City in Minecraft",
-  "shortTitle": "Find an Ancient City",
-  "quickAnswer": "Ancient cities generate in the Deep Dark biome deep underground, around Y=-51, most often under mountains. Go below Y=0 in a mountain region and look for sculk blocks - or run /locate structure minecraft:ancient_city with cheats.",
-  "steps": [
-   "Prepare: bring wool blocks and a hoe (sculk breaks fastest with a hoe), night vision potions, food, and avoid armor that makes noise - or full enchanted gear if you plan to fight.",
-   "Head deep: ancient cities appear around Y=-51 in the Deep Dark. Mountainous areas (jagged peaks, plateaus) are the most reliable surface clue.",
-   "Identify the Deep Dark: sculk blocks, sculk veins, sensors and shriekers mark the biome. No hostile mobs spawn naturally here.",
-   "Move slowly: crouch (sneak) everywhere - sneaking creates no vibrations. Place wool to walk on, since wool blocks and carpets absorb vibrations.",
-   "Break or block sculk shriekers before triggering them 4 times: the fourth shriek summons the Warden.",
-   "Loot the chests: Swift Sneak enchanted books, echo shards, disc fragments and enchanted golden apples are exclusive or rare finds here.",
-   "Cheat alternative: /locate structure minecraft:ancient_city gives you the exact coordinates."
-  ],
-  "materials": [
-   "Wool blocks or carpets (lots)",
-   "Hoe for sculk",
-   "Night vision potions",
-   "Food and torches",
-   "No noise-making gear"
-  ],
-  "editionNote": "Identical structure in Java and Bedrock since 1.19. Warden spawning rules (4 shrieker activations) match across editions.",
-  "versions": "Added in 1.19 (The Wild Update).",
-  "faq": [
-   {
-    "q": "What Y level are ancient cities at?",
-    "a": "Ancient city centers sit around Y=-51, always in the Deep Dark biome far below Y=0."
-   },
-   {
-    "q": "How many shrieks summon the Warden?",
-    "a": "Four activations of a natural sculk shrieker within range summon one Warden from the ground - as long as no other Warden is nearby."
-   },
-   {
-    "q": "Is it worth looting an ancient city?",
-    "a": "Yes: Swift Sneak leggings enchantment and echo shards (for the recovery compass) are only found there, plus disc 5 fragments and high-tier enchanted loot."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-diamonds"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/warden/",
-    "label": "Warden"
-   },
-   {
-    "url": "/commands/locate/",
-    "label": "/locate command"
-   }
-  ],
-  "keywords": "ancient city deep dark how to find warden sculk"
- },
- {
-  "slug": "how-to-tame-horse",
-  "name": "How to Tame a Horse in Minecraft",
-  "shortTitle": "Tame a Horse",
-  "quickAnswer": "Approach a wild horse with empty hands and right-click to mount it. It will buck you off a few times - keep mounting until hearts appear. Then equip it with a saddle to control it.",
-  "steps": [
-   "Find horses in plains and savanna biomes, in herds of 2-6.",
-   "Empty your hand and right-click the horse to mount. It bucks you off within seconds.",
-   "Mount again repeatedly. Each attempt raises its temper until hearts appear - the horse is tamed.",
-   "Feeding first helps: apples, wheat, sugar, hay bales or golden carrots/apples raise temper so fewer attempts are needed.",
-   "Open your inventory while riding (or sneak + right-click the horse) and place a saddle in its slot. Saddles cannot be crafted - find them in dungeons, temples, bastions, villages or by fishing.",
-   "Tamed horses can wear horse armor and be bred with golden apples or golden carrots.",
-   "Speed, jump height and health are random per horse (and inherited): breed your best two to get a better foal."
-  ],
-  "materials": [
-   "Saddle (loot only: dungeons, nether fortresses, bastions, villages, fishing)",
-   "Optional: apples/wheat/sugar to speed up taming",
-   "Golden apples or carrots for breeding"
-  ],
-  "editionNote": "Identical taming mechanic in Java and Bedrock. Skeleton horses from skeleton traps tame the same way; zombie horses are unused in vanilla survival.",
-  "versions": "Horses since 1.6.1. Horse variants and breeding mechanics current since 1.18+.",
-  "faq": [
-   {
-    "q": "Can you craft a saddle in Minecraft?",
-    "a": "No. Saddles are loot-only: dungeon/temple/bastion chests, village weaponsmith and tanner chests, fishing treasure, or trading with master leatherworkers (Java: 6 emeralds)."
-   },
-   {
-    "q": "What is the fastest way to tame a horse?",
-    "a": "Feed it a few apples, wheat or hay bales first - each feeding raises temper, so it accepts you after 1-2 mounts instead of many."
-   },
-   {
-    "q": "How do you get a fast horse?",
-    "a": "Stats are random at spawn. Tame several horses, test their speed and jump, then breed the best two with golden apples or golden carrots - foals average their parents' stats with random variation."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/wolf/",
-    "label": "Wolf"
-   }
-  ],
-  "keywords": "how to tame horse saddle ride minecraft"
- },
- {
-  "slug": "how-to-breed-villagers",
-  "name": "How to Breed Villagers in Minecraft",
-  "shortTitle": "Breed Villagers",
-  "quickAnswer": "Villagers breed on their own when they have enough food (3 bread, 12 carrots, 12 potatoes or 12 beetroots each) and there are more valid beds than villagers - every bed needs 2 air blocks above it. Feed two villagers or toss them food and wait.",
-  "steps": [
-   "Build a safe, enclosed area so villagers cannot wander off or die to zombies.",
-   "Place beds: at least one bed per adult villager plus one extra bed per baby you want. Each bed needs 2 empty blocks above it or it does not count.",
-   "Make them willing: throw food at two villagers - 3 bread, or 12 carrots / potatoes / beetroots each. Farmers also share and harvest crops automatically.",
-   "Wait: heart particles appear and a baby villager spawns after a few minutes. It grows up in 20 minutes.",
-   "Alternative: build a crop farm inside the enclosure with one composter; a farmer villager will harvest and share food nonstop, breeding indefinitely while beds are available.",
-   "Babies inherit no profession: they pick one as adults by claiming a free job site block (lectern = librarian, blast furnace = armorer...)."
-  ],
-  "materials": [
-   "Beds (1 per villager + spares)",
-   "Food: bread, carrots, potatoes or beetroots",
-   "Job site blocks for professions",
-   "Composter (optional, for an automatic breeder)"
-  ],
-  "editionNote": "Breeding rules match in Java and Bedrock. Bedrock villagers need the beds to be linked to the village and villagers need to be able to pathfind to them.",
-  "versions": "Current mechanics since 1.14 (Village & Pillage).",
-  "faq": [
-   {
-    "q": "Why won't my villagers breed?",
-    "a": "Most often: not enough valid beds (each needs 2 air blocks above), not enough food, mob griefing is off (they cannot pick up food), or they cannot pathfind to the beds."
-   },
-   {
-    "q": "What food makes villagers breed?",
-    "a": "Bread (3), carrots (12), potatoes (12) or beetroots (12) per villager. They must pick it up - toss it on the ground next to them."
-   },
-   {
-    "q": "Can villagers breed infinitely?",
-    "a": "Yes, as long as you keep adding valid beds and food. Automatic breeders use a farmer with a 9x9 carrot or potato field and a row of beds."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-tame-horse"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/villager/",
-    "label": "Villager"
-   },
-   {
-    "url": "/recipes/bed/",
-    "label": "Bed recipe"
-   }
-  ],
-  "keywords": "how to breed villagers beds food breeder"
- },
- {
-  "slug": "how-to-get-elytra",
-  "name": "How to Get Elytra in Minecraft",
-  "shortTitle": "Get Elytra",
-  "quickAnswer": "Elytra is found only in End Ships, which generate at some End Cities in the outer End islands. Defeat the Ender Dragon, throw an ender pearl through an End Gateway, find an End City with a ship, and take the elytra from its item frame.",
-  "steps": [
-   "Kill the Ender Dragon to open the End Gateways (up to 20).",
-   "Throw an ender pearl into a gateway to teleport to the outer islands.",
-   "Explore until you find an End City - towers of purpur and end stone bricks. Only some cities have a ship floating beside them.",
-   "Board the ship: bridge or pearl across. Watch for shulkers - their levitation bullets drop you from heights.",
-   "Inside the ship's hull, take the elytra from the item frame (behind the brewing stand). The dragon head sits at the bow.",
-   "To fly: equip elytra in the chestplate slot, jump from height and press jump again mid-air to glide. Use firework rockets to boost.",
-   "Repair it with phantom membranes on an anvil, or put Mending + Unbreaking III on it - elytra cannot be crafted."
-  ],
-  "materials": [
-   "Ender pearls (for gateways and shulker dodging)",
-   "Slow Falling potions (recommended)",
-   "Blocks for bridging",
-   "Good armor and a bow"
-  ],
-  "editionNote": "Identical in Java and Bedrock. Every End City has at most one ship; not every city has one - keep exploring.",
-  "versions": "Elytra since 1.9 (Combat Update).",
-  "faq": [
-   {
-    "q": "Can you craft elytra?",
-    "a": "No. Elytra is only found as loot in End Ships - one per ship, in an item frame in the hull."
-   },
-   {
-    "q": "Do elytra break?",
-    "a": "Yes: they lose 1 durability per second of flight (432 seconds total) and stop working at 1 durability instead of breaking. Repair with phantom membranes or Mending."
-   },
-   {
-    "q": "How do you fly forever with elytra?",
-    "a": "Use firework rockets (paper + gunpowder; 3 gunpowder for the longest boost) while gliding, and gain altitude by pitching up after each boost. With Unbreaking III + Mending it never wears out."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-nether-portal",
-   "how-to-find-ancient-city"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/enchantments/mending/",
-    "label": "Mending"
-   },
-   {
-    "url": "/mobs/shulker/",
-    "label": "Shulker"
-   }
-  ],
-  "keywords": "how to get elytra end city ship fly wings"
- },
- {
-  "slug": "how-to-enchant",
-  "name": "How to Enchant in Minecraft",
-  "shortTitle": "Enchant Items",
-  "quickAnswer": "Craft an enchanting table (4 obsidian + 2 diamonds + 1 book), surround it with up to 15 bookshelves leaving a one-block gap, place the item inside with 1-3 lapis lazuli, and pick one of three random enchantments costing up to 30 XP levels.",
-  "steps": [
-   "Craft an enchanting table: 4 obsidian, 2 diamonds, 1 book.",
-   "Build a library: 15 bookshelves (6 planks + 3 books each) arranged around the table with exactly one block of air between - a 5x5 ring with the table in the center is the standard layout.",
-   "Get lapis lazuli: mine lapis ore (Y=-32 to 32, peak near Y=0) or trade with cleric villagers.",
-   "Get XP levels: kill mobs, smelt, mine, breed animals or fish. Level 30 unlocks the top enchantment offer.",
-   "Open the table: put the item in the left slot, 1-3 lapis in the right. Three offers appear; the bottom one costs 3 lapis and 30 levels.",
-   "The offers reset only after you enchant something - enchant a cheap item (book or wooden tool) to reroll if you dislike the options.",
-   "Go further with anvils: combine two enchanted items, or apply enchanted books (from loot, fishing or librarian villagers) for exact enchants like Mending."
-  ],
-  "materials": [
-   "Enchanting table",
-   "15 bookshelves for max level",
-   "Lapis lazuli",
-   "XP levels (30 for the top offer)",
-   "Anvil + enchanted books for targeted enchants"
-  ],
-  "editionNote": "Mechanics match in Java and Bedrock: 15 bookshelves max, 30-level cap, treasure enchantments (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) never appear on the table.",
-  "versions": "Current system since 1.8 (lapis cost added).",
-  "faq": [
-   {
-    "q": "How many bookshelves for level 30 enchants?",
-    "a": "15 bookshelves, placed one block away from the enchanting table (5x5 ring, table in the middle, nothing - not even torches or carpet - in the gap)."
-   },
-   {
-    "q": "Why can't I get Mending from the enchanting table?",
-    "a": "Mending is a treasure enchantment: it only comes from loot chests, fishing, raids (Bedrock) or librarian villager trades."
-   },
-   {
-    "q": "How do you reroll enchantment options?",
-    "a": "Enchant any cheap item - a book or wooden shovel - and the three offers regenerate. Your item type also filters which enchants can appear."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-diamonds"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/recipes/enchanting-table/",
-    "label": "Enchanting Table recipe"
-   },
-   {
-    "url": "/enchantments/",
-    "label": "All enchantments"
-   },
-   {
-    "url": "/recipes/anvil/",
-    "label": "Anvil recipe"
-   }
-  ],
-  "keywords": "how to enchant minecraft bookshelves level 30 lapis"
- },
- {
-  "slug": "how-to-make-iron-golem",
-  "name": "How to Make an Iron Golem in Minecraft",
-  "shortTitle": "Make an Iron Golem",
-  "quickAnswer": "Stack 4 iron blocks in a T shape (3 across the top, 1 in the middle below, 1 at the base) and place a carved pumpkin or jack o'lantern on top center last. It transforms into a live iron golem with 100 health that attacks hostile mobs.",
-  "steps": [
-   "Collect 36 iron ingots and craft 4 blocks of iron (9 ingots each).",
-   "Get a carved pumpkin: shear a regular pumpkin with shears. A jack o'lantern also works.",
-   "Place 1 iron block on the ground, stack 1 more on top (body).",
-   "Attach 1 iron block to each side of the top block (arms), forming a T.",
-   "Place the carved pumpkin on top of the center block - LAST, or the golem will not form.",
-   "The structure transforms into an iron golem: 100 health, up to 21.5 damage per hit, throws mobs into the air.",
-   "Golems do not follow you; they patrol where they spawned. Fence them in or use a lead to keep your bodyguard near your base.",
-   "Villages spawn their own golems naturally - and villager-summoned golems turn hostile if your village popularity drops too low."
-  ],
-  "materials": [
-   "4 blocks of iron (36 iron ingots)",
-   "1 carved pumpkin or jack o'lantern",
-   "Shears (to carve the pumpkin)"
-  ],
-  "editionNote": "Identical construction in Java and Bedrock. The T can also be built lying on its side; the pumpkin always goes last.",
-  "versions": "Iron golems since 1.2.1. Cracked texture and iron ingot repair (right-click with an iron ingot heals 25%) since 1.15.",
-  "faq": [
-   {
-    "q": "Why won't my iron golem spawn?",
-    "a": "Check the shape is a T of exactly 4 iron blocks with no extra blocks touching, and that you placed the carved pumpkin last. Snow layers or grass on top of the blocks can also block it."
-   },
-   {
-    "q": "Will an iron golem protect me?",
-    "a": "Player-built golems never attack their creator and fight hostile mobs nearby, but they do not follow you - keep them fenced or on a lead."
-   },
-   {
-    "q": "How do you heal an iron golem?",
-    "a": "Right-click it with an iron ingot: each ingot restores 25% of its health. Cracks on its body show how hurt it is."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/recipes/shears/",
-    "label": "Shears recipe"
-   }
-  ],
-  "keywords": "how to make iron golem build iron blocks pumpkin"
- },
- {
-  "slug": "how-to-beat-wither",
-  "name": "How to Beat the Wither in Minecraft",
-  "shortTitle": "Beat the Wither",
-  "quickAnswer": "Summon the Wither with 4 soul sand (or soul soil) in a T shape and 3 wither skeleton skulls on top, then fight it with Smite V, Strength II and golden apples - ideally trapped under the Nether or End bedrock ceiling. It has 300 HP in Java and 300-600 HP in Bedrock depending on difficulty, and it drops one nether star.",
-  "steps": [
-   "Collect 3 wither skeleton skulls (rare drop from wither skeletons in Nether fortresses; Looting III helps a lot) and 4 soul sand or soul soil from Soul Sand Valleys.",
-   "Choose the arena: the classic trick is summoning it under the Nether's bedrock ceiling (around Y=127) or at an End gateway so its head gets stuck, or dig a long tunnel at deepslate level and fight it there.",
-   "Gear up: full Protection IV diamond or netherite armor, a Smite V sword (Smite beats Sharpness against the undead Wither), Strength II potions, Regeneration, golden apples and a shield for its skulls. A Power V bow handles phase one.",
-   "Build the T shape with the soul sand, place the three skulls last - the Wither spawns, charges up (invulnerable) and explodes. Back off.",
-   "Phase one (above half health): it flies and shoots skulls - shoot it with a bow. The black skulls damage you, the blue ones (Java) break harder blocks.",
-   "Phase two (below half health): it gains Wither armor (immune to arrows), charges and breaks blocks. Switch to the sword, eat golden apples when the Wither effect drains your health, and finish it. In Bedrock at half health it also spawns wither skeletons - kill them or they overwhelm you.",
-   "Collect the nether star (never destroyed by its own explosions) - it is the beacon ingredient."
-  ],
-  "materials": [
-   "4 soul sand or soul soil",
-   "3 wither skeleton skulls",
-   "Protection IV armor",
-   "Smite V sword and Power V bow",
-   "Strength II + Regeneration potions",
-   "Golden apples and a shield",
-   "Milk buckets to clear the Wither effect"
-  ],
-  "editionNote": "Java: 300 HP, the Wither hovers and shoots blue skulls that break obsidian-hard blocks slowly. Bedrock: 600 HP on Hard (450 Normal, 300 Easy), more aggressive, dashes at targets, and spawns 3-4 wither skeletons at half health - the Bedrock fight is much harder. The bedrock-ceiling trap works in Java; Bedrock players usually fight in a deepslate tunnel.",
-  "versions": "The Wither is unchanged since 1.4.2 apart from Bedrock behavior tweaks. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "What is the easiest way to kill the Wither?",
-    "a": "Trapping it: summon it under the Nether bedrock ceiling in Java so its head gets stuck and it cannot move, then hit it safely. In Bedrock, fight it at the bottom of a long deepslate tunnel so it cannot fly away."
-   },
-   {
-    "q": "Does Smite or Sharpness work better on the Wither?",
-    "a": "Smite. The Wither is undead, so Smite V adds +12.5 damage per hit against it, more than Sharpness V's +3."
-   },
-   {
-    "q": "Can the Wither break obsidian?",
-    "a": "Its blue skulls (Java) can break obsidian given time, and its dash attacks break most blocks - but it can never break bedrock, end portal frames or barriers, which is why ceiling traps work."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-nether-portal",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/wither/",
-    "label": "Wither mob profile"
-   },
-   {
-    "url": "/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/enchantments/sharpness/",
-    "label": "Sharpness enchantment"
-   }
-  ],
-  "keywords": "beat wither boss fight nether star wither skeleton skull bedrock ceiling trap"
- },
- {
-  "slug": "how-to-start-raid",
-  "name": "How to Start and Win a Raid in Minecraft",
-  "shortTitle": "Win a Raid",
-  "quickAnswer": "Get Bad Omen (drink an ominous bottle from a raid captain), walk into a village, and survive all waves: 3 on Easy, 5 on Normal, 7 on Hard (plus 1 extra with Raid Omen II+). Win to earn Hero of the Village and huge trading discounts.",
-  "steps": [
-   "Get the Ominous effect: since 1.21, killing a pillager captain (the one with the banner, found at outposts and patrols) drops an Ominous Bottle. Drinking it gives Bad Omen.",
-   "Prepare the village: wall it in or ring it with traps, light everything, and put the villagers somewhere safe - if all villagers die or all beds are destroyed, you lose.",
-   "Gear up: Protection IV armor, a strong sword or axe, a bow or crossbow, a shield (essential against vindicator axes and pillager arrows), totems of undying and food. Iron golems help enormously.",
-   "Enter the village with Bad Omen active: it converts to Raid Omen and the raid bar appears. Waves spawn at the village edge and pathfind toward the center.",
-   "Fight wave by wave: pillagers shoot, vindicators rush with axes (disable your shield temporarily if they stun it), evokers summon vexes and fang lines, witches throw potions, and ravagers smash through. Kill ravager riders first, then the ravager.",
-   "Use corners and doors to funnel enemies; ring the raid bell to highlight remaining raiders (Java) or listen for the horn to find the wave's direction.",
-   "Survive the final wave to win: you get Hero of the Village - villagers throw gifts (Java) and slash trade prices massively for 40 minutes."
-  ],
-  "materials": [
-   "Ominous Bottle (from a raid captain)",
-   "Protection IV armor + shield",
-   "Sword/axe and bow/crossbow",
-   "Totems of undying",
-   "Blocks to wall off the village",
-   "Iron golems (optional but strong)"
-  ],
-  "editionNote": "Both editions share the 3/5/7 wave structure (Easy/Normal/Hard, +1 wave with Raid Omen II or higher). Java raiders can pick up dropped ominous banners to become the new captain; in Bedrock, raid mobs are more numerous per wave. Hero of the Village gift-throwing is a Java feature; Bedrock gives the discounts.",
-  "versions": "Since 1.21, Bad Omen comes from drinking an Ominous Bottle (dropped by captains) instead of directly from the kill. Before 1.21, killing a captain applied Bad Omen immediately. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "How do you trigger a raid?",
-    "a": "Enter a village while the Bad Omen effect is active. Since 1.21 you get Bad Omen by drinking an Ominous Bottle dropped by a pillager captain."
-   },
-   {
-    "q": "What happens if you lose a raid?",
-    "a": "If every villager dies or every bed is destroyed, the raiders win, celebrate, and you get no reward. The villagers are gone for good - protect them first."
-   },
-   {
-    "q": "What is Hero of the Village good for?",
-    "a": "Deep trade discounts (a few emeralds for enchanted diamond gear) and, in Java, villagers throw free gifts. It is the cheapest way to gear up in the game."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-breed-villagers",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/farms/raid-farm/",
-    "label": "Raid farm"
-   },
-   {
-    "url": "/mobs/pillager/",
-    "label": "Pillager"
-   },
-   {
-    "url": "/items/totem-of-undying/",
-    "label": "Totem of Undying"
-   }
-  ],
-  "keywords": "raid bad omen ominous bottle hero of the village pillager waves"
- },
- {
-  "slug": "how-to-find-end-city",
-  "name": "How to Find an End City in Minecraft",
-  "shortTitle": "Find an End City",
-  "quickAnswer": "After beating the Ender Dragon, throw an ender pearl into the floating end gateway to reach the outer End islands, then explore until you spot the tall purpur towers - about half of them have an End Ship with an elytra in an item frame.",
-  "steps": [
-   "Defeat the Ender Dragon. This activates the central exit portal and spawns an end gateway (a floating bedrock structure with a portal block) around the main island's edge - up to 20 gateways as you kill more dragons.",
-   "Bring: ender pearls (for gateways), slow-falling potions or a water bucket, blocks for bridging, a pickaxe (for purpur and shulker-proof mining), food, and empty shulker boxes if you have them.",
-   "Throw an ender pearl into the gateway (or build a trapdoor/elytra contraption through the 1-block gap) to teleport roughly 1,000 blocks out to the outer islands.",
-   "Explore: End cities generate on the big outer islands. Look for the distinctive purple purpur towers with End Rods. Chunkbase's End City finder with your seed saves hours.",
-   "Loot carefully: shulkers camouflage as purpur and their bullets inflict Levitation - carry a shield to block bullets and slow falling to survive float-offs. Kill shulkers for shulker shells (2 make a shulker box).",
-   "If the city has an End Ship (a floating boat beside the tallest tower), grab the elytra from the item frame in the hull, the dragon head from the bow, and loot the two chests - the best gear in the game (enchanted diamond/iron).",
-   "Mark the coordinates of every city and gateway you find. With an elytra and fireworks, the return trip is minutes."
-  ],
-  "materials": [
-   "Ender pearls (one per gateway crossing)",
-   "Slow Falling potions or water bucket",
-   "Shield",
-   "Stack of blocks for bridging",
-   "Pickaxe and food",
-   "Elytra + fireworks for further trips"
-  ],
-  "editionNote": "Identical in Java and Bedrock: gateway teleporting, city generation, shulkers and the ship's elytra work the same. Bedrock shulker bullets home slightly more aggressively. End cities appear in about half of generated city sites with ships roughly half the time.",
-  "versions": "End cities were added in 1.9 (Combat Update). Mechanics unchanged in current versions (26.3).",
-  "faq": [
-   {
-    "q": "How rare are End cities?",
-    "a": "They generate scattered across the outer End islands, typically thousands of blocks apart. Expect a long search without an elytra - Chunkbase with your seed pinpoints them exactly."
-   },
-   {
-    "q": "Does every End city have an elytra?",
-    "a": "No. Only End Ships contain elytra, and only some cities have a ship. Keep exploring - with a few cities looted you will have several elytra."
-   },
-   {
-    "q": "Can you find an End city without killing the dragon?",
-    "a": "Technically yes by bridging or flying thousands of blocks from the main island, but the dragon fight is far easier. The gateways only open after each dragon kill."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-get-elytra",
-   "how-to-beat-wither"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/elytra/",
-    "label": "Elytra"
-   },
-   {
-    "url": "/mobs/shulker/",
-    "label": "Shulker"
-   },
-   {
-    "url": "/structures/stronghold/",
-    "label": "Stronghold"
-   }
-  ],
-  "keywords": "end city find elytra end ship gateway shulker outer islands"
- },
- {
-  "slug": "how-to-make-beacon",
-  "name": "How to Make and Use a Beacon in Minecraft",
-  "shortTitle": "Make a Beacon",
-  "quickAnswer": "Craft a beacon with 1 nether star, 5 glass and 3 obsidian, place it on a pyramid of 9 to 164 iron, gold, diamond, emerald or netherite blocks (1-4 layers), and feed it an ingot or gem to pick a power like Speed, Haste or Regeneration.",
-  "steps": [
-   "Kill the Wither for its nether star (see our Wither guide).",
-   "Craft the beacon: nether star in the center, 3 obsidian along the bottom row, glass filling the rest.",
-   "Mine or smelt the pyramid material: iron is the practical choice (a full 4-layer pyramid costs 164 blocks = 1,476 ingots - an iron farm makes this painless). Emerald, gold, diamond and netherite blocks work identically and can be mixed.",
-   "Build the pyramid on flat ground with clear sky above: layer 1 is 3x3, layer 2 is 5x5, layer 3 is 7x7, layer 4 is 9x9, beacon on top. No transparent blocks (except the beacon itself) can sit above it.",
-   "Open the beacon UI and insert one iron ingot, gold ingot, emerald, diamond or netherite ingot. Choose a primary power: Speed, Haste, Resistance, Jump Boost or Strength (more layers unlock more options).",
-   "With all 4 layers, also pick a secondary power: Regeneration, or boost the primary to level II.",
-   "The beam needs sky access and gives effects in a radius: 20 blocks for 1 layer up to 50 blocks for 4 layers. Effects last ~17 seconds after leaving the radius.",
-   "Stained glass above the beam colors it - stack colors to blend."
-  ],
-  "materials": [
-   "1 nether star (Wither drop)",
-   "5 glass + 3 obsidian",
-   "164 mineral blocks for a max pyramid (iron recommended)",
-   "1 ingot/gem to activate"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same recipe, pyramid sizes, powers and radius. In Bedrock the beam activates a bit faster and beacon effects apply up to 4 blocks below the pyramid as well.",
-  "versions": "Beacons were added in 1.4.2. Netherite blocks became valid pyramid material in 1.16. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "How many blocks do you need for a full beacon?",
-    "a": "164 blocks for a 4-layer pyramid (9x9 + 7x7 + 5x5 + 3x3). In iron that is 1,476 ingots - farm iron before attempting it."
-   },
-   {
-    "q": "Do different pyramid materials give better effects?",
-    "a": "No. Iron, gold, diamond, emerald and netherite blocks all work identically, and you can mix them in one pyramid."
-   },
-   {
-    "q": "Why is my beacon not working?",
-    "a": "It needs a clear view of the sky: no solid or transparent blocks (other than the beacon) above it. Check the pyramid is complete and you fed it an ingot or gem."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-beat-wither",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/farms/iron-farm/",
-    "label": "Iron farm"
-   },
-   {
-    "url": "/recipes/furnace/",
-    "label": "Furnace recipe"
-   }
-  ],
-  "keywords": "beacon pyramid powers haste speed regeneration nether star"
- },
- {
-  "slug": "how-to-use-conduit",
-  "name": "How to Make and Use a Conduit in Minecraft",
-  "shortTitle": "Use a Conduit",
-  "quickAnswer": "Craft a conduit with 1 Heart of the Sea (from buried treasure) and 8 nautilus shells, then surround it underwater with 16-42 prismarine, sea lantern or dark prismarine blocks in a cage frame: it grants Conduit Power (water breathing, night vision and haste underwater) in a radius up to 96 blocks and damages hostile mobs.",
-  "steps": [
-   "Find a Heart of the Sea: every buried treasure chest (located with a treasure map from shipwrecks and ocean ruins) contains exactly one.",
-   "Collect 8 nautilus shells: fishing, drowned drops, or buying from wandering traders.",
-   "Craft the conduit: Heart of the Sea in the center, nautilus shells filling the other 8 slots.",
-   "Gather prismarine: raid an Ocean Monument (guardians drop prismarine shards and crystals; the monument itself is prismarine) or trade with masons. Sea lanterns and dark prismarine also count as frame blocks.",
-   "Build the activation frame underwater: the classic design is three 5x5 open squares (like a cage) centered on the conduit, using 42 blocks for full power. A minimum of 16 blocks in any valid ring pattern activates it at reduced range.",
-   "Place the conduit in the center, fully waterlogged. It activates with a glowing eye when the frame is complete.",
-   "Enjoy Conduit Power in the radius: infinite water breathing, underwater night vision and faster mining - 32 blocks at minimum frame up to 96 blocks with all 42.",
-   "Fully powered (42 blocks), the conduit also zaps hostile mobs (drowned, guardians) that come within 8 blocks of it in water or rain."
-  ],
-  "materials": [
-   "1 Heart of the Sea (buried treasure)",
-   "8 nautilus shells",
-   "16-42 prismarine / sea lantern / dark prismarine blocks",
-   "Everything underwater"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same recipe, frame requirements and effect range. The conduit's hostile-mob attack also works in both editions when fully framed.",
-  "versions": "Conduits were added in 1.13 (Update Aquatic). Unchanged in current versions (26.3).",
-  "faq": [
-   {
-    "q": "Where do you find a Heart of the Sea?",
-    "a": "In buried treasure chests - always exactly one per chest. Get treasure maps from shipwreck map chests or ocean ruins, then dig at the red X."
-   },
-   {
-    "q": "How big is the conduit range?",
-    "a": "32 blocks with the minimum 16-block frame, scaling up to 96 blocks with the full 42-block cage."
-   },
-   {
-    "q": "Do conduits work out of water?",
-    "a": "The conduit block must be waterlogged (or rained on) to function, and its effects only apply to players touching water or rain."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-ancient-city",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/drowned/",
-    "label": "Drowned"
-   },
-   {
-    "url": "/mobs/guardian/",
-    "label": "Guardian"
-   },
-   {
-    "url": "/enchantments/respiration/",
-    "label": "Respiration enchantment"
-   }
-  ],
-  "keywords": "conduit heart of the sea nautilus shell underwater breathing prismarine frame"
- },
- {
-  "slug": "how-to-build-trading-hall",
-  "name": "How to Build a Villager Trading Hall",
-  "shortTitle": "Trading Hall",
-  "quickAnswer": "Cure zombie villagers (splash Weakness + golden apple) for 1-emerald trades, assign each villager a profession with a workstation (lectern = librarian), and lock in their trades by trading once - then line them up in cells with their workstations. Cured librarians sell any enchanted book, including Mending, for 1 emerald.",
-  "steps": [
-   "Gather supplies: brewing stand, fermented spider eyes (sugar + brown mushroom + spider eye), splash Weakness potions, golden apples (8 gold ingots + apple each), boats or minecarts for transport, beds and workstations.",
-   "Find zombie villagers at night (5% of zombies) or in an igloo basement, or let a zombie convert your own villager on purpose (100% conversion on Hard difficulty, 50% on Normal, 0% on Easy).",
-   "Cure them: throw the splash Potion of Weakness at the zombie villager, right-click it with a golden apple, and wait 3-5 minutes (Java) as it shakes and converts.",
-   "Transport each cured villager to its cell (1-wide space with its workstation in front). Boats on land, minecarts on rails, or nether portals for long hauls.",
-   "Assign professions with the workstation: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
-   "For librarians: check the first trade BEFORE trading. If the book is wrong (not Mending etc.), break and replace the lectern to reroll - trades lock permanently after your first trade with that villager.",
-   "Trade once to lock, then name-tag villagers you want to keep. Light everything, wall it in, and add beds + a bell if you want them to survive raids.",
-   "Optional (Java): zombify and re-cure villagers to stack discounts - after 1-2 cure cycles, most trades cost 1 emerald."
-  ],
-  "materials": [
-   "Brewing stand + blaze powder",
-   "Splash Potions of Weakness",
-   "Golden apples",
-   "Workstations (lecterns, composters...)",
-   "Boats/minecarts + rails",
-   "Name tags",
-   "Building blocks, torches, fences"
-  ],
-  "editionNote": "Java: discounts from curing stack with multiple cures (up to 5x), and villagers need no bed - just a workstation. Bedrock: curing discounts apply once, villagers need beds to keep professions, and workstations must be reachable. Igloo basements always contain one zombie villager with a brewing setup nearby.",
-  "versions": "Curing mechanics stable since 1.14 (Village & Pillage). The 1.20.2 experimental librarian rebalance (biome-locked books) is optional and off by default - normal worlds keep the classic lectern reroll. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "How do you get Mending from villagers?",
-    "a": "Cure a zombie villager, give it a lectern, and check its first book trade. Break and replace the lectern to reroll until Mending appears (any price), then trade once to lock it. Cured librarians sell Mending for 1 emerald."
-   },
-   {
-    "q": "Why won't my villager take a profession?",
-    "a": "It cannot pathfind to the workstation, or it already locked a profession by trading. Break the old workstation, place the new one within reach, and never trade before you like the offers. Nitwits (green coats) never take jobs."
-   },
-   {
-    "q": "Do villagers need beds to trade?",
-    "a": "In Java, no - only a workstation and access to it. In Bedrock they need to be linked to a bed to keep their profession over time. Beds are also required for breeding and iron farms."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-breed-villagers",
-   "how-to-start-raid",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/villagers/librarian/",
-    "label": "Librarian trades"
-   },
-   {
-    "url": "/potions/weakness/",
-    "label": "Potion of Weakness"
-   },
-   {
-    "url": "/recipes/golden-apple/",
-    "label": "Golden Apple recipe"
-   }
-  ],
-  "keywords": "trading hall villager cure zombie weakness mending librarian 1 emerald discount"
- },
- {
-  "slug": "how-to-upgrade-netherite",
-  "name": "How to Upgrade to Netherite",
-  "shortTitle": "Netherite Upgrade",
-  "quickAnswer": "Mine ancient debris in the Nether at Y=15, smelt it into netherite scraps, combine 4 scraps + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade smithing template (found in bastion treasure rooms). Enchantments and names are kept.",
-  "steps": [
-   "Gear up for the Nether: diamond pickaxe (ancient debris requires diamond+), fire resistance potions, food, blocks and a bed or TNT for mining.",
-   "Mine ancient debris at Y=15 (press F3 in Java, enable coordinates in Bedrock). Bed-mine: place a bed 4+ blocks away at the end of a tunnel, click it to explode, and repeat - debris survives the blast. TNT chains work too.",
-   "Smelt ancient debris into netherite scraps in a furnace or blast furnace.",
-   "Craft netherite ingots: 4 scraps + 4 gold ingots (shapeless). Each armor piece or tool costs 1 ingot, so a full set needs 36 scraps + 36 gold.",
-   "Find a Netherite Upgrade smithing template: guaranteed in bastion remnant TREASURE rooms (the big central cube with lava and gold), possible in other bastion chests. Raid it with fire resistance and gold armor.",
-   "Duplicate the template at a crafting table: 7 diamonds + 1 netherrack + the template = 2 templates.",
-   "Use the smithing table: template in the left slot, diamond item in the middle, netherite ingot on the right. The netherite item keeps ALL enchantments, name and anvil uses.",
-   "Upgrade priority: pickaxe and sword first, then armor (netherite adds knockback resistance and lava-fire item immunity)."
-  ],
-  "materials": [
-   "Diamond pickaxe (or better)",
-   "Fire resistance potions",
-   "Beds or TNT for blast mining",
-   "36 ancient debris + 36 gold ingots for a full set",
-   "Netherite Upgrade template per item (duplicatable)",
-   "Smithing table"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air.",
-  "versions": "Netherite added in 1.16; the smithing template requirement added in 1.20. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "What is the best Y level for ancient debris?",
-    "a": "Y=15. Debris generates between Y=8 and Y=119 with a strong peak at 15, always hidden inside netherrack or basalt - never exposed to air."
-   },
-   {
-    "q": "Do enchantments transfer to netherite?",
-    "a": "Yes - the smithing table upgrade keeps every enchantment, the item name and prior anvil work. Nothing is lost."
-   },
-   {
-    "q": "Where is the Netherite Upgrade template?",
-    "a": "Bastion remnants: guaranteed in the treasure-room chest (the central cube of treasure bastions), uncommon elsewhere. Duplicate it with 7 diamonds + netherrack so one find serves the whole set."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-diamonds",
-   "how-to-make-nether-portal",
-   "how-to-beat-wither"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/ancient-debris/",
-    "label": "Ancient Debris"
-   },
-   {
-    "url": "/items/netherite-ingot/",
-    "label": "Netherite Ingot"
-   },
-   {
-    "url": "/structures/bastion-remnant/",
-    "label": "Bastion Remnant"
-   }
-  ],
-  "keywords": "netherite upgrade smithing template ancient debris y15 bastion armor"
- },
- {
-  "slug": "how-to-do-archaeology",
-  "name": "How to Do Archaeology in Minecraft",
-  "shortTitle": "Archaeology",
-  "quickAnswer": "Craft a brush (feather + copper ingot + stick) and use it on suspicious sand (desert temples, wells, warm ocean ruins) or suspicious gravel (trail ruins, cold ocean ruins) - brushing slowly reveals pottery sherds, armor trims, sniffer eggs and loot instead of breaking the block.",
-  "steps": [
-   "Craft a brush: 1 feather + 1 copper ingot + 1 stick, in a vertical line.",
-   "Learn the sites: suspicious sand generates in desert temples, desert wells and warm ocean ruins; suspicious gravel in trail ruins and cold ocean ruins (plus trial chambers corridors in 1.21+).",
-   "Spot the suspicious blocks: they look nearly identical to normal sand/gravel - suspicious sand has a slightly rougher texture. Digging or exploding them destroys the loot forever.",
-   "Hold right-click with the brush on a suspicious block. It takes ~5 seconds of continuous brushing; the item slowly rises out of the block.",
-   "Warm ocean ruins: brush suspicious sand for sniffer eggs (about 1 in 15 blocks) - hatch them on moss for sniffers, which dig up torchflower seeds and pitcher pods.",
-   "Trail ruins: brush suspicious gravel for exclusive pottery sherds and 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
-   "Cold ocean ruins: suspicious gravel gives sherds and loot; watch for drowned.",
-   "Collect all 20 pottery sherd patterns and assemble decorated pots (4 sherds or bricks in a diamond at the crafting table)."
-  ],
-  "materials": [
-   "Brush (feather + copper ingot + stick)",
-   "Shovel for clearing normal blocks AROUND the suspicious ones",
-   "Water breathing or a door for underwater ruins",
-   "Spare brushes - they wear out"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same sites, same brush mechanics. Both editions destroy suspicious block loot if you mine the block instead of brushing. Decorated pot patterns display identically.",
-  "versions": "Archaeology added in 1.20 (Trails & Tales); suspicious gravel in trial chambers added in 1.21. Current as of 26.3.",
-  "faq": [
-   {
-    "q": "How do you get a sniffer egg?",
-    "a": "Brush suspicious sand in warm ocean ruins - roughly 1 in 15 blocks contains an egg. It hatches in about 20 minutes on moss (double time off moss), growing into a sniffer that digs up ancient seeds."
-   },
-   {
-    "q": "What happens if you mine suspicious sand?",
-    "a": "The block and its loot vanish forever - nothing drops. Always brush suspicious blocks, and never let TNT or pistons touch them."
-   },
-   {
-    "q": "How many pottery sherds are there?",
-    "a": "20 different sherd patterns (1.20-1.21), each themed to its site: arms up, prize, skull, burn and more. Mix any 4 sherds or bricks into a decorated pot."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-end-city",
-   "how-to-use-conduit",
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/structures/trail-ruins/",
-    "label": "Trail Ruins"
-   },
-   {
-    "url": "/structures/desert-temple/",
-    "label": "Desert Temple"
-   },
-   {
-    "url": "/potions/water-breathing/",
-    "label": "Potion of Water Breathing"
-   }
-  ],
-  "keywords": "archaeology brush suspicious sand gravel sniffer egg pottery sherds armor trim"
- }
+  {
+    "slug": "how-to-find-diamonds",
+    "name": "How to Find Diamonds in Minecraft",
+    "shortTitle": "Find Diamonds",
+    "quickAnswer": "Mine at Y=-59 (just above bedrock) in the Overworld. Diamond ore generates most often at the deepest levels, from Y=16 down to bedrock, peaking near Y=-59. Use an iron pickaxe or better; Fortune III multiplies your diamonds.",
+    "steps": [
+      "Craft an iron pickaxe (3 iron ingots + 2 sticks). Stone or wood pickaxes destroy diamond ore without dropping anything.",
+      "Dig down to Y=-59. Press F3 (Java) or enable coordinates in world settings (Bedrock) to see your Y level. Dig a staircase, never straight down.",
+      "Branch mine: dig a main tunnel and side tunnels every 2 blocks so you expose the most blocks per pickaxe swing.",
+      "Look for diamond ore (light blue specks) in stone or deepslate. Each vein has 1-10 ores; veins near lava pools are easier to spot in caves.",
+      "Mine the ore with your iron+ pickaxe. Each ore drops 1 diamond (up to 4 with Fortune III).",
+      "Alternative: search caves between Y=-50 and -64, loot shipwrecks, buried treasure, mineshafts, bastions and end city chests."
+    ],
+    "materials": [
+      "Iron pickaxe or better (diamond, netherite)",
+      "Torches",
+      "Food",
+      "Water bucket for lava",
+      "Fortune III pickaxe for best yield (optional)"
+    ],
+    "editionNote": "Identical in Java and Bedrock: diamond ore generates from Y=16 to bedrock with peak rates at Y=-59, and reduced exposure to air since 1.18. Coordinates are shown with F3 in Java and the Show Coordinates world toggle in Bedrock.",
+    "versions": "Ore distribution applies to 1.18+ (Caves & Cliffs Part 2). Before 1.18, mine at Y=11-12.",
+    "faq": [
+      {
+        "q": "What is the best Y level for diamonds?",
+        "a": "Y=-59, just above the bedrock layer. Diamond ore is most common at the bottom of the world, but bedrock starts appearing at Y=-60, so -59 keeps you clear of it."
+      },
+      {
+        "q": "Do diamonds spawn more near lava?",
+        "a": "No, but diamond veins near lava lakes in deep caves are easier to see because fewer blocks hide them. Air exposure reduces diamond generation since 1.18, so strip mining beats cave hunting."
+      },
+      {
+        "q": "Can you find diamonds without mining?",
+        "a": "Yes: buried treasure chests, shipwrecks, mineshafts, bastion remnants, end cities and ruined portals can all contain diamonds or diamond gear."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-nether-portal",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/enchantments/fortune/",
+        "label": "Fortune enchantment"
+      },
+      {
+        "url": "/recipes/enchanting-table/",
+        "label": "Enchanting Table recipe"
+      }
+    ],
+    "keywords": "how to find diamonds best y level diamond mining"
+  },
+  {
+    "slug": "how-to-make-nether-portal",
+    "name": "How to Make a Nether Portal in Minecraft",
+    "shortTitle": "Make a Nether Portal",
+    "quickAnswer": "Build a vertical frame of obsidian at least 4 blocks wide and 5 blocks tall (10 obsidian minimum, corners optional) and light the inside with flint and steel. A full frame with corners uses 14 obsidian.",
+    "steps": [
+      "Get obsidian: pour water over lava source blocks, then mine it with a diamond or netherite pickaxe. You need 10 (economy frame) or 14 (full frame).",
+      "Build the frame upright: two obsidian columns 3 blocks tall, joined by 2 obsidian at the top and 2 at the bottom. Interior space: 2x3.",
+      "Corners are optional - leave them empty to save 4 obsidian.",
+      "Light it: use flint and steel (1 iron ingot + 1 flint from gravel) on the inside of the frame. Fire from lava, a fire charge or a ghast fireball also works.",
+      "The interior fills with purple portal blocks. Stand inside for 4 seconds to teleport to the Nether.",
+      "No diamond pickaxe? Cast the portal in place: make a mold, place lava source blocks where the frame goes, then pour water on each to turn them into obsidian one by one."
+    ],
+    "materials": [
+      "10-14 obsidian",
+      "Flint and steel (1 iron + 1 flint)",
+      "Diamond/netherite pickaxe OR water bucket + lava for casting"
+    ],
+    "editionNote": "Portal mechanics are the same in Java and Bedrock: minimum 4x5 frame, maximum 23x23. Linked portals match Overworld to Nether coordinates at an 8:1 ratio (X and Z divided by 8).",
+    "versions": "Unchanged since Alpha. Crying obsidian and ruined portals added in 1.16 - ruined portals can be repaired into working portals.",
+    "faq": [
+      {
+        "q": "How much obsidian do you need for a nether portal?",
+        "a": "10 blocks minimum if you skip the four corners, or 14 for the complete 4x5 frame."
+      },
+      {
+        "q": "Why won't my nether portal light?",
+        "a": "Check the frame is complete obsidian with a 2x3 empty interior, you are in the Overworld or Nether (portals do not form in the End), and you are lighting the inside face of the frame."
+      },
+      {
+        "q": "How do portals link between dimensions?",
+        "a": "Each Overworld block equals 8 Nether blocks on X and Z. A portal at Overworld 800, 64, 800 links near Nether 100, ~64, 100. Y is not scaled."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds",
+      "how-to-get-elytra"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/tools/nether-calculator/",
+        "label": "Nether Coordinate Calculator"
+      },
+      {
+        "url": "/recipes/flint-and-steel/",
+        "label": "Flint and Steel recipe"
+      }
+    ],
+    "keywords": "nether portal how to make obsidian flint steel"
+  },
+  {
+    "slug": "how-to-find-ancient-city",
+    "name": "How to Find an Ancient City in Minecraft",
+    "shortTitle": "Find an Ancient City",
+    "quickAnswer": "Ancient cities generate in the Deep Dark biome deep underground, around Y=-51, most often under mountains. Go below Y=0 in a mountain region and look for sculk blocks - or run /locate structure minecraft:ancient_city with cheats.",
+    "steps": [
+      "Prepare: bring wool blocks and a hoe (sculk breaks fastest with a hoe), night vision potions, food, and avoid armor that makes noise - or full enchanted gear if you plan to fight.",
+      "Head deep: ancient cities appear around Y=-51 in the Deep Dark. Mountainous areas (jagged peaks, plateaus) are the most reliable surface clue.",
+      "Identify the Deep Dark: sculk blocks, sculk veins, sensors and shriekers mark the biome. No hostile mobs spawn naturally here.",
+      "Move slowly: crouch (sneak) everywhere - sneaking creates no vibrations. Place wool to walk on, since wool blocks and carpets absorb vibrations.",
+      "Break or block sculk shriekers before triggering them 4 times: the fourth shriek summons the Warden.",
+      "Loot the chests: Swift Sneak enchanted books, echo shards, disc fragments and enchanted golden apples are exclusive or rare finds here.",
+      "Cheat alternative: /locate structure minecraft:ancient_city gives you the exact coordinates."
+    ],
+    "materials": [
+      "Wool blocks or carpets (lots)",
+      "Hoe for sculk",
+      "Night vision potions",
+      "Food and torches",
+      "No noise-making gear"
+    ],
+    "editionNote": "Identical structure in Java and Bedrock since 1.19. Warden spawning rules (4 shrieker activations) match across editions.",
+    "versions": "Added in 1.19 (The Wild Update).",
+    "faq": [
+      {
+        "q": "What Y level are ancient cities at?",
+        "a": "Ancient city centers sit around Y=-51, always in the Deep Dark biome far below Y=0."
+      },
+      {
+        "q": "How many shrieks summon the Warden?",
+        "a": "Four activations of a natural sculk shrieker within range summon one Warden from the ground - as long as no other Warden is nearby."
+      },
+      {
+        "q": "Is it worth looting an ancient city?",
+        "a": "Yes: Swift Sneak leggings enchantment and echo shards (for the recovery compass) are only found there, plus disc 5 fragments and high-tier enchanted loot."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/warden/",
+        "label": "Warden"
+      },
+      {
+        "url": "/commands/locate/",
+        "label": "/locate command"
+      }
+    ],
+    "keywords": "ancient city deep dark how to find warden sculk"
+  },
+  {
+    "slug": "how-to-tame-horse",
+    "name": "How to Tame a Horse in Minecraft",
+    "shortTitle": "Tame a Horse",
+    "quickAnswer": "Approach a wild horse with empty hands and right-click to mount it. It will buck you off a few times - keep mounting until hearts appear. Then equip it with a saddle to control it.",
+    "steps": [
+      "Find horses in plains and savanna biomes, in herds of 2-6.",
+      "Empty your hand and right-click the horse to mount. It bucks you off within seconds.",
+      "Mount again repeatedly. Each attempt raises its temper until hearts appear - the horse is tamed.",
+      "Feeding first helps: apples, wheat, sugar, hay bales or golden carrots/apples raise temper so fewer attempts are needed.",
+      "Open your inventory while riding (or sneak + right-click the horse) and place a saddle in its slot. Saddles cannot be crafted - find them in dungeons, temples, bastions, villages or by fishing.",
+      "Tamed horses can wear horse armor and be bred with golden apples or golden carrots.",
+      "Speed, jump height and health are random per horse (and inherited): breed your best two to get a better foal."
+    ],
+    "materials": [
+      "Saddle (loot only: dungeons, nether fortresses, bastions, villages, fishing)",
+      "Optional: apples/wheat/sugar to speed up taming",
+      "Golden apples or carrots for breeding"
+    ],
+    "editionNote": "Identical taming mechanic in Java and Bedrock. Skeleton horses from skeleton traps tame the same way; zombie horses are unused in vanilla survival.",
+    "versions": "Horses since 1.6.1. Horse variants and breeding mechanics current since 1.18+.",
+    "faq": [
+      {
+        "q": "Can you craft a saddle in Minecraft?",
+        "a": "No. Saddles are loot-only: dungeon/temple/bastion chests, village weaponsmith and tanner chests, fishing treasure, or trading with master leatherworkers (Java: 6 emeralds)."
+      },
+      {
+        "q": "What is the fastest way to tame a horse?",
+        "a": "Feed it a few apples, wheat or hay bales first - each feeding raises temper, so it accepts you after 1-2 mounts instead of many."
+      },
+      {
+        "q": "How do you get a fast horse?",
+        "a": "Stats are random at spawn. Tame several horses, test their speed and jump, then breed the best two with golden apples or golden carrots - foals average their parents' stats with random variation."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-breed-villagers"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/wolf/",
+        "label": "Wolf"
+      }
+    ],
+    "keywords": "how to tame horse saddle ride minecraft"
+  },
+  {
+    "slug": "how-to-breed-villagers",
+    "name": "How to Breed Villagers in Minecraft",
+    "shortTitle": "Breed Villagers",
+    "quickAnswer": "Villagers breed on their own when they have enough food (3 bread, 12 carrots, 12 potatoes or 12 beetroots each) and there are more valid beds than villagers - every bed needs 2 air blocks above it. Feed two villagers or toss them food and wait.",
+    "steps": [
+      "Build a safe, enclosed area so villagers cannot wander off or die to zombies.",
+      "Place beds: at least one bed per adult villager plus one extra bed per baby you want. Each bed needs 2 empty blocks above it or it does not count.",
+      "Make them willing: throw food at two villagers - 3 bread, or 12 carrots / potatoes / beetroots each. Farmers also share and harvest crops automatically.",
+      "Wait: heart particles appear and a baby villager spawns after a few minutes. It grows up in 20 minutes.",
+      "Alternative: build a crop farm inside the enclosure with one composter; a farmer villager will harvest and share food nonstop, breeding indefinitely while beds are available.",
+      "Babies inherit no profession: they pick one as adults by claiming a free job site block (lectern = librarian, blast furnace = armorer...)."
+    ],
+    "materials": [
+      "Beds (1 per villager + spares)",
+      "Food: bread, carrots, potatoes or beetroots",
+      "Job site blocks for professions",
+      "Composter (optional, for an automatic breeder)"
+    ],
+    "editionNote": "Breeding rules match in Java and Bedrock. Bedrock villagers need the beds to be linked to the village and villagers need to be able to pathfind to them.",
+    "versions": "Current mechanics since 1.14 (Village & Pillage).",
+    "faq": [
+      {
+        "q": "Why won't my villagers breed?",
+        "a": "Most often: not enough valid beds (each needs 2 air blocks above), not enough food, mob griefing is off (they cannot pick up food), or they cannot pathfind to the beds."
+      },
+      {
+        "q": "What food makes villagers breed?",
+        "a": "Bread (3), carrots (12), potatoes (12) or beetroots (12) per villager. They must pick it up - toss it on the ground next to them."
+      },
+      {
+        "q": "Can villagers breed infinitely?",
+        "a": "Yes, as long as you keep adding valid beds and food. Automatic breeders use a farmer with a 9x9 carrot or potato field and a row of beds."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-tame-horse"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/villager/",
+        "label": "Villager"
+      },
+      {
+        "url": "/recipes/bed/",
+        "label": "Bed recipe"
+      }
+    ],
+    "keywords": "how to breed villagers beds food breeder"
+  },
+  {
+    "slug": "how-to-get-elytra",
+    "name": "How to Get Elytra in Minecraft",
+    "shortTitle": "Get Elytra",
+    "quickAnswer": "Elytra is found only in End Ships, which generate at some End Cities in the outer End islands. Defeat the Ender Dragon, throw an ender pearl through an End Gateway, find an End City with a ship, and take the elytra from its item frame.",
+    "steps": [
+      "Kill the Ender Dragon to open the End Gateways (up to 20).",
+      "Throw an ender pearl into a gateway to teleport to the outer islands.",
+      "Explore until you find an End City - towers of purpur and end stone bricks. Only some cities have a ship floating beside them.",
+      "Board the ship: bridge or pearl across. Watch for shulkers - their levitation bullets drop you from heights.",
+      "Inside the ship's hull, take the elytra from the item frame (behind the brewing stand). The dragon head sits at the bow.",
+      "To fly: equip elytra in the chestplate slot, jump from height and press jump again mid-air to glide. Use firework rockets to boost.",
+      "Repair it with phantom membranes on an anvil, or put Mending + Unbreaking III on it - elytra cannot be crafted."
+    ],
+    "materials": [
+      "Ender pearls (for gateways and shulker dodging)",
+      "Slow Falling potions (recommended)",
+      "Blocks for bridging",
+      "Good armor and a bow"
+    ],
+    "editionNote": "Identical in Java and Bedrock. Every End City has at most one ship; not every city has one - keep exploring.",
+    "versions": "Elytra since 1.9 (Combat Update).",
+    "faq": [
+      {
+        "q": "Can you craft elytra?",
+        "a": "No. Elytra is only found as loot in End Ships - one per ship, in an item frame in the hull."
+      },
+      {
+        "q": "Do elytra break?",
+        "a": "Yes: they lose 1 durability per second of flight (432 seconds total) and stop working at 1 durability instead of breaking. Repair with phantom membranes or Mending."
+      },
+      {
+        "q": "How do you fly forever with elytra?",
+        "a": "Use firework rockets (paper + gunpowder; 3 gunpowder for the longest boost) while gliding, and gain altitude by pitching up after each boost. With Unbreaking III + Mending it never wears out."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-nether-portal",
+      "how-to-find-ancient-city"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/enchantments/mending/",
+        "label": "Mending"
+      },
+      {
+        "url": "/mobs/shulker/",
+        "label": "Shulker"
+      }
+    ],
+    "keywords": "how to get elytra end city ship fly wings"
+  },
+  {
+    "slug": "how-to-enchant",
+    "name": "How to Enchant in Minecraft",
+    "shortTitle": "Enchant Items",
+    "quickAnswer": "Craft an enchanting table (4 obsidian + 2 diamonds + 1 book), surround it with up to 15 bookshelves leaving a one-block gap, place the item inside with 1-3 lapis lazuli, and pick one of three random enchantments costing up to 30 XP levels.",
+    "steps": [
+      "Craft an enchanting table: 4 obsidian, 2 diamonds, 1 book.",
+      "Build a library: 15 bookshelves (6 planks + 3 books each) arranged around the table with exactly one block of air between - a 5x5 ring with the table in the center is the standard layout.",
+      "Get lapis lazuli: mine lapis ore (Y=-32 to 32, peak near Y=0) or trade with cleric villagers.",
+      "Get XP levels: kill mobs, smelt, mine, breed animals or fish. Level 30 unlocks the top enchantment offer.",
+      "Open the table: put the item in the left slot, 1-3 lapis in the right. Three offers appear; the bottom one costs 3 lapis and 30 levels.",
+      "The offers reset only after you enchant something - enchant a cheap item (book or wooden tool) to reroll if you dislike the options.",
+      "Go further with anvils: combine two enchanted items, or apply enchanted books (from loot, fishing or librarian villagers) for exact enchants like Mending."
+    ],
+    "materials": [
+      "Enchanting table",
+      "15 bookshelves for max level",
+      "Lapis lazuli",
+      "XP levels (30 for the top offer)",
+      "Anvil + enchanted books for targeted enchants"
+    ],
+    "editionNote": "Mechanics match in Java and Bedrock: 15 bookshelves max, 30-level cap, treasure enchantments (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) never appear on the table.",
+    "versions": "Current system since 1.8 (lapis cost added).",
+    "faq": [
+      {
+        "q": "How many bookshelves for level 30 enchants?",
+        "a": "15 bookshelves, placed one block away from the enchanting table (5x5 ring, table in the middle, nothing - not even torches or carpet - in the gap)."
+      },
+      {
+        "q": "Why can't I get Mending from the enchanting table?",
+        "a": "Mending is a treasure enchantment: it only comes from loot chests, fishing, raids (Bedrock) or librarian villager trades."
+      },
+      {
+        "q": "How do you reroll enchantment options?",
+        "a": "Enchant any cheap item - a book or wooden shovel - and the three offers regenerate. Your item type also filters which enchants can appear."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/recipes/enchanting-table/",
+        "label": "Enchanting Table recipe"
+      },
+      {
+        "url": "/enchantments/",
+        "label": "All enchantments"
+      },
+      {
+        "url": "/recipes/anvil/",
+        "label": "Anvil recipe"
+      }
+    ],
+    "keywords": "how to enchant minecraft bookshelves level 30 lapis"
+  },
+  {
+    "slug": "how-to-make-iron-golem",
+    "name": "How to Make an Iron Golem in Minecraft",
+    "shortTitle": "Make an Iron Golem",
+    "quickAnswer": "Stack 4 iron blocks in a T shape (3 across the top, 1 in the middle below, 1 at the base) and place a carved pumpkin or jack o'lantern on top center last. It transforms into a live iron golem with 100 health that attacks hostile mobs.",
+    "steps": [
+      "Collect 36 iron ingots and craft 4 blocks of iron (9 ingots each).",
+      "Get a carved pumpkin: shear a regular pumpkin with shears. A jack o'lantern also works.",
+      "Place 1 iron block on the ground, stack 1 more on top (body).",
+      "Attach 1 iron block to each side of the top block (arms), forming a T.",
+      "Place the carved pumpkin on top of the center block - LAST, or the golem will not form.",
+      "The structure transforms into an iron golem: 100 health, up to 21.5 damage per hit, throws mobs into the air.",
+      "Golems do not follow you; they patrol where they spawned. Fence them in or use a lead to keep your bodyguard near your base.",
+      "Villages spawn their own golems naturally - and villager-summoned golems turn hostile if your village popularity drops too low."
+    ],
+    "materials": [
+      "4 blocks of iron (36 iron ingots)",
+      "1 carved pumpkin or jack o'lantern",
+      "Shears (to carve the pumpkin)"
+    ],
+    "editionNote": "Identical construction in Java and Bedrock. The T can also be built lying on its side; the pumpkin always goes last.",
+    "versions": "Iron golems since 1.2.1. Cracked texture and iron ingot repair (right-click with an iron ingot heals 25%) since 1.15.",
+    "faq": [
+      {
+        "q": "Why won't my iron golem spawn?",
+        "a": "Check the shape is a T of exactly 4 iron blocks with no extra blocks touching, and that you placed the carved pumpkin last. Snow layers or grass on top of the blocks can also block it."
+      },
+      {
+        "q": "Will an iron golem protect me?",
+        "a": "Player-built golems never attack their creator and fight hostile mobs nearby, but they do not follow you - keep them fenced or on a lead."
+      },
+      {
+        "q": "How do you heal an iron golem?",
+        "a": "Right-click it with an iron ingot: each ingot restores 25% of its health. Cracks on its body show how hurt it is."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-breed-villagers"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/recipes/shears/",
+        "label": "Shears recipe"
+      }
+    ],
+    "keywords": "how to make iron golem build iron blocks pumpkin"
+  },
+  {
+    "slug": "how-to-beat-wither",
+    "name": "How to Beat the Wither in Minecraft",
+    "shortTitle": "Beat the Wither",
+    "quickAnswer": "Summon the Wither with 4 soul sand (or soul soil) in a T shape and 3 wither skeleton skulls on top, then fight it with Smite V, Strength II and golden apples - ideally trapped under the Nether or End bedrock ceiling. It has 300 HP in Java and 300-600 HP in Bedrock depending on difficulty, and it drops one nether star.",
+    "steps": [
+      "Collect 3 wither skeleton skulls (rare drop from wither skeletons in Nether fortresses; Looting III helps a lot) and 4 soul sand or soul soil from Soul Sand Valleys.",
+      "Choose the arena: the classic trick is summoning it under the Nether's bedrock ceiling (around Y=127) or at an End gateway so its head gets stuck, or dig a long tunnel at deepslate level and fight it there.",
+      "Gear up: full Protection IV diamond or netherite armor, a Smite V sword (Smite beats Sharpness against the undead Wither), Strength II potions, Regeneration, golden apples and a shield for its skulls. A Power V bow handles phase one.",
+      "Build the T shape with the soul sand, place the three skulls last - the Wither spawns, charges up (invulnerable) and explodes. Back off.",
+      "Phase one (above half health): it flies and shoots skulls - shoot it with a bow. The black skulls damage you, the blue ones (Java) break harder blocks.",
+      "Phase two (below half health): it gains Wither armor (immune to arrows), charges and breaks blocks. Switch to the sword, eat golden apples when the Wither effect drains your health, and finish it. In Bedrock at half health it also spawns wither skeletons - kill them or they overwhelm you.",
+      "Collect the nether star (never destroyed by its own explosions) - it is the beacon ingredient."
+    ],
+    "materials": [
+      "4 soul sand or soul soil",
+      "3 wither skeleton skulls",
+      "Protection IV armor",
+      "Smite V sword and Power V bow",
+      "Strength II + Regeneration potions",
+      "Golden apples and a shield",
+      "Milk buckets to clear the Wither effect"
+    ],
+    "editionNote": "Java: 300 HP, the Wither hovers and shoots blue skulls that break obsidian-hard blocks slowly. Bedrock: 600 HP on Hard (450 Normal, 300 Easy), more aggressive, dashes at targets, and spawns 3-4 wither skeletons at half health - the Bedrock fight is much harder. The bedrock-ceiling trap works in Java; Bedrock players usually fight in a deepslate tunnel.",
+    "versions": "The Wither is unchanged since 1.4.2 apart from Bedrock behavior tweaks. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "What is the easiest way to kill the Wither?",
+        "a": "Trapping it: summon it under the Nether bedrock ceiling in Java so its head gets stuck and it cannot move, then hit it safely. In Bedrock, fight it at the bottom of a long deepslate tunnel so it cannot fly away."
+      },
+      {
+        "q": "Does Smite or Sharpness work better on the Wither?",
+        "a": "Smite. The Wither is undead, so Smite V adds +12.5 damage per hit against it, more than Sharpness V's +3."
+      },
+      {
+        "q": "Can the Wither break obsidian?",
+        "a": "Its blue skulls (Java) can break obsidian given time, and its dash attacks break most blocks - but it can never break bedrock, end portal frames or barriers, which is why ceiling traps work."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-nether-portal",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/wither/",
+        "label": "Wither mob profile"
+      },
+      {
+        "url": "/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/enchantments/sharpness/",
+        "label": "Sharpness enchantment"
+      }
+    ],
+    "keywords": "beat wither boss fight nether star wither skeleton skull bedrock ceiling trap"
+  },
+  {
+    "slug": "how-to-start-raid",
+    "name": "How to Start and Win a Raid in Minecraft",
+    "shortTitle": "Win a Raid",
+    "quickAnswer": "Get Bad Omen (drink an ominous bottle from a raid captain), walk into a village, and survive all waves: 3 on Easy, 5 on Normal, 7 on Hard (plus 1 extra with Raid Omen II+). Win to earn Hero of the Village and huge trading discounts.",
+    "steps": [
+      "Get the Ominous effect: since 1.21, killing a pillager captain (the one with the banner, found at outposts and patrols) drops an Ominous Bottle. Drinking it gives Bad Omen.",
+      "Prepare the village: wall it in or ring it with traps, light everything, and put the villagers somewhere safe - if all villagers die or all beds are destroyed, you lose.",
+      "Gear up: Protection IV armor, a strong sword or axe, a bow or crossbow, a shield (essential against vindicator axes and pillager arrows), totems of undying and food. Iron golems help enormously.",
+      "Enter the village with Bad Omen active: it converts to Raid Omen and the raid bar appears. Waves spawn at the village edge and pathfind toward the center.",
+      "Fight wave by wave: pillagers shoot, vindicators rush with axes (disable your shield temporarily if they stun it), evokers summon vexes and fang lines, witches throw potions, and ravagers smash through. Kill ravager riders first, then the ravager.",
+      "Use corners and doors to funnel enemies; ring the raid bell to highlight remaining raiders (Java) or listen for the horn to find the wave's direction.",
+      "Survive the final wave to win: you get Hero of the Village - villagers throw gifts (Java) and slash trade prices massively for 40 minutes."
+    ],
+    "materials": [
+      "Ominous Bottle (from a raid captain)",
+      "Protection IV armor + shield",
+      "Sword/axe and bow/crossbow",
+      "Totems of undying",
+      "Blocks to wall off the village",
+      "Iron golems (optional but strong)"
+    ],
+    "editionNote": "Both editions share the 3/5/7 wave structure (Easy/Normal/Hard, +1 wave with Raid Omen II or higher). Java raiders can pick up dropped ominous banners to become the new captain; in Bedrock, raid mobs are more numerous per wave. Hero of the Village gift-throwing is a Java feature; Bedrock gives the discounts.",
+    "versions": "Since 1.21, Bad Omen comes from drinking an Ominous Bottle (dropped by captains) instead of directly from the kill. Before 1.21, killing a captain applied Bad Omen immediately. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How do you trigger a raid?",
+        "a": "Enter a village while the Bad Omen effect is active. Since 1.21 you get Bad Omen by drinking an Ominous Bottle dropped by a pillager captain."
+      },
+      {
+        "q": "What happens if you lose a raid?",
+        "a": "If every villager dies or every bed is destroyed, the raiders win, celebrate, and you get no reward. The villagers are gone for good - protect them first."
+      },
+      {
+        "q": "What is Hero of the Village good for?",
+        "a": "Deep trade discounts (a few emeralds for enchanted diamond gear) and, in Java, villagers throw free gifts. It is the cheapest way to gear up in the game."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-breed-villagers",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/farms/raid-farm/",
+        "label": "Raid farm"
+      },
+      {
+        "url": "/mobs/pillager/",
+        "label": "Pillager"
+      },
+      {
+        "url": "/items/totem-of-undying/",
+        "label": "Totem of Undying"
+      }
+    ],
+    "keywords": "raid bad omen ominous bottle hero of the village pillager waves"
+  },
+  {
+    "slug": "how-to-find-end-city",
+    "name": "How to Find an End City in Minecraft",
+    "shortTitle": "Find an End City",
+    "quickAnswer": "After beating the Ender Dragon, throw an ender pearl into the floating end gateway to reach the outer End islands, then explore until you spot the tall purpur towers - about half of them have an End Ship with an elytra in an item frame.",
+    "steps": [
+      "Defeat the Ender Dragon. This activates the central exit portal and spawns an end gateway (a floating bedrock structure with a portal block) around the main island's edge - up to 20 gateways as you kill more dragons.",
+      "Bring: ender pearls (for gateways), slow-falling potions or a water bucket, blocks for bridging, a pickaxe (for purpur and shulker-proof mining), food, and empty shulker boxes if you have them.",
+      "Throw an ender pearl into the gateway (or build a trapdoor/elytra contraption through the 1-block gap) to teleport roughly 1,000 blocks out to the outer islands.",
+      "Explore: End cities generate on the big outer islands. Look for the distinctive purple purpur towers with End Rods. Chunkbase's End City finder with your seed saves hours.",
+      "Loot carefully: shulkers camouflage as purpur and their bullets inflict Levitation - carry a shield to block bullets and slow falling to survive float-offs. Kill shulkers for shulker shells (2 make a shulker box).",
+      "If the city has an End Ship (a floating boat beside the tallest tower), grab the elytra from the item frame in the hull, the dragon head from the bow, and loot the two chests - the best gear in the game (enchanted diamond/iron).",
+      "Mark the coordinates of every city and gateway you find. With an elytra and fireworks, the return trip is minutes."
+    ],
+    "materials": [
+      "Ender pearls (one per gateway crossing)",
+      "Slow Falling potions or water bucket",
+      "Shield",
+      "Stack of blocks for bridging",
+      "Pickaxe and food",
+      "Elytra + fireworks for further trips"
+    ],
+    "editionNote": "Identical in Java and Bedrock: gateway teleporting, city generation, shulkers and the ship's elytra work the same. Bedrock shulker bullets home slightly more aggressively. End cities appear in about half of generated city sites with ships roughly half the time.",
+    "versions": "End cities were added in 1.9 (Combat Update). Mechanics unchanged in current versions (26.3).",
+    "faq": [
+      {
+        "q": "How rare are End cities?",
+        "a": "They generate scattered across the outer End islands, typically thousands of blocks apart. Expect a long search without an elytra - Chunkbase with your seed pinpoints them exactly."
+      },
+      {
+        "q": "Does every End city have an elytra?",
+        "a": "No. Only End Ships contain elytra, and only some cities have a ship. Keep exploring - with a few cities looted you will have several elytra."
+      },
+      {
+        "q": "Can you find an End city without killing the dragon?",
+        "a": "Technically yes by bridging or flying thousands of blocks from the main island, but the dragon fight is far easier. The gateways only open after each dragon kill."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-elytra",
+      "how-to-beat-wither"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/elytra/",
+        "label": "Elytra"
+      },
+      {
+        "url": "/mobs/shulker/",
+        "label": "Shulker"
+      },
+      {
+        "url": "/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ],
+    "keywords": "end city find elytra end ship gateway shulker outer islands"
+  },
+  {
+    "slug": "how-to-make-beacon",
+    "name": "How to Make and Use a Beacon in Minecraft",
+    "shortTitle": "Make a Beacon",
+    "quickAnswer": "Craft a beacon with 1 nether star, 5 glass and 3 obsidian, place it on a pyramid of 9 to 164 iron, gold, diamond, emerald or netherite blocks (1-4 layers), and feed it an ingot or gem to pick a power like Speed, Haste or Regeneration.",
+    "steps": [
+      "Kill the Wither for its nether star (see our Wither guide).",
+      "Craft the beacon: nether star in the center, 3 obsidian along the bottom row, glass filling the rest.",
+      "Mine or smelt the pyramid material: iron is the practical choice (a full 4-layer pyramid costs 164 blocks = 1,476 ingots - an iron farm makes this painless). Emerald, gold, diamond and netherite blocks work identically and can be mixed.",
+      "Build the pyramid on flat ground with clear sky above: layer 1 is 3x3, layer 2 is 5x5, layer 3 is 7x7, layer 4 is 9x9, beacon on top. No transparent blocks (except the beacon itself) can sit above it.",
+      "Open the beacon UI and insert one iron ingot, gold ingot, emerald, diamond or netherite ingot. Choose a primary power: Speed, Haste, Resistance, Jump Boost or Strength (more layers unlock more options).",
+      "With all 4 layers, also pick a secondary power: Regeneration, or boost the primary to level II.",
+      "The beam needs sky access and gives effects in a radius: 20 blocks for 1 layer up to 50 blocks for 4 layers. Effects last ~17 seconds after leaving the radius.",
+      "Stained glass above the beam colors it - stack colors to blend."
+    ],
+    "materials": [
+      "1 nether star (Wither drop)",
+      "5 glass + 3 obsidian",
+      "164 mineral blocks for a max pyramid (iron recommended)",
+      "1 ingot/gem to activate"
+    ],
+    "editionNote": "Identical in Java and Bedrock: same recipe, pyramid sizes, powers and radius. In Bedrock the beam activates a bit faster and beacon effects apply up to 4 blocks below the pyramid as well.",
+    "versions": "Beacons were added in 1.4.2. Netherite blocks became valid pyramid material in 1.16. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How many blocks do you need for a full beacon?",
+        "a": "164 blocks for a 4-layer pyramid (9x9 + 7x7 + 5x5 + 3x3). In iron that is 1,476 ingots - farm iron before attempting it."
+      },
+      {
+        "q": "Do different pyramid materials give better effects?",
+        "a": "No. Iron, gold, diamond, emerald and netherite blocks all work identically, and you can mix them in one pyramid."
+      },
+      {
+        "q": "Why is my beacon not working?",
+        "a": "It needs a clear view of the sky: no solid or transparent blocks (other than the beacon) above it. Check the pyramid is complete and you fed it an ingot or gem."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-wither",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/farms/iron-farm/",
+        "label": "Iron farm"
+      },
+      {
+        "url": "/recipes/furnace/",
+        "label": "Furnace recipe"
+      }
+    ],
+    "keywords": "beacon pyramid powers haste speed regeneration nether star"
+  },
+  {
+    "slug": "how-to-use-conduit",
+    "name": "How to Make and Use a Conduit in Minecraft",
+    "shortTitle": "Use a Conduit",
+    "quickAnswer": "Craft a conduit with 1 Heart of the Sea (from buried treasure) and 8 nautilus shells, then surround it underwater with 16-42 prismarine, sea lantern or dark prismarine blocks in a cage frame: it grants Conduit Power (water breathing, night vision and haste underwater) in a radius up to 96 blocks and damages hostile mobs.",
+    "steps": [
+      "Find a Heart of the Sea: every buried treasure chest (located with a treasure map from shipwrecks and ocean ruins) contains exactly one.",
+      "Collect 8 nautilus shells: fishing, drowned drops, or buying from wandering traders.",
+      "Craft the conduit: Heart of the Sea in the center, nautilus shells filling the other 8 slots.",
+      "Gather prismarine: raid an Ocean Monument (guardians drop prismarine shards and crystals; the monument itself is prismarine) or trade with masons. Sea lanterns and dark prismarine also count as frame blocks.",
+      "Build the activation frame underwater: the classic design is three 5x5 open squares (like a cage) centered on the conduit, using 42 blocks for full power. A minimum of 16 blocks in any valid ring pattern activates it at reduced range.",
+      "Place the conduit in the center, fully waterlogged. It activates with a glowing eye when the frame is complete.",
+      "Enjoy Conduit Power in the radius: infinite water breathing, underwater night vision and faster mining - 32 blocks at minimum frame up to 96 blocks with all 42.",
+      "Fully powered (42 blocks), the conduit also zaps hostile mobs (drowned, guardians) that come within 8 blocks of it in water or rain."
+    ],
+    "materials": [
+      "1 Heart of the Sea (buried treasure)",
+      "8 nautilus shells",
+      "16-42 prismarine / sea lantern / dark prismarine blocks",
+      "Everything underwater"
+    ],
+    "editionNote": "Identical in Java and Bedrock: same recipe, frame requirements and effect range. The conduit's hostile-mob attack also works in both editions when fully framed.",
+    "versions": "Conduits were added in 1.13 (Update Aquatic). Unchanged in current versions (26.3).",
+    "faq": [
+      {
+        "q": "Where do you find a Heart of the Sea?",
+        "a": "In buried treasure chests - always exactly one per chest. Get treasure maps from shipwreck map chests or ocean ruins, then dig at the red X."
+      },
+      {
+        "q": "How big is the conduit range?",
+        "a": "32 blocks with the minimum 16-block frame, scaling up to 96 blocks with the full 42-block cage."
+      },
+      {
+        "q": "Do conduits work out of water?",
+        "a": "The conduit block must be waterlogged (or rained on) to function, and its effects only apply to players touching water or rain."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-ancient-city",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/drowned/",
+        "label": "Drowned"
+      },
+      {
+        "url": "/mobs/guardian/",
+        "label": "Guardian"
+      },
+      {
+        "url": "/enchantments/respiration/",
+        "label": "Respiration enchantment"
+      }
+    ],
+    "keywords": "conduit heart of the sea nautilus shell underwater breathing prismarine frame"
+  },
+  {
+    "slug": "how-to-build-trading-hall",
+    "name": "How to Build a Villager Trading Hall",
+    "shortTitle": "Trading Hall",
+    "quickAnswer": "Cure zombie villagers (splash Weakness + golden apple) for 1-emerald trades, assign each villager a profession with a workstation (lectern = librarian), and lock in their trades by trading once - then line them up in cells with their workstations. Cured librarians sell any enchanted book, including Mending, for 1 emerald.",
+    "steps": [
+      "Gather supplies: brewing stand, fermented spider eyes (sugar + brown mushroom + spider eye), splash Weakness potions, golden apples (8 gold ingots + apple each), boats or minecarts for transport, beds and workstations.",
+      "Find zombie villagers at night (5% of zombies) or in an igloo basement, or let a zombie convert your own villager on purpose (100% conversion on Hard difficulty, 50% on Normal, 0% on Easy).",
+      "Cure them: throw the splash Potion of Weakness at the zombie villager, right-click it with a golden apple, and wait 3-5 minutes (Java) as it shakes and converts.",
+      "Transport each cured villager to its cell (1-wide space with its workstation in front). Boats on land, minecarts on rails, or nether portals for long hauls.",
+      "Assign professions with the workstation: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
+      "For librarians: check the first trade BEFORE trading. If the book is wrong (not Mending etc.), break and replace the lectern to reroll - trades lock permanently after your first trade with that villager.",
+      "Trade once to lock, then name-tag villagers you want to keep. Light everything, wall it in, and add beds + a bell if you want them to survive raids.",
+      "Optional (Java): zombify and re-cure villagers to stack discounts - after 1-2 cure cycles, most trades cost 1 emerald."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder",
+      "Splash Potions of Weakness",
+      "Golden apples",
+      "Workstations (lecterns, composters...)",
+      "Boats/minecarts + rails",
+      "Name tags",
+      "Building blocks, torches, fences"
+    ],
+    "editionNote": "Java: discounts from curing stack with multiple cures (up to 5x), and villagers need no bed - just a workstation. Bedrock: curing discounts apply once, villagers need beds to keep professions, and workstations must be reachable. Igloo basements always contain one zombie villager with a brewing setup nearby.",
+    "versions": "Curing mechanics stable since 1.14 (Village & Pillage). The 1.20.2 experimental librarian rebalance (biome-locked books) is optional and off by default - normal worlds keep the classic lectern reroll. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How do you get Mending from villagers?",
+        "a": "Cure a zombie villager, give it a lectern, and check its first book trade. Break and replace the lectern to reroll until Mending appears (any price), then trade once to lock it. Cured librarians sell Mending for 1 emerald."
+      },
+      {
+        "q": "Why won't my villager take a profession?",
+        "a": "It cannot pathfind to the workstation, or it already locked a profession by trading. Break the old workstation, place the new one within reach, and never trade before you like the offers. Nitwits (green coats) never take jobs."
+      },
+      {
+        "q": "Do villagers need beds to trade?",
+        "a": "In Java, no - only a workstation and access to it. In Bedrock they need to be linked to a bed to keep their profession over time. Beds are also required for breeding and iron farms."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-breed-villagers",
+      "how-to-start-raid",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/villagers/librarian/",
+        "label": "Librarian trades"
+      },
+      {
+        "url": "/potions/weakness/",
+        "label": "Potion of Weakness"
+      },
+      {
+        "url": "/recipes/golden-apple/",
+        "label": "Golden Apple recipe"
+      }
+    ],
+    "keywords": "trading hall villager cure zombie weakness mending librarian 1 emerald discount"
+  },
+  {
+    "slug": "how-to-upgrade-netherite",
+    "name": "How to Upgrade to Netherite",
+    "shortTitle": "Netherite Upgrade",
+    "quickAnswer": "Mine ancient debris in the Nether at Y=15, smelt it into netherite scraps, combine 4 scraps + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade smithing template (found in bastion treasure rooms). Enchantments and names are kept.",
+    "steps": [
+      "Gear up for the Nether: diamond pickaxe (ancient debris requires diamond+), fire resistance potions, food, blocks and a bed or TNT for mining.",
+      "Mine ancient debris at Y=15 (press F3 in Java, enable coordinates in Bedrock). Bed-mine: place a bed 4+ blocks away at the end of a tunnel, click it to explode, and repeat - debris survives the blast. TNT chains work too.",
+      "Smelt ancient debris into netherite scraps in a furnace or blast furnace.",
+      "Craft netherite ingots: 4 scraps + 4 gold ingots (shapeless). Each armor piece or tool costs 1 ingot, so a full set needs 36 scraps + 36 gold.",
+      "Find a Netherite Upgrade smithing template: guaranteed in bastion remnant TREASURE rooms (the big central cube with lava and gold), possible in other bastion chests. Raid it with fire resistance and gold armor.",
+      "Duplicate the template at a crafting table: 7 diamonds + 1 netherrack + the template = 2 templates.",
+      "Use the smithing table: template in the left slot, diamond item in the middle, netherite ingot on the right. The netherite item keeps ALL enchantments, name and anvil uses.",
+      "Upgrade priority: pickaxe and sword first, then armor (netherite adds knockback resistance and lava-fire item immunity)."
+    ],
+    "materials": [
+      "Diamond pickaxe (or better)",
+      "Fire resistance potions",
+      "Beds or TNT for blast mining",
+      "36 ancient debris + 36 gold ingots for a full set",
+      "Netherite Upgrade template per item (duplicatable)",
+      "Smithing table"
+    ],
+    "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air.",
+    "versions": "Netherite added in 1.16; the smithing template requirement added in 1.20. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "What is the best Y level for ancient debris?",
+        "a": "Y=15. Debris generates between Y=8 and Y=119 with a strong peak at 15, always hidden inside netherrack or basalt - never exposed to air."
+      },
+      {
+        "q": "Do enchantments transfer to netherite?",
+        "a": "Yes - the smithing table upgrade keeps every enchantment, the item name and prior anvil work. Nothing is lost."
+      },
+      {
+        "q": "Where is the Netherite Upgrade template?",
+        "a": "Bastion remnants: guaranteed in the treasure-room chest (the central cube of treasure bastions), uncommon elsewhere. Duplicate it with 7 diamonds + netherrack so one find serves the whole set."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds",
+      "how-to-make-nether-portal",
+      "how-to-beat-wither"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/ancient-debris/",
+        "label": "Ancient Debris"
+      },
+      {
+        "url": "/items/netherite-ingot/",
+        "label": "Netherite Ingot"
+      },
+      {
+        "url": "/structures/bastion-remnant/",
+        "label": "Bastion Remnant"
+      }
+    ],
+    "keywords": "netherite upgrade smithing template ancient debris y15 bastion armor"
+  },
+  {
+    "slug": "how-to-do-archaeology",
+    "name": "How to Do Archaeology in Minecraft",
+    "shortTitle": "Archaeology",
+    "quickAnswer": "Craft a brush (feather + copper ingot + stick) and use it on suspicious sand (desert temples, wells, warm ocean ruins) or suspicious gravel (trail ruins, cold ocean ruins) - brushing slowly reveals pottery sherds, armor trims, sniffer eggs and loot instead of breaking the block.",
+    "steps": [
+      "Craft a brush: 1 feather + 1 copper ingot + 1 stick, in a vertical line.",
+      "Learn the sites: suspicious sand generates in desert temples, desert wells and warm ocean ruins; suspicious gravel in trail ruins and cold ocean ruins (plus trial chambers corridors in 1.21+).",
+      "Spot the suspicious blocks: they look nearly identical to normal sand/gravel - suspicious sand has a slightly rougher texture. Digging or exploding them destroys the loot forever.",
+      "Hold right-click with the brush on a suspicious block. It takes ~5 seconds of continuous brushing; the item slowly rises out of the block.",
+      "Warm ocean ruins: brush suspicious sand for sniffer eggs (about 1 in 15 blocks) - hatch them on moss for sniffers, which dig up torchflower seeds and pitcher pods.",
+      "Trail ruins: brush suspicious gravel for exclusive pottery sherds and 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
+      "Cold ocean ruins: suspicious gravel gives sherds and loot; watch for drowned.",
+      "Collect all 20 pottery sherd patterns and assemble decorated pots (4 sherds or bricks in a diamond at the crafting table)."
+    ],
+    "materials": [
+      "Brush (feather + copper ingot + stick)",
+      "Shovel for clearing normal blocks AROUND the suspicious ones",
+      "Water breathing or a door for underwater ruins",
+      "Spare brushes - they wear out"
+    ],
+    "editionNote": "Identical in Java and Bedrock: same sites, same brush mechanics. Both editions destroy suspicious block loot if you mine the block instead of brushing. Decorated pot patterns display identically.",
+    "versions": "Archaeology added in 1.20 (Trails & Tales); suspicious gravel in trial chambers added in 1.21. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How do you get a sniffer egg?",
+        "a": "Brush suspicious sand in warm ocean ruins - roughly 1 in 15 blocks contains an egg. It hatches in about 20 minutes on moss (double time off moss), growing into a sniffer that digs up ancient seeds."
+      },
+      {
+        "q": "What happens if you mine suspicious sand?",
+        "a": "The block and its loot vanish forever - nothing drops. Always brush suspicious blocks, and never let TNT or pistons touch them."
+      },
+      {
+        "q": "How many pottery sherds are there?",
+        "a": "20 different sherd patterns (1.20-1.21), each themed to its site: arms up, prize, skull, burn and more. Mix any 4 sherds or bricks into a decorated pot."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-end-city",
+      "how-to-use-conduit",
+      "how-to-breed-villagers"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/trail-ruins/",
+        "label": "Trail Ruins"
+      },
+      {
+        "url": "/structures/desert-temple/",
+        "label": "Desert Temple"
+      },
+      {
+        "url": "/potions/water-breathing/",
+        "label": "Potion of Water Breathing"
+      }
+    ],
+    "keywords": "archaeology brush suspicious sand gravel sniffer egg pottery sherds armor trim"
+  },
+  {
+    "slug": "how-to-beat-ender-dragon",
+    "name": "How to Beat the Ender Dragon in Minecraft",
+    "shortTitle": "Beat the Ender Dragon",
+    "quickAnswer": "Enter the End through a stronghold portal with a bow, plenty of arrows, slow falling potions and a water bucket. Destroy the 10 End Crystals on the obsidian pillars first (2 are caged in iron bars), then hit the dragon when it perches over the exit fountain. Avoid its breath clouds and collect the experience and the dragon egg when it dies.",
+    "steps": [
+      "Gear up: full diamond or netherite armor (Protection IV ideal), a Power bow with 2+ stacks of arrows (or Infinity), a strong sword, slow falling potions, a water bucket, food, ender pearls and 2-3 stacks of blocks. A carved pumpkin on your head prevents Enderman aggro but limits vision.",
+      "Find and activate the End portal in a stronghold (see the stronghold guide), and consider setting your spawn at a bed nearby before jumping in.",
+      "On arrival you may spawn in an obsidian room inside the island: dig up and out. Do not look at Endermen.",
+      "Destroy the End Crystals on top of the obsidian pillars: shoot them with the bow. Two pillars cage their crystal in iron bars - pillar up with blocks and break the bars, or shoot through the gap at the base.",
+      "While circling, dodge the dragon's charges and never stand in the purple breath clouds (bottle them for Dragon's Breath instead).",
+      "When the dragon flies to the exit fountain and perches, run in and hit its head with your sword (or detonate beds next to it, speedrun style: beds explode in the End and deal massive damage).",
+      "Repeat bow phase and perch phase until it dies: it explodes into 12,000 XP (first kill), opens the exit portal, spawns the dragon egg and activates an End gateway to the outer islands."
+    ],
+    "materials": [
+      "Bow + 2 stacks of arrows (or Infinity)",
+      "Diamond/netherite armor, ideally Protection IV",
+      "Slow Falling potions + water bucket",
+      "Sword (Sharpness/Smite)",
+      "Blocks, food, ender pearls",
+      "Optional: carved pumpkin, beds"
+    ],
+    "editionNote": "The fight is the same on Java and Bedrock: 10 crystals, the same perch cycle and the same breath attack, and beds explode in the End on both. On Bedrock the dragon's direct hits knock you around harder, so Slow Falling matters even more. Respawning the dragon with 4 End Crystals on the fountain works identically on both.",
+    "versions": "The current fight (circling dragon, perches, breath attack) has been in place since 1.9 and is unchanged in current versions. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How do you respawn the Ender Dragon?",
+        "a": "Craft 4 End Crystals (7 glass + 1 eye of ender + 1 ghast tear each) and place one on each side of the exit fountain. The dragon respawns and the crystals on the pillars regenerate. Later kills give only 500 XP and no new egg."
+      },
+      {
+        "q": "Why should I bring beds to the dragon fight?",
+        "a": "Beds explode when you try to sleep in the End. Detonating a bed next to the perched dragon's head is the fastest way to kill it, but the blast hurts you too - block partially behind the fountain and wear blast protection."
+      },
+      {
+        "q": "What do you get for killing the Ender Dragon?",
+        "a": "12,000 XP (first kill), the dragon egg (one per world), access to the End gateway portals leading to the outer islands, End cities and Elytra, plus the Free the End advancement."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-stronghold",
+      "how-to-get-elytra",
+      "how-to-find-end-city"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/advancements/free-the-end/",
+        "label": "Free the End advancement"
+      },
+      {
+        "url": "/mobs/ender-dragon/",
+        "label": "Ender Dragon"
+      },
+      {
+        "url": "/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ],
+    "keywords": "ender dragon kill beat boss end crystals perch bed explode respawn"
+  },
+  {
+    "slug": "how-to-cure-zombie-villager",
+    "name": "How to Cure a Zombie Villager in Minecraft",
+    "shortTitle": "Cure a Zombie Villager",
+    "quickAnswer": "Trap a zombie villager out of the sun, hit it with a Splash Potion of Weakness, then right-click it with a regular Golden Apple. After 3-5 minutes it turns back into a villager with permanent trade discounts. Curing the same villager up to 5 times stacks the discounts toward 1-emerald trades.",
+    "steps": [
+      "Find a zombie villager: about 5% of natural zombie spawns. You can also make one by letting a zombie kill a villager - conversion is 0% on Easy, 50% on Normal, 100% on Hard.",
+      "Trap it immediately: push it into a boat, or wall it into a small roofed space so daylight cannot burn it and other mobs cannot interrupt the cure.",
+      "Brew a Splash Potion of Weakness: a Fermented Spider Eye (spider eye + brown mushroom + sugar) brewed into a Water Bottle, then add gunpowder. No blaze powder or Nether wart needed.",
+      "Throw the splash potion at the zombie villager - it must show the gray Weakness particles.",
+      "Right-click it with a regular Golden Apple (8 gold ingots around an apple, or found in structure chests). You hear a loud gong and red particles swirl.",
+      "Wait 3-5 minutes, keeping the area safe. Iron bars and a bed placed within a 9x9x9 cube around the villager speed the cure up."
+    ],
+    "materials": [
+      "Splash Potion of Weakness (fermented spider eye + water bottle + gunpowder)",
+      "Golden Apple (8 gold ingots + 1 apple)",
+      "A boat or a 2-block roofed trap",
+      "Optional: iron bars and a bed to speed it up"
+    ],
+    "editionNote": "Curing works the same on Java and Bedrock, including the 3-5 minute timer and the iron bars/bed speed-up. On Java, cured villagers give deep gossip-based discounts that stack when you cure the same villager again (up to 5 times) and spread to nearby villagers; Bedrock gives discounts too, but the stacking is per-villager only. A cured zombie nitwit stays a nitwit.",
+    "versions": "Curing has worked this way since 1.4 and is unchanged in current versions. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "Why won't the zombie villager take the golden apple?",
+        "a": "It must have the Weakness effect active when you right-click. Throw the splash potion first, confirm the gray swirls, then feed the apple within the effect's duration."
+      },
+      {
+        "q": "Do cured villagers keep their profession and trades?",
+        "a": "Yes, and if you had traded with them before zombification their trades stay locked. Curing also applies permanent discounts - curing a librarian repeatedly is how players get 1-emerald Mending books."
+      },
+      {
+        "q": "Can you cure a zombie villager without a brewing stand?",
+        "a": "The weakness must come from somewhere: a splash/lingering potion or an arrow of Weakness. Witches sometimes throw weakness in fights. There is no apple-only shortcut."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-build-trading-hall",
+      "how-to-breed-villagers"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/advancements/zombie-doctor/",
+        "label": "Zombie Doctor advancement"
+      },
+      {
+        "url": "/mobs/villager/",
+        "label": "Villager"
+      },
+      {
+        "url": "/potions/",
+        "label": "Potions"
+      }
+    ],
+    "keywords": "cure zombie villager weakness splash potion golden apple discount trading"
+  },
+  {
+    "slug": "how-to-find-stronghold",
+    "name": "How to Find a Stronghold in Minecraft",
+    "shortTitle": "Find a Stronghold",
+    "quickAnswer": "Craft Eyes of Ender (blaze powder + ender pearls) and throw them: they fly toward the nearest stronghold. Follow the throws, re-throwing every few hundred blocks, until the eye dives into the ground - then dig down with a staircase. The End portal room contains a silverfish spawner and a frame that takes up to 12 eyes.",
+    "steps": [
+      "Craft at least 12-15 Eyes of Ender: Ender Pearls (Endermen, Piglin bartering, cleric trades) combined with Blaze Powder from Blaze Rods farmed at a Nether fortress.",
+      "Throw an eye (right-click) and note the direction it floats. Each throw has a 20% chance to shatter the eye, so stretch every throw.",
+      "Travel several hundred blocks in that direction and throw again. Keep going until the eye hovers downward and buries itself - the stronghold is right below.",
+      "For precision, triangulate: throw from two far-apart spots, note each F3 position and the eye's angle, and dig where the two lines cross.",
+      "Dig a staircase down (never straight down): strongholds generate anywhere between the surface and the deepslate layers, often around Y=0 or lower.",
+      "Explore the corridors to find the portal room - it has a silverfish spawner and a lava pool under the frame. Fill any empty frame slots with Eyes of Ender (up to 12; each slot has a 10% chance to be pre-filled)."
+    ],
+    "materials": [
+      "12-15 Eyes of Ender (pearls + blaze powder), plus spares for the portal",
+      "Pickaxe and torches for the dig",
+      "Weapon and shield for silverfish"
+    ],
+    "editionNote": "Java generates exactly 128 strongholds per world in 8 rings around the origin (the first 3 within 1,408-2,688 blocks of spawn). Bedrock has no fixed count - strongholds keep generating as you travel and are noticeably more common under villages. Eyes of Ender point to the nearest one on both editions.",
+    "versions": "Stronghold rings and eye mechanics are unchanged in current versions. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "Why did my Eye of Ender dive into the ground and then lead me to nothing?",
+        "a": "The eye targets the stronghold's rough starting point, not the portal room. Dig down at the dive spot and explore: the structure spreads out in corridors, and the portal room can be a few dozen blocks from the entry point."
+      },
+      {
+        "q": "Can a stronghold have no End portal?",
+        "a": "On Bedrock, some strongholds generate without a portal room, and on both editions caves or mineshafts can overwrite pieces of the frame. If yours is broken or missing, eyes will lead you to the next stronghold."
+      },
+      {
+        "q": "How many Eyes of Ender do I need in total?",
+        "a": "Plan for about 12-15 for the trip plus up to 12 for the frame (average needed is around 8-9, since some slots come pre-filled). 24 pearls and 12 blaze powder is a comfortable supply."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-ender-dragon",
+      "how-to-make-nether-portal"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/advancements/eye-spy/",
+        "label": "Eye Spy advancement"
+      },
+      {
+        "url": "/structures/stronghold/",
+        "label": "Stronghold"
+      },
+      {
+        "url": "/mobs/enderman/",
+        "label": "Enderman"
+      }
+    ],
+    "keywords": "find stronghold eye of ender end portal triangulate silverfish spawner 128"
+  },
+  {
+    "slug": "how-to-fly-elytra",
+    "name": "How to Fly with Elytra in Minecraft",
+    "shortTitle": "Fly with Elytra",
+    "quickAnswer": "Equip the Elytra in your chestplate slot, jump off a height and press jump again mid-air to deploy the wings. Pitch down to gain speed and up to trade speed for height, and use firework rockets while gliding to boost. Repair with phantom membranes or Mending - the wings last 432 seconds of flight (about 7 minutes) per durability bar.",
+    "steps": [
+      "Get an Elytra from an End Ship (see the End city guide) and equip it in the chestplate slot. You lose your chest armor, so plan around that.",
+      "Deploy: jump from at least 4 blocks up and press jump again while falling. The wings open and you start gliding.",
+      "Steer by looking: pitch down to dive and build speed, pitch up to climb and bleed speed. Speed is everything - a fast dive converts into a long, high climb.",
+      "Boost with fireworks: hold firework rockets and right-click while gliding. Each rocket adds a strong push. Use rockets WITHOUT a firework star - crafted from 3 paper + 1-3 gunpowder only - because starred rockets explode in your face.",
+      "Land by pitching up gently to stall just above the ground, or flare into water. Horizontal speed at ground level is what kills you, and elytra damage is fall damage, so Slow Falling potions make practice painless.",
+      "Maintain the wings: at 0 durability they become Broken Elytra and stop working. Repair with phantom membranes at an anvil, or enchant with Mending + Unbreaking III so XP keeps them alive forever."
+    ],
+    "materials": [
+      "Elytra (End Ship item frame)",
+      "Firework rockets: 3 paper + 3 gunpowder each, no star",
+      "Phantom membranes for repairs (or Mending)",
+      "Optional: Slow Falling potions while learning"
+    ],
+    "editionNote": "Gliding, pitch control and firework boosting work the same on Java and Bedrock. On Bedrock, momentum is a little more forgiving in climbs and you can also deploy the wings by double-tapping jump in creative-style flight transitions; the rocket-boost mechanic is identical. Repair rules (phantom membranes, Mending, anvil) match on both.",
+    "versions": "Elytra flight has been stable since 1.11.1 added firework boosting. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "Why do my fireworks hurt me when I boost?",
+        "a": "Your rockets have a firework star in them. Craft boost rockets from paper and gunpowder only - never add a star. Three gunpowder per rocket gives the longest boost."
+      },
+      {
+        "q": "How do you take off from flat ground?",
+        "a": "Jump, deploy at the top of the hop and fire a rocket immediately - you need a 2-block pillar, a small ledge or a Riptide trident in rain for a clean flat-ground launch."
+      },
+      {
+        "q": "Can Elytra break permanently?",
+        "a": "No. At 0 durability they turn into Broken Elytra but stay in your inventory; repair them at an anvil with phantom membranes or combine two worn pairs."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-elytra",
+      "how-to-find-end-city",
+      "how-to-beat-ender-dragon"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/advancements/sky-s-the-limit/",
+        "label": "Sky's the Limit advancement"
+      },
+      {
+        "url": "/items/elytra/",
+        "label": "Elytra"
+      }
+    ],
+    "keywords": "elytra fly glide fireworks boost rocket mending phantom membrane takeoff"
+  },
+  {
+    "slug": "how-to-find-trial-chambers",
+    "name": "How to Find and Beat Trial Chambers in Minecraft",
+    "shortTitle": "Trial Chambers",
+    "quickAnswer": "Trial chambers generate underground in the deepslate layers, mostly between Y=-20 and Y=40. Buy a Trial Chamber map from a journeyman Cartographer villager, or explore caves below those depths. Inside, trial spawners scale the fight to your party size, vaults take trial keys, and ominous trials (drink an Ominous Bottle for Trial Omen) award ominous keys for the heavy core that crafts the mace.",
+    "steps": [
+      "Get a map: journeyman-level Cartographers sell a Trial Explorer Map pointing to the nearest unexplored chambers. Exploring deepslate-layer caves (Y=-20 to 40) and watching for tuff-and-copper walls works too, and /locate structure minecraft:trial_chambers does it instantly with cheats.",
+      "Gear up like for a raid: Protection armor, shield, a strong melee weapon, a bow, food, and blocks. Bring empty inventory space for loot.",
+      "Fight the trial spawners: each one detects nearby players and spawns waves of a themed mob (melee, small melee or ranged: zombies, slimes, silverfish, spiders, skeletons, strays, breezes...). More players nearby means more mobs, so solo runs are very manageable.",
+      "Loot the decorated pots and chests in corridors for trial keys, then open the Vault blocks scattered through the chambers - each player can open each vault once.",
+      "For the real prize, go ominous: drink an Ominous Bottle (from raid captains or vaults) to gain Trial Omen inside the chambers. Spawners turn ominous, mobs spawn with gear and projectiles, and defeated ominous spawners can drop Ominous Trial Keys.",
+      "Ominous keys open Ominous Vaults, the high blocks with the red glow: these hold the best loot, including the Heavy Core - combine it with a Breeze Rod (from the Breeze, found only here) to craft the Mace."
+    ],
+    "materials": [
+      "Trial Explorer Map (cartographer) or cave exploration",
+      "Protection armor, shield, sword/axe and bow",
+      "Food, blocks, empty inventory slots",
+      "Ominous Bottle for ominous trials (optional, for heavy core)"
+    ],
+    "editionNote": "Trial chambers are the same structure on Java and Bedrock, including trial spawner scaling, vaults, ominous trials and the cartographer map trade. Ominous vault loot tables and the mace recipe (heavy core + breeze rod) match on both. Bedrock combat is a little easier on the mace's smash attack timing, but the mechanics are shared.",
+    "versions": "Added in 1.21 (Tricky Trials). Current as of 26.3.",
+    "faq": [
+      {
+        "q": "How do you get the mace in Minecraft?",
+        "a": "Craft it from a Heavy Core (ominous vault loot in trial chambers) plus a Breeze Rod dropped by the Breeze, a trial chambers mob. It is the only source of both items."
+      },
+      {
+        "q": "What is the difference between a vault and an ominous vault?",
+        "a": "Regular vaults open with trial keys and give mid-tier loot. Ominous vaults (taller, red-glowing) only open with ominous trial keys from ominous trial spawners and hold the top loot: heavy cores, enchanted golden apples, flow and bolt armor trims, and the best enchanted books."
+      },
+      {
+        "q": "Do trial spawners ever stop spawning?",
+        "a": "Each spawner has a per-player cooldown after you defeat it (about 30 minutes in real time), then it can be fought again. They cannot be mined or moved, so the chambers are a repeatable combat arena."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-start-raid",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/trial-chambers/",
+        "label": "Trial Chambers"
+      },
+      {
+        "url": "/items/breeze-rod/",
+        "label": "Breeze Rod"
+      },
+      {
+        "url": "/advancements/voluntary-exile/",
+        "label": "Voluntary Exile advancement"
+      }
+    ],
+    "keywords": "trial chambers find map cartographer vault ominous key heavy core mace breeze"
+  },
+  {
+    "slug": "how-to-get-mending",
+    "name": "How to Get Mending in Minecraft",
+    "shortTitle": "Get Mending",
+    "quickAnswer": "Mending is a treasure enchantment, so the enchanting table never offers it. The reliable way: place a lectern next to an unemployed villager, check the librarian's first book trade, break and replace the lectern until it offers Mending, then lock the trade. Fishing, structure chests and raid drops can also yield it. Apply the book to gear at an anvil.",
+    "steps": [
+      "Set up a librarian: place a Lectern (4 wood slabs + 1 bookshelf) next to any unemployed villager with a bed nearby. It takes the librarian profession.",
+      "Check its first (novice) book trade. If it is not Mending, break the lectern and place it again - the trade rerolls. Do NOT trade anything yet: one trade locks all offers forever.",
+      "Repeat until the novice trade shows Mending. It can cost anywhere from 10 to 38 emeralds (5-64 range exists but 10-38 covers nearly all rolls).",
+      "Trade once to lock it, then buy as many Mending books as you need (the trade restocks twice a day at the workstation).",
+      "Alternative sources if you hate lectern rerolling: fishing treasure loot, chests in ancient cities, End cities, mineshafts, dungeons, stronghold libraries and pillager outposts, plus raid drops and jungle/pyramid loot.",
+      "Apply the book at an Anvil to your tool, weapon, armor or Elytra. With Mending, XP you collect repairs the item instead of filling your XP bar (items held or worn share the XP with your bar)."
+    ],
+    "materials": [
+      "Lectern (4 slabs + 1 bookshelf)",
+      "An unemployed villager + a bed",
+      "10-38 emeralds per Mending book",
+      "Anvil to apply the book"
+    ],
+    "editionNote": "Sources are the same on Java and Bedrock. The big caveat is the experimental Villager Trade Rebalance (a Java world-creation toggle): with it ON, librarians are biome-locked and Mending is the master-level trade of SWAMP librarians only, which requires breeding villagers in a swamp. With the default trades (rebalance off), any librarian anywhere can offer Mending at any level.",
+    "versions": "Lectern rerolling works in all current default versions; the biome-locked swamp rule applies only to the experimental trade rebalance. Current as of 26.3.",
+    "faq": [
+      {
+        "q": "Why won't the enchanting table give me Mending?",
+        "a": "Mending is a treasure enchantment: it never appears on the enchanting table at any setup. You need villager trading, fishing, or structure loot - the librarian lectern method is by far the most reliable."
+      },
+      {
+        "q": "How do I get Mending if the villager trade rebalance is enabled?",
+        "a": "Breed two villagers inside a swamp biome (or cure zombie villagers there) so the baby counts as swamp type, level the resulting librarian to master, and its final book trade is Mending. There is no lectern reroll for the special books under the rebalance."
+      },
+      {
+        "q": "Does Mending repair items in my inventory?",
+        "a": "No. Only items you wear or hold in a hand absorb XP for repairs; pick the item up in your off-hand or wear it while farming XP. One Mending item at a time is targeted if several are damaged."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enchant",
+      "how-to-build-trading-hall",
+      "how-to-cure-zombie-villager"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/enchantments/mending/",
+        "label": "Mending"
+      },
+      {
+        "url": "/mobs/villager/",
+        "label": "Villager"
+      }
+    ],
+    "keywords": "mending enchantment librarian lectern reroll treasure swamp trade rebalance book"
+  }
 ]

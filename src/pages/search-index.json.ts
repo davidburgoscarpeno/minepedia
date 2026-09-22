@@ -67,6 +67,12 @@ export async function GET() {
     { name: 'A Complete Catalogue advancement', kind: 'advancement', url: '/advancements/a-complete-catalogue/', keywords: 'tame all cat variants 11 village swamp hut' },
     { name: 'Best Friends Forever advancement', kind: 'advancement', url: '/advancements/best-friends-forever/', keywords: 'tame animal wolf bones cat fish' },
     { name: 'A Balanced Diet advancement', kind: 'advancement', url: '/advancements/a-balanced-diet/', keywords: 'eat every food 40 suspicious stew pufferfish' },
+    { name: 'How to Beat the Ender Dragon in Minecraft', kind: 'guide', url: '/guides/how-to-beat-ender-dragon/', keywords: 'ender dragon kill beat boss end crystals perch bed explode respawn' },
+    { name: 'How to Cure a Zombie Villager in Minecraft', kind: 'guide', url: '/guides/how-to-cure-zombie-villager/', keywords: 'cure zombie villager weakness splash potion golden apple discount trading' },
+    { name: 'How to Find a Stronghold in Minecraft', kind: 'guide', url: '/guides/how-to-find-stronghold/', keywords: 'find stronghold eye of ender end portal triangulate silverfish spawner 128' },
+    { name: 'How to Fly with Elytra in Minecraft', kind: 'guide', url: '/guides/how-to-fly-elytra/', keywords: 'elytra fly glide fireworks boost rocket mending phantom membrane takeoff' },
+    { name: 'How to Find and Beat Trial Chambers in Minecraft', kind: 'guide', url: '/guides/how-to-find-trial-chambers/', keywords: 'trial chambers find map cartographer vault ominous key heavy core mace breeze' },
+    { name: 'How to Get Mending in Minecraft', kind: 'guide', url: '/guides/how-to-get-mending/', keywords: 'mending enchantment librarian lectern reroll treasure swamp trade rebalance book' },
     { name: 'How to Make a Minecraft Server', kind: 'guide', url: '/servers/make-a-server/', keywords: 'make server paper port forwarding 25565 playit whitelist eula' },
     { name: 'Free Server Hosting', kind: 'guide', url: '/servers/free-hosting/', keywords: 'aternos free hosting minecraft server java bedrock' },
     { name: 'Essential Server Plugins', kind: 'guide', url: '/servers/plugins/', keywords: 'luckperms essentialsx geysermc viaversion coreprotect plugins paper' }

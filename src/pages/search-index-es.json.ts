@@ -68,6 +68,12 @@ export async function GET() {
     { name: 'A Complete Catalogue (advancement)', kind: 'advancement', url: '/es/advancements/a-complete-catalogue/', keywords: 'tame all cat variants 11 village swamp hut' },
     { name: 'Best Friends Forever (advancement)', kind: 'advancement', url: '/es/advancements/best-friends-forever/', keywords: 'tame animal wolf bones cat fish' },
     { name: 'A Balanced Diet (advancement)', kind: 'advancement', url: '/es/advancements/a-balanced-diet/', keywords: 'eat every food 40 suspicious stew pufferfish' },
+    { name: 'Cómo derrotar al ender dragon en Minecraft', kind: 'guía', url: '/es/guides/how-to-beat-ender-dragon/', keywords: 'ender dragon matar derrotar jefe end crystals posar cama explotar resucitar' },
+    { name: 'Cómo curar a un aldeano zombi en Minecraft', kind: 'guía', url: '/es/guides/how-to-cure-zombie-villager/', keywords: 'curar aldeano zombi debilidad poción arrojadiza manzana dorada descuento trueques' },
+    { name: 'Cómo encontrar una stronghold en Minecraft', kind: 'guía', url: '/es/guides/how-to-find-stronghold/', keywords: 'encontrar stronghold ojo de ender portal end triangular silverfish spawner' },
+    { name: 'Cómo volar con elytra en Minecraft', kind: 'guía', url: '/es/guides/how-to-fly-elytra/', keywords: 'elytra volar planear fuegos artificiales cohetes impulso mending phantom membrane despegar' },
+    { name: 'Cómo encontrar y superar las trial chambers en Minecraft', kind: 'guía', url: '/es/guides/how-to-find-trial-chambers/', keywords: 'trial chambers encontrar mapa cartógrafo vault ominosa llave heavy core maza breeze' },
+    { name: 'Cómo conseguir Mending en Minecraft', kind: 'guía', url: '/es/guides/how-to-get-mending/', keywords: 'mending encantamiento bibliotecario atril reroll tesoro pantano trade rebalance libro' },
     { name: 'Cómo crear un servidor de Minecraft', kind: 'guía', url: '/es/servidores/make-a-server/', keywords: 'crear servidor paper port forwarding 25565 playit whitelist eula make server' },
     { name: 'Hosting gratis para servidores', kind: 'guía', url: '/es/servidores/free-hosting/', keywords: 'aternos hosting gratis servidor java bedrock free' },
     { name: 'Plugins esenciales para servidores', kind: 'guía', url: '/es/servidores/plugins/', keywords: 'luckperms essentialsx geysermc viaversion coreprotect plugins paper' }

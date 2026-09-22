@@ -1,781 +1,1096 @@
 {
- "how-to-find-diamonds": {
-  "name": "Cómo encontrar diamantes en Minecraft",
-  "shortTitle": "Encontrar diamantes",
-  "quickAnswer": "Mina a Y=-59 (justo encima de la bedrock) en el Overworld. La diamond ore se genera con más frecuencia en los niveles más profundos, desde Y=16 hasta la bedrock, con máximo cerca de Y=-59. Usa un pico de iron o mejor; Fortune III multiplica tus diamantes.",
-  "steps": [
-   "Craftea un pico de iron (3 iron ingots + 2 sticks). Los picos de piedra o madera destruyen la diamond ore sin soltar nada.",
-   "Baja hasta Y=-59. Pulsa F3 (Java) o activa las coordenadas en los ajustes del mundo (Bedrock) para ver tu nivel Y. Cava una escalera, nunca en vertical.",
-   "Haz branch mining: cava un túnel principal y túneles laterales cada 2 bloques para exponer el máximo de bloques por golpe de pico.",
-   "Busca diamond ore (puntos azul claro) en piedra o deepslate. Cada veta tiene 1-10 menas; las vetas cerca de lagos de lava son más fáciles de ver en cuevas.",
-   "Mina la mena con tu pico de iron o superior. Cada mena suelta 1 diamante (hasta 4 con Fortune III).",
-   "Alternativa: explora cuevas entre Y=-50 e Y=-64, y saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions y end cities."
-  ],
-  "materials": [
-   "Pico de iron o mejor (diamante, netherite)",
-   "Antorchas",
-   "Comida",
-   "Cubo de agua para la lava",
-   "Pico con Fortune III para el mejor rendimiento (opcional)"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: la diamond ore se genera de Y=16 a la bedrock con tasas máximas en Y=-59, y con exposición reducida al aire desde la 1.18. Las coordenadas se ven con F3 en Java y con el ajuste Mostrar coordenadas del mundo en Bedrock.",
-  "versions": "La distribución de menas aplica a 1.18+ (Caves & Cliffs Parte 2). Antes de la 1.18, mina a Y=11-12.",
-  "faq": [
-   {
-    "q": "¿Cuál es el mejor nivel Y para diamantes?",
-    "a": "Y=-59, justo encima de la capa de bedrock. La diamond ore es más común en el fondo del mundo, pero la bedrock empieza a aparecer en Y=-60, así que -59 te mantiene a salvo de ella."
-   },
-   {
-    "q": "¿Aparecen más diamantes cerca de la lava?",
-    "a": "No, pero las vetas de diamante cerca de lagos de lava en cuevas profundas son más fáciles de ver porque menos bloques las ocultan. La exposición al aire reduce la generación de diamantes desde la 1.18, así que el strip mining supera a la caza en cuevas."
-   },
-   {
-    "q": "¿Se pueden encontrar diamantes sin minar?",
-    "a": "Sí: los cofres de tesoros enterrados, shipwrecks, mineshafts, bastion remnants, end cities y ruined portals pueden contener diamantes o equipo de diamante."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/enchantments/fortune/",
-    "label": "Encantamiento Fortune"
-   },
-   {
-    "url": "/es/recipes/enchanting-table/",
-    "label": "Receta de la Enchanting Table"
-   }
-  ]
- },
- "how-to-make-nether-portal": {
-  "name": "Cómo hacer un portal al Nether en Minecraft",
-  "shortTitle": "Portal al Nether",
-  "quickAnswer": "Construye un marco vertical de obsidiana de al menos 4 bloques de ancho y 5 de alto (10 de obsidiana como mínimo, esquinas opcionales) y enciende el interior con un mechero. Un marco completo con esquinas usa 14 de obsidiana.",
-  "steps": [
-   "Consigue obsidiana: vierte agua sobre bloques de lava fuente y mínala con un pico de diamante o netherite. Necesitas 10 (marco económico) o 14 (marco completo).",
-   "Construye el marco en vertical: dos columnas de obsidiana de 3 bloques de alto, unidas por 2 de obsidiana arriba y 2 abajo. Espacio interior: 2x3.",
-   "Las esquinas son opcionales: déjalas vacías para ahorrar 4 de obsidiana.",
-   "Enciéndelo: usa un mechero (1 iron ingot + 1 flint de la grava) en la cara interior del marco. El fuego de lava, un fire charge o una bola de fuego de ghast también funcionan.",
-   "El interior se llena de bloques de portal morados. Quédate dentro 4 segundos para teletransportarte al Nether.",
-   "¿Sin pico de diamante? Funde el portal in situ: haz un molde, coloca bloques de lava fuente donde va el marco y vierte agua sobre cada uno para convertirlos en obsidiana uno a uno."
-  ],
-  "materials": [
-   "10-14 de obsidiana",
-   "Mechero (1 iron + 1 flint)",
-   "Pico de diamante/netherite O cubo de agua + lava para fundirlo in situ"
-  ],
-  "editionNote": "La mecánica de portales es la misma en Java y Bedrock: marco mínimo de 4x5, máximo de 23x23. Los portales enlazados emparejan coordenadas del Overworld y del Nether en proporción 8:1 (X y Z divididas entre 8).",
-  "versions": "Sin cambios desde Alpha. La crying obsidian y los ruined portals se añadieron en la 1.16: los ruined portals se pueden reparar en portales funcionales.",
-  "faq": [
-   {
-    "q": "¿Cuánta obsidiana hace falta para un portal al Nether?",
-    "a": "10 bloques como mínimo si te saltas las cuatro esquinas, o 14 para el marco completo de 4x5."
-   },
-   {
-    "q": "¿Por qué no se enciende mi portal al Nether?",
-    "a": "Comprueba que el marco es de obsidiana completa con un interior vacío de 2x3, que estás en el Overworld o el Nether (los portales no se forman en el End) y que enciendes la cara interior del marco."
-   },
-   {
-    "q": "¿Cómo se enlazan los portales entre dimensiones?",
-    "a": "Cada bloque del Overworld equivale a 8 bloques del Nether en X y Z. Un portal en Overworld 800, 64, 800 enlaza cerca de Nether 100, ~64, 100. La Y no se escala."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/tools/nether-calculator/",
-    "label": "Calculadora de coordenadas del Nether"
-   },
-   {
-    "url": "/es/recipes/flint-and-steel/",
-    "label": "Receta del mechero"
-   }
-  ]
- },
- "how-to-find-ancient-city": {
-  "name": "Cómo encontrar una Ancient City en Minecraft",
-  "shortTitle": "Encontrar una Ancient City",
-  "quickAnswer": "Las ancient cities se generan en el bioma Deep Dark muy bajo tierra, alrededor de Y=-51, casi siempre bajo montañas. Baja de Y=0 en una zona montañosa y busca bloques de sculk, o usa /locate structure minecraft:ancient_city con trucos.",
-  "steps": [
-   "Prepárate: lleva bloques de lana y una azada (el sculk se rompe más rápido con azada), pociones de visión nocturna, comida, y evita armadura ruidosa, o lleva equipo encantado completo si piensas luchar.",
-   "Baja hondo: las ancient cities aparecen alrededor de Y=-51 en el Deep Dark. Las zonas montañosas (picos irregulares, mesetas) son la pista de superficie más fiable.",
-   "Identifica el Deep Dark: bloques de sculk, sculk veins, sensors y shriekers marcan el bioma. Aquí no aparecen mobs hostiles de forma natural.",
-   "Muévete despacio: agáchate (sneak) en todas partes; al agacharte no creas vibraciones. Coloca lana para caminar sobre ella, porque la lana y las alfombras absorben vibraciones.",
-   "Rompe o bloquea los sculk shriekers antes de activarlos 4 veces: el cuarto alarido invoca al Warden.",
-   "Saquea los cofres: libros encantados de Swift Sneak, echo shards, fragmentos de disco y manzanas doradas encantadas son hallazgos exclusivos o raros de aquí.",
-   "Alternativa con trucos: /locate structure minecraft:ancient_city te da las coordenadas exactas."
-  ],
-  "materials": [
-   "Bloques de lana o alfombras (muchos)",
-   "Azada para el sculk",
-   "Pociones de visión nocturna",
-   "Comida y antorchas",
-   "Nada de equipo ruidoso"
-  ],
-  "editionNote": "Estructura idéntica en Java y Bedrock desde la 1.19. Las reglas de aparición del Warden (4 activaciones de shrieker) coinciden entre ediciones.",
-  "versions": "Añadida en la 1.19 (The Wild Update).",
-  "faq": [
-   {
-    "q": "¿A qué nivel Y están las ancient cities?",
-    "a": "Los centros de las ancient cities están alrededor de Y=-51, siempre en el bioma Deep Dark muy por debajo de Y=0."
-   },
-   {
-    "q": "¿Cuántos alaridos invocan al Warden?",
-    "a": "Cuatro activaciones de un sculk shrieker natural dentro de rango invocan un Warden desde el suelo, siempre que no haya otro Warden cerca."
-   },
-   {
-    "q": "¿Merece la pena saquear una ancient city?",
-    "a": "Sí: el encantamiento de leggings Swift Sneak y los echo shards (para la recovery compass) solo se encuentran allí, además de fragmentos del disco 5 y botín encantado de alto nivel."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/warden/",
-    "label": "Warden"
-   },
-   {
-    "url": "/es/commands/locate/",
-    "label": "Comando /locate"
-   }
-  ]
- },
- "how-to-tame-horse": {
-  "name": "Cómo domar un caballo en Minecraft",
-  "shortTitle": "Domar un caballo",
-  "quickAnswer": "Acércate a un caballo salvaje con las manos vacías y haz clic derecho para montarlo. Te derribará unas cuantas veces: sigue montando hasta que aparezcan corazones. Después equípale una montura para controlarlo.",
-  "steps": [
-   "Encuentra caballos en los biomas de llanuras y sabana, en manadas de 2-6.",
-   "Vacía tu mano y haz clic derecho en el caballo para montar. Te derribará en segundos.",
-   "Vuelve a montar repetidamente. Cada intento sube su temperamento hasta que aparecen corazones: el caballo está domado.",
-   "Alimentarlo antes ayuda: manzanas, trigo, azúcar, balas de heno o zanahorias/manzanas doradas suben el temperamento para necesitar menos intentos.",
-   "Abre tu inventario mientras lo montas (o agáchate + clic derecho en el caballo) y coloca una montura en su hueco. Las monturas no se pueden craftear: encuéntralas en dungeons, templos, bastions, aldeas o pescando.",
-   "Los caballos domados pueden llevar armadura de caballo y criarse con manzanas o zanahorias doradas.",
-   "La velocidad, el salto y la salud son aleatorios por caballo (y se heredan): cría tus dos mejores para conseguir un potro mejor."
-  ],
-  "materials": [
-   "Montura (solo botín: dungeons, nether fortresses, bastions, aldeas, pesca)",
-   "Opcional: manzanas/trigo/azúcar para acelerar el domado",
-   "Manzanas o zanahorias doradas para criar"
-  ],
-  "editionNote": "Mecánica de domado idéntica en Java y Bedrock. Los caballos esqueleto de las skeleton traps se doman igual; los caballos zombi no se usan en survival vanilla.",
-  "versions": "Caballos desde la 1.6.1. Las variantes de caballo y la mecánica de cría están vigentes desde la 1.18+.",
-  "faq": [
-   {
-    "q": "¿Se puede craftear una montura en Minecraft?",
-    "a": "No. Las monturas son solo botín: cofres de dungeons/templos/bastions, cofres de weaponsmith y curtidor de aldeas, tesoro de pesca, o comerciando con leatherworkers maestros (Java: 6 esmeraldas)."
-   },
-   {
-    "q": "¿Cuál es la forma más rápida de domar un caballo?",
-    "a": "Dale antes unas manzanas, trigo o balas de heno: cada comida sube el temperamento, así que te acepta tras 1-2 montas en lugar de muchas."
-   },
-   {
-    "q": "¿Cómo consigues un caballo rápido?",
-    "a": "Las estadísticas son aleatorias al aparecer. Doma varios caballos, prueba su velocidad y salto, y cría los dos mejores con manzanas o zanahorias doradas: los potros promedian las estadísticas de sus padres con variación aleatoria."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/wolf/",
-    "label": "Wolf"
-   }
-  ]
- },
- "how-to-breed-villagers": {
-  "name": "Cómo criar aldeanos en Minecraft",
-  "shortTitle": "Criar aldeanos",
-  "quickAnswer": "Los aldeanos crían por su cuenta cuando tienen comida suficiente (3 panes, 12 zanahorias, 12 patatas o 12 remolachas cada uno) y hay más camas válidas que aldeanos: cada cama necesita 2 bloques de aire encima. Da de comer a dos aldeanos o tírales comida y espera.",
-  "steps": [
-   "Construye una zona cerrada y segura para que los aldeanos no se escapen ni mueran por zombis.",
-   "Coloca camas: al menos una cama por aldeano adulto más una cama extra por cada bebé que quieras. Cada cama necesita 2 bloques vacíos encima o no cuenta.",
-   "Haz que estén dispuestos: tírale comida a dos aldeanos: 3 panes, o 12 zanahorias / patatas / remolachas cada uno. Los farmers también comparten y cosechan cultivos automáticamente.",
-   "Espera: aparecen partículas de corazones y nace un bebé aldeano a los pocos minutos. Crece en 20 minutos.",
-   "Alternativa: construye una granja de cultivos dentro del recinto con un composter; un aldeano farmer cosechará y compartirá comida sin parar, criando indefinidamente mientras haya camas disponibles.",
-   "Los bebés no heredan profesión: la eligen de adultos reclamando un puesto de trabajo libre (lectern = librarian, blast furnace = armorer...)."
-  ],
-  "materials": [
-   "Camas (1 por aldeano + de repuesto)",
-   "Comida: pan, zanahorias, patatas o remolachas",
-   "Puestos de trabajo para las profesiones",
-   "Composter (opcional, para un criadero automático)"
-  ],
-  "editionNote": "Las reglas de cría coinciden en Java y Bedrock. En Bedrock los aldeanos necesitan que las camas estén vinculadas a la aldea y poder llegar a ellas.",
-  "versions": "Mecánica vigente desde la 1.14 (Village & Pillage).",
-  "faq": [
-   {
-    "q": "¿Por qué no crían mis aldeanos?",
-    "a": "Casi siempre: no hay camas válidas suficientes (cada una necesita 2 bloques de aire encima), no hay comida suficiente, el mob griefing está desactivado (no pueden recoger comida), o no pueden llegar a las camas."
-   },
-   {
-    "q": "¿Qué comida hace criar a los aldeanos?",
-    "a": "Pan (3), zanahorias (12), patatas (12) o remolachas (12) por aldeano. Tienen que recogerla: tírala al suelo junto a ellos."
-   },
-   {
-    "q": "¿Pueden criar aldeanos infinitamente?",
-    "a": "Sí, mientras sigas añadiendo camas válidas y comida. Los criaderos automáticos usan un farmer con un campo de zanahorias o patatas de 9x9 y una fila de camas."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/villager/",
-    "label": "Villager"
-   },
-   {
-    "url": "/es/recipes/bed/",
-    "label": "Receta de la cama"
-   }
-  ]
- },
- "how-to-get-elytra": {
-  "name": "Cómo conseguir las elytra en Minecraft",
-  "shortTitle": "Conseguir las elytra",
-  "quickAnswer": "Las elytra solo se encuentran en los End Ships, que se generan junto a algunas End Cities en las islas exteriores del End. Derrota al Ender Dragon, lanza una ender pearl por un End Gateway, encuentra una End City con barco y coge las elytra de su item frame.",
-  "steps": [
-   "Mata al Ender Dragon para abrir los End Gateways (hasta 20).",
-   "Lanza una ender pearl a un gateway para teletransportarte a las islas exteriores.",
-   "Explora hasta encontrar una End City: torres de purpur y end stone bricks. Solo algunas ciudades tienen un barco flotando al lado.",
-   "Sube al barco: haz un puente o cruza con perlas. Ojo con los shulkers: sus balas de levitación te hacen caer desde las alturas.",
-   "Dentro del casco del barco, coge las elytra del item frame (detrás del brewing stand). La cabeza de dragón está en la proa.",
-   "Para volar: equipa las elytra en el hueco de pechera, salta desde una altura y pulsa saltar de nuevo en el aire para planear. Usa firework rockets para impulsarte.",
-   "Repáralas con phantom membranes en un yunque, o ponles Mending + Unbreaking III: las elytra no se pueden craftear."
-  ],
-  "materials": [
-   "Ender pearls (para los gateways y esquivar shulkers)",
-   "Pociones de Slow Falling (recomendadas)",
-   "Bloques para hacer puentes",
-   "Buena armadura y un arco"
-  ],
-  "editionNote": "Idénticas en Java y Bedrock. Cada End City tiene como máximo un barco; no todas las ciudades tienen uno: sigue explorando.",
-  "versions": "Elytra desde la 1.9 (Combat Update).",
-  "faq": [
-   {
-    "q": "¿Se pueden craftear las elytra?",
-    "a": "No. Las elytra solo se encuentran como botín en los End Ships: una por barco, en un item frame en el casco."
-   },
-   {
-    "q": "¿Se rompen las elytra?",
-    "a": "Sí: pierden 1 de durabilidad por segundo de vuelo (432 segundos en total) y dejan de funcionar a 1 de durabilidad en lugar de romperse. Repara con phantom membranes o Mending."
-   },
-   {
-    "q": "¿Cómo vuelas para siempre con elytra?",
-    "a": "Usa firework rockets (papel + gunpowder; 3 de gunpowder para el impulso más largo) mientras planeas, y gana altitud cabeceando hacia arriba tras cada impulso. Con Unbreaking III + Mending nunca se desgasta."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/enchantments/mending/",
-    "label": "Mending"
-   },
-   {
-    "url": "/es/mobs/shulker/",
-    "label": "Shulker"
-   }
-  ]
- },
- "how-to-enchant": {
-  "name": "Cómo encantar en Minecraft",
-  "shortTitle": "Encantar objetos",
-  "quickAnswer": "Craftea una enchanting table (4 obsidiana + 2 diamantes + 1 libro), rodéala con hasta 15 librerías dejando un bloque de separación, mete el objeto con 1-3 lapis lazuli y elige uno de tres encantamientos aleatorios que cuestan hasta 30 niveles de XP.",
-  "steps": [
-   "Craftea una enchanting table: 4 obsidiana, 2 diamantes, 1 libro.",
-   "Construye una biblioteca: 15 librerías (6 tablones + 3 libros cada una) alrededor de la mesa con exactamente un bloque de aire de separación: un anillo de 5x5 con la mesa en el centro es el diseño estándar.",
-   "Consigue lapis lazuli: mina lapis ore (de Y=-32 a 32, máximo cerca de Y=0) o comercia con aldeanos clerics.",
-   "Consigue niveles de XP: mata mobs, funde, mina, cría animales o pesca. El nivel 30 desbloquea la mejor oferta de encantamiento.",
-   "Abre la mesa: pon el objeto en el hueco izquierdo y 1-3 de lapis en el derecho. Aparecen tres ofertas; la de abajo cuesta 3 de lapis y 30 niveles.",
-   "Las ofertas solo se reinician después de encantar algo: encanta un objeto barato (libro o herramienta de madera) para rebarajar si no te gustan las opciones.",
-   "Ve más lejos con yunques: combina dos objetos encantados, o aplica libros encantados (de botín, pesca o aldeanos librarians) para encantamientos exactos como Mending."
-  ],
-  "materials": [
-   "Enchanting table",
-   "15 librerías para el nivel máximo",
-   "Lapis lazuli",
-   "Niveles de XP (30 para la mejor oferta)",
-   "Yunque + libros encantados para encantamientos concretos"
-  ],
-  "editionNote": "La mecánica coincide en Java y Bedrock: máximo de 15 librerías, tope de 30 niveles, y los encantamientos tesoro (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) nunca aparecen en la mesa.",
-  "versions": "Sistema vigente desde la 1.8 (se añadió el coste de lapis).",
-  "faq": [
-   {
-    "q": "¿Cuántas librerías hacen falta para encantamientos de nivel 30?",
-    "a": "15 librerías, colocadas a un bloque de la enchanting table (anillo de 5x5, mesa en medio, sin nada, ni antorchas ni alfombras, en el hueco)."
-   },
-   {
-    "q": "¿Por qué no puedo conseguir Mending en la enchanting table?",
-    "a": "Mending es un encantamiento tesoro: solo sale de cofres de botín, pesca, raids (Bedrock) o tradeos de aldeanos librarians."
-   },
-   {
-    "q": "¿Cómo se rebarajan las opciones de encantamiento?",
-    "a": "Encanta cualquier objeto barato, un libro o una pala de madera, y las tres ofertas se regeneran. El tipo de objeto también filtra qué encantamientos pueden aparecer."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/recipes/enchanting-table/",
-    "label": "Receta de la Enchanting Table"
-   },
-   {
-    "url": "/es/enchantments/",
-    "label": "Todos los encantamientos"
-   },
-   {
-    "url": "/es/recipes/anvil/",
-    "label": "Receta del yunque"
-   }
-  ]
- },
- "how-to-make-iron-golem": {
-  "name": "Cómo hacer un iron golem en Minecraft",
-  "shortTitle": "Hacer un iron golem",
-  "quickAnswer": "Apila 4 bloques de hierro en forma de T (3 en la fila superior, 1 en el centro debajo, 1 en la base) y coloca una carved pumpkin o jack o'lantern en el centro superior en último lugar. Se transforma en un iron golem vivo con 100 de salud que ataca a los mobs hostiles.",
-  "steps": [
-   "Consigue 36 iron ingots y craftea 4 bloques de hierro (9 lingotes cada uno).",
-   "Consigue una carved pumpkin: talla una calabaza normal con tijeras. Un jack o'lantern también vale.",
-   "Coloca 1 bloque de hierro en el suelo y apila 1 más encima (cuerpo).",
-   "Pega 1 bloque de hierro a cada lado del bloque superior (brazos), formando una T.",
-   "Coloca la carved pumpkin encima del bloque central, EN ÚLTIMO LUGAR, o el golem no se formará.",
-   "La estructura se transforma en un iron golem: 100 de salud, hasta 21,5 de daño por golpe, lanza mobs por los aires.",
-   "Los golems no te siguen; patrullan donde aparecieron. Enciérralos con una valla o usa una lead para mantener a tu guardaespaldas cerca de tu base.",
-   "Las aldeas generan sus propios golems de forma natural, y los golems invocados por aldeanos se vuelven hostiles si tu popularidad en la aldea baja demasiado."
-  ],
-  "materials": [
-   "4 bloques de hierro (36 iron ingots)",
-   "1 carved pumpkin o jack o'lantern",
-   "Tijeras (para tallar la calabaza)"
-  ],
-  "editionNote": "Construcción idéntica en Java y Bedrock. La T también se puede construir tumbada de lado; la calabaza siempre va la última.",
-  "versions": "Iron golems desde la 1.2.1. Textura agrietada y reparación con iron ingots (clic derecho con un lingote cura un 25%) desde la 1.15.",
-  "faq": [
-   {
-    "q": "¿Por qué no aparece mi iron golem?",
-    "a": "Comprueba que la forma es una T de exactamente 4 bloques de hierro sin bloques extra tocándola, y que colocaste la carved pumpkin la última. Las capas de nieve o hierba sobre los bloques también pueden bloquearlo."
-   },
-   {
-    "q": "¿Me protegerá un iron golem?",
-    "a": "Los golems construidos por el jugador nunca atacan a su creador y luchan contra los mobs hostiles cercanos, pero no te siguen: mantenlos cercados o con una lead."
-   },
-   {
-    "q": "¿Cómo se cura un iron golem?",
-    "a": "Haz clic derecho con un iron ingot: cada lingote restaura el 25% de su salud. Las grietas de su cuerpo muestran lo herido que está."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/recipes/shears/",
-    "label": "Receta de las tijeras"
-   }
-  ]
- },
- "how-to-beat-wither": {
-  "name": "Cómo derrotar al Wither en Minecraft",
-  "shortTitle": "Derrotar al Wither",
-  "quickAnswer": "Invoca al Wither con 4 soul sand (o soul soil) en forma de T y 3 wither skeleton skulls encima, y lucha con Smite V, Strength II y manzanas doradas, idealmente atrapado bajo el techo de bedrock del Nether o del End. Tiene 300 de HP en Java y 300-600 en Bedrock según la dificultad, y suelta una nether star.",
-  "steps": [
-   "Consigue 3 wither skeleton skulls (drop raro de los wither skeletons en nether fortresses; Looting III ayuda mucho) y 4 soul sand o soul soil de los Soul Sand Valleys.",
-   "Elige la arena: el truco clásico es invocarlo bajo el techo de bedrock del Nether (alrededor de Y=127) o en un end gateway para que su cabeza se atasque, o cavar un túnel largo a nivel deepslate y luchar allí.",
-   "Equípate: armadura completa de diamante o netherite con Protection IV, una espada con Smite V (Smite supera a Sharpness contra el Wither, que es no-muerto), pociones de Strength II, Regeneration, manzanas doradas y un escudo para sus calaveras. Un arco con Power V se encarga de la primera fase.",
-   "Construye la T con el soul sand y coloca las tres calaveras en último lugar: el Wither aparece, se carga (invulnerable) y explota. Aléjate.",
-   "Fase uno (más de la mitad de salud): vuela y dispara calaveras; dispárale con el arco. Las calaveras negras te dañan, las azules (Java) rompen bloques más duros.",
-   "Fase dos (menos de la mitad de salud): gana armadura Wither (inmune a flechas), carga y rompe bloques. Cambia a la espada, come manzanas doradas cuando el efecto Wither drene tu salud y acábalo. En Bedrock a media salud también invoca wither skeletons: mátalos o te abruman.",
-   "Recoge la nether star (nunca la destruyen sus propias explosiones): es el ingrediente del beacon."
-  ],
-  "materials": [
-   "4 soul sand o soul soil",
-   "3 wither skeleton skulls",
-   "Armadura con Protection IV",
-   "Espada con Smite V y arco con Power V",
-   "Pociones de Strength II + Regeneration",
-   "Manzanas doradas y un escudo",
-   "Cubos de leche para quitarte el efecto Wither"
-  ],
-  "editionNote": "Java: 300 de HP, el Wither flota y dispara calaveras azules que rompen bloques tan duros como la obsidiana lentamente. Bedrock: 600 de HP en Difícil (450 Normal, 300 Fácil), más agresivo, embiste contra los objetivos e invoca 3-4 wither skeletons a media salud: la pelea de Bedrock es mucho más dura. La trampa del techo de bedrock funciona en Java; los jugadores de Bedrock suelen luchar en un túnel de deepslate.",
-  "versions": "El Wither no ha cambiado desde la 1.4.2 salvo ajustes de comportamiento en Bedrock. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cuál es la forma más fácil de matar al Wither?",
-    "a": "Atrapándolo: invócalo bajo el techo de bedrock del Nether en Java para que su cabeza se atasque y no pueda moverse, y golpéalo a salvo. En Bedrock, lucha al fondo de un túnel largo de deepslate para que no pueda volar lejos."
-   },
-   {
-    "q": "¿Funciona mejor Smite o Sharpness contra el Wither?",
-    "a": "Smite. El Wither es no-muerto, así que Smite V suma +12,5 de daño por golpe contra él, más que los +3 de Sharpness V."
-   },
-   {
-    "q": "¿Puede el Wither romper obsidiana?",
-    "a": "Sus calaveras azules (Java) pueden romper obsidiana con tiempo, y sus embestidas rompen casi cualquier bloque, pero nunca puede romper bedrock, marcos de end portal ni barreras: por eso funcionan las trampas de techo."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/wither/",
-    "label": "Ficha del Wither"
-   },
-   {
-    "url": "/es/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/es/enchantments/sharpness/",
-    "label": "Encantamiento Sharpness"
-   }
-  ]
- },
- "how-to-start-raid": {
-  "name": "Cómo empezar y ganar una raid en Minecraft",
-  "shortTitle": "Ganar una raid",
-  "quickAnswer": "Consigue Bad Omen (bebe una ominous bottle de un capitán de raid), entra en una aldea y sobrevive a todas las oleadas: 3 en Fácil, 5 en Normal, 7 en Difícil (más 1 extra con Raid Omen II+). Gana para conseguir Hero of the Village y enormes descuentos en los tradeos.",
-  "steps": [
-   "Consigue el efecto Ominous: desde la 1.21, matar a un capitán pillager (el del estandarte, en outposts y patrullas) suelta una Ominous Bottle. Bebértela da Bad Omen.",
-   "Prepara la aldea: rodéala de muros o trampas, ilumínalo todo y pon a los aldeanos a salvo: si mueren todos los aldeanos o se destruyen todas las camas, pierdes.",
-   "Equípate: armadura con Protection IV, una buena espada o hacha, arco o ballesta, escudo (esencial contra hachas de vindicators y flechas de pillagers), totems of undying y comida. Los iron golems ayudan enormemente.",
-   "Entra en la aldea con Bad Omen activo: se convierte en Raid Omen y aparece la barra de raid. Las oleadas aparecen en el borde de la aldea y avanzan hacia el centro.",
-   "Lucha oleada a oleada: los pillagers disparan, los vindicators cargan con hachas (desactivan tu escudo temporalmente si lo aturden), los evokers invocan vexes y filas de colmillos, las brujas lanzan pociones y los ravagers arrasan. Mata primero al jinete del ravager y luego al ravager.",
-   "Usa esquinas y puertas para encauzar enemigos; toca la campana de raid para resaltar a los raiders restantes (Java) o escucha el cuerno para localizar la dirección de la oleada.",
-   "Sobrevive a la oleada final para ganar: consigues Hero of the Village: los aldeanos te lanzan regalos (Java) y rebajan muchísimo los precios durante 40 minutos."
-  ],
-  "materials": [
-   "Ominous Bottle (de un capitán de raid)",
-   "Armadura con Protection IV + escudo",
-   "Espada/hacha y arco/ballesta",
-   "Totems of undying",
-   "Bloques para amurallar la aldea",
-   "Iron golems (opcional pero potente)"
-  ],
-  "editionNote": "Ambas ediciones comparten la estructura de 3/5/7 oleadas (Fácil/Normal/Difícil, +1 oleada con Raid Omen II o superior). En Java los raiders pueden recoger estandartes ominous caídos para convertirse en el nuevo capitán; en Bedrock los mobs de raid son más numerosos por oleada. Los regalos de Hero of the Village son de Java; Bedrock da los descuentos.",
-  "versions": "Desde la 1.21, Bad Omen se obtiene bebiendo una Ominous Bottle (que sueltan los capitanes) en lugar de directamente al matar. Antes de la 1.21, matar a un capitán aplicaba Bad Omen al instante. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cómo se provoca una raid?",
-    "a": "Entrando en una aldea con el efecto Bad Omen activo. Desde la 1.21 consigues Bad Omen bebiendo una Ominous Bottle que suelta un capitán pillager."
-   },
-   {
-    "q": "¿Qué pasa si pierdes una raid?",
-    "a": "Si mueren todos los aldeanos o se destruyen todas las camas, los raiders ganan, celebran, y no hay recompensa. Los aldeanos se pierden para siempre: protégelos primero."
-   },
-   {
-    "q": "¿Para qué sirve Hero of the Village?",
-    "a": "Descuentos enormes en tradeos (unas pocas esmeraldas por equipo de diamante encantado) y, en Java, los aldeanos lanzan regalos gratis. Es la forma más barata de equiparse del juego."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/farms/raid-farm/",
-    "label": "Granja de raids"
-   },
-   {
-    "url": "/es/mobs/pillager/",
-    "label": "Pillager"
-   },
-   {
-    "url": "/es/items/totem-of-undying/",
-    "label": "Totem of Undying"
-   }
-  ]
- },
- "how-to-find-end-city": {
-  "name": "Cómo encontrar una End City en Minecraft",
-  "shortTitle": "Encontrar una End City",
-  "quickAnswer": "Tras derrotar al Ender Dragon, lanza una ender pearl al end gateway flotante para llegar a las islas exteriores del End, y explora hasta divisar las altas torres de purpur: aproximadamente la mitad tienen un End Ship con unas elytra en un item frame.",
-  "steps": [
-   "Derrota al Ender Dragon. Esto activa el portal de salida central y genera un end gateway (una estructura flotante de bedrock con un bloque de portal) alrededor del borde de la isla principal: hasta 20 gateways a medida que matas más dragones.",
-   "Lleva: ender pearls (para los gateways), pociones de slow falling o un cubo de agua, bloques para puentes, un pico (para purpur y minado a prueba de shulkers), comida y shulker boxes vacías si las tienes.",
-   "Lanza una ender pearl al gateway (o construye un artilugio con trampilla/elytra por el hueco de 1 bloque) para teletransportarte unos 1.000 bloques hasta las islas exteriores.",
-   "Explora: las End cities se generan en las grandes islas exteriores. Busca las inconfundibles torres moradas de purpur con End Rods. El buscador de End Cities de Chunkbase con tu seed ahorra horas.",
-   "Saquea con cuidado: los shulkers se camuflan como purpur y sus balas infligen Levitation: lleva un escudo para bloquear balas y slow falling para sobrevivir a las caídas flotando. Mata shulkers para conseguir shulker shells (2 hacen una shulker box).",
-   "Si la ciudad tiene un End Ship (un barco flotante junto a la torre más alta), coge las elytra del item frame del casco, la cabeza de dragón de la proa y saquea los dos cofres: el mejor equipo del juego (diamante/hierro encantado).",
-   "Anota las coordenadas de cada ciudad y gateway que encuentres. Con elytra y cohetes, el viaje de vuelta son minutos."
-  ],
-  "materials": [
-   "Ender pearls (una por cruce de gateway)",
-   "Pociones de Slow Falling o cubo de agua",
-   "Escudo",
-   "Pila de bloques para puentes",
-   "Pico y comida",
-   "Elytra + cohetes para viajes posteriores"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: el teletransporte por gateway, la generación de ciudades, los shulkers y las elytra del barco funcionan igual. Las balas de shulker de Bedrock persiguen un poco más agresivamente. Las End cities aparecen en aproximadamente la mitad de los emplazamientos generados, con barco en torno a la mitad de las veces.",
-  "versions": "Las End cities se añadieron en la 1.9 (Combat Update). Mecánica sin cambios en las versiones actuales (26.3).",
-  "faq": [
-   {
-    "q": "¿Qué tan raras son las End cities?",
-    "a": "Se generan dispersas por las islas exteriores del End, normalmente a miles de bloques de distancia. Espera una búsqueda larga sin elytra: Chunkbase con tu seed las localiza exactamente."
-   },
-   {
-    "q": "¿Todas las End cities tienen elytra?",
-    "a": "No. Solo los End Ships contienen elytra, y solo algunas ciudades tienen barco. Sigue explorando: con unas pocas ciudades saqueadas tendrás varias elytra."
-   },
-   {
-    "q": "¿Se puede encontrar una End city sin matar al dragón?",
-    "a": "Técnicamente sí, haciendo un puente o volando miles de bloques desde la isla principal, pero la pelea del dragón es mucho más fácil. Los gateways solo se abren tras cada dragón muerto."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/elytra/",
-    "label": "Elytra"
-   },
-   {
-    "url": "/es/mobs/shulker/",
-    "label": "Shulker"
-   },
-   {
-    "url": "/es/structures/stronghold/",
-    "label": "Stronghold"
-   }
-  ]
- },
- "how-to-make-beacon": {
-  "name": "Cómo hacer y usar un beacon en Minecraft",
-  "shortTitle": "Hacer un beacon",
-  "quickAnswer": "Craftea un beacon con 1 nether star, 5 glass y 3 obsidiana, colócalo sobre una pirámide de 9 a 164 bloques de hierro, oro, diamante, esmeralda o netherite (1-4 capas) y dale un lingote o gema para elegir un poder como Speed, Haste o Regeneration.",
-  "steps": [
-   "Mata al Wither para conseguir su nether star (mira nuestra guía del Wither).",
-   "Craftea el beacon: nether star en el centro, 3 obsidiana en la fila inferior y glass rellenando el resto.",
-   "Mina o funde el material de la pirámide: el hierro es la opción práctica (una pirámide completa de 4 capas cuesta 164 bloques = 1.476 lingotes; una granja de hierro lo hace llevadero). Los bloques de esmeralda, oro, diamante y netherite funcionan idénticamente y se pueden mezclar.",
-   "Construye la pirámide en terreno llano con cielo despejado encima: la capa 1 es 3x3, la 2 es 5x5, la 3 es 7x7, la 4 es 9x9, con el beacon arriba. No puede haber bloques transparentes (salvo el propio beacon) sobre él.",
-   "Abre la interfaz del beacon e inserta un iron ingot, gold ingot, esmeralda, diamante o netherite ingot. Elige un poder primario: Speed, Haste, Resistance, Jump Boost o Strength (más capas desbloquean más opciones).",
-   "Con las 4 capas, elige también un poder secundario: Regeneration, o sube el primario a nivel II.",
-   "El haz necesita acceso al cielo y da efectos en un radio: 20 bloques con 1 capa hasta 50 bloques con 4 capas. Los efectos duran ~17 segundos tras salir del radio.",
-   "El stained glass sobre el haz lo colorea: apila colores para mezclarlos."
-  ],
-  "materials": [
-   "1 nether star (drop del Wither)",
-   "5 glass + 3 obsidiana",
-   "164 bloques minerales para la pirámide máxima (hierro recomendado)",
-   "1 lingote/gema para activarlo"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: misma receta, tamaños de pirámide, poderes y radio. En Bedrock el haz se activa un poco más rápido y los efectos del beacon se aplican también hasta 4 bloques por debajo de la pirámide.",
-  "versions": "Los beacons se añadieron en la 1.4.2. Los bloques de netherite pasaron a ser material válido de pirámide en la 1.16. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cuántos bloques hacen falta para un beacon completo?",
-    "a": "164 bloques para una pirámide de 4 capas (9x9 + 7x7 + 5x5 + 3x3). En hierro son 1.476 lingotes: farmea hierro antes de intentarlo."
-   },
-   {
-    "q": "¿Los distintos materiales de pirámide dan mejores efectos?",
-    "a": "No. Los bloques de hierro, oro, diamante, esmeralda y netherite funcionan idénticamente, y puedes mezclarlos en una misma pirámide."
-   },
-   {
-    "q": "¿Por qué no funciona mi beacon?",
-    "a": "Necesita vista despejada del cielo: ningún bloque sólido ni transparente (que no sea el beacon) encima. Comprueba que la pirámide está completa y que le diste un lingote o gema."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/es/farms/iron-farm/",
-    "label": "Granja de hierro"
-   },
-   {
-    "url": "/es/recipes/furnace/",
-    "label": "Receta del horno"
-   }
-  ]
- },
- "how-to-use-conduit": {
-  "name": "Cómo hacer y usar un conduit en Minecraft",
-  "shortTitle": "Usar un conduit",
-  "quickAnswer": "Craftea un conduit con 1 Heart of the Sea (de tesoros enterrados) y 8 nautilus shells, y rodéalo bajo el agua con 16-42 bloques de prismarine, sea lanterns o dark prismarine en un marco tipo jaula: otorga Conduit Power (respiración acuática, visión nocturna y prisa minera bajo el agua) en un radio de hasta 96 bloques y daña a los mobs hostiles.",
-  "steps": [
-   "Encuentra un Heart of the Sea: cada cofre de tesoro enterrado (localizado con un mapa del tesoro de shipwrecks y ocean ruins) contiene exactamente uno.",
-   "Consigue 8 nautilus shells: pescando, de drops de drowned, o comprándoselas a wandering traders.",
-   "Craftea el conduit: el Heart of the Sea en el centro y las nautilus shells rellenando los otros 8 huecos.",
-   "Consigue prismarine: asalta un Ocean Monument (los guardians sueltan prismarine shards y crystals; el propio monumento es de prismarine) o comercia con masons. Las sea lanterns y el dark prismarine también valen como bloques de marco.",
-   "Construye el marco de activación bajo el agua: el diseño clásico son tres cuadrados abiertos de 5x5 (como una jaula) centrados en el conduit, usando 42 bloques para la potencia máxima. Un mínimo de 16 bloques en cualquier patrón de anillo válido lo activa con alcance reducido.",
-   "Coloca el conduit en el centro, totalmente anegado. Se activa con un ojo brillante cuando el marco está completo.",
-   "Disfruta del Conduit Power en el radio: respiración acuática infinita, visión nocturna submarina y minado más rápido: 32 bloques con el marco mínimo, hasta 96 con los 42.",
-   "A máxima potencia (42 bloques), el conduit también fulmina mobs hostiles (drowned, guardians) que se acerquen a 8 bloques de él en agua o lluvia."
-  ],
-  "materials": [
-   "1 Heart of the Sea (tesoro enterrado)",
-   "8 nautilus shells",
-   "16-42 bloques de prismarine / sea lantern / dark prismarine",
-   "Todo bajo el agua"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: misma receta, requisitos de marco y alcance del efecto. El ataque a mobs hostiles del conduit también funciona en ambas ediciones con el marco completo.",
-  "versions": "Los conduits se añadieron en la 1.13 (Update Aquatic). Sin cambios en las versiones actuales (26.3).",
-  "faq": [
-   {
-    "q": "¿Dónde se encuentra un Heart of the Sea?",
-    "a": "En cofres de tesoro enterrado: siempre exactamente uno por cofre. Consigue mapas del tesoro en los cofres de mapas de los shipwrecks o en ocean ruins, y cava en la X roja."
-   },
-   {
-    "q": "¿Cuál es el alcance del conduit?",
-    "a": "32 bloques con el marco mínimo de 16 bloques, escalando hasta 96 bloques con la jaula completa de 42 bloques."
-   },
-   {
-    "q": "¿Funcionan los conduits fuera del agua?",
-    "a": "El bloque de conduit debe estar anegado (o bajo la lluvia) para funcionar, y sus efectos solo se aplican a jugadores que toquen agua o lluvia."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/drowned/",
-    "label": "Drowned"
-   },
-   {
-    "url": "/es/mobs/guardian/",
-    "label": "Guardian"
-   },
-   {
-    "url": "/es/enchantments/respiration/",
-    "label": "Encantamiento Respiration"
-   }
-  ]
- },
- "how-to-build-trading-hall": {
-  "name": "Cómo construir un trading hall de aldeanos",
-  "shortTitle": "Trading hall",
-  "quickAnswer": "Cura aldeanos zombi (poción splash de Weakness + manzana dorada) para tradeos de 1 esmeralda, asigna a cada aldeano una profesión con un puesto de trabajo (lectern = librarian) y fija sus tradeos comerciando una vez; luego alinéalos en celdas con sus puestos. Los librarians curados venden cualquier libro encantado, incluido Mending, por 1 esmeralda.",
-  "steps": [
-   "Reúne materiales: brewing stand, fermented spider eyes (azúcar + champiñón marrón + ojo de araña), pociones splash de Weakness, manzanas doradas (8 gold ingots + manzana cada una), barcas o minecarts para el transporte, camas y puestos de trabajo.",
-   "Encuentra aldeanos zombi por la noche (5% de los zombis) o en el sótano de un iglú, o deja que un zombi convierta a tu propio aldeano a propósito (100% de conversión en Difícil, 50% en Normal, 0% en Fácil).",
-   "Cúralos: lanza la poción splash de Weakness al aldeano zombi, haz clic derecho con una manzana dorada y espera 3-5 minutos (Java) mientras tiembla y se convierte.",
-   "Transporta cada aldeano curado a su celda (hueco de 1 de ancho con su puesto de trabajo delante). Barcas en tierra, minecarts sobre raíles, o portales al Nether para largas distancias.",
-   "Asigna profesiones con el puesto de trabajo: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
-   "Para librarians: revisa el primer tradeo ANTES de comerciar. Si el libro no es el que quieres (Mending etc.), rompe y recoloca el lectern para rebarajar: los tradeos se fijan para siempre tras tu primer comercio con ese aldeano.",
-   "Comercia una vez para fijar, y pon name tags a los aldeanos que quieras conservar. Ilumínalo todo, rodéalo de muros y añade camas + una campana si quieres que sobrevivan a las raids.",
-   "Opcional (Java): zombifica y vuelve a curar aldeanos para apilar descuentos: tras 1-2 ciclos de cura, casi todos los tradeos cuestan 1 esmeralda."
-  ],
-  "materials": [
-   "Brewing stand + blaze powder",
-   "Pociones splash de Weakness",
-   "Manzanas doradas",
-   "Puestos de trabajo (lecterns, composters...)",
-   "Barcas/minecarts + raíles",
-   "Name tags",
-   "Bloques de construcción, antorchas, vallas"
-  ],
-  "editionNote": "Java: los descuentos de curar se apilan con varias curas (hasta 5x), y los aldeanos no necesitan cama, solo un puesto de trabajo. Bedrock: los descuentos de cura se aplican una vez, los aldeanos necesitan camas para mantener la profesión y los puestos deben estar a su alcance. Los sótanos de iglú siempre contienen un aldeano zombi con equipo de alquimia cerca.",
-  "versions": "Mecánica de curas estable desde la 1.14 (Village & Pillage). El rebalanceo experimental de librarians de la 1.20.2 (libros bloqueados por bioma) es opcional y viene desactivado: los mundos normales conservan el rebarajado clásico de lectern. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cómo se consigue Mending de los aldeanos?",
-    "a": "Cura un aldeano zombi, dale un lectern y revisa su primer tradeo de libro. Rompe y recoloca el lectern para rebarajar hasta que aparezca Mending (a cualquier precio), y comercia una vez para fijarlo. Los librarians curados venden Mending por 1 esmeralda."
-   },
-   {
-    "q": "¿Por qué mi aldeano no coge profesión?",
-    "a": "No puede llegar al puesto de trabajo, o ya fijó una profesión comerciando. Rompe el puesto viejo, coloca el nuevo a su alcance y nunca comercies antes de que te gusten las ofertas. Los nitwits (túnicas verdes) nunca cogen trabajo."
-   },
-   {
-    "q": "¿Necesitan camas los aldeanos para comerciar?",
-    "a": "En Java, no: solo un puesto de trabajo y acceso a él. En Bedrock necesitan estar vinculados a una cama para mantener la profesión con el tiempo. Las camas también son necesarias para criar y para las granjas de hierro."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/villagers/librarian/",
-    "label": "Tradeos del librarian"
-   },
-   {
-    "url": "/es/potions/weakness/",
-    "label": "Poción de Weakness"
-   },
-   {
-    "url": "/es/recipes/golden-apple/",
-    "label": "Receta de la manzana dorada"
-   }
-  ]
- },
- "how-to-upgrade-netherite": {
-  "name": "Cómo mejorar a netherite en Minecraft",
-  "shortTitle": "Mejora a netherite",
-  "quickAnswer": "Mina ancient debris en el Nether a Y=15, fúndelo en netherite scraps, combina 4 scraps + 4 gold ingots en un netherite ingot y mejora el equipo de diamante en una smithing table con un Netherite Upgrade smithing template (de las salas del tesoro de los bastions). Los encantamientos y nombres se conservan.",
-  "steps": [
-   "Equípate para el Nether: pico de diamante (el ancient debris requiere diamante o superior), pociones de fire resistance, comida, bloques y una cama o TNT para minar.",
-   "Mina ancient debris a Y=15 (pulsa F3 en Java, activa coordenadas en Bedrock). Minado con camas: coloca una cama a 4+ bloques al final de un túnel, haz clic para explotarla y repite: el debris sobrevive a la explosión. Las cadenas de TNT también funcionan.",
-   "Funde el ancient debris en netherite scraps en un horno o blast furnace.",
-   "Craftea netherite ingots: 4 scraps + 4 gold ingots (sin forma). Cada pieza de armadura o herramienta cuesta 1 lingote, así que un set completo necesita 36 scraps + 36 de oro.",
-   "Encuentra un Netherite Upgrade smithing template: garantizado en las salas del TESORO de los bastion remnants (el gran cubo central con lava y oro), posible en otros cofres de bastions. Asálalo con fire resistance y armadura de oro.",
-   "Duplica el template en la mesa de crafteo: 7 diamantes + 1 netherrack + el template = 2 templates.",
-   "Usa la smithing table: template en el hueco izquierdo, objeto de diamante en el centro, netherite ingot a la derecha. El objeto de netherite conserva TODOS los encantamientos, el nombre y los usos de yunque.",
-   "Prioridad de mejora: primero pico y espada, luego armadura (la netherite añade resistencia al knockback e inmunidad del objeto a lava y fuego)."
-  ],
-  "materials": [
-   "Pico de diamante (o mejor)",
-   "Pociones de fire resistance",
-   "Camas o TNT para minado explosivo",
-   "36 ancient debris + 36 gold ingots para un set completo",
-   "Netherite Upgrade template por objeto (duplicable)",
-   "Smithing table"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: mismo máximo de debris en Y=15, misma receta, misma mecánica de templates. Los objetos de netherite flotan en la lava y nunca arden: se acabó perder equipo en la lava. El ancient debris nunca se genera expuesto al aire.",
-  "versions": "Netherite añadida en la 1.16; el requisito del smithing template se añadió en la 1.20. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cuál es el mejor nivel Y para ancient debris?",
-    "a": "Y=15. El debris se genera entre Y=8 e Y=119 con un fuerte máximo en 15, siempre oculto dentro de netherrack o basalt: nunca expuesto al aire."
-   },
-   {
-    "q": "¿Se transfieren los encantamientos a la netherite?",
-    "a": "Sí: la mejora en la smithing table conserva todos los encantamientos, el nombre del objeto y los trabajos de yunque previos. No se pierde nada."
-   },
-   {
-    "q": "¿Dónde está el Netherite Upgrade template?",
-    "a": "En los bastion remnants: garantizado en el cofre de la sala del tesoro (el cubo central de los treasure bastions), poco común en otros sitios. Duplícalo con 7 diamantes + netherrack para que un solo hallazgo sirva para todo el set."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/ancient-debris/",
-    "label": "Ancient Debris"
-   },
-   {
-    "url": "/es/items/netherite-ingot/",
-    "label": "Netherite Ingot"
-   },
-   {
-    "url": "/es/structures/bastion-remnant/",
-    "label": "Bastion Remnant"
-   }
-  ]
- },
- "how-to-do-archaeology": {
-  "name": "Cómo hacer arqueología en Minecraft",
-  "shortTitle": "Arqueología",
-  "quickAnswer": "Craftea un brush (pluma + copper ingot + stick) y úsalo sobre suspicious sand (desert temples, pozos, warm ocean ruins) o suspicious gravel (trail ruins, cold ocean ruins): cepillar despacio revela pottery sherds, armor trims, huevos de sniffer y botín en lugar de romper el bloque.",
-  "steps": [
-   "Craftea un brush: 1 pluma + 1 copper ingot + 1 stick, en línea vertical.",
-   "Aprende los sitios: la suspicious sand se genera en desert temples, desert wells y warm ocean ruins; la suspicious gravel en trail ruins y cold ocean ruins (además de los pasillos de las trial chambers en 1.21+).",
-   "Reconoce los bloques sospechosos: parecen casi idénticos a la arena/grava normales; la suspicious sand tiene una textura ligeramente más rugosa. Cavarlos o explotarlos destruye el botín para siempre.",
-   "Mantén clic derecho con el brush sobre un bloque sospechoso. Lleva ~5 segundos de cepillado continuo; el objeto sale lentamente del bloque.",
-   "Warm ocean ruins: cepilla suspicious sand para huevos de sniffer (aproximadamente 1 de cada 15 bloques): incúbalos sobre musgo para conseguir sniffers, que desentierran torchflower seeds y pitcher pods.",
-   "Trail ruins: cepilla suspicious gravel para pottery sherds exclusivos y 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
-   "Cold ocean ruins: la suspicious gravel da sherds y botín; ojo con los drowned.",
-   "Colecciona los 20 patrones de pottery sherds y monta decorated pots (4 sherds o ladrillos en rombo en la mesa de crafteo)."
-  ],
-  "materials": [
-   "Brush (pluma + copper ingot + stick)",
-   "Pala para limpiar los bloques normales ALREDEDOR de los sospechosos",
-   "Respiración acuática o una puerta para las ruinas submarinas",
-   "Brushes de repuesto: se desgastan"
-  ],
-  "editionNote": "Idéntico en Java y Bedrock: mismos sitios, misma mecánica del brush. Ambas ediciones destruyen el botín del bloque sospechoso si lo minas en lugar de cepillarlo. Los patrones de los decorated pots se muestran igual.",
-  "versions": "Arqueología añadida en la 1.20 (Trails & Tales); suspicious gravel en trial chambers añadida en la 1.21. Vigente en la 26.3.",
-  "faq": [
-   {
-    "q": "¿Cómo se consigue un huevo de sniffer?",
-    "a": "Cepillando suspicious sand en warm ocean ruins: aproximadamente 1 de cada 15 bloques contiene un huevo. Eclosiona en unos 20 minutos sobre musgo (el doble fuera del musgo) y crece hasta ser un sniffer que desentierra semillas antiguas."
-   },
-   {
-    "q": "¿Qué pasa si minas suspicious sand?",
-    "a": "El bloque y su botín desaparecen para siempre: no suelta nada. Cepilla siempre los bloques sospechosos y nunca dejes que TNT o pistones los toquen."
-   },
-   {
-    "q": "¿Cuántos pottery sherds hay?",
-    "a": "20 patrones distintos de sherd (1.20-1.21), cada uno temático de su sitio: arms up, prize, skull, burn y más. Mezcla 4 sherds o ladrillos cualesquiera en un decorated pot."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/structures/trail-ruins/",
-    "label": "Trail Ruins"
-   },
-   {
-    "url": "/es/structures/desert-temple/",
-    "label": "Desert Temple"
-   },
-   {
-    "url": "/es/potions/water-breathing/",
-    "label": "Poción de Water Breathing"
-   }
-  ]
- }
+  "how-to-find-diamonds": {
+    "name": "Cómo encontrar diamantes en Minecraft",
+    "shortTitle": "Encontrar diamantes",
+    "quickAnswer": "Mina a Y=-59 (justo encima de la bedrock) en el Overworld. La diamond ore se genera con más frecuencia en los niveles más profundos, desde Y=16 hasta la bedrock, con máximo cerca de Y=-59. Usa un pico de iron o mejor; Fortune III multiplica tus diamantes.",
+    "steps": [
+      "Craftea un pico de iron (3 iron ingots + 2 sticks). Los picos de piedra o madera destruyen la diamond ore sin soltar nada.",
+      "Baja hasta Y=-59. Pulsa F3 (Java) o activa las coordenadas en los ajustes del mundo (Bedrock) para ver tu nivel Y. Cava una escalera, nunca en vertical.",
+      "Haz branch mining: cava un túnel principal y túneles laterales cada 2 bloques para exponer el máximo de bloques por golpe de pico.",
+      "Busca diamond ore (puntos azul claro) en piedra o deepslate. Cada veta tiene 1-10 menas; las vetas cerca de lagos de lava son más fáciles de ver en cuevas.",
+      "Mina la mena con tu pico de iron o superior. Cada mena suelta 1 diamante (hasta 4 con Fortune III).",
+      "Alternativa: explora cuevas entre Y=-50 e Y=-64, y saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions y end cities."
+    ],
+    "materials": [
+      "Pico de iron o mejor (diamante, netherite)",
+      "Antorchas",
+      "Comida",
+      "Cubo de agua para la lava",
+      "Pico con Fortune III para el mejor rendimiento (opcional)"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: la diamond ore se genera de Y=16 a la bedrock con tasas máximas en Y=-59, y con exposición reducida al aire desde la 1.18. Las coordenadas se ven con F3 en Java y con el ajuste Mostrar coordenadas del mundo en Bedrock.",
+    "versions": "La distribución de menas aplica a 1.18+ (Caves & Cliffs Parte 2). Antes de la 1.18, mina a Y=11-12.",
+    "faq": [
+      {
+        "q": "¿Cuál es el mejor nivel Y para diamantes?",
+        "a": "Y=-59, justo encima de la capa de bedrock. La diamond ore es más común en el fondo del mundo, pero la bedrock empieza a aparecer en Y=-60, así que -59 te mantiene a salvo de ella."
+      },
+      {
+        "q": "¿Aparecen más diamantes cerca de la lava?",
+        "a": "No, pero las vetas de diamante cerca de lagos de lava en cuevas profundas son más fáciles de ver porque menos bloques las ocultan. La exposición al aire reduce la generación de diamantes desde la 1.18, así que el strip mining supera a la caza en cuevas."
+      },
+      {
+        "q": "¿Se pueden encontrar diamantes sin minar?",
+        "a": "Sí: los cofres de tesoros enterrados, shipwrecks, mineshafts, bastion remnants, end cities y ruined portals pueden contener diamantes o equipo de diamante."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/enchantments/fortune/",
+        "label": "Encantamiento Fortune"
+      },
+      {
+        "url": "/es/recipes/enchanting-table/",
+        "label": "Receta de la Enchanting Table"
+      }
+    ]
+  },
+  "how-to-make-nether-portal": {
+    "name": "Cómo hacer un portal al Nether en Minecraft",
+    "shortTitle": "Portal al Nether",
+    "quickAnswer": "Construye un marco vertical de obsidiana de al menos 4 bloques de ancho y 5 de alto (10 de obsidiana como mínimo, esquinas opcionales) y enciende el interior con un mechero. Un marco completo con esquinas usa 14 de obsidiana.",
+    "steps": [
+      "Consigue obsidiana: vierte agua sobre bloques de lava fuente y mínala con un pico de diamante o netherite. Necesitas 10 (marco económico) o 14 (marco completo).",
+      "Construye el marco en vertical: dos columnas de obsidiana de 3 bloques de alto, unidas por 2 de obsidiana arriba y 2 abajo. Espacio interior: 2x3.",
+      "Las esquinas son opcionales: déjalas vacías para ahorrar 4 de obsidiana.",
+      "Enciéndelo: usa un mechero (1 iron ingot + 1 flint de la grava) en la cara interior del marco. El fuego de lava, un fire charge o una bola de fuego de ghast también funcionan.",
+      "El interior se llena de bloques de portal morados. Quédate dentro 4 segundos para teletransportarte al Nether.",
+      "¿Sin pico de diamante? Funde el portal in situ: haz un molde, coloca bloques de lava fuente donde va el marco y vierte agua sobre cada uno para convertirlos en obsidiana uno a uno."
+    ],
+    "materials": [
+      "10-14 de obsidiana",
+      "Mechero (1 iron + 1 flint)",
+      "Pico de diamante/netherite O cubo de agua + lava para fundirlo in situ"
+    ],
+    "editionNote": "La mecánica de portales es la misma en Java y Bedrock: marco mínimo de 4x5, máximo de 23x23. Los portales enlazados emparejan coordenadas del Overworld y del Nether en proporción 8:1 (X y Z divididas entre 8).",
+    "versions": "Sin cambios desde Alpha. La crying obsidian y los ruined portals se añadieron en la 1.16: los ruined portals se pueden reparar en portales funcionales.",
+    "faq": [
+      {
+        "q": "¿Cuánta obsidiana hace falta para un portal al Nether?",
+        "a": "10 bloques como mínimo si te saltas las cuatro esquinas, o 14 para el marco completo de 4x5."
+      },
+      {
+        "q": "¿Por qué no se enciende mi portal al Nether?",
+        "a": "Comprueba que el marco es de obsidiana completa con un interior vacío de 2x3, que estás en el Overworld o el Nether (los portales no se forman en el End) y que enciendes la cara interior del marco."
+      },
+      {
+        "q": "¿Cómo se enlazan los portales entre dimensiones?",
+        "a": "Cada bloque del Overworld equivale a 8 bloques del Nether en X y Z. Un portal en Overworld 800, 64, 800 enlaza cerca de Nether 100, ~64, 100. La Y no se escala."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/tools/nether-calculator/",
+        "label": "Calculadora de coordenadas del Nether"
+      },
+      {
+        "url": "/es/recipes/flint-and-steel/",
+        "label": "Receta del mechero"
+      }
+    ]
+  },
+  "how-to-find-ancient-city": {
+    "name": "Cómo encontrar una Ancient City en Minecraft",
+    "shortTitle": "Encontrar una Ancient City",
+    "quickAnswer": "Las ancient cities se generan en el bioma Deep Dark muy bajo tierra, alrededor de Y=-51, casi siempre bajo montañas. Baja de Y=0 en una zona montañosa y busca bloques de sculk, o usa /locate structure minecraft:ancient_city con trucos.",
+    "steps": [
+      "Prepárate: lleva bloques de lana y una azada (el sculk se rompe más rápido con azada), pociones de visión nocturna, comida, y evita armadura ruidosa, o lleva equipo encantado completo si piensas luchar.",
+      "Baja hondo: las ancient cities aparecen alrededor de Y=-51 en el Deep Dark. Las zonas montañosas (picos irregulares, mesetas) son la pista de superficie más fiable.",
+      "Identifica el Deep Dark: bloques de sculk, sculk veins, sensors y shriekers marcan el bioma. Aquí no aparecen mobs hostiles de forma natural.",
+      "Muévete despacio: agáchate (sneak) en todas partes; al agacharte no creas vibraciones. Coloca lana para caminar sobre ella, porque la lana y las alfombras absorben vibraciones.",
+      "Rompe o bloquea los sculk shriekers antes de activarlos 4 veces: el cuarto alarido invoca al Warden.",
+      "Saquea los cofres: libros encantados de Swift Sneak, echo shards, fragmentos de disco y manzanas doradas encantadas son hallazgos exclusivos o raros de aquí.",
+      "Alternativa con trucos: /locate structure minecraft:ancient_city te da las coordenadas exactas."
+    ],
+    "materials": [
+      "Bloques de lana o alfombras (muchos)",
+      "Azada para el sculk",
+      "Pociones de visión nocturna",
+      "Comida y antorchas",
+      "Nada de equipo ruidoso"
+    ],
+    "editionNote": "Estructura idéntica en Java y Bedrock desde la 1.19. Las reglas de aparición del Warden (4 activaciones de shrieker) coinciden entre ediciones.",
+    "versions": "Añadida en la 1.19 (The Wild Update).",
+    "faq": [
+      {
+        "q": "¿A qué nivel Y están las ancient cities?",
+        "a": "Los centros de las ancient cities están alrededor de Y=-51, siempre en el bioma Deep Dark muy por debajo de Y=0."
+      },
+      {
+        "q": "¿Cuántos alaridos invocan al Warden?",
+        "a": "Cuatro activaciones de un sculk shrieker natural dentro de rango invocan un Warden desde el suelo, siempre que no haya otro Warden cerca."
+      },
+      {
+        "q": "¿Merece la pena saquear una ancient city?",
+        "a": "Sí: el encantamiento de leggings Swift Sneak y los echo shards (para la recovery compass) solo se encuentran allí, además de fragmentos del disco 5 y botín encantado de alto nivel."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/warden/",
+        "label": "Warden"
+      },
+      {
+        "url": "/es/commands/locate/",
+        "label": "Comando /locate"
+      }
+    ]
+  },
+  "how-to-tame-horse": {
+    "name": "Cómo domar un caballo en Minecraft",
+    "shortTitle": "Domar un caballo",
+    "quickAnswer": "Acércate a un caballo salvaje con las manos vacías y haz clic derecho para montarlo. Te derribará unas cuantas veces: sigue montando hasta que aparezcan corazones. Después equípale una montura para controlarlo.",
+    "steps": [
+      "Encuentra caballos en los biomas de llanuras y sabana, en manadas de 2-6.",
+      "Vacía tu mano y haz clic derecho en el caballo para montar. Te derribará en segundos.",
+      "Vuelve a montar repetidamente. Cada intento sube su temperamento hasta que aparecen corazones: el caballo está domado.",
+      "Alimentarlo antes ayuda: manzanas, trigo, azúcar, balas de heno o zanahorias/manzanas doradas suben el temperamento para necesitar menos intentos.",
+      "Abre tu inventario mientras lo montas (o agáchate + clic derecho en el caballo) y coloca una montura en su hueco. Las monturas no se pueden craftear: encuéntralas en dungeons, templos, bastions, aldeas o pescando.",
+      "Los caballos domados pueden llevar armadura de caballo y criarse con manzanas o zanahorias doradas.",
+      "La velocidad, el salto y la salud son aleatorios por caballo (y se heredan): cría tus dos mejores para conseguir un potro mejor."
+    ],
+    "materials": [
+      "Montura (solo botín: dungeons, nether fortresses, bastions, aldeas, pesca)",
+      "Opcional: manzanas/trigo/azúcar para acelerar el domado",
+      "Manzanas o zanahorias doradas para criar"
+    ],
+    "editionNote": "Mecánica de domado idéntica en Java y Bedrock. Los caballos esqueleto de las skeleton traps se doman igual; los caballos zombi no se usan en survival vanilla.",
+    "versions": "Caballos desde la 1.6.1. Las variantes de caballo y la mecánica de cría están vigentes desde la 1.18+.",
+    "faq": [
+      {
+        "q": "¿Se puede craftear una montura en Minecraft?",
+        "a": "No. Las monturas son solo botín: cofres de dungeons/templos/bastions, cofres de weaponsmith y curtidor de aldeas, tesoro de pesca, o comerciando con leatherworkers maestros (Java: 6 esmeraldas)."
+      },
+      {
+        "q": "¿Cuál es la forma más rápida de domar un caballo?",
+        "a": "Dale antes unas manzanas, trigo o balas de heno: cada comida sube el temperamento, así que te acepta tras 1-2 montas en lugar de muchas."
+      },
+      {
+        "q": "¿Cómo consigues un caballo rápido?",
+        "a": "Las estadísticas son aleatorias al aparecer. Doma varios caballos, prueba su velocidad y salto, y cría los dos mejores con manzanas o zanahorias doradas: los potros promedian las estadísticas de sus padres con variación aleatoria."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/wolf/",
+        "label": "Wolf"
+      }
+    ]
+  },
+  "how-to-breed-villagers": {
+    "name": "Cómo criar aldeanos en Minecraft",
+    "shortTitle": "Criar aldeanos",
+    "quickAnswer": "Los aldeanos crían por su cuenta cuando tienen comida suficiente (3 panes, 12 zanahorias, 12 patatas o 12 remolachas cada uno) y hay más camas válidas que aldeanos: cada cama necesita 2 bloques de aire encima. Da de comer a dos aldeanos o tírales comida y espera.",
+    "steps": [
+      "Construye una zona cerrada y segura para que los aldeanos no se escapen ni mueran por zombis.",
+      "Coloca camas: al menos una cama por aldeano adulto más una cama extra por cada bebé que quieras. Cada cama necesita 2 bloques vacíos encima o no cuenta.",
+      "Haz que estén dispuestos: tírale comida a dos aldeanos: 3 panes, o 12 zanahorias / patatas / remolachas cada uno. Los farmers también comparten y cosechan cultivos automáticamente.",
+      "Espera: aparecen partículas de corazones y nace un bebé aldeano a los pocos minutos. Crece en 20 minutos.",
+      "Alternativa: construye una granja de cultivos dentro del recinto con un composter; un aldeano farmer cosechará y compartirá comida sin parar, criando indefinidamente mientras haya camas disponibles.",
+      "Los bebés no heredan profesión: la eligen de adultos reclamando un puesto de trabajo libre (lectern = librarian, blast furnace = armorer...)."
+    ],
+    "materials": [
+      "Camas (1 por aldeano + de repuesto)",
+      "Comida: pan, zanahorias, patatas o remolachas",
+      "Puestos de trabajo para las profesiones",
+      "Composter (opcional, para un criadero automático)"
+    ],
+    "editionNote": "Las reglas de cría coinciden en Java y Bedrock. En Bedrock los aldeanos necesitan que las camas estén vinculadas a la aldea y poder llegar a ellas.",
+    "versions": "Mecánica vigente desde la 1.14 (Village & Pillage).",
+    "faq": [
+      {
+        "q": "¿Por qué no crían mis aldeanos?",
+        "a": "Casi siempre: no hay camas válidas suficientes (cada una necesita 2 bloques de aire encima), no hay comida suficiente, el mob griefing está desactivado (no pueden recoger comida), o no pueden llegar a las camas."
+      },
+      {
+        "q": "¿Qué comida hace criar a los aldeanos?",
+        "a": "Pan (3), zanahorias (12), patatas (12) o remolachas (12) por aldeano. Tienen que recogerla: tírala al suelo junto a ellos."
+      },
+      {
+        "q": "¿Pueden criar aldeanos infinitamente?",
+        "a": "Sí, mientras sigas añadiendo camas válidas y comida. Los criaderos automáticos usan un farmer con un campo de zanahorias o patatas de 9x9 y una fila de camas."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/villager/",
+        "label": "Villager"
+      },
+      {
+        "url": "/es/recipes/bed/",
+        "label": "Receta de la cama"
+      }
+    ]
+  },
+  "how-to-get-elytra": {
+    "name": "Cómo conseguir las elytra en Minecraft",
+    "shortTitle": "Conseguir las elytra",
+    "quickAnswer": "Las elytra solo se encuentran en los End Ships, que se generan junto a algunas End Cities en las islas exteriores del End. Derrota al Ender Dragon, lanza una ender pearl por un End Gateway, encuentra una End City con barco y coge las elytra de su item frame.",
+    "steps": [
+      "Mata al Ender Dragon para abrir los End Gateways (hasta 20).",
+      "Lanza una ender pearl a un gateway para teletransportarte a las islas exteriores.",
+      "Explora hasta encontrar una End City: torres de purpur y end stone bricks. Solo algunas ciudades tienen un barco flotando al lado.",
+      "Sube al barco: haz un puente o cruza con perlas. Ojo con los shulkers: sus balas de levitación te hacen caer desde las alturas.",
+      "Dentro del casco del barco, coge las elytra del item frame (detrás del brewing stand). La cabeza de dragón está en la proa.",
+      "Para volar: equipa las elytra en el hueco de pechera, salta desde una altura y pulsa saltar de nuevo en el aire para planear. Usa firework rockets para impulsarte.",
+      "Repáralas con phantom membranes en un yunque, o ponles Mending + Unbreaking III: las elytra no se pueden craftear."
+    ],
+    "materials": [
+      "Ender pearls (para los gateways y esquivar shulkers)",
+      "Pociones de Slow Falling (recomendadas)",
+      "Bloques para hacer puentes",
+      "Buena armadura y un arco"
+    ],
+    "editionNote": "Idénticas en Java y Bedrock. Cada End City tiene como máximo un barco; no todas las ciudades tienen uno: sigue explorando.",
+    "versions": "Elytra desde la 1.9 (Combat Update).",
+    "faq": [
+      {
+        "q": "¿Se pueden craftear las elytra?",
+        "a": "No. Las elytra solo se encuentran como botín en los End Ships: una por barco, en un item frame en el casco."
+      },
+      {
+        "q": "¿Se rompen las elytra?",
+        "a": "Sí: pierden 1 de durabilidad por segundo de vuelo (432 segundos en total) y dejan de funcionar a 1 de durabilidad en lugar de romperse. Repara con phantom membranes o Mending."
+      },
+      {
+        "q": "¿Cómo vuelas para siempre con elytra?",
+        "a": "Usa firework rockets (papel + gunpowder; 3 de gunpowder para el impulso más largo) mientras planeas, y gana altitud cabeceando hacia arriba tras cada impulso. Con Unbreaking III + Mending nunca se desgasta."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/enchantments/mending/",
+        "label": "Mending"
+      },
+      {
+        "url": "/es/mobs/shulker/",
+        "label": "Shulker"
+      }
+    ]
+  },
+  "how-to-enchant": {
+    "name": "Cómo encantar en Minecraft",
+    "shortTitle": "Encantar objetos",
+    "quickAnswer": "Craftea una enchanting table (4 obsidiana + 2 diamantes + 1 libro), rodéala con hasta 15 librerías dejando un bloque de separación, mete el objeto con 1-3 lapis lazuli y elige uno de tres encantamientos aleatorios que cuestan hasta 30 niveles de XP.",
+    "steps": [
+      "Craftea una enchanting table: 4 obsidiana, 2 diamantes, 1 libro.",
+      "Construye una biblioteca: 15 librerías (6 tablones + 3 libros cada una) alrededor de la mesa con exactamente un bloque de aire de separación: un anillo de 5x5 con la mesa en el centro es el diseño estándar.",
+      "Consigue lapis lazuli: mina lapis ore (de Y=-32 a 32, máximo cerca de Y=0) o comercia con aldeanos clerics.",
+      "Consigue niveles de XP: mata mobs, funde, mina, cría animales o pesca. El nivel 30 desbloquea la mejor oferta de encantamiento.",
+      "Abre la mesa: pon el objeto en el hueco izquierdo y 1-3 de lapis en el derecho. Aparecen tres ofertas; la de abajo cuesta 3 de lapis y 30 niveles.",
+      "Las ofertas solo se reinician después de encantar algo: encanta un objeto barato (libro o herramienta de madera) para rebarajar si no te gustan las opciones.",
+      "Ve más lejos con yunques: combina dos objetos encantados, o aplica libros encantados (de botín, pesca o aldeanos librarians) para encantamientos exactos como Mending."
+    ],
+    "materials": [
+      "Enchanting table",
+      "15 librerías para el nivel máximo",
+      "Lapis lazuli",
+      "Niveles de XP (30 para la mejor oferta)",
+      "Yunque + libros encantados para encantamientos concretos"
+    ],
+    "editionNote": "La mecánica coincide en Java y Bedrock: máximo de 15 librerías, tope de 30 niveles, y los encantamientos tesoro (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) nunca aparecen en la mesa.",
+    "versions": "Sistema vigente desde la 1.8 (se añadió el coste de lapis).",
+    "faq": [
+      {
+        "q": "¿Cuántas librerías hacen falta para encantamientos de nivel 30?",
+        "a": "15 librerías, colocadas a un bloque de la enchanting table (anillo de 5x5, mesa en medio, sin nada, ni antorchas ni alfombras, en el hueco)."
+      },
+      {
+        "q": "¿Por qué no puedo conseguir Mending en la enchanting table?",
+        "a": "Mending es un encantamiento tesoro: solo sale de cofres de botín, pesca, raids (Bedrock) o tradeos de aldeanos librarians."
+      },
+      {
+        "q": "¿Cómo se rebarajan las opciones de encantamiento?",
+        "a": "Encanta cualquier objeto barato, un libro o una pala de madera, y las tres ofertas se regeneran. El tipo de objeto también filtra qué encantamientos pueden aparecer."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/recipes/enchanting-table/",
+        "label": "Receta de la Enchanting Table"
+      },
+      {
+        "url": "/es/enchantments/",
+        "label": "Todos los encantamientos"
+      },
+      {
+        "url": "/es/recipes/anvil/",
+        "label": "Receta del yunque"
+      }
+    ]
+  },
+  "how-to-make-iron-golem": {
+    "name": "Cómo hacer un iron golem en Minecraft",
+    "shortTitle": "Hacer un iron golem",
+    "quickAnswer": "Apila 4 bloques de hierro en forma de T (3 en la fila superior, 1 en el centro debajo, 1 en la base) y coloca una carved pumpkin o jack o'lantern en el centro superior en último lugar. Se transforma en un iron golem vivo con 100 de salud que ataca a los mobs hostiles.",
+    "steps": [
+      "Consigue 36 iron ingots y craftea 4 bloques de hierro (9 lingotes cada uno).",
+      "Consigue una carved pumpkin: talla una calabaza normal con tijeras. Un jack o'lantern también vale.",
+      "Coloca 1 bloque de hierro en el suelo y apila 1 más encima (cuerpo).",
+      "Pega 1 bloque de hierro a cada lado del bloque superior (brazos), formando una T.",
+      "Coloca la carved pumpkin encima del bloque central, EN ÚLTIMO LUGAR, o el golem no se formará.",
+      "La estructura se transforma en un iron golem: 100 de salud, hasta 21,5 de daño por golpe, lanza mobs por los aires.",
+      "Los golems no te siguen; patrullan donde aparecieron. Enciérralos con una valla o usa una lead para mantener a tu guardaespaldas cerca de tu base.",
+      "Las aldeas generan sus propios golems de forma natural, y los golems invocados por aldeanos se vuelven hostiles si tu popularidad en la aldea baja demasiado."
+    ],
+    "materials": [
+      "4 bloques de hierro (36 iron ingots)",
+      "1 carved pumpkin o jack o'lantern",
+      "Tijeras (para tallar la calabaza)"
+    ],
+    "editionNote": "Construcción idéntica en Java y Bedrock. La T también se puede construir tumbada de lado; la calabaza siempre va la última.",
+    "versions": "Iron golems desde la 1.2.1. Textura agrietada y reparación con iron ingots (clic derecho con un lingote cura un 25%) desde la 1.15.",
+    "faq": [
+      {
+        "q": "¿Por qué no aparece mi iron golem?",
+        "a": "Comprueba que la forma es una T de exactamente 4 bloques de hierro sin bloques extra tocándola, y que colocaste la carved pumpkin la última. Las capas de nieve o hierba sobre los bloques también pueden bloquearlo."
+      },
+      {
+        "q": "¿Me protegerá un iron golem?",
+        "a": "Los golems construidos por el jugador nunca atacan a su creador y luchan contra los mobs hostiles cercanos, pero no te siguen: mantenlos cercados o con una lead."
+      },
+      {
+        "q": "¿Cómo se cura un iron golem?",
+        "a": "Haz clic derecho con un iron ingot: cada lingote restaura el 25% de su salud. Las grietas de su cuerpo muestran lo herido que está."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/recipes/shears/",
+        "label": "Receta de las tijeras"
+      }
+    ]
+  },
+  "how-to-beat-wither": {
+    "name": "Cómo derrotar al Wither en Minecraft",
+    "shortTitle": "Derrotar al Wither",
+    "quickAnswer": "Invoca al Wither con 4 soul sand (o soul soil) en forma de T y 3 wither skeleton skulls encima, y lucha con Smite V, Strength II y manzanas doradas, idealmente atrapado bajo el techo de bedrock del Nether o del End. Tiene 300 de HP en Java y 300-600 en Bedrock según la dificultad, y suelta una nether star.",
+    "steps": [
+      "Consigue 3 wither skeleton skulls (drop raro de los wither skeletons en nether fortresses; Looting III ayuda mucho) y 4 soul sand o soul soil de los Soul Sand Valleys.",
+      "Elige la arena: el truco clásico es invocarlo bajo el techo de bedrock del Nether (alrededor de Y=127) o en un end gateway para que su cabeza se atasque, o cavar un túnel largo a nivel deepslate y luchar allí.",
+      "Equípate: armadura completa de diamante o netherite con Protection IV, una espada con Smite V (Smite supera a Sharpness contra el Wither, que es no-muerto), pociones de Strength II, Regeneration, manzanas doradas y un escudo para sus calaveras. Un arco con Power V se encarga de la primera fase.",
+      "Construye la T con el soul sand y coloca las tres calaveras en último lugar: el Wither aparece, se carga (invulnerable) y explota. Aléjate.",
+      "Fase uno (más de la mitad de salud): vuela y dispara calaveras; dispárale con el arco. Las calaveras negras te dañan, las azules (Java) rompen bloques más duros.",
+      "Fase dos (menos de la mitad de salud): gana armadura Wither (inmune a flechas), carga y rompe bloques. Cambia a la espada, come manzanas doradas cuando el efecto Wither drene tu salud y acábalo. En Bedrock a media salud también invoca wither skeletons: mátalos o te abruman.",
+      "Recoge la nether star (nunca la destruyen sus propias explosiones): es el ingrediente del beacon."
+    ],
+    "materials": [
+      "4 soul sand o soul soil",
+      "3 wither skeleton skulls",
+      "Armadura con Protection IV",
+      "Espada con Smite V y arco con Power V",
+      "Pociones de Strength II + Regeneration",
+      "Manzanas doradas y un escudo",
+      "Cubos de leche para quitarte el efecto Wither"
+    ],
+    "editionNote": "Java: 300 de HP, el Wither flota y dispara calaveras azules que rompen bloques tan duros como la obsidiana lentamente. Bedrock: 600 de HP en Difícil (450 Normal, 300 Fácil), más agresivo, embiste contra los objetivos e invoca 3-4 wither skeletons a media salud: la pelea de Bedrock es mucho más dura. La trampa del techo de bedrock funciona en Java; los jugadores de Bedrock suelen luchar en un túnel de deepslate.",
+    "versions": "El Wither no ha cambiado desde la 1.4.2 salvo ajustes de comportamiento en Bedrock. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cuál es la forma más fácil de matar al Wither?",
+        "a": "Atrapándolo: invócalo bajo el techo de bedrock del Nether en Java para que su cabeza se atasque y no pueda moverse, y golpéalo a salvo. En Bedrock, lucha al fondo de un túnel largo de deepslate para que no pueda volar lejos."
+      },
+      {
+        "q": "¿Funciona mejor Smite o Sharpness contra el Wither?",
+        "a": "Smite. El Wither es no-muerto, así que Smite V suma +12,5 de daño por golpe contra él, más que los +3 de Sharpness V."
+      },
+      {
+        "q": "¿Puede el Wither romper obsidiana?",
+        "a": "Sus calaveras azules (Java) pueden romper obsidiana con tiempo, y sus embestidas rompen casi cualquier bloque, pero nunca puede romper bedrock, marcos de end portal ni barreras: por eso funcionan las trampas de techo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/wither/",
+        "label": "Ficha del Wither"
+      },
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/es/enchantments/sharpness/",
+        "label": "Encantamiento Sharpness"
+      }
+    ]
+  },
+  "how-to-start-raid": {
+    "name": "Cómo empezar y ganar una raid en Minecraft",
+    "shortTitle": "Ganar una raid",
+    "quickAnswer": "Consigue Bad Omen (bebe una ominous bottle de un capitán de raid), entra en una aldea y sobrevive a todas las oleadas: 3 en Fácil, 5 en Normal, 7 en Difícil (más 1 extra con Raid Omen II+). Gana para conseguir Hero of the Village y enormes descuentos en los tradeos.",
+    "steps": [
+      "Consigue el efecto Ominous: desde la 1.21, matar a un capitán pillager (el del estandarte, en outposts y patrullas) suelta una Ominous Bottle. Bebértela da Bad Omen.",
+      "Prepara la aldea: rodéala de muros o trampas, ilumínalo todo y pon a los aldeanos a salvo: si mueren todos los aldeanos o se destruyen todas las camas, pierdes.",
+      "Equípate: armadura con Protection IV, una buena espada o hacha, arco o ballesta, escudo (esencial contra hachas de vindicators y flechas de pillagers), totems of undying y comida. Los iron golems ayudan enormemente.",
+      "Entra en la aldea con Bad Omen activo: se convierte en Raid Omen y aparece la barra de raid. Las oleadas aparecen en el borde de la aldea y avanzan hacia el centro.",
+      "Lucha oleada a oleada: los pillagers disparan, los vindicators cargan con hachas (desactivan tu escudo temporalmente si lo aturden), los evokers invocan vexes y filas de colmillos, las brujas lanzan pociones y los ravagers arrasan. Mata primero al jinete del ravager y luego al ravager.",
+      "Usa esquinas y puertas para encauzar enemigos; toca la campana de raid para resaltar a los raiders restantes (Java) o escucha el cuerno para localizar la dirección de la oleada.",
+      "Sobrevive a la oleada final para ganar: consigues Hero of the Village: los aldeanos te lanzan regalos (Java) y rebajan muchísimo los precios durante 40 minutos."
+    ],
+    "materials": [
+      "Ominous Bottle (de un capitán de raid)",
+      "Armadura con Protection IV + escudo",
+      "Espada/hacha y arco/ballesta",
+      "Totems of undying",
+      "Bloques para amurallar la aldea",
+      "Iron golems (opcional pero potente)"
+    ],
+    "editionNote": "Ambas ediciones comparten la estructura de 3/5/7 oleadas (Fácil/Normal/Difícil, +1 oleada con Raid Omen II o superior). En Java los raiders pueden recoger estandartes ominous caídos para convertirse en el nuevo capitán; en Bedrock los mobs de raid son más numerosos por oleada. Los regalos de Hero of the Village son de Java; Bedrock da los descuentos.",
+    "versions": "Desde la 1.21, Bad Omen se obtiene bebiendo una Ominous Bottle (que sueltan los capitanes) en lugar de directamente al matar. Antes de la 1.21, matar a un capitán aplicaba Bad Omen al instante. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cómo se provoca una raid?",
+        "a": "Entrando en una aldea con el efecto Bad Omen activo. Desde la 1.21 consigues Bad Omen bebiendo una Ominous Bottle que suelta un capitán pillager."
+      },
+      {
+        "q": "¿Qué pasa si pierdes una raid?",
+        "a": "Si mueren todos los aldeanos o se destruyen todas las camas, los raiders ganan, celebran, y no hay recompensa. Los aldeanos se pierden para siempre: protégelos primero."
+      },
+      {
+        "q": "¿Para qué sirve Hero of the Village?",
+        "a": "Descuentos enormes en tradeos (unas pocas esmeraldas por equipo de diamante encantado) y, en Java, los aldeanos lanzan regalos gratis. Es la forma más barata de equiparse del juego."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/farms/raid-farm/",
+        "label": "Granja de raids"
+      },
+      {
+        "url": "/es/mobs/pillager/",
+        "label": "Pillager"
+      },
+      {
+        "url": "/es/items/totem-of-undying/",
+        "label": "Totem of Undying"
+      }
+    ]
+  },
+  "how-to-find-end-city": {
+    "name": "Cómo encontrar una End City en Minecraft",
+    "shortTitle": "Encontrar una End City",
+    "quickAnswer": "Tras derrotar al Ender Dragon, lanza una ender pearl al end gateway flotante para llegar a las islas exteriores del End, y explora hasta divisar las altas torres de purpur: aproximadamente la mitad tienen un End Ship con unas elytra en un item frame.",
+    "steps": [
+      "Derrota al Ender Dragon. Esto activa el portal de salida central y genera un end gateway (una estructura flotante de bedrock con un bloque de portal) alrededor del borde de la isla principal: hasta 20 gateways a medida que matas más dragones.",
+      "Lleva: ender pearls (para los gateways), pociones de slow falling o un cubo de agua, bloques para puentes, un pico (para purpur y minado a prueba de shulkers), comida y shulker boxes vacías si las tienes.",
+      "Lanza una ender pearl al gateway (o construye un artilugio con trampilla/elytra por el hueco de 1 bloque) para teletransportarte unos 1.000 bloques hasta las islas exteriores.",
+      "Explora: las End cities se generan en las grandes islas exteriores. Busca las inconfundibles torres moradas de purpur con End Rods. El buscador de End Cities de Chunkbase con tu seed ahorra horas.",
+      "Saquea con cuidado: los shulkers se camuflan como purpur y sus balas infligen Levitation: lleva un escudo para bloquear balas y slow falling para sobrevivir a las caídas flotando. Mata shulkers para conseguir shulker shells (2 hacen una shulker box).",
+      "Si la ciudad tiene un End Ship (un barco flotante junto a la torre más alta), coge las elytra del item frame del casco, la cabeza de dragón de la proa y saquea los dos cofres: el mejor equipo del juego (diamante/hierro encantado).",
+      "Anota las coordenadas de cada ciudad y gateway que encuentres. Con elytra y cohetes, el viaje de vuelta son minutos."
+    ],
+    "materials": [
+      "Ender pearls (una por cruce de gateway)",
+      "Pociones de Slow Falling o cubo de agua",
+      "Escudo",
+      "Pila de bloques para puentes",
+      "Pico y comida",
+      "Elytra + cohetes para viajes posteriores"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: el teletransporte por gateway, la generación de ciudades, los shulkers y las elytra del barco funcionan igual. Las balas de shulker de Bedrock persiguen un poco más agresivamente. Las End cities aparecen en aproximadamente la mitad de los emplazamientos generados, con barco en torno a la mitad de las veces.",
+    "versions": "Las End cities se añadieron en la 1.9 (Combat Update). Mecánica sin cambios en las versiones actuales (26.3).",
+    "faq": [
+      {
+        "q": "¿Qué tan raras son las End cities?",
+        "a": "Se generan dispersas por las islas exteriores del End, normalmente a miles de bloques de distancia. Espera una búsqueda larga sin elytra: Chunkbase con tu seed las localiza exactamente."
+      },
+      {
+        "q": "¿Todas las End cities tienen elytra?",
+        "a": "No. Solo los End Ships contienen elytra, y solo algunas ciudades tienen barco. Sigue explorando: con unas pocas ciudades saqueadas tendrás varias elytra."
+      },
+      {
+        "q": "¿Se puede encontrar una End city sin matar al dragón?",
+        "a": "Técnicamente sí, haciendo un puente o volando miles de bloques desde la isla principal, pero la pelea del dragón es mucho más fácil. Los gateways solo se abren tras cada dragón muerto."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/elytra/",
+        "label": "Elytra"
+      },
+      {
+        "url": "/es/mobs/shulker/",
+        "label": "Shulker"
+      },
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ]
+  },
+  "how-to-make-beacon": {
+    "name": "Cómo hacer y usar un beacon en Minecraft",
+    "shortTitle": "Hacer un beacon",
+    "quickAnswer": "Craftea un beacon con 1 nether star, 5 glass y 3 obsidiana, colócalo sobre una pirámide de 9 a 164 bloques de hierro, oro, diamante, esmeralda o netherite (1-4 capas) y dale un lingote o gema para elegir un poder como Speed, Haste o Regeneration.",
+    "steps": [
+      "Mata al Wither para conseguir su nether star (mira nuestra guía del Wither).",
+      "Craftea el beacon: nether star en el centro, 3 obsidiana en la fila inferior y glass rellenando el resto.",
+      "Mina o funde el material de la pirámide: el hierro es la opción práctica (una pirámide completa de 4 capas cuesta 164 bloques = 1.476 lingotes; una granja de hierro lo hace llevadero). Los bloques de esmeralda, oro, diamante y netherite funcionan idénticamente y se pueden mezclar.",
+      "Construye la pirámide en terreno llano con cielo despejado encima: la capa 1 es 3x3, la 2 es 5x5, la 3 es 7x7, la 4 es 9x9, con el beacon arriba. No puede haber bloques transparentes (salvo el propio beacon) sobre él.",
+      "Abre la interfaz del beacon e inserta un iron ingot, gold ingot, esmeralda, diamante o netherite ingot. Elige un poder primario: Speed, Haste, Resistance, Jump Boost o Strength (más capas desbloquean más opciones).",
+      "Con las 4 capas, elige también un poder secundario: Regeneration, o sube el primario a nivel II.",
+      "El haz necesita acceso al cielo y da efectos en un radio: 20 bloques con 1 capa hasta 50 bloques con 4 capas. Los efectos duran ~17 segundos tras salir del radio.",
+      "El stained glass sobre el haz lo colorea: apila colores para mezclarlos."
+    ],
+    "materials": [
+      "1 nether star (drop del Wither)",
+      "5 glass + 3 obsidiana",
+      "164 bloques minerales para la pirámide máxima (hierro recomendado)",
+      "1 lingote/gema para activarlo"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: misma receta, tamaños de pirámide, poderes y radio. En Bedrock el haz se activa un poco más rápido y los efectos del beacon se aplican también hasta 4 bloques por debajo de la pirámide.",
+    "versions": "Los beacons se añadieron en la 1.4.2. Los bloques de netherite pasaron a ser material válido de pirámide en la 1.16. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cuántos bloques hacen falta para un beacon completo?",
+        "a": "164 bloques para una pirámide de 4 capas (9x9 + 7x7 + 5x5 + 3x3). En hierro son 1.476 lingotes: farmea hierro antes de intentarlo."
+      },
+      {
+        "q": "¿Los distintos materiales de pirámide dan mejores efectos?",
+        "a": "No. Los bloques de hierro, oro, diamante, esmeralda y netherite funcionan idénticamente, y puedes mezclarlos en una misma pirámide."
+      },
+      {
+        "q": "¿Por qué no funciona mi beacon?",
+        "a": "Necesita vista despejada del cielo: ningún bloque sólido ni transparente (que no sea el beacon) encima. Comprueba que la pirámide está completa y que le diste un lingote o gema."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/es/farms/iron-farm/",
+        "label": "Granja de hierro"
+      },
+      {
+        "url": "/es/recipes/furnace/",
+        "label": "Receta del horno"
+      }
+    ]
+  },
+  "how-to-use-conduit": {
+    "name": "Cómo hacer y usar un conduit en Minecraft",
+    "shortTitle": "Usar un conduit",
+    "quickAnswer": "Craftea un conduit con 1 Heart of the Sea (de tesoros enterrados) y 8 nautilus shells, y rodéalo bajo el agua con 16-42 bloques de prismarine, sea lanterns o dark prismarine en un marco tipo jaula: otorga Conduit Power (respiración acuática, visión nocturna y prisa minera bajo el agua) en un radio de hasta 96 bloques y daña a los mobs hostiles.",
+    "steps": [
+      "Encuentra un Heart of the Sea: cada cofre de tesoro enterrado (localizado con un mapa del tesoro de shipwrecks y ocean ruins) contiene exactamente uno.",
+      "Consigue 8 nautilus shells: pescando, de drops de drowned, o comprándoselas a wandering traders.",
+      "Craftea el conduit: el Heart of the Sea en el centro y las nautilus shells rellenando los otros 8 huecos.",
+      "Consigue prismarine: asalta un Ocean Monument (los guardians sueltan prismarine shards y crystals; el propio monumento es de prismarine) o comercia con masons. Las sea lanterns y el dark prismarine también valen como bloques de marco.",
+      "Construye el marco de activación bajo el agua: el diseño clásico son tres cuadrados abiertos de 5x5 (como una jaula) centrados en el conduit, usando 42 bloques para la potencia máxima. Un mínimo de 16 bloques en cualquier patrón de anillo válido lo activa con alcance reducido.",
+      "Coloca el conduit en el centro, totalmente anegado. Se activa con un ojo brillante cuando el marco está completo.",
+      "Disfruta del Conduit Power en el radio: respiración acuática infinita, visión nocturna submarina y minado más rápido: 32 bloques con el marco mínimo, hasta 96 con los 42.",
+      "A máxima potencia (42 bloques), el conduit también fulmina mobs hostiles (drowned, guardians) que se acerquen a 8 bloques de él en agua o lluvia."
+    ],
+    "materials": [
+      "1 Heart of the Sea (tesoro enterrado)",
+      "8 nautilus shells",
+      "16-42 bloques de prismarine / sea lantern / dark prismarine",
+      "Todo bajo el agua"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: misma receta, requisitos de marco y alcance del efecto. El ataque a mobs hostiles del conduit también funciona en ambas ediciones con el marco completo.",
+    "versions": "Los conduits se añadieron en la 1.13 (Update Aquatic). Sin cambios en las versiones actuales (26.3).",
+    "faq": [
+      {
+        "q": "¿Dónde se encuentra un Heart of the Sea?",
+        "a": "En cofres de tesoro enterrado: siempre exactamente uno por cofre. Consigue mapas del tesoro en los cofres de mapas de los shipwrecks o en ocean ruins, y cava en la X roja."
+      },
+      {
+        "q": "¿Cuál es el alcance del conduit?",
+        "a": "32 bloques con el marco mínimo de 16 bloques, escalando hasta 96 bloques con la jaula completa de 42 bloques."
+      },
+      {
+        "q": "¿Funcionan los conduits fuera del agua?",
+        "a": "El bloque de conduit debe estar anegado (o bajo la lluvia) para funcionar, y sus efectos solo se aplican a jugadores que toquen agua o lluvia."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/drowned/",
+        "label": "Drowned"
+      },
+      {
+        "url": "/es/mobs/guardian/",
+        "label": "Guardian"
+      },
+      {
+        "url": "/es/enchantments/respiration/",
+        "label": "Encantamiento Respiration"
+      }
+    ]
+  },
+  "how-to-build-trading-hall": {
+    "name": "Cómo construir un trading hall de aldeanos",
+    "shortTitle": "Trading hall",
+    "quickAnswer": "Cura aldeanos zombi (poción splash de Weakness + manzana dorada) para tradeos de 1 esmeralda, asigna a cada aldeano una profesión con un puesto de trabajo (lectern = librarian) y fija sus tradeos comerciando una vez; luego alinéalos en celdas con sus puestos. Los librarians curados venden cualquier libro encantado, incluido Mending, por 1 esmeralda.",
+    "steps": [
+      "Reúne materiales: brewing stand, fermented spider eyes (azúcar + champiñón marrón + ojo de araña), pociones splash de Weakness, manzanas doradas (8 gold ingots + manzana cada una), barcas o minecarts para el transporte, camas y puestos de trabajo.",
+      "Encuentra aldeanos zombi por la noche (5% de los zombis) o en el sótano de un iglú, o deja que un zombi convierta a tu propio aldeano a propósito (100% de conversión en Difícil, 50% en Normal, 0% en Fácil).",
+      "Cúralos: lanza la poción splash de Weakness al aldeano zombi, haz clic derecho con una manzana dorada y espera 3-5 minutos (Java) mientras tiembla y se convierte.",
+      "Transporta cada aldeano curado a su celda (hueco de 1 de ancho con su puesto de trabajo delante). Barcas en tierra, minecarts sobre raíles, o portales al Nether para largas distancias.",
+      "Asigna profesiones con el puesto de trabajo: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
+      "Para librarians: revisa el primer tradeo ANTES de comerciar. Si el libro no es el que quieres (Mending etc.), rompe y recoloca el lectern para rebarajar: los tradeos se fijan para siempre tras tu primer comercio con ese aldeano.",
+      "Comercia una vez para fijar, y pon name tags a los aldeanos que quieras conservar. Ilumínalo todo, rodéalo de muros y añade camas + una campana si quieres que sobrevivan a las raids.",
+      "Opcional (Java): zombifica y vuelve a curar aldeanos para apilar descuentos: tras 1-2 ciclos de cura, casi todos los tradeos cuestan 1 esmeralda."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder",
+      "Pociones splash de Weakness",
+      "Manzanas doradas",
+      "Puestos de trabajo (lecterns, composters...)",
+      "Barcas/minecarts + raíles",
+      "Name tags",
+      "Bloques de construcción, antorchas, vallas"
+    ],
+    "editionNote": "Java: los descuentos de curar se apilan con varias curas (hasta 5x), y los aldeanos no necesitan cama, solo un puesto de trabajo. Bedrock: los descuentos de cura se aplican una vez, los aldeanos necesitan camas para mantener la profesión y los puestos deben estar a su alcance. Los sótanos de iglú siempre contienen un aldeano zombi con equipo de alquimia cerca.",
+    "versions": "Mecánica de curas estable desde la 1.14 (Village & Pillage). El rebalanceo experimental de librarians de la 1.20.2 (libros bloqueados por bioma) es opcional y viene desactivado: los mundos normales conservan el rebarajado clásico de lectern. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cómo se consigue Mending de los aldeanos?",
+        "a": "Cura un aldeano zombi, dale un lectern y revisa su primer tradeo de libro. Rompe y recoloca el lectern para rebarajar hasta que aparezca Mending (a cualquier precio), y comercia una vez para fijarlo. Los librarians curados venden Mending por 1 esmeralda."
+      },
+      {
+        "q": "¿Por qué mi aldeano no coge profesión?",
+        "a": "No puede llegar al puesto de trabajo, o ya fijó una profesión comerciando. Rompe el puesto viejo, coloca el nuevo a su alcance y nunca comercies antes de que te gusten las ofertas. Los nitwits (túnicas verdes) nunca cogen trabajo."
+      },
+      {
+        "q": "¿Necesitan camas los aldeanos para comerciar?",
+        "a": "En Java, no: solo un puesto de trabajo y acceso a él. En Bedrock necesitan estar vinculados a una cama para mantener la profesión con el tiempo. Las camas también son necesarias para criar y para las granjas de hierro."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/villagers/librarian/",
+        "label": "Tradeos del librarian"
+      },
+      {
+        "url": "/es/potions/weakness/",
+        "label": "Poción de Weakness"
+      },
+      {
+        "url": "/es/recipes/golden-apple/",
+        "label": "Receta de la manzana dorada"
+      }
+    ]
+  },
+  "how-to-upgrade-netherite": {
+    "name": "Cómo mejorar a netherite en Minecraft",
+    "shortTitle": "Mejora a netherite",
+    "quickAnswer": "Mina ancient debris en el Nether a Y=15, fúndelo en netherite scraps, combina 4 scraps + 4 gold ingots en un netherite ingot y mejora el equipo de diamante en una smithing table con un Netherite Upgrade smithing template (de las salas del tesoro de los bastions). Los encantamientos y nombres se conservan.",
+    "steps": [
+      "Equípate para el Nether: pico de diamante (el ancient debris requiere diamante o superior), pociones de fire resistance, comida, bloques y una cama o TNT para minar.",
+      "Mina ancient debris a Y=15 (pulsa F3 en Java, activa coordenadas en Bedrock). Minado con camas: coloca una cama a 4+ bloques al final de un túnel, haz clic para explotarla y repite: el debris sobrevive a la explosión. Las cadenas de TNT también funcionan.",
+      "Funde el ancient debris en netherite scraps en un horno o blast furnace.",
+      "Craftea netherite ingots: 4 scraps + 4 gold ingots (sin forma). Cada pieza de armadura o herramienta cuesta 1 lingote, así que un set completo necesita 36 scraps + 36 de oro.",
+      "Encuentra un Netherite Upgrade smithing template: garantizado en las salas del TESORO de los bastion remnants (el gran cubo central con lava y oro), posible en otros cofres de bastions. Asálalo con fire resistance y armadura de oro.",
+      "Duplica el template en la mesa de crafteo: 7 diamantes + 1 netherrack + el template = 2 templates.",
+      "Usa la smithing table: template en el hueco izquierdo, objeto de diamante en el centro, netherite ingot a la derecha. El objeto de netherite conserva TODOS los encantamientos, el nombre y los usos de yunque.",
+      "Prioridad de mejora: primero pico y espada, luego armadura (la netherite añade resistencia al knockback e inmunidad del objeto a lava y fuego)."
+    ],
+    "materials": [
+      "Pico de diamante (o mejor)",
+      "Pociones de fire resistance",
+      "Camas o TNT para minado explosivo",
+      "36 ancient debris + 36 gold ingots para un set completo",
+      "Netherite Upgrade template por objeto (duplicable)",
+      "Smithing table"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: mismo máximo de debris en Y=15, misma receta, misma mecánica de templates. Los objetos de netherite flotan en la lava y nunca arden: se acabó perder equipo en la lava. El ancient debris nunca se genera expuesto al aire.",
+    "versions": "Netherite añadida en la 1.16; el requisito del smithing template se añadió en la 1.20. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cuál es el mejor nivel Y para ancient debris?",
+        "a": "Y=15. El debris se genera entre Y=8 e Y=119 con un fuerte máximo en 15, siempre oculto dentro de netherrack o basalt: nunca expuesto al aire."
+      },
+      {
+        "q": "¿Se transfieren los encantamientos a la netherite?",
+        "a": "Sí: la mejora en la smithing table conserva todos los encantamientos, el nombre del objeto y los trabajos de yunque previos. No se pierde nada."
+      },
+      {
+        "q": "¿Dónde está el Netherite Upgrade template?",
+        "a": "En los bastion remnants: garantizado en el cofre de la sala del tesoro (el cubo central de los treasure bastions), poco común en otros sitios. Duplícalo con 7 diamantes + netherrack para que un solo hallazgo sirva para todo el set."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/ancient-debris/",
+        "label": "Ancient Debris"
+      },
+      {
+        "url": "/es/items/netherite-ingot/",
+        "label": "Netherite Ingot"
+      },
+      {
+        "url": "/es/structures/bastion-remnant/",
+        "label": "Bastion Remnant"
+      }
+    ]
+  },
+  "how-to-do-archaeology": {
+    "name": "Cómo hacer arqueología en Minecraft",
+    "shortTitle": "Arqueología",
+    "quickAnswer": "Craftea un brush (pluma + copper ingot + stick) y úsalo sobre suspicious sand (desert temples, pozos, warm ocean ruins) o suspicious gravel (trail ruins, cold ocean ruins): cepillar despacio revela pottery sherds, armor trims, huevos de sniffer y botín en lugar de romper el bloque.",
+    "steps": [
+      "Craftea un brush: 1 pluma + 1 copper ingot + 1 stick, en línea vertical.",
+      "Aprende los sitios: la suspicious sand se genera en desert temples, desert wells y warm ocean ruins; la suspicious gravel en trail ruins y cold ocean ruins (además de los pasillos de las trial chambers en 1.21+).",
+      "Reconoce los bloques sospechosos: parecen casi idénticos a la arena/grava normales; la suspicious sand tiene una textura ligeramente más rugosa. Cavarlos o explotarlos destruye el botín para siempre.",
+      "Mantén clic derecho con el brush sobre un bloque sospechoso. Lleva ~5 segundos de cepillado continuo; el objeto sale lentamente del bloque.",
+      "Warm ocean ruins: cepilla suspicious sand para huevos de sniffer (aproximadamente 1 de cada 15 bloques): incúbalos sobre musgo para conseguir sniffers, que desentierran torchflower seeds y pitcher pods.",
+      "Trail ruins: cepilla suspicious gravel para pottery sherds exclusivos y 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
+      "Cold ocean ruins: la suspicious gravel da sherds y botín; ojo con los drowned.",
+      "Colecciona los 20 patrones de pottery sherds y monta decorated pots (4 sherds o ladrillos en rombo en la mesa de crafteo)."
+    ],
+    "materials": [
+      "Brush (pluma + copper ingot + stick)",
+      "Pala para limpiar los bloques normales ALREDEDOR de los sospechosos",
+      "Respiración acuática o una puerta para las ruinas submarinas",
+      "Brushes de repuesto: se desgastan"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: mismos sitios, misma mecánica del brush. Ambas ediciones destruyen el botín del bloque sospechoso si lo minas en lugar de cepillarlo. Los patrones de los decorated pots se muestran igual.",
+    "versions": "Arqueología añadida en la 1.20 (Trails & Tales); suspicious gravel en trial chambers añadida en la 1.21. Vigente en la 26.3.",
+    "faq": [
+      {
+        "q": "¿Cómo se consigue un huevo de sniffer?",
+        "a": "Cepillando suspicious sand en warm ocean ruins: aproximadamente 1 de cada 15 bloques contiene un huevo. Eclosiona en unos 20 minutos sobre musgo (el doble fuera del musgo) y crece hasta ser un sniffer que desentierra semillas antiguas."
+      },
+      {
+        "q": "¿Qué pasa si minas suspicious sand?",
+        "a": "El bloque y su botín desaparecen para siempre: no suelta nada. Cepilla siempre los bloques sospechosos y nunca dejes que TNT o pistones los toquen."
+      },
+      {
+        "q": "¿Cuántos pottery sherds hay?",
+        "a": "20 patrones distintos de sherd (1.20-1.21), cada uno temático de su sitio: arms up, prize, skull, burn y más. Mezcla 4 sherds o ladrillos cualesquiera en un decorated pot."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/trail-ruins/",
+        "label": "Trail Ruins"
+      },
+      {
+        "url": "/es/structures/desert-temple/",
+        "label": "Desert Temple"
+      },
+      {
+        "url": "/es/potions/water-breathing/",
+        "label": "Poción de Water Breathing"
+      }
+    ]
+  },
+  "how-to-beat-ender-dragon": {
+    "name": "Cómo derrotar al ender dragon en Minecraft",
+    "shortTitle": "Derrotar al ender dragon",
+    "quickAnswer": "Entra en el End por el portal de una stronghold con arco, muchas flechas, pociones de Slow Falling y un cubo de agua. Destruye primero los 10 end crystals de los pilares de obsidiana (2 están enjaulados en barrotes de hierro) y luego golpea al dragón cuando se posa sobre la fuente de salida. Esquiva sus nubes de aliento y recoge la experiencia y el huevo de dragón al morir.",
+    "steps": [
+      "Equípate: armadura completa de diamante o netherite (Protección IV ideal), un arco con Power y más de 2 stacks de flechas (o Infinity), una buena espada, pociones de Slow Falling, un cubo de agua, comida, ender pearls y 2-3 stacks de bloques. Una calabaza tallada en la cabeza evita el aggro de los endermen pero limita la visión.",
+      "Encuentra y activa el portal del End en una stronghold (mira la guía de strongholds), y considera dormir en una cama cercana para fijar tu respawn antes de saltar.",
+      "Al llegar puedes aparecer en una sala de obsidiana dentro de la isla: excava hacia arriba y sal. No mires a los endermen.",
+      "Destruye los end crystals en la cima de los pilares de obsidiana: dispárales con el arco. Dos pilares enjaulan su cristal en barrotes de hierro: sube con bloques y rompe los barrotes, o dispara por el hueco de la base.",
+      "Mientras circula, esquiva las embestidas del dragón y no pises nunca las nubes púrpuras de aliento (recógelas con frascos para conseguir dragon's breath).",
+      "Cuando el dragón vuele a la fuente de salida y se pose, corre y golpéale la cabeza con la espada (o detona camas junto a él, al estilo speedrun: las camas explotan en el End y hacen daño masivo).",
+      "Repite la fase de arco y la de posado hasta matarlo: explota en 12.000 XP (primera baja), abre el portal de salida, genera el huevo de dragón y activa un end gateway hacia las islas exteriores."
+    ],
+    "materials": [
+      "Arco + 2 stacks de flechas (o Infinity)",
+      "Armadura de diamante/netherite, idealmente Protección IV",
+      "Pociones de Slow Falling + cubo de agua",
+      "Espada (Filo/Golpeo)",
+      "Bloques, comida, ender pearls",
+      "Opcional: calabaza tallada, camas"
+    ],
+    "editionNote": "El combate es igual en Java y Bedrock: 10 cristales, el mismo ciclo de posado y el mismo ataque de aliento, y las camas explotan en el End en ambas. En Bedrock los golpes directos del dragón empujan más fuerte, así que Slow Falling importa aún más. Resucitar al dragón con 4 end crystals en la fuente funciona idéntico en ambas.",
+    "versions": "El combate actual (dragón que circula, posados, ataque de aliento) existe desde la 1.9 y no ha cambiado en las versiones actuales. Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Cómo se resucita al ender dragon?",
+        "a": "Fabrica 4 end crystals (7 de cristal + 1 ojo de ender + 1 lágrima de ghast cada uno) y coloca uno en cada lado de la fuente de salida. El dragón reaparece y los cristales de los pilares se regeneran. Las bajas posteriores dan solo 500 XP y ningún huevo nuevo."
+      },
+      {
+        "q": "¿Por qué debería llevar camas al combate?",
+        "a": "Las camas explotan al intentar dormir en el End. Detonar una cama junto a la cabeza del dragón posado es la forma más rápida de matarlo, pero la explosión también te daña: cúbrete parcialmente tras la fuente y lleva protección contra explosiones."
+      },
+      {
+        "q": "¿Qué se consigue por matar al ender dragon?",
+        "a": "12.000 XP (primera baja), el huevo de dragón (uno por mundo), acceso a los end gateways que llevan a las islas exteriores, las end cities y las elytra, además del advancement Free the End."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/advancements/free-the-end/",
+        "label": "Advancement Free the End"
+      },
+      {
+        "url": "/es/mobs/ender-dragon/",
+        "label": "Ender dragon"
+      },
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-stronghold",
+      "how-to-get-elytra",
+      "how-to-find-end-city"
+    ]
+  },
+  "how-to-cure-zombie-villager": {
+    "name": "Cómo curar a un aldeano zombi en Minecraft",
+    "shortTitle": "Curar un aldeano zombi",
+    "quickAnswer": "Atrapa a un aldeano zombi fuera del sol, lánzale una poción arrojadiza de Debilidad y luego haz clic derecho con una manzana dorada normal. Tras 3-5 minutos vuelve a ser un aldeano con descuentos permanentes en los trueques. Curar al mismo aldeano hasta 5 veces acumula los descuentos hacia trueques de 1 esmeralda.",
+    "steps": [
+      "Encuentra un aldeano zombi: alrededor del 5% de las apariciones naturales de zombis. También puedes crear uno dejando que un zombi mate a un aldeano: la conversión es del 0% en Fácil, 50% en Normal y 100% en Difícil.",
+      "Atrápalo enseguida: mételo en una barca o enciérralo en un espacio pequeño con techo para que el sol no lo queme y otros mobs no interrumpan la cura.",
+      "Destila una poción arrojadiza de Debilidad: un ojo de araña fermentado (ojo de araña + seta marrón + azúcar) destilado en una botella de agua, y luego añade pólvora. No hace falta blaze powder ni nether wart.",
+      "Lánzale la poción: el aldeano zombi debe mostrar las partículas grises de Debilidad.",
+      "Haz clic derecho con una manzana dorada normal (8 lingotes de oro alrededor de una manzana, o encontrada en cofres de estructuras). Oirás un gong fuerte y aparecerán partículas rojas.",
+      "Espera de 3 a 5 minutos manteniendo la zona segura. Los barrotes de hierro y una cama dentro de un cubo de 9x9x9 alrededor del aldeano aceleran la cura."
+    ],
+    "materials": [
+      "Poción arrojadiza de Debilidad (ojo de araña fermentado + botella de agua + pólvora)",
+      "Manzana dorada (8 lingotes de oro + 1 manzana)",
+      "Una barca o una trampa con techo de 2 bloques",
+      "Opcional: barrotes de hierro y una cama para acelerarla"
+    ],
+    "editionNote": "La cura funciona igual en Java y Bedrock, incluido el temporizador de 3-5 minutos y la aceleración con barrotes y cama. En Java, los aldeanos curados dan grandes descuentos por gossip que se acumulan al curar al mismo aldeano otra vez (hasta 5 veces) y se contagian a los aldeanos cercanos; Bedrock también da descuentos, pero el acumulado es solo por aldeano. Un nitwit zombi curado sigue siendo nitwit.",
+    "versions": "La cura funciona así desde la 1.4 y no ha cambiado en las versiones actuales. Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Por qué el aldeano zombi no acepta la manzana dorada?",
+        "a": "Debe tener el efecto Debilidad activo al hacer clic derecho. Lanza primero la poción arrojadiza, confirma las espirales grises y dale la manzana dentro de la duración del efecto."
+      },
+      {
+        "q": "¿Los aldeanos curados conservan su profesión y sus trueques?",
+        "a": "Sí, y si habías comerciado con ellos antes de la zombificación sus trueques siguen bloqueados. La cura además aplica descuentos permanentes: curar a un bibliotecario repetidamente es cómo los jugadores consiguen libros de Mending a 1 esmeralda."
+      },
+      {
+        "q": "¿Se puede curar a un aldeano zombi sin soporte de pociones?",
+        "a": "La debilidad tiene que venir de algún sitio: una poción arrojadiza o persistente, o una flecha de Debilidad. Las witches a veces lanzan debilidad en combate. No hay atajo solo con manzana."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/advancements/zombie-doctor/",
+        "label": "Advancement Zombie Doctor"
+      },
+      {
+        "url": "/es/mobs/villager/",
+        "label": "Aldeano"
+      },
+      {
+        "url": "/es/potions/",
+        "label": "Pociones"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-build-trading-hall",
+      "how-to-breed-villagers"
+    ]
+  },
+  "how-to-find-stronghold": {
+    "name": "Cómo encontrar una stronghold en Minecraft",
+    "shortTitle": "Encontrar una stronghold",
+    "quickAnswer": "Fabrica ojos de ender (blaze powder + ender pearls) y lánzalos: vuelan hacia la stronghold más cercana. Sigue los lanzamientos, repitiendo cada pocos cientos de bloques, hasta que el ojo se clave en el suelo: entonces excava en escalera. La sala del portal del End contiene un spawner de silverfish y un marco que admite hasta 12 ojos.",
+    "steps": [
+      "Fabrica al menos 12-15 ojos de ender: ender pearls (de endermen, trueques con piglins o de clérigos) combinadas con blaze powder de las blaze rods farmeadas en una nether fortress.",
+      "Lanza un ojo (clic derecho) y fíjate en la dirección en la que flota. Cada lanzamiento tiene un 20% de probabilidad de romper el ojo, así que estira cada uno.",
+      "Viaja varios cientos de bloques en esa dirección y lanza de nuevo. Sigue hasta que el ojo flote hacia abajo y se entierre: la stronghold está justo debajo.",
+      "Para precisión, triangula: lanza desde dos puntos alejados, apunta cada posición F3 y el ángulo del ojo, y excava donde se cruzan las dos líneas.",
+      "Excava en escalera (nunca en vertical): las strongholds se generan entre la superficie y las capas de deepslate, a menudo alrededor de Y=0 o más abajo.",
+      "Explora los pasillos hasta encontrar la sala del portal: tiene un spawner de silverfish y una piscina de lava bajo el marco. Rellena los huecos vacíos del marco con ojos de ender (hasta 12; cada hueco tiene un 10% de probabilidad de venir ya relleno)."
+    ],
+    "materials": [
+      "12-15 ojos de ender (perlas + blaze powder), más repuestos para el portal",
+      "Pico y antorchas para la excavación",
+      "Arma y escudo para los silverfish"
+    ],
+    "editionNote": "Java genera exactamente 128 strongholds por mundo en 8 anillos alrededor del origen (las primeras 3 a entre 1.408-2.688 bloques del spawn). Bedrock no tiene un número fijo: siguen generándose a medida que viajas y son notablemente más comunes bajo las aldeas. Los ojos de ender apuntan a la más cercana en ambas ediciones.",
+    "versions": "Los anillos de strongholds y la mecánica de los ojos no han cambiado en las versiones actuales. Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Por qué mi ojo de ender se clavó en el suelo y no me llevó a nada?",
+        "a": "El ojo apunta al punto de inicio aproximado de la stronghold, no a la sala del portal. Excava en el punto de clavado y explora: la estructura se extiende en pasillos y la sala del portal puede estar a unas decenas de bloques de la entrada."
+      },
+      {
+        "q": "¿Puede una stronghold no tener portal del End?",
+        "a": "En Bedrock, algunas strongholds se generan sin sala del portal, y en ambas ediciones cuevas o mineshafts pueden sobrescribir piezas del marco. Si el tuyo está roto o no existe, los ojos te llevarán a la siguiente stronghold."
+      },
+      {
+        "q": "¿Cuántos ojos de ender necesito en total?",
+        "a": "Cuenta con unos 12-15 para el viaje más hasta 12 para el marco (la media real es de 8-9, porque algunos huecos vienen ya rellenos). 24 perlas y 12 de blaze powder es una reserva cómoda."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/advancements/eye-spy/",
+        "label": "Advancement Eye Spy"
+      },
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Stronghold"
+      },
+      {
+        "url": "/es/mobs/enderman/",
+        "label": "Enderman"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-ender-dragon",
+      "how-to-make-nether-portal"
+    ]
+  },
+  "how-to-fly-elytra": {
+    "name": "Cómo volar con elytra en Minecraft",
+    "shortTitle": "Volar con elytra",
+    "quickAnswer": "Equipa las elytra en el hueco de la coraza, salta desde una altura y pulsa salto otra vez en el aire para desplegar las alas. Inclina hacia abajo para ganar velocidad y hacia arriba para cambiar velocidad por altura, y usa cohetes de fuegos artificiales mientras planeas para impulsarte. Repara con phantom membranes o Mending: las alas duran 432 segundos de vuelo (unos 7 minutos) por barra de durabilidad.",
+    "steps": [
+      "Consigue unas elytra de un end ship (mira la guía de end cities) y equípalas en el hueco de la coraza. Pierdes la coraza, así que planea en consecuencia.",
+      "Despliegue: salta desde al menos 4 bloques y pulsa salto otra vez mientras caes. Las alas se abren y empiezas a planear.",
+      "Dirige con la mirada: inclina hacia abajo para picar y ganar velocidad, y hacia arriba para trepar y perder velocidad. La velocidad lo es todo: un picado rápido se convierte en un ascenso largo y alto.",
+      "Impúlsate con fuegos artificiales: sostén cohetes y haz clic derecho mientras planeas. Cada cohete da un empujón fuerte. Usa cohetes SIN estrella de fuegos artificiales (solo 3 de papel + 1-3 de pólvora), porque los cohetes con estrella te explotan en la cara.",
+      "Aterriza inclinando suavemente hacia arriba para frenar justo sobre el suelo, o cayendo en agua. La velocidad horizontal al tocar el suelo es lo que te mata, y el daño con elytra es daño por caída, así que las pociones de Slow Falling hacen la práctica indolora.",
+      "Mantenimiento: a 0 de durabilidad se convierten en elytra rotas y dejan de funcionar. Repáralas con phantom membranes en un yunque, o encántalas con Mending + Unbreaking III para que la XP las mantenga vivas para siempre."
+    ],
+    "materials": [
+      "Elytra (item frame de un end ship)",
+      "Cohetes: 3 de papel + 3 de pólvora cada uno, sin estrella",
+      "Phantom membranes para reparar (o Mending)",
+      "Opcional: pociones de Slow Falling mientras aprendes"
+    ],
+    "editionNote": "El planeo, el control de inclinación y el impulso con cohetes funcionan igual en Java y Bedrock. En Bedrock el momento es algo más generoso en los ascensos y también puedes desplegar las alas con doble toque de salto en transiciones de vuelo estilo creativo; la mecánica del cohete es idéntica. Las reglas de reparación (phantom membranes, Mending, yunque) coinciden en ambas.",
+    "versions": "El vuelo con elytra es estable desde que la 1.11.1 añadió el impulso con cohetes. Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Por qué me hacen daño los fuegos artificiales al impulsarme?",
+        "a": "Tus cohetes llevan una estrella de fuegos artificiales. Fabrica los cohetes de impulso solo con papel y pólvora, nunca con estrella. Tres de pólvora por cohete dan el impulso más largo."
+      },
+      {
+        "q": "¿Cómo se despega desde suelo llano?",
+        "a": "Salta, despliega en lo alto del brinco y dispara un cohete enseguida: necesitas un pilar de 2 bloques, un pequeño saliente o un tridente con Riptide bajo la lluvia para un despegue limpio en llano."
+      },
+      {
+        "q": "¿Pueden romperse las elytra para siempre?",
+        "a": "No. A 0 de durabilidad se convierten en elytra rotas pero se quedan en tu inventario; repáralas en un yunque con phantom membranes o combina dos pares gastados."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/advancements/sky-s-the-limit/",
+        "label": "Advancement Sky's the Limit"
+      },
+      {
+        "url": "/es/items/elytra/",
+        "label": "Elytra"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-elytra",
+      "how-to-find-end-city",
+      "how-to-beat-ender-dragon"
+    ]
+  },
+  "how-to-find-trial-chambers": {
+    "name": "Cómo encontrar y superar las trial chambers en Minecraft",
+    "shortTitle": "Trial chambers",
+    "quickAnswer": "Las trial chambers se generan bajo tierra en las capas de deepslate, sobre todo entre Y=-20 e Y=40. Compra un mapa de trial chamber a un aldeano cartógrafo de nivel oficial (journeyman), o explora cuevas por debajo de esas profundidades. Dentro, los trial spawners escalan el combate al tamaño de tu grupo, las vaults se abren con trial keys, y las pruebas ominosas (bebe una ominous bottle para Trial Omen) premian con ominous keys para el heavy core que fabrica la maza.",
+    "steps": [
+      "Consigue un mapa: los cartógrafos de nivel journeyman venden un Trial Explorer Map que apunta a las cámaras sin explorar más cercanas. Explorar cuevas de la capa de deepslate (Y=-20 a 40) buscando muros de tuff y cobre también funciona, y /locate structure minecraft:trial_chambers lo hace al instante con trucos.",
+      "Equípate como para una raid: armadura con Protección, escudo, un buen arma cuerpo a cuerpo, arco, comida y bloques. Lleva el inventario con espacio para el botín.",
+      "Combate los trial spawners: cada uno detecta a los jugadores cercanos y genera oleadas de un mob temático (cuerpo a cuerpo, pequeño o a distancia: zombis, slimes, silverfish, spiders, skeletons, strays, breezes...). Cuantos más jugadores cerca, más mobs, así que en solitario es muy llevadero.",
+      "Saquea las decorated pots y los cofres de los pasillos para conseguir trial keys, y luego abre los bloques Vault repartidos por las cámaras: cada jugador puede abrir cada vault una vez.",
+      "Para el premio de verdad, ve a lo ominoso: bebe una ominous bottle (de capitanes de raid o de las propias vaults) para ganar Trial Omen dentro de las cámaras. Los spawners se vuelven ominosos, los mobs aparecen con equipo y proyectiles, y los spawners ominosos derrotados pueden soltar Ominous Trial Keys.",
+      "Las llaves ominosas abren las Ominous Vaults, los bloques altos con brillo rojo: guardan el mejor botín, incluido el Heavy Core, que combinado con una breeze rod (del breeze, que solo está aquí) fabrica la maza."
+    ],
+    "materials": [
+      "Trial Explorer Map (cartógrafo) o exploración de cuevas",
+      "Armadura con Protección, escudo, espada/hacha y arco",
+      "Comida, bloques, huecos libres en el inventario",
+      "Ominous bottle para las pruebas ominosas (opcional, para el heavy core)"
+    ],
+    "editionNote": "Las trial chambers son la misma estructura en Java y Bedrock, incluido el escalado de los trial spawners, las vaults, las pruebas ominosas y el trueque del mapa del cartógrafo. Las tablas de botín de las ominous vaults y la receta de la maza (heavy core + breeze rod) coinciden en ambas. El combate de Bedrock es un poco más fácil en el timing del golpe aplastante de la maza, pero las mecánicas son compartidas.",
+    "versions": "Añadidas en la 1.21 (Tricky Trials). Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Cómo se consigue la maza en Minecraft?",
+        "a": "Se fabrica con un Heavy Core (botín de las ominous vaults de las trial chambers) más una breeze rod que suelta el breeze, un mob de las trial chambers. Es la única fuente de ambos objetos."
+      },
+      {
+        "q": "¿Qué diferencia hay entre una vault y una ominous vault?",
+        "a": "Las vaults normales se abren con trial keys y dan botín medio. Las ominous vaults (más altas, con brillo rojo) solo se abren con ominous trial keys de los trial spawners ominosos y guardan el mejor botín: heavy cores, manzanas doradas encantadas, armor trims flow y bolt, y los mejores libros encantados."
+      },
+      {
+        "q": "¿Los trial spawners dejan de generar mobs alguna vez?",
+        "a": "Cada spawner tiene un cooldown por jugador tras derrotarlo (unos 30 minutos de tiempo real) y luego se puede combatir otra vez. No se pueden minar ni mover, así que las cámaras son una arena de combate repetible."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/trial-chambers/",
+        "label": "Trial chambers"
+      },
+      {
+        "url": "/es/items/breeze-rod/",
+        "label": "Breeze rod"
+      },
+      {
+        "url": "/es/advancements/voluntary-exile/",
+        "label": "Advancement Voluntary Exile"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-start-raid",
+      "how-to-enchant"
+    ]
+  },
+  "how-to-get-mending": {
+    "name": "Cómo conseguir Mending en Minecraft",
+    "shortTitle": "Conseguir Mending",
+    "quickAnswer": "Mending es un encantamiento de tesoro, así que la mesa de encantamientos nunca lo ofrece. La forma fiable: coloca un atril junto a un aldeano sin oficio, mira el primer trueque de libro del bibliotecario, rompe y recoloca el atril hasta que ofrezca Mending, y fija el trueque. La pesca, los cofres de estructuras y las raids también pueden darlo. Aplica el libro al equipo en un yunque.",
+    "steps": [
+      "Monta un bibliotecario: coloca un atril (4 losas de madera + 1 estantería) junto a cualquier aldeano sin oficio con una cama cerca. Adoptará la profesión de bibliotecario.",
+      "Mira su primer trueque de libro (de novato). Si no es Mending, rompe el atril y vuelve a colocarlo: el trueque se regenera. NO compres nada todavía: un solo trueque bloquea todas las ofertas para siempre.",
+      "Repite hasta que el trueque de novato muestre Mending. Puede costar entre 10 y 38 esmeraldas (el rango teórico es 5-64, pero 10-38 cubre casi todas las tiradas).",
+      "Compra una vez para fijarlo, y luego compra todos los libros de Mending que necesites (el trueque se reabastece dos veces al día en la estación de trabajo).",
+      "Fuentes alternativas si odias el reroll del atril: botín de tesoro de la pesca, cofres de ancient cities, end cities, mineshafts, dungeons, bibliotecas de stronghold y pillager outposts, además de botín de raids.",
+      "Aplica el libro en un yunque a tu herramienta, arma, armadura o elytra. Con Mending, la XP que recoges repara el objeto en lugar de llenar tu barra de XP (los objetos en mano o puestos comparten la XP con tu barra)."
+    ],
+    "materials": [
+      "Atril (4 losas + 1 estantería)",
+      "Un aldeano sin oficio + una cama",
+      "10-38 esmeraldas por libro de Mending",
+      "Yunque para aplicar el libro"
+    ],
+    "editionNote": "Las fuentes son las mismas en Java y Bedrock. La gran salvedad es el Villager Trade Rebalance experimental (una opción de creación de mundo en Java): con él ACTIVADO, los bibliotecarios dependen del bioma y Mending es el trueque de nivel maestro SOLO de los bibliotecarios de pantano, lo que exige criar aldeanos en un pantano. Con los trueques por defecto (rebalance desactivado), cualquier bibliotecario de cualquier sitio puede ofrecer Mending a cualquier nivel.",
+    "versions": "El reroll con atril funciona en todas las versiones actuales por defecto; la regla del pantano por bioma solo aplica al trade rebalance experimental. Vigente a fecha de 26.3.",
+    "faq": [
+      {
+        "q": "¿Por qué la mesa de encantamientos no me da Mending?",
+        "a": "Mending es un encantamiento de tesoro: nunca aparece en la mesa de encantamientos con ninguna configuración. Necesitas trueques con aldeanos, pesca o botín de estructuras; el método del atril del bibliotecario es con diferencia el más fiable."
+      },
+      {
+        "q": "¿Cómo consigo Mending si el trade rebalance está activado?",
+        "a": "Cria dos aldeanos dentro de un bioma de pantano (o cura aldeanos zombi allí) para que el bebé cuente como de tipo pantano, sube al bibliotecario resultante a maestro y su último trueque de libro es Mending. Con el rebalance no hay reroll de atril para los libros especiales."
+      },
+      {
+        "q": "¿Mending repara objetos de mi inventario?",
+        "a": "No. Solo los objetos que llevas puestos o en una mano absorben XP para repararse; lleva el objeto en la mano secundaria o puesto mientras farmeas XP. Si hay varios dañados, se elige uno con Mending cada vez."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/enchantments/mending/",
+        "label": "Mending"
+      },
+      {
+        "url": "/es/mobs/villager/",
+        "label": "Aldeano"
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enchant",
+      "how-to-build-trading-hall",
+      "how-to-cure-zombie-villager"
+    ]
+  }
 }
