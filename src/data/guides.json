@@ -692,5 +692,184 @@
    }
   ],
   "keywords": "conduit heart of the sea nautilus shell underwater breathing prismarine frame"
+ },
+ {
+  "slug": "how-to-build-trading-hall",
+  "name": "How to Build a Villager Trading Hall",
+  "shortTitle": "Trading Hall",
+  "quickAnswer": "Cure zombie villagers (splash Weakness + golden apple) for 1-emerald trades, assign each villager a profession with a workstation (lectern = librarian), and lock in their trades by trading once - then line them up in cells with their workstations. Cured librarians sell any enchanted book, including Mending, for 1 emerald.",
+  "steps": [
+   "Gather supplies: brewing stand, fermented spider eyes (sugar + brown mushroom + spider eye), splash Weakness potions, golden apples (8 gold ingots + apple each), boats or minecarts for transport, beds and workstations.",
+   "Find zombie villagers at night (5% of zombies) or in an igloo basement, or let a zombie convert your own villager on purpose (100% conversion on Hard difficulty, 50% on Normal, 0% on Easy).",
+   "Cure them: throw the splash Potion of Weakness at the zombie villager, right-click it with a golden apple, and wait 3-5 minutes (Java) as it shakes and converts.",
+   "Transport each cured villager to its cell (1-wide space with its workstation in front). Boats on land, minecarts on rails, or nether portals for long hauls.",
+   "Assign professions with the workstation: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
+   "For librarians: check the first trade BEFORE trading. If the book is wrong (not Mending etc.), break and replace the lectern to reroll - trades lock permanently after your first trade with that villager.",
+   "Trade once to lock, then name-tag villagers you want to keep. Light everything, wall it in, and add beds + a bell if you want them to survive raids.",
+   "Optional (Java): zombify and re-cure villagers to stack discounts - after 1-2 cure cycles, most trades cost 1 emerald."
+  ],
+  "materials": [
+   "Brewing stand + blaze powder",
+   "Splash Potions of Weakness",
+   "Golden apples",
+   "Workstations (lecterns, composters...)",
+   "Boats/minecarts + rails",
+   "Name tags",
+   "Building blocks, torches, fences"
+  ],
+  "editionNote": "Java: discounts from curing stack with multiple cures (up to 5x), and villagers need no bed - just a workstation. Bedrock: curing discounts apply once, villagers need beds to keep professions, and workstations must be reachable. Igloo basements always contain one zombie villager with a brewing setup nearby.",
+  "versions": "Curing mechanics stable since 1.14 (Village & Pillage). The 1.20.2 experimental librarian rebalance (biome-locked books) is optional and off by default - normal worlds keep the classic lectern reroll. Current as of 26.3.",
+  "faq": [
+   {
+    "q": "How do you get Mending from villagers?",
+    "a": "Cure a zombie villager, give it a lectern, and check its first book trade. Break and replace the lectern to reroll until Mending appears (any price), then trade once to lock it. Cured librarians sell Mending for 1 emerald."
+   },
+   {
+    "q": "Why won't my villager take a profession?",
+    "a": "It cannot pathfind to the workstation, or it already locked a profession by trading. Break the old workstation, place the new one within reach, and never trade before you like the offers. Nitwits (green coats) never take jobs."
+   },
+   {
+    "q": "Do villagers need beds to trade?",
+    "a": "In Java, no - only a workstation and access to it. In Bedrock they need to be linked to a bed to keep their profession over time. Beds are also required for breeding and iron farms."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-breed-villagers",
+   "how-to-start-raid",
+   "how-to-enchant"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/villagers/librarian/",
+    "label": "Librarian trades"
+   },
+   {
+    "url": "/potions/weakness/",
+    "label": "Potion of Weakness"
+   },
+   {
+    "url": "/recipes/golden-apple/",
+    "label": "Golden Apple recipe"
+   }
+  ],
+  "keywords": "trading hall villager cure zombie weakness mending librarian 1 emerald discount"
+ },
+ {
+  "slug": "how-to-upgrade-netherite",
+  "name": "How to Upgrade to Netherite",
+  "shortTitle": "Netherite Upgrade",
+  "quickAnswer": "Mine ancient debris in the Nether at Y=15, smelt it into netherite scraps, combine 4 scraps + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade smithing template (found in bastion treasure rooms). Enchantments and names are kept.",
+  "steps": [
+   "Gear up for the Nether: diamond pickaxe (ancient debris requires diamond+), fire resistance potions, food, blocks and a bed or TNT for mining.",
+   "Mine ancient debris at Y=15 (press F3 in Java, enable coordinates in Bedrock). Bed-mine: place a bed 4+ blocks away at the end of a tunnel, click it to explode, and repeat - debris survives the blast. TNT chains work too.",
+   "Smelt ancient debris into netherite scraps in a furnace or blast furnace.",
+   "Craft netherite ingots: 4 scraps + 4 gold ingots (shapeless). Each armor piece or tool costs 1 ingot, so a full set needs 36 scraps + 36 gold.",
+   "Find a Netherite Upgrade smithing template: guaranteed in bastion remnant TREASURE rooms (the big central cube with lava and gold), possible in other bastion chests. Raid it with fire resistance and gold armor.",
+   "Duplicate the template at a crafting table: 7 diamonds + 1 netherrack + the template = 2 templates.",
+   "Use the smithing table: template in the left slot, diamond item in the middle, netherite ingot on the right. The netherite item keeps ALL enchantments, name and anvil uses.",
+   "Upgrade priority: pickaxe and sword first, then armor (netherite adds knockback resistance and lava-fire item immunity)."
+  ],
+  "materials": [
+   "Diamond pickaxe (or better)",
+   "Fire resistance potions",
+   "Beds or TNT for blast mining",
+   "36 ancient debris + 36 gold ingots for a full set",
+   "Netherite Upgrade template per item (duplicatable)",
+   "Smithing table"
+  ],
+  "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air.",
+  "versions": "Netherite added in 1.16; the smithing template requirement added in 1.20. Current as of 26.3.",
+  "faq": [
+   {
+    "q": "What is the best Y level for ancient debris?",
+    "a": "Y=15. Debris generates between Y=8 and Y=119 with a strong peak at 15, always hidden inside netherrack or basalt - never exposed to air."
+   },
+   {
+    "q": "Do enchantments transfer to netherite?",
+    "a": "Yes - the smithing table upgrade keeps every enchantment, the item name and prior anvil work. Nothing is lost."
+   },
+   {
+    "q": "Where is the Netherite Upgrade template?",
+    "a": "Bastion remnants: guaranteed in the treasure-room chest (the central cube of treasure bastions), uncommon elsewhere. Duplicate it with 7 diamonds + netherrack so one find serves the whole set."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-make-nether-portal",
+   "how-to-beat-wither"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/items/ancient-debris/",
+    "label": "Ancient Debris"
+   },
+   {
+    "url": "/items/netherite-ingot/",
+    "label": "Netherite Ingot"
+   },
+   {
+    "url": "/structures/bastion-remnant/",
+    "label": "Bastion Remnant"
+   }
+  ],
+  "keywords": "netherite upgrade smithing template ancient debris y15 bastion armor"
+ },
+ {
+  "slug": "how-to-do-archaeology",
+  "name": "How to Do Archaeology in Minecraft",
+  "shortTitle": "Archaeology",
+  "quickAnswer": "Craft a brush (feather + copper ingot + stick) and use it on suspicious sand (desert temples, wells, warm ocean ruins) or suspicious gravel (trail ruins, cold ocean ruins) - brushing slowly reveals pottery sherds, armor trims, sniffer eggs and loot instead of breaking the block.",
+  "steps": [
+   "Craft a brush: 1 feather + 1 copper ingot + 1 stick, in a vertical line.",
+   "Learn the sites: suspicious sand generates in desert temples, desert wells and warm ocean ruins; suspicious gravel in trail ruins and cold ocean ruins (plus trial chambers corridors in 1.21+).",
+   "Spot the suspicious blocks: they look nearly identical to normal sand/gravel - suspicious sand has a slightly rougher texture. Digging or exploding them destroys the loot forever.",
+   "Hold right-click with the brush on a suspicious block. It takes ~5 seconds of continuous brushing; the item slowly rises out of the block.",
+   "Warm ocean ruins: brush suspicious sand for sniffer eggs (about 1 in 15 blocks) - hatch them on moss for sniffers, which dig up torchflower seeds and pitcher pods.",
+   "Trail ruins: brush suspicious gravel for exclusive pottery sherds and 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
+   "Cold ocean ruins: suspicious gravel gives sherds and loot; watch for drowned.",
+   "Collect all 20 pottery sherd patterns and assemble decorated pots (4 sherds or bricks in a diamond at the crafting table)."
+  ],
+  "materials": [
+   "Brush (feather + copper ingot + stick)",
+   "Shovel for clearing normal blocks AROUND the suspicious ones",
+   "Water breathing or a door for underwater ruins",
+   "Spare brushes - they wear out"
+  ],
+  "editionNote": "Identical in Java and Bedrock: same sites, same brush mechanics. Both editions destroy suspicious block loot if you mine the block instead of brushing. Decorated pot patterns display identically.",
+  "versions": "Archaeology added in 1.20 (Trails & Tales); suspicious gravel in trial chambers added in 1.21. Current as of 26.3.",
+  "faq": [
+   {
+    "q": "How do you get a sniffer egg?",
+    "a": "Brush suspicious sand in warm ocean ruins - roughly 1 in 15 blocks contains an egg. It hatches in about 20 minutes on moss (double time off moss), growing into a sniffer that digs up ancient seeds."
+   },
+   {
+    "q": "What happens if you mine suspicious sand?",
+    "a": "The block and its loot vanish forever - nothing drops. Always brush suspicious blocks, and never let TNT or pistons touch them."
+   },
+   {
+    "q": "How many pottery sherds are there?",
+    "a": "20 different sherd patterns (1.20-1.21), each themed to its site: arms up, prize, skull, burn and more. Mix any 4 sherds or bricks into a decorated pot."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-end-city",
+   "how-to-use-conduit",
+   "how-to-breed-villagers"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/structures/trail-ruins/",
+    "label": "Trail Ruins"
+   },
+   {
+    "url": "/structures/desert-temple/",
+    "label": "Desert Temple"
+   },
+   {
+    "url": "/potions/water-breathing/",
+    "label": "Potion of Water Breathing"
+   }
+  ],
+  "keywords": "archaeology brush suspicious sand gravel sniffer egg pottery sherds armor trim"
  }
 ]
