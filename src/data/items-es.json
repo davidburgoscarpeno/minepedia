@@ -1,283 +1,352 @@
 {
- "diamond": {
-  "howToGet": [
-   "Mina diamond ore o deepslate diamond ore con un pico de iron o mejor: se genera desde Y=16 hasta la bedrock, con máximo alrededor de Y=-59",
-   "Saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions, end cities y strongholds",
-   "Craftéalo a partir de un bloque de diamante (9 por bloque)"
-  ],
-  "uses": [
-   "Craftea herramientas, armas y armadura de diamante",
-   "Craftea la enchanting table (2 diamantes), la jukebox (1) y firework stars con efecto de estela",
-   "Tradéaselos a aldeanos armorers, toolsmiths y weaponsmiths por esmeraldas",
-   "Duplica smithing templates en la mesa de crafteo (7 diamantes + template + bloque)"
-  ],
-  "renewable": "No renovable como objeto en bruto (ninguna granja lo produce), pero el equipo de diamante sí es renovable comerciando con aldeanos.",
-  "editionNote": "Generación y usos idénticos en Java y Bedrock. Fortune III sube el drop a 2,2 diamantes por mena de media."
- },
- "netherite-ingot": {
-  "howToGet": [
-   "Craftéalo con 4 netherite scraps + 4 gold ingots (receta sin forma)",
-   "Funde ancient debris en netherite scraps: el ancient debris se genera en el Nether entre Y=8 e Y=119, más común alrededor de Y=15",
-   "Saquea las salas del tesoro de los bastion remnants para scraps, lingotes y ancient debris"
-  ],
-  "uses": [
-   "Mejora el equipo de diamante a netherite en una smithing table (1 netherite upgrade smithing template + 1 lingote por pieza)",
-   "Los objetos de netherite flotan en la lava, nunca arden y tienen más durabilidad, daño y resistencia al knockback que los de diamante",
-   "Craftea el lodestone (8 chiseled stone bricks + 1 lingote)"
-  ],
-  "renewable": "No renovable: el ancient debris no se regenera y ninguna granja lo produce.",
-  "editionNote": "Idéntico en Java y Bedrock. El ancient debris nunca se genera expuesto al aire, así que el strip mining o las voladuras con camas/TNT a Y=15 son el método estándar."
- },
- "iron-ingot": {
-  "howToGet": [
-   "Funde iron ore o raw iron: la mena se genera en dos tandas (máximos alrededor de Y=16 y Y=232 en montañas)",
-   "Los iron golems sueltan 3-5 por muerte: la base de las granjas de hierro",
-   "Craftéalo con 9 iron nuggets o un bloque de hierro",
-   "Saquea cofres de aldeas, mineshafts, dungeons y shipwrecks"
-  ],
-  "uses": [
-   "El material de crafteo todoterreno: herramientas, armadura, cubos, yunques, tolvas, pistones, escudos, tijeras, raíles y más",
-   "Craftea un bloque de hierro (9 lingotes) para beacons e iron golems",
-   "Tradéalo a aldeanos armorers, toolsmiths y weaponsmiths (4 lingotes por esmeralda)"
-  ],
-  "renewable": "Renovable con granjas de iron golems, drops de zombis (raro) y fuentes relacionadas con el bartering.",
-  "editionNote": "Idéntico en ambas ediciones. Los diseños de granjas de iron golems difieren mucho entre Java (cotilleo/pánico de aldeanos) y Bedrock (camas + aldeanos)."
- },
- "ender-pearl": {
-  "howToGet": [
-   "Mata endermen: 0-1 perlas, hasta 4 con Looting III",
-   "Tradéalas con aldeanos clerics de nivel experto: 5 esmeraldas por perla",
-   "Haz bartering con gold ingots con piglins (probabilidad baja, 2-4 perlas)",
-   "Saquea los cofres de altar de los strongholds"
-  ],
-  "uses": [
-   "Craftea eyes of ender (perla + blaze powder) para encontrar y activar el portal del End",
-   "Las perlas lanzadas te teletransportan donde caen, haciendo 5 de daño de caída: la clásica herramienta de escape y desplazamiento",
-   "El teletransporte con perlas funciona entre dimensiones y puede atravesar techos de 1 bloque"
-  ],
-  "renewable": "Renovable con granjas de endermen (la fuente más rápida), comercio con clerics y bartering con piglins.",
-  "editionNote": "En Java, las perlas lanzadas crean un ticket de carga de chunk de 10 segundos. En Bedrock no existe esa mecánica: los cañones de perlas y los chunk loaders no funcionan."
- },
- "blaze-rod": {
-  "howToGet": [
-   "Mata blazes en nether fortresses: 0-1 rods, hasta 4 con Looting III; los blaze spawners de las fortalezas las hacen farmeables",
-   "No hay otra fuente: los blazes son el único mob que las suelta"
-  ],
-  "uses": [
-   "Craftea blaze powder (1 rod = 2 powder): combustible del brewing stand e ingrediente de las eyes of ender",
-   "Combustible del brewing stand: 1 powder destila 20 tandas",
-   "Craftea el propio brewing stand (1 rod + 3 cobblestone)"
-  ],
-  "renewable": "Renovable con granjas de blaze spawners en nether fortresses.",
-  "editionNote": "Idéntico en Java y Bedrock. Los blazes solo aparecen dentro de los bounding boxes de las fortalezas, así que las granjas deben construirse dentro de una."
- },
- "totem-of-undying": {
-  "howToGet": [
-   "Mata un evoker (woodland mansions y oleadas de raid): siempre suelta exactamente 1, sin efecto de Looting",
-   "Las raid farms hacen los totems totalmente farmeables: los evokers aparecen en las oleadas 5+"
-  ],
-  "uses": [
-   "Sujétalo en cualquiera de las manos: cuando fueras a morir, se consume en tu lugar y te deja a 1 corazón con efectos de estado",
-   "Java Edition: Regeneration II durante 45s, Fire Resistance I durante 40s y Absorption I durante 5s. Bedrock Edition: Regeneration II durante 30s y Absorption durante 5s",
-   "Solo funciona en la mano: los totems del inventario o del ender chest no hacen nada"
-  ],
-  "renewable": "Renovable con raid farms; técnicamente ilimitado.",
-  "editionNote": "Las duraciones difieren: Regeneration II dura 45s en Java y 30s en Bedrock. El vacío te mata en ambas ediciones: un totem no te salva de /kill ni del daño de vacío bajo el mundo."
- },
- "elytra": {
-  "howToGet": [
-   "Se encuentra en el item frame de los end ships, que se generan con algunas end cities en las islas exteriores del End",
-   "Mata primero al ender dragon para abrir los gateways a las islas exteriores",
-   "Unas elytra por end ship: lleva ender pearls o bloques para el puente"
-  ],
-  "uses": [
-   "Planea: salta y pulsa saltar de nuevo en el aire para desplegar las alas; los firework rockets te impulsan",
-   "Repara en un yunque con phantom membranes (o combina dos elytra dañadas); Mending es muy recomendable",
-   "Combínalas con Unbreaking III: los 432 de durabilidad base duran unos 28 minutos de vuelo por punto de desgaste"
-  ],
-  "renewable": "No farmeable, pero efectivamente ilimitada: las end cities se generan sin fin hacia afuera en las islas exteriores.",
-  "editionNote": "Mecánica de vuelo idéntica en ambas ediciones. El impulso con firework rockets funciona igual en Java y Bedrock."
- },
- "trident": {
-  "howToGet": [
-   "Solo lo sueltan drowned que llevan un tridente: nunca se puede craftear",
-   "Java: el 6,25% de los drowned aparecen con uno, 8,5% de probabilidad de drop (+1% por nivel de Looting)",
-   "Bedrock: el 15% de los drowned aparecen con uno, 25% de probabilidad de drop (+4% por nivel de Looting)",
-   "Las granjas de drowned (de río o de zombis convertidos) son la fuente práctica"
-  ],
-  "uses": [
-   "Arma cuerpo a cuerpo (9 de daño) y arrojadiza: vuelve contigo con Loyalty",
-   "Encantamientos exclusivos: Loyalty (regresa), Channeling (invoca un rayo en tormentas), Riptide (te lanza en agua/lluvia), Impaling (daño extra contra mobs acuáticos)",
-   "Los tridentes con Riptide son el viaje más rápido antes de las elytra cuando llueve"
-  ],
-  "renewable": "Renovable con granjas de drowned; repara combinando dos tridentes o con Mending.",
-  "editionNote": "Las tasas de drop son mucho mejores en Bedrock (25% frente a 8,5% base). Impaling también difiere: en Bedrock daña a cualquier mob que toque agua o esté bajo la lluvia; en Java solo afecta a mobs acuáticos."
- },
- "nether-star": {
-  "howToGet": [
-   "La suelta el Wither: exactamente 1 por muerte (Java: sin efecto de Looting; el drop no arde ni desaparece durante 10 minutos)",
-   "Invoca al Wither con 4 soul sand/soil en T más 3 wither skeleton skulls",
-   "Farmea wither skeletons en nether fortresses para las calaveras (2,5% base, hasta 5,5% con Looting III en Java)"
-  ],
-  "uses": [
-   "Craftea el beacon (5 glass + 3 obsidian + 1 nether star) para efectos de estado en área y un haz de luz",
-   "Los beacons necesitan una pirámide de bloques de hierro, oro, diamante, esmeralda o netherite debajo"
-  ],
-  "renewable": "Renovable: el Wither se puede invocar y matar repetidamente.",
-  "editionNote": "En Java la nether star no puede ser destruida por explosiones y solo desaparece tras 10 minutos; en Bedrock sí puede destruirse por explosiones: mantenla lejos de la pelea del Wither."
- },
- "slimeball": {
-  "howToGet": [
-   "Mata slimes pequeños: 0-2 slimeballs, hasta 5 con Looting III; los slimes aparecen en slime chunks por debajo de Y=40 o en pantanos de noche (máximo con luna llena)",
-   "Los pandas bebé tienen una probabilidad rara de estornudar una slimeball",
-   "Las granjas de slimes en slime chunks son la fuente a granel"
-  ],
-  "uses": [
-   "Sticky pistons (el corazón de la mayoría de los artilugios de redstone)",
-   "Slime blocks (9 slimeballs) para flying machines, plataformas de rebote y lanzadores de entidades",
-   "Leads (4 string + 1 slimeball) y magma cream (con blaze powder)"
-  ],
-  "renewable": "Renovable con granjas de slimes y granjas de pandas.",
-  "editionNote": "La ubicación de los slime chunks es idéntica entre ediciones para la misma seed. El spawn en pantanos depende de la fase lunar en ambas ediciones."
- },
- "emerald": {
-  "howToGet": [
-   "Comercia con aldeanos: la fuente principal; vende cultivos, sticks, paper y más",
-   "Mina emerald ore en montañas y windswept hills (de Y=-16 a 320, más común alrededor de Y=236) con un pico de iron o mejor",
-   "Saquea cofres de aldeas, shipwrecks, tesoros enterrados y trial chambers",
-   "Lo sueltan vindicators y evokers en las raids"
-  ],
-  "uses": [
-   "Moneda de todos los tradeos de aldeanos y wandering traders",
-   "Beacons: dales esmeraldas para seleccionar poderes",
-   "Bloques de esmeralda para pirámides de beacon y decoración"
-  ],
-  "renewable": "Sí, comerciando con aldeanos",
-  "editionNote": "Idéntica en Java y Bedrock. La emerald ore es la mena más rara del Overworld; la deepslate emerald ore (bajo Y=0 en montañas) es la variante de bloque más rara del juego."
- },
- "gold-ingot": {
-  "howToGet": [
-   "Funde gold ore o deepslate gold ore (Overworld, más común bajo Y=32 y en badlands, donde se genera hasta Y=256)",
-   "Mina nether gold ore con cualquier pico: suelta 2-6 gold nuggets (hasta 24 con Fortune III)",
-   "Mata zombified piglins (sueltan nuggets, ocasionalmente lingotes)",
-   "Saquea bastions, ruined portals, shipwrecks y tesoros enterrados"
-  ],
-  "uses": [
-   "Bartering con piglins: lanza un lingote para botín aleatorio (ender pearls, obsidiana, quartz...)",
-   "Craftea herramientas de oro, armadura, relojes, manzanas doradas, powered rails y bloques de oro",
-   "Golden carrots (8 nuggets + zanahoria): una de las mejores comidas",
-   "Craftea netherite ingots: 4 oro + 4 netherite scraps"
-  ],
-  "renewable": "Sí, con granjas de zombified piglins y bartering",
-  "editionNote": "Idéntico en Java y Bedrock. Los piglins del Nether se vuelven hostiles si no llevas al menos una pieza de armadura de oro: el 'uso' más importante del oro es llevarlo puesto allí."
- },
- "redstone-dust": {
-  "howToGet": [
-   "Mina redstone ore o deepslate redstone ore con un pico de iron o mejor: se genera de Y=-64 a 16, más común alrededor de Y=-59; cada mena suelta 4-5 de polvo (más con Fortune)",
-   "Mata brujas (4-8 de polvo)",
-   "Comercia con aldeanos clerics",
-   "Saquea jungle temples, dungeons, mineshafts y trial chambers"
-  ],
-  "uses": [
-   "Alimenta y cablea artilugios de redstone: pistones, granjas, puertas, trampas",
-   "Destila pociones: la redstone alarga la duración de las pociones",
-   "Craftea repeaters, comparators, pistones, observers, dispensers, powered rails, relojes, brújulas",
-   "Activa bloques directamente colocando rastros de polvo"
-  ],
-  "renewable": "Sí, con brujas y tradeos de clerics",
-  "editionNote": "Idéntica en Java y Bedrock. Pero la mecánica de redstone difiere entre ediciones: Java tiene quasi-connectivity y pulsos de 1 tick; los pistones de Bedrock se comportan distinto. Los tutoriales de artilugios son específicos por edición."
- },
- "obsidian": {
-  "howToGet": [
-   "Vierte agua sobre bloques de lava fuente: el método clásico",
-   "Saquea ruined portals y cofres de bastions",
-   "Bartering con piglins (probabilidad por gold ingot)",
-   "Los pilares y la plataforma de obsidiana del End se regeneran: mínalos"
-  ],
-  "uses": [
-   "Construye portales al Nether (mínimo 10 de obsidiana)",
-   "Craftea enchanting tables (4), beacons (3), ender chests (8) y end crystals",
-   "Construcción a prueba de explosiones (1.200 de resistencia: creepers y TNT no pueden romperla)"
-  ],
-  "renewable": "Sí: la plataforma de obsidiana del End se regenera cada vez que una entidad entra al End, lo que permite granjas",
-  "editionNote": "Idéntica en ambas ediciones: solo se mina con pico de diamante o netherite (9,4s con diamante), inmune a explosiones, movible con pistones a diferencia de la bedrock. La crying obsidian (bartering/ruined portals) no sirve para portales."
- },
- "ancient-debris": {
-  "howToGet": [
-   "Mina en el Nether con un pico de diamante o netherite: más común alrededor de Y=15, generándose entre Y=8 e Y=119 (nunca expuesto al aire)",
-   "Minado con camas o TNT: las explosiones limpian el netherrack mientras el debris resistente sobrevive",
-   "Saquea las salas del tesoro de los bastion remnants (probabilidad de 1-2)"
-  ],
-  "uses": [
-   "Fúndelo en netherite scraps; 4 scraps + 4 gold ingots = 1 netherite ingot",
-   "Bloque decorativo a prueba de explosiones"
-  ],
-  "renewable": "No: finito por mundo, aunque los mundos son efectivamente infinitos",
-  "editionNote": "Idéntico en Java y Bedrock: mismo rango de generación y máximo en Y=15. Nunca se genera expuesto al aire, así que hace falta minado en ramal o explosiones: nunca lo verás en una cueva abierta."
- },
- "shulker-shell": {
-  "howToGet": [
-   "Mata shulkers en end cities: alrededor de un 50% de probabilidad de drop, aumentada con Looting",
-   "En Java, un shulker golpeado por la bala de otro shulker puede duplicarse: las granjas de shulkers explotan esto"
-  ],
-  "uses": [
-   "Craftea shulker boxes (2 shells + 1 cofre): almacenamiento portátil de 27 huecos que conserva su contenido al romperse",
-   "Shulker boxes teñidas para sistemas de almacenamiento por colores"
-  ],
-  "renewable": "Sí en Java con granjas de duplicación de shulkers; en Bedrock es finita sin volver a saquear ciudades",
-  "editionNote": "La tasa de drop difiere: Java ~50% base (+6,25% por nivel de Looting); Bedrock 0-1 shells con Looting afectando a la cantidad. La duplicación al ser golpeados por balas de shulker es una mecánica solo de Java."
- },
- "heart-of-the-sea": {
-  "howToGet": [
-   "Encuentra tesoros enterrados: cada cofre de tesoro enterrado contiene exactamente un Heart of the Sea",
-   "Consigue mapas del tesoro en los cofres de mapas de los shipwrecks y ocean ruins, y cava en la X roja (normalmente en playas)"
-  ],
-  "uses": [
-   "Craftea un conduit (1 corazón + 8 nautilus shells) para respiración submarina, visión nocturna y prisa minera"
-  ],
-  "renewable": "No por cofre, pero el tesoro enterrado se genera infinitamente por las costas del mundo",
-  "editionNote": "Idéntico en Java y Bedrock: uno por cofre de tesoro enterrado, sin otra fuente. En Java el cofre siempre se genera en las coordenadas de chunk 9,9: cava ahí en la X."
- },
- "breeze-rod": {
-  "howToGet": [
-   "Mata breezes en las Trial Chambers: cada uno suelta 1-2 breeze rods (más con Looting)",
-   "Las trial chambers se generan bajo tierra en el Overworld; encuéntralas explorando o con los trial explorer maps de los cartógrafos"
-  ],
-  "uses": [
-   "Craftea wind charges (4 por rod): ráfagas lanzables de knockback que también te autopropulsan",
-   "Craftea el mace (1 breeze rod + 1 heavy core de los ominous vaults)",
-   "Los ataques aplastantes del mace escalan con la distancia de caída"
-  ],
-  "renewable": "Sí: los breezes reaparecen de sus trial spawners tras el enfriamiento",
-  "editionNote": "Idéntica en Java y Bedrock: mismos drops y recetas. La negación de daño de caída del wind charge y la mecánica de aplastamiento del mace coinciden entre ediciones desde la 1.21."
- },
- "gunpowder": {
-  "howToGet": [
-   "Mata creepers (0-2, hasta 5 con Looting III) antes de que exploten",
-   "Mata ghasts (0-2) y brujas (4-8)",
-   "Saquea desert temples, shipwrecks, dungeons y woodland mansions"
-  ],
-  "uses": [
-   "Craftea TNT (5 gunpowder + 4 sand)",
-   "Destila pociones splash (gunpowder + cualquier poción)",
-   "Craftea firework rockets (1-3 de gunpowder para la duración de vuelo) y fire charges",
-   "Craftea firework stars para efectos de explosión"
-  ],
-  "renewable": "Sí: las granjas de creepers son un básico del late game para combustible de cohetes",
-  "editionNote": "Idéntica en Java y Bedrock. Looting mejora muchísimo los drops de creepers; una buena granja de creepers es cómo los jugadores con elytra mantienen los cohetes a tope."
- },
- "ender-eye": {
-  "howToGet": [
-   "Craftéala con 1 blaze powder + 1 ender pearl",
-   "Cómprala a aldeanos clerics (nivel experto) por esmeraldas",
-   "Saquea cofres de altar de strongholds (raro)"
-  ],
-  "uses": [
-   "Localiza strongholds: lánzala y vuela hacia el stronghold más cercano (~12 bloques antes de caer, 20% de probabilidad de romperse)",
-   "Activa el portal del End: inserta una en cada uno de los 12 marcos del portal",
-   "Craftea ender chests (8 obsidiana + 1 ojo) y end crystals"
-  ],
-  "renewable": "Sí, con granjas de ender pearls y blaze powder",
-  "editionNote": "Idéntica en Java y Bedrock. Lleva 12-15 ojos para el viaje: algunos se rompen en vuelo y necesitas hasta 12 para los marcos del portal (cada marco tiene un 10% de probabilidad de generarse ya relleno)."
- }
+  "diamond": {
+    "howToGet": [
+      "Mina diamond ore o deepslate diamond ore con un pico de iron o mejor: se genera desde Y=16 hasta la bedrock, con máximo alrededor de Y=-59",
+      "Saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions, end cities y strongholds",
+      "Craftéalo a partir de un bloque de diamante (9 por bloque)"
+    ],
+    "uses": [
+      "Craftea herramientas, armas y armadura de diamante",
+      "Craftea la enchanting table (2 diamantes), la jukebox (1) y firework stars con efecto de estela",
+      "Tradéaselos a aldeanos armorers, toolsmiths y weaponsmiths por esmeraldas",
+      "Duplica smithing templates en la mesa de crafteo (7 diamantes + template + bloque)"
+    ],
+    "renewable": "No renovable como objeto en bruto (ninguna granja lo produce), pero el equipo de diamante sí es renovable comerciando con aldeanos.",
+    "editionNote": "Generación y usos idénticos en Java y Bedrock. Fortune III sube el drop a 2,2 diamantes por mena de media."
+  },
+  "netherite-ingot": {
+    "howToGet": [
+      "Craftéalo con 4 netherite scraps + 4 gold ingots (receta sin forma)",
+      "Funde ancient debris en netherite scraps: el ancient debris se genera en el Nether entre Y=8 e Y=119, más común alrededor de Y=15",
+      "Saquea las salas del tesoro de los bastion remnants para scraps, lingotes y ancient debris"
+    ],
+    "uses": [
+      "Mejora el equipo de diamante a netherite en una smithing table (1 netherite upgrade smithing template + 1 lingote por pieza)",
+      "Los objetos de netherite flotan en la lava, nunca arden y tienen más durabilidad, daño y resistencia al knockback que los de diamante",
+      "Craftea el lodestone (8 chiseled stone bricks + 1 lingote)"
+    ],
+    "renewable": "No renovable: el ancient debris no se regenera y ninguna granja lo produce.",
+    "editionNote": "Idéntico en Java y Bedrock. El ancient debris nunca se genera expuesto al aire, así que el strip mining o las voladuras con camas/TNT a Y=15 son el método estándar."
+  },
+  "iron-ingot": {
+    "howToGet": [
+      "Funde iron ore o raw iron: la mena se genera en dos tandas (máximos alrededor de Y=16 y Y=232 en montañas)",
+      "Los iron golems sueltan 3-5 por muerte: la base de las granjas de hierro",
+      "Craftéalo con 9 iron nuggets o un bloque de hierro",
+      "Saquea cofres de aldeas, mineshafts, dungeons y shipwrecks"
+    ],
+    "uses": [
+      "El material de crafteo todoterreno: herramientas, armadura, cubos, yunques, tolvas, pistones, escudos, tijeras, raíles y más",
+      "Craftea un bloque de hierro (9 lingotes) para beacons e iron golems",
+      "Tradéalo a aldeanos armorers, toolsmiths y weaponsmiths (4 lingotes por esmeralda)"
+    ],
+    "renewable": "Renovable con granjas de iron golems, drops de zombis (raro) y fuentes relacionadas con el bartering.",
+    "editionNote": "Idéntico en ambas ediciones. Los diseños de granjas de iron golems difieren mucho entre Java (cotilleo/pánico de aldeanos) y Bedrock (camas + aldeanos)."
+  },
+  "ender-pearl": {
+    "howToGet": [
+      "Mata endermen: 0-1 perlas, hasta 4 con Looting III",
+      "Tradéalas con aldeanos clerics de nivel experto: 5 esmeraldas por perla",
+      "Haz bartering con gold ingots con piglins (probabilidad baja, 2-4 perlas)",
+      "Saquea los cofres de altar de los strongholds"
+    ],
+    "uses": [
+      "Craftea eyes of ender (perla + blaze powder) para encontrar y activar el portal del End",
+      "Las perlas lanzadas te teletransportan donde caen, haciendo 5 de daño de caída: la clásica herramienta de escape y desplazamiento",
+      "El teletransporte con perlas funciona entre dimensiones y puede atravesar techos de 1 bloque"
+    ],
+    "renewable": "Renovable con granjas de endermen (la fuente más rápida), comercio con clerics y bartering con piglins.",
+    "editionNote": "En Java, las perlas lanzadas crean un ticket de carga de chunk de 10 segundos. En Bedrock no existe esa mecánica: los cañones de perlas y los chunk loaders no funcionan."
+  },
+  "blaze-rod": {
+    "howToGet": [
+      "Mata blazes en nether fortresses: 0-1 rods, hasta 4 con Looting III; los blaze spawners de las fortalezas las hacen farmeables",
+      "No hay otra fuente: los blazes son el único mob que las suelta"
+    ],
+    "uses": [
+      "Craftea blaze powder (1 rod = 2 powder): combustible del brewing stand e ingrediente de las eyes of ender",
+      "Combustible del brewing stand: 1 powder destila 20 tandas",
+      "Craftea el propio brewing stand (1 rod + 3 cobblestone)"
+    ],
+    "renewable": "Renovable con granjas de blaze spawners en nether fortresses.",
+    "editionNote": "Idéntico en Java y Bedrock. Los blazes solo aparecen dentro de los bounding boxes de las fortalezas, así que las granjas deben construirse dentro de una."
+  },
+  "totem-of-undying": {
+    "howToGet": [
+      "Mata un evoker (woodland mansions y oleadas de raid): siempre suelta exactamente 1, sin efecto de Looting",
+      "Las raid farms hacen los totems totalmente farmeables: los evokers aparecen en las oleadas 5+"
+    ],
+    "uses": [
+      "Sujétalo en cualquiera de las manos: cuando fueras a morir, se consume en tu lugar y te deja a 1 corazón con efectos de estado",
+      "Java Edition: Regeneration II durante 45s, Fire Resistance I durante 40s y Absorption I durante 5s. Bedrock Edition: Regeneration II durante 30s y Absorption durante 5s",
+      "Solo funciona en la mano: los totems del inventario o del ender chest no hacen nada"
+    ],
+    "renewable": "Renovable con raid farms; técnicamente ilimitado.",
+    "editionNote": "Las duraciones difieren: Regeneration II dura 45s en Java y 30s en Bedrock. El vacío te mata en ambas ediciones: un totem no te salva de /kill ni del daño de vacío bajo el mundo."
+  },
+  "elytra": {
+    "howToGet": [
+      "Se encuentra en el item frame de los end ships, que se generan con algunas end cities en las islas exteriores del End",
+      "Mata primero al ender dragon para abrir los gateways a las islas exteriores",
+      "Unas elytra por end ship: lleva ender pearls o bloques para el puente"
+    ],
+    "uses": [
+      "Planea: salta y pulsa saltar de nuevo en el aire para desplegar las alas; los firework rockets te impulsan",
+      "Repara en un yunque con phantom membranes (o combina dos elytra dañadas); Mending es muy recomendable",
+      "Combínalas con Unbreaking III: los 432 de durabilidad base duran unos 28 minutos de vuelo por punto de desgaste"
+    ],
+    "renewable": "No farmeable, pero efectivamente ilimitada: las end cities se generan sin fin hacia afuera en las islas exteriores.",
+    "editionNote": "Mecánica de vuelo idéntica en ambas ediciones. El impulso con firework rockets funciona igual en Java y Bedrock."
+  },
+  "trident": {
+    "howToGet": [
+      "Solo lo sueltan drowned que llevan un tridente: nunca se puede craftear",
+      "Java: el 6,25% de los drowned aparecen con uno, 8,5% de probabilidad de drop (+1% por nivel de Looting)",
+      "Bedrock: el 15% de los drowned aparecen con uno, 25% de probabilidad de drop (+4% por nivel de Looting)",
+      "Las granjas de drowned (de río o de zombis convertidos) son la fuente práctica"
+    ],
+    "uses": [
+      "Arma cuerpo a cuerpo (9 de daño) y arrojadiza: vuelve contigo con Loyalty",
+      "Encantamientos exclusivos: Loyalty (regresa), Channeling (invoca un rayo en tormentas), Riptide (te lanza en agua/lluvia), Impaling (daño extra contra mobs acuáticos)",
+      "Los tridentes con Riptide son el viaje más rápido antes de las elytra cuando llueve"
+    ],
+    "renewable": "Renovable con granjas de drowned; repara combinando dos tridentes o con Mending.",
+    "editionNote": "Las tasas de drop son mucho mejores en Bedrock (25% frente a 8,5% base). Impaling también difiere: en Bedrock daña a cualquier mob que toque agua o esté bajo la lluvia; en Java solo afecta a mobs acuáticos."
+  },
+  "nether-star": {
+    "howToGet": [
+      "La suelta el Wither: exactamente 1 por muerte (Java: sin efecto de Looting; el drop no arde ni desaparece durante 10 minutos)",
+      "Invoca al Wither con 4 soul sand/soil en T más 3 wither skeleton skulls",
+      "Farmea wither skeletons en nether fortresses para las calaveras (2,5% base, hasta 5,5% con Looting III en Java)"
+    ],
+    "uses": [
+      "Craftea el beacon (5 glass + 3 obsidian + 1 nether star) para efectos de estado en área y un haz de luz",
+      "Los beacons necesitan una pirámide de bloques de hierro, oro, diamante, esmeralda o netherite debajo"
+    ],
+    "renewable": "Renovable: el Wither se puede invocar y matar repetidamente.",
+    "editionNote": "En Java la nether star no puede ser destruida por explosiones y solo desaparece tras 10 minutos; en Bedrock sí puede destruirse por explosiones: mantenla lejos de la pelea del Wither."
+  },
+  "slimeball": {
+    "howToGet": [
+      "Mata slimes pequeños: 0-2 slimeballs, hasta 5 con Looting III; los slimes aparecen en slime chunks por debajo de Y=40 o en pantanos de noche (máximo con luna llena)",
+      "Los pandas bebé tienen una probabilidad rara de estornudar una slimeball",
+      "Las granjas de slimes en slime chunks son la fuente a granel"
+    ],
+    "uses": [
+      "Sticky pistons (el corazón de la mayoría de los artilugios de redstone)",
+      "Slime blocks (9 slimeballs) para flying machines, plataformas de rebote y lanzadores de entidades",
+      "Leads (4 string + 1 slimeball) y magma cream (con blaze powder)"
+    ],
+    "renewable": "Renovable con granjas de slimes y granjas de pandas.",
+    "editionNote": "La ubicación de los slime chunks es idéntica entre ediciones para la misma seed. El spawn en pantanos depende de la fase lunar en ambas ediciones."
+  },
+  "emerald": {
+    "howToGet": [
+      "Comercia con aldeanos: la fuente principal; vende cultivos, sticks, paper y más",
+      "Mina emerald ore en montañas y windswept hills (de Y=-16 a 320, más común alrededor de Y=236) con un pico de iron o mejor",
+      "Saquea cofres de aldeas, shipwrecks, tesoros enterrados y trial chambers",
+      "Lo sueltan vindicators y evokers en las raids"
+    ],
+    "uses": [
+      "Moneda de todos los tradeos de aldeanos y wandering traders",
+      "Beacons: dales esmeraldas para seleccionar poderes",
+      "Bloques de esmeralda para pirámides de beacon y decoración"
+    ],
+    "renewable": "Sí, comerciando con aldeanos",
+    "editionNote": "Idéntica en Java y Bedrock. La emerald ore es la mena más rara del Overworld; la deepslate emerald ore (bajo Y=0 en montañas) es la variante de bloque más rara del juego."
+  },
+  "gold-ingot": {
+    "howToGet": [
+      "Funde gold ore o deepslate gold ore (Overworld, más común bajo Y=32 y en badlands, donde se genera hasta Y=256)",
+      "Mina nether gold ore con cualquier pico: suelta 2-6 gold nuggets (hasta 24 con Fortune III)",
+      "Mata zombified piglins (sueltan nuggets, ocasionalmente lingotes)",
+      "Saquea bastions, ruined portals, shipwrecks y tesoros enterrados"
+    ],
+    "uses": [
+      "Bartering con piglins: lanza un lingote para botín aleatorio (ender pearls, obsidiana, quartz...)",
+      "Craftea herramientas de oro, armadura, relojes, manzanas doradas, powered rails y bloques de oro",
+      "Golden carrots (8 nuggets + zanahoria): una de las mejores comidas",
+      "Craftea netherite ingots: 4 oro + 4 netherite scraps"
+    ],
+    "renewable": "Sí, con granjas de zombified piglins y bartering",
+    "editionNote": "Idéntico en Java y Bedrock. Los piglins del Nether se vuelven hostiles si no llevas al menos una pieza de armadura de oro: el 'uso' más importante del oro es llevarlo puesto allí."
+  },
+  "redstone-dust": {
+    "howToGet": [
+      "Mina redstone ore o deepslate redstone ore con un pico de iron o mejor: se genera de Y=-64 a 16, más común alrededor de Y=-59; cada mena suelta 4-5 de polvo (más con Fortune)",
+      "Mata brujas (4-8 de polvo)",
+      "Comercia con aldeanos clerics",
+      "Saquea jungle temples, dungeons, mineshafts y trial chambers"
+    ],
+    "uses": [
+      "Alimenta y cablea artilugios de redstone: pistones, granjas, puertas, trampas",
+      "Destila pociones: la redstone alarga la duración de las pociones",
+      "Craftea repeaters, comparators, pistones, observers, dispensers, powered rails, relojes, brújulas",
+      "Activa bloques directamente colocando rastros de polvo"
+    ],
+    "renewable": "Sí, con brujas y tradeos de clerics",
+    "editionNote": "Idéntica en Java y Bedrock. Pero la mecánica de redstone difiere entre ediciones: Java tiene quasi-connectivity y pulsos de 1 tick; los pistones de Bedrock se comportan distinto. Los tutoriales de artilugios son específicos por edición."
+  },
+  "obsidian": {
+    "howToGet": [
+      "Vierte agua sobre bloques de lava fuente: el método clásico",
+      "Saquea ruined portals y cofres de bastions",
+      "Bartering con piglins (probabilidad por gold ingot)",
+      "Los pilares y la plataforma de obsidiana del End se regeneran: mínalos"
+    ],
+    "uses": [
+      "Construye portales al Nether (mínimo 10 de obsidiana)",
+      "Craftea enchanting tables (4), beacons (3), ender chests (8) y end crystals",
+      "Construcción a prueba de explosiones (1.200 de resistencia: creepers y TNT no pueden romperla)"
+    ],
+    "renewable": "Sí: la plataforma de obsidiana del End se regenera cada vez que una entidad entra al End, lo que permite granjas",
+    "editionNote": "Idéntica en ambas ediciones: solo se mina con pico de diamante o netherite (9,4s con diamante), inmune a explosiones, movible con pistones a diferencia de la bedrock. La crying obsidian (bartering/ruined portals) no sirve para portales."
+  },
+  "ancient-debris": {
+    "howToGet": [
+      "Mina en el Nether con un pico de diamante o netherite: más común alrededor de Y=15, generándose entre Y=8 e Y=119 (nunca expuesto al aire)",
+      "Minado con camas o TNT: las explosiones limpian el netherrack mientras el debris resistente sobrevive",
+      "Saquea las salas del tesoro de los bastion remnants (probabilidad de 1-2)"
+    ],
+    "uses": [
+      "Fúndelo en netherite scraps; 4 scraps + 4 gold ingots = 1 netherite ingot",
+      "Bloque decorativo a prueba de explosiones"
+    ],
+    "renewable": "No: finito por mundo, aunque los mundos son efectivamente infinitos",
+    "editionNote": "Idéntico en Java y Bedrock: mismo rango de generación y máximo en Y=15. Nunca se genera expuesto al aire, así que hace falta minado en ramal o explosiones: nunca lo verás en una cueva abierta."
+  },
+  "shulker-shell": {
+    "howToGet": [
+      "Mata shulkers en end cities: alrededor de un 50% de probabilidad de drop, aumentada con Looting",
+      "En Java, un shulker golpeado por la bala de otro shulker puede duplicarse: las granjas de shulkers explotan esto"
+    ],
+    "uses": [
+      "Craftea shulker boxes (2 shells + 1 cofre): almacenamiento portátil de 27 huecos que conserva su contenido al romperse",
+      "Shulker boxes teñidas para sistemas de almacenamiento por colores"
+    ],
+    "renewable": "Sí en Java con granjas de duplicación de shulkers; en Bedrock es finita sin volver a saquear ciudades",
+    "editionNote": "La tasa de drop difiere: Java ~50% base (+6,25% por nivel de Looting); Bedrock 0-1 shells con Looting afectando a la cantidad. La duplicación al ser golpeados por balas de shulker es una mecánica solo de Java."
+  },
+  "heart-of-the-sea": {
+    "howToGet": [
+      "Encuentra tesoros enterrados: cada cofre de tesoro enterrado contiene exactamente un Heart of the Sea",
+      "Consigue mapas del tesoro en los cofres de mapas de los shipwrecks y ocean ruins, y cava en la X roja (normalmente en playas)"
+    ],
+    "uses": [
+      "Craftea un conduit (1 corazón + 8 nautilus shells) para respiración submarina, visión nocturna y prisa minera"
+    ],
+    "renewable": "No por cofre, pero el tesoro enterrado se genera infinitamente por las costas del mundo",
+    "editionNote": "Idéntico en Java y Bedrock: uno por cofre de tesoro enterrado, sin otra fuente. En Java el cofre siempre se genera en las coordenadas de chunk 9,9: cava ahí en la X."
+  },
+  "breeze-rod": {
+    "howToGet": [
+      "Mata breezes en las Trial Chambers: cada uno suelta 1-2 breeze rods (más con Looting)",
+      "Las trial chambers se generan bajo tierra en el Overworld; encuéntralas explorando o con los trial explorer maps de los cartógrafos"
+    ],
+    "uses": [
+      "Craftea wind charges (4 por rod): ráfagas lanzables de knockback que también te autopropulsan",
+      "Craftea el mace (1 breeze rod + 1 heavy core de los ominous vaults)",
+      "Los ataques aplastantes del mace escalan con la distancia de caída"
+    ],
+    "renewable": "Sí: los breezes reaparecen de sus trial spawners tras el enfriamiento",
+    "editionNote": "Idéntica en Java y Bedrock: mismos drops y recetas. La negación de daño de caída del wind charge y la mecánica de aplastamiento del mace coinciden entre ediciones desde la 1.21."
+  },
+  "gunpowder": {
+    "howToGet": [
+      "Mata creepers (0-2, hasta 5 con Looting III) antes de que exploten",
+      "Mata ghasts (0-2) y brujas (4-8)",
+      "Saquea desert temples, shipwrecks, dungeons y woodland mansions"
+    ],
+    "uses": [
+      "Craftea TNT (5 gunpowder + 4 sand)",
+      "Destila pociones splash (gunpowder + cualquier poción)",
+      "Craftea firework rockets (1-3 de gunpowder para la duración de vuelo) y fire charges",
+      "Craftea firework stars para efectos de explosión"
+    ],
+    "renewable": "Sí: las granjas de creepers son un básico del late game para combustible de cohetes",
+    "editionNote": "Idéntica en Java y Bedrock. Looting mejora muchísimo los drops de creepers; una buena granja de creepers es cómo los jugadores con elytra mantienen los cohetes a tope."
+  },
+  "ender-eye": {
+    "howToGet": [
+      "Craftéala con 1 blaze powder + 1 ender pearl",
+      "Cómprala a aldeanos clerics (nivel experto) por esmeraldas",
+      "Saquea cofres de altar de strongholds (raro)"
+    ],
+    "uses": [
+      "Localiza strongholds: lánzala y vuela hacia el stronghold más cercano (~12 bloques antes de caer, 20% de probabilidad de romperse)",
+      "Activa el portal del End: inserta una en cada uno de los 12 marcos del portal",
+      "Craftea ender chests (8 obsidiana + 1 ojo) y end crystals"
+    ],
+    "renewable": "Sí, con granjas de ender pearls y blaze powder",
+    "editionNote": "Idéntica en Java y Bedrock. Lleva 12-15 ojos para el viaje: algunos se rompen en vuelo y necesitas hasta 12 para los marcos del portal (cada marco tiene un 10% de probabilidad de generarse ya relleno)."
+  },
+  "golden-dandelion": {
+    "howToGet": [
+      "Fabrícala: 8 pepitas de oro rodeando 1 dandelion en la mesa de crafteo",
+      "Cómprala al wandering trader por 2 esmeraldas cuando la ofrezca (alrededor de un 7% de probabilidad por visita)",
+      "En Bedrock, un wandering trader que la tenga como oferta puede soltarla al morir si llevas una esmeralda en la mano (25%, +1% por nivel de Saqueo)"
+    ],
+    "uses": [
+      "Dásela a un mob bebé (cualquiera que crezca excepto aldeanos) para bloquear su edad: nunca crece y nunca desaparece. Dale una segunda golden dandelion para deshacerlo",
+      "No sirve para pociones, pero craftea suspicious stew con ella para un breve efecto de Saturación",
+      "Craftea tinte amarillo (1 por flor) o úsala de decoración, incluso en macetas"
+    ],
+    "renewable": "Sí: se craftea con pepitas de oro (renovables vía piglins zombificados) y dandelions (polvo de hueso sobre césped).",
+    "editionNote": "El bloqueo de edad funciona igual en Java y Bedrock. Diferencias en Bedrock: las golden dandelions no se duplican con polvo de hueso como otras flores pequeñas, y los wandering traders pueden soltarlas como botín. Los piglins inspeccionan las tiradas al suelo 6s (Java) u 8s (Bedrock)."
+  },
+  "sulfur": {
+    "howToGet": [
+      "Pícala en las sulfur caves, el bioma de cuevas de 26.2: el sulfur se genera por todo el bioma, en sulfur pools y alrededor de sulfur springs",
+      "Craftea un bloque con 4 sulfur spikes en un patrón 2x2",
+      "Vale cualquier pico; picada a mano o con la herramienta equivocada no suelta nada"
+    ],
+    "uses": [
+      "Bloque de construcción de tono amarillo intenso (se ve amarillo en los mapas)",
+      "Corta toda la familia decorativa en el stonecutter: slab, escaleras y muro de sulfur, polished sulfur (con su slab/escaleras/muro), sulfur bricks (con slab/escaleras/muro) y chiseled sulfur"
+    ],
+    "renewable": "Sí.",
+    "editionNote": "Generación y variantes idénticas en Java (26.2) y Bedrock (26.30). Una receta efímera de las snapshots que recuperaba sulfur a partir de potent sulfur se eliminó antes del lanzamiento y nunca llegó al juego final."
+  },
+  "cinnabar": {
+    "howToGet": [
+      "Pícalo en las sulfur caves junto al sulfur: se genera por todo el bioma y como parte de las sulfur springs",
+      "Vale cualquier pico; sin pico el bloque no suelta nada",
+      "No hay receta ni granja: el cinnabar es finito, así que explora cuevas más profundas cuando una zona se agote"
+    ],
+    "uses": [
+      "Bloque decorativo rojo, una variante de piedra para construir",
+      "Corta toda la familia en el stonecutter: slab, escaleras y muro de cinnabar, polished cinnabar (con su slab/escaleras/muro), cinnabar bricks (con slab/escaleras/muro) y chiseled cinnabar"
+    ],
+    "renewable": "No: el cinnabar no se puede farmear ni craftear; lo que hay generado en el mundo es todo lo que existe.",
+    "editionNote": "Misma generación y variantes decorativas en Java (26.2) y Bedrock (26.30). Curiosidad del mundo real: el cinabrio es un mineral rojo tóxico de mercurio y azufre, usado históricamente como pigmento rojo."
+  },
+  "straw-bed": {
+    "howToGet": [
+      "Craftea 4 straw beds de golpe con 3 hay bales en fila",
+      "Encuéntralas en los abandoned camps, la estructura de 26.3 de los dappled forests: se generan allí de forma natural y como botín",
+      "Una azada las rompe más rápido; se sueltan a sí mismas salvo que las rompas después de dormir"
+    ],
+    "uses": [
+      "Duerme toda la noche SIN reiniciar tu punto de respawn: la diferencia clave con una cama normal",
+      "De un solo uso: se rompe sin soltar nada al despertarte o al salir de ella a mitad de sueño, así que lleva varias en los viajes",
+      "Dormir también despeja el clima y aleja a los phantoms durante tres días del juego",
+      "Segura en el Nether y en el End: en vez de explotar como una cama, simplemente se destruye"
+    ],
+    "renewable": "Sí: los hay bales vienen del trigo, así que las straw beds se pueden craftear infinitamente en cualquier granja de trigo.",
+    "editionNote": "Mismo comportamiento de un solo uso en Java y Bedrock. No es elástica, no reduce el daño de caída como un hay bale, y los aldeanos la ignoran por completo como cama. Los iconos del inventario son deliberadamente distintos entre las dos ediciones."
+  },
+  "poplar-log": {
+    "howToGet": [
+      "Tala álamos (poplar trees) en el bioma dappled forest (26.3): sus hojas vienen en variantes roja, naranja y amarilla",
+      "Recoge los troncos caídos de álamo del suelo del dappled forest para conseguir troncos gratis al empezar",
+      "Sáquealos en los abandoned camps, donde los poplar logs también se generan como parte de la estructura"
+    ],
+    "uses": [
+      "Craftea poplar planks (4 por tronco) y construye el set de madera de álamo, igual que cualquier otra familia de troncos",
+      "DesCórtalo con un hacha para la variante stripped",
+      "Fúndelo en charcoal o quémalo como combustible de horno, como todos los troncos"
+    ],
+    "renewable": "Sí: los álamos vuelven a crecer de sus saplings como cualquier otro árbol.",
+    "editionNote": "Se comporta como cualquier otro tronco en Java y Bedrock. El poplar es la décima familia de troncos, tras oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry y pale oak."
+  }
 }
