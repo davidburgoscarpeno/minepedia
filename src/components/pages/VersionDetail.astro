@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import versions from '../../data/versions.json';
+import versionsEs from '../../data/versions-es.json';
+
+interface Props { v: any; lang: 'en' | 'es'; }
+const { v, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (versionsEs as any)[v.slug] : null;
+const date = ov?.date ?? v.date;
+const highlights = ov?.highlights ?? v.highlights;
+const whyItMatters = ov?.whyItMatters ?? v.whyItMatters;
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Versiones', crumbHref: '/es/versions/',
+  newH: 'Todo lo nuevo', whyH: 'Por qué importa', back: '\u2190 Todas las versiones',
+  title: `${v.name} (novedades)`,
+  desc: `Minecraft ${v.name}: todas las novedades, publicado el ${date}. Lo más destacado y lo que cambió para el survival.`,
+  canonical: `/es/versions/${v.slug}/`, alt: `/versions/${v.slug}/`,
+  headline: `Minecraft ${v.name}: todo lo nuevo`,
+  headlineDesc: `Minecraft ${v.name} (${date}): todas las novedades y por qué importan.`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Versions', crumbHref: '/versions/',
+  newH: 'Everything new', whyH: 'Why it matters', back: '\u2190 All versions',
+  title: `${v.name} (What's New)`,
+  desc: `Minecraft ${v.name}: every new feature, released ${date}. Highlights and what changed for survival.`,
+  canonical: `/versions/${v.slug}/`, alt: `/es/versions/${v.slug}/`,
+  headline: `Minecraft ${v.name}: Everything New`,
+  headlineDesc: `Minecraft ${v.name} (${date}): all new features and why they matter.`
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.headline,
+    description: L.headlineDesc,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: v.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article" lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {v.name}</nav>
+    <h1>{v.name}</h1>
+    <p><span class="badge">{date}</span></p>
+    <h2>{L.newH}</h2>
+    <ul>{highlights.map((h: string) => <li>{h}</li>)}</ul>
+    <h2>{L.whyH}</h2>
+    <ul>{whyItMatters.map((w: string) => <li>{w}</li>)}</ul>
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

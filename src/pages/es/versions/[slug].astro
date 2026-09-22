@@ -1,0 +1,9 @@
+---
+import VersionDetail from '../../../components/pages/VersionDetail.astro';
+import versions from '../../../data/versions.json';
+export function getStaticPaths() {
+  return versions.map(v => ({ params: { slug: v.slug }, props: { v } }));
+}
+const { v } = Astro.props;
+---
+<VersionDetail v={v} lang="es" />
