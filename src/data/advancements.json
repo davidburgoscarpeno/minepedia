@@ -112,7 +112,15 @@
     "parent": "Acquire Hardware",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Mine iron ore with a stone pickaxe or better. It is common underground and in caves, especially in mountains.",
+      "Smelt the raw iron in a furnace or blast furnace to get iron ingots.",
+      "Craft an iron pickaxe at a crafting table: 3 iron ingots across the top row and 2 sticks down the middle.",
+      "The advancement unlocks the moment the iron pickaxe is in your inventory."
+    ],
+    "tips": "Enchant your stone pickaxe with Fortune before mining iron: Fortune increases the raw iron dropped per ore, so one vein goes much further."
   },
   {
     "slug": "not-today-thank-you",
@@ -992,7 +1000,15 @@
     "parent": "Adventure",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft a chiseled bookshelf: 6 wooden planks filling the top and bottom rows and 3 wooden slabs across the middle row.",
+      "Place the chiseled bookshelf and put at least one book in it (regular, enchanted and written books all work).",
+      "Craft a comparator with 3 redstone torches, 1 nether quartz and 3 stone.",
+      "Place the comparator so its back runs into the chiseled bookshelf. The advancement unlocks as soon as the comparator reads the shelf."
+    ],
+    "tips": "Each of the 6 slots outputs a different signal strength (1 to 6), based on the last slot used. That makes chiseled bookshelves a classic secret-door lock: only pulling the right book opens it."
   },
   {
     "slug": "what-a-deal",
@@ -1206,7 +1222,15 @@
     "parent": "Monster Hunter",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Get a trident. Only drowned that spawn holding one can drop it: 6.25% of natural drowned spawns carry one, and they drop it 8.5% of the time in Java or 25% in Bedrock when killed by a player.",
+      "Use Looting III on your sword: the drop chance rises to 11.5% in Java and 28% in Bedrock.",
+      "Hold right-click to wind up the trident and release to throw it at any mob.",
+      "The advancement unlocks when the thrown trident hits. A melee jab with the trident does not count: it has to be a thrown hit."
+    ],
+    "tips": "Drowned converted from zombies never spawn with tridents, in either edition, so a converter farm never produces them. Hunt naturally-spawned drowned in rivers and oceans at night instead."
   },
   {
     "slug": "it-spreads",
@@ -1292,7 +1316,15 @@
     "parent": "Monster Hunter",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Craft any spear: a diagonal recipe with 2 sticks and 1 material at the tip (wood, stone, copper, iron, gold or diamond).",
+      "Gather five mobs in a tight pen. Armor stands and mannequins also count, which makes this much easier.",
+      "Hold right-click to lower the spear into a charge attack, then run or ride straight at the group so the spear passes through all five.",
+      "The charge attack must connect with five entities in the same attack; the advancement unlocks on the fifth hit."
+    ],
+    "tips": "Charge damage scales with how fast you and the target approach each other (4.6 blocks per second minimum). Sprint or ride a horse into the line, and keep the spear out: the first stage of the charge also knocks targets off their mounts."
   },
   {
     "slug": "hired-help",
@@ -1322,7 +1354,15 @@
     "parent": "What a Deal!",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Find or build a spot at the very top of the world: you must stand on a block above y=318.",
+      "Get a villager up there. A minecart on rails, a boat lifted with a bubble column or a simple dirt tower with rails all work. A wandering trader that spawns near you up there also counts.",
+      "Open the trading interface with the villager or wandering trader while you stand above y=318.",
+      "The advancement unlocks as soon as the trade menu opens at that height."
+    ],
+    "tips": "Scaffolding is the fastest way up: a straight scaffolding tower to y=319 costs under 70 scaffolding. Start on a tall mountain (jagged peaks often reach y=250 or higher) to shorten the climb."
   },
   {
     "slug": "smithing-with-style",
@@ -1333,7 +1373,15 @@
     "parent": "Crafting a New Look",
     "xp": "150XP",
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Very hard",
+    "howToGet": [
+      "Collect the 8 exclusive armor trim smithing templates, each from a different structure: Spire (End city chests), Snout (bastion remnant), Rib (nether fortress), Ward (ancient city), Silence (ancient city), Vex (woodland mansion), Tide (elder guardian drop) and Wayfinder (trail ruins suspicious gravel).",
+      "At a smithing table, combine each template with an armor piece and a material to apply the trim.",
+      "Repeat until all 8 templates have been applied at least once; the trim and the material do not matter, only the template.",
+      "The challenge completes when the eighth template is applied and pays 150 XP."
+    ],
+    "tips": "Templates are consumed on use, so duplicate rare ones before applying: craft the template with 7 diamonds and its matching block to get 2 back. Silence is the rarest (around 1.2% per ancient city chest), so duplicate it first."
   },
   {
     "slug": "two-birds-one-arrow",
@@ -1344,7 +1392,15 @@
     "parent": "Ol' Betsy",
     "xp": "65XP",
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Hard",
+    "howToGet": [
+      "Craft a crossbow and enchant it with Piercing, which lets arrows pass through mobs.",
+      "Skip sleep for at least 3 in-game days so phantoms start spawning above you at night (or in thunderstorms).",
+      "Weaken two phantoms with your sword until one more hit would kill each.",
+      "Line both phantoms up and fire a single Piercing arrow through them. Both must die from that one arrow; the challenge pays 65 XP."
+    ],
+    "tips": "Standing on a small tower at night makes phantoms dive at you in straight lines, which is the easiest moment to catch two in one shot. Multishot is the wrong enchantment here: you need exactly one arrow, so use Piercing."
   },
   {
     "slug": "who-s-the-pillager-now",
@@ -1366,7 +1422,15 @@
     "parent": "Ol' Betsy",
     "xp": "85XP",
     "hidden": true,
-    "root": false
+    "root": false,
+    "difficulty": "Extreme",
+    "howToGet": [
+      "Enchant a crossbow with Piercing IV so the arrow passes through up to five mobs.",
+      "Build a tight pen and gather five different mob types in it. Leads, boats and name tags keep them in place; armor stands and mannequins also count as targets.",
+      "Weaken every mob to one hit: punch or use a weak sword until each would die to a single arrow.",
+      "Fire one arrow through all five so each dies to that same shot. The challenge is hidden and pays 85 XP."
+    ],
+    "tips": "An easy lineup: chicken, sheep, pig, cow and one zombie in a 1-wide corridor. Fire at eye height of the tallest mob so the arrow travels through the whole row. It is a hidden advancement, so it only appears in the menu after you complete it."
   },
   {
     "slug": "careful-restoration",
@@ -1377,7 +1441,15 @@
     "parent": "Respecting the Remnants",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft a brush from a feather, a copper ingot and a stick.",
+      "Brush suspicious sand (desert pyramids, desert wells, warm ocean ruins) or suspicious gravel (trail ruins, cold ocean ruins) until you have 4 pottery sherds.",
+      "At a crafting table, place one pottery sherd in each of the four slots around the center: top-middle, middle-left, middle-right and bottom-middle.",
+      "Craft the decorated pot. All four slots must be sherds: using even one brick does not count."
+    ],
+    "tips": "Any four sherds work together, even from different sites and patterns. Sherds are common in warm ocean ruins, so an early-game brush plus a boat is the fastest route."
   },
   {
     "slug": "adventuring-time",
@@ -1426,7 +1498,15 @@
     "parent": "Sweet Dreams",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft leather boots from 4 leather in the classic boots shape.",
+      "Find powder snow: it generates on the surface in snowy slopes and grove biomes, and cauldrons placed in snowy biomes slowly fill with it while it snows.",
+      "Equip the leather boots and simply walk on top of the powder snow.",
+      "The advancement unlocks as soon as you stand on powder snow with the boots on."
+    ],
+    "tips": "Without leather boots you sink into powder snow and start freezing, so keep them on for any building trip through snowy slopes. Only the boots matter for the advancement; the rest of your armor can be anything."
   },
   {
     "slug": "is-it-a-plane",

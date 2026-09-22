@@ -56,7 +56,15 @@
     "tips": "Un cubo de lava funde 100 objetos, el mejor combustible para hornos del juego. La lava incluso es renovable: un caldero bajo una dripstone puntiaguda con lava encima se llena poco a poco de lava nueva."
   },
   "isn-t-it-iron-pick": {
-    "desc": "Mejora tu pico"
+    "desc": "Mejora tu pico",
+    "difficulty": "Fácil",
+    "howToGet": [
+      "Extrae iron ore con un stone pickaxe o mejor. Es frecuente bajo tierra y en cuevas, sobre todo en montañas.",
+      "Funde el raw iron en un furnace o blast furnace para conseguir iron ingots.",
+      "Craftea un iron pickaxe en la crafting table: 3 iron ingots en la fila superior y 2 sticks en el centro.",
+      "El logro se desbloquea en cuanto el iron pickaxe está en tu inventario."
+    ],
+    "tips": "Encanta tu stone pickaxe con Fortune antes de minar hierro: Fortune aumenta el raw iron que suelta cada mena, así que una sola vena rinde mucho más."
   },
   "not-today-thank-you": {
     "desc": "Desvía un proyectil con un escudo",
@@ -552,7 +560,15 @@
     "tips": "Pelear al amanecer es lo más seguro: zombis y esqueletos arden con el sol, así que puedes rematarlos mientras chisporrotean. El desafío Monsters Hunted pide después uno de CADA monstruo hostil, así que apunta lo que ya has matado."
   },
   "the-power-of-books": {
-    "desc": "Lee la señal de redstone de un chiseled bookshelf usando un comparador"
+    "desc": "Lee la señal de redstone de un chiseled bookshelf usando un comparador",
+    "difficulty": "Fácil",
+    "howToGet": [
+      "Craftea un chiseled bookshelf: 6 wooden planks en la fila superior e inferior y 3 wooden slabs en la fila central.",
+      "Colócalo y mete al menos un libro dentro (valen libros normales, enchanted books y written books).",
+      "Craftea un comparator con 3 redstone torches, 1 nether quartz y 3 stone.",
+      "Coloca el comparator de modo que su parte trasera toque el chiseled bookshelf. El logro se desbloquea en cuanto el comparator lee la estantería."
+    ],
+    "tips": "Cada uno de los 6 huecos da una fuerza de señal distinta (de 1 a 6), según el último hueco usado. Por eso el chiseled bookshelf es un clásico de las puertas secretas: solo el libro correcto la abre."
   },
   "what-a-deal": {
     "desc": "Comercia con éxito con un aldeano",
@@ -670,7 +686,15 @@
     "desc": "Mira un ghast a través de una spyglass"
   },
   "a-throwaway-joke": {
-    "desc": "Lanza un tridente contra algo. Nota: tirar tu única arma no es buena idea."
+    "desc": "Lanza un tridente contra algo. Nota: tirar tu única arma no es buena idea.",
+    "difficulty": "Media",
+    "howToGet": [
+      "Consigue un trident: solo pueden soltarlo los drowned que aparecen con uno en la mano. El 6,25% de los drowned naturales lleva uno y lo sueltan el 8,5% de las veces en Java o el 25% en Bedrock si los mata un jugador.",
+      "Usa una espada con Looting III: la probabilidad sube al 11,5% en Java y al 28% en Bedrock.",
+      "Mantén pulsado clic derecho para cargar el trident y suéltalo para lanzarlo contra cualquier mob.",
+      "El logro se desbloquea cuando el trident lanzado impacta. Un golpe cuerpo a cuerpo no cuenta: tiene que ser un impacto lanzado."
+    ],
+    "tips": "Los drowned convertidos desde zombies nunca aparecen con trident, en ninguna edición, así que una granja de conversión no sirve. Caza drowned naturales en ríos y océanos por la noche."
   },
   "it-spreads": {
     "desc": "Mata a un mob cerca de un sculk catalyst",
@@ -716,7 +740,15 @@
     "tips": "La forma más segura de activarlo a propósito es saltar desde un pilar alto con el tótem en la mano. El tótem no te salva del vacío ni de /kill, así que no sirve para los accidentes con elytra en el vacío del End."
   },
   "mob-kabob": {
-    "desc": "Golpea a cinco mobs en el mismo ataque de carga usando la spear"
+    "desc": "Golpea a cinco mobs en el mismo ataque de carga usando la spear",
+    "difficulty": "Media",
+    "howToGet": [
+      "Craftea cualquier spear: receta en diagonal con 2 sticks y 1 material en la punta (madera, piedra, cobre, hierro, oro o diamante).",
+      "Junta cinco mobs en un corral estrecho. Las armor stands y los mannequins también cuentan, lo que facilita mucho el logro.",
+      "Mantén pulsado clic derecho para bajar la spear en posición de charge attack y corre o cabalga en línea recta hacia el grupo para que atraviese a los cinco.",
+      "El charge attack tiene que impactar a cinco entidades en el mismo ataque; el logro se desbloquea al quinto impacto."
+    ],
+    "tips": "El daño de carga escala con la velocidad a la que tú y el objetivo os acercáis (mínimo 4,6 bloques por segundo). Esprinta o ve a caballo contra la fila, y mantén la spear extendida: la primera fase de la carga además desmonta a quien vaya a lomos de algo."
   },
   "hired-help": {
     "desc": "Invoca un iron golem para ayudar a defender una aldea",
@@ -730,22 +762,62 @@
     "tips": "La calabaza va la última: ponerla antes que el cuerpo no hace nada. Un golem construido por ti nunca te ataca, a diferencia de los de las aldeas que defienden a sus aldeanos. Las granjas de hierro abusan justo de esta receta."
   },
   "star-trader": {
-    "desc": "Comercia con un aldeano en el límite de altura de construcción"
+    "desc": "Comercia con un aldeano en el límite de altura de construcción",
+    "difficulty": "Media",
+    "howToGet": [
+      "Encuentra o construye un punto en lo más alto del mundo: debes estar de pie sobre un bloque por encima de y=318.",
+      "Sube un villager hasta ahí. Sirve un minecart con raíles, un boat elevado con bubble columns o una torre de tierra con raíles. Un wandering trader que aparezca cerca de ti ahí arriba también vale.",
+      "Abre la interfaz de comercio con el villager o wandering trader mientras estás por encima de y=318.",
+      "El logro se desbloquea en cuanto se abre el menú de comercio a esa altura."
+    ],
+    "tips": "El scaffolding es la forma más rápida de subir: una torre recta hasta y=319 cuesta menos de 70 scaffoldings. Empieza desde una montaña alta (los jagged peaks suelen llegar a y=250 o más) para acortar la subida."
   },
   "smithing-with-style": {
-    "desc": "Aplica estas plantillas de herrería al menos una vez: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder"
+    "desc": "Aplica estas plantillas de herrería al menos una vez: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",
+    "difficulty": "Muy difícil",
+    "howToGet": [
+      "Consigue los 8 smithing templates exclusivos de armor trim, cada uno de una estructura distinta: Spire (cofres de End city), Snout (bastion remnant), Rib (nether fortress), Ward (ancient city), Silence (ancient city), Vex (woodland mansion), Tide (drop del elder guardian) y Wayfinder (suspicious gravel de trail ruins).",
+      "En la smithing table, combina cada template con una pieza de armadura y un material para aplicar el trim.",
+      "Repite hasta haber usado los 8 templates al menos una vez; el trim y el material dan igual, solo importa el template.",
+      "El desafío se completa al aplicar el octavo template y paga 150 de XP."
+    ],
+    "tips": "Los templates se consumen al usarlos, así que duplica los raros antes de aplicarlos: craftea el template con 7 diamantes y su bloque correspondiente para recuperar 2. Silence es el más raro (alrededor del 1,2% por cofre de ancient city), así que duplícalo primero."
   },
   "two-birds-one-arrow": {
-    "desc": "Mata dos phantoms con una flecha perforadora"
+    "desc": "Mata dos phantoms con una flecha perforadora",
+    "difficulty": "Difícil",
+    "howToGet": [
+      "Craftea una crossbow y encántala con Piercing, que permite a las flechas atravesar mobs.",
+      "Pasa al menos 3 días de juego sin dormir para que empiecen a aparecer phantoms sobre ti por la noche (o durante tormentas).",
+      "Debilita a dos phantoms con la espada hasta que a cada uno le quede un golpe.",
+      "Alinea a los dos phantoms y dispara una única flecha con Piercing a través de ambos. Los dos deben morir por esa misma flecha; el desafío paga 65 de XP."
+    ],
+    "tips": "Subir a una torre pequeña por la noche hace que los phantoms ataquen en picado en línea recta, el momento más fácil para pillar a dos de un tiro. Multishot no sirve aquí: necesitas exactamente una flecha, así que usa Piercing."
   },
   "who-s-the-pillager-now": {
     "desc": "Dale a un pillager una dosis de su propia medicina"
   },
   "arbalistic": {
-    "desc": "Mata cinco mobs distintos de un solo disparo de ballesta"
+    "desc": "Mata cinco mobs distintos de un solo disparo de ballesta",
+    "difficulty": "Extrema",
+    "howToGet": [
+      "Encanta una crossbow con Piercing IV para que la flecha atraviese hasta cinco mobs.",
+      "Construye un corral estrecho y mete cinco tipos de mobs distintos. Los leads, los boats y los name tags los mantienen en su sitio; las armor stands y los mannequins también cuentan como objetivos.",
+      "Debilita a cada mob hasta dejarlo a un golpe: puñetazos o una espada débil hasta que cada uno muera de una sola flecha.",
+      "Dispara una sola flecha a través de los cinco para que todos mueran por ese mismo tiro. El desafío es oculto y paga 85 de XP."
+    ],
+    "tips": "Una combinación fácil: chicken, sheep, pig, cow y un zombie en un pasillo de 1 bloque de ancho. Dispara a la altura de los ojos del mob más alto para que la flecha recorra toda la fila. Es un logro oculto: solo aparece en el menú después de completarlo."
   },
   "careful-restoration": {
-    "desc": "Fabrica un decorated pot con 4 pottery sherds"
+    "desc": "Fabrica un decorated pot con 4 pottery sherds",
+    "difficulty": "Fácil",
+    "howToGet": [
+      "Craftea un brush con una feather, un copper ingot y un stick.",
+      "Cepilla suspicious sand (desert pyramids, desert wells, warm ocean ruins) o suspicious gravel (trail ruins, cold ocean ruins) hasta tener 4 pottery sherds.",
+      "En la crafting table, coloca un pottery sherd en cada uno de los cuatro huecos alrededor del centro: arriba, izquierda, derecha y abajo.",
+      "Craftea el decorated pot. Los cuatro huecos deben ser sherds: si usas aunque sea un brick no cuenta."
+    ],
+    "tips": "Valen cuatro sherds cualesquiera, aunque sean de yacimientos y patrones distintos. Los sherds son frecuentes en las warm ocean ruins, así que un brush al inicio del juego más un boat es la ruta más rápida."
   },
   "adventuring-time": {
     "desc": "Descubre todos los biomas",
@@ -770,7 +842,15 @@
     "tips": "La granja clásica de discos: deja que la flecha de un esqueleto remate a un creeper y soltará un disco aleatorio. Ponte entre los dos, toca al creeper una vez, y deja que el esqueleto haga el resto."
   },
   "light-as-a-rabbit": {
-    "desc": "Camina sobre powder snow... sin hundirte"
+    "desc": "Camina sobre powder snow... sin hundirte",
+    "difficulty": "Fácil",
+    "howToGet": [
+      "Craftea unas leather boots con 4 leather en la forma clásica de botas.",
+      "Encuentra powder snow: se genera en la superficie de los biomas snowy slopes y grove, y los cauldrons colocados en biomas nevados se llenan de ella mientras nieva.",
+      "Ponte las leather boots y simplemente camina por encima del powder snow.",
+      "El logro se desbloquea en cuanto pises powder snow con las botas puestas."
+    ],
+    "tips": "Sin leather boots te hundes en el powder snow y empiezas a congelarte, así que llévalas puestas en cualquier viaje de construcción por snowy slopes. Solo importan las botas; el resto de la armadura puede ser cualquiera."
   },
   "is-it-a-plane": {
     "desc": "Mira al ender dragon a través de una spyglass"
