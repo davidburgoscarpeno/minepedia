@@ -115,7 +115,7 @@ const SCENES = {
     S.flower(24, hex('#c1121f')); S.flower(60, hex('#8a6a4a')); },
   'cherry-grove': S => { S.sky(hex('#8fc4e8'), hex('#e8f2f9')); S.cloud(12, 3, hex('#ffffff')); S.cloud(44, 5, hex('#f4f8fb'));
     // mountains w/ snow behind
-    for (let x = 0; x < W; x++) { const h = 20 + Math.sin(x / 6) * 4; S.rect(x, Math.round(h), 1, 26 - Math.round(h), hex('#8d949c')); }
+    for (let x = 0; x < W; x++) { const h = 20 + Math.sin(x / 6) * 4; S.rect(x, Math.round(h), 1, H - Math.round(h), hex('#8d949c')); }
     for (let x = 0; x < W; x++) { const h = 20 + Math.sin(x / 6) * 4; if ((x * 7) % 11 < 5) S.b(x, Math.round(h), hex('#eef4f8')); }
     S.terrain(S.hill(28, 1, 8), hex('#7fbf5f'), hex('#8a5a2b'), hex('#6e4520'));
     const cherry = (x) => { const gy = S.heights[x]; S.rect(x, gy - 4, 1, 4, hex('#5c4033'));
