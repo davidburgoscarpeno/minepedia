@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import seeds from '../../data/seeds.json';
+export function getStaticPaths() {
+  return seeds.map(s => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: `${s.name} - Minecraft Seed ${s.seed}`,
+    description: s.story,
+    mainEntityOfPage: `https://minepedia.app/seeds/${s.slug}/`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Seeds', item: 'https://minepedia.app/seeds/' },
+      { '@type': 'ListItem', position: 3, name: s.name, item: `https://minepedia.app/seeds/${s.slug}/` }
+    ]
+  }
+];
+---
+<Base title={`${s.name} (Seed)`} description={`${s.name}: seed ${s.seed}. ${s.story.slice(0, 140)}`} canonicalPath={`/seeds/${s.slug}/`} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/seeds/">Seeds</a> / {s.name}</nav>
+    <h1>{s.name}</h1>
+    <div class="quick-answer"><strong>Seed:</strong> <code>{s.seed}</code></div>
+    <table class="data">
+      <tr><th>Seed</th><td><code>{s.seed}</code></td></tr>
+      <tr><th>Version</th><td>{s.version}</td></tr>
+      <tr><th>Key coordinates</th><td>{s.coords}</td></tr>
+      <tr><th>Source</th><td><a href={s.source} rel="nofollow noopener" target="_blank">{s.sourceName}</a></td></tr>
+    </table>
+    <h2>The story</h2>
+    <p>{s.story}</p>
+    <h2>Notes</h2>
+    <ul>{s.notes.map(n => <li>{n}</li>)}</ul>
+    <p><a href="/seeds/">&larr; All seeds</a></p>
+  </div>
+</Base>
