@@ -497,5 +497,14 @@ const jsonLd = [
     });
 
     renderAll();
+
+    // Load a gallery skin passed as ?skin=/skins/<slug>.png
+    const qs = new URLSearchParams(location.search);
+    const preset = qs.get('skin');
+    if (preset && /^\/skins\/[a-z0-9-]+\.png$/.test(preset)) {
+      const img = new Image();
+      img.onload = () => { pushUndo(); sctx.clearRect(0, 0, 64, 64); sctx.drawImage(img, 0, 0, 64, 64); renderAll(); };
+      img.src = preset;
+    }
   </script>
 </Base>

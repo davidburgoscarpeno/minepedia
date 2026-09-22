@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import biomes from '../../data/biomes.json';
 import GameShot from '../../components/GameShot.astro';
+import BiomeArt from '../../components/BiomeArt.astro';
 export function getStaticPaths() {
   return biomes.map(b => ({ params: { slug: b.slug }, props: { b } }));
 }
@@ -41,7 +42,7 @@ const jsonLd = [
     <h1>{b.name}</h1>
     <p><span class="badge">{b.category}</span></p>
     <p>{b.description}</p>
-    {shotId && <GameShot id={shotId} />}
+    {shotId ? <GameShot id={shotId} /> : <BiomeArt slug={b.slug} name={b.name} />}
     <h2>Resources</h2>
     <ul>{b.resources.map(r => <li>{r}</li>)}</ul>
     <h2>Mobs</h2>
