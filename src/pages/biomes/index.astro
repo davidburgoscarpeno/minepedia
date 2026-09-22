@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import biomes from '../../data/biomes.json';
+---
+<Base title="Minecraft Biomes" description="Minecraft biome guide: resources, mobs, structures and tips for plains, desert, jungle, badlands, deep dark, swamp and more. Java and Bedrock." canonicalPath="/biomes/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Biomes</nav>
+    <h1>Minecraft Biomes</h1>
+    <p class="sub">{biomes.length} biomes: what to find, what to fear and when to go.</p>
+    <SearchBox placeholder="Search biomes, mobs, items..." />
+    <div class="grid-cards">
+      {biomes.map(b => (
+        <a class="card" href={`/biomes/${b.slug}/`}>
+          <h3>{b.name}</h3>
+          <p>{b.description.split('.')[0]}.</p>
+        </a>
+      ))}
+    </div>
+    <p style="margin-top:24px">Tip: find any biome in your world with the <a href="/commands/locate/">/locate biome</a> command (cheats on), or by exploring with a <a href="/villagers/cartographer/">cartographer's</a> maps for structure hunts.</p>
+  </div>
+</Base>

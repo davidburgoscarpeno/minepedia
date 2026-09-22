@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import biomes from '../../data/biomes.json';
+export function getStaticPaths() {
+  return biomes.map(b => ({ params: { slug: b.slug }, props: { b } }));
+}
+const { b } = Astro.props;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: `Minecraft ${b.name} Biome: Resources, Mobs and Structures`,
+    description: `${b.name} biome in Minecraft: ${b.description}`,
+    mainEntityOfPage: `https://minepedia.app/biomes/${b.slug}/`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Biomes', item: 'https://minepedia.app/biomes/' },
+      { '@type': 'ListItem', position: 3, name: b.name, item: `https://minepedia.app/biomes/${b.slug}/` }
+    ]
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: `What is in the ${b.name.toLowerCase()} biome in Minecraft?`,
+        acceptedAnswer: { '@type': 'Answer', text: `${b.description} Resources: ${b.resources.join('; ')}.` } },
+      { '@type': 'Question', name: `What structures generate in the ${b.name.toLowerCase()} biome?`,
+        acceptedAnswer: { '@type': 'Answer', text: b.structures.join('. ') + '.' } }
+    ]
+  }
+];
+---
+<Base title={`${b.name} Biome`} description={`Minecraft ${b.name.toLowerCase()} biome: resources, mobs, structures and tips. When to go and what to bring.`} canonicalPath={`/biomes/${b.slug}/`} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/biomes/">Biomes</a> / {b.name}</nav>
+    <h1>{b.name}</h1>
+    <p><span class="badge">{b.category}</span></p>
+    <p>{b.description}</p>
+    <h2>Resources</h2>
+    <ul>{b.resources.map(r => <li>{r}</li>)}</ul>
+    <h2>Mobs</h2>
+    <ul>{b.mobs.map(m => <li>{m}</li>)}</ul>
+    <h2>Structures</h2>
+    <ul>{b.structures.map(s => <li>{s}</li>)}</ul>
+    <h2>Why go</h2>
+    <ul>{b.whyGo.map(w => <li>{w}</li>)}</ul>
+    <h2>Tips</h2>
+    <ul>{b.tips.map(t => <li>{t}</li>)}</ul>
+    <p><a href="/biomes/">&larr; All biomes</a></p>
+  </div>
+</Base>
