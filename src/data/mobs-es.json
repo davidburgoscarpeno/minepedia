@@ -511,5 +511,71 @@
     "behavior": "Salta sin rumbo como un slime, pero es pasivo. Su truco: puede absorber un bloque de tamaño completo (suéltale uno al lado o dáselo en la mano). Cargado, se queda quieto y recibe empuje en lugar de daño; el tipo de bloque cambia su rebote y comportamiento. Las tijeras extraen el bloque; darle otro lo cambia. Los froglights incluso brillan dentro de él. Los grandes se pueden recoger con un cubo y llevar a cualquier parte.",
     "tameOrBreed": "No se puede domesticar ni criar. Los cubos pequeños crecen hasta hacerse grandes con el tiempo, como las crías de animal.",
     "keywords": "sulfur cube mob sulfur caves cubo absorber bloque tijeras pasivo 26.2"
+  },
+  "breeze": {
+    "type": "Hostil",
+    "health": "30 (15 corazones)",
+    "where": "Solo en trial chambers: en trial spawners rodeados de chiseled tuff en las salas de combate (nunca en los pasillos). Solo un breeze por spawner.",
+    "howToKill": "Olvida el arco: desvía todos los proyectiles excepto las wind charges, devolviéndolos a ti a toda velocidad. Atácalo cuerpo a cuerpo entre salto y salto, o devuélvele la jugada con wind charges. No recibe daño por caída, así que tirarlo por un borde no sirve de nada.",
+    "drops": [
+      {
+        "item": "Breeze Rod",
+        "qty": "1-2",
+        "notes": "Más con Saqueo; fabrica wind charges, el armor trim flow y la maza (con un heavy core)"
+      }
+    ],
+    "spawnConditions": "Trial spawners en las salas de combate de las trial chambers, con línea de visión al spawner. Las apariciones escalan con el número de jugadores cercanos, como todos los mobs de trial spawner.",
+    "behavior": "Un saltarín de muelle (hasta 15 bloques en horizontal y 5 en vertical) que dispara wind charges: la ráfaga te empuja y activa botones, puertas y palancas, lo que a menudo abre nuevos caminos en pleno combate. Se comprime como un muelle antes de saltar y desvía flechas, tridentes y bolas de nieve de vuelta al tirador.",
+    "tameOrBreed": "No se puede domesticar ni criar.",
+    "keywords": "breeze trial chambers wind charge desviar breeze rod salto hostil 1.21"
+  },
+  "creaking": {
+    "type": "Hostil",
+    "health": "1 (medio corazón), pero invulnerable mientras esté vinculado a su creaking heart",
+    "where": "Pale gardens de noche, generado por un creaking heart activado y escondido entre dos bloques de pale oak (también de hearts que coloques tú).",
+    "howToKill": "No puedes: un creaking vinculado a un heart ignora todo el daño. Encuentra su creaking heart (busca el bloque brillante dentro de un pale oak cercano, en un radio de 32 bloques) y destruye ESO: el creaking muere con él. Golpearlo aun así ayuda: cada golpe hace que su heart rezume resin clumps.",
+    "drops": [
+      {
+        "item": "Resin Clump",
+        "qty": "a través del heart",
+        "notes": "Golpear al creaking hace que su creaking heart produzca resin clumps; la resina fabrica ladrillos de resina para construir"
+      }
+    ],
+    "spawnConditions": "De noche, desde un creaking heart colocado de forma natural entre dos bloques de pale oak en los pale gardens. El creaking nunca se aleja más de 32 bloques de su heart; si lo fuerzas, el heart genera uno nuevo.",
+    "behavior": "El mob ángel llorón: solo se mueve cuando ningún jugador en Survival o Aventura lo está mirando. Cruza sus ojos naranjas brillantes a unos 12 bloques y se congela a mitad de paso; apártale la vista y se abalanza con cabezazos. Inmovilizado, aún puede ser empujado por agua, pistones, explosiones o wind charges.",
+    "tameOrBreed": "No se puede domesticar ni criar.",
+    "keywords": "creaking pale garden creaking heart resina mirar invulnerable 1.21.4"
+  },
+  "bogged": {
+    "type": "Hostil",
+    "health": "16 (8 corazones)",
+    "where": "Pantanos y manglares por la noche, y en ciertos trial spawners de las trial chambers.",
+    "howToKill": "Pelea como contra un skeleton con la mitad de vida: acércate en zigzag o levanta un escudo. Sus flechas llevan Poison: un impacto significa un efecto de veneno persistente, así que no te quedes quieto intercambiando disparos.",
+    "drops": [
+      {
+        "item": "Hueso",
+        "qty": "0-2",
+        "notes": "Más con Saqueo"
+      },
+      {
+        "item": "Flecha",
+        "qty": "0-2",
+        "notes": "Más con Saqueo"
+      },
+      {
+        "item": "Flecha con Poison",
+        "qty": "0-1",
+        "notes": "Al matarlo un jugador; Saqueo aumenta la probabilidad"
+      },
+      {
+        "item": "Seta marrón o roja",
+        "qty": "2 (esquilándolo)",
+        "notes": "Esquílalo una vez para 2 setas, cada una marrón o roja con la misma probabilidad"
+      }
+    ],
+    "spawnConditions": "Pantanos y manglares por la noche como el resto de monstruos, sustituyendo algunas apariciones de skeletons normales; también en trial spawners de las trial chambers.",
+    "behavior": "Una variante de skeleton musgosa y cubierta de setas: mismo comportamiento de arco pero disparos más lentos y menos vida. Recibe daño de la powder snow y nunca se convierte en stray. Esquilarlo le quita las setas (y su encanto), tras lo cual no se puede volver a esquilar.",
+    "tameOrBreed": "No se puede domesticar ni criar.",
+    "keywords": "bogged variante skeleton pantano flecha poison esquilar setas musgo 1.21"
   }
 }

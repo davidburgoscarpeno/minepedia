@@ -16,13 +16,14 @@ const mobList: string[] = ov?.mobs ?? b.mobs;
 const structures: string[] = ov?.structures ?? b.structures;
 const whyGo: string[] = ov?.whyGo ?? b.whyGo;
 const tips: string[] = ov?.tips ?? b.tips;
+const relatedLinks: any[] = ov?.relatedLinks ?? (b.relatedLinks ?? []);
 
 const SHOT_BY_SLUG: Record<string,string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
 const shotId = SHOT_BY_SLUG[b.slug];
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Biomas', crumbHref: '/es/biomes/',
-  resourcesH: 'Recursos', mobsH: 'Mobs', structuresH: 'Estructuras', whyH: 'Por qué ir', tipsH: 'Consejos',
+  resourcesH: 'Recursos', mobsH: 'Mobs', structuresH: 'Estructuras', whyH: 'Por qué ir', tipsH: 'Consejos', relatedL: 'Relacionados:',
   back: '← Todos los biomas',
   title: `Bioma ${b.name}`,
   desc: `Bioma ${b.name} de Minecraft: recursos, mobs, estructuras y consejos. Cuándo ir y qué llevar.`,
@@ -32,7 +33,7 @@ const L = isES ? {
   faq2: `¿Qué estructuras se generan en el bioma ${b.name}?`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Biomes', crumbHref: '/biomes/',
-  resourcesH: 'Resources', mobsH: 'Mobs', structuresH: 'Structures', whyH: 'Why go', tipsH: 'Tips',
+  resourcesH: 'Resources', mobsH: 'Mobs', structuresH: 'Structures', whyH: 'Why go', tipsH: 'Tips', relatedL: 'Related:',
   back: '← All biomes',
   title: `${b.name} Biome`,
   desc: `Minecraft ${b.name.toLowerCase()} biome: resources, mobs, structures and tips. When to go and what to bring.`,
@@ -72,6 +73,9 @@ const jsonLd = [
     <ul>{whyGo.map(w => <li>{w}</li>)}</ul>
     <h2>{L.tipsH}</h2>
     <ul>{tips.map(t => <li>{t}</li>)}</ul>
+    {relatedLinks.length > 0 && (
+      <p><strong>{L.relatedL}</strong> {relatedLinks.map((l: any) => <a href={l.url} style="margin-right:12px">{l.label}</a>)}</p>
+    )}
     <p><a href={L.crumbHref}>{L.back}</a></p>
   </div>
 </Base>

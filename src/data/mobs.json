@@ -112,7 +112,8 @@
     "related": [
       "zombie",
       "creeper",
-      "stray"
+      "stray",
+      "bogged"
     ],
     "keywords": "skeleton drops bones arrows how to kill spawn"
   },
@@ -614,7 +615,8 @@
     "related": [
       "axolotl",
       "zombie",
-      "piglin"
+      "piglin",
+      "sulfur-cube"
     ],
     "keywords": "slime chunk slimeball farm spawn swamp full moon"
   },
@@ -1076,7 +1078,8 @@
     "related": [
       "slime",
       "blaze",
-      "hoglin"
+      "hoglin",
+      "sulfur-cube"
     ],
     "keywords": "magma cube nether magma cream froglight basalt delta bastion"
   },
@@ -1309,7 +1312,8 @@
     "related": [
       "skeleton",
       "zombie",
-      "creeper"
+      "creeper",
+      "bogged"
     ],
     "keywords": "stray skeleton snowy slowness arrows ice frozen"
   },
@@ -1414,5 +1418,105 @@
       "allay"
     ],
     "keywords": "sulfur cube mob sulfur caves bucket absorb block shears passive 26.2"
+  },
+  {
+    "slug": "breeze",
+    "name": "Breeze",
+    "type": "Hostile",
+    "health": "30 (15 hearts)",
+    "where": "Only in trial chambers: from trial spawners surrounded by chiseled tuff in combat chambers (never in corridors). Only one breeze per spawner.",
+    "howToKill": "Forget the bow: it deflects every projectile except wind charges, back at you at full speed. Rush it with a sword between its jumps, or turn its own game around with wind charges. It takes no fall damage, so knocking it off ledges does nothing.",
+    "drops": [
+      {
+        "item": "Breeze Rod",
+        "qty": "1-2",
+        "notes": "More with Looting; crafts wind charges, flow armor trim and the mace (with a heavy core)"
+      }
+    ],
+    "spawnConditions": "Trial spawners in trial chambers combat chambers, with line of sight to the spawner. Spawns scale with nearby player count like all trial spawner mobs.",
+    "behavior": "A spring-loaded jumper (up to 15 blocks horizontally, 5 vertically) that fires wind charges: the burst knocks you around and activates buttons, doors and levers, which often opens new paths mid-fight. It compresses like a spring before leaping and deflects arrows, tridents and snowballs straight back at the shooter.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "bogged",
+      "blaze"
+    ],
+    "keywords": "breeze trial chambers wind charge deflect breeze rod jump hostile mob 1.21"
+  },
+  {
+    "slug": "creaking",
+    "name": "Creaking",
+    "type": "Hostile",
+    "health": "1 (half a heart) - but invulnerable while linked to its creaking heart",
+    "where": "Pale gardens at night, spawned by an activated creaking heart hidden between two pale oak blocks (also from hearts you place yourself).",
+    "howToKill": "You cannot: a heart-linked creaking shrugs off all damage. Find its creaking heart (look for the glowing block inside a nearby pale oak, within 32 blocks) and destroy THAT - the creaking dies with it. Hitting the creaking still helps: each hit makes its heart ooze resin clumps.",
+    "drops": [
+      {
+        "item": "Resin Clump",
+        "qty": "via the heart",
+        "notes": "Hitting the creaking makes its creaking heart produce resin clumps; resin crafts resin bricks for building"
+      }
+    ],
+    "spawnConditions": "At night, from a creaking heart placed naturally between two pale oak blocks in pale gardens. The creaking never strays more than 32 blocks from its heart; if forced away, the heart spawns a new one.",
+    "behavior": "The weeping-angel mob: it only moves when no Survival/Adventure player is looking at it. Meet its glowing orange eyes within about 12 blocks and it freezes mid-step; look away and it lunges with melee headbutts. Immobilized it can still be pushed by water, pistons, explosions or wind charges.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.21.4 (The Garden Awakens)",
+    "related": [
+      "enderman",
+      "warden"
+    ],
+    "keywords": "creaking pale garden creaking heart resin look away weeping angel invulnerable 1.21.4"
+  },
+  {
+    "slug": "bogged",
+    "name": "Bogged",
+    "type": "Hostile",
+    "health": "16 (8 hearts)",
+    "where": "Swamps and mangrove swamps at night, and from certain trial spawners in trial chambers.",
+    "howToKill": "Fight it like a skeleton with half the health: close the distance in a zigzag or raise a shield. Its arrows are tipped with Poison - getting hit means a lingering poison effect, so do not stand still trading shots.",
+    "drops": [
+      {
+        "item": "Bone",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Arrow",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Arrow of Poison",
+        "qty": "0-1",
+        "notes": "When killed by a player, with Looting increasing the chance"
+      },
+      {
+        "item": "Brown or Red Mushroom",
+        "qty": "2 (by shearing)",
+        "notes": "Shear it once for 2 mushrooms, each brown or red at equal chance"
+      }
+    ],
+    "spawnConditions": "Swamps and mangrove swamps at night like other monsters, replacing some regular skeleton spawns; also from trial spawners in trial chambers.",
+    "behavior": "A mossy, mushroom-covered skeleton variant: same bow behavior but slower shots and less health. It takes damage from powder snow and never converts into a stray. Shearing removes its mushrooms (and its charm), after which it cannot be sheared again.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "skeleton",
+      "stray",
+      "witch"
+    ],
+    "keywords": "bogged skeleton variant swamp poison arrow shear mushrooms mossy 1.21"
   }
 ]

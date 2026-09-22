@@ -10,10 +10,11 @@ const ov: any = isES ? (versionsEs as any)[v.slug] : null;
 const date = ov?.date ?? v.date;
 const highlights = ov?.highlights ?? v.highlights;
 const whyItMatters = ov?.whyItMatters ?? v.whyItMatters;
+const relatedLinks: any[] = ov?.relatedLinks ?? (v.relatedLinks ?? []);
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Versiones', crumbHref: '/es/versions/',
-  newH: 'Todo lo nuevo', whyH: 'Por qué importa', back: '\u2190 Todas las versiones',
+  newH: 'Todo lo nuevo', whyH: 'Por qué importa', relatedL: 'Páginas sobre esta versión:', back: '\u2190 Todas las versiones',
   title: `${v.name} (novedades)`,
   desc: `Minecraft ${v.name}: todas las novedades, publicado el ${date}. Lo más destacado y lo que cambió para el survival.`,
   canonical: `/es/versions/${v.slug}/`, alt: `/versions/${v.slug}/`,
@@ -21,7 +22,7 @@ const L = isES ? {
   headlineDesc: `Minecraft ${v.name} (${date}): todas las novedades y por qué importan.`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Versions', crumbHref: '/versions/',
-  newH: 'Everything new', whyH: 'Why it matters', back: '\u2190 All versions',
+  newH: 'Everything new', whyH: 'Why it matters', relatedL: 'Pages about this version:', back: '\u2190 All versions',
   title: `${v.name} (What's New)`,
   desc: `Minecraft ${v.name}: every new feature, released ${date}. Highlights and what changed for survival.`,
   canonical: `/versions/${v.slug}/`, alt: `/es/versions/${v.slug}/`,
@@ -56,6 +57,9 @@ const jsonLd = [
     <ul>{highlights.map((h: string) => <li>{h}</li>)}</ul>
     <h2>{L.whyH}</h2>
     <ul>{whyItMatters.map((w: string) => <li>{w}</li>)}</ul>
+    {relatedLinks.length > 0 && (
+      <p><strong>{L.relatedL}</strong> {relatedLinks.map((l: any) => <a href={l.url} style="margin-right:12px">{l.label}</a>)}</p>
+    )}
     <p><a href={L.crumbHref}>{L.back}</a></p>
   </div>
 </Base>

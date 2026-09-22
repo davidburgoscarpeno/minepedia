@@ -12,13 +12,14 @@ const howToFind = ov?.howToFind ?? s.howToFind;
 const loot = ov?.loot ?? s.loot;
 const dangers = ov?.dangers ?? s.dangers;
 const tips = ov?.tips ?? s.tips;
+const relatedLinks: any[] = ov?.relatedLinks ?? (s.relatedLinks ?? []);
 
 const SHOT_BY_SLUG: Record<string, string> = { 'ancient-city': 'biomes-deep-dark', 'desert-temple': 'structures-desert-temple', 'mineshaft': 'structures-mineshaft' };
 const shotId = SHOT_BY_SLUG[s.slug];
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Estructuras', crumbHref: '/es/structures/',
-  findH: 'Cómo encontrarla', lootH: 'Botín', dangersH: 'Peligros', tipsH: 'Consejos',
+  findH: 'Cómo encontrarla', lootH: 'Botín', dangersH: 'Peligros', tipsH: 'Consejos', relatedL: 'Relacionados:',
   back: '\u2190 Todas las estructuras',
   title: `${s.name} (cómo encontrarla)`,
   desc: `${s.name} en Minecraft: cómo encontrarla, botín completo, peligros y consejos. ${s.dimension}.`,
@@ -28,7 +29,7 @@ const L = isES ? {
   faq1: `\u00bfC\u00f3mo se encuentra ${s.name} en Minecraft?`, faq2: `\u00bfQu\u00e9 bot\u00edn hay en ${s.name}?`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Structures', crumbHref: '/structures/',
-  findH: 'How to find it', lootH: 'Loot', dangersH: 'Dangers', tipsH: 'Tips',
+  findH: 'How to find it', lootH: 'Loot', dangersH: 'Dangers', tipsH: 'Tips', relatedL: 'Related:',
   back: '\u2190 All structures',
   title: `${s.name} (How to Find)`,
   desc: `Minecraft ${s.name.toLowerCase()}: how to find it, full loot guide, dangers and tips. ${s.dimension}.`,
@@ -79,6 +80,9 @@ const jsonLd = [
     <ul>{dangers.map((d: string) => <li>{d}</li>)}</ul>
     <h2>{L.tipsH}</h2>
     <ul>{tips.map((t: string) => <li>{t}</li>)}</ul>
+    {relatedLinks.length > 0 && (
+      <p><strong>{L.relatedL}</strong> {relatedLinks.map((l: any) => <a href={l.url} style="margin-right:12px">{l.label}</a>)}</p>
+    )}
     <p><a href={L.crumbHref}>{L.back}</a></p>
   </div>
 </Base>
