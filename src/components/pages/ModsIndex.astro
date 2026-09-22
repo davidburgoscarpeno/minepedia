@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Mods de Minecraft',
+  description: 'Guía de mods de Minecraft: cómo instalar mods con Fabric o NeoForge, los mods de rendimiento esenciales, los mejores mods de contenido, shaders y add-ons de Bedrock. Gratis y seguro.',
+  h1: 'Mods de Minecraft',
+  sub: 'Todo es gratis. Sin enlaces de afiliado y sin webs de republicados: solo apuntamos a fuentes oficiales.',
+  crumb: 'Mods', home: 'Inicio',
+  placeholder: 'Busca mods, guías, herramientas...',
+  quickAnswer: '<strong>Respuesta rápida:</strong> los mods son cosa de Java Edition. Instala la Modrinth App, elige Fabric para mods de rendimiento o NeoForge para mods de contenido grandes, y todo lo demás es un clic. En Bedrock (consola/móvil) no hay mods: solo add-ons, que hacen mucho menos.',
+  pages: [
+    { href: '/es/mods/install-mods-java/', icon: 'install-mods', name: 'Cómo instalar mods (Java)', desc: 'Fabric vs NeoForge, la Modrinth App, la carpeta mods y la correspondencia de versiones' },
+    { href: '/es/mods/essential-mods/', icon: 'perf-mods', name: 'Mods esenciales de rendimiento y QoL', desc: 'Sodium, Lithium, Iris, JEI y el resto del paquete estándar' },
+    { href: '/es/mods/best-content-mods/', icon: 'content-mods', name: 'Los mejores mods de contenido', desc: 'Create, Botania, Twilight Forest, Farmer\'s Delight y más' },
+    { href: '/es/mods/shaders/', icon: 'shaders', name: 'Guía de shaders', desc: 'Iris, Complementary, BSL - y Vibrant Visuals en Bedrock' },
+    { href: '/es/mods/bedrock-addons/', icon: 'bedrock-addons', name: 'Add-ons de Bedrock', desc: 'Qué pueden y qué no pueden hacer los add-ons, y cómo instalarlos de forma segura' }
+  ],
+  rulesH2: 'Reglas de oro del modding',
+  rules: [
+    '<strong>Descarga solo de Modrinth o CurseForge</strong> (o del GitHub/Discord oficial del mod). Las webs que republican mods populares incluyen malware: la trampa clásica es buscar el nombre de un mod y hacer clic en el primer anuncio.',
+    '<strong>Los mods son gratis.</strong> Quien cobra por un mod de Minecraft está incumpliendo las normas de Mojang y probablemente intentando estafarte.',
+    '<strong>Coincide las versiones:</strong> un mod hecho para 1.21 no funcionará en 26.x y viceversa. Revisa las versiones soportadas en la página del mod.',
+    '<strong>Haz copia de seguridad de tu mundo</strong> antes de añadir mods de contenido. Los mods de rendimiento son seguros; los mods de worldgen cambian tu partida para siempre.'
+  ],
+  canonical: '/es/mods/', alt: '/mods/'
+} : {
+  title: 'Minecraft Mods',
+  description: 'Minecraft mods guide: how to install mods with Fabric or NeoForge, the essential performance mods, best content mods, shaders and Bedrock add-ons. Free and safe.',
+  h1: 'Minecraft Mods',
+  sub: 'Everything is free. No affiliate links, no repost sites - we only point to official sources.',
+  crumb: 'Mods', home: 'Home',
+  placeholder: 'Search mods, guides, tools...',
+  quickAnswer: '<strong>Quick answer:</strong> mods are a Java Edition thing. Install the Modrinth App, pick Fabric for performance mods or NeoForge for big content mods, and everything else is one click. On Bedrock (console/mobile) there are no mods - only add-ons, which do far less.',
+  pages: [
+    { href: '/mods/install-mods-java/', icon: 'install-mods', name: 'How to Install Mods (Java)', desc: 'Fabric vs NeoForge, Modrinth App, the mods folder, version matching' },
+    { href: '/mods/essential-mods/', icon: 'perf-mods', name: 'Essential Performance & QoL Mods', desc: 'Sodium, Lithium, Iris, JEI and the rest of the standard stack' },
+    { href: '/mods/best-content-mods/', icon: 'content-mods', name: 'Best Content Mods', desc: 'Create, Botania, Twilight Forest, Farmer\'s Delight and more' },
+    { href: '/mods/shaders/', icon: 'shaders', name: 'Shaders Guide', desc: 'Iris, Complementary, BSL - and Vibrant Visuals on Bedrock' },
+    { href: '/mods/bedrock-addons/', icon: 'bedrock-addons', name: 'Bedrock Add-ons', desc: 'What add-ons can and cannot do, and how to stay safe installing them' }
+  ],
+  rulesH2: 'Golden rules of modding',
+  rules: [
+    '<strong>Only download from Modrinth or CurseForge</strong> (or the mod\'s official GitHub/Discord). Sites that repost popular mod names bundle malware - the classic trap is searching a mod name and clicking the first ad.',
+    '<strong>Mods are free.</strong> Anyone charging for a Minecraft mod itself is breaking Mojang\'s rules and probably scamming you.',
+    '<strong>Match versions:</strong> a mod built for 1.21 will not work on 26.x and vice versa. Check the mod page\'s supported versions.',
+    '<strong>Back up your world</strong> before adding content mods. Performance mods are safe; worldgen mods change your save forever.'
+  ],
+  canonical: '/mods/', alt: '/es/mods/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} />
+
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+
+    <div class="grid-cards">
+      {S.pages.map(p => (
+        <a class="card" href={p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{p.name}</h3><p>{p.desc}</p></a>
+      ))}
+    </div>
+
+    <h2>{S.rulesH2}</h2>
+    <ul>
+      {S.rules.map(r => <li set:html={r}></li>)}
+    </ul>
+  </div>
+</Base>

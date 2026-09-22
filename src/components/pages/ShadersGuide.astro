@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Guía de shaders de Minecraft',
+  description: 'Cómo instalar shaders de Minecraft con Iris: Complementary, BSL y los mejores paquetes, qué PC necesitas y Vibrant Visuals en Bedrock.',
+  h1: 'Guía de shaders',
+  sub: 'Iluminación en tiempo real, sombras, agua ondeante y rayos de luz: en diez minutos.',
+  crumb: 'Shaders', modsCrumb: 'Mods', home: 'Inicio',
+  quickAnswer: '<strong>Respuesta rápida:</strong> instala Iris + Sodium (Fabric o NeoForge), descarga un paquete de shaders como Complementary Reimagined o BSL, suelta el .zip en la carpeta shaderpacks y elígelo en Video Settings &rarr; Shader Packs.',
+  installH2: 'Instalar shaders paso a paso',
+  installSteps: [
+    'Instala tu loader con <strong>Iris Shaders</strong> y <strong>Sodium</strong>: consulta nuestra <a href="/es/mods/install-mods-java/">guía de instalación</a>.',
+    'Descarga un paquete de shaders desde su página oficial (Modrinth o CurseForge). Obtendrás un archivo .zip: no lo descomprimas.',
+    'En el juego: Options &rarr; Video Settings &rarr; Shader Packs &rarr; Open Shader Pack Folder, y suelta el .zip dentro.',
+    'Selecciona el paquete en la lista. Listo.'
+  ],
+  whichH2: 'Qué paquete de shaders elegir',
+  which: [
+    '<strong>Complementary Reimagined</strong> - el favorito de la comunidad: precioso pero con gusto, mantiene la esencia vanilla y va genial en PCs de gama media.',
+    '<strong>Complementary Unbound</strong> - el hermano mayor cinematográfico, con cielos más dramáticos.',
+    '<strong>BSL Shaders</strong> - brillante, suave y colorido; un clásico que funciona bien casi en cualquier equipo.',
+    '<strong>MakeUp - Ultra Fast</strong> - para PCs y portátiles más modestos; enorme calidad por fotograma.',
+    '<strong>Photon</strong> - un paquete moderno de código abierto con nubes y agua impresionantes.'
+  ],
+  perfH2: 'Expectativas de rendimiento',
+  perf: [
+    'Cualquier GPU dedicada de los últimos años mueve Complementary/BSL a más de 60 FPS con Sodium. Con gráficos integrados: usa MakeUp o desactiva las sombras.',
+    'Los shaders solo cambian el apartado visual: tu mundo, tus mods y tus logros quedan intactos.',
+    'Combínalos con Distant Horizons para la experiencia completa de modo captura (hay que activar el soporte de Iris en sus ajustes).'
+  ],
+  bedrockH2: 'En Bedrock: Vibrant Visuals',
+  bedrockP: 'Bedrock Edition no tiene paquetes de shaders como Java, pero Mojang añadió <strong>Vibrant Visuals</strong> (una mejora gráfica oficial con iluminación direccional, sombras y niebla volumétrica) en el drop Chase the Skies: actívalo en los ajustes de vídeo en los dispositivos compatibles. Existen "shaders" de terceros para Bedrock como resource packs, pero hacen mucho menos que los shaders de Java.',
+  canonical: '/es/mods/shaders/', alt: '/mods/shaders/'
+} : {
+  title: 'Minecraft Shaders Guide',
+  description: 'How to install Minecraft shaders with Iris: Complementary, BSL and the best packs, what your PC needs, and Vibrant Visuals on Bedrock.',
+  h1: 'Shaders Guide',
+  sub: 'Real-time lighting, shadows, waving water and god rays - in ten minutes.',
+  crumb: 'Shaders', modsCrumb: 'Mods', home: 'Home',
+  quickAnswer: '<strong>Quick answer:</strong> install Iris + Sodium (Fabric or NeoForge), download a shader pack like Complementary Reimagined or BSL, drop the .zip in the shaderpacks folder and pick it in Video Settings &rarr; Shader Packs.',
+  installH2: 'Install shaders step by step',
+  installSteps: [
+    'Install your loader with <strong>Iris Shaders</strong> and <strong>Sodium</strong> - see our <a href="/mods/install-mods-java/">install guide</a>.',
+    'Download a shader pack from its official page (Modrinth or CurseForge). You get a .zip file - do not unzip it.',
+    'In game: Options &rarr; Video Settings &rarr; Shader Packs &rarr; Open Shader Pack Folder, and drop the .zip in.',
+    'Select the pack in the list. Done.'
+  ],
+  whichH2: 'Which shader pack',
+  which: [
+    '<strong>Complementary Reimagined</strong> - the community favorite: gorgeous but tasteful, keeps the vanilla feel, great on mid-range PCs.',
+    '<strong>Complementary Unbound</strong> - the cinematic big sibling with more dramatic skies.',
+    '<strong>BSL Shaders</strong> - bright, soft and colorful; a classic that runs well almost everywhere.',
+    '<strong>MakeUp - Ultra Fast</strong> - for weaker PCs and laptops; huge quality per frame.',
+    '<strong>Photon</strong> - a modern open-source pack with impressive clouds and water.'
+  ],
+  perfH2: 'Performance expectations',
+  perf: [
+    'Any dedicated GPU from the last years runs Complementary/BSL at 60+ FPS with Sodium. Integrated graphics: use MakeUp or disable shadows.',
+    'Shaders only change visuals - your world, mods and achievements are untouched.',
+    'Pair with Distant Horizons for the full screenshot-mode experience (it needs Iris support enabled in its settings).'
+  ],
+  bedrockH2: 'On Bedrock: Vibrant Visuals',
+  bedrockP: 'Bedrock Edition has no shader packs like Java, but Mojang added <strong>Vibrant Visuals</strong> (an official graphics upgrade with directional lighting, shadows and volumetric fog) in the Chase the Skies drop - enable it in video settings on supported devices. Third-party "shaders" for Bedrock exist as resource packs but do far less than Java shaders.',
+  canonical: '/mods/shaders/', alt: '/es/mods/shaders/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / <a href={isES ? '/es/mods/' : '/mods/'}>{S.modsCrumb}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+    <h2>{S.installH2}</h2>
+    <ol>
+      {S.installSteps.map(x => <li set:html={x}></li>)}
+    </ol>
+    <h2>{S.whichH2}</h2>
+    <ul>
+      {S.which.map(x => <li set:html={x}></li>)}
+    </ul>
+    <h2>{S.perfH2}</h2>
+    <ul>
+      {S.perf.map(x => <li>{x}</li>)}
+    </ul>
+    <h2>{S.bedrockH2}</h2>
+    <p set:html={S.bedrockP}></p>
+  </div>
+</Base>

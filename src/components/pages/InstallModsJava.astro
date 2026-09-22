@@ -1,0 +1,134 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Cómo instalar mods de Minecraft (Java)',
+  description: 'Instala mods de Minecraft paso a paso: elige Fabric o NeoForge, usa la Modrinth App o la carpeta mods y coincide las versiones del juego. Gratis y seguro.',
+  h1: 'Cómo instalar mods de Minecraft (Java Edition)',
+  sub: 'Diez minutos, coste cero y sin webs sospechosas.',
+  crumb: 'Instalar mods', modsCrumb: 'Mods', home: 'Inicio',
+  quickAnswer: '<strong>Respuesta rápida:</strong> instala la Modrinth App, crea una instancia, elige Fabric o NeoForge y pulsa Install en los mods que quieras. Listo. La forma manual: ejecuta el instalador del loader y luego suelta los archivos .jar en la carpeta mods.',
+  loaderH2: '1. Elige tu loader',
+  loaders: [
+    '<strong>Fabric</strong> - el estándar para mods de rendimiento (Sodium, Lithium, Iris) y contenido vanilla-plus. Ligero y rápido de actualizar en las versiones nuevas.',
+    '<strong>NeoForge</strong> - el sucesor moderno de Forge. Hogar de la mayoría de los mods de contenido grandes (Create, Mekanism, Botania). Úsalo cuando el mod que quieres lo requiera.',
+    '<strong>Forge</strong> - el clásico de siempre. Sigue ahí, pero casi todo el desarrollo activo se mudó a NeoForge. Elígelo solo para modpacks antiguos.',
+    'Revisa la página del mod: siempre indica qué loader necesita. Los mods de Fabric y de NeoForge no se pueden mezclar.'
+  ],
+  appH2: '2. La forma fácil: Modrinth App',
+  appSteps: [
+    'Descarga la Modrinth App desde modrinth.com (gratuita y de código abierto).',
+    'Crea una instancia: elige tu versión de Minecraft y el loader (Fabric o NeoForge).',
+    'Explora el catálogo de mods integrado y pulsa Install: las versiones y dependencias se resuelven automáticamente.',
+    'Pulsa Play. La app mantiene tu instancia con mods separada de la vanilla.'
+  ],
+  manualH2: '3. La forma manual',
+  manualSteps: [
+    'Descarga el instalador del loader desde su web oficial (fabricmc.net o neoforged.net) y ejecútalo: añadirá un perfil a tu launcher.',
+    'Inicia ese perfil una vez y cierra el juego. Esto crea la carpeta <code>mods</code>.',
+    'Encuentra la carpeta: en el Minecraft Launcher, Installations &rarr; pasa el cursor sobre tu perfil &rarr; icono de carpeta. O <code>%appdata%\\.minecraft\\mods</code> en Windows, <code>~/Library/Application Support/minecraft/mods</code> en Mac.',
+    'Suelta dentro los archivos .jar de los mods. Con Fabric casi siempre necesitas también <strong>Fabric API</strong>: es un mod como cualquier otro.',
+    'Inicia el juego y abre el menú Mods para confirmar que todo se ha cargado.'
+  ],
+  crashH2: '4. Si el juego crashea al iniciar',
+  crash: [
+    'La versión incorrecta es la causa el 90% de las veces: comprueba que cada mod indica tu versión exacta del juego.',
+    'Dependencia ausente: lee la pantalla del crash, que nombra el mod que falta (normalmente Fabric API o una librería).',
+    'Quita la mitad de los mods, prueba y repite: encontrarás el que entra en conflicto en pocas rondas.'
+  ],
+  jsonLdName: 'Cómo instalar mods de Minecraft (Java Edition)',
+  jsonLdDesc: 'Instala Fabric o NeoForge y añade mods con la Modrinth App o manualmente.',
+  jsonLdSteps: [
+    'Decide tu loader: Fabric para mods de rendimiento y vanilla-plus, NeoForge para mods de contenido grandes.',
+    'Instala la Modrinth App (lo más fácil) o descarga el instalador del loader desde su web oficial.',
+    'Inicia el juego una vez con el perfil del loader para crear la carpeta mods.',
+    'Añade mods que coincidan con tu versión exacta del juego, más Fabric API si usas Fabric.',
+    'Inicia el juego y revisa el menú Mods: cada mod debería aparecer sin errores.'
+  ],
+  canonical: '/es/mods/install-mods-java/', alt: '/mods/install-mods-java/'
+} : {
+  title: 'How to Install Minecraft Mods (Java)',
+  description: 'Install Minecraft mods step by step: choose Fabric or NeoForge, use the Modrinth App or the mods folder, match game versions. Free and safe.',
+  h1: 'How to Install Minecraft Mods (Java Edition)',
+  sub: 'Ten minutes, zero cost, no sketchy sites.',
+  crumb: 'Install Mods', modsCrumb: 'Mods', home: 'Home',
+  quickAnswer: '<strong>Quick answer:</strong> install the Modrinth App, create an instance, pick Fabric or NeoForge, click Install on the mods you want. Done. The manual way: run the loader\'s installer, then drop .jar files into the mods folder.',
+  loaderH2: '1. Pick your loader',
+  loaders: [
+    '<strong>Fabric</strong> - the standard for performance mods (Sodium, Lithium, Iris) and vanilla-plus content. Light and fast to update on new versions.',
+    '<strong>NeoForge</strong> - the modern successor of Forge. Home of most big content mods (Create, Mekanism, Botania). Use it when the mod you want requires it.',
+    '<strong>Forge</strong> - the old classic. Still around, but most active development moved to NeoForge. Only pick it for old modpacks.',
+    'Check the mod page: it always says which loader it needs. Fabric and NeoForge mods cannot be mixed.'
+  ],
+  appH2: '2. The easy way: Modrinth App',
+  appSteps: [
+    'Download the Modrinth App from modrinth.com (free, open source).',
+    'Create an instance: pick your Minecraft version and loader (Fabric or NeoForge).',
+    'Browse the built-in mod catalog and click Install - versions and dependencies resolve automatically.',
+    'Press Play. The app keeps your modded instance separate from vanilla.'
+  ],
+  manualH2: '3. The manual way',
+  manualSteps: [
+    'Download the loader installer from the official site (fabricmc.net or neoforged.net) and run it - it adds a profile to your launcher.',
+    'Launch that profile once, then close the game. This creates the <code>mods</code> folder.',
+    'Find the folder: in the Minecraft Launcher, Installations &rarr; hover your profile &rarr; folder icon. Or <code>%appdata%\\.minecraft\\mods</code> on Windows, <code>~/Library/Application Support/minecraft/mods</code> on Mac.',
+    'Drop the mod .jar files in. On Fabric you almost always also need <strong>Fabric API</strong> - it is a mod like any other.',
+    'Launch and open the Mods menu to confirm everything loaded.'
+  ],
+  crashH2: '4. If the game crashes on startup',
+  crash: [
+    'Version mismatch is the cause 90% of the time: check that every mod lists your exact game version.',
+    'Missing dependency: read the crash screen - it names the missing mod (usually Fabric API or a library).',
+    'Remove half the mods, test, repeat - you will find the conflicting one in a few rounds.'
+  ],
+  jsonLdName: 'How to install Minecraft mods (Java Edition)',
+  jsonLdDesc: 'Install Fabric or NeoForge and add mods with the Modrinth App or manually.',
+  jsonLdSteps: [
+    'Decide your loader: Fabric for performance and vanilla-plus mods, NeoForge for big content mods.',
+    'Install the Modrinth App (easiest) or download the loader installer from its official site.',
+    'Launch the game once with the loader profile to create the mods folder.',
+    'Add mods matching your exact game version, plus Fabric API if you use Fabric.',
+    'Start the game and check the Mods menu - every mod should be listed without errors.'
+  ],
+  canonical: '/mods/install-mods-java/', alt: '/es/mods/install-mods-java/'
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'HowTo',
+    name: S.jsonLdName,
+    description: S.jsonLdDesc,
+    step: S.jsonLdSteps.map((text, i) => ({ '@type': 'HowToStep', position: i + 1, text })) }
+];
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / <a href={isES ? '/es/mods/' : '/mods/'}>{S.modsCrumb}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+
+    <h2>{S.loaderH2}</h2>
+    <ul>
+      {S.loaders.map(x => <li set:html={x}></li>)}
+    </ul>
+
+    <h2>{S.appH2}</h2>
+    <ol>
+      {S.appSteps.map(x => <li set:html={x}></li>)}
+    </ol>
+
+    <h2>{S.manualH2}</h2>
+    <ol>
+      {S.manualSteps.map(x => <li set:html={x}></li>)}
+    </ol>
+
+    <h2>{S.crashH2}</h2>
+    <ul>
+      {S.crash.map(x => <li set:html={x}></li>)}
+    </ul>
+  </div>
+</Base>
