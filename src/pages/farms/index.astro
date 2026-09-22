@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import farms from '../../data/farms.json';
+import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Farms" description="The best Minecraft farms with step-by-step builds: iron farm, mob XP farm, sugarcane, gold farm and raid farm. Java and Bedrock differences explained." canonicalPath="/farms/">
   <div class="container">
@@ -12,6 +13,7 @@ import farms from '../../data/farms.json';
     <div class="grid-cards">
       {farms.map(f => (
         <a class="card" href={`/farms/${f.slug}/`}>
+          <div class="icon"><Icon name="wheat" /></div>
           <h3>{f.name}</h3>
           <p>{f.produces}</p>
         </a>

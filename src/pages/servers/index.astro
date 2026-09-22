@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
+import Icon from '../../components/Icon.astro';
 const pages = [
   { href: '/servers/make-a-server/', name: 'Make Your Own Server', desc: 'Official server jar, Paper, port forwarding and playit.gg for CGNAT' },
   { href: '/servers/free-hosting/', name: 'Free Server Hosting', desc: 'Aternos and what "free" really means' },
@@ -25,6 +26,7 @@ const pages = [
     <div class="grid-cards" style="margin-top:24px">
       {pages.map(p => (
         <a class="card" href={p.href}><h3>{p.name}</h3><p>{p.desc}</p></a>
+          <div class="icon"><Icon name="server" /></div>
       ))}
     </div>
   </div>

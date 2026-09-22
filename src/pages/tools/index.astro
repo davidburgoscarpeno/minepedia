@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 const tools = [
   { href: '/skins/', name: 'Skin Gallery', desc: 'Original skins designed by us - download the PNG or edit them online' },
   { href: '/tools/skin-maker/', name: 'Skin Maker', desc: 'Create and edit Minecraft skins in your browser - paint, preview live, download a game-ready PNG' },
@@ -16,6 +17,7 @@ const tools = [
     <div class="grid-cards" style="margin-top:24px">
       {tools.map(t => (
         <a class="card" href={t.href}><h3>{t.name}</h3><p>{t.desc}</p></a>
+          <div class="icon"><Icon name="wrench" /></div>
       ))}
     </div>
   </div>

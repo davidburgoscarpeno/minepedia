@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import structures from '../../data/structures.json';
+import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Structures" description="Minecraft structure guide: how to find villages, strongholds, ancient cities, bastions, nether fortresses and trial chambers, with loot tables and dangers." canonicalPath="/structures/">
   <div class="container">
@@ -12,6 +13,7 @@ import structures from '../../data/structures.json';
     <div class="grid-cards">
       {structures.map(s => (
         <a class="card" href={`/structures/${s.slug}/`}>
+          <div class="icon"><Icon name="tower" /></div>
           <h3>{s.name}</h3>
           <p>{s.dimension}</p>
         </a>

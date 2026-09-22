@@ -7,6 +7,7 @@ const TILE: Record<string, [string, string]> = {
 };
 const initials = (n: string) => n.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
 import items from '../../data/items.json';
+import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Items" description="Minecraft item database: how to get diamonds, netherite, elytra, tridents, totems and more, with uses and Java/Bedrock notes." canonicalPath="/items/">
   <div class="container">
