@@ -7,6 +7,7 @@ import enchantments from '../../data/enchantments.json';
 import mobs from '../../data/mobs.json';
 import biomes from '../../data/biomes.json';
 import guides from '../../data/guides.json';
+import guidesEs from '../../data/guides-es.json';
 import GameShot from '../../components/GameShot.astro';
 import shots from '../../data/screenshots.json';
 import Icon from '../../components/Icon.astro';
@@ -63,6 +64,7 @@ const catsEs = [
   { href: '/es/merch/', name: 'Merch', desc: 'Selección de LEGO, peluches, lámparas, libros y más de Minecraft', icon: 'bag', count: '10' }
 ];
 const cats = lang === 'es' ? catsEs : catsEn;
+const P = lang === 'es' ? '/es' : '';
 const S = lang === 'es' ? {
   title: 'Minepedia',
   description: 'Minepedia: guías, recetas de crafteo, comandos, encantamientos, mobs, semillas y herramientas de Minecraft - rápido, preciso y siempre al día.',
@@ -109,7 +111,7 @@ const S = lang === 'es' ? {
         </div>
         <div class="skintool-prev">
           {['knight','ninja','astronaut','wizard'].map(sl => (
-            <a href={`/skins/${sl}/`} class="miniskin"><canvas class="skinview" data-src={`/skins/${sl}.png`} data-view="front" data-scale="4" width="64" height="128"></canvas></a>
+            <a href={`${P}/skins/${sl}/`} class="miniskin"><canvas class="skinview" data-src={`/skins/${sl}.png`} data-view="front" data-scale="4" width="64" height="128"></canvas></a>
           ))}
         </div>
       </div>
@@ -128,7 +130,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {guides.slice(0, 6).map(g => (
-          <a class="card" href={`/guides/${g.slug}/`}><h3>{g.name}</h3><p>{g.quickAnswer.split('.')[0]}.</p></a>
+          <a class="card" href={`${P}/guides/${g.slug}/`}><h3>{lang === 'es' ? ((guidesEs as any)[g.slug]?.name ?? g.name) : g.name}</h3><p>{(lang === 'es' ? ((guidesEs as any)[g.slug]?.quickAnswer ?? g.quickAnswer) : g.quickAnswer).split('.')[0]}.</p></a>
         ))}
       </div>
     </section>
@@ -146,7 +148,7 @@ const S = lang === 'es' ? {
       )}
       <div class="mob-strip">
         {['creeper','enderman','warden','axolotl','ender-dragon','fox','cat','allay'].map(slug => { const m = mobs.find(x => x.slug === slug); return (
-          <a class="mob-chip" href={`/mobs/${slug}/`}><img src={`/mobs/${slug}.svg`} alt="" width="40" height="40" style="image-rendering:pixelated" /><span>{m.name}</span></a>
+          <a class="mob-chip" href={`${P}/mobs/${slug}/`}><img src={`/mobs/${slug}.svg`} alt="" width="40" height="40" style="image-rendering:pixelated" /><span>{m.name}</span></a>
         ); })}
         <a class="mob-chip more" href={lang === 'es' ? '/es/mobs/' : '/mobs/'}>{lang === 'es' ? '+33 más' : '+33 more'}</a>
       </div>
@@ -169,7 +171,7 @@ const S = lang === 'es' ? {
           const sh = shotId && shots.find(x => x.id === shotId);
           const src = sh ? '/screenshots/' + sh.file + '?v=20260922' : `/biome-art/${sl}.png`;
           return (
-          <a class="biome-chip" href={`/biomes/${sl}/`}><img src={src} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" style={sh ? '' : 'image-rendering:pixelated'} /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
+          <a class="biome-chip" href={`${P}/biomes/${sl}/`}><img src={src} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" style={sh ? '' : 'image-rendering:pixelated'} /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
           );
         })}
       </div>
@@ -200,7 +202,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {recipes.slice(0, 6).map(r => (
-          <a class="card" href={`/recipes/${r.slug}/`}><img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
+          <a class="card" href={`${P}/recipes/${r.slug}/`}><img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
         ))}
       </div>
     </section>
@@ -218,7 +220,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {enchantments.slice(0, 6).map(e => (
-          <a class="card" href={`/enchantments/${e.slug}/`}><img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
+          <a class="card" href={`${P}/enchantments/${e.slug}/`}><img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
         ))}
       </div>
     </section>
@@ -236,7 +238,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {commands.slice(0, 6).map(c => (
-          <a class="card" href={`/commands/${c.slug}/`}><img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
+          <a class="card" href={`${P}/commands/${c.slug}/`}><img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
         ))}
       </div>
     </section>
