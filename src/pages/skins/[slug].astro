@@ -4,7 +4,8 @@ import skins1 from '../../data/gallery-skins.json';
 import skins2 from '../../data/gallery-skins-2.json';
 const skins = [...skins1, ...skins2];
 export function getStaticPaths() {
-  return skins.map(s => ({ params: { slug: s.slug }, props: { s } }));
+  const all = [...skins1, ...skins2];
+  return all.map(s => ({ params: { slug: s.slug }, props: { s } }));
 }
 const { s } = Astro.props;
 const related = skins.filter(x => x.category === s.category && x.slug !== s.slug).slice(0, 4);
