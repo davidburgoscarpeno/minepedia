@@ -52,7 +52,15 @@
     "parent": "Acquire Hardware",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Mine iron ore: it generates at almost every height, with extra ore in mountain peaks around Y=232 and a second rich band deep underground around Y=16. A stone pickaxe or better is enough.",
+      "Smelt the raw iron in a furnace or blast furnace into iron ingots. A full set costs 24 ingots; boots are the cheapest piece at 4.",
+      "Craft any piece of iron armor at a crafting table.",
+      "Pick the piece up: the advancement triggers the moment any iron armor piece sits in your inventory. You don't even have to wear it."
+    ],
+    "tips": "Armorer villagers sell iron armor for emeralds, village armorer chests can contain iron pieces, and zombies or skeletons occasionally drop them. Any way of getting one into your inventory counts."
   },
   {
     "slug": "hot-stuff",
@@ -96,7 +104,15 @@
     "parent": "Hot Stuff",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Get a diamond pickaxe (or netherite): obsidian can't be collected with anything weaker.",
+      "Find lava: surface lava pools, the lava aquifers deep underground, or the Nether if you're already there.",
+      "Pour water from a bucket onto a lava SOURCE block: the source turns into obsidian. Flowing lava turns into cobblestone instead, so always target the still blocks.",
+      "Mine the obsidian with the diamond pickaxe (about 9.4 seconds per block) and pick it up. Having it in your inventory completes the advancement."
+    ],
+    "tips": "No diamonds yet? Obsidian also generates in ruined portals and their chests, in bastion remnant chests, in village weaponsmith chests, and piglin bartering can hand it over. You only need one block."
   },
   {
     "slug": "diamonds",
@@ -147,7 +163,15 @@
     "parent": "Diamonds!",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft an enchanting table with 4 obsidian, 2 diamonds and 1 book (a book is 3 paper + 1 leather).",
+      "Mine or gather lapis lazuli: every enchantment costs 1-3 lapis plus experience levels.",
+      "Open the table, place any enchantable item (sword, pickaxe, armor piece, book...) in the left slot and lapis in the right.",
+      "Choose any of the three offered enchantments. Your first enchant completes the advancement."
+    ],
+    "tips": "Surround the table with 15 bookshelves, leaving one block of air between them and the table, to unlock level-30 enchantments. Enchanting a book stores the enchantment so you can apply it later on an anvil."
   },
   {
     "slug": "zombie-doctor",
@@ -219,7 +243,15 @@
     "parent": "Nether",
     "xp": "50XP",
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Find a ghast: they spawn in nether wastes, soul sand valleys and basalt deltas.",
+      "Wait for it to shoot a fireball at you, then hit the fireball back with any melee attack, or shoot it with an arrow or another projectile. The reflected fireball flies back in the direction you are aiming.",
+      "Kill the ghast with its own reflected fireball. A reflected fireball that connects kills a ghast in a single hit, so this is about aim, not damage.",
+      "The advancement (and 50 XP) is yours the moment the ghast dies to its own shot."
+    ],
+    "tips": "Swing just before the fireball reaches you and keep clear line of sight. The open nether wastes are the easiest arena: no terrain for the ghast to hide behind, and you can see the shot coming from far away."
   },
   {
     "slug": "those-were-the-days",
@@ -279,7 +311,15 @@
     "parent": "Nether",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Enter the Nether through a lit portal, geared up: iron armor or better, a bow, food and a stack of blocks for bridging over lava.",
+      "Explore until you spot the dark red nether brick structure. Fortresses can generate in every Nether biome: the game splits the Nether into 432x432-block regions (480x480 in Bedrock) and each region rolls either one fortress or one bastion remnant, never both.",
+      "If a region gave you a bastion instead, keep moving: in Java each region has a 40% chance of a fortress (33% in Bedrock). In basalt deltas any structure attempt becomes a fortress, so fortresses are most common there.",
+      "Walk into the fortress itself. Just stepping inside completes the advancement."
+    ],
+    "tips": "Fortresses can generate buried in netherrack with only a bridge or a tower sticking out, so scan the terrain edges. Don't confuse them with bastions: bastions are black blackstone, fortresses are dark red nether brick. A fire resistance potion makes the search far safer."
   },
   {
     "slug": "who-is-cutting-onions",
@@ -301,7 +341,15 @@
     "parent": "Nether",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Take off any gold armor you are wearing: the advancement only triggers if you are NOT wearing golden armor (with gold on, piglins never turn hostile to you).",
+      "Make a piglin aggressive: punch it, mine gold ore or gilded blackstone near it, or open a chest in its sight.",
+      "Throw any gold item at the angry piglin. A gold ingot is the cheapest option.",
+      "The piglin stops attacking to pick up and examine the gold. That distraction completes the advancement."
+    ],
+    "tips": "Any gold item works for the distraction, but only gold ingots trigger actual bartering with item returns. Keep an escape route ready: other piglins nearby stay hostile even while one admires your gold."
   },
   {
     "slug": "this-boat-has-legs",
@@ -392,7 +440,15 @@
     "parent": "A Terrible Fortress",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Find a nether fortress first (see the A Terrible Fortress guide): blazes spawn only in fortresses, both from the blaze monster spawners and throughout the structure.",
+      "Gear up for the fight: a fire resistance potion (from piglin bartering) makes blazes almost harmless.",
+      "Kill a blaze and make it drop a blaze rod: each blaze drops 0-1 rods, and only if the killing blow comes from you or a tamed wolf.",
+      "Pick the rod up. Having it in your inventory completes the advancement."
+    ],
+    "tips": "A Looting III sword raises the drop to up to 4 rods per blaze, and snowballs hurt blazes. Take several rods home: blaze powder fuels brewing stands and crafts into eyes of ender."
   },
   {
     "slug": "not-quite-nine-lives",
@@ -464,7 +520,15 @@
     "parent": "Into Fire",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft a brewing stand with 1 blaze rod and 3 blocks of any cobblestone-tier stone: cobblestone, blackstone and cobbled deepslate all work.",
+      "Or skip the crafting: brewing stands also generate in igloo basements and in village churches.",
+      "Fuel it with blaze powder and put water bottles in the three bottom slots (nether wart on top if you want real potions).",
+      "Take any item OUT of a potion slot: even a plain water bottle or an empty glass bottle counts. Picking it up completes the advancement."
+    ],
+    "tips": "You don't need nether wart or a finished potion at all: loading water bottles and removing one already grants the advancement. An early village church is the fastest free brewing stand."
   },
   {
     "slug": "bring-home-the-beacon",
@@ -674,7 +738,16 @@
     "parent": "The City at the End of the Game",
     "xp": "50XP experience\n\nAdvancementTable|foot",
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Defeat the ender dragon and use an end gateway to reach an end city.",
+      "Let a shulker bullet hit you: it applies Levitation for 10 seconds.",
+      "Travel 50 blocks vertically while Levitation is active. The distance counts in either direction and doesn't have to be caused by the levitation itself.",
+      "Easiest method: stand at the bottom of a tall end city tower, get hit and float up the open shaft; extra hits from other shulkers keep you rising.",
+      "The advancement (and 50 XP) triggers the instant your vertical travel with Levitation reaches 50 blocks."
+    ],
+    "tips": "The real danger is the landing: when the effect ends you fall. Carry a water bucket, ender pearls or slow falling potions, and never drink milk mid-air, since milk removes the Levitation keeping you up."
   },
   {
     "slug": "adventure",
@@ -802,7 +875,15 @@
     "parent": "Adventure",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Get a crossbow: craft one with 3 sticks, 2 string, 1 iron ingot and 1 tripwire hook, loot one from pillager outpost or bastion chests, or take it from a pillager or crossbow piglin that drops it.",
+      "Carry arrows (or firework rockets) anywhere in your inventory.",
+      "Hold use to load the crossbow: it stays loaded until you fire.",
+      "Press use again to shoot. Your first shot completes the advancement."
+    ],
+    "tips": "Quick Charge III makes reloading almost instant and Multishot fires three projectiles at once; both enchantments are crossbow-only. Loading firework rockets turns the crossbow into a small grenade launcher with area damage."
   },
   {
     "slug": "surge-protector",
