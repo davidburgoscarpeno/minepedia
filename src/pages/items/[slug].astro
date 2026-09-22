@@ -1,57 +1,9 @@
 ---
-import Base from '../../layouts/Base.astro';
+import ItemDetail from '../../components/pages/ItemDetail.astro';
 import items from '../../data/items.json';
 export function getStaticPaths() {
   return items.map(i => ({ params: { slug: i.slug }, props: { i } }));
 }
 const { i } = Astro.props;
-const jsonLd = [
-  {
-    '@context': 'https://schema.org', '@type': 'Article',
-    headline: `How to get ${i.name} in Minecraft`,
-    description: `${i.name} in Minecraft: ${i.howToGet[0]}. Uses, renewability and Java/Bedrock differences.`,
-    mainEntityOfPage: `https://minepedia.app/items/${i.slug}/`,
-    author: { '@type': 'Organization', name: 'Minepedia' }
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
-      { '@type': 'ListItem', position: 2, name: 'Items', item: 'https://minepedia.app/items/' },
-      { '@type': 'ListItem', position: 3, name: i.name, item: `https://minepedia.app/items/${i.slug}/` }
-    ]
-  },
-  {
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: [
-      { '@type': 'Question', name: `How do you get ${i.name} in Minecraft?`,
-        acceptedAnswer: { '@type': 'Answer', text: i.howToGet.join(' ') } },
-      { '@type': 'Question', name: `What is ${i.name} used for?`,
-        acceptedAnswer: { '@type': 'Answer', text: i.uses.join(' ') } }
-    ]
-  }
-];
 ---
-<Base title={`How to get ${i.name}`} description={`Minecraft ${i.name}: how to get it, what it is used for, renewability and Java/Bedrock differences.`} canonicalPath={`/items/${i.slug}/`} jsonLd={jsonLd} ogType="article">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/items/">Items</a> / {i.name}</nav>
-    <h1>{i.name}</h1>
-    <p><span class="badge">{i.category}</span> <span class="badge">Stack: {i.stackSize}</span> <span class="badge">Since {i.since}</span></p>
-    <div class="quick-answer"><strong>Quick answer:</strong> {i.howToGet[0]}.</div>
-    <h2>How to get it</h2>
-    <ul>{i.howToGet.map(h => <li>{h}</li>)}</ul>
-    <h2>Uses</h2>
-    <ul>{i.uses.map(u => <li>{u}</li>)}</ul>
-    <h2>Renewability</h2>
-    <p>{i.renewable}</p>
-    <h2>Java vs Bedrock</h2>
-    <p>{i.editionNote}</p>
-    {i.related.length > 0 && (
-      <p><strong>Related:</strong> {i.related.map(rel => {
-        const target = items.find(x => x.slug === rel);
-        return target ? <a href={`/items/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
-      })}</p>
-    )}
-    <p><a href="/items/">&larr; All items</a></p>
-  </div>
-</Base>
+<ItemDetail i={i} lang="en" />

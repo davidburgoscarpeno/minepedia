@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import items from '../../data/items.json';
+
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+
+const TILE: Record<string, [string, string]> = {
+  Material: ['#6ab0f3', '#3a6fb0'], Utility: ['#e8b93e', '#b8891f'], Block: ['#a89a8a', '#7a6a5a'],
+  Combat: ['#ef7a7a', '#c04848'], Weapon: ['#ef7a7a', '#c04848']
+};
+const CAT_ES: Record<string, string> = { Material: 'Material', Utility: 'Utilidad', Block: 'Bloque', Combat: 'Combate', Weapon: 'Arma' };
+const initials = (n: string) => n.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+
+const L = isES ? {
+  title: 'Objetos de Minecraft',
+  desc: 'Base de datos de objetos de Minecraft: cómo conseguir diamantes, netherite, elytra, tridentes, totems y más, con usos y notas Java/Bedrock.',
+  home: 'Inicio', homeHref: '/es/', h1: 'Objetos de Minecraft',
+  sub: `${items.length} objetos clave: dónde encontrarlos, qué hacen y cómo farmearlos.`,
+  placeholder: 'Busca objetos, recetas, mobs...',
+  getL: 'Obtener:', canonical: '/es/items/', alt: '/items/', base: '/es/items/'
+} : {
+  title: 'Minecraft Items',
+  desc: 'Minecraft item database: how to get diamonds, netherite, elytra, tridents, totems and more, with uses and Java/Bedrock notes.',
+  home: 'Home', homeHref: '/', h1: 'Minecraft Items',
+  sub: `${items.length} key items: where to find them, what they do and how to farm them.`,
+  placeholder: 'Search items, recipes, mobs...',
+  getL: 'Get:', canonical: '/items/', alt: '/es/items/', base: '/items/'
+};
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / {isES ? 'Objetos' : 'Items'}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <SearchBox placeholder={L.placeholder} />
+    <div class="grid-cards">
+      {items.map(i => {
+        const [a, b] = TILE[i.category] || TILE.Material;
+        return (
+        <a class="card entity-card" href={`${L.base}${i.slug}/`}>
+          <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(i.name)}</span>
+          <div>
+            <h3>{i.name}<span class="type-chip type-neutral">{isES ? (CAT_ES[i.category] || i.category) : i.category}</span></h3>
+            <p class="meta"><b>{L.getL}</b> {i.howToGet[0].split(' - ')[0].split(':')[0]}</p>
+          </div>
+        </a>
+      )})}
+    </div>
+  </div>
+</Base>

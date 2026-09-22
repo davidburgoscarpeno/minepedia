@@ -1,0 +1,9 @@
+---
+import ItemDetail from '../../../components/pages/ItemDetail.astro';
+import items from '../../../data/items.json';
+export function getStaticPaths() {
+  return items.map(i => ({ params: { slug: i.slug }, props: { i } }));
+}
+const { i } = Astro.props;
+---
+<ItemDetail i={i} lang="es" />
