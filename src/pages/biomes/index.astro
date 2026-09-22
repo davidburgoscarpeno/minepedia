@@ -5,7 +5,7 @@ import biomes from '../../data/biomes.json';
 import GameShot from '../../components/GameShot.astro';
 import shots from '../../data/screenshots.json';
 const SHOT_BY_SLUG: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
-const thumb = (slug: string) => { const id = SHOT_BY_SLUG[slug]; const sh = id && shots.find(x => x.id === id); return sh ? '/screenshots/' + sh.file : `/biome-art/${slug}.png`; };
+const thumb = (slug: string) => { const id = SHOT_BY_SLUG[slug]; const sh = id && shots.find(x => x.id === id); return sh ? '/screenshots/' + sh.file + '?v=20260922' : `/biome-art/${slug}.png`; };
 ---
 <Base title="Minecraft Biomes" description="Minecraft biome guide: resources, mobs, structures and tips for plains, desert, jungle, badlands, deep dark, swamp and more. Java and Bedrock." canonicalPath="/biomes/">
   <div class="container">

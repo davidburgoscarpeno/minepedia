@@ -42,7 +42,7 @@ const cats = [
 ---
 <Base title="Minepedia" description="Minepedia: Minecraft guides, crafting recipes, commands, enchantments, mobs, seeds and tools - fast, accurate and always up to date." canonicalPath="/" jsonLd={jsonLd}>
   <section class="herov2">
-    <img class="herov2-bg" src="/screenshots/hero-obsidian-sunset.webp" alt="Real Minecraft gameplay in 4K: a diagonal obsidian bridge over the ocean at sunset" width="2560" height="1440" loading="eager" />
+    <img class="herov2-bg" src="/screenshots/hero-obsidian-sunset.webp?v=20260922" alt="Real Minecraft gameplay in 4K: a diagonal obsidian bridge over the ocean at sunset" width="2560" height="1440" loading="eager" />
     <div class="herov2-inner container">
       <h1>The Minecraft knowledge base</h1>
       <p>Guides, recipes, commands, enchantments, mobs, biomes, skins and tools. Accurate for Java and Bedrock.</p>
@@ -91,7 +91,7 @@ const cats = [
         {['ice-spikes','lush-caves','jungle','mushroom-fields','windswept-hills','taiga'].map(sl => {
           const shotId = BIOME_SHOTS[sl];
           const sh = shotId && shots.find(x => x.id === shotId);
-          const src = sh ? '/screenshots/' + sh.file : `/biome-art/${sl}.png`;
+          const src = sh ? '/screenshots/' + sh.file + '?v=20260922' : `/biome-art/${sl}.png`;
           return (
           <a class="biome-chip" href={`/biomes/${sl}/`}><img src={src} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" style={sh ? '' : 'image-rendering:pixelated'} /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
           );
