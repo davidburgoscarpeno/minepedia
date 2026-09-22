@@ -17,7 +17,7 @@ const thumb = (slug: string) => { const id = SHOT_BY_SLUG[slug]; const sh = id &
     <div class="grid-cards">
       {biomes.map(b => (
         <a class="card" href={`/biomes/${b.slug}/`}>
-          <img src={thumb(b.slug)} alt={`Minecraft ${b.name} biome`} width="256" height="144" loading="lazy" style={`width:100%;height:auto;border-radius:8px;margin-bottom:8px;${SHOT_BY_SLUG[b.slug] ? "" : "image-rendering:pixelated"}`} />
+          <img src={thumb(b.slug)} alt={`Minecraft ${b.name} biome`} width="256" height="144" loading="lazy" style={`width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:8px;${SHOT_BY_SLUG[b.slug] ? "" : "image-rendering:pixelated"}`} />
           <h3>{b.name}</h3>
           <p>{b.description.split('.')[0]}.</p>
         </a>
