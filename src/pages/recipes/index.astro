@@ -2,7 +2,6 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import recipes from '../../data/recipes.json';
-import Icon from '../../components/Icon.astro';
 const cats = [...new Set(recipes.map(r => r.category))].sort();
 ---
 <Base title="Minecraft Crafting Recipes" description="Minecraft crafting recipes with ingredients, patterns, how to get each material, uses and Java/Bedrock notes." canonicalPath="/recipes/">
@@ -17,7 +16,7 @@ const cats = [...new Set(recipes.map(r => r.category))].sort();
         <div class="grid-cards">
           {recipes.filter(r => r.category === cat).map(r => (
             <a class="card" href={`/recipes/${r.slug}/`}>
-              <div class="icon"><Icon name="grid" /></div>
+              <img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
               <h3>{r.name}</h3>
               <p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p>
             </a>

@@ -116,7 +116,7 @@ const cats = [
       <p class="sub">Step-by-step recipes with materials and uses.</p>
       <div class="grid-cards">
         {recipes.slice(0, 6).map(r => (
-          <a class="card" href={`/recipes/${r.slug}/`}><div class="icon"><Icon name="grid" /></div><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
+          <a class="card" href={`/recipes/${r.slug}/`}><img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
         ))}
       </div>
     </section>
@@ -125,7 +125,7 @@ const cats = [
       <p class="sub">What they do and how to get them.</p>
       <div class="grid-cards">
         {enchantments.slice(0, 6).map(e => (
-          <a class="card" href={`/enchantments/${e.slug}/`}><div class="icon"><Icon name="star" /></div><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
+          <a class="card" href={`/enchantments/${e.slug}/`}><img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
         ))}
       </div>
     </section>

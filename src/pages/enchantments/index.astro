@@ -4,7 +4,6 @@ import SearchBox from '../../components/SearchBox.astro';
 import GameShot from '../../components/GameShot.astro';
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
 import ench from '../../data/enchantments.json';
-import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Enchantments" description="Every Minecraft enchantment explained: what it does, max level, how to get it, best uses and incompatibilities. Java and Bedrock." canonicalPath="/enchantments/">
   <div class="container">
@@ -16,7 +15,7 @@ import Icon from '../../components/Icon.astro';
     <div class="grid-cards" style="margin-top:24px">
       {ench.map(e => (
         <a class="card" href={`/enchantments/${e.slug}/`}>
-          <div class="icon"><Icon name="star" /></div>
+          <img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <div class="icon" style="width:26px;height:26px;color:var(--gold)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
           <h3>{e.name}<span class="pips">{Array.from({ length: 5 }).map((_, i) => <i class={i < (ROMAN[e.maxLevel] || 1) ? 'on' : ''} />)}</span></h3>
           <p>{e.whatItDoes.split('.')[0]}.</p>
