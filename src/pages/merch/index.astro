@@ -17,7 +17,7 @@ const jsonLd = {
     <h1>Minecraft Merch</h1>
     <p class="sub">A short curated list, not a warehouse: {merch.products.length} picks across LEGO, figures, plush, lamps, books and clothing. Every link goes to the product page on {profile.domain}, where you can check current price, sizes and availability.</p>
     <SearchBox placeholder="Search guides, items, commands..." />
-    <p class="affiliate-note">Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.</p>
+    <p class="affiliate-note">Como Afiliado de Amazon, obtengo ingresos por las compras adicionales que cumplan los requisitos aplicables.<br /><span class="affiliate-note-en">As an Amazon Associate, I earn from qualifying purchases.</span></p>
     {cats.map(cat => (
       <section class="section">
         <h2>{cat}</h2>
@@ -27,7 +27,7 @@ const jsonLd = {
               <div class="icon"><Icon name={p.icon} /></div>
               <h3>{p.name}</h3>
               <p>{p.blurb}</p>
-              <a class="merch-btn" href={link(p.asin)} target="_blank" rel="nofollow sponsored noopener">Ver en Amazon</a>
+              <a class="merch-btn" href={link(p.asin)} target="_blank" rel="nofollow sponsored noopener">View on Amazon</a>
             </div>
           ))}
         </div>
@@ -40,6 +40,7 @@ const jsonLd = {
   </div>
   <style>
     .affiliate-note{background:#14181f;border:1px solid #232a35;border-radius:10px;padding:10px 14px;font-size:13px;color:#aeb8c4;margin:18px 0 0}
+    .affiliate-note-en{font-size:11px;color:#6b7684}
     .merch-card{display:flex;flex-direction:column}
     .merch-btn{display:inline-block;margin-top:12px;align-self:flex-start;background:#3aa655;color:#0b0e12;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;text-decoration:none}
     .merch-btn:hover{background:#4cc968}
