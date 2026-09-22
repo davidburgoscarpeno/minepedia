@@ -10,15 +10,15 @@ const noMatch = lang === 'es' ? 'Sin coincidencias rápidas - buscar en todo' : 
   <div class="search-results" role="listbox"></div>
 </div>
 <script define:vars={{ resultsUrl, noMatch }}>
-  let indexPromise: Promise<any[]> | null = null;
+  let indexPromise = null;
   function loadIndex() {
     if (!indexPromise) indexPromise = fetch('/search-index.json').then(r => r.json()).catch(() => []);
     return indexPromise;
   }
-  document.querySelectorAll<HTMLDivElement>('.search-wrap').forEach(wrap => {
-    const input = wrap.querySelector<HTMLInputElement>('.search-input')!;
-    const box = wrap.querySelector<HTMLDivElement>('.search-results')!;
-    let items: any[] = [];
+  document.querySelectorAll('.search-wrap').forEach(wrap => {
+    const input = wrap.querySelector('.search-input');
+    const box = wrap.querySelector('.search-results');
+    let items = [];
     input.addEventListener('focus', async () => { items = await loadIndex(); });
     input.addEventListener('input', async () => {
       if (!items.length) items = await loadIndex();
@@ -35,7 +35,7 @@ const noMatch = lang === 'es' ? 'Sin coincidencias rápidas - buscar en todo' : 
         else if (name.includes(q)) score = 30;
         else score = 10;
         return { it, score };
-      }).filter(Boolean) as { it: any; score: number }[];
+      }).filter(Boolean);
       scored.sort((a, b) => b.score - a.score);
       const top = scored.slice(0, 12);
       box.innerHTML = top.length
@@ -43,6 +43,6 @@ const noMatch = lang === 'es' ? 'Sin coincidencias rápidas - buscar en todo' : 
         : `<a href="${resultsUrl}?q=${encodeURIComponent(q)}" role="option"><span>${noMatch}</span><span class="kind">all</span></a>`;
       box.classList.add('open');
     });
-    document.addEventListener('click', e => { if (!wrap.contains(e.target as Node)) box.classList.remove('open'); });
+    document.addEventListener('click', e => { if (!wrap.contains(e.target)) box.classList.remove('open'); });
   });
 </script>
