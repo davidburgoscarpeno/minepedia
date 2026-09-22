@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import seeds from '../../data/seeds.json';
+import seedsEs from '../../data/seeds-es.json';
+
+interface Props { s: any; lang: 'en' | 'es'; }
+const { s, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (seedsEs as any)[s.slug] : null;
+const version = ov?.version ?? s.version;
+const story = ov?.story ?? s.story;
+const notes = ov?.notes ?? s.notes;
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Semillas', crumbHref: '/es/seeds/',
+  seedL: 'Seed', versionL: 'Versión', coordsL: 'Coordenadas clave', sourceL: 'Fuente',
+  storyH: 'La historia', notesH: 'Notas', back: '\u2190 Todas las semillas',
+  title: `${s.name} (seed)`,
+  desc: `${s.name}: seed ${s.seed}. ${story.slice(0, 140)}`,
+  canonical: `/es/seeds/${s.slug}/`, alt: `/seeds/${s.slug}/`,
+  headline: `${s.name} - seed de Minecraft ${s.seed}`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Seeds', crumbHref: '/seeds/',
+  seedL: 'Seed', versionL: 'Version', coordsL: 'Key coordinates', sourceL: 'Source',
+  storyH: 'The story', notesH: 'Notes', back: '\u2190 All seeds',
+  title: `${s.name} (Seed)`,
+  desc: `${s.name}: seed ${s.seed}. ${story.slice(0, 140)}`,
+  canonical: `/seeds/${s.slug}/`, alt: `/es/seeds/${s.slug}/`,
+  headline: `${s.name} - Minecraft Seed ${s.seed}`
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: L.headline,
+    description: story,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`,
+    author: { '@type': 'Organization', name: 'Minepedia' }
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+      { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+      { '@type': 'ListItem', position: 3, name: s.name, item: `https://minepedia.app${L.canonical}` }
+    ]
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article" lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {s.name}</nav>
+    <h1>{s.name}</h1>
+    <div class="quick-answer"><strong>{L.seedL}:</strong> <code>{s.seed}</code></div>
+    <table class="data">
+      <tr><th>{L.seedL}</th><td><code>{s.seed}</code></td></tr>
+      <tr><th>{L.versionL}</th><td>{version}</td></tr>
+      <tr><th>{L.coordsL}</th><td>{s.coords}</td></tr>
+      <tr><th>{L.sourceL}</th><td><a href={s.source} rel="nofollow noopener" target="_blank">{s.sourceName}</a></td></tr>
+    </table>
+    <h2>{L.storyH}</h2>
+    <p>{story}</p>
+    <h2>{L.notesH}</h2>
+    <ul>{notes.map((n: string) => <li>{n}</li>)}</ul>
+    <p><a href={L.crumbHref}>{L.back}</a></p>
+  </div>
+</Base>

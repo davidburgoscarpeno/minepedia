@@ -1,0 +1,9 @@
+---
+import SeedDetail from '../../../components/pages/SeedDetail.astro';
+import seeds from '../../../data/seeds.json';
+export function getStaticPaths() {
+  return seeds.map(s => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props;
+---
+<SeedDetail s={s} lang="es" />

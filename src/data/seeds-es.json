@@ -1,0 +1,29 @@
+{
+ "pack-png": {
+  "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
+  "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
+  "notes": [
+   "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
+   "El icónico acantilado con nubes y cascada está en x=49, z=0",
+   "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
+  ]
+ },
+ "title-panorama-original": {
+  "version": "Java Beta 1.7.3 (el mundo se ve de Beta 1.8 a 1.12)",
+  "story": "El mundo borroso que gira lentamente detrás del menú principal de Minecraft, desde Beta 1.8 (2011) hasta 1.13. La comunidad de Minecraft@Home descifró la seed el 18 de julio de 2020 tras cerca de un mes de investigación. Existe una segunda seed válida, 8091867987493326313, porque las versiones antiguas usaban solo 48 bits de la seed, así que miles de seeds generan este mismo mundo.",
+  "notes": [
+   "Usa 2151901553968352745 o 8091867987493326313 en Beta 1.7.3 para el mundo exacto del panorama",
+   "Colócate en X=61.48, Y=75, Z=-68.73 mirando en la dirección correcta para recrear la imagen",
+   "54,5 exaFLOPs de computación voluntaria se invirtieron en la búsqueda"
+  ]
+ },
+ "title-panorama-118": {
+  "version": "Java 21w40a (snapshot de 1.18) y posteriores",
+  "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
+  "notes": [
+   "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
+   "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
+   "Terreno moderno de 1.18+, así que funciona en las versiones actuales de Java"
+  ]
+ }
+}

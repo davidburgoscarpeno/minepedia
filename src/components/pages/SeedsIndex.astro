@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import seeds from '../../data/seeds.json';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Semillas de Minecraft',
+  description: 'Las semillas de Minecraft explicadas: cómo funcionan, diferencias entre Java y Bedrock, y seeds famosas verificadas como pack.png y los panoramas del título.',
+  h1: 'Semillas de Minecraft',
+  sub: 'Cómo funcionan las seeds, además de seeds famosas documentadas y verificadas por la comunidad.',
+  crumb: 'Semillas', home: 'Inicio',
+  placeholder: 'Busca semillas, biomas, estructuras...',
+  howH: 'Cómo funcionan las seeds',
+  howP: 'Una seed es el número que Minecraft usa para generar un mundo: el terreno, los biomas, las estructuras y las vetas de minerales salen de ella. Introduce la misma seed en la misma versión del juego y obtienes el mismo mundo. Las seeds de texto ("glacier", tu nombre...) se convierten a números internamente.',
+  howLi: [
+    '<strong>Java vs Bedrock:</strong> desde la 1.18, la misma seed numérica produce el mismo terreno y la misma distribución de biomas en ambas ediciones. Las estructuras (aldeas, templos, strongholds) siguen generándose en sitios distintos según la edición.',
+    '<strong>Encuentra tu seed:</strong> escribe <code>/seed</code> en el chat (requiere trucos u operador de servidor).',
+    '<strong>La versión importa:</strong> la generación del mundo cambia entre versiones grandes, así que una seed de la 1.16 genera un mundo distinto en la 1.21. Usa siempre la seed con su versión documentada.'
+  ],
+  famousH: 'Seeds famosas',
+  cardHref: (slug: string) => `/es/seeds/${slug}/`,
+  notice: 'Solo listamos seeds documentadas y verificadas por la comunidad, con fuentes. La búsqueda de seeds para tu estilo de mundo (aldea en el spawn, anillo de cherry, trial chambers cerca) depende de la versión: estamos preparando una lista verificada y seleccionada.',
+  canonical: '/es/seeds/', alt: '/seeds/',
+  faq: [
+    { q: '¿Qué es una seed de Minecraft?', a: 'Una seed es un número (o texto, que el juego convierte a número) que determina toda la generación del mundo: terreno, biomas, estructuras y colocación de minerales. Dos jugadores con la misma seed y versión obtienen el mismo mundo.' },
+    { q: '¿Las seeds funcionan en Java y en Bedrock?', a: 'Desde la actualización 1.18, la misma seed numérica genera el mismo terreno y biomas en Java y Bedrock. La colocación de estructuras (aldeas, templos, strongholds) sigue difiriendo entre ediciones.' },
+    { q: '¿Cómo veo la seed de mi mundo?', a: 'Escribe /seed en el chat (requiere trucos u operador). En un servidor que no sea tuyo, la seed está oculta para los jugadores normales.' }
+  ]
+} : {
+  title: 'Minecraft Seeds',
+  description: 'Minecraft seeds explained: how they work, Java vs Bedrock differences, and famous verified seeds like pack.png and the title screen panoramas.',
+  h1: 'Minecraft Seeds',
+  sub: 'How seeds work, plus famous seeds documented and verified by the community.',
+  crumb: 'Seeds', home: 'Home',
+  placeholder: 'Search seeds, biomes, structures...',
+  howH: 'How seeds work',
+  howP: 'A seed is the number Minecraft uses to generate a world: terrain, biomes, structures and ore veins all come from it. Enter the same seed in the same game version and you get the same world. Text seeds ("glacier", your name...) are converted to numbers behind the scenes.',
+  howLi: [
+    '<strong>Java vs Bedrock:</strong> since 1.18, the same numeric seed produces the same terrain and biome layout in both editions. Structures (villages, temples, strongholds) still generate in different spots per edition.',
+    '<strong>Find your seed:</strong> type <code>/seed</code> in chat (cheats or server operator required).',
+    '<strong>Version matters:</strong> world generation changes between major versions, so a seed from 1.16 generates a different world in 1.21. Always match the seed to its documented version.'
+  ],
+  famousH: 'Famous seeds',
+  cardHref: (slug: string) => `/seeds/${slug}/`,
+  notice: 'We only list seeds documented and verified by the community, with sources. Seed hunting for your own style of world (spawn village, cherry ring, trial chambers nearby) is version-specific - a curated, verified list is in progress.',
+  canonical: '/seeds/', alt: '/es/seeds/',
+  faq: [
+    { q: 'What is a Minecraft seed?', a: 'A seed is a number (or text, which the game converts to a number) that determines the entire world generation: terrain, biomes, structures and ore placement. Two players using the same seed and game version get the same world.' },
+    { q: 'Do seeds work on both Java and Bedrock?', a: 'Since the 1.18 update, the same numeric seed generates the same terrain and biomes on Java and Bedrock. Structure placement (villages, temples, strongholds) still differs between editions.' },
+    { q: 'How do I see the seed of my world?', a: 'Type /seed in chat (needs cheats or operator). On a server you do not own, the seed is hidden from regular players.' }
+  ]
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: S.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} jsonLd={jsonLd} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} />
+
+    <h2>{S.howH}</h2>
+    <p>{S.howP}</p>
+    <ul>
+      {S.howLi.map(li => <li set:html={li}></li>)}
+    </ul>
+
+    <h2>{S.famousH}</h2>
+    <div class="grid-cards">
+      {seeds.map(s => (
+        <a class="card" href={S.cardHref(s.slug)}>
+          <img class="pixel-icon" src={`/item-icons/${s.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{s.name}</h3>
+          <p>Seed: {s.seed}</p>
+        </a>
+      ))}
+    </div>
+    <p class="notice-fan" style="margin-top:16px">{S.notice}</p>
+  </div>
+</Base>
