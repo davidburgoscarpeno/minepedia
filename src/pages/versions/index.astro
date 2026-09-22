@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import versions from '../../data/versions.json';
+---
+<Base title="Minecraft Versions" description="Minecraft version history: what every update added from 1.20 Trails & Tales to 26.3 Wilderness Bound, plus how the new 26.x numbering works. Java and Bedrock." canonicalPath="/versions/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Versions</nav>
+    <h1>Minecraft Versions</h1>
+    <p class="sub">Current: Java Edition 26.3 "Wilderness Bound" (September 15, 2026) - Bedrock Edition 26.50.</p>
+    <SearchBox placeholder="Search versions, items, mobs..." />
+
+    <div class="quick-answer"><strong>How version numbers work now:</strong> after the 1.21 series, Mojang switched to year-based numbering: Java Edition 26.1, 26.2, 26.3 (2026 drops), while Bedrock uses its own numbers (26.10, 26.30, 26.50). Content now arrives as several named "drops" per year instead of one huge annual update.</div>
+
+    <h2>Version history</h2>
+    <div class="grid-cards">
+      {versions.map(v => (
+        <a class="card" href={`/versions/${v.slug}/`}>
+          <h3>{v.name}</h3>
+          <p>{v.date}</p>
+        </a>
+      ))}
+    </div>
+
+    <h2 style="margin-top:32px">Java vs Bedrock: which one do you have?</h2>
+    <p><strong>Java Edition</strong> runs on PC, Mac and Linux. It has mods, custom servers, F3 debug info, harder combat (attack cooldown) and gets snapshots first. <strong>Bedrock Edition</strong> runs on consoles, mobile and Windows 10/11, has cross-play between all of them, smoother performance, and some mechanical differences: stronger trident drops, different redstone (no quasi-connectivity), different wither and raid behavior, and market-place content.</p>
+    <p>On Minepedia, every page flags edition differences where they matter: look for the <span class="badge java">Java</span> and <span class="badge bedrock">Bedrock</span> badges.</p>
+  </div>
+</Base>

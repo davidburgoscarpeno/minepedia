@@ -9,6 +9,7 @@ import farms from '../data/farms.json';
 import biomes from '../data/biomes.json';
 import structures from '../data/structures.json';
 import seeds from '../data/seeds.json';
+import versions from '../data/versions.json';
 
 export async function GET() {
   const items = [
@@ -23,6 +24,7 @@ export async function GET() {
     ...biomes.map(b => ({ name: `${b.name} biome`, kind: 'biome', url: `/biomes/${b.slug}/`, keywords: b.keywords })),
     ...structures.map(s => ({ name: s.name, kind: 'structure', url: `/structures/${s.slug}/`, keywords: s.keywords })),
     ...seeds.map(s => ({ name: s.name, kind: 'seed', url: `/seeds/${s.slug}/`, keywords: s.keywords })),
+    ...versions.map(v => ({ name: v.name, kind: 'version', url: `/versions/${v.slug}/`, keywords: v.keywords })),
     { name: 'Nether Coordinate Calculator', kind: 'tool', url: '/tools/nether-calculator/', keywords: 'nether calculator coordinates convert portal 8:1' },
     { name: 'XP Calculator', kind: 'tool', url: '/tools/xp-calculator/', keywords: 'xp calculator levels experience points enchanting level 30' },
     { name: 'Ore Finder: Best Y Levels', kind: 'tool', url: '/tools/ore-finder/', keywords: 'ore distribution best y level diamond iron gold mining' }
