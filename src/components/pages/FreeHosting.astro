@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Hosting gratis para servidores de Minecraft (Aternos)',
+  description: 'El hosting gratis para servidores de Minecraft explicado: cómo funciona Aternos, colas y modo reposo, soporte Java y Bedrock, y cuándo pasar a hosting de pago.',
+  h1: 'Hosting gratis para servidores',
+  sub: 'Un servidor real por cero euros, con sus contrapartidas honestas.',
+  crumb: 'Hosting gratis', srvCrumb: 'Servidores', home: 'Inicio',
+  quickAnswer: '<strong>Respuesta rápida:</strong> Aternos es el hosting gratuito estándar: soporte completo de Java y Bedrock, mods y plugins incluidos y slots ilimitados en teoría. La pega: colas de arranque en horas punta y el servidor se detiene cuando no hay nadie conectado; alguien tiene que encenderlo antes de cada sesión.',
+  howH2: 'Cómo funciona Aternos',
+  howSteps: [
+    'Crea una cuenta en aternos.org (gratis, sin tarjeta).',
+    'Crea un servidor: elige Java o Bedrock, y luego la versión exacta o un modpack/software (Paper, Fabric, NeoForge).',
+    'Pulsa Start: en horas de mucha actividad esperas en una cola (minutos, a veces más por la tarde).',
+    'Comparte con tus amigos la dirección que te da (algo como tunombre.aternos.me).',
+    'Instala mods y plugins desde el catálogo integrado, o sube tu propio mundo.'
+  ],
+  limitsH2: 'Los límites reales de lo gratis',
+  limits: [
+    '<strong>Modo reposo:</strong> el servidor se detiene unos minutos después de que salga el último jugador. Nada de granjas siempre activas ni de mundo 24/7.',
+    '<strong>Cola de arranque:</strong> los usuarios gratuitos comparten hardware; la hora punta significa esperar.',
+    '<strong>Anuncios</strong> en el panel: es lo que lo mantiene gratis; ese es todo el modelo de negocio.',
+    '<strong>Rendimiento:</strong> bien para 2-10 amigos, vanilla o con pocos mods. Los modpacks pesados se quedan cortos.'
+  ],
+  upgradeH2: 'Cuándo dar el salto',
+  upgradeP: 'Pásate a hosting de pago o a autoalojamiento cuando necesites el servidor siempre en línea, cuando las colas molesten, o cuando tu modpack pida más RAM de la que da el plan gratis. Cualquier hosting serio te deja subir la descarga de tu mundo de Aternos: no pierdes nada.',
+  safeH2: 'Notas de seguridad',
+  safe: [
+    'Regístrate solo en el aternos.org auténtico: existen dominios imitadores.',
+    'El hosting gratis vale para amigos; para una comunidad pública, paga protección DDoS y copias de seguridad.',
+    'Los vídeos de "hosting premium gratis" con launchers propios son cebo de malware. Las opciones gratuitas seguras son Aternos y el autoalojamiento, y ya está.'
+  ],
+  canonical: '/es/servidores/free-hosting/', alt: '/servers/free-hosting/'
+} : {
+  title: 'Free Minecraft Server Hosting (Aternos)',
+  description: 'Free Minecraft server hosting explained: how Aternos works, queues and sleep mode, Java and Bedrock support, and when to move to paid hosting.',
+  h1: 'Free Server Hosting',
+  sub: 'A real server for zero euros - with honest trade-offs.',
+  crumb: 'Free Hosting', srvCrumb: 'Servers', home: 'Home',
+  quickAnswer: '<strong>Quick answer:</strong> Aternos is the standard free host: full Java and Bedrock support, mods and plugins included, unlimited slots in theory. The catch: startup queues at peak hours and the server stops when nobody is online - someone has to start it before each session.',
+  howH2: 'How Aternos works',
+  howSteps: [
+    'Create an account at aternos.org (free, no card).',
+    'Create a server: pick Java or Bedrock, then the exact version or a modpack/software (Paper, Fabric, NeoForge).',
+    'Press Start - at busy hours you wait in a queue (minutes, sometimes longer in the evening).',
+    'Share the address it gives you (something like yourname.aternos.me) with your friends.',
+    'Install mods and plugins from the built-in catalog, or upload your own world.'
+  ],
+  limitsH2: 'The real limits of free',
+  limits: [
+    '<strong>Sleep mode:</strong> the server stops a few minutes after the last player leaves. No always-on farms, no 24/7 world.',
+    '<strong>Startup queue:</strong> free users share hardware; prime time means waiting.',
+    '<strong>Ads</strong> on the panel keep it free - that is the whole business model.',
+    '<strong>Performance:</strong> fine for 2-10 friends, vanilla or lightly modded. Heavy modpacks will struggle.'
+  ],
+  upgradeH2: 'When to upgrade',
+  upgradeP: 'Move to paid hosting or self-hosting when you need the server always online, when queues get annoying, or when your modpack needs more RAM than the free tier gives. Any reputable host lets you upload your Aternos world download - you do not lose anything.',
+  safeH2: 'Safety notes',
+  safe: [
+    'Only ever sign up at the real aternos.org - copycat domains exist.',
+    'Free hosting is fine for friends; for a public community, pay for DDoS protection and backups.',
+    '"Free premium host" videos with custom launchers are malware bait. The safe free options are Aternos and self-hosting, period.'
+  ],
+  canonical: '/servers/free-hosting/', alt: '/es/servidores/free-hosting/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / <a href={isES ? '/es/servidores/' : '/servers/'}>{S.srvCrumb}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+    <h2>{S.howH2}</h2>
+    <ol>
+      {S.howSteps.map(x => <li>{x}</li>)}
+    </ol>
+    <h2>{S.limitsH2}</h2>
+    <ul>
+      {S.limits.map(x => <li set:html={x}></li>)}
+    </ul>
+    <h2>{S.upgradeH2}</h2>
+    <p>{S.upgradeP}</p>
+    <h2>{S.safeH2}</h2>
+    <ul>
+      {S.safe.map(x => <li>{x}</li>)}
+    </ul>
+  </div>
+</Base>

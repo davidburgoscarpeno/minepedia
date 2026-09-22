@@ -35,12 +35,12 @@ const aliases = lang === 'es' ? ES_ALIASES : {};
     <p id="count" style="color:var(--text-dim);font-size:.9rem"></p>
     <div id="results" class="grid-cards" style="margin-top:12px"></div>
   </div>
-  <script define:vars={{ typeTo: S.typeTo, pagesWord: S.pages, rOne: S.resultsFor[0], rMany: S.resultsFor[1], aliases }}>
+  <script define:vars={{ typeTo: S.typeTo, pagesWord: S.pages, rOne: S.resultsFor[0], rMany: S.resultsFor[1], aliases, INDEX_URL: lang === 'es' ? '/search-index-es.json' : '/search-index.json' }}>
     const input = document.getElementById('q');
     const out = document.getElementById('results');
     const count = document.getElementById('count');
     let index = [];
-    fetch('/search-index.json').then(r => r.json()).then(d => { index = d; run(); }).catch(() => {});
+    fetch(INDEX_URL).then(r => r.json()).then(d => { index = d; run(); }).catch(() => {});
     const params = new URLSearchParams(location.search);
     if (params.get('q')) input.value = params.get('q');
     function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }

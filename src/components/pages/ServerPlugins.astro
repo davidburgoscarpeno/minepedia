@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Plugins esenciales para servidores de Minecraft',
+  description: 'El pack estándar de plugins para servidores de Minecraft: LuckPerms, EssentialsX, GeyserMC, ViaVersion, CoreProtect, Chunky y más. Qué hace cada uno.',
+  h1: 'Plugins esenciales para servidores',
+  sub: 'El pack que ejecuta casi todo servidor Paper. Todo gratis, todo en Modrinth, Hangar o SpigotMC.',
+  crumb: 'Plugins', srvCrumb: 'Servidores', home: 'Inicio',
+  quickAnswer: '<strong>Respuesta rápida:</strong> empieza con Paper + LuckPerms + EssentialsX + CoreProtect. Añade ViaVersion para mezclar versiones, GeyserMC para amigos en consola/móvil, y Chunky para acabar con el lag de exploración.',
+  plugins: [
+    { name: 'LuckPerms', what: 'Gestor de permisos: grupos, rangos y quién puede usar cada comando. El primer plugin de todo servidor serio.' },
+    { name: 'EssentialsX', what: 'El pack de comandos clásico: /home, /spawn, /warp, /tpa, kits, economía básica y mensajería entre jugadores.' },
+    { name: 'GeyserMC + Floodgate', what: 'Permite que jugadores de Bedrock (consola, móvil) entren a tu servidor Java. El puente cross-play estándar.' },
+    { name: 'ViaVersion', what: 'Permite que jugadores con versiones distintas de Minecraft entren al mismo servidor: se acabaron las peleas de "actualiza el juego".' },
+    { name: 'CoreProtect', what: 'Registra cada cambio de bloques. Revierte griefing en segundos y mira exactamente quién rompió qué.' },
+    { name: 'Chunky', what: 'Pregenera los chunks del mundo para que los jugadores que exploran dejen de provocar picos de lag.' },
+    { name: 'BlueMap o Dynmap', what: 'Un mapa 3D en vivo de tu mundo en el navegador. Genial para servidores de comunidad.' },
+    { name: 'DiscordSRV', what: 'Conecta el chat del servidor con un canal de Discord: habla con los jugadores desde el móvil.' },
+    { name: 'WorldGuard (+ WorldEdit)', what: 'Protege el spawn, regiones y construcciones con reglas; WorldEdit para construcciones de admin masivas.' },
+    { name: 'Vault', what: 'El puente que necesitan la mayoría de los plugins de economía y tiendas. Instálalo antes de que los plugins de economía se quejen.' }
+  ],
+  rulesH2: 'Reglas de plugins que salvan servidores',
+  rules: [
+    'Menos plugins, menos problemas: instala lo que uses, quita lo que no.',
+    'Coincide las versiones de los plugins con la de tu servidor: una build equivocada de ViaVersion o ProtocolLib es la causa clásica de crashes.',
+    'Nunca des permisos <code>*</code> ni op a los jugadores. Los grupos de LuckPerms existen por algo.',
+    'Descarga solo de Modrinth, Hangar, SpigotMC o el GitHub oficial del plugin.'
+  ],
+  canonical: '/es/servidores/plugins/', alt: '/servers/plugins/'
+} : {
+  title: 'Essential Minecraft Server Plugins',
+  description: 'The standard Minecraft server plugin stack: LuckPerms, EssentialsX, GeyserMC, ViaVersion, CoreProtect, Chunky and more. What each one does.',
+  h1: 'Essential Server Plugins',
+  sub: 'The stack almost every Paper server runs. All free, all on Modrinth, Hangar or SpigotMC.',
+  crumb: 'Plugins', srvCrumb: 'Servers', home: 'Home',
+  quickAnswer: '<strong>Quick answer:</strong> start with Paper + LuckPerms + EssentialsX + CoreProtect. Add ViaVersion for mixed versions, GeyserMC for console/mobile friends, and Chunky to kill exploration lag.',
+  plugins: [
+    { name: 'LuckPerms', what: 'Permissions manager: groups, ranks and who can use which command. The first plugin on every serious server.' },
+    { name: 'EssentialsX', what: 'The classic command pack: /home, /spawn, /warp, /tpa, kits, economy basics and player messaging.' },
+    { name: 'GeyserMC + Floodgate', what: 'Lets Bedrock players (console, mobile) join your Java server. The standard cross-play bridge.' },
+    { name: 'ViaVersion', what: 'Lets players on different Minecraft versions join the same server - no more "update your game" fights.' },
+    { name: 'CoreProtect', what: 'Logs every block change. Roll back griefing in seconds and see exactly who broke what.' },
+    { name: 'Chunky', what: 'Pre-generates world chunks so exploring players stop causing lag spikes.' },
+    { name: 'BlueMap or Dynmap', what: 'A live 3D map of your world in the browser. Great for community servers.' },
+    { name: 'DiscordSRV', what: 'Links server chat with a Discord channel: talk to in-game players from your phone.' },
+    { name: 'WorldGuard (+ WorldEdit)', what: 'Protect spawn, regions and player builds with rules; WorldEdit for massive admin builds.' },
+    { name: 'Vault', what: 'The bridge most economy and shop plugins need. Install it before economy plugins complain.' }
+  ],
+  rulesH2: 'Plugin rules that save servers',
+  rules: [
+    'Fewer plugins, fewer problems: install what you use, remove what you do not.',
+    'Match plugin versions to your server version - a wrong ViaVersion or ProtocolLib build is the classic crash cause.',
+    'Never give players <code>*</code> permissions or op. LuckPerms groups exist for a reason.',
+    'Download only from Modrinth, Hangar, SpigotMC or the plugin\'s official GitHub.'
+  ],
+  canonical: '/servers/plugins/', alt: '/es/servidores/plugins/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / <a href={isES ? '/es/servidores/' : '/servers/'}>{S.srvCrumb}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+    {S.plugins.map(p => (
+      <div>
+        <h2>{p.name}</h2>
+        <p set:html={p.what}></p>
+      </div>
+    ))}
+    <h2>{S.rulesH2}</h2>
+    <ul>
+      {S.rules.map(x => <li set:html={x}></li>)}
+    </ul>
+  </div>
+</Base>

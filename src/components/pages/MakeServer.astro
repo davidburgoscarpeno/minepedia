@@ -1,0 +1,136 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Cómo crear un servidor de Minecraft',
+  description: 'Crea un servidor de Minecraft paso a paso: jar oficial o Paper, EULA, server.properties, redirección del puerto 25565, playit.gg para CGNAT, whitelist y ops.',
+  h1: 'Cómo crear un servidor de Minecraft (Java)',
+  sub: 'Tu propio mundo, tus reglas: en unos 15 minutos.',
+  crumb: 'Crear un servidor', srvCrumb: 'Servidores', home: 'Inicio',
+  quickAnswer: '<strong>Respuesta rápida:</strong> descarga el server jar de minecraft.net (o Paper para plugins), ejecuta <code>java -Xmx2G -jar server.jar nogui</code>, acepta la EULA en eula.txt, ejecútalo de nuevo y comparte tu IP pública. ¿No puedes abrir puertos? Usa playit.gg y olvídate del router.',
+  h2a: '1. ¿Vanilla o Paper?',
+  listA: [
+    '<strong>Vanilla (server.jar oficial)</strong> - exactamente el juego de un jugador, en multijugador. Sin plugins, RAM mínima.',
+    '<strong>Paper</strong> - el estándar para cualquier cosa más allá de unos pocos amigos: mucho mejor rendimiento, soporte de plugins (LuckPerms, EssentialsX...) y opciones para reducir el lag. Los mods siguen necesitando un servidor Fabric/NeoForge.'
+  ],
+  h2b: '2. Primer arranque',
+  listB: [
+    'Crea una carpeta vacía y mete el jar dentro.',
+    'Ejecuta: <code>java -Xmx2G -Xms2G -jar server.jar nogui</code> (2-4 GB para un servidor de amigos).',
+    'Se detiene enseguida: abre el <code>eula.txt</code> generado y pon <code>eula=true</code> (aceptas la EULA de Mojang).',
+    'Ejecútalo otra vez. El mundo se genera y la consola dice "Done".'
+  ],
+  h2c: '3. Configuración básica (server.properties)',
+  listC: [
+    '<code>motd=</code> - el nombre que tus amigos ven en la lista de servidores.',
+    '<code>difficulty=</code>, <code>gamemode=</code>, <code>max-players=</code>, <code>view-distance=</code> (bájala a 6-8 si hay lag).',
+    '<code>white-list=true</code> - muy recomendable: solo pueden entrar los jugadores que añadas con <code>/whitelist add &lt;nombre&gt;</code>.',
+    'Hazte operador desde la consola: <code>op TuNombre</code> (sin barra en la consola).'
+  ],
+  h2d: '4. Deja entrar a tus amigos',
+  listD: [
+    '<strong>Misma red:</strong> se conectan a tu IP local, puerto 25565.',
+    '<strong>Redirección de puertos:</strong> redirige TCP 25565 a la IP local de tu PC en el router, y tus amigos se conectan a tu IP pública.',
+    '<strong>Sin acceso al router / CGNAT (la mayoría de móviles y muchas fibras):</strong> usa un túnel gratuito como playit.gg: ejecuta su agente, obtén una dirección pública y compártela. Sin tocar el router para nada.'
+  ],
+  h2e: '5. ¿Jugadores de Bedrock en un servidor Java?',
+  pE: 'Instala el plugin <strong>GeyserMC</strong> (con Floodgate) en un servidor Paper y los jugadores de consola/móvil podrán entrar a tu mundo Java. Es el puente cross-play estándar.',
+  h2f: 'Seguridad básica',
+  listF: [
+    'Activa siempre la whitelist en una IP pública: los escáneres encuentran puertos de Minecraft abiertos en cuestión de horas.',
+    'Nunca compartas la carpeta del servidor ni ops.json; <code>/op</code> da control total.',
+    'Haz copia de seguridad de la carpeta del mundo cada semana, con el servidor apagado.'
+  ],
+  jsonLdName: 'Cómo crear un servidor de Minecraft (Java Edition)',
+  jsonLdDesc: 'Monta un servidor de Minecraft vanilla o Paper y deja que tus amigos se conecten.',
+  jsonLdSteps: [
+    'Descarga el server jar oficial (o Paper) y ponlo en una carpeta vacía.',
+    'Ejecútalo una vez, edita eula.txt y pon eula=true.',
+    'Ejecuta el servidor de nuevo y configura server.properties.',
+    'Abre el puerto 25565 TCP en tu router, o usa playit.gg si no puedes redirigir puertos.',
+    'Comparte tu IP pública o la dirección del túnel con tus amigos.'
+  ],
+  canonical: '/es/servidores/make-a-server/', alt: '/servers/make-a-server/'
+} : {
+  title: 'How to Make a Minecraft Server',
+  description: 'Make a Minecraft server step by step: official server jar or Paper, EULA, server.properties, port forwarding 25565, playit.gg for CGNAT, whitelist and ops.',
+  h1: 'How to Make a Minecraft Server (Java)',
+  sub: 'Your own world, your rules - in about 15 minutes.',
+  crumb: 'Make a Server', srvCrumb: 'Servers', home: 'Home',
+  quickAnswer: '<strong>Quick answer:</strong> download the server jar from minecraft.net (or Paper for plugins), run <code>java -Xmx2G -jar server.jar nogui</code>, accept the EULA in eula.txt, run it again, and share your public IP. Can\'t port forward? Use playit.gg and skip the router entirely.',
+  h2a: '1. Vanilla or Paper?',
+  listA: [
+    '<strong>Vanilla (official server.jar)</strong> - exactly the singleplayer game, multiplayer. No plugins, minimal RAM.',
+    '<strong>Paper</strong> - the standard for anything beyond a few friends: much better performance, plugin support (LuckPerms, EssentialsX...) and lag-tuning options. Mods still need a Fabric/NeoForge server instead.'
+  ],
+  h2b: '2. First run',
+  listB: [
+    'Make an empty folder and put the jar inside.',
+    'Run: <code>java -Xmx2G -Xms2G -jar server.jar nogui</code> (2-4 GB for a friends server).',
+    'It stops immediately: open the generated <code>eula.txt</code> and set <code>eula=true</code> (you accept Mojang\'s EULA).',
+    'Run it again. The world generates and the console says "Done".'
+  ],
+  h2c: '3. Basic configuration (server.properties)',
+  listC: [
+    '<code>motd=</code> - the name friends see in the server list.',
+    '<code>difficulty=</code>, <code>gamemode=</code>, <code>max-players=</code>, <code>view-distance=</code> (lower it to 6-8 if laggy).',
+    '<code>white-list=true</code> - strongly recommended: only players you add with <code>/whitelist add &lt;name&gt;</code> can join.',
+    'Make yourself operator from the console: <code>op YourName</code> (no slash in the console).'
+  ],
+  h2d: '4. Let friends in',
+  listD: [
+    '<strong>Same network:</strong> they connect to your local IP, port 25565.',
+    '<strong>Port forwarding:</strong> forward TCP 25565 to your PC\'s local IP in your router, then friends connect to your public IP.',
+    '<strong>No router access / CGNAT (most mobile and many fiber ISPs):</strong> use a free tunnel like playit.gg - run their agent, get a public address, share it. No router config at all.'
+  ],
+  h2e: '5. Bedrock players on a Java server?',
+  pE: 'Install the <strong>GeyserMC</strong> plugin (with Floodgate) on a Paper server and console/mobile players can join your Java world. It is the standard cross-play bridge.',
+  h2f: 'Safety basics',
+  listF: [
+    'Always enable the whitelist on a public IP - scanners find open Minecraft ports within hours.',
+    'Never share your server folder or ops.json; <code>/op</code> gives full control.',
+    'Back up the world folder weekly, with the server stopped.'
+  ],
+  jsonLdName: 'How to make a Minecraft server (Java Edition)',
+  jsonLdDesc: 'Set up a vanilla or Paper Minecraft server and let friends connect.',
+  jsonLdSteps: [
+    'Download the official server jar (or Paper) and put it in an empty folder.',
+    'Run it once, then edit eula.txt and set eula=true.',
+    'Run the server again and configure server.properties.',
+    'Open port 25565 TCP on your router, or use playit.gg if you cannot port forward.',
+    'Share your public IP or tunnel address with friends.'
+  ],
+  canonical: '/servers/make-a-server/', alt: '/es/servidores/make-a-server/'
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'HowTo',
+    name: S.jsonLdName,
+    description: S.jsonLdDesc,
+    step: S.jsonLdSteps.map((text, i) => ({ '@type': 'HowToStep', position: i + 1, text })) }
+];
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / <a href={isES ? '/es/servidores/' : '/servers/'}>{S.srvCrumb}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <div class="quick-answer" set:html={S.quickAnswer}></div>
+    <h2>{S.h2a}</h2>
+    <ul>{S.listA.map(x => <li set:html={x}></li>)}</ul>
+    <h2>{S.h2b}</h2>
+    <ol>{S.listB.map(x => <li set:html={x}></li>)}</ol>
+    <h2>{S.h2c}</h2>
+    <ul>{S.listC.map(x => <li set:html={x}></li>)}</ul>
+    <h2>{S.h2d}</h2>
+    <ul>{S.listD.map(x => <li set:html={x}></li>)}</ul>
+    <h2>{S.h2e}</h2>
+    <p set:html={S.pE}></p>
+    <h2>{S.h2f}</h2>
+    <ul>{S.listF.map(x => <li set:html={x}></li>)}</ul>
+  </div>
+</Base>

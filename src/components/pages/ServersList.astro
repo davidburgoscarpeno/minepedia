@@ -90,7 +90,7 @@ const jsonLd = [
   <p>{L.guidesIntro}</p>
   <div class="grid-cards" style="margin-top:20px">
     {guides.map(p => (
-      <a class="card" href={p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{isES ? p.es : p.en}</h3><p>{isES ? p.des : p.den}</p></a>
+      <a class="card" href={isES ? p.href.replace('/servers/', '/es/servidores/') : p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{isES ? p.es : p.en}</h3><p>{isES ? p.des : p.den}</p></a>
     ))}
   </div>
 
