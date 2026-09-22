@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
+import GameShot from '../../components/GameShot.astro';
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
 import ench from '../../data/enchantments.json';
 ---
@@ -10,6 +11,7 @@ import ench from '../../data/enchantments.json';
     <h1>Minecraft Enchantments</h1>
     <p class="sub">{ench.length} enchantments with max levels, best uses and how to get each one.</p>
     <SearchBox placeholder="Search enchantments, items, commands..." />
+    <GameShot id="enchantments-table" />
     <div class="grid-cards" style="margin-top:24px">
       {ench.map(e => (
         <a class="card" href={`/enchantments/${e.slug}/`}>

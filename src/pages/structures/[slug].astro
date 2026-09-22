@@ -6,7 +6,7 @@ export function getStaticPaths() {
   return structures.map(s => ({ params: { slug: s.slug }, props: { s } }));
 }
 const { s } = Astro.props;
-const SHOT_BY_SLUG = { 'ancient-city': 'biomes-deep-dark' };
+const SHOT_BY_SLUG = { 'ancient-city': 'biomes-deep-dark', 'desert-temple': 'structures-desert-temple', 'mineshaft': 'structures-mineshaft' };
 const shotId = SHOT_BY_SLUG[s.slug];
 const jsonLd = [
   {

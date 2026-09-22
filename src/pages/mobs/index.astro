@@ -8,6 +8,7 @@ const tileOf = (t: string) => t.startsWith('Hostile') ? TILE.hostile : t.startsW
 const chipOf = (t: string) => t.startsWith('Hostile') ? 'type-hostile' : t.startsWith('Boss') ? 'type-boss' : t.startsWith('Neutral') ? 'type-neutral' : 'type-passive';
 const heartsOf = (h: string) => { const m = h.match(/\((\d+) hearts?\)/); return m ? parseInt(m[1]) : 0; };
 const initials = (n: string) => n.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither']);
 const HEART = 'M12 21c-4.8-3.6-8-6.6-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 11c0 3.4-3.2 6.4-8 10z';
 import mobs from '../../data/mobs.json';
 const groups = ['Hostile', 'Neutral (tameable)', 'Neutral (hostile in darkness)', 'Neutral', 'Passive', 'Boss'];
@@ -29,7 +30,9 @@ const present = [...new Set(mobs.map(m => m.type))];
             const hearts = heartsOf(m.health);
             return (
             <a class="card entity-card" href={`/mobs/${m.slug}/`}>
-              <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(m.name)}</span>
+              {PIXEL.has(m.slug)
+                ? <img src={`/mobs/${m.slug}.svg`} alt="" width="40" height="40" class="pixel-icon" />
+                : <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(m.name)}</span>}
               <div>
                 <h3>{m.name}<span class={`type-chip ${chipOf(m.type)}`}>{m.type.split(' (')[0]}</span></h3>
                 {hearts > 0 && (

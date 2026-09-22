@@ -6,7 +6,7 @@ export function getStaticPaths() {
   return guides.map(g => ({ params: { slug: g.slug }, props: { g } }));
 }
 const { g } = Astro.props;
-const SHOT_BY_SLUG = { 'how-to-find-diamonds': 'guides-mining-diamonds', 'how-to-find-end-city': 'structures-end-city' };
+const SHOT_BY_SLUG = { 'how-to-find-diamonds': 'guides-mining-diamonds', 'how-to-find-end-city': 'structures-end-city', 'how-to-make-nether-portal': 'guides-nether-portal' };
 const shotId = SHOT_BY_SLUG[g.slug];
 const jsonLd = [
   {

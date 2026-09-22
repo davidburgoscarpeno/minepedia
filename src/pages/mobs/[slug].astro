@@ -6,6 +6,7 @@ export function getStaticPaths() {
   return mobs.map(m => ({ params: { slug: m.slug }, props: { m } }));
 }
 const { m } = Astro.props;
+const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither']);
 const SHOT_BY_SLUG = { 'piglin': 'mobs-piglins-bartering' };
 const shotId = SHOT_BY_SLUG[m.slug];
 const jsonLd = [
@@ -38,7 +39,7 @@ const jsonLd = [
 <Base title={`${m.name} - drops, spawn, how to kill`} description={`${m.name} in Minecraft: where to find it, what it drops (${m.drops.map(d => d.item.split('(')[0].trim()).join(', ')}), how to kill it and how it behaves.`} canonicalPath={`/mobs/${m.slug}/`} jsonLd={jsonLd} ogType="article">
   <div class="container">
     <nav class="crumbs"><a href="/">Home</a> / <a href="/mobs/">Mobs</a> / {m.name}</nav>
-    <h1>{m.name}</h1>
+    <h1 style="display:flex;align-items:center;gap:14px">{PIXEL.has(m.slug) && <img src={`/mobs/${m.slug}.svg`} alt="" width="44" height="44" class="pixel-icon" />}{m.name}</h1>
     <p>
       <span class="badge">{m.type}</span>
       <span class="badge">Health: {m.health}</span>
