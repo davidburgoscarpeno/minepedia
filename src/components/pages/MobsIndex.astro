@@ -51,7 +51,7 @@ const S = lang === 'es' ? {
             const [a, b] = tileOf(m.type);
             const hearts = heartsOf(m.health);
             return (
-            <a class="card entity-card" href={`/mobs/${m.slug}/`}>
+            <a class="card entity-card" href={lang === 'es' ? `/es/mobs/${m.slug}/` : `/mobs/${m.slug}/`}>
               {PIXEL.has(m.slug)
                 ? <img src={`/mobs/${m.slug}.svg`} alt="" width="40" height="40" class="pixel-icon" />
                 : <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(m.name)}</span>}

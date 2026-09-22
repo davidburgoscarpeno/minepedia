@@ -1,9 +1,9 @@
 ---
-import MobDetail from '../../components/pages/MobDetail.astro';
-import mobs from '../../data/mobs.json';
+import MobDetail from '../../../components/pages/MobDetail.astro';
+import mobs from '../../../data/mobs.json';
 export function getStaticPaths() {
   return mobs.map(m => ({ params: { slug: m.slug }, props: { m } }));
 }
 const { m } = Astro.props;
 ---
-<MobDetail m={m} lang="en" />
+<MobDetail m={m} lang="es" />

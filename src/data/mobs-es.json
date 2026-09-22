@@ -1,0 +1,493 @@
+{
+ "creeper": {
+  "type": "Hostil",
+  "where": "Overworld, en cualquier sitio con nivel de luz 0 (noche, cuevas, bosques oscuros).",
+  "spawnConditions": "Nivel de luz 0, sobre bloques sólidos en el Overworld. No aparece en mushroom fields.",
+  "howToKill": "Golpea y retrocede para salir de su radio de detonación de 3 bloques, o dispárale desde lejos. Un escudo bloquea casi toda la explosión si lo levantas a tiempo. Los gatos ahuyentan a los creepers.",
+  "behavior": "Se acerca al jugador en silencio y detona tras 1,5 segundos a menos de 3 bloques. Potencia de explosión: 3 (cargado por un rayo: 6, el doble de destructivo).",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Ingrediente clave para TNT y cohetes de fuegos artificiales",
+   "Solo si lo mata la flecha de un esqueleto",
+   "Solo si lo mata la explosión de un creeper cargado"
+  ]
+ },
+ "zombie": {
+  "type": "Hostil",
+  "where": "Overworld con nivel de luz 0. Los aldeanos zombi aparecen en lugar de zombis normales el 5% de las veces.",
+  "spawnConditions": "Nivel de luz 0. Los asedios pueden generar zombis alrededor de aldeas a medianoche. Los drowned se convierten de zombis que se quedan bajo el agua.",
+  "howToKill": "Vale cualquier arma; es lento y solo cuerpo a cuerpo. Se quema con la luz del sol salvo que lleve casco o esté en agua o sombra.",
+  "behavior": "Persigue jugadores y aldeanos, rompe puertas de madera en dificultad difícil, llama refuerzos al recibir daño (Java). Recoge objetos y se pone armadura.",
+  "tameOrBreed": "No se puede domesticar ni criar. Los aldeanos zombi se curan con Debilidad + manzana dorada.",
+  "notes": [
+   "Comida de emergencia; comercia con aldeanos clérigos",
+   "2,5% cada uno, hasta 5,5% con Saqueo III",
+   "Los zombis con equipamiento lo sueltan (8,5% base en spawns naturales)"
+  ]
+ },
+ "skeleton": {
+  "type": "Hostil",
+  "where": "Overworld con nivel de luz 0; también en fortalezas del Nether y valles de soul sand.",
+  "spawnConditions": "Nivel de luz 0 en el Overworld; nivel de luz 7 o menos en fortalezas del Nether y valles de soul sand.",
+  "howToKill": "Acorta distancia usando cobertura o un escudo y ve al cuerpo a cuerpo. Sus flechas son lentas a corta distancia pero mortales en grupo.",
+  "behavior": "Dispara flechas desde hasta 16 bloques, se mueve en círculos alrededor del objetivo (Java), se quema con la luz del sol, huye de los lobos.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Polvo de hueso para granjas, domesticar lobos",
+   "Flechas infinitas con una granja de esqueletos",
+   "8,5% de probabilidad de drop, a veces encantado"
+  ]
+ },
+ "spider": {
+  "type": "Neutral (hostil en la oscuridad)",
+  "where": "Overworld con nivel de luz 0. Las arañas de cueva salen de spawners en minas abandonadas.",
+  "spawnConditions": "Nivel de luz 0 en el Overworld; necesita un espacio de 3x3x2 pero solo 1 bloque de alto en el centro.",
+  "howToKill": "Objetivo fácil cuerpo a cuerpo; salta al atacar. De día deja de atacar salvo que la provoques. Las espadas con Bane of Arthropods la matan rápido.",
+  "behavior": "Hostil por debajo de nivel de luz 12, neutral de día. Escala paredes y ve a través de los bloques para seguirte.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Arcos, cañas de pescar, lana, riendas",
+   "Ingrediente de pociones; no la comas salvo desesperación"
+  ]
+ },
+ "enderman": {
+  "type": "Neutral",
+  "where": "Las tres dimensiones con nivel de luz 0; muy común en el End y en bosques distorsionados (warped forests).",
+  "spawnConditions": "Nivel de luz 0 en el Overworld y el Nether; nivel de luz 7 o menos en el End.",
+  "howToKill": "Pelea bajo un techo de 2 bloques de alto: mide 3 bloques y no puede alcanzarte. Ataca sus piernas. Se teletransporta para esquivar flechas y agua, así que usa cuerpo a cuerpo.",
+  "behavior": "Neutral hasta que le miras a la cara (la mira sobre su cabeza) o lo atacas. Recoge y mueve ciertos bloques. El agua le hace daño.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Imprescindible para los ojos de ender y llegar al End"
+  ]
+ },
+ "warden": {
+  "type": "Hostil (nivel boss)",
+  "where": "Bioma Deep Dark, invocado por sculk shriekers tras 4 avisos. Sale del suelo cerca del shrieker.",
+  "spawnConditions": "Solo por activación de sculk shriekers (shriekers naturales, 4 activaciones), en el Deep Dark por debajo de Y=0.",
+  "howToKill": "No está pensado para luchar: escápate agachado y rompe los shriekers. Si tienes que pelear, no lleva armadura pero tiene muchísima vida; su onda sónica ignora armadura y escudos. Al matarlo solo suelta un catalizador sculk: sin recompensa real.",
+  "behavior": "Ciego: caza por sonido y olor. Las vibraciones de caminar, proyectiles o bloques lo atraen. La onda sónica atraviesa paredes y escudos. Se entierra tras 60 segundos de calma.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Propaga sculk cuando mueren mobs cerca; único drop"
+  ]
+ },
+ "blaze": {
+  "type": "Hostil",
+  "where": "Fortalezas del Nether, por spawners y spawns naturales con nivel de luz 11 o menos.",
+  "spawnConditions": "Fortalezas del Nether, nivel de luz 11 o menos. Los spawners están en salas pequeñas con escaleras.",
+  "howToKill": "Usa un escudo contra su ráfaga triple de bolas de fuego, o bolas de nieve (hacen 3 de daño cada una a los blazes). Una poción de fuerza los remata rápido. Resistencia al fuego elimina casi todo el peligro.",
+  "behavior": "Vuela, dispara tres bolas de fuego en ráfaga, prende al objetivo al contacto. Inmune al fuego y la lava; recibe daño extra de bolas de nieve.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Soportes de pociones, combustible, ojos de ender: la puerta para pasarse el juego"
+  ]
+ },
+ "cow": {
+  "type": "Pacífico",
+  "where": "Biomas con hierba del Overworld, en manadas de hasta 4. Necesita hierba y nivel de luz 9+ para aparecer (Java).",
+  "spawnConditions": "Bloques de hierba con nivel de luz 9 o más (Java), 2 bloques de espacio. También aparece con la generación del mundo.",
+  "howToKill": "Cualquier arma; huye al recibir daño. Saqueo aumenta los drops de cuero y ternera.",
+  "behavior": "Deambula, sigue a jugadores con trigo, se puede ordeñar con un cubo para leche infinita.",
+  "tameOrBreed": "Cría dos adultos con trigo. La cría tarda 20 minutos en crecer (más rápido si le das trigo).",
+  "notes": [
+   "Cocinada da filete: una de las mejores comidas",
+   "Libros, marcos, armadura de cuero"
+  ]
+ },
+ "pig": {
+  "type": "Pacífico",
+  "where": "Biomas con hierba del Overworld, en manadas. Común en todas partes salvo biomas nevados y badlands.",
+  "spawnConditions": "Bloques de hierba con nivel de luz 9 o más (Java).",
+  "howToKill": "Cualquier arma; huye al recibir daño. Si muere por fuego suelta chuletas cocinadas directamente.",
+  "behavior": "Deambula, sigue a jugadores con zanahorias, patatas o remolacha. Se puede ensillar y dirigir con una zanahoria en un palo.",
+  "tameOrBreed": "Cría dos adultos con zanahorias, patatas o remolachas.",
+  "notes": [
+   "La chuleta cocinada es comida de primer nivel (8 puntos de hambre)"
+  ]
+ },
+ "wolf": {
+  "type": "Neutral (domesticable)",
+  "where": "Bosques, taigas y arboledas, en manadas de 4. Variantes distintas por bioma desde la 1.20.5.",
+  "spawnConditions": "Hierba, nieve o tierra estéril en biomas de tipo bosque, nivel de luz 9+ (Java).",
+  "howToKill": "Los lobos salvajes son neutrales; ataca a uno y toda la manada se vuelve hostil. Los lobos domesticados se teletransportan a ti y luchan por ti.",
+  "behavior": "Neutral en manada: hieres a uno, los hieres a todos. Los domesticados te siguen, se teletransportan, se sientan a la orden y atacan a tus objetivos.",
+  "tameOrBreed": "Domésticalo con huesos (cada hueso tiene 1 de 3 de probabilidad). Cría dos lobos domesticados con cualquier carne; el cachorro nace domesticado.",
+  "notes": [
+   "Matar lobos no da objetos"
+  ]
+ },
+ "villager": {
+  "type": "Pacífico",
+  "where": "Aldeas de llanuras, desierto, sabana, taiga, biomas nevados y praderas. Los aldeanos zombi aparecen de noche en cualquier sitio.",
+  "spawnConditions": "Se generan con las aldeas y sótanos de iglús; nunca reaparecen de forma natural después: críalos o cura aldeanos zombi para repoblar.",
+  "howToKill": "No deberías: matar aldeanos baja tu popularidad en la aldea y los gólems de hierro te atacarán. No tienen drops y solo dan 1-3 de XP.",
+  "behavior": "Trabajan en su bloque de oficio de día, cotillean en el punto de reunión, duermen de noche. Entran en pánico con zombis y mobs de raids. 15 profesiones, cada una con sus ofertas.",
+  "tameOrBreed": "Cría con comida (3 panes o 12 zanahorias/patatas/remolachas cada uno) más camas válidas libres. Cura aldeanos zombi con poción de Debilidad en splash + manzana dorada para grandes descuentos.",
+  "notes": [
+   "Los aldeanos no sueltan objetos; su valor está en el comercio"
+  ]
+ },
+ "shulker": {
+  "type": "Hostil",
+  "where": "Ciudades del End en las islas exteriores, camuflados en paredes y techos.",
+  "spawnConditions": "Aparecen una vez con la generación de la ciudad del End y no reaparecen de forma natural. Un shulker alcanzado por la bala de otro shulker puede duplicarse (Java).",
+  "howToKill": "Mátalo mientras tiene el caparazón abierto para disparar: cerrado recibe un 80% menos de daño y desvía flechas. Cuerpo a cuerpo con una espada afilada cuando se abra, o devuelve las flechas de un puñetazo. Esquiva las balas teledirigidas o rómpelas con cualquier golpe.",
+  "behavior": "Se queda disfrazado de bloque de púrpur, se abre para disparar balas teledirigidas que causan 10 segundos de levitación: mortal sobre el vacío. Se teletransporta al recibir daño.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Dos caparazones + un cofre = caja shulker, el inventario portátil"
+  ]
+ },
+ "ender-dragon": {
+  "type": "Boss",
+  "where": "La dimensión del End: la isla central. Reinvócalo colocando 4 cristales de end en los bordes del portal de salida.",
+  "spawnConditions": "Un dragón por dimensión del End; reinvócalo con 4 cristales de end colocados en cada lado del portal de salida.",
+  "howToKill": "Destruye primero los cristales de end de los pilares de obsidiana (dispara a los expuestos, sube con bloques a los enjaulados) para que no se cure. Luego atácala con arco mientras vuela y con espada cuando se posa en el portal de salida. Las camas explotan en el End: coloca una y detónala cuando el dragón se pose para un daño masivo. Lleva Caída lenta o un cubo de agua para el empuje.",
+  "behavior": "Sobrevuela la isla en círculos, escupe aliento de dragón (nube de daño en área), carga contra los jugadores y se posa en el portal de salida, donde es inmune a las flechas. Se cura con los cristales de end.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "El mayor drop de XP del juego",
+   "Solo la primera muerte, encima del portal de salida: objeto trofeo",
+   "La puerta de enlace lleva a las islas exteriores (¡élitros!)"
+  ]
+ },
+ "wither": {
+  "type": "Boss",
+  "where": "Lo invoca el jugador en cualquier sitio: 4 de soul sand o soul soil en forma de T con 3 cabezas de wither skeleton encima.",
+  "spawnConditions": "Construido por el jugador: T de soul sand/soil + 3 cabezas de wither skeleton (la cabeza, la última). Las cabezas de wither skeleton caen en fortalezas del Nether al 2,5% (5,5% con Saqueo III).",
+  "howToKill": "Invócalo bajo un techo de bedrock estrecho (Java: bajo la fuente del portal de salida; Bedrock: una cueva profunda) para que no pueda volar. Es inmune a las flechas por debajo de media vida: remátalo con una espada de Smite V. Lleva pociones de fuerza, manzanas doradas y leche para curar el efecto Wither.",
+  "behavior": "Al aparecer se carga y explota, luego vuela disparando calaveras explosivas que infligen el efecto Wither (drena vida, mata corazones). Rompe casi todos los bloques al contacto. Por debajo de media vida gana un escudo contra proyectiles (Java) o embiste y genera wither skeletons (Bedrock).",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Sirve para craftear la baliza: la razón de luchar"
+  ]
+ },
+ "axolotl": {
+  "type": "Pacífico (acuático)",
+  "where": "Cuevas frondosas (lush caves), en agua por debajo de Y=63 con arcilla cerca y oscuridad total. Cinco colores; el azul solo sale por cría (1 de 1200).",
+  "spawnConditions": "Agua en cuevas frondosas, nivel de luz 0, por debajo de Y=63, a menos de 5 bloques de un bloque de arcilla.",
+  "howToKill": "No lo hagas: son aliados. Si tienes curiosidad: se hacen los muertos al recibir daño y regeneran vida.",
+  "behavior": "Nada, se hace el muerto al recibir daño (regenera), ataca a peces, calamares, drowned y guardianes si lo llevas a la batalla con un cubo. Te da Regeneración y quita Fatiga minera por ayudarle a luchar.",
+  "tameOrBreed": "No se puede domesticar, pero confía en jugadores que llevan cubos de pez tropical. Cría dos con un cubo de pez tropical. Llévalo en un cubo de agua: sobrevive 5 minutos fuera del agua.",
+  "notes": [
+   "No suelta objetos"
+  ]
+ },
+ "drowned": {
+  "type": "Hostil",
+  "where": "Océanos, ríos, ruinas submarinas y acuíferos de cuevas de espeleotemas con nivel de luz 0. Los zombis que pasan 15 segundos bajo el agua también se convierten en drowned.",
+  "spawnConditions": "Nivel de luz 0 en agua de océanos, ríos y cuevas de espeleotemas; alta densidad alrededor de ruinas submarinas.",
+  "howToKill": "Lucha desde una barca o la orilla para que no te alcancen; su cuerpo a cuerpo es débil pero los que lanzan tridentes son peligrosos a distancia. Un escudo bloquea los tridentes lanzados.",
+  "behavior": "Nada rápido y se hunde para caminar por el fondo. Los del tridente mantienen distancia; los demás van a por ti. Ataca a aldeanos y tortugas bebé, y pisa los huevos de tortuga.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Drop estándar de la familia zombi",
+   "11% de probabilidad en ambas ediciones, +2% por nivel de Saqueo: la única fuente renovable de cobre",
+   "Solo de drowned que llevan uno. Java: 6,25% aparecen con tridente, 8,5% de drop (+1% por Saqueo). Bedrock: 15% aparecen con uno, 25% de drop (+4% por Saqueo)",
+   "Objeto en mano raro en Java, 8,5% de drop cuando lo lleva"
+  ]
+ },
+ "ghast": {
+  "type": "Hostil",
+  "where": "Nether wastes, valles de soul sand y deltas de basalto, en cualquier sitio con espacio abierto suficiente (5x4x5).",
+  "spawnConditions": "Nivel de luz 11 o menos, con 5x4x5 de espacio libre, en Nether wastes, valles de soul sand y deltas de basalto.",
+  "howToKill": "Devuélvele la bola de fuego con un golpe cuerpo a cuerpo: una bola devuelta lo mata de un golpe y da el logro Return to Sender. Si no, dispárale con arco. Las pociones de resistencia al fuego anulan todo el daño de fuego.",
+  "behavior": "Flota y dispara bolas de fuego explosivas cuando estás a menos de 16 bloques. Las bolas no pueden romper roca ni otros bloques de alta resistencia a explosiones.",
+  "tameOrBreed": "No se puede domesticar ni criar. (El happy ghast montable es un mob pacífico aparte que crece de un bloque de ghast seco.)",
+  "notes": [
+   "Producto clave de las granjas de ghasts",
+   "Sirve para Pociones de Regeneración"
+  ]
+ },
+ "piglin": {
+  "type": "Neutral",
+  "where": "Bosques carmesí, Nether wastes y bastiones en ruinas.",
+  "spawnConditions": "Nivel de luz 11 o menos en bosques carmesí y Nether wastes; siempre en bastiones. No aparece sobre bloques de verrugas del Nether.",
+  "howToKill": "Lleva al menos una pieza de armadura de oro y te dejarán en paz. Huyen del fuego de almas, antorchas de almas, faroles de almas y zoglins. Si peleas, un escudo bloquea los disparos de ballesta; los piglins cuerpo a cuerpo pegan fuerte, así que sube a un pilar.",
+  "behavior": "Ataca a jugadores sin oro, y a cualquiera que abra un cofre o pique bloques o mineral de oro cerca. Los piglins que viajan al Overworld o al End se zombifican a los 15 segundos.",
+  "tameOrBreed": "No se puede domesticar ni criar. Los adultos comercian (bartering); los bebés cogen oro pero nunca devuelven nada.",
+  "notes": [
+   "8,5% de probabilidad, +1% por nivel de Saqueo",
+   "No es un drop: lanza un lingote de oro a un piglin adulto y te devuelve objetos: ender pearls, obsidiana, cuarzo, hilo, fire charges, pepitas de hierro, libros de Soul Speed y más"
+  ]
+ },
+ "slime": {
+  "type": "Hostil",
+  "where": "Pantanos de noche (Y 51-69, luz por debajo de 8) y chunks de slime por debajo de Y=40 con cualquier luz.",
+  "spawnConditions": "Chunks de slime: por debajo de Y=40, cualquier nivel de luz. Pantanos: Y 51-69, luz por debajo de 8, con tasas máximas en luna llena y nulas en luna nueva.",
+  "howToKill": "Mata al grande y se divide en 2-4 más pequeños, que se vuelven a dividir en slimes diminutos. Las espadas con Sweeping Edge (Java) limpian las divisiones rápido. Los diminutos no hacen daño: golpéalos libremente.",
+  "behavior": "Salta hacia los jugadores y se divide al morir. Desaparece con el tiempo si no hay jugadores a menos de 32 bloques.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Pistones pegajosos, bloques de slime, riendas, crema de magma"
+  ]
+ },
+ "iron-golem": {
+  "type": "Neutral (mob de utilidad)",
+  "where": "Aldeas (aparece automáticamente cuando los aldeanos cumplen los requisitos) y enjaulado en algunos puestos de pillagers. Los jugadores también pueden construir uno.",
+  "spawnConditions": "Java: los aldeanos que han dormido y trabajado generan gólems cuando no detectan ninguno cerca (los aldeanos en pánico los generan más rápido). Bedrock: 10+ aldeanos vinculados a 20+ camas. Construido por el jugador: T de 4 bloques de hierro con una calabaza tallada colocada la última.",
+  "howToKill": "Sube a un pilar de 3+ bloques para que no te alcance y golpéale los pies. Evita matar gólems de aldea cerca de un centro de comercio que aún uses: los precios suben. Construye el tuyo con 4 bloques de hierro en T más una calabaza tallada encima.",
+  "behavior": "Patrulla aldeas y ataca a la mayoría de mobs hostiles a la vista, además de a jugadores que lo ataquen a él o a los aldeanos. Empuje enorme: lanza a los objetivos por los aires. Se agrieta al recibir daño; repáralo con lingotes de hierro.",
+  "tameOrBreed": "No se puede domesticar ni criar, pero un gólem construido por un jugador nunca ataca a su creador.",
+  "notes": [
+   "La base de las granjas de hierro",
+   "Ofrece amapolas a los niños aldeanos"
+  ]
+ },
+ "pillager": {
+  "type": "Hostil",
+  "where": "Puestos de pillagers, patrullas errantes y raids de aldeas.",
+  "spawnConditions": "Las patrullas aparecen cerca de los jugadores tras unos 5 días de juego (nivel de luz por debajo de 8 en Java, 0-7 en Bedrock). Los puestos generan capitanes continuamente; las oleadas de raid escalan con el nivel de Bad Omen.",
+  "howToKill": "Su ballesta pega fuerte pero necesita recargar tras cada tiro: ve a por ellos durante la recarga o bloquea con escudo. En raids, prioriza a los capitanes con estandarte.",
+  "behavior": "Armado con ballesta; dispara a jugadores, aldeanos, vendedores ambulantes y gólems de hierro. En Java, un pillager cuya ballesta se rompe se vuelve pacífico.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "8,5% de probabilidad, +1% por nivel de Saqueo",
+   "Solo de capitanes (los que llevan estandarte). Bébetelo para Bad Omen, que inicia una raid al entrar en una aldea",
+   "De capitanes; trofeo cosmético"
+  ]
+ },
+ "hoglin": {
+  "type": "Hostil",
+  "where": "Bosques carmesí y bastiones en ruinas (establos de hoglins).",
+  "spawnConditions": "Bosques carmesí con cualquier nivel de luz; nunca aparecen sobre bloques de verrugas del Nether. Se cría con hongo carmesí.",
+  "howToKill": "Su carga te lanza por los aires: lucha con la espalda contra una pared, nunca cerca de un precipicio o lava. Huyen del hongo distorsionado colocado o en la mano, y de anclas de reaparición y portales del Nether.",
+  "behavior": "Carga contra los jugadores con un empuje enorme. Huye de hongos distorsionados, portales y anclas de reaparición. Se zombifica en un zoglin tras 15 segundos en el Overworld o el End.",
+  "tameOrBreed": "No se puede domesticar. Cría dos adultos con hongo carmesí; la cría sigue a los padres. Uno de los pocos mobs hostiles que se pueden criar.",
+  "notes": [
+   "Cocinado si muere por fuego: las granjas de hoglins son granjas de comida sólidas",
+   ""
+  ]
+ },
+ "guardian": {
+  "type": "Hostil",
+  "where": "Dentro y alrededor de los monumentos oceánicos: el único sitio donde aparece.",
+  "spawnConditions": "Solo dentro del área de 58x58 del monumento oceánico, en agua. Las granjas de guardianes drenan el monumento y canalizan los spawns a cámaras de matanza.",
+  "howToKill": "Lucha fuera del agua o con equipo de Depth Strider + Respiration. Su láser carga durante 2 segundos: rompe la línea de visión tras un pilar para reiniciarlo. En cuerpo a cuerpo, ojo con las púas: golpear a un guardián con las púas extendidas te devuelve daño (tipo Thorns).",
+  "behavior": "Nada alrededor del monumento y electrocuta con un láser cargado a jugadores, calamares y ajolotes. Las púas se extienden al recibir daño y reflejan parte de los golpes cuerpo a cuerpo.",
+  "tameOrBreed": "No se puede domesticar ni criar. Los ajolotes atacan a los guardianes y te ayudan a asaltar monumentos.",
+  "notes": [
+   "Bloques de prismarina, faroles de mar",
+   "40% de probabilidad; faroles de mar",
+   "40% de probabilidad; cocinado si muere por fuego"
+  ]
+ },
+ "witch": {
+  "type": "Hostil",
+  "where": "Cabañas de bruja de pantano de noche, raids (desde la oleada 3-4), y dondequiera que un rayo alcance a un aldeano.",
+  "spawnConditions": "Cabañas de bruja en pantanos (volumen de spawn de 7x9x4), raids, y aldeanos convertidos por un rayo. Las granjas de raids hacen también de granjas de brujas.",
+  "howToKill": "Ve a por ella antes de que beba: las brujas beben Pociones de Curación (4 corazones), Resistencia al fuego, Respiración acuática y Rapidez. Un arco desde fuera de su rango de pociones también funciona. Nunca dejes que te salpique cerca de otros mobs.",
+  "behavior": "Lanza pociones en splash de Veneno (hasta 44s), Lentitud, Debilidad y Daño. Bebe contrapociones: se cura al recibir daño, resistencia al fuego al arder, respiración acuática al sumergirse, rapidez cuando estás lejos.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Las granjas de brujas producen todo esto, sobre todo redstone y glowstone",
+   "8,5% de probabilidad (+1% por Saqueo) si la matas mientras bebe"
+  ]
+ },
+ "phantom": {
+  "type": "Hostil",
+  "where": "El cielo nocturno del Overworld, sobre jugadores que no han dormido ni muerto en 3+ días de juego.",
+  "spawnConditions": "Sobre el nivel del mar de noche o durante tormentas, apuntando a jugadores con 3+ días sin dormir (el contador de insomnio se reinicia al dormir o morir). Los intentos de spawn empiezan tras 1 hora de insomnio.",
+  "howToKill": "Bajan en picado en línea recta: aparta el paso y golpéalos al pasar, o dispárales mientras circulan arriba. Se queman con la luz del día. Los gatos ahuyentan a los phantoms: ten uno cerca o duerme con regularidad.",
+  "behavior": "Circula alto sobre su objetivo y se lanza en picado en línea recta. No-muerto: se quema con el sol, desaparece al amanecer, recibe daño de pociones de Curación y se cura con Daño.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Repara élitros en el yunque; sirve para Pociones de Caída lenta"
+  ]
+ },
+ "wither-skeleton": {
+  "type": "Hostil",
+  "where": "Fortalezas del Nether, dentro del área de la fortaleza con nivel de luz 0-7.",
+  "spawnConditions": "Solo fortalezas del Nether, sobre ladrillos del Nether, nivel de luz 7 o menos (Java), cualquier luz en las áreas de Bedrock.",
+  "howToKill": "Su altura de 2,4 bloques se atasca bajo techos de 2 bloques: lucha en pasillos de fortaleza con techos de losas o desde un hueco de 2 bloques de alto. Su espada de piedra inflige el efecto Wither, así que la leche o un escudo ayudan. Saqueo III es imprescindible para cazar cabezas.",
+  "behavior": "Corre hacia los jugadores y taja con una espada de piedra, infligiendo 10 segundos de efecto Wither (la barra de vida se vuelve negra y baja). Inmune al fuego y la lava. Se pelea con los piglins que lo atacan primero.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Hasta 4 con Saqueo III",
+   "Hasta 5 con Saqueo III",
+   "El premio: necesaria para invocar al Wither; la probabilidad sube con Saqueo",
+   "Drop ocasional de equipamiento"
+  ]
+ },
+ "evoker": {
+  "type": "Hostil",
+  "where": "Mansiones del bosque (salas concretas) y oleadas de raid 5+ (desde la 4 en Bedrock).",
+  "spawnConditions": "Mansiones (no reaparece ahí) y las últimas oleadas de raid en ambas ediciones.",
+  "howToKill": "Ve a por él antes de que termine un hechizo: levanta los brazos y cambia de color al lanzarlo. Un escudo bloquea la línea de colmillos si lo encaras. Prioriza a los evokers en las raids antes de que sus vexes te abrumen.",
+  "behavior": "Lanza dos hechizos: una línea de colmillos que brotan del suelo (6 bloques de alcance), y un hechizo de invocación que crea 3 vexes. Convierte ovejas azules en rojas dentro de su rango. Huye de los jugadores entre hechizos.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Siempre: la única fuente renovable de tótems",
+   "Más con Saqueo"
+  ]
+ },
+ "vindicator": {
+  "type": "Hostil",
+  "where": "Mansiones del bosque y oleadas de raid 2+; también patrulla con pillagers (Bedrock).",
+  "spawnConditions": "Salas de mansión (sin respawn) y oleadas de raid; las raids son la fuente renovable.",
+  "howToKill": "Su hacha de hierro pega muy fuerte (19 de daño en difícil) y desactiva tu escudo al golpear: mantén distancia, usa arco o sube a un pilar de dos bloques. Nunca intercambies golpes a corta distancia sin armadura.",
+  "behavior": "Persigue a jugadores y aldeanos con el hacha en alto, corriendo rápido. En Java, un vindicator llamado 'Johnny' ataca a todo mob a la vista. Rompe puertas de madera en raids (dificultad difícil).",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Hasta 4 con Saqueo III",
+   "Drop ocasional de equipamiento"
+  ]
+ },
+ "ravager": {
+  "type": "Hostil",
+  "where": "Oleadas de raid 3+ (oleada 3 en Java, oleada 4+ en Bedrock), a veces con un pillager, vindicator o evoker de jinete.",
+  "spawnConditions": "Solo en raids, nunca de forma natural en otro sitio.",
+  "howToKill": "Su carga destroza cultivos y hojas, y su mordisco pega fuerte: lucha con arco desde una zona elevada, o levanta un escudo: un ravager que embiste un escudo levantado queda aturdido unos 2 segundos y luego ruge (empuje). Mata primero al jinete y luego a la bestia.",
+  "behavior": "Carga en línea recta, muerde con daño alto y ruge (empuje + daño) al quedar aturdido. Destruye cultivos, hojas y capas de nieve que pisa. Aldeanos y gólems de hierro son sus objetivos prioritarios.",
+  "tameOrBreed": "No se puede domesticar ni montar (aunque suelte sillas de montar).",
+  "notes": [
+   "Siempre en Java: una fuente renovable de sillas"
+  ]
+ },
+ "vex": {
+  "type": "Hostil",
+  "where": "Invocado por evokers en mansiones del bosque y raids: nunca aparece de forma natural.",
+  "spawnConditions": "Solo invocado por evokers, en grupos de 3.",
+  "howToKill": "Atraviesan paredes, así que esconderse no sirve: encáralos con el escudo en alto y golpea durante su picado de ataque. Mueren solos a los 30-119 segundos (Java), así que sobrevivir a la oleada es una estrategia válida.",
+  "behavior": "Pequeños espíritus grises voladores con ojos rojos al atacar. Flotan a través de bloques sólidos y se lanzan en picado contra los objetivos con una espada de hierro. En Java reciben daño con el tiempo y mueren a los dos minutos de ser invocados.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Su espada en mano tiene 0% de drop base, y solo sube con Saqueo"
+  ]
+ },
+ "elder-guardian": {
+  "type": "Hostil",
+  "where": "Monumentos oceánicos: exactamente tres por monumento (uno en la sala superior, uno en cada ala).",
+  "spawnConditions": "Tres por monumento oceánico; no reaparecen al morir.",
+  "howToKill": "Bebe respiración acuática y usa Depth Strider; lucha en una esquina para evitar su carga de láser (4-9 de daño) y su defensa de púas. La leche quita su Fatiga minera III. Mata a los tres antes de drenar o picar el monumento.",
+  "behavior": "Dispara un láser cargado a jugadores y calamares, inflige Fatiga minera III durante 5 minutos a cualquier jugador cercano (susto fantasmal en Java), y retrae las púas defensivas. Alejarte nadando rompe el fijado del láser.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Siempre: la única fuente de esponjas",
+   "Más con Saqueo",
+   "Más con Saqueo",
+   "O un pez aleatorio",
+   "Desde la 1.20; se puede duplicar con diamantes y prismarina"
+  ]
+ },
+ "magma-cube": {
+  "type": "Hostil",
+  "where": "Todo el Nether, sobre todo deltas de basalto; también de spawners de deltas de basalto y de salas del tesoro de bastiones.",
+  "spawnConditions": "Nether wastes, deltas de basalto (muy común), fortalezas del Nether y spawners de salas del tesoro de bastiones.",
+  "howToKill": "Como los slimes: mata al grande y se divide en 2-4 más pequeños, que se vuelven a dividir. Una espada con barrido o un arco limpia los pequeños rápido. Saltan alto y caen sobre ti: no pares de moverte.",
+  "behavior": "Salta hacia los jugadores y se divide en copias más pequeñas al morir. Inmune al fuego y la lava, recibe daño en el agua. Las ranas se comen el tamaño más pequeño y producen froglights.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Hasta 4 con Saqueo III; sirve para pociones de resistencia al fuego",
+   "Cuando una rana se come un magma cube pequeño: el color depende del tipo de rana"
+  ]
+ },
+ "allay": {
+  "type": "Pacífico (ayudante)",
+  "where": "Se rescata de jaulas de puestos de pillagers y celdas de mansiones del bosque.",
+  "spawnConditions": "Nunca aparece de forma natural: solo cautivo en estructuras de illagers; se duplica al bailar cerca de una jukebox con una esquirla de amatista.",
+  "howToKill": "¿Para qué? Si insistes: no tiene ataque y simplemente huye, aunque regenera 2 de vida por segundo.",
+  "behavior": "Dale un objeto y volará a recoger objetos iguales tirados cerca (hasta un stack cada vez) y te los entregará, o a un bloque de notas que haya oído. Sigue a su dueño de cerca y brilla suavemente. El corazón de los sistemas automáticos de clasificación y recolección de granjas.",
+  "tameOrBreed": "Se hace amigo al darle un objeto; se 'cría' poniendo una jukebox y dándole una esquirla de amatista mientras baila (5 minutos de espera).",
+  "notes": [
+   "Solo suelta el objeto que llevaba, que de todos modos vuelve a ti"
+  ]
+ },
+ "sheep": {
+  "type": "Pacífico",
+  "where": "Biomas con hierba del Overworld: llanuras, praderas, bosques y más, en rebaños de 2-4.",
+  "spawnConditions": "Sobre bloques de hierba con nivel de luz 9+, en la mayoría de biomas con hierba del Overworld. 5% aparecen como crías; colores naturales: blanco (común), negro, gris, gris claro, marrón y el rarísimo rosa.",
+  "howToKill": "Uno o dos golpes de espada. Esquilar primero siempre es mejor que matar.",
+  "behavior": "Pasta bloques de hierba (convirtiéndolos en tierra) para que le vuelva a crecer la lana tras esquilarla. Sigue a jugadores con trigo. Una oveja llamada 'jeb_' cicla por todos los colores de lana.",
+  "tameOrBreed": "Cría dos ovejas con trigo; el color del cordero mezcla los de los padres. Esquila con tijeras para 1-3 de lana sin matarla.",
+  "notes": [
+   "Del color de su lana; nada si está esquilada",
+   "Cordero cocinado si muere en llamas; hasta 5 con Saqueo III"
+  ]
+ },
+ "chicken": {
+  "type": "Pacífico",
+  "where": "Biomas con hierba del Overworld en todas partes; también nace de huevos lanzados.",
+  "spawnConditions": "Bloques de hierba con nivel de luz 9+ en la mayoría de biomas del Overworld. Los huevos lanzados eclosionan 1 de cada 8 veces. Los raros chicken jockeys aparecen cuando un zombi bebé aparece montando una gallina.",
+  "howToKill": "Un golpe de cualquier cosa. Una espada con Saqueo da más plumas y carne.",
+  "behavior": "Deambula, aletea despacio hasta el suelo (no recibe daño por caída) y pone un huevo cada 5-10 minutos. Sigue semillas. Ocelotes y zorros las cazan.",
+  "tameOrBreed": "Cría con cualquier semilla (trigo, calabaza, sandía, remolacha, torchflower). Los huevos lanzados eclosionan 1 de 8 veces (y 1/256 para 4 pollitos a la vez).",
+  "notes": [
+   "Hasta 5 con Saqueo III: las flechas las necesitan",
+   "Cocinado si muere por fuego; más con Saqueo",
+   "Los pone en vida: la base de toda granja de gallinas"
+  ]
+ },
+ "cat": {
+  "type": "Pacífico (domesticable)",
+  "where": "Gatos callejeros en aldeas (al menos 1 aldeano y 5 camas) y cabañas de pantano (gatos negros).",
+  "spawnConditions": "Las aldeas con 5+ camas reclamadas generan gatos sin domesticar hasta un tope; las cabañas de bruja generan un gato negro.",
+  "howToKill": "Huyen y no reciben daño por caída: pero son mascotas, no objetivos.",
+  "behavior": "Domestica un gato callejero quedándote quieto con bacalao o salmón crudo hasta que se acerque, y luego dáselo. Los gatos domesticados te siguen o se sientan a la orden, duermen contigo y traen regalos por la mañana (hilo, plumas, pie de conejo, membrana de phantom...). Los creepers y phantoms huyen de los gatos: un gato en tu base es un escudo anticreepers.",
+  "tameOrBreed": "Domestica con bacalao/salmón crudo; cría dos gatos domesticados con pescado crudo. Los gatitos heredan el color del collar de un padre.",
+  "notes": [
+   "Al morir"
+  ]
+ },
+ "fox": {
+  "type": "Pacífico (confianza)",
+  "where": "Biomas de taiga, taiga nevada y taiga antigua, en grupos de 2-4.",
+  "spawnConditions": "Biomas de la familia taiga de noche; variante blanca en taiga nevada.",
+  "howToKill": "Son rápidos y huyen: arrinconarlos o usa arco. Al matarlos sueltan lo que llevaran.",
+  "behavior": "Cazadores nocturnos: se abalanzan sobre gallinas, conejos, bacalao y bayas, recogiendo cualquier objeto tirado con la boca (lo cambian por comida). Duermen enrollados de día y huyen de los jugadores salvo que se críen: un zorro bebé criado por el jugador confía en ti y no huye. Los arbustos de bayas dulces son su capricho favorito.",
+  "tameOrBreed": "No se puede domesticar del todo, pero cría dos con bayas dulces o glow berries y la cría confiará en ti para siempre. Las riendas funcionan.",
+  "notes": [
+   "Los zorros aparecen con objetos en la boca (esmeralda, huevo, pluma, cuero...) y sueltan lo que lleven"
+  ]
+ },
+ "cave-spider": {
+  "type": "Hostil (venenosa)",
+  "where": "Minas abandonadas, desde spawners de arañas de cueva rodeados de telarañas.",
+  "spawnConditions": "Solo desde spawners de minas abandonadas, con nivel de luz 0 (Java): nunca aparece de forma natural en otro sitio.",
+  "howToKill": "Caben por huecos de 1 bloque y losas: la protección antiarañas normal falla. Lleva leche o miel para el veneno, tapiar el spawner o inunda la zona. Una espada con Bane of Arthropods las mata de un golpe.",
+  "behavior": "Una araña más pequeña y venenosa: su mordisco inflige Veneno durante 7 segundos en Normal (15 en Difícil), bajando la vida a medio corazón. Neutral con luz brillante, hostil en la oscuridad. Escala paredes como las arañas.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Hasta 5 con Saqueo III",
+   "Hasta 4 con Saqueo III; ingrediente de pociones"
+  ]
+ },
+ "stray": {
+  "type": "Hostil",
+  "where": "Biomas nevados: llanuras nevadas, ice spikes, ríos helados y océanos helados: sustituye al 80% de los esqueletos ahí (Java).",
+  "spawnConditions": "Nivel de luz 0 en biomas nevados del Overworld, expuestos al cielo (no aparecen bajo cobertura).",
+  "howToKill": "Exactamente como un esqueleto, pero cada flecha inflige 30 segundos de Lentitud: cargar contra ellos ralentizado es horrible, así que usa escudo, pilares o tu propio arco.",
+  "behavior": "Una variante helada del esqueleto que dispara flechas con efecto de Lentitud. Se quema de día y se esconde en sombra y agua como los demás esqueletos; los lobos atacan a los strays a la vista. En Java, un esqueleto que se congela dentro de nieve en polvo se convierte en stray.",
+  "tameOrBreed": "No se puede domesticar ni criar.",
+  "notes": [
+   "Hasta 5 con Saqueo III",
+   "Hasta 5 con Saqueo III",
+   "Solo con Saqueo; flechas con efecto para tu propio uso"
+  ]
+ },
+ "wandering-trader": {
+  "type": "Pacífico (comerciante)",
+  "where": "Aparece cerca del jugador cada pocos días de juego (tras aproximadamente una hora de partida), en todo el Overworld.",
+  "spawnConditions": "Intento de spawn aleatorio cerca de los jugadores; superficie del Overworld, cualquier bioma. Desaparece a los 40-60 minutos.",
+  "howToKill": "Sus llamas te escupen si lo atacas. No suelta nada: comercia mejor.",
+  "behavior": "Un comerciante viajero con dos llamas de carga con riendas, que ofrece 5-6 ofertas aleatorias de objetos raros (saplings, corales, slimeballs, conchas de nautilo, hielo compacto, podzol...) por esmeraldas. Bebe invisibilidad de noche y leche al amanecer. Los precios son altos, pero vende objetos que de otro modo exigen viajar a biomas lejanos.",
+  "tameOrBreed": "No se puede domesticar; sus llamas se pueden criar con balas de heno cuando desaparece o muere.",
+  "notes": [
+   "Solo si lo matas mientras bebe al atardecer/amanecer"
+  ]
+ },
+ "mooshroom": {
+  "type": "Pacífico",
+  "where": "Solo en biomas de mushroom fields (isla de champiñones): la rara vaca roja.",
+  "spawnConditions": "Solo sobre micelio en biomas de mushroom fields, nivel de luz 9+. Los mobs hostiles no pueden aparecer ahí: el bioma es una zona segura natural.",
+  "howToKill": "Como una vaca, pero esquilarla antes da 5 champiñones rojos y la convierte en una vaca normal.",
+  "behavior": "Una vaca roja cubierta de hongos. Esquilarla le quita los champiñones para siempre. Los rayos convierten mooshrooms rojas en marrones (y viceversa). Las marrones alimentadas con una flor dan estofado sospechoso con el efecto de esa flor.",
+  "tameOrBreed": "Cría con trigo. Las mooshrooms marrones solo salen de un rayo o de dos padres marrones.",
+  "notes": [
+   "Filete si muere por fuego; más con Saqueo",
+   "Hasta 5 con Saqueo III",
+   "Ordeña una mooshroom roja con un cuenco; estofado sospechoso con una marrón tras darle una flor"
+  ]
+ }
+}

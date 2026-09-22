@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameShot from '../GameShot.astro';
+import mobs from '../../data/mobs.json';
+import mobsEs from '../../data/mobs-es.json';
+
+interface Props { m: any; lang: 'en' | 'es'; }
+const { m, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (mobsEs as any)[m.slug] : null;
+const mtype = ov?.type ?? m.type;
+const where = ov?.where ?? m.where;
+const spawnConditions = ov?.spawnConditions ?? m.spawnConditions;
+const howToKill = ov?.howToKill ?? m.howToKill;
+const behavior = ov?.behavior ?? m.behavior;
+const tameOrBreed = ov?.tameOrBreed ?? m.tameOrBreed;
+const drops = m.drops.map((d: any, i: number) => ({ ...d, notes: ov?.notes?.[i] ?? d.notes }));
+
+const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither','shulker','drowned','piglin','pillager','hoglin','guardian','phantom','wither-skeleton','evoker','vindicator','ravager','vex','elder-guardian','magma-cube','allay','cat','fox','cave-spider','stray','wandering-trader','mooshroom']);
+const SHOT_BY_SLUG: Record<string,string> = { 'piglin': 'mobs-piglins-bartering' };
+const shotId = SHOT_BY_SLUG[m.slug];
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Mobs', crumbHref: '/es/mobs/',
+  health: 'Vida:', quick: 'Respuesta rápida:',
+  findH: `Cómo encontrar ${m.name}`, spawnL: 'Condiciones de spawn:',
+  dropsH: 'Drops', item: 'Objeto', amount: 'Cantidad', notes: 'Notas',
+  killH: `Cómo matar ${m.name}`, behaviorH: 'Comportamiento', tameH: 'Doméstica y cría',
+  related: 'Mobs relacionados',
+  title: `${m.name} - drops, spawn, cómo matarlo`,
+  desc: `${m.name} en Minecraft: dónde encontrarlo, qué suelta (${drops.map((d: any) => d.item.split('(')[0].trim()).join(', ')}), cómo matarlo y cómo se comporta.`,
+  canonical: `/es/mobs/${m.slug}/`, alt: `/mobs/${m.slug}/`,
+  headline: `${m.name} en Minecraft: drops, spawn y cómo enfrentarlo`,
+  faq1: `¿Dónde se encuentra ${m.name} en Minecraft?`, faq2: `¿Qué suelta ${m.name}?`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Mobs', crumbHref: '/mobs/',
+  health: 'Health:', quick: 'Quick answer:',
+  findH: `How to find ${m.name}`, spawnL: 'Spawn conditions:',
+  dropsH: 'Drops', item: 'Item', amount: 'Amount', notes: 'Notes',
+  killH: `How to kill ${m.name}`, behaviorH: 'Behavior', tameH: 'Taming and breeding',
+  related: 'Related mobs',
+  title: `${m.name} - drops, spawn, how to kill`,
+  desc: `${m.name} in Minecraft: where to find it, what it drops (${drops.map((d: any) => d.item.split('(')[0].trim()).join(', ')}), how to kill it and how it behaves.`,
+  canonical: `/mobs/${m.slug}/`, alt: `/es/mobs/${m.slug}/`,
+  headline: `${m.name} in Minecraft: drops, spawning and how to deal with it`,
+  faq1: `Where do you find ${m.name} in Minecraft?`, faq2: `What does ${m.name} drop?`
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: L.headline,
+    description: `${m.name}: ${mtype}. ${behavior}`,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`, author: { '@type': 'Organization', name: 'Minepedia' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+    { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+    { '@type': 'ListItem', position: 3, name: m.name, item: `https://minepedia.app${L.canonical}` } ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
+    { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: where } },
+    { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: drops.map((d: any) => `${d.item}: ${d.qty}${d.notes ? ' - ' + d.notes : ''}`).join('. ') } } ] }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {m.name}</nav>
+    <h1 style="display:flex;align-items:center;gap:14px">{PIXEL.has(m.slug) && <img src={`/mobs/${m.slug}.svg`} alt="" width="44" height="44" class="pixel-icon" />}{m.name}</h1>
+    <p>
+      <span class="badge">{mtype}</span>
+      <span class="badge">{L.health} {m.health}</span>
+      {m.editions.map((ed: string) => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
+    </p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {where}</div>
+    {shotId && <GameShot id={shotId} />}
+    <h2>{L.findH}</h2>
+    <p>{where}</p>
+    <p><strong>{L.spawnL}</strong> {spawnConditions}</p>
+    <h2>{L.dropsH}</h2>
+    <table class="data">
+      <tr><th>{L.item}</th><th>{L.amount}</th><th>{L.notes}</th></tr>
+      {drops.map((d: any) => <tr><td>{d.item}</td><td>{d.qty}</td><td>{d.notes}</td></tr>)}
+    </table>
+    <h2>{L.killH}</h2>
+    <p>{howToKill}</p>
+    <h2>{L.behaviorH}</h2>
+    <p>{behavior}</p>
+    <h2>{L.tameH}</h2>
+    <p>{tameOrBreed}</p>
+    {m.related.length > 0 && (
+      <p><strong>{L.related}:</strong> {m.related.map((rel: string) => {
+        const target = mobs.find((x: any) => x.slug === rel);
+        return target ? <a href={isES ? `/es/mobs/${rel}/` : `/mobs/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
+      })}</p>
+    )}
+  </div>
+</Base>
