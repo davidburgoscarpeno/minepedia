@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Search Minepedia" description="Search every Minepedia guide, recipe, enchantment, mob, command and more." canonicalPath="/search/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Search</nav>
+    <h1>Search Minepedia</h1>
+    <p class="sub">Every guide, recipe, mob, command and tool on the site.</p>
+    <div class="search-wrap" style="margin:18px 0 8px">
+      <input id="q" class="search-input" type="search" placeholder="Search Minecraft..." aria-label="Search Minepedia" autofocus />
+    </div>
+    <p id="count" style="color:var(--text-dim);font-size:.9rem"></p>
+    <div id="results" class="grid-cards" style="margin-top:12px"></div>
+  </div>
+  <script>
+    const input = document.getElementById('q');
+    const out = document.getElementById('results');
+    const count = document.getElementById('count');
+    let index = [];
+    fetch('/search-index.json').then(r => r.json()).then(d => { index = d; run(); }).catch(() => {});
+    const params = new URLSearchParams(location.search);
+    if (params.get('q')) input.value = params.get('q');
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+    function run() {
+      const q = input.value.trim().toLowerCase();
+      if (!q) { out.innerHTML = ''; count.textContent = 'Type to search ' + index.length + ' pages.'; return; }
+      const terms = q.split(/\s+/);
+      const hits = index.filter(e => {
+        const hay = (e.name + ' ' + (e.keywords || '') + ' ' + e.kind).toLowerCase();
+        return terms.every(t => hay.includes(t));
+      }).slice(0, 60);
+      count.textContent = hits.length + ' result' + (hits.length === 1 ? '' : 's') + ' for "' + q + '"';
+      out.innerHTML = hits.map(e =>
+        `<a class="card" href="${e.url}"><h3>${esc(e.name)}</h3><p><span class="kind">${esc(e.kind)}</span></p></a>`
+      ).join('');
+    }
+    input.addEventListener('input', run);
+  </script>
+</Base>

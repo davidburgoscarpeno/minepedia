@@ -1,592 +1,1170 @@
 [
-  {
-    "slug": "give",
-    "name": "/give",
-    "syntax": "/give <target> <item> [count]",
-    "syntaxBedrock": "/give <player: target> <itemName: Item> [amount: int] [data: int]",
-    "summary": "Gives one or more items to a player.",
-    "description": "The /give command adds items directly to a player's inventory, without needing to craft or find them. In Java Edition you can also attach NBT data to customize the item; Bedrock Edition uses a data value and the components json format instead.",
-    "examples": [
-      {
-        "code": "/give @p minecraft:diamond 64",
-        "note": "Give the nearest player a stack of 64 diamonds"
-      },
-      {
-        "code": "/give @s minecraft:iron_sword",
-        "note": "Give yourself an iron sword"
-      },
-      {
-        "code": "/give Steve minecraft:enchanted_golden_apple 3",
-        "note": "Give the player Steve 3 enchanted golden apples"
-      }
-    ],
-    "targets": "@p nearest player, @a all players, @r random player, @s yourself, @e entities (not for /give)",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "Classic 0.0.15a (multiplayer test)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Item names need the minecraft: namespace in Java Edition; in Bedrock it is optional.",
-      "Count is optional and defaults to 1. Maximum stack sizes still apply per item.",
-      "In Java 1.20.5+, NBT in /give was replaced by item components, e.g. /give @s diamond_sword[minecraft:custom_name='{\"text\":\"Excalibur\"}']."
-    ],
-    "related": [
-      "/summon",
-      "/item",
-      "/clear",
-      "/loot"
-    ],
-    "keywords": "give item spawn cheat op"
-  },
-  {
-    "slug": "tp",
-    "name": "/tp",
-    "syntax": "/tp <target> <x> <y> <z>",
-    "syntaxBedrock": "/tp <victim: target> <destination: x y z>",
-    "summary": "Teleports a player or entity to coordinates or to another entity.",
-    "description": "/tp (alias of /teleport) instantly moves players or entities to exact coordinates, or to another entity's position. Coordinates can be absolute, relative (~) or, in Java Edition, local (^) based on where the target faces.",
-    "examples": [
-      {
-        "code": "/tp @s 100 64 -250",
-        "note": "Teleport yourself to x=100, y=64, z=-250"
-      },
-      {
-        "code": "/tp @p Steve",
-        "note": "Teleport the nearest player to Steve"
-      },
-      {
-        "code": "/tp @s ~ ~50 ~",
-        "note": "Teleport yourself 50 blocks straight up"
-      }
-    ],
-    "targets": "@s, @p, @a, @r, @e or a player name; coordinates x y z",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "Alpha v1.0.16 (as /tp)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Use ~ before a number for relative movement from the current position.",
-      "Teleporting to unloaded chunks loads them; very high y values can cause fall damage on arrival.",
-      "In Java Edition /teleport and /tp are the same command."
-    ],
-    "related": [
-      "/locate",
-      "/summon",
-      "/spawnpoint",
-      "/execute"
-    ],
-    "keywords": "teleport tp coordinates move travel"
-  },
-  {
-    "slug": "summon",
-    "name": "/summon",
-    "syntax": "/summon <entity> [x] [y] [z] [nbt]",
-    "syntaxBedrock": "/summon <entityType: EntityType> [spawnPos: x y z]",
-    "summary": "Spawns any mob or entity at a chosen position.",
-    "description": "/summon creates an entity - a mob, item, projectile or vehicle - at the given coordinates, or at your position if none are given. Java Edition accepts NBT data for custom names, equipment, AI changes and more.",
-    "examples": [
-      {
-        "code": "/summon minecraft:creeper ~ ~ ~",
-        "note": "Summon a creeper at your position"
-      },
-      {
-        "code": "/summon minecraft:zombie_villager 100 65 100",
-        "note": "Summon a zombie villager at x=100, y=65, z=100"
-      },
-      {
-        "code": "/summon minecraft:lightning_bolt ~ ~ ~",
-        "note": "Strike lightning where you stand"
-      }
-    ],
-    "targets": "Any entity type, e.g. minecraft:zombie, minecraft:warden, minecraft:item",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.7.2 (13w36a)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Entity IDs use the minecraft: namespace in Java Edition.",
-      "Summoning bosses like the Wither or Ender Dragon with /summon spawns them without the usual ritual, but the fight is the same.",
-      "In Java, add NBT for custom mobs, e.g. /summon zombie ~ ~ ~ {CustomName:'{\"text\":\"Bob\"}',NoAI:1b}."
-    ],
-    "related": [
-      "/give",
-      "/tp",
-      "/kill",
-      "/effect"
-    ],
-    "keywords": "summon spawn mob entity"
-  },
-  {
-    "slug": "locate",
-    "name": "/locate",
-    "syntax": "/locate structure <structure>",
-    "syntaxBedrock": "/locate structure <structure: Structure>",
-    "summary": "Finds the coordinates of the nearest structure, biome or point of interest.",
-    "description": "/locate searches for the closest matching structure (village, stronghold, ancient city...), biome, or point of interest and returns its coordinates, which you can click to teleport. Search radius is large, so it works even for rare structures.",
-    "examples": [
-      {
-        "code": "/locate structure minecraft:stronghold",
-        "note": "Find the nearest stronghold"
-      },
-      {
-        "code": "/locate structure minecraft:ancient_city",
-        "note": "Find the nearest ancient city"
-      },
-      {
-        "code": "/locate biome minecraft:cherry_grove",
-        "note": "Find the nearest cherry grove biome (Java only)"
-      }
-    ],
-    "targets": "structure, biome (Java), poi (Java)",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.11 (16w39a); biome support in 1.16",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Bedrock Edition only supports /locate structure (plus /locate biome since 1.19.10 in some versions; structure is the reliable one).",
-      "Click the green coordinates in chat to get a ready /tp command.",
-      "Some structures only generate in specific dimensions, so run it in the right one (e.g. bastion_remnant in the Nether)."
-    ],
-    "related": [
-      "/tp",
-      "/seed",
-      "/execute"
-    ],
-    "keywords": "locate find structure biome village stronghold ancient city"
-  },
-  {
-    "slug": "gamemode",
-    "name": "/gamemode",
-    "syntax": "/gamemode <mode> [target]",
-    "syntaxBedrock": "/gamemode <gameMode: GameMode> [player: target]",
-    "summary": "Switches a player between survival, creative, adventure and spectator mode.",
-    "description": "/gamemode changes how a player interacts with the world: survival (health and hunger), creative (unlimited blocks, flight), adventure (no block breaking without the right tools) and spectator (fly through blocks, Java only).",
-    "examples": [
-      {
-        "code": "/gamemode creative",
-        "note": "Switch yourself to creative mode"
-      },
-      {
-        "code": "/gamemode survival @a",
-        "note": "Put every player back into survival"
-      },
-      {
-        "code": "/gamemode spectator @s",
-        "note": "Enter spectator mode (Java Edition only)"
-      }
-    ],
-    "targets": "survival, creative, adventure, spectator (Java only); optional player target",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "Classic 0.30 (creative); /gamemode command in Beta 1.8",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Short forms work in Java: /gamemode c, /gamemode s, /gamemode a, /gamemode sp.",
-      "Spectator mode does not exist in Bedrock Edition.",
-      "On servers, changing another player's gamemode requires higher operator permissions."
-    ],
-    "related": [
-      "/defaultgamemode",
-      "/difficulty",
-      "/effect"
-    ],
-    "keywords": "gamemode creative survival adventure spectator mode"
-  },
-  {
-    "slug": "fill",
-    "name": "/fill",
-    "syntax": "/fill <from> <to> <block> [mode]",
-    "syntaxBedrock": "/fill <from: x y z> <to: x y z> <tileName: Block> [fillMode: FillMode]",
-    "summary": "Fills a region of the world with a block, or replaces blocks in it.",
-    "description": "/fill places blocks in a rectangular volume between two corner coordinates. Modes control what happens to existing blocks: replace (default), destroy, hollow, keep, outline - and the replace filter lets you swap one block for another. Java Edition limits a single fill to 32,768 blocks by default.",
-    "examples": [
-      {
-        "code": "/fill 0 64 0 10 64 10 minecraft:stone",
-        "note": "Fill an 11x11 platform with stone"
-      },
-      {
-        "code": "/fill ~-5 ~-1 ~-5 ~5 ~3 ~5 minecraft:air",
-        "note": "Clear a space around you"
-      },
-      {
-        "code": "/fill 0 64 0 20 70 20 minecraft:glass 0 hollow",
-        "note": "Build a hollow glass box (Bedrock syntax)"
-      }
-    ],
-    "targets": "Two corners (x y z) and a block ID",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.8 (14w03a)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "The default block limit (Java: commandModificationBlockLimit) is 32,768 - split big jobs into several fills.",
-      "hollow fills only the outer shell; keep only fills air blocks; outline fills only the edges.",
-      "To replace one block with another in Java: /fill x1 y1 z1 x2 y2 z2 stone replace dirt."
-    ],
-    "related": [
-      "/clone",
-      "/setblock",
-      "/fillbiome"
-    ],
-    "keywords": "fill blocks region build replace hollow"
-  },
-  {
-    "slug": "effect",
-    "name": "/effect",
-    "syntax": "/effect give <target> <effect> [seconds] [amplifier] [hideParticles]",
-    "syntaxBedrock": "/effect <player: target> <effect: Effect> [seconds: int] [amplifier: int] [hideParticles: Boolean]",
-    "summary": "Applies or removes status effects like speed, strength or regeneration.",
-    "description": "/effect give applies a potion-style status effect to players or mobs, with a duration in seconds and an amplifier (level minus one). /effect clear removes effects. Infinite duration is supported in modern Java with the keyword infinite.",
-    "examples": [
-      {
-        "code": "/effect give @s minecraft:speed 60 1",
-        "note": "Give yourself Speed II for 60 seconds"
-      },
-      {
-        "code": "/effect give @p minecraft:regeneration infinite",
-        "note": "Permanent regeneration on the nearest player (Java)"
-      },
-      {
-        "code": "/effect clear @a minecraft:poison",
-        "note": "Cure everyone of poison"
-      }
-    ],
-    "targets": "give or clear, an entity target, an effect ID",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.5 (13w09b)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Amplifier is level minus 1: amplifier 0 = level I, amplifier 3 = level IV.",
-      "Bedrock caps duration at high but finite values; Java 1.19.4+ accepts infinite.",
-      "Use /effect clear @s with no effect to remove everything from yourself."
-    ],
-    "related": [
-      "/summon",
-      "/attribute",
-      "/damage"
-    ],
-    "keywords": "effect potion status buff speed strength regeneration"
-  },
-  {
-    "slug": "time",
-    "name": "/time",
-    "syntax": "/time set <day|noon|night|midnight|ticks>",
-    "syntaxBedrock": "/time set <time: TimeMode>",
-    "summary": "Changes or queries the world's time of day.",
-    "description": "/time set moves the in-game clock to a named moment (day, noon, night, midnight) or an exact tick count. /time add advances the clock, and /time query reads it. One Minecraft day lasts 24,000 ticks - 20 real minutes.",
-    "examples": [
-      {
-        "code": "/time set day",
-        "note": "Jump to morning (tick 1000)"
-      },
-      {
-        "code": "/time set night",
-        "note": "Jump to night (tick 13000)"
-      },
-      {
-        "code": "/time add 6000",
-        "note": "Advance the clock by 6000 ticks (5 real minutes)"
-      }
-    ],
-    "targets": "set, add, query (daytime, gametime, day)",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "Alpha v1.0.16",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "day = 1000, noon = 6000, sunset ~ 12000, night = 13000, midnight = 18000 ticks.",
-      "/time query day tells you how many full in-game days have passed in the world.",
-      "Freeze the daylight cycle with /gamerule doDaylightCycle false."
-    ],
-    "related": [
-      "/weather",
-      "/gamerule",
-      "/schedule"
-    ],
-    "keywords": "time day night set clock ticks"
-  },
-  {
-    "slug": "weather",
-    "name": "/weather",
-    "syntax": "/weather (clear|rain|thunder) [duration]",
-    "syntaxBedrock": "/weather <type: WeatherType> [duration: int]",
-    "summary": "Changes the weather.",
-    "description": "/weather sets the current weather to clear, rain or thunder, optionally for a specific duration in seconds. Without a duration the weather lasts for its normal random length.",
-    "examples": [
-      {
-        "code": "/weather clear",
-        "note": "Stop the rain now"
-      },
-      {
-        "code": "/weather thunder 600",
-        "note": "Ten minutes of thunderstorm - enough for a charged-creeper or Channeling session"
-      },
-      {
-        "code": "/weather rain",
-        "note": "Rain: riptide time"
-      }
-    ],
-    "targets": "none",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Thunderstorms let you charge creepers, convert villagers to witches and pigs to zombified piglins with a Channeling trident.",
-      "Sleeping through a thunderstorm still works - no need to clear it for a bed."
-    ],
-    "related": [
-      "/time",
-      "/gamemode"
-    ],
-    "keywords": "weather command clear rain thunder storm"
-  },
-  {
-    "slug": "enchant",
-    "name": "/enchant",
-    "syntax": "/enchant <target> <enchantment> [level]",
-    "syntaxBedrock": "/enchant <player: target> <enchantmentName: Enchant> [level: int]",
-    "summary": "Enchants the item a player is holding.",
-    "description": "/enchant applies an enchantment to the item in the target player's main hand, respecting normal compatibility rules - you cannot add Silk Touch to a Fortune pick or Sharpness to a bow. It works beyond normal levels in Java only if the enchantment allows it.",
-    "examples": [
-      {
-        "code": "/enchant @s minecraft:sharpness 5",
-        "note": "Add Sharpness V to the sword in your hand"
-      },
-      {
-        "code": "/enchant @p minecraft:unbreaking 3",
-        "note": "Unbreaking III on the held item"
-      },
-      {
-        "code": "/enchant Steve minecraft:mending",
-        "note": "Mending on Steve's held item (level defaults to 1)"
-      }
-    ],
-    "targets": "players holding an enchantable item",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "The item must be in the main hand - offhand items are ignored.",
-      "Fails silently when the enchantment is incompatible or the level is out of range; /give with NBT/components bypasses those rules in Java."
-    ],
-    "related": [
-      "/give",
-      "/xp"
-    ],
-    "keywords": "enchant command sharpness mending held item"
-  },
-  {
-    "slug": "setblock",
-    "name": "/setblock",
-    "syntax": "/setblock <pos> <block> [destroy|keep|replace]",
-    "syntaxBedrock": "/setblock <position: x y z> <tileName: Block> [blockStates: block states] [oldBlockHandling: SetBlockType]",
-    "summary": "Places a single block at exact coordinates.",
-    "description": "/setblock changes one block at the given position to any block you name. Modes: replace (default, swaps any block), keep (only fills air), destroy (breaks the old block and drops it).",
-    "examples": [
-      {
-        "code": "/setblock 100 64 200 minecraft:diamond_block",
-        "note": "Place a diamond block at those coordinates"
-      },
-      {
-        "code": "/setblock ~ ~-1 ~ minecraft:glass",
-        "note": "Put a glass block directly under your feet"
-      },
-      {
-        "code": "/setblock 0 80 0 minecraft:chest{Items:[{id:\"minecraft:diamond\",count:64,Slot:13}]}",
-        "note": "Chest pre-filled with diamonds (Java NBT)"
-      }
-    ],
-    "targets": "one block position",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Use ~ ~ ~ for your own position, ~ ~-1 ~ for the block under you.",
-      "Chain it in command blocks with /fill for scripted builds; /fill is faster for volumes."
-    ],
-    "related": [
-      "/fill",
-      "/summon"
-    ],
-    "keywords": "setblock command place block coordinates"
-  },
-  {
-    "slug": "kill",
-    "name": "/kill",
-    "syntax": "/kill [target]",
-    "syntaxBedrock": "/kill [target: target]",
-    "summary": "Instantly kills entities.",
-    "description": "/kill removes the target entity immediately - mobs, items, vehicles or players (even in creative mode, players die). With no target it kills the command's executor.",
-    "examples": [
-      {
-        "code": "/kill @e[type=minecraft:zombie]",
-        "note": "Kill every loaded zombie"
-      },
-      {
-        "code": "/kill @e[type=minecraft:item]",
-        "note": "Clear all dropped items on the ground - lag cleanup"
-      },
-      {
-        "code": "/kill @s",
-        "note": "Kill yourself (respawn at your spawn point)"
-      }
-    ],
-    "targets": "any entity; without a target, the executor",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "@e without a type selector kills everything loaded, including armor stands, paintings and you - always add a type.",
-      "Item cleanup on servers: /kill @e[type=item] is the standard anti-lag command."
-    ],
-    "related": [
-      "/gamemode",
-      "/tp"
-    ],
-    "keywords": "kill command remove entities clear items lag"
-  },
-  {
-    "slug": "clear",
-    "name": "/clear",
-    "syntax": "/clear [target] [item] [maxCount]",
-    "syntaxBedrock": "/clear [player: target] [itemName: Item] [data: int] [maxCount: int]",
-    "summary": "Removes items from inventories.",
-    "description": "/clear deletes matching items from a player's inventory. With no item specified it wipes the whole inventory; with an item and maxCount it removes only that many.",
-    "examples": [
-      {
-        "code": "/clear @s",
-        "note": "Empty your entire inventory"
-      },
-      {
-        "code": "/clear @p minecraft:dirt 64",
-        "note": "Take up to 64 dirt from the nearest player"
-      },
-      {
-        "code": "/clear Steve minecraft:netherite_sword",
-        "note": "Remove every netherite sword Steve holds"
-      }
-    ],
-    "targets": "players",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Great for adventure maps: test whether a player has an item by running /clear with maxCount 0 - it succeeds without deleting anything (Java).",
-      "Bedrock data values let you target specific potion or tool variants."
-    ],
-    "related": [
-      "/give",
-      "/kill"
-    ],
-    "keywords": "clear command remove items inventory"
-  },
-  {
-    "slug": "spawnpoint",
-    "name": "/spawnpoint",
-    "syntax": "/spawnpoint [target] [pos] [angle]",
-    "syntaxBedrock": "/spawnpoint [player: target] [spawnPoint: x y z]",
-    "summary": "Sets where players respawn.",
-    "description": "/spawnpoint changes a player's individual respawn location without needing a bed. Unlike /setworldspawn it only affects the targets you name, and it works in any dimension - set a respawn in the Nether without a respawn anchor.",
-    "examples": [
-      {
-        "code": "/spawnpoint @s",
-        "note": "Respawn where you stand"
-      },
-      {
-        "code": "/spawnpoint @a 100 64 200",
-        "note": "Send every player's respawn to those coordinates"
-      },
-      {
-        "code": "/spawnpoint Steve 0 65 0",
-        "note": "Move only Steve's respawn point"
-      }
-    ],
-    "targets": "players",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2 (as separate command)",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Beds and respawn anchors override /spawnpoint when valid; break them and the spawnpoint applies.",
-      "For a global default for new players, use /setworldspawn instead."
-    ],
-    "related": [
-      "/setworldspawn",
-      "/kill",
-      "/time"
-    ],
-    "keywords": "spawnpoint command respawn set spawn bed nether"
-  },
-  {
-    "slug": "xp",
-    "name": "/xp",
-    "syntax": "/xp (add|set|query) <target> <amount> (points|levels)",
-    "syntaxBedrock": "/xp <amount: int> [player: target]  or  /xp <amount: int>L [player: target]",
-    "summary": "Gives, sets or checks experience points and levels.",
-    "description": "/xp adds or sets experience. Java uses /xp add @s 100 points or 10 levels, /xp set @s 30 levels, /xp query @s levels. Bedrock uses /xp 100 @s for points and /xp 10L @s for levels.",
-    "examples": [
-      {
-        "code": "/xp add @s 30 levels",
-        "note": "Jump straight to +30 levels (Java)"
-      },
-      {
-        "code": "/xp 100L @s",
-        "note": "100 levels in Bedrock"
-      },
-      {
-        "code": "/xp set @a 0 levels",
-        "note": "Reset everyone's level (Java)"
-      }
-    ],
-    "targets": "players",
-    "editions": [
-      "java",
-      "bedrock"
-    ],
-    "since": "1.4.2",
-    "permission": "Cheats enabled / operator level 2",
-    "tips": [
-      "Negative amounts work in Java: /xp add @s -10 levels removes levels.",
-      "Levels and points are different things - adding levels costs the real curve price, so 30 levels gives far more total XP than 30 points. Our XP calculator shows the exact math."
-    ],
-    "related": [
-      "/enchant",
-      "/gamemode"
-    ],
-    "keywords": "xp command experience levels add set query"
-  }
+ {
+  "slug": "give",
+  "name": "/give",
+  "syntax": "/give <target> <item> [count]",
+  "syntaxBedrock": "/give <player: target> <itemName: Item> [amount: int] [data: int]",
+  "summary": "Gives one or more items to a player.",
+  "description": "The /give command adds items directly to a player's inventory, without needing to craft or find them. In Java Edition you can also attach NBT data to customize the item; Bedrock Edition uses a data value and the components json format instead.",
+  "examples": [
+   {
+    "code": "/give @p minecraft:diamond 64",
+    "note": "Give the nearest player a stack of 64 diamonds"
+   },
+   {
+    "code": "/give @s minecraft:iron_sword",
+    "note": "Give yourself an iron sword"
+   },
+   {
+    "code": "/give Steve minecraft:enchanted_golden_apple 3",
+    "note": "Give the player Steve 3 enchanted golden apples"
+   }
+  ],
+  "targets": "@p nearest player, @a all players, @r random player, @s yourself, @e entities (not for /give)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Classic 0.0.15a (multiplayer test)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Item names need the minecraft: namespace in Java Edition; in Bedrock it is optional.",
+   "Count is optional and defaults to 1. Maximum stack sizes still apply per item.",
+   "In Java 1.20.5+, NBT in /give was replaced by item components, e.g. /give @s diamond_sword[minecraft:custom_name='{\"text\":\"Excalibur\"}']."
+  ],
+  "related": [
+   "/summon",
+   "/item",
+   "/clear",
+   "/loot"
+  ],
+  "keywords": "give item spawn cheat op"
+ },
+ {
+  "slug": "tp",
+  "name": "/tp",
+  "syntax": "/tp <target> <x> <y> <z>",
+  "syntaxBedrock": "/tp <victim: target> <destination: x y z>",
+  "summary": "Teleports a player or entity to coordinates or to another entity.",
+  "description": "/tp (alias of /teleport) instantly moves players or entities to exact coordinates, or to another entity's position. Coordinates can be absolute, relative (~) or, in Java Edition, local (^) based on where the target faces.",
+  "examples": [
+   {
+    "code": "/tp @s 100 64 -250",
+    "note": "Teleport yourself to x=100, y=64, z=-250"
+   },
+   {
+    "code": "/tp @p Steve",
+    "note": "Teleport the nearest player to Steve"
+   },
+   {
+    "code": "/tp @s ~ ~50 ~",
+    "note": "Teleport yourself 50 blocks straight up"
+   }
+  ],
+  "targets": "@s, @p, @a, @r, @e or a player name; coordinates x y z",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Alpha v1.0.16 (as /tp)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Use ~ before a number for relative movement from the current position.",
+   "Teleporting to unloaded chunks loads them; very high y values can cause fall damage on arrival.",
+   "In Java Edition /teleport and /tp are the same command."
+  ],
+  "related": [
+   "/locate",
+   "/summon",
+   "/spawnpoint",
+   "/execute"
+  ],
+  "keywords": "teleport tp coordinates move travel"
+ },
+ {
+  "slug": "summon",
+  "name": "/summon",
+  "syntax": "/summon <entity> [x] [y] [z] [nbt]",
+  "syntaxBedrock": "/summon <entityType: EntityType> [spawnPos: x y z]",
+  "summary": "Spawns any mob or entity at a chosen position.",
+  "description": "/summon creates an entity - a mob, item, projectile or vehicle - at the given coordinates, or at your position if none are given. Java Edition accepts NBT data for custom names, equipment, AI changes and more.",
+  "examples": [
+   {
+    "code": "/summon minecraft:creeper ~ ~ ~",
+    "note": "Summon a creeper at your position"
+   },
+   {
+    "code": "/summon minecraft:zombie_villager 100 65 100",
+    "note": "Summon a zombie villager at x=100, y=65, z=100"
+   },
+   {
+    "code": "/summon minecraft:lightning_bolt ~ ~ ~",
+    "note": "Strike lightning where you stand"
+   }
+  ],
+  "targets": "Any entity type, e.g. minecraft:zombie, minecraft:warden, minecraft:item",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.7.2 (13w36a)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Entity IDs use the minecraft: namespace in Java Edition.",
+   "Summoning bosses like the Wither or Ender Dragon with /summon spawns them without the usual ritual, but the fight is the same.",
+   "In Java, add NBT for custom mobs, e.g. /summon zombie ~ ~ ~ {CustomName:'{\"text\":\"Bob\"}',NoAI:1b}."
+  ],
+  "related": [
+   "/give",
+   "/tp",
+   "/kill",
+   "/effect"
+  ],
+  "keywords": "summon spawn mob entity"
+ },
+ {
+  "slug": "locate",
+  "name": "/locate",
+  "syntax": "/locate structure <structure>",
+  "syntaxBedrock": "/locate structure <structure: Structure>",
+  "summary": "Finds the coordinates of the nearest structure, biome or point of interest.",
+  "description": "/locate searches for the closest matching structure (village, stronghold, ancient city...), biome, or point of interest and returns its coordinates, which you can click to teleport. Search radius is large, so it works even for rare structures.",
+  "examples": [
+   {
+    "code": "/locate structure minecraft:stronghold",
+    "note": "Find the nearest stronghold"
+   },
+   {
+    "code": "/locate structure minecraft:ancient_city",
+    "note": "Find the nearest ancient city"
+   },
+   {
+    "code": "/locate biome minecraft:cherry_grove",
+    "note": "Find the nearest cherry grove biome (Java only)"
+   }
+  ],
+  "targets": "structure, biome (Java), poi (Java)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.11 (16w39a); biome support in 1.16",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Bedrock Edition only supports /locate structure (plus /locate biome since 1.19.10 in some versions; structure is the reliable one).",
+   "Click the green coordinates in chat to get a ready /tp command.",
+   "Some structures only generate in specific dimensions, so run it in the right one (e.g. bastion_remnant in the Nether)."
+  ],
+  "related": [
+   "/tp",
+   "/seed",
+   "/execute"
+  ],
+  "keywords": "locate find structure biome village stronghold ancient city"
+ },
+ {
+  "slug": "gamemode",
+  "name": "/gamemode",
+  "syntax": "/gamemode <mode> [target]",
+  "syntaxBedrock": "/gamemode <gameMode: GameMode> [player: target]",
+  "summary": "Switches a player between survival, creative, adventure and spectator mode.",
+  "description": "/gamemode changes how a player interacts with the world: survival (health and hunger), creative (unlimited blocks, flight), adventure (no block breaking without the right tools) and spectator (fly through blocks, Java only).",
+  "examples": [
+   {
+    "code": "/gamemode creative",
+    "note": "Switch yourself to creative mode"
+   },
+   {
+    "code": "/gamemode survival @a",
+    "note": "Put every player back into survival"
+   },
+   {
+    "code": "/gamemode spectator @s",
+    "note": "Enter spectator mode (Java Edition only)"
+   }
+  ],
+  "targets": "survival, creative, adventure, spectator (Java only); optional player target",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Classic 0.30 (creative); /gamemode command in Beta 1.8",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Short forms work in Java: /gamemode c, /gamemode s, /gamemode a, /gamemode sp.",
+   "Spectator mode does not exist in Bedrock Edition.",
+   "On servers, changing another player's gamemode requires higher operator permissions."
+  ],
+  "related": [
+   "/defaultgamemode",
+   "/difficulty",
+   "/effect"
+  ],
+  "keywords": "gamemode creative survival adventure spectator mode"
+ },
+ {
+  "slug": "fill",
+  "name": "/fill",
+  "syntax": "/fill <from> <to> <block> [mode]",
+  "syntaxBedrock": "/fill <from: x y z> <to: x y z> <tileName: Block> [fillMode: FillMode]",
+  "summary": "Fills a region of the world with a block, or replaces blocks in it.",
+  "description": "/fill places blocks in a rectangular volume between two corner coordinates. Modes control what happens to existing blocks: replace (default), destroy, hollow, keep, outline - and the replace filter lets you swap one block for another. Java Edition limits a single fill to 32,768 blocks by default.",
+  "examples": [
+   {
+    "code": "/fill 0 64 0 10 64 10 minecraft:stone",
+    "note": "Fill an 11x11 platform with stone"
+   },
+   {
+    "code": "/fill ~-5 ~-1 ~-5 ~5 ~3 ~5 minecraft:air",
+    "note": "Clear a space around you"
+   },
+   {
+    "code": "/fill 0 64 0 20 70 20 minecraft:glass 0 hollow",
+    "note": "Build a hollow glass box (Bedrock syntax)"
+   }
+  ],
+  "targets": "Two corners (x y z) and a block ID",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.8 (14w03a)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "The default block limit (Java: commandModificationBlockLimit) is 32,768 - split big jobs into several fills.",
+   "hollow fills only the outer shell; keep only fills air blocks; outline fills only the edges.",
+   "To replace one block with another in Java: /fill x1 y1 z1 x2 y2 z2 stone replace dirt."
+  ],
+  "related": [
+   "/clone",
+   "/setblock",
+   "/fillbiome"
+  ],
+  "keywords": "fill blocks region build replace hollow"
+ },
+ {
+  "slug": "effect",
+  "name": "/effect",
+  "syntax": "/effect give <target> <effect> [seconds] [amplifier] [hideParticles]",
+  "syntaxBedrock": "/effect <player: target> <effect: Effect> [seconds: int] [amplifier: int] [hideParticles: Boolean]",
+  "summary": "Applies or removes status effects like speed, strength or regeneration.",
+  "description": "/effect give applies a potion-style status effect to players or mobs, with a duration in seconds and an amplifier (level minus one). /effect clear removes effects. Infinite duration is supported in modern Java with the keyword infinite.",
+  "examples": [
+   {
+    "code": "/effect give @s minecraft:speed 60 1",
+    "note": "Give yourself Speed II for 60 seconds"
+   },
+   {
+    "code": "/effect give @p minecraft:regeneration infinite",
+    "note": "Permanent regeneration on the nearest player (Java)"
+   },
+   {
+    "code": "/effect clear @a minecraft:poison",
+    "note": "Cure everyone of poison"
+   }
+  ],
+  "targets": "give or clear, an entity target, an effect ID",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.5 (13w09b)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Amplifier is level minus 1: amplifier 0 = level I, amplifier 3 = level IV.",
+   "Bedrock caps duration at high but finite values; Java 1.19.4+ accepts infinite.",
+   "Use /effect clear @s with no effect to remove everything from yourself."
+  ],
+  "related": [
+   "/summon",
+   "/attribute",
+   "/damage"
+  ],
+  "keywords": "effect potion status buff speed strength regeneration"
+ },
+ {
+  "slug": "time",
+  "name": "/time",
+  "syntax": "/time set <day|noon|night|midnight|ticks>",
+  "syntaxBedrock": "/time set <time: TimeMode>",
+  "summary": "Changes or queries the world's time of day.",
+  "description": "/time set moves the in-game clock to a named moment (day, noon, night, midnight) or an exact tick count. /time add advances the clock, and /time query reads it. One Minecraft day lasts 24,000 ticks - 20 real minutes.",
+  "examples": [
+   {
+    "code": "/time set day",
+    "note": "Jump to morning (tick 1000)"
+   },
+   {
+    "code": "/time set night",
+    "note": "Jump to night (tick 13000)"
+   },
+   {
+    "code": "/time add 6000",
+    "note": "Advance the clock by 6000 ticks (5 real minutes)"
+   }
+  ],
+  "targets": "set, add, query (daytime, gametime, day)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Alpha v1.0.16",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "day = 1000, noon = 6000, sunset ~ 12000, night = 13000, midnight = 18000 ticks.",
+   "/time query day tells you how many full in-game days have passed in the world.",
+   "Freeze the daylight cycle with /gamerule doDaylightCycle false."
+  ],
+  "related": [
+   "/weather",
+   "/gamerule",
+   "/schedule"
+  ],
+  "keywords": "time day night set clock ticks"
+ },
+ {
+  "slug": "weather",
+  "name": "/weather",
+  "syntax": "/weather (clear|rain|thunder) [duration]",
+  "syntaxBedrock": "/weather <type: WeatherType> [duration: int]",
+  "summary": "Changes the weather.",
+  "description": "/weather sets the current weather to clear, rain or thunder, optionally for a specific duration in seconds. Without a duration the weather lasts for its normal random length.",
+  "examples": [
+   {
+    "code": "/weather clear",
+    "note": "Stop the rain now"
+   },
+   {
+    "code": "/weather thunder 600",
+    "note": "Ten minutes of thunderstorm - enough for a charged-creeper or Channeling session"
+   },
+   {
+    "code": "/weather rain",
+    "note": "Rain: riptide time"
+   }
+  ],
+  "targets": "none",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Thunderstorms let you charge creepers, convert villagers to witches and pigs to zombified piglins with a Channeling trident.",
+   "Sleeping through a thunderstorm still works - no need to clear it for a bed."
+  ],
+  "related": [
+   "/time",
+   "/gamemode"
+  ],
+  "keywords": "weather command clear rain thunder storm"
+ },
+ {
+  "slug": "enchant",
+  "name": "/enchant",
+  "syntax": "/enchant <target> <enchantment> [level]",
+  "syntaxBedrock": "/enchant <player: target> <enchantmentName: Enchant> [level: int]",
+  "summary": "Enchants the item a player is holding.",
+  "description": "/enchant applies an enchantment to the item in the target player's main hand, respecting normal compatibility rules - you cannot add Silk Touch to a Fortune pick or Sharpness to a bow. It works beyond normal levels in Java only if the enchantment allows it.",
+  "examples": [
+   {
+    "code": "/enchant @s minecraft:sharpness 5",
+    "note": "Add Sharpness V to the sword in your hand"
+   },
+   {
+    "code": "/enchant @p minecraft:unbreaking 3",
+    "note": "Unbreaking III on the held item"
+   },
+   {
+    "code": "/enchant Steve minecraft:mending",
+    "note": "Mending on Steve's held item (level defaults to 1)"
+   }
+  ],
+  "targets": "players holding an enchantable item",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "The item must be in the main hand - offhand items are ignored.",
+   "Fails silently when the enchantment is incompatible or the level is out of range; /give with NBT/components bypasses those rules in Java."
+  ],
+  "related": [
+   "/give",
+   "/xp"
+  ],
+  "keywords": "enchant command sharpness mending held item"
+ },
+ {
+  "slug": "setblock",
+  "name": "/setblock",
+  "syntax": "/setblock <pos> <block> [destroy|keep|replace]",
+  "syntaxBedrock": "/setblock <position: x y z> <tileName: Block> [blockStates: block states] [oldBlockHandling: SetBlockType]",
+  "summary": "Places a single block at exact coordinates.",
+  "description": "/setblock changes one block at the given position to any block you name. Modes: replace (default, swaps any block), keep (only fills air), destroy (breaks the old block and drops it).",
+  "examples": [
+   {
+    "code": "/setblock 100 64 200 minecraft:diamond_block",
+    "note": "Place a diamond block at those coordinates"
+   },
+   {
+    "code": "/setblock ~ ~-1 ~ minecraft:glass",
+    "note": "Put a glass block directly under your feet"
+   },
+   {
+    "code": "/setblock 0 80 0 minecraft:chest{Items:[{id:\"minecraft:diamond\",count:64,Slot:13}]}",
+    "note": "Chest pre-filled with diamonds (Java NBT)"
+   }
+  ],
+  "targets": "one block position",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Use ~ ~ ~ for your own position, ~ ~-1 ~ for the block under you.",
+   "Chain it in command blocks with /fill for scripted builds; /fill is faster for volumes."
+  ],
+  "related": [
+   "/fill",
+   "/summon"
+  ],
+  "keywords": "setblock command place block coordinates"
+ },
+ {
+  "slug": "kill",
+  "name": "/kill",
+  "syntax": "/kill [target]",
+  "syntaxBedrock": "/kill [target: target]",
+  "summary": "Instantly kills entities.",
+  "description": "/kill removes the target entity immediately - mobs, items, vehicles or players (even in creative mode, players die). With no target it kills the command's executor.",
+  "examples": [
+   {
+    "code": "/kill @e[type=minecraft:zombie]",
+    "note": "Kill every loaded zombie"
+   },
+   {
+    "code": "/kill @e[type=minecraft:item]",
+    "note": "Clear all dropped items on the ground - lag cleanup"
+   },
+   {
+    "code": "/kill @s",
+    "note": "Kill yourself (respawn at your spawn point)"
+   }
+  ],
+  "targets": "any entity; without a target, the executor",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "@e without a type selector kills everything loaded, including armor stands, paintings and you - always add a type.",
+   "Item cleanup on servers: /kill @e[type=item] is the standard anti-lag command."
+  ],
+  "related": [
+   "/gamemode",
+   "/tp"
+  ],
+  "keywords": "kill command remove entities clear items lag"
+ },
+ {
+  "slug": "clear",
+  "name": "/clear",
+  "syntax": "/clear [target] [item] [maxCount]",
+  "syntaxBedrock": "/clear [player: target] [itemName: Item] [data: int] [maxCount: int]",
+  "summary": "Removes items from inventories.",
+  "description": "/clear deletes matching items from a player's inventory. With no item specified it wipes the whole inventory; with an item and maxCount it removes only that many.",
+  "examples": [
+   {
+    "code": "/clear @s",
+    "note": "Empty your entire inventory"
+   },
+   {
+    "code": "/clear @p minecraft:dirt 64",
+    "note": "Take up to 64 dirt from the nearest player"
+   },
+   {
+    "code": "/clear Steve minecraft:netherite_sword",
+    "note": "Remove every netherite sword Steve holds"
+   }
+  ],
+  "targets": "players",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Great for adventure maps: test whether a player has an item by running /clear with maxCount 0 - it succeeds without deleting anything (Java).",
+   "Bedrock data values let you target specific potion or tool variants."
+  ],
+  "related": [
+   "/give",
+   "/kill"
+  ],
+  "keywords": "clear command remove items inventory"
+ },
+ {
+  "slug": "spawnpoint",
+  "name": "/spawnpoint",
+  "syntax": "/spawnpoint [target] [pos] [angle]",
+  "syntaxBedrock": "/spawnpoint [player: target] [spawnPoint: x y z]",
+  "summary": "Sets where players respawn.",
+  "description": "/spawnpoint changes a player's individual respawn location without needing a bed. Unlike /setworldspawn it only affects the targets you name, and it works in any dimension - set a respawn in the Nether without a respawn anchor.",
+  "examples": [
+   {
+    "code": "/spawnpoint @s",
+    "note": "Respawn where you stand"
+   },
+   {
+    "code": "/spawnpoint @a 100 64 200",
+    "note": "Send every player's respawn to those coordinates"
+   },
+   {
+    "code": "/spawnpoint Steve 0 65 0",
+    "note": "Move only Steve's respawn point"
+   }
+  ],
+  "targets": "players",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2 (as separate command)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Beds and respawn anchors override /spawnpoint when valid; break them and the spawnpoint applies.",
+   "For a global default for new players, use /setworldspawn instead."
+  ],
+  "related": [
+   "/setworldspawn",
+   "/kill",
+   "/time"
+  ],
+  "keywords": "spawnpoint command respawn set spawn bed nether"
+ },
+ {
+  "slug": "xp",
+  "name": "/xp",
+  "syntax": "/xp (add|set|query) <target> <amount> (points|levels)",
+  "syntaxBedrock": "/xp <amount: int> [player: target]  or  /xp <amount: int>L [player: target]",
+  "summary": "Gives, sets or checks experience points and levels.",
+  "description": "/xp adds or sets experience. Java uses /xp add @s 100 points or 10 levels, /xp set @s 30 levels, /xp query @s levels. Bedrock uses /xp 100 @s for points and /xp 10L @s for levels.",
+  "examples": [
+   {
+    "code": "/xp add @s 30 levels",
+    "note": "Jump straight to +30 levels (Java)"
+   },
+   {
+    "code": "/xp 100L @s",
+    "note": "100 levels in Bedrock"
+   },
+   {
+    "code": "/xp set @a 0 levels",
+    "note": "Reset everyone's level (Java)"
+   }
+  ],
+  "targets": "players",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "1.4.2",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Negative amounts work in Java: /xp add @s -10 levels removes levels.",
+   "Levels and points are different things - adding levels costs the real curve price, so 30 levels gives far more total XP than 30 points. Our XP calculator shows the exact math."
+  ],
+  "related": [
+   "/enchant",
+   "/gamemode"
+  ],
+  "keywords": "xp command experience levels add set query"
+ },
+ {
+  "slug": "execute",
+  "name": "/execute",
+  "syntax": "execute <as|at|positioned|rotated|facing|align|anchored|in|if|unless|store|summon> ... run <command>",
+  "syntaxBedrock": "execute <subcommands...> run <command>",
+  "summary": "Runs another command with changed context: as a different entity, at a position, in a dimension, or only if a condition is true.",
+  "description": "/execute is the most powerful command in Minecraft. It chains subcommands that change who runs the command (as), where (at, positioned), in which dimension (in), and under which conditions (if, unless), finishing with run followed by any command. It can also store results into scores, boss bars or block/item data with store. Bedrock Edition adopted the same chained syntax in 1.19.50; the old Bedrock 'execute <origin> <position> <command>' form is legacy.",
+  "examples": [
+   {
+    "code": "/execute as @e[type=zombie] at @s run setblock ~ ~-1 ~ minecraft:diamond_block",
+    "note": "Put a diamond block under every zombie"
+   },
+   {
+    "code": "/execute if block 100 64 200 minecraft:chest run say Found the chest",
+    "note": "Run /say only if there is a chest at those coordinates"
+   },
+   {
+    "code": "/execute in minecraft:the_nether positioned 0 80 0 run summon minecraft:ghast",
+    "note": "Summon a ghast in the Nether from the Overworld"
+   }
+  ],
+  "targets": "Any entity or position; @s refers to the current executor",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.13 (17w45a) / Bedrock 1.19.50",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Chain as many subcommands as you need: execute as @a at @s if block ~ ~-1 ~ grass_block run effect give @s speed 5.",
+   "/execute store result lets you capture a command's output into a scoreboard score or boss bar.",
+   "Test conditions with if/unless instead of long redstone comparators."
+  ],
+  "related": [
+   "/summon",
+   "/fill",
+   "/scoreboard"
+  ],
+  "keywords": "execute as at if unless run store chain command block"
+ },
+ {
+  "slug": "clone",
+  "name": "/clone",
+  "syntax": "clone <begin> <end> <destination> [replace|masked|filtered <filter>] [force|move|normal]",
+  "syntaxBedrock": "clone <begin: x y z> <end: x y z> <destination: x y z> [maskMode: MaskMode] [cloneMode: CloneMode]",
+  "summary": "Copies all the blocks in one region to another location.",
+  "description": "/clone duplicates a rectangular region of the world - buildings, redstone, farms - to new coordinates. The three modes control overlap behavior: normal refuses to clone onto itself, force allows overlapping copies, and move deletes the original after copying. Masked skips air blocks, replace copies everything including air, and filtered copies only the block type you name.",
+  "examples": [
+   {
+    "code": "/clone 10 60 10 20 70 20 100 60 100",
+    "note": "Copy the region between the two corners to coordinates 100 60 100"
+   },
+   {
+    "code": "/clone 10 60 10 20 70 20 100 60 100 masked move",
+    "note": "Move a building without copying its air, deleting the original"
+   },
+   {
+    "code": "/clone 0 60 0 16 70 16 32 60 32 filtered minecraft:stone_bricks",
+    "note": "Copy only the stone bricks in the region"
+   }
+  ],
+  "targets": "Block regions defined by two opposite corners",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.8 (14w03a) / Pocket v0.16.0",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "The destination is the lowest-northwest corner of the copy.",
+   "There is a volume limit (hundreds of thousands of blocks) per clone - split big builds into sections.",
+   "Combine with structure blocks or command blocks for repeatable copy-paste contraptions."
+  ],
+  "related": [
+   "/fill",
+   "/setblock",
+   "/fillbiome"
+  ],
+  "keywords": "clone copy paste move building region blocks"
+ },
+ {
+  "slug": "damage",
+  "name": "/damage",
+  "syntax": "damage <target> <amount> [<damageType>] [at <location> | by <entity> [from <cause>]]",
+  "syntaxBedrock": "damage <target: target> <amount: int> <cause: DamageCause> entity <damager: target> OR damage <target: target> <amount: int> [cause: DamageCause]",
+  "summary": "Applies a set amount of damage to entities, with an optional damage type or attacker.",
+  "description": "/damage hurts entities directly, using the game's real damage logic: armor, enchantments and resistances all apply. You choose the damage type (generic, on_fire, freeze, magic...) and optionally credit the hit to an attacker entity or a location, which matters for kill attribution, aggro and death messages.",
+  "examples": [
+   {
+    "code": "/damage @e[type=creeper,limit=1] 10",
+    "note": "Deal 5 hearts of generic damage to the nearest creeper"
+   },
+   {
+    "code": "/damage @p 6 minecraft:on_fire",
+    "note": "Deal fire damage to the nearest player"
+   },
+   {
+    "code": "/damage @e[type=zombie,limit=1] 20 minecraft:mob_attack by @s",
+    "note": "Damage a zombie as if you hit it yourself"
+   }
+  ],
+  "targets": "Any entity with health (players and mobs)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.19.4 (23w06a) / Bedrock 1.18.10",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Amount is in hit points: 2 = one heart.",
+   "Use minecraft:kill or /kill for guaranteed removal; /damage respects totems and resistance.",
+   "Bedrock calls the damage type argument cause: DamageCause."
+  ],
+  "related": [
+   "/kill",
+   "/effect",
+   "/attribute"
+  ],
+  "keywords": "damage hurt health attack entity hearts"
+ },
+ {
+  "slug": "defaultgamemode",
+  "name": "/defaultgamemode",
+  "syntax": "defaultgamemode <gamemode>",
+  "syntaxBedrock": "(Java Edition only - use world settings in Bedrock)",
+  "summary": "Sets the default game mode for new players joining a world or server.",
+  "description": "/defaultgamemode decides which game mode new players get when they join a multiplayer server or LAN world. If force-gamemode is enabled in server.properties, every player is switched to this mode on every join. It does not change the mode of players already online - use /gamemode for that.",
+  "examples": [
+   {
+    "code": "/defaultgamemode adventure",
+    "note": "New visitors spawn in adventure mode"
+   },
+   {
+    "code": "/defaultgamemode survival",
+    "note": "New players join in survival"
+   }
+  ],
+  "targets": "The world or server itself, not individual players",
+  "editions": [
+   "java"
+  ],
+  "since": "Java 1.3.1 (12w22a)",
+  "permission": "Operator level 2",
+  "tips": [
+   "Pair with force-gamemode=true in server.properties to lock everyone into one mode.",
+   "Bedrock Edition has no /defaultgamemode; set it in the world settings instead."
+  ],
+  "related": [
+   "/gamemode",
+   "/difficulty",
+   "/gamerule"
+  ],
+  "keywords": "defaultgamemode default game mode server new players"
+ },
+ {
+  "slug": "difficulty",
+  "name": "/difficulty",
+  "syntax": "difficulty [peaceful|easy|normal|hard]",
+  "syntaxBedrock": "difficulty <difficulty: Difficulty> OR difficulty <difficulty: int>",
+  "summary": "Sets or queries the world's difficulty level.",
+  "description": "/difficulty switches between peaceful, easy, normal and hard. On peaceful, hostile mobs stop spawning and players regenerate health; on hard, zombies can break wooden doors and starvation can kill. Run it with no argument to see the current difficulty. On a multiplayer server the change lasts until restart, when the difficulty in server.properties is reloaded.",
+  "examples": [
+   {
+    "code": "/difficulty hard",
+    "note": "Switch the world to hard difficulty"
+   },
+   {
+    "code": "/difficulty peaceful",
+    "note": "Remove hostile mobs and stop hunger damage"
+   },
+   {
+    "code": "/difficulty",
+    "note": "Check the current difficulty"
+   }
+  ],
+  "targets": "The whole world or server",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.4.2 (12w32a) / Pocket 1.0.5",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "In Java Hardcore mode the difficulty is locked to hard and this command cannot change it.",
+   "Switching to peaceful instantly removes most hostile mobs - switch back to restore normal spawns.",
+   "Bedrock also accepts numbers: 0 peaceful, 1 easy, 2 normal, 3 hard."
+  ],
+  "related": [
+   "/gamemode",
+   "/defaultgamemode",
+   "/gamerule"
+  ],
+  "keywords": "difficulty peaceful easy normal hard hostile mobs"
+ },
+ {
+  "slug": "gamerule",
+  "name": "/gamerule",
+  "syntax": "gamerule <rule> [<value>]",
+  "syntaxBedrock": "gamerule <rule: BoolGameRule> [value: Boolean] OR gamerule <rule: IntGameRule> [value: int]",
+  "summary": "Changes world rules like mob griefing, keep inventory, fire spread and daylight cycle.",
+  "description": "/gamerule toggles the fundamental rules of a world: whether creepers destroy blocks (mobGriefing), whether players keep items on death (keepInventory), whether fire spreads (doFireTick), the day cycle (doDaylightCycle) and dozens more. Run it with just the rule name to read the current value. Rules are saved per world.",
+  "examples": [
+   {
+    "code": "/gamerule keepInventory true",
+    "note": "Players keep their items when they die"
+   },
+   {
+    "code": "/gamerule mobGriefing false",
+    "note": "Stop creepers, endermen and ghasts from damaging blocks"
+   },
+   {
+    "code": "/gamerule doDaylightCycle false",
+    "note": "Freeze time at the current moment"
+   }
+  ],
+  "targets": "The whole world",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.4.2 (12w32a) / Pocket 1.0.5",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock); some Bedrock rules work without cheats",
+  "tips": [
+   "KeepInventory only affects deaths after it is set.",
+   "sendCommandFeedback false hides command output from other players' chat.",
+   "In Bedrock, many gamerules can also be toggled in world settings without cheats."
+  ],
+  "related": [
+   "/difficulty",
+   "/time",
+   "/weather"
+  ],
+  "keywords": "gamerule keepinventory mobgriefing dofiretick daylightcycle world rules"
+ },
+ {
+  "slug": "seed",
+  "name": "/seed",
+  "syntax": "seed",
+  "syntaxBedrock": "(Java Edition only - check world settings in Bedrock)",
+  "summary": "Displays the world seed, ready to copy.",
+  "description": "/seed prints the numeric seed your world was generated from. Anyone with the seed and the same version can recreate the same terrain. Clicking the seed in chat copies it to your clipboard. Bedrock Edition has no /seed command - open the world settings to see the seed there.",
+  "examples": [
+   {
+    "code": "/seed",
+    "note": "Show the current world's seed"
+   }
+  ],
+  "targets": "No arguments",
+  "editions": [
+   "java"
+  ],
+  "since": "Java 1.3.1 (12w21a)",
+  "permission": "None in singleplayer (level 0) / operator level 2 on servers",
+  "tips": [
+   "The seed alone does not reproduce structures exactly across different versions - terrain changes between major updates.",
+   "Use our Seeds section for famous verified seeds like pack.png.",
+   "Servers usually hide /seed from non-operators."
+  ],
+  "related": [
+   "/locate",
+   "/setworldspawn"
+  ],
+  "keywords": "seed world generation find recreate"
+ },
+ {
+  "slug": "setworldspawn",
+  "name": "/setworldspawn",
+  "syntax": "setworldspawn [<pos>] [<angle>]",
+  "syntaxBedrock": "setworldspawn [spawnPoint: x y z]",
+  "summary": "Sets the world spawn point where new players appear and compasses point.",
+  "description": "/setworldspawn moves the world's global spawn point. New players without a bed spawn there, players who die without a respawn point return there, and compasses point to it. In Java you can also set the facing angle and set the spawn in other dimensions. The usual spawn-area randomness still applies.",
+  "examples": [
+   {
+    "code": "/setworldspawn",
+    "note": "Set world spawn to where you are standing"
+   },
+   {
+    "code": "/setworldspawn 0 65 0",
+    "note": "Set world spawn to specific coordinates"
+   },
+   {
+    "code": "/setworldspawn 100 64 200 90",
+    "note": "Java: set spawn and make players face east on respawn"
+   }
+  ],
+  "targets": "The world spawn point",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.7.2 (13w43a) / Pocket v0.16.0",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "This changes spawn for everyone; use /spawnpoint for individual players.",
+   "Java's gamerule spawnRadius controls how randomly players scatter around it.",
+   "Compasses always point to the world spawn, not to beds."
+  ],
+  "related": [
+   "/spawnpoint",
+   "/seed",
+   "/gamerule"
+  ],
+  "keywords": "setworldspawn world spawn point compass respawn"
+ },
+ {
+  "slug": "schedule",
+  "name": "/schedule",
+  "syntax": "schedule function <function> <time> [append|replace] OR schedule clear <function>",
+  "syntaxBedrock": "schedule delay add <function: filepath> <time: int> [append|replace] OR schedule on_area_loaded add ... OR schedule clear <function: filepath>",
+  "summary": "Delays the execution of a function by a set amount of time or until an area loads.",
+  "description": "/schedule runs a function later instead of immediately: after N ticks or seconds (Java: tick unit with optional 's' suffix; Bedrock: delay add with a time), or when a region finishes loading (Bedrock's on_area_loaded). Use schedule clear to cancel a queued function. It is the standard way to build timers, loops and delayed events in data packs and add-ons.",
+  "examples": [
+   {
+    "code": "/schedule function mypack:open_gates 100",
+    "note": "Java: run the function in 100 ticks (5 seconds)"
+   },
+   {
+    "code": "/schedule function mypack:timer 20s",
+    "note": "Java: run in 20 seconds"
+   },
+   {
+    "code": "/schedule delay add myfunction 200",
+    "note": "Bedrock: run myfunction in 200 ticks"
+   }
+  ],
+  "targets": "Functions from data packs (Java) or behavior packs (Bedrock)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.14 (18w43a) / Bedrock 1.16.100",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "A function that schedules itself is a repeating timer - remember a way to stop it.",
+   "append queues another execution; replace (default) overwrites the pending one.",
+   "Java times are in ticks by default; add s for seconds or d for days."
+  ],
+  "related": [
+   "/function",
+   "/execute"
+  ],
+  "keywords": "schedule delay timer function datapack ticks"
+ },
+ {
+  "slug": "loot",
+  "name": "/loot",
+  "syntax": "loot <give|insert|spawn|replace> ... <fish|loot|kill|mine> ...",
+  "syntaxBedrock": "loot spawn <position: x y z> <kill <entity: target>|loot <loot_table: string>> [<tool>|mainhand|offhand]",
+  "summary": "Generates loot table drops and gives, inserts or spawns them where you choose.",
+  "description": "/loot rolls any loot table - mob drops, chest loot, fishing, block drops - and sends the result to a player, a container, the world, or an item slot. Sources include kill (an entity's drops), loot (a named loot table), fish (fishing loot at a spot) and mine (what a block would drop). It powers custom chests, random rewards and data pack loot.",
+  "examples": [
+   {
+    "code": "/loot give @s kill @e[type=cow,limit=1]",
+    "note": "Java: roll a cow's drops into your inventory"
+   },
+   {
+    "code": "/loot spawn ~ ~ ~ loot minecraft:chests/buried_treasure",
+    "note": "Java: drop buried treasure loot on the ground"
+   },
+   {
+    "code": "/loot spawn 100 64 100 kill @e[type=zombie,limit=1]",
+    "note": "Bedrock: spawn a zombie's drops at coordinates"
+   }
+  ],
+  "targets": "Players, containers, world positions or item slots",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.14 (18w43a) / Bedrock 1.18.10",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Loot tables live under minecraft:loot_tables - explore vanilla tables for ideas.",
+   "Use /loot to test your data pack's custom loot tables instantly.",
+   "The mine source respects the tool you specify, so silk touch drops work."
+  ],
+  "related": [
+   "/give",
+   "/item",
+   "/clear"
+  ],
+  "keywords": "loot table drops chest give spawn kill mine fish"
+ },
+ {
+  "slug": "fillbiome",
+  "name": "/fillbiome",
+  "syntax": "fillbiome <from> <to> <biome> [replace <filter>]",
+  "syntaxBedrock": "(Java Edition only)",
+  "summary": "Changes the biome of a 3D region, replacing grass color, weather and mob spawns.",
+  "description": "/fillbiome rewrites the biome data of a region without touching blocks. Biomes are stored in 4x4x4-block cells, so edges snap to that grid. The change affects grass and sky color, snow and rain, and which mobs spawn - a snowy patch in the plains or a warm ocean farm become possible. The replace variant only changes cells of one specific biome.",
+  "examples": [
+   {
+    "code": "/fillbiome ~-16 ~-16 ~-16 ~16 ~16 ~16 minecraft:snowy_plains",
+    "note": "Turn the area around you into snowy plains"
+   },
+   {
+    "code": "/fillbiome 0 60 0 32 80 32 minecraft:warm_ocean",
+    "note": "Make a region behave like warm ocean"
+   },
+   {
+    "code": "/fillbiome ~-32 ~-32 ~-32 ~32 ~32 ~32 minecraft:desert replace minecraft:plains",
+    "note": "Convert only the plains cells to desert"
+   }
+  ],
+  "targets": "Biome cells inside the given region",
+  "editions": [
+   "java"
+  ],
+  "since": "Java 1.19.3 (22w46a)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Changes may need a relog or chunk reload to show colors client-side.",
+   "Biome changes affect mob spawning: make a mushroom fields moat to stop hostile spawns.",
+   "Bedrock Edition has no /fillbiome."
+  ],
+  "related": [
+   "/fill",
+   "/clone",
+   "/locate"
+  ],
+  "keywords": "fillbiome change biome region grass color snow"
+ },
+ {
+  "slug": "attribute",
+  "name": "/attribute",
+  "syntax": "attribute <target> <attribute> <get|base get|base set|base reset|modifier add|modifier remove|modifier value get> ...",
+  "syntaxBedrock": "(Java Edition only)",
+  "summary": "Reads and modifies entity attributes like max health, speed, attack damage and scale.",
+  "description": "/attribute exposes the numeric stats behind every entity: generic.max_health, generic.movement_speed, generic.attack_damage, generic.scale and more. You can read values, overwrite the base value, or stack modifiers (the same system potion effects and equipment use). It is how data packs and adventure maps make custom bosses with 200 HP or double speed.",
+  "examples": [
+   {
+    "code": "/attribute @s minecraft:generic.max_health base set 40",
+    "note": "Give yourself 20 hearts permanently"
+   },
+   {
+    "code": "/attribute @e[type=zombie,limit=1] minecraft:generic.movement_speed base set 0.4",
+    "note": "Make a zombie twice as fast"
+   },
+   {
+    "code": "/attribute @s minecraft:generic.scale base set 0.5",
+    "note": "Shrink yourself to half size (Java 1.20.5+)"
+   }
+  ],
+  "targets": "One entity at a time (players, mobs, some others)",
+  "editions": [
+   "java"
+  ],
+  "since": "Java 1.16 (20w17a)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "base set persists; use base reset to restore the vanilla default.",
+   "Modifiers stack with equipment - check current totals with get.",
+   "generic.scale (1.20.5+) changes entity size, hitbox and reach together."
+  ],
+  "related": [
+   "/effect",
+   "/damage",
+   "/summon"
+  ],
+  "keywords": "attribute max health speed attack damage scale modifier stats"
+ },
+ {
+  "slug": "item",
+  "name": "/item",
+  "syntax": "item <modify|replace> <block <pos>|entity <targets>> <slot> ...",
+  "syntaxBedrock": "(Java Edition only - Bedrock uses /replaceitem)",
+  "summary": "Puts, modifies or copies items into specific inventory slots of blocks or entities.",
+  "description": "/item is the surgical tool for inventories: replace puts an exact item into a slot (a chest slot, a player's hotbar slot, armor and offhand slots), while modify applies an item modifier like a loot table function to whatever is already there. Bedrock Edition does not have /item - its equivalent is /replaceitem.",
+  "examples": [
+   {
+    "code": "/item replace entity @s weapon.mainhand with minecraft:netherite_sword",
+    "note": "Put a netherite sword in your main hand"
+   },
+   {
+    "code": "/item replace block 100 64 200 container.0 with minecraft:diamond 64",
+    "note": "Fill the first slot of a chest with a stack of diamonds"
+   },
+   {
+    "code": "/item replace entity @s armor.head with minecraft:carved_pumpkin",
+    "note": "Equip a carved pumpkin without opening the inventory"
+   }
+  ],
+  "targets": "Block containers and entity inventory slots",
+  "editions": [
+   "java"
+  ],
+  "since": "Java 1.17 (20w46a)",
+  "permission": "Cheats enabled / operator level 2",
+  "tips": [
+   "Slot names matter: container.0 to container.26 for chests, weapon.mainhand, armor.head, horse.saddle...",
+   "Combine with item components (1.20.5+) to give renamed, enchanted or unbreakable gear.",
+   "Use /item modify with item modifiers to enchant or rename items in place."
+  ],
+  "related": [
+   "/give",
+   "/loot",
+   "/clear"
+  ],
+  "keywords": "item replace modify slot inventory replaceitem"
+ },
+ {
+  "slug": "scoreboard",
+  "name": "/scoreboard",
+  "syntax": "scoreboard <objectives|players> <add|remove|list|setdisplay|set|get|add|remove|reset|operation|enable|display> ...",
+  "syntaxBedrock": "scoreboard <objectives|players> <add|remove|list|setdisplay|set|add|remove|reset|random> ...",
+  "summary": "Creates scoreboard objectives and tracks scores for players and entities.",
+  "description": "/scoreboard is the backbone of maps, minigames and server economies. An objective defines what is tracked (dummy points, deaths, mined blocks, health...), and players subcommands set, add, remove, reset and compare scores. Scores feed into /execute conditions, team displays, sidebar boards and boss bar logic.",
+  "examples": [
+   {
+    "code": "/scoreboard objectives add kills dummy",
+    "note": "Create a dummy objective called kills"
+   },
+   {
+    "code": "/scoreboard objectives setdisplay sidebar kills",
+    "note": "Show the kills objective in the sidebar"
+   },
+   {
+    "code": "/scoreboard players add @a money 100",
+    "note": "Give every player 100 money points"
+   }
+  ],
+  "targets": "Objectives (name + criteria) and score holders (players or entities)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.5 (13w04a) / Pocket 1.7.0",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "dummy objectives only change via commands - perfect for currency and timers.",
+   "Java supports many tracked criteria like minecraft.mined:minecraft.stone; Bedrock is limited to dummy.",
+   "Test scores with /execute if score @s money matches 100.."
+  ],
+  "related": [
+   "/execute",
+   "/gamerule"
+  ],
+  "keywords": "scoreboard objectives players scores points economy minigame"
+ },
+ {
+  "slug": "function",
+  "name": "/function",
+  "syntax": "function <name>",
+  "syntaxBedrock": "function <name: filepath>",
+  "summary": "Runs every command inside a function file, in order, instantly.",
+  "description": "/function executes a .mcfunction file from a data pack (Java) or behavior pack (Bedrock): a plain list of commands, one per line, run in sequence as if typed. Functions are how maps and data packs organize logic - setups, timers, events - and they accept no arguments in vanilla. Combine with /schedule for delayed or repeating runs.",
+  "examples": [
+   {
+    "code": "/function mypack:setup/arena",
+    "note": "Java: run the setup/arena function from the mypack data pack"
+   },
+   {
+    "code": "/function #mypack:tick",
+    "note": "Java: run every function in the tick tag"
+   },
+   {
+    "code": "/function events/start_game",
+    "note": "Bedrock: run the start_game function from a behavior pack"
+   }
+  ],
+  "targets": "A function file or, in Java, a function tag (#namespace:tag)",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.12 (17w18a) / Bedrock 1.8.0",
+  "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
+  "tips": [
+   "Functions live in data/<namespace>/functions/ (Java) or functions/ in a behavior pack (Bedrock).",
+   "One command per line, no leading slash; # starts a comment.",
+   "In Java, minecraft:tick and minecraft:load tags run functions automatically every tick or on load."
+  ],
+  "related": [
+   "/schedule",
+   "/execute"
+  ],
+  "keywords": "function mcfunction datapack behavior pack run commands"
+ }
 ]
