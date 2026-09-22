@@ -51,8 +51,8 @@ const jsonLd = [
         <div class="skin-grid">
           {skins.filter(s => s.category === c).map(s => (
             <div class="skin-card">
-              <a href={`/skins/${s.slug}/`} class="skin-prev"><canvas class="skinview" data-src={s.file} data-view="front" data-scale="5" width="80" height="160"></canvas></a>
-              <h3><a href={`/skins/${s.slug}/`}>{s.name}</a></h3>
+              <a href={`${lang === 'es' ? '/es/skins/' : '/skins/'}${s.slug}/`} class="skin-prev"><canvas class="skinview" data-src={s.file} data-view="front" data-scale="5" width="80" height="160"></canvas></a>
+              <h3><a href={`${lang === 'es' ? '/es/skins/' : '/skins/'}${s.slug}/`}>{s.name}</a></h3>
               <div class="skin-actions">
                 <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>⬇️ PNG</a>
                 <a class="sbtn" href={`/tools/skin-maker/?skin=${s.file}`}>🎨 {lang === 'es' ? 'Editar' : 'Edit'}</a>
