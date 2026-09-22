@@ -1,0 +1,142 @@
+{
+  "crafting-table": {
+    "station": "la cuadrícula 2x2 del inventario",
+    "howToGet": ["Pon un tronco en un hueco de crafteo para sacar 4 tablones por tronco. Golpea un árbol para conseguir troncos."],
+    "uses": ["Desbloquea la cuadrícula de crafteo 3x3 que necesitan la mayoría de recetas del juego", "Colócala en el suelo y haz clic derecho para usarla"],
+    "variants": ["Solo existe un tipo; la madera usada no cambia su aspecto"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "torch": {
+    "station": "la cuadrícula 2x2 del inventario o una mesa de crafteo",
+    "howToGet": ["Craftea 2 tablones en vertical para sacar 4 palos.", "Pica mena de carbón (común entre Y=0 e Y=320, sobre todo cerca de Y=95) o quema troncos en un horno para hacer carbón vegetal."],
+    "uses": ["Da nivel de luz 14 y evita que aparezcan mobs hostiles cerca", "Marca caminos en las cuevas", "Derrite nieve y hielo en un radio de 2 bloques"],
+    "variants": ["Antorcha de almas (palo + carbón + tierra de almas/arena de almas, más tenue, ahuyenta piglins)", "Antorcha de redstone (palo + polvo de redstone, se usa para circuitos)"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "chest": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea 2 troncos en 8 tablones."],
+    "uses": ["Guarda 27 stacks de objetos", "Dos cofres juntos forman un cofre grande de 54 huecos", "Se puede encadenar con tolvas para sistemas de clasificación de objetos"],
+    "variants": ["Cofre trampa (cofre + gancho de cuerda, emite señal de redstone)", "Cofre de ender (8 obsidiana + ojo de ender, inventario compartido entre todos los cofres de ender)", "Barril (6 tablones + 2 losas, funciona bajo bloques)"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "furnace": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Pica piedra con cualquier pico. También valen pizarra profunda y piedra negra."],
+    "uses": ["Funde menas en lingotes", "Cocina comida", "Hace carbón vegetal de troncos, cristal de arena y piedra lisa de piedra", "Combustible: carbón, carbón vegetal, cubo de lava, varas de blaze, objetos de madera"],
+    "variants": ["Alto horno (fundir menas y objetos de metal el doble de rápido)", "Ahumador (cocina comida el doble de rápido)"],
+    "editionNote": "Java y Bedrock aceptan roca, pizarra profunda y piedra negra."
+  },
+  "bed": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Esquilea ovejas con tijeras (1-3 de lana, la oveja la regenera) o craftea 4 cuerdas en 1 lana.", "Craftea un tronco en 4 tablones."],
+    "uses": ["Duerme la noche entera y pasa directamente a la mañana", "Fija tu punto de reaparición", "Explota con violencia si la usas en el Nether o el End: también sirve como arma contra el Ender Dragon y para minar escombros ancestrales"],
+    "variants": ["16 colores de tinte; el color de la lana fija el color de la cama (Java permite re-teñirla, Bedrock exige lana del color)"],
+    "editionNote": "En Java puedes re-teñir una cama con tinte; en Bedrock debes craftearla con lana de color."
+  },
+  "boat": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea 2 troncos en 8 tablones. El tipo de madera define el aspecto del barco."],
+    "uses": ["Viaje rápido por agua", "Atrapa mobs que se suben (útil para capturar aldeanos, zombis e incluso endermen)", "Evita el daño de caída al aterrizar en él"],
+    "variants": ["Barco con cofre (barco + cofre, añade 27 huecos de almacenamiento)", "Una variante por tipo de madera, más la balsa de bambú"],
+    "editionNote": "Desde la 1.19 ambas ediciones usan solo 5 tablones. Las versiones antiguas de Bedrock también pedían una pala de madera."
+  },
+  "shield": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea 2 troncos en 8 tablones.", "Funde mena de hierro (común en montañas y entre Y=16 e Y=320, con picos cerca de Y=16 e Y=232)."],
+    "uses": ["Bloquea golpes cuerpo a cuerpo, flechas y explosiones frontales al alzarlo (clic derecho)", "Bloquea el 100% del daño de la mayoría de ataques frontales; los hachas lo desactivan 5 segundos", "Se puede decorar con un estandarte"],
+    "variants": ["Cualquier diseño de estandarte aplicado por crafteo (solo Java)"],
+    "editionNote": "Aplicar estandartes a escudos solo funciona en Java Edition."
+  },
+  "bucket": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Funde mena de hierro en un horno."],
+    "uses": ["Recoge agua, lava, leche y nieve polvo", "El clásico water bucket clutch: pon agua antes de aterrizar para anular todo el daño de caída", "Transporta peces, ajolotes y renacuajos al usarlos sobre ellos", "Los cubos de lava funden 100 objetos como combustible"],
+    "variants": ["Variantes llenas: agua, lava, leche, nieve polvo y cubos con mobs acuáticos"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "anvil": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea 9 lingotes de hierro por bloque (27 en total).", "Funde mena de hierro. Hierro total necesario: 31 lingotes."],
+    "uses": ["Repara objetos conservando sus encantamientos", "Combina encantamientos de dos objetos o de un objeto y un libro encantado", "Renombra objetos", "Daña a las entidades sobre las que cae"],
+    "variants": ["Se degrada con el uso: yunque, yunque mellado, yunque dañado, y luego se rompe"],
+    "editionNote": "Receta idéntica en Java y Bedrock. La mecánica de coste de reparación varía ligeramente entre ediciones."
+  },
+  "enchanting-table": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Pica obsidiana (agua tocando lava fuente) con pico de diamante o netherita.", "Pica mena de diamante en las profundidades, más común cerca de Y=-59.", "Craftea 3 papel + 1 cuero. El papel viene de la caña de azúcar; el cuero, de las vacas."],
+    "uses": ["Aplica encantamientos aleatorios a herramientas, armas, armadura y libros usando lapislázuli y niveles de XP", "Rodearla de hasta 15 estanterías desbloquea encantamientos de nivel 30 (con un bloque de separación)"],
+    "variants": ["Sin variantes"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "campfire": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea tablones en palos.", "Pica mena de carbón o quema troncos.", "Tala cualquier árbol."],
+    "uses": ["Cocina hasta 4 alimentos a la vez sin combustible", "Nivel de luz 15", "La señal de humo sube 10 bloques (24 con una paca de heno debajo)", "Daña a los mobs que se quedan encima; se apaga con agua o una pala"],
+    "variants": ["Hoguera de almas (tierra/arena de almas en vez de carbón, luz 10, cocina igual)"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "blast-furnace": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Funde mena de hierro.", "Craftea 8 de roca.", "Funde piedra normal en un horno."],
+    "uses": ["Funde menas, metales en bruto y herramientas/armaduras de metal el doble de rápido que un horno", "Solo acepta objetos minerales fundibles: nada de comida", "Bloque de trabajo del aldeano armero"],
+    "variants": [],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "smoker": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Tala cualquier árbol.", "Craftea 8 de roca."],
+    "uses": ["Cocina comida el doble de rápido que un horno", "Solo cocina alimentos", "Bloque de trabajo del aldeano carnicero"],
+    "variants": [],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "shears": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Funde mena de hierro."],
+    "uses": ["Recoge lana de las ovejas sin matarlas (1-3 de lana)", "Recoge hojas, enredaderas, panales, telarañas y liquen luminoso como bloques", "Desactiva cuerdas trampa sin dispararlas", "Quita la calabaza a un gólem de nieve"],
+    "variants": [],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "compass": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Funde mena de hierro.", "Pica mena de redstone en las profundidades (por debajo de Y=16, sobre todo cerca de Y=-59)."],
+    "uses": ["Apunta al punto de aparición de tu mundo", "Usada en una piedra imán se convierte en brújula de piedra imán que apunta a ese bloque: funciona en cualquier dimensión", "Ingrediente para mapas y la brújula de recuperación"],
+    "variants": ["Brújula de recuperación (brújula + 8 fragmentos de eco, apunta a tu última muerte)"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "clock": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Funde mena de oro (en los badlands hay más, cerca de la superficie) o craftea con pepitas de oro que sueltan los piglins zombificados.", "Pica mena de redstone por debajo de Y=16."],
+    "uses": ["Muestra la posición del sol y la luna: dice la hora del día bajo tierra", "Gira locamente en el Nether y el End (allí no hay luz solar)", "Los piglins se sienten atraídos por los objetos de oro, relojes incluidos"],
+    "variants": [],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "ladder": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea 2 tablones en vertical para sacar 4 palos."],
+    "uses": ["Escala superficies verticales al colocarla en las caras de los bloques", "Frena el daño de caída si la agarras al caer (mantén agacharse)", "Puede contener agua como bloque anegado"],
+    "variants": ["Las enredaderas y los andamios son alternativas escalables"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "tnt": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Mata creepers, ghasts o brujas. Las granjas de creepers son la fuente estable.", "Cávala en desiertos y playas."],
+    "uses": ["Explota 4 segundos después de encenderse (mechero, redstone, fuego, explosiones)", "Limpia grandes zonas rápido para minar y terraformar", "Munición para cañones de TNT y dupers (Java)"],
+    "variants": ["Vagoneta con TNT (TNT + vagoneta, explota al impactar)"],
+    "editionNote": "Receta idéntica en Java y Bedrock; la física de la explosión varía ligeramente."
+  },
+  "bow": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea tablones en palos.", "Mata arañas, rompe telarañas con una espada o comercia con piglins."],
+    "uses": ["Dispara flechas; mantén clic derecho para tensar y ganar daño y alcance", "Los tiros a máxima tensión pueden ser críticos", "Mejores encantamientos: Poder, Infinidad, Fuego, Empuje, Irrompibilidad, Reparación"],
+    "variants": ["Ballesta (3 palos + 2 cuerdas + 1 lingote de hierro + 1 gancho de cuerda, carga y mantiene las flechas)"],
+    "editionNote": "Receta idéntica en Java y Bedrock Edition."
+  },
+  "fishing-rod": {
+    "station": "una mesa de crafteo",
+    "howToGet": ["Craftea tablones en palos.", "Mata arañas o rompe telarañas con una espada."],
+    "uses": ["Pesca peces, tesoros (libros encantados, etiquetas, monturas) y trastos del agua", "La pesca de tesoros necesita agua abierta: una zona de 5x4x5 de agua o nenúfares con aire encima", "Engancha y atrae mobs y jugadores hacia ti", "Mejores encantamientos: Suerte marina, Cebo, Irrompibilidad, Reparación"],
+    "variants": ["Caña con zanahoria (caña + zanahoria, dirige cerdos)", "Caña con hongo distorsionado (dirige striders)"],
+    "editionNote": "Receta idéntica en Java y Bedrock; las tablas de botín de pesca coinciden."
+  }
+}
