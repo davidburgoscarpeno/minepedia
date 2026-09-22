@@ -49,5 +49,95 @@
     "source": "https://minecraftathome.com/",
     "sourceName": "minecraftathome.com",
     "keywords": "1.18 panorama seed caves and cliffs title screen sunset easter egg"
+  },
+  {
+    "slug": "herobrine-screenshot",
+    "name": "Herobrine Screenshot Seed",
+    "seed": "478868574082066804",
+    "version": "Java Alpha v1.0.16_02",
+    "coords": "X=5.06, Y=71, Z=-298.54",
+    "edition": "java",
+    "story": "The world behind the most famous Minecraft creepypasta. The original 2010 Herobrine screenshot (the white-eyed 'Steve' in the fog) was a hoax, but the world was real. Minecraft@Home rebuilt the visible terrain block by block - using leaf-decay glitches, chunk borders and block texture rotations as clues - and recovered the seed in January 2021. The Minecraft Launcher later joked in its changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
+    "notes": [
+      "Only generates correctly in Alpha v1.0.16_02 (enable historical versions in the launcher)",
+      "Stand at X=5.06, Y=71, Z=-298.54 to recreate the exact screenshot view",
+      "Herobrine was never in the game: you will find the hill, the trees and the fog, nothing more",
+      "Mojang references the seed in the 15 Year Journey map's Alpha minigame"
+    ],
+    "source": "https://minecraft.wiki/w/Herobrine",
+    "sourceName": "Minecraft@Home (January 2021)",
+    "keywords": "herobrine seed screenshot 478868574082066804 alpha creepypasta famous"
+  },
+  {
+    "slug": "herobrine-livestream",
+    "name": "Herobrine Livestream Seed",
+    "seed": "3609313613745973624",
+    "version": "Java Alpha v1.0.17_04",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The seed of the Brocraft livestream where streamer Copeland 'encountered' Herobrine live in 2010, the moment the legend truly went viral. The streams themselves were lost media for 14 years until Enderboss25 recovered them in July 2024 from a viewer who had privately archived them. Copeland eventually released the original world download himself.",
+    "notes": [
+      "Generates in Alpha v1.0.17_04 (historical versions in the launcher)",
+      "The livestream was staged: the 'Herobrine' was a retextured door/painting trick",
+      "The original streams resurfaced in 2024 and are viewable again",
+      "Companion to the Herobrine screenshot seed - two different worlds, one myth"
+    ],
+    "source": "https://minecraft.wiki/w/Herobrine",
+    "sourceName": "Minecraft@Home / Enderboss25",
+    "keywords": "herobrine seed livestream brocraft copeland 3609313613745973624 alpha lost media"
+  },
+  {
+    "slug": "skull-on-fire-painting",
+    "name": "Skull on Fire Painting Seed",
+    "seed": "-6984854390176336655",
+    "version": "Java Alpha v1.1.2_01 or prior",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The world shown in 'Skull on Fire', one of Minecraft's original Kristoffer Zetterstrand paintings. For over a decade nobody knew whether the burning-skull landscape was a real place. Seed researchers proved it was: the terrain in the painting exists in Alpha terrain generation, and either of two seeds reproduces it (the second is -1044887956651363087, because Alpha worlds only use part of the seed bits).",
+    "notes": [
+      "Generates in Alpha v1.1.2_01 or earlier (historical versions in the launcher)",
+      "Two equivalent seeds: -6984854390176336655 or -1044887956651363087",
+      "The painting itself is by Kristoffer Zetterstrand, like most of Minecraft's classic art",
+      "One of the last great 'lost' Minecraft images to be reverse-engineered"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "Minecraft@Home",
+    "keywords": "skull on fire painting seed -6984854390176336655 zetterstrand alpha famous"
+  },
+  {
+    "slug": "title-panorama-113",
+    "name": "1.13 Title Screen Panorama",
+    "seed": "1458140401",
+    "version": "Java snapshot 18w22a (world seen on the 1.13 title screen)",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The warm coral-reef ocean that rotated behind the main menu during the Update Aquatic era (1.13). Fittingly, the seed was not brute-forced this time: it is simply the text '18w22a' typed into the seed box - the very snapshot the screenshot was taken in - which hashes to 1458140401.",
+    "notes": [
+      "Type 18w22a or 1458140401 - both produce the same world",
+      "Load it in any 1.13+ version; the reef spawns in warm ocean terrain",
+      "The underwater panorama was Mojang's showcase for Update Aquatic's new oceans",
+      "Same panorama family as the original and 1.18 seeds already in this list"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.13 panorama seed 1458140401 18w22a title screen update aquatic coral reef"
+  },
+  {
+    "slug": "title-panorama-119",
+    "name": "1.19 Title Screen Panorama",
+    "seed": "-1696067516",
+    "version": "Java snapshot 22w15a (world seen on the 1.19 title screen)",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The mangrove swamp panorama that welcomed players to The Wild Update (1.19). Like the 1.13 panorama, the seed hides in plain sight: type 'thewildupdate' into the seed box and the text hashes to -1696067516, the same world Mojang photographed in snapshot 22w15a.",
+    "notes": [
+      "Type thewildupdate or -1696067516 - both produce the same world",
+      "Load in 1.19+ for the mangrove swamp terrain",
+      "The panorama spotlights the then-new mangrove trees, mud and fireflies-era ambience",
+      "Text seeds are hashed with Java's String.hashCode, which is why words become numbers"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.19 panorama seed -1696067516 thewildupdate title screen mangrove swamp wild update"
   }
 ]

@@ -1,330 +1,359 @@
 [
- {
-  "slug": "village",
-  "name": "Village",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates in plains, desert, savanna, taiga, snowy plains and meadow biomes - walk and look, or use /locate structure minecraft:village_plains (each variant has its own ID)",
-   "Cartographers never map villages: exploration is the way",
-   "On Bedrock, villages are far more common than in Java"
-  ],
-  "loot": [
-   "Hay bales (9 wheat each) and farm crops",
-   "House chests: food, tools, saplings, armor",
-   "Weaponsmith chests: iron, obsidian, sometimes diamonds",
-   "Beds and workstations you can take for your own trading hall"
-  ],
-  "dangers": [
-   "Zombie sieges and pillager raids (Bad Omen)",
-   "Iron golems defend villagers - and you, if your reputation is good",
-   "Zombie villagers spawn in abandoned (zombie) villages, which have cobwebs and no doors... free curing practice"
-  ],
-  "tips": [
-   "Ring the bell to make villagers hide - and to see the village center for farm building.",
-   "Sleep before midnight on your first night: a zombie siege can wipe a village before you get to trade.",
-   "Abandoned villages (2% of villages) have no loot penalty and plenty of cobweb-string."
-  ],
-  "keywords": "village minecraft find loot bell raid zombie village"
- },
- {
-  "slug": "stronghold",
-  "name": "Stronghold",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Throw eyes of ender: they fly toward the nearest stronghold. Follow them until they start diving into the ground, then dig down",
-   "Triangulate: throw from two spots a few hundred blocks apart and walk to where the flight lines cross - saves eyes",
-   "Java: 128 strongholds generate in rings around the world origin. Bedrock: unlimited, some directly under villages"
-  ],
-  "loot": [
-   "Libraries: enchanted books (including treasure enchantments), paper and books",
-   "Corridor and altar chests: ender pearls, iron, apples, eyes of ender",
-   "The End portal room: 12 frames, each with a 10% chance to be pre-filled - expect 0-2 eyes already in place"
-  ],
-  "dangers": [
-   "Silverfish spawner in the portal room - break it or light it before activating the portal",
-   "Silverfish hide in infested stone bricks throughout the structure",
-   "Easy to get lost: place torches on one side to mark the way back"
-  ],
-  "tips": [
-   "Bring 12+ eyes of ender: some for the trip, some for the frames.",
-   "The portal room sometimes generates without a frame (rare generation bug): find another stronghold instead of raging.",
-   "Mine straight down only after digging a staircase - strongholds love to open into caves and ravines."
-  ],
-  "keywords": "stronghold find eyes of ender end portal silverfish library loot"
- },
- {
-  "slug": "ancient-city",
-  "name": "Ancient City",
-  "dimension": "Overworld (deep dark)",
-  "howToFind": [
-   "Generates in the deep dark biome around Y=-52, most often under mountains (jagged peaks, windswept hills)",
-   "Dig down from a mountain or find a deep cave that reaches deepslate levels",
-   "/locate structure minecraft:ancient_city with cheats on"
-  ],
-  "loot": [
-   "Echo shards (craft the recovery compass - points to your last death spot)",
-   "Swift Sneak enchanted books (only source in the game)",
-   "Enchanted golden apples, disc fragments (Music Disc 5), sculk catalysts",
-   "Reinforced deepslate frame in the center: unbreakable, purely decorative (no hidden portal)"
-  ],
-  "dangers": [
-   "Sculk sensors hear you walk, place and break blocks - sculk shriekers summon the Warden on the fourth warning",
-   "The Warden: 500 HP, sonic boom attack that goes through walls and armor. You are not meant to fight it",
-   "Darkness effect pulses whenever shriekers trigger"
-  ],
-  "tips": [
-   "Bring stacks of wool: walking on wool is silent, and you can wall off sensors before looting a chest.",
-   "Break every shrieker you can reach AFTER its fourth-scream cooldown resets - a shrieker can only summon one Warden per 4 screams.",
-   "If the Warden spawns: stand still, let it sniff past, and leave the way you came. It digs back down after 60 calm seconds."
-  ],
-  "keywords": "ancient city deep dark warden loot echo shard swift sneak reinforced deepslate"
- },
- {
-  "slug": "bastion-remnant",
-  "name": "Bastion Remnant",
-  "dimension": "Nether",
-  "howToFind": [
-   "Generates in every Nether biome except basalt deltas",
-   "Four types: bridges, hoglin stables, housing units and the treasure room - the treasure bastion has the giant gold-block pyramid and lava pool",
-   "/locate structure minecraft:bastion_remnant"
-  ],
-  "loot": [
-   "Netherite upgrade smithing template: guaranteed in the treasure room chest (1.20+) - you need 7 diamonds to duplicate each one",
-   "Ancient debris, netherite scraps and sometimes a netherite ingot (treasure room)",
-   "Pigstep music disc, snout banner pattern, gilded blackstone",
-   "Gold blocks by the dozen, especially in the treasure bastion"
-  ],
-  "dangers": [
-   "Piglins attack anyone without gold armor or anyone opening chests and mining gold - wear one gold piece and distract them with gold ingots dropped elsewhere",
-   "Piglin brutes: 50 HP, no fear of gold armor, huge axe damage. They do not respawn - clear them first",
-   "Magma cube spawners under the treasure bastion lava pool"
-  ],
-  "tips": [
-   "Loot chests without angering piglins: break the block under the chest, place a hopper feeding a new chest, and take the items from the hopper - piglins only get angry if you open or break the container directly.",
-   "Hoglins in the stables bastion are a free porkchop farm if you block them in.",
-   "Never dig straight down in a bastion: lava pockets and brute fall-traps are everywhere."
-  ],
-  "keywords": "bastion remnant nether loot piglin brute netherite upgrade template pigstep treasure room"
- },
- {
-  "slug": "nether-fortress",
-  "name": "Nether Fortress",
-  "dimension": "Nether",
-  "howToFind": [
-   "Generates in strips running north-south: travel east or west (X axis) and you will cross one eventually",
-   "Look for the dark nether brick bridges over lava seas - render distance high helps",
-   "/locate structure minecraft:fortress"
-  ],
-  "loot": [
-   "Nether wart growing beside stairwells - the start of all brewing",
-   "Blaze spawners: blaze rods for brewing stands and eyes of ender",
-   "Fortress chests: diamonds, saddles, gold and iron horse armor, golden swords",
-   "Wither skeleton skulls: 2.5% base drop (Java +1% per Looting level, Bedrock +2%)"
-  ],
-  "dangers": [
-   "Wither skeletons inflict Wither: your hearts turn black and drain. Milk cures it",
-   "Blazes set you on fire from range - fire resistance potions turn the fight trivial",
-   "One wrong step off a bridge into lava is the classic hardcore run ender"
-  ],
-  "tips": [
-   "Wither skeletons only spawn inside the fortress bounding box - mark it before building a skull farm.",
-   "A Looting III sword nearly doubles skull rates; bring one before committing to Wither farming.",
-   "Blaze spawners: cage the spawner with torches on all faces to pause it while you build the farm."
-  ],
-  "keywords": "nether fortress find blaze spawner wither skeleton skull nether wart loot"
- },
- {
-  "slug": "trial-chambers",
-  "name": "Trial Chambers",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Underground structures of copper and tuff, most common between Y=-20 and Y=40 in the deepslate layers",
-   "Buy a trial explorer map from a journeyman cartographer (12 emeralds + compass)",
-   "/locate structure minecraft:trial_chambers"
-  ],
-  "loot": [
-   "Vaults opened with trial keys: enchanted books, emeralds, armor trims (bolt and flow)",
-   "Ominous vaults (need ominous trial keys): the heavy core for crafting the mace, flow banner pattern",
-   "Breeze rods from breezes: wind charges and mace crafting",
-   "Music discs Precipice and Creator, pottery sherds exclusive to the chambers"
-  ],
-  "dangers": [
-   "Trial spawners scale with player count and spawn waves of breezes, bogged, slimes, silverfish and more",
-   "Breezes jump huge distances and their wind charges knock you off ledges into melee range of everything else",
-   "Bad Omen turns trial spawners ominous: better loot, much harder waves (potion-throwing, enchanted gear)"
-  ],
-  "tips": [
-   "Each player can open each vault once per structure - bring friends, everyone gets loot.",
-   "Trial spawners rest 30 minutes after a clear: the chambers are a renewable dungeon you can farm.",
-   "Bring a shield and slow-falling: wind charge knockback near the chasm rooms is the main killer."
-  ],
-  "keywords": "trial chambers 1.21 breeze vault trial key heavy core mace ominous"
- },
- {
-  "slug": "woodland-mansion",
-  "name": "Woodland Mansion",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates only in dark forest (and pale garden) biomes, often 10,000+ blocks from spawn",
-   "Buy a Woodland Explorer Map from a journeyman cartographer villager - it marks the mansion exactly",
-   "/locate structure minecraft:mansion"
-  ],
-  "loot": [
-   "Totems of undying from evokers (always drop one)",
-   "Emeralds from vindicators and evokers",
-   "Chest loot: enchanted golden apples, diamond hoe/chestplate, name tags, music discs, leads",
-   "Allays trapped in jail cells - free them",
-   "Wool, bookshelves and decorations to salvage"
-  ],
-  "dangers": [
-   "Vindicators: sprinting axe illagers whose hits disable shields",
-   "Evokers: summon vexes and fang lines - kill them first",
-   "Vexes phase through walls",
-   "Most rooms are dark: hostile mobs of every kind spawn inside during the raid"
-  ],
-  "tips": [
-   "Go at full iron+ gear with a shield, bow, food and torches; a bed outside sets your spawn.",
-   "Light every room as you clear it - the mansion is dark enough for mobs to keep spawning.",
-   "Secret rooms (no windows) hide behind walls: look for gaps in the map or torch through.",
-   "After clearing, a mansion makes a spectacular mega-base with dozens of furnished rooms."
-  ],
-  "keywords": "woodland mansion dark forest evoker vindicator totem allay explorer map"
- },
- {
-  "slug": "ocean-monument",
-  "name": "Ocean Monument",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates in deep ocean variants - look for the dark prismarine mass under water",
-   "Buy an Ocean Explorer Map from a journeyman cartographer",
-   "Dolphins lead you to ruins and shipwrecks, not monuments - use maps or /locate structure minecraft:monument"
-  ],
-  "loot": [
-   "8 gold blocks in the treasure room at the core",
-   "Wet sponges from sponge rooms (dry them in a furnace or the Nether)",
-   "Prismarine shards and crystals from guardians (sea lanterns, all prismarine variants)",
-   "Tide armor trim from elder guardians (~20%)",
-   "The monument itself: infinite prismarine, sea lanterns and dark prismarine"
-  ],
-  "dangers": [
-   "Guardians: laser beams and thorny spikes, everywhere",
-   "Three elder guardians inflict Mining Fatigue III (5 minutes) - no mining until they die",
-   "Drowning: bring water breathing, doors (Java) or a conduit plan",
-   "Deep ocean means drowned patrols above too"
-  ],
-  "tips": [
-   "Kill the three elders first: milk buckets clear Mining Fatigue.",
-   "Drink Water Breathing + Depth Strider III, or place a conduit outside the monument.",
-   "Drain it with sand walls and sponges to convert it into the classic guardian XP farm.",
-   "In Java, TNT duplicators and flying machines are the standard draining tech."
-  ],
-  "keywords": "ocean monument guardian elder sponge gold prismarine tide trim mining fatigue"
- },
- {
-  "slug": "mineshaft",
-  "name": "Abandoned Mineshaft",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates underground anywhere in the Overworld, often intersecting caves - explore cave systems and listen for cave spiders",
-   "Exposed sections appear in badlands (as dark oak, near the surface) and ocean floors",
-   "/locate structure minecraft:mineshaft"
-  ],
-  "loot": [
-   "Chest minecarts: rails, enchanted books, name tags, melon and beetroot seeds, glow berries (in lush caves), diamonds rarely",
-   "Cobwebs galore - shear them for string",
-   "Rails: strip the whole structure for hundreds of free rails",
-   "Cave spider spawners: convert into XP/string farms"
-  ],
-  "dangers": [
-   "Cave spider spawners: poison bites drain you to half a heart",
-   "Open drops and unsupported gravel ceilings",
-   "Getting lost - mineshaft corridors all look alike"
-  ],
-  "tips": [
-   "Milk or honey bottles cure cave spider poison; a shield blocks the bite.",
-   "Torch one direction only (e.g. always place on the right wall) so you can navigate back.",
-   "Badlands mineshafts are mostly open-air: free loot with daylight safety.",
-   "In Java, mineshafts float unsupported; in Bedrock they generate with support pillars - same loot."
-  ],
-  "keywords": "abandoned mineshaft cave spider rails chest minecart cobweb badlands"
- },
- {
-  "slug": "desert-temple",
-  "name": "Desert Temple (Pyramid)",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates in desert biomes, often half-buried in sand - the orange terracotta towers show above dunes",
-   "/locate structure minecraft:desert_pyramid",
-   "Desert wells and villages cluster nearby"
-  ],
-  "loot": [
-   "4 hidden chests under the floor: enchanted books, golden apples, diamonds, emeralds, horse armor, bones and rotten flesh",
-   "9 TNT blocks - mine them after disarming the trap",
-   "The temple itself: terracotta and cut sandstone for builds"
-  ],
-  "dangers": [
-   "The TNT trap: a stone pressure plate on the center floor detonates 9 TNT - enough to kill an unarmored player and destroy the chests",
-   "Hostile mobs inside the unlit treasure chamber"
-  ],
-  "tips": [
-   "NEVER step on the center plate: dig down at the chamber corner instead, or pour water from above.",
-   "Break the pressure plate first, then mine the TNT for your own use.",
-   "In Bedrock the chests generate slightly differently but the trap is identical.",
-   "For archaeology with a brush, look for desert wells and warm ocean ruins instead - temples have no suspicious blocks."
-  ],
-  "keywords": "desert temple pyramid tnt trap chests golden apple horse armor"
- },
- {
-  "slug": "jungle-temple",
-  "name": "Jungle Temple",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Generates in jungle and bamboo jungle biomes, covered in vines and mossy cobblestone",
-   "/locate structure minecraft:jungle_pyramid",
-   "Often found while parrot or bamboo hunting"
-  ],
-  "loot": [
-   "Two chests: iron, gold, diamonds, emeralds, bones, bamboo, horse armor and enchanted books",
-   "Dispensers and tripwire for your own traps",
-   "Sticky pistons and redstone from the puzzle mechanism"
-  ],
-  "dangers": [
-   "Tripwire trap: arrows fire from hidden dispensers in the entry corridor",
-   "Falls into the lower puzzle room"
-  ],
-  "tips": [
-   "The three-lever puzzle: flip the correct combination to open the secret chest room - or just mine through the wall (it is only mossy cobblestone).",
-   "Cut the tripwires with shears to reuse the string.",
-   "Cocoa beans grow on jungle trees outside - grab some while you are here."
-  ],
-  "keywords": "jungle temple puzzle levers tripwire dispensers cocoa mossy cobblestone"
- },
- {
-  "slug": "trail-ruins",
-  "name": "Trail Ruins",
-  "dimension": "Overworld",
-  "howToFind": [
-   "Buried archaeology sites in forests, taiga, old growth taiga, snowy taiga and jungle - only the terracotta tip shows above ground",
-   "/locate structure minecraft:trail_ruins",
-   "Look for exposed colored terracotta blocks in hillsides"
-  ],
-  "loot": [
-   "Suspicious gravel: brush it for pottery sherds (unique trail-ruins patterns)",
-   "Four exclusive armor trims: Host, Raiser, Shaper and Wayfinder",
-   "Dyes, wooden tools, bricks and other common archaeology drops",
-   "Colored glazed terracotta and mud bricks as building salvage"
-  ],
-  "dangers": [
-   "Gravel cave-ins while excavating",
-   "The buried structure is big - most loot sits deep underground",
-   "Creepers in the surrounding forest while you dig"
-  ],
-  "tips": [
-   "Bring a brush, shovel and patience: only the suspicious gravel blocks contain loot - brush, never mine them.",
-   "Suspicious gravel looks identical to normal gravel but falls without dropping... it behaves like gravel with gravity; mark it before the pit collapses.",
-   "Excavate in a grid: the full site stretches 30+ blocks and much is under stone.",
-   "Each armor trim drops rarely - expect to clear several sites for the full set."
-  ],
-  "keywords": "trail ruins archaeology brush suspicious gravel pottery sherds armor trims host raiser shaper wayfinder"
- }
+  {
+    "slug": "village",
+    "name": "Village",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in plains, desert, savanna, taiga, snowy plains and meadow biomes - walk and look, or use /locate structure minecraft:village_plains (each variant has its own ID)",
+      "Cartographers never map villages: exploration is the way",
+      "On Bedrock, villages are far more common than in Java"
+    ],
+    "loot": [
+      "Hay bales (9 wheat each) and farm crops",
+      "House chests: food, tools, saplings, armor",
+      "Weaponsmith chests: iron, obsidian, sometimes diamonds",
+      "Beds and workstations you can take for your own trading hall"
+    ],
+    "dangers": [
+      "Zombie sieges and pillager raids (Bad Omen)",
+      "Iron golems defend villagers - and you, if your reputation is good",
+      "Zombie villagers spawn in abandoned (zombie) villages, which have cobwebs and no doors... free curing practice"
+    ],
+    "tips": [
+      "Ring the bell to make villagers hide - and to see the village center for farm building.",
+      "Sleep before midnight on your first night: a zombie siege can wipe a village before you get to trade.",
+      "Abandoned villages (2% of villages) have no loot penalty and plenty of cobweb-string."
+    ],
+    "keywords": "village minecraft find loot bell raid zombie village"
+  },
+  {
+    "slug": "stronghold",
+    "name": "Stronghold",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Throw eyes of ender: they fly toward the nearest stronghold. Follow them until they start diving into the ground, then dig down",
+      "Triangulate: throw from two spots a few hundred blocks apart and walk to where the flight lines cross - saves eyes",
+      "Java: 128 strongholds generate in rings around the world origin. Bedrock: unlimited, some directly under villages"
+    ],
+    "loot": [
+      "Libraries: enchanted books (including treasure enchantments), paper and books",
+      "Corridor and altar chests: ender pearls, iron, apples, eyes of ender",
+      "The End portal room: 12 frames, each with a 10% chance to be pre-filled - expect 0-2 eyes already in place"
+    ],
+    "dangers": [
+      "Silverfish spawner in the portal room - break it or light it before activating the portal",
+      "Silverfish hide in infested stone bricks throughout the structure",
+      "Easy to get lost: place torches on one side to mark the way back"
+    ],
+    "tips": [
+      "Bring 12+ eyes of ender: some for the trip, some for the frames.",
+      "The portal room sometimes generates without a frame (rare generation bug): find another stronghold instead of raging.",
+      "Mine straight down only after digging a staircase - strongholds love to open into caves and ravines."
+    ],
+    "keywords": "stronghold find eyes of ender end portal silverfish library loot"
+  },
+  {
+    "slug": "ancient-city",
+    "name": "Ancient City",
+    "dimension": "Overworld (deep dark)",
+    "howToFind": [
+      "Generates in the deep dark biome around Y=-52, most often under mountains (jagged peaks, windswept hills)",
+      "Dig down from a mountain or find a deep cave that reaches deepslate levels",
+      "/locate structure minecraft:ancient_city with cheats on"
+    ],
+    "loot": [
+      "Echo shards (craft the recovery compass - points to your last death spot)",
+      "Swift Sneak enchanted books (only source in the game)",
+      "Enchanted golden apples, disc fragments (Music Disc 5), sculk catalysts",
+      "Reinforced deepslate frame in the center: unbreakable, purely decorative (no hidden portal)"
+    ],
+    "dangers": [
+      "Sculk sensors hear you walk, place and break blocks - sculk shriekers summon the Warden on the fourth warning",
+      "The Warden: 500 HP, sonic boom attack that goes through walls and armor. You are not meant to fight it",
+      "Darkness effect pulses whenever shriekers trigger"
+    ],
+    "tips": [
+      "Bring stacks of wool: walking on wool is silent, and you can wall off sensors before looting a chest.",
+      "Break every shrieker you can reach AFTER its fourth-scream cooldown resets - a shrieker can only summon one Warden per 4 screams.",
+      "If the Warden spawns: stand still, let it sniff past, and leave the way you came. It digs back down after 60 calm seconds."
+    ],
+    "keywords": "ancient city deep dark warden loot echo shard swift sneak reinforced deepslate"
+  },
+  {
+    "slug": "bastion-remnant",
+    "name": "Bastion Remnant",
+    "dimension": "Nether",
+    "howToFind": [
+      "Generates in every Nether biome except basalt deltas",
+      "Four types: bridges, hoglin stables, housing units and the treasure room - the treasure bastion has the giant gold-block pyramid and lava pool",
+      "/locate structure minecraft:bastion_remnant"
+    ],
+    "loot": [
+      "Netherite upgrade smithing template: guaranteed in the treasure room chest (1.20+) - you need 7 diamonds to duplicate each one",
+      "Ancient debris, netherite scraps and sometimes a netherite ingot (treasure room)",
+      "Pigstep music disc, snout banner pattern, gilded blackstone",
+      "Gold blocks by the dozen, especially in the treasure bastion"
+    ],
+    "dangers": [
+      "Piglins attack anyone without gold armor or anyone opening chests and mining gold - wear one gold piece and distract them with gold ingots dropped elsewhere",
+      "Piglin brutes: 50 HP, no fear of gold armor, huge axe damage. They do not respawn - clear them first",
+      "Magma cube spawners under the treasure bastion lava pool"
+    ],
+    "tips": [
+      "Loot chests without angering piglins: break the block under the chest, place a hopper feeding a new chest, and take the items from the hopper - piglins only get angry if you open or break the container directly.",
+      "Hoglins in the stables bastion are a free porkchop farm if you block them in.",
+      "Never dig straight down in a bastion: lava pockets and brute fall-traps are everywhere."
+    ],
+    "keywords": "bastion remnant nether loot piglin brute netherite upgrade template pigstep treasure room"
+  },
+  {
+    "slug": "nether-fortress",
+    "name": "Nether Fortress",
+    "dimension": "Nether",
+    "howToFind": [
+      "Generates in strips running north-south: travel east or west (X axis) and you will cross one eventually",
+      "Look for the dark nether brick bridges over lava seas - render distance high helps",
+      "/locate structure minecraft:fortress"
+    ],
+    "loot": [
+      "Nether wart growing beside stairwells - the start of all brewing",
+      "Blaze spawners: blaze rods for brewing stands and eyes of ender",
+      "Fortress chests: diamonds, saddles, gold and iron horse armor, golden swords",
+      "Wither skeleton skulls: 2.5% base drop (Java +1% per Looting level, Bedrock +2%)"
+    ],
+    "dangers": [
+      "Wither skeletons inflict Wither: your hearts turn black and drain. Milk cures it",
+      "Blazes set you on fire from range - fire resistance potions turn the fight trivial",
+      "One wrong step off a bridge into lava is the classic hardcore run ender"
+    ],
+    "tips": [
+      "Wither skeletons only spawn inside the fortress bounding box - mark it before building a skull farm.",
+      "A Looting III sword nearly doubles skull rates; bring one before committing to Wither farming.",
+      "Blaze spawners: cage the spawner with torches on all faces to pause it while you build the farm."
+    ],
+    "keywords": "nether fortress find blaze spawner wither skeleton skull nether wart loot"
+  },
+  {
+    "slug": "trial-chambers",
+    "name": "Trial Chambers",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Underground structures of copper and tuff, most common between Y=-20 and Y=40 in the deepslate layers",
+      "Buy a trial explorer map from a journeyman cartographer (12 emeralds + compass)",
+      "/locate structure minecraft:trial_chambers"
+    ],
+    "loot": [
+      "Vaults opened with trial keys: enchanted books, emeralds, armor trims (bolt and flow)",
+      "Ominous vaults (need ominous trial keys): the heavy core for crafting the mace, flow banner pattern",
+      "Breeze rods from breezes: wind charges and mace crafting",
+      "Music discs Precipice and Creator, pottery sherds exclusive to the chambers"
+    ],
+    "dangers": [
+      "Trial spawners scale with player count and spawn waves of breezes, bogged, slimes, silverfish and more",
+      "Breezes jump huge distances and their wind charges knock you off ledges into melee range of everything else",
+      "Bad Omen turns trial spawners ominous: better loot, much harder waves (potion-throwing, enchanted gear)"
+    ],
+    "tips": [
+      "Each player can open each vault once per structure - bring friends, everyone gets loot.",
+      "Trial spawners rest 30 minutes after a clear: the chambers are a renewable dungeon you can farm.",
+      "Bring a shield and slow-falling: wind charge knockback near the chasm rooms is the main killer."
+    ],
+    "keywords": "trial chambers 1.21 breeze vault trial key heavy core mace ominous"
+  },
+  {
+    "slug": "woodland-mansion",
+    "name": "Woodland Mansion",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates only in dark forest (and pale garden) biomes, often 10,000+ blocks from spawn",
+      "Buy a Woodland Explorer Map from a journeyman cartographer villager - it marks the mansion exactly",
+      "/locate structure minecraft:mansion"
+    ],
+    "loot": [
+      "Totems of undying from evokers (always drop one)",
+      "Emeralds from vindicators and evokers",
+      "Chest loot: enchanted golden apples, diamond hoe/chestplate, name tags, music discs, leads",
+      "Allays trapped in jail cells - free them",
+      "Wool, bookshelves and decorations to salvage"
+    ],
+    "dangers": [
+      "Vindicators: sprinting axe illagers whose hits disable shields",
+      "Evokers: summon vexes and fang lines - kill them first",
+      "Vexes phase through walls",
+      "Most rooms are dark: hostile mobs of every kind spawn inside during the raid"
+    ],
+    "tips": [
+      "Go at full iron+ gear with a shield, bow, food and torches; a bed outside sets your spawn.",
+      "Light every room as you clear it - the mansion is dark enough for mobs to keep spawning.",
+      "Secret rooms (no windows) hide behind walls: look for gaps in the map or torch through.",
+      "After clearing, a mansion makes a spectacular mega-base with dozens of furnished rooms."
+    ],
+    "keywords": "woodland mansion dark forest evoker vindicator totem allay explorer map"
+  },
+  {
+    "slug": "ocean-monument",
+    "name": "Ocean Monument",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in deep ocean variants - look for the dark prismarine mass under water",
+      "Buy an Ocean Explorer Map from a journeyman cartographer",
+      "Dolphins lead you to ruins and shipwrecks, not monuments - use maps or /locate structure minecraft:monument"
+    ],
+    "loot": [
+      "8 gold blocks in the treasure room at the core",
+      "Wet sponges from sponge rooms (dry them in a furnace or the Nether)",
+      "Prismarine shards and crystals from guardians (sea lanterns, all prismarine variants)",
+      "Tide armor trim from elder guardians (~20%)",
+      "The monument itself: infinite prismarine, sea lanterns and dark prismarine"
+    ],
+    "dangers": [
+      "Guardians: laser beams and thorny spikes, everywhere",
+      "Three elder guardians inflict Mining Fatigue III (5 minutes) - no mining until they die",
+      "Drowning: bring water breathing, doors (Java) or a conduit plan",
+      "Deep ocean means drowned patrols above too"
+    ],
+    "tips": [
+      "Kill the three elders first: milk buckets clear Mining Fatigue.",
+      "Drink Water Breathing + Depth Strider III, or place a conduit outside the monument.",
+      "Drain it with sand walls and sponges to convert it into the classic guardian XP farm.",
+      "In Java, TNT duplicators and flying machines are the standard draining tech."
+    ],
+    "keywords": "ocean monument guardian elder sponge gold prismarine tide trim mining fatigue"
+  },
+  {
+    "slug": "mineshaft",
+    "name": "Abandoned Mineshaft",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates underground anywhere in the Overworld, often intersecting caves - explore cave systems and listen for cave spiders",
+      "Exposed sections appear in badlands (as dark oak, near the surface) and ocean floors",
+      "/locate structure minecraft:mineshaft"
+    ],
+    "loot": [
+      "Chest minecarts: rails, enchanted books, name tags, melon and beetroot seeds, glow berries (in lush caves), diamonds rarely",
+      "Cobwebs galore - shear them for string",
+      "Rails: strip the whole structure for hundreds of free rails",
+      "Cave spider spawners: convert into XP/string farms"
+    ],
+    "dangers": [
+      "Cave spider spawners: poison bites drain you to half a heart",
+      "Open drops and unsupported gravel ceilings",
+      "Getting lost - mineshaft corridors all look alike"
+    ],
+    "tips": [
+      "Milk or honey bottles cure cave spider poison; a shield blocks the bite.",
+      "Torch one direction only (e.g. always place on the right wall) so you can navigate back.",
+      "Badlands mineshafts are mostly open-air: free loot with daylight safety.",
+      "In Java, mineshafts float unsupported; in Bedrock they generate with support pillars - same loot."
+    ],
+    "keywords": "abandoned mineshaft cave spider rails chest minecart cobweb badlands"
+  },
+  {
+    "slug": "desert-temple",
+    "name": "Desert Temple (Pyramid)",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in desert biomes, often half-buried in sand - the orange terracotta towers show above dunes",
+      "/locate structure minecraft:desert_pyramid",
+      "Desert wells and villages cluster nearby"
+    ],
+    "loot": [
+      "4 hidden chests under the floor: enchanted books, golden apples, diamonds, emeralds, horse armor, bones and rotten flesh",
+      "9 TNT blocks - mine them after disarming the trap",
+      "The temple itself: terracotta and cut sandstone for builds"
+    ],
+    "dangers": [
+      "The TNT trap: a stone pressure plate on the center floor detonates 9 TNT - enough to kill an unarmored player and destroy the chests",
+      "Hostile mobs inside the unlit treasure chamber"
+    ],
+    "tips": [
+      "NEVER step on the center plate: dig down at the chamber corner instead, or pour water from above.",
+      "Break the pressure plate first, then mine the TNT for your own use.",
+      "In Bedrock the chests generate slightly differently but the trap is identical.",
+      "For archaeology with a brush, look for desert wells and warm ocean ruins instead - temples have no suspicious blocks."
+    ],
+    "keywords": "desert temple pyramid tnt trap chests golden apple horse armor"
+  },
+  {
+    "slug": "jungle-temple",
+    "name": "Jungle Temple",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in jungle and bamboo jungle biomes, covered in vines and mossy cobblestone",
+      "/locate structure minecraft:jungle_pyramid",
+      "Often found while parrot or bamboo hunting"
+    ],
+    "loot": [
+      "Two chests: iron, gold, diamonds, emeralds, bones, bamboo, horse armor and enchanted books",
+      "Dispensers and tripwire for your own traps",
+      "Sticky pistons and redstone from the puzzle mechanism"
+    ],
+    "dangers": [
+      "Tripwire trap: arrows fire from hidden dispensers in the entry corridor",
+      "Falls into the lower puzzle room"
+    ],
+    "tips": [
+      "The three-lever puzzle: flip the correct combination to open the secret chest room - or just mine through the wall (it is only mossy cobblestone).",
+      "Cut the tripwires with shears to reuse the string.",
+      "Cocoa beans grow on jungle trees outside - grab some while you are here."
+    ],
+    "keywords": "jungle temple puzzle levers tripwire dispensers cocoa mossy cobblestone"
+  },
+  {
+    "slug": "trail-ruins",
+    "name": "Trail Ruins",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Buried archaeology sites in forests, taiga, old growth taiga, snowy taiga and jungle - only the terracotta tip shows above ground",
+      "/locate structure minecraft:trail_ruins",
+      "Look for exposed colored terracotta blocks in hillsides"
+    ],
+    "loot": [
+      "Suspicious gravel: brush it for pottery sherds (unique trail-ruins patterns)",
+      "Four exclusive armor trims: Host, Raiser, Shaper and Wayfinder",
+      "Dyes, wooden tools, bricks and other common archaeology drops",
+      "Colored glazed terracotta and mud bricks as building salvage"
+    ],
+    "dangers": [
+      "Gravel cave-ins while excavating",
+      "The buried structure is big - most loot sits deep underground",
+      "Creepers in the surrounding forest while you dig"
+    ],
+    "tips": [
+      "Bring a brush, shovel and patience: only the suspicious gravel blocks contain loot - brush, never mine them.",
+      "Suspicious gravel looks identical to normal gravel but falls without dropping... it behaves like gravel with gravity; mark it before the pit collapses.",
+      "Excavate in a grid: the full site stretches 30+ blocks and much is under stone.",
+      "Each armor trim drops rarely - expect to clear several sites for the full set."
+    ],
+    "keywords": "trail ruins archaeology brush suspicious gravel pottery sherds armor trims host raiser shaper wayfinder"
+  },
+  {
+    "slug": "abandoned-camp",
+    "name": "Abandoned Camp",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in 18 surface biomes, including dappled forests (usually with a poplar tree) - look for a white wool tent with a campfire",
+      "One generation attempt per 34x34-chunk region, so camps sit 8-60 chunks apart (34 on average)",
+      "Explorer maps found inside camp chests point to other abandoned camps, trial chambers and ancient cities",
+      "/locate structure minecraft:abandoned_camp"
+    ],
+    "loot": [
+      "Barrels and chests: straw beds, white cushions, wheat, bread, coal, leather, arrows, string, bones, rabbit hide, glass bottles, white candles and cobwebs",
+      "Wooden tools, fishing rods and bundles",
+      "Explorer maps leading to other camps and to major structures",
+      "Rare oxidized copper chest with better loot, often hidden under other blocks"
+    ],
+    "dangers": [
+      "Nothing spawns inside - it is one of the safest structures in the game",
+      "Just the usual night mobs around the camp while you loot"
+    ],
+    "tips": [
+      "The tents are built from wool stairs: free early-game wool if you dismantle one.",
+      "Tent fences and details change per biome (a pale garden camp uses pale oak fences) - with 10 tent variants per biome and 49 campsite variants, there are 8,820 possible layouts.",
+      "Check under and behind blocks for the rare copper chest before leaving.",
+      "Chain the explorer maps: a camp map can start a trail that ends at a trial chambers or an ancient city.",
+      "Straw beds and cushions looted here are the fastest way to try the 26.3 furniture blocks."
+    ],
+    "keywords": "abandoned camp structure 26.3 wilderness bound explorer map tent straw bed cushion copper chest"
+  }
 ]

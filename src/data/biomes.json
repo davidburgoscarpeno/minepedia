@@ -1,664 +1,729 @@
 [
- {
-  "slug": "plains",
-  "name": "Plains",
-  "category": "Overworld (temperate)",
-  "description": "Flat grassland with few trees - the classic starter biome and the easiest place to build, farm and find your first village.",
-  "resources": [
-   "Oak wood (scattered trees, often with beehives near flowers)",
-   "Hay bales in villages (9 wheat each)",
-   "Horses and donkeys for early mounts",
-   "Village loot: beds, food, iron gear, obsidian in weapon smith chests"
-  ],
-  "mobs": [
-   "Horses, donkeys, sheep, cows, pigs",
-   "Pillager patrols and outposts",
-   "Standard hostile mobs at night"
-  ],
-  "structures": [
-   "Plains villages",
-   "Pillager outposts"
-  ],
-  "whyGo": [
-   "Best biome to start a world: flat building space, animals everywhere and a village head start",
-   "Horse breeding and taming",
-   "Bee farming: plains trees near flowers have a 5% chance to generate with a bee nest"
-  ],
-  "tips": [
-   "Mark village coordinates early - they are your first bed, food and trading post.",
-   "Lava pools generate exposed in plains: free obsidian and nether portal access before diamonds."
-  ],
-  "keywords": "plains biome village horses bees starter"
- },
- {
-  "slug": "desert",
-  "name": "Desert",
-  "category": "Overworld (dry/warm)",
-  "description": "Endless sand, cacti and dead bushes. No rain ever falls, and the pyramids hide some of the best early-game loot in the Overworld.",
-  "resources": [
-   "Sand and sandstone for glass and building",
-   "Cactus for green dye and defensive walls",
-   "Dead bushes drop sticks",
-   "Fossils generate underground (bone blocks)",
-   "Suspicious sand in pyramids and wells for archaeology (1.20+)"
-  ],
-  "mobs": [
-   "Husks (80% of surface zombies - they do not burn in daylight and inflict Hunger)",
-   "Camels in desert villages (1.20+)",
-   "Rabbits"
-  ],
-  "structures": [
-   "Desert pyramids (4 loot chests + 9 TNT trap)",
-   "Desert villages",
-   "Desert wells (archaeology)"
-  ],
-  "whyGo": [
-   "Desert pyramids: golden apples, enchanted books, diamonds and horse armor in 4 chests - dig the side, never the center pressure plate",
-   "Gold-level loot without going to the Nether",
-   "Open terrain with no rain: clear visibility for building mega-projects"
-  ],
-  "tips": [
-   "In pyramids, mine down the side wall to the chest level - the center TNT trap destroys the loot.",
-   "Husks ignore sunlight: bring a shield at dawn."
-  ],
-  "keywords": "desert biome pyramid temple loot camel husk archaeology"
- },
- {
-  "slug": "jungle",
-  "name": "Jungle",
-  "category": "Overworld (lush)",
-  "description": "Dense rainforest with giant trees, bamboo and vines. Hard to move through, but packed with resources that exist nowhere else.",
-  "resources": [
-   "Jungle wood, bamboo, cocoa beans, vines and melons",
-   "Jungle temple loot and suspicious gravel (archaeology)",
-   "Ocelots, parrots and pandas",
-   "Moss carpets and glow berries in lush caves below"
-  ],
-  "mobs": [
-   "Pandas (bamboo jungle variant)",
-   "Ocelots",
-   "Parrots (tameable with seeds)",
-   "Standard hostile mobs under the canopy"
-  ],
-  "structures": [
-   "Jungle temples (arrow traps, puzzle chest, loot)"
-  ],
-  "whyGo": [
-   "Only biome with pandas and cocoa beans",
-   "Bamboo for scaffolding - the builder's essential block",
-   "Parrots mimic nearby mob sounds: a living mob radar"
-  ],
-  "tips": [
-   "Jungle temples: defuse the tripwire arrows before touching the chests. The hidden chest behind the lever puzzle can also be reached by simply mining through the wall.",
-   "Travel on the canopy, not the floor - it is twice as fast."
-  ],
-  "keywords": "jungle biome temple panda parrot bamboo cocoa ocelot"
- },
- {
-  "slug": "badlands",
-  "name": "Badlands",
-  "category": "Overworld (dry/warm)",
-  "description": "Colorful terracotta mesas and red sand canyons. The best gold-mining biome in the Overworld, with mineshafts exposed on the surface.",
-  "resources": [
-   "Terracotta in every color (free, unlimited building material)",
-   "Red sand and red sandstone",
-   "Gold ore generates much more often and higher up (extra veins between Y=32 and Y=256)",
-   "Surface mineshafts with dark oak supports and exposed chest minecarts"
-  ],
-  "mobs": [
-   "Standard hostile mobs in caves and at night",
-   "No unique hostile mobs; husks do not spawn here (it is not a desert)"
-  ],
-  "structures": [
-   "Exposed mineshafts",
-   "No villages or outposts generate naturally"
-  ],
-  "whyGo": [
-   "Gold without the Nether: mineshaft hopping in badlands is the fastest Overworld gold",
-   "Terracotta farming for builders - bring a shovel and a silk touch pickaxe",
-   "Eroded badlands (the spiky variant) are one of the most scenic build locations"
-  ],
-  "tips": [
-   "Mineshaft chest minecarts here contain gold, iron, enchanted books and name tags.",
-   "No rain and no snow - fire spread is your main hazard near the wooded variant."
-  ],
-  "keywords": "badlands mesa biome gold mineshaft terracotta red sand"
- },
- {
-  "slug": "mushroom-fields",
-  "name": "Mushroom Fields",
-  "category": "Overworld (rare island)",
-  "description": "A rare island biome covered in mycelium and giant mushrooms. Hostile mobs cannot spawn here naturally - the safest biome in the game.",
-  "resources": [
-   "Mooshrooms: infinite mushroom stew with a bowl, and milk them for mushroom stew or suspicious stew",
-   "Mycelium and giant mushroom blocks (silk touch)",
-   "Red and brown mushrooms"
-  ],
-  "mobs": [
-   "Mooshrooms only - no hostile mobs spawn naturally, ever",
-   "Monster spawners and raid spawns still work, so light is not the reason - it is biome-level"
-  ],
-  "structures": [
-   "No structures generate naturally"
-  ],
-  "whyGo": [
-   "Build a base with zero mob-proofing: phantoms and patrols can still visit, but nothing spawns on the island",
-   "Mooshroom farming for unlimited food",
-   "The ultimate hardcore-mode home base"
-  ],
-  "tips": [
-   "Bring dirt and saplings: no grass or trees generate here, and mycelium cannot grow most crops.",
-   "Phantoms still spawn above you at night - sleep or carry a cat."
-  ],
-  "keywords": "mushroom fields island mooshroom mycelium no mobs safe biome"
- },
- {
-  "slug": "cherry-grove",
-  "name": "Cherry Grove",
-  "category": "Overworld (mountain)",
-  "description": "Pink cherry blossom forests on mountain slopes, added in 1.20. Beautiful, peaceful and the only source of cherry wood.",
-  "resources": [
-   "Cherry logs and saplings (pink wood set)",
-   "Pink petals (renewable ground cover, bone-mealable)",
-   "Bee nests: cherry trees have a 5% chance to generate with a nest",
-   "Emerald ore below (it is a mountain biome)"
-  ],
-  "mobs": [
-   "Sheep, pigs, rabbits",
-   "Bees",
-   "Standard hostile mobs at night"
-  ],
-  "structures": [
-   "No structures generate naturally"
-  ],
-  "whyGo": [
-   "The pink wood set - the most wanted building palette of recent versions",
-   "Pink petals for decoration, renewable with bone meal",
-   "Usually generates next to mountains: combine the visit with emerald and coal hunting on the slopes"
-  ],
-  "tips": [
-   "Cherry groves often hide inside mountain rings with villages at the base - classic screenshot seeds.",
-   "Shear the leaves: they drop pink petals as you break them."
-  ],
-  "keywords": "cherry grove blossom biome pink wood petals 1.20"
- },
- {
-  "slug": "deep-dark",
-  "name": "Deep Dark",
-  "category": "Overworld (cave)",
-  "description": "A sculk-infested cave biome below Y=0, usually under mountains. No mobs spawn naturally - except the Warden you summon yourself.",
-  "resources": [
-   "Ancient cities: the best loot tables in the Overworld (echo shards, swift sneak, enchanted golden apples, disc fragments)",
-   "Sculk blocks for XP farms (sculk catalysts convert mob deaths into XP-storing sculk)",
-   "Deepslate and the ore veins around Y=-59"
-  ],
-  "mobs": [
-   "The Warden (summoned by sculk shriekers - 500 HP, kills through netherite)",
-   "Nothing else spawns naturally"
-  ],
-  "structures": [
-   "Ancient cities"
-  ],
-  "whyGo": [
-   "Ancient city loot: Swift Sneak leggings enchantment exists nowhere else",
-   "Sculk catalyst farming for XP storage",
-   "The ultimate stealth challenge"
-  ],
-  "tips": [
-   "Bring wool: walking on wool and placing wool around sensors makes you silent. Swift Sneak III changes everything.",
-   "Shriekers need 4 activations (within 10 minutes) to summon a Warden - break them after every mistake instead of running."
-  ],
-  "keywords": "deep dark biome ancient city warden sculk shrieker swift sneak"
- },
- {
-  "slug": "swamp",
-  "name": "Swamp",
-  "category": "Overworld (temperate)",
-  "description": "Shallow water, lily pads and oak trees draped in vines. The only biome where slimes spawn on the surface and witches live in huts.",
-  "resources": [
-   "Slimeballs from surface slimes (spawn rates peak at full moon)",
-   "Witch huts (cat and witch spawns, crafting table + cauldron)",
-   "Blue orchids, lily pads, vines and clay disks",
-   "Mangrove swamp variant: mangrove wood, mud and frogs"
-  ],
-  "mobs": [
-   "Slimes at night (light below 8, Y 51-69, moon-dependent)",
-   "Witches in huts; bogged (poison-arrow skeletons) in swamps and mangroves (1.21)",
-   "Frogs and tadpoles (mangrove variant)"
-  ],
-  "structures": [
-   "Witch huts",
-   "Fossils generate underground"
-  ],
-  "whyGo": [
-   "Surface slimeballs without digging to Y=40 - wait for full moon nights",
-   "Frogs for froglights (feed them small magma cubes)",
-   "Mud and mangrove wood palettes from the mangrove variant"
-  ],
-  "tips": [
-   "Slime rates are zero at new moon - check the moon before an AFK session.",
-   "Witch huts make compact witch farms (redstone, glowstone, gunpowder) with a small spawn volume."
-  ],
-  "keywords": "swamp biome slime witch hut moon frog mangrove bogged"
- },
- {
-  "slug": "taiga",
-  "name": "Taiga",
-  "category": "Overworld (cold)",
-  "description": "Spruce forests with ferns, sweet berry bushes and podzol. Home of wolves, foxes and cozy log-cabin terrain.",
-  "resources": [
-   "Spruce wood (2x2 giant spruce variant in old-growth taiga)",
-   "Sweet berries (food and fox bait)",
-   "Podzol (grows mushrooms at any light)",
-   "Mossy cobblestone boulders"
-  ],
-  "mobs": [
-   "Wolves (tameable with bones)",
-   "Foxes (trust players who sneak-feed them sweet berries)",
-   "Rabbits",
-   "Taiga village villagers"
-  ],
-  "structures": [
-   "Taiga villages",
-   "Pillager outposts",
-   "Trail ruins (archaeology, 1.20+)"
-  ],
-  "whyGo": [
-   "Tame a wolf pack early - they fight for you",
-   "Foxes carry items in their mouths, including totems and swords",
-   "Old-growth taiga gives giant spruce: massive wood volume per tree"
-  ],
-  "tips": [
-   "Wolves teleport to you - tame 5+ and you have a mobile bodyguard.",
-   "Sweet berry bushes damage and slow anything that walks through them: free defensive hedges."
-  ],
-  "keywords": "taiga biome wolf fox sweet berries spruce village"
- },
- {
-  "slug": "windswept-hills",
-  "name": "Windswept Hills",
-  "category": "Overworld (mountain)",
-  "description": "Steep, broken mountains with exposed stone and floating ledges. The only Overworld biome family with emerald ore and surface coal and iron in bulk.",
-  "resources": [
-   "Emerald ore (mountain biomes only, Y=-16 to Y=320, most around Y=232)",
-   "Exposed coal and iron ore on cliff faces",
-   "Infested stone (silverfish) below Y=0 - mine carefully",
-   "Goats on jagged and frozen peaks (ram horns, 1.19+)"
-  ],
-  "mobs": [
-   "Goats (they ram players - keep distance on ledges)",
-   "Llamas",
-   "Silverfish from infested blocks"
-  ],
-  "structures": [
-   "No structures generate naturally (villages can appear in valleys below)"
-  ],
-  "whyGo": [
-   "Emeralds for villager trading without raiding chests",
-   "Fastest early-game coal and iron: everything is exposed on the cliffs",
-   "Goat horns for signaling on multiplayer"
-  ],
-  "tips": [
-   "Powder snow on frozen peaks sinks you and freezes you - leather boots let you walk on top.",
-   "Falling is the main killer: bring a water bucket or Feather Falling boots before serious mining."
-  ],
-  "keywords": "windswept hills mountains biome emerald ore goat powder snow"
- },
- {
-  "slug": "forest",
-  "name": "Forest",
-  "category": "Overworld (temperate)",
-  "description": "Dense oak and birch woodland - the classic tree farm biome with flowers, wolves and the occasional beehive.",
-  "resources": [
-   "Oak and birch wood in large quantities",
-   "Wolves (tame them for skeleton protection)",
-   "Beehives on oaks near flowers",
-   "Mushrooms in dark patches under the canopy"
-  ],
-  "mobs": [
-   "Wolves, sheep, pigs, cows, chickens",
-   "Rabbits",
-   "Standard hostile mobs at night, hidden by the trees"
-  ],
-  "structures": [
-   "No exclusive structures; ruined portals and villages generate at edges"
-  ],
-  "whyGo": [
-   "Reliable early-game wood and your first wolves. Flower forests nearby offer every dye you will ever need."
-  ],
-  "tips": [
-   "Thin the canopy as you chop - mobs survive the night under dense leaves.",
-   "Plant saplings with bone meal for an instant tree farm close to base."
-  ],
-  "keywords": "forest oak birch wolves beehive wood"
- },
- {
-  "slug": "savanna",
-  "name": "Savanna",
-  "category": "Overworld (warm)",
-  "description": "Dry golden grassland with acacia trees and no rain - villages, llamas, horses and armadillos.",
-  "resources": [
-   "Acacia wood",
-   "Village loot and easy trading (savanna villages are common)",
-   "Llamas for caravan storage",
-   "Armadillo scutes for wolf armor (brush them)",
-   "Horses"
-  ],
-  "mobs": [
-   "Llamas, horses, donkeys, armadillos",
-   "Standard hostile mobs at night - very visible on the open plains"
-  ],
-  "structures": [
-   "Savanna villages",
-   "Pillager outposts",
-   "Ruined portals"
-  ],
-  "whyGo": [
-   "A base here never sees rain, and the flat visibility makes night farming easy. Armadillos (since 1.20.5) provide scutes for wolf armor."
-  ],
-  "tips": [
-   "No rain means no fishing luck boost, but also no drowned converting in rivers nearby.",
-   "Shattered savanna variants have spectacular wind-carved mountains for builds."
-  ],
-  "keywords": "savanna acacia llamas armadillo village no rain horses"
- },
- {
-  "slug": "ice-spikes",
-  "name": "Ice Spikes",
-  "category": "Overworld (snowy)",
-  "description": "A rare frozen plain punctuated by towering spikes of packed ice - one of the most photogenic biomes in the game.",
-  "resources": [
-   "Packed ice in huge quantities (the spikes themselves)",
-   "Snow and regular ice",
-   "Polar bears (passive unless near cubs)",
-   "Strays - skeleton variant with slowness arrows"
-  ],
-  "mobs": [
-   "Polar bears, rabbits",
-   "Strays at night (skeletons exposed to the sky)",
-   "Standard snowy hostile mobs"
-  ],
-  "structures": [
-   "None exclusive; occasional ruined portals"
-  ],
-  "whyGo": [
-   "Packed ice for fast boat highways - this is the easiest bulk source before you get Silk Touch on blue ice crafting. The scenery is a bonus."
-  ],
-  "tips": [
-   "Silk Touch is required to harvest the spikes.",
-   "Strays spawn only under open sky - build a roofed shelter and you are safe.",
-   "Blue ice (9 packed ice each) is the fastest boat surface; farm it here or in icebergs."
-  ],
-  "keywords": "ice spikes packed ice polar bear stray frozen boat highway"
- },
- {
-  "slug": "mangrove-swamp",
-  "name": "Mangrove Swamp",
-  "category": "Overworld (temperate, warm)",
-  "description": "A dense, muddy coastal swamp of mangrove trees with tangled roots, moss and warm-white frogs.",
-  "resources": [
-   "Mangrove wood and propagules (plantable hanging saplings)",
-   "Mud - craft into packed mud and mud bricks, or drip into clay",
-   "White frogs (warm variant) for pearlescent froglights",
-   "Bees and honey in mangrove nests",
-   "Moss carpets"
-  ],
-  "mobs": [
-   "Frogs, tropical fish in warm water",
-   "Slimes at night in swamp chunks",
-   "Standard hostile mobs"
-  ],
-  "structures": [
-   "No exclusive structures; witch huts do not generate here (that is the temperate swamp)"
-  ],
-  "whyGo": [
-   "Mud bricks are one of the prettiest building blocks, and this is the only place mud generates naturally. Frogs here are the warm (white) variant for froglight farming."
-  ],
-  "tips": [
-   "Bring a shovel: mud converts to clay with a pointed dripstone underneath - renewable clay farm.",
-   "Boat through the roots at high water; walking is slow."
-  ],
-  "keywords": "mangrove swamp mud bricks frogs white warm clay propagule"
- },
- {
-  "slug": "lush-caves",
-  "name": "Lush Caves",
-  "category": "Overworld (underground)",
-  "description": "Glowing underground gardens of moss, clay pools, glow berries and axolotls - marked on the surface by azalea trees.",
-  "resources": [
-   "Axolotls (blue one is a 1/1200 breeding chance)",
-   "Glow berries (food + light)",
-   "Moss blocks, azalea, flowering azalea, spore blossoms",
-   "Clay in pools",
-   "Dripleaf for parkour and farms",
-   "Tropical fish"
-  ],
-  "mobs": [
-   "Axolotls, glow squid, tropical fish, bats",
-   "Hostile mobs only in unlit corners - the biome is easy to secure"
-  ],
-  "structures": [
-   "Mineshafts and dungeons can intersect; the biome itself has none"
-  ],
-  "whyGo": [
-   "Axolotls for underwater combat (they fight drowned and guardians), plus the prettiest underground building materials in the game."
-  ],
-  "tips": [
-   "Find an azalea tree on the surface (a single oak-like tree with flowering leaves) and dig straight down through its rooted dirt.",
-   "Bucket every axolotl color - they breed with tropical fish buckets.",
-   "Spore blossoms break with any tool and drop themselves - collect them for decoration."
-  ],
-  "keywords": "lush caves axolotl glow berries azalea moss spore blossom clay"
- },
- {
-  "slug": "dripstone-caves",
-  "name": "Dripstone Caves",
-  "category": "Overworld (underground)",
-  "description": "Vast caverns of dripstone spikes and pillars, with copper-rich ore veins and water pools guarded by drowned.",
-  "resources": [
-   "Pointed dripstone (renewable: grows under dripstone blocks with water/lava above)",
-   "Copper ore - generates in far larger quantities here",
-   "Dripstone blocks for decoration and lava farms",
-   "Drowned (trident source in aquifers)"
-  ],
-  "mobs": [
-   "Drowned in underground water",
-   "Standard cave hostile mobs"
-  ],
-  "structures": [
-   "No exclusive structures; mineshafts cross through"
-  ],
-  "whyGo": [
-   "The best copper mining in the game, plus infinite lava farms: pointed dripstone dripping lava into cauldrons fills them slowly but forever."
-  ],
-  "tips": [
-   "Falling on a stalagmite doubles fall damage - watch your step.",
-   "Stalactites fall if the block above breaks - free traps.",
-   "Pair with a nearby lush cave for a complete underground resource loop."
-  ],
-  "keywords": "dripstone caves copper stalactite stalagmite lava farm drowned cauldron"
- },
- {
-  "slug": "nether-wastes",
-  "name": "Nether Wastes",
-  "category": "Nether",
-  "description": "The classic netherrack expanse - zombified piglins, ghasts and lava seas, with striders riding the lava lakes.",
-  "resources": [
-   "Netherrack for smelting into nether bricks",
-   "Nether quartz and gold ore embedded in the rock",
-   "Zombified piglin gold farms (nuggets and ingots)",
-   "Striders for lava travel (saddle + warped fungus on a stick)",
-   "Ghast tears"
-  ],
-  "mobs": [
-   "Zombified piglins (neutral until attacked)",
-   "Ghasts, magma cubes",
-   "Rare piglins and endermen",
-   "Striders on lava"
-  ],
-  "structures": [
-   "Nether fortresses",
-   "Bastion remnants",
-   "Ruined portals"
-  ],
-  "whyGo": [
-   "The backbone Nether biome: quartz for XP and redstone parts, the classic zombified piglin gold farm location, and fortress hunting grounds."
-  ],
-  "tips": [
-   "Digging at Y=15 here doubles as ancient-debris mining.",
-   "Ghast-proof your tunnels with cobblestone or better - netherrack blasts apart.",
-   "One hit on a zombified piglin aggros the whole area - fight on your terms."
-  ],
-  "keywords": "nether wastes netherrack quartz zombified piglin ghast strider gold farm"
- },
- {
-  "slug": "crimson-forest",
-  "name": "Crimson Forest",
-  "category": "Nether",
-  "description": "A red fungal forest of huge crimson fungi, shroomlights and weeping vines, crawling with piglins and hoglins.",
-  "resources": [
-   "Crimson stems (fire-proof red wood) and shroomlights",
-   "Hoglins - the Nether's main food source (porkchops) and leather",
-   "Piglin bartering (gold for pearls, obsidian, potions...)",
-   "Weeping vines and crimson nylium",
-   "Nether wart occasionally in bastions here"
-  ],
-  "mobs": [
-   "Piglins (hostile without gold armor, barterable)",
-   "Hoglins (hostile, breedable, fear warped fungus)",
-   "Zombified piglins"
-  ],
-  "structures": [
-   "Bastion remnants generate here",
-   "Ruined portals"
-  ],
-  "whyGo": [
-   "Piglin bartering halls work best here, hoglin farms supply infinite food, and crimson stems are a striking fireproof building wood."
-  ],
-  "tips": [
-   "Wear one gold armor piece and piglins stay neutral.",
-   "Hoglins avoid warped fungus - carry some as a repellent shield.",
-   "Hoglins zombify in the Overworld, so farm them in the Nether."
-  ],
-  "keywords": "crimson forest piglin hoglin bartering shroomlight nylium stems bastion"
- },
- {
-  "slug": "warped-forest",
-  "name": "Warped Forest",
-  "category": "Nether",
-  "description": "A cyan-blue fungal forest filled with endermen - the calmest and safest Nether biome, with no ghasts and no piglins.",
-  "resources": [
-   "Warped stems (fire-proof blue wood) and shroomlights",
-   "Ender pearls from the dense enderman spawns - the best early pearl farm",
-   "Warped fungus on a stick crafting for strider riding",
-   "Twisting vines"
-  ],
-  "mobs": [
-   "Endermen (the only common hostile spawn)",
-   "Striders nearby on lava"
-  ],
-  "structures": [
-   "Bastion remnants and ruined portals can appear; no fortresses exclusive"
-  ],
-  "whyGo": [
-   "Enderman hunting: with no other mobs competing, pearl rates here beat any Overworld night. It is also the safest place to travel or build in the Nether."
-  ],
-  "tips": [
-   "A 2-block-high roof makes you enderman-proof while you farm them.",
-   "Warped fungus scares hoglins - plant it around portals.",
-   "Looting III sword turns one visit into stacks of pearls."
-  ],
-  "keywords": "warped forest enderman pearls cyan nylium safe nether biome"
- },
- {
-  "slug": "soul-sand-valley",
-  "name": "Soul Sand Valley",
-  "category": "Nether",
-  "description": "A foggy canyon of soul sand and soul soil, basalt pillars and ancient fossils - slow to cross, rich in bone and ghast tears.",
-  "resources": [
-   "Soul sand (wither summoning, bubble elevators) and soul soil",
-   "Bone blocks from giant fossils (9 bone meal each)",
-   "Ghast tears - ghasts spawn here in large numbers",
-   "Nether fossils for decoration"
-  ],
-  "mobs": [
-   "Ghasts (very common)",
-   "Skeletons",
-   "Endermen"
-  ],
-  "structures": [
-   "Nether fossils",
-   "Bastions and ruined portals can generate"
-  ],
-  "whyGo": [
-   "Bulk soul sand/soil, fossil bone blocks, and the best ghast-tear hunting in the Nether. Soul Speed enchanted boots turn the terrain into a highway."
-  ],
-  "tips": [
-   "Soul sand slows you - use Soul Speed boots or ride a strider over the lava channels.",
-   "Ghast fireballs light soul soil into soul fire (blue, double damage) - keep your base flammable-free.",
-   "Skeletons plus ghasts make this the most dangerous common Nether biome; keep moving."
-  ],
-  "keywords": "soul sand valley fossil bone ghast soul speed basalt pillars"
- },
- {
-  "slug": "basalt-deltas",
-  "name": "Basalt Deltas",
-  "category": "Nether",
-  "description": "Jagged gray towers of basalt and blackstone under falling white ash - the magma cube capital of the Nether.",
-  "resources": [
-   "Basalt (polished basalt for builds) and blackstone",
-   "Magma cream from endless magma cubes - fire resistance potions and magma blocks",
-   "Ancient debris hunting (the biome's jagged terrain hides less of it)",
-   "White ash ambience for atmospheric builds"
-  ],
-  "mobs": [
-   "Magma cubes (everywhere)",
-   "Ghasts",
-   "Striders on lava pockets"
-  ],
-  "structures": [
-   "Bastion remnants; nether fortresses nearby"
-  ],
-  "whyGo": [
-   "Magma cube farms (the spawner in bastion treasure rooms plus natural spawns) and the best-looking volcanic building blocks. Frog owners visit for froglight farming."
-  ],
-  "tips": [
-   "Terrain is brutal: steep drops, lava pockets, low visibility - bring blocks and fire resistance.",
-   "Magma cubes split like slimes; a Looting sword on the small ones is the fastest magma cream.",
-   "Blackstone here substitutes for cobblestone in most stone-tool and furnace recipes."
-  ],
-  "keywords": "basalt deltas magma cube blackstone basalt ash froglight fire resistance"
- },
- {
-  "slug": "the-end",
-  "name": "The End",
-  "category": "End",
-  "description": "A void dimension of end stone islands: the central dragon island, obsidian pillars, chorus plants and the outer islands with End cities.",
-  "resources": [
-   "Ender pearls from infinite endermen",
-   "Chorus fruit and chorus flowers (outer islands)",
-   "End stone and purpur blocks",
-   "Elytra, dragon heads and top-tier loot in End cities",
-   "Dragon egg (one, from the first dragon kill)"
-  ],
-  "mobs": [
-   "Endermen (everywhere)",
-   "Ender Dragon (boss, central island)",
-   "Shulkers (End cities)"
-  ],
-  "structures": [
-   "Obsidian pillars with end crystals",
-   "Exit portal and end gateways",
-   "End cities and End ships (outer islands)"
-  ],
-  "whyGo": [
-   "The endgame: after the dragon, the outer islands hold the best loot in Minecraft - elytra, shulker boxes and enchanted diamond gear."
-  ],
-  "tips": [
-   "Bring a water bucket or slow falling: the void is the real killer here.",
-   "Pumpkin helmets stop enderman aggro... a carved pumpkin prevents eye contact but blocks helmet armor - your call.",
-   "Gateways throw you ~1,000 blocks out; mark coordinates before crossing."
-  ],
-  "keywords": "the end dragon enderman end city elytra chorus void shulker"
- }
+  {
+    "slug": "plains",
+    "name": "Plains",
+    "category": "Overworld (temperate)",
+    "description": "Flat grassland with few trees - the classic starter biome and the easiest place to build, farm and find your first village.",
+    "resources": [
+      "Oak wood (scattered trees, often with beehives near flowers)",
+      "Hay bales in villages (9 wheat each)",
+      "Horses and donkeys for early mounts",
+      "Village loot: beds, food, iron gear, obsidian in weapon smith chests"
+    ],
+    "mobs": [
+      "Horses, donkeys, sheep, cows, pigs",
+      "Pillager patrols and outposts",
+      "Standard hostile mobs at night"
+    ],
+    "structures": [
+      "Plains villages",
+      "Pillager outposts"
+    ],
+    "whyGo": [
+      "Best biome to start a world: flat building space, animals everywhere and a village head start",
+      "Horse breeding and taming",
+      "Bee farming: plains trees near flowers have a 5% chance to generate with a bee nest"
+    ],
+    "tips": [
+      "Mark village coordinates early - they are your first bed, food and trading post.",
+      "Lava pools generate exposed in plains: free obsidian and nether portal access before diamonds."
+    ],
+    "keywords": "plains biome village horses bees starter"
+  },
+  {
+    "slug": "desert",
+    "name": "Desert",
+    "category": "Overworld (dry/warm)",
+    "description": "Endless sand, cacti and dead bushes. No rain ever falls, and the pyramids hide some of the best early-game loot in the Overworld.",
+    "resources": [
+      "Sand and sandstone for glass and building",
+      "Cactus for green dye and defensive walls",
+      "Dead bushes drop sticks",
+      "Fossils generate underground (bone blocks)",
+      "Suspicious sand in pyramids and wells for archaeology (1.20+)"
+    ],
+    "mobs": [
+      "Husks (80% of surface zombies - they do not burn in daylight and inflict Hunger)",
+      "Camels in desert villages (1.20+)",
+      "Rabbits"
+    ],
+    "structures": [
+      "Desert pyramids (4 loot chests + 9 TNT trap)",
+      "Desert villages",
+      "Desert wells (archaeology)"
+    ],
+    "whyGo": [
+      "Desert pyramids: golden apples, enchanted books, diamonds and horse armor in 4 chests - dig the side, never the center pressure plate",
+      "Gold-level loot without going to the Nether",
+      "Open terrain with no rain: clear visibility for building mega-projects"
+    ],
+    "tips": [
+      "In pyramids, mine down the side wall to the chest level - the center TNT trap destroys the loot.",
+      "Husks ignore sunlight: bring a shield at dawn."
+    ],
+    "keywords": "desert biome pyramid temple loot camel husk archaeology"
+  },
+  {
+    "slug": "jungle",
+    "name": "Jungle",
+    "category": "Overworld (lush)",
+    "description": "Dense rainforest with giant trees, bamboo and vines. Hard to move through, but packed with resources that exist nowhere else.",
+    "resources": [
+      "Jungle wood, bamboo, cocoa beans, vines and melons",
+      "Jungle temple loot and suspicious gravel (archaeology)",
+      "Ocelots, parrots and pandas",
+      "Moss carpets and glow berries in lush caves below"
+    ],
+    "mobs": [
+      "Pandas (bamboo jungle variant)",
+      "Ocelots",
+      "Parrots (tameable with seeds)",
+      "Standard hostile mobs under the canopy"
+    ],
+    "structures": [
+      "Jungle temples (arrow traps, puzzle chest, loot)"
+    ],
+    "whyGo": [
+      "Only biome with pandas and cocoa beans",
+      "Bamboo for scaffolding - the builder's essential block",
+      "Parrots mimic nearby mob sounds: a living mob radar"
+    ],
+    "tips": [
+      "Jungle temples: defuse the tripwire arrows before touching the chests. The hidden chest behind the lever puzzle can also be reached by simply mining through the wall.",
+      "Travel on the canopy, not the floor - it is twice as fast."
+    ],
+    "keywords": "jungle biome temple panda parrot bamboo cocoa ocelot"
+  },
+  {
+    "slug": "badlands",
+    "name": "Badlands",
+    "category": "Overworld (dry/warm)",
+    "description": "Colorful terracotta mesas and red sand canyons. The best gold-mining biome in the Overworld, with mineshafts exposed on the surface.",
+    "resources": [
+      "Terracotta in every color (free, unlimited building material)",
+      "Red sand and red sandstone",
+      "Gold ore generates much more often and higher up (extra veins between Y=32 and Y=256)",
+      "Surface mineshafts with dark oak supports and exposed chest minecarts"
+    ],
+    "mobs": [
+      "Standard hostile mobs in caves and at night",
+      "No unique hostile mobs; husks do not spawn here (it is not a desert)"
+    ],
+    "structures": [
+      "Exposed mineshafts",
+      "No villages or outposts generate naturally"
+    ],
+    "whyGo": [
+      "Gold without the Nether: mineshaft hopping in badlands is the fastest Overworld gold",
+      "Terracotta farming for builders - bring a shovel and a silk touch pickaxe",
+      "Eroded badlands (the spiky variant) are one of the most scenic build locations"
+    ],
+    "tips": [
+      "Mineshaft chest minecarts here contain gold, iron, enchanted books and name tags.",
+      "No rain and no snow - fire spread is your main hazard near the wooded variant."
+    ],
+    "keywords": "badlands mesa biome gold mineshaft terracotta red sand"
+  },
+  {
+    "slug": "mushroom-fields",
+    "name": "Mushroom Fields",
+    "category": "Overworld (rare island)",
+    "description": "A rare island biome covered in mycelium and giant mushrooms. Hostile mobs cannot spawn here naturally - the safest biome in the game.",
+    "resources": [
+      "Mooshrooms: infinite mushroom stew with a bowl, and milk them for mushroom stew or suspicious stew",
+      "Mycelium and giant mushroom blocks (silk touch)",
+      "Red and brown mushrooms"
+    ],
+    "mobs": [
+      "Mooshrooms only - no hostile mobs spawn naturally, ever",
+      "Monster spawners and raid spawns still work, so light is not the reason - it is biome-level"
+    ],
+    "structures": [
+      "No structures generate naturally"
+    ],
+    "whyGo": [
+      "Build a base with zero mob-proofing: phantoms and patrols can still visit, but nothing spawns on the island",
+      "Mooshroom farming for unlimited food",
+      "The ultimate hardcore-mode home base"
+    ],
+    "tips": [
+      "Bring dirt and saplings: no grass or trees generate here, and mycelium cannot grow most crops.",
+      "Phantoms still spawn above you at night - sleep or carry a cat."
+    ],
+    "keywords": "mushroom fields island mooshroom mycelium no mobs safe biome"
+  },
+  {
+    "slug": "cherry-grove",
+    "name": "Cherry Grove",
+    "category": "Overworld (mountain)",
+    "description": "Pink cherry blossom forests on mountain slopes, added in 1.20. Beautiful, peaceful and the only source of cherry wood.",
+    "resources": [
+      "Cherry logs and saplings (pink wood set)",
+      "Pink petals (renewable ground cover, bone-mealable)",
+      "Bee nests: cherry trees have a 5% chance to generate with a nest",
+      "Emerald ore below (it is a mountain biome)"
+    ],
+    "mobs": [
+      "Sheep, pigs, rabbits",
+      "Bees",
+      "Standard hostile mobs at night"
+    ],
+    "structures": [
+      "No structures generate naturally"
+    ],
+    "whyGo": [
+      "The pink wood set - the most wanted building palette of recent versions",
+      "Pink petals for decoration, renewable with bone meal",
+      "Usually generates next to mountains: combine the visit with emerald and coal hunting on the slopes"
+    ],
+    "tips": [
+      "Cherry groves often hide inside mountain rings with villages at the base - classic screenshot seeds.",
+      "Shear the leaves: they drop pink petals as you break them."
+    ],
+    "keywords": "cherry grove blossom biome pink wood petals 1.20"
+  },
+  {
+    "slug": "deep-dark",
+    "name": "Deep Dark",
+    "category": "Overworld (cave)",
+    "description": "A sculk-infested cave biome below Y=0, usually under mountains. No mobs spawn naturally - except the Warden you summon yourself.",
+    "resources": [
+      "Ancient cities: the best loot tables in the Overworld (echo shards, swift sneak, enchanted golden apples, disc fragments)",
+      "Sculk blocks for XP farms (sculk catalysts convert mob deaths into XP-storing sculk)",
+      "Deepslate and the ore veins around Y=-59"
+    ],
+    "mobs": [
+      "The Warden (summoned by sculk shriekers - 500 HP, kills through netherite)",
+      "Nothing else spawns naturally"
+    ],
+    "structures": [
+      "Ancient cities"
+    ],
+    "whyGo": [
+      "Ancient city loot: Swift Sneak leggings enchantment exists nowhere else",
+      "Sculk catalyst farming for XP storage",
+      "The ultimate stealth challenge"
+    ],
+    "tips": [
+      "Bring wool: walking on wool and placing wool around sensors makes you silent. Swift Sneak III changes everything.",
+      "Shriekers need 4 activations (within 10 minutes) to summon a Warden - break them after every mistake instead of running."
+    ],
+    "keywords": "deep dark biome ancient city warden sculk shrieker swift sneak"
+  },
+  {
+    "slug": "swamp",
+    "name": "Swamp",
+    "category": "Overworld (temperate)",
+    "description": "Shallow water, lily pads and oak trees draped in vines. The only biome where slimes spawn on the surface and witches live in huts.",
+    "resources": [
+      "Slimeballs from surface slimes (spawn rates peak at full moon)",
+      "Witch huts (cat and witch spawns, crafting table + cauldron)",
+      "Blue orchids, lily pads, vines and clay disks",
+      "Mangrove swamp variant: mangrove wood, mud and frogs"
+    ],
+    "mobs": [
+      "Slimes at night (light below 8, Y 51-69, moon-dependent)",
+      "Witches in huts; bogged (poison-arrow skeletons) in swamps and mangroves (1.21)",
+      "Frogs and tadpoles (mangrove variant)"
+    ],
+    "structures": [
+      "Witch huts",
+      "Fossils generate underground"
+    ],
+    "whyGo": [
+      "Surface slimeballs without digging to Y=40 - wait for full moon nights",
+      "Frogs for froglights (feed them small magma cubes)",
+      "Mud and mangrove wood palettes from the mangrove variant"
+    ],
+    "tips": [
+      "Slime rates are zero at new moon - check the moon before an AFK session.",
+      "Witch huts make compact witch farms (redstone, glowstone, gunpowder) with a small spawn volume."
+    ],
+    "keywords": "swamp biome slime witch hut moon frog mangrove bogged"
+  },
+  {
+    "slug": "taiga",
+    "name": "Taiga",
+    "category": "Overworld (cold)",
+    "description": "Spruce forests with ferns, sweet berry bushes and podzol. Home of wolves, foxes and cozy log-cabin terrain.",
+    "resources": [
+      "Spruce wood (2x2 giant spruce variant in old-growth taiga)",
+      "Sweet berries (food and fox bait)",
+      "Podzol (grows mushrooms at any light)",
+      "Mossy cobblestone boulders"
+    ],
+    "mobs": [
+      "Wolves (tameable with bones)",
+      "Foxes (trust players who sneak-feed them sweet berries)",
+      "Rabbits",
+      "Taiga village villagers"
+    ],
+    "structures": [
+      "Taiga villages",
+      "Pillager outposts",
+      "Trail ruins (archaeology, 1.20+)"
+    ],
+    "whyGo": [
+      "Tame a wolf pack early - they fight for you",
+      "Foxes carry items in their mouths, including totems and swords",
+      "Old-growth taiga gives giant spruce: massive wood volume per tree"
+    ],
+    "tips": [
+      "Wolves teleport to you - tame 5+ and you have a mobile bodyguard.",
+      "Sweet berry bushes damage and slow anything that walks through them: free defensive hedges."
+    ],
+    "keywords": "taiga biome wolf fox sweet berries spruce village"
+  },
+  {
+    "slug": "windswept-hills",
+    "name": "Windswept Hills",
+    "category": "Overworld (mountain)",
+    "description": "Steep, broken mountains with exposed stone and floating ledges. The only Overworld biome family with emerald ore and surface coal and iron in bulk.",
+    "resources": [
+      "Emerald ore (mountain biomes only, Y=-16 to Y=320, most around Y=232)",
+      "Exposed coal and iron ore on cliff faces",
+      "Infested stone (silverfish) below Y=0 - mine carefully",
+      "Goats on jagged and frozen peaks (ram horns, 1.19+)"
+    ],
+    "mobs": [
+      "Goats (they ram players - keep distance on ledges)",
+      "Llamas",
+      "Silverfish from infested blocks"
+    ],
+    "structures": [
+      "No structures generate naturally (villages can appear in valleys below)"
+    ],
+    "whyGo": [
+      "Emeralds for villager trading without raiding chests",
+      "Fastest early-game coal and iron: everything is exposed on the cliffs",
+      "Goat horns for signaling on multiplayer"
+    ],
+    "tips": [
+      "Powder snow on frozen peaks sinks you and freezes you - leather boots let you walk on top.",
+      "Falling is the main killer: bring a water bucket or Feather Falling boots before serious mining."
+    ],
+    "keywords": "windswept hills mountains biome emerald ore goat powder snow"
+  },
+  {
+    "slug": "forest",
+    "name": "Forest",
+    "category": "Overworld (temperate)",
+    "description": "Dense oak and birch woodland - the classic tree farm biome with flowers, wolves and the occasional beehive.",
+    "resources": [
+      "Oak and birch wood in large quantities",
+      "Wolves (tame them for skeleton protection)",
+      "Beehives on oaks near flowers",
+      "Mushrooms in dark patches under the canopy"
+    ],
+    "mobs": [
+      "Wolves, sheep, pigs, cows, chickens",
+      "Rabbits",
+      "Standard hostile mobs at night, hidden by the trees"
+    ],
+    "structures": [
+      "No exclusive structures; ruined portals and villages generate at edges"
+    ],
+    "whyGo": [
+      "Reliable early-game wood and your first wolves. Flower forests nearby offer every dye you will ever need."
+    ],
+    "tips": [
+      "Thin the canopy as you chop - mobs survive the night under dense leaves.",
+      "Plant saplings with bone meal for an instant tree farm close to base."
+    ],
+    "keywords": "forest oak birch wolves beehive wood"
+  },
+  {
+    "slug": "savanna",
+    "name": "Savanna",
+    "category": "Overworld (warm)",
+    "description": "Dry golden grassland with acacia trees and no rain - villages, llamas, horses and armadillos.",
+    "resources": [
+      "Acacia wood",
+      "Village loot and easy trading (savanna villages are common)",
+      "Llamas for caravan storage",
+      "Armadillo scutes for wolf armor (brush them)",
+      "Horses"
+    ],
+    "mobs": [
+      "Llamas, horses, donkeys, armadillos",
+      "Standard hostile mobs at night - very visible on the open plains"
+    ],
+    "structures": [
+      "Savanna villages",
+      "Pillager outposts",
+      "Ruined portals"
+    ],
+    "whyGo": [
+      "A base here never sees rain, and the flat visibility makes night farming easy. Armadillos (since 1.20.5) provide scutes for wolf armor."
+    ],
+    "tips": [
+      "No rain means no fishing luck boost, but also no drowned converting in rivers nearby.",
+      "Shattered savanna variants have spectacular wind-carved mountains for builds."
+    ],
+    "keywords": "savanna acacia llamas armadillo village no rain horses"
+  },
+  {
+    "slug": "ice-spikes",
+    "name": "Ice Spikes",
+    "category": "Overworld (snowy)",
+    "description": "A rare frozen plain punctuated by towering spikes of packed ice - one of the most photogenic biomes in the game.",
+    "resources": [
+      "Packed ice in huge quantities (the spikes themselves)",
+      "Snow and regular ice",
+      "Polar bears (passive unless near cubs)",
+      "Strays - skeleton variant with slowness arrows"
+    ],
+    "mobs": [
+      "Polar bears, rabbits",
+      "Strays at night (skeletons exposed to the sky)",
+      "Standard snowy hostile mobs"
+    ],
+    "structures": [
+      "None exclusive; occasional ruined portals"
+    ],
+    "whyGo": [
+      "Packed ice for fast boat highways - this is the easiest bulk source before you get Silk Touch on blue ice crafting. The scenery is a bonus."
+    ],
+    "tips": [
+      "Silk Touch is required to harvest the spikes.",
+      "Strays spawn only under open sky - build a roofed shelter and you are safe.",
+      "Blue ice (9 packed ice each) is the fastest boat surface; farm it here or in icebergs."
+    ],
+    "keywords": "ice spikes packed ice polar bear stray frozen boat highway"
+  },
+  {
+    "slug": "mangrove-swamp",
+    "name": "Mangrove Swamp",
+    "category": "Overworld (temperate, warm)",
+    "description": "A dense, muddy coastal swamp of mangrove trees with tangled roots, moss and warm-white frogs.",
+    "resources": [
+      "Mangrove wood and propagules (plantable hanging saplings)",
+      "Mud - craft into packed mud and mud bricks, or drip into clay",
+      "White frogs (warm variant) for pearlescent froglights",
+      "Bees and honey in mangrove nests",
+      "Moss carpets"
+    ],
+    "mobs": [
+      "Frogs, tropical fish in warm water",
+      "Slimes at night in swamp chunks",
+      "Standard hostile mobs"
+    ],
+    "structures": [
+      "No exclusive structures; witch huts do not generate here (that is the temperate swamp)"
+    ],
+    "whyGo": [
+      "Mud bricks are one of the prettiest building blocks, and this is the only place mud generates naturally. Frogs here are the warm (white) variant for froglight farming."
+    ],
+    "tips": [
+      "Bring a shovel: mud converts to clay with a pointed dripstone underneath - renewable clay farm.",
+      "Boat through the roots at high water; walking is slow."
+    ],
+    "keywords": "mangrove swamp mud bricks frogs white warm clay propagule"
+  },
+  {
+    "slug": "lush-caves",
+    "name": "Lush Caves",
+    "category": "Overworld (underground)",
+    "description": "Glowing underground gardens of moss, clay pools, glow berries and axolotls - marked on the surface by azalea trees.",
+    "resources": [
+      "Axolotls (blue one is a 1/1200 breeding chance)",
+      "Glow berries (food + light)",
+      "Moss blocks, azalea, flowering azalea, spore blossoms",
+      "Clay in pools",
+      "Dripleaf for parkour and farms",
+      "Tropical fish"
+    ],
+    "mobs": [
+      "Axolotls, glow squid, tropical fish, bats",
+      "Hostile mobs only in unlit corners - the biome is easy to secure"
+    ],
+    "structures": [
+      "Mineshafts and dungeons can intersect; the biome itself has none"
+    ],
+    "whyGo": [
+      "Axolotls for underwater combat (they fight drowned and guardians), plus the prettiest underground building materials in the game."
+    ],
+    "tips": [
+      "Find an azalea tree on the surface (a single oak-like tree with flowering leaves) and dig straight down through its rooted dirt.",
+      "Bucket every axolotl color - they breed with tropical fish buckets.",
+      "Spore blossoms break with any tool and drop themselves - collect them for decoration."
+    ],
+    "keywords": "lush caves axolotl glow berries azalea moss spore blossom clay"
+  },
+  {
+    "slug": "dripstone-caves",
+    "name": "Dripstone Caves",
+    "category": "Overworld (underground)",
+    "description": "Vast caverns of dripstone spikes and pillars, with copper-rich ore veins and water pools guarded by drowned.",
+    "resources": [
+      "Pointed dripstone (renewable: grows under dripstone blocks with water/lava above)",
+      "Copper ore - generates in far larger quantities here",
+      "Dripstone blocks for decoration and lava farms",
+      "Drowned (trident source in aquifers)"
+    ],
+    "mobs": [
+      "Drowned in underground water",
+      "Standard cave hostile mobs"
+    ],
+    "structures": [
+      "No exclusive structures; mineshafts cross through"
+    ],
+    "whyGo": [
+      "The best copper mining in the game, plus infinite lava farms: pointed dripstone dripping lava into cauldrons fills them slowly but forever."
+    ],
+    "tips": [
+      "Falling on a stalagmite doubles fall damage - watch your step.",
+      "Stalactites fall if the block above breaks - free traps.",
+      "Pair with a nearby lush cave for a complete underground resource loop."
+    ],
+    "keywords": "dripstone caves copper stalactite stalagmite lava farm drowned cauldron"
+  },
+  {
+    "slug": "nether-wastes",
+    "name": "Nether Wastes",
+    "category": "Nether",
+    "description": "The classic netherrack expanse - zombified piglins, ghasts and lava seas, with striders riding the lava lakes.",
+    "resources": [
+      "Netherrack for smelting into nether bricks",
+      "Nether quartz and gold ore embedded in the rock",
+      "Zombified piglin gold farms (nuggets and ingots)",
+      "Striders for lava travel (saddle + warped fungus on a stick)",
+      "Ghast tears"
+    ],
+    "mobs": [
+      "Zombified piglins (neutral until attacked)",
+      "Ghasts, magma cubes",
+      "Rare piglins and endermen",
+      "Striders on lava"
+    ],
+    "structures": [
+      "Nether fortresses",
+      "Bastion remnants",
+      "Ruined portals"
+    ],
+    "whyGo": [
+      "The backbone Nether biome: quartz for XP and redstone parts, the classic zombified piglin gold farm location, and fortress hunting grounds."
+    ],
+    "tips": [
+      "Digging at Y=15 here doubles as ancient-debris mining.",
+      "Ghast-proof your tunnels with cobblestone or better - netherrack blasts apart.",
+      "One hit on a zombified piglin aggros the whole area - fight on your terms."
+    ],
+    "keywords": "nether wastes netherrack quartz zombified piglin ghast strider gold farm"
+  },
+  {
+    "slug": "crimson-forest",
+    "name": "Crimson Forest",
+    "category": "Nether",
+    "description": "A red fungal forest of huge crimson fungi, shroomlights and weeping vines, crawling with piglins and hoglins.",
+    "resources": [
+      "Crimson stems (fire-proof red wood) and shroomlights",
+      "Hoglins - the Nether's main food source (porkchops) and leather",
+      "Piglin bartering (gold for pearls, obsidian, potions...)",
+      "Weeping vines and crimson nylium",
+      "Nether wart occasionally in bastions here"
+    ],
+    "mobs": [
+      "Piglins (hostile without gold armor, barterable)",
+      "Hoglins (hostile, breedable, fear warped fungus)",
+      "Zombified piglins"
+    ],
+    "structures": [
+      "Bastion remnants generate here",
+      "Ruined portals"
+    ],
+    "whyGo": [
+      "Piglin bartering halls work best here, hoglin farms supply infinite food, and crimson stems are a striking fireproof building wood."
+    ],
+    "tips": [
+      "Wear one gold armor piece and piglins stay neutral.",
+      "Hoglins avoid warped fungus - carry some as a repellent shield.",
+      "Hoglins zombify in the Overworld, so farm them in the Nether."
+    ],
+    "keywords": "crimson forest piglin hoglin bartering shroomlight nylium stems bastion"
+  },
+  {
+    "slug": "warped-forest",
+    "name": "Warped Forest",
+    "category": "Nether",
+    "description": "A cyan-blue fungal forest filled with endermen - the calmest and safest Nether biome, with no ghasts and no piglins.",
+    "resources": [
+      "Warped stems (fire-proof blue wood) and shroomlights",
+      "Ender pearls from the dense enderman spawns - the best early pearl farm",
+      "Warped fungus on a stick crafting for strider riding",
+      "Twisting vines"
+    ],
+    "mobs": [
+      "Endermen (the only common hostile spawn)",
+      "Striders nearby on lava"
+    ],
+    "structures": [
+      "Bastion remnants and ruined portals can appear; no fortresses exclusive"
+    ],
+    "whyGo": [
+      "Enderman hunting: with no other mobs competing, pearl rates here beat any Overworld night. It is also the safest place to travel or build in the Nether."
+    ],
+    "tips": [
+      "A 2-block-high roof makes you enderman-proof while you farm them.",
+      "Warped fungus scares hoglins - plant it around portals.",
+      "Looting III sword turns one visit into stacks of pearls."
+    ],
+    "keywords": "warped forest enderman pearls cyan nylium safe nether biome"
+  },
+  {
+    "slug": "soul-sand-valley",
+    "name": "Soul Sand Valley",
+    "category": "Nether",
+    "description": "A foggy canyon of soul sand and soul soil, basalt pillars and ancient fossils - slow to cross, rich in bone and ghast tears.",
+    "resources": [
+      "Soul sand (wither summoning, bubble elevators) and soul soil",
+      "Bone blocks from giant fossils (9 bone meal each)",
+      "Ghast tears - ghasts spawn here in large numbers",
+      "Nether fossils for decoration"
+    ],
+    "mobs": [
+      "Ghasts (very common)",
+      "Skeletons",
+      "Endermen"
+    ],
+    "structures": [
+      "Nether fossils",
+      "Bastions and ruined portals can generate"
+    ],
+    "whyGo": [
+      "Bulk soul sand/soil, fossil bone blocks, and the best ghast-tear hunting in the Nether. Soul Speed enchanted boots turn the terrain into a highway."
+    ],
+    "tips": [
+      "Soul sand slows you - use Soul Speed boots or ride a strider over the lava channels.",
+      "Ghast fireballs light soul soil into soul fire (blue, double damage) - keep your base flammable-free.",
+      "Skeletons plus ghasts make this the most dangerous common Nether biome; keep moving."
+    ],
+    "keywords": "soul sand valley fossil bone ghast soul speed basalt pillars"
+  },
+  {
+    "slug": "basalt-deltas",
+    "name": "Basalt Deltas",
+    "category": "Nether",
+    "description": "Jagged gray towers of basalt and blackstone under falling white ash - the magma cube capital of the Nether.",
+    "resources": [
+      "Basalt (polished basalt for builds) and blackstone",
+      "Magma cream from endless magma cubes - fire resistance potions and magma blocks",
+      "Ancient debris hunting (the biome's jagged terrain hides less of it)",
+      "White ash ambience for atmospheric builds"
+    ],
+    "mobs": [
+      "Magma cubes (everywhere)",
+      "Ghasts",
+      "Striders on lava pockets"
+    ],
+    "structures": [
+      "Bastion remnants; nether fortresses nearby"
+    ],
+    "whyGo": [
+      "Magma cube farms (the spawner in bastion treasure rooms plus natural spawns) and the best-looking volcanic building blocks. Frog owners visit for froglight farming."
+    ],
+    "tips": [
+      "Terrain is brutal: steep drops, lava pockets, low visibility - bring blocks and fire resistance.",
+      "Magma cubes split like slimes; a Looting sword on the small ones is the fastest magma cream.",
+      "Blackstone here substitutes for cobblestone in most stone-tool and furnace recipes."
+    ],
+    "keywords": "basalt deltas magma cube blackstone basalt ash froglight fire resistance"
+  },
+  {
+    "slug": "the-end",
+    "name": "The End",
+    "category": "End",
+    "description": "A void dimension of end stone islands: the central dragon island, obsidian pillars, chorus plants and the outer islands with End cities.",
+    "resources": [
+      "Ender pearls from infinite endermen",
+      "Chorus fruit and chorus flowers (outer islands)",
+      "End stone and purpur blocks",
+      "Elytra, dragon heads and top-tier loot in End cities",
+      "Dragon egg (one, from the first dragon kill)"
+    ],
+    "mobs": [
+      "Endermen (everywhere)",
+      "Ender Dragon (boss, central island)",
+      "Shulkers (End cities)"
+    ],
+    "structures": [
+      "Obsidian pillars with end crystals",
+      "Exit portal and end gateways",
+      "End cities and End ships (outer islands)"
+    ],
+    "whyGo": [
+      "The endgame: after the dragon, the outer islands hold the best loot in Minecraft - elytra, shulker boxes and enchanted diamond gear."
+    ],
+    "tips": [
+      "Bring a water bucket or slow falling: the void is the real killer here.",
+      "Pumpkin helmets stop enderman aggro... a carved pumpkin prevents eye contact but blocks helmet armor - your call.",
+      "Gateways throw you ~1,000 blocks out; mark coordinates before crossing."
+    ],
+    "keywords": "the end dragon enderman end city elytra chorus void shulker"
+  },
+  {
+    "slug": "sulfur-caves",
+    "name": "Sulfur Caves",
+    "category": "Overworld (cave)",
+    "description": "Acid-green cave biome made of sulfur and cinnabar, added in 26.2 (Chaos Cubed). Home of the sulfur cube, with bubbling sulfur pools, spikes and a unique green fog.",
+    "resources": [
+      "Sulfur and cinnabar blocks (new building palettes with slab/stair variants)",
+      "Potent sulfur at the bottom of sulfur pools",
+      "Sulfur spikes (hazard and decoration)",
+      "Bounce music disc: minecart chests from mineshafts crossing sulfur caves can contain it"
+    ],
+    "mobs": [
+      "Sulfur cubes (passive, only spawn here)",
+      "Cave spiders",
+      "Glow squid in the pools"
+    ],
+    "structures": [
+      "No structures generate inside, but mineshafts can cross the biome (their minecart chests may hold the Bounce disc)",
+      "Sulfur springs on the surface above mark the biome below"
+    ],
+    "whyGo": [
+      "The only source of sulfur, cinnabar and potent sulfur blocks",
+      "The only place to find and bucket sulfur cubes",
+      "A striking acid-green cave palette for builders"
+    ],
+    "tips": [
+      "Do not swim in the pools: potent sulfur creates a noxious gas that inflicts Nausea on contact.",
+      "Look for sulfur springs at the surface (green-tinted water seeps), common under flatland near swamps and deserts - they mean sulfur caves below.",
+      "Bring a bucket: large sulfur cubes can be picked up and carried home.",
+      "The biome generates at the same depths as lush and dripstone caves, but much smaller and more fragmented."
+    ],
+    "keywords": "sulfur caves biome 26.2 chaos cubed sulfur cube cinnabar potent sulfur spikes green"
+  },
+  {
+    "slug": "dappled-forest",
+    "name": "Dappled Forest",
+    "category": "Overworld (forest)",
+    "description": "Cold autumn forest of poplar trees in red, orange and yellow, added in 26.3 (Wilderness Bound). Orange grass, red shrubs, shelf mushrooms on every poplar, fallen trunks and abandoned camps.",
+    "resources": [
+      "Poplar logs and saplings: the first wood family with three leaf colors (red, orange, yellow) on one tree type",
+      "Red shrubs and shelf mushrooms (new decorative plants)",
+      "Leaf litter and coarse dirt for path building",
+      "Abandoned camps with straw beds, cushions and explorer maps"
+    ],
+    "mobs": [
+      "Cold variants of chickens, pigs and cows",
+      "Foxes and rabbits",
+      "Standard hostile mobs at night; in Bedrock the denser canopy can let them spawn in daytime"
+    ],
+    "structures": [
+      "Abandoned Camp (usually generates with a poplar tree)"
+    ],
+    "whyGo": [
+      "Poplar wood: a full new building set with autumn tones",
+      "Abandoned camps: easy early loot and explorer maps to trial chambers and ancient cities",
+      "One of the most photogenic Overworld biomes for base building"
+    ],
+    "tips": [
+      "Dappled forests generate in cold, dry regions with high weirdness: look for them bordering plains, ice spikes and cherry groves, never next to other forest biomes.",
+      "Shear poplar leaves of each color: the three leaf variants drop separately for decorating.",
+      "Check every abandoned camp chest: the explorer maps can chain you to more camps and to major structures.",
+      "Fallen poplar trunks are free logs without chopping."
+    ],
+    "keywords": "dappled forest biome 26.3 wilderness bound poplar red orange yellow leaves abandoned camp autumn"
+  }
 ]

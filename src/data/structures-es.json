@@ -1,282 +1,308 @@
 {
- "village": {
-  "howToFind": [
-   "Se genera en biomas de plains, desert, savanna, taiga, snowy plains y meadow: camina y observa, o usa /locate structure minecraft:village_plains (cada variante tiene su propio ID)",
-   "Los cartógrafos nunca marcan aldeas en sus mapas: toca explorar",
-   "En Bedrock las aldeas son mucho más comunes que en Java"
-  ],
-  "loot": [
-   "Hay bales (9 wheat cada uno) y cosechas de las granjas",
-   "Cofres de las casas: comida, herramientas, saplings, armadura",
-   "Cofres del weaponsmith: iron, obsidian, a veces diamantes",
-   "Camas y workstations que puedes llevarte para tu propia trading hall"
-  ],
-  "dangers": [
-   "Asedios de zombis y raids de pillagers (Bad Omen)",
-   "Los iron golems defienden a los aldeanos, y a ti si tu reputación es buena",
-   "En las aldeas abandonadas (zombi) aparecen aldeanos zombi; tienen telarañas y no tienen puertas... práctica de curación gratis"
-  ],
-  "tips": [
-   "Toca la campana para que los aldeanos se escondan, y para ver el centro de la aldea si vas a construir granjas.",
-   "Duerme antes de medianoche la primera noche: un asedio de zombis puede arrasar la aldea antes de que llegues a comerciar.",
-   "Las aldeas abandonadas (2% de las aldeas) no penalizan el botín y tienen telarañas de sobra para string."
-  ]
- },
- "stronghold": {
-  "howToFind": [
-   "Lanza eyes of ender: vuelan hacia el stronghold más cercano. Síguelos hasta que empiecen a clavarse en el suelo y entonces cava hacia abajo",
-   "Triangula: lanza desde dos puntos separados unos cientos de bloques y camina hasta donde se cruzan las trayectorias; ahorra ojos",
-   "Java: se generan 128 strongholds en anillos alrededor del origen del mundo. Bedrock: ilimitados, algunos directamente bajo aldeas"
-  ],
-  "loot": [
-   "Bibliotecas: libros encantados (incluidos encantamientos tesoro), papel y libros",
-   "Cofres de pasillos y altar: ender pearls, iron, manzanas, eyes of ender",
-   "La sala del portal del End: 12 marcos, cada uno con un 10% de probabilidad de venir ya relleno; espera 0-2 ojos colocados"
-  ],
-  "dangers": [
-   "Spawner de silverfish en la sala del portal: rómpelo o ilumínalo antes de activar el portal",
-   "Los silverfish se esconden en stone bricks infestados por toda la estructura",
-   "Es fácil perderse: coloca antorchas siempre en el mismo lado para marcar el camino de vuelta"
-  ],
-  "tips": [
-   "Lleva 12+ eyes of ender: unos para el viaje y otros para los marcos.",
-   "A veces la sala del portal se genera sin marco (un raro fallo de generación): busca otro stronghold en lugar de enfadarte.",
-   "Cava en vertical solo tras hacer una escalera: a los strongholds les encanta abrirse a cuevas y ravinas."
-  ]
- },
- "ancient-city": {
-  "howToFind": [
-   "Se genera en el bioma deep dark alrededor de Y=-52, casi siempre bajo montañas (jagged peaks, windswept hills)",
-   "Cava hacia abajo desde una montaña o encuentra una cueva profunda que llegue a niveles de deepslate",
-   "/locate structure minecraft:ancient_city con los trucos activados"
-  ],
-  "loot": [
-   "Echo shards (para fabricar la recovery compass, que apunta a tu última muerte)",
-   "Libros encantados de Swift Sneak (única fuente del juego)",
-   "Manzanas doradas encantadas, disc fragments (Music Disc 5), sculk catalysts",
-   "Marco de reinforced deepslate en el centro: irrompible, puramente decorativo (no hay portal oculto)"
-  ],
-  "dangers": [
-   "Los sculk sensors te oyen caminar, colocar y romper bloques; los sculk shriekers invocan al Warden al cuarto aviso",
-   "El Warden: 500 HP y un ataque sónico que atraviesa paredes y armadura. No está pensado para que luches contra él",
-   "Pulsos del efecto Darkness cada vez que se activan los shriekers"
-  ],
-  "tips": [
-   "Lleva pilas de lana: caminar sobre lana es silencioso y puedes tapar los sensores antes de abrir un cofre.",
-   "Rompe cada shrieker que puedas alcanzar DESPUÉS de que se reinicie su enfriamiento del cuarto grito: un shrieker solo puede invocar un Warden por cada 4 gritos.",
-   "Si aparece el Warden: quédate quieto, deja que pase olisqueando y sal por donde viniste. Vuelve a enterrarse tras 60 segundos tranquilos."
-  ]
- },
- "bastion-remnant": {
-  "howToFind": [
-   "Se genera en todos los biomas del Nether excepto basalt deltas",
-   "Cuatro tipos: puentes, establos de hoglins, viviendas y la sala del tesoro; el bastión del tesoro tiene la pirámide gigante de bloques de oro y la piscina de lava",
-   "/locate structure minecraft:bastion_remnant"
-  ],
-  "loot": [
-   "Netherite upgrade smithing template: garantizada en el cofre de la sala del tesoro (1.20+); necesitas 7 diamantes para duplicar cada una",
-   "Ancient debris, netherite scraps y a veces un netherite ingot (sala del tesoro)",
-   "Disco de música Pigstep, banner pattern Snout, gilded blackstone",
-   "Bloques de oro a docenas, sobre todo en el bastión del tesoro"
-  ],
-  "dangers": [
-   "Los piglins atacan a quien no lleve armadura de oro o abra cofres y mine oro: ponte una pieza de oro y distrae a los demás soltando lingotes lejos",
-   "Piglin brutes: 50 HP, no les impresiona tu armadura de oro y pegan hachazos enormes. No reaparecen: límpialos primero",
-   "Spawners de magma cubes bajo la piscina de lava del bastión del tesoro"
-  ],
-  "tips": [
-   "Saquea cofres sin enfadar a los piglins: rompe el bloque bajo el cofre, coloca una tolva que alimente un cofre nuevo y saca los objetos desde la tolva; los piglins solo se enfadan si abres o rompes el contenedor directamente.",
-   "Los hoglins del bastión de establos son una granja de porkchops gratis si los encierras.",
-   "Nunca caves en vertical en un bastión: hay bolsas de lava y trampas de caída de los brutes por todas partes."
-  ]
- },
- "nether-fortress": {
-  "howToFind": [
-   "Se genera en franjas de norte a sur: viaja al este u oeste (eje X) y acabarás cruzándote con una",
-   "Busca los puentes oscuros de nether bricks sobre mares de lava; ayuda subir la distancia de renderizado",
-   "/locate structure minecraft:fortress"
-  ],
-  "loot": [
-   "Nether wart creciendo junto a las escaleras: el inicio de toda la alquimia",
-   "Spawners de blazes: blaze rods para brewing stands y eyes of ender",
-   "Cofres de la fortaleza: diamantes, monturas, armaduras de caballo de oro e iron, espadas doradas",
-   "Wither skeleton skulls: 2,5% de drop base (Java +1% por nivel de Looting, Bedrock +2%)"
-  ],
-  "dangers": [
-   "Los wither skeletons infligen Wither: tus corazones se vuelven negros y se vacían. La leche lo cura",
-   "Los blazes te prenden fuego a distancia: las pociones de Fire Resistance trivializan la pelea",
-   "Un paso en falso desde un puente a la lava es el clásico final de una partida hardcore"
-  ],
-  "tips": [
-   "Los wither skeletons solo aparecen dentro del área de la fortaleza: márcala antes de construir una granja de calaveras.",
-   "Una espada con Looting III casi duplica el ritmo de calaveras; llévala antes de comprometerte a farmear Withers.",
-   "Spawners de blazes: enjaula el spawner con antorchas en todas las caras para pausarlo mientras construyes la granja."
-  ]
- },
- "trial-chambers": {
-  "howToFind": [
-   "Estructuras subterráneas de copper y tuff, más comunes entre Y=-20 e Y=40 en las capas de deepslate",
-   "Compra un trial explorer map a un cartógrafo oficial (journeyman) por 12 esmeraldas + brújula",
-   "/locate structure minecraft:trial_chambers"
-  ],
-  "loot": [
-   "Vaults que se abren con trial keys: libros encantados, esmeraldas, armor trims (bolt y flow)",
-   "Ominous vaults (requieren ominous trial keys): el heavy core para fabricar el mace, banner pattern Flow",
-   "Breeze rods de los breezes: wind charges y fabricación del mace",
-   "Discos de música Precipice y Creator, pottery sherds exclusivos de las cámaras"
-  ],
-  "dangers": [
-   "Los trial spawners escalan con el número de jugadores y generan oleadas de breezes, bogged, slimes, silverfish y más",
-   "Los breezes saltan distancias enormes y sus wind charges te empujan desde los bordes al alcance cuerpo a cuerpo de todo lo demás",
-   "Bad Omen vuelve ominous a los trial spawners: mejor botín, oleadas mucho más duras (pociones lanzadas, equipo encantado)"
-  ],
-  "tips": [
-   "Cada jugador puede abrir cada vault una vez por estructura: trae amigos, todos reciben botín.",
-   "Los trial spawners descansan 30 minutos tras completarlos: las cámaras son una mazmorra renovable que puedes farmear.",
-   "Lleva escudo y Slow Falling: el knockback de los wind charges junto a las salas con sima es el principal asesino."
-  ]
- },
- "woodland-mansion": {
-  "howToFind": [
-   "Solo se genera en biomas dark forest (y pale garden), a menudo a más de 10.000 bloques del spawn",
-   "Compra un Woodland Explorer Map a un aldeano cartógrafo oficial: marca la mansión exacta",
-   "/locate structure minecraft:mansion"
-  ],
-  "loot": [
-   "Totems of undying de los evokers (siempre sueltan uno)",
-   "Esmeraldas de vindicators y evokers",
-   "Botín de cofres: manzanas doradas encantadas, azada/pechera de diamante, name tags, discos de música, leads",
-   "Allays atrapados en celdas: libéralos",
-   "Lana, estanterías y decoración para reutilizar"
-  ],
-  "dangers": [
-   "Vindicators: illagers con hacha que cargan corriendo y cuyos golpes desactivan el escudo",
-   "Evokers: invocan vexes y líneas de colmillos; mátalos primero",
-   "Los vexes atraviesan paredes",
-   "La mayoría de las salas están a oscuras: aparecen mobs hostiles de todo tipo dentro durante el asalto"
-  ],
-  "tips": [
-   "Ve con equipo completo de iron o mejor, escudo, arco, comida y antorchas; una cama fuera fija tu respawn.",
-   "Ilumina cada sala al limpiarla: la mansión es lo bastante oscura para que los mobs sigan apareciendo.",
-   "Las salas secretas (sin ventanas) se esconden tras las paredes: busca huecos en el mapa o ilumina a través.",
-   "Tras limpiarla, una mansión es una mega-base espectacular con decenas de salas amuebladas."
-  ]
- },
- "ocean-monument": {
-  "howToFind": [
-   "Se genera en variantes de deep ocean: busca la masa oscura de prismarine bajo el agua",
-   "Compra un Ocean Explorer Map a un cartógrafo oficial",
-   "Los delfines te llevan a ruinas y shipwrecks, no a monumentos: usa mapas o /locate structure minecraft:monument"
-  ],
-  "loot": [
-   "8 bloques de oro en la sala del tesoro del núcleo",
-   "Esponjas mojadas de las salas de esponjas (sécalas en un horno o en el Nether)",
-   "Prismarine shards y crystals de los guardians (sea lanterns y todas las variantes de prismarine)",
-   "Armor trim Tide de los elder guardians (~20%)",
-   "El monumento en sí: prismarine infinito, sea lanterns y dark prismarine"
-  ],
-  "dangers": [
-   "Guardians: rayos láser y púas con espinas, por todas partes",
-   "Tres elder guardians infligen Mining Fatigue III (5 minutos): no podrás minar hasta que mueran",
-   "Ahogarse: lleva Water Breathing, puertas (Java) o un plan con conduit",
-   "El deep ocean también significa patrullas de drowned en la superficie"
-  ],
-  "tips": [
-   "Mata primero a los tres elders: los cubos de leche limpian el Mining Fatigue.",
-   "Bebe Water Breathing + Depth Strider III, o coloca un conduit fuera del monumento.",
-   "Drénalo con muros de arena y esponjas para convertirlo en la clásica granja de XP de guardians.",
-   "En Java, los duplicadores de TNT y las flying machines son la tecnología estándar de drenado."
-  ]
- },
- "mineshaft": {
-  "howToFind": [
-   "Se genera bajo tierra en cualquier parte del Overworld, a menudo cruzando cuevas: explora sistemas de cuevas y escucha a las cave spiders",
-   "Aparecen secciones al aire libre en badlands (de dark oak, cerca de la superficie) y en el fondo oceánico",
-   "/locate structure minecraft:mineshaft"
-  ],
-  "loot": [
-   "Minecarts con cofre: rails, libros encantados, name tags, semillas de melón y beetroot, glow berries (en lush caves), diamantes en raras ocasiones",
-   "Telarañas a montones: córtalas con tijeras para string",
-   "Rails: desmonta la estructura entera para cientos de rails gratis",
-   "Spawners de cave spiders: conviértelos en granjas de XP/string"
-  ],
-  "dangers": [
-   "Spawners de cave spiders: sus mordiscos con veneno te dejan a medio corazón",
-   "Caídas al vacío y techos de grava sin soporte",
-   "Perderse: los pasillos de una mineshaft son todos iguales"
-  ],
-  "tips": [
-   "La leche o los botes de miel curan el veneno de las cave spiders; un escudo bloquea el mordisco.",
-   "Antorchas en una sola dirección (por ejemplo, siempre en la pared derecha) para saber volver.",
-   "Las mineshafts de badlands son casi al aire libre: botín gratis con la seguridad de la luz del día.",
-   "En Java las mineshafts flotan sin soporte; en Bedrock se generan con pilares. El botín es el mismo."
-  ]
- },
- "desert-temple": {
-  "howToFind": [
-   "Se genera en biomas desert, a menudo semienterrado en arena: las torres de terracota naranja asoman sobre las dunas",
-   "/locate structure minecraft:desert_pyramid",
-   "Los desert wells y las aldeas suelen estar cerca"
-  ],
-  "loot": [
-   "4 cofres ocultos bajo el suelo: libros encantados, manzanas doradas, diamantes, esmeraldas, armaduras de caballo, huesos y rotten flesh",
-   "9 bloques de TNT: mínalos tras desactivar la trampa",
-   "El templo en sí: terracota y cut sandstone para construcciones"
-  ],
-  "dangers": [
-   "La trampa de TNT: una placa de presión de piedra en el centro del suelo detona 9 TNT, suficiente para matar a un jugador sin armadura y destruir los cofres",
-   "Mobs hostiles dentro de la cámara del tesoro a oscuras"
-  ],
-  "tips": [
-   "NUNCA pises la placa central: cava hacia abajo por una esquina de la cámara, o vierte agua desde arriba.",
-   "Rompe primero la placa de presión y luego mina la TNT para tu propio uso.",
-   "En Bedrock los cofres se generan de forma ligeramente distinta, pero la trampa es idéntica.",
-   "Para arqueología con el pincel, busca desert wells y warm ocean ruins: los templos no tienen bloques sospechosos."
-  ]
- },
- "jungle-temple": {
-  "howToFind": [
-   "Se genera en biomas jungle y bamboo jungle, cubierto de lianas y mossy cobblestone",
-   "/locate structure minecraft:jungle_pyramid",
-   "Suele encontrarse mientras buscas loros o bambú"
-  ],
-  "loot": [
-   "Dos cofres: iron, oro, diamantes, esmeraldas, huesos, bambú, armadura de caballo y libros encantados",
-   "Dispensers y tripwire para tus propias trampas",
-   "Sticky pistons y redstone del mecanismo del puzle"
-  ],
-  "dangers": [
-   "Trampa de tripwire: flechas disparadas desde dispensers ocultos en el pasillo de entrada",
-   "Caídas a la sala inferior del puzle"
-  ],
-  "tips": [
-   "El puzle de las tres palancas: acierta la combinación para abrir la sala secreta del cofre, o simplemente pica a través de la pared (solo es mossy cobblestone).",
-   "Corta los tripwires con tijeras para reutilizar el string.",
-   "Los cocoa beans crecen en los árboles de la jungla de fuera: recoge algunos mientras estás aquí."
-  ]
- },
- "trail-ruins": {
-  "howToFind": [
-   "Yacimientos arqueológicos enterrados en forests, taiga, old growth taiga, snowy taiga y jungle: solo la punta de terracota asoma sobre el suelo",
-   "/locate structure minecraft:trail_ruins",
-   "Busca bloques de terracota de colores expuestos en las laderas"
-  ],
-  "loot": [
-   "Suspicious gravel: cepíllala para conseguir pottery sherds (patrones exclusivos de las trail ruins)",
-   "Cuatro armor trims exclusivos: Host, Raiser, Shaper y Wayfinder",
-   "Tintes, herramientas de madera, ladrillos y otros drops comunes de arqueología",
-   "Terracota vidriada de colores y mud bricks como material rescatado"
-  ],
-  "dangers": [
-   "Derrumbes de grava mientras excavas",
-   "La estructura enterrada es grande: la mayor parte del botín está muy bajo tierra",
-   "Creepers en el bosque de alrededor mientras cavas"
-  ],
-  "tips": [
-   "Lleva pincel, pala y paciencia: solo los bloques de suspicious gravel contienen botín; cepíllalos, nunca los mines.",
-   "La suspicious gravel parece idéntica a la grava normal pero cae sin soltarse... se comporta como grava con gravedad; márcala antes de que el hoyo se derrumbe.",
-   "Excava en cuadrícula: el yacimiento completo se extiende más de 30 bloques y gran parte está bajo piedra.",
-   "Cada armor trim sale muy rara vez: cuenta con limpiar varios yacimientos para el set completo."
-  ]
- }
+  "village": {
+    "howToFind": [
+      "Se genera en biomas de plains, desert, savanna, taiga, snowy plains y meadow: camina y observa, o usa /locate structure minecraft:village_plains (cada variante tiene su propio ID)",
+      "Los cartógrafos nunca marcan aldeas en sus mapas: toca explorar",
+      "En Bedrock las aldeas son mucho más comunes que en Java"
+    ],
+    "loot": [
+      "Hay bales (9 wheat cada uno) y cosechas de las granjas",
+      "Cofres de las casas: comida, herramientas, saplings, armadura",
+      "Cofres del weaponsmith: iron, obsidian, a veces diamantes",
+      "Camas y workstations que puedes llevarte para tu propia trading hall"
+    ],
+    "dangers": [
+      "Asedios de zombis y raids de pillagers (Bad Omen)",
+      "Los iron golems defienden a los aldeanos, y a ti si tu reputación es buena",
+      "En las aldeas abandonadas (zombi) aparecen aldeanos zombi; tienen telarañas y no tienen puertas... práctica de curación gratis"
+    ],
+    "tips": [
+      "Toca la campana para que los aldeanos se escondan, y para ver el centro de la aldea si vas a construir granjas.",
+      "Duerme antes de medianoche la primera noche: un asedio de zombis puede arrasar la aldea antes de que llegues a comerciar.",
+      "Las aldeas abandonadas (2% de las aldeas) no penalizan el botín y tienen telarañas de sobra para string."
+    ]
+  },
+  "stronghold": {
+    "howToFind": [
+      "Lanza eyes of ender: vuelan hacia el stronghold más cercano. Síguelos hasta que empiecen a clavarse en el suelo y entonces cava hacia abajo",
+      "Triangula: lanza desde dos puntos separados unos cientos de bloques y camina hasta donde se cruzan las trayectorias; ahorra ojos",
+      "Java: se generan 128 strongholds en anillos alrededor del origen del mundo. Bedrock: ilimitados, algunos directamente bajo aldeas"
+    ],
+    "loot": [
+      "Bibliotecas: libros encantados (incluidos encantamientos tesoro), papel y libros",
+      "Cofres de pasillos y altar: ender pearls, iron, manzanas, eyes of ender",
+      "La sala del portal del End: 12 marcos, cada uno con un 10% de probabilidad de venir ya relleno; espera 0-2 ojos colocados"
+    ],
+    "dangers": [
+      "Spawner de silverfish en la sala del portal: rómpelo o ilumínalo antes de activar el portal",
+      "Los silverfish se esconden en stone bricks infestados por toda la estructura",
+      "Es fácil perderse: coloca antorchas siempre en el mismo lado para marcar el camino de vuelta"
+    ],
+    "tips": [
+      "Lleva 12+ eyes of ender: unos para el viaje y otros para los marcos.",
+      "A veces la sala del portal se genera sin marco (un raro fallo de generación): busca otro stronghold en lugar de enfadarte.",
+      "Cava en vertical solo tras hacer una escalera: a los strongholds les encanta abrirse a cuevas y ravinas."
+    ]
+  },
+  "ancient-city": {
+    "howToFind": [
+      "Se genera en el bioma deep dark alrededor de Y=-52, casi siempre bajo montañas (jagged peaks, windswept hills)",
+      "Cava hacia abajo desde una montaña o encuentra una cueva profunda que llegue a niveles de deepslate",
+      "/locate structure minecraft:ancient_city con los trucos activados"
+    ],
+    "loot": [
+      "Echo shards (para fabricar la recovery compass, que apunta a tu última muerte)",
+      "Libros encantados de Swift Sneak (única fuente del juego)",
+      "Manzanas doradas encantadas, disc fragments (Music Disc 5), sculk catalysts",
+      "Marco de reinforced deepslate en el centro: irrompible, puramente decorativo (no hay portal oculto)"
+    ],
+    "dangers": [
+      "Los sculk sensors te oyen caminar, colocar y romper bloques; los sculk shriekers invocan al Warden al cuarto aviso",
+      "El Warden: 500 HP y un ataque sónico que atraviesa paredes y armadura. No está pensado para que luches contra él",
+      "Pulsos del efecto Darkness cada vez que se activan los shriekers"
+    ],
+    "tips": [
+      "Lleva pilas de lana: caminar sobre lana es silencioso y puedes tapar los sensores antes de abrir un cofre.",
+      "Rompe cada shrieker que puedas alcanzar DESPUÉS de que se reinicie su enfriamiento del cuarto grito: un shrieker solo puede invocar un Warden por cada 4 gritos.",
+      "Si aparece el Warden: quédate quieto, deja que pase olisqueando y sal por donde viniste. Vuelve a enterrarse tras 60 segundos tranquilos."
+    ]
+  },
+  "bastion-remnant": {
+    "howToFind": [
+      "Se genera en todos los biomas del Nether excepto basalt deltas",
+      "Cuatro tipos: puentes, establos de hoglins, viviendas y la sala del tesoro; el bastión del tesoro tiene la pirámide gigante de bloques de oro y la piscina de lava",
+      "/locate structure minecraft:bastion_remnant"
+    ],
+    "loot": [
+      "Netherite upgrade smithing template: garantizada en el cofre de la sala del tesoro (1.20+); necesitas 7 diamantes para duplicar cada una",
+      "Ancient debris, netherite scraps y a veces un netherite ingot (sala del tesoro)",
+      "Disco de música Pigstep, banner pattern Snout, gilded blackstone",
+      "Bloques de oro a docenas, sobre todo en el bastión del tesoro"
+    ],
+    "dangers": [
+      "Los piglins atacan a quien no lleve armadura de oro o abra cofres y mine oro: ponte una pieza de oro y distrae a los demás soltando lingotes lejos",
+      "Piglin brutes: 50 HP, no les impresiona tu armadura de oro y pegan hachazos enormes. No reaparecen: límpialos primero",
+      "Spawners de magma cubes bajo la piscina de lava del bastión del tesoro"
+    ],
+    "tips": [
+      "Saquea cofres sin enfadar a los piglins: rompe el bloque bajo el cofre, coloca una tolva que alimente un cofre nuevo y saca los objetos desde la tolva; los piglins solo se enfadan si abres o rompes el contenedor directamente.",
+      "Los hoglins del bastión de establos son una granja de porkchops gratis si los encierras.",
+      "Nunca caves en vertical en un bastión: hay bolsas de lava y trampas de caída de los brutes por todas partes."
+    ]
+  },
+  "nether-fortress": {
+    "howToFind": [
+      "Se genera en franjas de norte a sur: viaja al este u oeste (eje X) y acabarás cruzándote con una",
+      "Busca los puentes oscuros de nether bricks sobre mares de lava; ayuda subir la distancia de renderizado",
+      "/locate structure minecraft:fortress"
+    ],
+    "loot": [
+      "Nether wart creciendo junto a las escaleras: el inicio de toda la alquimia",
+      "Spawners de blazes: blaze rods para brewing stands y eyes of ender",
+      "Cofres de la fortaleza: diamantes, monturas, armaduras de caballo de oro e iron, espadas doradas",
+      "Wither skeleton skulls: 2,5% de drop base (Java +1% por nivel de Looting, Bedrock +2%)"
+    ],
+    "dangers": [
+      "Los wither skeletons infligen Wither: tus corazones se vuelven negros y se vacían. La leche lo cura",
+      "Los blazes te prenden fuego a distancia: las pociones de Fire Resistance trivializan la pelea",
+      "Un paso en falso desde un puente a la lava es el clásico final de una partida hardcore"
+    ],
+    "tips": [
+      "Los wither skeletons solo aparecen dentro del área de la fortaleza: márcala antes de construir una granja de calaveras.",
+      "Una espada con Looting III casi duplica el ritmo de calaveras; llévala antes de comprometerte a farmear Withers.",
+      "Spawners de blazes: enjaula el spawner con antorchas en todas las caras para pausarlo mientras construyes la granja."
+    ]
+  },
+  "trial-chambers": {
+    "howToFind": [
+      "Estructuras subterráneas de copper y tuff, más comunes entre Y=-20 e Y=40 en las capas de deepslate",
+      "Compra un trial explorer map a un cartógrafo oficial (journeyman) por 12 esmeraldas + brújula",
+      "/locate structure minecraft:trial_chambers"
+    ],
+    "loot": [
+      "Vaults que se abren con trial keys: libros encantados, esmeraldas, armor trims (bolt y flow)",
+      "Ominous vaults (requieren ominous trial keys): el heavy core para fabricar el mace, banner pattern Flow",
+      "Breeze rods de los breezes: wind charges y fabricación del mace",
+      "Discos de música Precipice y Creator, pottery sherds exclusivos de las cámaras"
+    ],
+    "dangers": [
+      "Los trial spawners escalan con el número de jugadores y generan oleadas de breezes, bogged, slimes, silverfish y más",
+      "Los breezes saltan distancias enormes y sus wind charges te empujan desde los bordes al alcance cuerpo a cuerpo de todo lo demás",
+      "Bad Omen vuelve ominous a los trial spawners: mejor botín, oleadas mucho más duras (pociones lanzadas, equipo encantado)"
+    ],
+    "tips": [
+      "Cada jugador puede abrir cada vault una vez por estructura: trae amigos, todos reciben botín.",
+      "Los trial spawners descansan 30 minutos tras completarlos: las cámaras son una mazmorra renovable que puedes farmear.",
+      "Lleva escudo y Slow Falling: el knockback de los wind charges junto a las salas con sima es el principal asesino."
+    ]
+  },
+  "woodland-mansion": {
+    "howToFind": [
+      "Solo se genera en biomas dark forest (y pale garden), a menudo a más de 10.000 bloques del spawn",
+      "Compra un Woodland Explorer Map a un aldeano cartógrafo oficial: marca la mansión exacta",
+      "/locate structure minecraft:mansion"
+    ],
+    "loot": [
+      "Totems of undying de los evokers (siempre sueltan uno)",
+      "Esmeraldas de vindicators y evokers",
+      "Botín de cofres: manzanas doradas encantadas, azada/pechera de diamante, name tags, discos de música, leads",
+      "Allays atrapados en celdas: libéralos",
+      "Lana, estanterías y decoración para reutilizar"
+    ],
+    "dangers": [
+      "Vindicators: illagers con hacha que cargan corriendo y cuyos golpes desactivan el escudo",
+      "Evokers: invocan vexes y líneas de colmillos; mátalos primero",
+      "Los vexes atraviesan paredes",
+      "La mayoría de las salas están a oscuras: aparecen mobs hostiles de todo tipo dentro durante el asalto"
+    ],
+    "tips": [
+      "Ve con equipo completo de iron o mejor, escudo, arco, comida y antorchas; una cama fuera fija tu respawn.",
+      "Ilumina cada sala al limpiarla: la mansión es lo bastante oscura para que los mobs sigan apareciendo.",
+      "Las salas secretas (sin ventanas) se esconden tras las paredes: busca huecos en el mapa o ilumina a través.",
+      "Tras limpiarla, una mansión es una mega-base espectacular con decenas de salas amuebladas."
+    ]
+  },
+  "ocean-monument": {
+    "howToFind": [
+      "Se genera en variantes de deep ocean: busca la masa oscura de prismarine bajo el agua",
+      "Compra un Ocean Explorer Map a un cartógrafo oficial",
+      "Los delfines te llevan a ruinas y shipwrecks, no a monumentos: usa mapas o /locate structure minecraft:monument"
+    ],
+    "loot": [
+      "8 bloques de oro en la sala del tesoro del núcleo",
+      "Esponjas mojadas de las salas de esponjas (sécalas en un horno o en el Nether)",
+      "Prismarine shards y crystals de los guardians (sea lanterns y todas las variantes de prismarine)",
+      "Armor trim Tide de los elder guardians (~20%)",
+      "El monumento en sí: prismarine infinito, sea lanterns y dark prismarine"
+    ],
+    "dangers": [
+      "Guardians: rayos láser y púas con espinas, por todas partes",
+      "Tres elder guardians infligen Mining Fatigue III (5 minutos): no podrás minar hasta que mueran",
+      "Ahogarse: lleva Water Breathing, puertas (Java) o un plan con conduit",
+      "El deep ocean también significa patrullas de drowned en la superficie"
+    ],
+    "tips": [
+      "Mata primero a los tres elders: los cubos de leche limpian el Mining Fatigue.",
+      "Bebe Water Breathing + Depth Strider III, o coloca un conduit fuera del monumento.",
+      "Drénalo con muros de arena y esponjas para convertirlo en la clásica granja de XP de guardians.",
+      "En Java, los duplicadores de TNT y las flying machines son la tecnología estándar de drenado."
+    ]
+  },
+  "mineshaft": {
+    "howToFind": [
+      "Se genera bajo tierra en cualquier parte del Overworld, a menudo cruzando cuevas: explora sistemas de cuevas y escucha a las cave spiders",
+      "Aparecen secciones al aire libre en badlands (de dark oak, cerca de la superficie) y en el fondo oceánico",
+      "/locate structure minecraft:mineshaft"
+    ],
+    "loot": [
+      "Minecarts con cofre: rails, libros encantados, name tags, semillas de melón y beetroot, glow berries (en lush caves), diamantes en raras ocasiones",
+      "Telarañas a montones: córtalas con tijeras para string",
+      "Rails: desmonta la estructura entera para cientos de rails gratis",
+      "Spawners de cave spiders: conviértelos en granjas de XP/string"
+    ],
+    "dangers": [
+      "Spawners de cave spiders: sus mordiscos con veneno te dejan a medio corazón",
+      "Caídas al vacío y techos de grava sin soporte",
+      "Perderse: los pasillos de una mineshaft son todos iguales"
+    ],
+    "tips": [
+      "La leche o los botes de miel curan el veneno de las cave spiders; un escudo bloquea el mordisco.",
+      "Antorchas en una sola dirección (por ejemplo, siempre en la pared derecha) para saber volver.",
+      "Las mineshafts de badlands son casi al aire libre: botín gratis con la seguridad de la luz del día.",
+      "En Java las mineshafts flotan sin soporte; en Bedrock se generan con pilares. El botín es el mismo."
+    ]
+  },
+  "desert-temple": {
+    "howToFind": [
+      "Se genera en biomas desert, a menudo semienterrado en arena: las torres de terracota naranja asoman sobre las dunas",
+      "/locate structure minecraft:desert_pyramid",
+      "Los desert wells y las aldeas suelen estar cerca"
+    ],
+    "loot": [
+      "4 cofres ocultos bajo el suelo: libros encantados, manzanas doradas, diamantes, esmeraldas, armaduras de caballo, huesos y rotten flesh",
+      "9 bloques de TNT: mínalos tras desactivar la trampa",
+      "El templo en sí: terracota y cut sandstone para construcciones"
+    ],
+    "dangers": [
+      "La trampa de TNT: una placa de presión de piedra en el centro del suelo detona 9 TNT, suficiente para matar a un jugador sin armadura y destruir los cofres",
+      "Mobs hostiles dentro de la cámara del tesoro a oscuras"
+    ],
+    "tips": [
+      "NUNCA pises la placa central: cava hacia abajo por una esquina de la cámara, o vierte agua desde arriba.",
+      "Rompe primero la placa de presión y luego mina la TNT para tu propio uso.",
+      "En Bedrock los cofres se generan de forma ligeramente distinta, pero la trampa es idéntica.",
+      "Para arqueología con el pincel, busca desert wells y warm ocean ruins: los templos no tienen bloques sospechosos."
+    ]
+  },
+  "jungle-temple": {
+    "howToFind": [
+      "Se genera en biomas jungle y bamboo jungle, cubierto de lianas y mossy cobblestone",
+      "/locate structure minecraft:jungle_pyramid",
+      "Suele encontrarse mientras buscas loros o bambú"
+    ],
+    "loot": [
+      "Dos cofres: iron, oro, diamantes, esmeraldas, huesos, bambú, armadura de caballo y libros encantados",
+      "Dispensers y tripwire para tus propias trampas",
+      "Sticky pistons y redstone del mecanismo del puzle"
+    ],
+    "dangers": [
+      "Trampa de tripwire: flechas disparadas desde dispensers ocultos en el pasillo de entrada",
+      "Caídas a la sala inferior del puzle"
+    ],
+    "tips": [
+      "El puzle de las tres palancas: acierta la combinación para abrir la sala secreta del cofre, o simplemente pica a través de la pared (solo es mossy cobblestone).",
+      "Corta los tripwires con tijeras para reutilizar el string.",
+      "Los cocoa beans crecen en los árboles de la jungla de fuera: recoge algunos mientras estás aquí."
+    ]
+  },
+  "trail-ruins": {
+    "howToFind": [
+      "Yacimientos arqueológicos enterrados en forests, taiga, old growth taiga, snowy taiga y jungle: solo la punta de terracota asoma sobre el suelo",
+      "/locate structure minecraft:trail_ruins",
+      "Busca bloques de terracota de colores expuestos en las laderas"
+    ],
+    "loot": [
+      "Suspicious gravel: cepíllala para conseguir pottery sherds (patrones exclusivos de las trail ruins)",
+      "Cuatro armor trims exclusivos: Host, Raiser, Shaper y Wayfinder",
+      "Tintes, herramientas de madera, ladrillos y otros drops comunes de arqueología",
+      "Terracota vidriada de colores y mud bricks como material rescatado"
+    ],
+    "dangers": [
+      "Derrumbes de grava mientras excavas",
+      "La estructura enterrada es grande: la mayor parte del botín está muy bajo tierra",
+      "Creepers en el bosque de alrededor mientras cavas"
+    ],
+    "tips": [
+      "Lleva pincel, pala y paciencia: solo los bloques de suspicious gravel contienen botín; cepíllalos, nunca los mines.",
+      "La suspicious gravel parece idéntica a la grava normal pero cae sin soltarse... se comporta como grava con gravedad; márcala antes de que el hoyo se derrumbe.",
+      "Excava en cuadrícula: el yacimiento completo se extiende más de 30 bloques y gran parte está bajo piedra.",
+      "Cada armor trim sale muy rara vez: cuenta con limpiar varios yacimientos para el set completo."
+    ]
+  },
+  "abandoned-camp": {
+    "dimension": "Overworld",
+    "howToFind": [
+      "Se genera en 18 biomas de superficie, incluidas las dappled forests (normalmente con un álamo): busca una tienda de lana blanca con una hoguera",
+      "Un intento de generación por región de 34x34 chunks, así que los campamentos quedan a 8-60 chunks de distancia (34 de media)",
+      "Los mapas de explorador de los cofres del campamento apuntan a otros abandoned camps, trial chambers y ancient cities",
+      "/locate structure minecraft:abandoned_camp"
+    ],
+    "loot": [
+      "Barriles y cofres: straw beds, cushions blancos, trigo, pan, carbón, cuero, flechas, hilo, huesos, piel de conejo, frascos de cristal, velas blancas y telarañas",
+      "Herramientas de madera, cañas de pescar y bundles",
+      "Mapas de explorador hacia otros campamentos y hacia estructuras mayores",
+      "Un raro cofre de cobre oxidado con mejor botín, a menudo escondido bajo otros bloques"
+    ],
+    "dangers": [
+      "No aparece nada dentro: es una de las estructuras más seguras del juego",
+      "Solo los mobs nocturnos de siempre alrededor mientras saqueas"
+    ],
+    "tips": [
+      "Las tiendas están hechas de escaleras de lana: lana gratis al principio si desmontas una.",
+      "Las vallas y detalles de la tienda cambian según el bioma (un campamento de pale garden usa vallas de pale oak): con 10 variantes de tienda por bioma y 49 de campamento, hay 8.820 diseños posibles.",
+      "Busca bajo y detrás de los bloques el raro cofre de cobre antes de irte.",
+      "Encadena los mapas de explorador: un mapa de campamento puede iniciar un rastro que termina en unas trial chambers o una ancient city.",
+      "Las straw beds y cushions saqueadas aquí son la forma más rápida de probar los muebles de la 26.3."
+    ]
+  }
 }

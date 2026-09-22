@@ -1,29 +1,79 @@
 {
- "pack-png": {
-  "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
-  "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
-  "notes": [
-   "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
-   "El icónico acantilado con nubes y cascada está en x=49, z=0",
-   "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
-  ]
- },
- "title-panorama-original": {
-  "version": "Java Beta 1.7.3 (el mundo se ve de Beta 1.8 a 1.12)",
-  "story": "El mundo borroso que gira lentamente detrás del menú principal de Minecraft, desde Beta 1.8 (2011) hasta 1.13. La comunidad de Minecraft@Home descifró la seed el 18 de julio de 2020 tras cerca de un mes de investigación. Existe una segunda seed válida, 8091867987493326313, porque las versiones antiguas usaban solo 48 bits de la seed, así que miles de seeds generan este mismo mundo.",
-  "notes": [
-   "Usa 2151901553968352745 o 8091867987493326313 en Beta 1.7.3 para el mundo exacto del panorama",
-   "Colócate en X=61.48, Y=75, Z=-68.73 mirando en la dirección correcta para recrear la imagen",
-   "54,5 exaFLOPs de computación voluntaria se invirtieron en la búsqueda"
-  ]
- },
- "title-panorama-118": {
-  "version": "Java 21w40a (snapshot de 1.18) y posteriores",
-  "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
-  "notes": [
-   "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
-   "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
-   "Terreno moderno de 1.18+, así que funciona en las versiones actuales de Java"
-  ]
- }
+  "pack-png": {
+    "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
+    "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
+    "notes": [
+      "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
+      "El icónico acantilado con nubes y cascada está en x=49, z=0",
+      "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
+    ]
+  },
+  "title-panorama-original": {
+    "version": "Java Beta 1.7.3 (el mundo se ve de Beta 1.8 a 1.12)",
+    "story": "El mundo borroso que gira lentamente detrás del menú principal de Minecraft, desde Beta 1.8 (2011) hasta 1.13. La comunidad de Minecraft@Home descifró la seed el 18 de julio de 2020 tras cerca de un mes de investigación. Existe una segunda seed válida, 8091867987493326313, porque las versiones antiguas usaban solo 48 bits de la seed, así que miles de seeds generan este mismo mundo.",
+    "notes": [
+      "Usa 2151901553968352745 o 8091867987493326313 en Beta 1.7.3 para el mundo exacto del panorama",
+      "Colócate en X=61.48, Y=75, Z=-68.73 mirando en la dirección correcta para recrear la imagen",
+      "54,5 exaFLOPs de computación voluntaria se invirtieron en la búsqueda"
+    ]
+  },
+  "title-panorama-118": {
+    "version": "Java 21w40a (snapshot de 1.18) y posteriores",
+    "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
+    "notes": [
+      "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
+      "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
+      "Terreno moderno de 1.18+, así que funciona en las versiones actuales de Java"
+    ]
+  },
+  "herobrine-screenshot": {
+    "version": "Java Alpha v1.0.16_02",
+    "story": "El mundo detrás del creepypasta más famoso de Minecraft. La captura original de Herobrine de 2010 (el 'Steve' de ojos blancos en la niebla) era un hoax, pero el mundo era real. Minecraft@Home reconstruyó el terreno visible bloque a bloque (usando como pistas el fallo de caída de hojas, los bordes de chunk y las rotaciones de texturas) y recuperó la seed en enero de 2021. El launcher de Minecraft bromeó después en su changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
+    "notes": [
+      "Solo se genera correctamente en Alpha v1.0.16_02 (activa las versiones históricas en el launcher)",
+      "Ponte en X=5.06, Y=71, Z=-298.54 para recrear la vista exacta de la captura",
+      "Herobrine nunca estuvo en el juego: encontrarás la colina, los árboles y la niebla, nada más",
+      "Mojang referencia la seed en el minijuego Alpha del mapa 15 Year Journey"
+    ]
+  },
+  "herobrine-livestream": {
+    "version": "Java Alpha v1.0.17_04",
+    "story": "La seed del directo de Brocraft en el que el streamer Copeland 'se encontró' con Herobrine en vivo en 2010, el momento en que la leyenda se hizo viral. Los propios directos fueron lost media durante 14 años hasta que Enderboss25 los recuperó en julio de 2024 gracias a un espectador que los había archivado en privado. El propio Copeland acabó publicando la descarga del mundo original.",
+    "notes": [
+      "Se genera en Alpha v1.0.17_04 (versiones históricas en el launcher)",
+      "El directo estaba preparado: el 'Herobrine' era un truco con una puerta/pintura retexturizada",
+      "Los directos originales reaparecieron en 2024 y se pueden volver a ver",
+      "Compañera de la seed de la captura de Herobrine: dos mundos distintos, un mismo mito"
+    ]
+  },
+  "skull-on-fire-painting": {
+    "version": "Java Alpha v1.1.2_01 o anterior",
+    "story": "El mundo que aparece en 'Skull on Fire', uno de los cuadros originales de Kristoffer Zetterstrand en Minecraft. Durante más de una década nadie supo si el paisaje de la calavera en llamas era un lugar real. Los investigadores de seeds demostraron que sí: el terreno del cuadro existe en la generación de Alpha, y cualquiera de las dos seeds lo reproduce (la segunda es -1044887956651363087, porque los mundos de Alpha solo usan parte de los bits de la seed).",
+    "notes": [
+      "Se genera en Alpha v1.1.2_01 o anterior (versiones históricas en el launcher)",
+      "Dos seeds equivalentes: -6984854390176336655 o -1044887956651363087",
+      "El cuadro es de Kristoffer Zetterstrand, como la mayoría del arte clásico de Minecraft",
+      "Una de las últimas grandes imágenes 'perdidas' de Minecraft en ser reconstruida"
+    ]
+  },
+  "title-panorama-113": {
+    "version": "Java snapshot 18w22a (el mundo del menú de la 1.13)",
+    "story": "El cálido océano de arrecife de coral que rotaba tras el menú principal en la era de Update Aquatic (1.13). Esta vez la seed no se descubrió por fuerza bruta: es simplemente el texto '18w22a' escrito en la casilla de seed (el propio snapshot en que se hizo la captura), que se transforma en 1458140401.",
+    "notes": [
+      "Escribe 18w22a o 1458140401: ambos producen el mismo mundo",
+      "Cárgalo en cualquier versión 1.13+; el arrecife aparece en terreno de océano cálido",
+      "La panorámica submarina era el escaparate de Mojang para los nuevos océanos de Update Aquatic",
+      "Misma familia de panorámicas que las seeds original y 1.18 que ya están en esta lista"
+    ]
+  },
+  "title-panorama-119": {
+    "version": "Java snapshot 22w15a (el mundo del menú de la 1.19)",
+    "story": "La panorámica de manglar que daba la bienvenida a los jugadores en The Wild Update (1.19). Como la de la 1.13, la seed está a la vista: escribe 'thewildupdate' en la casilla de seed y el texto se transforma en -1696067516, el mismo mundo que Mojang fotografió en el snapshot 22w15a.",
+    "notes": [
+      "Escribe thewildupdate o -1696067516: ambos producen el mismo mundo",
+      "Cárgalo en 1.19+ para el terreno de manglar",
+      "La panorámica destaca los entonces nuevos manglares, el barro y el ambiente de la época de las luciérnagas",
+      "Las seeds de texto se transforman con String.hashCode de Java, por eso las palabras se convierten en números"
+    ]
+  }
 }

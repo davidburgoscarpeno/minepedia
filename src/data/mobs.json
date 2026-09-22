@@ -1,1384 +1,1418 @@
 [
- {
-  "slug": "creeper",
-  "name": "Creeper",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Overworld, anywhere the light level is 0 (night, caves, dark forests).",
-  "howToKill": "Hit and retreat to stay out of its 3-block explosion trigger, or shoot it from a distance. A shield blocks most of the explosion if you raise it in time. Cats scare creepers away.",
-  "drops": [
-   {
-    "item": "Gunpowder",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Key ingredient for TNT and firework rockets"
-   },
-   {
-    "item": "Music disc",
-    "qty": "1",
-    "notes": "Only when killed by a skeleton's arrow"
-   },
-   {
-    "item": "Creeper head",
-    "qty": "1",
-    "notes": "Only when killed by a charged creeper's explosion"
-   }
-  ],
-  "spawnConditions": "Light level 0, on solid blocks in the Overworld. Does not spawn in mushroom fields.",
-  "behavior": "Silently approaches players and detonates after 1.5 seconds within 3 blocks. Explosion power: 3 (charged by lightning: 6, twice as destructive).",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.24",
-  "related": [
-   "zombie",
-   "skeleton",
-   "spider"
-  ],
-  "keywords": "creeper drops gunpowder explosion how to kill spawn"
- },
- {
-  "slug": "zombie",
-  "name": "Zombie",
-  "type": "Hostile",
-  "health": "20 (10 hearts), 2 natural armor points",
-  "where": "Overworld at light level 0. Zombie villagers spawn instead of normal zombies 5% of the time.",
-  "howToKill": "Any weapon works; it is slow and melee-only. Burns in sunlight unless wearing a helmet or standing in water or shade.",
-  "drops": [
-   {
-    "item": "Rotten Flesh",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Emergency food; trade with cleric villagers"
-   },
-   {
-    "item": "Iron Ingot / Carrot / Potato",
-    "qty": "0-1 rare drop",
-    "notes": "2.5% each, up to 5.5% with Looting III"
-   },
-   {
-    "item": "Equipped armor, weapons or items",
-    "qty": "always if picked up",
-    "notes": "Zombies wearing gear drop it (8.5% base for natural spawns)"
-   }
-  ],
-  "spawnConditions": "Light level 0. Sieges can spawn zombies around villages at midnight. Drowned convert from zombies that stay underwater.",
-  "behavior": "Pursues players and villagers, breaks wooden doors on Hard difficulty, calls reinforcements when hurt (Java). Picks up items and wears armor.",
-  "tameOrBreed": "Cannot be tamed or bred. Zombie villagers can be cured with Weakness + golden apple.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.24",
-  "related": [
-   "creeper",
-   "skeleton",
-   "drowned"
-  ],
-  "keywords": "zombie drops rotten flesh iron how to kill spawn"
- },
- {
-  "slug": "skeleton",
-  "name": "Skeleton",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Overworld at light level 0; also in Nether fortresses and soul sand valleys.",
-  "howToKill": "Close the distance using cover or a shield, then melee. Their arrows are slow at short range but deadly in groups.",
-  "drops": [
-   {
-    "item": "Bone",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Bone meal for farms, taming wolves"
-   },
-   {
-    "item": "Arrow",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Infinite arrows with a skeleton farm"
-   },
-   {
-    "item": "Bow",
-    "qty": "rare",
-    "notes": "8.5% drop chance, sometimes enchanted"
-   }
-  ],
-  "spawnConditions": "Light level 0 in the Overworld; light level 7 or less in Nether fortresses and soul sand valleys.",
-  "behavior": "Shoots arrows from up to 16 blocks, strafes around targets (Java), burns in sunlight, retreats from wolves.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.24",
-  "related": [
-   "zombie",
-   "creeper",
-   "stray"
-  ],
-  "keywords": "skeleton drops bones arrows how to kill spawn"
- },
- {
-  "slug": "spider",
-  "name": "Spider",
-  "type": "Neutral (hostile in darkness)",
-  "health": "16 (8 hearts)",
-  "where": "Overworld at light level 0. Cave spiders spawn from spawners in mineshafts.",
-  "howToKill": "Easy melee target; it jumps when attacking. In daylight it stops attacking unless provoked. Bane of Arthropods swords kill it fast.",
-  "drops": [
-   {
-    "item": "String",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Bows, fishing rods, wool, leads"
-   },
-   {
-    "item": "Spider Eye",
-    "qty": "0-1 (up to 4 with Looting III)",
-    "notes": "Brewing ingredient; do not eat unless desperate"
-   }
-  ],
-  "spawnConditions": "Light level 0 in the Overworld, needs a 3x3x2 space but only a 1-block-high center.",
-  "behavior": "Hostile below light level 12, neutral in daylight. Climbs walls and sees through blocks to track you.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.26",
-  "related": [
-   "cave-spider",
-   "zombie",
-   "skeleton"
-  ],
-  "keywords": "spider drops string spider eye how to kill"
- },
- {
-  "slug": "enderman",
-  "name": "Enderman",
-  "type": "Neutral",
-  "health": "40 (20 hearts)",
-  "where": "All three dimensions at light level 0; very common in the End and in warped forests.",
-  "howToKill": "Fight under a 2-block-high roof: it is 3 blocks tall and cannot reach you. Attack its legs. It teleports away from arrows and water, so use melee.",
-  "drops": [
-   {
-    "item": "Ender Pearl",
-    "qty": "0-1 (up to 4 with Looting III)",
-    "notes": "Essential for Eyes of Ender to reach the End"
-   }
-  ],
-  "spawnConditions": "Light level 0 in the Overworld and Nether; light level 7 or less in the End.",
-  "behavior": "Neutral until you look at its face (crosshair on its head) or attack it. Picks up and moves certain blocks. Takes damage from water.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.8",
-  "related": [
-   "shulker",
-   "ender-dragon"
-  ],
-  "keywords": "enderman ender pearl how to kill teleport spawn"
- },
- {
-  "slug": "warden",
-  "name": "Warden",
-  "type": "Hostile (boss-tier)",
-  "health": "500 (250 hearts)",
-  "where": "Deep Dark biome, summoned by sculk shriekers after 4 warnings. Spawns from the ground near the shrieker.",
-  "howToKill": "You are not meant to fight it: sneak away and break the shriekers. If you must fight, it has no armor but huge health; its sonic boom ignores armor and shields. Killing it drops only a sculk catalyst - no real reward.",
-  "drops": [
-   {
-    "item": "Sculk Catalyst",
-    "qty": "1",
-    "notes": "Spreads sculk when mobs die nearby; only drop"
-   }
-  ],
-  "spawnConditions": "Only via sculk shrieker activation (natural shriekers, 4 triggers), in the Deep Dark below Y=0.",
-  "behavior": "Blind: hunts by sound and smell. Vibrations from walking, projectiles or blocks attract it. Sonic boom pierces walls and shields. Burrows away after 60 seconds of calm.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.19",
-  "related": [
-   "ender-dragon",
-   "wither"
-  ],
-  "keywords": "warden deep dark sculk shrieker how to kill sonic boom"
- },
- {
-  "slug": "blaze",
-  "name": "Blaze",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Nether fortresses, from spawners and natural spawns at light level 11 or less.",
-  "howToKill": "Use a shield against its triple fireballs, or snowballs (they deal 3 damage each to blazes). A strength potion finishes them quickly. Fire Resistance removes most of the threat.",
-  "drops": [
-   {
-    "item": "Blaze Rod",
-    "qty": "0-1 (up to 4 with Looting III)",
-    "notes": "Brewing stands, fuel, Eyes of Ender - the gate to beating the game"
-   }
-  ],
-  "spawnConditions": "Nether fortresses, light level 11 or less. Spawners sit in small stairwell rooms.",
-  "behavior": "Flies, shoots three fireballs in a burst, sets targets on fire on contact. Immune to fire and lava; takes extra damage from snowballs.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.9 Prerelease",
-  "related": [
-   "wither-skeleton",
-   "ghast"
-  ],
-  "keywords": "blaze rod nether fortress drops how to kill"
- },
- {
-  "slug": "cow",
-  "name": "Cow",
-  "type": "Passive",
-  "health": "10 (5 hearts)",
-  "where": "Grassy biomes of the Overworld, in herds of up to 4. Needs grass and light level 9+ to spawn (Java).",
-  "howToKill": "Any weapon; it runs when hit. Looting increases leather and beef drops.",
-  "drops": [
-   {
-    "item": "Raw Beef (Steak if killed by fire)",
-    "qty": "1-3 (up to 6 with Looting III)",
-    "notes": "Cooked into steak: one of the best foods"
-   },
-   {
-    "item": "Leather",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Books, item frames, leather armor"
-   }
-  ],
-  "spawnConditions": "Grass blocks with light level 9 or higher (Java), 2 blocks of space. Also spawns with world generation.",
-  "behavior": "Wanders, follows players holding wheat, can be milked with a bucket for infinite milk.",
-  "tameOrBreed": "Breed two adults with wheat. Baby grows up in 20 minutes (faster if fed wheat).",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Alpha v1.0.8",
-  "related": [
-   "pig",
-   "sheep",
-   "mooshroom"
-  ],
-  "keywords": "cow drops leather beef breed milk farm"
- },
- {
-  "slug": "pig",
-  "name": "Pig",
-  "type": "Passive",
-  "health": "10 (5 hearts)",
-  "where": "Grassy biomes of the Overworld, in herds. Common everywhere except snowy and badlands biomes.",
-  "howToKill": "Any weapon; it flees when hurt. Kills by fire drop cooked porkchops directly.",
-  "drops": [
-   {
-    "item": "Raw Porkchop (Cooked if killed by fire)",
-    "qty": "1-3 (up to 6 with Looting III)",
-    "notes": "Cooked porkchop is a top-tier food (8 hunger points)"
-   }
-  ],
-  "spawnConditions": "Grass blocks with light level 9 or higher (Java).",
-  "behavior": "Wanders, follows players holding carrots, potatoes or beetroots. Can be saddled and steered with a carrot on a stick.",
-  "tameOrBreed": "Breed two adults with carrots, potatoes or beetroots.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.24",
-  "related": [
-   "cow",
-   "sheep",
-   "chicken"
-  ],
-  "keywords": "pig drops porkchop breed saddle ride"
- },
- {
-  "slug": "wolf",
-  "name": "Wolf",
-  "type": "Neutral (tameable)",
-  "health": "8 (4 hearts) wild; 20 (10 hearts) tamed",
-  "where": "Forests, taigas and groves, in packs of 4. Different variants per biome since 1.20.5.",
-  "howToKill": "Wild wolves are neutral; attack one and the whole pack turns hostile. Tamed wolves teleport to you and fight for you.",
-  "drops": [
-   {
-    "item": "Nothing (1-3 XP orbs)",
-    "qty": "-",
-    "notes": "Killing wolves gives no items"
-   }
-  ],
-  "spawnConditions": "Grass, snow or coarse dirt in forest-type biomes, light level 9+ (Java).",
-  "behavior": "Neutral in packs: hurts one, hurts all. Tamed wolves follow, teleport to you, sit on command and attack your targets.",
-  "tameOrBreed": "Tame with bones (each bone has a 1 in 3 chance). Breed two tamed wolves with any meat; the pup is born tamed.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.4",
-  "related": [
-   "cat",
-   "fox",
-   "axolotl"
-  ],
-  "keywords": "wolf tame bones breed dog variants"
- },
- {
-  "slug": "villager",
-  "name": "Villager",
-  "type": "Passive",
-  "health": "20 (10 hearts)",
-  "where": "Villages in plains, desert, savanna, taiga, snowy and meadow biomes. Zombie villagers appear at night anywhere.",
-  "howToKill": "You should not: killing villagers drops your village popularity and iron golems will attack you. They have no drops and give only 1-3 XP.",
-  "drops": [
-   {
-    "item": "Nothing",
-    "qty": "-",
-    "notes": "Villagers drop no items; their value is trading"
-   }
-  ],
-  "spawnConditions": "Generate with villages and igloo basements; never spawn naturally afterwards - breed them or cure zombie villagers to repopulate.",
-  "behavior": "Work at their job site block by day, gossip at the meeting point, sleep at night. Panic from zombies and raid mobs. 15 professions, each with its own trades.",
-  "tameOrBreed": "Breed with food (3 bread or 12 carrots/potatoes/beetroots each) plus spare valid beds. Cure zombie villagers with a Weakness splash potion + golden apple for big trade discounts.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.9 Prerelease",
-  "related": [
-   "zombie",
-   "wandering-trader"
-  ],
-  "keywords": "villager trades professions breed cure zombie villager"
- },
- {
-  "slug": "shulker",
-  "name": "Shulker",
-  "type": "Hostile",
-  "health": "30 (15 hearts)",
-  "where": "End Cities in the outer End islands, camouflaged on walls and ceilings.",
-  "howToKill": "Kill it while its shell is open to shoot - closed, it takes 80% less damage and deflects arrows. Melee with a sharp sword when it opens, or punch arrows back. Dodge the homing bullets or break them with any hit.",
-  "drops": [
-   {
-    "item": "Shulker Shell",
-    "qty": "0-1 (Java: 50%, +6.25% per Looting level; Bedrock: 0-1 up to 4 with Looting III)",
-    "notes": "Two shells + a chest = shulker box, the portable inventory"
-   }
-  ],
-  "spawnConditions": "Spawn once with End City generation and do not respawn naturally. A shulker hit by another shulker's bullet can duplicate (Java).",
-  "behavior": "Stays disguised as a purpur block, opens to fire homing bullets that cause 10 seconds of levitation - deadly over the void. Teleports when hurt.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.9",
-  "related": [
-   "enderman",
-   "ender-dragon"
-  ],
-  "keywords": "shulker shell end city levitation shulker box"
- },
- {
-  "slug": "ender-dragon",
-  "name": "Ender Dragon",
-  "type": "Boss",
-  "health": "200 (100 hearts)",
-  "where": "The End dimension - the central island. Respawn it by placing 4 end crystals on the exit portal edges.",
-  "howToKill": "Destroy the end crystals on the obsidian pillars first (shoot the exposed ones, pillar up to the caged ones) so it cannot heal. Then hit it with a bow while it flies and with a sword when it perches on the exit portal. Beds explode in the End: place one and detonate it as the dragon perches for massive damage. Bring Slow Falling or a water bucket for knockback.",
-  "drops": [
-   {
-    "item": "12,000 XP (first kill; 500 afterwards)",
-    "qty": "-",
-    "notes": "The biggest XP drop in the game"
-   },
-   {
-    "item": "Dragon Egg",
-    "qty": "1",
-    "notes": "First kill only, on top of the exit portal - trophy item"
-   },
-   {
-    "item": "Opens the exit portal + End Gateway",
-    "qty": "-",
-    "notes": "The gateway leads to the outer islands (elytra!)"
-   }
-  ],
-  "spawnConditions": "One dragon per End dimension; resummon with 4 end crystals arranged on each side of the exit portal.",
-  "behavior": "Circles the island, breathes dragon's breath (area damage cloud), charges at players, and perches on the exit portal where it is immune to arrows. Heals from end crystals.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.0.0",
-  "related": [
-   "wither",
-   "shulker"
-  ],
-  "keywords": "ender dragon how to kill end crystals boss fight"
- },
- {
-  "slug": "wither",
-  "name": "Wither",
-  "type": "Boss",
-  "health": "300 (150 hearts) Java / 600 Bedrock",
-  "where": "Spawned by the player anywhere: 4 soul sand or soul soil in a T shape with 3 wither skeleton skulls on top.",
-  "howToKill": "Spawn it in a cramped bedrock ceiling (Java: under the exit portal fountain; Bedrock: a deep cave) so it cannot fly away. It is immune to arrows below half health - finish it with a Smite V sword. Bring strength potions, golden apples and milk to cure the Wither effect.",
-  "drops": [
-   {
-    "item": "Nether Star",
-    "qty": "1",
-    "notes": "Crafts the beacon - the reason to fight it"
-   }
-  ],
-  "spawnConditions": "Player-built: T of soul sand/soil + 3 wither skeleton skulls (skull last). Wither skeleton skulls drop in Nether fortresses at 2.5% (5.5% with Looting III).",
-  "behavior": "On spawn it charges up and explodes, then flies shooting explosive skulls that inflict the Wither effect (drains health, kills hearts). Breaks most blocks on contact. Below half health it gains a shield against projectiles (Java) or dashes and spawns wither skeletons (Bedrock).",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.4.2",
-  "related": [
-   "ender-dragon",
-   "wither-skeleton",
-   "blaze"
-  ],
-  "keywords": "wither boss how to spawn nether star beacon skulls"
- },
- {
-  "slug": "axolotl",
-  "name": "Axolotl",
-  "type": "Passive (aquatic)",
-  "health": "14 (7 hearts)",
-  "where": "Lush caves, in water below Y=63 with clay nearby and total darkness. Five colors; blue only from breeding (1 in 1200).",
-  "howToKill": "Do not - they are helpers. If you must know: they play dead when hurt, regenerating health.",
-  "drops": [
-   {
-    "item": "Nothing (1-3 XP)",
-    "qty": "-",
-    "notes": "No item drops"
-   }
-  ],
-  "spawnConditions": "Water in lush caves, light level 0, below Y=63, within 5 blocks of a clay block.",
-  "behavior": "Swims, plays dead when damaged (regenerates), attacks fish, squid, drowned and guardians when led into battle with a bucket. Grants you Regeneration and removes Mining Fatigue for helping it fight.",
-  "tameOrBreed": "Cannot be tamed but trusts players carrying tropical fish buckets. Breed two with a bucket of tropical fish. Carry it in a water bucket - it survives 5 minutes out of water.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.17",
-  "related": [
-   "wolf",
-   "cat"
-  ],
-  "keywords": "axolotl lush caves blue axolotl bucket tame breed"
- },
- {
-  "slug": "drowned",
-  "name": "Drowned",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Oceans, rivers, underwater ruins and dripstone cave aquifers at light level 0. Zombies that stay underwater for 15 seconds also convert into drowned.",
-  "howToKill": "Fight from a boat or shore so they cannot reach you; their melee is weak but trident throwers are dangerous from range. A shield blocks thrown tridents.",
-  "drops": [
-   {
-    "item": "Rotten Flesh",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Standard zombie-family drop"
-   },
-   {
-    "item": "Copper Ingot",
-    "qty": "0-1",
-    "notes": "11% chance in both editions, +2% per Looting level - the only renewable copper source"
-   },
-   {
-    "item": "Trident",
-    "qty": "0-1",
-    "notes": "Only from drowned holding one. Java: 6.25% spawn with a trident, 8.5% drop chance (+1% per Looting). Bedrock: 15% spawn with one, 25% drop chance (+4% per Looting)"
-   },
-   {
-    "item": "Fishing Rod",
-    "qty": "0-1",
-    "notes": "Rare held item in Java, 8.5% drop chance when held"
-   }
-  ],
-  "spawnConditions": "Light level 0 in water in oceans, rivers and dripstone caves; high density around underwater ruins.",
-  "behavior": "Swims fast and sinks to walk on the bottom. Trident throwers keep their distance; others rush you. Attacks villagers and baby turtles, and stomps turtle eggs.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "zombie",
-   "axolotl",
-   "villager"
-  ],
-  "keywords": "drowned trident farm copper drops underwater zombie"
- },
- {
-  "slug": "ghast",
-  "name": "Ghast",
-  "type": "Hostile",
-  "health": "10 (5 hearts)",
-  "where": "Nether wastes, soul sand valleys and basalt deltas, anywhere with enough open space (5x4x5).",
-  "howToKill": "Deflect its fireball back with a melee hit - a reflected fireball one-shots it and earns the Return to Sender advancement. Otherwise shoot it with a bow. Fire resistance potions negate the fire damage entirely.",
-  "drops": [
-   {
-    "item": "Gunpowder",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Key ghast farm product"
-   },
-   {
-    "item": "Ghast Tear",
-    "qty": "0-1 (up to 4 with Looting III)",
-    "notes": "Brews Potions of Regeneration"
-   }
-  ],
-  "spawnConditions": "Light level 11 or lower, with 5x4x5 free space, in Nether wastes, soul sand valleys and basalt deltas.",
-  "behavior": "Floats and fires explosive fireballs when you are within 16 blocks. Fireballs cannot break cobblestone or other high blast-resistance blocks.",
-  "tameOrBreed": "Cannot be tamed or bred. (The rideable happy ghast is a separate passive mob grown from a dried ghast block.)",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Alpha 1.2.0",
-  "related": [
-   "blaze",
-   "piglin",
-   "wither"
-  ],
-  "keywords": "ghast tear drops fireball return to sender nether"
- },
- {
-  "slug": "piglin",
-  "name": "Piglin",
-  "type": "Neutral",
-  "health": "16 (8 hearts)",
-  "where": "Crimson forests, Nether wastes and bastion remnants.",
-  "howToKill": "Wear at least one piece of gold armor and they leave you alone. They flee from soul fire, soul torches, soul lanterns and zoglins. If you fight, a shield blocks crossbow shots; melee piglins hit hard, so pillar up.",
-  "drops": [
-   {
-    "item": "Held item (gold sword or crossbow)",
-    "qty": "0-1",
-    "notes": "8.5% chance, +1% per Looting level"
-   },
-   {
-    "item": "Bartering loot",
-    "qty": "varies",
-    "notes": "Not a drop: throw a gold ingot at an adult piglin and it throws back items - ender pearls, obsidian, quartz, string, fire charges, iron nuggets, Soul Speed books and more"
-   }
-  ],
-  "spawnConditions": "Light level 11 or lower in crimson forests and Nether wastes; always in bastions. Does not spawn on nether wart blocks.",
-  "behavior": "Attacks players not wearing gold, and anyone who opens a chest or mines gold blocks/ore nearby. Piglins that travel to the Overworld or End zombify after 15 seconds.",
-  "tameOrBreed": "Cannot be tamed or bred. Adults barter; baby piglins take gold but never barter back.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.16 (Nether Update)",
-  "related": [
-   "blaze",
-   "ghast",
-   "ender-dragon"
-  ],
-  "keywords": "piglin bartering gold drops bastion ender pearls"
- },
- {
-  "slug": "slime",
-  "name": "Slime",
-  "type": "Hostile",
-  "health": "Big: 16 (8 hearts), Small: 4 (2 hearts), Tiny: 1 (half a heart)",
-  "where": "Swamps at night (Y 51-69, light below 8) and slime chunks below Y=40 at any light level.",
-  "howToKill": "Kill the big one and it splits into 2-4 smaller ones, which split again into tiny slimes. Sweeping Edge swords (Java) clear the splits fast. Tiny slimes deal no damage - punch them freely.",
-  "drops": [
-   {
-    "item": "Slimeball",
-    "qty": "0-2 from tiny slimes (up to 5 with Looting III)",
-    "notes": "Sticky pistons, slime blocks, leads, magma cream"
-   }
-  ],
-  "spawnConditions": "Slime chunks: below Y=40, any light level. Swamps: Y 51-69, light below 8, with rates peaking at full moon and stopping at new moon.",
-  "behavior": "Hops toward players and splits on death. Despawns over time if no player is within 32 blocks.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Alpha 1.0.11",
-  "related": [
-   "axolotl",
-   "zombie",
-   "piglin"
-  ],
-  "keywords": "slime chunk slimeball farm spawn swamp full moon"
- },
- {
-  "slug": "iron-golem",
-  "name": "Iron Golem",
-  "type": "Neutral (utility mob)",
-  "health": "100 (50 hearts)",
-  "where": "Villages (spawns automatically when villagers meet the requirements) and caged at some pillager outposts. Players can also build one.",
-  "howToKill": "Pillar up 3+ blocks so it cannot reach you and hit its feet. Avoid killing village golems near a trading hall you still use - prices rise. Build your own with 4 iron blocks in a T plus a carved pumpkin on top.",
-  "drops": [
-   {
-    "item": "Iron Ingot",
-    "qty": "3-5 (Looting does not increase it)",
-    "notes": "The basis of iron farms"
-   },
-   {
-    "item": "Poppy",
-    "qty": "0-2",
-    "notes": "It offers poppies to villager children"
-   }
-  ],
-  "spawnConditions": "Java: villagers that have slept and worked spawn golems when none is detected nearby (panicking villagers spawn them faster). Bedrock: 10+ villagers linked to 20+ beds. Player-built: T of 4 iron blocks with a carved pumpkin placed last.",
-  "behavior": "Patrols villages and attacks most hostile mobs on sight, plus players who attack it or villagers. Huge knockback - it throws targets into the air. Cracks as it takes damage; repair it with iron ingots.",
-  "tameOrBreed": "Cannot be tamed or bred, but a player-built golem never attacks its creator.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.2.1",
-  "related": [
-   "villager",
-   "pillager",
-   "wolf"
-  ],
-  "keywords": "iron golem spawn farm iron drops how to make"
- },
- {
-  "slug": "pillager",
-  "name": "Pillager",
-  "type": "Hostile",
-  "health": "24 (12 hearts)",
-  "where": "Pillager outposts, wandering patrols, and village raids.",
-  "howToKill": "Their crossbow hits hard but needs a reload after each shot - rush them during the reload or block with a shield. In raids, focus the banner-carrying captains.",
-  "drops": [
-   {
-    "item": "Crossbow",
-    "qty": "0-1",
-    "notes": "8.5% chance, +1% per Looting level"
-   },
-   {
-    "item": "Ominous Bottle",
-    "qty": "1",
-    "notes": "Only from captains (the ones wearing a banner). Drink it for Bad Omen, which starts a raid when you enter a village"
-   },
-   {
-    "item": "Ominous Banner",
-    "qty": "1",
-    "notes": "From captains; cosmetic trophy"
-   }
-  ],
-  "spawnConditions": "Patrols spawn near players after about 5 in-game days (light level under 8 in Java, 0-7 in Bedrock). Outposts spawn captains continuously; raid waves scale with the Bad Omen level.",
-  "behavior": "Armed with crossbows; shoots players, villagers, wandering traders and iron golems. In Java a pillager whose crossbow breaks turns passive.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.14 (Village & Pillage)",
-  "related": [
-   "villager",
-   "iron-golem",
-   "zombie"
-  ],
-  "keywords": "pillager raid bad omen ominous bottle outpost captain drops"
- },
- {
-  "slug": "hoglin",
-  "name": "Hoglin",
-  "type": "Hostile",
-  "health": "40 (20 hearts)",
-  "where": "Crimson forests and bastion remnants (hoglin stables).",
-  "howToKill": "Their charge knocks you high into the air - fight with your back to a wall, never near a cliff or lava. They flee from warped fungus placed or held nearby, and from respawn anchors and nether portals.",
-  "drops": [
-   {
-    "item": "Raw Porkchop",
-    "qty": "2-4 (up to 7 with Looting III)",
-    "notes": "Cooked if it dies on fire - hoglin farms are solid food farms"
-   },
-   {
-    "item": "Leather",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": ""
-   }
-  ],
-  "spawnConditions": "Crimson forests at any light level; never spawn on nether wart blocks. Breedable with crimson fungus.",
-  "behavior": "Charges players with huge knockback. Runs from warped fungus, portals and respawn anchors. Zombifies into a zoglin after 15 seconds in the Overworld or End.",
-  "tameOrBreed": "Cannot be tamed. Breed two adults with crimson fungus; the baby follows parents. One of the few hostile mobs that can be bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.16 (Nether Update)",
-  "related": [
-   "piglin",
-   "ghast",
-   "cow"
-  ],
-  "keywords": "hoglin drops porkchop breed crimson fungus zoglin"
- },
- {
-  "slug": "guardian",
-  "name": "Guardian",
-  "type": "Hostile",
-  "health": "30 (15 hearts)",
-  "where": "In and around ocean monuments - the only place they spawn.",
-  "howToKill": "Fight them out of water or with Depth Strider + Respiration gear. Their laser charges for 2 seconds: break line of sight behind a pillar to reset it. In melee, watch the spikes - hitting a guardian with extended spikes hurts you back (Thorns-like).",
-  "drops": [
-   {
-    "item": "Prismarine Shard",
-    "qty": "0-2 (up to 5 with Looting III)",
-    "notes": "Prismarine blocks, sea lanterns"
-   },
-   {
-    "item": "Prismarine Crystals",
-    "qty": "0-1",
-    "notes": "40% chance; sea lanterns"
-   },
-   {
-    "item": "Raw Cod",
-    "qty": "0-1",
-    "notes": "40% chance; cooked if killed by fire"
-   }
-  ],
-  "spawnConditions": "Only inside the 58x58 ocean monument bounding box, in water. Guardian farms drain the monument and funnel spawns into kill chambers.",
-  "behavior": "Swims around the monument and zaps players, squid and axolotls with a charging laser. Spikes extend when it takes damage and reflect part of melee hits.",
-  "tameOrBreed": "Cannot be tamed or bred. Axolotls attack guardians and help you raid monuments.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.8 (Bountiful Update)",
-  "related": [
-   "axolotl",
-   "drowned",
-   "elder-guardian"
-  ],
-  "keywords": "guardian ocean monument drops prismarine sea lantern farm"
- },
- {
-  "slug": "witch",
-  "name": "Witch",
-  "type": "Hostile",
-  "health": "26 (13 hearts)",
-  "where": "Swamp witch huts at night, raids (from wave 3-4), and anywhere a villager is struck by lightning.",
-  "howToKill": "Rush it before it drinks: witches drink Potions of Healing (4 hearts), Fire Resistance, Water Breathing and Swiftness. A bow from outside its potion range works too. Never let it splash you near other mobs.",
-  "drops": [
-   {
-    "item": "Glass Bottle / Glowstone Dust / Gunpowder / Redstone / Spider Eye / Stick / Sugar",
-    "qty": "4-8 item types, 0-2 each (Looting adds more)",
-    "notes": "Witch farms produce all of these, especially redstone and glowstone"
-   },
-   {
-    "item": "Potion being drunk",
-    "qty": "1",
-    "notes": "8.5% chance (+1% per Looting) if killed mid-drink"
-   }
-  ],
-  "spawnConditions": "Witch huts in swamps (a 7x9x4 spawn volume), raids, and villagers converted by lightning. Raid farms double as witch farms.",
-  "behavior": "Throws splash potions of Poison (up to 44s), Slowness, Weakness and Harming. Drinks counter-potions: heals when hurt, fire resistance when burning, water breathing when submerged, swiftness when far away.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.4.2 (Pretty Scary Update)",
-  "related": [
-   "pillager",
-   "villager",
-   "zombie"
-  ],
-  "keywords": "witch drops redstone farm potions swamp hut"
- },
- {
-  "slug": "phantom",
-  "name": "Phantom",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "The Overworld night sky, above players who have not slept or died for 3+ in-game days.",
-  "howToKill": "They swoop down in a straight line - sidestep and hit them as they pass, or shoot them circling overhead. They burn in daylight. Cats scare phantoms away, so keep one nearby or sleep regularly.",
-  "drops": [
-   {
-    "item": "Phantom Membrane",
-    "qty": "0-1 (up to 4 with Looting III)",
-    "notes": "Repairs elytra on an anvil; brews Potions of Slow Falling"
-   }
-  ],
-  "spawnConditions": "Above sea level at night or during thunderstorms, targeting players with 3+ days without sleep (the insomnia timer resets when you sleep or die). Spawn attempts start after 1 hour of insomnia.",
-  "behavior": "Circles high above its target and dives in straight attack runs. Undead: burns in sunlight, despawns at dawn, hurt by Healing potions and healed by Harming.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "zombie",
-   "skeleton",
-   "creeper"
-  ],
-  "keywords": "phantom membrane elytra repair sleep insomnia spawn"
- },
- {
-  "slug": "wither-skeleton",
-  "name": "Wither Skeleton",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Nether fortresses, in the fortress's bounding box at light level 0-7.",
-  "howToKill": "Their tall 2.4-block height gets stuck under 2-block ceilings - fight them in fortress corridors with slabbed roofs or from behind a 2-block-high gap. Their stone sword inflicts the Wither effect, so milk or a shield helps. Looting III is essential for skull hunting.",
-  "drops": [
-   {
-    "item": "Coal",
-    "qty": "0-1",
-    "notes": "Up to 4 with Looting III"
-   },
-   {
-    "item": "Bone",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III"
-   },
-   {
-    "item": "Wither skeleton skull",
-    "qty": "~2.5% chance",
-    "notes": "The prize - needed to summon the Wither; chance rises with Looting"
-   },
-   {
-    "item": "Stone sword",
-    "qty": "Rarely",
-    "notes": "Occasional equipment drop"
-   }
-  ],
-  "spawnConditions": "Nether fortresses only, on nether bricks, light level 7 or below (Java), any light in Bedrock bounding boxes.",
-  "behavior": "Sprints at players and slashes with a stone sword, inflicting 10 seconds of the Wither effect (health bar turns black and drains). Immune to fire and lava. Picks fights with piglins that attack it first.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.4.2 (12w36a)",
-  "related": [
-   "skeleton",
-   "blaze",
-   "wither"
-  ],
-  "keywords": "wither skeleton skull fortress nether wither effect farm"
- },
- {
-  "slug": "evoker",
-  "name": "Evoker",
-  "type": "Hostile",
-  "health": "24 (12 hearts)",
-  "where": "Woodland mansions (specific rooms) and raid waves 5+ (from wave 4 in Bedrock).",
-  "howToKill": "Rush it before it finishes a spell - it raises its arms and changes color when casting. A shield blocks the fang line if you face it. Prioritize evokers in raids before their vexes overwhelm you.",
-  "drops": [
-   {
-    "item": "Totem of undying",
-    "qty": "1",
-    "notes": "Always - the only renewable source of totems"
-   },
-   {
-    "item": "Emerald",
-    "qty": "0-1",
-    "notes": "More with Looting"
-   }
-  ],
-  "spawnConditions": "Mansions (does not respawn there) and the final raid waves in both editions.",
-  "behavior": "Casts two spells: a line of evoker fangs that snap up from the ground (6 blocks range), and a summoning spell that creates 3 vexes. Changes blue sheep to red within range. Runs from players between spells.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.11 (16w39a)",
-  "related": [
-   "pillager",
-   "witch",
-   "vindicator"
-  ],
-  "keywords": "evoker totem undying vex fangs raid mansion illager"
- },
- {
-  "slug": "vindicator",
-  "name": "Vindicator",
-  "type": "Hostile",
-  "health": "24 (12 hearts)",
-  "where": "Woodland mansions and raid waves 2+; also patrols with pillagers (Bedrock).",
-  "howToKill": "Their iron axe hits extremely hard (19 damage on Hard) and disables your shield on hit - keep distance, use a bow, or pillar up two blocks. Never trade hits with one in close quarters without armor.",
-  "drops": [
-   {
-    "item": "Emerald",
-    "qty": "0-1",
-    "notes": "Up to 4 with Looting III"
-   },
-   {
-    "item": "Iron axe",
-    "qty": "~8.5% chance",
-    "notes": "Occasional equipment drop"
-   }
-  ],
-  "spawnConditions": "Mansion rooms (no respawn) and raid waves; raids are the renewable source.",
-  "behavior": "Chases players and villagers with its axe raised, sprinting fast. In Java, a vindicator named 'Johnny' attacks every mob in sight. Breaks wooden doors in raids (Hard difficulty).",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.11 (16w39a)",
-  "related": [
-   "pillager",
-   "evoker",
-   "ravager"
-  ],
-  "keywords": "vindicator axe raid mansion illager johnny shield disable"
- },
- {
-  "slug": "ravager",
-  "name": "Ravager",
-  "type": "Hostile",
-  "health": "100 (50 hearts)",
-  "where": "Raid waves 3+ (wave 3 in Java, wave 4+ in Bedrock), sometimes with a pillager, vindicator or evoker rider.",
-  "howToKill": "Its charge destroys crops and leaves, and its bite hits hard - fight it with a bow from high ground, or raise a shield: a ravager that rams a raised shield gets stunned for about 2 seconds, then roars (knockback). Kill any rider first, then focus the beast.",
-  "drops": [
-   {
-    "item": "Saddle",
-    "qty": "1",
-    "notes": "Always in Java - a renewable saddle source"
-   }
-  ],
-  "spawnConditions": "Only in raids, never naturally elsewhere.",
-  "behavior": "Charges in straight lines, bites for heavy damage, and roars (knockback + damage) when stunned. Destroys crops, leaves and snow layers it walks over. Villagers and iron golems are its priority targets.",
-  "tameOrBreed": "Cannot be tamed or ridden (despite dropping saddles).",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.14 (18w43a)",
-  "related": [
-   "pillager",
-   "vindicator",
-   "evoker"
-  ],
-  "keywords": "ravager raid beast saddle rider illager charge"
- },
- {
-  "slug": "vex",
-  "name": "Vex",
-  "type": "Hostile",
-  "health": "14 (7 hearts)",
-  "where": "Summoned by evokers in woodland mansions and raids - never spawns naturally.",
-  "howToKill": "They phase through walls, so hiding does not work - face them with a shield up and hit during their attack dive. They die on their own after 30-119 seconds (Java), so surviving the wave is a valid strategy.",
-  "drops": [
-   {
-    "item": "Iron sword",
-    "qty": "Rarely with Looting",
-    "notes": "Their held sword has a 0% base drop rate, rising only with Looting"
-   }
-  ],
-  "spawnConditions": "Only summoned by evokers, in groups of 3.",
-  "behavior": "Small flying gray spirits with red eyes when attacking. They float through solid blocks and dive at targets with an iron sword. In Java they take damage over time and die within about two minutes of being summoned.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.11 (16w39a)",
-  "related": [
-   "evoker",
-   "vindicator",
-   "pillager"
-  ],
-  "keywords": "vex evoker summon flying raid mansion spirit"
- },
- {
-  "slug": "elder-guardian",
-  "name": "Elder Guardian",
-  "type": "Hostile",
-  "health": "80 (40 hearts)",
-  "where": "Ocean monuments - exactly three per monument (one in the top room, one in each wing).",
-  "howToKill": "Drink water breathing and use Depth Strider; fight it in a corner to avoid its laser charge (4-9 damage) and spike defense. Milk removes its Mining Fatigue III. Kill all three before draining or mining the monument.",
-  "drops": [
-   {
-    "item": "Wet sponge",
-    "qty": "1",
-    "notes": "Always - the only sponge source"
-   },
-   {
-    "item": "Prismarine shards",
-    "qty": "0-2",
-    "notes": "More with Looting"
-   },
-   {
-    "item": "Prismarine crystals",
-    "qty": "0-1",
-    "notes": "More with Looting"
-   },
-   {
-    "item": "Raw cod",
-    "qty": "0-1",
-    "notes": "Or a random fish"
-   },
-   {
-    "item": "Tide armor trim",
-    "qty": "~20% chance",
-    "notes": "Since 1.20; can be duplicated with diamonds and prismarine"
-   }
-  ],
-  "spawnConditions": "Three per ocean monument; they do not respawn after death.",
-  "behavior": "Fires a charging laser beam at players and squid, inflicts Mining Fatigue III for 5 minutes on any player nearby (ghostly jumpscare in Java), and retracts defensive spikes. Swimming away breaks the laser lock.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.8 (14w25a)",
-  "related": [
-   "guardian",
-   "drowned",
-   "axolotl"
-  ],
-  "keywords": "elder guardian ocean monument sponge mining fatigue tide trim laser"
- },
- {
-  "slug": "magma-cube",
-  "name": "Magma Cube",
-  "type": "Hostile",
-  "health": "16 / 4 / 1 (big / medium / small)",
-  "where": "The Nether everywhere, especially basalt deltas; also from basalt-delta and fortress spawners in bastion treasure rooms.",
-  "howToKill": "Like slimes: kill the big one and it splits into 2-4 smaller ones, which split again. A sweeping sword or bow clears the small ones fast. They hop high and fall on you - keep moving.",
-  "drops": [
-   {
-    "item": "Magma cream",
-    "qty": "0-1 (big), 0-1 (medium)",
-    "notes": "Up to 4 with Looting III; brews fire resistance potions"
-   },
-   {
-    "item": "Froglight",
-    "qty": "1 (from small cubes)",
-    "notes": "When a frog eats a small magma cube - color depends on frog type"
-   }
-  ],
-  "spawnConditions": "Nether wastes, basalt deltas (very common), nether fortresses and bastion treasure-room spawners.",
-  "behavior": "Hops toward players, splitting into smaller copies when killed. Immune to fire and lava, takes damage in water. Frogs eat the smallest size and produce froglights.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.0.0 (Beta 1.9-pre1)",
-  "related": [
-   "slime",
-   "blaze",
-   "hoglin"
-  ],
-  "keywords": "magma cube nether magma cream froglight basalt delta bastion"
- },
- {
-  "slug": "allay",
-  "name": "Allay",
-  "type": "Passive (helper)",
-  "health": "20 (10 hearts)",
-  "where": "Rescued from pillager outpost cages and woodland mansion jail cells.",
-  "howToKill": "Why would you? If you must, it has no attack and simply flees - but it regenerates 2 HP per second.",
-  "drops": [
-   {
-    "item": "Nothing",
-    "qty": "-",
-    "notes": "Drops only the item it was holding, which returns to you anyway"
-   }
-  ],
-  "spawnConditions": "Never spawns naturally in the wild - only found captive in illager structures; duplicates when dancing near a jukebox with an amethyst shard.",
-  "behavior": "Give it an item and it flies off to collect matching dropped items nearby (up to a stack at a time) and delivers them to you - or to a note block it heard. It follows its owner loosely and glows softly. The heart of automatic item-sorting and farm collection systems.",
-  "tameOrBreed": "Befriended by giving it an item; 'bred' by playing a jukebox and giving an amethyst shard while it dances (5-minute cooldown).",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.19 (22w13a)",
-  "related": [
-   "villager",
-   "iron-golem",
-   "axolotl"
-  ],
-  "keywords": "allay item collection sorting farm note block amethyst outpost"
- },
- {
-  "slug": "sheep",
-  "name": "Sheep",
-  "type": "Passive",
-  "health": "8 (4 hearts)",
-  "where": "Overworld grass biomes - plains, meadows, forests and more, in flocks of 2-4.",
-  "howToKill": "One or two sword hits. Shearing first is always better than killing.",
-  "drops": [
-   {
-    "item": "Wool",
-    "qty": "1",
-    "notes": "Of its fleece color; nothing if sheared"
-   },
-   {
-    "item": "Raw mutton",
-    "qty": "1-2",
-    "notes": "Cooked mutton if killed while on fire; up to 5 with Looting III"
-   }
-  ],
-  "spawnConditions": "On grass blocks at light level 9+, in most grassy Overworld biomes. 5% spawn as babies; natural colors: white (common), black, gray, light gray, brown, and the ultra-rare pink.",
-  "behavior": "Grazes grass blocks (turning them to dirt) to regrow its fleece after shearing. Follows players holding wheat. A sheep named 'jeb_' cycles through every wool color.",
-  "tameOrBreed": "Breed two sheep with wheat; the lamb's color mixes the parents' colors. Shear with shears for 1-3 wool without killing.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Classic 0.28",
-  "related": [
-   "cow",
-   "pig",
-   "wolf"
-  ],
-  "keywords": "sheep wool mutton shear breed farm color pink"
- },
- {
-  "slug": "chicken",
-  "name": "Chicken",
-  "type": "Passive",
-  "health": "4 (2 hearts)",
-  "where": "Overworld grassy biomes everywhere; also hatches from thrown eggs.",
-  "howToKill": "One hit from anything. A Looting sword gives more feathers and meat.",
-  "drops": [
-   {
-    "item": "Feather",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III - arrows need them"
-   },
-   {
-    "item": "Raw chicken",
-    "qty": "1",
-    "notes": "Cooked if killed by fire; more with Looting"
-   },
-   {
-    "item": "Egg",
-    "qty": "1 every 5-10 minutes",
-    "notes": "Laid while alive - the base of every chicken farm"
-   }
-  ],
-  "spawnConditions": "Grass blocks at light level 9+ in most Overworld biomes. Thrown eggs hatch chicks 1 time in 8. Rare chicken jockeys appear when a baby zombie spawns riding a chicken.",
-  "behavior": "Wanders, flaps slowly to the ground (takes no fall damage), and lays an egg every 5-10 minutes. Follows seeds. Ocelots and foxes hunt them.",
-  "tameOrBreed": "Breed with any seeds (wheat, pumpkin, melon, beetroot, torchflower). Thrown eggs hatch 1 time in 8 (and 1/256 for 4 chicks at once).",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Alpha 1.0.14",
-  "related": [
-   "cow",
-   "pig",
-   "sheep"
-  ],
-  "keywords": "chicken egg feather farm breed seeds jockey"
- },
- {
-  "slug": "cat",
-  "name": "Cat",
-  "type": "Passive (tameable)",
-  "health": "10 (5 hearts)",
-  "where": "Stray cats spawn in villages (at least 1 villager and 5 beds) and swamp huts (black cats).",
-  "howToKill": "They flee and take no fall damage - but they are pets, not targets.",
-  "drops": [
-   {
-    "item": "String",
-    "qty": "0-2",
-    "notes": "On death"
-   }
-  ],
-  "spawnConditions": "Villages with 5+ claimed beds spawn untamed cats up to a cap; witch huts spawn one black cat.",
-  "behavior": "Tame a stray cat by standing still with raw cod or salmon until it approaches - then feed it. Tamed cats follow or sit on command, sleep with you, and bring morning gifts (string, feathers, rabbit's foot, phantom membrane...). Creepers and phantoms flee from cats - a cat at your base is a creeper shield.",
-  "tameOrBreed": "Tame with raw cod/salmon; breed two tamed cats with raw fish. Kittens inherit a parent's collar color.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.14 (18w44a; ocelot cats split)",
-  "related": [
-   "wolf",
-   "chicken",
-   "phantom"
-  ],
-  "keywords": "cat tame village creeper repellent gift phantom raw cod"
- },
- {
-  "slug": "fox",
-  "name": "Fox",
-  "type": "Passive (trust)",
-  "health": "10 (5 hearts)",
-  "where": "Taiga, snowy taiga and old growth taiga biomes, in groups of 2-4.",
-  "howToKill": "They are fast and flee - corner them or use a bow. Killing drops whatever they held.",
-  "drops": [
-   {
-    "item": "Held item",
-    "qty": "1",
-    "notes": "Foxes spawn holding items (emerald, egg, feather, leather...) and drop anything in their mouth"
-   }
-  ],
-  "spawnConditions": "Taiga-family biomes at night; white variant in snowy taiga.",
-  "behavior": "Nocturnal hunters: pounce on chickens, rabbits, cod and berries, picking up any dropped item in their mouth (they swap for food). They sleep curled up by day and flee players unless bred - a baby fox bred by the player trusts you and does not flee. Sweet berry bushes are their favorite snack.",
-  "tameOrBreed": "Cannot be fully tamed, but breed two with sweet berries or glow berries and the kit trusts you permanently. Leads work.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.14 (19w07a)",
-  "related": [
-   "wolf",
-   "cat",
-   "chicken"
-  ],
-  "keywords": "fox taiga trust sweet berries pounce item mouth"
- },
- {
-  "slug": "cave-spider",
-  "name": "Cave Spider",
-  "type": "Hostile (poisonous)",
-  "health": "12 (6 hearts)",
-  "where": "Abandoned mineshafts, from cave spider spawners surrounded by cobwebs.",
-  "howToKill": "They fit through 1-block gaps and half-slabs - normal spider-proofing fails. Bring milk or honey for the poison, wall off the spawner, or flood the area. A Bane of Arthropods sword one-shots them.",
-  "drops": [
-   {
-    "item": "String",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III"
-   },
-   {
-    "item": "Spider eye",
-    "qty": "0-1",
-    "notes": "Up to 4 with Looting III; brewing ingredient"
-   }
-  ],
-  "spawnConditions": "Only from mineshaft spawners, at light level 0 (Java) - they never spawn naturally elsewhere.",
-  "behavior": "A smaller, venomous spider: its bite inflicts Poison for 7 seconds on Normal (15 on Hard), draining health to half a heart. Neutral in bright light, hostile in the dark. Climbs walls like spiders.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.8-pre1",
-  "related": [
-   "spider",
-   "skeleton",
-   "witch"
-  ],
-  "keywords": "cave spider mineshaft spawner poison venom milk"
- },
- {
-  "slug": "stray",
-  "name": "Stray",
-  "type": "Hostile",
-  "health": "20 (10 hearts)",
-  "where": "Snowy biomes: snowy plains, ice spikes, frozen rivers and frozen oceans - replaces 80% of skeletons there (Java).",
-  "howToKill": "Exactly like a skeleton, but every arrow inflicts 30 seconds of Slowness - rushing them through the slowdown is painful, so use a shield, pillars or your own bow.",
-  "drops": [
-   {
-    "item": "Bone",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III"
-   },
-   {
-    "item": "Arrow",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III"
-   },
-   {
-    "item": "Arrow of Slowness",
-    "qty": "0-1",
-    "notes": "Only with Looting; tipped arrows for your own use"
-   }
-  ],
-  "spawnConditions": "Light level 0 in snowy Overworld biomes, exposed to the sky (they do not spawn under cover).",
-  "behavior": "A frozen skeleton variant shooting tipped arrows of Slowness. Burns in daylight and hides in shade and water like other skeletons; wolves attack strays on sight. In Java, a skeleton that freezes inside powder snow converts into a stray.",
-  "tameOrBreed": "Cannot be tamed or bred.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.10 (16w20a)",
-  "related": [
-   "skeleton",
-   "zombie",
-   "creeper"
-  ],
-  "keywords": "stray skeleton snowy slowness arrows ice frozen"
- },
- {
-  "slug": "wandering-trader",
-  "name": "Wandering Trader",
-  "type": "Passive (merchant)",
-  "health": "20 (10 hearts)",
-  "where": "Spawns near the player roughly every few in-game days (after about an hour of play), everywhere in the Overworld.",
-  "howToKill": "His llamas spit at you if you attack him. Drops nothing - trade instead.",
-  "drops": [
-   {
-    "item": "Potion/milk",
-    "qty": "Chance",
-    "notes": "Only if killed while drinking at dusk/dawn"
-   }
-  ],
-  "spawnConditions": "Random spawn attempt near players; surface Overworld, any biome. Despawns after 40-60 minutes.",
-  "behavior": "A traveling merchant with two trader llamas on leads, offering 5-6 random rare-item trades (saplings, corals, slimeballs, nautilus shells, packed ice, podzol...) for emeralds. Drinks invisibility at night and milk at dawn. Prices are steep, but he sells items otherwise locked to far biomes.",
-  "tameOrBreed": "Cannot be tamed; his llamas can be bred with hay bales once he despawns or dies.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "1.14 (19w05a)",
-  "related": [
-   "villager",
-   "piglin",
-   "pig"
-  ],
-  "keywords": "wandering trader llamas emeralds trades rare items"
- },
- {
-  "slug": "mooshroom",
-  "name": "Mooshroom",
-  "type": "Passive",
-  "health": "10 (5 hearts)",
-  "where": "Mushroom fields (mushroom island) biomes only - the rare red cow.",
-  "howToKill": "Like a cow - but shearing it first gives 5 red mushrooms and turns it into a normal cow.",
-  "drops": [
-   {
-    "item": "Raw beef",
-    "qty": "1-3",
-    "notes": "Steak if killed by fire; more with Looting"
-   },
-   {
-    "item": "Leather",
-    "qty": "0-2",
-    "notes": "Up to 5 with Looting III"
-   },
-   {
-    "item": "Mushroom stew",
-    "qty": "Unlimited",
-    "notes": "Milk a red mooshroom with a bowl; suspicious stew with a brown mooshroom after feeding it a flower"
-   }
-  ],
-  "spawnConditions": "Only on mycelium in mushroom fields biomes, light level 9+. Hostile mobs cannot spawn there - the biome is a natural safe zone.",
-  "behavior": "A red fungus-covered cow. Shearing removes its mushrooms permanently. Lightning strikes convert red mooshrooms to brown (and back). Brown mooshrooms fed a flower give suspicious stew with that flower's effect.",
-  "tameOrBreed": "Breed with wheat. Brown mooshrooms only come from lightning or two brown parents.",
-  "editions": [
-   "java",
-   "bedrock"
-  ],
-  "since": "Beta 1.9-pre1",
-  "related": [
-   "cow",
-   "sheep",
-   "pig"
-  ],
-  "keywords": "mooshroom mushroom fields island stew mycelium brown lightning"
- }
+  {
+    "slug": "creeper",
+    "name": "Creeper",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Overworld, anywhere the light level is 0 (night, caves, dark forests).",
+    "howToKill": "Hit and retreat to stay out of its 3-block explosion trigger, or shoot it from a distance. A shield blocks most of the explosion if you raise it in time. Cats scare creepers away.",
+    "drops": [
+      {
+        "item": "Gunpowder",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Key ingredient for TNT and firework rockets"
+      },
+      {
+        "item": "Music disc",
+        "qty": "1",
+        "notes": "Only when killed by a skeleton's arrow"
+      },
+      {
+        "item": "Creeper head",
+        "qty": "1",
+        "notes": "Only when killed by a charged creeper's explosion"
+      }
+    ],
+    "spawnConditions": "Light level 0, on solid blocks in the Overworld. Does not spawn in mushroom fields.",
+    "behavior": "Silently approaches players and detonates after 1.5 seconds within 3 blocks. Explosion power: 3 (charged by lightning: 6, twice as destructive).",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.24",
+    "related": [
+      "zombie",
+      "skeleton",
+      "spider"
+    ],
+    "keywords": "creeper drops gunpowder explosion how to kill spawn"
+  },
+  {
+    "slug": "zombie",
+    "name": "Zombie",
+    "type": "Hostile",
+    "health": "20 (10 hearts), 2 natural armor points",
+    "where": "Overworld at light level 0. Zombie villagers spawn instead of normal zombies 5% of the time.",
+    "howToKill": "Any weapon works; it is slow and melee-only. Burns in sunlight unless wearing a helmet or standing in water or shade.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Emergency food; trade with cleric villagers"
+      },
+      {
+        "item": "Iron Ingot / Carrot / Potato",
+        "qty": "0-1 rare drop",
+        "notes": "2.5% each, up to 5.5% with Looting III"
+      },
+      {
+        "item": "Equipped armor, weapons or items",
+        "qty": "always if picked up",
+        "notes": "Zombies wearing gear drop it (8.5% base for natural spawns)"
+      }
+    ],
+    "spawnConditions": "Light level 0. Sieges can spawn zombies around villages at midnight. Drowned convert from zombies that stay underwater.",
+    "behavior": "Pursues players and villagers, breaks wooden doors on Hard difficulty, calls reinforcements when hurt (Java). Picks up items and wears armor.",
+    "tameOrBreed": "Cannot be tamed or bred. Zombie villagers can be cured with Weakness + golden apple.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.24",
+    "related": [
+      "creeper",
+      "skeleton",
+      "drowned"
+    ],
+    "keywords": "zombie drops rotten flesh iron how to kill spawn"
+  },
+  {
+    "slug": "skeleton",
+    "name": "Skeleton",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Overworld at light level 0; also in Nether fortresses and soul sand valleys.",
+    "howToKill": "Close the distance using cover or a shield, then melee. Their arrows are slow at short range but deadly in groups.",
+    "drops": [
+      {
+        "item": "Bone",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Bone meal for farms, taming wolves"
+      },
+      {
+        "item": "Arrow",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Infinite arrows with a skeleton farm"
+      },
+      {
+        "item": "Bow",
+        "qty": "rare",
+        "notes": "8.5% drop chance, sometimes enchanted"
+      }
+    ],
+    "spawnConditions": "Light level 0 in the Overworld; light level 7 or less in Nether fortresses and soul sand valleys.",
+    "behavior": "Shoots arrows from up to 16 blocks, strafes around targets (Java), burns in sunlight, retreats from wolves.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.24",
+    "related": [
+      "zombie",
+      "creeper",
+      "stray"
+    ],
+    "keywords": "skeleton drops bones arrows how to kill spawn"
+  },
+  {
+    "slug": "spider",
+    "name": "Spider",
+    "type": "Neutral (hostile in darkness)",
+    "health": "16 (8 hearts)",
+    "where": "Overworld at light level 0. Cave spiders spawn from spawners in mineshafts.",
+    "howToKill": "Easy melee target; it jumps when attacking. In daylight it stops attacking unless provoked. Bane of Arthropods swords kill it fast.",
+    "drops": [
+      {
+        "item": "String",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Bows, fishing rods, wool, leads"
+      },
+      {
+        "item": "Spider Eye",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brewing ingredient; do not eat unless desperate"
+      }
+    ],
+    "spawnConditions": "Light level 0 in the Overworld, needs a 3x3x2 space but only a 1-block-high center.",
+    "behavior": "Hostile below light level 12, neutral in daylight. Climbs walls and sees through blocks to track you.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.26",
+    "related": [
+      "cave-spider",
+      "zombie",
+      "skeleton"
+    ],
+    "keywords": "spider drops string spider eye how to kill"
+  },
+  {
+    "slug": "enderman",
+    "name": "Enderman",
+    "type": "Neutral",
+    "health": "40 (20 hearts)",
+    "where": "All three dimensions at light level 0; very common in the End and in warped forests.",
+    "howToKill": "Fight under a 2-block-high roof: it is 3 blocks tall and cannot reach you. Attack its legs. It teleports away from arrows and water, so use melee.",
+    "drops": [
+      {
+        "item": "Ender Pearl",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Essential for Eyes of Ender to reach the End"
+      }
+    ],
+    "spawnConditions": "Light level 0 in the Overworld and Nether; light level 7 or less in the End.",
+    "behavior": "Neutral until you look at its face (crosshair on its head) or attack it. Picks up and moves certain blocks. Takes damage from water.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.8",
+    "related": [
+      "shulker",
+      "ender-dragon"
+    ],
+    "keywords": "enderman ender pearl how to kill teleport spawn"
+  },
+  {
+    "slug": "warden",
+    "name": "Warden",
+    "type": "Hostile (boss-tier)",
+    "health": "500 (250 hearts)",
+    "where": "Deep Dark biome, summoned by sculk shriekers after 4 warnings. Spawns from the ground near the shrieker.",
+    "howToKill": "You are not meant to fight it: sneak away and break the shriekers. If you must fight, it has no armor but huge health; its sonic boom ignores armor and shields. Killing it drops only a sculk catalyst - no real reward.",
+    "drops": [
+      {
+        "item": "Sculk Catalyst",
+        "qty": "1",
+        "notes": "Spreads sculk when mobs die nearby; only drop"
+      }
+    ],
+    "spawnConditions": "Only via sculk shrieker activation (natural shriekers, 4 triggers), in the Deep Dark below Y=0.",
+    "behavior": "Blind: hunts by sound and smell. Vibrations from walking, projectiles or blocks attract it. Sonic boom pierces walls and shields. Burrows away after 60 seconds of calm.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.19",
+    "related": [
+      "ender-dragon",
+      "wither"
+    ],
+    "keywords": "warden deep dark sculk shrieker how to kill sonic boom"
+  },
+  {
+    "slug": "blaze",
+    "name": "Blaze",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Nether fortresses, from spawners and natural spawns at light level 11 or less.",
+    "howToKill": "Use a shield against its triple fireballs, or snowballs (they deal 3 damage each to blazes). A strength potion finishes them quickly. Fire Resistance removes most of the threat.",
+    "drops": [
+      {
+        "item": "Blaze Rod",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brewing stands, fuel, Eyes of Ender - the gate to beating the game"
+      }
+    ],
+    "spawnConditions": "Nether fortresses, light level 11 or less. Spawners sit in small stairwell rooms.",
+    "behavior": "Flies, shoots three fireballs in a burst, sets targets on fire on contact. Immune to fire and lava; takes extra damage from snowballs.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "wither-skeleton",
+      "ghast"
+    ],
+    "keywords": "blaze rod nether fortress drops how to kill"
+  },
+  {
+    "slug": "cow",
+    "name": "Cow",
+    "type": "Passive",
+    "health": "10 (5 hearts)",
+    "where": "Grassy biomes of the Overworld, in herds of up to 4. Needs grass and light level 9+ to spawn (Java).",
+    "howToKill": "Any weapon; it runs when hit. Looting increases leather and beef drops.",
+    "drops": [
+      {
+        "item": "Raw Beef (Steak if killed by fire)",
+        "qty": "1-3 (up to 6 with Looting III)",
+        "notes": "Cooked into steak: one of the best foods"
+      },
+      {
+        "item": "Leather",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Books, item frames, leather armor"
+      }
+    ],
+    "spawnConditions": "Grass blocks with light level 9 or higher (Java), 2 blocks of space. Also spawns with world generation.",
+    "behavior": "Wanders, follows players holding wheat, can be milked with a bucket for infinite milk.",
+    "tameOrBreed": "Breed two adults with wheat. Baby grows up in 20 minutes (faster if fed wheat).",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha v1.0.8",
+    "related": [
+      "pig",
+      "sheep",
+      "mooshroom"
+    ],
+    "keywords": "cow drops leather beef breed milk farm"
+  },
+  {
+    "slug": "pig",
+    "name": "Pig",
+    "type": "Passive",
+    "health": "10 (5 hearts)",
+    "where": "Grassy biomes of the Overworld, in herds. Common everywhere except snowy and badlands biomes.",
+    "howToKill": "Any weapon; it flees when hurt. Kills by fire drop cooked porkchops directly.",
+    "drops": [
+      {
+        "item": "Raw Porkchop (Cooked if killed by fire)",
+        "qty": "1-3 (up to 6 with Looting III)",
+        "notes": "Cooked porkchop is a top-tier food (8 hunger points)"
+      }
+    ],
+    "spawnConditions": "Grass blocks with light level 9 or higher (Java).",
+    "behavior": "Wanders, follows players holding carrots, potatoes or beetroots. Can be saddled and steered with a carrot on a stick.",
+    "tameOrBreed": "Breed two adults with carrots, potatoes or beetroots.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.24",
+    "related": [
+      "cow",
+      "sheep",
+      "chicken"
+    ],
+    "keywords": "pig drops porkchop breed saddle ride"
+  },
+  {
+    "slug": "wolf",
+    "name": "Wolf",
+    "type": "Neutral (tameable)",
+    "health": "8 (4 hearts) wild; 20 (10 hearts) tamed",
+    "where": "Forests, taigas and groves, in packs of 4. Different variants per biome since 1.20.5.",
+    "howToKill": "Wild wolves are neutral; attack one and the whole pack turns hostile. Tamed wolves teleport to you and fight for you.",
+    "drops": [
+      {
+        "item": "Nothing (1-3 XP orbs)",
+        "qty": "-",
+        "notes": "Killing wolves gives no items"
+      }
+    ],
+    "spawnConditions": "Grass, snow or coarse dirt in forest-type biomes, light level 9+ (Java).",
+    "behavior": "Neutral in packs: hurts one, hurts all. Tamed wolves follow, teleport to you, sit on command and attack your targets.",
+    "tameOrBreed": "Tame with bones (each bone has a 1 in 3 chance). Breed two tamed wolves with any meat; the pup is born tamed.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.4",
+    "related": [
+      "cat",
+      "fox",
+      "axolotl"
+    ],
+    "keywords": "wolf tame bones breed dog variants"
+  },
+  {
+    "slug": "villager",
+    "name": "Villager",
+    "type": "Passive",
+    "health": "20 (10 hearts)",
+    "where": "Villages in plains, desert, savanna, taiga, snowy and meadow biomes. Zombie villagers appear at night anywhere.",
+    "howToKill": "You should not: killing villagers drops your village popularity and iron golems will attack you. They have no drops and give only 1-3 XP.",
+    "drops": [
+      {
+        "item": "Nothing",
+        "qty": "-",
+        "notes": "Villagers drop no items; their value is trading"
+      }
+    ],
+    "spawnConditions": "Generate with villages and igloo basements; never spawn naturally afterwards - breed them or cure zombie villagers to repopulate.",
+    "behavior": "Work at their job site block by day, gossip at the meeting point, sleep at night. Panic from zombies and raid mobs. 15 professions, each with its own trades.",
+    "tameOrBreed": "Breed with food (3 bread or 12 carrots/potatoes/beetroots each) plus spare valid beds. Cure zombie villagers with a Weakness splash potion + golden apple for big trade discounts.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "zombie",
+      "wandering-trader"
+    ],
+    "keywords": "villager trades professions breed cure zombie villager"
+  },
+  {
+    "slug": "shulker",
+    "name": "Shulker",
+    "type": "Hostile",
+    "health": "30 (15 hearts)",
+    "where": "End Cities in the outer End islands, camouflaged on walls and ceilings.",
+    "howToKill": "Kill it while its shell is open to shoot - closed, it takes 80% less damage and deflects arrows. Melee with a sharp sword when it opens, or punch arrows back. Dodge the homing bullets or break them with any hit.",
+    "drops": [
+      {
+        "item": "Shulker Shell",
+        "qty": "0-1 (Java: 50%, +6.25% per Looting level; Bedrock: 0-1 up to 4 with Looting III)",
+        "notes": "Two shells + a chest = shulker box, the portable inventory"
+      }
+    ],
+    "spawnConditions": "Spawn once with End City generation and do not respawn naturally. A shulker hit by another shulker's bullet can duplicate (Java).",
+    "behavior": "Stays disguised as a purpur block, opens to fire homing bullets that cause 10 seconds of levitation - deadly over the void. Teleports when hurt.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.9",
+    "related": [
+      "enderman",
+      "ender-dragon"
+    ],
+    "keywords": "shulker shell end city levitation shulker box"
+  },
+  {
+    "slug": "ender-dragon",
+    "name": "Ender Dragon",
+    "type": "Boss",
+    "health": "200 (100 hearts)",
+    "where": "The End dimension - the central island. Respawn it by placing 4 end crystals on the exit portal edges.",
+    "howToKill": "Destroy the end crystals on the obsidian pillars first (shoot the exposed ones, pillar up to the caged ones) so it cannot heal. Then hit it with a bow while it flies and with a sword when it perches on the exit portal. Beds explode in the End: place one and detonate it as the dragon perches for massive damage. Bring Slow Falling or a water bucket for knockback.",
+    "drops": [
+      {
+        "item": "12,000 XP (first kill; 500 afterwards)",
+        "qty": "-",
+        "notes": "The biggest XP drop in the game"
+      },
+      {
+        "item": "Dragon Egg",
+        "qty": "1",
+        "notes": "First kill only, on top of the exit portal - trophy item"
+      },
+      {
+        "item": "Opens the exit portal + End Gateway",
+        "qty": "-",
+        "notes": "The gateway leads to the outer islands (elytra!)"
+      }
+    ],
+    "spawnConditions": "One dragon per End dimension; resummon with 4 end crystals arranged on each side of the exit portal.",
+    "behavior": "Circles the island, breathes dragon's breath (area damage cloud), charges at players, and perches on the exit portal where it is immune to arrows. Heals from end crystals.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.0.0",
+    "related": [
+      "wither",
+      "shulker"
+    ],
+    "keywords": "ender dragon how to kill end crystals boss fight"
+  },
+  {
+    "slug": "wither",
+    "name": "Wither",
+    "type": "Boss",
+    "health": "300 (150 hearts) Java / 600 Bedrock",
+    "where": "Spawned by the player anywhere: 4 soul sand or soul soil in a T shape with 3 wither skeleton skulls on top.",
+    "howToKill": "Spawn it in a cramped bedrock ceiling (Java: under the exit portal fountain; Bedrock: a deep cave) so it cannot fly away. It is immune to arrows below half health - finish it with a Smite V sword. Bring strength potions, golden apples and milk to cure the Wither effect.",
+    "drops": [
+      {
+        "item": "Nether Star",
+        "qty": "1",
+        "notes": "Crafts the beacon - the reason to fight it"
+      }
+    ],
+    "spawnConditions": "Player-built: T of soul sand/soil + 3 wither skeleton skulls (skull last). Wither skeleton skulls drop in Nether fortresses at 2.5% (5.5% with Looting III).",
+    "behavior": "On spawn it charges up and explodes, then flies shooting explosive skulls that inflict the Wither effect (drains health, kills hearts). Breaks most blocks on contact. Below half health it gains a shield against projectiles (Java) or dashes and spawns wither skeletons (Bedrock).",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2",
+    "related": [
+      "ender-dragon",
+      "wither-skeleton",
+      "blaze"
+    ],
+    "keywords": "wither boss how to spawn nether star beacon skulls"
+  },
+  {
+    "slug": "axolotl",
+    "name": "Axolotl",
+    "type": "Passive (aquatic)",
+    "health": "14 (7 hearts)",
+    "where": "Lush caves, in water below Y=63 with clay nearby and total darkness. Five colors; blue only from breeding (1 in 1200).",
+    "howToKill": "Do not - they are helpers. If you must know: they play dead when hurt, regenerating health.",
+    "drops": [
+      {
+        "item": "Nothing (1-3 XP)",
+        "qty": "-",
+        "notes": "No item drops"
+      }
+    ],
+    "spawnConditions": "Water in lush caves, light level 0, below Y=63, within 5 blocks of a clay block.",
+    "behavior": "Swims, plays dead when damaged (regenerates), attacks fish, squid, drowned and guardians when led into battle with a bucket. Grants you Regeneration and removes Mining Fatigue for helping it fight.",
+    "tameOrBreed": "Cannot be tamed but trusts players carrying tropical fish buckets. Breed two with a bucket of tropical fish. Carry it in a water bucket - it survives 5 minutes out of water.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.17",
+    "related": [
+      "wolf",
+      "cat"
+    ],
+    "keywords": "axolotl lush caves blue axolotl bucket tame breed"
+  },
+  {
+    "slug": "drowned",
+    "name": "Drowned",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Oceans, rivers, underwater ruins and dripstone cave aquifers at light level 0. Zombies that stay underwater for 15 seconds also convert into drowned.",
+    "howToKill": "Fight from a boat or shore so they cannot reach you; their melee is weak but trident throwers are dangerous from range. A shield blocks thrown tridents.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Standard zombie-family drop"
+      },
+      {
+        "item": "Copper Ingot",
+        "qty": "0-1",
+        "notes": "11% chance in both editions, +2% per Looting level - the only renewable copper source"
+      },
+      {
+        "item": "Trident",
+        "qty": "0-1",
+        "notes": "Only from drowned holding one. Java: 6.25% spawn with a trident, 8.5% drop chance (+1% per Looting). Bedrock: 15% spawn with one, 25% drop chance (+4% per Looting)"
+      },
+      {
+        "item": "Fishing Rod",
+        "qty": "0-1",
+        "notes": "Rare held item in Java, 8.5% drop chance when held"
+      }
+    ],
+    "spawnConditions": "Light level 0 in water in oceans, rivers and dripstone caves; high density around underwater ruins.",
+    "behavior": "Swims fast and sinks to walk on the bottom. Trident throwers keep their distance; others rush you. Attacks villagers and baby turtles, and stomps turtle eggs.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "zombie",
+      "axolotl",
+      "villager"
+    ],
+    "keywords": "drowned trident farm copper drops underwater zombie"
+  },
+  {
+    "slug": "ghast",
+    "name": "Ghast",
+    "type": "Hostile",
+    "health": "10 (5 hearts)",
+    "where": "Nether wastes, soul sand valleys and basalt deltas, anywhere with enough open space (5x4x5).",
+    "howToKill": "Deflect its fireball back with a melee hit - a reflected fireball one-shots it and earns the Return to Sender advancement. Otherwise shoot it with a bow. Fire resistance potions negate the fire damage entirely.",
+    "drops": [
+      {
+        "item": "Gunpowder",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Key ghast farm product"
+      },
+      {
+        "item": "Ghast Tear",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Brews Potions of Regeneration"
+      }
+    ],
+    "spawnConditions": "Light level 11 or lower, with 5x4x5 free space, in Nether wastes, soul sand valleys and basalt deltas.",
+    "behavior": "Floats and fires explosive fireballs when you are within 16 blocks. Fireballs cannot break cobblestone or other high blast-resistance blocks.",
+    "tameOrBreed": "Cannot be tamed or bred. (The rideable happy ghast is a separate passive mob grown from a dried ghast block.)",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.2.0",
+    "related": [
+      "blaze",
+      "piglin",
+      "wither"
+    ],
+    "keywords": "ghast tear drops fireball return to sender nether"
+  },
+  {
+    "slug": "piglin",
+    "name": "Piglin",
+    "type": "Neutral",
+    "health": "16 (8 hearts)",
+    "where": "Crimson forests, Nether wastes and bastion remnants.",
+    "howToKill": "Wear at least one piece of gold armor and they leave you alone. They flee from soul fire, soul torches, soul lanterns and zoglins. If you fight, a shield blocks crossbow shots; melee piglins hit hard, so pillar up.",
+    "drops": [
+      {
+        "item": "Held item (gold sword or crossbow)",
+        "qty": "0-1",
+        "notes": "8.5% chance, +1% per Looting level"
+      },
+      {
+        "item": "Bartering loot",
+        "qty": "varies",
+        "notes": "Not a drop: throw a gold ingot at an adult piglin and it throws back items - ender pearls, obsidian, quartz, string, fire charges, iron nuggets, Soul Speed books and more"
+      }
+    ],
+    "spawnConditions": "Light level 11 or lower in crimson forests and Nether wastes; always in bastions. Does not spawn on nether wart blocks.",
+    "behavior": "Attacks players not wearing gold, and anyone who opens a chest or mines gold blocks/ore nearby. Piglins that travel to the Overworld or End zombify after 15 seconds.",
+    "tameOrBreed": "Cannot be tamed or bred. Adults barter; baby piglins take gold but never barter back.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "blaze",
+      "ghast",
+      "ender-dragon"
+    ],
+    "keywords": "piglin bartering gold drops bastion ender pearls"
+  },
+  {
+    "slug": "slime",
+    "name": "Slime",
+    "type": "Hostile",
+    "health": "Big: 16 (8 hearts), Small: 4 (2 hearts), Tiny: 1 (half a heart)",
+    "where": "Swamps at night (Y 51-69, light below 8) and slime chunks below Y=40 at any light level.",
+    "howToKill": "Kill the big one and it splits into 2-4 smaller ones, which split again into tiny slimes. Sweeping Edge swords (Java) clear the splits fast. Tiny slimes deal no damage - punch them freely.",
+    "drops": [
+      {
+        "item": "Slimeball",
+        "qty": "0-2 from tiny slimes (up to 5 with Looting III)",
+        "notes": "Sticky pistons, slime blocks, leads, magma cream"
+      }
+    ],
+    "spawnConditions": "Slime chunks: below Y=40, any light level. Swamps: Y 51-69, light below 8, with rates peaking at full moon and stopping at new moon.",
+    "behavior": "Hops toward players and splits on death. Despawns over time if no player is within 32 blocks.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.0.11",
+    "related": [
+      "axolotl",
+      "zombie",
+      "piglin"
+    ],
+    "keywords": "slime chunk slimeball farm spawn swamp full moon"
+  },
+  {
+    "slug": "iron-golem",
+    "name": "Iron Golem",
+    "type": "Neutral (utility mob)",
+    "health": "100 (50 hearts)",
+    "where": "Villages (spawns automatically when villagers meet the requirements) and caged at some pillager outposts. Players can also build one.",
+    "howToKill": "Pillar up 3+ blocks so it cannot reach you and hit its feet. Avoid killing village golems near a trading hall you still use - prices rise. Build your own with 4 iron blocks in a T plus a carved pumpkin on top.",
+    "drops": [
+      {
+        "item": "Iron Ingot",
+        "qty": "3-5 (Looting does not increase it)",
+        "notes": "The basis of iron farms"
+      },
+      {
+        "item": "Poppy",
+        "qty": "0-2",
+        "notes": "It offers poppies to villager children"
+      }
+    ],
+    "spawnConditions": "Java: villagers that have slept and worked spawn golems when none is detected nearby (panicking villagers spawn them faster). Bedrock: 10+ villagers linked to 20+ beds. Player-built: T of 4 iron blocks with a carved pumpkin placed last.",
+    "behavior": "Patrols villages and attacks most hostile mobs on sight, plus players who attack it or villagers. Huge knockback - it throws targets into the air. Cracks as it takes damage; repair it with iron ingots.",
+    "tameOrBreed": "Cannot be tamed or bred, but a player-built golem never attacks its creator.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.2.1",
+    "related": [
+      "villager",
+      "pillager",
+      "wolf"
+    ],
+    "keywords": "iron golem spawn farm iron drops how to make"
+  },
+  {
+    "slug": "pillager",
+    "name": "Pillager",
+    "type": "Hostile",
+    "health": "24 (12 hearts)",
+    "where": "Pillager outposts, wandering patrols, and village raids.",
+    "howToKill": "Their crossbow hits hard but needs a reload after each shot - rush them during the reload or block with a shield. In raids, focus the banner-carrying captains.",
+    "drops": [
+      {
+        "item": "Crossbow",
+        "qty": "0-1",
+        "notes": "8.5% chance, +1% per Looting level"
+      },
+      {
+        "item": "Ominous Bottle",
+        "qty": "1",
+        "notes": "Only from captains (the ones wearing a banner). Drink it for Bad Omen, which starts a raid when you enter a village"
+      },
+      {
+        "item": "Ominous Banner",
+        "qty": "1",
+        "notes": "From captains; cosmetic trophy"
+      }
+    ],
+    "spawnConditions": "Patrols spawn near players after about 5 in-game days (light level under 8 in Java, 0-7 in Bedrock). Outposts spawn captains continuously; raid waves scale with the Bad Omen level.",
+    "behavior": "Armed with crossbows; shoots players, villagers, wandering traders and iron golems. In Java a pillager whose crossbow breaks turns passive.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (Village & Pillage)",
+    "related": [
+      "villager",
+      "iron-golem",
+      "zombie"
+    ],
+    "keywords": "pillager raid bad omen ominous bottle outpost captain drops"
+  },
+  {
+    "slug": "hoglin",
+    "name": "Hoglin",
+    "type": "Hostile",
+    "health": "40 (20 hearts)",
+    "where": "Crimson forests and bastion remnants (hoglin stables).",
+    "howToKill": "Their charge knocks you high into the air - fight with your back to a wall, never near a cliff or lava. They flee from warped fungus placed or held nearby, and from respawn anchors and nether portals.",
+    "drops": [
+      {
+        "item": "Raw Porkchop",
+        "qty": "2-4 (up to 7 with Looting III)",
+        "notes": "Cooked if it dies on fire - hoglin farms are solid food farms"
+      },
+      {
+        "item": "Leather",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": ""
+      }
+    ],
+    "spawnConditions": "Crimson forests at any light level; never spawn on nether wart blocks. Breedable with crimson fungus.",
+    "behavior": "Charges players with huge knockback. Runs from warped fungus, portals and respawn anchors. Zombifies into a zoglin after 15 seconds in the Overworld or End.",
+    "tameOrBreed": "Cannot be tamed. Breed two adults with crimson fungus; the baby follows parents. One of the few hostile mobs that can be bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "piglin",
+      "ghast",
+      "cow"
+    ],
+    "keywords": "hoglin drops porkchop breed crimson fungus zoglin"
+  },
+  {
+    "slug": "guardian",
+    "name": "Guardian",
+    "type": "Hostile",
+    "health": "30 (15 hearts)",
+    "where": "In and around ocean monuments - the only place they spawn.",
+    "howToKill": "Fight them out of water or with Depth Strider + Respiration gear. Their laser charges for 2 seconds: break line of sight behind a pillar to reset it. In melee, watch the spikes - hitting a guardian with extended spikes hurts you back (Thorns-like).",
+    "drops": [
+      {
+        "item": "Prismarine Shard",
+        "qty": "0-2 (up to 5 with Looting III)",
+        "notes": "Prismarine blocks, sea lanterns"
+      },
+      {
+        "item": "Prismarine Crystals",
+        "qty": "0-1",
+        "notes": "40% chance; sea lanterns"
+      },
+      {
+        "item": "Raw Cod",
+        "qty": "0-1",
+        "notes": "40% chance; cooked if killed by fire"
+      }
+    ],
+    "spawnConditions": "Only inside the 58x58 ocean monument bounding box, in water. Guardian farms drain the monument and funnel spawns into kill chambers.",
+    "behavior": "Swims around the monument and zaps players, squid and axolotls with a charging laser. Spikes extend when it takes damage and reflect part of melee hits.",
+    "tameOrBreed": "Cannot be tamed or bred. Axolotls attack guardians and help you raid monuments.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.8 (Bountiful Update)",
+    "related": [
+      "axolotl",
+      "drowned",
+      "elder-guardian"
+    ],
+    "keywords": "guardian ocean monument drops prismarine sea lantern farm"
+  },
+  {
+    "slug": "witch",
+    "name": "Witch",
+    "type": "Hostile",
+    "health": "26 (13 hearts)",
+    "where": "Swamp witch huts at night, raids (from wave 3-4), and anywhere a villager is struck by lightning.",
+    "howToKill": "Rush it before it drinks: witches drink Potions of Healing (4 hearts), Fire Resistance, Water Breathing and Swiftness. A bow from outside its potion range works too. Never let it splash you near other mobs.",
+    "drops": [
+      {
+        "item": "Glass Bottle / Glowstone Dust / Gunpowder / Redstone / Spider Eye / Stick / Sugar",
+        "qty": "4-8 item types, 0-2 each (Looting adds more)",
+        "notes": "Witch farms produce all of these, especially redstone and glowstone"
+      },
+      {
+        "item": "Potion being drunk",
+        "qty": "1",
+        "notes": "8.5% chance (+1% per Looting) if killed mid-drink"
+      }
+    ],
+    "spawnConditions": "Witch huts in swamps (a 7x9x4 spawn volume), raids, and villagers converted by lightning. Raid farms double as witch farms.",
+    "behavior": "Throws splash potions of Poison (up to 44s), Slowness, Weakness and Harming. Drinks counter-potions: heals when hurt, fire resistance when burning, water breathing when submerged, swiftness when far away.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "pillager",
+      "villager",
+      "zombie"
+    ],
+    "keywords": "witch drops redstone farm potions swamp hut"
+  },
+  {
+    "slug": "phantom",
+    "name": "Phantom",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "The Overworld night sky, above players who have not slept or died for 3+ in-game days.",
+    "howToKill": "They swoop down in a straight line - sidestep and hit them as they pass, or shoot them circling overhead. They burn in daylight. Cats scare phantoms away, so keep one nearby or sleep regularly.",
+    "drops": [
+      {
+        "item": "Phantom Membrane",
+        "qty": "0-1 (up to 4 with Looting III)",
+        "notes": "Repairs elytra on an anvil; brews Potions of Slow Falling"
+      }
+    ],
+    "spawnConditions": "Above sea level at night or during thunderstorms, targeting players with 3+ days without sleep (the insomnia timer resets when you sleep or die). Spawn attempts start after 1 hour of insomnia.",
+    "behavior": "Circles high above its target and dives in straight attack runs. Undead: burns in sunlight, despawns at dawn, hurt by Healing potions and healed by Harming.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "zombie",
+      "skeleton",
+      "creeper"
+    ],
+    "keywords": "phantom membrane elytra repair sleep insomnia spawn"
+  },
+  {
+    "slug": "wither-skeleton",
+    "name": "Wither Skeleton",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Nether fortresses, in the fortress's bounding box at light level 0-7.",
+    "howToKill": "Their tall 2.4-block height gets stuck under 2-block ceilings - fight them in fortress corridors with slabbed roofs or from behind a 2-block-high gap. Their stone sword inflicts the Wither effect, so milk or a shield helps. Looting III is essential for skull hunting.",
+    "drops": [
+      {
+        "item": "Coal",
+        "qty": "0-1",
+        "notes": "Up to 4 with Looting III"
+      },
+      {
+        "item": "Bone",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III"
+      },
+      {
+        "item": "Wither skeleton skull",
+        "qty": "~2.5% chance",
+        "notes": "The prize - needed to summon the Wither; chance rises with Looting"
+      },
+      {
+        "item": "Stone sword",
+        "qty": "Rarely",
+        "notes": "Occasional equipment drop"
+      }
+    ],
+    "spawnConditions": "Nether fortresses only, on nether bricks, light level 7 or below (Java), any light in Bedrock bounding boxes.",
+    "behavior": "Sprints at players and slashes with a stone sword, inflicting 10 seconds of the Wither effect (health bar turns black and drains). Immune to fire and lava. Picks fights with piglins that attack it first.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2 (12w36a)",
+    "related": [
+      "skeleton",
+      "blaze",
+      "wither"
+    ],
+    "keywords": "wither skeleton skull fortress nether wither effect farm"
+  },
+  {
+    "slug": "evoker",
+    "name": "Evoker",
+    "type": "Hostile",
+    "health": "24 (12 hearts)",
+    "where": "Woodland mansions (specific rooms) and raid waves 5+ (from wave 4 in Bedrock).",
+    "howToKill": "Rush it before it finishes a spell - it raises its arms and changes color when casting. A shield blocks the fang line if you face it. Prioritize evokers in raids before their vexes overwhelm you.",
+    "drops": [
+      {
+        "item": "Totem of undying",
+        "qty": "1",
+        "notes": "Always - the only renewable source of totems"
+      },
+      {
+        "item": "Emerald",
+        "qty": "0-1",
+        "notes": "More with Looting"
+      }
+    ],
+    "spawnConditions": "Mansions (does not respawn there) and the final raid waves in both editions.",
+    "behavior": "Casts two spells: a line of evoker fangs that snap up from the ground (6 blocks range), and a summoning spell that creates 3 vexes. Changes blue sheep to red within range. Runs from players between spells.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.11 (16w39a)",
+    "related": [
+      "pillager",
+      "witch",
+      "vindicator"
+    ],
+    "keywords": "evoker totem undying vex fangs raid mansion illager"
+  },
+  {
+    "slug": "vindicator",
+    "name": "Vindicator",
+    "type": "Hostile",
+    "health": "24 (12 hearts)",
+    "where": "Woodland mansions and raid waves 2+; also patrols with pillagers (Bedrock).",
+    "howToKill": "Their iron axe hits extremely hard (19 damage on Hard) and disables your shield on hit - keep distance, use a bow, or pillar up two blocks. Never trade hits with one in close quarters without armor.",
+    "drops": [
+      {
+        "item": "Emerald",
+        "qty": "0-1",
+        "notes": "Up to 4 with Looting III"
+      },
+      {
+        "item": "Iron axe",
+        "qty": "~8.5% chance",
+        "notes": "Occasional equipment drop"
+      }
+    ],
+    "spawnConditions": "Mansion rooms (no respawn) and raid waves; raids are the renewable source.",
+    "behavior": "Chases players and villagers with its axe raised, sprinting fast. In Java, a vindicator named 'Johnny' attacks every mob in sight. Breaks wooden doors in raids (Hard difficulty).",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.11 (16w39a)",
+    "related": [
+      "pillager",
+      "evoker",
+      "ravager"
+    ],
+    "keywords": "vindicator axe raid mansion illager johnny shield disable"
+  },
+  {
+    "slug": "ravager",
+    "name": "Ravager",
+    "type": "Hostile",
+    "health": "100 (50 hearts)",
+    "where": "Raid waves 3+ (wave 3 in Java, wave 4+ in Bedrock), sometimes with a pillager, vindicator or evoker rider.",
+    "howToKill": "Its charge destroys crops and leaves, and its bite hits hard - fight it with a bow from high ground, or raise a shield: a ravager that rams a raised shield gets stunned for about 2 seconds, then roars (knockback). Kill any rider first, then focus the beast.",
+    "drops": [
+      {
+        "item": "Saddle",
+        "qty": "1",
+        "notes": "Always in Java - a renewable saddle source"
+      }
+    ],
+    "spawnConditions": "Only in raids, never naturally elsewhere.",
+    "behavior": "Charges in straight lines, bites for heavy damage, and roars (knockback + damage) when stunned. Destroys crops, leaves and snow layers it walks over. Villagers and iron golems are its priority targets.",
+    "tameOrBreed": "Cannot be tamed or ridden (despite dropping saddles).",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (18w43a)",
+    "related": [
+      "pillager",
+      "vindicator",
+      "evoker"
+    ],
+    "keywords": "ravager raid beast saddle rider illager charge"
+  },
+  {
+    "slug": "vex",
+    "name": "Vex",
+    "type": "Hostile",
+    "health": "14 (7 hearts)",
+    "where": "Summoned by evokers in woodland mansions and raids - never spawns naturally.",
+    "howToKill": "They phase through walls, so hiding does not work - face them with a shield up and hit during their attack dive. They die on their own after 30-119 seconds (Java), so surviving the wave is a valid strategy.",
+    "drops": [
+      {
+        "item": "Iron sword",
+        "qty": "Rarely with Looting",
+        "notes": "Their held sword has a 0% base drop rate, rising only with Looting"
+      }
+    ],
+    "spawnConditions": "Only summoned by evokers, in groups of 3.",
+    "behavior": "Small flying gray spirits with red eyes when attacking. They float through solid blocks and dive at targets with an iron sword. In Java they take damage over time and die within about two minutes of being summoned.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.11 (16w39a)",
+    "related": [
+      "evoker",
+      "vindicator",
+      "pillager"
+    ],
+    "keywords": "vex evoker summon flying raid mansion spirit"
+  },
+  {
+    "slug": "elder-guardian",
+    "name": "Elder Guardian",
+    "type": "Hostile",
+    "health": "80 (40 hearts)",
+    "where": "Ocean monuments - exactly three per monument (one in the top room, one in each wing).",
+    "howToKill": "Drink water breathing and use Depth Strider; fight it in a corner to avoid its laser charge (4-9 damage) and spike defense. Milk removes its Mining Fatigue III. Kill all three before draining or mining the monument.",
+    "drops": [
+      {
+        "item": "Wet sponge",
+        "qty": "1",
+        "notes": "Always - the only sponge source"
+      },
+      {
+        "item": "Prismarine shards",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Prismarine crystals",
+        "qty": "0-1",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Raw cod",
+        "qty": "0-1",
+        "notes": "Or a random fish"
+      },
+      {
+        "item": "Tide armor trim",
+        "qty": "~20% chance",
+        "notes": "Since 1.20; can be duplicated with diamonds and prismarine"
+      }
+    ],
+    "spawnConditions": "Three per ocean monument; they do not respawn after death.",
+    "behavior": "Fires a charging laser beam at players and squid, inflicts Mining Fatigue III for 5 minutes on any player nearby (ghostly jumpscare in Java), and retracts defensive spikes. Swimming away breaks the laser lock.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.8 (14w25a)",
+    "related": [
+      "guardian",
+      "drowned",
+      "axolotl"
+    ],
+    "keywords": "elder guardian ocean monument sponge mining fatigue tide trim laser"
+  },
+  {
+    "slug": "magma-cube",
+    "name": "Magma Cube",
+    "type": "Hostile",
+    "health": "16 / 4 / 1 (big / medium / small)",
+    "where": "The Nether everywhere, especially basalt deltas; also from basalt-delta and fortress spawners in bastion treasure rooms.",
+    "howToKill": "Like slimes: kill the big one and it splits into 2-4 smaller ones, which split again. A sweeping sword or bow clears the small ones fast. They hop high and fall on you - keep moving.",
+    "drops": [
+      {
+        "item": "Magma cream",
+        "qty": "0-1 (big), 0-1 (medium)",
+        "notes": "Up to 4 with Looting III; brews fire resistance potions"
+      },
+      {
+        "item": "Froglight",
+        "qty": "1 (from small cubes)",
+        "notes": "When a frog eats a small magma cube - color depends on frog type"
+      }
+    ],
+    "spawnConditions": "Nether wastes, basalt deltas (very common), nether fortresses and bastion treasure-room spawners.",
+    "behavior": "Hops toward players, splitting into smaller copies when killed. Immune to fire and lava, takes damage in water. Frogs eat the smallest size and produce froglights.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.0.0 (Beta 1.9-pre1)",
+    "related": [
+      "slime",
+      "blaze",
+      "hoglin"
+    ],
+    "keywords": "magma cube nether magma cream froglight basalt delta bastion"
+  },
+  {
+    "slug": "allay",
+    "name": "Allay",
+    "type": "Passive (helper)",
+    "health": "20 (10 hearts)",
+    "where": "Rescued from pillager outpost cages and woodland mansion jail cells.",
+    "howToKill": "Why would you? If you must, it has no attack and simply flees - but it regenerates 2 HP per second.",
+    "drops": [
+      {
+        "item": "Nothing",
+        "qty": "-",
+        "notes": "Drops only the item it was holding, which returns to you anyway"
+      }
+    ],
+    "spawnConditions": "Never spawns naturally in the wild - only found captive in illager structures; duplicates when dancing near a jukebox with an amethyst shard.",
+    "behavior": "Give it an item and it flies off to collect matching dropped items nearby (up to a stack at a time) and delivers them to you - or to a note block it heard. It follows its owner loosely and glows softly. The heart of automatic item-sorting and farm collection systems.",
+    "tameOrBreed": "Befriended by giving it an item; 'bred' by playing a jukebox and giving an amethyst shard while it dances (5-minute cooldown).",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.19 (22w13a)",
+    "related": [
+      "villager",
+      "iron-golem",
+      "axolotl"
+    ],
+    "keywords": "allay item collection sorting farm note block amethyst outpost"
+  },
+  {
+    "slug": "sheep",
+    "name": "Sheep",
+    "type": "Passive",
+    "health": "8 (4 hearts)",
+    "where": "Overworld grass biomes - plains, meadows, forests and more, in flocks of 2-4.",
+    "howToKill": "One or two sword hits. Shearing first is always better than killing.",
+    "drops": [
+      {
+        "item": "Wool",
+        "qty": "1",
+        "notes": "Of its fleece color; nothing if sheared"
+      },
+      {
+        "item": "Raw mutton",
+        "qty": "1-2",
+        "notes": "Cooked mutton if killed while on fire; up to 5 with Looting III"
+      }
+    ],
+    "spawnConditions": "On grass blocks at light level 9+, in most grassy Overworld biomes. 5% spawn as babies; natural colors: white (common), black, gray, light gray, brown, and the ultra-rare pink.",
+    "behavior": "Grazes grass blocks (turning them to dirt) to regrow its fleece after shearing. Follows players holding wheat. A sheep named 'jeb_' cycles through every wool color.",
+    "tameOrBreed": "Breed two sheep with wheat; the lamb's color mixes the parents' colors. Shear with shears for 1-3 wool without killing.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Classic 0.28",
+    "related": [
+      "cow",
+      "pig",
+      "wolf"
+    ],
+    "keywords": "sheep wool mutton shear breed farm color pink"
+  },
+  {
+    "slug": "chicken",
+    "name": "Chicken",
+    "type": "Passive",
+    "health": "4 (2 hearts)",
+    "where": "Overworld grassy biomes everywhere; also hatches from thrown eggs.",
+    "howToKill": "One hit from anything. A Looting sword gives more feathers and meat.",
+    "drops": [
+      {
+        "item": "Feather",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III - arrows need them"
+      },
+      {
+        "item": "Raw chicken",
+        "qty": "1",
+        "notes": "Cooked if killed by fire; more with Looting"
+      },
+      {
+        "item": "Egg",
+        "qty": "1 every 5-10 minutes",
+        "notes": "Laid while alive - the base of every chicken farm"
+      }
+    ],
+    "spawnConditions": "Grass blocks at light level 9+ in most Overworld biomes. Thrown eggs hatch chicks 1 time in 8. Rare chicken jockeys appear when a baby zombie spawns riding a chicken.",
+    "behavior": "Wanders, flaps slowly to the ground (takes no fall damage), and lays an egg every 5-10 minutes. Follows seeds. Ocelots and foxes hunt them.",
+    "tameOrBreed": "Breed with any seeds (wheat, pumpkin, melon, beetroot, torchflower). Thrown eggs hatch 1 time in 8 (and 1/256 for 4 chicks at once).",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.0.14",
+    "related": [
+      "cow",
+      "pig",
+      "sheep"
+    ],
+    "keywords": "chicken egg feather farm breed seeds jockey"
+  },
+  {
+    "slug": "cat",
+    "name": "Cat",
+    "type": "Passive (tameable)",
+    "health": "10 (5 hearts)",
+    "where": "Stray cats spawn in villages (at least 1 villager and 5 beds) and swamp huts (black cats).",
+    "howToKill": "They flee and take no fall damage - but they are pets, not targets.",
+    "drops": [
+      {
+        "item": "String",
+        "qty": "0-2",
+        "notes": "On death"
+      }
+    ],
+    "spawnConditions": "Villages with 5+ claimed beds spawn untamed cats up to a cap; witch huts spawn one black cat.",
+    "behavior": "Tame a stray cat by standing still with raw cod or salmon until it approaches - then feed it. Tamed cats follow or sit on command, sleep with you, and bring morning gifts (string, feathers, rabbit's foot, phantom membrane...). Creepers and phantoms flee from cats - a cat at your base is a creeper shield.",
+    "tameOrBreed": "Tame with raw cod/salmon; breed two tamed cats with raw fish. Kittens inherit a parent's collar color.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (18w44a; ocelot cats split)",
+    "related": [
+      "wolf",
+      "chicken",
+      "phantom"
+    ],
+    "keywords": "cat tame village creeper repellent gift phantom raw cod"
+  },
+  {
+    "slug": "fox",
+    "name": "Fox",
+    "type": "Passive (trust)",
+    "health": "10 (5 hearts)",
+    "where": "Taiga, snowy taiga and old growth taiga biomes, in groups of 2-4.",
+    "howToKill": "They are fast and flee - corner them or use a bow. Killing drops whatever they held.",
+    "drops": [
+      {
+        "item": "Held item",
+        "qty": "1",
+        "notes": "Foxes spawn holding items (emerald, egg, feather, leather...) and drop anything in their mouth"
+      }
+    ],
+    "spawnConditions": "Taiga-family biomes at night; white variant in snowy taiga.",
+    "behavior": "Nocturnal hunters: pounce on chickens, rabbits, cod and berries, picking up any dropped item in their mouth (they swap for food). They sleep curled up by day and flee players unless bred - a baby fox bred by the player trusts you and does not flee. Sweet berry bushes are their favorite snack.",
+    "tameOrBreed": "Cannot be fully tamed, but breed two with sweet berries or glow berries and the kit trusts you permanently. Leads work.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (19w07a)",
+    "related": [
+      "wolf",
+      "cat",
+      "chicken"
+    ],
+    "keywords": "fox taiga trust sweet berries pounce item mouth"
+  },
+  {
+    "slug": "cave-spider",
+    "name": "Cave Spider",
+    "type": "Hostile (poisonous)",
+    "health": "12 (6 hearts)",
+    "where": "Abandoned mineshafts, from cave spider spawners surrounded by cobwebs.",
+    "howToKill": "They fit through 1-block gaps and half-slabs - normal spider-proofing fails. Bring milk or honey for the poison, wall off the spawner, or flood the area. A Bane of Arthropods sword one-shots them.",
+    "drops": [
+      {
+        "item": "String",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III"
+      },
+      {
+        "item": "Spider eye",
+        "qty": "0-1",
+        "notes": "Up to 4 with Looting III; brewing ingredient"
+      }
+    ],
+    "spawnConditions": "Only from mineshaft spawners, at light level 0 (Java) - they never spawn naturally elsewhere.",
+    "behavior": "A smaller, venomous spider: its bite inflicts Poison for 7 seconds on Normal (15 on Hard), draining health to half a heart. Neutral in bright light, hostile in the dark. Climbs walls like spiders.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.8-pre1",
+    "related": [
+      "spider",
+      "skeleton",
+      "witch"
+    ],
+    "keywords": "cave spider mineshaft spawner poison venom milk"
+  },
+  {
+    "slug": "stray",
+    "name": "Stray",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Snowy biomes: snowy plains, ice spikes, frozen rivers and frozen oceans - replaces 80% of skeletons there (Java).",
+    "howToKill": "Exactly like a skeleton, but every arrow inflicts 30 seconds of Slowness - rushing them through the slowdown is painful, so use a shield, pillars or your own bow.",
+    "drops": [
+      {
+        "item": "Bone",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III"
+      },
+      {
+        "item": "Arrow",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III"
+      },
+      {
+        "item": "Arrow of Slowness",
+        "qty": "0-1",
+        "notes": "Only with Looting; tipped arrows for your own use"
+      }
+    ],
+    "spawnConditions": "Light level 0 in snowy Overworld biomes, exposed to the sky (they do not spawn under cover).",
+    "behavior": "A frozen skeleton variant shooting tipped arrows of Slowness. Burns in daylight and hides in shade and water like other skeletons; wolves attack strays on sight. In Java, a skeleton that freezes inside powder snow converts into a stray.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.10 (16w20a)",
+    "related": [
+      "skeleton",
+      "zombie",
+      "creeper"
+    ],
+    "keywords": "stray skeleton snowy slowness arrows ice frozen"
+  },
+  {
+    "slug": "wandering-trader",
+    "name": "Wandering Trader",
+    "type": "Passive (merchant)",
+    "health": "20 (10 hearts)",
+    "where": "Spawns near the player roughly every few in-game days (after about an hour of play), everywhere in the Overworld.",
+    "howToKill": "His llamas spit at you if you attack him. Drops nothing - trade instead.",
+    "drops": [
+      {
+        "item": "Potion/milk",
+        "qty": "Chance",
+        "notes": "Only if killed while drinking at dusk/dawn"
+      }
+    ],
+    "spawnConditions": "Random spawn attempt near players; surface Overworld, any biome. Despawns after 40-60 minutes.",
+    "behavior": "A traveling merchant with two trader llamas on leads, offering 5-6 random rare-item trades (saplings, corals, slimeballs, nautilus shells, packed ice, podzol...) for emeralds. Drinks invisibility at night and milk at dawn. Prices are steep, but he sells items otherwise locked to far biomes.",
+    "tameOrBreed": "Cannot be tamed; his llamas can be bred with hay bales once he despawns or dies.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (19w05a)",
+    "related": [
+      "villager",
+      "piglin",
+      "pig"
+    ],
+    "keywords": "wandering trader llamas emeralds trades rare items"
+  },
+  {
+    "slug": "mooshroom",
+    "name": "Mooshroom",
+    "type": "Passive",
+    "health": "10 (5 hearts)",
+    "where": "Mushroom fields (mushroom island) biomes only - the rare red cow.",
+    "howToKill": "Like a cow - but shearing it first gives 5 red mushrooms and turns it into a normal cow.",
+    "drops": [
+      {
+        "item": "Raw beef",
+        "qty": "1-3",
+        "notes": "Steak if killed by fire; more with Looting"
+      },
+      {
+        "item": "Leather",
+        "qty": "0-2",
+        "notes": "Up to 5 with Looting III"
+      },
+      {
+        "item": "Mushroom stew",
+        "qty": "Unlimited",
+        "notes": "Milk a red mooshroom with a bowl; suspicious stew with a brown mooshroom after feeding it a flower"
+      }
+    ],
+    "spawnConditions": "Only on mycelium in mushroom fields biomes, light level 9+. Hostile mobs cannot spawn there - the biome is a natural safe zone.",
+    "behavior": "A red fungus-covered cow. Shearing removes its mushrooms permanently. Lightning strikes convert red mooshrooms to brown (and back). Brown mooshrooms fed a flower give suspicious stew with that flower's effect.",
+    "tameOrBreed": "Breed with wheat. Brown mooshrooms only come from lightning or two brown parents.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.9-pre1",
+    "related": [
+      "cow",
+      "sheep",
+      "pig"
+    ],
+    "keywords": "mooshroom mushroom fields island stew mycelium brown lightning"
+  },
+  {
+    "slug": "sulfur-cube",
+    "name": "Sulfur Cube",
+    "type": "Passive",
+    "health": "Large: 8 (4 hearts)",
+    "where": "Only in sulfur caves, at any light level. Large cubes spawn naturally; small ones appear when a large one dies.",
+    "howToKill": "No reason to kill it: it is passive and harmless. If you do, hits work normally until it absorbs a block - then most attacks just knock it back instead of dealing damage. Use shears to extract the block first.",
+    "drops": [
+      {
+        "item": "Absorbed block",
+        "qty": "1 (whatever it ate)",
+        "notes": "Drops as an item on death or when sheared"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-2 (large cubes only)",
+        "notes": "Small cubes drop nothing"
+      }
+    ],
+    "spawnConditions": "Sulfur caves only, any light level. Large cubes spawn in groups of 2-4; a dying large cube splits into 2 small cubes that grow up over time.",
+    "behavior": "Jumps around aimlessly like a slime, but passive. Its trick: it can absorb a full-sized block (drop one next to it or feed it by hand). While loaded it stops moving and takes knockback instead of damage; the block type changes its bounciness and behavior. Shears extract the block; feeding it another block swaps them. Froglights even glow inside it. Large cubes can be picked up with a bucket and carried anywhere.",
+    "tameOrBreed": "Cannot be tamed or bred. Small cubes grow into large ones over time, like baby animals.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "26.2 (Chaos Cubed)",
+    "related": [
+      "slime",
+      "magma-cube",
+      "allay"
+    ],
+    "keywords": "sulfur cube mob sulfur caves bucket absorb block shears passive 26.2"
+  }
 ]
