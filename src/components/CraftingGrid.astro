@@ -1,0 +1,35 @@
+---
+interface Ingredient { name: string; qty: number }
+interface Props {
+  pattern: string[];
+  legend: Record<string, string>;
+  ingredients: Ingredient[];
+  resultName: string;
+  resultCount: number;
+  station: string;
+}
+const { pattern, legend, ingredients, resultName, resultCount, station } = Astro.props;
+const rows = pattern.map(r => r.padEnd(3, ' '));
+const cols = Math.max(...rows.map(r => r.length));
+const initials: Record<string, string> = {};
+for (const [letter, name] of Object.entries(legend)) {
+  const ing = ingredients.find(i => i.name === name);
+  initials[letter] = (ing ? ing.name : name).split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+}
+---
+<div class="craft-wrap">
+  <div class="craft-grid" style={`grid-template-columns: repeat(${cols}, 52px)`} role="img" aria-label={`Crafting pattern for ${resultName} in a ${station}`}>
+    {rows.flatMap(row => [...row].map(cell => (
+      cell === ' '
+        ? <div class="craft-cell"></div>
+        : <div class="craft-cell filled" title={legend[cell]}><span class="tile">{initials[cell]}</span></div>
+    )))}
+  </div>
+  <svg class="craft-arrow" width="34" height="24" viewBox="0 0 34 24" fill="none" aria-hidden="true"><path d="M0 12h28m0 0-8-8m8 8-8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="craft-result">
+    <div class="craft-cell filled"><span class="tile" style="width:42px;height:42px;font-size:1.05rem">{resultName.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}</span></div>
+    <div class="name">{resultName}</div>
+    <div class="qty">x{resultCount}</div>
+  </div>
+</div>
+<p class="craft-legend">{Object.entries(legend).map(([l, n]) => <span><b>{l}</b> = {n}. </span>)} Station: {station}.</p>

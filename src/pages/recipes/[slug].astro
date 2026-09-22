@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import CraftingGrid from '../../components/CraftingGrid.astro';
 import recipes from '../../data/recipes.json';
 export function getStaticPaths() {
   return recipes.map(r => ({ params: { slug: r.slug }, props: { r } }));
@@ -44,15 +45,7 @@ const patternRows = r.pattern || [];
     {patternRows.length > 0 && (
       <div>
         <h2>Recipe</h2>
-        <div style="display:inline-block;background:var(--bg-raised);border:1px solid var(--border);border-radius:12px;padding:14px">
-          {patternRows.map(row => (
-            <div style="display:flex;gap:6px;margin-bottom:6px">
-              {[...row].map(cell => (
-                <div style={`width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.8rem;${cell === ' ' ? 'background:#0a0c0e;border:1px dashed var(--border);color:var(--text-dim)' : 'background:var(--bg-hover);border:1px solid var(--border)'}`}>{cell === ' ' ? '' : cell}</div>
-              ))}
-            </div>
-          ))}
-        </div>
+        <CraftingGrid pattern={patternRows} legend={r.legend || {}} ingredients={r.ingredients} resultName={r.name} resultCount={r.resultCount} station={r.station} />
       </div>
     )}
     <h2>Ingredients and how to get them</h2>

@@ -8,6 +8,7 @@ interface Props {
   noindex?: boolean;
 }
 const { title, description, canonicalPath, jsonLd, ogType = 'website', noindex = false } = Astro.props;
+import AdSlot from '../components/AdSlot.astro';
 const site = 'https://minepedia.app';
 const canonical = canonicalPath ? `${site}${canonicalPath}` : Astro.url.href;
 const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes, Commands & Tools' : `${title} | Minepedia`;
@@ -49,8 +50,13 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
         <a href="/guides/">Guides</a>
         <a href="/recipes/">Recipes</a>
         <a href="/commands/">Commands</a>
-        <a href="/enchantments/">Enchantments</a>
+        <a href="/enchantments/">Enchants</a>
+        <a href="/potions/">Potions</a>
         <a href="/mobs/">Mobs</a>
+        <a href="/biomes/">Biomes</a>
+        <a href="/structures/">Structures</a>
+        <a href="/villagers/">Trades</a>
+        <a href="/farms/">Farms</a>
         <a href="/tools/">Tools</a>
       </nav>
     </div>
@@ -58,10 +64,37 @@ const fullTitle = title === 'Minepedia' ? 'Minepedia - Minecraft Guides, Recipes
   <main>
     <slot />
   </main>
+  <AdSlot />
   <footer class="site-footer">
     <div class="container">
-      <p><strong>Minepedia</strong> - Minecraft guides, recipes, commands, enchantments, mobs and tools.</p>
-      <p class="notice-fan">Minepedia is a fan-made resource. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. "Minecraft" is a trademark of Mojang Synergies AB.</p>
+      <div class="footer-grid">
+        <div>
+          <p style="margin:0 0 6px"><strong style="color:var(--text)">Minepedia</strong> - the Minecraft knowledge base. Guides, recipes, commands, enchantments, mobs and tools, accurate for Java and Bedrock.</p>
+          <p class="notice-fan">Minepedia is a fan-made resource. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. "Minecraft" is a trademark of Mojang Synergies AB.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/guides/">Guides</a></li>
+            <li><a href="/recipes/">Crafting recipes</a></li>
+            <li><a href="/biomes/">Biomes</a></li>
+            <li><a href="/mobs/">Mobs</a></li>
+            <li><a href="/seeds/">Seeds</a></li>
+            <li><a href="/versions/">Versions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Reference</h4>
+          <ul>
+            <li><a href="/commands/">Commands</a></li>
+            <li><a href="/enchantments/">Enchantments</a></li>
+            <li><a href="/potions/">Potions</a></li>
+            <li><a href="/villagers/">Villager trades</a></li>
+            <li><a href="/farms/">Farms</a></li>
+            <li><a href="/servers/">Servers</a></li>
+          </ul>
+        </div>
+      </div>
       <p class="footer-legal"><a href="/about/">About</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="/cookies/">Cookies</a></p>
     </div>
   </footer>
