@@ -2,7 +2,6 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import versions from '../../data/versions.json';
-import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Versions" description="Minecraft version history: what every update added from 1.20 Trails & Tales to 26.3 Wilderness Bound, plus how the new 26.x numbering works. Java and Bedrock." canonicalPath="/versions/">
   <div class="container">
@@ -17,7 +16,7 @@ import Icon from '../../components/Icon.astro';
     <div class="grid-cards">
       {versions.map(v => (
         <a class="card" href={`/versions/${v.slug}/`}>
-          <div class="icon"><Icon name="clock" /></div>
+          <img class="pixel-icon" src={`/item-icons/v-${v.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{v.name}</h3>
           <p>{v.date}</p>
         </a>

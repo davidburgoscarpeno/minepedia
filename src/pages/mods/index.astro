@@ -1,13 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
-import Icon from '../../components/Icon.astro';
 const pages = [
-  { href: '/mods/install-mods-java/', name: 'How to Install Mods (Java)', desc: 'Fabric vs NeoForge, Modrinth App, the mods folder, version matching' },
-  { href: '/mods/essential-mods/', name: 'Essential Performance & QoL Mods', desc: 'Sodium, Lithium, Iris, JEI and the rest of the standard stack' },
-  { href: '/mods/best-content-mods/', name: 'Best Content Mods', desc: 'Create, Botania, Twilight Forest, Farmer\'s Delight and more' },
-  { href: '/mods/shaders/', name: 'Shaders Guide', desc: 'Iris, Complementary, BSL - and Vibrant Visuals on Bedrock' },
-  { href: '/mods/bedrock-addons/', name: 'Bedrock Add-ons', desc: 'What add-ons can and cannot do, and how to stay safe installing them' }
+  { href: '/mods/install-mods-java/', icon: 'install-mods', name: 'How to Install Mods (Java)', desc: 'Fabric vs NeoForge, Modrinth App, the mods folder, version matching' },
+  { href: '/mods/essential-mods/', icon: 'perf-mods', name: 'Essential Performance & QoL Mods', desc: 'Sodium, Lithium, Iris, JEI and the rest of the standard stack' },
+  { href: '/mods/best-content-mods/', icon: 'content-mods', name: 'Best Content Mods', desc: 'Create, Botania, Twilight Forest, Farmer\'s Delight and more' },
+  { href: '/mods/shaders/', icon: 'shaders', name: 'Shaders Guide', desc: 'Iris, Complementary, BSL - and Vibrant Visuals on Bedrock' },
+  { href: '/mods/bedrock-addons/', icon: 'bedrock-addons', name: 'Bedrock Add-ons', desc: 'What add-ons can and cannot do, and how to stay safe installing them' }
 ];
 ---
 <Base title="Minecraft Mods" description="Minecraft mods guide: how to install mods with Fabric or NeoForge, the essential performance mods, best content mods, shaders and Bedrock add-ons. Free and safe." canonicalPath="/mods/">
@@ -21,8 +20,7 @@ const pages = [
 
     <div class="grid-cards">
       {pages.map(p => (
-        <a class="card" href={p.href}><h3>{p.name}</h3><p>{p.desc}</p></a>
-          <div class="icon"><Icon name="puzzle" /></div>
+        <a class="card" href={p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{p.name}</h3><p>{p.desc}</p></a>
       ))}
     </div>
 

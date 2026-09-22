@@ -2,7 +2,6 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import seeds from '../../data/seeds.json';
-import Icon from '../../components/Icon.astro';
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
   mainEntity: [
@@ -34,7 +33,7 @@ const jsonLd = {
     <div class="grid-cards">
       {seeds.map(s => (
         <a class="card" href={`/seeds/${s.slug}/`}>
-          <div class="icon"><Icon name="sprout" /></div>
+          <img class="pixel-icon" src={`/item-icons/${s.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{s.name}</h3>
           <p>Seed: {s.seed}</p>
         </a>

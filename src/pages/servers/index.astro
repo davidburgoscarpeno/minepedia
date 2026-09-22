@@ -1,11 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
-import Icon from '../../components/Icon.astro';
 const pages = [
-  { href: '/servers/make-a-server/', name: 'Make Your Own Server', desc: 'Official server jar, Paper, port forwarding and playit.gg for CGNAT' },
-  { href: '/servers/free-hosting/', name: 'Free Server Hosting', desc: 'Aternos and what "free" really means' },
-  { href: '/servers/plugins/', name: 'Essential Server Plugins', desc: 'LuckPerms, EssentialsX, GeyserMC and the standard plugin stack' }
+  { href: '/servers/make-a-server/', icon: 'make-server', name: 'Make Your Own Server', desc: 'Official server jar, Paper, port forwarding and playit.gg for CGNAT' },
+  { href: '/servers/free-hosting/', icon: 'free-hosting', name: 'Free Server Hosting', desc: 'Aternos and what "free" really means' },
+  { href: '/servers/plugins/', icon: 'server-plugins', name: 'Essential Server Plugins', desc: 'LuckPerms, EssentialsX, GeyserMC and the standard plugin stack' }
 ];
 ---
 <Base title="Minecraft Servers" description="Minecraft server guide: make your own server (Java or Bedrock), free hosting with Aternos, essential plugins like LuckPerms and GeyserMC, and Realms vs self-hosting." canonicalPath="/servers/">
@@ -25,8 +24,7 @@ const pages = [
     </table>
     <div class="grid-cards" style="margin-top:24px">
       {pages.map(p => (
-        <a class="card" href={p.href}><h3>{p.name}</h3><p>{p.desc}</p></a>
-          <div class="icon"><Icon name="server" /></div>
+        <a class="card" href={p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{p.name}</h3><p>{p.desc}</p></a>
       ))}
     </div>
   </div>

@@ -152,6 +152,51 @@ const icons = {
   'item': make(({ rect }) => { rect(2,2,12,12,WD); rect(3,3,10,10,'#3a2a18'); rect(5,5,6,6,'#5ad1d1'); rect(6,6,4,4,'#8ad1d1'); }),
   'scoreboard': make(({ rect, px }) => { rect(2,2,12,12,'#1a1a1a'); rect(3,3,10,2,'#3aa655'); rect(3,6,7,1,'#e8e8e8'); rect(3,8,7,1,'#e8e8e8'); rect(3,10,7,1,'#e8e8e8'); px(11,6,G); px(12,6,G); px(11,8,G); px(11,10,G); px(12,10,G); }),
   'function': make(({ rect, px }) => { rect(3,2,10,12,'#c87a18'); rect(4,3,8,10,'#e89a28'); rect(3,2,2,12,'#8a5a10'); px(6,6,'#3a3a3a'); px(9,6,'#3a3a3a'); px(6,8,'#3a3a3a'); px(9,8,'#3a3a3a'); px(7,10,'#3a3a3a'); px(8,10,'#3a3a3a'); }),
+
+  // guides
+  'how-to-find-diamonds': make(({ rect, px }) => { rect(5,3,6,3,DIA); rect(4,6,8,3,DIA); rect(5,9,6,2,'#3a9b9b'); rect(6,11,4,2,'#3a9b9b'); px(7,13,'#3a9b9b'); px(8,13,'#3a9b9b'); px(6,4,'#e8e8e8'); px(7,5,'#e8e8e8'); }),
+  'how-to-make-nether-portal': make(({ rect }) => { rect(3,1,10,14,'#1a1025'); rect(5,3,6,10,'#6a3a9b'); rect(6,4,4,8,'#8a5ab8'); rect(3,1,10,1,'#2a1a3a'); rect(3,13,10,1,'#2a1a3a'); }),
+  'how-to-find-ancient-city': make(({ rect, px }) => { rect(2,2,12,12,'#1a2530'); px(4,4,'#3a9b9b'); px(8,5,'#5ad1d1'); px(11,3,'#3a9b9b'); px(5,8,'#5ad1d1'); px(9,9,'#3a9b9b'); px(3,11,'#3a9b9b'); px(7,12,'#5ad1d1'); px(12,11,'#3a9b9b'); }),
+  'how-to-tame-horse': make(({ rect, px }) => { rect(4,4,8,9,'#8a5a2b'); rect(4,2,3,4,'#8a5a2b'); px(5,2,'#6b4423'); rect(4,4,8,2,'#6b4423'); px(6,7,'#1a1a1a'); px(10,7,'#1a1a1a'); rect(6,11,5,2,'#5a3a1a'); px(12,8,'#6b4423'); }),
+  'how-to-breed-villagers': make(({ rect, px }) => { rect(2,4,5,4,'#3ad14a'); rect(9,4,5,4,'#3ad14a'); px(4,3,'#6ae87a'); px(11,3,'#6ae87a'); rect(6,9,4,3,RED); px(7,12,RED); px(8,12,RED); }),
+  'how-to-get-elytra': make(({ line, px }) => { line(7,4,2,12,'#c8c8c8'); line(9,4,14,12,'#c8c8c8'); line(7,4,4,10,'#e8e8e8'); line(9,4,12,10,'#e8e8e8'); px(8,3,'#8a8a8a'); px(7,3,'#8a8a8a'); px(8,4,'#8a8a8a'); px(5,12,'#8a8a8a'); px(11,12,'#8a8a8a'); }),
+  'how-to-enchant': make(({ rect, px }) => { rect(3,2,10,12,'#5a3a8a'); rect(4,3,8,10,'#7a5aaa'); rect(3,2,2,12,'#3a2a5a'); px(7,6,'#e8e8e8'); px(8,7,'#e8e8e8'); px(6,7,'#e8e8e8'); px(7,8,'#e8e8e8'); px(11,4,'#c8a8f0'); px(12,5,'#e8e8e8'); }),
+  'how-to-make-iron-golem': make(({ rect, px }) => { rect(3,4,10,9,ID); rect(3,4,10,2,'#9a9a9a'); px(5,7,'#3a3a3a'); px(10,7,'#3a3a3a'); rect(5,10,6,1,'#3a3a3a'); px(2,13,'#8a8a8a'); px(13,13,'#8a8a8a'); }),
+  'how-to-beat-wither': make(({ rect, px }) => { rect(2,3,4,5,'#2a2a2a'); rect(6,1,4,5,'#1a1a1a'); rect(10,3,4,5,'#2a2a2a'); px(3,5,'#e8e8e8'); px(7,3,'#e8e8e8'); px(11,5,'#e8e8e8'); rect(4,9,8,4,'#3a3a3a'); px(6,13,'#5a5a5a'); px(9,13,'#5a5a5a'); }),
+  'how-to-start-raid': make(({ rect, px }) => { rect(7,2,2,12,'#8a8a8a'); rect(9,2,5,6,'#4a4a4a'); px(10,4,WH); px(12,4,WH); px(11,6,WH); rect(2,2,5,6,'#4a4a4a'); px(3,4,WH); px(5,6,WH); }),
+  'how-to-find-end-city': make(({ rect, px }) => { rect(2,8,12,6,'#e8e0b8'); rect(5,3,6,6,'#b88ac8'); px(6,4,'#8a5a9b'); px(9,5,'#8a5a9b'); px(12,10,'#c8c098'); px(4,11,'#c8c098'); }),
+  'how-to-make-beacon': make(({ rect, line }) => { rect(2,11,12,3,'#3a3a3a'); rect(4,8,8,3,ID); rect(6,5,4,3,'#5ad1d1'); rect(7,0,2,5,'#a8f0f0'); line(7,5,7,10,'#e8e8e8'); }),
+  'how-to-use-conduit': make(({ rect, px }) => { rect(3,3,10,10,'#5a9b8a'); rect(5,5,6,6,'#1a2530'); rect(6,6,4,4,'#3a7bd5'); px(7,7,'#6ab8e8'); }),
+  'how-to-build-trading-hall': make(({ rect, px }) => { rect(5,3,6,4,'#3ad14a'); rect(4,7,8,3,'#3ad14a'); rect(5,10,6,2,'#28a838'); rect(6,12,4,2,'#28a838'); px(6,4,'#a8f0b0'); px(7,5,'#a8f0b0'); }),
+  'how-to-upgrade-netherite': make(({ rect, px, line }) => { rect(3,8,9,3,'#4a4048'); rect(3,8,9,1,'#6a6068'); line(11,3,14,6,'#5ad1d1'); px(12,2,'#5ad1d1'); px(13,3,'#5ad1d1'); px(4,12,'#3a3038'); px(8,12,'#3a3038'); }),
+  'how-to-do-archaeology': make(({ rect, line, px }) => { rect(2,10,12,4,'#c8b890'); px(4,11,'#b09a68'); px(9,12,'#b09a68'); line(10,2,6,8,WD); line(6,8,4,10,'#c8a848'); line(10,2,12,4,'#8a5a2b'); }),
+  // seeds
+  'pack-png': make(({ rect }) => { rect(2,2,12,12,'#6a4a2a'); rect(2,2,12,4,GR); rect(2,5,12,1,'#3a7a2a'); rect(5,8,2,2,'#5a3a1a'); rect(9,10,2,2,'#5a3a1a'); }),
+  'title-panorama-original': make(({ rect, px }) => { rect(0,11,16,5,'#6a4a2a'); rect(0,9,16,2,GR); px(3,7,GR); px(4,8,GR); px(11,6,GR); px(12,7,GR); px(13,8,GR); rect(0,0,16,5,'#7ab8e8'); }),
+  'title-panorama-118': make(({ rect, px }) => { rect(0,0,16,6,'#7ab8e8'); rect(2,5,5,9,'#8a8a8a'); rect(9,3,5,11,'#9a9a9a'); px(10,4,'#e8e8e8'); px(11,3,'#e8e8e8'); rect(0,12,16,4,GR); }),
+  // versions
+  'v-1-20': make(({ rect, px }) => { rect(2,3,12,11,'#e8a8c8'); rect(2,3,12,2,'#f0c0d8'); px(4,7,'#d880a8'); px(9,10,'#d880a8'); px(12,8,'#d880a8'); }),
+  'v-1-21': make(({ rect }) => { rect(2,3,12,11,'#b87a50'); rect(2,3,12,2,'#d89a68'); rect(2,8,12,1,'#8a5a3a'); rect(2,12,12,1,'#8a5a3a'); }),
+  'v-1-21-drops': make(({ rect, px }) => { rect(3,4,10,9,'#8a6a4a'); rect(4,2,8,3,'#a8825a'); px(6,6,'#6a4a2a'); px(9,8,'#6a4a2a'); px(5,10,'#6a4a2a'); }),
+  'v-26-1': make(({ rect, px }) => { rect(2,3,12,11,'#6abe30'); rect(2,3,12,2,'#8ad650'); px(4,7,'#4a9b20'); px(9,10,'#4a9b20'); px(12,8,'#4a9b20'); }),
+  'v-26-2': make(({ rect, px }) => { rect(2,3,12,11,'#e8a018'); rect(2,3,12,2,'#f0c048'); px(4,7,'#c87808'); px(9,10,'#c87808'); px(12,8,'#c87808'); }),
+  'v-26-3': make(({ rect, px }) => { rect(2,3,12,11,'#3a9bd5'); rect(2,3,12,2,'#6abbe8'); px(4,7,'#2a7ab5'); px(9,10,'#2a7ab5'); px(12,8,'#2a7ab5'); }),
+  // tools
+  'skin-gallery': make(({ rect, px }) => { rect(5,3,6,3,'#e8b890'); rect(3,6,10,7,'#3a7bd5'); rect(3,6,10,1,'#5a9be5'); rect(5,13,2,2,'#2a2a2a'); rect(9,13,2,2,'#2a2a2a'); px(6,4,'#1a1a1a'); px(9,4,'#1a1a1a'); }),
+  'skin-maker': make(({ line, rect, px }) => { line(3,13,10,6,'#c8a848'); line(10,6,13,3,'#e84a6a'); rect(11,1,4,3,'#f06a8a'); line(3,13,2,14,'#8a5a2b'); px(5,12,'#3a7bd5'); }),
+  'nether-calculator': make(({ rect, line, px }) => { rect(2,2,6,12,'#1a1025'); rect(3,3,4,10,'#6a3a9b'); line(10,8,14,8,'#e8e8e8'); px(13,6,'#e8e8e8'); px(13,10,'#e8e8e8'); px(14,7,'#e8e8e8'); px(14,9,'#e8e8e8'); }),
+  'xp-calc': make(({ rect, px }) => { rect(5,5,6,6,'#6abe30'); rect(6,6,4,4,'#8ad650'); px(7,7,'#d8ffb0'); px(3,3,'#8ad650'); px(12,4,'#6abe30'); px(4,12,'#6abe30'); px(11,11,'#8ad650'); }),
+  'ore-finder': make(({ rect, px }) => { rect(2,2,12,12,'#6a6a6a'); px(4,4,DIA); px(9,5,DIA); px(5,9,DIA); px(11,10,DIA); px(7,12,DIA); px(12,3,'#8a8a8a'); px(3,12,'#8a8a8a'); }),
+  // mods
+  'install-mods': make(({ rect, line, px }) => { rect(2,8,12,6,WD); rect(2,8,12,1,WL); line(8,1,8,7,'#6abe30'); px(6,5,'#6abe30'); px(10,5,'#6abe30'); px(7,6,'#6abe30'); px(9,6,'#6abe30'); rect(5,10,6,2,'#3a2a18'); }),
+  'perf-mods': make(({ line, px }) => { line(9,1,5,7,G); line(5,7,8,7,G); line(8,7,4,14,G); px(10,2,'#fff3b0'); px(6,8,'#fff3b0'); }),
+  'content-mods': make(({ rect, px, line }) => { rect(2,8,8,6,'#8a5a2b'); rect(3,9,6,4,'#a06c3a'); line(12,2,12,6,'#c8c8c8'); line(10,4,14,4,'#c8c8c8'); px(12,8,'#6abe30'); px(11,9,'#6abe30'); px(13,9,'#6abe30'); }),
+  'shaders': make(({ rect, px }) => { rect(0,9,16,7,'#3a7a2a'); rect(0,0,16,9,'#e8a058'); rect(0,0,16,4,'#f0c888'); px(4,3,'#fff3b0'); px(5,4,'#fff3b0'); rect(2,6,5,3,'#6a8a9a'); rect(9,5,6,4,'#5a7a8a'); }),
+  'bedrock-addons': make(({ rect, px, line }) => { rect(2,2,8,8,'#5a5a5a'); rect(3,3,6,6,'#7a7a7a'); line(12,9,12,14,'#6abe30'); line(10,12,14,12,'#6abe30'); px(4,4,'#9a9a9a'); }),
+  // servers
+  'make-server': make(({ rect, px }) => { rect(2,2,12,5,ID); rect(2,9,12,5,ID); px(4,4,'#6abe30'); px(4,11,'#e84a3a'); rect(6,4,6,1,'#3a3a3a'); rect(6,11,6,1,'#3a3a3a'); }),
+  'free-hosting': make(({ rect, px, line }) => { rect(4,2,8,3,'#e8e8e8'); rect(3,4,11,3,'#f0f0f0'); rect(3,8,10,4,ID); px(5,10,'#6abe30'); rect(7,10,4,1,'#3a3a3a'); line(6,13,5,15,'#8a8a8a'); line(10,13,11,15,'#8a8a8a'); }),
+  'server-plugins': make(({ rect, px }) => { rect(3,2,7,7,'#3aa655'); px(9,4,'#3aa655'); px(10,5,'#3aa655'); rect(6,9,7,7,'#e8a018'); px(4,11,'#e8a018'); px(3,12,'#e8a018'); }),
 };
 
 for (const [slug, g] of Object.entries(icons)) writeFileSync(`public/item-icons/${slug}.svg`, svg(g));

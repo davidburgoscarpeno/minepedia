@@ -3,7 +3,6 @@ import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import guides from '../../data/guides.json';
 import GameShot from '../../components/GameShot.astro';
-import Icon from '../../components/Icon.astro';
 ---
 <Base title="Minecraft Guides" description="Evergreen Minecraft guides: how to find diamonds, make a nether portal, tame horses, breed villagers, get elytra, enchant and more. Java and Bedrock." canonicalPath="/guides/">
   <div class="container">
@@ -15,7 +14,7 @@ import Icon from '../../components/Icon.astro';
     <div class="grid-cards" style="margin-top:24px">
       {guides.map(g => (
         <a class="card" href={`/guides/${g.slug}/`}>
-          <div class="icon"><Icon name="book" /></div>
+          <img class="pixel-icon" src={`/item-icons/${g.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{g.name}</h3>
           <p>{g.quickAnswer.split('.')[0]}.</p>
         </a>
