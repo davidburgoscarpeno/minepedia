@@ -6,7 +6,7 @@ export function getStaticPaths() {
   return mobs.map(m => ({ params: { slug: m.slug }, props: { m } }));
 }
 const { m } = Astro.props;
-const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither']);
+const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither','shulker','drowned','piglin','pillager','hoglin','guardian','phantom','wither-skeleton','evoker','vindicator','ravager','vex','elder-guardian','magma-cube','allay','cat','fox','cave-spider','stray','wandering-trader','mooshroom']);
 const SHOT_BY_SLUG = { 'piglin': 'mobs-piglins-bartering' };
 const shotId = SHOT_BY_SLUG[m.slug];
 const jsonLd = [
