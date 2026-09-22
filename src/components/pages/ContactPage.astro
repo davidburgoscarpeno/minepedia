@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Contactar con Minepedia',
+  description: 'Contacta con el equipo de Minepedia: correcciones, sugerencias y preguntas sobre el sitio.',
+  h1: 'Contacto', crumb: 'Contacto', home: 'Inicio',
+  p1: 'Las correcciones, sugerencias y preguntas son bienvenidas. El canal más rápido es el email:',
+  formH2: 'Envía un mensaje',
+  nameL: 'Tu nombre',
+  emailL: 'Tu email (para poder responderte)',
+  msgL: 'Mensaje',
+  send: 'Enviar',
+  note: 'El formulario abre tu propia aplicación de correo con el mensaje ya escrito: nada se guarda en este sitio. También puedes abrir un issue en <a href="https://github.com/davidburgoscarpeno/minepedia/issues">GitHub</a>.',
+  canonical: '/es/contact/', alt: '/contact/'
+} : {
+  title: 'Contact Minepedia',
+  description: 'Contact the Minepedia team: corrections, suggestions and questions about the site.',
+  h1: 'Contact', crumb: 'Contact', home: 'Home',
+  p1: 'Corrections, suggestions and questions are welcome. The fastest channel is email:',
+  formH2: 'Send a message',
+  nameL: 'Your name',
+  emailL: 'Your email (so we can reply)',
+  msgL: 'Message',
+  send: 'Send',
+  note: 'The form opens your own mail app with the message pre-filled - nothing is stored on this site. You can also open an issue on <a href="https://github.com/davidburgoscarpeno/minepedia/issues">GitHub</a>.',
+  canonical: '/contact/', alt: '/es/contact/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p>{S.p1}</p>
+    <p><a href="mailto:contact@minepedia.app"><strong>contact@minepedia.app</strong></a></p>
+    <h2>{S.formH2}</h2>
+    <form method="post" action="mailto:contact@minepedia.app" enctype="text/plain" style="max-width:520px">
+      <label for="cname" style="display:block;margin:12px 0 4px">{S.nameL}</label>
+      <input id="cname" name="name" type="text" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)" />
+      <label for="cemail" style="display:block;margin:12px 0 4px">{S.emailL}</label>
+      <input id="cemail" name="email" type="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)" />
+      <label for="cmsg" style="display:block;margin:12px 0 4px">{S.msgL}</label>
+      <textarea id="cmsg" name="message" rows="6" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)"></textarea>
+      <button class="btn" type="submit" style="margin-top:14px">{S.send}</button>
+    </form>
+    <p style="color:var(--text-dim);font-size:.9rem;margin-top:10px" set:html={S.note}></p>
+  </div>
+</Base>

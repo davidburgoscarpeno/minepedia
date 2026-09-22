@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+
+const S = isES ? {
+  title: 'Sobre Minepedia',
+  description: 'Qué es Minepedia: una base de conocimiento de Minecraft independiente y hecha por fans, con guías, recetas, comandos, mobs y herramientas para Java y Bedrock.',
+  h1: 'Sobre Minepedia', crumb: 'Sobre nosotros', home: 'Inicio',
+  p1: 'Minepedia es una base de conocimiento de Minecraft independiente y hecha por fans. Reúne información práctica y verificada - guías, recetas de crafteo, comandos, encantamientos, mobs, pociones, biomas, estructuras, semillas y herramientas - en un único sitio rápido y con buscador, siempre señalando las diferencias entre Java y Bedrock Edition.',
+  howH2: 'Cómo se crea el contenido',
+  howP: 'Cada página se contrasta con la wiki oficial de Minecraft (minecraft.wiki) y con la versión actual del juego, y el sitio se revisa periódicamente en busca de enlaces rotos y datos desactualizados. Cuando las mecánicas difieren entre ediciones, lo indicamos en la página en lugar de adivinar.',
+  indieH2: 'Independencia',
+  indieP: 'Minepedia es un recurso de fans. No está afiliado, respaldado ni patrocinado por Mojang Studios, Mojang Synergies AB o Microsoft. "Minecraft" es una marca registrada de Mojang Synergies AB. Toda la ilustración de este sitio es original y está hecha para Minepedia: no usamos assets, capturas ni logos del juego de Mojang.',
+  contactH2: 'Contacto',
+  contactP: '¿Has visto un error o tienes una sugerencia? Usa la <a href="/es/contact/">página de contacto</a>.',
+  canonical: '/es/about/', alt: '/about/'
+} : {
+  title: 'About Minepedia',
+  description: 'What Minepedia is: an independent, fan-made Minecraft knowledge base with guides, recipes, commands, mobs and tools for Java and Bedrock.',
+  h1: 'About Minepedia', crumb: 'About', home: 'Home',
+  p1: 'Minepedia is an independent, fan-made Minecraft knowledge base. It collects practical, verified information - guides, crafting recipes, commands, enchantments, mobs, potions, biomes, structures, seeds and tools - in one fast, searchable site, with the differences between Java and Bedrock Edition always called out.',
+  howH2: 'How content is made',
+  howP: 'Every page is researched against the official Minecraft Wiki (minecraft.wiki) and the game\'s current version, and the site is checked regularly for broken links and outdated facts. When mechanics differ between editions, we say so on the page instead of guessing.',
+  indieH2: 'Independence',
+  indieP: 'Minepedia is a fan resource. It is not affiliated with, endorsed by, or sponsored by Mojang Studios, Mojang Synergies AB or Microsoft. "Minecraft" is a trademark of Mojang Synergies AB. All artwork on this site is original and made for Minepedia - we do not use Mojang\'s game assets, screenshots or logos.',
+  contactH2: 'Contact',
+  contactP: 'Spot an error or have a suggestion? Use the <a href="/contact/">contact page</a>.',
+  canonical: '/about/', alt: '/es/about/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p>{S.p1}</p>
+    <h2>{S.howH2}</h2>
+    <p>{S.howP}</p>
+    <h2>{S.indieH2}</h2>
+    <p>{S.indieP}</p>
+    <h2>{S.contactH2}</h2>
+    <p set:html={S.contactP}></p>
+  </div>
+</Base>

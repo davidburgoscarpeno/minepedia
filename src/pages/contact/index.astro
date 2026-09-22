@@ -1,22 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';
+import ContactPage from '../../components/pages/ContactPage.astro';
 ---
-<Base title="Contact Minepedia" description="Contact the Minepedia team: corrections, suggestions and questions about the site." canonicalPath="/contact/">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / Contact</nav>
-    <h1>Contact</h1>
-    <p>Corrections, suggestions and questions are welcome. The fastest channel is email:</p>
-    <p><a href="mailto:contact@minepedia.app"><strong>contact@minepedia.app</strong></a></p>
-    <h2>Send a message</h2>
-    <form method="post" action="mailto:contact@minepedia.app" enctype="text/plain" style="max-width:520px">
-      <label for="cname" style="display:block;margin:12px 0 4px">Your name</label>
-      <input id="cname" name="name" type="text" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)" />
-      <label for="cemail" style="display:block;margin:12px 0 4px">Your email (so we can reply)</label>
-      <input id="cemail" name="email" type="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)" />
-      <label for="cmsg" style="display:block;margin:12px 0 4px">Message</label>
-      <textarea id="cmsg" name="message" rows="6" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)"></textarea>
-      <button class="btn" type="submit" style="margin-top:14px">Send</button>
-    </form>
-    <p style="color:var(--text-dim);font-size:.9rem;margin-top:10px">The form opens your own mail app with the message pre-filled - nothing is stored on this site. You can also open an issue on <a href="https://github.com/davidburgoscarpeno/minepedia/issues">GitHub</a>.</p>
-  </div>
-</Base>
+<ContactPage lang="en" />
