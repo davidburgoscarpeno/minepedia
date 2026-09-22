@@ -1,10 +1,21 @@
 ---
 import Base from '../../layouts/Base.astro';
+import PotionIcon from '../../components/PotionIcon.astro';
+import BrewDiagram from '../../components/BrewDiagram.astro';
 import potions from '../../data/potions.json';
 export function getStaticPaths() {
   return potions.map(p => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
+const COLORS: Record<string, string> = {
+  'night-vision': '#3a4fa0', 'invisibility': '#c8cdd4', 'swiftness': '#4fd8e0', 'slowness': '#7a8a99',
+  'leaping': '#7ed957', 'fire-resistance': '#f08c2e', 'water-breathing': '#2e7ff0', 'healing': '#f05a78',
+  'harming': '#a03434', 'poison': '#6aa84f', 'regeneration': '#f07ab0', 'strength': '#d0344c',
+  'weakness': '#8a7a6a', 'turtle-master': '#3aa08a', 'slow-falling': '#e8e8f0', 'wind-charging': '#b8e0e8',
+  'oozing': '#9acd5a', 'weaving': '#dcdce0', 'infestation': '#9a9a9a'
+};
+const ingredient = p.recipe.split(' + ').slice(1).join(' + ').replace(/ \(.*?\)/, '');
+const base = p.recipe.split(' + ')[0];
 const jsonLd = [
   {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -26,11 +37,12 @@ const jsonLd = [
 <Base title={p.name} description={`${p.name} in Minecraft: ${p.effect}. Recipe, duration, variants and best uses.`} canonicalPath={`/potions/${p.slug}/`} jsonLd={jsonLd} ogType="article">
   <div class="container">
     <nav class="crumbs"><a href="/">Home</a> / <a href="/potions/">Potions</a> / {p.name}</nav>
-    <h1>{p.name}</h1>
+    <h1 style="display:flex;align-items:center;gap:12px"><PotionIcon color={COLORS[p.slug] || '#4caf50'} size={38} />{p.name}</h1>
     <div class="quick-answer"><strong>Quick answer:</strong> {p.recipe}. {p.effect}.</div>
     <h2>Effect</h2>
     <p>{p.effect}.</p>
     <h2>Recipe</h2>
+    <BrewDiagram ingredient={ingredient} resultName={p.name} color={COLORS[p.slug] || '#4caf50'} base={base} />
     <table class="data">
       <tr><th>Step</th><th>Ingredients</th></tr>
       <tr><td>Base</td><td>{p.base}</td></tr>

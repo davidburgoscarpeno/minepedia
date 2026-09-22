@@ -20,8 +20,10 @@ html { color-scheme: dark; }
 body {
   margin: 0;
   background:
-    radial-gradient(1200px 500px at 50% -200px, rgba(76,175,80,.08), transparent 70%),
-    var(--bg);
+    radial-gradient(1200px 500px at 50% -200px, rgba(76,175,80,.1), transparent 70%),
+    linear-gradient(rgba(11,14,17,.82), rgba(11,14,17,.82)),
+    url('/bg-pattern.svg');
+  background-size: auto, auto, 128px 128px;
   background-attachment: fixed;
   color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -201,3 +203,41 @@ table.data tr:hover td { background: var(--bg-hover); }
 .site-footer a:hover { color: var(--text); }
 .notice-fan { font-size: .78rem; opacity: .8; margin-top: 14px; max-width: 460px; }
 .footer-legal { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--border-soft); font-size: .82rem; }
+
+/* Rich entity cards */
+.entity-card { display: flex; gap: 14px; align-items: flex-start; }
+.entity-card .entity-icon { flex-shrink: 0; margin-top: 2px; }
+.entity-card h3 { margin: 0 0 3px; }
+.entity-card .meta { margin-top: 7px; font-size: .8rem; color: var(--text-faint); }
+.entity-card .meta b { color: var(--text-dim); font-weight: 600; }
+.mob-tile {
+  width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: .92rem; flex-shrink: 0;
+  background: linear-gradient(160deg, var(--tile-a), var(--tile-b)); color: rgba(0,0,0,.72);
+  box-shadow: 0 2px 8px rgba(0,0,0,.35);
+}
+.hearts { display: flex; gap: 1.5px; margin-top: 6px; align-items: center; }
+.hearts svg { width: 13px; height: 13px; fill: #e05252; }
+.hearts .more { font-size: .72rem; color: var(--text-faint); margin-left: 4px; font-weight: 700; }
+.pips { display: inline-flex; gap: 4px; margin-left: 8px; vertical-align: middle; }
+.pips i { width: 7px; height: 7px; border-radius: 50%; background: var(--bg-hover); border: 1px solid var(--border); }
+.pips i.on { background: var(--gold); border-color: var(--gold); }
+.type-chip { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: 2px 8px; border-radius: 999px; margin-left: 6px; }
+.type-hostile { background: rgba(224,82,82,.12); color: #ef7a7a; }
+.type-passive { background: rgba(76,175,80,.12); color: var(--accent-bright); }
+.type-neutral { background: rgba(232,185,62,.12); color: var(--gold); }
+.type-boss { background: rgba(168,98,224,.14); color: #c08ef0; }
+
+/* Brewing flow */
+.brew-flow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 16px 0 10px; }
+.brew-node {
+  display: flex; align-items: center; gap: 9px; padding: 10px 14px;
+  background: var(--bg-panel); border: 1px solid var(--border); border-radius: 12px; font-size: .9rem; font-weight: 600;
+}
+.brew-plus { font-size: 1.2rem; color: var(--text-faint); font-weight: 700; }
+.brew-ing { color: var(--gold); }
+.brew-mods { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 18px; }
+.brew-mod {
+  font-size: .78rem; color: var(--text-dim); background: var(--bg-raised);
+  border: 1px dashed var(--border); border-radius: 999px; padding: 4px 11px;
+}

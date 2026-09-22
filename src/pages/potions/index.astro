@@ -1,6 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
+import PotionIcon from '../../components/PotionIcon.astro';
+import BrewDiagram from '../../components/BrewDiagram.astro';
+const COLORS: Record<string, string> = {
+  'night-vision': '#3a4fa0', 'invisibility': '#c8cdd4', 'swiftness': '#4fd8e0', 'slowness': '#7a8a99',
+  'leaping': '#7ed957', 'fire-resistance': '#f08c2e', 'water-breathing': '#2e7ff0', 'healing': '#f05a78',
+  'harming': '#a03434', 'poison': '#6aa84f', 'regeneration': '#f07ab0', 'strength': '#d0344c',
+  'weakness': '#8a7a6a', 'turtle-master': '#3aa08a', 'slow-falling': '#e8e8f0', 'wind-charging': '#b8e0e8',
+  'oozing': '#9acd5a', 'weaving': '#dcdce0', 'infestation': '#9a9a9a'
+};
+const ingOf = (r: string) => r.split(' + ').slice(1).join(' + ').replace(/ \(.*?\)/, '');
 import potions from '../../data/potions.json';
 ---
 <Base title="Minecraft Potions: Every Brewing Recipe" description="Every Minecraft potion recipe: ingredients, effects, durations and the best uses. Brewing basics, splash and lingering variants, Java and Bedrock." canonicalPath="/potions/">
@@ -17,11 +27,17 @@ import potions from '../../data/potions.json';
       <li><strong>Modifiers:</strong> redstone = longer, glowstone = stronger (pick one), gunpowder = throwable splash, dragon's breath = lingering cloud (for tipped arrows).</li>
       <li><strong>Fermented spider eye</strong> corrupts effects: Swiftness becomes Slowness, Healing becomes Harming, Night Vision becomes Invisibility.</li>
     </ul>
+    <h2 style="margin-top:28px">How brewing works</h2>
+    <BrewDiagram ingredient="effect ingredient" resultName="Effect Potion" color="#4caf50" />
     <div class="grid-cards" style="margin-top:24px">
       {potions.map(p => (
-        <a class="card" href={`/potions/${p.slug}/`}>
-          <h3>{p.name.replace('Potion of ','')}</h3>
-          <p>{p.effect.split(' - ')[1] || p.effect}</p>
+        <a class="card entity-card" href={`/potions/${p.slug}/`}>
+          <span class="entity-icon"><PotionIcon color={COLORS[p.slug] || '#4caf50'} /></span>
+          <div>
+            <h3>{p.name.replace('Potion of ','')}</h3>
+            <p>{p.effect.split(' - ')[1] || p.effect}</p>
+            <p class="meta"><b>Brew:</b> {ingOf(p.recipe)} &middot; <b>{p.duration.split(' (')[0]}</b></p>
+          </div>
         </a>
       ))}
     </div>

@@ -1,6 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
+const TILE: Record<string, [string, string]> = {
+  hostile: ['#ef7a7a', '#c04848'], passive: ['#6fdd73', '#3d8b40'], neutral: ['#e8b93e', '#b8891f'], boss: ['#c08ef0', '#8b52c4']
+};
+const tileOf = (t: string) => t.startsWith('Hostile') ? TILE.hostile : t.startsWith('Boss') ? TILE.boss : t.startsWith('Neutral') ? TILE.neutral : TILE.passive;
+const chipOf = (t: string) => t.startsWith('Hostile') ? 'type-hostile' : t.startsWith('Boss') ? 'type-boss' : t.startsWith('Neutral') ? 'type-neutral' : 'type-passive';
+const heartsOf = (h: string) => { const m = h.match(/\((\d+) hearts?\)/); return m ? parseInt(m[1]) : 0; };
+const initials = (n: string) => n.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+const HEART = 'M12 21c-4.8-3.6-8-6.6-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 11c0 3.4-3.2 6.4-8 10z';
 import mobs from '../../data/mobs.json';
 const groups = ['Hostile', 'Neutral (tameable)', 'Neutral (hostile in darkness)', 'Neutral', 'Passive', 'Boss'];
 const byType = (t: string) => mobs.filter(m => m.type === t || m.type.startsWith(t));
@@ -16,12 +24,24 @@ const present = [...new Set(mobs.map(m => m.type))];
       <section class="section">
         <h2>{t}</h2>
         <div class="grid-cards">
-          {mobs.filter(m => m.type === t).map(m => (
-            <a class="card" href={`/mobs/${m.slug}/`}>
-              <h3>{m.name}</h3>
-              <p>Drops: {m.drops.map(d => d.item.split('(')[0].trim()).filter((v,i,a) => a.indexOf(v)===i).join(', ') || 'None'}</p>
+          {mobs.filter(m => m.type === t).map(m => {
+            const [a, b] = tileOf(m.type);
+            const hearts = heartsOf(m.health);
+            return (
+            <a class="card entity-card" href={`/mobs/${m.slug}/`}>
+              <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(m.name)}</span>
+              <div>
+                <h3>{m.name}<span class={`type-chip ${chipOf(m.type)}`}>{m.type.split(' (')[0]}</span></h3>
+                {hearts > 0 && (
+                  <span class="hearts">
+                    {Array.from({ length: Math.min(hearts, 10) }).map(() => <svg viewBox="0 0 24 24"><path d={HEART}/></svg>)}
+                    {hearts > 10 && <span class="more">+{hearts - 10}</span>}
+                  </span>
+                )}
+                <p class="meta"><b>Drops:</b> {m.drops.map(d => d.item.split('(')[0].trim()).filter((v,i,a) => a.indexOf(v)===i).join(', ') || 'None'}</p>
+              </div>
             </a>
-          ))}
+          )})}
         </div>
       </section>
     ))}
