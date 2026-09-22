@@ -38,7 +38,14 @@
     "parent": "Stone Age",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Mine cobblestone with your wooden pickaxe (see the Stone Age guide).",
+      "Craft a stone pickaxe at the crafting table: 3 cobblestone across the top, 2 sticks down the middle.",
+      "Have the stone pickaxe in your inventory. That's the whole advancement."
+    ],
+    "tips": "Blackstone and cobbled deepslate work in the recipe too, not just cobblestone. Stone tools are the gateway to iron: you need this pickaxe to mine the ore for Acquire Hardware."
   },
   {
     "slug": "acquire-hardware",
@@ -1111,7 +1118,15 @@
     "parent": "Adventure",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft a brush: a feather, a copper ingot and a stick.",
+      "Find suspicious sand or suspicious gravel: desert temples, desert wells, warm and cold ocean ruins, and trail ruins all hide it.",
+      "Hold use with the brush on the suspicious block until the item inside pops out.",
+      "Get any pottery sherd into your inventory. Brushing and having the sherd can happen separately, so looting one from a friend counts."
+    ],
+    "tips": "Suspicious blocks break instantly if touched by a tool or falling, so clear the area and brush carefully. Every sherd pattern comes from a specific structure, so collect them all for decorated pots (see Careful Restoration)."
   },
   {
     "slug": "sneak-100",
@@ -1122,7 +1137,15 @@
     "parent": "Adventure",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Find a deep dark biome or an ancient city, deep under mountains.",
+      "Spot a sculk sensor: the block with the waving tendrils.",
+      "Hold sneak (crouch) and walk within 8 blocks of the sensor while moving, or within 16 blocks of a warden.",
+      "Sneaking that close without triggering detection completes the advancement."
+    ],
+    "tips": "Walking normally near a sensor shrieks and summons trouble; sneaking is silent, and wool under your feet also muffles steps completely. If a warden is already out, keep 16 blocks away and crouch-walk in circles around it."
   },
   {
     "slug": "sweet-dreams",
@@ -1194,7 +1217,15 @@
     "parent": "Monster Hunter",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Find a sculk catalyst in a deep dark biome or ancient city.",
+      "Lure any mob that drops experience within about 8 blocks of the catalyst.",
+      "Kill it there: zombies, skeletons and animals all work. Only the ender dragon and mobs with no XP drops are excluded.",
+      "The catalyst consumes the XP and spreads sculk. That conversion completes the advancement."
+    ],
+    "tips": "Every kill near a catalyst grows the sculk patch, spawning more sensors and shriekers, so clear what you summon. An easy setup: drag a zombie from a spawner to the city edge and finish it by the catalyst."
   },
   {
     "slug": "take-aim",
@@ -1376,7 +1407,15 @@
     "parent": "Sweet Dreams",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Easy",
+    "howToGet": [
+      "Craft a jukebox: 8 planks of any wood around 1 diamond.",
+      "Get any music disc: dungeons and ancient cities hold some, and a skeleton killing a creeper always drops one.",
+      "Travel to a meadow biome: the flower-covered grass high on mountain plateaus. The F3 screen confirms the biome.",
+      "Place the jukebox in the meadow and use the disc on it. The first note completes the advancement."
+    ],
+    "tips": "The classic disc farm: let a skeleton's arrow finish a creeper and it drops a random disc. Stand between them, tag the creeper once, and let the skeleton do the rest."
   },
   {
     "slug": "light-as-a-rabbit",
@@ -1527,7 +1566,15 @@
     "parent": "Minecraft: Trial(s) Edition",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Get wind charges from breezes in trial chambers, or craft 4 from one breeze rod.",
+      "Stand in the open and jump.",
+      "At the top of your jump, throw a wind charge straight down at your feet.",
+      "The blast launches you high into the air. Rising at least 8 blocks from the explosion completes the advancement."
+    ],
+    "tips": "It must be YOUR wind charge: the breeze's own shots don't count. The launch negates fall damage from the blast, and chaining it with a mace smash is the gateway to Over-Overkill damage."
   },
   {
     "slug": "under-lock-and-key",
@@ -1557,7 +1604,15 @@
     "parent": "Under Lock and Key",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Enter trial chambers carrying the Bad Omen effect (drink an ominous bottle from a vault or a raid captain).",
+      "Bad Omen transforms nearby trial spawners into ominous trial spawners, a harder fight.",
+      "Complete ominous spawners: they can eject an ominous trial key.",
+      "Find an ominous vault, the ones with the blue glow high on the chamber walls, and unlock it with the key. Opening it completes the advancement."
+    ],
+    "tips": "Ominous vaults hold the best chamber loot: heavy cores, flow and bolt armor trims, and the strongest enchanted books. Bring your best gear: ominous spawners throw potions and mobs with enchanted equipment at you."
   },
   {
     "slug": "blowback",
@@ -1579,7 +1634,15 @@
     "parent": "Minecraft: Trial(s) Edition",
     "xp": "50XP experience\n\nAdvancementTable|foot",
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Hard",
+    "howToGet": [
+      "Craft a mace: a heavy core from an ominous vault plus a breeze rod.",
+      "Understand the smash: mace damage scales with your fall distance before impact, with no cap.",
+      "Set up the hit: launch yourself with a wind charge (see Who Needs Rockets?) or build a tall drop, then strike a mob on the way down.",
+      "Land 50 hearts of damage in a single hit. Any mob counts, even one with far less health. The advancement pays 50 XP."
+    ],
+    "tips": "The Density enchantment adds damage per fallen block and is far better for this than Breach. A wind charge jump plus a short tower gives enough height for the 50 hearts on most setups."
   },
   {
     "slug": "husbandry",
@@ -1987,7 +2050,15 @@
     "parent": "When the Squad Hops into Town",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Hard",
+    "howToGet": [
+      "Raise frogs of all three variants: the tadpole's climate decides the adult (warm, temperate and cold biomes).",
+      "Bring each frog to the Nether and let it eat a small magma cube: the frog snaps it up and drops a froglight.",
+      "Temperate frogs give ochre, warm frogs give pearlescent, and cold frogs give verdant froglights.",
+      "Hold all three froglight colors in your inventory at once. The set completes this challenge advancement."
+    ],
+    "tips": "Move tadpoles in buckets and grow them where you need each variant: it is the water's biome that decides the frog color. Frogs follow slimeballs and can be led, which beats pushing them through a portal."
   },
   {
     "slug": "planting-the-past",
@@ -2009,7 +2080,16 @@
     "parent": "The Cutest Predator",
     "xp": null,
     "hidden": false,
-    "root": false
+    "root": false,
+    "difficulty": "Medium",
+    "howToGet": [
+      "Catch an axolotl in a bucket in a lush cave (see The Cutest Predator).",
+      "Take it somewhere with hostile aquatic mobs: an ocean monument, a drowned river or any deep water.",
+      "Release the axolotl and let it engage a drowned, guardian or squid... it must pick a target.",
+      "Deal the final damage to the axolotl's target while staying within 20 blocks of your teammate.",
+      "The axolotl rewards you with Regeneration, and that effect completes the advancement."
+    ],
+    "tips": "The same assist also removes your mining fatigue, the classic trick for ocean monuments without milk. Give the axolotl a name tag or keep it in a bucket between fights so your healer never despawns."
   },
   {
     "slug": "good-as-new",
