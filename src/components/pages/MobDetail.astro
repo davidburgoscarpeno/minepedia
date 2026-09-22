@@ -65,7 +65,7 @@ const jsonLd = [
     <h1 style="display:flex;align-items:center;gap:14px">{PIXEL.has(m.slug) && <img src={`/mobs/${m.slug}.svg`} alt="" width="44" height="44" class="pixel-icon" />}{m.name}</h1>
     <p>
       <span class="badge">{mtype}</span>
-      <span class="badge">{L.health} {m.health}</span>
+      <span class="badge">{L.health} {isES ? m.health.replace(/(\d+) hearts/, '$1 corazones').replace(/(\d+) heart/, '$1 corazón') : m.health}</span>
       {m.editions.map((ed: string) => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
     </p>
     <div class="quick-answer"><strong>{L.quick}</strong> {where}</div>
