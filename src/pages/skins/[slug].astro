@@ -1,86 +1,11 @@
 ---
-import Base from '../../layouts/Base.astro';
+import SkinDetail from '../../components/pages/SkinDetail.astro';
 import skins1 from '../../data/gallery-skins.json';
 import skins2 from '../../data/gallery-skins-2.json';
-const skins = [...skins1, ...skins2];
 export function getStaticPaths() {
   const all = [...skins1, ...skins2];
   return all.map(s => ({ params: { slug: s.slug }, props: { s } }));
 }
 const { s } = Astro.props;
-const related = skins.filter(x => x.category === s.category && x.slug !== s.slug).slice(0, 4);
-const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'Article',
-    headline: `${s.name} - Free Minecraft Skin Download`,
-    description: s.desc,
-    mainEntityOfPage: `https://minepedia.app/skins/${s.slug}/`,
-    author: { '@type': 'Organization', name: 'Minepedia' } },
-  { '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://minepedia.app/' },
-      { '@type': 'ListItem', position: 2, name: 'Skins', item: 'https://minepedia.app/skins/' },
-      { '@type': 'ListItem', position: 3, name: s.name, item: `https://minepedia.app/skins/${s.slug}/` }
-    ] }
-];
 ---
-<Base title={`${s.name} Minecraft Skin - Free Download`} description={`${s.desc} Free 64x64 PNG download for Java and Bedrock, or edit it online in the Minepedia Skin Maker.`} canonicalPath={`/skins/${s.slug}/`} jsonLd={jsonLd} ogType="article">
-  <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skins/">Skins</a> / {s.name}</nav>
-    <h1>{s.name} Minecraft Skin</h1>
-    <p><span class="badge">{s.category}</span></p>
-    <p>{s.desc}</p>
-    <div class="skinhero">
-      <figure><canvas class="skinview" data-src={s.file} data-view="front" data-scale="9" width="144" height="288"></canvas><figcaption>Front</figcaption></figure>
-      <figure><canvas class="skinview" data-src={s.file} data-view="side" data-scale="9" width="144" height="288"></canvas><figcaption>Side</figcaption></figure>
-      <figure><canvas class="skinview" data-src={s.file} data-view="back" data-scale="9" width="144" height="288"></canvas><figcaption>Back</figcaption></figure>
-    </div>
-    <div class="skin-cta">
-      <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>⬇️ Download PNG (64x64)</a>
-      <a class="sbtn" href={`/tools/skin-maker/?skin=${s.file}`}>🎨 Edit in Skin Maker</a>
-    </div>
-    <h2>How to apply this skin</h2>
-    <ol>
-      <li><strong>Java Edition:</strong> Minecraft Launcher → Skins tab → New skin → select the downloaded PNG.</li>
-      <li><strong>Bedrock:</strong> Dressing Room import where your platform allows custom files, or pack the PNG into a custom skin pack.</li>
-    </ol>
-    <p class="note">Original fan art by Minepedia. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
-    {related.length > 0 && (
-      <section>
-        <h2>More {s.category.toLowerCase()} skins</h2>
-        <div class="skin-grid">
-          {related.map(r => (
-            <div class="skin-card">
-              <a href={`/skins/${r.slug}/`} class="skin-prev"><canvas class="skinview" data-src={r.file} data-view="front" data-scale="5" width="80" height="160"></canvas></a>
-              <h3><a href={`/skins/${r.slug}/`}>{r.name}</a></h3>
-              <div class="skin-actions">
-                <a class="sbtn primary" href={r.file} download={`minepedia-${r.slug}-skin.png`}>⬇️ PNG</a>
-                <a class="sbtn" href={`/tools/skin-maker/?skin=${r.file}`}>🎨 Edit</a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    )}
-  </div>
-  <style>
-    .skinhero{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0}
-    .skinhero figure{margin:0;text-align:center;background:#0d1015;border:1px solid #232a35;border-radius:12px;padding:12px}
-    .skinhero canvas{image-rendering:pixelated;width:144px;height:288px}
-    .skinhero figcaption{font-size:11px;color:#7d8894;margin-top:6px}
-    .skin-cta{display:flex;gap:10px;margin:6px 0 10px;flex-wrap:wrap}
-    .sbtn{font-size:14px;padding:10px 16px;border-radius:10px;border:1px solid #2c3542;background:#1c222c;color:#e6ebf1;text-decoration:none}
-    .sbtn:hover{border-color:#3aa655}
-    .sbtn.primary{background:#3aa655;border-color:#3aa655;color:#0b0e12;font-weight:700}
-    .note{font-size:12px;color:#7d8894}
-    .skin-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px;margin:14px 0 8px}
-    .skin-card{background:#14181f;border:1px solid #232a35;border-radius:12px;padding:12px;text-align:center}
-    .skin-card h3{font-size:14px;margin:8px 0}
-    .skin-card h3 a{color:#e6ebf1;text-decoration:none}
-    .skin-card h3 a:hover{color:#3aa655}
-    .skin-prev{display:block;background:#0d1015;border-radius:10px;padding:6px}
-    .skin-prev canvas{image-rendering:pixelated;width:80px;height:160px}
-    .skin-actions{display:flex;gap:6px;justify-content:center}
-    .skin-actions .sbtn{font-size:12px;padding:6px 10px}
-  </style>
-  <script src="/js/skin-preview.js" is:inline></script>
-</Base>
+<SkinDetail s={s} lang="en" />

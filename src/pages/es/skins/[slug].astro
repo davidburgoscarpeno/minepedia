@@ -1,0 +1,11 @@
+---
+import SkinDetail from '../../../components/pages/SkinDetail.astro';
+import skins1 from '../../../data/gallery-skins.json';
+import skins2 from '../../../data/gallery-skins-2.json';
+export function getStaticPaths() {
+  const all = [...skins1, ...skins2];
+  return all.map(s => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props;
+---
+<SkinDetail s={s} lang="es" />
