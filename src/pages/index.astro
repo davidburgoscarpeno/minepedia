@@ -8,6 +8,8 @@ import mobs from '../data/mobs.json';
 import biomes from '../data/biomes.json';
 import guides from '../data/guides.json';
 import GameShot from '../components/GameShot.astro';
+import shots from '../data/screenshots.json';
+const BIOME_SHOTS = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'mobs-husk', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean', 'crimson-forest': 'mobs-piglins-bartering', 'badlands': 'villagers-114' };
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: 'Minepedia', url: 'https://minepedia.app/',
@@ -104,9 +106,14 @@ const cats = [
       <h2>Biomes</h2>
       <p class="sub">Resources, mobs and structures for every biome - each with its own artwork.</p>
       <div class="biome-strip">
-        {['cherry-grove','badlands','lush-caves','mangrove-swamp','ice-spikes','crimson-forest'].map(sl => (
-          <a class="biome-chip" href={`/biomes/${sl}/`}><img src={['lush-caves'].includes(sl) ? '/screenshots/biomes-lush-caves.webp' : `/biome-art/${sl}.png`} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
-        ))}
+        {['cherry-grove','badlands','lush-caves','mangrove-swamp','ice-spikes','crimson-forest'].map(sl => {
+          const shotId = BIOME_SHOTS[sl];
+          const sh = shotId && shots.find(x => x.id === shotId);
+          const src = sh ? '/screenshots/' + sh.file : `/biome-art/${sl}.png`;
+          return (
+          <a class="biome-chip" href={`/biomes/${sl}/`}><img src={src} alt={`Minecraft ${sl} biome`} width="256" height="144" loading="lazy" style={sh ? '' : 'image-rendering:pixelated'} /><span>{biomes.find(b => b.slug === sl)?.name ?? sl}</span></a>
+          );
+        })}
       </div>
     </section>
     <section class="section">
