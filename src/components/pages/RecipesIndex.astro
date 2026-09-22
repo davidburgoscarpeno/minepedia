@@ -5,7 +5,7 @@ import recipes from '../../data/recipes.json';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const cats = [...new Set(recipes.map(r => r.category))].sort();
-const CAT_ES: Record<string, string> = { 'Tools': 'Herramientas', 'Weapons': 'Armas', 'Food': 'Comida', 'Building Blocks': 'Bloques de construcción', 'Decoration': 'Decoración', 'Redstone': 'Redstone', 'Transport': 'Transporte', 'Misc': 'Varios', 'Armor': 'Armadura', 'Brewing': 'Alquimia', 'Utility': 'Utilidad', 'Storage': 'Almacenamiento', 'Mechanisms': 'Mecanismos' };
+const CAT_ES: Record<string, string> = { 'Combat': 'Combate', 'Food': 'Comida', 'Lighting': 'Iluminación', 'Magic': 'Magia', 'Materials': 'Materiales', 'Redstone': 'Redstone', 'Storage': 'Almacenamiento', 'Tools': 'Herramientas', 'Transport': 'Transporte', 'Utility': 'Utilidad', 'Weapons': 'Armas' };
 const S = lang === 'es' ? {
   title: 'Recetas de crafteo de Minecraft',
   description: 'Recetas de crafteo de Minecraft con ingredientes, patrones, cómo conseguir cada material, usos y notas de Java/Bedrock.',

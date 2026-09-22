@@ -42,14 +42,14 @@ h1 { letter-spacing: -.02em; }
   background: rgba(11,14,17,.88); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
-.site-header .container { display: flex; align-items: center; gap: 18px; min-height: 58px; }
+.site-header .container { display: flex; align-items: center; gap: 10px; min-height: 58px; }
 .brand { display: flex; align-items: center; gap: 9px; font-weight: 800; font-size: 1.2rem; color: var(--text); letter-spacing: -.01em; flex-shrink: 0; }
 .brand:hover { text-decoration: none; }
 .brand .cube { width: 27px; height: 27px; filter: drop-shadow(0 2px 6px rgba(76,175,80,.35)); }
 .main-nav { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; scrollbar-width: none; }
 .main-nav::-webkit-scrollbar { display: none; }
 .main-nav a {
-  color: var(--text-dim); padding: 7px 11px; border-radius: 9px; font-size: .92rem; white-space: nowrap;
+  color: var(--text-dim); padding: 7px 8px; border-radius: 9px; font-size: .88rem; white-space: nowrap;
   transition: color .15s, background .15s;
 }
 .main-nav a:hover { color: var(--text); background: var(--bg-hover); text-decoration: none; }
