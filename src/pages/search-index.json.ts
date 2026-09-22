@@ -7,6 +7,7 @@ import villagers from '../data/villagers.json';
 import itemData from '../data/items.json';
 import farms from '../data/farms.json';
 import biomes from '../data/biomes.json';
+import structures from '../data/structures.json';
 
 export async function GET() {
   const items = [
@@ -19,6 +20,7 @@ export async function GET() {
     ...itemData.map(i => ({ name: i.name, kind: 'item', url: `/items/${i.slug}/`, keywords: i.keywords })),
     ...farms.map(f => ({ name: f.name, kind: 'farm', url: `/farms/${f.slug}/`, keywords: f.keywords })),
     ...biomes.map(b => ({ name: `${b.name} biome`, kind: 'biome', url: `/biomes/${b.slug}/`, keywords: b.keywords })),
+    ...structures.map(s => ({ name: s.name, kind: 'structure', url: `/structures/${s.slug}/`, keywords: s.keywords })),
     { name: 'Nether Coordinate Calculator', kind: 'tool', url: '/tools/nether-calculator/', keywords: 'nether calculator coordinates convert portal 8:1' },
     { name: 'XP Calculator', kind: 'tool', url: '/tools/xp-calculator/', keywords: 'xp calculator levels experience points enchanting level 30' }
   ];
