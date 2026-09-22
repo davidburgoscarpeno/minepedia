@@ -1395,13 +1395,13 @@
     "drops": [
       {
         "item": "Absorbed block",
-        "qty": "1 (whatever it ate)",
-        "notes": "Drops as an item on death or when sheared"
+        "qty": "1",
+        "notes": "Whatever block it ate - drops on death or when sheared out"
       },
       {
         "item": "Experience",
-        "qty": "1-2 (large cubes only)",
-        "notes": "Small cubes drop nothing"
+        "qty": "1-2",
+        "notes": "Large cubes only; small cubes drop nothing"
       }
     ],
     "spawnConditions": "Sulfur caves only, any light level. Large cubes spawn in groups of 2-4; a dying large cube splits into 2 small cubes that grow up over time.",
@@ -1451,14 +1451,14 @@
     "slug": "creaking",
     "name": "Creaking",
     "type": "Hostile",
-    "health": "1 (half a heart) - but invulnerable while linked to its creaking heart",
+    "health": "1 (half a heart)",
     "where": "Pale gardens at night, spawned by an activated creaking heart hidden between two pale oak blocks (also from hearts you place yourself).",
     "howToKill": "You cannot: a heart-linked creaking shrugs off all damage. Find its creaking heart (look for the glowing block inside a nearby pale oak, within 32 blocks) and destroy THAT - the creaking dies with it. Hitting the creaking still helps: each hit makes its heart ooze resin clumps.",
     "drops": [
       {
         "item": "Resin Clump",
-        "qty": "via the heart",
-        "notes": "Hitting the creaking makes its creaking heart produce resin clumps; resin crafts resin bricks for building"
+        "qty": "*",
+        "notes": "Not a direct drop: hitting the creaking makes its creaking heart ooze resin clumps, which smelt into resin bricks"
       }
     ],
     "spawnConditions": "At night, from a creaking heart placed naturally between two pale oak blocks in pale gardens. The creaking never strays more than 32 blocks from its heart; if forced away, the heart spawns a new one.",
