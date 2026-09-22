@@ -35,7 +35,7 @@ const S = lang === 'es' ? {
     <GameShot id="enchantments-table" />
     <div class="grid-cards" style="margin-top:24px">
       {ench.map(e => (
-        <a class="card" href={`/enchantments/${e.slug}/`}>
+        <a class="card" href={lang === 'es' ? `/es/enchantments/${e.slug}/` : `/enchantments/${e.slug}/`}>
           <img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{e.name}<span class="pips">{Array.from({ length: 5 }).map((_, i) => <i class={i < (ROMAN[e.maxLevel] || 1) ? 'on' : ''} />)}</span></h3>
           <p>{e.whatItDoes.split('.')[0]}.</p>

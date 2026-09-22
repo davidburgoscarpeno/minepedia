@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import ench from '../../data/enchantments.json';
+import enchEs from '../../data/enchantments-es.json';
+
+interface Props { e: any; lang: 'en' | 'es'; }
+const { e, lang } = Astro.props;
+const isES = lang === 'es';
+const ov: any = isES ? (enchEs as any)[e.slug] : null;
+const whatItDoes = ov?.whatItDoes ?? e.whatItDoes;
+const howToGet: string[] = ov?.howToGet ?? e.howToGet;
+const bestUses = ov?.bestUses ?? e.bestUses;
+
+const L = isES ? {
+  home: 'Inicio', homeHref: '/es/', crumb: 'Encantamientos', crumbHref: '/es/enchantments/',
+  maxLevel: 'Nivel máximo', treasure: 'Tesoro', quick: 'Respuesta rápida:',
+  applies: 'Se aplica a', howH: `Cómo conseguir ${e.name}`, bestH: 'Mejores usos',
+  incH: 'Incompatible con', incNote: 'un objeto solo puede llevar uno de estos', related: 'Relacionados',
+  title: `Encantamiento ${e.name}`,
+  desc: `${e.name} en Minecraft (nivel máximo ${e.maxLevel}): ${whatItDoes.split('.')[0]}. Cómo conseguirlo, mejores usos e incompatibilidades.`,
+  canonical: `/es/enchantments/${e.slug}/`, alt: `/enchantments/${e.slug}/`,
+  faq1q: `¿Qué hace ${e.name} en Minecraft?`, faq2q: `¿Cuál es el nivel máximo de ${e.name}?`,
+  faq2a: `El nivel máximo de ${e.name} es ${e.maxLevel}.`,
+  headline: `Encantamiento ${e.name} en Minecraft: qué hace y cómo conseguirlo`
+} : {
+  home: 'Home', homeHref: '/', crumb: 'Enchantments', crumbHref: '/enchantments/',
+  maxLevel: 'Max level', treasure: 'Treasure', quick: 'Quick answer:',
+  applies: 'Applies to', howH: `How to get ${e.name}`, bestH: 'Best uses',
+  incH: 'Incompatible with', incNote: 'an item can only hold one of these', related: 'Related',
+  title: `${e.name} enchantment`,
+  desc: `${e.name} in Minecraft (max level ${e.maxLevel}): ${whatItDoes.split('.')[0]}. How to get it, best uses and incompatibilities.`,
+  canonical: `/enchantments/${e.slug}/`, alt: `/es/enchantments/${e.slug}/`,
+  faq1q: `What does ${e.name} do in Minecraft?`, faq2q: `What is the max level of ${e.name}?`,
+  faq2a: `The maximum level of ${e.name} is ${e.maxLevel}.`,
+  headline: `${e.name} enchantment in Minecraft: what it does and how to get it`
+};
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: L.headline, description: whatItDoes,
+    mainEntityOfPage: `https://minepedia.app${L.canonical}`, author: { '@type': 'Organization', name: 'Minepedia' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: L.home, item: `https://minepedia.app${L.homeHref}` },
+    { '@type': 'ListItem', position: 2, name: L.crumb, item: `https://minepedia.app${L.crumbHref}` },
+    { '@type': 'ListItem', position: 3, name: e.name, item: `https://minepedia.app${L.canonical}` } ] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
+    { '@type': 'Question', name: L.faq1q, acceptedAnswer: { '@type': 'Answer', text: whatItDoes } },
+    { '@type': 'Question', name: L.faq2q, acceptedAnswer: { '@type': 'Answer', text: L.faq2a } } ] }
+];
+---
+<Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {e.name}</nav>
+    <h1>{e.name}</h1>
+    <p>
+      <span class="badge">{L.maxLevel} {e.maxLevel}</span>
+      {e.treasure && <span class="badge" style="color:var(--gold);border-color:#6b5a2a">{L.treasure}</span>}
+      {e.editions.map((ed: string) => <span class={`badge ${ed}`}>{ed === 'java' ? 'Java' : 'Bedrock'}</span>)}
+    </p>
+    <div class="quick-answer"><strong>{L.quick}</strong> {whatItDoes}</div>
+    <h2>{L.applies}</h2>
+    <p>{e.appliesTo}.</p>
+    <h2>{L.howH}</h2>
+    <ul>{howToGet.map(h => <li>{h}</li>)}</ul>
+    <h2>{L.bestH}</h2>
+    <p>{bestUses}</p>
+    {e.incompatibleWith.length > 0 && (
+      <div>
+        <h2>{L.incH}</h2>
+        <p>{e.incompatibleWith.join(', ')} - {L.incNote}.</p>
+      </div>
+    )}
+    {e.related.length > 0 && (
+      <p><strong>{L.related}:</strong> {e.related.map((rel: string) => {
+        const target = ench.find((x: any) => x.slug === rel);
+        return target ? <a href={isES ? `/es/enchantments/${rel}/` : `/enchantments/${rel}/`} style="margin-right:12px">{target.name}</a> : null;
+      })}</p>
+    )}
+  </div>
+</Base>
