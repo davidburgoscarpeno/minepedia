@@ -3,13 +3,15 @@ interface Props { placeholder?: string; autofocus?: boolean; lang?: 'en' | 'es' 
 const { placeholder = 'Search items, mobs, commands, guides...', autofocus = false, lang = 'en' } = Astro.props;
 const resultsUrl = lang === 'es' ? '/es/search/' : '/search/';
 const noMatch = lang === 'es' ? 'Sin coincidencias rápidas - buscar en todo' : 'No quick matches - search everything';
+const ES_ALIASES: Record<string, string> = { espada:'sword', arbol:'tree', armadura:'armor', pico:'pickaxe', hacha:'axe', pala:'shovel', azada:'hoe', arco:'bow', flecha:'arrow', escudo:'shield', pan:'bread', pastel:'cake', tarta:'cake', cama:'bed', antorcha:'torch', cofre:'chest', horno:'furnace', crafteo:'crafting', mesa:'table', cubo:'bucket', cana:'fishing', tijeras:'shears', brujula:'compass', reloj:'clock', mapa:'map', libro:'book', huevo:'egg', leche:'milk', azucar:'sugar', pescado:'fish', zombi:'zombie', esqueleto:'skeleton', arana:'spider', cerdo:'pig', vaca:'cow', oveja:'sheep', pollo:'chicken', lobo:'wolf', abeja:'bee', caballo:'horse', aldeano:'villager', aldeanos:'villager', golem:'iron golem', dragon:'ender dragon', bruja:'witch', diamante:'diamond', hierro:'iron', oro:'gold', carbon:'coal', esmeralda:'emerald', lapislazuli:'lapis', obsidiana:'obsidian', portal:'portal', granja:'farm', semilla:'seed', bioma:'biome', pocion:'potion', encantamiento:'enchantment', encantamientos:'enchantment', fortuna:'fortune', eficiencia:'efficiency', infinidad:'infinity', reparacion:'mending', filo:'sharpness', proteccion:'protection', espinas:'thorns', saqueo:'looting', empuje:'knockback', respiracion:'respiration', tnt:'tnt', riel:'rail', vagoneta:'minecart', barco:'boat', elytro:'elytra', elitros:'elytra', cohete:'firework', cohetes:'firework', polvora:'gunpowder', cuerda:'string', palo:'stick', piedra:'stone', madera:'wood', ladrillo:'brick', cristal:'glass', vidrio:'glass', escalera:'stairs', escaleras:'stairs', losa:'slab', valla:'fence', puerta:'door', trampilla:'trapdoor', yunque:'anvil', iman:'lodestone', farol:'lantern', campana:'bell', caldera:'cauldron', tolva:'hopper', pistion:'piston', piston:'piston', palanca:'lever', boton:'button', placa:'pressure plate' };
+const aliases = lang === 'es' ? ES_ALIASES : {};
 ---
 <div class="search-wrap">
   <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
   <input class="search-input" type="search" placeholder={placeholder} aria-label={placeholder} autofocus={autofocus} />
   <div class="search-results" role="listbox"></div>
 </div>
-<script define:vars={{ resultsUrl, noMatch }}>
+<script define:vars={{ resultsUrl, noMatch, aliases }}>
   let indexPromise = null;
   function loadIndex() {
     if (!indexPromise) indexPromise = fetch('/search-index.json').then(r => r.json()).catch(() => []);
@@ -22,12 +24,13 @@ const noMatch = lang === 'es' ? 'Sin coincidencias rápidas - buscar en todo' : 
     input.addEventListener('focus', async () => { items = await loadIndex(); });
     input.addEventListener('input', async () => {
       if (!items.length) items = await loadIndex();
-      const q = input.value.trim().toLowerCase();
+      const fold = x => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const q = fold(input.value.trim().toLowerCase());
       if (q.length < 2) { box.classList.remove('open'); box.innerHTML = ''; return; }
-      const terms = q.split(/\s+/);
+      const terms = q.split(/\s+/).map(t => aliases[t] || t);
       const scored = items.map(it => {
         const name = it.name.toLowerCase();
-        const hay = (it.name + ' ' + it.kind + ' ' + (it.keywords || '')).toLowerCase();
+        const hay = fold((it.name + ' ' + it.kind + ' ' + (it.keywords || '')).toLowerCase());
         if (!terms.every(t => hay.includes(t))) return null;
         let score = 0;
         if (name === q) score = 100;

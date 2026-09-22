@@ -21,6 +21,8 @@ const S = lang === 'es' ? {
   resultsFor: ['result for', 'results for'],
   canonical: '/search/', alt: '/es/search/'
 };
+const ES_ALIASES: Record<string, string> = { espada:'sword', arbol:'tree', armadura:'armor', pico:'pickaxe', hacha:'axe', pala:'shovel', azada:'hoe', arco:'bow', flecha:'arrow', escudo:'shield', pan:'bread', pastel:'cake', tarta:'cake', cama:'bed', antorcha:'torch', cofre:'chest', horno:'furnace', crafteo:'crafting', mesa:'table', cubo:'bucket', cana:'fishing', tijeras:'shears', brujula:'compass', reloj:'clock', mapa:'map', libro:'book', huevo:'egg', leche:'milk', azucar:'sugar', pescado:'fish', zombi:'zombie', esqueleto:'skeleton', arana:'spider', cerdo:'pig', vaca:'cow', oveja:'sheep', pollo:'chicken', lobo:'wolf', abeja:'bee', caballo:'horse', aldeano:'villager', aldeanos:'villager', golem:'iron golem', dragon:'ender dragon', bruja:'witch', diamante:'diamond', hierro:'iron', oro:'gold', carbon:'coal', esmeralda:'emerald', lapislazuli:'lapis', obsidiana:'obsidian', portal:'portal', granja:'farm', semilla:'seed', bioma:'biome', pocion:'potion', encantamiento:'enchantment', encantamientos:'enchantment', fortuna:'fortune', eficiencia:'efficiency', infinidad:'infinity', reparacion:'mending', filo:'sharpness', proteccion:'protection', espinas:'thorns', saqueo:'looting', empuje:'knockback', respiracion:'respiration', tnt:'tnt', riel:'rail', vagoneta:'minecart', barco:'boat', elytro:'elytra', elitros:'elytra', cohete:'firework', cohetes:'firework', polvora:'gunpowder', cuerda:'string', palo:'stick', piedra:'stone', madera:'wood', ladrillo:'brick', cristal:'glass', vidrio:'glass', escalera:'stairs', escaleras:'stairs', losa:'slab', valla:'fence', puerta:'door', trampilla:'trapdoor', yunque:'anvil', iman:'lodestone', farol:'lantern', campana:'bell', caldera:'cauldron', tolva:'hopper', piston:'piston', palanca:'lever', boton:'button', placa:'pressure plate' };
+const aliases = lang === 'es' ? ES_ALIASES : {};
 ---
 <Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
   <div class="container">
@@ -33,7 +35,7 @@ const S = lang === 'es' ? {
     <p id="count" style="color:var(--text-dim);font-size:.9rem"></p>
     <div id="results" class="grid-cards" style="margin-top:12px"></div>
   </div>
-  <script define:vars={{ typeTo: S.typeTo, pagesWord: S.pages, rOne: S.resultsFor[0], rMany: S.resultsFor[1] }}>
+  <script define:vars={{ typeTo: S.typeTo, pagesWord: S.pages, rOne: S.resultsFor[0], rMany: S.resultsFor[1], aliases }}>
     const input = document.getElementById('q');
     const out = document.getElementById('results');
     const count = document.getElementById('count');
@@ -43,11 +45,12 @@ const S = lang === 'es' ? {
     if (params.get('q')) input.value = params.get('q');
     function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
     function run() {
-      const q = input.value.trim().toLowerCase();
+      const fold = x => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const q = fold(input.value.trim().toLowerCase());
       if (!q) { out.innerHTML = ''; count.textContent = typeTo + ' ' + index.length + ' ' + pagesWord; return; }
-      const terms = q.split(/\s+/);
+      const terms = q.split(/\s+/).map(t => aliases[t] || t);
       const hits = index.filter(e => {
-        const hay = (e.name + ' ' + (e.keywords || '') + ' ' + e.kind).toLowerCase();
+        const hay = fold((e.name + ' ' + (e.keywords || '') + ' ' + e.kind).toLowerCase());
         return terms.every(t => hay.includes(t));
       }).slice(0, 60);
       count.textContent = hits.length + ' ' + (hits.length === 1 ? rOne : rMany) + ' "' + q + '"';
