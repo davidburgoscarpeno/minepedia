@@ -1,0 +1,120 @@
+---
+import SearchBox from '../SearchBox.astro';
+import serversEn from '../../data/servers-en.json';
+import serversEs from '../../data/servers-es.json';
+
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+const servers = isES ? serversEs : serversEn;
+const home = isES ? '/es/' : '/';
+
+const guides = [
+  { href: '/servers/make-a-server/', icon: 'make-server', en: 'Make Your Own Server', es: 'Crea tu propio servidor', den: 'Official server jar, Paper, port forwarding and playit.gg for CGNAT', des: 'Jar oficial, Paper, redirección de puertos y playit.gg si tienes CGNAT' },
+  { href: '/servers/free-hosting/', icon: 'free-hosting', en: 'Free Server Hosting', es: 'Hosting gratis', den: 'Aternos and what "free" really means', des: 'Aternos y lo que "gratis" significa de verdad' },
+  { href: '/servers/plugins/', icon: 'server-plugins', en: 'Essential Server Plugins', es: 'Plugins esenciales', den: 'LuckPerms, EssentialsX, GeyserMC and the standard plugin stack', des: 'LuckPerms, EssentialsX, GeyserMC y el pack estándar' }
+];
+
+const L = isES ? {
+  kicker: 'SERVIDORES DE MINECRAFT',
+  h1: 'Los mejores servidores de Minecraft en español (2026)',
+  intro: 'Los servidores hispanohablantes más activos y mejor valorados ahora mismo. IPs verificadas el 22 de septiembre de 2026 comprobando que estén online; las modalidades y versiones vienen de las propias fichas de los servidores y de las listas públicas.',
+  ip: 'IP', editions: 'Edición', versions: 'Versiones', players: 'Jugadores', modes: 'Modos', website: 'Web',
+  howTitle: 'Cómo entrar en un servidor',
+  howSteps: ['Abre Minecraft y ve a Multijugador > Añadir servidor.', 'Pega la IP en "Dirección del servidor" (en Bedrock, usa también el puerto indicado).', 'Guarda y entra. Si un modo pide un resource pack, acepta la descarga.'],
+  guidesTitle: 'Monta tu propio servidor',
+  guidesIntro: 'Si prefieres un mundo solo para tus amigos, estas son tus opciones, de la más barata a la más potente:',
+  faqTitle: 'Preguntas rápidas',
+  faqs: [
+    { q: '¿Están estos servidores activos en 2026?', a: 'Sí. Verificamos el 22 de septiembre de 2026 que todos responden online y tienen jugadores conectados. Las cifras exactas cambian cada hora, así que las marcamos como aproximadas.' },
+    { q: '¿Necesito cuenta premium de Minecraft?', a: 'Para casi todos, sí. Los servidores "no premium" (que aceptan cuentas sin comprar) se marcan como tales en su ficha. SuperCraft y UniversoCraft, por ejemplo, aceptan no premium en algunos modos.' },
+    { q: '¿Puedo jugar desde Bedrock (móvil o consola)?', a: 'Solo en los que indican Bedrock o cross-play, como SuperCraft y BoolyMC. El resto son Java (PC).' },
+    { q: '¿Son gratis?', a: 'Entrar y jugar es gratis en todos. Todos venden rangos u objetos cosméticos opcionales para sostener el servidor, pero ninguno te obliga a pagar.' },
+    { q: '¿Qué versión de Minecraft necesito?', a: 'La que marque cada ficha. La mayoría aceptan rangos amplios (por ejemplo 1.8-26.2), así que con tu cliente actual suele bastar.' }
+  ]
+} : {
+  kicker: 'MINECRAFT SERVERS',
+  h1: 'The Best Minecraft Servers (2026)',
+  intro: 'The biggest and most active English-speaking servers right now. Every IP was verified online on September 22, 2026; modes and versions come from the servers\u2019 own listings and public server lists.',
+  ip: 'IP', editions: 'Edition', versions: 'Versions', players: 'Players', modes: 'Modes', website: 'Website',
+  howTitle: 'How to join a server',
+  howSteps: ['Open Minecraft and go to Multiplayer > Add Server.', 'Paste the IP into "Server Address" (on Bedrock, add the port too).', 'Save and join. If a mode asks for a resource pack, accept the download.'],
+  guidesTitle: 'Run your own server',
+  guidesIntro: 'Prefer a world just for your friends? These are your options, from cheapest to most powerful:',
+  faqTitle: 'Quick answers',
+  faqs: [
+    { q: 'Are these servers actually active in 2026?', a: 'Yes. We verified on September 22, 2026 that every server here answers online with players connected. Exact counts change by the hour, so we mark them as approximate.' },
+    { q: 'Do I need a paid Minecraft account?', a: 'For nearly all of these, yes. Servers that accept non-premium accounts say so in their listing.' },
+    { q: 'Can I join from Bedrock (mobile or console)?', a: 'Only where the listing says Bedrock or cross-play, like CubeCraft and The Hive. The rest are Java (PC) only.' },
+    { q: 'Are they free?', a: 'Joining and playing is free on all of them. They sell optional ranks and cosmetics to keep the lights on, but none force you to pay.' },
+    { q: 'What Minecraft version do I need?', a: 'Whatever the listing says. Most accept wide ranges (e.g. 1.8-1.21), so your current client usually works.' }
+  ]
+};
+
+const jsonLd = [
+  { "@context": "https://schema.org", "@type": "ItemList", "name": L.h1, "itemListElement": servers.map((s, i) => ({ "@type": "ListItem", "position": i + 1, "item": { "@type": "Organization", "name": s.name, "url": s.website } })) },
+  { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": L.faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
+];
+---
+<div class="container">
+  <nav class="crumbs"><a href={home}>{isES ? 'Inicio' : 'Home'}</a> / {isES ? 'Servidores' : 'Servers'}</nav>
+  <p class="kicker">{L.kicker}</p>
+  <h1>{L.h1}</h1>
+  <p class="sub">{L.intro}</p>
+  <SearchBox placeholder={isES ? 'Busca recetas, mobs, comandos...' : 'Search recipes, mobs, commands...'} />
+  <div class="server-list">
+    {servers.map((s, i) => (
+      <article class="server-card">
+        <div class="server-rank">{i + 1}</div>
+        <div class="server-body">
+          <h2 class="server-name">{s.name}</h2>
+          <p class="server-ip"><code>{s.ip}</code> <a class="server-site" href={s.website} target="_blank" rel="noopener">{L.website} ↗</a></p>
+          <div class="server-tags">
+            <span class="tag">{s.editions}</span>
+            <span class="tag">{s.versions}</span>
+            <span class="tag tag-live">{s.players}</span>
+          </div>
+          <p class="server-modes">{s.modes.join(' · ')}</p>
+          <p class="server-desc">{s.desc}</p>
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <h2>{L.howTitle}</h2>
+  <ol class="how-steps">
+    {L.howSteps.map(st => <li>{st}</li>)}
+  </ol>
+
+  <h2>{L.guidesTitle}</h2>
+  <p>{L.guidesIntro}</p>
+  <div class="grid-cards" style="margin-top:20px">
+    {guides.map(p => (
+      <a class="card" href={p.href}><img class="pixel-icon" src={`/item-icons/${p.icon}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{isES ? p.es : p.en}</h3><p>{isES ? p.des : p.den}</p></a>
+    ))}
+  </div>
+
+  <h2>{L.faqTitle}</h2>
+  <dl class="faq-list">
+    {L.faqs.map(f => (<><dt>{f.q}</dt><dd>{f.a}</dd></>))}
+  </dl>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+</div>
+<style>
+.server-list{display:flex;flex-direction:column;gap:18px;margin:26px 0 8px}
+.server-card{display:flex;gap:18px;background:#fff;border:2px solid var(--border);border-radius:12px;padding:20px 22px}
+.server-rank{font-family:'Monocraft',monospace;font-size:28px;font-weight:700;color:var(--accent);min-width:44px;padding-top:2px}
+.server-name{font-size:22px;margin:0 0 8px;border:none;padding:0}
+.server-ip{margin:0 0 10px;font-size:16px}
+.server-ip code{background:#f1f5f9;border:1px solid var(--border);border-radius:6px;padding:3px 10px;font-size:15px}
+.server-site{font-size:14px;margin-left:10px}
+.server-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.tag{font-size:13px;background:#eef2ff;border:1px solid #c7d2fe;border-radius:20px;padding:3px 12px;color:#3730a3}
+.tag-live{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
+.server-modes{font-size:14px;color:#475569;margin:0 0 8px}
+.server-desc{margin:0;font-size:15px;line-height:1.55}
+.how-steps{line-height:1.7}
+.faq-list dt{font-weight:700;margin-top:16px}
+.faq-list dd{margin:6px 0 0;line-height:1.6}
+@media(max-width:560px){.server-card{flex-direction:column;gap:8px;padding:16px}}
+</style>
