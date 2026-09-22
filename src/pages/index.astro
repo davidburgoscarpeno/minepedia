@@ -58,11 +58,12 @@ const cats = [
 ---
 <Base title="Minepedia" description="Minepedia: Minecraft guides, crafting recipes, commands, enchantments, mobs, seeds and tools - fast, accurate and always up to date." canonicalPath="/" jsonLd={jsonLd}>
   <section class="herov2">
-    <img class="herov2-bg" src="/hero-scene.png" alt="Pixel-art overworld landscape drawn by Minepedia: snowy mountains, cherry grove, plains, river and a house" width="768" height="320" loading="eager" />
+    <img class="herov2-bg" src="/screenshots/home-mountains.webp" alt="Real Minecraft gameplay: snowy mountains after the 1.18 terrain update" width="1266" height="788" loading="eager" />
     <div class="herov2-inner container">
       <h1>The Minecraft knowledge base</h1>
       <p>Guides, recipes, commands, enchantments, mobs, biomes, skins and tools. Accurate for Java and Bedrock.</p>
       <SearchBox autofocus={true} />
+      <p class="herov2-credit">Screenshot: <a href="https://commons.wikimedia.org/wiki/File:Minecraft_-_1.18_mountains.jpg">Dabmasterars</a>, <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a></p>
     </div>
   </section>
   <div class="container">
@@ -147,15 +148,17 @@ const cats = [
         ))}
       </div>
     </section>
-    <GameShot id="home-mountains" />
+    <GameShot id="biomes-forest" />
   </div>
   <style>
     .herov2{position:relative;overflow:hidden;border-bottom:1px solid #232a35}
-    .herov2-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
+    .herov2-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
     .herov2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,14,.25) 0%,rgba(8,10,14,.55) 55%,rgba(8,10,14,.92) 100%)}
     .herov2-inner{position:relative;z-index:1;padding:120px 20px 56px;text-align:center}
     .herov2-inner h1{text-shadow:0 2px 18px rgba(0,0,0,.7)}
     .herov2-inner p{text-shadow:0 1px 10px rgba(0,0,0,.7)}
+    .herov2-credit{font-size:11px;opacity:.75;margin:14px 0 0;text-shadow:0 1px 6px rgba(0,0,0,.8)}
+    .herov2-credit a{color:inherit;text-decoration:underline}
     .skintool{display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:linear-gradient(135deg,#17202b,#14181f);border:1px solid #2c3542;border-radius:16px;padding:26px}
     .skintool-copy h2{margin-top:0}
     .skintool-copy p{color:#aeb8c4;max-width:46ch}

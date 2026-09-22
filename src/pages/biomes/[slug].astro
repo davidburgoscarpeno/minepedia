@@ -7,7 +7,7 @@ export function getStaticPaths() {
   return biomes.map(b => ({ params: { slug: b.slug }, props: { b } }));
 }
 const { b } = Astro.props;
-const SHOT_BY_SLUG = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city' };
+const SHOT_BY_SLUG = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'mobs-husk', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'soul-sand-valley': 'biomes-soul-sand-valley', 'ice-spikes': 'biomes-frozen-ocean', 'crimson-forest': 'mobs-piglins-bartering', 'badlands': 'villagers-114' };
 const shotId = SHOT_BY_SLUG[b.slug];
 const jsonLd = [
   {
