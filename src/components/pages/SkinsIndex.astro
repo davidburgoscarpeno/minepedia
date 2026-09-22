@@ -43,7 +43,7 @@ const jsonLd = [
     <nav class="crumbs"><a href={lang === 'es' ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
     <h1>{S.h1}</h1>
     {lang === 'es'
-      ? <p class="sub">{skins.length} skins originales diseñadas píxel a píxel por Minepedia. Descarga el PNG de 64x64 listo para tu launcher, o abre cualquier skin en el <a href="/tools/skin-maker/">Skin Maker</a> y hazla tuya. Nuevos diseños con regularidad.</p>
+      ? <p class="sub">{skins.length} skins originales diseñadas píxel a píxel por Minepedia. Descarga el PNG de 64x64 listo para tu launcher, o abre cualquier skin en el <a href="/es/tools/skin-maker/">Skin Maker</a> y hazla tuya. Nuevos diseños con regularidad.</p>
       : <p class="sub">{skins.length} original skins designed pixel by pixel by Minepedia. Download the 64x64 PNG ready for your launcher, or open any skin in the <a href="/tools/skin-maker/">Skin Maker</a> and make it yours. New designs added regularly.</p>}
     {cats.map(c => (
       <section>
@@ -55,7 +55,7 @@ const jsonLd = [
               <h3><a href={`${lang === 'es' ? '/es/skins/' : '/skins/'}${s.slug}/`}>{s.name}</a></h3>
               <div class="skin-actions">
                 <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>⬇️ PNG</a>
-                <a class="sbtn" href={`/tools/skin-maker/?skin=${s.file}`}>🎨 {lang === 'es' ? 'Editar' : 'Edit'}</a>
+                <a class="sbtn" href={`${lang === 'es' ? '/es/tools/skin-maker/' : '/tools/skin-maker/'}?skin=${s.file}`}>🎨 {lang === 'es' ? 'Editar' : 'Edit'}</a>
               </div>
             </div>
           ))}

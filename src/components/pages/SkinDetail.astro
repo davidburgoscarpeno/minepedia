@@ -68,7 +68,7 @@ const jsonLd = [
     </div>
     <div class="skin-cta">
       <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>{L.dl}</a>
-      <a class="sbtn" href={`/tools/skin-maker/?skin=${s.file}`}>{L.edit}</a>
+      <a class="sbtn" href={`${isES ? '/es/tools/skin-maker/' : '/tools/skin-maker/'}?skin=${s.file}`}>{L.edit}</a>
     </div>
     <h2>{L.applyH}</h2>
     <ol>
@@ -86,7 +86,7 @@ const jsonLd = [
               <h3><a href={L.skinHref(r.slug)}>{r.name}</a></h3>
               <div class="skin-actions">
                 <a class="sbtn primary" href={r.file} download={`minepedia-${r.slug}-skin.png`}>{L.dlShort}</a>
-                <a class="sbtn" href={`/tools/skin-maker/?skin=${r.file}`}>{L.editShort}</a>
+                <a class="sbtn" href={`${isES ? '/es/tools/skin-maker/' : '/tools/skin-maker/'}?skin=${r.file}`}>{L.editShort}</a>
               </div>
             </div>
           ))}

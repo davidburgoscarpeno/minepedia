@@ -1,0 +1,576 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+
+const plabels = isES ? {
+  head: 'Cabeza', hat: 'Gorro (capa 2)', body: 'Cuerpo', jacket: 'Chaqueta (capa 2)',
+  rarm: 'Brazo derecho', rarm2: 'Manga derecha (capa 2)', rleg: 'Pierna derecha', rleg2: 'Pantalón derecho (capa 2)',
+  larm: 'Brazo izquierdo', larm2: 'Manga izquierda (capa 2)', lleg: 'Pierna izquierda', lleg2: 'Pantalón izquierdo (capa 2)'
+} : {
+  head: 'Head', hat: 'Hat (layer 2)', body: 'Body', jacket: 'Jacket (layer 2)',
+  rarm: 'Right arm', rarm2: 'Right sleeve (layer 2)', rleg: 'Right leg', rleg2: 'Right pant (layer 2)',
+  larm: 'Left arm', larm2: 'Left sleeve (layer 2)', lleg: 'Left leg', lleg2: 'Left pant (layer 2)'
+};
+const flabels = isES ? { top: 'superior', bottom: 'inferior', right: 'derecha', front: 'frente', left: 'izquierda', back: 'espalda' }
+  : { top: 'top', bottom: 'bottom', right: 'right', front: 'front', left: 'left', back: 'back' };
+
+const L = isES ? {
+  title: 'Skin Maker de Minecraft - Editor de skins online gratis',
+  desc: 'Crea y edita skins de Minecraft en tu navegador. Pinta el mapa de texturas de 64x64 con vista previa en vivo, importa tu propia skin y descarga un PNG listo para el juego. Gratis, sin registro.',
+  home: 'Inicio', homeHref: '/es/', toolsCrumb: 'Herramientas', toolsHref: '/es/tools/', crumb: 'Skin Maker',
+  canonical: '/es/tools/skin-maker/', alt: '/tools/skin-maker/',
+  h1: 'Skin Maker de Minecraft',
+  sub: 'Un editor de skins gratuito que funciona 100% en tu navegador. Pinta el mapa de texturas desplegado de 64x64, mira el modelo actualizarse en vivo y descarga un PNG listo para el juego. Nada se sube a ningún sitio.',
+  pencil: '✏️ Lápiz', eraser: '🧽 Borrador', fill: '🪣 Relleno', pick: '💉 Cuentagotas',
+  colorL: 'Color', undo: '↩️ Deshacer', redo: '↪️ Rehacer', reset: '🗑️ Reiniciar',
+  zoomL: 'Zoom', grid: '▦ Cuadrícula', guides: '🏷️ Guías',
+  importL: '📂 Importar PNG', download: '⬇️ Descargar skin',
+  hint: 'Pasa el cursor sobre el mapa para ver a qué parte del cuerpo pertenece cada región. La segunda capa (gorro, chaqueta, mangas) está debajo de la capa base en el mapa.',
+  previewT: 'Vista previa en vivo', front: 'Frente', side: 'Lado', back: 'Espalda',
+  pvhint: 'Las capas overlay (gorro, chaqueta, manga, pantalón) se muestran por encima, exactamente como en el juego.',
+  howH: 'Cómo usar el editor de skins',
+  how1: ' El editor carga nuestra plantilla de maniquí neutra. Para editar una skin existente, haz clic en',
+  how1b: 'Empieza desde una base.', how1c: 'Importar PNG', how1d: 'y elige un archivo de skin de 64x64 (o el antiguo de 64x32).',
+  how2b: 'Pinta el mapa.', how2: ' El lienzo grande es el archivo de skin real, desplegado. Cada caja etiquetada es una cara del modelo: cabeza, torso, brazos y piernas, más las regiones overlay de "segunda capa" usadas para gorros, chaquetas y ropa holgada. Elige un color, escoge el lápiz o el bote de relleno y dibuja. Usa el zoom y la cuadrícula para los detalles.',
+  how3b: 'Mira la vista previa.', how3: ' Las vistas de frente, lado y espalda se redibujan con cada trazo, así que lo que pintas es exactamente lo que ves en el juego.',
+  how4b: 'Descarga y aplica.', how4: ' Haz clic en', how4c: 'Descargar skin', how4d: 'para guardar un PNG estándar de 64x64. En Java Edition, añádelo en el Minecraft Launcher en la pestaña Skins. En Bedrock, las skins importadas necesitan un skin pack; el character creator es la vía soportada en la mayoría de plataformas.',
+  tipsH: 'Consejos para mejores skins',
+  tip1b: 'Sombrea cada cara.', tip1: ' La parte superior de la cabeza recibe luz; los lados y la parte inferior quedan mejor algo más oscuros. Incluso dos tonos por cara dan mucha profundidad.',
+  tip2b: 'Usa la segunda capa.', tip2: ' El pelo, las capuchas, las chaquetas y las mangas holgadas viven en las regiones overlay (la mitad inferior del mapa). Se renderizan ligeramente por fuera del cuerpo, como ropa de verdad.',
+  tip3b: 'Mantén la paleta pequeña.', tip3: ' Las skins se leen mejor con 3-6 colores principales más variantes de sombreado.',
+  tip4b: 'Ojo con el modelo slim.', tip4: ' En el estilo de brazo "Alex" solo se ven las 3 columnas interiores de cada cara del brazo. Pinta ahí y tu skin funcionará en ambos modelos.',
+  tip5b: 'Revisa la espalda.', tip5: ' La mayoría solo pule el frente. Mira la vista previa de la espalda antes de darla por terminada.',
+  faqH: 'Preguntas frecuentes',
+  faqs: [
+    ['¿Es gratis este skin maker de Minecraft?', 'Sí. El editor funciona enteramente en tu navegador: sin descarga, sin cuenta, sin coste, y tu archivo de skin nunca sale de tu dispositivo.'],
+    ['¿Qué tamaño tiene una skin de Minecraft?', 'Las skins modernas son archivos PNG de 64x64. Las anteriores a la 1.8 son de 64x32; al importar una se convierte al formato moderno automáticamente (el brazo y la pierna derechos se espejan sobre el lado izquierdo).'],
+    ['¿Cómo uso la skin que he hecho?', 'Descarga el PNG. En Java Edition, abre el Minecraft Launcher, ve a Skins y añade el archivo. En Bedrock, las skins por archivo requieren un skin pack propio o la importación del character creator donde esté disponible.'],
+    ['¿Funciona con el modelo de brazo slim (Alex)?', 'El editor pinta el diseño clásico de brazo de 4 píxeles. El juego renderiza el modelo slim usando las 3 columnas interiores de cada cara del brazo, así que pinta ahí y la skin se verá bien en ambos.'],
+    ['¿Puedo editar una skin descargada de otro sitio?', 'Sí: usa Importar PNG para cargar cualquier skin de 64x64 o 64x32 y seguir editándola. Usa solo skins que tengas derecho a modificar.'],
+    ['¿Esta herramienta usa texturas oficiales de Minecraft?', 'No. La plantilla inicial es nuestro propio maniquí neutro dibujado desde cero. No se incluyen texturas ni personajes de Mojang, y todo lo que pintes o importes se queda en tu dispositivo.']
+  ]
+} : {
+  title: 'Minecraft Skin Maker - Free Online Skin Editor',
+  desc: 'Create and edit Minecraft skins in your browser. Paint the 64x64 texture map with a live preview, import your own skin, and download a game-ready PNG. Free, no signup.',
+  home: 'Home', homeHref: '/', toolsCrumb: 'Tools', toolsHref: '/tools/', crumb: 'Skin Maker',
+  canonical: '/tools/skin-maker/', alt: '/es/tools/skin-maker/',
+  h1: 'Minecraft Skin Maker',
+  sub: 'A free skin editor that runs 100% in your browser. Paint the unfolded 64x64 texture map, watch the model update live, then download a game-ready PNG. Nothing is uploaded anywhere.',
+  pencil: '✏️ Pencil', eraser: '🧽 Eraser', fill: '🪣 Fill', pick: '💉 Pick',
+  colorL: 'Color', undo: '↩️ Undo', redo: '↪️ Redo', reset: '🗑️ Reset',
+  zoomL: 'Zoom', grid: '▦ Grid', guides: '🏷️ Guides',
+  importL: '📂 Import PNG', download: '⬇️ Download skin',
+  hint: 'Hover the map to see which body part each region belongs to. The second layer (hat, jacket, sleeves) sits below the base layer on the map.',
+  previewT: 'Live preview', front: 'Front', side: 'Side', back: 'Back',
+  pvhint: 'Overlay layers (hat, jacket, sleeve, pant) show on top, exactly like in game.',
+  howH: 'How to use the skin editor',
+  how1: ' The editor loads our neutral mannequin template. To edit an existing skin instead, click',
+  how1b: 'Start from a base.', how1c: 'Import PNG', how1d: 'and choose a 64x64 (or legacy 64x32) skin file.',
+  how2b: 'Paint the map.', how2: ' The big canvas is the real skin file, unfolded. Every labeled box is one face of the model: head, torso, arms and legs, plus the overlay "second layer" regions used for hats, jackets and loose clothing. Pick a color, choose the pencil or fill bucket, and draw. Use zoom and the grid for detail work.',
+  how3b: 'Watch the preview.', how3: ' Front, side and back views re-render on every stroke, so what you paint is exactly what you get in game.',
+  how4b: 'Download and apply.', how4: ' Click', how4c: 'Download skin', how4d: 'to save a standard 64x64 PNG. On Java Edition, add it in the Minecraft Launcher under the Skins tab. On Bedrock, imported skins need a skin pack; the character creator is the supported route on most platforms.',
+  tipsH: 'Tips for better skins',
+  tip1b: 'Shade every face.', tip1: ' The top of the head catches light; the sides and bottom look better slightly darker. Even two tones per face add a lot of depth.',
+  tip2b: 'Use the second layer.', tip2: ' Hair, hoods, jackets and baggy sleeves live in the overlay regions (the lower half of the map). They render slightly outside the body, like real clothes.',
+  tip3b: 'Keep the palette small.', tip3: ' Skins read best with 3-6 main colors plus shading variants.',
+  tip4b: 'Mind the slim model.', tip4: ' On the "Alex" arm style only the inner 3 columns of each arm face show. Paint there and your skin works on both models.',
+  tip5b: 'Check the back.', tip5: ' Most people only polish the front. Flip to the back preview before you call it done.',
+  faqH: 'FAQ',
+  faqs: [
+    ['Is this Minecraft skin maker free?', 'Yes. The editor runs entirely in your browser: no download, no account, no cost, and your skin file never leaves your device.'],
+    ['What size is a Minecraft skin?', 'Modern skins are 64x64 PNG files. Pre-1.8 skins are 64x32; importing one converts it to the modern layout automatically (the right arm and leg are mirrored onto the left side).'],
+    ['How do I use the skin I made?', 'Download the PNG. On Java Edition, open the Minecraft Launcher, go to Skins, and add the file. On Bedrock, file-based skins require a custom skin pack or the character creator import where available.'],
+    ['Does it work with the slim (Alex) arm model?', 'The editor paints the classic 4-pixel arm layout. The game renders the slim model by using the inner 3 columns of each arm face, so paint there and the skin looks right on both.'],
+    ['Can I edit a skin I downloaded elsewhere?', 'Yes - use Import PNG to load any 64x64 or 64x32 skin and keep editing. Only use skins you have the rights to modify.'],
+    ['Does this tool use official Minecraft textures?', 'No. The starter template is our own neutral mannequin drawn from scratch. No Mojang textures or characters are included, and anything you paint or import stays on your device.']
+  ]
+};
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'Minepedia Skin Maker',
+    url: `https://minepedia.app${L.canonical}`,
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Any (web browser)',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    description: L.desc
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: L.faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } }))
+  }
+];
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.toolsHref}>{L.toolsCrumb}</a> / {L.crumb}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+
+    <div class="editor">
+      <div class="toolbar">
+        <div class="tgroup" role="group" aria-label="Tools">
+          <button class="tbtn active" data-tool="pencil" title="Pencil (P)">{L.pencil}</button>
+          <button class="tbtn" data-tool="eraser" title="Eraser (E)">{L.eraser}</button>
+          <button class="tbtn" data-tool="fill" title="Fill (F)">{L.fill}</button>
+          <button class="tbtn" data-tool="picker" title="Eyedropper (I)">{L.pick}</button>
+        </div>
+        <div class="tgroup">
+          <label class="tlabel">{L.colorL} <input type="color" id="colorInput" value="#3aa655"></label>
+          <button class="tbtn" id="undoBtn" title="Undo (Ctrl+Z)">{L.undo}</button>
+          <button class="tbtn" id="redoBtn" title="Redo (Ctrl+Y)">{L.redo}</button>
+          <button class="tbtn" id="clearBtn" title="Reset to template">{L.reset}</button>
+        </div>
+        <div class="tgroup">
+          <label class="tlabel">{L.zoomL} <input type="range" id="zoomRange" min="4" max="14" value="9"></label>
+          <button class="tbtn active" id="gridBtn" title="Toggle pixel grid">{L.grid}</button>
+          <button class="tbtn active" id="regionBtn" title="Toggle body-part guides">{L.guides}</button>
+        </div>
+        <div class="tgroup">
+          <label class="tbtn filebtn">{L.importL}<input type="file" id="importInput" accept="image/png" hidden></label>
+          <button class="tbtn primary" id="downloadBtn">{L.download}</button>
+        </div>
+      </div>
+      <div class="swatches" id="swatches" aria-label="Color palette"></div>
+      <p class="hint" id="regionHint">{L.hint}</p>
+      <div class="workarea">
+        <div class="canvaswrap" id="canvasWrap">
+          <canvas id="paintCanvas" width="576" height="576"></canvas>
+        </div>
+        <div class="previewcol">
+          <h3 class="pvtitle">{L.previewT}</h3>
+          <div class="previews">
+            <figure><canvas id="pvFront" width="160" height="320"></canvas><figcaption>{L.front}</figcaption></figure>
+            <figure><canvas id="pvSide" width="160" height="320"></canvas><figcaption>{L.side}</figcaption></figure>
+            <figure><canvas id="pvBack" width="160" height="320"></canvas><figcaption>{L.back}</figcaption></figure>
+          </div>
+          <p class="pvhint">{L.pvhint}</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>{L.howH}</h2>
+    <ol>
+      <li><strong>{L.how1b}</strong>{L.how1} <em>{L.how1c}</em> {L.how1d}</li>
+      <li><strong>{L.how2b}</strong>{L.how2}</li>
+      <li><strong>{L.how3b}</strong>{L.how3}</li>
+      <li><strong>{L.how4b}</strong>{L.how4} <em>{L.how4c}</em> {L.how4d}</li>
+    </ol>
+
+    <h2>{L.tipsH}</h2>
+    <ul>
+      <li><strong>{L.tip1b}</strong>{L.tip1}</li>
+      <li><strong>{L.tip2b}</strong>{L.tip2}</li>
+      <li><strong>{L.tip3b}</strong>{L.tip3}</li>
+      <li><strong>{L.tip4b}</strong>{L.tip4}</li>
+      <li><strong>{L.tip5b}</strong>{L.tip5}</li>
+    </ul>
+
+    <h2>{L.faqH}</h2>
+    {L.faqs.map(([q, a]) => (
+      <details><summary>{q}</summary><p>{a}</p></details>
+    ))}
+  </div>
+
+  <style>
+    .editor{background:#14181f;border:1px solid #232a35;border-radius:14px;padding:16px;margin:18px 0 8px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:10px}
+    .tgroup{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+    .tbtn{background:#1c222c;border:1px solid #2c3542;color:#e6ebf1;border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
+    .tbtn:hover{border-color:#3aa655}
+    .tbtn.active{background:#3aa655;border-color:#3aa655;color:#0b0e12;font-weight:600}
+    .tbtn.primary{background:#3aa655;border-color:#3aa655;color:#0b0e12;font-weight:700}
+    .filebtn{display:inline-block}
+    .tlabel{font-size:13px;color:#aeb8c4;display:flex;align-items:center;gap:6px}
+    input[type="color"]{width:34px;height:30px;border:1px solid #2c3542;border-radius:6px;background:#1c222c;padding:2px}
+    input[type="range"]{width:90px}
+    .swatches{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0 10px}
+    .swatches button{width:22px;height:22px;border-radius:5px;border:1px solid #0008;cursor:pointer;padding:0}
+    .swatches button.sel{outline:2px solid #fff}
+    .hint{font-size:12px;color:#7d8894;margin:0 0 10px}
+    .workarea{display:flex;gap:20px;flex-wrap:wrap}
+    .canvaswrap{overflow:auto;max-width:100%;background:#0d1015;border:1px solid #232a35;border-radius:10px;line-height:0}
+    #paintCanvas{image-rendering:pixelated;cursor:crosshair;touch-action:none}
+    .previewcol{min-width:200px}
+    .pvtitle{margin:0 0 8px;font-size:14px;color:#aeb8c4}
+    .previews{display:flex;gap:10px;flex-wrap:wrap}
+    .previews figure{margin:0;text-align:center}
+    .previews canvas{image-rendering:pixelated;background:#0d1015;border:1px solid #232a35;border-radius:10px;width:80px;height:160px}
+    .previews figcaption{font-size:11px;color:#7d8894;margin-top:4px}
+    .pvhint{font-size:11px;color:#5d6773;margin-top:8px;max-width:280px}
+  </style>
+
+  <script define:vars={{ plabels, flabels }}>
+    // --- Region map for the Java 64x64 skin layout ---
+    // faces: top, bottom, right, front, left, back (x,y,w,h on the atlas)
+    function boxFaces(x, y, tw, th, dw, dh, dp) {
+      // x,y = top-left of the box UV area; tw/th top face size; dw/dh side size; dp depth
+      return {
+        top:    [x + dp, y, dw, dp],
+        bottom: [x + dp + dw, y, dw, dp],
+        right:  [x, y + dp, dp, dh],
+        front:  [x + dp, y + dp, dw, dh],
+        left:   [x + dp + dw, y + dp, dp, dh],
+        back:   [x + dp + dw + dp, y + dp, dw, dh]
+      };
+    }
+    const PARTS = [
+      { id: 'head',    label: 'Head',          faces: boxFaces(0, 0, 8, 8, 8, 8, 8),  overlay: false },
+      { id: 'hat',     label: 'Hat (layer 2)', faces: boxFaces(32, 0, 8, 8, 8, 8, 8), overlay: true },
+      { id: 'body',    label: 'Body',          faces: boxFaces(16, 16, 8, 4, 8, 12, 4), overlay: false },
+      { id: 'jacket',  label: 'Jacket (layer 2)', faces: boxFaces(16, 32, 8, 4, 8, 12, 4), overlay: true },
+      { id: 'rarm',    label: 'Right arm',     faces: boxFaces(40, 16, 4, 4, 4, 12, 4), overlay: false },
+      { id: 'rarm2',   label: 'Right sleeve (layer 2)', faces: boxFaces(40, 32, 4, 4, 4, 12, 4), overlay: true },
+      { id: 'rleg',    label: 'Right leg',     faces: boxFaces(0, 16, 4, 4, 4, 12, 4), overlay: false },
+      { id: 'rleg2',   label: 'Right pant (layer 2)', faces: boxFaces(0, 32, 4, 4, 4, 12, 4), overlay: true },
+      { id: 'larm',    label: 'Left arm',      faces: boxFaces(32, 48, 4, 4, 4, 12, 4), overlay: false },
+      { id: 'larm2',   label: 'Left sleeve (layer 2)', faces: boxFaces(48, 48, 4, 4, 4, 12, 4), overlay: true },
+      { id: 'lleg',    label: 'Left leg',      faces: boxFaces(16, 48, 4, 4, 4, 12, 4), overlay: false },
+      { id: 'lleg2',   label: 'Left pant (layer 2)', faces: boxFaces(0, 48, 4, 4, 4, 12, 4), overlay: true }
+    ];
+    const FACE_ORDER = ['top', 'bottom', 'right', 'front', 'left', 'back'];
+
+    // --- Skin state ---
+    const skin = document.createElement('canvas');
+    skin.width = 64; skin.height = 64;
+    const sctx = skin.getContext('2d', { willReadFrequently: true });
+
+    function shade(hex, f) {
+      const n = parseInt(hex.slice(1), 16);
+      const r = Math.min(255, Math.round(((n >> 16) & 255) * f));
+      const g = Math.min(255, Math.round(((n >> 8) & 255) * f));
+      const b = Math.min(255, Math.round((n & 255) * f));
+      return [r, g, b, 255];
+    }
+    function fillRect(img, rect, rgba) {
+      for (let y = rect[1]; y < rect[1] + rect[3]; y++)
+        for (let x = rect[0]; x < rect[0] + rect[2]; x++) {
+          const i = (y * 64 + x) * 4;
+          img.data[i] = rgba[0]; img.data[i + 1] = rgba[1]; img.data[i + 2] = rgba[2]; img.data[i + 3] = rgba[3];
+        }
+    }
+    function drawTemplate() {
+      const img = sctx.createImageData(64, 64);
+      const base = '#9aa7b4', cloth = '#3aa655', pants = '#37507e', hair = '#4a3b2a';
+      const put = (part, colors) => {
+        FACE_ORDER.forEach((f, i) => fillRect(img, part.faces[f], shade(colors, [1.08, 0.82, 0.9, 1, 0.94, 0.86][i])));
+      };
+      put(PARTS[0], base);                       // head
+      put(PARTS[2], cloth);                      // body
+      put(PARTS[4], base); put(PARTS[6], pants); // right arm, right leg
+      put(PARTS[8], base); put(PARTS[10], pants);// left arm, left leg
+      // hair: top of head
+      fillRect(img, PARTS[0].faces.top, shade(hair, 1));
+      fillRect(img, PARTS[0].faces.back, shade(hair, 0.86));
+      // eyes on head front (front face at 8,8, 8x8): eyes row y+3, x+1..2 and x+5..6
+      const fr = PARTS[0].faces.front;
+      const eye = (ex, ey, c) => { const i = ((fr[1] + ey) * 64 + fr[0] + ex) * 4; img.data[i] = c[0]; img.data[i+1] = c[1]; img.data[i+2] = c[2]; img.data[i+3] = 255; };
+      [1, 2, 5, 6].forEach(ex => eye(ex, 3, [255, 255, 255]));
+      eye(2, 3, [38, 58, 92]); eye(5, 3, [38, 58, 92]);
+      // mouth
+      [3, 4].forEach(ex => eye(ex, 5, [70, 78, 88]));
+      sctx.putImageData(img, 0, 0);
+    }
+    drawTemplate();
+
+    // --- Painting ---
+    const paintCanvas = document.getElementById('paintCanvas');
+    const pctx = paintCanvas.getContext('2d');
+    let zoom = 9, tool = 'pencil', color = '#3aa655', painting = false;
+    let showGrid = true, showRegions = true;
+    let hoverLabel = '';
+    const undoStack = [], redoStack = [];
+
+    function pushUndo() {
+      undoStack.push(sctx.getImageData(0, 0, 64, 64));
+      if (undoStack.length > 40) undoStack.shift();
+      redoStack.length = 0;
+    }
+    function undo() {
+      if (!undoStack.length) return;
+      redoStack.push(sctx.getImageData(0, 0, 64, 64));
+      sctx.putImageData(undoStack.pop(), 0, 0);
+      renderAll();
+    }
+    function redo() {
+      if (!redoStack.length) return;
+      undoStack.push(sctx.getImageData(0, 0, 64, 64));
+      sctx.putImageData(redoStack.pop(), 0, 0);
+      renderAll();
+    }
+
+    function hexToRgb(hex) {
+      const n = parseInt(hex.slice(1), 16);
+      return [(n >> 16) & 255, (n >> 8) & 255, n & 255, 255];
+    }
+    function setPixel(x, y, rgba) {
+      if (x < 0 || y < 0 || x > 63 || y > 63) return;
+      const img = sctx.getImageData(x, y, 1, 1);
+      img.data[0] = rgba[0]; img.data[1] = rgba[1]; img.data[2] = rgba[2]; img.data[3] = rgba[3];
+      sctx.putImageData(img, x, y);
+    }
+    function floodFill(x, y, rgba) {
+      const img = sctx.getImageData(0, 0, 64, 64);
+      const ti = (y * 64 + x) * 4;
+      const tr = img.data[ti], tg = img.data[ti + 1], tb = img.data[ti + 2], ta = img.data[ti + 3];
+      if (tr === rgba[0] && tg === rgba[1] && tb === rgba[2] && ta === rgba[3]) return;
+      const stack = [[x, y]];
+      while (stack.length) {
+        const [cx, cy] = stack.pop();
+        if (cx < 0 || cy < 0 || cx > 63 || cy > 63) continue;
+        const i = (cy * 64 + cx) * 4;
+        if (img.data[i] !== tr || img.data[i + 1] !== tg || img.data[i + 2] !== tb || img.data[i + 3] !== ta) continue;
+        img.data[i] = rgba[0]; img.data[i + 1] = rgba[1]; img.data[i + 2] = rgba[2]; img.data[i + 3] = rgba[3];
+        stack.push([cx + 1, cy], [cx - 1, cy], [cx, cy + 1], [cx, cy - 1]);
+      }
+      sctx.putImageData(img, 0, 0);
+    }
+
+    function drawPaint() {
+      paintCanvas.width = 64 * zoom; paintCanvas.height = 64 * zoom;
+      pctx.imageSmoothingEnabled = false;
+      // checker background for transparent pixels
+      for (let y = 0; y < 64; y++) for (let x = 0; x < 64; x++) {
+        pctx.fillStyle = (x + y) % 2 ? '#151a21' : '#10141a';
+        pctx.fillRect(x * zoom, y * zoom, zoom, zoom);
+      }
+      pctx.drawImage(skin, 0, 0, 64 * zoom, 64 * zoom);
+      if (showRegions) {
+        pctx.lineWidth = 1;
+        PARTS.forEach(p => {
+          pctx.strokeStyle = p.overlay ? '#ffb34788' : '#3aa65566';
+          FACE_ORDER.forEach(f => {
+            const r = p.faces[f];
+            pctx.strokeRect(r[0] * zoom + 0.5, r[1] * zoom + 0.5, r[2] * zoom - 1, r[3] * zoom - 1);
+          });
+        });
+      }
+      if (showGrid) {
+        pctx.strokeStyle = '#ffffff10';
+        pctx.lineWidth = 1;
+        for (let i = 1; i < 64; i++) {
+          pctx.beginPath(); pctx.moveTo(i * zoom + 0.5, 0); pctx.lineTo(i * zoom + 0.5, 64 * zoom); pctx.stroke();
+          pctx.beginPath(); pctx.moveTo(0, i * zoom + 0.5); pctx.lineTo(64 * zoom, i * zoom + 0.5); pctx.stroke();
+        }
+      }
+      if (hoverLabel) {
+        pctx.font = '12px system-ui'; pctx.fillStyle = '#ffd166';
+        pctx.fillText(hoverLabel, 8, 16);
+      }
+    }
+
+    // --- Model preview (front / side / back, overlay layers on top) ---
+    function drawPart(ctx, part, face, dx, dy, s, flip) {
+      const r = part.faces[face];
+      const tmp = document.createElement('canvas');
+      tmp.width = r[2]; tmp.height = r[3];
+      const tctx = tmp.getContext('2d');
+      tctx.drawImage(skin, r[0], r[1], r[2], r[3], 0, 0, r[2], r[3]);
+      ctx.save();
+      if (flip) { ctx.translate(dx + r[2] * s, dy); ctx.scale(-1, 1); }
+      else ctx.translate(dx, dy);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(tmp, 0, 0, r[2] * s, r[3] * s);
+      ctx.restore();
+    }
+    function renderPreview(canvas, view) {
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.imageSmoothingEnabled = false;
+      const s = 10, ox = view === 'side' ? 40 : 0, oy = 10;
+      const P = id => PARTS.find(p => p.id === id);
+      if (view === 'front' || view === 'back') {
+        const f = view === 'front' ? 'front' : 'back';
+        const armL = view === 'front' ? ['rarm', 'rarm2'] : ['larm', 'larm2'];
+        const armR = view === 'front' ? ['larm', 'larm2'] : ['rarm', 'rarm2'];
+        const legL = view === 'front' ? ['rleg', 'rleg2'] : ['lleg', 'lleg2'];
+        const legR = view === 'front' ? ['lleg', 'lleg2'] : ['rleg', 'rleg2'];
+        // base
+        drawPart(ctx, P('head'), f, ox + 4 * s, oy, s);
+        drawPart(ctx, P('body'), f, ox + 4 * s, oy + 8 * s, s);
+        drawPart(ctx, P(armL[0]), f, ox, oy + 8 * s, s);
+        drawPart(ctx, P(armR[0]), f, ox + 12 * s, oy + 8 * s, s);
+        drawPart(ctx, P(legL[0]), f, ox + 4 * s, oy + 20 * s, s);
+        drawPart(ctx, P(legR[0]), f, ox + 8 * s, oy + 20 * s, s);
+        // overlays
+        drawPart(ctx, P('hat'), f, ox + 4 * s, oy, s);
+        drawPart(ctx, P('jacket'), f, ox + 4 * s, oy + 8 * s, s);
+        drawPart(ctx, P(armL[1]), f, ox, oy + 8 * s, s);
+        drawPart(ctx, P(armR[1]), f, ox + 12 * s, oy + 8 * s, s);
+        drawPart(ctx, P(legL[1]), f, ox + 4 * s, oy + 20 * s, s);
+        drawPart(ctx, P(legR[1]), f, ox + 8 * s, oy + 20 * s, s);
+      } else {
+        // left side view
+        drawPart(ctx, P('head'), 'left', ox, oy, s);
+        drawPart(ctx, P('body'), 'left', ox + 2 * s, oy + 8 * s, s);
+        drawPart(ctx, P('larm'), 'left', ox + 2 * s, oy + 8 * s, s);
+        drawPart(ctx, P('lleg'), 'left', ox + 2 * s, oy + 20 * s, s);
+        drawPart(ctx, P('hat'), 'left', ox, oy, s);
+        drawPart(ctx, P('jacket'), 'left', ox + 2 * s, oy + 8 * s, s);
+        drawPart(ctx, P('larm2'), 'left', ox + 2 * s, oy + 8 * s, s);
+        drawPart(ctx, P('lleg2'), 'left', ox + 2 * s, oy + 20 * s, s);
+      }
+    }
+    function renderAll() {
+      drawPaint();
+      renderPreview(document.getElementById('pvFront'), 'front');
+      renderPreview(document.getElementById('pvSide'), 'side');
+      renderPreview(document.getElementById('pvBack'), 'back');
+    }
+
+    // --- Input handling ---
+    let lastPos = null;
+    function canvasPos(e) {
+      const r = paintCanvas.getBoundingClientRect();
+      return {
+        x: Math.floor((e.clientX - r.left) / (r.width / 64)),
+        y: Math.floor((e.clientY - r.top) / (r.height / 64))
+      };
+    }
+    function applyTool(x, y) {
+      if (tool === 'pencil') setPixel(x, y, hexToRgb(color));
+      else if (tool === 'eraser') setPixel(x, y, [0, 0, 0, 0]);
+      else if (tool === 'fill') floodFill(x, y, hexToRgb(color));
+      else if (tool === 'picker') {
+        const d = sctx.getImageData(x, y, 1, 1).data;
+        if (d[3] > 0) {
+          color = '#' + [d[0], d[1], d[2]].map(v => v.toString(16).padStart(2, '0')).join('');
+          document.getElementById('colorInput').value = color;
+          markSwatch();
+        }
+      }
+    }
+    function labelAt(x, y) {
+      for (const p of PARTS) for (const f of FACE_ORDER) {
+        const r = p.faces[f];
+        if (x >= r[0] && x < r[0] + r[2] && y >= r[1] && y < r[1] + r[3])
+          return plabels[p.id] + ' - ' + flabels[f];
+      }
+      return '';
+    }
+    paintCanvas.addEventListener('pointerdown', e => {
+      e.preventDefault();
+      paintCanvas.setPointerCapture(e.pointerId);
+      const { x, y } = canvasPos(e);
+      if (tool !== 'picker') pushUndo();
+      applyTool(x, y);
+      lastPos = { x, y };
+      painting = true;
+      renderAll();
+    });
+    paintCanvas.addEventListener('pointermove', e => {
+      const { x, y } = canvasPos(e);
+      const label = labelAt(x, y);
+      if (label !== hoverLabel) { hoverLabel = label; drawPaint(); }
+      if (!painting) return;
+      if (tool === 'pencil' || tool === 'eraser') {
+        // simple line interpolation for smooth strokes
+        let { x: x0, y: y0 } = lastPos, x1 = x, y1 = y;
+        const dx = Math.abs(x1 - x0), dy = Math.abs(y1 - y0);
+        const steps = Math.max(dx, dy, 1);
+        for (let i = 0; i <= steps; i++) {
+          applyTool(Math.round(x0 + (x1 - x0) * i / steps), Math.round(y0 + (y1 - y0) * i / steps));
+        }
+        lastPos = { x, y };
+        renderAll();
+      }
+    });
+    window.addEventListener('pointerup', () => { painting = false; });
+
+    // --- Toolbar ---
+    document.querySelectorAll('[data-tool]').forEach(b => b.addEventListener('click', () => {
+      document.querySelectorAll('[data-tool]').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      tool = b.dataset.tool;
+    }));
+    document.getElementById('colorInput').addEventListener('input', e => { color = e.target.value; markSwatch(); });
+    document.getElementById('undoBtn').addEventListener('click', undo);
+    document.getElementById('redoBtn').addEventListener('click', redo);
+    document.getElementById('clearBtn').addEventListener('click', () => { pushUndo(); drawTemplate(); renderAll(); });
+    document.getElementById('zoomRange').addEventListener('input', e => { zoom = +e.target.value; drawPaint(); });
+    document.getElementById('gridBtn').addEventListener('click', e => { showGrid = !showGrid; e.target.classList.toggle('active'); drawPaint(); });
+    document.getElementById('regionBtn').addEventListener('click', e => { showRegions = !showRegions; e.target.classList.toggle('active'); drawPaint(); });
+    document.addEventListener('keydown', e => {
+      if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z') { e.preventDefault(); e.shiftKey ? redo() : undo(); }
+      else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'y') { e.preventDefault(); redo(); }
+      else if (e.key.toLowerCase() === 'p') setTool('pencil');
+      else if (e.key.toLowerCase() === 'e') setTool('eraser');
+      else if (e.key.toLowerCase() === 'f') setTool('fill');
+      else if (e.key.toLowerCase() === 'i') setTool('picker');
+    });
+    function setTool(t) {
+      tool = t;
+      document.querySelectorAll('[data-tool]').forEach(x => x.classList.toggle('active', x.dataset.tool === t));
+    }
+
+    // --- Palette ---
+    const SWATCHES = ['#ffffff','#d9d9d9','#8c8c8c','#404040','#1a1a1a','#f2c9a4','#e0ac69','#c68642','#8d5524','#5c3836','#3b2314','#3aa655','#2e7d46','#7ac74f','#b7e26b','#ffd166','#f4a261','#e76f51','#c1121f','#780000','#ff8fa3','#ffb3c1','#9b5de5','#5a189a','#4361ee','#37507e','#4cc9f0','#0e9594','#80ed99','#fefae0','#bc6c25','#606c38'];
+    const sw = document.getElementById('swatches');
+    SWATCHES.forEach(c => {
+      const b = document.createElement('button');
+      b.style.background = c; b.dataset.c = c; b.title = c;
+      b.addEventListener('click', () => { color = c; document.getElementById('colorInput').value = c; markSwatch(); });
+      sw.appendChild(b);
+    });
+    function markSwatch() {
+      document.querySelectorAll('#swatches button').forEach(b => b.classList.toggle('sel', b.dataset.c === color));
+    }
+    markSwatch();
+
+    // --- Import / download ---
+    document.getElementById('importInput').addEventListener('change', e => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const img = new Image();
+      img.onload = () => {
+        pushUndo();
+        sctx.clearRect(0, 0, 64, 64);
+        if (img.width === 64 && img.height === 32) {
+          // legacy 64x32: copy as-is, then mirror right limbs onto left slots
+          sctx.drawImage(img, 0, 0);
+          const copyMirrored = (sx, sy, w, h, dx, dy) => {
+            const t = document.createElement('canvas'); t.width = w; t.height = h;
+            const tc = t.getContext('2d');
+            tc.translate(w, 0); tc.scale(-1, 1);
+            tc.drawImage(skin, sx, sy, w, h, 0, 0, w, h);
+            sctx.drawImage(t, dx, dy);
+          };
+          copyMirrored(40, 16, 16, 16, 32, 48); // right arm area -> left arm
+          copyMirrored(0, 16, 16, 16, 16, 48);  // right leg area -> left leg
+        } else {
+          sctx.drawImage(img, 0, 0, 64, 64);
+        }
+        URL.revokeObjectURL(img.src);
+        renderAll();
+      };
+      img.src = URL.createObjectURL(f);
+      e.target.value = '';
+    });
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+      skin.toBlob(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'minepedia-skin.png';
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }, 'image/png');
+    });
+
+    renderAll();
+
+    // Load a gallery skin passed as ?skin=/skins/<slug>.png
+    const qs = new URLSearchParams(location.search);
+    const preset = qs.get('skin');
+    if (preset && /^\/skins\/[a-z0-9-]+\.png$/.test(preset)) {
+      const img = new Image();
+      img.onload = () => { pushUndo(); sctx.clearRect(0, 0, 64, 64); sctx.drawImage(img, 0, 0, 64, 64); renderAll(); };
+      img.src = preset;
+    }
+  </script>
+</Base>
