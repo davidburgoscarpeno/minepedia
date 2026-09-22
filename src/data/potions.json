@@ -1,0 +1,420 @@
+[
+ {
+  "slug": "night-vision",
+  "name": "Potion of Night Vision",
+  "effect": "Night Vision - see in complete darkness",
+  "duration": "3:00 (8:00 extended with redstone)",
+  "recipe": "Awkward Potion + golden carrot",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Ocean monument raiding without a conduit",
+   "Caving without torches - mobs still spawn, so stay alert",
+   "Exploring the deep dark without triggering shriekers by torch light"
+  ],
+  "variants": "Extended (8:00) with redstone dust. Splash and lingering versions exist for sharing with teammates.",
+  "editionNote": "Identical in Java and Bedrock. The last seconds of Night Vision flash the screen as a warning.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "invisibility",
+   "water-breathing",
+   "slow-falling"
+  ],
+  "keywords": "night vision potion golden carrot see dark brewing"
+ },
+ {
+  "slug": "invisibility",
+  "name": "Potion of Invisibility",
+  "effect": "Invisibility - mobs and players cannot see you (armor and held items still show)",
+  "duration": "3:00 (8:00 extended)",
+  "recipe": "Potion of Night Vision + fermented spider eye",
+  "base": "Brewed by corrupting Night Vision",
+  "uses": [
+   "Sneaking past the warden - invisibility plus crouching makes you nearly undetectable",
+   "PvP ambushes and escapes",
+   "Walking through mob-infested areas safely"
+  ],
+  "variants": "Extended (8:00) with redstone. Splash lets you turn pets or teammates invisible.",
+  "editionNote": "Identical in Java and Bedrock. Worn armor stays visible: in Java mobs detect armored invisible players from closer ranges; going unarmored is the stealth play.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "night-vision",
+   "swiftness",
+   "weakness"
+  ],
+  "keywords": "invisibility potion sneak warden fermented spider eye"
+ },
+ {
+  "slug": "swiftness",
+  "name": "Potion of Swiftness",
+  "effect": "Speed - move 20% faster per level",
+  "duration": "3:00 (8:00 extended; Swiftness II 1:30 with glowstone)",
+  "recipe": "Awkward Potion + sugar",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Long overland trips before you own an elytra",
+   "Outrunning raid waves and the warden",
+   "Speed bridging and parkour practice"
+  ],
+  "variants": "Extended with redstone, amplified to Swiftness II (40% faster) with glowstone. Splash for horses and teammates.",
+  "editionNote": "Identical in Java and Bedrock. Speed also increases jump distance and knockback taken, so watch cliffs.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "leaping",
+   "slowness",
+   "fire-resistance"
+  ],
+  "keywords": "swiftness speed potion sugar fast run brewing"
+ },
+ {
+  "slug": "slowness",
+  "name": "Potion of Slowness",
+  "effect": "Slowness - move 15% slower per level",
+  "duration": "1:30 (4:00 extended; Slowness IV 0:20 with glowstone)",
+  "recipe": "Potion of Swiftness or Leaping + fermented spider eye",
+  "base": "Brewed by corrupting Swiftness or Leaping",
+  "uses": [
+   "Splash it on charging ravagers and vindicators to control a raid",
+   "Slowing the warden's approach while you escape",
+   "PvP: a slowed enemy cannot close distance or retreat"
+  ],
+  "variants": "Extended (4:00) with redstone; glowstone corrupts to Slowness IV (0:20, 60% slower). Mainly used as splash or arrows.",
+  "editionNote": "Identical in Java and Bedrock. Tipped arrows of Slowness are a strong raid and PvP tool.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "swiftness",
+   "leaping",
+   "turtle-master"
+  ],
+  "keywords": "slowness potion splash slow enemy raid pvp"
+ },
+ {
+  "slug": "leaping",
+  "name": "Potion of Leaping",
+  "effect": "Jump Boost - jump higher (half a block more per level) and take less fall damage",
+  "duration": "3:00 (8:00 extended; Leaping II 1:30 with glowstone)",
+  "recipe": "Awkward Potion + rabbit's foot",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Jumping straight over fences and 1.5-block walls",
+   "Mountain travel and ravine escapes",
+   "Combined with Slow Falling for safe big jumps"
+  ],
+  "variants": "Extended (8:00) with redstone, Leaping II (2.5-block jumps) with glowstone.",
+  "editionNote": "Identical in Java and Bedrock. Each level also reduces fall damage by one level's worth of height.",
+  "since": "1.8 (14w27a)",
+  "related": [
+   "swiftness",
+   "slow-falling",
+   "slowness"
+  ],
+  "keywords": "leaping jump boost potion rabbit foot jump higher"
+ },
+ {
+  "slug": "fire-resistance",
+  "name": "Potion of Fire Resistance",
+  "effect": "Fire Resistance - immunity to fire, lava, blaze fireballs and magma blocks",
+  "duration": "3:00 (8:00 extended)",
+  "recipe": "Awkward Potion + magma cream",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Nether exploration and ancient debris mining - the single most important potion for the Nether",
+   "Fighting blazes and the dragon's fireballs",
+   "Swimming in lava lakes to safety"
+  ],
+  "variants": "Extended (8:00) with redstone. Splash for panic saves and pets.",
+  "editionNote": "Identical in Java and Bedrock. Full fire immunity: lava, fire, campfire, magma blocks and blaze fireballs. It does not protect against the void or drowning.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "water-breathing",
+   "regeneration",
+   "strength"
+  ],
+  "keywords": "fire resistance potion lava nether magma cream immune"
+ },
+ {
+  "slug": "water-breathing",
+  "name": "Potion of Water Breathing",
+  "effect": "Water Breathing - your oxygen bar never depletes",
+  "duration": "3:00 (8:00 extended)",
+  "recipe": "Awkward Potion + pufferfish",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Ocean monument raids before you own a conduit",
+   "Underwater building and shipwreck looting",
+   "Draining projects and coral reef harvesting"
+  ],
+  "variants": "Extended (8:00) with redstone. Splash keeps pets and teammates underwater with you.",
+  "editionNote": "Identical in Java and Bedrock. Pair with Depth Strider boots and Aqua Affinity helmet for full underwater mobility.",
+  "since": "1.7.2 (13w36a)",
+  "related": [
+   "night-vision",
+   "fire-resistance",
+   "turtle-master"
+  ],
+  "keywords": "water breathing potion pufferfish ocean monument underwater oxygen"
+ },
+ {
+  "slug": "healing",
+  "name": "Potion of Healing",
+  "effect": "Instant Health - restores 4 HP (2 hearts) instantly",
+  "duration": "Instant (Healing II restores 8 HP with glowstone)",
+  "recipe": "Awkward Potion + glistering melon slice",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Panic healing in boss fights - instant, unlike regeneration",
+   "Splash it on the iron golems defending you in a raid",
+   "Harming undead: splash Healing damages zombies and skeletons"
+  ],
+  "variants": "Healing II with glowstone (no extended version - instant effects have no duration).",
+  "editionNote": "Identical in Java and Bedrock. Instant Health heals living mobs but HARMS undead mobs - the same splash potion does both jobs.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "harming",
+   "regeneration",
+   "poison"
+  ],
+  "keywords": "healing potion instant health glistering melon undead damage"
+ },
+ {
+  "slug": "harming",
+  "name": "Potion of Harming",
+  "effect": "Instant Damage - deals 6 HP (3 hearts) instantly",
+  "duration": "Instant (Harming II deals 12 HP with glowstone)",
+  "recipe": "Potion of Healing or Poison + fermented spider eye",
+  "base": "Brewed by corrupting Healing or Poison",
+  "uses": [
+   "Splash damage that ignores armor - the anti-player potion",
+   "Finishing low-health mobs instantly",
+   "Arrows of Harming for a strong PvP loadout"
+  ],
+  "variants": "Harming II with glowstone. Instant effects cannot be extended.",
+  "editionNote": "Identical in Java and Bedrock. Instant Damage HEALS undead mobs - never throw Harming at zombies or the wither.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "healing",
+   "poison",
+   "weakness"
+  ],
+  "keywords": "harming potion instant damage splash pvp arrows"
+ },
+ {
+  "slug": "poison",
+  "name": "Potion of Poison",
+  "effect": "Poison - drains health over time, down to 1 HP (cannot kill)",
+  "duration": "0:45 (1:30 extended; Poison II 0:21.6 with glowstone)",
+  "recipe": "Awkward Potion + spider eye",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Splash poison on witches and pillagers in a raid, then finish them with a sword",
+   "Weakening cave spiders before they reach you",
+   "Tipped arrows of Poison for area denial"
+  ],
+  "variants": "Extended (1:30) with redstone, Poison II (faster drain, 0:21.6) with glowstone.",
+  "editionNote": "Identical in Java and Bedrock. Poison drains health to 1 HP and stops - it can never kill, so you always need a finishing hit. Undead mobs are immune.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "harming",
+   "weakness",
+   "healing"
+  ],
+  "keywords": "poison potion spider eye splash damage over time arrows"
+ },
+ {
+  "slug": "regeneration",
+  "name": "Potion of Regeneration",
+  "effect": "Regeneration - restore health continuously (about 1 heart every 2.5 seconds at level I)",
+  "duration": "0:45 (1:30 extended; Regeneration II 0:22.5 with glowstone)",
+  "recipe": "Awkward Potion + ghast tear",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Wither and dragon fights - sustain through chip damage",
+   "Raid survival between waves",
+   "Recovery after the Wither effect wears off"
+  ],
+  "variants": "Extended (1:30) with redstone, Regeneration II (double speed, half duration) with glowstone.",
+  "editionNote": "Identical in Java and Bedrock. Ghast tears are the bottleneck: farm ghasts in soul sand valleys with Looting III.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "healing",
+   "strength",
+   "fire-resistance"
+  ],
+  "keywords": "regeneration potion ghast tear heal over time boss fight"
+ },
+ {
+  "slug": "strength",
+  "name": "Potion of Strength",
+  "effect": "Strength - more melee damage (Java: +3 hearts per level; Bedrock: +30% per level)",
+  "duration": "3:00 (8:00 extended; Strength II 1:30 with glowstone)",
+  "recipe": "Awkward Potion + blaze powder",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Wither and ender dragon fights - the boss standard",
+   "Two-shotting raid vindicators with a Smite V axe",
+   "Any melee-heavy situation"
+  ],
+  "variants": "Extended (8:00) with redstone, Strength II (1:30) with glowstone.",
+  "editionNote": "BIG edition difference: Java gives a flat +3 damage per level (since 1.9), while Bedrock multiplies total damage by +30% per level - Strength II on a crit-hitting netherite sword hits far harder in Bedrock.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "regeneration",
+   "swiftness",
+   "weakness"
+  ],
+  "keywords": "strength potion blaze powder melee damage boss wither"
+ },
+ {
+  "slug": "weakness",
+  "name": "Potion of Weakness",
+  "effect": "Weakness - reduces melee attack damage",
+  "duration": "1:30 (4:00 extended)",
+  "recipe": "Water bottle + fermented spider eye (NO nether wart needed)",
+  "base": "Water Bottle directly - the only useful potion that skips the Awkward stage",
+  "uses": [
+   "Curing zombie villagers: splash Weakness + golden apple starts the conversion - the foundation of every trading hall",
+   "Nerfing a ravager or vindicator's melee in a pinch",
+   "PvP support splash"
+  ],
+  "variants": "Extended (4:00) with redstone. No level II.",
+  "editionNote": "Identical in Java and Bedrock: fermented spider eye straight into a water bottle. Keep a chest of these ready whenever a zombie villager appears.",
+  "since": "1.0.0 (Beta 1.9-pre2)",
+  "related": [
+   "strength",
+   "healing",
+   "poison"
+  ],
+  "keywords": "weakness potion cure zombie villager golden apple fermented spider eye"
+ },
+ {
+  "slug": "turtle-master",
+  "name": "Potion of the Turtle Master",
+  "effect": "Slowness IV + Resistance III - nearly unkillable but very slow",
+  "duration": "0:20 (0:40 extended; Turtle Master II gives Resistance IV with glowstone)",
+  "recipe": "Awkward Potion + turtle scute",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Tanking the warden's melee while a teammate attacks",
+   "Surviving a ravager charge or a creeper point-blank",
+   "Holding a choke point in PvP"
+  ],
+  "variants": "Extended (0:40) with redstone; Turtle Master II (Resistance IV, Slowness VI) with glowstone.",
+  "editionNote": "Identical in Java and Bedrock. Turtle scutes come from baby turtles growing up - breed turtles on beaches with seagrass to farm them.",
+  "since": "1.13 (18w16a)",
+  "related": [
+   "slowness",
+   "water-breathing",
+   "regeneration"
+  ],
+  "keywords": "turtle master potion resistance tank scute slow"
+ },
+ {
+  "slug": "slow-falling",
+  "name": "Potion of Slow Falling",
+  "effect": "Slow Falling - fall gently, take no fall damage, land softly like a glider",
+  "duration": "1:30 (4:00 extended)",
+  "recipe": "Awkward Potion + phantom membrane",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "The End: bridging between islands without fear of falling off",
+   "Jumping off mountains and build sites safely",
+   "Dodging shulker levitation - slow falling overrides the float"
+  ],
+  "variants": "Extended (4:00) with redstone. No level II.",
+  "editionNote": "Identical in Java and Bedrock. Phantom membranes come from phantoms (they spawn after three sleepless nights) and occasionally from cat gifts.",
+  "since": "1.13 (18w14a)",
+  "related": [
+   "leaping",
+   "night-vision",
+   "swiftness"
+  ],
+  "keywords": "slow falling potion phantom membrane no fall damage end shulker"
+ },
+ {
+  "slug": "wind-charging",
+  "name": "Potion of Wind Charging",
+  "effect": "Wind Charged - the affected entity releases a wind burst when it dies",
+  "duration": "3:00 (cannot be extended or amplified)",
+  "recipe": "Awkward Potion + breeze rod",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Splash on a mob you are about to kill for a free knockback burst",
+   "Wind-burst mobility tricks: kill a charged mob under you to launch yourself",
+   "Pranks and mob-launch contraptions"
+  ],
+  "variants": "No extended or level II version. Splash and lingering only.",
+  "editionNote": "Identical in Java and Bedrock since 1.21. The wind burst works like a wind charge explosion - knocks entities and activates buttons and doors.",
+  "since": "1.21 (24w18a)",
+  "related": [
+   "oozing",
+   "weaving",
+   "infestation"
+  ],
+  "keywords": "wind charging potion breeze rod wind charged burst trial chambers"
+ },
+ {
+  "slug": "oozing",
+  "name": "Potion of Oozing",
+  "effect": "Oozing - the affected entity spawns two medium slimes when it dies",
+  "duration": "3:00 (cannot be extended or amplified)",
+  "recipe": "Awkward Potion + slime block",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Slimeball farming: splash a mob, kill it, harvest the slimes",
+   "Chaos in PvP arenas",
+   "Pairing with a looting sword for maximum slime drops"
+  ],
+  "variants": "No extended or level II version. Splash and lingering only.",
+  "editionNote": "Identical in Java and Bedrock since 1.21. The spawned slimes are medium size, so they split once more when killed - a real slimeball multiplier.",
+  "since": "1.21 (24w18a)",
+  "related": [
+   "wind-charging",
+   "weaving",
+   "infestation"
+  ],
+  "keywords": "oozing potion slime block slimes death effect 1.21"
+ },
+ {
+  "slug": "weaving",
+  "name": "Potion of Weaving",
+  "effect": "Weaving - the affected entity moves 50% faster through cobwebs and spawns 2-3 cobwebs on death",
+  "duration": "3:00 (cannot be extended or amplified)",
+  "recipe": "Awkward Potion + cobweb",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Traps: splash a mob, kill it, and its death webs slow the next wave",
+   "Cobweb generation for string farms",
+   "Mob-arena mayhem"
+  ],
+  "variants": "No extended or level II version. Splash and lingering only.",
+  "editionNote": "Identical in Java and Bedrock since 1.21. Cobwebs drop string when broken with a sword or shears, so weaving kills feed string production.",
+  "since": "1.21 (24w18a)",
+  "related": [
+   "oozing",
+   "wind-charging",
+   "infestation"
+  ],
+  "keywords": "weaving potion cobweb spiders death webs 1.21"
+ },
+ {
+  "slug": "infestation",
+  "name": "Potion of Infestation",
+  "effect": "Infested - the affected entity has a 10% chance to spawn 1-2 silverfish when hit",
+  "duration": "3:00 (cannot be extended or amplified)",
+  "recipe": "Awkward Potion + stone block (yes, plain stone)",
+  "base": "Awkward Potion (water bottle + nether wart)",
+  "uses": [
+   "Silverfish XP and monster-farming tricks",
+   "Area chaos in mob arenas",
+   "Mostly a novelty for farms and fun - it has little practical survival use"
+  ],
+  "variants": "No extended or level II version. Splash and lingering only.",
+  "editionNote": "Identical in Java and Bedrock since 1.21. It is the only potion brewed with a full block of stone as the ingredient.",
+  "since": "1.21 (24w18a)",
+  "related": [
+   "oozing",
+   "weaving",
+   "wind-charging"
+  ],
+  "keywords": "infestation potion stone silverfish infested 1.21"
+ }
+]

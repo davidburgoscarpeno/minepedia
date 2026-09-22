@@ -3,6 +3,7 @@ import recipes from '../data/recipes.json';
 import enchantments from '../data/enchantments.json';
 import mobs from '../data/mobs.json';
 import guides from '../data/guides.json';
+import potions from '../data/potions.json';
 import villagers from '../data/villagers.json';
 import itemData from '../data/items.json';
 import farms from '../data/farms.json';
@@ -18,6 +19,7 @@ export async function GET() {
     ...enchantments.map(e => ({ name: e.name, kind: 'enchantment', url: `/enchantments/${e.slug}/`, keywords: e.keywords })),
     ...mobs.map(m => ({ name: m.name, kind: 'mob', url: `/mobs/${m.slug}/`, keywords: m.keywords })),
     ...guides.map(g => ({ name: g.name, kind: 'guide', url: `/guides/${g.slug}/`, keywords: g.keywords })),
+    ...potions.map(x => ({ name: x.name, kind: 'potion', url: `/potions/${x.slug}/`, keywords: x.keywords })),
     ...villagers.map(v => ({ name: `${v.name} villager trades`, kind: 'villager', url: `/villagers/${v.slug}/`, keywords: v.keywords })),
     ...itemData.map(i => ({ name: i.name, kind: 'item', url: `/items/${i.slug}/`, keywords: i.keywords })),
     ...farms.map(f => ({ name: f.name, kind: 'farm', url: `/farms/${f.slug}/`, keywords: f.keywords })),
