@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+const pages = [
+  { href: '/servers/make-a-server/', name: 'Make Your Own Server', desc: 'Official server jar, Paper, port forwarding and playit.gg for CGNAT' },
+  { href: '/servers/free-hosting/', name: 'Free Server Hosting', desc: 'Aternos and what "free" really means' },
+  { href: '/servers/plugins/', name: 'Essential Server Plugins', desc: 'LuckPerms, EssentialsX, GeyserMC and the standard plugin stack' }
+];
+---
+<Base title="Minecraft Servers" description="Minecraft server guide: make your own server (Java or Bedrock), free hosting with Aternos, essential plugins like LuckPerms and GeyserMC, and Realms vs self-hosting." canonicalPath="/servers/">
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / Servers</nav>
+    <h1>Minecraft Servers</h1>
+    <p class="sub">Every way to play with friends, from a LAN world to your own plugin server.</p>
+    <SearchBox placeholder="Search servers, guides, tools..." />
+    <h2>Your options, cheapest to most powerful</h2>
+    <table class="data">
+      <tr><th>Option</th><th>Cost</th><th>Best for</th><th>Limits</th></tr>
+      <tr><td><strong>LAN / open-to-LAN</strong></td><td>Free</td><td>Same house, quick sessions</td><td>Same network only, world closes with the host</td></tr>
+      <tr><td><strong>Realms</strong></td><td>Paid monthly subscription</td><td>Small groups, zero setup, cross-play on Bedrock</td><td>No mods/plugins, player cap, Mojang-controlled</td></tr>
+      <tr><td><strong>Free hosting (Aternos)</strong></td><td>Free</td><td>Friends playing on a schedule</td><td>Queues at peak hours, server sleeps when empty</td></tr>
+      <tr><td><strong>Self-hosting</strong></td><td>Free (your PC/electricity)</td><td>Full control, mods and plugins</td><td>Your PC must stay on; port forwarding or a tunnel</td></tr>
+      <tr><td><strong>Paid hosting</strong></td><td>From a few euros/month</td><td>Communities, always-on modded servers</td><td>Costs money; quality varies wildly</td></tr>
+    </table>
+    <div class="grid-cards" style="margin-top:24px">
+      {pages.map(p => (
+        <a class="card" href={p.href}><h3>{p.name}</h3><p>{p.desc}</p></a>
+      ))}
+    </div>
+  </div>
+</Base>

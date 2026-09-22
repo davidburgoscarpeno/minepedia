@@ -32,7 +32,10 @@ export async function GET() {
     { name: 'Essential Performance Mods', kind: 'guide', url: '/mods/essential-mods/', keywords: 'sodium lithium iris fabric api jei emi jade appleskin performance fps' },
     { name: 'Best Content Mods', kind: 'guide', url: '/mods/best-content-mods/', keywords: 'create mod botania twilight forest farmers delight terralith mekanism' },
     { name: 'Shaders Guide', kind: 'guide', url: '/mods/shaders/', keywords: 'shaders iris complementary bsl install vibrant visuals' },
-    { name: 'Bedrock Add-ons', kind: 'guide', url: '/mods/bedrock-addons/', keywords: 'bedrock addons mcaddon marketplace console mobile' }
+    { name: 'Bedrock Add-ons', kind: 'guide', url: '/mods/bedrock-addons/', keywords: 'bedrock addons mcaddon marketplace console mobile' },
+    { name: 'How to Make a Minecraft Server', kind: 'guide', url: '/servers/make-a-server/', keywords: 'make server paper port forwarding 25565 playit whitelist eula' },
+    { name: 'Free Server Hosting', kind: 'guide', url: '/servers/free-hosting/', keywords: 'aternos free hosting minecraft server java bedrock' },
+    { name: 'Essential Server Plugins', kind: 'guide', url: '/servers/plugins/', keywords: 'luckperms essentialsx geysermc viaversion coreprotect plugins paper' }
   ];
   return new Response(JSON.stringify(items), { headers: { 'Content-Type': 'application/json' } });
 }
