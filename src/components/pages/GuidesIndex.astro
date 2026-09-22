@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import guides from '../../data/guides.json';
+import guidesEs from '../../data/guides-es.json';
+import GameShot from '../../components/GameShot.astro';
+
+interface Props { lang: 'en' | 'es'; }
+const { lang } = Astro.props;
+const isES = lang === 'es';
+const list = isES ? guides.filter((g: any) => (guidesEs as any)[g.slug]) : guides;
+
+const L = isES ? {
+  title: 'Guías de Minecraft',
+  desc: 'Guías perennes de Minecraft: cómo encontrar diamantes, hacer un portal al Nether, domar caballos, criar aldeanos, conseguir las elytra, encantar y más. Java y Bedrock.',
+  home: 'Inicio', homeHref: '/es/', h1: 'Guías de Minecraft',
+  sub: `${list.length} guías paso a paso con respuestas rápidas, materiales y preguntas frecuentes.`,
+  placeholder: 'Busca guías, objetos, comandos...',
+  canonical: '/es/guides/', alt: '/guides/', base: '/es/guides/'
+} : {
+  title: 'Minecraft Guides',
+  desc: 'Evergreen Minecraft guides: how to find diamonds, make a nether portal, tame horses, breed villagers, get elytra, enchant and more. Java and Bedrock.',
+  home: 'Home', homeHref: '/', h1: 'Minecraft Guides',
+  sub: `${list.length} step-by-step guides with quick answers, materials and FAQs.`,
+  placeholder: 'Search guides, items, commands...',
+  canonical: '/guides/', alt: '/es/guides/', base: '/guides/'
+};
+---
+<Base title={L.title} description={L.desc} canonicalPath={L.canonical} lang={lang} altPath={L.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / {isES ? 'Guías' : 'Guides'}</nav>
+    <h1>{L.h1}</h1>
+    <p class="sub">{L.sub}</p>
+    <SearchBox placeholder={L.placeholder} />
+    <GameShot id="guides-block-breaking" />
+    <div class="grid-cards" style="margin-top:24px">
+      {list.map((g: any) => {
+        const ov = isES ? (guidesEs as any)[g.slug] : null;
+        const name = ov?.name ?? g.name;
+        const qa = ov?.quickAnswer ?? g.quickAnswer;
+        return (
+        <a class="card" href={`${L.base}${g.slug}/`}>
+          <img class="pixel-icon" src={`/item-icons/${g.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <h3>{name}</h3>
+          <p>{qa.split('.')[0]}.</p>
+        </a>
+      )})}
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,10 @@
+---
+import GuideDetail from '../../../components/pages/GuideDetail.astro';
+import guides from '../../../data/guides.json';
+import guidesEs from '../../../data/guides-es.json';
+export function getStaticPaths() {
+  return guides.filter(g => (guidesEs as any)[g.slug]).map(g => ({ params: { slug: g.slug }, props: { g } }));
+}
+const { g } = Astro.props;
+---
+<GuideDetail g={g} lang="es" />

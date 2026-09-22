@@ -1,0 +1,364 @@
+{
+ "how-to-find-diamonds": {
+  "name": "Cómo encontrar diamantes en Minecraft",
+  "shortTitle": "Encontrar diamantes",
+  "quickAnswer": "Mina a Y=-59 (justo encima de la bedrock) en el Overworld. La diamond ore se genera con más frecuencia en los niveles más profundos, desde Y=16 hasta la bedrock, con máximo cerca de Y=-59. Usa un pico de iron o mejor; Fortune III multiplica tus diamantes.",
+  "steps": [
+   "Craftea un pico de iron (3 iron ingots + 2 sticks). Los picos de piedra o madera destruyen la diamond ore sin soltar nada.",
+   "Baja hasta Y=-59. Pulsa F3 (Java) o activa las coordenadas en los ajustes del mundo (Bedrock) para ver tu nivel Y. Cava una escalera, nunca en vertical.",
+   "Haz branch mining: cava un túnel principal y túneles laterales cada 2 bloques para exponer el máximo de bloques por golpe de pico.",
+   "Busca diamond ore (puntos azul claro) en piedra o deepslate. Cada veta tiene 1-10 menas; las vetas cerca de lagos de lava son más fáciles de ver en cuevas.",
+   "Mina la mena con tu pico de iron o superior. Cada mena suelta 1 diamante (hasta 4 con Fortune III).",
+   "Alternativa: explora cuevas entre Y=-50 e Y=-64, y saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions y end cities."
+  ],
+  "materials": [
+   "Pico de iron o mejor (diamante, netherite)",
+   "Antorchas",
+   "Comida",
+   "Cubo de agua para la lava",
+   "Pico con Fortune III para el mejor rendimiento (opcional)"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock: la diamond ore se genera de Y=16 a la bedrock con tasas máximas en Y=-59, y con exposición reducida al aire desde la 1.18. Las coordenadas se ven con F3 en Java y con el ajuste Mostrar coordenadas del mundo en Bedrock.",
+  "versions": "La distribución de menas aplica a 1.18+ (Caves & Cliffs Parte 2). Antes de la 1.18, mina a Y=11-12.",
+  "faq": [
+   {
+    "q": "¿Cuál es el mejor nivel Y para diamantes?",
+    "a": "Y=-59, justo encima de la capa de bedrock. La diamond ore es más común en el fondo del mundo, pero la bedrock empieza a aparecer en Y=-60, así que -59 te mantiene a salvo de ella."
+   },
+   {
+    "q": "¿Aparecen más diamantes cerca de la lava?",
+    "a": "No, pero las vetas de diamante cerca de lagos de lava en cuevas profundas son más fáciles de ver porque menos bloques las ocultan. La exposición al aire reduce la generación de diamantes desde la 1.18, así que el strip mining supera a la caza en cuevas."
+   },
+   {
+    "q": "¿Se pueden encontrar diamantes sin minar?",
+    "a": "Sí: los cofres de tesoros enterrados, shipwrecks, mineshafts, bastion remnants, end cities y ruined portals pueden contener diamantes o equipo de diamante."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/enchantments/fortune/",
+    "label": "Encantamiento Fortune"
+   },
+   {
+    "url": "/es/recipes/enchanting-table/",
+    "label": "Receta de la Enchanting Table"
+   }
+  ]
+ },
+ "how-to-make-nether-portal": {
+  "name": "Cómo hacer un portal al Nether en Minecraft",
+  "shortTitle": "Portal al Nether",
+  "quickAnswer": "Construye un marco vertical de obsidiana de al menos 4 bloques de ancho y 5 de alto (10 de obsidiana como mínimo, esquinas opcionales) y enciende el interior con un mechero. Un marco completo con esquinas usa 14 de obsidiana.",
+  "steps": [
+   "Consigue obsidiana: vierte agua sobre bloques de lava fuente y mínala con un pico de diamante o netherite. Necesitas 10 (marco económico) o 14 (marco completo).",
+   "Construye el marco en vertical: dos columnas de obsidiana de 3 bloques de alto, unidas por 2 de obsidiana arriba y 2 abajo. Espacio interior: 2x3.",
+   "Las esquinas son opcionales: déjalas vacías para ahorrar 4 de obsidiana.",
+   "Enciéndelo: usa un mechero (1 iron ingot + 1 flint de la grava) en la cara interior del marco. El fuego de lava, un fire charge o una bola de fuego de ghast también funcionan.",
+   "El interior se llena de bloques de portal morados. Quédate dentro 4 segundos para teletransportarte al Nether.",
+   "¿Sin pico de diamante? Funde el portal in situ: haz un molde, coloca bloques de lava fuente donde va el marco y vierte agua sobre cada uno para convertirlos en obsidiana uno a uno."
+  ],
+  "materials": [
+   "10-14 de obsidiana",
+   "Mechero (1 iron + 1 flint)",
+   "Pico de diamante/netherite O cubo de agua + lava para fundirlo in situ"
+  ],
+  "editionNote": "La mecánica de portales es la misma en Java y Bedrock: marco mínimo de 4x5, máximo de 23x23. Los portales enlazados emparejan coordenadas del Overworld y del Nether en proporción 8:1 (X y Z divididas entre 8).",
+  "versions": "Sin cambios desde Alpha. La crying obsidian y los ruined portals se añadieron en la 1.16: los ruined portals se pueden reparar en portales funcionales.",
+  "faq": [
+   {
+    "q": "¿Cuánta obsidiana hace falta para un portal al Nether?",
+    "a": "10 bloques como mínimo si te saltas las cuatro esquinas, o 14 para el marco completo de 4x5."
+   },
+   {
+    "q": "¿Por qué no se enciende mi portal al Nether?",
+    "a": "Comprueba que el marco es de obsidiana completa con un interior vacío de 2x3, que estás en el Overworld o el Nether (los portales no se forman en el End) y que enciendes la cara interior del marco."
+   },
+   {
+    "q": "¿Cómo se enlazan los portales entre dimensiones?",
+    "a": "Cada bloque del Overworld equivale a 8 bloques del Nether en X y Z. Un portal en Overworld 800, 64, 800 enlaza cerca de Nether 100, ~64, 100. La Y no se escala."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/tools/nether-calculator/",
+    "label": "Calculadora de coordenadas del Nether"
+   },
+   {
+    "url": "/es/recipes/flint-and-steel/",
+    "label": "Receta del mechero"
+   }
+  ]
+ },
+ "how-to-find-ancient-city": {
+  "name": "Cómo encontrar una Ancient City en Minecraft",
+  "shortTitle": "Encontrar una Ancient City",
+  "quickAnswer": "Las ancient cities se generan en el bioma Deep Dark muy bajo tierra, alrededor de Y=-51, casi siempre bajo montañas. Baja de Y=0 en una zona montañosa y busca bloques de sculk, o usa /locate structure minecraft:ancient_city con trucos.",
+  "steps": [
+   "Prepárate: lleva bloques de lana y una azada (el sculk se rompe más rápido con azada), pociones de visión nocturna, comida, y evita armadura ruidosa, o lleva equipo encantado completo si piensas luchar.",
+   "Baja hondo: las ancient cities aparecen alrededor de Y=-51 en el Deep Dark. Las zonas montañosas (picos irregulares, mesetas) son la pista de superficie más fiable.",
+   "Identifica el Deep Dark: bloques de sculk, sculk veins, sensors y shriekers marcan el bioma. Aquí no aparecen mobs hostiles de forma natural.",
+   "Muévete despacio: agáchate (sneak) en todas partes; al agacharte no creas vibraciones. Coloca lana para caminar sobre ella, porque la lana y las alfombras absorben vibraciones.",
+   "Rompe o bloquea los sculk shriekers antes de activarlos 4 veces: el cuarto alarido invoca al Warden.",
+   "Saquea los cofres: libros encantados de Swift Sneak, echo shards, fragmentos de disco y manzanas doradas encantadas son hallazgos exclusivos o raros de aquí.",
+   "Alternativa con trucos: /locate structure minecraft:ancient_city te da las coordenadas exactas."
+  ],
+  "materials": [
+   "Bloques de lana o alfombras (muchos)",
+   "Azada para el sculk",
+   "Pociones de visión nocturna",
+   "Comida y antorchas",
+   "Nada de equipo ruidoso"
+  ],
+  "editionNote": "Estructura idéntica en Java y Bedrock desde la 1.19. Las reglas de aparición del Warden (4 activaciones de shrieker) coinciden entre ediciones.",
+  "versions": "Añadida en la 1.19 (The Wild Update).",
+  "faq": [
+   {
+    "q": "¿A qué nivel Y están las ancient cities?",
+    "a": "Los centros de las ancient cities están alrededor de Y=-51, siempre en el bioma Deep Dark muy por debajo de Y=0."
+   },
+   {
+    "q": "¿Cuántos alaridos invocan al Warden?",
+    "a": "Cuatro activaciones de un sculk shrieker natural dentro de rango invocan un Warden desde el suelo, siempre que no haya otro Warden cerca."
+   },
+   {
+    "q": "¿Merece la pena saquear una ancient city?",
+    "a": "Sí: el encantamiento de leggings Swift Sneak y los echo shards (para la recovery compass) solo se encuentran allí, además de fragmentos del disco 5 y botín encantado de alto nivel."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/warden/",
+    "label": "Warden"
+   },
+   {
+    "url": "/es/commands/locate/",
+    "label": "Comando /locate"
+   }
+  ]
+ },
+ "how-to-tame-horse": {
+  "name": "Cómo domar un caballo en Minecraft",
+  "shortTitle": "Domar un caballo",
+  "quickAnswer": "Acércate a un caballo salvaje con las manos vacías y haz clic derecho para montarlo. Te derribará unas cuantas veces: sigue montando hasta que aparezcan corazones. Después equípale una montura para controlarlo.",
+  "steps": [
+   "Encuentra caballos en los biomas de llanuras y sabana, en manadas de 2-6.",
+   "Vacía tu mano y haz clic derecho en el caballo para montar. Te derribará en segundos.",
+   "Vuelve a montar repetidamente. Cada intento sube su temperamento hasta que aparecen corazones: el caballo está domado.",
+   "Alimentarlo antes ayuda: manzanas, trigo, azúcar, balas de heno o zanahorias/manzanas doradas suben el temperamento para necesitar menos intentos.",
+   "Abre tu inventario mientras lo montas (o agáchate + clic derecho en el caballo) y coloca una montura en su hueco. Las monturas no se pueden craftear: encuéntralas en dungeons, templos, bastions, aldeas o pescando.",
+   "Los caballos domados pueden llevar armadura de caballo y criarse con manzanas o zanahorias doradas.",
+   "La velocidad, el salto y la salud son aleatorios por caballo (y se heredan): cría tus dos mejores para conseguir un potro mejor."
+  ],
+  "materials": [
+   "Montura (solo botín: dungeons, nether fortresses, bastions, aldeas, pesca)",
+   "Opcional: manzanas/trigo/azúcar para acelerar el domado",
+   "Manzanas o zanahorias doradas para criar"
+  ],
+  "editionNote": "Mecánica de domado idéntica en Java y Bedrock. Los caballos esqueleto de las skeleton traps se doman igual; los caballos zombi no se usan en survival vanilla.",
+  "versions": "Caballos desde la 1.6.1. Las variantes de caballo y la mecánica de cría están vigentes desde la 1.18+.",
+  "faq": [
+   {
+    "q": "¿Se puede craftear una montura en Minecraft?",
+    "a": "No. Las monturas son solo botín: cofres de dungeons/templos/bastions, cofres de weaponsmith y curtidor de aldeas, tesoro de pesca, o comerciando con leatherworkers maestros (Java: 6 esmeraldas)."
+   },
+   {
+    "q": "¿Cuál es la forma más rápida de domar un caballo?",
+    "a": "Dale antes unas manzanas, trigo o balas de heno: cada comida sube el temperamento, así que te acepta tras 1-2 montas en lugar de muchas."
+   },
+   {
+    "q": "¿Cómo consigues un caballo rápido?",
+    "a": "Las estadísticas son aleatorias al aparecer. Doma varios caballos, prueba su velocidad y salto, y cría los dos mejores con manzanas o zanahorias doradas: los potros promedian las estadísticas de sus padres con variación aleatoria."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/wolf/",
+    "label": "Wolf"
+   }
+  ]
+ },
+ "how-to-breed-villagers": {
+  "name": "Cómo criar aldeanos en Minecraft",
+  "shortTitle": "Criar aldeanos",
+  "quickAnswer": "Los aldeanos crían por su cuenta cuando tienen comida suficiente (3 panes, 12 zanahorias, 12 patatas o 12 remolachas cada uno) y hay más camas válidas que aldeanos: cada cama necesita 2 bloques de aire encima. Da de comer a dos aldeanos o tírales comida y espera.",
+  "steps": [
+   "Construye una zona cerrada y segura para que los aldeanos no se escapen ni mueran por zombis.",
+   "Coloca camas: al menos una cama por aldeano adulto más una cama extra por cada bebé que quieras. Cada cama necesita 2 bloques vacíos encima o no cuenta.",
+   "Haz que estén dispuestos: tírale comida a dos aldeanos: 3 panes, o 12 zanahorias / patatas / remolachas cada uno. Los farmers también comparten y cosechan cultivos automáticamente.",
+   "Espera: aparecen partículas de corazones y nace un bebé aldeano a los pocos minutos. Crece en 20 minutos.",
+   "Alternativa: construye una granja de cultivos dentro del recinto con un composter; un aldeano farmer cosechará y compartirá comida sin parar, criando indefinidamente mientras haya camas disponibles.",
+   "Los bebés no heredan profesión: la eligen de adultos reclamando un puesto de trabajo libre (lectern = librarian, blast furnace = armorer...)."
+  ],
+  "materials": [
+   "Camas (1 por aldeano + de repuesto)",
+   "Comida: pan, zanahorias, patatas o remolachas",
+   "Puestos de trabajo para las profesiones",
+   "Composter (opcional, para un criadero automático)"
+  ],
+  "editionNote": "Las reglas de cría coinciden en Java y Bedrock. En Bedrock los aldeanos necesitan que las camas estén vinculadas a la aldea y poder llegar a ellas.",
+  "versions": "Mecánica vigente desde la 1.14 (Village & Pillage).",
+  "faq": [
+   {
+    "q": "¿Por qué no crían mis aldeanos?",
+    "a": "Casi siempre: no hay camas válidas suficientes (cada una necesita 2 bloques de aire encima), no hay comida suficiente, el mob griefing está desactivado (no pueden recoger comida), o no pueden llegar a las camas."
+   },
+   {
+    "q": "¿Qué comida hace criar a los aldeanos?",
+    "a": "Pan (3), zanahorias (12), patatas (12) o remolachas (12) por aldeano. Tienen que recogerla: tírala al suelo junto a ellos."
+   },
+   {
+    "q": "¿Pueden criar aldeanos infinitamente?",
+    "a": "Sí, mientras sigas añadiendo camas válidas y comida. Los criaderos automáticos usan un farmer con un campo de zanahorias o patatas de 9x9 y una fila de camas."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/villager/",
+    "label": "Villager"
+   },
+   {
+    "url": "/es/recipes/bed/",
+    "label": "Receta de la cama"
+   }
+  ]
+ },
+ "how-to-get-elytra": {
+  "name": "Cómo conseguir las elytra en Minecraft",
+  "shortTitle": "Conseguir las elytra",
+  "quickAnswer": "Las elytra solo se encuentran en los End Ships, que se generan junto a algunas End Cities en las islas exteriores del End. Derrota al Ender Dragon, lanza una ender pearl por un End Gateway, encuentra una End City con barco y coge las elytra de su item frame.",
+  "steps": [
+   "Mata al Ender Dragon para abrir los End Gateways (hasta 20).",
+   "Lanza una ender pearl a un gateway para teletransportarte a las islas exteriores.",
+   "Explora hasta encontrar una End City: torres de purpur y end stone bricks. Solo algunas ciudades tienen un barco flotando al lado.",
+   "Sube al barco: haz un puente o cruza con perlas. Ojo con los shulkers: sus balas de levitación te hacen caer desde las alturas.",
+   "Dentro del casco del barco, coge las elytra del item frame (detrás del brewing stand). La cabeza de dragón está en la proa.",
+   "Para volar: equipa las elytra en el hueco de pechera, salta desde una altura y pulsa saltar de nuevo en el aire para planear. Usa firework rockets para impulsarte.",
+   "Repáralas con phantom membranes en un yunque, o ponles Mending + Unbreaking III: las elytra no se pueden craftear."
+  ],
+  "materials": [
+   "Ender pearls (para los gateways y esquivar shulkers)",
+   "Pociones de Slow Falling (recomendadas)",
+   "Bloques para hacer puentes",
+   "Buena armadura y un arco"
+  ],
+  "editionNote": "Idénticas en Java y Bedrock. Cada End City tiene como máximo un barco; no todas las ciudades tienen uno: sigue explorando.",
+  "versions": "Elytra desde la 1.9 (Combat Update).",
+  "faq": [
+   {
+    "q": "¿Se pueden craftear las elytra?",
+    "a": "No. Las elytra solo se encuentran como botín en los End Ships: una por barco, en un item frame en el casco."
+   },
+   {
+    "q": "¿Se rompen las elytra?",
+    "a": "Sí: pierden 1 de durabilidad por segundo de vuelo (432 segundos en total) y dejan de funcionar a 1 de durabilidad en lugar de romperse. Repara con phantom membranes o Mending."
+   },
+   {
+    "q": "¿Cómo vuelas para siempre con elytra?",
+    "a": "Usa firework rockets (papel + gunpowder; 3 de gunpowder para el impulso más largo) mientras planeas, y gana altitud cabeceando hacia arriba tras cada impulso. Con Unbreaking III + Mending nunca se desgasta."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/enchantments/mending/",
+    "label": "Mending"
+   },
+   {
+    "url": "/es/mobs/shulker/",
+    "label": "Shulker"
+   }
+  ]
+ },
+ "how-to-enchant": {
+  "name": "Cómo encantar en Minecraft",
+  "shortTitle": "Encantar objetos",
+  "quickAnswer": "Craftea una enchanting table (4 obsidiana + 2 diamantes + 1 libro), rodéala con hasta 15 librerías dejando un bloque de separación, mete el objeto con 1-3 lapis lazuli y elige uno de tres encantamientos aleatorios que cuestan hasta 30 niveles de XP.",
+  "steps": [
+   "Craftea una enchanting table: 4 obsidiana, 2 diamantes, 1 libro.",
+   "Construye una biblioteca: 15 librerías (6 tablones + 3 libros cada una) alrededor de la mesa con exactamente un bloque de aire de separación: un anillo de 5x5 con la mesa en el centro es el diseño estándar.",
+   "Consigue lapis lazuli: mina lapis ore (de Y=-32 a 32, máximo cerca de Y=0) o comercia con aldeanos clerics.",
+   "Consigue niveles de XP: mata mobs, funde, mina, cría animales o pesca. El nivel 30 desbloquea la mejor oferta de encantamiento.",
+   "Abre la mesa: pon el objeto en el hueco izquierdo y 1-3 de lapis en el derecho. Aparecen tres ofertas; la de abajo cuesta 3 de lapis y 30 niveles.",
+   "Las ofertas solo se reinician después de encantar algo: encanta un objeto barato (libro o herramienta de madera) para rebarajar si no te gustan las opciones.",
+   "Ve más lejos con yunques: combina dos objetos encantados, o aplica libros encantados (de botín, pesca o aldeanos librarians) para encantamientos exactos como Mending."
+  ],
+  "materials": [
+   "Enchanting table",
+   "15 librerías para el nivel máximo",
+   "Lapis lazuli",
+   "Niveles de XP (30 para la mejor oferta)",
+   "Yunque + libros encantados para encantamientos concretos"
+  ],
+  "editionNote": "La mecánica coincide en Java y Bedrock: máximo de 15 librerías, tope de 30 niveles, y los encantamientos tesoro (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) nunca aparecen en la mesa.",
+  "versions": "Sistema vigente desde la 1.8 (se añadió el coste de lapis).",
+  "faq": [
+   {
+    "q": "¿Cuántas librerías hacen falta para encantamientos de nivel 30?",
+    "a": "15 librerías, colocadas a un bloque de la enchanting table (anillo de 5x5, mesa en medio, sin nada, ni antorchas ni alfombras, en el hueco)."
+   },
+   {
+    "q": "¿Por qué no puedo conseguir Mending en la enchanting table?",
+    "a": "Mending es un encantamiento tesoro: solo sale de cofres de botín, pesca, raids (Bedrock) o tradeos de aldeanos librarians."
+   },
+   {
+    "q": "¿Cómo se rebarajan las opciones de encantamiento?",
+    "a": "Encanta cualquier objeto barato, un libro o una pala de madera, y las tres ofertas se regeneran. El tipo de objeto también filtra qué encantamientos pueden aparecer."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/recipes/enchanting-table/",
+    "label": "Receta de la Enchanting Table"
+   },
+   {
+    "url": "/es/enchantments/",
+    "label": "Todos los encantamientos"
+   },
+   {
+    "url": "/es/recipes/anvil/",
+    "label": "Receta del yunque"
+   }
+  ]
+ },
+ "how-to-make-iron-golem": {
+  "name": "Cómo hacer un iron golem en Minecraft",
+  "shortTitle": "Hacer un iron golem",
+  "quickAnswer": "Apila 4 bloques de hierro en forma de T (3 en la fila superior, 1 en el centro debajo, 1 en la base) y coloca una carved pumpkin o jack o'lantern en el centro superior en último lugar. Se transforma en un iron golem vivo con 100 de salud que ataca a los mobs hostiles.",
+  "steps": [
+   "Consigue 36 iron ingots y craftea 4 bloques de hierro (9 lingotes cada uno).",
+   "Consigue una carved pumpkin: talla una calabaza normal con tijeras. Un jack o'lantern también vale.",
+   "Coloca 1 bloque de hierro en el suelo y apila 1 más encima (cuerpo).",
+   "Pega 1 bloque de hierro a cada lado del bloque superior (brazos), formando una T.",
+   "Coloca la carved pumpkin encima del bloque central, EN ÚLTIMO LUGAR, o el golem no se formará.",
+   "La estructura se transforma en un iron golem: 100 de salud, hasta 21,5 de daño por golpe, lanza mobs por los aires.",
+   "Los golems no te siguen; patrullan donde aparecieron. Enciérralos con una valla o usa una lead para mantener a tu guardaespaldas cerca de tu base.",
+   "Las aldeas generan sus propios golems de forma natural, y los golems invocados por aldeanos se vuelven hostiles si tu popularidad en la aldea baja demasiado."
+  ],
+  "materials": [
+   "4 bloques de hierro (36 iron ingots)",
+   "1 carved pumpkin o jack o'lantern",
+   "Tijeras (para tallar la calabaza)"
+  ],
+  "editionNote": "Construcción idéntica en Java y Bedrock. La T también se puede construir tumbada de lado; la calabaza siempre va la última.",
+  "versions": "Iron golems desde la 1.2.1. Textura agrietada y reparación con iron ingots (clic derecho con un lingote cura un 25%) desde la 1.15.",
+  "faq": [
+   {
+    "q": "¿Por qué no aparece mi iron golem?",
+    "a": "Comprueba que la forma es una T de exactamente 4 bloques de hierro sin bloques extra tocándola, y que colocaste la carved pumpkin la última. Las capas de nieve o hierba sobre los bloques también pueden bloquearlo."
+   },
+   {
+    "q": "¿Me protegerá un iron golem?",
+    "a": "Los golems construidos por el jugador nunca atacan a su creador y luchan contra los mobs hostiles cercanos, pero no te siguen: mantenlos cercados o con una lead."
+   },
+   {
+    "q": "¿Cómo se cura un iron golem?",
+    "a": "Haz clic derecho con un iron ingot: cada lingote restaura el 25% de su salud. Las grietas de su cuerpo muestran lo herido que está."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/recipes/shears/",
+    "label": "Receta de las tijeras"
+   }
+  ]
+ }
+}
