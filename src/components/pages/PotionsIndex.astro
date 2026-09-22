@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import PotionIcon from '../PotionIcon.astro';
+import BrewDiagram from '../BrewDiagram.astro';
+import potions from '../../data/potions.json';
+import potionsEs from '../../data/potions-es.json';
+
+interface Props { lang?: 'en' | 'es' }
+const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
+const COLORS: Record<string, string> = {
+  'night-vision': '#3a4fa0', 'invisibility': '#c8cdd4', 'swiftness': '#4fd8e0', 'slowness': '#7a8a99',
+  'leaping': '#7ed957', 'fire-resistance': '#f08c2e', 'water-breathing': '#2e7ff0', 'healing': '#f05a78',
+  'harming': '#a03434', 'poison': '#6aa84f', 'regeneration': '#f07ab0', 'strength': '#d0344c',
+  'weakness': '#8a7a6a', 'turtle-master': '#3aa08a', 'slow-falling': '#e8e8f0', 'wind-charging': '#b8e0e8',
+  'oozing': '#9acd5a', 'weaving': '#dcdce0', 'infestation': '#9a9a9a'
+};
+const ingOf = (r: string) => r.split(' + ').slice(1).join(' + ').replace(/ \((.*?)\)/, '');
+const effOf = (p: any) => { const e = (isES && (potionsEs as any)[p.slug] ? (potionsEs as any)[p.slug].effect : p.effect); return e.split(' - ')[1] || e; };
+const durOf = (p: any) => { const d = (isES && (potionsEs as any)[p.slug] ? (potionsEs as any)[p.slug].duration : p.duration); return d.split(' (')[0]; };
+const cardHref = (slug: string) => isES ? `/es/potions/${slug}/` : `/potions/${slug}/`;
+
+const S = isES ? {
+  title: 'Pociones de Minecraft: todas las recetas de alquimia',
+  description: 'Todas las recetas de pociones de Minecraft: ingredientes, efectos, duraciones y mejores usos. Fundamentos de alquimia, variantes splash y lingering, Java y Bedrock.',
+  h1: 'Pociones de Minecraft',
+  sub: `${potions.length} pociones con recetas exactas, duraciones y cuándo usarlas.`,
+  crumb: 'Pociones', home: 'Inicio',
+  placeholder: 'Busca pociones, objetos, guías...',
+  quick: '<strong>Respuesta rápida:</strong> coloca un brewing stand, aliméntalo con blaze powder y destila nether wart en botellas de agua para hacer Awkward Potions, la base de casi todas las pociones. Añade el ingrediente del efecto (ver cada poción abajo) y luego modifica: redstone alarga la duración, glowstone la potencia a nivel II, gunpowder la hace splash y dragon\'s breath la convierte en lingering.',
+  basicsH: 'Fundamentos de alquimia',
+  basics: [
+    '<strong>Brewing stand:</strong> 1 blaze rod + 3 bloques de tipo cobblestone. Cada blaze powder alimenta 20 operaciones de destilación.',
+    '<strong>Awkward Potion</strong> (nether wart + botella de agua) es la base de todo excepto Weakness, que se hace con un fermented spider eye directo en una botella de agua.',
+    '<strong>Modificadores:</strong> redstone = más duración, glowstone = más potencia (elige uno), gunpowder = splash lanzable, dragon\'s breath = nube lingering (para flechas con efecto).',
+    '<strong>El fermented spider eye</strong> corrompe efectos: Swiftness pasa a Slowness, Healing a Harming y Night Vision a Invisibility.'
+  ],
+  howH: 'Cómo funciona la alquimia',
+  brewIngredient: 'ingrediente de efecto', brewResult: 'Poción de efecto',
+  brew: 'Destila:', canonical: '/es/potions/', alt: '/potions/'
+} : {
+  title: 'Minecraft Potions: Every Brewing Recipe',
+  description: 'Every Minecraft potion recipe: ingredients, effects, durations and the best uses. Brewing basics, splash and lingering variants, Java and Bedrock.',
+  h1: 'Minecraft Potions',
+  sub: `${potions.length} potions with exact brewing recipes, durations and when to use them.`,
+  crumb: 'Potions', home: 'Home',
+  placeholder: 'Search potions, items, guides...',
+  quick: '<strong>Quick answer:</strong> place a brewing stand, fuel it with blaze powder, and brew nether wart into water bottles to make Awkward Potions - the base of almost every potion. Add the effect ingredient (see each potion below), then modify: redstone extends duration, glowstone amplifies to level II, gunpowder makes it splash, and dragon\'s breath makes splash lingering.',
+  basicsH: 'Brewing basics',
+  basics: [
+    '<strong>Brewing stand:</strong> 1 blaze rod + 3 cobblestone-tier blocks. Each blaze powder fuels 20 brewing operations.',
+    '<strong>Awkward Potion</strong> (nether wart + water bottle) is the base of everything except Weakness, which brews a fermented spider eye straight into a water bottle.',
+    '<strong>Modifiers:</strong> redstone = longer, glowstone = stronger (pick one), gunpowder = throwable splash, dragon\'s breath = lingering cloud (for tipped arrows).',
+    '<strong>Fermented spider eye</strong> corrupts effects: Swiftness becomes Slowness, Healing becomes Harming, Night Vision becomes Invisibility.'
+  ],
+  howH: 'How brewing works',
+  brewIngredient: 'effect ingredient', brewResult: 'Effect Potion',
+  brew: 'Brew:', canonical: '/potions/', alt: '/es/potions/'
+};
+---
+<Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
+  <div class="container">
+    <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
+    <h1>{S.h1}</h1>
+    <p class="sub">{S.sub}</p>
+    <SearchBox placeholder={S.placeholder} />
+    <div class="quick-answer" set:html={S.quick}></div>
+    <h2>{S.basicsH}</h2>
+    <ul>
+      {S.basics.map(b => <li set:html={b}></li>)}
+    </ul>
+    <h2 style="margin-top:28px">{S.howH}</h2>
+    <BrewDiagram ingredient={S.brewIngredient} resultName={S.brewResult} color="#4caf50" lang={lang} />
+    <div class="grid-cards" style="margin-top:24px">
+      {potions.map(p => (
+        <a class="card entity-card" href={cardHref(p.slug)}>
+          <span class="entity-icon"><PotionIcon color={COLORS[p.slug] || '#4caf50'} /></span>
+          <div>
+            <h3>{p.name.replace('Potion of the ', '').replace('Potion of ', '')}</h3>
+            <p>{effOf(p)}</p>
+            <p class="meta"><b>{S.brew}</b> {ingOf(p.recipe)} &middot; <b>{durOf(p)}</b></p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

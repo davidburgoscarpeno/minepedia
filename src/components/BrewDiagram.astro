@@ -1,7 +1,7 @@
 ---
 import PotionIcon from './PotionIcon.astro';
-interface Props { ingredient: string; resultName: string; color: string; base?: string }
-const { ingredient, resultName, color, base = 'Awkward Potion' } = Astro.props;
+interface Props { ingredient: string; resultName: string; color: string; base?: string; lang?: 'en' | 'es' }
+const { ingredient, resultName, color, base = 'Awkward Potion', lang = 'en' } = Astro.props;
 ---
 <div class="brew-flow">
   <div class="brew-node">
@@ -17,8 +17,8 @@ const { ingredient, resultName, color, base = 'Awkward Potion' } = Astro.props;
   </div>
 </div>
 <div class="brew-mods">
-  <span class="brew-mod">+ redstone → longer</span>
-  <span class="brew-mod">+ glowstone → level II</span>
+  <span class="brew-mod">+ redstone → {lang === 'es' ? 'más duración' : 'longer'}</span>
+  <span class="brew-mod">+ glowstone → {lang === 'es' ? 'nivel II' : 'level II'}</span>
   <span class="brew-mod">+ gunpowder → splash</span>
   <span class="brew-mod">+ dragon's breath → lingering</span>
 </div>

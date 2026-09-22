@@ -1,0 +1,249 @@
+{
+ "night-vision": {
+  "effect": "Night Vision - ves en la oscuridad total",
+  "duration": "3:00 (8:00 ampliada con redstone)",
+  "recipe": "Awkward Potion + golden carrot",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Asaltar un ocean monument sin conduit",
+   "Picar en cuevas sin antorchas: los mobs siguen apareciendo, así que no bajes la guardia",
+   "Explorar el deep dark sin activar shriekers con la luz de las antorchas"
+  ],
+  "variants": "Ampliada (8:00) con redstone. Existen versiones splash y lingering para compartirla con tu equipo.",
+  "editionNote": "Idéntica en Java y Bedrock. Los últimos segundos de Night Vision parpadean en pantalla a modo de aviso."
+ },
+ "invisibility": {
+  "effect": "Invisibility - los mobs y jugadores no pueden verte (la armadura y los objetos en la mano siguen viéndose)",
+  "duration": "3:00 (8:00 ampliada)",
+  "recipe": "Potion of Night Vision + fermented spider eye",
+  "base": "Se obtiene corrompiendo Night Vision",
+  "uses": [
+   "Colarse junto al warden: invisibilidad más agacharse te hace casi indetectable",
+   "Emboscadas y huidas en PvP",
+   "Cruzar zonas infestadas de mobs con seguridad"
+  ],
+  "variants": "Ampliada (8:00) con redstone. La versión splash permite volver invisibles a mascotas o compañeros.",
+  "editionNote": "Idéntica en Java y Bedrock. La armadura puesta sigue visible: en Java los mobs detectan antes a los jugadores invisibles con armadura; ir sin armadura es la jugada sigilosa."
+ },
+ "swiftness": {
+  "effect": "Speed - te mueves un 20% más rápido por nivel",
+  "duration": "3:00 (8:00 ampliada; Swiftness II 1:30 con glowstone)",
+  "recipe": "Awkward Potion + sugar",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Viajes largos por tierra antes de tener unas elytra",
+   "Dejar atrás oleadas de raid y al warden",
+   "Practicar speed bridging y parkour"
+  ],
+  "variants": "Ampliada con redstone, potenciada a Swiftness II (40% más rápido) con glowstone. Splash para caballos y compañeros.",
+  "editionNote": "Idéntica en Java y Bedrock. Speed también aumenta la distancia de salto y el knockback recibido, ojo con los precipicios."
+ },
+ "slowness": {
+  "effect": "Slowness - te mueves un 15% más lento por nivel",
+  "duration": "1:30 (4:00 ampliada; Slowness IV 0:20 con glowstone)",
+  "recipe": "Potion of Swiftness o Leaping + fermented spider eye",
+  "base": "Se obtiene corrompiendo Swiftness o Leaping",
+  "uses": [
+   "Lánzala en splash sobre ravagers y vindicators que cargan para controlar una raid",
+   "Frenar al warden mientras escapas",
+   "PvP: un enemigo ralentizado no puede acercarse ni retirarse"
+  ],
+  "variants": "Ampliada (4:00) con redstone; glowstone la corrompe a Slowness IV (0:20, 60% más lento). Se usa sobre todo en splash o en flechas.",
+  "editionNote": "Idéntica en Java y Bedrock. Las flechas con Slowness son una herramienta potente en raids y PvP."
+ },
+ "leaping": {
+  "effect": "Jump Boost - saltas más alto (medio bloque más por nivel) y recibes menos daño de caída",
+  "duration": "3:00 (8:00 ampliada; Leaping II 1:30 con glowstone)",
+  "recipe": "Awkward Potion + rabbit's foot",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Saltar vallas y muros de 1,5 bloques de un brinco",
+   "Viajar por montañas y escapar de ravinas",
+   "Combinada con Slow Falling para saltos grandes sin riesgo"
+  ],
+  "variants": "Ampliada (8:00) con redstone, Leaping II (saltos de 2,5 bloques) con glowstone.",
+  "editionNote": "Idéntica en Java y Bedrock. Cada nivel también reduce el daño de caída equivalente a la altura de un nivel."
+ },
+ "fire-resistance": {
+  "effect": "Fire Resistance - inmunidad al fuego, la lava, las bolas de fuego de los blazes y los magma blocks",
+  "duration": "3:00 (8:00 ampliada)",
+  "recipe": "Awkward Potion + magma cream",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Explorar el Nether y minar ancient debris: la poción más importante para el Nether",
+   "Pelear contra blazes y contra las bolas de fuego del dragón",
+   "Nadar por lagos de lava hasta ponerte a salvo"
+  ],
+  "variants": "Ampliada (8:00) con redstone. Splash para salvadas de pánico y mascotas.",
+  "editionNote": "Idéntica en Java y Bedrock. Inmunidad total al fuego: lava, fuego, campfires, magma blocks y bolas de fuego de blazes. No protege del vacío ni de ahogarte."
+ },
+ "water-breathing": {
+  "effect": "Water Breathing - tu barra de oxígeno nunca se vacía",
+  "duration": "3:00 (8:00 ampliada)",
+  "recipe": "Awkward Potion + pufferfish",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Asaltar ocean monuments antes de tener un conduit",
+   "Construir bajo el agua y saquear shipwrecks",
+   "Proyectos de drenado y recolección en arrecifes de coral"
+  ],
+  "variants": "Ampliada (8:00) con redstone. Splash para mantener a mascotas y compañeros bajo el agua contigo.",
+  "editionNote": "Idéntica en Java y Bedrock. Combínala con botas Depth Strider y casco Aqua Affinity para moverte bajo el agua sin límites."
+ },
+ "healing": {
+  "effect": "Instant Health - restaura 4 HP (2 corazones) al instante",
+  "duration": "Instantánea (Healing II restaura 8 HP con glowstone)",
+  "recipe": "Awkward Potion + glistering melon slice",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Curación de pánico en peleas de boss: instantánea, a diferencia de la regeneración",
+   "Lánzala en splash a los iron golems que te defienden en una raid",
+   "Dañar no-muertos: el splash de Healing daña a zombis y esqueletos"
+  ],
+  "variants": "Healing II con glowstone (no hay versión ampliada: los efectos instantáneos no tienen duración).",
+  "editionNote": "Idéntica en Java y Bedrock. Instant Health cura a los mobs vivos pero DAÑA a los no-muertos: la misma poción splash hace ambos trabajos."
+ },
+ "harming": {
+  "effect": "Instant Damage - hace 6 HP (3 corazones) de daño al instante",
+  "duration": "Instantánea (Harming II hace 12 HP con glowstone)",
+  "recipe": "Potion of Healing o Poison + fermented spider eye",
+  "base": "Se obtiene corrompiendo Healing o Poison",
+  "uses": [
+   "Daño en splash que ignora la armadura: la poción antijugador",
+   "Rematar al instante mobs con poca vida",
+   "Flechas de Harming para un loadout de PvP potente"
+  ],
+  "variants": "Harming II con glowstone. Los efectos instantáneos no se pueden ampliar.",
+  "editionNote": "Idéntica en Java y Bedrock. Instant Damage CURA a los mobs no-muertos: nunca lances Harming a zombis ni al wither."
+ },
+ "poison": {
+  "effect": "Poison - drena la vida con el tiempo, hasta 1 HP (no puede matar)",
+  "duration": "0:45 (1:30 ampliada; Poison II 0:21,6 con glowstone)",
+  "recipe": "Awkward Potion + spider eye",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Envenena en splash a brujas y pillagers en una raid y remátalos con la espada",
+   "Debilitar cave spiders antes de que te alcancen",
+   "Flechas con Poison para negar zonas al enemigo"
+  ],
+  "variants": "Ampliada (1:30) con redstone, Poison II (drenaje más rápido, 0:21,6) con glowstone.",
+  "editionNote": "Idéntica en Java y Bedrock. Poison baja la vida hasta 1 HP y ahí se detiene: nunca puede matar, así que siempre hace falta un golpe final. Los mobs no-muertos son inmunes."
+ },
+ "regeneration": {
+  "effect": "Regeneration - restaura vida de forma continua (alrededor de 1 corazón cada 2,5 segundos a nivel I)",
+  "duration": "0:45 (1:30 ampliada; Regeneration II 0:22,5 con glowstone)",
+  "recipe": "Awkward Potion + ghast tear",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Peleas contra el wither y el dragón: aguanta el daño constante",
+   "Supervivencia en raids entre oleadas",
+   "Recuperación cuando se acaba el efecto Wither"
+  ],
+  "variants": "Ampliada (1:30) con redstone, Regeneration II (doble de velocidad, mitad de duración) con glowstone.",
+  "editionNote": "Idéntica en Java y Bedrock. Las ghast tears son el cuello de botella: farmea ghasts en los soul sand valleys con Looting III."
+ },
+ "strength": {
+  "effect": "Strength - más daño cuerpo a cuerpo (Java: +3 corazones por nivel; Bedrock: +30% por nivel)",
+  "duration": "3:00 (8:00 ampliada; Strength II 1:30 con glowstone)",
+  "recipe": "Awkward Potion + blaze powder",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Peleas contra el wither y el ender dragon: el estándar para bosses",
+   "Matar de dos golpes a vindicators de raid con un hacha Smite V",
+   "Cualquier situación de combate cuerpo a cuerpo"
+  ],
+  "variants": "Ampliada (8:00) con redstone, Strength II (1:30) con glowstone.",
+  "editionNote": "GRAN diferencia entre ediciones: Java da un +3 de daño fijo por nivel (desde 1.9), mientras que Bedrock multiplica el daño total un +30% por nivel: Strength II con una espada de netherite y golpes críticos pega mucho más fuerte en Bedrock."
+ },
+ "weakness": {
+  "effect": "Weakness - reduce el daño de ataque cuerpo a cuerpo",
+  "duration": "1:30 (4:00 ampliada)",
+  "recipe": "Botella de agua + fermented spider eye (NO hace falta nether wart)",
+  "base": "Directamente desde la botella de agua: la única poción útil que se salta la fase Awkward",
+  "uses": [
+   "Curar aldeanos zombi: splash de Weakness + golden apple inicia la conversión, la base de toda trading hall",
+   "Reducir el daño cuerpo a cuerpo de un ravager o vindicator en un apuro",
+   "Splash de apoyo en PvP"
+  ],
+  "variants": "Ampliada (4:00) con redstone. No hay nivel II.",
+  "editionNote": "Idéntica en Java y Bedrock: fermented spider eye directo en una botella de agua. Ten un cofre de estas listo para cuando aparezca un aldeano zombi."
+ },
+ "turtle-master": {
+  "effect": "Slowness IV + Resistance III - casi imposible de matar pero muy lento",
+  "duration": "0:20 (0:40 ampliada; Turtle Master II da Resistance IV con glowstone)",
+  "recipe": "Awkward Potion + turtle scute",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Tanquear los golpes del warden mientras un compañero ataca",
+   "Sobrevivir a la carga de un ravager o a un creeper a quemarropa",
+   "Aguantar un punto de estrangulamiento en PvP"
+  ],
+  "variants": "Ampliada (0:40) con redstone; Turtle Master II (Resistance IV, Slowness VI) con glowstone.",
+  "editionNote": "Idéntica en Java y Bedrock. Los turtle scutes salen de las crías de tortuga al crecer: cría tortugas en playas con seagrass para farmearlos."
+ },
+ "slow-falling": {
+  "effect": "Slow Falling - caes despacio, sin daño de caída, y aterrizas suave como un planeador",
+  "duration": "1:30 (4:00 ampliada)",
+  "recipe": "Awkward Potion + phantom membrane",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "El End: hacer puentes entre islas sin miedo a caerte",
+   "Tirarte de montañas y zonas de construcción con seguridad",
+   "Esquivar la levitación de los shulkers: Slow Falling anula la flotación"
+  ],
+  "variants": "Ampliada (4:00) con redstone. No hay nivel II.",
+  "editionNote": "Idéntica en Java y Bedrock. Las phantom membranes salen de los phantoms (aparecen tras tres noches sin dormir) y a veces de regalos de gatos."
+ },
+ "wind-charging": {
+  "effect": "Wind Charged - la entidad afectada suelta una ráfaga de viento al morir",
+  "duration": "3:00 (no se puede ampliar ni potenciar)",
+  "recipe": "Awkward Potion + breeze rod",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Lánzala en splash a un mob que vas a matar para conseguir un knockback gratis",
+   "Trucos de movilidad: mata un mob cargado bajo tus pies para salir lanzado",
+   "Bromas y artilugios para lanzar mobs"
+  ],
+  "variants": "Sin versión ampliada ni nivel II. Solo splash y lingering.",
+  "editionNote": "Idéntica en Java y Bedrock desde la 1.21. La ráfaga funciona como la explosión de un wind charge: empuja entidades y activa botones y puertas."
+ },
+ "oozing": {
+  "effect": "Oozing - la entidad afectada genera dos slimes medianos al morir",
+  "duration": "3:00 (no se puede ampliar ni potenciar)",
+  "recipe": "Awkward Potion + slime block",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Farmear slimeballs: splash a un mob, mátalo y recoge los slimes",
+   "Caos en arenas de PvP",
+   "Combínala con una espada con Looting para maximizar los drops de slime"
+  ],
+  "variants": "Sin versión ampliada ni nivel II. Solo splash y lingering.",
+  "editionNote": "Idéntica en Java y Bedrock desde la 1.21. Los slimes generados son medianos, así que se vuelven a dividir al matarlos: un auténtico multiplicador de slimeballs."
+ },
+ "weaving": {
+  "effect": "Weaving - la entidad afectada se mueve un 50% más rápido por las telarañas y genera 2-3 telarañas al morir",
+  "duration": "3:00 (no se puede ampliar ni potenciar)",
+  "recipe": "Awkward Potion + cobweb",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Trampas: splash a un mob, mátalo y sus telarañas frenan la siguiente oleada",
+   "Generar telarañas para granjas de string",
+   "Caos en arenas de mobs"
+  ],
+  "variants": "Sin versión ampliada ni nivel II. Solo splash y lingering.",
+  "editionNote": "Idéntica en Java y Bedrock desde la 1.21. Las telarañas sueltan string al romperlas con espada o tijeras, así que las muertes con Weaving alimentan la producción de string."
+ },
+ "infestation": {
+  "effect": "Infested - la entidad afectada tiene un 10% de probabilidad de generar 1-2 silverfish al recibir un golpe",
+  "duration": "3:00 (no se puede ampliar ni potenciar)",
+  "recipe": "Awkward Potion + stone block (sí, piedra normal)",
+  "base": "Awkward Potion (botella de agua + nether wart)",
+  "uses": [
+   "Trucos de farmeo de XP y monstruos con silverfish",
+   "Caos de área en arenas de mobs",
+   "Sobre todo una curiosidad para granjas y diversión: tiene poco uso práctico en supervivencia"
+  ],
+  "variants": "Sin versión ampliada ni nivel II. Solo splash y lingering.",
+  "editionNote": "Idéntica en Java y Bedrock desde la 1.21. Es la única poción que se elabora con un bloque entero de piedra como ingrediente."
+ }
+}

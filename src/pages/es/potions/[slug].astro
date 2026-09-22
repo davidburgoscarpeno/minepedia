@@ -1,0 +1,9 @@
+---
+import PotionDetail from '../../../components/pages/PotionDetail.astro';
+import potions from '../../../data/potions.json';
+export function getStaticPaths() {
+  return potions.map(p => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+---
+<PotionDetail p={p} lang="es" />
