@@ -593,5 +593,98 @@
         "label": "Mineshaft"
       }
     ]
+  },
+  "amethyst-geode": {
+    "howToFind": [
+      "Se genera bajo tierra en cualquier bioma del Overworld entre Y -58 e Y 30 - cada chunk tiene 1/24 de probabilidad, así que minando en rama o explorando cuevas aparecen con regularidad",
+      "Busca la cáscara: smooth basalt por fuera, una capa blanca de calcite debajo - cualquiera de las dos a la vista en una pared de cueva significa geoda",
+      "El tintineo la delata: los bloques y clusters de amethyst suenan al pisarlos o picarlos",
+      "/locate structure minecraft:amethyst_geode"
+    ],
+    "loot": [
+      "Amethyst clusters: 4 shards con un pickaxe (solo 2 sin él) - Fortune lo aumenta, Silk Touch suelta el cluster entero",
+      "Buds en tres tamaños (small, medium, large) solo se sueltan con Silk Touch",
+      "Las amethyst shards craftean spyglasses, tinted glass, bloques de amethyst y calibrated sculk sensors",
+      "Smooth basalt y calcite como bloques de construcción - la calcite no tiene otra fuente"
+    ],
+    "dangers": [
+      "La budding amethyst (8,3% de la pared interior) es el único bloque que genera clusters nuevos, y jamás se puede mover - ni Silk Touch funciona. Recoge los shards in situ",
+      "Los clusters crecen por fases visibles, así que no rompas los buds pequeños: un cluster maduro da 4 shards, un bud roto no da nada",
+      "Las geodas suelen abrir a cuevas grandes - con la compañía habitual de mobs"
+    ],
+    "tips": [
+      "Marca cada bloque de budding amethyst: una geoda es una granja renovable de shards si dejas madurar los buds",
+      "Usa Fortune III en los clusters para hasta 16 shards por cluster - Silk Touch solo si quieres la decoración",
+      "El tinted glass (2 shards + glass) bloquea la luz siendo transparente - perfecto para granjas de mobs"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/spyglass/",
+        "label": "Spyglass"
+      }
+    ]
+  },
+  "fossil": {
+    "howToFind": [
+      "Se genera raramente bajo tierra en biomas de desert, swamp y mangrove swamp - formas de cráneo o columna hechas de bone blocks",
+      "Dos intentos de generación por chunk a 1/64 cada uno: un rango de Y 0 a 320 (con coal ore) y otro de Y -63 a -8 (con diamond ore por debajo de Y -8)",
+      "Sin mapa ni /locate para estas features pequeñas - mina en rama en un swamp o desert y vigila los bone blocks"
+    ],
+    "loot": [
+      "Bone blocks: cada uno se craftea en 9 bone meal - un fósil es una reserva enorme de bone meal",
+      "Coal ore incrustado en los fósiles por encima de Y 0",
+      "Diamond ore (y deepslate diamond ore) incrustado por debajo de Y -8 - el verdadero tesoro de los fósiles profundos"
+    ],
+    "dangers": [
+      "Integridad de estructura 0,9: falta alrededor del 10% de los bone blocks, así que algunos fósiles están fragmentados",
+      "Los fósiles profundos están en capas de deepslate llenas de bolsas de lava - pica con cuidado alrededor de Y -8 y más abajo",
+      "No los confundas con los Nether fossils de los soul sand valleys - son una feature distinta (y allí está la conexión con el dried ghast)"
+    ],
+    "tips": [
+      "Un pickaxe con Fortune en el coal y el diamond ore rinde más que en los huesos",
+      "El bone meal de un fósil de cráneo mantiene una granja de árboles o cultivos alimentada durante mucho tiempo",
+      "Minar alrededor de Y -10 en un swamp cubre tanto los fósiles de diamond de deepslate como los niveles normales de diamond"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/biomes/soul-sand-valley/",
+        "label": "Soul Sand Valley"
+      },
+      {
+        "url": "/es/items/dried-ghast/",
+        "label": "Dried Ghast"
+      }
+    ]
+  },
+  "desert-well": {
+    "howToFind": [
+      "Se genera en biomas de desert: 1/1000 de probabilidad por chunk en Java, 1/500 en Bedrock - pura suerte al cruzar desiertos",
+      "Es una feature, no una estructura: /locate no puede encontrarla y se genera incluso con las estructuras desactivadas",
+      "Busca un pequeño anillo de sandstone con agua en el centro - a veces con un cactus creciendo en medio"
+    ],
+    "loot": [
+      "Suspicious sand: cepíllala para pottery sherds y otro botín de arqueología (desde 1.20)",
+      "El agua en sí: una bebida de emergencia para tus bottles o un punto de pesca en el desierto",
+      "Sandstone y slabs si estás realmente desesperado - son cinco bloques de material de construcción"
+    ],
+    "dangers": [
+      "Ninguno - es completamente segura, solo rara",
+      "No caves en vertical junto al agua esperando tesoro: no hay cofre, nunca lo ha habido"
+    ],
+    "tips": [
+      "Lleva un brush al cruzar desiertos: cada pozo guarda suspicious sand que vale la pena cepillar",
+      "Los pozos a veces se generan alrededor de cactus - un cactus en medio es normal, no una broma de otro jugador",
+      "Los jugadores de Bedrock los encuentran el doble que los de Java"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-do-archaeology/",
+        "label": "Arqueología"
+      },
+      {
+        "url": "/es/biomes/desert/",
+        "label": "Desert"
+      }
+    ]
   }
 }

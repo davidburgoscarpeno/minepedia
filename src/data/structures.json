@@ -620,5 +620,84 @@
       "Spider spawners make great string and XP farms, and cave spider spawners (in mineshafts) are a different, nastier block"
     ],
     "keywords": "monster room dungeon spawner zombie skeleton spider chest loot music disc name tag XP farm find"
+  },
+  {
+    "slug": "amethyst-geode",
+    "name": "Amethyst Geode",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates underground in any Overworld biome between Y -58 and Y 30 - each chunk has a 1/24 chance, so branch mining or caving stumbles into them regularly",
+      "Look for the shell: smooth basalt on the outside, a white calcite layer under it - either one exposed in a cave wall means a geode",
+      "The chime gives it away: amethyst blocks and clusters ring when walked on or mined",
+      "/locate structure minecraft:amethyst_geode"
+    ],
+    "loot": [
+      "Amethyst clusters: 4 shards with a pickaxe (only 2 without one) - Fortune raises it, Silk Touch drops the cluster itself",
+      "Buds in three sizes (small, medium, large) only drop with Silk Touch",
+      "Amethyst shards craft spyglasses, tinted glass, amethyst blocks and calibrated sculk sensors",
+      "Smooth basalt and calcite as building blocks - calcite has no other source"
+    ],
+    "dangers": [
+      "Budding amethyst (8.3% of the inner wall) is the only block that grows new clusters, and it can never be moved - not even Silk Touch works. Harvest shards in place",
+      "Clusters grow only through visible stages, so do not break small buds: a fully grown cluster pays 4 shards, a broken bud pays nothing",
+      "Geodes often open into big caves - the usual mob crowd comes with them"
+    ],
+    "tips": [
+      "Mark every budding amethyst block: a geode is a renewable shard farm if you leave the buds to mature",
+      "Use Fortune III on clusters for up to 16 shards per cluster - Silk Touch only if you want the decoration",
+      "Tinted glass (2 shards + glass) blocks light while staying transparent - great for mob farms"
+    ],
+    "keywords": "amethyst geode minecraft find shards budding amethyst cluster calcite smooth basalt spyglass tinted glass fortune"
+  },
+  {
+    "slug": "fossil",
+    "name": "Fossil",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates rarely underground in desert, swamp and mangrove swamp biomes - skull or spine shapes made of bone blocks",
+      "Two generation attempts per chunk at 1/64 each: one range Y 0 to 320 (with coal ore), one Y -63 to -8 (with diamond ore below Y -8)",
+      "No map and no /locate support for the small features - strip mine in a swamp or desert and watch for bone blocks"
+    ],
+    "loot": [
+      "Bone blocks: each crafts into 9 bone meal - a fossil is a huge bone meal stockpile",
+      "Coal ore embedded in fossils above Y 0",
+      "Diamond ore (and deepslate diamond ore) embedded below Y -8 - the real treasure of deep fossils"
+    ],
+    "dangers": [
+      "Structure integrity 0.9: about 10% of the bone blocks are missing, so some fossils are fragmentary",
+      "Deep fossils sit in deepslate layers full of lava pockets - mine carefully around Y -8 and below",
+      "Do not confuse them with Nether fossils in soul sand valleys - those are a different feature (and this one has the dried ghast connection there)"
+    ],
+    "tips": [
+      "A Fortune pickaxe on the coal and diamond ore pays more than on the bones",
+      "Bone meal from one skull fossil keeps a tree or crop farm fed for a long time",
+      "Mining around Y -10 in a swamp covers both the deepslate diamond fossils and regular diamond levels"
+    ],
+    "keywords": "fossil minecraft desert swamp bone block diamond ore coal find bone meal skull spine"
+  },
+  {
+    "slug": "desert-well",
+    "name": "Desert Well",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in desert biomes: a 1/1000 chance per chunk in Java, 1/500 in Bedrock - pure luck while crossing deserts",
+      "It is a feature, not a structure: /locate cannot find it and it generates even with structures disabled",
+      "Look for a small sandstone ring with water in the middle - sometimes with a cactus growing through it"
+    ],
+    "loot": [
+      "Suspicious sand: brush it for pottery sherds and other archaeology loot (since 1.20)",
+      "The water itself: an emergency drink for your bottles or a fishing spot in the desert",
+      "Sandstone and slabs if you are really desperate - it is five blocks of building material"
+    ],
+    "dangers": [
+      "None - it is completely safe, just rare",
+      "Do not dig straight down next to the water expecting treasure: there is no chest, never has been"
+    ],
+    "tips": [
+      "Bring a brush when you cross deserts: every well holds suspicious sand worth brushing",
+      "Wells generate around cacti sometimes - a cactus in the middle is normal, not a player prank",
+      "Bedrock players find them twice as often as Java players"
+    ],
+    "keywords": "desert well minecraft suspicious sand brush pottery sherds archaeology water feature"
   }
 ]
