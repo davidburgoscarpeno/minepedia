@@ -463,5 +463,83 @@
       "The netherrack patch is visible from far away at night thanks to the lava and glowstone accents - scan shores while boating."
     ],
     "keywords": "ruined portal crying obsidian gold flint and steel chest loot nether overworld find"
+  },
+  {
+    "slug": "shipwreck",
+    "name": "Shipwreck",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates commonly in every ocean biome, upright, sideways or upside-down; rarely beached, inside icebergs or in canyons",
+      "Dolphin's Grace makes scanning the ocean floor fast; night vision helps even more",
+      "/locate structure minecraft:shipwreck"
+    ],
+    "loot": [
+      "Map chest (stern): the buried treasure map - the whole point of shipwrecks",
+      "Treasure chest (stern): iron, gold, emeralds, sometimes diamonds and enchanted gear",
+      "Supply chest (bow): food, coal, enchanted leather armor, suspicious stew, fishing rods, bamboo"
+    ],
+    "dangers": [
+      "Drowned infest ocean structures and guard wrecks, some with tridents",
+      "Drowning itself: bring a door or magma blocks for air pockets while looting",
+      "Wrecks are often broken apart: the chest you want may be in a missing section... or the next wreck over"
+    ],
+    "tips": [
+      "A wreck has up to 3 chests: supply (bow), map and treasure (stern) - check the stern first.",
+      "Dolphins lead you to the nearest shipwreck or ruin when fed raw cod.",
+      "Suspicious stew from supply chests is one of the few renewable ways to get it - note which flower effect it has before eating."
+    ],
+    "keywords": "shipwreck treasure map chest stern bow drowned ocean find suspicious stew"
+  },
+  {
+    "slug": "buried-treasure",
+    "name": "Buried Treasure",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Follow a buried treasure map from shipwreck map chests: the red X marks the spot",
+      "Dig at the X standing exactly on it, in Java the chest always sits at chunk-relative 9,9 facing east (8,8 in Bedrock) - press F3 and target those coordinates",
+      "Buried in beach biomes (sand or gravel on top), rarely on the ocean floor"
+    ],
+    "loot": [
+      "Always 1 heart of the sea - the only source in the game, needed for the conduit",
+      "Iron and gold ingots, TNT, prismarine crystals, diamonds (up to 2), emeralds",
+      "Potion of Water Breathing and cooked fish"
+    ],
+    "dangers": [
+      "Drowning while digging underwater treasure: the chest is often below sea level even on beaches",
+      "Falling into caves while digging straight down - dig a staircase, not a shaft",
+      "Phantoms at night if you treasure-hunt sleep-deprived on long beaches"
+    ],
+    "tips": [
+      "The heart of the sea is guaranteed in every buried treasure: each map means one conduit.",
+      "In Java, align to chunk coordinates 9,9 (F3 shows Chunk: x y z) and dig one block: never dig out the whole beach.",
+      "Keep maps from different shipwrecks: many point to the same treasure, but the surplus maps still help triangulate."
+    ],
+    "keywords": "buried treasure heart of the sea conduit map x marks chunk 9 9 dig beach"
+  },
+  {
+    "slug": "swamp-hut",
+    "name": "Swamp Hut",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates rarely in swamp biomes (never in mangrove swamps), always in the north-west corner of its chunk",
+      "Swamp explorer maps from jungle, snowy plains and taiga cartographers point to one",
+      "/locate structure minecraft:swamp_hut"
+    ],
+    "loot": [
+      "The hut itself: cauldron (filled with a random potion in Bedrock), crafting table, potted red mushroom",
+      "A black cat always spawns with the hut - a free rare cat variant",
+      "The real loot is the witch spawns: sticks, sugar, glass bottles, glowstone dust, redstone, gunpowder and potions mid-fight"
+    ],
+    "dangers": [
+      "The resident witch throws poison, harming and slowness splash potions and heals herself",
+      "Slimes spawn in swamps at night (full moon = more)",
+      "Deep water and mud make the approach slow - witches outrange an unprepared player"
+    ],
+    "tips": [
+      "Witches and black cats spawn inside the hut's bounding box forever: witch farms are built by flattening spawn spaces around the hut.",
+      "Light up or slab the surrounding swamp to force all spawns into your farm.",
+      "The black cat spawns once with the hut and never again there - tame it with raw fish before it wanders off."
+    ],
+    "keywords": "swamp hut witch hut black cat cauldron witch farm slime full moon find"
   }
 ]

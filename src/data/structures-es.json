@@ -412,5 +412,97 @@
       "Mina también la crying obsidian (pico de diamond): sirve para respawn anchors.",
       "El parche de netherrack se ve de lejos por la noche gracias a la lava y los toques de glowstone: escanea las costas mientras navegas."
     ]
+  },
+  "shipwreck": {
+    "howToFind": [
+      "Se genera con frecuencia en todos los biomas de ocean, derecho, de lado o boca abajo; raramente varado, dentro de icebergs o en canyons",
+      "El Dolphin's Grace hace rápido escanear el fondo oceánico; la visión nocturna ayuda aún más",
+      "/locate structure minecraft:shipwreck"
+    ],
+    "loot": [
+      "Cofre de mapas (popa): el buried treasure map - toda la razón de los shipwrecks",
+      "Cofre del tesoro (popa): iron, gold, emeralds, a veces diamonds y equipo encantado",
+      "Cofre de suministros (proa): comida, coal, armadura de leather encantada, suspicious stew, fishing rods, bamboo"
+    ],
+    "dangers": [
+      "Los drowned infestan las estructuras oceánicas y vigilan los pecios, algunos con tridents",
+      "Ahogarte: lleva una door o magma blocks para hacer bolsas de aire mientras luteas",
+      "Los pecios suelen estar partidos: el cofre que buscas puede estar en una sección que falta... o en el siguiente pecio"
+    ],
+    "tips": [
+      "Un pecio tiene hasta 3 cofres: suministros (proa), mapas y tesoro (popa) - revisa primero la popa.",
+      "Los dolphins te guían al shipwreck o ruin más cercano si les das raw cod.",
+      "La suspicious stew de los cofres de suministros es una de las pocas formas renovables de conseguirla: fíjate qué efecto de flor tiene antes de comerla."
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/buried-treasure/",
+        "label": "Buried Treasure"
+      }
+    ]
+  },
+  "buried-treasure": {
+    "howToFind": [
+      "Sigue un buried treasure map de los cofres de mapas de los shipwrecks: la X roja marca el punto",
+      "Cava en la X de pie exactamente sobre ella; en Java el cofre siempre está en la posición 9,9 relativa al chunk mirando al este (8,8 en Bedrock) - pulsa F3 y apunta a esas coordenadas",
+      "Enterrado en biomas de beach (sand o gravel encima), raramente en el fondo del ocean"
+    ],
+    "loot": [
+      "Siempre 1 heart of the sea: la única fuente del juego, necesaria para el conduit",
+      "Iron y gold ingots, TNT, prismarine crystals, diamonds (hasta 2), emeralds",
+      "Poción de Water Breathing y pescado cocinado"
+    ],
+    "dangers": [
+      "Ahogarte al cavar tesoros sumergidos: el cofre suele quedar bajo el nivel del mar incluso en playas",
+      "Caer en cuevas al cavar en vertical: haz una escalera, no un pozo",
+      "Phantoms de noche si buscas tesoros sin dormir por playas largas"
+    ],
+    "tips": [
+      "El heart of the sea está garantizado en cada buried treasure: cada mapa significa un conduit.",
+      "En Java, alinéate a las coordenadas de chunk 9,9 (F3 muestra Chunk: x y z) y cava un bloque: nunca excaves toda la playa.",
+      "Guarda los mapas de distintos shipwrecks: muchos apuntan al mismo tesoro, pero los mapas sobrantes ayudan a triangular."
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/heart-of-the-sea/",
+        "label": "Heart of the Sea"
+      },
+      {
+        "url": "/es/items/nautilus-shell/",
+        "label": "Nautilus Shell"
+      }
+    ]
+  },
+  "swamp-hut": {
+    "howToFind": [
+      "Se genera raramente en biomas de swamp (nunca en mangrove swamps), siempre en la esquina noroeste de su chunk",
+      "Los swamp explorer maps de cartógrafos de jungle, snowy plains y taiga apuntan a una",
+      "/locate structure minecraft:swamp_hut"
+    ],
+    "loot": [
+      "La cabaña en sí: cauldron (llena de una poción aleatoria en Bedrock), crafting table, red mushroom en maceta",
+      "Una black cat siempre aparece con la cabaña: una variante de gato rara y gratis",
+      "El verdadero botín son los spawns de witches: sticks, sugar, glass bottles, glowstone dust, redstone, gunpowder y pociones en plena pelea"
+    ],
+    "dangers": [
+      "La witch residente lanza pociones splash de Poison, Harming y Slowness y se cura a sí misma",
+      "Los slimes aparecen en los swamps de noche (luna llena = más)",
+      "El agua profunda y el lodo hacen lenta la aproximación: las witches te ganan en alcance si vas sin preparar"
+    ],
+    "tips": [
+      "Las witches y black cats aparecen dentro de la bounding box de la cabaña para siempre: las witch farms se construyen aplanando superficies de spawn alrededor.",
+      "Ilumina o pon slabs en el swamp circundante para forzar todos los spawns dentro de tu granja.",
+      "La black cat aparece una vez con la cabaña y nunca más: tameala con pescado crudo antes de que se vaya."
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/witch/",
+        "label": "Witch"
+      },
+      {
+        "url": "/es/mobs/cat/",
+        "label": "Cat"
+      }
+    ]
   }
 }
