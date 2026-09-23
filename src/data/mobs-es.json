@@ -541,5 +541,42 @@
       "Al matarlo un jugador; Saqueo aumenta la probabilidad",
       "Esquílalo una vez para 2 setas, cada una marrón o roja con la misma probabilidad"
     ]
+  },
+  "bee": {
+    "type": "Neutral",
+    "where": "Viven en bee nests en árboles oak, birch, mangrove y cherry. En los meadows siempre las hay (100% de probabilidad de nido por árbol); en plains, sunflower plains y cherry groves alrededor del 5%.",
+    "howToKill": "Fácil de matar pero inútil: las bees no sueltan objetos, solo 1-3 de experiencia. El riesgo real es el enjambre: si enfadas a una, todas las cercanas pican una vez con Poison I (10 segundos en Normal, 18 en Difícil) y luego mueren al perder el aguijón. Son artrópodos, así que Bane of Arthropods funciona si no queda más remedio.",
+    "spawnConditions": "Los árboles oak, birch, mangrove y cherry generados de forma natural pueden crecer con un bee nest con 2-3 bees: el 100% de los árboles en meadows, alrededor del 5% en plains, sunflower plains y cherry groves, y menos en otros biomas. Las bees son el único artrópodo que aparece en Pacífico.",
+    "behavior": "Vuela hasta 22 bloques desde su casa para recoger néctar de las flores. Una bee que vuelve con néctar sube el nivel de miel de su nest o beehive en 1 (1% de probabilidad de 2); al nivel 5 puedes cosechar honeycombs con shears o honey bottles con botellas vacías. Cosechar o romper la casa enfada a todas las bees cercanas salvo que haya un campfire a 5 bloques o menos debajo. Silk Touch mueve la colmena con las bees neutrales dentro. Cada colmena aloja 3 bees, entran por cualquier lado pero salen solo por el frente. El agua les hace daño, los open eyeblossoms las envenenan y las golden dandelions las ignoran.",
+    "tameOrBreed": "No se pueden domesticar, pero siguen las flores y se crían con ellas, soltando 1-7 de experiencia por cría. Los leads funcionan incluso con bees enfadadas.",
+    "keywords": "bee nest beehive miel honeycomb cosechar campfire poison picadura criar flores",
+    "notes": [
+      "Solo si la mata un jugador o un wolf tameado; no suelta objetos"
+    ]
+  },
+  "sniffer": {
+    "type": "Pasivo",
+    "where": "En ningún sitio: nunca aparece de forma natural. Hazlo eclosionar de un sniffer egg cepillado de suspicious sand en las warm ocean ruins.",
+    "howToKill": "No hay motivo: es un gigante apacible que solo suelta 1-3 de experiencia. Si hace falta, nunca contraataca.",
+    "spawnConditions": "Nunca aparece por sí solo. Cepilla suspicious sand en las warm ocean ruins para conseguir un sniffer egg, colócalo y eclosiona en 10 minutos sobre un moss block o en 20 minutos en cualquier otro sitio. El snifflet necesita 40 minutos (dos días de juego) para hacerse adulto.",
+    "behavior": "Deambula y de vez en cuando aprieta el hocico contra el suelo para desenterrar semillas antiguas: torchflower seeds o un pitcher pod, al 50%. Excava en dirt, grass, coarse dirt, rooted dirt, podzol, moss, pale moss, mud y muddy mangrove roots, pero nunca en mycelium. Tras cada excavación recuerda el sitio (los últimos 20) y descansa 8 minutos. No puede excavar con lead, tentado, asustado, en agua o montado en un boat o minecart.",
+    "tameOrBreed": "Cría dos adultos con torchflower seeds: sueltan un sniffer egg como objeto y necesitan 5 minutos de descanso. En Bedrock solo crían los sniffers con vida completa, y darles torchflower seeds les cura 2 HP. Alimentar a un snifflet con torchflower seeds recorta un 10% el crecimiento restante cada vez.",
+    "keywords": "sniffer egg suspicious sand warm ocean ruins torchflower seeds pitcher pod snifflet excavar antiguo",
+    "notes": [
+      "Solo si lo mata un jugador o un wolf tameado; los snifflets no sueltan nada"
+    ]
+  },
+  "armadillo": {
+    "type": "Pasivo",
+    "where": "Savannas, savanna plateaus y windswept savannas (grupos de 2-3 en Java, hasta 4 en Bedrock), además de badlands, eroded badlands y wooded badlands (grupos de 1-2).",
+    "howToKill": "Inútil: no suelta objetos, solo 1-3 de experiencia. Enrollado recibe daño muy reducido ((daño-1)/2), así que espera a que se desenrolle si hace falta.",
+    "spawnConditions": "Aparece en biomas tipo savanna en grupos de 2-3 (Java) o hasta 4 (Bedrock), y en biomas tipo badlands en grupos de 1-2, con nivel de luz 9 o más en Java y 7 o más en Bedrock. En Bedrock el 5% aparece como cría.",
+    "behavior": "Se hace una bola cuando le hieren, cuando se acercan no-muertos o cuando un jugador cercano esprinta o va montado. Enrollado no puede andar ni comer y recibe (daño-1)/2; asoma la cabeza y se desenrolla tras 3 segundos seguros, o al instante al tocar agua, fuego, magma, hielo o veneno, o con un lead. Los spiders y cave spiders huyen de cualquier armadillo a 6 bloques que no esté enrollado. Suelta armadillo scutes periódicamente, la única fuente de wolf armor.",
+    "tameOrBreed": "No se puede domesticar. Sigue a jugadores con spider eyes (10 bloques en Java, 16 en Bedrock) y se cría con ellas; la cría tarda 20 minutos en crecer, un 10% menos por spider eye. Un armadillo que se enrolla de camino a su pareja pierde el interés y necesita otro ojo.",
+    "keywords": "armadillo scute wolf armor brush spider eye criar enrollarse savanna badlands",
+    "notes": [
+      "Lo suelta cada 5-10 minutos en vida, o sácale uno con un brush",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
   }
 }

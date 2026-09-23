@@ -1518,5 +1518,94 @@
       "witch"
     ],
     "keywords": "bogged skeleton variant swamp poison arrow shear mushrooms mossy 1.21"
+  },
+  {
+    "slug": "bee",
+    "name": "Bee",
+    "type": "Neutral",
+    "health": "10 (5 hearts)",
+    "where": "Living in bee nests on oak, birch, mangrove and cherry trees. Meadows always have them (100% nest chance per tree); plains, sunflower plains and cherry groves around 5%.",
+    "howToKill": "Easy to kill but pointless: bees drop no items, only 1-3 experience. The real risk is the swarm - anger one and every nearby bee stings once for Poison I (10 seconds on Normal, 18 on Hard), then dies from losing its stinger. They are arthropods, so Bane of Arthropods works if you must.",
+    "drops": [
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf; no item drops"
+      }
+    ],
+    "spawnConditions": "Naturally generated oak, birch, mangrove and cherry trees can grow with a bee nest holding 2-3 bees: 100% of trees in meadows, about 5% in plains, sunflower plains and cherry groves, less elsewhere. Bees are the only arthropod that spawns on Peaceful.",
+    "behavior": "Flies up to 22 blocks from home collecting nectar from flowers. A bee returning with nectar raises the honey level of its nest or beehive by 1 (1% chance of 2); at level 5 you can harvest honeycombs with shears or honey bottles with empty bottles. Harvesting or breaking the home angers every bee nearby unless a campfire burns within 5 blocks below. Silk Touch moves a hive with the bees kept neutral inside. Hives house 3 bees, enter from any side but exit only through the front. Water hurts them, and open eyeblossoms poison them while golden dandelions get ignored.",
+    "tameOrBreed": "Cannot be tamed, but bees follow flowers and breed with them, dropping 1-7 experience per baby. Leads work even on angry bees.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.15 (Buzzy Bees)",
+    "related": [
+      "axolotl",
+      "chicken"
+    ],
+    "keywords": "bee nest beehive honey honeycomb harvest campfire poison sting breed flowers"
+  },
+  {
+    "slug": "sniffer",
+    "name": "Sniffer",
+    "type": "Passive",
+    "health": "14 (7 hearts)",
+    "where": "Nowhere: it never spawns naturally. Hatch it from a sniffer egg brushed out of suspicious sand in warm ocean ruins.",
+    "howToKill": "There is no reason to: it is a gentle giant that drops only 1-3 experience. If you must, it never fights back.",
+    "drops": [
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf; snifflets drop nothing"
+      }
+    ],
+    "spawnConditions": "Never spawns on its own. Brush suspicious sand in warm ocean ruins for a sniffer egg, place it, and it hatches in 10 minutes on a moss block or 20 minutes anywhere else. The snifflet needs 40 minutes (two in-game days) to become an adult.",
+    "behavior": "Wanders around and occasionally presses its snout to the ground to dig up ancient seeds: torchflower seeds or a pitcher pod, 50/50. It digs on dirt, grass, coarse dirt, rooted dirt, podzol, moss, pale moss, mud and muddy mangrove roots, but never mycelium. After each dig it remembers the spot (last 20) and rests for 8 minutes. It cannot dig while leashed, tempted, panicking, in water or riding a boat or minecart.",
+    "tameOrBreed": "Breed two adults with torchflower seeds: they drop a sniffer egg as an item and need a 5 minute cooldown. In Bedrock only full-health sniffers breed, and feeding torchflower seeds heals 2 HP. Feeding a snifflet torchflower seeds cuts its remaining growth time by 10% each.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "armadillo",
+      "axolotl"
+    ],
+    "keywords": "sniffer egg suspicious sand warm ocean ruins torchflower seeds pitcher pod snifflet dig ancient"
+  },
+  {
+    "slug": "armadillo",
+    "name": "Armadillo",
+    "type": "Passive",
+    "health": "12 (6 hearts)",
+    "where": "Savannas, savanna plateaus and windswept savannas (groups of 2-3 in Java, up to 4 in Bedrock), plus badlands, eroded badlands and wooded badlands (groups of 1-2).",
+    "howToKill": "Pointless: it drops no items, only 1-3 experience. While rolled up it takes heavily reduced damage ((damage-1)/2), so wait for it to unroll if you must.",
+    "drops": [
+      {
+        "item": "Armadillo Scute",
+        "qty": "1",
+        "notes": "Shed every 5-10 minutes while alive, or brush one out with a brush"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Spawns in savanna-type biomes in groups of 2-3 (Java) or up to 4 (Bedrock), and in badlands-type biomes in groups of 1-2, at light level 9 or more in Java and 7 or more in Bedrock. In Bedrock 5% spawn as babies.",
+    "behavior": "Rolls into a ball when hurt, when undead come close, or when a player nearby sprints or rides something. Rolled up it cannot walk or eat and takes (damage-1)/2; it peeks out and unrolls after 3 safe seconds, or instantly on contact with water, fire, magma, freezing or poison, or when leashed. Spiders and cave spiders flee from any armadillo within 6 blocks that is not rolled up. It periodically sheds armadillo scutes, the only source of wolf armor.",
+    "tameOrBreed": "Cannot be tamed. Follows players holding spider eyes (10 blocks in Java, 16 in Bedrock) and breeds with them; the baby takes 20 minutes to grow, sped up 10% per spider eye. An armadillo that rolls up on the way to its mate loses interest and needs another eye.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.20.5 (Armored Paws)",
+    "related": [
+      "wolf",
+      "sheep"
+    ],
+    "keywords": "armadillo scute wolf armor brush spider eye breed roll up savanna badlands"
   }
 ]
