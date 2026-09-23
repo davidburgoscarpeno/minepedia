@@ -2544,5 +2544,120 @@
       "drowned"
     ],
     "keywords": "squid minecraft ink sac ocean river black dye book and quill sign glow squid"
+  },
+  {
+    "slug": "parched",
+    "name": "Parched",
+    "type": "Hostile",
+    "health": "16 (8 hearts)",
+    "where": "Deserts at night: replaces 50% of skeleton spawns under the open sky in Java (groups of 4) and about 33% on the surface in Bedrock (groups of 2-4).",
+    "howToKill": "Fight it like a skeleton with less health, but remember it does not burn in sunlight and its arrows inflict 30 seconds of Weakness - close the distance fast or use a shield.",
+    "drops": [
+      {
+        "item": "Bone",
+        "qty": "0-2",
+        "notes": "+0-1 per Looting level"
+      },
+      {
+        "item": "Arrow",
+        "qty": "0-2",
+        "notes": "+0-1 per Looting level"
+      },
+      {
+        "item": "Arrow of Weakness",
+        "qty": "0-1",
+        "notes": "Player kills only, max 1, needs Looting for the second roll"
+      }
+    ],
+    "spawnConditions": "Night spawns in desert biomes in place of some skeletons; also appears as the second passenger of camel husk jockeys (10% of natural husks) and, in Bedrock, as an 80% rider on desert spider jockeys (1% of desert spiders).",
+    "behavior": "A desert skeleton variant with less health that never burns in daylight, fires its bow more slowly and shoots tipped arrows of Weakness (30 seconds). In powder snow it takes freeze damage instead of converting into a stray, and it is immune to the Weakness effect itself. Like all undead, Instant Health harms it and Instant Damage heals it - and a parched that kills a creeper drops a music disc.",
+    "tameOrBreed": "Cannot be tamed or bred.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.21.11 (25w44a); Bedrock 1.21.130",
+    "related": [
+      "skeleton",
+      "stray",
+      "bogged",
+      "husk"
+    ],
+    "keywords": "parched desert skeleton weakness arrows sunlight bow minecraft 1.21.11"
+  },
+  {
+    "slug": "skeleton-horse",
+    "name": "Skeleton Horse",
+    "type": "Passive",
+    "health": "15 (7.5 hearts)",
+    "where": "Nowhere natural to find standing around: it appears as a 'skeleton trap' horse during thunderstorms (0.75-6.75% of natural lightning strikes depending on difficulty and regional difficulty).",
+    "howToKill": "Not worth killing - it only drops bones. Kill the skeleton rider instead and keep the horse.",
+    "drops": [
+      {
+        "item": "Bone",
+        "qty": "0-2",
+        "notes": "+0-1 per Looting level"
+      },
+      {
+        "item": "Saddle",
+        "qty": "1",
+        "notes": "Only if it was saddled (Java)"
+      }
+    ],
+    "spawnConditions": "A fraction of natural lightning during thunderstorms spawns a trap horse in any biome where it can rain. Channeling tridents and lightning rods never create traps, and an untriggered trap despawns after 15 minutes.",
+    "behavior": "Walk within 10 blocks of the lone trap horse and fake lightning converts it into four skeleton horsemen: skeletons (often enchanted bows and helmets) riding skeleton horses. Kill the riders and the horses turn fully passive. They never burn in sunlight, always have 15 health and speed 0.2 (double your walking speed), jump 0.4-1.0, and can be ridden underwater without dismounting - though you can still drown.",
+    "tameOrBreed": "Already tame: in Bedrock always, in Java the moment the trap springs. Cannot be bred - this is the only way to get one.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.6.1 (13w16a); skeleton traps since Java 1.9",
+    "related": [
+      "horse",
+      "skeleton",
+      "zombie",
+      "donkey"
+    ],
+    "keywords": "skeleton horse trap thunderstorm lightning skeleton horsemen tame ride underwater minecraft"
+  },
+  {
+    "slug": "pufferfish",
+    "name": "Pufferfish",
+    "type": "Neutral",
+    "health": "3 (1.5 hearts)",
+    "where": "Warm, lukewarm and deep lukewarm oceans. Java spawns them in groups of 1-3; Bedrock in groups of 3-5 near the surface of warm oceans, much rarer than tropical fish.",
+    "howToKill": "Any hit works, but never touch it: contact with an inflated pufferfish deals damage plus Poison for up to 10 seconds on Hard. Use a sword swing from max range or a bow.",
+    "drops": [
+      {
+        "item": "Pufferfish",
+        "qty": "1",
+        "notes": "The brewing ingredient for water breathing potions"
+      },
+      {
+        "item": "Bone Meal",
+        "qty": "1",
+        "notes": "5% chance (Java)"
+      },
+      {
+        "item": "Bone",
+        "qty": "1",
+        "notes": "25% chance (Bedrock)"
+      }
+    ],
+    "spawnConditions": "Water in warm, lukewarm and deep lukewarm ocean biomes; in Bedrock only at the surface of warm oceans, 12-32 blocks from the player.",
+    "behavior": "A defensive fish, not a hunter: it inflates when players, axolotls or land mobs get close, and touching it means damage plus Poison (3 seconds on Easy/Normal up to 10 on Hard). Scoop it with a water bucket to carry it home for brewing.",
+    "tameOrBreed": "Cannot be tamed or bred, but a water bucket picks it up alive and a name tag keeps it from despawning.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.13 (18w08b); Bedrock 1.4.0",
+    "related": [
+      "axolotl",
+      "squid",
+      "glow-squid",
+      "turtle"
+    ],
+    "keywords": "pufferfish minecraft poison warm ocean water breathing potion brewing bucket fish"
   }
 ]

@@ -928,5 +928,43 @@
     "notes": [
       "Ink Sac: Looting añade 0-1 por nivel - black dye, books and quills, texto oscuro en signs"
     ]
+  },
+  "parched": {
+    "type": "Hostil",
+    "where": "Desiertos por la noche: sustituye al 50% de los spawns de skeletons a cielo abierto en Java (grupos de 4) y a un 33% en la superficie en Bedrock (grupos de 2-4).",
+    "spawnConditions": "Spawns nocturnos en desiertos en lugar de algunos skeletons; también aparece como segundo pasajero de los camel husk jockeys (10% de los husks naturales) y, en Bedrock, como jinete al 80% en los spider jockeys del desierto (1% de las spiders del desierto).",
+    "howToKill": "Pelea como contra un skeleton con menos vida, pero recuerda que no arde con la luz del sol y sus flechas infligen 30 segundos de Weakness - acorta distancias rápido o usa un shield.",
+    "behavior": "Una variante desértica del skeleton con menos vida que nunca arde de día, dispara el bow más despacio y lanza flechas con efecto de Weakness (30 segundos). En powder snow recibe daño por congelación en lugar de convertirse en stray, y es inmune al propio efecto de Weakness. Como todo no-muerto, Instant Health le daña e Instant Damage le cura - y un parched que mata a un creeper suelta un music disc.",
+    "tameOrBreed": "No se puede domesticar ni criar.",
+    "notes": [
+      "+0-1 por nivel de Looting",
+      "+0-1 por nivel de Looting",
+      "Solo con muertes por jugador, máximo 1; Looting permite la segunda tirada"
+    ]
+  },
+  "skeleton-horse": {
+    "type": "Pasivo",
+    "where": "No se encuentra por ahí: aparece como caballo 'skeleton trap' durante las tormentas (0,75-6,75% de los rayos naturales según dificultad y dificultad regional).",
+    "spawnConditions": "Una fracción de los rayos naturales de las tormentas genera un caballo trampa en cualquier bioma donde pueda llover. Los tridents con Channeling y los lightning rods nunca crean trampas, y una trampa sin activar desaparece a los 15 minutos.",
+    "howToKill": "No merece la pena matarlo: solo suelta bones. Mata al skeleton jinete y quédate el caballo.",
+    "behavior": "Acércate a 10 bloques del caballo solitario y un rayo falso lo convierte en cuatro skeleton horsemen: skeletons (a menudo con bows y helmets encantados) montando skeleton horses. Mata a los jinetes y los caballos se vuelven totalmente pasivos. Nunca arden con el sol, siempre tienen 15 de vida y velocidad 0,2 (el doble que andar), saltan 0,4-1,0 y se pueden montar bajo el agua sin desmontarte - aunque tú sí puedes ahogarte.",
+    "tameOrBreed": "Ya está domado: en Bedrock siempre, en Java en el momento en que salta la trampa. No se puede criar - esta es la única forma de conseguir uno.",
+    "notes": [
+      "+0-1 por nivel de Looting",
+      "Solo si llevaba saddle (Java)"
+    ]
+  },
+  "pufferfish": {
+    "type": "Neutral",
+    "where": "Océanos warm, lukewarm y deep lukewarm. En Java aparecen en grupos de 1-3; en Bedrock en grupos de 3-5 cerca de la superficie de los warm oceans, mucho más raros que los tropical fish.",
+    "spawnConditions": "Agua en biomas de océano warm, lukewarm y deep lukewarm; en Bedrock solo en la superficie de los warm oceans, a 12-32 bloques del jugador.",
+    "howToKill": "Cualquier golpe sirve, pero no lo toques jamás: el contacto con un pufferfish inflado hace daño más Poison de hasta 10 segundos en Hard. Usa un espadazo desde el alcance máximo o un bow.",
+    "behavior": "Un pez defensivo, no un cazador: se infla cuando players, axolotls o mobs terrestres se acercan, y tocarlo significa daño más Poison (3 segundos en Easy/Normal hasta 10 en Hard). Recógelo con un water bucket para llevártelo a casa para las pociones.",
+    "tameOrBreed": "No se puede domesticar ni criar, pero un water bucket lo recoge vivo y un name tag evita que desaparezca.",
+    "notes": [
+      "El ingrediente de las pociones de water breathing",
+      "5% de probabilidad (Java)",
+      "25% de probabilidad (Bedrock)"
+    ]
   }
 }
