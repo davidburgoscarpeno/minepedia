@@ -300,6 +300,43 @@ const SCENES = {
     const rx = 47, ry = S.heights[47]; S.b(rx, ry-1, hex('#e8e8e0')); S.b(rx, ry-2, hex('#f0f0e8'));
   }
 
+,
+  'birch-forest': S => { S.sky(hex('#7ab8e8'), hex('#dff0fa')); S.sun(50, 4, hex('#f7e08a')); S.cloud(8, 3, hex('#f4f8fb')); S.cloud(34, 6, hex('#eef4f9'));
+    S.terrain(S.hill(27, 1, 8), hex('#6faf3f'), hex('#8a5a2b'), hex('#6e4520'));
+    const birch = x => { const gy = S.heights[x]; S.rect(x, gy - 6, 1, 6, hex('#e8e8dc'));
+      S.b(x, gy - 2, hex('#3a3a34')); S.b(x, gy - 4, hex('#3a3a34')); S.b(x, gy - 6, hex('#3a3a34'));
+      for (let dy = -3; dy <= -1; dy++) for (let dx = -2; dx <= 2; dx++) { if (Math.abs(dx) + Math.abs(dy + 2) > 3) continue; S.b(x + dx, gy - 6 + dy, mul(hex('#7fc44f'), 0.85 + S.r() * 0.3)); }
+      S.b(x, gy - 10, hex('#7fc44f')); };
+    birch(10); birch(22); birch(35); birch(47); birch(58);
+    [5, 16, 28, 41, 53, 62].forEach((x, i) => S.flower(x, [hex('#f1f3f6'), hex('#ffd166'), hex('#e8f7ff')][i % 3])); },
+  'snowy-plains': S => { S.sky(hex('#9fb8cc'), hex('#dde8f0')); S.cloud(14, 4, hex('#f4f8fb')); S.cloud(46, 6, hex('#eef4f9'));
+    S.terrain(S.flat(27), hex('#f4f8fc'), hex('#e0e8f0'), hex('#9aa4ac'), 3);
+    for (let x = 0; x < W; x++) if ((x * 5) % 7 < 3) S.b(x, 26, hex('#ffffff'));
+    // igloo: white dome with door
+    const ix = 40; S.rect(ix, 24, 10, 3, hex('#f4f8fc')); S.rect(ix + 1, 22, 8, 2, hex('#f4f8fc')); S.rect(ix + 3, 21, 4, 1, hex('#eef4f8'));
+    S.rect(ix + 3, 25, 3, 2, hex('#3a3d42')); S.rect(ix + 3, 25, 3, 1, hex('#4a4d52'));
+    for (let i = 0; i < 4; i++) S.b(ix + 1 + i * 2, 24, hex('#dde4ea'));
+    // lone snowy spruce
+    const gy = 27; S.rect(14, gy - 7, 1, 7, hex('#4a3520'));
+    for (let t = 0; t < 4; t++) { const w2 = 3 - t; const yy = gy - 2 - t * 2; S.rect(14 - w2, yy, w2 * 2 + 1, 1, hex('#2f5e2f')); S.rect(14 - w2, yy - 1, w2 * 2 + 1, 1, hex('#f4f8fc')); }
+    // polar bear: white blob with head
+    S.rect(27, 25, 4, 2, hex('#f7f7f2')); S.b(31, 25, hex('#f7f7f2')); S.b(31, 24, hex('#e8e8e2'));
+    // rabbit
+    S.b(57, 26, hex('#c8c0b0')); S.b(57, 25, hex('#d8d0c0')); },
+  'old-growth-pine-taiga': S => { S.sky(hex('#8aa4b8'), hex('#cfdbe4')); S.cloud(10, 3, hex('#dde6ee')); S.cloud(42, 5, hex('#dde6ee'));
+    S.terrain(S.hill(28, 1.5, 7), hex('#6e5230'), hex('#5e4526'), hex('#4a3620'), 2);
+    for (let x = 0; x < W; x++) if ((x * 11) % 13 < 6) S.b(x, S.heights[x] - 1, hex('#7a5c36'));
+    const mega = x => { const gy = S.heights[x]; S.rect(x, gy - 13, 2, 13, hex('#4a3520'));
+      S.rect(x - 1, gy - 15, 4, 2, hex('#2f4a2f')); S.rect(x, gy - 17, 2, 2, hex('#2f4a2f')); S.b(x, gy - 18, hex('#3f5e3f')); S.b(x + 1, gy - 18, hex('#3f5e3f'));
+      S.rect(x - 1, gy - 13, 1, 3, hex('#2f4a2f')); S.rect(x + 2, gy - 12, 1, 2, hex('#2f4a2f')); };
+    mega(10); mega(34); mega(52);
+    const small = x => S.spruce(x, hex('#4a3520'), hex('#2f5e2f'), 6);
+    small(24); small(44); small(61);
+    // mossy cobble boulders
+    [[18, 3], [41, 4], [58, 2]].forEach(([x, wdt]) => { const gy = S.heights[x]; S.rect(x, gy - 2, wdt, 2, hex('#6a7568')); S.rect(x, gy - 2, wdt, 1, hex('#5f7a4a')); });
+    // ferns
+    [7, 30, 48, 62].forEach(x => { const gy = S.heights[x]; S.b(x, gy - 1, hex('#3f6e2f')); S.b(x, gy - 2, hex('#4f7e3f')); }); }
+
 };
 
 const outDir = 'public/biome-art';
