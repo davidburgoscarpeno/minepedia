@@ -646,5 +646,47 @@
     ],
     "renewable": "Renovable: todos los tipos de madera son renovables con saplings y hongos.",
     "editionNote": "Igual en Java y Bedrock; añadido en Java 1.21.9 y Bedrock 1.21.111, y el shelf de poplar en Java 26.3."
+  },
+  "copper-chest": {
+    "howToGet": [
+      "Craftéala: una chest normal rodeada de 8 copper ingots",
+      "Construye un copper golem: el block of copper que uses se convierte en una copper chest orientada como la pumpkin",
+      "Las copper chests oxidadas también se generan de forma natural en los abandoned camps"
+    ],
+    "uses": [
+      "Almacenamiento como una chest de madera, y la fuente del copper golem: saca ítems de las copper chests para ordenarlos en wooden chests",
+      "Coloca dos juntas para fusionarlas en una large copper chest - incluso con distinta oxidación se fusionan (el resultado toma la fase menos oxidada y pierde la cera); colócala agachándote en Java o empújala con un piston en Bedrock para mantenerlas separadas",
+      "Se oxida en 4 fases como el resto del cobre; raspa con un axe, espera un rayo o encera con un honeycomb para frenarla"
+    ],
+    "renewable": "Renovable: copper ingots de fundir copper ore, chests de planks.",
+    "editionNote": "Igual en Java y Bedrock; añadida en Java 1.21.9 y Bedrock 1.21.111. Admite waterlogging y se mina más rápido con un stone pickaxe o mejor."
+  },
+  "nautilus-armor": {
+    "howToGet": [
+      "No se puede craftear - encuentra nautilus armor de copper, iron, golden y diamond como botín en las supply chests de los shipwrecks, los cofres de las ocean ruins y los buried treasures",
+      "Mejora la de diamond a netherite en la smithing table: netherite upgrade smithing template + 1 netherite ingot",
+      "Quítala de un nautilus con shears; también la suelta al morir"
+    ],
+    "uses": [
+      "Equípasela a un nautilus o zombie nautilus domesticado (botón de usar) para protegerlo: copper 4, iron 5, gold 7, diamond 11, netherite 19 puntos de armadura; diamond añade 2 y netherite 3 de armor toughness, y netherite también resistencia al empuje",
+      "Como la horse armor no tiene durabilidad: nunca se rompe",
+      "Funde nautilus armor de copper, iron o golden para obtener el nugget correspondiente; los piglins se sienten atraídos por la versión de oro",
+      "Las crías de nautilus no pueden llevar armadura"
+    ],
+    "renewable": "No renovable: botín fijo de cofres, aunque una pieza nunca se desgasta.",
+    "editionNote": "Igual en Java y Bedrock; añadida en Java 1.21.11 y Bedrock 1.21.130."
+  },
+  "copper-lantern": {
+    "howToGet": [
+      "Craftéala: 8 copper nuggets alrededor de 1 copper torch",
+      "Receta de la copper torch: copper nugget + coal o charcoal + stick (salen 4)"
+    ],
+    "uses": [
+      "Variante de cobre de la lantern con llama verde: nivel de luz máximo 15, se cuelga o se apoya como una lantern normal, admite waterlogging",
+      "Se oxida en 4 fases (unoxidized, exposed, weathered, oxidized); raspa con un axe o un rayo para revertirla, encera con un honeycomb para congelar el aspecto",
+      "Se mina más rápido con un pickaxe; se suelta si su bloque de apoyo se mueve o se destruye"
+    ],
+    "renewable": "Renovable: copper nuggets de copper ingots, coal o charcoal, sticks.",
+    "editionNote": "Igual en Java y Bedrock; añadida en Java 1.21.9 y Bedrock 1.21.111."
   }
 }

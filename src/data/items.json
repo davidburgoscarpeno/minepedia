@@ -1109,5 +1109,77 @@
       "straw-bed"
     ],
     "keywords": "shelf minecraft craft stripped log display items redstone hotbar swap storage poplar"
+  },
+  {
+    "slug": "copper-chest",
+    "name": "Copper Chest",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: a regular chest surrounded by 8 copper ingots",
+      "Build a copper golem: the block of copper you use turns into a copper chest facing the pumpkin",
+      "Oxidized copper chests also generate naturally in abandoned camps"
+    ],
+    "uses": [
+      "Storage like a wooden chest, and the copper golem's source: it takes items out of copper chests to sort them into wooden chests",
+      "Place two next to each other to merge into a large copper chest - different oxidation stages still merge (the result takes the least oxidized stage and unwaxes); sneak-place in Java or push with a piston in Bedrock to keep them separate",
+      "Oxidizes through 4 stages like other copper; scrape with an axe, strike with lightning, or wax with a honeycomb to stop it"
+    ],
+    "renewable": "Renewable: copper ingots from smelting copper ore, chests from planks.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111. Waterloggable, mined fastest with a stone pickaxe or better.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "copper-bars",
+      "shelf"
+    ],
+    "keywords": "copper chest minecraft craft copper ingots copper golem sorting large chest oxidation wax abandoned camp"
+  },
+  {
+    "slug": "nautilus-armor",
+    "name": "Nautilus Armor",
+    "category": "Combat",
+    "stackSize": "Not stackable",
+    "howToGet": [
+      "Cannot be crafted - find copper, iron, golden and diamond nautilus armor as chest loot in shipwreck supply chests, ocean ruins chests and buried treasure",
+      "Upgrade diamond nautilus armor to netherite on a smithing table: netherite upgrade smithing template + 1 netherite ingot",
+      "Remove it from a nautilus with shears; it also drops when the nautilus dies"
+    ],
+    "uses": [
+      "Equip it on a tamed nautilus or zombie nautilus (use button) for protection: copper 4, iron 5, gold 7, diamond 11, netherite 19 armor points; diamond adds 2 and netherite 3 armor toughness, netherite also knockback resistance",
+      "Like horse armor it has no durability - it never breaks",
+      "Smelt copper, iron or golden nautilus armor for a matching nugget; piglins are attracted to the golden version",
+      "Baby nautiluses cannot wear armor"
+    ],
+    "renewable": "Not renewable: fixed pool of chest loot, though a single armor piece never wears out.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.11 and Bedrock 1.21.130.",
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "saddle",
+      "shield"
+    ],
+    "keywords": "nautilus armor minecraft copper iron gold diamond netherite shipwreck ocean ruins buried treasure smithing shears"
+  },
+  {
+    "slug": "copper-lantern",
+    "name": "Copper Lantern",
+    "category": "Decoration",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 8 copper nuggets around 1 copper torch",
+      "Copper torch recipe: copper nugget + coal or charcoal + stick (makes 4)"
+    ],
+    "uses": [
+      "Copper variant of the lantern with a green flame: full light level 15, hangs or sits like a regular lantern, waterloggable",
+      "Oxidizes through 4 stages (unoxidized, exposed, weathered, oxidized); scrape with an axe or lightning to revert, wax with a honeycomb to freeze the look",
+      "Mined fastest with a pickaxe; drops itself if its support block is moved or destroyed"
+    ],
+    "renewable": "Renewable: copper nuggets from copper ingots, coal or charcoal, sticks.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "copper-bars",
+      "copper-chest"
+    ],
+    "keywords": "copper lantern minecraft craft copper nuggets copper torch green flame light oxidation wax"
   }
 ]
