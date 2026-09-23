@@ -1934,5 +1934,120 @@
       "piglin"
     ],
     "keywords": "happy ghast dried ghast ghastling harness fly mount four players snowball golden dandelion transport mobs"
+  },
+  {
+    "slug": "zombie-villager",
+    "name": "Zombie Villager",
+    "type": "Hostile",
+    "health": "20 (10 hearts); 40-100 for Java raid leaders",
+    "where": "Anywhere zombies spawn (5% of natural zombie spawns, 20% in old growth pine taigas in Java), in abandoned villages and igloo basements, and wherever a zombie kills a villager: 0% conversion on Easy, 50% on Normal, 100% on Hard.",
+    "howToKill": "Fight it like a normal zombie - but think twice: a cured zombie villager gives permanent trading discounts. Trap it under a roof instead of killing it.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Iron Ingot",
+        "qty": "0-1",
+        "notes": "2.5% chance, player kill only"
+      },
+      {
+        "item": "Carrot / Potato",
+        "qty": "0-1",
+        "notes": "2.5% chance each, player kill only; baked potato if burning in Java"
+      },
+      {
+        "item": "Experience",
+        "qty": "5",
+        "notes": "12 if a baby, plus 1-3 per equipment piece"
+      }
+    ],
+    "spawnConditions": "Light level 0 like zombies; 5% of zombie spawns (Bedrock: 5% chance 2-4 spawn as zombie villagers). Persistent zombie villagers generate inside abandoned villages and one cleric zombie villager in every igloo basement.",
+    "behavior": "Attacks players, villagers, wandering traders and iron golems like a zombie, breaks doors on Hard, and converts villagers it kills (50% Normal, 100% Hard) - one zombie villager can doom a whole village. Burns in daylight unless wearing a helmet or standing in water or shade.",
+    "tameOrBreed": "Cannot be tamed - but it can be CURED: splash it with Weakness (splash/lingering potion or arrow of Weakness), then use a normal golden apple. Curing takes 3-5 minutes, sped up ~4.2% by surrounding it with up to 14 iron bars or beds (copper bars do not count). The cured villager gives permanent trade discounts and keeps its profession and trades if it had any.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "villager",
+      "zombie",
+      "iron-golem"
+    ],
+    "keywords": "zombie villager cure weakness golden apple trading discount convert villager abandoned village igloo"
+  },
+  {
+    "slug": "glow-squid",
+    "name": "Glow Squid",
+    "type": "Passive",
+    "health": "10 (5 hearts)",
+    "where": "Underground water in total darkness below Y=30: aquifers, caves, canyons and ocean depths. In Java not in sulfur caves or deep dark; in Bedrock anywhere underground except deep dark, with extra weight in mangrove swamps.",
+    "howToKill": "Drops 1-3 glow ink sacs, the only source - kill it or let it suffocate out of water. Axolotls hunt glow squids, so an axolotl farm does the job for you.",
+    "drops": [
+      {
+        "item": "Glow Ink Sac",
+        "qty": "1-3",
+        "notes": "More with Looting; the only source"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Schools of 4-6 in Java (2-4 in Bedrock) in water at light level 0 below Y=30; 5% spawn as babies. Darkness is required since 1.18.2 in both editions.",
+    "behavior": "Swims aimlessly and shoots a turquoise ink cloud when attacked, like a squid. Its luminescent texture is purely visual - it emits NO actual light and does not stop mob spawns. Suffocates out of water and cannot be bred or leashed.",
+    "tameOrBreed": "Cannot be tamed or bred. Glow ink sacs make glowing sign text and glow item frames - that is the whole point of farming them.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.17 (Caves & Cliffs Part I)",
+    "related": [
+      "axolotl",
+      "drowned"
+    ],
+    "keywords": "glow squid glow ink sac dark water aquifer light level 0 sign glow item frame axolotl"
+  },
+  {
+    "slug": "polar-bear",
+    "name": "Polar Bear",
+    "type": "Neutral",
+    "health": "30 (15 hearts)",
+    "where": "Snowy plains, ice spikes, frozen and deep frozen oceans, plus frozen rivers and snowy peaks in Bedrock. Groups of up to two above ice - if there are two, the second is a baby.",
+    "howToKill": "Drops 0-2 raw cod or salmon (cooked if burning). Never attack one near a cub: every adult within 41x21x41 blocks turns hostile at once, and they hit for up to 9 damage on Hard.",
+    "drops": [
+      {
+        "item": "Raw Cod",
+        "qty": "0-2",
+        "notes": "3/4 of drops in Java; always cod in Bedrock. Cooked if killed by fire"
+      },
+      {
+        "item": "Raw Salmon",
+        "qty": "0-2",
+        "notes": "1/4 of drops in Java; Java only"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Groups of up to 2 above ice in frozen biomes; babies spawn with adults. In Java they do not spawn on ice within snowy plains and ice spikes.",
+    "behavior": "Adults are neutral until you attack or go near a cub - then every adult in a 41x21x41 area becomes hostile, rearing up on its hind legs to maul. They swim as fast as the player, hunt foxes on sight, and are immune to powder snow freezing. Babies are always passive.",
+    "tameOrBreed": "Cannot be tamed or bred - polar bears never follow players or accept food. The only way to move one is a lead or a boat.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.10 (Frostburn Update)",
+    "related": [
+      "fox",
+      "wolf"
+    ],
+    "keywords": "polar bear cub hostile swim speed fox frozen ocean ice spikes tame breed"
   }
 ]

@@ -701,5 +701,47 @@
       "Solo si lo llevaba equipado; usa shears para quitárselo sin matarlo",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
+  },
+  "zombie-villager": {
+    "type": "Hostil",
+    "where": "Donde aparezcan zombies (5% de los spawns naturales de zombies, 20% en las old growth pine taigas en Java), en abandoned villages y sótanos de igloos, y allí donde un zombie mata a un villager: 0% de conversión en Fácil, 50% en Normal, 100% en Difícil.",
+    "howToKill": "Lucha contra él como contra un zombie normal - pero piénsatelo: un zombie villager curado da descuentos permanentes en trueques. Mejor atraparlo bajo un techo que matarlo.",
+    "spawnConditions": "Nivel de luz 0 como los zombies; 5% de los spawns de zombies (Bedrock: 5% de que 2-4 aparezcan como zombie villagers). Zombie villagers persistentes se generan dentro de las abandoned villages y un cleric zombie villager en el sótano de cada igloo.",
+    "behavior": "Ataca a jugadores, villagers, wandering traders e iron golems como un zombie, rompe puertas en Difícil y convierte a los villagers que mata (50% Normal, 100% Difícil): un solo zombie villager puede condenar a una village entera. Arde con la luz del día salvo que lleve casco o esté en agua o sombra.",
+    "tameOrBreed": "No se puede tamear - pero se puede CURAR: lánzale Weakness (poción splash/lingering o arrow of Weakness) y luego usa una golden apple normal. La cura tarda 3-5 minutos, acelerada ~4,2% rodeándolo de hasta 14 iron bars o beds (las copper bars no cuentan). El villager curado da descuentos permanentes y conserva su profesión y trueques si los tenía.",
+    "keywords": "zombie villager curar weakness golden apple descuento trueques convertir villager abandoned village igloo",
+    "notes": [
+      "Más con Saqueo",
+      "2,5% de probabilidad, solo si lo mata un jugador",
+      "2,5% cada uno, solo si lo mata un jugador; baked potato si arde en Java",
+      "12 si es cría, más 1-3 por pieza de equipo"
+    ]
+  },
+  "glow-squid": {
+    "type": "Pasivo",
+    "where": "Agua subterránea en oscuridad total por debajo de Y=30: aquifers, cuevas, cañones y profundidades oceánicas. En Java no en sulfur caves ni deep dark; en Bedrock en cualquier agua subterránea salvo deep dark, con peso extra en los mangrove swamps.",
+    "howToKill": "Suelta 1-3 glow ink sacs, su única fuente: mátalo o deja que se asfixie fuera del agua. Los axolotls cazan glow squids, así que una granja de axolotls hace el trabajo por ti.",
+    "spawnConditions": "Grupos de 4-6 en Java (2-4 en Bedrock) en agua con nivel de luz 0 por debajo de Y=30; el 5% aparece como cría. La oscuridad es requisito desde 1.18.2 en ambas ediciones.",
+    "behavior": "Nada sin rumbo y suelta una nube de tinta turquesa al ser atacado, como un squid. Su textura luminosa es puramente visual: NO emite luz real y no evita spawns de mobs. Se asfixia fuera del agua y no se puede criar ni ponerle lead.",
+    "tameOrBreed": "No se puede tamear ni criar. Las glow ink sacs sirven para texto brillante en signs y glow item frames: esa es toda la razón de farmearlas.",
+    "keywords": "glow squid glow ink sac agua oscura aquifer nivel de luz 0 sign brillo glow item frame axolotl",
+    "notes": [
+      "Más con Saqueo; es la única fuente",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
+  },
+  "polar-bear": {
+    "type": "Neutral",
+    "where": "Snowy plains, ice spikes, frozen y deep frozen oceans, además de frozen rivers y picos nevados en Bedrock. Grupos de hasta dos sobre ice - si hay dos, el segundo es una cría.",
+    "howToKill": "Suelta 0-2 raw cod o salmon (cocinado si arde). Nunca ataques a uno cerca de un cub: todos los adultos en 41x21x41 bloques se vuelven hostiles a la vez, y golpean hasta 9 de daño en Difícil.",
+    "spawnConditions": "Grupos de hasta 2 sobre ice en biomas helados; las crías aparecen con los adultos. En Java no aparecen sobre ice dentro de snowy plains e ice spikes.",
+    "behavior": "Los adultos son neutrales hasta que atacas o te acercas a un cub: entonces todos los adultos en un área de 41x21x41 se vuelven hostiles, alzándose sobre las patas traseras para morder. Nadan tan rápido como el jugador, cazan foxes a la vista y son inmunes al congelamiento del powder snow. Las crías siempre son pasivas.",
+    "tameOrBreed": "No se puede tamear ni criar: los polar bears nunca siguen al jugador ni aceptan comida. La única forma de mover uno es con lead o en boat.",
+    "keywords": "polar bear cub hostil velocidad nado fox frozen ocean ice spikes tamear criar",
+    "notes": [
+      "3/4 de los drops en Java; siempre cod en Bedrock. Cocinado si muere por fuego",
+      "1/4 de los drops en Java; solo en Java",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
   }
 }
