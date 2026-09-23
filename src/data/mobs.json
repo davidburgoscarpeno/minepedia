@@ -2253,5 +2253,95 @@
       "cave-spider"
     ],
     "keywords": "silverfish infested block stronghold end portal spawner silk touch mountain stone monster"
+  },
+  {
+    "slug": "strider",
+    "name": "Strider",
+    "type": "Passive",
+    "health": "20 (10 hearts)",
+    "where": "On lava lakes in every Nether biome, in groups of 2-4 on lava with air above. 1 in 10 spawns with a baby strider riding on top.",
+    "howToKill": "No reason to - it is passive. If you must: it walks on lava, so hit it with a bow or wait for it to step onto land, where it turns purple, shivers and slows down.",
+    "drops": [
+      {
+        "item": "String",
+        "qty": "2-5",
+        "notes": "Looting adds 0-1 per level in Java only - drops ignore Looting in Bedrock"
+      }
+    ],
+    "spawnConditions": "On lava surfaces with an air block above, in all Nether biomes. In Java a spawn attempt runs every 400 ticks; in Bedrock they share the animal cap with hoglins.",
+    "behavior": "Walks on lava. Passive toward players. A saddled strider can be steered with a warped fungus on a stick, and boosting with it consumes durability. Out of lava it shivers, turns purple and moves slowly. Rain hurts it.",
+    "tameOrBreed": "Breed two adults with warped fungus. Saddle one to ride it across lava lakes - remove the saddle with shears since 1.21.6.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "hoglin",
+      "zombified-piglin"
+    ],
+    "keywords": "strider nether lava mount saddle warped fungus on a stick ride breed"
+  },
+  {
+    "slug": "snow-golem",
+    "name": "Snow Golem",
+    "type": "Passive",
+    "health": "4 (2 hearts)",
+    "where": "Does not spawn naturally - build one: stack 2 snow blocks and place a carved pumpkin or jack o'lantern on top (pumpkin last). The pattern works sideways and upside-down too.",
+    "howToKill": "It is friendly. If needed: two hits of anything - it has only 4 health. Rain, water and hot biomes (temperature above 1.0: deserts, badlands, savannas in Java, the Nether) kill it slowly.",
+    "drops": [
+      {
+        "item": "Snowball",
+        "qty": "0-15",
+        "notes": "On death"
+      },
+      {
+        "item": "Carved Pumpkin",
+        "qty": "1",
+        "notes": "When sheared - also reveals its derpy real face"
+      }
+    ],
+    "spawnConditions": "Built by the player (or a dispenser, enderman or command placing the pumpkin). Never spawns on its own.",
+    "behavior": "Wanders and throws snowballs at monsters up to 10 blocks away (16 when cornered), one per second. Snowballs only damage blazes (3 damage) but knock back and provoke everything else. Leaves a snow trail in cold biomes. Immune to fall damage and powder snow.",
+    "tameOrBreed": "Cannot be bred. Build as many as you like - a snow golem over a trapped mob is the heart of every snow farm.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.0.0 (Beta 1.9 prerelease)",
+    "related": [
+      "iron-golem",
+      "blaze"
+    ],
+    "keywords": "snow golem how to make pumpkin snow blocks snowball farm shear melt biome"
+  },
+  {
+    "slug": "zoglin",
+    "name": "Zoglin",
+    "type": "Hostile",
+    "health": "40 (20 hearts)",
+    "where": "The result of a hoglin spending 15 seconds in the Overworld or the End - it zombifies on the spot. It never spawns naturally any other way.",
+    "howToKill": "Same plan as a hoglin, but nastier: it never flees and adult zoglins fling you into the air with each hit (Java only) - shield blocking does not stop the launch. Being undead, Instant Health potions damage it and Instant Damage heals it: splash it with Healing. Keep your back away from cliffs.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "1-3",
+        "notes": "Looting adds 0-1 per level"
+      }
+    ],
+    "spawnConditions": "Only when a hoglin stays outside the Nether for 15 seconds. A hoglin fed crimson fungus before zombifying produces a zoglin that never despawns and ignores the mob cap.",
+    "behavior": "Attacks players and almost every mob except creepers, ghasts and other zoglins - including hoglins and zombified piglins. Adults attack every 2 seconds in Java (1 second for babies; in Bedrock both attack every second). Baby zoglins never grow up. Piglins flee from it. Can be leashed.",
+    "tameOrBreed": "Cannot be tamed, bred or repelled by warped fungus - hoglin repellents do nothing.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "hoglin",
+      "piglin",
+      "piglin-brute"
+    ],
+    "keywords": "zoglin hoglin zombified overworld 15 seconds undead fling rotten flesh"
   }
 ]

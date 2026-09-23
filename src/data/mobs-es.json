@@ -822,5 +822,39 @@
     "notes": [
       "Nunca suelta objetos"
     ]
+  },
+  "strider": {
+    "type": "Pasivo",
+    "where": "Sobre lagos de lava en todos los biomas del Nether, en grupos de 2-4 sobre lava con aire encima. 1 de cada 10 aparece con una cría de strider montada encima.",
+    "spawnConditions": "Sobre superficies de lava con un bloque de aire encima, en todos los biomas del Nether. En Java se hace un intento de spawn cada 400 ticks; en Bedrock comparten el tope de animales con los hoglins.",
+    "howToKill": "No hay motivo: es pasivo. Si hace falta: camina sobre lava, así que dispárale con arco o espera a que pise tierra, donde se vuelve morado, tiembla y va lento.",
+    "behavior": "Camina sobre lava. Pasivo con los jugadores. Un strider ensillado se dirige con un warped fungus on a stick, y el boost consume durabilidad. Fuera de la lava tiembla, se vuelve morado y se mueve lento. La lluvia le hace daño.",
+    "tameOrBreed": "Cría dos adultos con warped fungus. Ensilla uno para montarlo por los lagos de lava: quítale la saddle con shears desde 1.21.6.",
+    "notes": [
+      "Saqueo añade 0-1 por nivel solo en Java: en Bedrock los drops ignoran Saqueo"
+    ]
+  },
+  "snow-golem": {
+    "type": "Pasivo",
+    "where": "No aparece de forma natural: constrúyelo - apila 2 bloques de nieve y coloca una carved pumpkin o jack o'lantern encima (la pumpkin la última). El patrón funciona también de lado y boca abajo.",
+    "spawnConditions": "Lo construye el jugador (o un dispenser, un enderman o un comando colocando la pumpkin). Nunca aparece por sí solo.",
+    "howToKill": "Es amistoso. Si hace falta: dos golpes de cualquier cosa - solo tiene 4 de vida. La lluvia, el agua y los biomas calientes (temperatura por encima de 1.0: deserts, badlands, savannas en Java, el Nether) lo matan lentamente.",
+    "behavior": "Deambula y lanza snowballs a los monstruos a hasta 10 bloques (16 acorralado), una por segundo. Las snowballs solo dañan a los blazes (3 de daño) pero empujan y provocan a todo lo demás. Deja rastro de nieve en biomas fríos. Inmune al daño por caída y a la powder snow.",
+    "tameOrBreed": "No se puede criar. Construye los que quieras: un snow golem sobre un mob atrapado es el corazón de toda granja de nieve.",
+    "notes": [
+      "Al morir",
+      "Al esquilarlo: además revela su cara real graciosa"
+    ]
+  },
+  "zoglin": {
+    "type": "Hostil",
+    "where": "El resultado de que un hoglin pase 15 segundos en el Overworld o el End: se zombifica en el acto. No aparece de forma natural de ningún otro modo.",
+    "spawnConditions": "Solo cuando un hoglin pasa 15 segundos fuera del Nether. Un hoglin alimentado con crimson fungus antes de zombificarse produce un zoglin que no desaparece e ignora el tope de mobs.",
+    "howToKill": "Mismo plan que con un hoglin, pero peor: nunca huye y los zoglins adultos te lanzan por los aires con cada golpe (solo Java) - el escudo no evita el lanzamiento. Al ser undead, las pociones de Instant Health le dañan y las de Instant Damage le curan: lánzale Healing. Cuida tu espalda cerca de precipicios.",
+    "behavior": "Ataca a jugadores y a casi todos los mobs excepto creepers, ghasts y otros zoglins - incluidos hoglins y zombified piglins. Los adultos atacan cada 2 segundos en Java (1 segundo las crías; en Bedrock ambos cada segundo). Las crías de zoglin nunca crecen. Los piglins huyen de él. Se puede atar con lead.",
+    "tameOrBreed": "No se puede domesticar, criar ni repeler con warped fungus: los repelentes de hoglins no hacen nada.",
+    "notes": [
+      "Saqueo añade 0-1 por nivel"
+    ]
   }
 }
