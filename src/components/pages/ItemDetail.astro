@@ -11,6 +11,7 @@ const howToGet = ov?.howToGet ?? i.howToGet;
 const uses = ov?.uses ?? i.uses;
 const renewable = ov?.renewable ?? i.renewable;
 const editionNote = ov?.editionNote ?? i.editionNote;
+const since = ov?.since ?? i.since;
 const CAT_ES: Record<string, string> = { Material: 'Material', Utility: 'Utilidad', Block: 'Bloque', Combat: 'Combate', Weapon: 'Arma' };
 const category = isES ? (CAT_ES[i.category] || i.category) : i.category;
 
@@ -69,7 +70,7 @@ const jsonLd = [
   <div class="container">
     <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {i.name}</nav>
     <h1>{i.name}</h1>
-    <p><span class="badge">{category}</span> <span class="badge">{L.stackL} {i.stackSize}</span> <span class="badge">{L.sinceL} {i.since}</span></p>
+    <p><span class="badge">{category}</span> <span class="badge">{L.stackL} {i.stackSize}</span> <span class="badge">{L.sinceL} {since}</span></p>
     <div class="quick-answer"><strong>{L.quick}</strong> {howToGet[0]}.</div>
     <h2>{L.getH}</h2>
     <ul>{howToGet.map((h: string) => <li>{h}</li>)}</ul>
