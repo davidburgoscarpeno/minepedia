@@ -2802,5 +2802,96 @@
    "phantom"
   ],
   "keywords": "bat minecraft cave ambient mob hanging upside down squeak no drops"
+ },
+ {
+  "slug": "endermite",
+  "name": "Endermite",
+  "type": "Hostile",
+  "health": "8 (4 hearts)",
+  "where": "It never spawns naturally: an endermite appears when a thrown ender pearl lands - 5% chance, at your original position in Java or at the pearl's landing spot in Bedrock.",
+  "howToKill": "Only 8 health and a weak bite (2 damage, 3 on Hard): two sword hits kill it. As an arthropod it takes extra damage from Bane of Arthropods. It vanishes on its own 2 minutes after spawning unless you name it.",
+  "drops": [
+   {
+    "item": "Experience",
+    "qty": "3",
+    "notes": "Only when killed by a player or tamed wolf - no item drops"
+   }
+  ],
+  "spawnConditions": "5% chance when a player-thrown ender pearl lands. Despawns within 2 minutes regardless of distance unless named with a name tag - even inside a boat or minecart.",
+  "behavior": "Bites any player within 16 blocks. Endermen attack endermites on sight, which is why a named endermite trapped in a minecart is the classic bait in enderman XP farms. In Java, endermites also gang up on any mob that attacks one of them; in Bedrock they do not.",
+  "tameOrBreed": "Cannot be tamed or bred - it is not a natural spawn at all. Endermites only enter the world when an ender pearl brings one along.",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.8 (14w11a) / Bedrock 1.0.0",
+  "related": [
+   "enderman",
+   "silverfish",
+   "creeper"
+  ],
+  "keywords": "endermite minecraft ender pearl 5 percent enderman farm bait arthropod bane of arthropods despawn"
+ },
+ {
+  "slug": "tadpole",
+  "name": "Tadpole",
+  "type": "Passive (aquatic)",
+  "health": "6 (3 hearts)",
+  "where": "Hatches from frogspawn (the eggs frogs lay on water after breeding) in groups of 2-5. It never spawns naturally on its own.",
+  "howToKill": "It is a passive baby mob with 6 health, but there is no reason to kill it: like all baby animals it drops nothing, not even experience.",
+  "drops": [],
+  "spawnConditions": "Hatches from frogspawn blocks in groups of 2-5; frogspawn appears on water after two frogs are bred with slimeballs.",
+  "behavior": "Swims aimlessly, follows players holding a slimeball and is hunted by axolotls. On land it flops around and dies in under 20 seconds. It grows into a frog after 20 minutes - each slimeball fed speeds growth by 10%, and a golden dandelion pauses its aging entirely. Scoop it up with a water bucket to move it; the bucket keeps its health, age and custom name.",
+  "tameOrBreed": "Cannot be bred (it is a baby itself), but you choose its adult form: the biome where it matures decides the frog variant - temperate biomes give the orange frog, cold biomes the green frog and warm biomes the white frog. Bucket it to the biome you want before it grows up.",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.19 (22w11a) / Bedrock 1.19.0",
+  "related": [
+   "frog",
+   "axolotl",
+   "slime"
+  ],
+  "keywords": "tadpole minecraft frogspawn frog variants orange green white slimeball bucket of tadpole grow up"
+ },
+ {
+  "slug": "mule",
+  "name": "Mule",
+  "type": "Passive",
+  "health": "15 to 30 (7.5 to 15 hearts, random per mule)",
+  "where": "Mules never spawn naturally: breed a horse with a donkey (golden carrot or golden apple) and the foal is a mule. Like real mules, it is sterile.",
+  "howToKill": "It is a passive mount - no reason to kill it. If you must, it has 15 to 30 health; note that a chested mule drops its chest and everything inside, and killing a tamed mule shows a death message to its owner in Bedrock.",
+  "drops": [
+   {
+    "item": "Leather",
+    "qty": "0-2",
+    "notes": "Looting adds 0-1 per level"
+   },
+   {
+    "item": "Saddle",
+    "qty": "1",
+    "notes": "Only if saddled"
+   },
+   {
+    "item": "Chest",
+    "qty": "1",
+    "notes": "Only if chested, plus everything stored inside"
+   }
+  ],
+  "spawnConditions": "Only from cross-breeding: feed a horse and a donkey a golden carrot or golden apple each. Mules themselves cannot be bred.",
+  "behavior": "Wanders, rears and grazes like a horse. It falls safely from 6 blocks and takes half fall damage, and slowly regenerates health over time. Mount it repeatedly with an empty hand until hearts appear to tame it - feeding sugar, wheat or apples raises its temper and speeds taming.",
+  "tameOrBreed": "Tame it by mounting until it stops bucking, then add a saddle to ride it and a chest for 15 extra inventory slots - the best pack animal for long trips. A chest can never be removed except by killing the mule. Mules cannot be bred: every mule comes from a horse and a donkey.",
+  "editions": [
+   "java",
+   "bedrock"
+  ],
+  "since": "Java 1.6.1 (13w16a) / Bedrock 0.15.0",
+  "related": [
+   "horse",
+   "donkey",
+   "llama"
+  ],
+  "keywords": "mule minecraft breed horse donkey chest 15 slots pack animal saddle sterile tame"
  }
 ]

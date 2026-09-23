@@ -1014,5 +1014,38 @@
   "behavior": "Vuela sin rumbo chirriando y luego cuelga boca abajo de la parte inferior de bloques sólidos para descansar. Si te acercas a un bat colgado, aunque seas invisible, sale volando. Desaparece cuando te alejas más de 32 bloques y en Java su hitbox ignora a jugadores y redstone.",
   "tameOrBreed": "No se puede domesticar, criar, atar con lead ni mover en boat o minecart: es el único mob puramente ambiental del juego.",
   "notes": []
+ },
+ "endermite": {
+  "type": "Hostil",
+  "where": "Nunca aparece de forma natural: un endermite surge cuando cae una ender pearl lanzada - 5% de probabilidad, en tu posición original en Java o donde cae la pearl en Bedrock.",
+  "spawnConditions": "5% de probabilidad cuando una ender pearl lanzada por un jugador aterriza. Desaparece a los 2 minutos sin importar la distancia salvo que le pongas un name tag, incluso dentro de un boat o minecart.",
+  "howToKill": "Solo 8 de vida y un mordisco flojo (2 de daño, 3 en difícil): dos golpes de espada lo matan. Como arthropod, recibe daño extra de Bane of Arthropods. Desaparece solo a los 2 minutos de aparecer salvo que le pongas nombre.",
+  "behavior": "Muerde a cualquier jugador en un radio de 16 bloques. Los endermen atacan a los endermites nada más verlos, por eso un endermite con nombre atrapado en un minecart es el cebo clásico de las granjas de endermen. En Java, los endermites también se lanzan contra cualquier mob que ataque a otro endermite; en Bedrock no.",
+  "tameOrBreed": "No se puede domesticar ni criar: ni siquiera es un spawn natural. Los endermites solo existen cuando una ender pearl los trae al mundo.",
+  "notes": [
+   "Experience: solo si lo mata un jugador o un lobo domesticado - no suelta objetos"
+  ]
+ },
+ "tadpole": {
+  "type": "Pasivo (acuático)",
+  "where": "Sale del frogspawn (los huevos que las ranas ponen en el agua tras criar) en grupos de 2-5. Nunca aparece de forma natural por sí solo.",
+  "spawnConditions": "Eclosiona de bloques de frogspawn en grupos de 2-5; el frogspawn aparece sobre el agua después de criar dos frogs con slimeballs.",
+  "howToKill": "Es un mob bebé pasivo con 6 de vida, pero no hay motivo para matarlo: como todas las crías no suelta nada, ni siquiera experiencia.",
+  "behavior": "Nada sin rumbo, sigue a jugadores que lleven una slimeball en la mano y es presa de los axolotls. En tierra se retuerce y muere en menos de 20 segundos. Crece hasta convertirse en frog en 20 minutos: cada slimeball que le des acelera el crecimiento un 10%, y una golden dandelion pausa su envejecimiento por completo. Recógelo con un water bucket para moverlo; el cubo conserva su vida, edad y nombre.",
+  "tameOrBreed": "No puede criar (es una cría), pero tú eliges su forma adulta: el bioma donde madure decide la variante de frog - los biomas templados dan la rana naranja, los fríos la verde y los cálidos la blanca. Llévalo en un bucket al bioma que quieras antes de que crezca.",
+  "notes": []
+ },
+ "mule": {
+  "type": "Pasivo",
+  "where": "Los mules nunca aparecen de forma natural: cruza un horse con un donkey (golden carrot o golden apple) y la cría será un mule. Como los mulos reales, es estéril.",
+  "spawnConditions": "Solo por cruce: dale una golden carrot o golden apple a un horse y a un donkey. Los mules no pueden criar entre sí.",
+  "howToKill": "Es una montura pasiva, no hay motivo para matarlo. Si no queda más remedio, tiene entre 15 y 30 de vida; ojo: un mule con chest suelta el cofre y todo su contenido, y matar un mule domesticado muestra un mensaje de muerte a su dueño en Bedrock.",
+  "behavior": "Vaga, se encabrita y pace como un horse. Cae sin daño desde 6 bloques, recibe la mitad de daño por caída y regenera vida lentamente. Móntalo con la mano vacía una y otra vez hasta que salgan corazones para domesticarlo; darle sugar, wheat o apples sube su temper y acelera la doma.",
+  "tameOrBreed": "Doméstalo montándolo hasta que deje de derribarte, luego ponle una saddle para montarlo y una chest para tener 15 slots extra de inventario: el mejor animal de carga para viajes largos. La chest no se puede quitar salvo matando al mule. Los mules no pueden criar: cada mule viene de un horse y un donkey.",
+  "notes": [
+   "Leather: Looting añade 0-1 por nivel",
+   "Saddle: solo si la lleva equipada",
+   "Chest: solo si la lleva equipada, más todo lo que haya dentro"
+  ]
  }
 }
