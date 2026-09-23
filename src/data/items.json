@@ -941,5 +941,101 @@
       "nether-star"
     ],
     "keywords": "dragon egg how to get teleport torch piston trick ender dragon trophy hatch"
+  },
+  {
+    "slug": "shield",
+    "name": "Shield",
+    "category": "Tool",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: iron ingot in the top-center slot of a crafting table, surrounded by 6 planks in a Y shape (any wood type)",
+      "Or trade: journeyman-level armorer villagers sell shields for emeralds (Java)",
+      "Your first shield costs 1 iron and 6 planks - there is no excuse to fight skeletons without one"
+    ],
+    "uses": [
+      "Block incoming frontal attacks: hold use in Java, sneak in Bedrock - blocking starts after a 0.25-second delay",
+      "Fully negates melee, arrows and explosions from the front; attacks of 3+ damage wear its 336 durability",
+      "Watch for axes: a hit from an axe-wielding player or mob (or a warden) disables your shield for 5 seconds",
+      "Combine it with a banner in the loom to wear your design on your arm",
+      "Repair by combining two shields or with planks on an anvil"
+    ],
+    "renewable": "Fully renewable: wood and iron are farmable, and armorers sell them.",
+    "editionNote": "Blocking differs: hold right-click in Java, sneak in Bedrock. Bedrock shields knock back melee attackers.",
+    "since": "1.9 (Combat Update)",
+    "related": [
+      "iron-ingot"
+    ],
+    "keywords": "shield minecraft recipe iron planks block axe disable banner durability"
+  },
+  {
+    "slug": "spyglass",
+    "name": "Spyglass",
+    "category": "Tool",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 amethyst shard on top of 2 copper ingots in a vertical line",
+      "Amethyst shards come from harvesting fully grown amethyst clusters in geodes (Fortune helps)",
+      "Copper ingots come from smelting raw copper - one deepslate vein usually covers it"
+    ],
+    "uses": [
+      "Zoom: hold use to look through it - a narrow circular view at roughly 1/10 field of view",
+      "Scout terrain, bases, mob farms and rare biomes from far away without a single ender pearl",
+      "Using one slows you to sneaking speed, so watch your footing on cliffs",
+      "The cinematic zoom pairs great with F1 for clean screenshots"
+    ],
+    "renewable": "Fully renewable: amethyst clusters regrow and copper is abundant.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.17 (Caves & Cliffs Part I)",
+    "related": [],
+    "keywords": "spyglass minecraft recipe amethyst shard copper zoom how to make"
+  },
+  {
+    "slug": "trial-key",
+    "name": "Trial Key",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Ejected by trial spawners in trial chambers after you defeat their mob waves",
+      "Also found in decorated pots and chests inside trial chambers",
+      "Only trial chambers produce them - find a chamber deep underground (often near the deepslate layers)"
+    ],
+    "uses": [
+      "Unlock a standard vault: use the key on the vault block and it ejects loot - the key is consumed",
+      "Each vault opens once per player (it remembers up to 128 players), so bring friends rather than more keys",
+      "Ominous vaults need the rarer ominous trial key from ominous trial spawners - different key, better loot",
+      "Java quirk (bug MC-268183): a renamed or otherwise modified trial key will not open a vault"
+    ],
+    "renewable": "Renewable: trial spawners reset after a cooldown and can be farmed repeatedly.",
+    "editionNote": "Identical in Java and Bedrock, apart from the Java-only renamed-key bug.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod"
+    ],
+    "keywords": "trial key minecraft vault trial chambers trial spawner ominous unlock loot"
+  },
+  {
+    "slug": "wind-charge",
+    "name": "Wind Charge",
+    "category": "Combat",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 breeze rod shapeless into 4 wind charges",
+      "Breeze rods drop from breezes in trial chambers - kill the spinning blue menace first",
+      "Also appears as chest loot inside trial chambers"
+    ],
+    "uses": [
+      "Throw it: a direct hit deals 1 damage and knocks the target back, with a wind burst that shoves nearby entities",
+      "Player-thrown bursts hit a 2.4-block sphere (breeze-fired ones reach 6 blocks) but knock 22% harder",
+      "Movement tech: jump and throw at your feet to launch yourself - it also resets your fall distance",
+      "Flips doors, trapdoors, buttons, levers and fence gates on impact - handy and chaotic",
+      "In Bedrock, a wind charge that passes through fire or lava sets hit entities on fire"
+    ],
+    "renewable": "Renewable: breezes respawn from trial spawners on a cooldown.",
+    "editionNote": "Bedrock-only extra: charges that fly through fire ignite their targets.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod"
+    ],
+    "keywords": "wind charge minecraft breeze rod craft knockback jump boost trial chambers"
   }
 ]
