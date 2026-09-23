@@ -578,5 +578,43 @@
       "Lo suelta cada 5-10 minutos en vida, o sácale uno con un brush",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
+  },
+  "frog": {
+    "type": "Pasivo",
+    "where": "Swamps y mangrove swamps, en grupos de 2-5. La variante (temperate naranja, warm blanca, cold verde) viene del bioma donde crece el tadpole, no de los padres.",
+    "howToKill": "Sin motivo: las frogs solo sueltan 1-3 de experiencia y nunca contraatacan. Valen mucho más vivas comiendo slimes y magma cubes.",
+    "spawnConditions": "Grupos de 2-5 en biomas swamp y mangrove swamp. Los tadpoles eclosionan del frogspawn (puesto tras criar) y se convierten en frogs tras 20 minutos; el bioma donde crecen fija su variante.",
+    "behavior": "Salta hasta 8 bloques, prefiere lily pads y big dripleaves, nada rápido sin ahogarse y recibe 5 menos de daño de caída. Se come enteros a los slimes y magma cubes pequeños con la lengua: un slime muerto por una frog siempre suelta 1 slimeball, y un magma cube suelta un froglight - ochre de una frog temperate, pearlescent de una warm, verdant de una cold. Croa inflando el saco vocal.",
+    "tameOrBreed": "No se puede domesticar. Sigue a jugadores con slimeballs (6 bloques) y cría con ellas: una frog se queda preñada, pone frogspawn en el agua y eclosionan 2-5 tadpoles tras 3-10 minutos.",
+    "keywords": "frog tadpole frogspawn slimeball magma cube froglight ochre pearlescent verdant variante swamp",
+    "notes": [
+      "Solo si la mata un jugador o un wolf tameado"
+    ]
+  },
+  "goat": {
+    "type": "Neutral",
+    "where": "Snowy slopes, jagged peaks y frozen peaks, sobre stone, gravel, packed ice o snow blocks. El 2% aparece como screaming goat, el 5% como cría y el 10% de los adultos sin un cuerno.",
+    "howToKill": "No suelta más que 1-3 de experiencia, así que poco sentido tiene. Si hace falta: nunca contraataca cuando le pegas, pero ojo con la embestida - hasta 3 de daño y 9 bloques de empuje cerca de un acantilado.",
+    "spawnConditions": "Grupos de 2-3 en snowy slopes, jagged peaks y frozen peaks en superficie, sobre stone, gravel, packed ice o snow blocks. El 5% aparece como cría y el 2% son screaming goats, que embisten mucho más a menudo.",
+    "behavior": "Sube montañas, salta hasta 10 bloques en vertical y 5 en horizontal para cruzar obstáculos, recibe 10 menos de daño de caída y evita la powder snow. Cada 30 segundos a 5 minutos embiste a un objetivo quieto a 4-16 bloques (jugadores, armor stands, casi cualquier mob) con 1-3 de daño y 9 bloques de empuje - las screaming goats cada 5-15 segundos. Si falla y choca contra stone, coal/copper/iron/emerald ore, un log o packed ice, suelta un cuerno. Enseñarle wheat detiene la preparación de la embestida.",
+    "tameOrBreed": "No se puede domesticar. Sigue el wheat y cría con él; las crías tardan 20 minutos en crecer. Una screaming goat criada transmite el rasgo.",
+    "keywords": "goat embestida empuje goat horn screaming goat snowy slopes jagged peaks frozen peaks wheat",
+    "notes": [
+      "No es un drop de muerte: un adulto pierde un cuerno al embestir stone, ores, logs o packed ice",
+      "Solo si la mata un jugador o un wolf tameado"
+    ]
+  },
+  "camel": {
+    "type": "Pasivo",
+    "where": "Deserts, con poca frecuencia, a cualquier nivel de luz en Java o de 7 hacia abajo en Bedrock. Un camel garantizado está sentado en el centro de cada desert village no abandonada y nunca desaparece.",
+    "howToKill": "Nunca contraataca y solo suelta 1-3 de experiencia más su saddle si llevaba una. Con 16 corazones tarda en caer, y huye cuando le hieren.",
+    "spawnConditions": "Apariciones raras en biomas desert (cualquier luz en Java, luz 7 o menos en Bedrock), más un camel persistente generado en el centro de cada desert village no abandonada.",
+    "behavior": "Deambula, se sienta 2-7 segundos, sube muros y fences de 1,5 bloques sin saltar y recibe la mitad de daño de caída tras una caída segura de 6 bloques. Es manso por naturaleza: ponle una saddle y pueden montarlo hasta dos jugadores, y el pasajero no puede dañar al conductor. Esprinta con doble toque adelante; el dash (tecla de salto) lo lanza hasta 12 bloques cada 2,75 segundos. Los jinetes van tan altos que zombies, vindicators, hoglins y la mayoría de mobs cuerpo a cuerpo no les alcanzan.",
+    "tameOrBreed": "Manso por naturaleza: no hace falta domesticarlo. Cría con cactus (que además le cura 2 HP); la cría sigue a los adultos y crece en 20 minutos.",
+    "keywords": "camel desert village saddle dash dos jinetes cactus criar montura alto cuerpo a cuerpo",
+    "notes": [
+      "Solo si el camel llevaba saddle",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
   }
 }

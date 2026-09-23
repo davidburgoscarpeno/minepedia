@@ -1607,5 +1607,99 @@
       "sheep"
     ],
     "keywords": "armadillo scute wolf armor brush spider eye breed roll up savanna badlands"
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "type": "Passive",
+    "health": "10 (5 hearts)",
+    "where": "Swamps and mangrove swamps, in groups of 2-5. The variant (temperate orange, warm white, cold green) comes from the biome where the tadpole grows up, not from the parents.",
+    "howToKill": "No reason to: frogs drop only 1-3 experience and never fight back. They are worth far more alive eating slimes and magma cubes.",
+    "drops": [
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Groups of 2-5 in swamp and mangrove swamp biomes. Tadpoles hatch from frogspawn (laid after breeding) and grow into frogs after 20 minutes; the biome they grow up in sets their variant.",
+    "behavior": "Jumps up to 8 blocks high, prefers lily pads and big dripleaves, swims fast without drowning, and takes 5 less fall damage. Eats small slimes and small magma cubes whole with its tongue: a slime killed by a frog always drops 1 slimeball, and a magma cube drops a froglight - ochre from a temperate frog, pearlescent from a warm frog, verdant from a cold one. Croaks by inflating its vocal sac.",
+    "tameOrBreed": "Cannot be tamed. Follows players holding slimeballs (6 blocks) and breeds with them: one frog gets pregnant, lays frogspawn in water, and 2-5 tadpoles hatch after 3-10 minutes.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "axolotl",
+      "allay"
+    ],
+    "keywords": "frog tadpole frogspawn slimeball magma cube froglight ochre pearlescent verdant variant swamp"
+  },
+  {
+    "slug": "goat",
+    "name": "Goat",
+    "type": "Neutral",
+    "health": "10 (5 hearts)",
+    "where": "Snowy slopes, jagged peaks and frozen peaks, above stone, gravel, packed ice or snow blocks. 2% spawn as screaming goats, 5% as babies, 10% of adults miss a horn.",
+    "howToKill": "It drops nothing but 1-3 experience, so there is little point. If you must: it never retaliates when attacked, but watch the ram - up to 3 damage and 9 blocks of knockback near cliffs.",
+    "drops": [
+      {
+        "item": "Goat Horn",
+        "qty": "1",
+        "notes": "Not a death drop: an adult loses a horn when it rams stone, ore, logs or packed ice"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Groups of 2-3 on snowy slopes, jagged peaks and frozen peaks at the surface, over stone, gravel, packed ice or snow blocks. 5% spawn as babies and 2% are screaming goats, which ram far more often.",
+    "behavior": "Climbs mountains, leaps up to 10 blocks vertically and 5 across to cross obstacles, takes 10 less fall damage and avoids powder snow. Every 30 seconds to 5 minutes it rams a stationary target within 4-16 blocks (players, armor stands, most mobs) for 1-3 damage and 9 blocks of knockback - screaming goats every 5-15 seconds. If a ram misses and hits stone, coal, copper, iron or emerald ore, a log or packed ice, the goat drops one horn. Holding wheat stops a goat mid-preparation.",
+    "tameOrBreed": "Cannot be tamed. Follows and breeds with wheat; babies take 20 minutes to grow. A bred screaming goat passes on the screaming trait.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.17 (Caves & Cliffs)",
+    "related": [
+      "sheep",
+      "cow"
+    ],
+    "keywords": "goat ram knockback goat horn screaming goat snowy slopes jagged peaks frozen peaks wheat"
+  },
+  {
+    "slug": "camel",
+    "name": "Camel",
+    "type": "Passive",
+    "health": "32 (16 hearts)",
+    "where": "Deserts, uncommonly, at any light level in Java or 7 and below in Bedrock. One guaranteed camel sits in the center of every non-abandoned desert village and never despawns.",
+    "howToKill": "It never fights back and drops only 1-3 experience plus its saddle if it wore one. At 16 hearts it takes a while, and it flees when hurt.",
+    "drops": [
+      {
+        "item": "Saddle",
+        "qty": "1",
+        "notes": "Only if the camel was saddled"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Rare spawns in desert biomes (any light in Java, light 7 or less in Bedrock), plus one persistent camel generated in the center of each desert village that is not abandoned.",
+    "behavior": "Wanders, sits down for 2-7 seconds, steps over 1.5-block walls and fences without jumping, and takes half fall damage after a safe 6-block fall. Naturally tame: saddle it and up to two players can ride, with the passenger unable to hurt the driver. Sprint by double-tapping forward; the dash (jump key) launches it up to 12 blocks forward every 2.75 seconds. Riders sit high enough that zombies, vindicators, hoglins and most melee mobs cannot reach them.",
+    "tameOrBreed": "Naturally tame - no taming needed. Breeds with cactus (which also heals 2 HP); the baby follows the adults and grows in 20 minutes.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "villager",
+      "iron-golem"
+    ],
+    "keywords": "camel desert village saddle dash two riders cactus breed mount tall melee"
   }
 ]
