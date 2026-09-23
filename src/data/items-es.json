@@ -348,5 +348,62 @@
     ],
     "renewable": "Sí: los álamos vuelven a crecer de sus saplings como cualquier otro árbol.",
     "editionNote": "Se comporta como cualquier otro tronco en Java y Bedrock. El poplar es la décima familia de troncos, tras oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry y pale oak."
+  },
+  "spear": {
+    "howToGet": [
+      "Craftea cualquiera de los 6 tiers base en diagonal: 2 sticks en la diagonal más 1 material en la punta (planks, bloque de tier de piedra, copper ingot, iron ingot, gold ingot o diamond)",
+      "Mejora una spear de diamante a netherite en la smithing table: netherite upgrade template + diamond spear + netherite ingot",
+      "Repara dos spears dañadas del mismo tier juntas en la crafting table para combinar su durabilidad"
+    ],
+    "uses": [
+      "Jab attack (clic izquierdo): alcance de 4,5 bloques, el mayor de cualquier arma, pero no puede golpear a objetivos a menos de 2 bloques ni hacer críticos ni el empuje de esprint",
+      "Charge attack (mantén clic derecho): el daño escala con la velocidad de aproximación (mínimo 4,6 bloques por segundo), añade empuje a 5,1, desmonta jinetes y puede golpear a varias entidades en una pasada",
+      "Atraviesa bloques no sólidos como cobwebs y tall grass; en Java incluso puede empujar primed TNT en horizontal"
+    ],
+    "renewable": "Sí para los tiers de madera, oro, piedra, cobre y hierro. Las spears de diamond y netherite no son renovables (diamantes solo vía vaults).",
+    "editionNote": "El daño del jab es un corazón mayor por tier en Bedrock. Java exige un cooldown de ataque al 100% para el jab, mientras que Bedrock usa un cooldown de uso tipo ender pearl compartido por todas las spears del inventario. En Java la spear puede cargarse desde la offhand; en Bedrock no se puede llevar en la offhand."
+  },
+  "cushion": {
+    "howToGet": [
+      "Craftéalo sin forma a partir de un wool slab del mismo color (16 colores, un cushion por slab)",
+      "Tiñe un cushion ya hecho o colocado con cualquier dye para recolorearlo",
+      "Encuéntralos en abandoned camps, normalmente a 1-2 bloques del campfire; los cushions blancos también aparecen en cofres de botín"
+    ],
+    "uses": [
+      "Clic derecho para sentarte: mientras estás sentado, ni portales, ni empujes, ni pistons ni geysers pueden moverte hasta que te levantes",
+      "Decoración: se apoyan en cualquier superficie plana, incluidos slabs, el escalón inferior de las stairs, snow layers, wildflowers y enchanting tables",
+      "Combustible de furnace: 4 cushions funden 1 objeto",
+      "Se rompen al instante al golpearlos y siempre se sueltan, así que reordenarlos es gratis"
+    ],
+    "renewable": "Sí: los wool slabs vienen de la lana de oveja, y los cushions siempre se sueltan a sí mismos.",
+    "editionNote": "En Java un piston rompe el cushion; en Bedrock puede empujarlo si hay un bloque delante. A diferencia de los bloques de lana, los cushions NO amortiguan las vibraciones de los sculk sensors ni shriekers en ninguna edición. En Bedrock está detrás del experimento \"Drop 3 of 2026\" por ahora."
+  },
+  "wool-stairs": {
+    "howToGet": [
+      "Craftea 4 stairs con 6 bloques de wool del mismo color en la forma clásica de escaleras (16 colores)",
+      "Las wool stairs blancas se generan de forma natural en los abandoned camps",
+      "Rómpelas con cualquier herramienta; las shears son las más rápidas"
+    ],
+    "uses": [
+      "Escaleras de construcción suaves con toda la paleta de la lana para tejados, sofás y curvas",
+      "Mismas propiedades de la lana en bloque: inflamables y amortiguan vibraciones para inventos de sculk",
+      "Combínalas con wool slabs y cushions para conjuntos completos de mobiliario suave"
+    ],
+    "renewable": "Sí: la lana viene de las ovejas, que la regeneran tras esquilarlas.",
+    "editionNote": "Funciona igual en Java y Bedrock. Solo se apila con stairs del mismo color. En Bedrock están detrás del experimento \"Drop 3 of 2026\" por ahora."
+  },
+  "concrete-stairs": {
+    "howToGet": [
+      "Craftea 4 stairs con 6 bloques de concrete del mismo color en la forma de escaleras (16 colores)",
+      "Corta un bloque de concrete en 1 concrete stair con el stonecutter, sin desperdiciar material",
+      "Mínalas con cualquier pickaxe; sin pickaxe no sueltan nada"
+    ],
+    "uses": [
+      "Detalle de escaleras de color plano para construcciones modernas, a juego con la paleta de concrete",
+      "A diferencia de las wool stairs son ignífugas, ideales cerca de lava o chimeneas",
+      "Combínalas con concrete slabs para degradados suaves y bordes de pixel art"
+    ],
+    "renewable": "Sí: el concrete sale del concrete powder (sand, gravel y dye) más agua, todo renovable.",
+    "editionNote": "Funciona igual en Java y Bedrock, incluida la conversión 1:1 del stonecutter."
   }
 }

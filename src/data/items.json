@@ -608,5 +608,98 @@
       "iron-ingot"
     ],
     "keywords": "poplar log dappled forest new wood type 26.3 planks fallen trunk abandoned camp"
+  },
+  {
+    "slug": "spear",
+    "name": "Spear",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft any of the 6 base tiers diagonally: 2 sticks down the diagonal plus 1 material at the tip (planks, cobblestone-tier block, copper ingot, iron ingot, gold ingot or diamond)",
+      "Upgrade a diamond spear to netherite at a smithing table: netherite upgrade template + diamond spear + netherite ingot",
+      "Repair two damaged matching spears together at a crafting table to combine their durability"
+    ],
+    "uses": [
+      "Jab attack (left-click): 4.5 block reach, the longest of any weapon, but it cannot hit targets closer than 2 blocks and cannot crit or sprint-knockback",
+      "Charge attack (hold right-click): damage scales with closing speed (4.6 blocks per second minimum), adds knockback at 5.1, knocks riders off their mounts and can hit several entities in one pass",
+      "Hits through non-solid blocks like cobwebs and tall grass; in Java it can even knock primed TNT horizontally"
+    ],
+    "renewable": "Yes for wood, gold, stone, copper and iron tiers. Diamond and netherite spears are not renewable (diamonds only via vaults).",
+    "editionNote": "Jab damage is one heart higher per tier in Bedrock. Java gates jabs behind a 100% attack cooldown, while Bedrock uses an ender-pearl-style use cooldown shared across all spears in your inventory. In Java a spear can charge from the offhand; in Bedrock spears cannot be held in the offhand at all.",
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "trident"
+    ],
+    "keywords": "spear new weapon charge attack jab reach craft tiers netherite"
+  },
+  {
+    "slug": "cushion",
+    "name": "Cushion",
+    "category": "Decoration",
+    "stackSize": "16",
+    "howToGet": [
+      "Craft one shapelessly from a matching wool slab (16 colors, one cushion per slab)",
+      "Dye an already-placed or crafted cushion with any dye to recolor it",
+      "Find them in abandoned camps, usually within 1-2 blocks of the campfire; white cushions also appear in loot chests"
+    ],
+    "uses": [
+      "Right-click to sit: while seated, portals, knockback, pistons and geysers cannot move you until you dismount",
+      "Decoration: they rest on any flat surface, including slabs, stairs lower step, snow layers, wildflowers and enchanting tables",
+      "Furnace fuel: 4 cushions smelt 1 item",
+      "Break instantly when attacked and always drop themselves, so rearranging is free"
+    ],
+    "renewable": "Yes - wool slabs come from sheep wool, and cushions always drop themselves.",
+    "editionNote": "In Java a piston breaks a cushion; in Bedrock a piston can push it if there is a block in front. Unlike wool blocks, cushions do NOT dampen sculk sensor or shrieker vibrations in either edition. On Bedrock it is currently behind the \"Drop 3 of 2026\" experiment toggle.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "wool-stairs"
+    ],
+    "keywords": "cushion sit seat decoration wool slab abandoned camp dye colors"
+  },
+  {
+    "slug": "wool-stairs",
+    "name": "Wool Stairs",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 4 stairs from 6 matching wool blocks in the classic stair shape (all 16 colors)",
+      "White wool stairs generate naturally in abandoned camps",
+      "Break them with any tool; shears are the fastest"
+    ],
+    "uses": [
+      "Soft building stairs with the full wool palette for roofs, couches and curved builds",
+      "Same wool properties as the block: flammable and vibration-dampening for sculk contraptions",
+      "Combine with wool slabs and cushions for full soft furniture sets"
+    ],
+    "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
+    "editionNote": "Works the same in Java and Bedrock. Stacks only with stairs of the same color. On Bedrock they are currently behind the \"Drop 3 of 2026\" experiment toggle.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "cushion"
+    ],
+    "keywords": "wool stairs 16 colors shears craft abandoned camp soft"
+  },
+  {
+    "slug": "concrete-stairs",
+    "name": "Concrete Stairs",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 4 stairs from 6 matching concrete blocks in the stair shape (all 16 colors)",
+      "Stonecut one concrete block into 1 concrete stair, no material wasted",
+      "Mine them with any pickaxe; without a pickaxe they drop nothing"
+    ],
+    "uses": [
+      "Flat-color stair detail for modern builds, matching the concrete palette",
+      "Unlike wool stairs they are fireproof, ideal near lava or fireplaces",
+      "Pair with concrete slabs for smooth gradients and pixel art edges"
+    ],
+    "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
+    "editionNote": "Works the same in Java and Bedrock, including the 1:1 stonecutter conversion.",
+    "since": "Java 26.3 / Bedrock 26.50",
+    "related": [
+      "wool-stairs"
+    ],
+    "keywords": "concrete stairs 16 colors stonecutter pickaxe modern build fireproof"
   }
 ]
