@@ -701,5 +701,53 @@
       "wool-stairs"
     ],
     "keywords": "concrete stairs 16 colors stonecutter pickaxe modern build fireproof"
+  },
+  {
+    "slug": "wool-slab",
+    "name": "Wool Slab",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 6 slabs from 3 matching wool blocks in a row (all 16 colors)",
+      "White wool slabs generate naturally in abandoned camps",
+      "Break them with any tool; shears are the fastest"
+    ],
+    "uses": [
+      "Half-height soft block for furniture, gentle slopes and color gradients with the wool palette",
+      "Flammable and vibration-dampening like full wool, useful in sculk-safe floors",
+      "Craft into cushions shapelessly, one wool slab per cushion"
+    ],
+    "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
+    "editionNote": "Works the same in Java and Bedrock. On Bedrock it is currently behind the \"Drop 3 of 2026\" experiment toggle. Stacks only with slabs of the same color.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "wool-stairs",
+      "cushion"
+    ],
+    "keywords": "wool slab 16 colors shears craft cushion abandoned camp soft"
+  },
+  {
+    "slug": "concrete-slab",
+    "name": "Concrete Slab",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 6 slabs from 3 matching concrete blocks in a row (all 16 colors)",
+      "Stonecut one concrete block into 1 concrete slab, no material wasted",
+      "Mine them with any pickaxe; without a pickaxe they drop nothing"
+    ],
+    "uses": [
+      "Half-height flat-color block for modern floors, paths and pixel art",
+      "Fireproof alternative to wool slabs near lava and fireplaces",
+      "Pair with concrete stairs for smooth modern exteriors"
+    ],
+    "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
+    "editionNote": "Works the same in Java and Bedrock, including the 1:1 stonecutter conversion.",
+    "since": "Java 26.3 / Bedrock 26.50",
+    "related": [
+      "concrete-stairs",
+      "wool-slab"
+    ],
+    "keywords": "concrete slab 16 colors stonecutter pickaxe modern build fireproof"
   }
 ]

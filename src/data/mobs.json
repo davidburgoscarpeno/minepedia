@@ -1389,7 +1389,7 @@
     "slug": "sulfur-cube",
     "name": "Sulfur Cube",
     "type": "Passive",
-    "health": "Large: 8 (4 hearts)",
+    "health": "Large: 8 (4 hearts), Small: 4 (2 hearts)",
     "where": "Only in sulfur caves, at any light level. Large cubes spawn naturally; small ones appear when a large one dies.",
     "howToKill": "No reason to kill it: it is passive and harmless. If you do, hits work normally until it absorbs a block - then most attacks just knock it back instead of dealing damage. Use shears to extract the block first.",
     "drops": [
@@ -1405,13 +1405,13 @@
       }
     ],
     "spawnConditions": "Sulfur caves only, any light level. Large cubes spawn in groups of 2-4; a dying large cube splits into 2 small cubes that grow up over time.",
-    "behavior": "Jumps around aimlessly like a slime, but passive. Its trick: it can absorb a full-sized block (drop one next to it or feed it by hand). While loaded it stops moving and takes knockback instead of damage; the block type changes its bounciness and behavior. Shears extract the block; feeding it another block swaps them. Froglights even glow inside it. Large cubes can be picked up with a bucket and carried anywhere.",
-    "tameOrBreed": "Cannot be tamed or bred. Small cubes grow into large ones over time, like baby animals.",
+    "behavior": "Jumps around aimlessly like a slime, but passive. Its trick: it can absorb a full-sized block (drop one next to it or feed it by hand). While loaded it stops moving and takes knockback instead of damage; the block type changes its bounciness and behavior. Shears extract the block; feeding it another block swaps them. Froglights even glow inside it. Large cubes can be picked up with a bucket and carried anywhere. Two functional archetypes: TNT makes it explosive - ignite it with flint and steel, fire, Fire Aspect, explosions or redstone (6 second fuse, 0.75-2.2s if chained) and it drops nothing and spawns no smalls; magma blocks make it hot, burning nearby mobs. Knockback launches it like a ball: harder hits fly farther, and Knockback and Punch add power.",
+    "tameOrBreed": "Cannot be tamed or bred. Small cubes grow into large ones after 20 minutes - feed slimeballs to speed it up, or a golden dandelion to freeze growth. Large cubes can be picked up with an empty bucket and do not despawn.",
     "editions": [
       "java",
       "bedrock"
     ],
-    "since": "26.2 (Chaos Cubed)",
+    "since": "Java 26.2 / Bedrock 26.30",
     "related": [
       "slime",
       "magma-cube",
