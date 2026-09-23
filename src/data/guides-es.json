@@ -2583,5 +2583,155 @@
    }
   ],
   "keywords": "piston minecraft craft sticky piston slimeball redstone planks cobblestone iron empujar 12 bloques"
+ },
+ "how-to-make-anvil": {
+  "name": "Cómo hacer un Anvil en Minecraft",
+  "shortTitle": "Hacer un Anvil",
+  "quickAnswer": "Craftea un anvil con 3 blocks of iron en la fila superior, 1 iron ingot en el centro y 3 iron ingots en la fila inferior: 31 iron ingots en total. Úsalo para reparar equipo, combinar encantamientos y renombrar objetos, pero cada uso tiene un 12% de probabilidad de desgastarlo: chipped, damaged y al final se rompe.",
+  "steps": [
+   "Funde 31 iron ingots, algo menos de medio stack. Picar hierro y un furnace basta; una granja de hierro lo hace trivial.",
+   "Craftea 3 blocks of iron llenando la cuadrícula de lingotes (9 cada uno, 27 de los 31).",
+   "Craftea el anvil: fila superior block of iron - block of iron - block of iron, iron ingot en la casilla central y fila inferior ingot - ingot - ingot.",
+   "Renombra lo que quieras: pon cualquier objeto en la primera casilla y escribe el nombre nuevo: 1 nivel de experiencia más la penalización por trabajos previos.",
+   "Repara con materiales: un iron pickaxe reparado con iron ingots recupera un 25% de su durabilidad máxima por lingote, con los encantamientos intactos.",
+   "Combina encantamientos: fusiona dos objetos encantados (u objeto + enchanted book) para apilar o transferir encantamientos: dos swords de Sharpness II se convierten en Sharpness III.",
+   "Ojo con los costes: la penalización por trabajos previos se duplica cada vez que el mismo objeto pasa por el anvil, y en survival el anvil rechaza cualquier trabajo de 40 niveles o más.",
+   "Date por avisado: cada uso tiene un 12% de probabilidad de desgastar el anvil (chipped, damaged, destruido), una media de unos 25 usos. Las caídas también lo dañan, y un anvil cayendo sobre un mob o jugador hace 2 de daño por bloque caído, hasta 40."
+  ],
+  "materials": [
+   "3 blocks of iron (27 iron ingots)",
+   "4 iron ingots",
+   "Total: 31 iron ingots"
+  ],
+  "editionNote": "Mecánicas idénticas en ambas ediciones. Solo cambian los detalles al renombrar: hasta 50 caracteres en Java y 30 en Bedrock, y los nombres en Bedrock admiten códigos de formato con section sign.",
+  "versions": "Los anvils se añadieron en Java 1.4.2 (12w41a) y en Bedrock 0.12.1, en los tres estados de desgaste.",
+  "faq": [
+   {
+    "q": "¿Por qué mi anvil dice Too Expensive?",
+    "a": "En survival los trabajos del anvil tienen un tope de 39 niveles. La penalización por trabajos previos se duplica cada vez que un objeto pasa por el anvil, así que el equipo muy trabajado acaba siendo irreparable: combina los books sobre el objeto en el orden más barato o desencanta con un grindstone y empieza de nuevo."
+   },
+   {
+    "q": "¿Se puede reparar un anvil?",
+    "a": "No. Un anvil chipped o damaged no tiene arreglo: cuando se rompe crafteas uno nuevo. Dura una media de 25 usos."
+   },
+   {
+    "q": "¿Hay algún anvil gratis por el mundo?",
+    "a": "Un damaged anvil aparece en la sala de la forja de las woodland mansions y dentro de las trail ruins, listo para llevarlo con cualquier pickaxe."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-enchant",
+   "how-to-get-mending"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Iron Ingot",
+    "href": "/es/items/iron-ingot/"
+   },
+   {
+    "label": "Encantamientos",
+    "href": "/es/enchants/"
+   }
+  ],
+  "keywords": "anvil minecraft craft 31 iron ingots blocks of iron reparar renombrar combinar encantamientos too expensive"
+ },
+ "how-to-make-tnt": {
+  "name": "Cómo hacer TNT en Minecraft",
+  "shortTitle": "Hacer TNT",
+  "quickAnswer": "Craftea TNT con 5 gunpowder y 4 sand (o red sand) en patrón de ajedrez: gunpowder en las esquinas y el centro, sand en los laterales. Actívala con flint and steel, redstone u otra explosión y parpadeará 4 segundos antes de explotar con potencia 4.",
+  "steps": [
+   "Farma gunpowder: los creepers sueltan 0-2 (más con Looting) al morir a manos de un jugador: cázalos de noche o construye una granja de creepers. Los ghasts y las witches también la sueltan.",
+   "Cava 4 bloques de sand; la red sand funciona exactamente igual.",
+   "Craftea en patrón de ajedrez: gunpowder en las cuatro esquinas y el centro, sand en el medio de cada lateral.",
+   "Actívala: usa flint and steel, una señal de redstone, fuego, una arrow en llamas o una explosión cercana. El bloque se convierte en una entidad que cae, parpadea en blanco y explota a los 80 ticks (4 segundos).",
+   "Aprovecha la física: el TNT activado cae, y el agua, los pistons y otras explosiones lo empujan: el principio de funcionamiento de todo cañón de TNT.",
+   "Mina con ella: desde Java 1.14, los bloques destruidos por TNT siempre sueltan sus objetos. El TNT limpia netherrack a toda velocidad mientras la ancient debris, resistente a explosiones, sobrevive: el método clásico de minar netherite.",
+   "Conoce los límites: obsidian, bedrock y ancient debris la resisten, y el TNT normalmente no puede destruir bloques bajo el agua (las entidades sí reciben daño). En Java, un bloque cayendo como sand dentro del TNT activado permite romper bloques bajo el agua; en Bedrock no hay truco que valga."
+  ],
+  "materials": [
+   "5 gunpowder",
+   "4 sand (o red sand)",
+   "Para activarla: flint and steel o una señal de redstone"
+  ],
+  "editionNote": "Los trucos para romper bloques bajo el agua (sand cayendo dentro del TNT activado, bubble columns) solo funcionan en Java; en Bedrock el TNT nunca destruye bloques bajo el agua: solo lo hace la variante Underwater TNT de la Education edition.",
+  "versions": "El TNT se añadió en Java 0.26 SURVIVAL TEST y en Pocket Edition 0.1.0, la mecha dura 4 segundos desde principios de 2010, y los bloques destruidos siempre sueltan objetos desde Java 1.14.",
+  "faq": [
+   {
+    "q": "¿Cómo consigo gunpowder para el TNT?",
+    "a": "Los creepers son la fuente renovable: 0-2 gunpowder por baja, hasta 5 con Looting III. Una granja básica de creepers en una sala oscura produce stacks por hora. Los ghasts y las witches también la sueltan, pero con mucha menos fiabilidad."
+   },
+   {
+    "q": "¿El TNT destruye obsidian o ancient debris?",
+    "a": "No. El TNT explota con potencia 4, y obsidian, bedrock, crying obsidian y ancient debris tienen una resistencia a explosiones mucho mayor: justo por eso minar con TNT deja la ancient debris al descubierto en vez de destruirla."
+   },
+   {
+    "q": "¿Puedo hacer que el TNT explote al instante?",
+    "a": "Un minecart with TNT (TNT + minecart) explota al instante sobre una activator rail, en un choque fuerte o con fuego. El TNT activado normal siempre tarda 4 segundos."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-make-piston"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Gunpowder",
+    "href": "/es/items/gunpowder/"
+   },
+   {
+    "label": "Creeper",
+    "href": "/es/mobs/creeper/"
+   }
+  ],
+  "keywords": "tnt minecraft craft gunpowder sand creeper explosion flint and steel cañón tnt minería ancient debris"
+ },
+ "how-to-respawn-ender-dragon": {
+  "name": "Cómo resucitar al Ender Dragon en Minecraft",
+  "shortTitle": "Resucitar al Ender Dragon",
+  "quickAnswer": "Coloca 4 end crystals en los bordes del exit portal, una por lado, después de matar al ender dragon. Una secuencia de 30 segundos reinicia los pilares de obsidiana y sus cristales, y el dragón vuelve: 500 XP por revancha en vez de los 12.000 de la primera baja.",
+  "steps": [
+   "Mata primero al ender dragon: la resucitación solo funciona después de ganar el combate original.",
+   "Craftea 4 end crystals: cada una necesita 7 glass, 1 eye of ender y 1 ghast tear, así que 28 glass, 4 eyes y 4 tears en total.",
+   "Vuelve al exit portal, la fuente de bedrock del centro de la isla principal del End.",
+   "Coloca una end crystal en el bloque central de cada uno de los cuatro bordes del portal: encajan sobre la bedrock.",
+   "Aparta: las cuatro cristales disparan rayos a cada pilar, las explosiones reinician los pilares de obsidiana, los barrotes y los end crystals, y tras unos 30 segundos el dragón aparece en (0, 128, 0). Las cuatro cristales de la invocación explotan después.",
+   "No rompas ninguna de las cuatro cristales durante la secuencia: eso cancela la invocación. Las cristales de los pilares son invulnerables mientras dura.",
+   "Recoge las recompensas: 500 XP por dragón resucitado, end crystals nuevas para farmear y un end gateway nuevo por baja, hasta 20 gateways. Recoge antes el dragon egg: desaparece si resucitas al dragón sin haberlo cogido."
+  ],
+  "materials": [
+   "4 end crystals (cada una: 7 glass + 1 eye of ender + 1 ghast tear)",
+   "Total: 28 glass, 4 eyes of ender, 4 ghast tears"
+  ],
+  "editionNote": "En Java las cuatro cristales van sobre los bloques del borde del exit portal; en Bedrock también pueden quedar un bloque más afuera en cada dirección, aunque las disposiciones irregulares no son fiables ahí.",
+  "versions": "La resucitación del dragón se añadió en Java 1.9 (15w44a) y en Bedrock 1.0.0; los dragones resucitados sueltan 500 de experiencia desde esa misma actualización.",
+  "faq": [
+   {
+    "q": "¿Consigo otro dragon egg de un dragón resucitado?",
+    "a": "No. Solo la primera baja suelta un dragon egg, y si resucitas al dragón sin recogerlo, el huevo desaparece para siempre."
+   },
+   {
+    "q": "¿Cuánta XP da un dragón resucitado?",
+    "a": "500 puntos de experiencia, frente a los 12.000 de la primera baja. Sigue siendo una de las fuentes de XP más rápidas por minuto del juego."
+   },
+   {
+    "q": "¿Cuántas veces puedo resucitar al ender dragon?",
+    "a": "Las que quieras, mientras sigas crafteando end crystals. Cada baja, original o revancha, genera un end gateway, hasta un máximo de 20."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-beat-ender-dragon",
+   "how-to-hatch-dragon-egg"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Ender Dragon",
+    "href": "/es/mobs/ender-dragon/"
+   },
+   {
+    "label": "Ghast",
+    "href": "/es/mobs/ghast/"
+   }
+  ],
+  "keywords": "resucitar ender dragon minecraft 4 end crystals exit portal 500 xp dragon egg ghast tear revancha"
  }
 }

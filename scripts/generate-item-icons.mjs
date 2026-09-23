@@ -225,6 +225,7 @@ const icons = {
   'skull-on-fire-painting': make(({ rect, px, line }) => { rect(2,2,12,12,'#8a5a2b'); rect(3,3,10,10,'#1a1a1a'); rect(6,5,4,4,'#e8e0d0'); px(6,6,'#1a1a1a'); px(9,6,'#1a1a1a'); px(7,8,'#c8c0b0'); line(5,11,4,13,'#ff9a1f'); line(10,11,11,13,'#ffc832'); px(7,12,'#ff9a1f'); px(8,11,'#ffc832'); }),
 
   'brewing-stand': make(({ rect, line, px }) => { rect(7,1,2,6,'#e8b93e'); rect(7,1,2,1,'#f5d060'); line(8,7,2,12,'#8a8a8a'); line(8,7,13,12,'#8a8a8a'); rect(7,7,2,5,'#9a9a9a'); px(6,9,'#8a8a8a'); px(9,9,'#8a8a8a'); rect(1,12,14,2,'#5a5a5a'); rect(1,12,14,1,'#7a7a7a'); }),
+  'how-to-respawn-ender-dragon': make(({ rect, px }) => { rect(5,10,6,3,'#3a3a3a'); rect(4,13,8,2,'#2a2a2a'); rect(5,3,6,7,'#d8e8e8'); rect(6,4,4,5,'#e8f4f4'); px(7,5,'#e08ae0'); px(8,6,'#c060d0'); px(7,7,'#a040b0'); px(8,5,'#f0b0f0'); }),
 };
 
 
@@ -238,7 +239,8 @@ const ALIAS = {
   'how-to-make-book':'book','how-to-make-shield':'shield','how-to-make-paper':'paper','how-to-get-xp-fast':'xp-calc',
   'end-city':'how-to-find-end-city','buried-treasure':'chest',
   'title-panorama-113':'title-panorama-original','title-panorama-119':'title-panorama-118',
-  'how-to-make-brewing-stand':'brewing-stand','how-to-make-bookshelf':'bookshelf','how-to-make-piston':'piston'
+  'how-to-make-brewing-stand':'brewing-stand','how-to-make-bookshelf':'bookshelf','how-to-make-piston':'piston',
+  'how-to-make-anvil':'anvil','how-to-make-tnt':'tnt'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 

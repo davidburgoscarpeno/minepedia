@@ -2850,5 +2850,158 @@
    }
   ],
   "keywords": "piston minecraft craft sticky piston slimeball redstone planks cobblestone iron push 12 blocks"
+ },
+ {
+  "slug": "how-to-make-anvil",
+  "name": "How to Make an Anvil in Minecraft",
+  "shortTitle": "Make an Anvil",
+  "quickAnswer": "Craft an anvil with 3 blocks of iron across the top row, 1 iron ingot in the center and 3 iron ingots along the bottom - 31 iron ingots in total. Use it to repair gear, combine enchantments and rename items, but each use has a 12% chance to degrade it: chipped, then damaged, then it breaks.",
+  "steps": [
+   "Smelt 31 iron ingots - just under half a stack. Mining plus a furnace does it; an iron farm makes it trivial.",
+   "Craft 3 blocks of iron by filling the grid with ingots (9 each, 27 of the 31).",
+   "Craft the anvil: top row block of iron - block of iron - block of iron, iron ingot in the center slot, bottom row ingot - ingot - ingot.",
+   "Rename anything: put any item in the first slot and type the new name - 1 experience level plus any prior work penalty.",
+   "Repair with materials: an iron pickaxe repaired with iron ingots regains 25% of its max durability per ingot, enchantments intact.",
+   "Combine enchantments: merge two enchanted items (or item + enchanted book) to stack or transfer enchantments - two Sharpness II swords become Sharpness III.",
+   "Watch the costs: the prior work penalty doubles every time the same item goes through an anvil, and in survival the anvil refuses any job costing 40 levels or more.",
+   "Expect it to die: each use has a 12% chance to degrade the anvil (chipped, damaged, destroyed), about 25 uses on average. Falls damage it too - and an anvil landing on a mob or player deals 2 damage per block fallen, up to 40."
+  ],
+  "materials": [
+   "3 blocks of iron (27 iron ingots)",
+   "4 iron ingots",
+   "Total: 31 iron ingots"
+  ],
+  "editionNote": "Identical mechanics in both editions. Details differ only in renaming: up to 50 characters in Java, 30 in Bedrock, and Bedrock names support section-sign formatting codes.",
+  "versions": "Anvils were added in Java 1.4.2 (12w41a) and Bedrock 0.12.1, in all three damage states.",
+  "faq": [
+   {
+    "q": "Why does my anvil say Too Expensive?",
+    "a": "In survival, anvil jobs are capped at 39 levels. The prior work penalty doubles each time an item goes through the anvil, so heavy gear eventually becomes unfixable - combine books onto the item in the cheapest order, or disenchant with a grindstone and start over."
+   },
+   {
+    "q": "Can you repair an anvil?",
+    "a": "No. A chipped or damaged anvil cannot be fixed - when it breaks you craft a new one. It survives about 25 uses on average."
+   },
+   {
+    "q": "Is there a free anvil anywhere?",
+    "a": "A damaged anvil generates in the forge room of woodland mansions and inside trail ruins, ready to loot with any pickaxe."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-enchant",
+   "how-to-get-mending"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Iron Ingot",
+    "href": "/items/iron-ingot/"
+   },
+   {
+    "label": "Enchantments",
+    "href": "/enchants/"
+   }
+  ],
+  "keywords": "anvil minecraft craft 31 iron ingots blocks of iron repair rename combine enchantments too expensive prior work"
+ },
+ {
+  "slug": "how-to-make-tnt",
+  "name": "How to Make TNT in Minecraft",
+  "shortTitle": "Make TNT",
+  "quickAnswer": "Craft TNT with 5 gunpowder and 4 sand (or red sand) in a checkerboard: gunpowder in the corners and center, sand on the sides. Prime it with flint and steel, redstone or another explosion and it flashes for 4 seconds before blowing up with power 4.",
+  "steps": [
+   "Farm gunpowder: creepers drop 0-2 (more with Looting) when killed by a player - hunt them at night or build a creeper farm. Ghasts and witches drop it too.",
+   "Dig 4 sand blocks; red sand works exactly the same.",
+   "Craft in a checkerboard: gunpowder in the four corners and the center, sand in the middle of each edge.",
+   "Prime it: use flint and steel, a redstone signal, fire, a flaming arrow or a nearby explosion. The block becomes a falling entity that flashes white and explodes after 80 ticks (4 seconds).",
+   "Use the physics: primed TNT falls, and flowing water, pistons and other explosions push it - the working principle of every TNT cannon.",
+   "Mine with it: since Java 1.14, blocks destroyed by TNT always drop their items. TNT clears netherrack fast while blast-resistant ancient debris survives - the classic netherite mining method.",
+   "Know the limits: obsidian, bedrock and ancient debris resist it, and TNT normally cannot destroy blocks underwater (entities still take damage). In Java, a falling block like sand landing inside the primed TNT lets it break blocks underwater; in Bedrock there is no workaround."
+  ],
+  "materials": [
+   "5 gunpowder",
+   "4 sand (or red sand)",
+   "To prime: flint and steel or a redstone signal"
+  ],
+  "editionNote": "Underwater block-breaking tricks (sand falling into primed TNT, bubble columns) only work in Java; in Bedrock, TNT never destroys blocks underwater - only the Education-edition Underwater TNT variant does.",
+  "versions": "TNT was added in Java 0.26 SURVIVAL TEST and Pocket Edition 0.1.0, the fuse has been 4 seconds since early 2010, and destroyed blocks have always dropped items since Java 1.14.",
+  "faq": [
+   {
+    "q": "How do I get gunpowder for TNT?",
+    "a": "Creepers are the renewable source: 0-2 gunpowder per kill, up to 5 with Looting III. A basic dark-room creeper farm produces stacks per hour. Ghasts and witches drop it too, but far less reliably."
+   },
+   {
+    "q": "Does TNT destroy obsidian or ancient debris?",
+    "a": "No. TNT explodes with power 4, and obsidian, bedrock, crying obsidian and ancient debris have far higher blast resistance - which is exactly why TNT mining exposes ancient debris instead of destroying it."
+   },
+   {
+    "q": "Can I make TNT explode instantly?",
+    "a": "A TNT minecart (TNT + minecart) explodes instantly on an activator rail, a hard crash or fire. Normal primed TNT always takes 4 seconds."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-make-piston"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Gunpowder",
+    "href": "/items/gunpowder/"
+   },
+   {
+    "label": "Creeper",
+    "href": "/mobs/creeper/"
+   }
+  ],
+  "keywords": "tnt minecraft craft gunpowder sand creeper explosion flint and steel tnt cannon mining ancient debris"
+ },
+ {
+  "slug": "how-to-respawn-ender-dragon",
+  "name": "How to Respawn the Ender Dragon in Minecraft",
+  "shortTitle": "Respawn the Ender Dragon",
+  "quickAnswer": "Place 4 end crystals on the edges of the exit portal, one per side, after killing the ender dragon. A 30-second sequence resets the obsidian pillars and their crystals, then the dragon returns - worth 500 XP per rematch instead of the 12,000 from the first kill.",
+  "steps": [
+   "Kill the ender dragon first - respawning only works after the original fight is won.",
+   "Craft 4 end crystals: each needs 7 glass, 1 eye of ender and 1 ghast tear, so 28 glass, 4 eyes and 4 tears in total.",
+   "Go back to the exit portal, the bedrock fountain at the center of the End's main island.",
+   "Place one end crystal on the middle block of each of the portal's four edges - they snap onto the bedrock.",
+   "Stand back: the four crystals shoot beams at every pillar, explosions reset the obsidian pillars, iron bars and end crystals, and after about 30 seconds the dragon spawns at (0, 128, 0). The four summoning crystals then explode.",
+   "Do not break any of the four crystals during the sequence - that cancels the summoning. The pillar crystals are invulnerable while it runs.",
+   "Collect the rewards: 500 XP per respawned dragon, fresh end crystals to farm, and a new end gateway per kill, up to 20 gateways. Collect the dragon egg first - it vanishes if you respawn the dragon before picking it up."
+  ],
+  "materials": [
+   "4 end crystals (each: 7 glass + 1 eye of ender + 1 ghast tear)",
+   "Total: 28 glass, 4 eyes of ender, 4 ghast tears"
+  ],
+  "editionNote": "In Java the four crystals go on the edge blocks of the exit portal; in Bedrock they may also sit one block outward in each direction, though uneven arrangements are unreliable there.",
+  "versions": "Dragon respawning was added in Java 1.9 (15w44a) and Bedrock 1.0.0; respawned dragons have dropped 500 experience since the same update.",
+  "faq": [
+   {
+    "q": "Do I get another dragon egg from a respawned dragon?",
+    "a": "No. Only the very first kill drops a dragon egg - and if you respawn the dragon without collecting it, the egg disappears forever."
+   },
+   {
+    "q": "How much XP does a respawned dragon give?",
+    "a": "500 experience points, down from 12,000 for the first kill. It is still one of the fastest XP sources per minute in the game."
+   },
+   {
+    "q": "How many times can I respawn the ender dragon?",
+    "a": "Unlimited times, as long as you keep crafting end crystals. Each kill - original or rematch - generates one end gateway, up to a maximum of 20."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-beat-ender-dragon",
+   "how-to-hatch-dragon-egg"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Ender Dragon",
+    "href": "/mobs/ender-dragon/"
+   },
+   {
+    "label": "Ghast",
+    "href": "/mobs/ghast/"
+   }
+  ],
+  "keywords": "respawn ender dragon minecraft 4 end crystals exit portal 500 xp dragon egg ghast tear rematch"
  }
 ]
