@@ -15,8 +15,9 @@ const howToKill = ov?.howToKill ?? m.howToKill;
 const behavior = ov?.behavior ?? m.behavior;
 const tameOrBreed = ov?.tameOrBreed ?? m.tameOrBreed;
 const drops = m.drops.map((d: any, i: number) => ({ ...d, notes: ov?.notes?.[i] ?? d.notes }));
+const dropList = drops.map((d: any) => d.item.split('(')[0].trim()).join(', ');
 
-const PIXEL = new Set(['creeper','zombie','skeleton','spider','enderman','slime','cow','pig','sheep','chicken','wolf','axolotl','ghast','blaze','villager','witch','iron-golem','warden','ender-dragon','wither','shulker','drowned','piglin','pillager','hoglin','guardian','phantom','wither-skeleton','evoker','vindicator','ravager','vex','elder-guardian','magma-cube','allay','cat','fox','cave-spider','stray','wandering-trader','mooshroom']);
+const PIXEL = new Set(['allay','armadillo','axolotl','bat','bee','blaze','bogged','breeze','camel','cat','cave-spider','chicken','cod','copper-golem','cow','creaking','creeper','dolphin','donkey','drowned','elder-guardian','ender-dragon','enderman','evoker','fox','frog','ghast','glow-squid','goat','guardian','happy-ghast','hoglin','horse','husk','iron-golem','llama','magma-cube','mooshroom','nautilus','ocelot','panda','parched','parrot','phantom','pig','piglin','piglin-brute','pillager','polar-bear','pufferfish','rabbit','ravager','salmon','sheep','shulker','silverfish','skeleton','skeleton-horse','slime','sniffer','snow-golem','spider','squid','stray','strider','sulfur-cube','tropical-fish','turtle','vex','villager','vindicator','wandering-trader','warden','witch','wither','wither-skeleton','wolf','zoglin','zombie','zombie-nautilus','zombie-villager','zombified-piglin']);
 const SHOT_BY_SLUG: Record<string,string> = { 'piglin': 'mobs-piglins-bartering' };
 const shotId = SHOT_BY_SLUG[m.slug];
 
@@ -26,9 +27,9 @@ const L = isES ? {
   findH: `Cómo encontrar ${m.name}`, spawnL: 'Condiciones de spawn:',
   dropsH: 'Drops', item: 'Objeto', amount: 'Cantidad', notes: 'Notas',
   killH: `Cómo matar ${m.name}`, behaviorH: 'Comportamiento', tameH: 'Doméstica y cría',
-  related: 'Mobs relacionados',
+  related: 'Mobs relacionados', noDrops: 'No suelta objetos ni experiencia.',
   title: `${m.name} - drops, spawn, cómo matarlo`,
-  desc: `${m.name} en Minecraft: dónde encontrarlo, qué suelta (${drops.map((d: any) => d.item.split('(')[0].trim()).join(', ')}), cómo matarlo y cómo se comporta.`,
+  desc: `${m.name} en Minecraft: dónde encontrarlo, ${dropList ? `qué suelta (${dropList}), ` : ''}cómo matarlo y cómo se comporta.`,
   canonical: `/es/mobs/${m.slug}/`, alt: `/mobs/${m.slug}/`,
   headline: `${m.name} en Minecraft: drops, spawn y cómo enfrentarlo`,
   faq1: `¿Dónde se encuentra ${m.name} en Minecraft?`, faq2: `¿Qué suelta ${m.name}?`
@@ -38,9 +39,9 @@ const L = isES ? {
   findH: `How to find ${m.name}`, spawnL: 'Spawn conditions:',
   dropsH: 'Drops', item: 'Item', amount: 'Amount', notes: 'Notes',
   killH: `How to kill ${m.name}`, behaviorH: 'Behavior', tameH: 'Taming and breeding',
-  related: 'Related mobs',
+  related: 'Related mobs', noDrops: 'It drops no items or experience.',
   title: `${m.name} - drops, spawn, how to kill`,
-  desc: `${m.name} in Minecraft: where to find it, what it drops (${drops.map((d: any) => d.item.split('(')[0].trim()).join(', ')}), how to kill it and how it behaves.`,
+  desc: `${m.name} in Minecraft: where to find it, ${dropList ? `what it drops (${dropList}), ` : ''}how to kill it and how it behaves.`,
   canonical: `/mobs/${m.slug}/`, alt: `/es/mobs/${m.slug}/`,
   headline: `${m.name} in Minecraft: drops, spawning and how to deal with it`,
   faq1: `Where do you find ${m.name} in Minecraft?`, faq2: `What does ${m.name} drop?`
@@ -56,7 +57,7 @@ const jsonLd = [
     { '@type': 'ListItem', position: 3, name: m.name, item: `https://minepedia.app${L.canonical}` } ] },
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [
     { '@type': 'Question', name: L.faq1, acceptedAnswer: { '@type': 'Answer', text: where } },
-    { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: drops.map((d: any) => `${d.item}: ${d.qty}${d.notes ? ' - ' + d.notes : ''}`).join('. ') } } ] }
+    { '@type': 'Question', name: L.faq2, acceptedAnswer: { '@type': 'Answer', text: drops.length ? drops.map((d: any) => `${d.item}: ${d.qty}${d.notes ? ' - ' + d.notes : ''}`).join('. ') : L.noDrops } } ] }
 ];
 ---
 <Base lang={lang} altPath={L.alt} title={L.title} description={L.desc} canonicalPath={L.canonical} jsonLd={jsonLd} ogType="article">
@@ -74,10 +75,14 @@ const jsonLd = [
     <p>{where}</p>
     <p><strong>{L.spawnL}</strong> {spawnConditions}</p>
     <h2>{L.dropsH}</h2>
+    {drops.length > 0 ? (
     <table class="data">
       <tr><th>{L.item}</th><th>{L.amount}</th><th>{L.notes}</th></tr>
       {drops.map((d: any) => <tr><td>{d.item}</td><td>{d.qty}</td><td>{d.notes}</td></tr>)}
     </table>
+    ) : (
+    <p>{L.noDrops}</p>
+    )}
     <h2>{L.killH}</h2>
     <p>{howToKill}</p>
     <h2>{L.behaviorH}</h2>
