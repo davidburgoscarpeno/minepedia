@@ -2343,5 +2343,105 @@
       "piglin-brute"
     ],
     "keywords": "zoglin hoglin zombified overworld 15 seconds undead fling rotten flesh"
+  },
+  {
+    "slug": "copper-golem",
+    "name": "Copper Golem",
+    "type": "Passive",
+    "health": "12 (6 hearts)",
+    "where": "It never spawns naturally. Build one by placing a block of copper (any oxidation stage, waxed works too) and then a carved pumpkin or jack o'lantern on top - the pumpkin must go last, by hand, dispenser or even an enderman. The copper block turns into a copper chest and the golem spawns where the pumpkin was.",
+    "howToKill": "No reason to: it is passive and only sorts your chests. If you must, it has just 12 HP, panics and runs when attacked, takes no fall damage and sinks in water without drowning.",
+    "drops": [
+      {
+        "item": "Copper Ingot",
+        "qty": "1-3",
+        "notes": "Looting adds 0-1 per level in Java only"
+      },
+      {
+        "item": "Poppy",
+        "qty": "1",
+        "notes": "Only by shearing a golem that was given a poppy by an iron golem"
+      }
+    ],
+    "spawnConditions": "Player-built only (block of copper + carved pumpkin or jack o'lantern placed last; the pattern works horizontally or upside-down), via spawn egg, or by using an axe on an unwaxed, unoxidized copper golem statue to reanimate it. The golem and its chest match the oxidation stage of the block used.",
+    "behavior": "Takes up to 16 of the first item it finds out of copper chests and stores them in nearby wooden chests or trapped chests that are empty or already hold that item type. It spends 3 seconds examining each chest, remembers up to 9 copper chests, and after checking 10 without finding anything it wanders for 7 seconds and forgets. In Java it cannot tell apart potion contents, tipped arrow types or suspicious stews - Bedrock can. It ignores durability, enchantments, names and shulker box contents. Opens non-iron doors, spins its head, sinks in water without drowning and takes no fall damage.",
+    "tameOrBreed": "Cannot be tamed or bred. Wax it with a honeycomb to freeze its oxidation; scrape with an axe to remove wax or revert one stage (lightning also removes stages). After 7 hours to 7 h 40 min (21-23 in-game days) a fully oxidized, unwaxed golem freezes into a copper golem statue and drops what it was holding - use an axe on the statue to bring it back.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "iron-golem",
+      "snow-golem",
+      "allay"
+    ],
+    "keywords": "copper golem minecraft build block of copper carved pumpkin copper chest sort items oxidation statue wax honeycomb"
+  },
+  {
+    "slug": "nautilus",
+    "name": "Nautilus",
+    "type": "Neutral (tameable)",
+    "health": "15 (7.5 hearts)",
+    "where": "In all ocean biomes, in groups of 1-3, between Y-levels 38 and 58. In Bedrock 10% spawn as babies. It counts toward the water creature cap and can despawn until the first time any player interacts with it, which makes it persistent.",
+    "howToKill": "Untamed adults are neutral and hit back for 2.5-4.5 HP depending on difficulty, and at 6.5 m/s they outswim you. Fight from a boat or in shallow water where it slows down. It is a normal animal, so any weapon works - no undead tricks apply.",
+    "drops": [
+      {
+        "item": "Nautilus Shell",
+        "qty": "0-1",
+        "notes": "5% chance, +1% per Looting level, only on player or pet kills"
+      },
+      {
+        "item": "Saddle / Nautilus Armor",
+        "qty": "1",
+        "notes": "Drops whatever it was equipped with"
+      }
+    ],
+    "spawnConditions": "Ocean biomes of every temperature, Y 38-58, groups of 1-3. Becomes persistent after the first player interaction and then stops counting toward any mob cap.",
+    "behavior": "Neutral while untamed (babies and tamed ones are passive). Once tamed and saddled you steer it with standard controls: it builds up speed in a straight line up to 6.5 m/s and can dash with the jump control - hold it to charge a longer dash. On land a ridden nautilus crawls at 0.88 m/s. Nautilus armor (iron and better) adds protection. In Bedrock you cannot go through Nether or End portals while riding one.",
+    "tameOrBreed": "Tame it by feeding pufferfish or buckets of pufferfish - a 1/3 chance each, and they also work to tempt it. Heal or breed adults with any fish or bucket of fish: pufferfish heals 2 HP (without inflicting Hunger, Poison or Nausea on the nautilus) and raw cod heals 4.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "zombie-nautilus",
+      "drowned"
+    ],
+    "keywords": "nautilus minecraft tame pufferfish ride saddle dash ocean mount nautilus armor breed shell"
+  },
+  {
+    "slug": "zombie-nautilus",
+    "name": "Zombie Nautilus",
+    "type": "Neutral (tameable)",
+    "health": "15 (7.5 hearts)",
+    "where": "Only as the mount of a zombie nautilus jockey: when an adult drowned wielding a trident spawns outside river biomes (naturally or in structures like ocean ruins), it has a 50% chance to appear riding one - so they show up in dripstone caves and ocean biomes. Jockeys in warm oceans ride the coral variant, which only differs in looks.",
+    "howToKill": "Kill the drowned rider first - while mounted, the jockey controls the movement. The mount itself is undead: Instant Health potions damage it, Instant Damage heals it and Smite applies. 15 HP. Any saddle or armor it wears drops on death.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-3",
+        "notes": "Looting adds 0-1 per level; requires a player kill in Java, player or pet in Bedrock"
+      },
+      {
+        "item": "Saddle / Nautilus Armor",
+        "qty": "1",
+        "notes": "Drops whatever it was equipped with"
+      }
+    ],
+    "spawnConditions": "Never on its own: it spawns as the mount of a trident-wielding drowned jockey (50% chance per qualifying drowned spawn), or via spawn egg. Warm ocean spawns produce the coral variant.",
+    "behavior": "Neutral while untamed and passive once tamed, but it is undead: Instant Health hurts it and Instant Damage heals it. Tamed and saddled it rides like the living nautilus but faster - up to 7.15 m/s with the same chargeable dash. It does not despawn even on Peaceful difficulty.",
+    "tameOrBreed": "Tame it by feeding pufferfish or buckets of pufferfish (1/3 chance each; also good for tempting). Heal it with any fish or bucket of fish. It cannot be bred - there is no baby variant.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "nautilus",
+      "drowned"
+    ],
+    "keywords": "zombie nautilus minecraft drowned jockey trident ocean ruins tame pufferfish coral variant undead mount"
   }
 ]

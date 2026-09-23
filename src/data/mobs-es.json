@@ -856,5 +856,41 @@
     "notes": [
       "Saqueo añade 0-1 por nivel"
     ]
+  },
+  "copper-golem": {
+    "type": "Pasivo",
+    "where": "No aparece de forma natural. Constrúyelo colocando un block of copper (cualquier fase de oxidación, encerado también vale) y luego una carved pumpkin o jack o'lantern encima - la pumpkin tiene que ser lo último, ya sea a mano, con dispenser o incluso un enderman. El bloque de cobre se convierte en una copper chest y el golem aparece donde estaba la pumpkin.",
+    "spawnConditions": "Solo construido por el jugador (block of copper + carved pumpkin o jack o'lantern en último lugar; el patrón funciona en horizontal o boca abajo), con spawn egg, o usando un axe sobre una copper golem statue sin encerar ni oxidar para reanimarla. El golem y su cofre heredan la fase de oxidación del bloque usado.",
+    "howToKill": "No hay motivo: es pasivo y solo ordena tus cofres. Si hace falta, tiene solo 12 HP, huye despavorido al ser atacado, no recibe daño de caída y se hunde en el agua sin ahogarse.",
+    "behavior": "Saca hasta 16 del primer ítem que encuentra en las copper chests y los guarda en cofres de madera o trapped chests cercanos que estén vacíos o ya contengan ese tipo de ítem. Tarda 3 segundos en examinar cada cofre, recuerda hasta 9 copper chests y, tras revisar 10 sin encontrar nada, deambula 7 segundos y lo olvida. En Java no distingue entre contenidos de pociones, tipos de tipped arrows ni suspicious stews - Bedrock sí. Ignora durabilidad, encantamientos, nombres y el contenido de shulker boxes. Abre puertas que no sean de hierro, gira la cabeza, se hunde en el agua sin ahogarse y no recibe daño de caída.",
+    "tameOrBreed": "No se puede domesticar ni criar. Encéralo con un honeycomb para frenar la oxidación; raspa con un axe para quitar la cera o revertir una fase (los rayos también quitan fases). Tras entre 7 y 7 horas y 40 minutos (21-23 días de juego), un golem sin encerar completamente oxidado se convierte en copper golem statue y suelta lo que llevara - usa un axe sobre la estatua para devolverlo a la vida.",
+    "notes": [
+      "Copper Ingot: Looting añade 0-1 por nivel solo en Java",
+      "Poppy: solo esquileando a un golem al que un iron golem le haya dado una poppy"
+    ]
+  },
+  "nautilus": {
+    "type": "Neutral (domesticable)",
+    "where": "En todos los biomas de océano, en grupos de 1-3, entre los niveles Y 38 y 58. En Bedrock el 10% aparece como cría. Cuenta para el tope de criaturas acuáticas y puede desaparecer hasta la primera vez que un jugador interactúa con él, momento en el que se vuelve persistente.",
+    "spawnConditions": "Biomas de océano de cualquier temperatura, Y 38-58, grupos de 1-3. Se vuelve persistente tras la primera interacción con un jugador y deja de contar para cualquier tope de mobs.",
+    "howToKill": "Los adultos sin domesticar son neutrales y devuelven el golpe (2,5-4,5 HP según dificultad), y a 6,5 m/s nadan más rápido que tú. Pelea desde una barca o en aguas poco profundas donde va lento. Es un animal normal: vale cualquier arma, sin trucos de undead.",
+    "behavior": "Neutral mientras no esté domesticado (las crías y los domesticados son pasivos). Una vez domesticado y ensillado se dirige con los controles habituales: gana velocidad en línea recta hasta 6,5 m/s y puede hacer dash con el control de salto - mantén pulsado para cargar un dash más largo. En tierra, un nautilus montado avanza a 0,88 m/s. La nautilus armor (de iron en adelante) le da protección. En Bedrock no puedes cruzar portales del Nether ni del End montado en uno.",
+    "tameOrBreed": "Doméstalo dándole pufferfish o buckets of pufferfish - 1/3 de probabilidad cada uno, y también sirven para atraerlo. Cura o cría adultos con cualquier fish o bucket of fish: el pufferfish cura 2 HP (sin infligir Hunger, Poison ni Nausea al nautilus) y el raw cod cura 4.",
+    "notes": [
+      "Nautilus Shell: 5% de probabilidad, +1% por nivel de Looting, solo si lo mata un jugador o su mascota",
+      "Saddle / Nautilus Armor: suelta el equipamiento que llevara puesto"
+    ]
+  },
+  "zombie-nautilus": {
+    "type": "Neutral (domesticable)",
+    "where": "Solo como montura de un zombie nautilus jockey: cuando un drowned adulto con un trident aparece fuera de los biomas de río (de forma natural o en estructuras como las ocean ruins), tiene un 50% de probabilidad de aparecer montado en uno - así que salen en dripstone caves y biomas de océano. Los jockeys de warm ocean montan la variante coral, que solo cambia el aspecto.",
+    "spawnConditions": "Nunca por su cuenta: aparece como montura de un drowned jockey con trident (50% por cada spawn de drowned que cumpla las condiciones), o con spawn egg. Los spawns de warm ocean dan la variante coral.",
+    "howToKill": "Mata primero al drowned que lo monta: mientras va montado, el jockey controla el movimiento. La montura es undead: las pociones de Instant Health le dañan, las de Instant Damage le curan y Smite le afecta. 15 HP. Al morir suelta la saddle o la armadura que llevara.",
+    "behavior": "Neutral sin domesticar y pasivo una vez domesticado, pero es undead: Instant Health le daña e Instant Damage le cura. Domesticado y ensillado se monta como el nautilus vivo pero más rápido - hasta 7,15 m/s con el mismo dash cargable. No desaparece ni siquiera en dificultad Peaceful.",
+    "tameOrBreed": "Doméstalo dándole pufferfish o buckets of pufferfish (1/3 de probabilidad cada uno; también valen para atraerlo). Cúralo con cualquier fish o bucket of fish. No se puede criar: no existe variante de cría.",
+    "notes": [
+      "Rotten Flesh: Looting añade 0-1 por nivel; requiere muerte a manos del jugador en Java, jugador o mascota en Bedrock",
+      "Saddle / Nautilus Armor: suelta el equipamiento que llevara puesto"
+    ]
   }
 }
