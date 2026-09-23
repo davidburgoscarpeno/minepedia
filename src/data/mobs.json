@@ -2159,5 +2159,99 @@
       "panda"
     ],
     "keywords": "ocelot trust raw cod salmon creeper scared phantom jungle tame cat breed"
+  },
+  {
+    "slug": "piglin-brute",
+    "name": "Piglin Brute",
+    "type": "Hostile",
+    "health": "50 (25 hearts)",
+    "where": "Bastion remnants only - a small number spawn in certain rooms when the structure generates, and never again. They are not renewable.",
+    "howToKill": "Hits for up to 19 damage on Hard with its golden axe and ignores everything that works on piglins: no bartering, no gold distraction, no fear of zombified piglins or soul fire. Pillar up 3 blocks and hit its feet, or pour lava at range.",
+    "drops": [
+      {
+        "item": "Golden Axe",
+        "qty": "0-1",
+        "notes": "8.5%, +1% per Looting level (11.5% max); sometimes enchanted in Java"
+      },
+      {
+        "item": "Experience",
+        "qty": "20",
+        "notes": "The richest non-boss XP drop of any common hostile mob"
+      }
+    ],
+    "spawnConditions": "Only on bastion generation, in specific rooms of every bastion type. No babies, no respawns: clear a bastion and its brutes are gone forever.",
+    "behavior": "Always hostile, attacks on sight within 16 blocks, calls nearby piglins and brutes to join. Unlike piglins it never wears gold armor, never barters, is not distracted by gold items and does not hunt hoglins. Attacks wither skeletons and withers too, but prefers players.",
+    "tameOrBreed": "Cannot be tamed, bred or bartered with. Kill or avoid.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.16.2 (2020)",
+    "related": [
+      "piglin",
+      "hoglin"
+    ],
+    "keywords": "piglin brute bastion remnant golden axe no barter gold armor damage not renewable"
+  },
+  {
+    "slug": "dolphin",
+    "name": "Dolphin",
+    "type": "Neutral",
+    "health": "10 (5 hearts)",
+    "where": "Lukewarm, warm, cold and frozen oceans (not frozen in Bedrock), in pods of 3-5. Never in rivers.",
+    "howToKill": "Drops 0-1 raw cod. But a live dolphin is a treasure detector and a speed boost - killing one is the worst trade in the ocean.",
+    "drops": [
+      {
+        "item": "Raw Cod",
+        "qty": "0-1",
+        "notes": "More with Looting; cooked if killed by fire"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only with player kill credit"
+      }
+    ],
+    "spawnConditions": "Pods of 3-5 in ocean biomes between Y=50 and the surface. 10% spawn as babies in Bedrock (Java has no natural babies).",
+    "behavior": "Swims in pods, leaps over the surface and plays with dropped items. Feed it raw cod or salmon and it swims straight to the nearest shipwreck, ocean ruin or buried treasure - the in-game treasure compass. Swimming near a dolphin grants Dolphin's Grace, a big swim-speed boost. It needs BOTH air and water: it drowns submerged and suffocates beached. Hit one and the whole pod turns on you.",
+    "tameOrBreed": "Cannot be tamed or bred. Babies can be fed golden dandelions; the treasure-guide behavior only needs raw cod or salmon.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "turtle",
+      "drowned"
+    ],
+    "keywords": "dolphin grace treasure shipwreck ruin feed raw cod salmon pod ocean lead"
+  },
+  {
+    "slug": "silverfish",
+    "name": "Silverfish",
+    "type": "Hostile",
+    "health": "8 (4 hearts)",
+    "where": "Inside infested stone and deepslate blocks in mountain and windswept hills caves, strongholds, igloo basements, woodland mansion false portal rooms, and from trial spawners in trial chambers.",
+    "howToKill": "One hit with any decent weapon. The danger is numbers: attacking one calls silverfish out of every infested block within 15 blocks. Silk touch mines infested blocks without waking them.",
+    "drops": [
+      {
+        "item": "Experience",
+        "qty": "5",
+        "notes": "No item drops, ever"
+      }
+    ],
+    "spawnConditions": "Break an infested block (it mines instantly and sounds like stone) and the silverfish pops out; End portal rooms in strongholds hold a silverfish monster spawner (light level 11 or less).",
+    "behavior": "Bites for 1-2 damage, but attacks in swarms. Silverfish burrow into stone, cobblestone, stone bricks and deepslate, turning them into infested blocks - which is how one silverfish becomes twenty. The Infested potion effect spawns silverfish 10% of the times the affected entity takes damage.",
+    "tameOrBreed": "Cannot be tamed or bred. The stronghold spawner near the End portal can be converted into an XP farm.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Beta 1.8 (Adventure Update)",
+    "related": [
+      "endermite",
+      "cave-spider"
+    ],
+    "keywords": "silverfish infested block stronghold end portal spawner silk touch mountain stone monster"
   }
 ]

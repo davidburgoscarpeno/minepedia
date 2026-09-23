@@ -784,5 +784,43 @@
     "notes": [
       "Solo si lo mata un jugador o un wolf tameado; no suelta objetos"
     ]
+  },
+  "piglin-brute": {
+    "type": "Hostil",
+    "where": "Solo en bastion remnants: unos pocos aparecen en ciertas salas al generarse la estructura, y nunca más. No son renovables.",
+    "howToKill": "Pega hasta 19 de daño en Difícil con su golden axe e ignora todo lo que funciona con piglins: sin bartering, sin distracción con oro, sin miedo a zombified piglins ni al soul fire. Haz un pilar de 3 bloques y golpéale los pies, o vierte lava a distancia.",
+    "spawnConditions": "Solo al generarse el bastion, en salas concretas de cada tipo de bastion. Sin crías, sin respawn: limpia un bastion y sus brutes desaparecen para siempre.",
+    "behavior": "Siempre hostil, ataca a la vista a 16 bloques y llama a piglins y brutes cercanos a unirse. A diferencia de los piglins nunca lleva armadura de oro, nunca hace bartering, no se distrae con objetos de oro y no caza hoglins. También ataca a wither skeletons y withers, pero prefiere jugadores.",
+    "tameOrBreed": "No se puede tamear, criar ni hacer bartering. Mata o evita.",
+    "keywords": "piglin brute bastion remnant golden axe sin barter armadura de oro daño no renovable",
+    "notes": [
+      "8,5%, +1% por nivel de Saqueo (11,5% máx); a veces encantada en Java",
+      "El mayor drop de XP de un mob hostil común que no es boss"
+    ]
+  },
+  "dolphin": {
+    "type": "Neutral",
+    "where": "Oceans lukewarm, warm, cold y frozen (no frozen en Bedrock), en grupos de 3-5. Nunca en ríos.",
+    "howToKill": "Suelta 0-1 raw cod. Pero un dolphin vivo es un detector de tesoros y un turbo de velocidad: matarlo es el peor trato del océano.",
+    "spawnConditions": "Grupos de 3-5 en biomas de ocean entre Y=50 y la superficie. El 10% aparece como cría en Bedrock (Java no tiene crías naturales).",
+    "behavior": "Nada en grupo, salta sobre la superficie y juega con objetos soltados. Dalle raw cod o salmon y nadará directo al shipwreck, ocean ruin o buried treasure más cercano: la brújula de tesoros del juego. Nadar cerca de un dolphin concede Dolphin's Grace, un gran aumento de velocidad de nado. Necesita AIRE y agua a la vez: se ahoga sumergido y se asfixia varado. Golpea a uno y todo el grupo te ataca.",
+    "tameOrBreed": "No se puede tamear ni criar. A las crías se les puede dar golden dandelions; para la guía de tesoros basta raw cod o salmon.",
+    "keywords": "dolphin grace tesoro shipwreck ruin dar raw cod salmon grupo ocean lead",
+    "notes": [
+      "Más con Saqueo; cocinado si muere por fuego",
+      "Solo con crédito de muerte del jugador"
+    ]
+  },
+  "silverfish": {
+    "type": "Hostil",
+    "where": "Dentro de infested blocks de stone y deepslate en cuevas de mountains y windswept hills, strongholds, sótanos de igloos, salas falsas de portal de woodland mansions, y de trial spawners en trial chambers.",
+    "howToKill": "Un golpe con cualquier arma decente. El peligro son los números: atacar a uno llama a los silverfish de todos los infested blocks en 15 bloques. El silk touch mina infested blocks sin despertarlos.",
+    "spawnConditions": "Rompe un infested block (se mina al instante y suena a stone) y el silverfish salta fuera; las salas de End portal de las strongholds tienen un monster spawner de silverfish (luz 11 o menos).",
+    "behavior": "Muerde 1-2 de daño, pero ataca en enjambre. Los silverfish se entierran en stone, cobblestone, stone bricks y deepslate, convirtiéndolos en infested blocks: así es como un silverfish se convierte en veinte. El efecto de poción Infested genera silverfish el 10% de las veces que la entidad afectada recibe daño.",
+    "tameOrBreed": "No se puede tamear ni criar. El spawner de la stronghold junto al End portal se puede convertir en granja de XP.",
+    "keywords": "silverfish infested block stronghold end portal spawner silk touch mountain stone monstruo",
+    "notes": [
+      "Nunca suelta objetos"
+    ]
   }
 }
