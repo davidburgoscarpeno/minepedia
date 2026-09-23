@@ -246,7 +246,60 @@ const SCENES = {
     S.pillar(8, 2, 9, hex('#3a3d42')); S.pillar(20, 1, 5, hex('#44484e')); S.pillar(32, 3, 12, hex('#3a3d42')); S.pillar(48, 2, 7, hex('#44484e')); S.pillar(58, 1, 10, hex('#3a3d42'));
     S.lavaPool(22, 8, 31); S.lavaPool(50, 6, 31);
     [[14, 29], [38, 29], [55, 29]].forEach(([x, y]) => S.b(x, y, hex('#e8762a'))); // magma glow
+  }  ,
+  'jagged-peaks': S => { S.sky(hex('#7aa8c8'), hex('#d8e8f4'), 0, 34);
+    S.sun(54, 4, hex('#f4f0d8')); S.cloud(12, 5, hex('#eef4fa'));
+    // sharp stone peaks with snow caps - terrain height = min of steep Vs
+    const peaks = [[10, 6, 1.2], [30, 10, 0.9], [50, 7, 1.05]];
+    const hfn = x => Math.min(34, ...peaks.map(([px, top, k]) => top + Math.abs(x - px) / k));
+    S.terrain(hfn, hex('#f4f8fc'), hex('#8a8a92'), hex('#5a5a64'), 2);
+    // exposed stone streaks on the steepest faces
+    for (let x = 0; x < W; x++) { const h = S.heights[x]; const slope = Math.abs(S.heights[Math.min(W-1,x+1)] - h);
+      if (slope >= 2) { S.b(x, h, mul(hex('#8a8a92'), 0.95 + S.r()*0.1)); if (S.r() < 0.5) S.b(x, h+1, hex('#8a8a92')); } }
+    // snow highlights
+    for (let x = 0; x < W; x++) { const h = S.heights[x]; if (S.r() < 0.3) S.b(x, h, hex('#ffffff')); }
+    // goats: tiny white silhouettes on ledges
+    const goat = (x) => { const gy = S.heights[x]; S.rect(x, gy-2, 2, 1, hex('#f0f0ea')); S.rect(x+1, gy-1, 1, 1, hex('#e0e0d8')); S.b(x, gy-3, hex('#f0f0ea')); };
+    goat(22); goat(41); goat(58);
+  },
+  'frozen-peaks': S => { S.sky(hex('#6a98c0'), hex('#cfe4f2'), 0, 34);
+    S.cloud(8, 6, hex('#e8f2f8')); S.cloud(40, 3, hex('#e8f2f8'));
+    // icy peaks: packed ice body, snow caps
+    const peaks = [[12, 8, 1.1], [34, 5, 0.85], [54, 9, 1.0]];
+    const hfn = x => Math.min(34, ...peaks.map(([px, top, k]) => top + Math.abs(x - px) / k));
+    S.terrain(hfn, hex('#f4f8fc'), hex('#9ac8e0'), hex('#6aa0c8'), 2);
+    // exposed packed-ice streaks
+    for (let x = 0; x < W; x++) { const h = S.heights[x]; const slope = Math.abs(S.heights[Math.min(W-1,x+1)] - h);
+      if (slope >= 2) { S.b(x, h, hex('#9ac8e0')); if (S.r() < 0.6) S.b(x, h+1, hex('#8ab8d8')); } }
+    // frozen waterfall down the middle peak
+    for (let y = S.heights[36]; y < 30; y++) { S.b(36, y, hex('#c8e4f4')); S.b(37, y, hex('#a8d0e8')); }
+    S.rect(35, 30, 4, 1, hex('#b8dcf0')); // frozen pool
+    // glints
+    for (let x = 0; x < W; x++) { const h = S.heights[x]; if (S.r() < 0.18) S.b(x, h, hex('#ffffff')); }
+  },
+  'grove': S => { S.sky(hex('#8ab4d4'), hex('#dceaf4'), 0, 32);
+    S.cloud(16, 4, hex('#f0f6fa'));
+    // gentle snowy slope
+    S.terrain(S.hill(27, 2, 8), hex('#f4f8fc'), hex('#e8eef4'), hex('#5a5a64'), 3);
+    // powder snow patch - slightly bluer flat dip
+    S.rect(24, S.heights[26], 9, 1, hex('#dfeaf6')); S.rect(26, S.heights[26]+1, 6, 1, hex('#dfeaf6'));
+    // snowy spruces: wide green tiered tree, snow only on tier tops
+    const snowySpruce = (x, th) => { const gy = S.heights[x];
+      S.rect(x, gy - th, 1, th, hex('#3a2a1a'));
+      const tiers = 4;
+      for (let t = 0; t < tiers; t++) {
+        const w2 = tiers - t; // 4..1 wide half-width
+        const yy = gy - Math.floor((t + 1) * (th - 2) / tiers);
+        S.rect(x - w2, yy, w2 * 2 + 1, 2, mul(hex('#24402c'), 0.9 + S.r()*0.2));
+        S.rect(x - w2, yy - 1, w2 * 2 + 1, 1, hex('#f4f8fc')); }
+      S.b(x, gy - th - 1, hex('#24402c')); S.b(x, gy - th - 2, hex('#f4f8fc')); };
+    snowySpruce(7, 11); snowySpruce(19, 9); snowySpruce(40, 12); snowySpruce(53, 10); snowySpruce(61, 8);
+    // snowy wolf: gray-white 4-pixel silhouette
+    const wx = 31, wy = S.heights[31]; S.rect(wx, wy-2, 3, 2, hex('#d8dcd8')); S.b(wx+3, wy-2, hex('#d8dcd8')); S.rect(wx, wy-1, 3, 1, hex('#c8ccc8'));
+    // rabbit
+    const rx = 47, ry = S.heights[47]; S.b(rx, ry-1, hex('#e8e8e0')); S.b(rx, ry-2, hex('#f0f0e8'));
   }
+
 };
 
 const outDir = 'public/biome-art';
