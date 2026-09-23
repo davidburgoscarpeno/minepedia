@@ -845,5 +845,101 @@
       "slimeball"
     ],
     "keywords": "dried ghast how to get soul sand valley nether fossil ghast tears craft waterlog ghastling happy ghast"
+  },
+  {
+    "slug": "wither-skeleton-skull",
+    "name": "Wither Skeleton Skull",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill wither skeletons in Nether fortresses: 2.5% base drop chance, player or tamed wolf kills only",
+      "Looting raises it to 5.5% max in Java (+1%/level) and 8.5% in Bedrock (+2%/level)",
+      "A wither skeleton killed by a charged creeper always drops its skull - one per explosion in Java, all of them in Bedrock"
+    ],
+    "uses": [
+      "3 skulls + 4 soul sand/soil in a T shape summon the Wither boss",
+      "Wearable as a head (and it reduces wither skeleton detection range, like other mob heads)",
+      "Decoration and note block sounds: a skull on a note block plays wither skeleton sounds"
+    ],
+    "renewable": "Renewable: wither skeletons spawn endlessly on fortress nether bricks, so skull farms exist.",
+    "editionNote": "Looting scaling differs: Java +1% per level (5.5% max), Bedrock +2% per level (8.5% max).",
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "nether-star",
+      "obsidian"
+    ],
+    "keywords": "wither skeleton skull drop chance looting farm wither boss summon soul sand fortress"
+  },
+  {
+    "slug": "echo-shard",
+    "name": "Echo Shard",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Only found in ancient city chests in the deep dark - sneak past the sculk sensors and the warden",
+      "No crafting, no trades, no mob drops: chest loot is the one and only source",
+      "Bring wool to muffle your steps while looting the city"
+    ],
+    "uses": [
+      "Craft the recovery compass: compass surrounded by 8 echo shards points to your last death location",
+      "That is its only recipe - but it turns a lost-items panic run into a guided walk",
+      "The recovery compass only works if held by the player who died, in the same dimension"
+    ],
+    "renewable": "Not renewable, but effectively plentiful: ancient cities are common in the deep dark and each holds many chests.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "heart-of-the-sea",
+      "nether-star"
+    ],
+    "keywords": "echo shard ancient city recovery compass last death location warden deep dark"
+  },
+  {
+    "slug": "nautilus-shell",
+    "name": "Nautilus Shell",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Drowned spawn holding one in their off-hand (3% Java, 8% Bedrock) and always drop it - a drowned farm is the reliable source",
+      "Rarely dropped by killed nautiluses",
+      "Fishing treasure: 0.8% base, up to 1.9% with Luck of the Sea III"
+    ],
+    "uses": [
+      "8 nautilus shells around 1 heart of the sea craft a conduit - underwater breathing, night vision and faster mining in a 32-96 block radius when framed in prismarine",
+      "Nothing else: the conduit is the entire point of collecting them",
+      "In Bedrock, wandering traders can rarely drop one (25% while offering it as a trade, if you hold an emerald)"
+    ],
+    "renewable": "Renewable via drowned farms and fishing.",
+    "editionNote": "Drowned holding chance is 3% in Java and 8% in Bedrock; converted zombies count in Bedrock too.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "heart-of-the-sea",
+      "trident"
+    ],
+    "keywords": "nautilus shell conduit drowned farm fishing heart of the sea underwater breathing"
+  },
+  {
+    "slug": "dragon-egg",
+    "name": "Dragon Egg",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Defeat the ender dragon: the egg appears on top of the exit portal - once per world in Java, twice in Bedrock (one per first and second dragon)",
+      "Do NOT punch it directly: it teleports up to 15 blocks away (31x15x31 volume)",
+      "Torch trick: break the block under it with a torch placed below so the egg falls onto it and drops as an item - or push it with a piston"
+    ],
+    "uses": [
+      "Pure trophy: the rarest block in a survival world, proof you beat the dragon",
+      "It teleports when you try to mine it, is gravity-affected, and always drops itself in explosions",
+      "No crafting, no hatching - the egg does not hatch, ever, in vanilla"
+    ],
+    "renewable": "One per world in Java (two in Bedrock). Guard it: if it falls into the exit portal or void, it is gone for good.",
+    "editionNote": "Bedrock worlds get two eggs (first and second dragon kill); Java gets one.",
+    "since": "1.0.0 (Adventure Update)",
+    "related": [
+      "elytra",
+      "nether-star"
+    ],
+    "keywords": "dragon egg how to get teleport torch piston trick ender dragon trophy hatch"
   }
 ]

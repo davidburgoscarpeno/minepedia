@@ -489,5 +489,61 @@
     ],
     "renewable": "Renovable por crafting (ghast tears de farmear ghasts) y bartering con piglins.",
     "editionNote": "Idéntico en Java y Bedrock; se mina al instante con cualquier herramienta y siempre se suelta a sí mismo."
+  },
+  "wither-skeleton-skull": {
+    "howToGet": [
+      "Mata wither skeletons en las nether fortresses: 2,5% de probabilidad base de drop, solo si lo mata un jugador o un wolf tameado",
+      "Looting la sube hasta 5,5% en Java (+1%/nivel) y 8,5% en Bedrock (+2%/nivel)",
+      "Un wither skeleton muerto por la explosión de un charged creeper siempre suelta su skull: uno por explosión en Java, todos en Bedrock"
+    ],
+    "uses": [
+      "3 skulls + 4 soul sand/soil en forma de T invocan al boss Wither",
+      "Se puede llevar puesta como cabeza (y reduce el rango de detección de los wither skeletons, como otras cabezas)",
+      "Decoración y sonidos: una skull sobre un note block reproduce sonidos de wither skeleton"
+    ],
+    "renewable": "Renovable: los wither skeletons aparecen sin fin sobre los nether bricks de las fortresses, así que existen granjas de skulls.",
+    "editionNote": "El escalado de Looting difiere: Java +1% por nivel (5,5% máx), Bedrock +2% por nivel (8,5% máx)."
+  },
+  "echo-shard": {
+    "howToGet": [
+      "Solo en cofres de las ancient cities del deep dark: sigila entre los sculk sensors y el warden",
+      "Sin crafting, sin trueques, sin drops de mobs: el botín de cofres es la única fuente",
+      "Lleva wool para amortiguar tus pasos mientras luteas la ciudad"
+    ],
+    "uses": [
+      "Craftea el recovery compass: una compass rodeada de 8 echo shards apunta a tu última ubicación de muerte",
+      "Es su única receta - pero convierte la carrera de pánico por tus objetos en un paseo guiado",
+      "El recovery compass solo funciona en manos del jugador que murió, en la misma dimensión"
+    ],
+    "renewable": "No renovable, pero efectivamente abundante: las ancient cities son comunes en el deep dark y cada una guarda muchos cofres.",
+    "editionNote": "Idéntico en Java y Bedrock."
+  },
+  "nautilus-shell": {
+    "howToGet": [
+      "Los drowned aparecen sosteniendo una en su mano secundaria (3% Java, 8% Bedrock) y siempre la sueltan: una granja de drowned es la fuente fiable",
+      "Raramente la sueltan los nautiluses al morir",
+      "Tesoro de pesca: 0,8% base, hasta 1,9% con Luck of the Sea III"
+    ],
+    "uses": [
+      "8 nautilus shells alrededor de 1 heart of the sea craftean un conduit: respiración acuática, visión nocturna y minería más rápida en un radio de 32-96 bloques al enmarcarlo en prismarine",
+      "Nada más: el conduit es toda la razón de coleccionarlas",
+      "En Bedrock, los wandering traders pueden soltar una raramente (25% mientras la ofrecen como trueque, si llevas un emerald)"
+    ],
+    "renewable": "Renovable con granjas de drowned y pesca.",
+    "editionNote": "La probabilidad de drowned sosteniéndola es 3% en Java y 8% en Bedrock; los zombies convertidos también cuentan en Bedrock."
+  },
+  "dragon-egg": {
+    "howToGet": [
+      "Derrota al ender dragon: el huevo aparece sobre el exit portal - uno por mundo en Java, dos en Bedrock (uno por el primer y el segundo dragón)",
+      "NO lo golpees directamente: se teletransporta hasta 15 bloques (volumen de 31x15x31)",
+      "Truco de la torch: rompe el bloque bajo el huevo con una torch colocada debajo para que caiga sobre ella y se suelte como objeto - o empújalo con un piston"
+    ],
+    "uses": [
+      "Puro trofeo: el bloque más raro de un mundo survival, prueba de que venciste al dragón",
+      "Se teletransporta al intentar minarlo, le afecta la gravedad y siempre se suelta a sí mismo en explosiones",
+      "Sin crafting, sin eclosión: el huevo no eclosiona, nunca, en vanilla"
+    ],
+    "renewable": "Uno por mundo en Java (dos en Bedrock). Guárdalo bien: si cae al exit portal o al vacío, se pierde para siempre.",
+    "editionNote": "Los mundos de Bedrock obtienen dos huevos (primera y segunda muerte del dragón); Java obtiene uno."
   }
 }
