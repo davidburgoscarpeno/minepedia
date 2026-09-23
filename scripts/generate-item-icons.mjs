@@ -226,6 +226,9 @@ const icons = {
 
   'brewing-stand': make(({ rect, line, px }) => { rect(7,1,2,6,'#e8b93e'); rect(7,1,2,1,'#f5d060'); line(8,7,2,12,'#8a8a8a'); line(8,7,13,12,'#8a8a8a'); rect(7,7,2,5,'#9a9a9a'); px(6,9,'#8a8a8a'); px(9,9,'#8a8a8a'); rect(1,12,14,2,'#5a5a5a'); rect(1,12,14,1,'#7a7a7a'); }),
   'how-to-respawn-ender-dragon': make(({ rect, px }) => { rect(5,10,6,3,'#3a3a3a'); rect(4,13,8,2,'#2a2a2a'); rect(5,3,6,7,'#d8e8e8'); rect(6,4,4,5,'#e8f4f4'); px(7,5,'#e08ae0'); px(8,6,'#c060d0'); px(7,7,'#a040b0'); px(8,5,'#f0b0f0'); }),
+  'how-to-make-snow-golem': make(({ rect, px }) => { rect(4,11,8,4,'#e8e8e8'); rect(5,6,6,5,'#f0f0f0'); rect(4,1,8,5,'#e8862a'); rect(4,1,8,1,'#f09a3a'); px(6,3,'#141414'); px(9,3,'#141414'); rect(6,4,4,1,'#141414'); px(7,0,'#4a9b3a'); px(8,0,'#4a9b3a'); px(4,12,'#d0d0d0'); px(11,13,'#d0d0d0'); }),
+  'how-to-make-ender-chest': make(({ rect, px }) => { rect(1,3,14,11,'#2a3a3a'); rect(1,3,14,1,'#3a4a4a'); rect(1,7,14,1,'#1a2a2a'); rect(1,13,14,1,'#1a2a2a'); rect(1,3,1,11,'#1a2a2a'); rect(14,3,1,11,'#1a2a2a'); rect(7,6,2,3,'#b060e0'); px(3,1,'#b060e0'); px(12,1,'#7a3aa0'); px(5,0,'#7a3aa0'); px(10,2,'#b060e0'); }),
+  'how-to-make-hopper': make(({ rect }) => { rect(1,1,14,4,ID); rect(1,1,14,1,'#9a9a9a'); rect(1,4,14,1,'#5a5a5a'); rect(3,5,10,2,ID); rect(5,7,6,2,ID); rect(6,9,4,3,ID); rect(7,12,3,2,'#5a5a5a'); }),
 };
 
 
