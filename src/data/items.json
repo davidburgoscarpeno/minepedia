@@ -749,5 +749,101 @@
       "wool-slab"
     ],
     "keywords": "concrete slab 16 colors stonecutter pickaxe modern build fireproof"
+  },
+  {
+    "slug": "saddle",
+    "name": "Saddle",
+    "category": "Utility",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "Craft it: 3 leather + 1 iron ingot (leather on top-center and middle sides, iron in the center)",
+      "Chest loot in dungeons, mineshafts, strongholds, villages, desert and jungle pyramids, Nether fortresses and bastions",
+      "Fishing treasure (0.8%), leatherworker villager trade (8-10 emeralds), or a free drop from every ravager and strider jockey"
+    ],
+    "uses": [
+      "Ride and control horses, donkeys, mules, camels, pigs and striders - equines must be tamed first",
+      "Remove it any time from the mob's inventory; a saddled mob drops the saddle when killed",
+      "Pigs need a carrot on a stick to steer; striders need a warped fungus on a stick"
+    ],
+    "renewable": "Fully renewable: crafting, fishing, leatherworker trades and ravager drops all provide infinite saddles.",
+    "editionNote": "Same recipe and sources in Java and Bedrock. The saddle recipe exists since 1.21.6 - before that, loot and trading were the only ways.",
+    "since": "Infdev 2010 (craftable since 1.21.6)",
+    "related": [
+      "elytra",
+      "trident"
+    ],
+    "keywords": "saddle how to make craft leather iron ingot ride horse pig strider ravager fishing"
+  },
+  {
+    "slug": "name-tag",
+    "name": "Name Tag",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 paper + 1 nugget of any kind (diagonal in the grid)",
+      "Chest loot in dungeons, mineshafts, ancient cities and woodland mansions",
+      "Fishing treasure (0.8%) or librarian villager trades; in Bedrock, wandering traders can drop one"
+    ],
+    "uses": [
+      "Rename it on an anvil (1 experience level per whole stack) then use it on a mob to give it that name",
+      "Named mobs never despawn and stop counting toward the mob cap - essential for farms and pets",
+      "Easter eggs: Dinnerbone or Grumm flips the mob upside down, jeb_ makes a rainbow sheep, Toast reskins a rabbit, Johnny turns a vindicator hostile to everything"
+    ],
+    "renewable": "Renewable via crafting, fishing and librarian trades.",
+    "editionNote": "Crafting recipe and anvil naming work the same in both editions; the wandering trader drop is Bedrock-only.",
+    "since": "1.6.1 (Horse Update)",
+    "related": [
+      "saddle",
+      "totem-of-undying"
+    ],
+    "keywords": "name tag how to get craft paper nugget anvil rename despawn dinnerbone jeb_ toast johnny"
+  },
+  {
+    "slug": "turtle-scute",
+    "name": "Turtle Scute",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "The only source: a baby turtle drops exactly 1 scute when it grows into an adult",
+      "Breed turtles with seagrass, protect the eggs on the home beach, and speed growth by feeding babies seagrass (10% per use)",
+      "There is no other way - not drops, trades, chests or bartering"
+    ],
+    "uses": [
+      "Craft 5 scutes in a helmet shape into a turtle shell: a helmet that grants 10 seconds of Water Breathing when worn",
+      "Brew turtle shells into potions of the Turtle Master (Slowness + Resistance)",
+      "Villager expert clerics do not buy scutes - this is a pure progression material"
+    ],
+    "renewable": "Renewable but slow: every scute means raising a baby turtle (20 minutes base, sped up with seagrass).",
+    "editionNote": "Identical mechanics in Java and Bedrock.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "slimeball",
+      "shulker-shell"
+    ],
+    "keywords": "turtle scute how to get baby turtle grow shell helmet water breathing turtle master potion"
+  },
+  {
+    "slug": "dried-ghast",
+    "name": "Dried Ghast",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Found in soul sand valleys: a 1/3 chance of generating next to each Nether fossil",
+      "Craft it: 8 ghast tears around 1 soul sand block",
+      "Piglin bartering: about a 2.13% chance per gold ingot"
+    ],
+    "uses": [
+      "Waterlog it and wait about 20 minutes: it hydrates through visible stages and hatches into a ghastling",
+      "The ghastling grows into a happy ghast - the rideable flying mount for up to four players; feed ghastlings snowballs or golden dandelions to speed growth",
+      "Pure decoration otherwise: makes cracking ambient sounds when placed on soul sand or soul soil"
+    ],
+    "renewable": "Renewable via crafting (ghast tears farm from ghasts) and piglin bartering.",
+    "editionNote": "Identical in Java and Bedrock; mined instantly with any tool and always drops itself.",
+    "since": "1.21.6 (Chase the Skies)",
+    "related": [
+      "golden-dandelion",
+      "slimeball"
+    ],
+    "keywords": "dried ghast how to get soul sand valley nether fossil ghast tears craft waterlog ghastling happy ghast"
   }
 ]
