@@ -197,7 +197,48 @@ const icons = {
   'make-server': make(({ rect, px }) => { rect(2,2,12,5,ID); rect(2,9,12,5,ID); px(4,4,'#6abe30'); px(4,11,'#e84a3a'); rect(6,4,6,1,'#3a3a3a'); rect(6,11,6,1,'#3a3a3a'); }),
   'free-hosting': make(({ rect, px, line }) => { rect(4,2,8,3,'#e8e8e8'); rect(3,4,11,3,'#f0f0f0'); rect(3,8,10,4,ID); px(5,10,'#6abe30'); rect(7,10,4,1,'#3a3a3a'); line(6,13,5,15,'#8a8a8a'); line(10,13,11,15,'#8a8a8a'); }),
   'server-plugins': make(({ rect, px }) => { rect(3,2,7,7,'#3aa655'); px(9,4,'#3aa655'); px(10,5,'#3aa655'); rect(6,9,7,7,'#e8a018'); px(4,11,'#e8a018'); px(3,12,'#e8a018'); }),
+  // guides (new drawings)
+  'how-to-beat-ender-dragon': make(({ rect, px, line }) => { rect(3,5,10,7,'#1a1a22'); rect(2,6,12,4,'#1a1a22'); px(5,7,'#b060e0'); px(10,7,'#b060e0'); px(5,8,'#7a3aa0'); px(10,8,'#7a3aa0'); line(3,5,1,2,'#4a4a55'); line(12,5,14,2,'#4a4a55'); rect(6,10,4,3,'#2a2a33'); px(7,12,'#b060e0'); px(9,12,'#b060e0'); rect(4,11,1,2,'#14141c'); rect(11,11,1,2,'#14141c'); }),
+  'how-to-hatch-dragon-egg': make(({ rect, px }) => { rect(3,12,10,2,'#3a3a3a'); rect(4,14,8,1,'#2a2a2a'); rect(5,3,6,9,'#14101c'); rect(4,5,8,6,'#14101c'); px(6,4,'#b060e0'); px(9,6,'#7a3aa0'); px(5,8,'#b060e0'); px(8,10,'#7a3aa0'); px(7,7,'#3a2a5a'); }),
+  'how-to-make-mace': make(({ rect, px, line }) => { rect(9,1,6,6,'#6a6a72'); rect(10,2,4,4,'#8a8a95'); px(9,1,'#4a4a52'); px(14,6,'#4a4a52'); px(14,1,'#4a4a52'); px(9,6,'#4a4a52'); line(9,7,3,13,'#8a5a2b'); line(10,7,4,13,'#6b4423'); px(3,14,'#4a4a52'); }),
+  'how-to-get-trident': make(({ px, line }) => { line(3,14,11,4,'#3a9b9b'); line(11,4,11,1,'#5ad1d1'); line(11,4,14,1,'#5ad1d1'); line(11,4,8,1,'#5ad1d1'); px(12,5,'#5ad1d1'); px(10,5,'#5ad1d1'); px(4,13,'#3a7a8a'); }),
+  'how-to-make-end-portal': make(({ rect, px }) => { rect(2,2,12,2,'#3a5a3f'); rect(2,13,12,2,'#3a5a3f'); rect(2,4,2,9,'#3a5a3f'); rect(12,4,2,9,'#3a5a3f'); rect(4,4,8,9,'#0d0812'); px(6,6,'#e8e8e8'); px(9,8,'#e8e8e8'); px(5,10,'#c8c8c8'); px(10,5,'#c8c8c8'); px(7,11,'#e8e8e8'); px(3,3,'#8ab86a'); px(12,12,'#8ab86a'); px(12,3,'#8ab86a'); px(3,12,'#8ab86a'); }),
+  'how-to-dye-armor': make(({ rect, px }) => { rect(4,3,8,10,'#7a7a7a'); rect(3,3,2,4,'#7a7a7a'); rect(11,3,2,4,'#7a7a7a'); rect(6,3,4,2,'#5a5a5a'); rect(4,12,8,1,'#6a6a6a'); px(5,6,'#c03428'); px(9,8,'#3a7bd5'); px(6,10,'#4a9b3a'); px(10,5,'#e8c33a'); px(7,12,'#b060e0'); px(5,8,'#e8842a'); }),
+  'how-to-make-saddle': make(({ rect }) => { rect(3,6,10,5,'#8a5a2b'); rect(6,6,4,1,'#3a2a18'); rect(4,4,2,2,'#6b4423'); rect(3,10,10,1,'#6b4423'); rect(3,11,2,3,'#6b4423'); rect(11,11,2,3,'#6b4423'); rect(4,14,1,1,'#b8b8b8'); rect(11,14,1,1,'#b8b8b8'); }),
+  'how-to-make-name-tag': make(({ rect, px, line }) => { rect(3,6,9,5,'#f0f0f0'); rect(3,6,9,1,'#ffffff'); px(4,8,'#7a7a7a'); rect(6,7,5,1,'#b0b0b0'); rect(6,9,4,1,'#b0b0b0'); line(3,6,1,2,'#c8c8c8'); px(1,2,'#b8b8b8'); }),
+  'how-to-make-concrete': make(({ rect, px }) => { rect(2,4,12,10,'#9a9a9a'); px(4,6,'#7a7a7a'); px(8,5,'#7a7a7a'); px(11,7,'#7a7a7a'); px(5,10,'#7a7a7a'); px(10,12,'#7a7a7a'); px(6,13,'#7a7a7a'); rect(4,2,4,2,'#3a7bd5'); px(12,13,'#3a7bd5'); px(13,12,'#5a9be5'); }),
+  // structures (new drawings)
+  'abandoned-camp': make(({ rect, px, line }) => { line(3,12,8,5,'#a06c3a'); line(13,12,8,5,'#8a5a2b'); rect(7,6,2,6,'#3a2a18'); rect(1,12,14,2,'#5a4a2a'); px(8,13,'#ff9a1f'); px(7,13,'#ffc832'); rect(2,14,3,1,'#6b5a3a'); }),
+  'pillager-outpost': make(({ rect, px, line }) => { rect(5,4,6,10,'#8a5a2b'); rect(3,1,10,3,'#6b4423'); rect(3,1,10,1,'#a06c3a'); rect(6,2,1,1,'#1a1a1a'); rect(9,2,1,1,'#1a1a1a'); line(5,14,4,15,'#6b4423'); line(10,14,11,15,'#6b4423'); px(7,8,'#3a2a18'); px(8,8,'#3a2a18'); px(7,10,'#3a2a18'); px(8,10,'#3a2a18'); }),
+  'ruined-portal': make(({ rect, px }) => { rect(3,2,2,11,'#2a1a3a'); rect(3,2,7,2,'#2a1a3a'); rect(9,2,2,6,'#2a1a3a'); px(4,3,'#5a3a7a'); px(10,4,'#5a3a7a'); px(3,8,'#5a3a7a'); px(4,6,'#3a7bd5'); rect(1,13,14,2,'#6e2c28'); px(13,12,'#f5c542'); px(12,13,'#f5c542'); px(7,11,'#2a1a3a'); }),
+  'shipwreck': make(({ rect, line }) => { rect(2,8,12,4,'#6b4423'); rect(3,7,9,1,'#8a5a2b'); line(13,8,15,5,'#6b4423'); rect(7,2,1,6,'#8a5a2b'); rect(8,3,5,4,'#e8e0d0'); rect(0,13,16,3,'#3a7bd5'); rect(0,13,16,1,'#5a9be5'); }),
+  'swamp-hut': make(({ rect, px }) => { rect(4,5,8,6,'#5a4a2a'); rect(3,3,10,2,'#3a2a18'); rect(5,11,1,3,'#3a2a18'); rect(10,11,1,3,'#3a2a18'); px(7,7,'#e8c33a'); px(6,8,'#2a1a10'); rect(1,14,14,1,'#3a4a2f'); px(12,12,'#4a4a4a'); px(13,11,'#5a5a5a'); }),
+  'ocean-ruins': make(({ rect, px, line }) => { rect(6,4,3,10,'#7a8a8a'); px(6,3,'#7a8a8a'); px(9,2,'#7a8a8a'); px(7,7,'#a8e8e0'); line(2,14,2,8,'#3f7a3f'); line(13,14,13,9,'#3f7a3f'); px(3,5,'#e8a058'); rect(4,12,9,2,'#8a8a7a'); px(11,4,'#5a9be5'); px(4,7,'#5a9be5'); }),
+  'igloo': make(({ rect, px }) => { rect(3,8,10,6,'#f4f8fc'); rect(4,6,8,2,'#f4f8fc'); rect(6,5,4,1,'#eef4f8'); rect(6,10,3,4,'#3a3d42'); px(4,9,'#dde4ea'); px(9,7,'#dde4ea'); px(11,9,'#dde4ea'); px(5,12,'#dde4ea'); rect(1,14,14,1,'#e8f0f6'); }),
+  'monster-room': make(({ rect, px }) => { rect(2,2,12,12,'#6a6a6a'); px(4,4,'#5a5a5a'); px(9,3,'#5a5a5a'); px(12,6,'#5a5a5a'); px(3,9,'#5a5a5a'); px(11,12,'#5a5a5a'); px(6,13,'#5a5a5a'); px(5,6,'#5f7a4a'); px(10,10,'#5f7a4a'); rect(6,6,4,4,'#2a2a2a'); px(6,6,'#8a8a8a'); px(9,6,'#8a8a8a'); px(6,9,'#8a8a8a'); px(9,9,'#8a8a8a'); px(7,7,'#e8842a'); }),
+  'amethyst-geode': make(({ rect, px, line }) => { rect(2,2,12,12,'#3a2a4a'); rect(4,4,8,8,'#6a4a8a'); line(6,10,6,6,'#b08ae0'); line(9,10,9,5,'#c8a8f0'); px(8,8,'#e8d8ff'); px(5,5,'#8a6ab0'); px(10,10,'#8a6ab0'); px(7,4,'#b08ae0'); }),
+  'fossil': make(({ rect, px, line }) => { line(3,4,3,12,'#e8e0d0'); line(5,4,5,12,'#e8e0d0'); line(7,4,7,12,'#e8e0d0'); rect(2,4,9,1,'#e8e0d0'); rect(10,3,4,4,'#d8d0c0'); px(12,4,'#3a3a3a'); px(11,6,'#c8c0b0'); rect(1,13,14,2,'#8a7a5a'); px(4,7,'#d8d0c0'); px(6,9,'#d8d0c0'); }),
+  'desert-well': make(({ rect }) => { rect(4,10,8,3,'#d4b96a'); rect(5,10,6,1,'#3a7bd5'); rect(4,4,1,6,'#d4b96a'); rect(11,4,1,6,'#d4b96a'); rect(3,3,10,1,'#b39a52'); rect(1,13,14,2,'#e3cf8f'); rect(5,11,6,1,'#b39a52'); }),
+  // seeds (new drawings)
+  'herobrine-screenshot': make(({ rect, px }) => { rect(4,3,8,8,'#c8977a'); rect(4,3,8,2,'#3a2a18'); px(6,6,'#ffffff'); px(9,6,'#ffffff'); rect(7,9,2,1,'#8a5a4a'); rect(4,11,8,3,'#3a7bd5'); px(5,12,'#2a5aa5'); px(10,13,'#2a5aa5'); }),
+  'herobrine-livestream': make(({ rect, px }) => { rect(4,3,8,8,'#c8977a'); rect(4,3,8,2,'#3a2a18'); px(6,6,'#ffffff'); px(9,6,'#ffffff'); rect(7,9,2,1,'#8a5a4a'); rect(4,11,8,3,'#3a7bd5'); px(0,0,'#e83a3a'); px(1,0,'#e83a3a'); px(0,1,'#e83a3a'); px(14,14,'#e83a3a'); px(15,14,'#e83a3a'); px(15,13,'#e83a3a'); }),
+  'skull-on-fire-painting': make(({ rect, px, line }) => { rect(2,2,12,12,'#8a5a2b'); rect(3,3,10,10,'#1a1a1a'); rect(6,5,4,4,'#e8e0d0'); px(6,6,'#1a1a1a'); px(9,6,'#1a1a1a'); px(7,8,'#c8c0b0'); line(5,11,4,13,'#ff9a1f'); line(10,11,11,13,'#ffc832'); px(7,12,'#ff9a1f'); px(8,11,'#ffc832'); }),
+
 };
+
+
+// aliases: guide/structure/seed slugs reusing existing drawings
+const ALIAS = {
+  'how-to-find-stronghold':'stronghold','how-to-fly-elytra':'how-to-get-elytra','how-to-find-trial-chambers':'trial-chambers',
+  'how-to-get-mending':'mending','how-to-find-nether-fortress':'nether-fortress','how-to-make-conduit':'how-to-use-conduit',
+  'how-to-find-woodland-mansion':'woodland-mansion','how-to-get-wither-skulls':'how-to-beat-wither','how-to-make-lead':'lead',
+  'how-to-make-smooth-stone':'furnace','how-to-get-honeycomb':'shears','how-to-make-campfire':'campfire',
+  'how-to-find-buried-treasure':'chest','how-to-make-fireworks':'firework-rocket','how-to-get-silk-touch':'silk-touch',
+  'how-to-make-book':'book','how-to-make-shield':'shield','how-to-make-paper':'paper','how-to-get-xp-fast':'xp-calc',
+  'end-city':'how-to-find-end-city','buried-treasure':'chest',
+  'title-panorama-113':'title-panorama-original','title-panorama-119':'title-panorama-118'
+};
+for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
 for (const [slug, g] of Object.entries(icons)) writeFileSync(`public/item-icons/${slug}.svg`, svg(g));
 console.log('generated', Object.keys(icons).length, 'icons');
