@@ -616,5 +616,49 @@
       "Solo si el camel llevaba saddle",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
+  },
+  "horse": {
+    "type": "Pasivo",
+    "where": "Plains y savannas en manadas de 2-6, todas del mismo color base con marcas variadas. Las villages también se generan con horses en establos y corrales.",
+    "howToKill": "Suelta 0-2 leather más su saddle y horse armor si las llevaba. Nunca contraataca, pero un horse tameado vale mucho más vivo que como leather.",
+    "spawnConditions": "Manadas de 2-6 en plains y savannas; el 20% aparece como potro. Los 7 colores base y los 5 patrones de marcas son igual de probables, con la manada compartiendo un color.",
+    "behavior": "Cada horse sortea velocidad, salto (hasta unos 5 bloques) y vida al aparecer, y los potros heredan una mezcla de las estadísticas de sus padres. El tameo va por temperamento: móntalo con la mano vacía, déjate tirar, y cada intento suma 5 de temperamento hasta superar el umbral oculto y ver corazones. Solo los horses tameados aceptan saddle, horse armor y cría. Darles apples, wheat o hay bales sube el temperamento y los cura.",
+    "tameOrBreed": "Tamea montando una y otra vez (alimentar antes ayuda). Cría dos horses tameados con golden apples o golden carrots; el potro tarda 20 minutos en crecer, acelerado con comida.",
+    "keywords": "horse tamear saddle horse armor criar golden carrot velocidad salto estadísticas plains savanna",
+    "notes": [
+      "Más con Saqueo",
+      "Solo si el horse llevaba saddle",
+      "Solo si el horse la llevaba equipada",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
+  },
+  "turtle": {
+    "type": "Pasivo",
+    "where": "Beaches, en grupos pequeños sobre arena (no en snowy beaches ni stony shores). Siempre recuerda su playa natal y vuelve a ella para poner huevos.",
+    "howToKill": "Suelta 0-2 seagrass, casi nada. En Bedrock, una turtle alcanzada por un rayo suelta un bowl. Mejor vivas: las crías sueltan un turtle scute al crecer, la única fuente del casco de turtle shell.",
+    "spawnConditions": "Grupos pequeños sobre arena en la playa: hasta 5 cerca del nivel del mar en Java (sand, red sand, suspicious sand), 2-6 a Y 60-67 en Bedrock. El 5% aparece como cría.",
+    "behavior": "Lenta en tierra, rápida en el agua, no se ahoga y no admite lead (pero sigue el seagrass a 10 bloques). Tras criar, la turtle preñada viaja de vuelta a su playa natal, escarba la arena y pone 1-4 huevos que eclosionan de noche en 4-5 días - los huevos movidos con Silk Touch hacen que las crías adopten la nueva playa. Zombies, husks, drowned, zombie villagers, skeletons, strays y muchos animales pisotean o atacan huevos y crías, así que protege el nido.",
+    "tameOrBreed": "No se puede domesticar. Cría dos turtles con seagrass; la cría tarda un día de Minecraft (20 minutos) en crecer, un 10% menos por seagrass, y suelta un turtle scute al hacerse adulta.",
+    "keywords": "turtle huevo playa natal seagrass scute casco respiración acuática criar silk touch",
+    "notes": [
+      "Más con Saqueo; no si la mata un rayo en Bedrock",
+      "Solo en Bedrock, cuando la mata un rayo",
+      "No es un drop de muerte: la cría suelta uno al hacerse adulta",
+      "Solo si la mata un jugador o un wolf tameado"
+    ]
+  },
+  "panda": {
+    "type": "Neutral",
+    "where": "Biomas jungle, raramente, en grupos de 1-2 sobre grass blocks - mucho más comunes en bamboo jungles. Nunca sobre podzol.",
+    "howToKill": "Suelta 1 bamboo en Java (0-2 en Bedrock) y ya. Solo los pandas aggressive contraatacan, y pegan fuerte, así que deja tranquilos a los demás.",
+    "spawnConditions": "Grupos raros de 1-2 sobre grass con 2 bloques de espacio encima en biomas jungle, más común en bamboo jungles; el 5% aparece como cría. La personalidad se sortea al aparecer: normal ~64%, lazy, worried y playful ~8% cada una, aggressive ~6%, weak ~3% y brown menos del 3% (la más rara).",
+    "behavior": "Siete personalidades según genes ocultos: los lazy se tumban de espaldas, los playful ruedan, los worried se esconden en las tormentas, los aggressive devuelven los golpes, los weak tienen la mitad de vida y estornudan más, y los brown son la variante rara. Las crías estornudan y hacen saltar a los adultos; un estornudo raramente suelta una slimeball. Se sientan a comer bamboo o cake. En Bedrock, el 15% de los baby zombies, husks o drowned cercanos pueden montar un panda adulto como jockey.",
+    "tameOrBreed": "No se puede domesticar. Dale bamboo a dos pandas para criar, pero solo con plantas de bamboo cerca: al menos una en un área de 7x7x3 en Java, u 8 plantas a 5 bloques de cada panda en Bedrock.",
+    "keywords": "panda bamboo jungle criar personalidad brown weak lazy aggressive estornudo slimeball",
+    "notes": [
+      "Más con Saqueo en Bedrock",
+      "Raro: un estornudo de cría tiene 1/700 de soltar una",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
   }
 }

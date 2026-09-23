@@ -1701,5 +1701,129 @@
       "iron-golem"
     ],
     "keywords": "camel desert village saddle dash two riders cactus breed mount tall melee"
+  },
+  {
+    "slug": "horse",
+    "name": "Horse",
+    "type": "Passive",
+    "health": "15 to 30 (7.5 to 15 hearts, random per horse)",
+    "where": "Plains and savannas in herds of 2-6, all the same base color with varied markings. Villages also generate with horses in stables and pens.",
+    "howToKill": "Drops 0-2 leather plus its saddle and horse armor if equipped. It never fights back, but a tamed horse is worth far more alive than as leather.",
+    "drops": [
+      {
+        "item": "Leather",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Saddle",
+        "qty": "1",
+        "notes": "Only if the horse was saddled"
+      },
+      {
+        "item": "Horse Armor",
+        "qty": "1",
+        "notes": "Only if the horse was equipped"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Herds of 2-6 in plains and savannas; 20% spawn as foals. All 7 base colors and 5 marking patterns are equally likely, with the herd sharing one color.",
+    "behavior": "Each horse rolls random speed, jump strength (up to about 5 blocks) and health at spawn, and foals inherit a blend of their parents stats. Taming works by temper: mount with an empty hand, get bucked off, and each attempt adds 5 temper until it beats the horse hidden threshold and hearts appear. Only tamed horses accept a saddle, horse armor and breeding. Feeding apples, wheat or hay bales raises temper and heals.",
+    "tameOrBreed": "Tame by mounting repeatedly (feeding first helps). Breed two tamed horses with golden apples or golden carrots; the foal takes 20 minutes to grow, sped up with food.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.6 (Horse Update)",
+    "related": [
+      "camel",
+      "villager"
+    ],
+    "keywords": "horse tame saddle horse armor breed golden carrot speed jump stats plains savanna"
+  },
+  {
+    "slug": "turtle",
+    "name": "Turtle",
+    "type": "Passive",
+    "health": "30 (15 hearts)",
+    "where": "Beaches, in small groups on sand (not snowy beaches or stony shores). It always remembers its home beach and returns there to lay eggs.",
+    "howToKill": "Drops 0-2 seagrass - nearly nothing. In Bedrock a turtle struck by lightning drops a bowl. Keep them alive instead: baby turtles drop a turtle scute when they grow up, the only source of the turtle shell helmet.",
+    "drops": [
+      {
+        "item": "Seagrass",
+        "qty": "0-2",
+        "notes": "More with Looting; not when killed by lightning in Bedrock"
+      },
+      {
+        "item": "Bowl",
+        "qty": "1",
+        "notes": "Bedrock only, when killed by lightning"
+      },
+      {
+        "item": "Turtle Scute",
+        "qty": "1",
+        "notes": "Not a death drop: a baby turtle drops one when it grows into an adult"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Small groups on sandy beach blocks: up to 5 near sea level in Java (sand, red sand, suspicious sand), 2-6 at Y 60-67 in Bedrock. 5% spawn as babies.",
+    "behavior": "Slow on land, fast in water, cannot drown and cannot be leashed (but follows seagrass within 10 blocks). After breeding, the pregnant turtle travels all the way back to its home beach, digs the sand and lays 1-4 eggs that hatch at night over 4-5 days - eggs moved with Silk Touch make the babies adopt the new beach. Zombies, husks, drowned, zombie villagers, skeletons, strays and many animals trample or attack eggs and babies, so protect the nest.",
+    "tameOrBreed": "Cannot be tamed. Breed two turtles with seagrass; the baby takes one Minecraft day (20 minutes) to grow, sped up 10% per seagrass, and drops a turtle scute on adulthood.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "axolotl",
+      "drowned"
+    ],
+    "keywords": "turtle egg home beach seagrass scute shell helmet water breathing breed silk touch"
+  },
+  {
+    "slug": "panda",
+    "name": "Panda",
+    "type": "Neutral",
+    "health": "20 (10 hearts), 10 (5 hearts) for weak pandas",
+    "where": "Jungle biomes, rarely, in groups of 1-2 on grass blocks - much more common in bamboo jungles. Never on podzol.",
+    "howToKill": "Drops 1 bamboo in Java (0-2 in Bedrock) and that is it. Only aggressive pandas fight back, and they hit hard, so leave the rest alone.",
+    "drops": [
+      {
+        "item": "Bamboo",
+        "qty": "1 (Java), 0-2 (Bedrock)",
+        "notes": "More with Looting in Bedrock"
+      },
+      {
+        "item": "Slimeball",
+        "qty": "1",
+        "notes": "Rare: a baby panda sneeze has a 1/700 chance to drop one"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Rare groups of 1-2 on grass with 2 blocks of space above in jungle biomes, more common in bamboo jungles; 5% spawn as babies. Personality rolls at spawn: normal ~64%, lazy, worried and playful ~8% each, aggressive ~6%, weak ~3%, brown under 3% (the rarest).",
+    "behavior": "Seven personalities driven by hidden genes: lazy pandas lie on their backs, playful ones roll, worried ones hide during thunderstorms, aggressive ones attack back, weak ones have half health and sneeze more, and brown pandas are the rare variant. Baby pandas sneeze and make adults jump; a sneeze rarely drops a slimeball. They sit and eat bamboo or cake. In Bedrock, 15% of nearby baby zombies, husks or drowned may ride an adult panda as a jockey.",
+    "tameOrBreed": "Cannot be tamed. Feed two pandas bamboo to breed, but only with bamboo plants nearby: at least one within a 7x7x3 area in Java, or 8 plants within 5 blocks of each panda in Bedrock.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.14 (Village & Pillage)",
+    "related": [
+      "fox",
+      "cat"
+    ],
+    "keywords": "panda bamboo jungle breed personality brown weak lazy aggressive sneeze slimeball"
   }
 ]
