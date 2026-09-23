@@ -1393,5 +1393,141 @@
         "label": "Drowned"
       }
     ]
+  },
+  "how-to-make-end-portal": {
+    "name": "Cómo hacer un End Portal en Minecraft",
+    "shortTitle": "Hacer un End Portal",
+    "quickAnswer": "En Survival no puedes craftear un End portal: encuentra un stronghold y rellena sus 12 marcos con eyes of ender. En Creative, coloca 12 end portal frames en anillo alrededor de un hueco de 3x3 mientras estás de pie en el centro - cada marco debe mirar hacia dentro - y pon un eye of ender en cada uno.",
+    "steps": [
+      "Craftea eyes of ender: 1 blaze powder + 1 ender pearl cada uno. Lleva 14-16: cada lanzamiento al localizar el stronghold tiene un 20% de probabilidad de romper el eye.",
+      "Encuentra un stronghold: lanza eyes of ender y síguelos, o usa /locate structure stronghold. Excava donde se hundan en el suelo.",
+      "Localiza la sala del portal: el End portal cuelga sobre un charco de lava, con una escalera y un spawner de silverfish en los escalones. Rompe o desactiva el spawner primero.",
+      "Rellena los marcos: cada uno de los 12 marcos tiene un 10% de probabilidad de generarse ya con un eye, así que necesitas hasta 12 eyes of ender (de media unos 10,8). Haz clic derecho en cada marco vacío con un eye.",
+      "En Creative: coloca los 12 marcos en anillo alrededor de un hueco vacío de 3x3 mientras estás en el centro, girando sobre ti mismo - la cara frontal de cada marco debe mirar hacia dentro o el portal no se activará. Luego inserta los 12 eyes.",
+      "Entrar te teletransporta al instante, sin marcha atrás. Apareces en una plataforma de obsidian de 5x5 en (100, 49, 0) del End. Entra preparado para el ender dragon."
+    ],
+    "materials": [
+      "12+ eyes of ender (blaze powder + ender pearls)",
+      "Pickaxe y torches para excavar el stronghold",
+      "Water bucket para la lava bajo el portal",
+      "Equipo completo de late game antes de cruzar"
+    ],
+    "editionNote": "El comportamiento es igual en Java y Bedrock, con una peculiaridad de Bedrock: las entidades que llevan pasajeros no pueden cruzar el portal.",
+    "versions": "End portal desde que se añadió la dimensión End: Java 1.0.0 (prereleases de la Beta 1.9), Bedrock 1.0 (Ender Update).",
+    "faq": [
+      {
+        "q": "¿Se puede craftear un End portal en Survival?",
+        "a": "No. Los end portal frames no se pueden obtener en Survival: la única vía es encontrar un stronghold y rellenar sus marcos con eyes of ender."
+      },
+      {
+        "q": "¿Por qué no se activa mi End portal en Creative?",
+        "a": "Los marcos están mal orientados. La cara frontal de cada marco debe apuntar hacia el hueco de 3x3. Colócalos de pie en el centro, girando sobre ti mismo."
+      },
+      {
+        "q": "¿Puede un End portal generarse ya completo?",
+        "a": "Casi nunca: cada marco tiene un 10% independiente de traer un eye, así que los 12 llenos es ~1 entre un billón. Contarás con poner casi todos los eyes tú."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Stronghold"
+      },
+      {
+        "url": "/es/mobs/ender-dragon/",
+        "label": "Ender Dragon"
+      }
+    ]
+  },
+  "how-to-find-slimes": {
+    "name": "Cómo encontrar Slimes en Minecraft",
+    "shortTitle": "Encontrar Slimes",
+    "quickAnswer": "Los slimes aparecen en dos sitios: swamps y mangrove swamps entre Y=51 e Y=69 de noche (mejor cerca de luna llena, nunca en luna nueva), o en slime chunks por debajo de Y=40 con cualquier luz. Aproximadamente 1 de cada 10 chunks es un slime chunk: depende de la seed en Java y son coordenadas fijas en todos los mundos de Bedrock.",
+    "steps": [
+      "Método fácil - swamps: ve a un swamp o mangrove swamp de noche. Los slimes aparecen entre Y=51 e Y=69 con nivel de luz 7 o menos.",
+      "Mira la luna: aparecen sobre todo en luna llena y nunca en luna nueva. Espera a las fases más llenas para sacar slimeballs de verdad.",
+      "Método de cuevas: explora cuevas por debajo de Y=40 y escucha slimes: si ves uno bajo tierra, has encontrado un slime chunk.",
+      "Confirma el slime chunk: en Java depende de la seed del mundo (usa un buscador de slime chunks tipo Chunkbase); en Bedrock están en las mismas coordenadas en todos los mundos.",
+      "Ilumina igualmente: los spawns de slime chunk ignoran la luz, así que las torches no los frenan - y bajo Y=40 aparecen con cualquier clima.",
+      "Construye una granja: vacía un slime chunk bajo Y=40 en plataformas de spawn con un iron golem de cebo - los slimes se dividen y solo los pequeños sueltan slimeballs (0-2, más con Saqueo)."
+    ],
+    "materials": [
+      "Torches (no frenan slimes, pero sí todo lo demás)",
+      "Una buena espada: los slimes grandes pegan fuerte",
+      "Opcional: iron golem + name tag para la granja",
+      "Opcional: buscador de slime chunks Chunkbase (Java)"
+    ],
+    "editionNote": "En Java los slimes aparecen en grupos de cuatro en slime chunks; en Bedrock aparecen de uno en uno, y los slime chunks están en las mismas coordenadas en todos los mundos. El spawn de swamp funciona en ambas.",
+    "versions": "Slimes desde Java Alpha 1.0.11; spawn en mangrove swamps desde 1.19 (The Wild Update).",
+    "faq": [
+      {
+        "q": "¿A qué altura aparecen los slimes?",
+        "a": "En swamps: de Y=51 a Y=69, con luz 7 o menos. En slime chunks: en cualquier punto bajo Y=40, con cualquier luz."
+      },
+      {
+        "q": "¿Cómo encuentro un slime chunk sin mods?",
+        "a": "Explora cuevas bajo Y=40 hasta ver u oír slimes: ese chunk es un slime chunk. Lo es ~1 de cada 10. En Java también puedes pegar tu seed en un buscador de slime chunks."
+      },
+      {
+        "q": "¿Aparecen slimes en luna nueva?",
+        "a": "No. El spawn de swamp escala con la fase lunar: máximo en luna llena, cero en luna nueva. Los slime chunks no se ven afectados por la luna."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/slime/",
+        "label": "Slime"
+      },
+      {
+        "url": "/es/items/slimeball/",
+        "label": "Slimeball"
+      }
+    ]
+  },
+  "how-to-get-wither-skulls": {
+    "name": "Cómo conseguir Wither Skeleton Skulls en Minecraft",
+    "shortTitle": "Conseguir Wither Skulls",
+    "quickAnswer": "Mata wither skeletons en nether fortresses con una espada de Saqueo III: 2,5% de drop base, +1% por nivel de Saqueo en Java (5,5% máx.) y +2% por nivel en Bedrock (8,5% máx.). Necesitas 3 skulls para invocar al Wither: cuenta con unas 120 bajas por skull sin Saqueo.",
+    "steps": [
+      "Encuentra una nether fortress: los wither skeletons no aparecen en ningún otro sitio. Busca estructuras largas de nether bricks con puentes y corredores.",
+      "Caza en los sitios correctos: dentro del bounding box de una pieza de la fortress aparecen en cualquier bloque; en el área amplia de la fortress solo sobre nether bricks. La luz debe estar entre 0 y 7.",
+      "Usa Saqueo III: sube el drop de skull del 2,5% al 5,5% en Java y al 8,5% en Bedrock - casi reduce el grind a la mitad.",
+      "Mátalos tú: las skulls solo caen si la baja es de un jugador (o un wolf amaestrado), nunca por lava, caídas u otros mobs.",
+      "Monta una granja para volumen: pon slabs o bloquea spawns en los bounding boxes de la fortress y canaliza los wither skeletons a una cámara de matanza sobre nether bricks.",
+      "Alternativa: un wither skeleton muerto por un charged creeper siempre suelta su skull - espectacular pero poco práctico para tres skulls.",
+      "En Bedrock, un Wither a media vida en Normal o Hard invoca 3-4 wither skeletons: una fuente extra lenta si ya estás peleando con uno."
+    ],
+    "materials": [
+      "Espada con Saqueo III (imprescindible)",
+      "Pociones de Fire Resistance por blazes y lava",
+      "Comida y un shield: los wither skeletons infligen el efecto Wither",
+      "Opcional: slabs y torches para bloquear spawns en la granja"
+    ],
+    "editionNote": "Bedrock es más generoso: +2% por nivel de Saqueo (8,5% máx.) frente a +1% en Java (5,5% máx.). Los wither skeletons aparecen en grupos de 5 en Java y de 2-3 en Bedrock.",
+    "versions": "Wither skeleton desde 1.4.2 (Pretty Scary Update).",
+    "faq": [
+      {
+        "q": "¿Cuál es la probabilidad de drop de las wither skeleton skulls?",
+        "a": "2,5% si la baja es de un jugador. Saqueo la sube 1% por nivel en Java (5,5% con Saqueo III) y 2% por nivel en Bedrock (8,5% con Saqueo III)."
+      },
+      {
+        "q": "¿Dónde aparecen los wither skeletons?",
+        "a": "Solo en nether fortresses, con luz de 0 a 7. Dentro de una pieza de la estructura aparecen en cualquier bloque; en el resto del área de la fortress solo sobre nether bricks."
+      },
+      {
+        "q": "¿Cuántos wither skeletons hacen falta para 3 skulls?",
+        "a": "De media unas 120 bajas por skull al rate base: unas 360 sin Saqueo y entre 55 y 110 con Saqueo III según la edición. El RNG es el RNG: lleva paciencia."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/wither-skeleton/",
+        "label": "Wither Skeleton"
+      },
+      {
+        "url": "/es/items/wither-skeleton-skull/",
+        "label": "Wither Skeleton Skull"
+      }
+    ]
   }
 }

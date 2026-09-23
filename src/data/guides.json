@@ -1533,5 +1533,158 @@
       }
     ],
     "keywords": "trident how to get drowned drop chance looting farm loyalty channeling riptide impaling not craftable"
+  },
+  {
+    "slug": "how-to-make-end-portal",
+    "name": "How to Make an End Portal in Minecraft",
+    "shortTitle": "Make an End Portal",
+    "quickAnswer": "In Survival you cannot craft an End portal: find a stronghold and fill its 12 existing frames with eyes of ender. In Creative, place 12 end portal frames in a ring around an empty 3x3 square while standing in the center - every frame must face inward - then put an eye of ender in each one.",
+    "steps": [
+      "Craft eyes of ender: 1 blaze powder + 1 ender pearl each. Bring 14-16 - each throw when locating the stronghold has about a 20% chance to shatter the eye.",
+      "Find a stronghold: throw eyes of ender and follow them, or use /locate structure stronghold. Dig down where they dive underground.",
+      "Find the portal room: the End portal hangs over a pool of lava, with a staircase up and a silverfish spawner in the stairs. Destroy or disable the spawner first.",
+      "Fill the frames: each of the 12 frames has a 10% chance to generate with an eye already inside, so you need up to 12 eyes of ender (average about 10.8). Right-click each empty frame with an eye.",
+      "In Creative: place the 12 frames in a ring around an empty 3x3 area while standing in the center, rotating as you go - the front of every frame must face inward or the portal will not activate. Then insert the 12 eyes.",
+      "Stepping in teleports you instantly - no backing out. You land on a 5x5 obsidian platform at (100, 49, 0) in the End. Go in prepared for the ender dragon."
+    ],
+    "materials": [
+      "12+ eyes of ender (blaze powder + ender pearls)",
+      "Pickaxe and torches for the stronghold dig",
+      "Water bucket for the lava pool under the portal",
+      "Full end-game gear before stepping through"
+    ],
+    "editionNote": "Behavior is the same in Java and Bedrock, with one Bedrock quirk: entities carrying passengers cannot go through the portal.",
+    "versions": "End portal since the End dimension was added: Java 1.0.0 (Beta 1.9 prereleases), Bedrock 1.0 (Ender Update).",
+    "faq": [
+      {
+        "q": "Can you craft an End portal in Survival?",
+        "a": "No. End portal frames are unobtainable in Survival - the only way is to find a stronghold and fill its existing frames with eyes of ender."
+      },
+      {
+        "q": "Why won't my Creative End portal activate?",
+        "a": "The frames are facing the wrong way. Every frame's front must point inward toward the 3x3 opening. Stand in the center and rotate as you place them."
+      },
+      {
+        "q": "Can an End portal generate already complete?",
+        "a": "Almost never - each frame has an independent 10% chance of a pre-filled eye, so all 12 filled is about 1 in a trillion. Expect to supply nearly all the eyes yourself."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-stronghold",
+      "how-to-beat-ender-dragon"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/stronghold/",
+        "label": "Stronghold"
+      },
+      {
+        "url": "/mobs/ender-dragon/",
+        "label": "Ender Dragon"
+      }
+    ],
+    "keywords": "end portal how to make stronghold eyes of ender frames facing inward creative build activate ender dragon"
+  },
+  {
+    "slug": "how-to-find-slimes",
+    "name": "How to Find Slimes in Minecraft",
+    "shortTitle": "Find Slimes",
+    "quickAnswer": "Slimes spawn in two places: swamps and mangrove swamps between Y=51 and Y=69 at night (best near a full moon, never on a new moon), or in slime chunks below Y=40 at any light level. About 1 in 10 chunks is a slime chunk - seed-based in Java, fixed coordinates in every Bedrock world.",
+    "steps": [
+      "Easiest method - swamps: go to a swamp or mangrove swamp at night. Slimes spawn between Y=51 and Y=69 when the light level is 7 or less.",
+      "Watch the moon: slimes spawn most often on a full moon and never on a new moon. Wait for fuller phases for real slimeball income.",
+      "Cave method: explore caves below Y=40 and listen for slimes - when you find one underground, you have found a slime chunk.",
+      "Confirm slime chunks: in Java they are determined by the world seed (use a seed-based slime chunk finder like Chunkbase); in Bedrock they sit at the same coordinates in every world.",
+      "Light it up anyway: slime chunk spawns ignore light level, so torching the area does not stop them - and below Y=40 slimes spawn regardless of weather.",
+      "Farm it: dig out a slime chunk below Y=40 into spawning platforms with iron golem bait - slimes split into smaller ones, and only the smallest drop slimeballs (0-2 each, more with Looting)."
+    ],
+    "materials": [
+      "Torches (they do not stop slimes, but stop everything else)",
+      "A decent sword - big slimes hit hard",
+      "Optional: iron golem + name tag for a farm",
+      "Optional: Chunkbase slime chunk finder (Java)"
+    ],
+    "editionNote": "In Java slimes spawn in groups of four in slime chunks; in Bedrock they spawn individually, and slime chunks are at the same coordinates in every world. Swamp spawning works in both.",
+    "versions": "Slimes since Java Alpha 1.0.11; mangrove swamp spawning since 1.19 (The Wild Update).",
+    "faq": [
+      {
+        "q": "What Y level do slimes spawn at?",
+        "a": "In swamps: Y=51 to Y=69, at light level 7 or less. In slime chunks: anywhere below Y=40, at any light level."
+      },
+      {
+        "q": "How do I find a slime chunk without mods?",
+        "a": "Explore caves below Y=40 until you see or hear slimes - that chunk is a slime chunk. About 1 in 10 chunks qualifies. In Java you can also paste your seed into a slime chunk finder."
+      },
+      {
+        "q": "Do slimes spawn on a new moon?",
+        "a": "No. Swamp slime spawns scale with the moon phase: most on a full moon, zero on a new moon. Slime chunks are unaffected by the moon."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/slime/",
+        "label": "Slime"
+      },
+      {
+        "url": "/items/slimeball/",
+        "label": "Slimeball"
+      }
+    ],
+    "keywords": "slime how to find slime chunk swamp full moon Y level slimeball farm below 40 chunkbase"
+  },
+  {
+    "slug": "how-to-get-wither-skulls",
+    "name": "How to Get Wither Skeleton Skulls in Minecraft",
+    "shortTitle": "Get Wither Skulls",
+    "quickAnswer": "Kill wither skeletons in nether fortresses with a Looting III sword: 2.5% base drop, +1% per Looting level in Java (5.5% max) and +2% per level in Bedrock (8.5% max). You need 3 skulls to summon the Wither - expect roughly 120 kills per skull without Looting.",
+    "steps": [
+      "Find a nether fortress - wither skeletons spawn nowhere else. Look for long nether brick structures with bridges and corridors.",
+      "Hunt at the right spots: inside a fortress piece bounding box they spawn on any block; in the wider fortress area they spawn only on nether bricks. Light level must be 0-7.",
+      "Use Looting III: it lifts the skull drop from 2.5% to 5.5% in Java and 8.5% in Bedrock - roughly halving the grind.",
+      "Kill them yourself: skulls only drop when a player (or tamed wolf) gets the kill, never from lava, fall damage or other mobs.",
+      "Build a farm for volume: slab or spawn-proof the fortress bounding boxes and funnel wither skeletons into a killing chamber over nether bricks.",
+      "Alternative: a wither skeleton killed by a charged creeper always drops its skull - spectacular but impractical for three skulls.",
+      "In Bedrock, a half-health Wither on Normal or Hard spawns 3-4 wither skeletons - a slow bonus source if you are already fighting one."
+    ],
+    "materials": [
+      "Sword with Looting III (essential)",
+      "Fire Resistance potions for blaze and lava accidents",
+      "Food and a shield - wither skeletons inflict the Wither effect",
+      "Optional: slabs and torches to spawn-proof a farm"
+    ],
+    "editionNote": "Bedrock is more generous: +2% per Looting level (8.5% max) versus +1% in Java (5.5% max). Wither skeletons spawn in groups of 5 in Java, 2-3 in Bedrock.",
+    "versions": "Wither skeleton since 1.4.2 (Pretty Scary Update).",
+    "faq": [
+      {
+        "q": "What is the drop rate for wither skeleton skulls?",
+        "a": "2.5% on a player kill. Looting raises it by 1% per level in Java (5.5% at Looting III) and 2% per level in Bedrock (8.5% at Looting III)."
+      },
+      {
+        "q": "Where do wither skeletons spawn?",
+        "a": "Only in nether fortresses, at light level 0-7. Inside a structure piece they spawn on any block; elsewhere in the fortress area only on nether bricks."
+      },
+      {
+        "q": "How many wither skeletons do I need to kill for 3 skulls?",
+        "a": "On average about 120 kills per skull at base rate - so roughly 360 without Looting, about 55-110 with Looting III depending on edition. RNG being RNG, bring patience."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-nether-fortress",
+      "how-to-beat-wither"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/wither-skeleton/",
+        "label": "Wither Skeleton"
+      },
+      {
+        "url": "/items/wither-skeleton-skull/",
+        "label": "Wither Skeleton Skull"
+      }
+    ],
+    "keywords": "wither skeleton skull how to get drop chance looting nether fortress farm summon wither"
   }
 ]
