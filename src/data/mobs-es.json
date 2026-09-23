@@ -892,5 +892,41 @@
       "Rotten Flesh: Looting añade 0-1 por nivel; requiere muerte a manos del jugador en Java, jugador o mascota en Bedrock",
       "Saddle / Nautilus Armor: suelta el equipamiento que llevara puesto"
     ]
+  },
+  "rabbit": {
+    "type": "Pasivo",
+    "where": "Sobre grass, snow o sand en biomas templados, nevados y desiertos, en pequeños grupos familiares de 1 adulto con 1-2 crías. El color del pelaje depende del bioma: dorado en desiertos, blanco en la nieve, y marrón, negro, salpicado o gris en el resto.",
+    "spawnConditions": "Grupos pequeños de 1 adulto y 1-2 crías sobre grass, snow blocks o sand en sus biomas; seis variantes de pelaje naturales según el bioma.",
+    "howToKill": "Un golpe de casi cualquier cosa: tiene 3 HP y huye al ser atacado, así que arrinconalo o usa un arco. Las crías no sueltan nada.",
+    "behavior": "Salta en vez de caminar y se acerca despacio a jugadores que lleven carrots, golden carrots o dandelions a menos de 8 bloques. Huye al ser atacado. Aguanta caídas de hasta 4,5 bloques. Si lo llamas Toast con un name tag, adopta una piel especial en blanco y negro en memoria de una mascota perdida. La variante Killer Bunny solo existe en Java y está sin usar: hostil, 8 de armadura y hasta 12 de daño en Hard.",
+    "tameOrBreed": "No se puede domesticar, pero cría dos adultos con carrots, golden carrots o dandelions. La cría hereda el pelaje de un padre o la variante del bioma local.",
+    "notes": [
+      "Rabbit Hide: Looting añade 0-1 por nivel; 4 hides craftean 1 leather",
+      "Raw Rabbit: cooked rabbit si muere por fuego; Looting añade 0-1 por nivel",
+      "Rabbit's Foot: 10% de probabilidad, +3% por nivel de Looting, solo muertes por jugador - sirve para Potions of Leaping"
+    ]
+  },
+  "husk": {
+    "type": "Hostil",
+    "where": "Desiertos por la noche, a nivel de luz 0 en lugar de la mayoría de los zombies - y no arde cuando sale el sol, así que los desiertos siguen siendo peligrosos de día.",
+    "spawnConditions": "Nivel de luz 0 en biomas de desierto, sustituyendo a un 80% de los zombies de la zona; también desde trial spawners en las trial chambers, y los líderes de Java pueden pedir refuerzos.",
+    "howToKill": "Pelea como contra un zombie, pero respeta el debuff: sus golpes a mano vacía infligen Hunger (7 segundos por golpe, según la dificultad regional), que drena tu saturación y bloquea la regeneración natural. Mantén distancia con arco o escudo, y recuerda que Smite e Instant Health funcionan: es undead. Tiene 2 puntos de armadura.",
+    "behavior": "Una variante del zombie que no arde con la luz del sol e inflige Hunger con sus ataques cuerpo a cuerpo a mano vacía. Detecta objetivos a hasta 40 bloques. Un husk que se ahoga se convierte en zombie normal, que a su vez puede convertirse en drowned. Las crías montan chickens igual que los zombie jockeys.",
+    "tameOrBreed": "No se puede domesticar ni criar. Un husk no se puede curar directamente, pero los zombie villagers de los desiertos se curan con normalidad.",
+    "notes": [
+      "Rotten Flesh: Looting añade 0-1 por nivel",
+      "Iron Ingot / Carrot / Potato: 2,5% de probabilidad cada uno, +1% por nivel de Looting, solo muertes por jugador o mascota"
+    ]
+  },
+  "squid": {
+    "type": "Pasivo (acuático)",
+    "where": "Océanos y ríos: en Java, grupos de 2-4 aparecen en el agua entre los niveles Y 50 y 63 en cualquier variante de river u ocean. Es la fuente principal de ink sacs.",
+    "spawnConditions": "Agua o bloques con waterlogging entre Y 50 y 63 en biomas de river y ocean, grupos de 2-4 en Java; el bloque de encima también tiene que ser agua.",
+    "howToKill": "Es pasivo y nunca contraataca: acércate nadando y golpéalo. Apunta al cuerpo: los tentáculos no forman parte del hitbox. Fuera del agua se asfixia en 15 segundos, así que también puedes arrastrarlo a tierra con un lead.",
+    "behavior": "Vaga sin rumbo en tres dimensiones, impulsándose con los tentáculos. No le atrae la luz y es totalmente pasivo. A veces vara en las orillas de los ríos y se asfixia. Las crías pueden comer golden dandelions para crecer más rápido.",
+    "tameOrBreed": "No se puede domesticar ni criar en survival - las crías de squid aparecen de forma natural. Para su primo luminoso y los glow ink sacs, busca glow squids en cuevas submarinas oscuras.",
+    "notes": [
+      "Ink Sac: Looting añade 0-1 por nivel - black dye, books and quills, texto oscuro en signs"
+    ]
   }
 }

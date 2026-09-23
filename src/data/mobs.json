@@ -2443,5 +2443,106 @@
       "drowned"
     ],
     "keywords": "zombie nautilus minecraft drowned jockey trident ocean ruins tame pufferfish coral variant undead mount"
+  },
+  {
+    "slug": "rabbit",
+    "name": "Rabbit",
+    "type": "Passive",
+    "health": "3 (1.5 hearts)",
+    "where": "On grass, snow or sand in temperate, snowy and desert biomes, in small family groups of 1 adult with 1-2 babies. Coat color matches the biome: gold in deserts, white in snow, brown, black, splotched or salt elsewhere.",
+    "howToKill": "One hit from almost anything - it has 3 HP and flees when attacked, so corner it or use a bow. Babies drop nothing.",
+    "drops": [
+      {
+        "item": "Rabbit Hide",
+        "qty": "0-1",
+        "notes": "Looting adds 0-1 per level; 4 hides craft 1 leather"
+      },
+      {
+        "item": "Raw Rabbit",
+        "qty": "1",
+        "notes": "Cooked rabbit if killed by fire; Looting adds 0-1 per level"
+      },
+      {
+        "item": "Rabbit's Foot",
+        "qty": "0-1",
+        "notes": "10% chance, +3% per Looting level, player kills only - brews Potions of Leaping"
+      }
+    ],
+    "spawnConditions": "Small groups of 1 adult and 1-2 babies on grass, snow blocks or sand in their biomes; six natural coat variants determined by biome.",
+    "behavior": "Hops instead of walking and drifts toward players holding carrots, golden carrots or dandelions within 8 blocks. Flees when attacked. Falls of up to 4.5 blocks are safe. Naming one Toast with a name tag gives it a special black-and-white skin in memory of a lost pet. The unused Killer Bunny variant exists only in Java: hostile, 8 armor and up to 12 damage on Hard.",
+    "tameOrBreed": "Cannot be tamed, but breed two adults with carrots, golden carrots or dandelions. The baby takes a parent's coat or the local biome variant.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.8 / Bedrock 0.13.0",
+    "related": [
+      "fox",
+      "wolf"
+    ],
+    "keywords": "rabbit minecraft breed carrots dandelion rabbit foot leaping potion hide killer bunny toast"
+  },
+  {
+    "slug": "husk",
+    "name": "Husk",
+    "type": "Hostile",
+    "health": "20 (10 hearts)",
+    "where": "Deserts at night, spawning at light level 0 in place of most zombies - and they do not burn when the sun comes up, so deserts stay dangerous all day.",
+    "howToKill": "Fight it like a zombie, but respect the debuff: its unarmed hits inflict Hunger (7 seconds per hit, scaled by regional difficulty), which drains your saturation and blocks natural regeneration. Keep your distance with a bow or a shield, and remember Smite and Instant Health work - it is undead. It has 2 armor points.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-2",
+        "notes": "Looting adds 0-1 per level"
+      },
+      {
+        "item": "Iron Ingot / Carrot / Potato",
+        "qty": "0-1",
+        "notes": "2.5% chance each, +1% per Looting level, player or pet kills only"
+      }
+    ],
+    "spawnConditions": "Light level 0 in desert biomes, replacing about 80% of zombies there; also from trial spawners in trial chambers, and Java leaders can call reinforcements.",
+    "behavior": "A zombie variant that does not burn in sunlight and inflicts Hunger with unarmed melee attacks. Tracks targets from up to 40 blocks away. A husk that drowns converts into a regular zombie, which can then convert into a drowned. Babies ride chickens just like zombie jockeys.",
+    "tameOrBreed": "Cannot be tamed or bred. A husk converted to zombie and then villager-cured is impossible directly, but zombie villagers in deserts still cure normally.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java 1.10 / Bedrock 0.15.0",
+    "related": [
+      "zombie",
+      "drowned",
+      "stray"
+    ],
+    "keywords": "husk minecraft desert zombie hunger effect no burn sunlight rotten flesh iron carrot potato"
+  },
+  {
+    "slug": "squid",
+    "name": "Squid",
+    "type": "Passive (aquatic)",
+    "health": "10 (5 hearts)",
+    "where": "Oceans and rivers: in Java, groups of 2-4 spawn in water between Y 50 and 63 in any river or ocean variant. It is the main source of ink sacs.",
+    "howToKill": "It is passive and never fights back: swim up and hit it. Aim for the body - the tentacles are not part of the hitbox. Out of water it suffocates in 15 seconds, so you can also drag it onto land with a lead.",
+    "drops": [
+      {
+        "item": "Ink Sac",
+        "qty": "1-3",
+        "notes": "Looting adds 0-1 per level - black dye, books and quills, dark sign text"
+      }
+    ],
+    "spawnConditions": "Water or waterlogged blocks between Y 50 and 63 in river and ocean biomes, groups of 2-4 in Java; the block above must be water too.",
+    "behavior": "Wanders aimlessly in three dimensions, jetting its tentacles. Not attracted to light and completely passive. Sometimes beaches itself on riverbanks and suffocates. Babies can be fed golden dandelions to speed their growth.",
+    "tameOrBreed": "Cannot be tamed or bred in survival - baby squid spawn naturally. For its glowing cousin and glow ink sacs, look for glow squid in dark underwater caves instead.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Java Classic 0.24 / Bedrock 0.11.0",
+    "related": [
+      "glow-squid",
+      "nautilus",
+      "drowned"
+    ],
+    "keywords": "squid minecraft ink sac ocean river black dye book and quill sign glow squid"
   }
 ]
