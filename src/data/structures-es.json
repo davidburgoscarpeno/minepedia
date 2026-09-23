@@ -334,5 +334,83 @@
         "label": "26.3 - Wilderness Bound"
       }
     ]
+  },
+  "end-city": {
+    "howToFind": [
+      "En las outer islands del End, pasada la End gateway que aparece al matar al Ender Dragon (lanza una ender pearl a través)",
+      "Se generan en rejilla: solo en los chunks 0-8 de cada celda de 20x20 chunks, así que volando en diagonal recta cruzas todas las celdas",
+      "/locate structure minecraft:end_city"
+    ],
+    "loot": [
+      "End ship: la única elytra del juego (en un item frame en el casco) y una dragon head en la proa",
+      "Cofres: armadura, herramientas y espadas de diamond e iron encantadas, emeralds, diamonds, saddles y horse armor",
+      "Shulker shells de los shulkers del lugar: dos hacen una shulker box, el cofre portátil"
+    ],
+    "dangers": [
+      "Los shulkers disparan proyectiles teledirigidos que causan Levitation: la caída posterior es lo que te mata",
+      "La Levitation cerca del borde de una torre o del vacío bajo las islas es letal - el vacío se traga todo lo que sueltes",
+      "Endermen por todas las islas; lleva una carved pumpkin o mantén la mira baja"
+    ],
+    "tips": [
+      "Cerca de la mitad de las End cities no tienen ship: si no ves el mástil desde el aire, pasa a la siguiente ciudad.",
+      "Pociones de Slow Falling o un water bucket convierten la Levitation de mortal a inofensiva.",
+      "Con una elytra ya no necesitas otra ciudad: la segunda elytra más rápida es repararla con phantom membranes, no asaltar más."
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/shulker/",
+        "label": "Shulker"
+      }
+    ]
+  },
+  "pillager-outpost": {
+    "howToFind": [
+      "Se genera en cualquier bioma donde se generan villages: plains, desert, savanna, taiga, snowy plains, meadow y más",
+      "Semirrara: cada pocos cientos o miles de bloques, más rara que las villages pero habitual encontrarla por accidente",
+      "/locate structure minecraft:pillager_outpost"
+    ],
+    "loot": [
+      "Ominous bottles de los raid captains (los pillagers con estandarte en la cabeza): bébela para conseguir Bad Omen y activar raids y trials ominous",
+      "Cofre de la torre: dark oak logs, arrows, comida, tripwire hooks, a veces una crossbow o crossbow encantada",
+      "Liberar a los allays enjaulados te da mascotas recolectoras; el iron golem enjaulado lucha a tu lado al soltarlo"
+    ],
+    "dangers": [
+      "Los pillagers reaparecen continuamente alrededor del outpost a cualquier nivel de luz, con crossbows cargadas, y te superan en alcance si vas sin preparar",
+      "El captain suelta una ominous bottle - bébetela por accidente cerca de una village y empezarás una raid que quizá no sobrevivas",
+      "En Bedrock, los pillagers siguen apareciendo incluso después de derribar la torre"
+    ],
+    "tips": [
+      "No pelees a ras de suelo: haz un pilar junto a la torre, limpia primero los pisos altos y luego lutea hacia abajo.",
+      "Guarda la ominous bottle para cuando estés en la village que quieras defender: el Bad Omen dura 100 minutos.",
+      "La jaula de los allays y la del golem son estructuras secundarias que no siempre se generan: revisa el perímetro."
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/pillager/",
+        "label": "Pillager"
+      }
+    ]
+  },
+  "ruined-portal": {
+    "howToFind": [
+      "La estructura más común del juego: se genera en todos los biomas del Overworld y del Nether (menos deep dark), una por celda de rejilla de 640x640 bloques",
+      "Subterránea, sumergida o al aire; siempre rodeada de un parche de netherrack, así que busca netherrack en cuevas y costas del Overworld",
+      "/locate structure minecraft:ruined_portal (el 5% son portales gigantes, con mucho más obsidian y botín)"
+    ],
+    "loot": [
+      "Un cofre garantizado: gold ingots y bloques, herramientas y armadura de gold (a menudo encantadas), golden apples, flint and steel, fire charges, obsidian, glistering melon slices y más",
+      "El propio marco: obsidian suficiente para completar un portal entero en la mayoría de diseños",
+      "Gold blocks junto al marco - hasta varios, un buen botín para el early game"
+    ],
+    "dangers": [
+      "En el Nether, el portal puede generarse sobre lagos de lava o dentro de basalt deltas con magma cubes cerca",
+      "Cada bloque de obsidian del marco tiene un 15% (20% en Bedrock) de ser crying obsidian, que NO enciende - puede que te falten bloques",
+      "La crying obsidian brilla tenuemente: de noche es fácil no notar que tu marco reconstruido no puede encenderse"
+    ],
+    "tips": [
+      "Un ruined portal más su cofre suele equivaler a un viaje gratis al Nether: completa el marco con el obsidian del cofre y enciéndelo con el flint and steel o el fire charge.",
+      "Mina también la crying obsidian (pico de diamond): sirve para respawn anchors.",
+      "El parche de netherrack se ve de lejos por la noche gracias a la lava y los toques de glowstone: escanea las costas mientras navegas."
+    ]
   }
 }

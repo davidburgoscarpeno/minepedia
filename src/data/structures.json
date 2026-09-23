@@ -385,5 +385,83 @@
         "label": "26.3 - Wilderness Bound"
       }
     ]
+  },
+  {
+    "slug": "end-city",
+    "name": "End City",
+    "dimension": "The End",
+    "howToFind": [
+      "On the End's outer islands, past the End gateway that appears after killing the Ender Dragon (throw an ender pearl through it)",
+      "They generate in a grid: only in chunks 0-8 of every 20x20-chunk cell - so flying in a straight line diagonally crosses every cell",
+      "/locate structure minecraft:end_city"
+    ],
+    "loot": [
+      "End ship: the only elytra in the game (item frame in the hull) and a dragon head on the bow",
+      "Chests: enchanted diamond and iron armor, tools and swords, emeralds, diamonds, saddles and horse armor",
+      "Shulker shells from the resident shulkers - two make a shulker box, the portable chest"
+    ],
+    "dangers": [
+      "Shulkers fire homing bullets that inflict Levitation: the fall afterwards is what kills you",
+      "Levitation near a tower edge or the void below the islands is lethal - the void eats everything you drop",
+      "Endermen everywhere on the islands; bring a carved pumpkin or keep your crosshair down"
+    ],
+    "tips": [
+      "About half of End cities have no ship: if you do not see the mast from above, move to the next city.",
+      "Slow Falling potions or a water bucket turn shulker Levitation from deadly to harmless.",
+      "Once you have one elytra you never need another city: the fastest second elytra is a phantom-membrane repair, not a raid."
+    ],
+    "keywords": "end city elytra end ship shulker shell dragon head end gateway outer islands find"
+  },
+  {
+    "slug": "pillager-outpost",
+    "name": "Pillager Outpost",
+    "dimension": "Overworld",
+    "howToFind": [
+      "Generates in any biome where villages generate: plains, desert, savanna, taiga, snowy plains, meadow and more",
+      "Semi-rare: every few hundred to a couple thousand blocks, rarer than villages but common enough to stumble into",
+      "/locate structure minecraft:pillager_outpost"
+    ],
+    "loot": [
+      "Ominous bottles from the raid captains (the pillagers with banner hats): drink one to get Bad Omen for raids and ominous trials",
+      "Watchtower chest: dark oak logs, arrows, food, tripwire hooks, sometimes a crossbow or enchanted crossbow",
+      "Freeing the jailed allays gives you item-collecting pets; the caged iron golem fights by your side when released"
+    ],
+    "dangers": [
+      "Pillagers spawn continuously around the outpost at any light level, crossbows drawn, and outrange an unprepared player",
+      "The captain drops an ominous bottle - drink it by accident near a village and you start a raid you may not survive",
+      "In Bedrock, pillagers keep spawning even after you tear the tower down"
+    ],
+    "tips": [
+      "Do not fight at ground level: pillar up beside the tower, clear the top floors first, then loot down.",
+      "Save the ominous bottle for when you are standing in the village you want to defend - Bad Omen lasts 100 minutes.",
+      "The allay jail and golem cage are side structures that do not always generate: check the perimeter."
+    ],
+    "keywords": "pillager outpost raid captain ominous bottle bad omen allay crossbow find"
+  },
+  {
+    "slug": "ruined-portal",
+    "name": "Ruined Portal",
+    "dimension": "Overworld & Nether",
+    "howToFind": [
+      "The most common structure in the game: generates in every biome of both the Overworld and the Nether (except deep dark), one per 640x640-block grid cell",
+      "Underground, underwater or exposed; always surrounded by a patch of netherrack, so watch for netherrack in Overworld caves and shores",
+      "/locate structure minecraft:ruined_portal (5% are giant portals, far more obsidian and loot)"
+    ],
+    "loot": [
+      "A guaranteed loot chest: gold ingots and blocks, golden tools and armor (often enchanted), golden apples, flint and steel, fire charges, obsidian, glistering melon slices and more",
+      "The frame itself: enough obsidian to complete a full portal in most designs",
+      "Gold blocks next to the frame - up to several, a real early-game haul"
+    ],
+    "dangers": [
+      "In the Nether, the portal can generate over lava lakes or inside basalt deltas with magma cubes nearby",
+      "Each obsidian block in the frame has a 15% chance (20% in Bedrock) of being crying obsidian, which does NOT light - you may be a few blocks short",
+      "Crying obsidian glows faintly: easy to miss at night that your rebuilt frame is not lightable"
+    ],
+    "tips": [
+      "A ruined portal plus its chest usually equals a free Nether trip: complete the frame with the chest obsidian and light it with the flint and steel or fire charge.",
+      "Mine the crying obsidian too (diamond pickaxe): it makes respawn anchors.",
+      "The netherrack patch is visible from far away at night thanks to the lava and glowstone accents - scan shores while boating."
+    ],
+    "keywords": "ruined portal crying obsidian gold flint and steel chest loot nether overworld find"
   }
 ]
