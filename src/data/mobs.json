@@ -2049,5 +2049,115 @@
       "wolf"
     ],
     "keywords": "polar bear cub hostile swim speed fox frozen ocean ice spikes tame breed"
+  },
+  {
+    "slug": "zombified-piglin",
+    "name": "Zombified Piglin",
+    "type": "Neutral",
+    "health": "20 (10 hearts); 40-100 for Java leaders",
+    "where": "Everywhere in the Nether wastes and crimson forests, in nether fortresses, and in the Overworld when lightning strikes a pig or a piglin/piglin brute zombifies near a portal.",
+    "howToKill": "Drops rotten flesh and gold nuggets, rarely a gold ingot - it is the engine of every gold farm. But hit one and every zombified piglin in a huge area turns on you.",
+    "drops": [
+      {
+        "item": "Rotten Flesh",
+        "qty": "0-1",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Gold Nugget",
+        "qty": "0-1",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Gold Ingot",
+        "qty": "0-1",
+        "notes": "2.5% chance, player kill only"
+      },
+      {
+        "item": "Golden Sword / Spear",
+        "qty": "0-1",
+        "notes": "If spawned holding one: 8.5% Java, 25% Bedrock, more with Looting"
+      }
+    ],
+    "spawnConditions": "Light does not matter in the Nether; spawns in packs of 4 on netherrack, nether wastes and crimson forests, in fortresses, and near Overworld portals.",
+    "behavior": "Neutral until provoked: attack one and all zombified piglins within 67-111 blocks (20 in Bedrock) converge, and they keep sounding the alarm every 4-6 seconds. They forgive after 20-55 seconds out of sight and range (25 s in Bedrock) - but the timer pauses in unloaded chunks, so portal-hopping does not calm them. They pursue even invisible players, walk on lava floors with striders around, and are immune to fire and lava.",
+    "tameOrBreed": "Cannot be tamed or bred. Farm them instead: gold farms exploit their pack spawning on nether roof or over lava oceans.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "Alpha 1.2 (2010, as zombie pigman; renamed 1.16)",
+    "related": [
+      "piglin",
+      "ghast"
+    ],
+    "keywords": "zombified piglin gold farm nugget anger forgiveness neutral nether fortress zombie pigman"
+  },
+  {
+    "slug": "llama",
+    "name": "Llama",
+    "type": "Neutral",
+    "health": "15 to 30 (7.5 to 15 hearts, random per llama)",
+    "where": "Savanna plateaus (and savannas in Bedrock) in herds of 4, and windswept hills, forests and gravelly hills in herds of 4-6. Four coats: white, cream, gray, brown.",
+    "howToKill": "Drops 0-2 leather plus its chest and contents if equipped. Not worth it: a tamed llama caravan is a moving storage system.",
+    "drops": [
+      {
+        "item": "Leather",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Chest + contents",
+        "qty": "1",
+        "notes": "Only if equipped; the chest cannot be removed any other way"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Herds of 4 in savanna plateaus, 4-6 in windswept biomes, on grass above light level 7. 10% spawn as babies.",
+    "behavior": "Neutral: attack one and it spits back (1 damage) - and missed spit can start llama-on-llama fights. Tame by mounting like a horse. Its hidden strength stat (1-5) sets chest capacity: 3 to 15 slots. Leash one llama and up to 9 more follow in a caravan; each leashed llama leads its own caravan. Decorate with any carpet color.",
+    "tameOrBreed": "Tame by mounting repeatedly. Breed two tamed llamas with hay bales; the baby inherits a strength close to the stronger parent.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.11 (Exploration Update)",
+    "related": [
+      "wandering-trader",
+      "donkey"
+    ],
+    "keywords": "llama caravan chest slots strength carpet tame spit hay bale wandering trader"
+  },
+  {
+    "slug": "ocelot",
+    "name": "Ocelot",
+    "type": "Neutral",
+    "health": "10 (5 hearts)",
+    "where": "Jungle and bamboo jungle biomes (all jungle types in Bedrock), on grass, in groups of 1-3. 5% spawn as babies; one in three Java spawn attempts fails.",
+    "howToKill": "Nothing - no drops at all, just a little experience. An ocelot is worth infinitely more alive: creepers and phantoms flee from it.",
+    "drops": [
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf; no item drops"
+      }
+    ],
+    "spawnConditions": "Above grass blocks in jungles at light level 7+; groups of 1-3 in Java, 1-2 in Bedrock. In Java, ocelots do not spawn in sparse jungles.",
+    "behavior": "Shy: it sprints away from players who move too fast - approach crouching and still, raw fish in hand. Gain its trust with raw cod or salmon and it stops fleeing, though it never becomes a cat. Creepers stay 6 blocks away from ocelots (and phantoms too in Bedrock), making them living anti-creeper fences. They attack chickens and baby turtles.",
+    "tameOrBreed": "Cannot be tamed anymore since 1.14 - only trusted with raw cod or salmon. Breed two trusting ocelots with raw fish.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.2.1 (2012)",
+    "related": [
+      "cat",
+      "fox",
+      "panda"
+    ],
+    "keywords": "ocelot trust raw cod salmon creeper scared phantom jungle tame cat breed"
   }
 ]

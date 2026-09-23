@@ -743,5 +743,46 @@
       "1/4 de los drops en Java; solo en Java",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
+  },
+  "zombified-piglin": {
+    "type": "Neutral",
+    "where": "Por todas las nether wastes y crimson forests, en las nether fortresses, y en el Overworld cuando un rayo alcanza a un pig o un piglin/piglin brute se zombifica cerca de un portal.",
+    "howToKill": "Suelta rotten flesh y gold nuggets, raramente un gold ingot: es el motor de toda granja de oro. Pero golpea a uno y todos los zombified piglins de un área enorme se te echan encima.",
+    "spawnConditions": "La luz no importa en el Nether; aparece en grupos de 4 sobre netherrack, en nether wastes y crimson forests, en fortresses, y junto a portales del Overworld.",
+    "behavior": "Neutral hasta que lo provocas: ataca a uno y todos los zombified piglins en 67-111 bloques (20 en Bedrock) convergen, y siguen dando la alarma cada 4-6 segundos. Perdonan tras 20-55 segundos fuera de su vista y alcance (25 s en Bedrock), pero el temporizador se pausa en chunks descargados, así que saltar por un portal no los calma. Persiguen incluso a jugadores invisibles y son inmunes al fuego y la lava.",
+    "tameOrBreed": "No se puede tamear ni criar. Farméalos: las granjas de oro aprovechan su spawn en manada sobre el techo del Nether o sobre océanos de lava.",
+    "keywords": "zombified piglin granja de oro nugget enfado perdón neutral nether fortress zombie pigman",
+    "notes": [
+      "Más con Saqueo",
+      "Más con Saqueo",
+      "2,5% de probabilidad, solo si lo mata un jugador",
+      "Si apareció con una: 8,5% Java, 25% Bedrock, más con Saqueo"
+    ]
+  },
+  "llama": {
+    "type": "Neutral",
+    "where": "Savanna plateaus (y savannas en Bedrock) en manadas de 4, y windswept hills, forests y gravelly hills en manadas de 4-6. Cuatro pelajes: blanco, crema, gris y marrón.",
+    "howToKill": "Suelta 0-2 leather más su chest y contenido si la llevaba. No merece la pena: una caravana de llamas tameadas es un sistema de almacenamiento móvil.",
+    "spawnConditions": "Manadas de 4 en savanna plateaus, 4-6 en biomas windswept, sobre grass con luz 7+. El 10% aparece como cría.",
+    "behavior": "Neutral: atácala y te escupe (1 de daño) - y un escupitajo fallido puede iniciar peleas entre llamas. Se tamea montándola como a un horse. Su estadística oculta de fuerza (1-5) fija la capacidad de la chest: de 3 a 15 huecos. Ponle un lead a una llama y hasta 9 más la siguen en caravana; cada llama con lead lidera su propia caravana. Decórala con cualquier carpet de color.",
+    "tameOrBreed": "Tamea montando una y otra vez. Cría dos llamas tameadas con hay bales; la cría hereda una fuerza cercana a la del padre más fuerte.",
+    "keywords": "llama caravana chest huecos fuerza carpet tamear escupir hay bale wandering trader",
+    "notes": [
+      "Más con Saqueo",
+      "Solo si la llevaba equipada; la chest no se puede quitar de otra forma",
+      "Solo si la mata un jugador o un wolf tameado"
+    ]
+  },
+  "ocelot": {
+    "type": "Neutral",
+    "where": "Biomas jungle y bamboo jungle (todos los tipos de jungle en Bedrock), sobre grass, en grupos de 1-3. El 5% aparece como cría; uno de cada tres intentos de spawn falla en Java.",
+    "howToKill": "Nada: ningún drop, solo un poco de experiencia. Un ocelot vale infinitamente más vivo: los creepers y phantoms huyen de él.",
+    "spawnConditions": "Sobre grass blocks en jungles con luz 7+; grupos de 1-3 en Java, 1-2 en Bedrock. En Java no aparecen en sparse jungles.",
+    "behavior": "Tímido: sale corriendo si te mueves rápido - acércate agachado y quieto, con pescado crudo en la mano. Gana su confianza con raw cod o salmon y dejará de huir, aunque nunca se convierte en cat. Los creepers se mantienen a 6 bloques de los ocelots (y los phantoms también en Bedrock), lo que los convierte en vallas anti-creeper vivientes. Atacan a chickens y crías de turtle.",
+    "tameOrBreed": "Ya no se puede tamear desde 1.14: solo ganar su confianza con raw cod o salmon. Cría dos ocelots confiados con pescado crudo.",
+    "keywords": "ocelot confianza raw cod salmon creeper miedo phantom jungle tamear cat criar",
+    "notes": [
+      "Solo si lo mata un jugador o un wolf tameado; no suelta objetos"
+    ]
   }
 }
