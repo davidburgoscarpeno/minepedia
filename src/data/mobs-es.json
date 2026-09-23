@@ -660,5 +660,46 @@
       "Raro: un estornudo de cría tiene 1/700 de soltar una",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
+  },
+  "donkey": {
+    "type": "Pasivo",
+    "where": "Meadows en grupos de 1-2, plains en grupos de 1-3 (2-6 en Bedrock) y savannas en solitario. El 20% aparece como cría.",
+    "howToKill": "Suelta 0-2 leather, más su saddle y chest con todo el contenido si las llevaba. Nunca contraataca - y un donkey tameado es un cofre portátil, así que consérvalo.",
+    "spawnConditions": "Común en meadows (1-2), menos en plains y savannas; los tamaños de manada difieren entre Java y Bedrock. El 20% aparece como potro.",
+    "behavior": "Mismo tameo por temperamento que los horses: móntalo con la mano vacía, déjate tirar, +5 de temperamento por intento hasta ver corazones. Ya tameado acepta saddle y, único entre los équidos, una chest que añade 15 huecos de inventario que viajan con él. Recibe la mitad de daño por caída y cae 6 bloques sin daño. Más lento y con menos salto que la mayoría de horses, pero un donkey con chest es el mejor animal de carga del early game.",
+    "tameOrBreed": "Tamea montando una y otra vez (alimentar ayuda). Cría dos donkeys tameados con golden apples o golden carrots; cruza un donkey tameado con un horse tameado para conseguir una mule, que es estéril.",
+    "keywords": "donkey chest 15 huecos mule criar horse tamear saddle plains meadow animal de carga",
+    "notes": [
+      "Más con Saqueo",
+      "Solo si llevaba saddle",
+      "Solo si el donkey llevaba una chest",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
+  },
+  "parrot": {
+    "type": "Pasivo",
+    "where": "Jungles, bamboo jungles y sparse jungles (Bedrock), en grupos de 1-2 sobre logs, leaves o grass. Cinco colores: rojo, azul, verde, cian y gris.",
+    "howToKill": "Suelta 1-2 feathers. Nunca le des una cookie - las cookies son tóxicas y matan a los parrots al instante, la forma del juego de decir que el chocolate es veneno para los loros de verdad.",
+    "spawnConditions": "Grupos de 1-2 en biomas jungle sobre logs, leaves, grass o air. No existen crías y los parrots no pueden criar.",
+    "behavior": "Imita los sonidos de los mobs cercanos - incluidos los hostiles, así que un gruñido de zombie saliendo de tu parrot es un sistema de alarma temprana. Los parrots tameados se sientan y se levantan al interactuar y se suben a tu hombro al caminar sobre ellos (hasta dos, uno por hombro), y se bajan si saltas, recibes daño o entras en agua. Bailan con cualquier music disc sonando en una jukebox a 3 bloques, un guiño al meme del Party Parrot.",
+    "tameOrBreed": "Tamea con cualquier seeds (wheat, melon, pumpkin, beetroot, torchflower) o pitcher pods - cada intento tiene 1/10 de probabilidad. No pueden criar; la única forma de tener más parrots es encontrar más.",
+    "keywords": "parrot tamear seeds jungle bailar jukebox hombro cookie veneno imitar sonidos cinco colores",
+    "notes": [
+      "Más con Saqueo en Java",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
+  },
+  "happy-ghast": {
+    "type": "Pasivo",
+    "where": "No aparece de forma natural. Rehidrata un bloque de dried ghast (junto a bone blocks en los soul sand valleys del Nether o por trueque con piglins) en agua durante unos 20 minutos para obtener un ghastling, que crece hasta adulto.",
+    "howToKill": "Solo suelta su harness si lo llevaba equipado. Matarlo es pérdida pura: reemplazarlo cuesta 20 minutos de rehidratación más el crecimiento, y es la única montura voladora del juego.",
+    "spawnConditions": "Nunca natural: waterlog un dried ghast durante ~20 minutos para que eclosione un ghastling, y aliméntalo con snowballs (o golden dandelions, solo ghastlings) para acelerar el crecimiento. No puede criar.",
+    "behavior": "Un ghast gigante y amistoso que flota sonriendo. Equipa a un adulto con un harness (crafteado con leather, glass y wool) y hasta cuatro jugadores pueden montarlo a la vez - el primero en subir pilota, volando a unos 3.6 m/s con control vertical total. Al montarlo, sus gafas bajan cubriéndole los ojos. También puede transportar por aire boats y mobs con lead en una configuración de 4 leads, lo que lo convierte en el mejor transporte de mobs del juego.",
+    "tameOrBreed": "No se puede tamear ni criar. Cría uno desde ghastling y equipa al adulto con un harness para volar; las shears quitan el harness.",
+    "keywords": "happy ghast dried ghast ghastling harness volar montura cuatro jugadores snowball golden dandelion transportar mobs",
+    "notes": [
+      "Solo si lo llevaba equipado; usa shears para quitárselo sin matarlo",
+      "Solo si lo mata un jugador o un wolf tameado"
+    ]
   }
 }

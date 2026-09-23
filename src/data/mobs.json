@@ -1825,5 +1825,114 @@
       "cat"
     ],
     "keywords": "panda bamboo jungle breed personality brown weak lazy aggressive sneeze slimeball"
+  },
+  {
+    "slug": "donkey",
+    "name": "Donkey",
+    "type": "Passive",
+    "health": "15 to 30 (7.5 to 15 hearts, random per donkey)",
+    "where": "Meadows in groups of 1-2, plains in groups of 1-3 (2-6 in Bedrock), and savannas alone. 20% spawn as babies.",
+    "howToKill": "Drops 0-2 leather, plus its saddle and chest with all contents if equipped. Never fights back - and a tamed donkey is a portable chest, so keep it.",
+    "drops": [
+      {
+        "item": "Leather",
+        "qty": "0-2",
+        "notes": "More with Looting"
+      },
+      {
+        "item": "Saddle",
+        "qty": "1",
+        "notes": "Only if saddled"
+      },
+      {
+        "item": "Chest + contents",
+        "qty": "1",
+        "notes": "Only if the donkey carried a chest"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Commonly in meadows (1-2), less in plains and savannas; herd sizes differ between Java and Bedrock. 20% spawn as foals.",
+    "behavior": "Same temper taming as horses: mount with an empty hand, get bucked off, +5 temper each try until hearts appear. Once tamed it accepts a saddle and, uniquely, a chest that adds 15 inventory slots that travel with it. Takes half fall damage and safely falls 6 blocks. Slower and lower-jumping than most horses, but a donkey carrying a chest is the best early-game pack animal.",
+    "tameOrBreed": "Tame by mounting repeatedly (feeding helps). Breed two tamed donkeys with golden apples or golden carrots; breed a tamed donkey with a tamed horse to get a mule, which is sterile.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.6 (Horse Update)",
+    "related": [
+      "horse",
+      "camel"
+    ],
+    "keywords": "donkey chest 15 slots mule breed horse tame saddle plains meadow pack animal"
+  },
+  {
+    "slug": "parrot",
+    "name": "Parrot",
+    "type": "Passive",
+    "health": "6 (3 hearts)",
+    "where": "Jungles, bamboo jungles and sparse jungles (Bedrock), in groups of 1-2 above logs, leaves or grass. Five colors: red, blue, green, cyan and gray.",
+    "howToKill": "Drops 1-2 feathers. Never feed it a cookie - cookies are toxic and kill parrots instantly, the game way of saying chocolate is poison for real parrots.",
+    "drops": [
+      {
+        "item": "Feather",
+        "qty": "1-2",
+        "notes": "More with Looting in Java"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Groups of 1-2 in jungle biomes above logs, leaves, grass or air. No babies exist and parrots cannot be bred.",
+    "behavior": "Imitates the sounds of nearby mobs - including hostile ones, so a sudden zombie groan from your parrot is an early warning system. Tamed parrots sit and stand on interact and perch on your shoulder when you walk through them (up to two, one per shoulder), leaving when you jump, take damage or enter water. They dance to any music disc playing in a jukebox within 3 blocks, a nod to the Party Parrot meme.",
+    "tameOrBreed": "Tame with any seeds (wheat, melon, pumpkin, beetroot, torchflower) or pitcher pods - each feeding has a 1/10 chance. Cannot be bred; the only way to more parrots is finding more.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.12 (World of Color Update)",
+    "related": [
+      "cat",
+      "fox"
+    ],
+    "keywords": "parrot tame seeds jungle dance jukebox shoulder cookie poison imitate sounds five colors"
+  },
+  {
+    "slug": "happy-ghast",
+    "name": "Happy Ghast",
+    "type": "Passive",
+    "health": "20 (10 hearts)",
+    "where": "Does not spawn naturally. Rehydrate a dried ghast block (found near bone blocks in Nether soul sand valleys or bartered from piglins) in water for about 20 minutes to get a ghastling, which grows into an adult.",
+    "howToKill": "Drops only its equipped harness. Killing one is pure loss: it takes 20 minutes of rehydration plus growth time to replace, and it is the only rideable flying mount in the game.",
+    "drops": [
+      {
+        "item": "Harness",
+        "qty": "1",
+        "notes": "Only if equipped; use shears to remove it without killing"
+      },
+      {
+        "item": "Experience",
+        "qty": "1-3",
+        "notes": "Only when killed by a player or tamed wolf"
+      }
+    ],
+    "spawnConditions": "Never natural: waterlog a dried ghast for ~20 minutes to hatch a ghastling, then feed it snowballs (or golden dandelions, ghastlings only) to speed up growth. Cannot be bred.",
+    "behavior": "A giant friendly ghast that hovers and smiles. Equip an adult with a harness (crafted from leather, glass and wool) and up to four players can ride it at once - the first to mount pilots, flying about 3.6 m/s with full vertical control. While ridden, its goggles slide down over its eyes. It can also airlift boats and leashed mobs in a 4-leash configuration, making it the best mob transport in the game.",
+    "tameOrBreed": "Cannot be tamed or bred. Raise one from a ghastling and equip the adult with a harness to fly; shears remove the harness.",
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "since": "1.21.6 (Chase the Skies)",
+    "related": [
+      "ghast",
+      "piglin"
+    ],
+    "keywords": "happy ghast dried ghast ghastling harness fly mount four players snowball golden dandelion transport mobs"
   }
 ]
