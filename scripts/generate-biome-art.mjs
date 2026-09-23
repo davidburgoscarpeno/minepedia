@@ -191,6 +191,56 @@ const SCENES = {
     [[20, 28], [26, 27], [40, 28], [57, 28]].forEach(([x, y]) => { S.b(x, y, hex('#6fc3df')); S.b(x, y - 1, hex('#a8e0f0')); });
     // fossil arch
     S.rect(42, 22, 1, 6, hex('#e8e2d0')); S.rect(48, 22, 1, 6, hex('#e8e2d0')); S.rect(42, 22, 7, 1, hex('#e8e2d0')); },
+  'dark-forest': S => { S.sky(hex('#3a4a5a'), hex('#6a7a8a'), 0, 24);
+    S.terrain(S.hill(27, 1, 9), hex('#2f4a2a'), hex('#3d3227'), hex('#2a2318'));
+    // dense dark oak canopy - thick trunks, wide low leaf mass that blocks the sky
+    const darkoak = (x, th) => { const gy = S.heights[x];
+      S.rect(x, gy - th, 2, th, hex('#3a2a1a'));
+      for (let dy = -4; dy <= 0; dy++) for (let dx = -4; dx <= 5; dx++) {
+        if (Math.abs(dx - 0.5) + Math.abs(dy + 1.5) > 5) continue;
+        S.b(x + dx, gy - th + dy, mul(hex('#1e3a1a'), 0.8 + S.r() * 0.35)); } };
+    darkoak(8, 8); darkoak(20, 9); darkoak(34, 8); darkoak(48, 9); darkoak(58, 8);
+    S.rect(0, 12, W, 4, hex('#1e3a1a')); S.rect(0, 16, W, 2, mul(hex('#1e3a1a'), 1.2)); // closed canopy
+    for (let x = 0; x < W; x++) if (S.r() < 0.3) S.b(x, 15 + (S.r() * 2 | 0), mul(hex('#1e3a1a'), 0.7)); // ragged underside
+    // huge red mushroom
+    S.rect(26, 22, 1, 5, hex('#e0d8c8')); S.rect(23, 20, 7, 2, hex('#a83a32')); S.rect(24, 19, 5, 1, mul(hex('#a83a32'), 1.1));
+    [[24, 20], [27, 20]].forEach(([x, y]) => S.b(x, y, hex('#e8e0d0')));
+    // leaf litter
+    [[5, 26], [16, 27], [30, 26], [44, 27], [55, 26]].forEach(([x, y]) => S.b(x, y, hex('#4a3a22')));
+  },
+  'flower-forest': S => { S.sky(hex('#7ab8e8'), hex('#c8e4f8'), 0, 30);
+    S.sun(52, 5, hex('#f8e88a')); S.cloud(10, 4, hex('#f4f8fc'));
+    S.terrain(S.hill(26, 1, 8), hex('#4a8a3a'), hex('#5a8a4a'), hex('#4a3a28'));
+    S.oak(12, hex('#5a3a22'), hex('#3f7a3f')); S.oak(44, hex('#5a3a22'), hex('#3f7a3f'));
+    // birch
+    const birch = x => { const gy = S.heights[x]; S.rect(x, gy - 5, 1, 5, hex('#d8d8c8'));
+      S.b(x, gy - 4, hex('#2a2a2a')); S.b(x, gy - 2, hex('#2a2a2a'));
+      for (let dy = -2; dy <= 0; dy++) for (let dx = -2; dx <= 2; dx++) { if (Math.abs(dx) + Math.abs(dy) > 3) continue; S.b(x + dx, gy - 5 + dy, mul(hex('#5a9a3f'), 0.85 + S.r() * 0.3)); } };
+    birch(28);
+    // scattered flower clusters
+    const cols = [hex('#e84a5a'), hex('#f8e84a'), hex('#f4f4f8'), hex('#f89a3a'), hex('#b45ae8'), hex('#4a9ae8')];
+    for (let i = 0; i < 26; i++) { const x = (i * 37 + 5) % W; const gy = S.heights[x]; const c = cols[i % cols.length];
+      S.b(x, gy - 1, hex('#3f8a2f')); S.b(x, gy - 2, hex('#3f8a2f')); S.b(x, gy - 3, c); S.b(x, gy - 3 - (i % 2), mul(c, 1.15)); }
+  },
+  'warm-ocean': S => { S.sky(hex('#2a7ab8'), hex('#5ab8d8'), 0, 10);
+    S.rect(0, 10, W, H - 10, hex('#3f9ad0')); // water
+    for (let y = 10; y < H; y++) S.rect(0, y, W, 1, mix(hex('#3f9ad0'), hex('#2a6a9a'), (y - 10) / (H - 10)));
+    // sandy floor with gentle dunes
+    for (let x = 0; x < W; x++) { const h = Math.round(31 + Math.sin(x / 6) * 1.2);
+      for (let y = h; y < H; y++) S.b(x, y, y === h ? hex('#e0d8a8') : hex('#c8c090')); }
+    // coral fans
+    const coral = (x, h, c) => { for (let i = 0; i < h; i++) S.rect(x, 30 - i, 1, 1, mul(c, 0.85 + S.r() * 0.3));
+      S.rect(x - 1, 30 - h + 1, 1, 2, c); S.rect(x + 1, 30 - h + 2, 1, 2, mul(c, 1.1));
+      S.rect(x - 2, 30 - h + 2, 1, 1, mul(c, 0.9)); S.rect(x + 2, 30 - h + 3, 1, 1, mul(c, 0.95)); };
+    coral(8, 5, hex('#e86a9a')); coral(20, 7, hex('#b45ae8')); coral(32, 4, hex('#f8c84a')); coral(44, 6, hex('#4ac8b8')); coral(54, 5, hex('#e86a5a'));
+    // sea pickles
+    [[14, 30], [38, 30], [50, 30]].forEach(([x, y]) => { S.b(x, y, hex('#5a9a4a')); S.b(x + 1, y, hex('#c8e84a')); });
+    // tropical fish
+    const fish = (x, y, c) => { S.rect(x, y, 3, 1, c); S.b(x + 3, y, mul(c, 0.8)); S.b(x - 1, y, mul(c, 0.7)); };
+    fish(10, 16, hex('#f89a3a')); fish(36, 14, hex('#e84a8a')); fish(50, 20, hex('#f8e84a')); fish(24, 22, hex('#4a9ae8'));
+    // bubbles
+    [[6, 18], [7, 15], [42, 12], [58, 16]].forEach(([x, y]) => S.b(x, y, hex('#c8e8f8')));
+  },
   'basalt-deltas': S => { S.sky(hex('#232327'), hex('#17171a'), 0, 30);
     S.terrain(S.flat(30), hex('#2a2d33'), hex('#23262c'), hex('#1a1c21'));
     S.pillar(8, 2, 9, hex('#3a3d42')); S.pillar(20, 1, 5, hex('#44484e')); S.pillar(32, 3, 12, hex('#3a3d42')); S.pillar(48, 2, 7, hex('#44484e')); S.pillar(58, 1, 10, hex('#3a3d42'));

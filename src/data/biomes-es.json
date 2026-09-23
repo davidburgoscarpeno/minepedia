@@ -842,5 +842,125 @@
         "label": "Pillager Outpost"
       }
     ]
+  },
+  "dark-forest": {
+    "category": "Overworld (superficie)",
+    "description": "Un denso roofed forest de dark oaks cuyo dosel cerrado bloquea el sol: los mobs hostiles aparecen y sobreviven aquí incluso al mediodía. Uno de los dos únicos biomas donde se generan woodland mansions, y hogar de los dos tipos de huge mushroom.",
+    "resources": [
+      "Dark oak logs, saplings y leaves: el set completo de madera de dark oak",
+      "Los dos huge mushrooms (el red más común que el brown) para mushroom stew y decoración",
+      "Leaf litter cubriendo el suelo del bosque",
+      "Oak y birch mezclados, pero sin bee nests en estos árboles"
+    ],
+    "mobs": [
+      "Mobs hostiles bajo el dosel día y noche: hay oscuridad suficiente para spawnear a la hora de comer",
+      "No hay wolves aquí, a diferencia de los forests normales",
+      "Vindicators y evokers si se genera una woodland mansion dentro"
+    ],
+    "structures": [
+      "Woodland mansions: la mazmorra gigante de los illagers con totems of undying",
+      "Los pale gardens suelen lindar con dark forests, compartiendo el dosel cerrado",
+      "Los abandoned camps pueden generarse aquí"
+    ],
+    "whyGo": [
+      "La madera de dark oak solo crece aquí (y en pale gardens): necesaria para las planks de dark oak",
+      "Caza de woodland mansions: totem of undying y jaulas de allays",
+      "Farmeo de huge mushrooms sin viaje a mushroom fields"
+    ],
+    "tips": [
+      "Ojo con el dosel: los mobs sobreviven el día bajo él, así que talar los árboles es el primer movimiento seguro",
+      "Los cartographers de nivel journeyman venden woodland explorer maps (14 emeralds + compass) que apuntan a la mansion más cercana",
+      "Lleva torches a cualquier hora: el suelo del bosque es funcionalmente de noche",
+      "4 dark oak saplings en un 2x2 dan un dark oak: llévate saplings y farmea la madera en casa"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/woodland-mansion/",
+        "label": "Woodland Mansion"
+      },
+      {
+        "url": "/es/biomes/pale-garden/",
+        "label": "Pale Garden"
+      }
+    ]
+  },
+  "flower-forest": {
+    "category": "Overworld (superficie)",
+    "description": "Una variante más amable del forest alfombrada con casi todos los tipos de flower del juego. Los rabbits sustituyen a los wolves, y los oaks y birches generan bee nests mucho más a menudo: el mejor bioma de bees y dyes del early game.",
+    "resources": [
+      "Casi todas las flowers: tulips, cornflowers, lilies of the valley, alliums, poppies, dandelions y más - un supermercado de dyes",
+      "Bee nests en muchos oaks y birches: honey y honeycomb sin una larga búsqueda",
+      "Madera de oak y birch, más rabbits para carne, hide y feet"
+    ],
+    "mobs": [
+      "Rabbits (en lugar de los wolves de los forests normales)",
+      "Bees alrededor de los muchos nests, polinizando la alfombra de flores",
+      "Animales de granja normales y mobs hostiles de noche"
+    ],
+    "structures": [
+      "Sin estructuras exclusivas: las villages pueden lindar y los ruined portals pueden interrumpirlo",
+      "Las villages de plains suelen estar justo en su borde"
+    ],
+    "whyGo": [
+      "Todos los colores de dye de una sola pradera: las flower farms aquí son las más eficientes del juego",
+      "Bees tempranas: los nests se generan mucho más a menudo que en cualquier otro bioma",
+      "Granja de rabbits para rabbit's feet (pociones de Jump Boost)"
+    ],
+    "tips": [
+      "El bone meal sobre un bloque de grass de flower forest solo hace crecer flowers nativas del punto exacto: farmea colores concretos seccionando la pradera",
+      "Cría bees con flowers y luego múdate los nests a casa con silk touch de noche (o con un campfire)",
+      "Las rabbit's feet de los rabbits son el drop raro para pociones de Jump Boost: Saqueo ayuda"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/bee/",
+        "label": "Bee"
+      },
+      {
+        "url": "/es/guides/how-to-get-honeycomb/",
+        "label": "Guía: conseguir Honeycomb"
+      }
+    ]
+  },
+  "warm-ocean": {
+    "category": "Overworld (agua)",
+    "description": "Un mar tropical con coral reefs sobre fondo de arena, sea pickles iluminando el fondo y bancos de tropical fish. Los shipwrecks y warm ocean ruins se esconden entre los arrecifes, y la kelp se niega a crecer aquí.",
+    "resources": [
+      "Coral blocks, coral fans y coral de los cinco colores (mina con silk touch)",
+      "Sea pickles: una fuente de luz submarina colocable",
+      "Tropical fish y pufferfish (pero nada de cod ni salmon)",
+      "Sand, seagrass y botín de warm ocean ruins"
+    ],
+    "mobs": [
+      "Tropical fish (miles de variantes de patrón) y pufferfish",
+      "Dolphins: dales pescado crudo y te guían a ruinas o shipwrecks",
+      "Drowned, incluidos drowned con trident montados en coral zombie nautiluses"
+    ],
+    "structures": [
+      "Warm ocean ruins (sandstone) con suspicious sand y treasure maps",
+      "Shipwrecks entre los arrecifes",
+      "Los coral reefs en sí: la seña de identidad del bioma"
+    ],
+    "whyGo": [
+      "Coral para acuarios y construcciones tropicales: silk touch obligatorio, el coral muere fuera del agua",
+      "Pufferfish para pociones de Water Breathing",
+      "Treasure maps de las ruinas, guiados por dolphins"
+    ],
+    "tips": [
+      "Los pufferfish envenenan al contacto: mantén distancia o mételos en un bucket a mano vacía",
+      "Los sea pickles solo brillan bajo el agua: recógelos con lo que sea, pero colócalos mojados",
+      "Una door o una columna de burbujas de magma te da bolsas de aire mientras vacías un arrecife",
+      "Los drowned con trident tienen un 50% de montar un coral zombie nautilus: una emboscada puñetera, vigila los arrecifes"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/ocean-ruins/",
+        "label": "Ocean Ruins"
+      },
+      {
+        "url": "/es/structures/shipwreck/",
+        "label": "Shipwreck"
+      }
+    ]
   }
 }
