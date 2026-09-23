@@ -688,5 +688,49 @@
     ],
     "renewable": "Renovable: copper nuggets de copper ingots, coal o charcoal, sticks.",
     "editionNote": "Igual en Java y Bedrock; añadida en Java 1.21.9 y Bedrock 1.21.111."
+  },
+  "music-disc": {
+    "howToGet": [
+      "La granja clásica: haz que un skeleton (o stray, bogged, parched) dé el golpe de gracia a un creeper - suelta un disco aleatorio del conjunto de 12 (13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11, wait)",
+      "Botín de cofres: 13 y cat en monster rooms (21,5%), woodland mansions (21,8%) y ancient cities (16,1%); Pigstep solo en bastion remnants (5,6%); otherside en monster rooms, strongholds y ancient cities; Bounce en cofres de mineshafts dentro de sulfur caves (42,1%)",
+      "Discos especiales: Relic cepillando suspicious gravel en las trail ruins (8,3%); Precipice, Creator y Creator (Music Box) de vaults, ominous vaults y pots de las trial chambers; 5 se craftea con 9 disc fragments de las ancient cities (29,8%)",
+      "Muertes con estilo: un ghast muerto por tu propio fireball devuelto siempre suelta Tears, y un chicken jockey suelta Lava Chicken si matas al jinete antes que al pollo"
+    ],
+    "uses": [
+      "Reprodúcelo en un jukebox; pulsa usar de nuevo para expulsarlo",
+      "Un jukebox sonando emite señal de redstone, y un comparator lee una fuerza distinta por disco - detectores de discos para puertas secretas",
+      "Un jukebox hace bailar a los allays: dale una amethyst shard a un allay que baile para duplicarlo (5 minutos de enfriamiento)",
+      "Hoppers y droppers pueden insertar y extraer discos para música totalmente automática"
+    ],
+    "renewable": "Renovable con granjas de creepers canalizados hacia muertes por skeleton.",
+    "editionNote": "Misma mecánica en Java y Bedrock. En Java, un wither skeleton solo puede dar discos con el truco del TNT en llamas, nunca con arco."
+  },
+  "enchanted-golden-apple": {
+    "howToGet": [
+      "No se puede craftear desde la 1.9 - solo botín",
+      "Botín de cofres en monster rooms, mineshafts, woodland mansions, ancient cities, bastion remnants, ruined portals y vaults de las trial chambers - siempre rara, unos pocos puntos porcentuales como mucho",
+      "Las ancient cities y las trial chambers son las fuentes modernas más generosas"
+    ],
+    "uses": [
+      "Cómetela para el buff de comida más fuerte del juego: Absorption IV durante 2 minutos (16 corazones extra), Regeneration II durante 20 segundos en Java (30 en Bedrock), Fire Resistance durante 5 minutos y Resistance I (20% menos de daño) durante 5 minutos",
+      "Lleva una en la hotbar para las peleas de boss: Wither, warden o una oleada dura de raid",
+      "También sirve como premio para horses, donkeys y mules: domesticar, criar y curar"
+    ],
+    "renewable": "No renovable: solo botín fijo de cofres.",
+    "editionNote": "La Regeneration dura 20 segundos en Java (cura 16 HP) y 30 en Bedrock (cura 24 HP); todo lo demás es idéntico."
+  },
+  "amethyst-shard": {
+    "howToGet": [
+      "Pica los amethyst clusters maduros dentro de las amethyst geodes: 4 shards con cualquier pickaxe, solo 2 con otras herramientas o explosiones",
+      "Fortune lo mejora: Fortune III da una media de 8,8 shards (hasta 16); Silk Touch suelta el bloque de cluster entero en su lugar",
+      "Los clusters vuelven a crecer sobre los bloques de budding amethyst - déjalos y regresa: granja renovable"
+    ],
+    "uses": [
+      "Craftea un spyglass (2 copper ingots + 1 shard), tinted glass (4 shards + glass), bloques de amethyst y calibrated sculk sensors",
+      "Duplica allays: dale una shard a un allay que baile junto a un jukebox y se divide en dos (5 minutos de enfriamiento)",
+      "Material de smithing: cualquier armor trim aplicado con amethyst da el color de cristal morado"
+    ],
+    "renewable": "Renovable: la budding amethyst sigue generando clusters nuevos en el mismo sitio.",
+    "editionNote": "Idéntica en Java y Bedrock."
   }
 }

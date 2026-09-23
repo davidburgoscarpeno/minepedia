@@ -1181,5 +1181,79 @@
       "copper-chest"
     ],
     "keywords": "copper lantern minecraft craft copper nuggets copper torch green flame light oxidation wax"
+  },
+  {
+    "slug": "music-disc",
+    "name": "Music Disc",
+    "category": "Utility",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "The classic farm: get a skeleton (or stray, bogged, parched) to land the killing blow on a creeper - it drops a random disc from the 12-disc pool (13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11, wait)",
+      "Chest loot: 13 and cat in monster rooms (21.5%), woodland mansions (21.8%) and ancient cities (16.1%); Pigstep only in bastion remnants (5.6%); otherside in monster rooms, strongholds and ancient cities; Bounce in mineshaft chests inside sulfur caves (42.1%)",
+      "Special discs: Relic by brushing suspicious gravel in trail ruins (8.3%); Precipice, Creator and Creator (Music Box) from trial chambers vaults, ominous vaults and pots; 5 is crafted from 9 disc fragments found in ancient cities (29.8%)",
+      "Kills with style: a ghast killed by your deflected fireball always drops Tears, and a chicken jockey drops Lava Chicken if you kill the rider before the chicken"
+    ],
+    "uses": [
+      "Play it in a jukebox; press use again to eject",
+      "A playing jukebox emits a redstone signal, and a comparator reads a different strength per disc - disc detectors for secret doors",
+      "A jukebox makes allays dance: give a dancing allay an amethyst shard to duplicate it (5 minute cooldown)",
+      "Hoppers and droppers can insert and extract discs for fully automatic music"
+    ],
+    "renewable": "Renewable via creeper farms funnelled into skeleton kills.",
+    "editionNote": "Same mechanics in Java and Bedrock. In Java, a wither skeleton can only credit disc drops through flaming-TNT tricks, never bow kills.",
+    "since": "Alpha 1.0.14 (first two discs)",
+    "related": [
+      "gunpowder",
+      "redstone-dust"
+    ],
+    "keywords": "music disc minecraft how to get creeper skeleton kill farm jukebox pigstep otherside 5 disc fragment relic tears lava chicken"
+  },
+  {
+    "slug": "enchanted-golden-apple",
+    "name": "Enchanted Golden Apple",
+    "category": "Combat",
+    "stackSize": "64",
+    "howToGet": [
+      "Cannot be crafted since 1.9 - loot-only",
+      "Chest loot in monster rooms, mineshafts, woodland mansions, ancient cities, bastion remnants, ruined portals and trial chambers vaults - always rare, a few percent at best",
+      "Ancient cities and trial chambers are the most generous modern sources"
+    ],
+    "uses": [
+      "Eat it for the strongest food buff in the game: Absorption IV for 2 minutes (16 extra hearts), Regeneration II for 20 seconds in Java (30 in Bedrock), Fire Resistance for 5 minutes and Resistance I (20% less damage) for 5 minutes",
+      "Keep one in the hotbar for boss fights - Wither, warden or a hard raid wave",
+      "Also works as a horse, donkey or mule treat for taming, breeding and healing"
+    ],
+    "renewable": "Not renewable: fixed chest loot only.",
+    "editionNote": "Regeneration lasts 20 seconds in Java (heals 16 HP) and 30 in Bedrock (heals 24 HP); everything else is identical.",
+    "since": "Java 1.3.1 (craftable until 1.9)",
+    "related": [
+      "totem-of-undying",
+      "nether-star"
+    ],
+    "keywords": "enchanted golden apple notch apple minecraft how to get absorption regeneration resistance boss fight loot"
+  },
+  {
+    "slug": "amethyst-shard",
+    "name": "Amethyst Shard",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine fully grown amethyst clusters inside amethyst geodes: 4 shards with any pickaxe, only 2 with other tools or explosions",
+      "Fortune boosts it: Fortune III averages 8.8 shards (up to 16); Silk Touch drops the cluster block itself instead",
+      "Clusters regrow on budding amethyst blocks - leave them and come back for a renewable farm"
+    ],
+    "uses": [
+      "Craft a spyglass (2 copper ingots + 1 shard), tinted glass (4 shards + glass), blocks of amethyst and calibrated sculk sensors",
+      "Duplicate allays: give a shard to an allay dancing at a jukebox and it splits into two (5 minute cooldown)",
+      "Smithing material: any armor trim applied with amethyst gives the purple crystal trim color"
+    ],
+    "renewable": "Renewable: budding amethyst keeps growing new clusters in place.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.17 (Caves & Cliffs Part I)",
+    "related": [
+      "spyglass",
+      "copper-bars"
+    ],
+    "keywords": "amethyst shard minecraft geode cluster budding amethyst fortune spyglass tinted glass allay duplicate farm"
   }
 ]
