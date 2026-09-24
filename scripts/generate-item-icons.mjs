@@ -28,6 +28,7 @@ const icons = {
   'furnace': make(({ rect }) => { rect(2,1,12,14,ID); rect(3,2,10,3,'#8a8a8a'); rect(4,6,8,7,'#3a3a3a'); rect(5,7,6,5,'#1a1a1a'); rect(3,2,10,1,'#9a9a9a'); }),
   'coal': make(({ rect, px }) => { rect(3,4,9,8,'#2a2a2a'); rect(4,3,6,10,'#1a1a1a'); px(5,6,'#4a4a4a'); px(8,5,'#3a3a3a'); px(6,9,'#4a4a4a'); px(10,8,'#3a3a3a'); px(4,10,'#3a3a3a'); px(12,5,'#2a2a2a'); px(2,8,'#1a1a1a'); }),
   'stick': make(({ line, rect }) => { line(4,13,11,4,WD); line(5,14,12,5,'#a06c3a'); rect(5,10,1,2,'#c89548'); rect(8,6,1,2,'#c89548'); }),
+  'gold-ingot': make(({ rect, px }) => { rect(3,6,10,5,G); rect(4,5,8,2,'#e8c832'); px(4,6,'#fff3b0'); px(5,7,'#fff3b0'); rect(3,11,10,1,'#b8860b'); rect(12,7,1,3,'#b8860b'); }),
   'map': make(({ rect, px, line }) => { rect(3,2,10,12,'#e8d8a8'); rect(3,2,10,1,'#f2e6bd'); px(5,4,GR); px(6,5,GR); px(10,4,GR); px(9,8,BL); px(10,9,BL); px(5,10,BL); line(4,12,7,11,'#b09a68'); px(11,3,RED); px(7,7,'#c89548'); }),
   'lantern': make(({ rect, px }) => { rect(6,1,4,2,ID); rect(4,3,8,1,'#5a5a5a'); rect(4,3,1,9,ID); rect(11,3,1,9,ID); rect(5,4,6,8,'#3a3a3a'); rect(6,5,4,6,'#ffc832'); rect(7,6,2,4,'#ff9a1f'); px(7,7,'#fff3b0'); px(8,8,'#fff3b0'); rect(4,12,8,1,ID); rect(5,13,6,1,'#5a5a5a'); }),
   'bed': make(({ rect }) => { rect(1,5,14,3,WH); rect(6,5,9,3,RED); rect(1,8,14,3,WD); rect(1,11,2,3,DK); rect(13,11,2,3,DK); rect(2,6,3,2,'#ffffff'); }),
@@ -256,7 +257,8 @@ const ALIAS = {
   'how-to-make-dispenser':'dispenser','how-to-make-ladder':'ladder','how-to-make-flint-and-steel':'flint-and-steel',
   'how-to-make-enchanting-table':'enchanting-table','how-to-make-furnace':'furnace','how-to-make-chest':'chest',
   'how-to-make-crafting-table':'crafting-table','how-to-make-bow':'bow','how-to-make-golden-apple':'golden-apple',
-  'how-to-make-sticky-piston':'sticky-piston','how-to-make-clock':'clock','how-to-make-diamond-pickaxe':'diamond-pickaxe'
+  'how-to-make-sticky-piston':'sticky-piston','how-to-make-clock':'clock','how-to-make-diamond-pickaxe':'diamond-pickaxe',
+  'how-to-make-diamond-sword':'diamond-sword','how-to-make-diamond-axe':'diamond-axe','how-to-find-gold':'gold-ingot'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
