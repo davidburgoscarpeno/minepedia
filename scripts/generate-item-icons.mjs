@@ -32,6 +32,9 @@ const icons = {
   'fox': make(({ rect, px }) => { px(3,2,'#d87830'); px(4,2,'#d87830'); px(11,2,'#d87830'); px(12,2,'#d87830'); rect(3,3,10,6,'#e88838'); px(5,5,'#1a1a1a'); px(10,5,'#1a1a1a'); rect(5,9,6,3,'#f8f0e0'); px(7,9,'#2a2a2a'); px(8,9,'#2a2a2a'); rect(3,7,2,2,'#c86828'); rect(11,7,2,2,'#c86828'); px(4,3,'#f8a858'); }),
   'blaze-rod': make(({ rect, px }) => { rect(4,2,3,12,'#e8c832'); rect(5,3,1,10,'#f8e878'); px(4,2,'#fff3b0'); rect(7,3,2,2,'#d8a820'); rect(7,11,2,2,'#d8a820'); rect(6,6,2,3,'#c89818'); }),
   'nether-wart': make(({ rect, px }) => { rect(4,8,8,4,'#8a1a1a'); rect(5,5,6,3,'#a82a2a'); rect(6,3,4,2,'#a82a2a'); px(5,6,'#c84a3a'); px(9,7,'#c84a3a'); px(7,4,'#c84a3a'); rect(7,12,2,2,'#5a4a3a'); px(4,11,'#6a1010'); px(11,10,'#6a1010'); }),
+  'string': make(({ rect, line, px }) => { line(2,2,13,13,'#e8e8e8'); line(3,2,13,12,'#c8c8c8'); line(2,3,12,13,'#f8f8f8'); px(4,4,'#ffffff'); px(9,9,'#d0d0d0'); px(6,7,'#ffffff'); }),
+  'ender-pearl': make(({ rect, px }) => { rect(5,3,6,10,'#1a5a4a'); rect(4,5,8,6,'#1a5a4a'); rect(6,4,4,8,'#2a7a5a'); rect(5,6,6,4,'#2a7a5a'); px(6,5,'#5ac8a8'); px(7,6,'#8ae8c8'); px(9,9,'#0f3a30'); px(5,10,'#0f3a30'); px(10,5,'#0f3a30'); }),
+  'mushroom-island': make(({ rect, px }) => { rect(3,9,4,3,'#d8d0c8'); rect(2,5,6,4,'#c8382a'); px(3,6,'#f0e8e0'); px(6,7,'#f0e8e0'); px(4,5,'#e85848'); rect(9,10,4,3,'#d8d0c8'); rect(8,7,6,3,'#c8382a'); px(9,8,'#f0e8e0'); px(12,8,'#f0e8e0'); rect(1,13,14,2,'#8a5a9a'); px(3,13,'#a878b8'); px(9,14,'#a878b8'); px(13,13,'#6a3a7a'); }),
   'sponge': make(({ rect, px }) => { rect(2,2,12,12,'#c8a828'); rect(3,3,10,10,'#d8b838'); px(4,4,'#8a7018'); px(8,5,'#8a7018'); px(11,4,'#8a7018'); px(5,8,'#8a7018'); px(10,9,'#8a7018'); px(7,11,'#8a7018'); px(12,12,'#8a7018'); px(4,12,'#8a7018'); px(6,5,'#b89420'); }),
   'turtle': make(({ rect, px }) => { rect(4,5,8,5,'#4a7a3a'); rect(5,4,6,2,'#5a8a4a'); rect(5,10,6,1,'#3a6a2a'); px(6,6,'#c8b880'); px(8,7,'#c8b880'); px(10,6,'#c8b880'); rect(12,6,3,3,'#6a9a5a'); px(13,7,'#1a1a1a'); rect(3,10,2,2,'#6a9a5a'); rect(11,11,2,2,'#6a9a5a'); rect(5,12,2,2,'#6a9a5a'); }),
   'copper-ingot': make(({ rect, px }) => { rect(3,6,10,5,'#d87848'); rect(4,5,8,2,'#e88858'); px(4,6,'#f8b890'); px(5,7,'#f8b890'); rect(3,11,10,1,'#a85830'); rect(12,7,1,3,'#a85830'); }),
@@ -256,6 +259,7 @@ const icons = {
 
 // aliases: guide/structure/seed slugs reusing existing drawings
 const ALIAS = {
+  'how-to-get-string':'string','how-to-get-ender-pearls':'ender-pearl','how-to-find-mushroom-island':'mushroom-island',
   'how-to-find-stronghold':'stronghold','how-to-fly-elytra':'how-to-get-elytra','how-to-find-trial-chambers':'trial-chambers',
   'how-to-get-mending':'mending','how-to-find-nether-fortress':'nether-fortress','how-to-make-conduit':'how-to-use-conduit',
   'how-to-find-woodland-mansion':'woodland-mansion','how-to-get-wither-skulls':'how-to-beat-wither','how-to-make-lead':'lead',
