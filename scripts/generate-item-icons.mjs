@@ -53,6 +53,9 @@ const icons = {
   'quartz-crystal': make(({ rect, px }) => { rect(5,2,6,12,'#e8e2d8'); rect(4,4,8,8,'#e8e2d8'); rect(6,3,4,10,'#f5f0e6'); px(5,5,'#d0c8ba'); px(9,6,'#d0c8ba'); px(6,8,'#c8bfb0'); px(8,10,'#d0c8ba'); px(5,11,'#d0c8ba'); px(7,4,'#ffffff'); px(7,7,'#ffffff'); px(6,12,'#b8b0a0'); }),
   'glowstone-block': make(({ rect, px }) => { rect(3,3,10,10,'#d8a838'); rect(4,4,8,8,'#e8c050'); px(5,5,'#f8e088'); px(9,6,'#f8e088'); px(6,9,'#f8e088'); px(10,10,'#f8e088'); px(4,7,'#b08028'); px(11,5,'#b08028'); px(7,11,'#b08028'); px(12,8,'#b08028'); px(7,4,'#f8e088'); px(5,10,'#c09030'); }),
   'gunpowder-pile': make(({ rect, px }) => { rect(4,7,8,3,'#5a5a5a'); rect(3,8,10,2,'#5a5a5a'); rect(5,6,6,4,'#4a4a4a'); px(6,6,'#6e6e6e'); px(9,7,'#6e6e6e'); px(5,8,'#3a3a3a'); px(10,9,'#3a3a3a'); px(7,9,'#6e6e6e'); px(4,9,'#3a3a3a'); px(8,5,'#787878'); px(6,10,'#2e2e2e'); }),
+  'shulker-box-icon': make(({ rect, px }) => { rect(3,4,10,8,'#8a5aa0'); rect(4,3,8,2,'#6e4082'); rect(4,5,8,6,'#9c6ab2'); rect(3,4,10,1,'#5e3870'); px(7,7,'#c898dd'); px(8,7,'#c898dd'); px(7,8,'#b07cc8'); px(8,8,'#b07cc8'); px(4,4,'#4e2c5c'); px(11,4,'#4e2c5c'); px(4,11,'#4e2c5c'); px(11,11,'#4e2c5c'); }),
+  'prismarine-shard-icon': make(({ rect, px }) => { rect(6,3,4,10,'#4e9a8a'); rect(5,4,6,8,'#4e9a8a'); rect(7,4,2,8,'#6ab5a5'); px(6,5,'#8fd0c0'); px(8,7,'#8fd0c0'); px(6,9,'#3a7a6c'); px(9,10,'#3a7a6c'); px(7,12,'#2e6258'); px(5,7,'#3a7a6c'); px(9,4,'#6ab5a5'); }),
+  'magma-cream-blob': make(({ rect, px }) => { rect(4,5,8,6,'#3a1a0e'); rect(3,6,10,4,'#3a1a0e'); rect(5,6,6,4,'#4a2412'); px(6,6,'#f0a020'); px(9,7,'#f0a020'); px(5,8,'#c87810'); px(10,9,'#c87810'); px(7,9,'#f0a020'); px(8,5,'#f8c040'); px(6,10,'#2a1208'); px(11,8,'#2a1208'); }),
   'sponge': make(({ rect, px }) => { rect(2,2,12,12,'#c8a828'); rect(3,3,10,10,'#d8b838'); px(4,4,'#8a7018'); px(8,5,'#8a7018'); px(11,4,'#8a7018'); px(5,8,'#8a7018'); px(10,9,'#8a7018'); px(7,11,'#8a7018'); px(12,12,'#8a7018'); px(4,12,'#8a7018'); px(6,5,'#b89420'); }),
   'turtle': make(({ rect, px }) => { rect(4,5,8,5,'#4a7a3a'); rect(5,4,6,2,'#5a8a4a'); rect(5,10,6,1,'#3a6a2a'); px(6,6,'#c8b880'); px(8,7,'#c8b880'); px(10,6,'#c8b880'); rect(12,6,3,3,'#6a9a5a'); px(13,7,'#1a1a1a'); rect(3,10,2,2,'#6a9a5a'); rect(11,11,2,2,'#6a9a5a'); rect(5,12,2,2,'#6a9a5a'); }),
   'copper-ingot': make(({ rect, px }) => { rect(3,6,10,5,'#d87848'); rect(4,5,8,2,'#e88858'); px(4,6,'#f8b890'); px(5,7,'#f8b890'); rect(3,11,10,1,'#a85830'); rect(12,7,1,3,'#a85830'); }),
@@ -279,6 +282,7 @@ const icons = {
 const ALIAS = {
   'how-to-get-redstone':'redstone-dust','how-to-get-lapis':'lapis','how-to-get-coal':'coal-lump',
   'how-to-get-quartz':'quartz-crystal','how-to-get-glowstone':'glowstone-block','how-to-get-gunpowder':'gunpowder-pile',
+  'how-to-get-shulker-box':'shulker-box-icon','how-to-get-prismarine':'prismarine-shard-icon','how-to-get-magma-cream':'magma-cream-blob',
   'how-to-get-sugar-cane':'sugar-cane','how-to-get-cactus':'cactus','how-to-find-pale-garden':'pale-oak',
   'how-to-get-pumpkin':'pumpkin','how-to-get-clay':'clay','how-to-find-mangrove-swamp':'mangrove-tree',
   'how-to-get-leather':'leather','how-to-get-bamboo':'bamboo','how-to-find-cherry-grove':'cherry-tree',
