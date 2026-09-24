@@ -2878,5 +2878,155 @@
    }
   ],
   "keywords": "hopper minecraft craft 5 iron chest automatización transferir objetos 2.5 por segundo bloqueo redstone furnace granja"
+ },
+ "how-to-make-bed": {
+  "name": "Cómo hacer un Bed en Minecraft",
+  "shortTitle": "Hacer un Bed",
+  "quickAnswer": "Craftea un bed con 3 wool del mismo color en una fila sobre 3 planks de cualquier madera. Duerme de noche (o durante una thunderstorm) para saltar a la mañana y fijar tu punto de respawn, pero nunca intentes dormir en el Nether o en el End: la cama explota con más potencia que el TNT.",
+  "steps": [
+   "Consigue 3 wool del mismo color: esquila ovejas con shears (1-3 wool cada una, y les vuelve a crecer) o mátalas para 1. Las tres piezas tienen que coincidir: los colores mezclados no craftean.",
+   "Tala cualquier árbol para 3 planks; puedes mezclar tipos de madera.",
+   "Craftéala: la wool del mismo color llenando la fila central y las 3 planks llenando la fila inferior. La cama toma el color de la wool.",
+   "Duerme de noche: usa la cama cuando oscurezca (o durante una thunderstorm, a cualquier hora). Tras unos 5 segundos es de día, la lluvia y la nieve paran y los phantoms se reinician.",
+   "Fija tu respawn: dormir con éxito fija tu punto de reaparición en la cama. Si luego la cama se rompe o queda bloqueada, reaparecerás en el spawn del mundo.",
+   "Aleja a los monstruos: no puedes dormir si un mob hostil está a menos de 8 bloques en horizontal y 5 en vertical del cabecero de la cama: ilumina y asegura la habitación primero.",
+   "NUNCA en el Nether ni en el End: usar una cama ahí la hace explotar con potencia 5 (más que el TNT, 4) y prende fuego a todo. En el Nether usa un respawn anchor.",
+   "Ayuda también a los villagers: los villagers duermen en camas por la noche y necesitan camas libres para criar: una cama es el núcleo de cualquier criadero de villagers o village."
+  ],
+  "materials": [
+   "3 wool del mismo color",
+   "3 planks de cualquier madera"
+  ],
+  "editionNote": "Funciona igual en ambas ediciones, explosiones incluidas; en Bedrock puedes desactivar las explosiones de camas con el gamerule respawnBlocksExplode. Un detalle de Bedrock: las camas con waterlogging necesitan Water Breathing o Conduit Power para dormir en ellas.",
+  "versions": "Las beds se añadieron en Java Beta 1.3 y en Pocket Edition 0.4.0, todas rojas al principio; los 16 colores llegaron en Java 1.12. La variante straw bed llegó en 26.10.",
+  "faq": [
+   {
+    "q": "¿Por qué explota mi cama en el Nether?",
+    "a": "Es diseño intencionado del juego: las camas solo funcionan en el Overworld. Usar una en el Nether, el End o una dimensión personalizada donde estén desactivadas la detona con potencia de explosión 5 y prende fuegos. Usa un respawn anchor (crying obsidian + glowstone) para fijar el respawn en el Nether."
+   },
+   {
+    "q": "¿Por qué no puedo dormir? Dice 'monsters nearby'.",
+    "a": "Un mob hostil está a menos de 8 bloques en horizontal y 5 en vertical del cabecero, incluso a través de paredes. Mátalo o mueve la cama; iluminar la zona evita nuevos spawns."
+   },
+   {
+    "q": "¿Importa el color de la cama?",
+    "a": "Solo estéticamente. Los 16 colores funcionan igual, y puedes teñir una cama ya hecha con un dye en vez de craftear una nueva."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-shield",
+   "how-to-get-xp-fast"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Straw Bed",
+    "href": "/es/items/straw-bed/"
+   },
+   {
+    "label": "Sheep",
+    "href": "/es/mobs/sheep/"
+   }
+  ],
+  "keywords": "bed minecraft craft 3 wool planks dormir respawn explota nether monsters nearby colores"
+ },
+ "how-to-make-compass": {
+  "name": "Cómo hacer un Compass en Minecraft",
+  "shortTitle": "Hacer un Compass",
+  "quickAnswer": "Craftea un compass con 4 iron ingots alrededor de 1 redstone dust en forma de cruz. Siempre apunta al spawn del mundo; úsalo sobre un lodestone para que apunte a ese lodestone en su lugar, incluso en el Nether o en el End.",
+  "steps": [
+   "Funde 4 iron ingots y mina 1 redstone dust (redstone ore por debajo de Y 16, con iron pickaxe o mejor).",
+   "Craftéalo: redstone dust en el centro y iron ingots arriba, abajo, a la izquierda y a la derecha, en forma de cruz.",
+   "Léelo: la aguja roja siempre apunta al spawn del mundo, el lugar donde apareciste la primera vez, no a tu cama. Llévalo en la mano o míralo en el inventario; funciona desde cualquier punto del Overworld.",
+   "En el Nether y en el End un compass normal gira sin sentido y no sirve: aquí es donde entra el lodestone.",
+   "Haz un lodestone compass: craftea o encuentra un lodestone (1 netherite ingot + 8 chiseled stone bricks, o saquéalo en bastion remnants), colócalo y usa tu compass sobre él. El compass apuntará a ese lodestone para siempre, en cualquier dimensión.",
+   "Recupéralo si el lodestone se rompe: un lodestone compass cuyo lodestone se destruye vuelve a girar sin sentido hasta que lo vincules de nuevo.",
+   "Conoce las variantes: el recovery compass (compass + 8 echo shards de las ancient cities) apunta a tu última muerte; es un objeto distinto, crafteado, no vinculado."
+  ],
+  "materials": [
+   "4 iron ingots",
+   "1 redstone dust",
+   "Para un lodestone compass: + 1 lodestone (1 netherite ingot + 8 chiseled stone bricks)"
+  ],
+  "editionNote": "Idéntico en ambas ediciones, incluida la vinculación con lodestone. La animación de la aguja cambia un poco (104 fotogramas en Java, 28 en Bedrock), puramente cosmético.",
+  "versions": "Los compasses se añadieron en Java Alpha 1.1.0 y se volvieron funcionales en Pocket Edition 0.8.0; los lodestone compasses llegaron con los lodestones en 1.16.",
+  "faq": [
+   {
+    "q": "¿Por qué mi compass no apunta a mi cama?",
+    "a": "Nunca lo hace: un compass apunta al spawn del mundo, el punto fijo donde empezó el mundo. Para un punto de referencia personal, vincula el compass a un lodestone colocado en tu base."
+   },
+   {
+    "q": "¿Por qué mi compass gira en círculos?",
+    "a": "O estás en el Nether o en el End, donde los compasses normales no funcionan, o tu lodestone compass ha perdido su lodestone. Vincúlalo a un lodestone en la dimensión que estés explorando."
+   },
+   {
+    "q": "¿Qué diferencia hay entre un compass y un recovery compass?",
+    "a": "El compass normal apunta al spawn del mundo (o a su lodestone). El recovery compass, compass más 8 echo shards, apunta a donde moriste por última vez, y solo funciona para el jugador que murió, en la misma dimensión."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-find-ancient-city"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Echo Shard",
+    "href": "/es/items/echo-shard/"
+   },
+   {
+    "label": "Redstone Dust",
+    "href": "/es/items/redstone-dust/"
+   }
+  ],
+  "keywords": "compass minecraft craft 4 iron redstone spawn del mundo lodestone compass nether recovery compass waypoint"
+ },
+ "how-to-make-fishing-rod": {
+  "name": "Cómo hacer un Fishing Rod en Minecraft",
+  "shortTitle": "Hacer un Fishing Rod",
+  "quickAnswer": "Craftea un fishing rod con 3 sticks en diagonal y 2 string colgando del último. Lánzala al agua, vigila el bobber por burbujas y un chapoteo, y recoge: pescado, trastos o tesoros como enchanted books, name tags y nautilus shells.",
+  "steps": [
+   "Consigue 3 sticks (craftea 2 planks en 4 sticks) y 2 string de spiders, cobwebs o regalos de tu cat.",
+   "Craftéala: sticks en diagonal de abajo a la izquierda a arriba a la derecha, con un string bajo el stick del medio y otro bajo el de arriba.",
+   "Lánzala a cualquier agua: usa la caña para echar el bobber. Rivers, oceans, charcas, incluso un agujero de agua de 1x1 funcionan.",
+   "Espera las burbujas: una estela de burbujas nada hacia el bobber; cuando se hunda con un sonido de chapoteo, recoge inmediatamente.",
+   "Conoce la tabla de botín: la mayoría de las capturas son pescado (cod, salmon, tropical fish, pufferfish), parte es basura, y alrededor del 5% es tesoro: enchanted books y bows, name tags, nautilus shells, saddles y más.",
+   "Encántala: Luck of the Sea mejora las probabilidades de tesoro, Lure acorta la espera, y Unbreaking y Mending la mantienen viva para siempre. La caña tiene 64 de durabilidad en Java, 385 en Bedrock.",
+   "Engancha mobs también: la caña agarra mobs y objetos (Java) y los arrastra hacia ti sin hacer daño: un gancho pobre pero útil para tirar mobs por los acantilados.",
+   "Haz un carrot on a stick: craftea la caña con una carrot para dirigir pigs (o warped fungus para striders en el Nether). Cuando se gasta, vuelve a convertirse en fishing rod."
+  ],
+  "materials": [
+   "3 sticks",
+   "2 string (spiders, cobwebs o regalos de tu cat)"
+  ],
+  "editionNote": "La mecánica es la misma, pero la durabilidad cambia mucho: 64 usos en Java, 385 en Bedrock. En Java la caña puede enganchar objetos sueltos; en Bedrock un bobber en llamas puede prender fuego a los mobs enganchados.",
+  "versions": "Las fishing rods se añadieron en Java Alpha 1.1.1 y en Pocket Edition 0.11.0; las tablas de tesoro y basura llegaron en Java 1.7.2.",
+  "faq": [
+   {
+    "q": "¿Qué se puede conseguir pescando en Minecraft?",
+    "a": "Pescado (raw cod, salmon, tropical fish, pufferfish), basura (lily pads, bowls, leather, sticks...) y tesoro (enchanted books, bows y cañas encantadas, name tags, nautilus shells, saddles). Luck of the Sea casi triplica la tasa de tesoro."
+   },
+   {
+    "q": "¿Por qué pescar es tan lento?",
+    "a": "La espera base es de 5 a 30 segundos por captura. Lure III la recorta mucho, y pescar en aguas abiertas (con el cielo directo encima) es más rápido; la lluvia también acorta la espera."
+   },
+   {
+    "q": "¿Puedo reparar un fishing rod?",
+    "a": "Sí: combina dos cañas gastadas en la cuadrícula de crafteo o usa un anvil. Mejor aún, ponle Mending a una buena y cada captura la repara con XP."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-get-mending",
+   "how-to-enchant"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Nautilus Shell",
+    "href": "/es/items/nautilus-shell/"
+   },
+   {
+    "label": "Saddle",
+    "href": "/es/items/saddle/"
+   }
+  ],
+  "keywords": "fishing rod minecraft craft 3 sticks 2 string pescar tesoro enchanted book luck of the sea lure nautilus shell"
  }
 }

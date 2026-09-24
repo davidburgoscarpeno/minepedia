@@ -3151,5 +3151,158 @@
    }
   ],
   "keywords": "hopper minecraft craft 5 iron chest automation item transfer 2.5 items per second redstone lock furnace farm"
+ },
+ {
+  "slug": "how-to-make-bed",
+  "name": "How to Make a Bed in Minecraft",
+  "shortTitle": "Make a Bed",
+  "quickAnswer": "Craft a bed with 3 matching wool in a row over 3 planks of any wood. Sleep at night (or during a thunderstorm) to skip to morning and set your respawn point - but never try to sleep in the Nether or the End: the bed explodes with more power than TNT.",
+  "steps": [
+   "Get 3 wool of the same color: shear sheep (1-3 wool each, and they regrow it) or kill them for 1. All three pieces must match - mixed colors do not craft.",
+   "Chop any tree for 3 planks; mixing wood types is fine.",
+   "Craft it: the 3 matching wool filling the middle row, the 3 planks filling the bottom row. The bed takes the wool's color.",
+   "Sleep at night: use the bed when it gets dark (or during a thunderstorm, at any hour). After about 5 seconds it is morning, rain and snow stop, and phantoms reset.",
+   "Set your respawn: a successful sleep sets your spawn point to the bed. If the bed is later broken or blocked, you respawn at world spawn instead.",
+   "Keep monsters away: you cannot sleep if a hostile mob is within 8 blocks horizontally and 5 vertically of the bed head - light up and secure the room first.",
+   "NEVER in the Nether or the End: using a bed there makes it explode with power 5 (stronger than TNT's 4) and sets everything on fire. In the Nether, use a respawn anchor instead.",
+   "Help villagers too: villagers sleep in beds at night and need spare beds to breed - a bed is the core of any villager breeder or village."
+  ],
+  "materials": [
+   "3 wool of the same color",
+   "3 planks of any wood"
+  ],
+  "editionNote": "Works the same in both editions, explosions included - in Bedrock you can disable bed explosions with the respawnBlocksExplode gamerule. One Bedrock quirk: waterlogged beds need Water Breathing or Conduit Power to sleep in.",
+  "versions": "Beds were added in Java Beta 1.3 and Pocket Edition 0.4.0 - all red at first; the 16 colors arrived in Java 1.12. The straw bed variant arrived in 26.10.",
+  "faq": [
+   {
+    "q": "Why does my bed explode in the Nether?",
+    "a": "Intentional game design: beds only work in the Overworld. Using one in the Nether, the End or a disabled custom dimension detonates it with explosion power 5 and sets fires. Use a respawn anchor (crying obsidian + glowstone) to set a Nether spawn point."
+   },
+   {
+    "q": "Why can't I sleep - 'monsters nearby'?",
+    "a": "A hostile mob is within 8 blocks horizontally and 5 vertically of the bed's head, even through walls. Kill it or move the bed; lighting the area stops new spawns."
+   },
+   {
+    "q": "Does the bed color matter?",
+    "a": "Only cosmetically. All 16 colors work identically, and you can re-dye an existing bed with one dye instead of crafting a new one."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-shield",
+   "how-to-get-xp-fast"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Straw Bed",
+    "href": "/items/straw-bed/"
+   },
+   {
+    "label": "Sheep",
+    "href": "/mobs/sheep/"
+   }
+  ],
+  "keywords": "bed minecraft craft 3 wool planks sleep respawn point explode nether monsters nearby colors"
+ },
+ {
+  "slug": "how-to-make-compass",
+  "name": "How to Make a Compass in Minecraft",
+  "shortTitle": "Make a Compass",
+  "quickAnswer": "Craft a compass with 4 iron ingots around 1 redstone dust in a plus shape. It always points to your world spawn point; use it on a lodestone to make it point to that lodestone instead, even in the Nether or the End.",
+  "steps": [
+   "Smelt 4 iron ingots and mine 1 redstone dust (redstone ore below Y 16, iron pickaxe or better).",
+   "Craft it: redstone dust in the center, iron ingots above, below, left and right - a plus shape.",
+   "Read it: the red needle always points to your world spawn point - the place you first appeared, not your bed. Hold it in your hand or watch it in the inventory; it works from anywhere in the Overworld.",
+   "In the Nether and the End a normal compass spins randomly and is useless - this is where the lodestone comes in.",
+   "Make a lodestone compass: craft or find a lodestone (1 netherite ingot + 8 chiseled stone bricks, or loot one in bastion remnants), place it, and use your compass on it. The compass now points to that lodestone forever, in any dimension.",
+   "Recover it if the lodestone breaks: a lodestone compass whose lodestone is destroyed spins randomly again until re-linked.",
+   "Know the variants: the recovery compass (compass + 8 echo shards from ancient cities) points to your last death location instead - a different item, crafted, not linked."
+  ],
+  "materials": [
+   "4 iron ingots",
+   "1 redstone dust",
+   "For a lodestone compass: + 1 lodestone (1 netherite ingot + 8 chiseled stone bricks)"
+  ],
+  "editionNote": "Identical in both editions, lodestone linking included. The needle animation differs slightly (104 frames in Java, 28 in Bedrock) - purely cosmetic.",
+  "versions": "Compasses were added in Java Alpha 1.1.0 and became functional in Pocket Edition 0.8.0; lodestone compasses arrived with lodestones in 1.16.",
+  "faq": [
+   {
+    "q": "Why does my compass not point to my bed?",
+    "a": "It never does - a compass points to world spawn, the fixed point where the world started. For a personal waypoint, link the compass to a lodestone placed at your base."
+   },
+   {
+    "q": "Why does my compass spin in circles?",
+    "a": "Either you are in the Nether or the End, where normal compasses do not work, or your lodestone compass lost its lodestone. Link it to a lodestone in the dimension you are exploring."
+   },
+   {
+    "q": "What is the difference between a compass and a recovery compass?",
+    "a": "The normal compass points to world spawn (or its lodestone). The recovery compass - compass plus 8 echo shards - points to where you last died, and only works for the player who died, in the same dimension."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-find-ancient-city"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Echo Shard",
+    "href": "/items/echo-shard/"
+   },
+   {
+    "label": "Redstone Dust",
+    "href": "/items/redstone-dust/"
+   }
+  ],
+  "keywords": "compass minecraft craft 4 iron redstone world spawn lodestone compass nether recovery compass waypoint"
+ },
+ {
+  "slug": "how-to-make-fishing-rod",
+  "name": "How to Make a Fishing Rod in Minecraft",
+  "shortTitle": "Make a Fishing Rod",
+  "quickAnswer": "Craft a fishing rod with 3 sticks diagonally and 2 string hanging from the last one. Cast into water, watch the bobber for bubbles and a splash, then reel in - fish, junk or treasure like enchanted books, name tags and nautilus shells.",
+  "steps": [
+   "Get 3 sticks (craft 2 planks into 4 sticks) and 2 string from spiders, cobwebs or cat gifts.",
+   "Craft it: sticks in a diagonal from bottom-left to top-right, with one string under the middle stick and another under the top one.",
+   "Cast into any water: use the rod to throw the bobber out. Rivers, oceans, ponds, even a 1x1 water hole all work.",
+   "Wait for bubbles: a trail of bubbles swims toward the bobber - when it dips with a splash sound, reel in immediately.",
+   "Know the loot table: most catches are fish (cod, salmon, tropical fish, pufferfish), some are junk, and about 5% is treasure: enchanted books and bows, name tags, nautilus shells, saddles and more.",
+   "Enchant it: Luck of the Sea shifts the odds toward treasure, Lure cuts the waiting time, Unbreaking and Mending keep it alive forever. The rod has 64 durability in Java, 385 in Bedrock.",
+   "Hook mobs too: the rod grabs mobs and items (Java) and reels them toward you without damage - a poor man's grappling hook for pulling mobs off cliffs.",
+   "Make a carrot on a stick: craft the rod with a carrot to steer pigs (or warped fungus for striders in the Nether). When it wears out, it turns back into a fishing rod."
+  ],
+  "materials": [
+   "3 sticks",
+   "2 string (spiders, cobwebs or cat gifts)"
+  ],
+  "editionNote": "Mechanics are the same, but durability differs wildly: 64 uses in Java, 385 in Bedrock. In Java the rod can hook loose item entities; in Bedrock a flaming bobber can set hooked mobs on fire.",
+  "versions": "Fishing rods were added in Java Alpha 1.1.1 and Pocket Edition 0.11.0; the treasure and junk loot tables arrived in Java 1.7.2.",
+  "faq": [
+   {
+    "q": "What can you get from fishing in Minecraft?",
+    "a": "Fish (raw cod, salmon, tropical fish, pufferfish), junk (lily pads, bowls, leather, sticks...) and treasure (enchanted books, enchanted bows and rods, name tags, nautilus shells, saddles). Luck of the Sea nearly triples the treasure rate."
+   },
+   {
+    "q": "Why is fishing so slow?",
+    "a": "Base wait is 5 to 30 seconds per catch. Lure III cuts it dramatically, and fishing in open water (direct sky above) is faster - rain shortens the wait too."
+   },
+   {
+    "q": "Can I repair a fishing rod?",
+    "a": "Yes: combine two damaged rods in a crafting grid, or use an anvil. Better, put Mending on a good one and every catch repairs it with XP."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-get-mending",
+   "how-to-enchant"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Nautilus Shell",
+    "href": "/items/nautilus-shell/"
+   },
+   {
+    "label": "Saddle",
+    "href": "/items/saddle/"
+   }
+  ],
+  "keywords": "fishing rod minecraft craft 3 sticks 2 string fishing treasure enchanted book luck of the sea lure nautilus shell"
  }
 ]

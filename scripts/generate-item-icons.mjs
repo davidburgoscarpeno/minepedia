@@ -243,7 +243,8 @@ const ALIAS = {
   'end-city':'how-to-find-end-city','buried-treasure':'chest',
   'title-panorama-113':'title-panorama-original','title-panorama-119':'title-panorama-118',
   'how-to-make-brewing-stand':'brewing-stand','how-to-make-bookshelf':'bookshelf','how-to-make-piston':'piston',
-  'how-to-make-anvil':'anvil','how-to-make-tnt':'tnt'
+  'how-to-make-anvil':'anvil','how-to-make-tnt':'tnt',
+  'how-to-make-bed':'bed','how-to-make-compass':'compass','how-to-make-fishing-rod':'fishing-rod'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
