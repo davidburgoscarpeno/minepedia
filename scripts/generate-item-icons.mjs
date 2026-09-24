@@ -47,6 +47,9 @@ const icons = {
   'sugar-cane': make(({ rect, px }) => { rect(4,1,2,14,'#a8c868'); rect(5,1,1,14,'#c0d880'); rect(9,3,2,12,'#a8c868'); rect(10,3,1,12,'#c0d880'); rect(3,4,3,1,'#88a848'); rect(8,8,3,1,'#88a848'); rect(3,11,3,1,'#88a848'); px(11,2,'#d8e898'); px(3,2,'#d8e898'); px(12,6,'#a8c868'); px(2,7,'#a8c868'); }),
   'cactus': make(({ rect, px }) => { rect(6,2,4,12,'#4a8a3a'); rect(7,2,2,12,'#5a9a48'); rect(3,6,3,2,'#4a8a3a'); rect(2,4,2,4,'#4a8a3a'); rect(10,9,3,2,'#4a8a3a'); rect(12,7,2,4,'#4a8a3a'); px(3,5,'#5a9a48'); px(12,8,'#5a9a48'); px(7,4,'#78b860'); px(8,8,'#78b860'); px(7,11,'#78b860'); px(13,6,'#f0a0c0'); }),
   'pale-oak': make(({ rect, px }) => { rect(7,9,2,6,'#b0a898'); rect(4,2,8,6,'#d8d4c8'); rect(3,4,10,3,'#d8d4c8'); px(5,3,'#e8e4dc'); px(9,5,'#e8e4dc'); px(7,6,'#c0bcb0'); px(11,4,'#c0bcb0'); px(4,6,'#c0bcb0'); px(6,2,'#e8e4dc'); rect(6,14,4,1,'#909088'); px(6,8,'#8a8a80'); }),
+  'redstone-dust': make(({ rect, px }) => { rect(4,6,8,4,'#c82020'); rect(3,7,10,2,'#c82020'); rect(5,5,6,6,'#a81818'); px(6,6,'#f04040'); px(9,8,'#f04040'); px(5,9,'#f04040'); px(7,7,'#e03030'); px(11,7,'#901010'); px(2,8,'#901010'); px(8,4,'#d82828'); px(6,11,'#b02020'); }),
+  'lapis': make(({ rect, px }) => { rect(4,3,8,10,'#1a3a8a'); rect(3,5,10,6,'#1a3a8a'); rect(5,4,6,8,'#2a4aa8'); rect(4,6,8,4,'#2a4aa8'); px(6,5,'#4a6ad0'); px(8,7,'#4a6ad0'); px(5,9,'#10265a'); px(10,6,'#10265a'); px(7,10,'#10265a'); px(6,4,'#6888e0'); px(9,9,'#10265a'); }),
+  'coal-lump': make(({ rect, px }) => { rect(4,4,8,8,'#1e1e1e'); rect(3,5,10,6,'#1e1e1e'); rect(5,3,6,10,'#1e1e1e'); rect(5,5,6,6,'#2e2e2e'); px(6,5,'#484848'); px(9,7,'#484848'); px(5,8,'#101010'); px(10,9,'#101010'); px(7,10,'#484848'); px(6,4,'#585858'); }),
   'sponge': make(({ rect, px }) => { rect(2,2,12,12,'#c8a828'); rect(3,3,10,10,'#d8b838'); px(4,4,'#8a7018'); px(8,5,'#8a7018'); px(11,4,'#8a7018'); px(5,8,'#8a7018'); px(10,9,'#8a7018'); px(7,11,'#8a7018'); px(12,12,'#8a7018'); px(4,12,'#8a7018'); px(6,5,'#b89420'); }),
   'turtle': make(({ rect, px }) => { rect(4,5,8,5,'#4a7a3a'); rect(5,4,6,2,'#5a8a4a'); rect(5,10,6,1,'#3a6a2a'); px(6,6,'#c8b880'); px(8,7,'#c8b880'); px(10,6,'#c8b880'); rect(12,6,3,3,'#6a9a5a'); px(13,7,'#1a1a1a'); rect(3,10,2,2,'#6a9a5a'); rect(11,11,2,2,'#6a9a5a'); rect(5,12,2,2,'#6a9a5a'); }),
   'copper-ingot': make(({ rect, px }) => { rect(3,6,10,5,'#d87848'); rect(4,5,8,2,'#e88858'); px(4,6,'#f8b890'); px(5,7,'#f8b890'); rect(3,11,10,1,'#a85830'); rect(12,7,1,3,'#a85830'); }),
@@ -271,6 +274,7 @@ const icons = {
 
 // aliases: guide/structure/seed slugs reusing existing drawings
 const ALIAS = {
+  'how-to-get-redstone':'redstone-dust','how-to-get-lapis':'lapis','how-to-get-coal':'coal-lump',
   'how-to-get-sugar-cane':'sugar-cane','how-to-get-cactus':'cactus','how-to-find-pale-garden':'pale-oak',
   'how-to-get-pumpkin':'pumpkin','how-to-get-clay':'clay','how-to-find-mangrove-swamp':'mangrove-tree',
   'how-to-get-leather':'leather','how-to-get-bamboo':'bamboo','how-to-find-cherry-grove':'cherry-tree',
