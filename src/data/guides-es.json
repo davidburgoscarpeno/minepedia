@@ -4059,5 +4059,158 @@
    }
   ],
   "keywords": "golden apple minecraft craft 8 gold ingots apple absorption regeneration curar zombie villager weakness notch apple"
+ },
+ "how-to-make-sticky-piston": {
+  "name": "Cómo hacer un Sticky Piston en Minecraft",
+  "shortTitle": "Hacer un Sticky Piston",
+  "quickAnswer": "Craftea un sticky piston con 1 slimeball encima de un piston. Empuja bloques como un piston normal pero también tira de un bloque al retraerse: el músculo de toda puerta oculta, elevador y flying machine.",
+  "steps": [
+   "Craftea primero un piston: 3 planks arriba, cobblestone en los laterales y esquinas inferiores, un iron ingot en el centro y redstone dust debajo.",
+   "Consigue una slimeball: mata slimes; aparecen en swamps de noche (más con luna llena) y por debajo de Y=40 en los slime chunks. Los slimes pequeños sueltan 0-2 slimeballs.",
+   "Combínalos: slimeball justo encima del piston en cualquier posición de la cuadrícula. Una slimeball, un sticky piston.",
+   "Empuja Y tira: al recibir corriente se extiende y empuja hasta 12 bloques; al cortarse se retrae y arrastra el bloque frente a su cara. Ese tirón es todo el punto.",
+   "Aprende el escupitajo: en Java, un pulso de 1 tick hace que el sticky piston se extienda y retraiga tan rápido que DEJA el bloque atrás: el famoso 'block dropping' de las flying machines y los TNT dupers.",
+   "Aliado de los slime blocks: los slime blocks se pegan entre sí y a casi todos los bloques (no a los honey blocks), así que un sticky piston más slime blocks mueve estructuras enteras. Los honey blocks hacen lo mismo sin pegarse al slime.",
+   "Construye los clásicos: puertas ocultas de pistons 2x2 y 3x3, suelos retráctiles, escaleras enrasadas, elevadores de objetos y muros instantáneos empiezan todos con una fila de sticky pistons.",
+   "Encuéntralos gratis: los jungle temples contienen 3 sticky pistons en su mecanismo de trampa: desarma el tripwire y llévatelos."
+  ],
+  "materials": [
+   "1 piston",
+   "1 slimeball (slimes en swamps o slime chunks por debajo de Y=40)"
+  ],
+  "editionNote": "El famoso escupitajo de bloques con pulso de 1 tick es solo de Java: los sticky pistons de Bedrock siempre tiran de su bloque, lo que rompe algunas flying machines de Java pero permite otras cosas, como mover tile entities (los pistons de Bedrock pueden empujar chests y furnaces).",
+  "versions": "Los sticky pistons se añadieron junto a los pistons en Java Beta 1.7 y en Pocket Edition 0.15.0, la 'Friendly Update'.",
+  "faq": [
+   {
+    "q": "¿Cómo se consiguen slimeballs en Minecraft?",
+    "a": "Mata slimes: aparecen en el bioma swamp de noche (mejor con luna llena) y por debajo de Y=40 en los slime chunks especiales. Los estornudos de los pandas también pueden soltar slimeballs, y los wandering traders a veces las venden."
+   },
+   {
+    "q": "¿Sticky piston o piston? ¿Qué diferencia hay?",
+    "a": "Un piston normal empuja bloques pero los deja ahí al retraerse. Un sticky piston también tira del bloque que toca su cara un espacio hacia atrás. Necesitas el pegamento para todo lo que tenga que abrir Y cerrar."
+   },
+   {
+    "q": "¿Por qué mi sticky piston ha dejado el bloque atrás?",
+    "a": "En Java, un pulso de exactamente 1 tick hace que el piston se extienda y retraiga al instante, escupiendo el bloque en vez de tirar de él. Es una mecánica usada a propósito en flying machines: dale un pulso más largo si quieres recuperar el bloque."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-piston",
+   "how-to-find-slimes",
+   "how-to-make-hopper"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Slime",
+    "href": "/es/mobs/slime/"
+   },
+   {
+    "label": "Slimeball",
+    "href": "/es/items/slimeball/"
+   }
+  ],
+  "keywords": "sticky piston minecraft craft slimeball piston redstone puerta oculta flying machine 1 tick slime blocks jungle temple"
+ },
+ "how-to-make-clock": {
+  "name": "Cómo hacer un Clock en Minecraft",
+  "shortTitle": "Hacer un Clock",
+  "quickAnswer": "Craftea un clock con 4 gold ingots alrededor de 1 redstone dust en forma de cruz. Su esfera muestra la posición del sol y la luna: sabe cuándo cae la noche sin salir a la superficie. Inútil en el Nether y el End, donde solo gira.",
+  "steps": [
+   "Consigue 4 gold ingots: mina gold ore (las badlands tienen montones), funde raw gold o craftea 9 nuggets por lingote.",
+   "Mina 1 redstone dust: redstone ore por debajo de Y=16, con iron pickaxe o mejor.",
+   "Craftéalo: redstone dust en el centro y gold ingots arriba, abajo, a la izquierda y a la derecha, en forma de cruz.",
+   "Lee la esfera: la mitad dorada del sol y la mitad oscura de la luna giran en sentido horario, igualando el cielo real. Día arriba = de día; luna asomando = vete a casa o prepara un bed.",
+   "Úsalo bajo tierra: el clock funciona en cualquier punto del Overworld: en tu inventario, en item frames, incluso en un chest. Picar sin salir a mirar la hora es su trabajo principal.",
+   "Conoce sus límites: en el Nether y en el End la esfera gira sin sentido: esas dimensiones no tienen ciclo de día y noche.",
+   "Truco para dormir: puedes dormir unos segundos después de que el clock marque el anochecer exacto: espera al momento en que la mitad del sol se pone del todo.",
+   "A los piglins les encantan: los piglins corren a recoger clocks y los inspeccionan: un clock literalmente merece su atención, aunque los gold ingots dan mejor bartering."
+  ],
+  "materials": [
+   "4 gold ingots",
+   "1 redstone dust"
+  ],
+  "editionNote": "Idéntico en ambas ediciones. Una pequeña diferencia: los piglins inspeccionan los clocks durante 6 segundos en Java pero 8 en Bedrock. La esfera del clock tiene menos fotogramas de animación en Bedrock que en Java.",
+  "versions": "Los clocks se añadieron en Java Alpha v1.2.0 y en Pocket Edition 0.2.0.",
+  "faq": [
+   {
+    "q": "¿Para qué sirve un clock en Minecraft?",
+    "a": "Para saber la hora bajo tierra. Minar todo el día significa salir a monstruos sorpresa: un vistazo al clock te dice si es seguro subir o mejor seguir picando y esperar a que pase la noche."
+   },
+   {
+    "q": "¿Por qué mi clock gira en círculos?",
+    "a": "Estás en el Nether o en el End, donde no hay ciclo de día y noche y los clocks (como los compasses) giran sin sentido. Solo funcionan en el Overworld."
+   },
+   {
+    "q": "¿Clock o bed? ¿Cómo me salto la noche?",
+    "a": "Un clock te dice CUÁNDO dormir; el bed hace el salto. Duerme en el momento en que el clock marque el anochecer completo y te saltarás la noche lo antes que el juego permite."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-compass",
+   "how-to-make-bed",
+   "how-to-find-diamonds"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Gold Ingot",
+    "href": "/es/items/gold-ingot/"
+   },
+   {
+    "label": "Piglin",
+    "href": "/es/mobs/piglin/"
+   }
+  ],
+  "keywords": "clock minecraft craft 4 gold redstone saber la hora día noche bajo tierra nether gira piglin bed dormir"
+ },
+ "how-to-make-diamond-pickaxe": {
+  "name": "Cómo hacer un Diamond Pickaxe en Minecraft",
+  "shortTitle": "Hacer un Diamond Pickaxe",
+  "quickAnswer": "Craftea un diamond pickaxe con 3 diamonds en la fila superior y 2 sticks en el centro. Es el primer pickaxe que puede minar obsidian y ancient debris, dura 1.561 usos y mejora a netherite en una smithing table.",
+  "steps": [
+   "Mina 3 diamonds: diamond ore por debajo de Y=16, más denso alrededor de Y=-59, con iron pickaxe o mejor obligatoriamente. Haz strip mining en Y=-59 o explora cuevas de las capas de deepslate.",
+   "Consigue 2 sticks: 2 planks = 4 sticks.",
+   "Craftéalo: diamonds llenando la fila superior, un stick en el centro y otro debajo.",
+   "Mina lo que nada más puede: obsidian (para portales del Nether y enchanting tables), crying obsidian, ancient debris, respawn anchors y bloques de netherite requieren nivel diamond o superior.",
+   "Respeta la durabilidad: 1.561 usos en Java, 1.562 en Bedrock. No lo gastes en tierra y piedra: usa un pickaxe de iron para el picado diario y guarda el diamond para lo bueno.",
+   "Encántalo cuanto antes: Fortune III multiplica los drops de menas (hasta 4x diamonds), Efficiency V lo convierte en una trituradora de deepslate, Silk Touch recoge bloques enteros, y Mending más Unbreaking III lo hace casi eterno.",
+   "Repáralo: combina dos diamond pickaxes en un anvil o ponle Mending y repáralo con XP. Las reparaciones en la cuadrícula de crafteo funcionan pero borran los encantamientos.",
+   "Mejóralo después: una smithing table con una netherite upgrade template y 1 netherite ingot lo convierte en netherite pickaxe: conserva los encantamientos y gana durabilidad y resistencia al knockback."
+  ],
+  "materials": [
+   "3 diamonds",
+   "2 sticks"
+  ],
+  "editionNote": "Idéntico en ambas ediciones (la durabilidad difiere en un solo uso: 1.561 en Java, 1.562 en Bedrock). La velocidad de minado es la misma: diamond mina con eficiencia 8, por debajo del 9 de netherite pero muy por encima del 6 de iron.",
+  "versions": "Los diamond pickaxes se añadieron a Java en Indev 0.31 el 28 de enero de 2010 (crafteables desde el 29), el día en que las herramientas recibieron niveles, y a Pocket Edition 0.2.0.",
+  "faq": [
+   {
+    "q": "¿Qué puede minar un diamond pickaxe que uno de iron no puede?",
+    "a": "Obsidian, crying obsidian, ancient debris, bloques de netherite y respawn anchors: el nivel diamond es la puerta a los portales del Nether, las enchanting tables y el equipo de netherite."
+   },
+   {
+    "q": "¿Merece la pena encantar un diamond pickaxe antes del netherite?",
+    "a": "Sí: los encantamientos se conservan al mejorar a netherite en la smithing table. Un diamond pickaxe con Fortune III o Silk Touch nunca se desperdicia; usarás ambos para siempre."
+   },
+   {
+    "q": "¿Fortune o Silk Touch en un diamond pickaxe?",
+    "a": "Ambos, en dos pickaxes distintos si puedes: Fortune III para minar menas (diamonds, redstone, lapis, coal se multiplican), Silk Touch para recoger bloques enteros (stone, glass, bloques de mena, bee nests). Son mutuamente excluyentes en una misma herramienta."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-upgrade-netherite",
+   "how-to-enchant"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Diamond",
+    "href": "/es/items/diamond/"
+   },
+   {
+    "label": "Ancient Debris",
+    "href": "/es/items/ancient-debris/"
+   }
+  ],
+  "keywords": "diamond pickaxe minecraft craft 3 diamonds 2 sticks minar obsidian ancient debris durabilidad 1561 fortune silk touch mejora netherite"
  }
 }
