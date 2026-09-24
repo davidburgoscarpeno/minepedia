@@ -10246,5 +10246,182 @@
       }
     ],
     "keywords": "thorns minecraft, how to get thorns 3, thorns enchantment, thorns armor, is thorns worth it minecraft"
+  },
+  {
+    "slug": "how-to-get-respiration",
+    "name": "How to Get Respiration in Minecraft (Respiration III)",
+    "shortTitle": "Get Respiration",
+    "quickAnswer": "Respiration extends underwater breathing by 15 seconds per level on helmets and turtle shells - 60 seconds total at level III, plus a 75% chance each second to ignore drowning damage. Get it from enchanting tables, librarian trades, fishing, monster rooms or structure loot.",
+    "steps": [
+      "Enchant a helmet: Respiration rolls on enchanting tables for helmets (weight 2 - on the rarer side, so expect some rerolls). Max level III.",
+      "Trade with librarians: reroll a lectern until a Respiration book appears and lock it. Combine copies on an anvil up to III. (With the Villager Trade Rebalance experiment on, it's the swamp librarian's specialty.)",
+      "Fish and loot: fishing books, monster room chests and non-village structure loot carry it; Bedrock raid mobs drop enchanted books too.",
+      "Know the numbers: each level adds +15 seconds of air on top of the base 15 - that's 60 seconds total at Respiration III before drowning starts.",
+      "Drowning resistance: Respiration also gives a level/(level+1) chance each second to take NO drowning damage - 75% per second at level III, so even out of air you survive noticeably longer.",
+      "Stack a turtle shell: wearing one adds another 10 seconds of air on top, pushing Respiration III to 70 seconds underwater.",
+      "Old-vision note: Respiration used to improve underwater visibility, but that was removed in 1.13 - it's purely about air now.",
+      "Pair it with Aqua Affinity (underwater mining speed) on the same helmet for the full ocean kit."
+    ],
+    "materials": [
+      "A helmet (or turtle shell)",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for targeted books",
+      "Anvil and XP for combining to III"
+    ],
+    "editionNote": "Mechanics are identical in Java and Bedrock: +15 seconds per level, level/(level+1) chance to ignore drowning ticks. Bedrock's only extra source is raid mobs dropping enchanted books.",
+    "versions": "Added in Beta 1.9 Prerelease 4 (Java) and Pocket Edition v0.12.1 (Bedrock). The underwater-vision bonus was removed in 1.13, and since 1.21 the oxygen bonus shows as a tooltip and the enchant only works in the head slot.",
+    "faq": [
+      {
+        "q": "How long can you breathe underwater with Respiration III?",
+        "a": "Each level adds 15 seconds to the base 15, so Respiration III gives 60 seconds of air. Add a turtle shell for +10 more (70 total). On top of that, Respiration III gives a 75% chance each second to ignore drowning damage once your air runs out."
+      },
+      {
+        "q": "Does Respiration work on a turtle shell?",
+        "a": "Yes - turtle shells accept Respiration, and the shell's own +10 seconds of water breathing stacks with the enchantment for a combined 70 seconds at Respiration III."
+      },
+      {
+        "q": "Respiration vs Aqua Affinity - which is better?",
+        "a": "They do different jobs and both belong on the same helmet: Respiration extends your air, Aqua Affinity removes the 5x underwater mining-speed penalty. For ocean monument raids or underwater building you want both, plus Depth Strider on boots."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-aqua-affinity",
+      "how-to-get-depth-strider",
+      "how-to-enchant",
+      "how-to-make-conduit"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Respiration",
+        "href": "/enchantments/respiration/"
+      },
+      {
+        "label": "Ocean monument",
+        "href": "/structures/ocean-monument/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "respiration minecraft, how to get respiration 3, respiration enchantment, breathe underwater minecraft, turtle shell respiration"
+  },
+  {
+    "slug": "how-to-get-aqua-affinity",
+    "name": "How to Get Aqua Affinity in Minecraft",
+    "shortTitle": "Get Aqua Affinity",
+    "quickAnswer": "Aqua Affinity removes the 5x mining-speed penalty underwater - one level on a helmet or turtle shell and you mine at full speed with your head in water. Get it from enchanting tables, librarian trades, fishing, or structure and trial chamber vault loot.",
+    "steps": [
+      "Enchant a helmet: Aqua Affinity rolls on enchanting tables for helmets. It's max level I - one lucky roll and you're done, no anvil combining needed.",
+      "Trade with librarians: reroll a lectern until an Aqua Affinity book appears and lock it. Since it's single-level, the cheapest trade is all you need.",
+      "Fish and loot: fishing books and chests in desert pyramids, strongholds, ocean ruins, ancient cities, mansions, pillager outposts, mineshafts, monster rooms and jungle pyramids carry it - plus vaults in trial chambers. Bedrock raid mobs drop books too.",
+      "Know what it fixes: mining with your head underwater normally takes 5 times longer. Aqua Affinity grants +400% submerged mining speed, canceling the penalty completely.",
+      "Know what it does NOT fix: floating (not touching the ground) has its own separate 5x mining penalty, and Aqua Affinity doesn't touch it. Underwater AND floating means 25x slower - so stand on the seafloor or use Depth Strider and solid footing to work.",
+      "Apply it to a turtle shell too: shells accept Aqua Affinity, so your water-breathing helmet can also be your underwater mining helmet.",
+      "Build the ocean kit: Aqua Affinity (mining) + Respiration (air) on the helmet, Depth Strider on boots, and a conduit nearby for long projects."
+    ],
+    "materials": [
+      "A helmet (or turtle shell)",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for the book",
+      "No anvil chain needed - max level I"
+    ],
+    "editionNote": "Identical effect in Java and Bedrock at level I: the 5x underwater penalty is gone. Only difference: in Java, command-only levels above I add another +400% submerged mining speed each; in Bedrock extra levels change nothing. Bedrock also gets books from raid mobs.",
+    "versions": "Added in Beta 1.9 Prerelease 4 (Java) and Pocket Edition v0.12.1 (Bedrock). Originally named 'Aqua Affinity I' until 1.9, applicable to turtle shells since 1.13, and since 1.21 the speed boost shows as a tooltip and scales per level in Java.",
+    "faq": [
+      {
+        "q": "What does Aqua Affinity do?",
+        "a": "It removes the 5x mining-speed penalty for having your head underwater, so you break blocks at normal speed while submerged. It does NOT remove the separate 5x penalty for floating - stand on solid ground underwater for full speed."
+      },
+      {
+        "q": "Is there Aqua Affinity 2?",
+        "a": "Not in Survival - the maximum level is I. In Java, commands can apply higher levels that add +400% submerged mining speed each, but Bedrock gains nothing from extra levels."
+      },
+      {
+        "q": "Aqua Affinity vs Respiration - which should I get first?",
+        "a": "Get both on the same helmet - they stack and cover different needs. If you must pick one: Respiration first for survival (more air), Aqua Affinity when you start serious underwater mining or building."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-respiration",
+      "how-to-get-depth-strider",
+      "how-to-enchant",
+      "how-to-make-conduit"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Aqua Affinity",
+        "href": "/enchantments/aqua-affinity/"
+      },
+      {
+        "label": "Ocean ruins",
+        "href": "/structures/ocean-ruins/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "aqua affinity minecraft, what does aqua affinity do, how to get aqua affinity, mine faster underwater minecraft, aqua affinity helmet"
+  },
+  {
+    "slug": "how-to-get-depth-strider",
+    "name": "How to Get Depth Strider in Minecraft (Depth Strider III)",
+    "shortTitle": "Get Depth Strider",
+    "quickAnswer": "Depth Strider cuts the water movement-speed penalty on boots: each level adds 1/3 water movement efficiency, and level III lets you swim as fast as you walk on land. Get it from enchanting tables, librarian trades, fishing or structure loot - and choose, because it conflicts with Frost Walker.",
+    "steps": [
+      "Enchant boots: Depth Strider rolls on enchanting tables for boots, max level III. Weight 2, so it may take a few rerolls.",
+      "Trade with librarians: reroll a lectern for a Depth Strider book and lock it; combine on an anvil up to III. (Swamp librarian specialty under the Villager Trade Rebalance experiment.)",
+      "Fish and loot: fishing books and non-village structure loot carry it; Bedrock raid mobs drop books too.",
+      "Know the numbers: each level adds 1/3 water movement efficiency. Level III cancels the water drag completely - you move exactly as fast as walking on land, and higher levels (commands only) add nothing.",
+      "Current resistance included: Depth Strider also reduces how strongly flowing water pushes you - handy near magma blocks, bubble columns gone wrong and underwater ravines.",
+      "Horizontal only: it speeds up swimming forward, not sinking or rising - vertical speed is unaffected (that's intended, not a bug).",
+      "Java speed demon: Depth Strider stacks with the Dolphin's Grace effect in Java - swim near dolphins and you'll outrun boats.",
+      "Choose your lane: Depth Strider and Frost Walker are mutually exclusive in Survival. Frost Walker freezes water under your feet to walk on it; Depth Strider makes you fast IN it. For ocean work, Depth Strider wins; for crossing rivers in style, Frost Walker. (Commands can force both - they function together.)",
+      "Complete the dive set: Depth Strider boots + Respiration/Aqua Affinity helmet is the standard ocean monument and underwater-build kit."
+    ],
+    "materials": [
+      "Boots",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for targeted books",
+      "Anvil and XP for combining to III"
+    ],
+    "editionNote": "Core mechanics match across editions: +1/3 water movement efficiency per level, III equals land-walking speed. One Java-only bonus: Depth Strider combines with Dolphin's Grace for extreme swim speed. Bedrock's extra source is raid-mob book drops.",
+    "versions": "Added in 1.8 (14w25a) for Java and Pocket Edition v0.12.1 for Bedrock. Frost Walker mutual exclusivity arrived in 1.9, sprint-swimming in shallow water was removed in 1.13, and since 1.21 the water movement efficiency bonus shows as a tooltip and only works in the feet slot.",
+    "faq": [
+      {
+        "q": "What does Depth Strider do?",
+        "a": "It reduces the movement-speed penalty in water: each level adds 1/3 water movement efficiency, so Depth Strider III makes you swim as fast as you walk on land. It also weakens the push of flowing water, but it doesn't affect how fast you sink or rise."
+      },
+      {
+        "q": "Depth Strider or Frost Walker - which is better?",
+        "a": "They're mutually exclusive in Survival, so pick per pair of boots: Depth Strider for oceans, monuments and underwater bases; Frost Walker for crossing rivers and lakes on foot. Most endgame players keep one pair of each."
+      },
+      {
+        "q": "Does Depth Strider make you swim faster than a boat?",
+        "a": "In Java, Depth Strider III combined with the Dolphin's Grace effect (swim near dolphins) stacks into extreme speed that beats boats. On its own, Depth Strider III matches land-walking speed in water."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-respiration",
+      "how-to-get-aqua-affinity",
+      "how-to-get-trident",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Depth Strider",
+        "href": "/enchantments/depth-strider/"
+      },
+      {
+        "label": "Ocean monument",
+        "href": "/structures/ocean-monument/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "depth strider minecraft, how to get depth strider 3, depth strider vs frost walker, swim faster minecraft, water boots enchantment"
   }
 ]
