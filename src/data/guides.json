@@ -10067,5 +10067,184 @@
       }
     ],
     "keywords": "spear minecraft, how to make a spear, spear crafting recipe, minecraft 1.21.11 spear, charge attack spear"
+  },
+  {
+    "slug": "how-to-get-power",
+    "name": "How to Get Power in Minecraft (Power V)",
+    "shortTitle": "Get Power",
+    "quickAnswer": "Power boosts bow damage by 25% × (level + 1) - that's +150% at Power V. Get it from enchanting tables (Power V can roll directly since 1.8), librarian trades, fishing, monster rooms and structure loot, then combine books on an anvil.",
+    "steps": [
+      "Enchant a bow: Power is a common table enchant (weight 10), and since 1.8 the table can roll Power V directly at high levels - no anvil chain needed if you're lucky.",
+      "Trade with librarians: reroll a lectern until a Power book appears and lock it. Combine I+I, II+II and so on up to V.",
+      "Fish and loot: fishing books, monster room chests and non-village structure loot carry Power; Bedrock raid mobs drop enchanted books too.",
+      "Apply on an anvil: book + bow. Power stacks with every other bow enchant - it goes fine with Infinity OR Mending, Punch, Flame and Unbreaking.",
+      "Know the numbers: Power adds 25% × (level + 1) arrow damage, rounded up to the nearest half-heart. Power V is +150% - a fully charged critical shot can one-shot most common mobs.",
+      "Pair it: Power V + Infinity is the classic lazy sniper; Power V + Mending is the endgame one. Either way, Power is the first enchant your bow wants.",
+      "Crossbow note: Power is bow-only in Survival - commands and tag edits can make it work on crossbows since 1.20.5, but that's not legit play."
+    ],
+    "materials": [
+      "A bow",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for targeted books",
+      "Anvil and XP for combining"
+    ],
+    "editionNote": "Identical formula and sources in Java and Bedrock: 25% × (level + 1), rounded to half-hearts. Bedrock's only extra is raid mobs dropping enchanted books.",
+    "versions": "Added in Java 1.1 and Pocket Edition v0.12.1. Power V became available straight from the enchanting table in 1.8 (14w02a). Since 1.20.5, tag manipulation can technically enable it on crossbows.",
+    "faq": [
+      {
+        "q": "How much damage does Power V add?",
+        "a": "Power adds 25% × (level + 1) to arrow damage - 150% at Power V, rounded up to the nearest half-heart. A fully charged Power V shot turns the bow into a one-hit answer to most overworld mobs."
+      },
+      {
+        "q": "Can Power go on a crossbow?",
+        "a": "Not in Survival - it's bow-only. Since 1.20.5 you can force it onto crossbows with commands or tag edits and it functions, but there's no legitimate way to enchant a crossbow with Power."
+      },
+      {
+        "q": "What are the best bow enchantments?",
+        "a": "Power V is the core damage enchant. Add Infinity or Mending (they're mutually exclusive - pick one), then Punch II for knockback, Flame for fire, and Unbreaking III. A maxed bow is Power V + Mending + Unbreaking III + Punch II + Flame."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-infinity",
+      "how-to-make-bow",
+      "how-to-enchant",
+      "how-to-get-xp-fast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Power",
+        "href": "/enchantments/power/"
+      },
+      {
+        "label": "Infinity",
+        "href": "/enchantments/infinity/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "power minecraft, how to get power 5, power bow enchantment, power v bow, best bow enchantments minecraft"
+  },
+  {
+    "slug": "how-to-get-fire-aspect",
+    "name": "How to Get Fire Aspect in Minecraft (Fire Aspect II)",
+    "shortTitle": "Get Fire Aspect",
+    "quickAnswer": "Fire Aspect ignites melee targets: 4 seconds of burning per level on swords, maces and spears. Get it from enchanting tables, librarian trades, fishing or structure loot. Fire Aspect II cooks meat drops automatically - but skip it against Nether mobs, the Ender Dragon, the Wither and the Warden.",
+    "steps": [
+      "Enchant a sword: Fire Aspect appears on enchanting tables for swords - max level II, so even mid-level rolls can land it. Maces (since 1.21) and spears (since 1.21.11) accept it too.",
+      "Trade with librarians: reroll lecterns for a Fire Aspect book - cheap and quick since it's only two levels. II is one anvil combine away from I.",
+      "Fish and loot: fishing books and non-village structure chests carry it; Bedrock raid mobs drop books as well.",
+      "Know the damage: each level adds 80 fire-ticks (4 seconds of burn). Because the first second isn't counted, total burn damage is 3 at level I and 7 at level II (level × 4 − 1).",
+      "Free barbecue: any mob that drops raw meat drops it COOKED if it dies while burning - even if the killing blow lands underwater. Fire Aspect II on a hunting sword means never smelting steak again.",
+      "Bedrock bonus: use a Fire Aspect item on unlit candles and campfires to light them, or on TNT and TNT minecarts to prime them from a safe distance. (Java had candle lighting briefly in 1.21 pre-releases; it was pulled for refinement.)",
+      "Know the immune: Nether-native mobs (except piglins, piglin brutes and hoglins) ignore fire, and the Ender Dragon, Wither and Warden are immune. Fire Aspect is an overworld enchant.",
+      "Java quirks: off-hand spear charge attacks don't apply Fire Aspect (unresolved bug), and since 1.21 the sword's sweep attack spreads the burn to grouped mobs.",
+      "26.2 twist: sulfur cubes that have absorbed TNT now ignite and explode when hit with a Fire Aspect item - careful where you swing."
+    ],
+    "materials": [
+      "Sword, mace or spear",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for the book",
+      "Anvil for combining to II"
+    ],
+    "editionNote": "Burn mechanics match across editions (4 seconds per level, level × 4 − 1 damage). Bedrock extras: Fire Aspect items light candles, campfires, TNT and TNT minecarts with the use button. Java extras: sweep attacks spread the burn since 1.21; off-hand spear charges don't apply it (bug).",
+    "versions": "Added in Beta 1.9 Prerelease 4 for swords. Maces joined in the 1.21 update, sweep-attack ignition was fixed in 1.21, spears arrived in 1.21.11, and the 26.2 snapshot made Fire Aspect ignite TNT-loaded sulfur cubes.",
+    "faq": [
+      {
+        "q": "Is Fire Aspect worth it?",
+        "a": "For hunting, yes - mobs that die while burning drop cooked meat, so it pays for itself in food. For serious combat it's debatable: the burn adds damage over time but sets enemies on fire near you, and many players prefer pure Sharpness for bosses (several of which are fire-immune anyway)."
+      },
+      {
+        "q": "Does Fire Aspect work on the Ender Dragon?",
+        "a": "No - the Ender Dragon, Wither and Warden are all immune to fire, and so are Nether-native mobs like blazes, ghasts, magma cubes and striders. Piglins, piglin brutes and hoglins are the Nether exceptions that DO burn."
+      },
+      {
+        "q": "Can Fire Aspect light TNT?",
+        "a": "In Bedrock, yes - use the enchanted item on TNT or a TNT minecart to ignite it, and on unlit candles or campfires to light them. Java removed the candle-lighting feature during the 1.21 pre-releases."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-sharpness",
+      "how-to-get-looting",
+      "how-to-make-mace",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Fire Aspect",
+        "href": "/enchantments/fire-aspect/"
+      },
+      {
+        "label": "Knockback",
+        "href": "/enchantments/knockback/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "fire aspect minecraft, how to get fire aspect, fire aspect sword, fire aspect 2, cooked meat minecraft"
+  },
+  {
+    "slug": "how-to-get-thorns",
+    "name": "How to Get Thorns in Minecraft (Thorns III)",
+    "shortTitle": "Get Thorns",
+    "quickAnswer": "Thorns goes on armor and gives each piece a level × 15% chance to hurt attackers back (1-5 damage) - melee, arrows and projectiles all trigger it. Get it from enchanting tables (chestplates), librarian trades, fishing or structure loot, and budget for the durability cost.",
+    "steps": [
+      "Enchant a chestplate: Thorns rolls on the enchanting table for chestplates. Helmets, leggings and boots only get it through an anvil (a bug briefly opened table access in 1.20.5 snapshots, then closed it).",
+      "Trade with librarians: reroll lecterns for a Thorns book, lock it, and combine up to III - the reliable route for all four armor pieces.",
+      "Fish and loot: fishing books, monster room chests and non-village structure loot carry Thorns.",
+      "Know the trigger: each enchanted piece independently rolls level × 15% when you're hit - 45% per piece at Thorns III - dealing 1-5 damage with knockback to the attacker. Works against melee, arrows and other projectiles.",
+      "Stack smart: four pieces means four independent rolls, so the chance of returning SOME damage climbs fast - but the invulnerability timer caps the total per hit, typically at 2 hearts. More pieces shift the average toward the top of the range rather than adding damage.",
+      "Pay the price: when Thorns triggers, the armor takes 2 EXTRA durability damage per triggering piece. That's why Thorns without Mending + Unbreaking III eats armor for breakfast.",
+      "Shields vs Thorns: incoming Thorns damage from projectiles can be blocked with a shield - the attacker's problem, not yours.",
+      "Boss notes: guardians and elder guardians have their own thorns-like spikes (melee only - yours works on everything). In Java, the Warden's sonic boom doesn't take Thorns damage - don't count on it there.",
+      "Verdict: Thorns III is a flex for finished sets. Put it on after Protection IV, Unbreaking III and Mending are locked in - not before."
+    ],
+    "materials": [
+      "Armor pieces (chestplate first - it's table-eligible)",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for books",
+      "Anvil for helmets/leggings/boots",
+      "Mending + Unbreaking III strongly recommended"
+    ],
+    "editionNote": "Core mechanics match: level × 15% chance per piece, 1-5 damage, -2 durability per trigger. Java-only detail: the Warden's sonic boom ignores Thorns (marked 'works as intended'); in Bedrock it reflects. Guardians' built-in spikes are melee-only in both editions, unlike the enchantment.",
+    "versions": "Added in Java 1.4.6 (12w50a). The durability penalty was softened in 1.16.2, and the 1.20.5 snapshots briefly let helmets, leggings and boots roll Thorns on the table before it was reverted to anvil-only.",
+    "faq": [
+      {
+        "q": "Is Thorns worth it?",
+        "a": "On a finished set, yes - free damage and knockback on everything that hits you, including skeletons shooting from range. But it costs 2 extra durability per trigger, so only run Thorns III with Mending and Unbreaking III already on the armor."
+      },
+      {
+        "q": "Does Thorns work on arrows?",
+        "a": "Yes - Thorns triggers on melee hits, arrows and other projectiles alike, damaging and knocking back the attacker. That's what makes it different from guardian spikes, which only punish melee."
+      },
+      {
+        "q": "Does Thorns stack across armor pieces?",
+        "a": "Each piece rolls independently, so more pieces mean a better chance of returning damage and a higher average - but the invulnerability timer caps the total damage per hit, usually at 2 hearts. Four pieces maximize consistency, not raw damage."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-protection",
+      "how-to-get-unbreaking",
+      "how-to-enchant",
+      "how-to-get-mending"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Thorns",
+        "href": "/enchantments/thorns/"
+      },
+      {
+        "label": "Protection",
+        "href": "/enchantments/protection/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "thorns minecraft, how to get thorns 3, thorns enchantment, thorns armor, is thorns worth it minecraft"
   }
 ]
