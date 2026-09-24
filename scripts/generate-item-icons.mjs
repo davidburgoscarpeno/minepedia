@@ -29,6 +29,8 @@ const icons = {
   'coal': make(({ rect, px }) => { rect(3,4,9,8,'#2a2a2a'); rect(4,3,6,10,'#1a1a1a'); px(5,6,'#4a4a4a'); px(8,5,'#3a3a3a'); px(6,9,'#4a4a4a'); px(10,8,'#3a3a3a'); px(4,10,'#3a3a3a'); px(12,5,'#2a2a2a'); px(2,8,'#1a1a1a'); }),
   'stick': make(({ line, rect }) => { line(4,13,11,4,WD); line(5,14,12,5,'#a06c3a'); rect(5,10,1,2,'#c89548'); rect(8,6,1,2,'#c89548'); }),
   'gold-ingot': make(({ rect, px }) => { rect(3,6,10,5,G); rect(4,5,8,2,'#e8c832'); px(4,6,'#fff3b0'); px(5,7,'#fff3b0'); rect(3,11,10,1,'#b8860b'); rect(12,7,1,3,'#b8860b'); }),
+  'ancient-debris': make(({ rect, px }) => { rect(2,2,12,12,'#6b4a35'); rect(3,3,10,10,'#5d3f2e'); px(4,4,'#ff9a4a'); px(9,5,'#e87832'); px(6,8,'#ff9a4a'); px(11,9,'#e87832'); px(5,11,'#c86428'); px(10,12,'#ff9a4a'); rect(2,2,12,1,'#7d5a42'); rect(2,13,12,1,'#4a3020'); }),
+  'emerald': make(({ rect, px }) => { rect(5,2,6,2,'#3ac85a'); rect(3,4,10,4,'#2da84a'); rect(5,8,6,2,'#2da84a'); rect(6,10,4,2,'#1f8a3a'); px(7,3,'#a8f0b8'); px(5,4,'#7ce89a'); px(4,5,'#7ce89a'); px(6,11,'#1f8a3a'); px(10,6,'#1f8a3a'); }),
   'iron-ingot': make(({ rect, px }) => { rect(3,6,10,5,'#d8d8d8'); rect(4,5,8,2,I); px(4,6,'#ffffff'); px(5,7,'#ffffff'); rect(3,11,10,1,ID); rect(12,7,1,3,'#a0a0a0'); }),
   'diamond-chestplate': make(({ rect, px }) => { rect(2,2,4,3,DIA); rect(10,2,4,3,DIA); rect(5,3,6,3,DIA); rect(3,5,10,8,DIA); rect(3,12,10,1,'#3a9b9b'); rect(13,5,1,7,'#3a9b9b'); px(4,3,'#9ef0f0'); px(6,5,'#9ef0f0'); px(11,3,'#9ef0f0'); }),
   'wolf': make(({ rect, px }) => { px(3,2,'#8a8a8a'); px(4,2,'#8a8a8a'); px(11,2,'#8a8a8a'); px(12,2,'#8a8a8a'); rect(3,3,10,7,'#b8b8b8'); px(5,5,'#1a1a1a'); px(10,5,'#1a1a1a'); rect(6,8,4,4,'#d8d8d8'); rect(7,8,2,1,'#2a2a2a'); px(7,10,'#8a8a8a'); px(8,10,'#8a8a8a'); rect(3,9,2,1,'#909090'); rect(11,9,2,1,'#909090'); }),
@@ -261,7 +263,7 @@ const ALIAS = {
   'how-to-make-enchanting-table':'enchanting-table','how-to-make-furnace':'furnace','how-to-make-chest':'chest',
   'how-to-make-crafting-table':'crafting-table','how-to-make-bow':'bow','how-to-make-golden-apple':'golden-apple',
   'how-to-make-sticky-piston':'sticky-piston','how-to-make-clock':'clock','how-to-make-diamond-pickaxe':'diamond-pickaxe',
-  'how-to-make-diamond-sword':'diamond-sword','how-to-make-diamond-axe':'diamond-axe','how-to-find-gold':'gold-ingot','how-to-make-diamond-armor':'diamond-chestplate','how-to-find-iron':'iron-ingot','how-to-tame-wolf':'wolf'
+  'how-to-make-diamond-sword':'diamond-sword','how-to-make-diamond-axe':'diamond-axe','how-to-find-gold':'gold-ingot','how-to-make-diamond-armor':'diamond-chestplate','how-to-find-iron':'iron-ingot','how-to-tame-wolf':'wolf','how-to-find-ancient-debris':'ancient-debris','how-to-find-village':'village','how-to-get-emeralds':'emerald'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
