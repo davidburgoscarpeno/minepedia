@@ -3304,5 +3304,155 @@
    }
   ],
   "keywords": "fishing rod minecraft craft 3 sticks 2 string fishing treasure enchanted book luck of the sea lure nautilus shell"
+ },
+ {
+  "slug": "how-to-make-map",
+  "name": "How to Make a Map in Minecraft",
+  "shortTitle": "Make a Map",
+  "quickAnswer": "Craft an empty map with 8 paper around a compass (in Bedrock you can also use 9 paper for a map without a player marker). Hold it and use it to draw the terrain around you; zoom it out with more paper, and clone or lock it on a cartography table.",
+  "steps": [
+   "Get 8 paper: craft sugar cane (3 in a row = 3 paper). You will want a sugar cane farm for this - maps eat paper.",
+   "Get 1 compass: 4 iron ingots around 1 redstone dust.",
+   "Craft the empty map: compass in the center, paper filling every other slot. In Bedrock you can skip the compass - 9 paper makes a map, but without the marker showing where you are.",
+   "Draw it: hold the empty map and use it. It fills in with a top-down view of the area around you, north always at the top.",
+   "Understand the grid: the map does NOT center on you. The world is split into invisible grid squares and your map covers whichever square you stood in when you first used it.",
+   "Explore to fill it: the map only records terrain while you hold it (either hand), in a 128-block radius around you - 64 blocks in the Nether. It only maps the surface, even underground.",
+   "Zoom it out: surround the drawn map with 8 more paper on a crafting table (or combine it with 1 paper in a cartography table) to see 4 times the area. Repeat up to 4 times for a huge regional map.",
+   "Clone and lock on a cartography table: map + empty map = two copies for friends or a wall; map + glass pane = locked, so it never updates again. Perfect for finished map-wall art."
+  ],
+  "materials": [
+   "8 paper (sugar cane) + 1 compass",
+   "In Bedrock without a marker: 9 paper",
+   "To zoom out: + 8 paper per level, up to 4 levels"
+  ],
+  "editionNote": "Big difference here: Java maps always show your position marker and need a compass in the recipe. In Bedrock, only a 'locator map' (crafted with a compass) shows the marker; a map made with just paper does not. Bedrock also lets you start a new world with a free locator map via the Starting Map option.",
+  "versions": "Maps were added in Java Beta 1.6 and Pocket Edition 0.14.0; the cartography table arrived with 1.14 in both editions.",
+  "faq": [
+   {
+    "q": "Why is my map blank or not filling in?",
+    "a": "An empty map only starts drawing when you hold it and press use. After that it only records while held in your hand - and only the surface within range of where you walk."
+   },
+   {
+    "q": "Why is my map not centered on me?",
+    "a": "By design: maps snap to a fixed world grid so maps of the same zoom level never overlap. To map the neighboring area, walk past the edge of the current map and use a fresh one."
+   },
+   {
+    "q": "How do I make a big map wall?",
+    "a": "Zoom several maps out to the same level, fill each one in a different grid square, then place them in item frames side by side - they join seamlessly. Lock them with glass panes on a cartography table once they are perfect."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-compass",
+   "how-to-make-paper",
+   "how-to-find-buried-treasure"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Cartographer",
+    "href": "/villagers/cartographer/"
+   }
+  ],
+  "keywords": "map minecraft craft 8 paper compass empty map locator map zoom out cartography table clone lock map wall"
+ },
+ {
+  "slug": "how-to-make-bucket",
+  "name": "How to Make a Bucket in Minecraft",
+  "shortTitle": "Make a Bucket",
+  "quickAnswer": "Craft a bucket with 3 iron ingots in a V shape. It carries water, lava, milk and powder snow - and with a quick scoop you can even pick up fish, axolotls and tadpoles to move them wherever you want.",
+  "steps": [
+   "Smelt 3 iron ingots (iron ore is everywhere below sea level; stone pickaxe or better).",
+   "Craft it: one ingot in the middle-left slot, one in the middle-right, one in the bottom-center - a V shape.",
+   "Scoop water: use the bucket on a water source block. Water buckets are the base of farms, elevators, obsidian casting and the classic MLG water landing.",
+   "Scoop lava the same way in caves or the Nether: fuel for 100 smelts, a trash can, or a weapon.",
+   "Milk a cow, mooshroom or goat: use the empty bucket on one. Milk clears every status effect - including bad ones like poison and the raid-triggering Bad Omen.",
+   "Pick up powder snow in snowy slopes and groves: place it to make traps, or carry it to walk on powder snow safely with leather boots.",
+   "Catch live mobs: use a water bucket on a fish, axolotl or tadpole to pick it up alive. This is the only way to move axolotls for a blue axolotl farm and tropical fish for your aquarium.",
+   "Empty it by using it again on any spot - the placed block or mob comes out, and you keep the bucket forever."
+  ],
+  "materials": [
+   "3 iron ingots"
+  ],
+  "editionNote": "Identical recipe and behavior in both editions. One Java quirk: using a bucket directly on a waterlogged block does not scoop it. And in the current 26.x snapshots the bucket can also carry sulfur cubes - brand new content.",
+  "versions": "Buckets were added in Java Infdev on June 15, 2010 - one of the oldest items in the game - and in Pocket Edition 0.7.0.",
+  "faq": [
+   {
+    "q": "How do you get water in a bucket in Minecraft?",
+    "a": "Craft the bucket (3 iron ingots in a V), then use it on a water source block - not flowing water. Rivers, oceans and lakes are all free refills; a 2x2 hole filled with water makes an infinite source."
+   },
+   {
+    "q": "Can a bucket break or run out?",
+    "a": "No. The bucket itself never wears out - you only lose its contents. One bucket lasts your whole world."
+   },
+   {
+    "q": "How do you pick up an axolotl?",
+    "a": "Use a water bucket on it and it becomes a bucket of axolotl, which you can carry and release anywhere. Same trick works on cod, salmon, tropical fish, pufferfish and tadpoles."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-nether-portal",
+   "how-to-get-blue-axolotl"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Axolotl",
+    "href": "/mobs/axolotl/"
+   },
+   {
+    "label": "Iron Ingot",
+    "href": "/items/iron-ingot/"
+   }
+  ],
+  "keywords": "bucket minecraft craft 3 iron ingots water bucket lava bucket milk powder snow bucket of axolotl fish infinite water"
+ },
+ {
+  "slug": "how-to-make-lantern",
+  "name": "How to Make a Lantern in Minecraft",
+  "shortTitle": "Make a Lantern",
+  "quickAnswer": "Craft a lantern with 8 iron nuggets around a torch. It glows at light level 15 - as bright as glowstone - and sits on top of blocks or hangs from ceilings. Swap the torch for a soul torch to get the blue soul lantern.",
+  "steps": [
+   "Get 1 iron ingot and craft it into 9 iron nuggets (one ingot in any slot).",
+   "Make a torch: stick + coal or charcoal.",
+   "Craft the lantern: torch in the center, iron nuggets filling the other 8 slots.",
+   "Place it two ways: on top of a block like a little lamp, or hanging under a block like a ceiling light. If the block it hangs from is broken, the lantern breaks and drops itself.",
+   "Enjoy the light: level 15, the maximum in the game - same as glowstone, sea lanterns and shroomlights, and brighter than torches (14). It even melts snow layers within 2 blocks and ice within 3.",
+   "Make the blue variant: craft a soul torch (stick + coal + soul sand or soul soil) and surround it with nuggets for a soul lantern - spooky blue light at level 10 that piglins fear and that does not melt snow or ice.",
+   "Find them in the wild too: lanterns generate as lamps in snowy tundra villages, and soul lanterns hang in bastion remnants - or buy lanterns from apprentice librarian villagers for an emerald."
+  ],
+  "materials": [
+   "8 iron nuggets (1 iron ingot)",
+   "1 torch (stick + coal/charcoal)",
+   "For a soul lantern: 1 soul torch instead (stick + coal + soul sand/soil)"
+  ],
+  "editionNote": "Same in both editions since they fully arrived (Java 1.14, Bedrock 1.9 experimental and 1.10 stable). Chains look great with hanging lanterns and are crafted from nuggets too - 2 nuggets + 1 ingot.",
+  "versions": "Lanterns were added in Java 1.14 (snapshot 18w46a) and Bedrock 1.9.0 behind Experimental Gameplay; soul lanterns came with the Nether Update, 1.16 in both editions.",
+  "faq": [
+   {
+    "q": "Are lanterns brighter than torches?",
+    "a": "Yes: lanterns emit light level 15, the highest possible, while torches emit 14. A lantern also melts nearby snow and ice, which torches barely do - and it simply looks better on a chain."
+   },
+   {
+    "q": "How do you make a blue lantern in Minecraft?",
+    "a": "That is the soul lantern: same recipe but with a soul torch (stick + coal + soul sand or soul soil) in the center. It glows blue at light level 10 and piglins avoid it."
+   },
+   {
+    "q": "Can lanterns hang from ceilings?",
+    "a": "Yes - place them against the bottom face of a block and they hang with a little ring. Combine with chains for long hanging lights. If the supporting block breaks, the lantern pops off and drops."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-campfire",
+   "how-to-make-torch"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Soul Sand Valley",
+    "href": "/biomes/soul-sand-valley/"
+   },
+   {
+    "label": "Snowy Plains",
+    "href": "/biomes/snowy-plains/"
+   }
+  ],
+  "keywords": "lantern minecraft craft 8 iron nuggets torch light level 15 hanging lantern soul lantern blue light chain"
  }
 ]

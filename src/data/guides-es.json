@@ -3028,5 +3028,152 @@
    }
   ],
   "keywords": "fishing rod minecraft craft 3 sticks 2 string pescar tesoro enchanted book luck of the sea lure nautilus shell"
+ },
+ "how-to-make-map": {
+  "name": "Cómo hacer un Map en Minecraft",
+  "shortTitle": "Hacer un Map",
+  "quickAnswer": "Craftea un empty map con 8 paper alrededor de un compass (en Bedrock también puedes usar 9 paper para un mapa sin marcador de jugador). Llévalo en la mano y úsalo para dibujar el terreno a tu alrededor; amplíalo con más paper y clónalo o bloquéalo en un cartography table.",
+  "steps": [
+   "Consigue 8 paper: craftea sugar cane (3 en fila = 3 paper). Querrás una granja de sugar cane: los mapas consumen mucho paper.",
+   "Consigue 1 compass: 4 iron ingots alrededor de 1 redstone dust.",
+   "Craftea el empty map: el compass en el centro y paper en todos los demás huecos. En Bedrock puedes saltarte el compass: 9 paper hacen un mapa, pero sin el marcador que indica dónde estás.",
+   "Dibújalo: lleva el empty map en la mano y úsalo. Se rellena con una vista cenital de la zona que te rodea, con el norte siempre arriba.",
+   "Entiende la cuadrícula: el mapa NO se centra en ti. El mundo se divide en cuadrados invisibles y tu mapa cubre el cuadrado en el que estabas al usarlo por primera vez.",
+   "Explora para rellenarlo: el mapa solo registra el terreno mientras lo llevas en la mano (cualquiera de las dos), en un radio de 128 bloques a tu alrededor (64 en el Nether). Solo mapea la superficie, aunque vayas bajo tierra.",
+   "Amplíalo: rodea el mapa dibujado con 8 paper más en la mesa de crafteo (o combínalo con 1 paper en un cartography table) para ver 4 veces más zona. Repite hasta 4 veces para un mapa regional enorme.",
+   "Clónalo y bloquéalo en un cartography table: map + empty map = dos copias para amigos o para una pared; map + glass pane = bloqueado, para que no se actualice nunca más. Perfecto para paredes de mapas terminadas."
+  ],
+  "materials": [
+   "8 paper (sugar cane) + 1 compass",
+   "En Bedrock sin marcador: 9 paper",
+   "Para ampliar: + 8 paper por nivel, hasta 4 niveles"
+  ],
+  "editionNote": "Aquí hay una gran diferencia: los mapas de Java siempre muestran tu marcador de posición y necesitan un compass en la receta. En Bedrock solo un 'locator map' (crafteado con compass) muestra el marcador; un mapa hecho solo con paper no lo muestra. Bedrock también permite empezar un mundo nuevo con un locator map gratis con la opción Starting Map.",
+  "versions": "Los maps se añadieron en Java Beta 1.6 y en Pocket Edition 0.14.0; el cartography table llegó con 1.14 en ambas ediciones.",
+  "faq": [
+   {
+    "q": "¿Por qué mi mapa está en blanco o no se rellena?",
+    "a": "Un empty map solo empieza a dibujar cuando lo llevas en la mano y pulsas usar. Después solo registra mientras lo llevas en la mano, y solo la superficie dentro del alcance de donde caminas."
+   },
+   {
+    "q": "¿Por qué mi mapa no se centra en mí?",
+    "a": "Es por diseño: los mapas se ajustan a una cuadrícula fija del mundo para que mapas del mismo nivel de zoom nunca se solapen. Para mapear la zona vecina, cruza el borde del mapa actual y usa uno nuevo."
+   },
+   {
+    "q": "¿Cómo hago una gran pared de mapas?",
+    "a": "Amplía varios mapas al mismo nivel, rellena cada uno en un cuadrado de la cuadrícula distinto y colócalos en item frames uno al lado del otro: encajan sin costuras. Bloquéalos con glass panes en un cartography table cuando estén perfectos."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-compass",
+   "how-to-make-paper",
+   "how-to-find-buried-treasure"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Cartographer",
+    "href": "/es/villagers/cartographer/"
+   }
+  ],
+  "keywords": "map minecraft craft 8 paper compass empty map locator map ampliar cartography table clonar bloquear pared de mapas"
+ },
+ "how-to-make-bucket": {
+  "name": "Cómo hacer un Bucket en Minecraft",
+  "shortTitle": "Hacer un Bucket",
+  "quickAnswer": "Craftea un bucket con 3 iron ingots en forma de V. Transporta water, lava, milk y powder snow, y con una recogida rápida incluso puedes capturar peces, axolotls y tadpoles para llevarlos donde quieras.",
+  "steps": [
+   "Funde 3 iron ingots (el iron ore está por todas partes bajo el nivel del mar; stone pickaxe o mejor).",
+   "Craftéalo: un lingote en el hueco central izquierdo, otro en el central derecho y otro abajo en el centro, en forma de V.",
+   "Recoge water: usa el bucket sobre un bloque de fuente de agua. Los water buckets son la base de granjas, elevadores, la creación de obsidian y el clásico aterrizaje MLG en agua.",
+   "Recoge lava igual en cuevas o en el Nether: combustible para 100 fundiciones, una papelera o un arma.",
+   "Ordeña una cow, mooshroom o goat: usa el bucket vacío sobre una. La milk elimina todos los efectos de estado, incluidos los malos como poison y el Bad Omen que dispara raids.",
+   "Recoge powder snow en snowy slopes y groves: colócala para hacer trampas, o llévala para caminar sobre powder snow sin hundirte con leather boots.",
+   "Captura mobs vivos: usa un water bucket sobre un pez, axolotl o tadpole para recogerlo vivo. Es la única forma de mover axolotls para una granja de blue axolotl y tropical fish para tu acuario.",
+   "Vacíalo usándolo de nuevo en cualquier sitio: sale el bloque o el mob colocado, y conservas el bucket para siempre."
+  ],
+  "materials": [
+   "3 iron ingots"
+  ],
+  "editionNote": "Receta y comportamiento idénticos en ambas ediciones. Un detalle de Java: usar un bucket directamente sobre un bloque con waterlogging no lo recoge. Y en las snapshots 26.x actuales el bucket también puede transportar sulfur cubes, contenido recién llegado.",
+  "versions": "Los buckets se añadieron en Java Infdev el 15 de junio de 2010, uno de los objetos más antiguos del juego, y en Pocket Edition 0.7.0.",
+  "faq": [
+   {
+    "q": "¿Cómo se consigue agua en un bucket en Minecraft?",
+    "a": "Craftea el bucket (3 iron ingots en V) y úsalo sobre un bloque de fuente de agua, no sobre agua corriente. Rivers, oceans y lagos son recargas gratis; un agujero de 2x2 lleno de agua crea una fuente infinita."
+   },
+   {
+    "q": "¿Un bucket se rompe o se agota?",
+    "a": "No. El bucket en sí nunca se desgasta; solo pierdes su contenido. Un solo bucket dura todo tu mundo."
+   },
+   {
+    "q": "¿Cómo se recoge un axolotl?",
+    "a": "Usa un water bucket sobre él y se convierte en un bucket of axolotl, que puedes transportar y soltar en cualquier parte. El mismo truco funciona con cod, salmon, tropical fish, pufferfish y tadpoles."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-nether-portal",
+   "how-to-get-blue-axolotl"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Axolotl",
+    "href": "/es/mobs/axolotl/"
+   },
+   {
+    "label": "Iron Ingot",
+    "href": "/es/items/iron-ingot/"
+   }
+  ],
+  "keywords": "bucket minecraft craft 3 iron ingots water bucket lava bucket milk powder snow bucket of axolotl pez agua infinita"
+ },
+ "how-to-make-lantern": {
+  "name": "Cómo hacer un Lantern en Minecraft",
+  "shortTitle": "Hacer un Lantern",
+  "quickAnswer": "Craftea un lantern con 8 iron nuggets alrededor de un torch. Brilla con nivel de luz 15, tanto como el glowstone, y se coloca sobre bloques o cuelga del techo. Cambia el torch por un soul torch para obtener el soul lantern azul.",
+  "steps": [
+   "Consigue 1 iron ingot y craftéalo en 9 iron nuggets (un lingote en cualquier hueco).",
+   "Haz un torch: stick + coal o charcoal.",
+   "Craftea el lantern: el torch en el centro y iron nuggets llenando los otros 8 huecos.",
+   "Colócalo de dos formas: encima de un bloque como una pequeña lámpara, o colgando bajo un bloque como luz de techo. Si se rompe el bloque del que cuelga, el lantern se rompe y se suelta.",
+   "Disfruta de la luz: nivel 15, el máximo del juego, igual que glowstone, sea lanterns y shroomlights, y más que los torches (14). Incluso derrite capas de nieve a 2 bloques y hielo a 3.",
+   "Haz la variante azul: craftea un soul torch (stick + coal + soul sand o soul soil) y rodéalo de nuggets para un soul lantern: luz azul tenebrosa de nivel 10 que los piglins temen y que no derrite nieve ni hielo.",
+   "También aparecen en el mundo: los lanterns se generan como farolas en las aldeas de snowy tundra, y los soul lanterns cuelgan en los bastion remnants, o cómpralos a villagers librarian aprendices por una emerald."
+  ],
+  "materials": [
+   "8 iron nuggets (1 iron ingot)",
+   "1 torch (stick + coal/charcoal)",
+   "Para un soul lantern: 1 soul torch en su lugar (stick + coal + soul sand/soil)"
+  ],
+  "editionNote": "Igual en ambas ediciones desde que llegaron del todo (Java 1.14, Bedrock 1.9 experimental y 1.10 estable). Las chains quedan genial con lanterns colgantes y también se craftean con nuggets: 2 nuggets + 1 ingot.",
+  "versions": "Los lanterns se añadieron en Java 1.14 (snapshot 18w46a) y en Bedrock 1.9.0 tras Experimental Gameplay; los soul lanterns llegaron con la Nether Update, 1.16 en ambas ediciones.",
+  "faq": [
+   {
+    "q": "¿Los lanterns iluminan más que los torches?",
+    "a": "Sí: los lanterns emiten nivel de luz 15, el máximo posible, mientras que los torches emiten 14. Un lantern además derrite la nieve y el hielo cercanos, cosa que los torches apenas hacen, y sencillamente queda mejor en una chain."
+   },
+   {
+    "q": "¿Cómo se hace una linterna azul en Minecraft?",
+    "a": "Es el soul lantern: la misma receta pero con un soul torch (stick + coal + soul sand o soul soil) en el centro. Brilla en azul con nivel de luz 10 y los piglins lo evitan."
+   },
+   {
+    "q": "¿Pueden colgar los lanterns del techo?",
+    "a": "Sí: colócalos contra la cara inferior de un bloque y cuelgan de una pequeña argolla. Combínalos con chains para luces colgantes largas. Si el bloque de soporte se rompe, el lantern salta y se suelta."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-campfire",
+   "how-to-make-torch"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Soul Sand Valley",
+    "href": "/es/biomes/soul-sand-valley/"
+   },
+   {
+    "label": "Snowy Plains",
+    "href": "/es/biomes/snowy-plains/"
+   }
+  ],
+  "keywords": "lantern minecraft craft 8 iron nuggets torch nivel de luz 15 lantern colgante soul lantern luz azul chain"
  }
 }

@@ -26,6 +26,8 @@ const icons = {
   'torch': make(({ rect, px }) => { rect(7,7,2,9,W); rect(6,3,4,4,G); rect(7,4,2,2,'#ff9a1f'); px(7,2,'#fff3b0'); px(8,2,'#fff3b0'); }),
   'chest': make(({ rect }) => { rect(1,3,14,11,W); rect(1,3,14,1,WL); rect(1,7,14,1,WD); rect(7,6,2,3,'#d8d8d8'); rect(1,13,14,1,WD); rect(1,3,1,11,WD); rect(14,3,1,11,WD); }),
   'furnace': make(({ rect }) => { rect(2,1,12,14,ID); rect(3,2,10,3,'#8a8a8a'); rect(4,6,8,7,'#3a3a3a'); rect(5,7,6,5,'#1a1a1a'); rect(3,2,10,1,'#9a9a9a'); }),
+  'map': make(({ rect, px, line }) => { rect(3,2,10,12,'#e8d8a8'); rect(3,2,10,1,'#f2e6bd'); px(5,4,GR); px(6,5,GR); px(10,4,GR); px(9,8,BL); px(10,9,BL); px(5,10,BL); line(4,12,7,11,'#b09a68'); px(11,3,RED); px(7,7,'#c89548'); }),
+  'lantern': make(({ rect, px }) => { rect(6,1,4,2,ID); rect(4,3,8,1,'#5a5a5a'); rect(4,3,1,9,ID); rect(11,3,1,9,ID); rect(5,4,6,8,'#3a3a3a'); rect(6,5,4,6,'#ffc832'); rect(7,6,2,4,'#ff9a1f'); px(7,7,'#fff3b0'); px(8,8,'#fff3b0'); rect(4,12,8,1,ID); rect(5,13,6,1,'#5a5a5a'); }),
   'bed': make(({ rect }) => { rect(1,5,14,3,WH); rect(6,5,9,3,RED); rect(1,8,14,3,WD); rect(1,11,2,3,DK); rect(13,11,2,3,DK); rect(2,6,3,2,'#ffffff'); }),
   'boat': make(({ rect, px }) => { rect(3,8,10,2,WL); rect(2,10,12,2,W); rect(3,12,10,1,WD); px(2,9,W); px(13,9,W); rect(6,9,4,1,'#c89548'); }),
   'shield': make(({ rect, px }) => { rect(3,1,10,2,I); rect(2,3,12,5,I); rect(3,8,10,2,I); rect(4,10,8,2,I); rect(5,12,6,1,I); rect(6,13,4,1,I); px(7,14,I); px(8,14,I); rect(4,3,8,4,W); rect(7,3,2,10,'#d8d8d8'); rect(5,4,6,2,WD); }),
@@ -244,7 +246,8 @@ const ALIAS = {
   'title-panorama-113':'title-panorama-original','title-panorama-119':'title-panorama-118',
   'how-to-make-brewing-stand':'brewing-stand','how-to-make-bookshelf':'bookshelf','how-to-make-piston':'piston',
   'how-to-make-anvil':'anvil','how-to-make-tnt':'tnt',
-  'how-to-make-bed':'bed','how-to-make-compass':'compass','how-to-make-fishing-rod':'fishing-rod'
+  'how-to-make-bed':'bed','how-to-make-compass':'compass','how-to-make-fishing-rod':'fishing-rod',
+  'how-to-make-map':'map','how-to-make-bucket':'bucket','how-to-make-lantern':'lantern'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
