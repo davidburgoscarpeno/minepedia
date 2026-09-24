@@ -41,6 +41,9 @@ const icons = {
   'leather': make(({ rect, px }) => { rect(4,4,8,8,'#a06838'); rect(3,5,10,6,'#a06838'); rect(5,3,6,10,'#a06838'); rect(5,5,6,6,'#b87a48'); px(6,6,'#c89058'); px(9,8,'#c89058'); px(7,9,'#985830'); px(10,5,'#985830'); px(5,4,'#d8a868'); }),
   'bamboo': make(({ rect, line, px }) => { rect(5,1,2,14,'#7ab844'); rect(6,1,1,14,'#94d058'); rect(9,3,2,12,'#7ab844'); rect(10,3,1,12,'#94d058'); rect(4,4,3,1,'#5a9830'); rect(8,7,3,1,'#5a9830'); rect(4,10,3,1,'#5a9830'); px(11,2,'#a8e070'); px(4,2,'#a8e070'); px(12,8,'#7ab844'); px(3,6,'#7ab844'); }),
   'cherry-tree': make(({ rect, px }) => { rect(7,9,2,6,'#8a5a3a'); rect(4,2,8,6,'#f0a0c0'); rect(3,4,10,3,'#f0a0c0'); px(5,3,'#f8c0d8'); px(9,4,'#f8c0d8'); px(7,6,'#e888b0'); px(11,5,'#e888b0'); px(4,6,'#e888b0'); px(6,2,'#f8c0d8'); px(10,2,'#f0a0c0'); rect(6,14,4,1,'#5a9830'); }),
+  'pumpkin': make(({ rect, px }) => { rect(3,4,10,9,'#d87818'); rect(2,5,12,7,'#d87818'); rect(4,3,8,1,'#e88828'); rect(5,4,1,8,'#b86210'); rect(9,4,1,8,'#b86210'); rect(7,4,1,8,'#c86e14'); rect(7,1,2,3,'#5a7a2a'); px(4,4,'#f09838'); px(11,6,'#a85608'); rect(3,12,10,1,'#a85608'); }),
+  'clay': make(({ rect, px }) => { rect(3,3,10,10,'#a0a8b8'); rect(4,4,8,8,'#b0b8c8'); px(5,5,'#c8d0dc'); px(9,6,'#c8d0dc'); px(6,9,'#9098a8'); px(10,10,'#9098a8'); px(4,11,'#9098a8'); rect(3,3,10,1,'#c0c8d4'); }),
+  'mangrove-tree': make(({ rect, line, px }) => { rect(4,2,8,5,'#4a7a2a'); rect(3,3,10,3,'#4a7a2a'); px(5,3,'#5a9a3a'); px(9,4,'#5a9a3a'); px(7,2,'#5a9a3a'); rect(7,7,2,5,'#6a4a2a'); line(7,12,4,15,'#6a4a2a'); line(8,12,11,15,'#6a4a2a'); line(7,10,5,13,'#5a3a22'); line(8,10,10,13,'#5a3a22'); px(3,15,'#3a5a8a'); px(8,15,'#3a5a8a'); px(12,15,'#3a5a8a'); px(5,15,'#4a6a9a'); }),
   'sponge': make(({ rect, px }) => { rect(2,2,12,12,'#c8a828'); rect(3,3,10,10,'#d8b838'); px(4,4,'#8a7018'); px(8,5,'#8a7018'); px(11,4,'#8a7018'); px(5,8,'#8a7018'); px(10,9,'#8a7018'); px(7,11,'#8a7018'); px(12,12,'#8a7018'); px(4,12,'#8a7018'); px(6,5,'#b89420'); }),
   'turtle': make(({ rect, px }) => { rect(4,5,8,5,'#4a7a3a'); rect(5,4,6,2,'#5a8a4a'); rect(5,10,6,1,'#3a6a2a'); px(6,6,'#c8b880'); px(8,7,'#c8b880'); px(10,6,'#c8b880'); rect(12,6,3,3,'#6a9a5a'); px(13,7,'#1a1a1a'); rect(3,10,2,2,'#6a9a5a'); rect(11,11,2,2,'#6a9a5a'); rect(5,12,2,2,'#6a9a5a'); }),
   'copper-ingot': make(({ rect, px }) => { rect(3,6,10,5,'#d87848'); rect(4,5,8,2,'#e88858'); px(4,6,'#f8b890'); px(5,7,'#f8b890'); rect(3,11,10,1,'#a85830'); rect(12,7,1,3,'#a85830'); }),
@@ -265,6 +268,7 @@ const icons = {
 
 // aliases: guide/structure/seed slugs reusing existing drawings
 const ALIAS = {
+  'how-to-get-pumpkin':'pumpkin','how-to-get-clay':'clay','how-to-find-mangrove-swamp':'mangrove-tree',
   'how-to-get-leather':'leather','how-to-get-bamboo':'bamboo','how-to-find-cherry-grove':'cherry-tree',
   'how-to-get-obsidian':'obsidian','how-to-make-glass':'glass','how-to-get-honey':'honey-bottle',
   'how-to-get-string':'string','how-to-get-ender-pearls':'ender-pearl','how-to-find-mushroom-island':'mushroom-island',
