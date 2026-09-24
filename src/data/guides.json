@@ -9712,5 +9712,182 @@
       }
     ],
     "keywords": "protection minecraft, how to get protection 4, prot 4, protection enchantment, best armor enchantments minecraft"
+  },
+  {
+    "slug": "how-to-get-sharpness",
+    "name": "How to Get Sharpness in Minecraft (Sharpness V)",
+    "shortTitle": "Get Sharpness",
+    "quickAnswer": "Sharpness goes on swords, spears and axes (axes need an anvil): roll it at a level-30 enchanting table, trade with librarians, fish, or loot monster rooms and structures. Sharpness V is the max, and it can't mix with Smite or Bane of Arthropods.",
+    "steps": [
+      "Enchant a sword at a full table: 15 bookshelves unlock level-30 rolls, where Sharpness IV or V can appear directly. Spears accept Sharpness the same way since 1.21.11.",
+      "Axes are the exception: they only receive Sharpness through an anvil (book + axe), not the enchanting table. It was accidentally table-available for two 1.20.5 snapshots, then reverted.",
+      "Trade with librarians: reroll a lectern until a Sharpness book appears and lock it - the reliable route to Sharpness V by combining books.",
+      "Fish, loot, raid: enchanted books from fishing, monster room chests and non-village structure loot can carry Sharpness; Bedrock raid mobs drop books too.",
+      "Combine to V on an anvil: Sharpness III + III = IV, IV + IV = V. Build the book chain first, then apply it to your weapon to keep anvil costs down.",
+      "Know the math: in Java, Sharpness adds 1 damage at level I and 0.5 per level after (Sharpness V = +3). In Bedrock it's 1.25 per level rounded down (Sharpness V = +6) - Bedrock sharp is nearly twice as strong.",
+      "Respect the rivals: Sharpness is mutually exclusive with Smite and Bane of Arthropods. Pick Sharpness for general use; Smite only wins against undead, Bane only against arthropods.",
+      "Java quirk: off-hand spear charge attacks don't apply Sharpness due to an unresolved bug - charge with the spear in your main hand."
+    ],
+    "materials": [
+      "Sword or spear (axe needs an anvil instead)",
+      "Enchanting table + 15 bookshelves",
+      "Librarian + lectern for targeted books",
+      "Anvil and XP levels for combining"
+    ],
+    "editionNote": "The big edition split: Java Sharpness adds 0.5 × level + 0.5 damage (+3 at V), while Bedrock adds 1.25 × level rounded down (+6 at V). Sources match otherwise, plus the usual Bedrock extras of raid-dropped books. Java-only bug: off-hand spear charges ignore Sharpness.",
+    "versions": "Added in Beta 1.9 Prerelease 4 with a random bonus formula, rebalanced in 1.6.1 (1.25 per level) and again in 1.9 to today's Java formula. Axes briefly got table access in 1.20.5 snapshots before it was reverted to anvil-only. Spears joined in 1.21.11.",
+    "faq": [
+      {
+        "q": "How do you get Sharpness 5?",
+        "a": "Two reliable ways: level-30 enchanting table rolls can give Sharpness IV or V directly, or lock a librarian's Sharpness trade and combine two Sharpness IV books in an anvil. Axes always need the anvil route."
+      },
+      {
+        "q": "Is Sharpness better than Smite?",
+        "a": "For general use, yes - Sharpness boosts damage against everything. Smite adds more damage per level but only against undead (zombies, skeletons, the Wither...). They're mutually exclusive, so most players run Sharpness on the main sword and a Smite backup for undead farms."
+      },
+      {
+        "q": "Does Sharpness work on axes?",
+        "a": "Yes, but only through an anvil: combine the axe with a Sharpness book. The enchanting table doesn't offer Sharpness for axes - that was a brief 1.20.5 snapshot bug, quickly reverted."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-looting",
+      "how-to-enchant",
+      "how-to-make-enchanting-table",
+      "how-to-build-trading-hall"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Sharpness",
+        "href": "/enchantments/sharpness/"
+      },
+      {
+        "label": "Looting",
+        "href": "/enchantments/looting/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "sharpness minecraft, how to get sharpness 5, sharpness enchantment, sharpness vs smite, sharpness sword"
+  },
+  {
+    "slug": "how-to-get-efficiency",
+    "name": "How to Get Efficiency in Minecraft (Efficiency V)",
+    "shortTitle": "Get Efficiency",
+    "quickAnswer": "Efficiency speeds up mining on pickaxes, shovels, axes and hoes. The enchanting table gives up to Efficiency V on most tools - but stone and diamond tools cap at IV, so combine two IVs in an anvil for V. Librarians, fishing and structure loot work too.",
+    "steps": [
+      "Enchant your tool: pickaxes, shovels, axes and hoes (hoes since 1.16) all take Efficiency at the table. Wooden, iron, netherite, gold and copper tools can roll straight to Efficiency V.",
+      "Mind the stone and diamond cap: stone and diamond tools only get up to Efficiency IV from the table (a quirk Mojang confirmed as intended). Combine two Efficiency IV items or books in an anvil to reach V.",
+      "Or skip the cap entirely: diamond tools with Efficiency V already applied spawn in end city, ancient city and bastion remnant chests - check every tools chest.",
+      "Trade with librarians: reroll lecterns until an Efficiency book appears, then combine up to V. Villagers can also sell tools with random Efficiency levels.",
+      "Feel the speed: Efficiency adds level² + 1 mining efficiency (26 at level V, on top of your tool's base). It only counts with the correct tool for the block - an Efficiency V pickaxe mines stone fast, but won't speed up dirt.",
+      "Stack the dream setup: Efficiency V + Haste II beacon + netherite pickaxe is the classic 'insta-mine' combination for stone-type blocks. That's the endgame quarry rig.",
+      "Since 1.21, the exact mining efficiency bonus shows in the tool's tooltip - hover to see the number go up."
+    ],
+    "materials": [
+      "Pickaxe, shovel, axe or hoe",
+      "Enchanting table + bookshelves",
+      "Anvil (mandatory for stone/diamond Efficiency V)",
+      "Librarian + lectern for targeted books",
+      "Lapis and XP"
+    ],
+    "editionNote": "Efficiency behaves identically in Java and Bedrock: same level² + 1 formula, same stone/diamond table cap, same anvil path to V. The usual Bedrock extras apply for sources - raid mobs can drop enchanted books.",
+    "versions": "Added in Beta 1.9 Prerelease 4. It briefly worked with wrong tools (Prerelease 6), was restricted to correct tools in 1.4.6, lost its axe shield-disable bonus in 1.11, extended to hoes in 1.16, and got its tooltip readout in 1.21.",
+    "faq": [
+      {
+        "q": "Why can't I get Efficiency V on my diamond pickaxe?",
+        "a": "Stone and diamond tools cap at Efficiency IV on the enchanting table - Mojang marked it 'works as intended'. Combine two Efficiency IV picks or books in an anvil for V, or find pre-enchanted Efficiency V diamond tools in end city, ancient city and bastion chests."
+      },
+      {
+        "q": "What does Efficiency actually do?",
+        "a": "It adds mining efficiency: level² + 1 points on top of your tool's base speed, so Efficiency V adds 26. It only works when you mine a block with its correct tool type - wrong tool, no bonus."
+      },
+      {
+        "q": "Can you insta-mine with Efficiency?",
+        "a": "Yes: a netherite pickaxe with Efficiency V plus a Haste II beacon instantly breaks stone and similar blocks. That's the standard setup for quarries and perimeter digs."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-fortune",
+      "how-to-get-silk-touch",
+      "how-to-enchant",
+      "how-to-get-xp-fast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Efficiency",
+        "href": "/enchantments/efficiency/"
+      },
+      {
+        "label": "Fortune",
+        "href": "/enchantments/fortune/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "efficiency minecraft, how to get efficiency 5, efficiency enchantment, efficiency v pickaxe, insta-mine minecraft"
+  },
+  {
+    "slug": "how-to-get-unbreaking",
+    "name": "How to Get Unbreaking in Minecraft (Unbreaking III)",
+    "shortTitle": "Get Unbreaking",
+    "quickAnswer": "Unbreaking slows durability loss on any tool, weapon or armor: enchanting tables, librarian trades, fishing and structure loot all give it. Unbreaking III makes tools last about 4 times longer on average (armor about 1.4 times), and it stacks perfectly with Mending.",
+    "steps": [
+      "Enchant anything with durability: tools, weapons and armor can all roll Unbreaking at the enchanting table. Since 1.4.6, books can apply it to literally anything with a durability bar.",
+      "Trade with librarians: reroll lecterns for an Unbreaking book and lock it. It's one of the cheapest and most common book trades - combine two IIs for III.",
+      "Fish, loot, raid: fishing books, non-village structure loot and (in Bedrock) raid mob drops all carry Unbreaking.",
+      "Apply on an anvil: book + item, low cost, done. Unbreaking is compatible with basically everything, including Mending - that combo is the endgame standard.",
+      "Tools and weapons: each use has a 100/(level+1)% chance to consume durability - 50% at I, 33% at II, 25% at III. On average your tool lasts 2, 3 or 4 times as long.",
+      "Armor works differently: a durability hit has a 60% + 40/(level+1)% chance to count, so armor only lasts 1.25/1.36/1.43 times longer. Unbreaking helps armor less than tools - one reason Mending matters so much on armor.",
+      "Multi-point losses roll per point: when a fishing rod yank or a TNT blast costs several durability at once, Unbreaking rolls separately for each point.",
+      "Pair it with Mending: Unbreaking stretches each XP orb's repair further (fewer points to repair), so Mending + Unbreaking III is the 'never breaks again' setup."
+    ],
+    "materials": [
+      "Any tool, weapon or armor piece",
+      "Enchanting table + bookshelves",
+      "Librarian + lectern for the targeted book",
+      "Anvil and XP"
+    ],
+    "editionNote": "Identical mechanics in Java and Bedrock: same durability math for tools (2/3/4× on average) and armor (1.25/1.36/1.43×). The only difference is the usual Bedrock bonus source - raid mobs dropping enchanted books.",
+    "versions": "Added in Beta 1.9 Prerelease 4. Books could apply it to any durability item from 1.4.6, and mob-dropped armor could carry it from 1.7.2. Bedrock added it in Pocket Edition v0.12.1.",
+    "faq": [
+      {
+        "q": "How much longer does Unbreaking III make tools last?",
+        "a": "On average, four times as long: each use has only a 25% chance to consume a durability point at level III. Armor benefits less - about 1.43 times longer - because armor rolls durability differently."
+      },
+      {
+        "q": "Does Unbreaking stack with Mending?",
+        "a": "Yes, and they're the classic combo: Mending repairs the item with XP, and Unbreaking means fewer durability points need repairing in the first place. Every endgame tool runs both."
+      },
+      {
+        "q": "Is Unbreaking worth it on armor?",
+        "a": "It's weaker on armor (1.25-1.43× lifespan vs 2-4× on tools), but still free value - especially on elytra, where Unbreaking III roughly triples flight time before repairs."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-mending",
+      "how-to-enchant",
+      "how-to-make-enchanting-table",
+      "how-to-get-protection"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Unbreaking",
+        "href": "/enchantments/unbreaking/"
+      },
+      {
+        "label": "Mending",
+        "href": "/enchantments/mending/"
+      },
+      {
+        "label": "All enchantments",
+        "href": "/enchantments/"
+      }
+    ],
+    "keywords": "unbreaking minecraft, how to get unbreaking 3, unbreaking enchantment, unbreaking vs mending, durability minecraft"
   }
 ]
