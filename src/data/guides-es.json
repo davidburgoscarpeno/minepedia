@@ -3619,5 +3619,149 @@
    }
   ],
   "keywords": "minecart minecraft craft 5 iron ingots rails powered rail velocidad 8 bloques por segundo transportar villagers mineshaft"
+ },
+ "how-to-make-dispenser": {
+  "name": "Cómo hacer un Dispenser en Minecraft",
+  "shortTitle": "Hacer un Dispenser",
+  "quickAnswer": "Craftea un dispenser con 7 cobblestone, 1 bow y 1 redstone dust. Aliméntalo con redstone y dispara o usa un objeto aleatorio de sus 9 huecos: arrows, water buckets, shears, bonemeal. Es el corazón de toda granja automática.",
+  "steps": [
+   "Mina 7 cobblestone, consigue 1 redstone dust (mena profunda, iron pickaxe o mejor) y craftea o saquea 1 bow (3 sticks + 3 string; vale un bow dañado).",
+   "Craftéalo: cobblestone llenándolo todo menos el centro, donde va el bow, y el centro inferior, donde va el redstone dust.",
+   "Llena sus 9 huecos y dale corriente: cada pulso de redstone dispensa UN objeto elegido al azar. No sigue ningún orden, así que separa los tipos de objetos.",
+   "Conviértelo en arma: arrows, fire charges, splash potions, tridents y fireworks salen disparados como proyectiles: trampas y defensas instantáneas.",
+   "Automatiza fluidos: un dispenser con un water bucket o lava bucket coloca el fluido en el primer pulso y lo recoge en el siguiente: descargas perfectas para granjas de cultivos y de mobs.",
+   "Automatiza herramientas: las shears esquilan ovejas y cosechan honeycomb, el flint and steel enciende TNT y campfires, el bonemeal hace crecer cultivos y las bottles vacías recogen honey: casi cualquier acción de 'usar objeto' funciona.",
+   "Equipa y coloca: los dispensers ponen armadura y carved pumpkins a jugadores y mobs, colocan shulker boxes, boats y minecarts, y generan mobs desde spawn eggs.",
+   "Aliméntalo con inteligencia: un dispenser necesita un flanco de pulso (button, reloj de observers, pressure plate). Un observer mirando a otro observer o un bucle de repeaters es el reloj clásico de granjas."
+  ],
+  "materials": [
+   "7 cobblestone",
+   "1 bow (cualquier durabilidad)",
+   "1 redstone dust"
+  ],
+  "editionNote": "Casi idéntico en ambas ediciones; algunos comportamientos límite difieren (los dispensers de Bedrock recogen honey en bottles de los hives con un timing ligeramente distinto). La elección aleatoria de hueco es igual en todas partes: diseña pensando en ella.",
+  "versions": "Los dispensers se añadieron en Java Beta 1.2 y en Pocket Edition 0.14.0, la gran actualización de redstone para móviles.",
+  "faq": [
+   {
+    "q": "¿Qué diferencia hay entre un dropper y un dispenser?",
+    "a": "Un dropper solo escupe el objeto como objeto (o lo mete en un contenedor). Un dispenser USA el objeto: dispara arrows, coloca agua, esquila ovejas, equipa armadura. Para sistemas de almacenamiento quieres droppers; para granjas y trampas, dispensers."
+   },
+   {
+    "q": "¿Cómo se alimenta un dispenser automáticamente?",
+    "a": "Dale pulsos repetidos de redstone: un observer mirando a otro observer hace un reloj rápido, un reloj de hoppers es más lento y barato, y una lever o un button sirven para disparos únicos."
+   },
+   {
+    "q": "¿Puede un dispenser colocar bloques?",
+    "a": "Solo algunos concretos: shulker boxes, boats, minecarts, armor stands, y carved pumpkins y heads sobre armor stands o mobs. Para bloques normales hace falta otro truco: pistons o el jugador."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-piston",
+   "how-to-make-hopper",
+   "how-to-get-xp-fast"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Redstone Dust",
+    "href": "/es/items/redstone-dust/"
+   }
+  ],
+  "keywords": "dispenser minecraft craft 7 cobblestone bow redstone granja automática arrows water bucket esquilar ovejas dropper vs dispenser"
+ },
+ "how-to-make-ladder": {
+  "name": "Cómo hacer un Ladder en Minecraft",
+  "shortTitle": "Hacer un Ladder",
+  "quickAnswer": "Craftea 3 ladders con 7 sticks en forma de H. Pégalos a las paredes para subir en vertical, sin saltar, y además contienen agua y lava mientras te dejan respirar.",
+  "steps": [
+   "Craftea sticks: 2 planks = 4 sticks. Necesitas 7 sticks por crafteo.",
+   "Craftea ladders: sticks en forma de H, las dos columnas laterales completas y uno en el centro. Cada crafteo da 3 ladders.",
+   "Colócalos contra el lateral de cualquier bloque sólido y camina hacia ellos para subir o bajar, sin tecla de salto.",
+   "Desciende sin riesgo: mantén sneak mientras estás en un ladder y te quedas quieto en el sitio, perfecto para construir en el borde de un acantilado o una torre alta.",
+   "Vence a la física: los ladders desplazan agua y lava creando una bolsa de aire, así que una columna de ladders es un pozo de respiración submarino. Dentro de un bloque de fuente de agua el ladder se convierte en waterlogged y no da aire.",
+   "Ilumina techos con lava: un ladder en el bloque bajo la lava evita que gotee mientras el brillo sigue pasando: el clásico truco del techo de lava.",
+   "Úsalos como andamiaje barato: los ladders se pegan a paredes a cualquier altura, los mobs técnicamente pueden subirlos pero casi nunca lo hacen a propósito, y puedes saltarte uno de cada dos para ahorrar sticks si tienes buena puntería.",
+   "Alternativas cuando se te queden cortos: vines (gratis, pero necesitas shears), scaffolding (bamboo + string, se construye desde abajo) y elevadores de burbujas (soul sand o magma en agua)."
+  ],
+  "materials": [
+   "7 sticks (produce 3 ladders)"
+  ],
+  "editionNote": "Escalada idéntica en ambas ediciones. El comportamiento con waterlogging también coincide: dentro de una fuente de agua el ladder se inunda y no da bolsa de aire; en agua corriente se mantiene seco.",
+  "versions": "Los ladders se añadieron a Java en Infdev el 7 de junio de 2010 (Notch dijo que las escaleras nunca son divertidas, pero los fans le convencieron) y están en Pocket Edition desde su demo.",
+  "faq": [
+   {
+    "q": "¿Cuántos ladders da un crafteo?",
+    "a": "Tres ladders por 7 sticks. Un stick es media plank, así que un ladder cuesta unas 1,2 planks: viaje vertical baratísimo."
+   },
+   {
+    "q": "¿Pueden los mobs subir por los ladders?",
+    "a": "Técnicamente sí, su pathfinding puede empujarlos hacia arriba, pero casi nunca suben a propósito. Un ladder no hace tu base menos segura, aunque una escalera de cualquier tipo es una invitación abierta."
+   },
+   {
+    "q": "¿Cómo se respira bajo el agua con un ladder?",
+    "a": "Coloca un ladder en una pared bajo el agua (en agua corriente o contra un bloque, no dentro de una fuente) y mantiene una bolsa de aire a su alrededor: quédate en ella para rellenar las burbujas."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-torch",
+   "how-to-find-diamonds"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Stick",
+    "href": "/es/items/stick/"
+   }
+  ],
+  "keywords": "ladder minecraft craft 7 sticks 3 ladders trepar paredes bolsa de aire submarina techo de lava alternativa scaffolding"
+ },
+ "how-to-make-flint-and-steel": {
+  "name": "Cómo hacer un Flint and Steel en Minecraft",
+  "shortTitle": "Hacer Flint and Steel",
+  "quickAnswer": "Craftea un flint and steel con 1 iron ingot y 1 flint (de la gravel) en cualquier posición de la cuadrícula. Prende fuegos, enciende portales del Nether, detona TNT y creepers, y reenciende campfires y candles.",
+  "steps": [
+   "Consigue flint: mina gravel; cada bloque tiene un 10% de probabilidad de soltar flint en vez de gravel (Fortune lo aumenta, Fortune III lo garantiza). La gravel está por todas partes: cuevas, ríos, fondos marinos, el Nether.",
+   "Funde 1 iron ingot.",
+   "Craftéalo: iron ingot y flint en cualquier hueco de la cuadrícula, es sin forma.",
+   "Enciende un portal del Nether: úsalo dentro de un marco de obsidian y el fuego se convierte en bloques de portal. Es LA forma de encender portales; lleva siempre uno en el Nether por si un ghast apaga tu camino de vuelta.",
+   "Detona a voluntad: úsalo sobre TNT para cebarlo, o haz clic derecho en un creeper para forzarlo a explotar donde esté: un truco de combate realmente útil.",
+   "Reenciéndelo todo: campfires, candles, candle cakes y chimeneas se reencienden con un clic. El fuego se extiende por bloques inflamables, así que ojo con tu tejado de madera.",
+   "Repáralo y encántalo: combina dos gastados en la cuadrícula, o añádele Unbreaking o Mending. Tiene 64 usos en Java, 65 en Bedrock.",
+   "Encuentra uno: los cofres de los ruined portals y algunos cofres de dungeons contienen flint and steel: mira el próximo ruined portal que pases."
+  ],
+  "materials": [
+   "1 iron ingot",
+   "1 flint (10% de drop de la gravel, garantizado con Fortune III)"
+  ],
+  "editionNote": "Idéntico en ambas ediciones salvo por el punto de diferencia de durabilidad (64 en Java, 65 en Bedrock). Las reglas de propagación del fuego difieren ligeramente entre ediciones, así que un fuego que se apaga en Java puede seguir ardiendo en Bedrock, y al revés con la lluvia.",
+  "versions": "El flint and steel se añadió a Java en Indev 0.31 el 10 de enero de 2010 (originalmente con usos infinitos) y a Pocket Edition 0.4.0.",
+  "faq": [
+   {
+    "q": "¿Cómo se consigue flint en Minecraft?",
+    "a": "Mina gravel: cada bloque tiene un 10% de probabilidad de soltar flint en lugar de gravel. Vuelve a colocar y minar la gravel que consigas, o usa una shovel con Fortune III para flint garantizado en cada bloque."
+   },
+   {
+    "q": "¿Cómo se enciende un portal del Nether sin flint and steel?",
+    "a": "Fire charges (también con dispensers), lava goteando fuego sobre madera dentro del marco, o una bola de fuego de ghast encienden portales. Pero el flint and steel es la única opción fiable de bolsillo."
+   },
+   {
+    "q": "¿Puede el flint and steel encender un portal del End?",
+    "a": "No. Los marcos del End portal solo se activan con eyes of ender; no hace falta fuego. El flint and steel enciende portales del Nether, TNT, creepers, campfires, candles y fuegos normales."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-nether-portal",
+   "how-to-make-tnt",
+   "how-to-make-campfire"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Iron Ingot",
+    "href": "/es/items/iron-ingot/"
+   },
+   {
+    "label": "Ghast",
+    "href": "/es/mobs/ghast/"
+   }
+  ],
+  "keywords": "flint and steel minecraft craft iron flint gravel encender portal nether detonar tnt creeper durabilidad campfire"
  }
 }

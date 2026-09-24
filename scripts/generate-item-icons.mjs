@@ -252,7 +252,8 @@ const ALIAS = {
   'how-to-make-map':'map','how-to-make-bucket':'bucket','how-to-make-lantern':'lantern',
   'how-to-make-torch':'torch','how-to-make-shears':'shears','how-to-make-smoker':'smoker',
   'how-to-make-boat':'boat','how-to-make-grindstone':'grindstone','how-to-make-crossbow':'crossbow',
-  'how-to-make-bread':'bread','how-to-make-cake':'cake','how-to-make-minecart':'minecart'
+  'how-to-make-bread':'bread','how-to-make-cake':'cake','how-to-make-minecart':'minecart',
+  'how-to-make-dispenser':'dispenser','how-to-make-ladder':'ladder','how-to-make-flint-and-steel':'flint-and-steel'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 

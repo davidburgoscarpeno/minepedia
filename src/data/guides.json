@@ -3907,5 +3907,152 @@
    }
   ],
   "keywords": "minecart minecraft craft 5 iron ingots rails powered rail speed 8 blocks per second villager transport mineshaft"
+ },
+ {
+  "slug": "how-to-make-dispenser",
+  "name": "How to Make a Dispenser in Minecraft",
+  "shortTitle": "Make a Dispenser",
+  "quickAnswer": "Craft a dispenser with 7 cobblestone, 1 bow and 1 redstone dust. Power it with redstone and it fires or uses a random item from its 9 slots - arrows, water buckets, shears, bonemeal - the heart of every automatic farm.",
+  "steps": [
+   "Mine 7 cobblestone, get 1 redstone dust (deep ore, iron pickaxe+) and craft or loot 1 bow (3 sticks + 3 string - a damaged bow works too).",
+   "Craft it: cobblestone filling everything except the center, where the bow goes, and the bottom-center, where the redstone dust goes.",
+   "Fill its 9 slots and power it: every redstone pulse dispenses ONE randomly chosen item. It does not pick in order, so keep item types separated.",
+   "Weaponize it: arrows, fire charges, splash potions, tridents and fireworks shoot out as projectiles - instant traps and defenses.",
+   "Automate fluids: a dispenser with a water or lava bucket places the fluid on the first pulse and sucks it back up on the next - perfect flushers for crop farms and mob farms.",
+   "Automate tools: shears shear sheep and harvest honeycomb, flint and steel lights TNT and campfires, bonemeal grows crops, and empty bottles scoop honey - almost every use-item action works.",
+   "Equip and place: dispensers put armor and carved pumpkins on players and mobs, place shulker boxes, boats and minecarts, and spawn mobs from spawn eggs.",
+   "Power it smartly: a dispenser needs a pulse edge (button, observer clock, pressure plate). An observer watching a comparator or a simple repeater loop is the classic farm clock."
+  ],
+  "materials": [
+   "7 cobblestone",
+   "1 bow (any durability)",
+   "1 redstone dust"
+  ],
+  "editionNote": "Nearly identical in both editions; some edge behaviors differ (Bedrock dispensers can suck honey into bottles from hives with slightly different timing). The random slot choice is the same everywhere - design around it.",
+  "versions": "Dispensers were added in Java Beta 1.2 and Pocket Edition 0.14.0, the big redstone update for mobile.",
+  "faq": [
+   {
+    "q": "What is the difference between a dropper and a dispenser?",
+    "a": "A dropper just ejects the item as an item (or pushes it into a container). A dispenser USES the item: shoots arrows, places water, shears sheep, equips armor. For storage systems you want droppers; for farms and traps, dispensers."
+   },
+   {
+    "q": "How do you power a dispenser automatically?",
+    "a": "Give it repeated redstone pulses: an observer facing another observer makes a fast clock, a hopper clock is slower and cheaper, and a lever or button works for single shots."
+   },
+   {
+    "q": "Can a dispenser place blocks?",
+    "a": "Only specific ones: shulker boxes, boats, minecarts, armor stands, carved pumpkins and heads on armor stands/mobs. For normal blocks you need a different trick - pistons or the player."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-piston",
+   "how-to-make-hopper",
+   "how-to-get-xp-fast"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Redstone Dust",
+    "href": "/items/redstone-dust/"
+   }
+  ],
+  "keywords": "dispenser minecraft craft 7 cobblestone bow redstone automatic farm arrows water bucket shear sheep dropper vs dispenser"
+ },
+ {
+  "slug": "how-to-make-ladder",
+  "name": "How to Make a Ladder in Minecraft",
+  "shortTitle": "Make a Ladder",
+  "quickAnswer": "Craft 3 ladders with 7 sticks in an H shape. Stick them to walls to climb straight up - no jumping needed - and they even hold back water and lava while letting you breathe.",
+  "steps": [
+   "Craft sticks: 2 planks = 4 sticks. You need 7 sticks per craft.",
+   "Craft ladders: sticks in an H - both side columns full and one in the center. Each craft gives 3 ladders.",
+   "Place them against the side of any solid block and walk into them to climb up or down - no jump key required.",
+   "Descend safely: hold sneak while on a ladder and you stop in place - perfect for building off the side of a cliff or a tall tower.",
+   "Beat the physics: ladders displace water and lava to create an air pocket, so a ladder column is an underwater breathing shaft. In a water source block the ladder becomes waterlogged instead and gives no air.",
+   "Light ceilings with lava: a ladder in a block below lava stops it dripping through while the glow still shines down - the classic lava ceiling trick.",
+   "Use them as cheap scaffolding: ladders stick to walls at any height, mobs can technically climb them but almost never pathfind onto them, and you can skip every other ladder to save sticks if your aim is good.",
+   "Alternatives when you outgrow them: vines (free, but you need shears), scaffolding (bamboo + string, buildable from the bottom) and bubble elevators (soul sand/magma in water)."
+  ],
+  "materials": [
+   "7 sticks (makes 3 ladders)"
+  ],
+  "editionNote": "Identical climbing in both editions. The waterlogged behavior matches too: inside a water source the ladder floods and gives no air pocket, in flowing water it stays dry.",
+  "versions": "Ladders were added to Java in Infdev on June 7, 2010 - Notch famously said ladders are never fun, but fans convinced him - and have been in Pocket Edition since its demo.",
+  "faq": [
+   {
+    "q": "How many ladders do you get from one craft?",
+    "a": "Three ladders from 7 sticks. A stick is half a plank, so one ladder costs roughly 1.2 planks - very cheap vertical travel."
+   },
+   {
+    "q": "Can mobs climb ladders?",
+    "a": "Technically yes - their pathfinding can push them up - but they almost never climb on purpose. A ladder does not make your base less safe, though a staircase of any kind is an open invitation."
+   },
+   {
+    "q": "How do you breathe underwater with a ladder?",
+    "a": "Place a ladder on a wall underwater (in flowing water or against a block, not inside a source block) and it keeps an air pocket around itself - stand in it to refill your bubbles."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-torch",
+   "how-to-find-diamonds"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Stick",
+    "href": "/items/stick/"
+   }
+  ],
+  "keywords": "ladder minecraft craft 7 sticks 3 ladders climb walls underwater air pocket lava ceiling scaffolding alternative"
+ },
+ {
+  "slug": "how-to-make-flint-and-steel",
+  "name": "How to Make Flint and Steel in Minecraft",
+  "shortTitle": "Make Flint and Steel",
+  "quickAnswer": "Craft flint and steel with 1 iron ingot and 1 flint (from gravel) anywhere in the grid. It sets fires, lights Nether portals, ignites TNT and creepers, and relights campfires and candles.",
+  "steps": [
+   "Get flint: mine gravel - each block has a 10% chance to drop flint instead of gravel (Fortune raises it, Fortune III guarantees it). Gravel is everywhere: caves, rivers, ocean floors, the Nether.",
+   "Smelt 1 iron ingot.",
+   "Craft it: iron ingot and flint anywhere in the crafting grid - it is shapeless.",
+   "Light a Nether portal: use it inside an obsidian frame and the fire becomes portal blocks. This is THE way to light portals - always carry one in the Nether in case a ghast de-lights your way home.",
+   "Detonate on demand: use it on TNT to prime it, or right-click a creeper to force it to explode where it stands - a genuinely useful combat trick.",
+   "Relight everything: campfires, candles, candle cakes and fireplaces all relight with a click. Fire spreads on flammable blocks, so mind your wooden roof.",
+   "Repair and enchant: combine two worn ones in a grid, or add Unbreaking/Mending. It has 64 uses in Java, 65 in Bedrock.",
+   "Find one instead: ruined portal chests and some dungeon chests contain flint and steel - check the next ruined portal you pass."
+  ],
+  "materials": [
+   "1 iron ingot",
+   "1 flint (10% drop from gravel, guaranteed with Fortune III)"
+  ],
+  "editionNote": "Identical in both editions apart from the one-point durability difference (64 Java, 65 Bedrock). Fire spread rules differ slightly between editions, so a fire that burns out in Java may keep going in Bedrock - and vice versa with rain.",
+  "versions": "Flint and steel was added to Java in Indev 0.31 on January 10, 2010 - originally with infinite uses - and to Pocket Edition 0.4.0.",
+  "faq": [
+   {
+    "q": "How do you get flint in Minecraft?",
+    "a": "Mine gravel: each block has a 10% chance to drop flint instead of itself. Re-place and re-mine the gravel you get, or use a Fortune III shovel for guaranteed flint every block."
+   },
+   {
+    "q": "How do you light a Nether portal without flint and steel?",
+    "a": "Fire charges (dispensable too), lava dripping fire onto wood inside the frame, or a ghast fireball all light portals. But flint and steel is the only reliable pocket option."
+   },
+   {
+    "q": "Can flint and steel light an End portal?",
+    "a": "No. End portal frames only activate with eyes of ender - no fire needed. Flint and steel lights Nether portals, TNT, creepers, campfires, candles and plain fires."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-nether-portal",
+   "how-to-make-tnt",
+   "how-to-make-campfire"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Iron Ingot",
+    "href": "/items/iron-ingot/"
+   },
+   {
+    "label": "Ghast",
+    "href": "/mobs/ghast/"
+   }
+  ],
+  "keywords": "flint and steel minecraft craft iron flint gravel light nether portal ignite tnt creeper durability campfire"
  }
 ]
