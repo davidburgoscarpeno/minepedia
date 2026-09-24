@@ -29,6 +29,7 @@ const icons = {
   'coal': make(({ rect, px }) => { rect(3,4,9,8,'#2a2a2a'); rect(4,3,6,10,'#1a1a1a'); px(5,6,'#4a4a4a'); px(8,5,'#3a3a3a'); px(6,9,'#4a4a4a'); px(10,8,'#3a3a3a'); px(4,10,'#3a3a3a'); px(12,5,'#2a2a2a'); px(2,8,'#1a1a1a'); }),
   'stick': make(({ line, rect }) => { line(4,13,11,4,WD); line(5,14,12,5,'#a06c3a'); rect(5,10,1,2,'#c89548'); rect(8,6,1,2,'#c89548'); }),
   'gold-ingot': make(({ rect, px }) => { rect(3,6,10,5,G); rect(4,5,8,2,'#e8c832'); px(4,6,'#fff3b0'); px(5,7,'#fff3b0'); rect(3,11,10,1,'#b8860b'); rect(12,7,1,3,'#b8860b'); }),
+  'azalea': make(({ rect, px }) => { rect(3,6,10,6,'#3a7a2a'); rect(4,5,8,2,'#4a9b3a'); px(5,5,'#f0a0c0'); px(9,6,'#f0a0c0'); px(6,8,'#f0a0c0'); px(11,8,'#e888b0'); px(4,7,'#e888b0'); px(8,5,'#f0c0d8'); rect(7,12,2,3,WD); rect(3,11,10,1,'#2a5a1a'); }),
   'amethyst-cluster': make(({ rect, px }) => { rect(7,1,2,4,'#b57ae8'); rect(6,5,4,6,'#9a5ad1'); rect(5,7,6,4,'#b57ae8'); rect(6,11,4,3,'#7a3ab0'); px(7,2,'#e8c8ff'); px(6,6,'#d0a0f8'); px(9,7,'#d0a0f8'); rect(3,10,2,3,'#9a5ad1'); px(4,10,'#d0a0f8'); rect(11,4,2,4,'#7a3ab0'); px(11,4,'#b57ae8'); }),
   'totem': make(({ rect, px }) => { rect(6,1,4,2,G); rect(5,3,6,2,'#e8c832'); rect(3,5,10,2,G); rect(6,7,4,4,G); rect(5,11,6,2,'#e8c832'); rect(6,13,4,2,G); px(6,4,'#fff3b0'); px(5,6,'#fff3b0'); px(7,8,'#b8860b'); px(8,8,'#b8860b'); px(7,9,'#3a9b3a'); px(8,9,'#3a9b3a'); }),
   'parrot': make(({ rect, px }) => { rect(6,2,5,3,RED); rect(5,5,7,5,'#d84a3a'); rect(4,6,3,4,'#a02818'); px(10,4,'#ffcc00'); px(11,4,'#ffcc00'); px(7,3,'#1a1a1a'); rect(6,10,5,2,'#3a7bd5'); rect(7,12,3,3,'#3a7bd5'); rect(6,12,1,2,'#b0b0b0'); }),
@@ -266,7 +267,7 @@ const ALIAS = {
   'how-to-make-enchanting-table':'enchanting-table','how-to-make-furnace':'furnace','how-to-make-chest':'chest',
   'how-to-make-crafting-table':'crafting-table','how-to-make-bow':'bow','how-to-make-golden-apple':'golden-apple',
   'how-to-make-sticky-piston':'sticky-piston','how-to-make-clock':'clock','how-to-make-diamond-pickaxe':'diamond-pickaxe',
-  'how-to-make-diamond-sword':'diamond-sword','how-to-make-diamond-axe':'diamond-axe','how-to-find-gold':'gold-ingot','how-to-make-diamond-armor':'diamond-chestplate','how-to-find-iron':'iron-ingot','how-to-tame-wolf':'wolf','how-to-find-ancient-debris':'ancient-debris','how-to-find-village':'village','how-to-get-emeralds':'emerald','how-to-find-amethyst':'amethyst-cluster','how-to-get-totem-of-undying':'totem','how-to-tame-parrot':'parrot'
+  'how-to-make-diamond-sword':'diamond-sword','how-to-make-diamond-axe':'diamond-axe','how-to-find-gold':'gold-ingot','how-to-make-diamond-armor':'diamond-chestplate','how-to-find-iron':'iron-ingot','how-to-tame-wolf':'wolf','how-to-find-ancient-debris':'ancient-debris','how-to-find-village':'village','how-to-get-emeralds':'emerald','how-to-find-amethyst':'amethyst-cluster','how-to-get-totem-of-undying':'totem','how-to-tame-parrot':'parrot','how-to-find-bastion':'bastion-remnant','how-to-trade-with-piglins':'gold-ingot','how-to-find-lush-caves':'azalea'
 };
 for (const [a, src] of Object.entries(ALIAS)) if (icons[src]) icons[a] = icons[src];
 
