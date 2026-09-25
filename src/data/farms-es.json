@@ -915,5 +915,114 @@
       "Los brown mushrooms emiten una luz tenue de 1: inofensiva, pero tampoco frena las apariciones.",
       "Una mooshroom es la versión de lujo: esquílala para 5 mushrooms y se convierte en cow, o ordeñala con un bowl para stew infinito."
     ]
+  },
+  "bee-farm": {
+    "produces": "Honey bottles (sugar, comida, honey blocks) y honeycombs (beehives, honeycomb blocks, candles)",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Las bees llenan su colmena un nivel de honey por viaje polinizado; al nivel 5, esquila para honeycombs o embotella para honey, con una campfire humeando debajo, o te atacan en enjambre. Un dispenser con shears o bottles automatiza la cosecha por completo.",
+    "mechanics": [
+      "Cada bee polinizada que vuelve a casa sube el nivel de honey en 1; al nivel 5 la colmena gotea y está lista: las shears dan 3 honeycombs y una glass bottle da una honey bottle.",
+      "La regla del enfado: cosechar o romper una casa enfurece a sus bees salvo que una campfire humee a menos de 5 bloques debajo (o uses Silk Touch en la colmena); y una bee que pica muere tras atacar, así que el enfado también cuesta bees.",
+      "Las bees necesitan flowers: planta macizos densos de flowers alrededor de las colmenas para que los viajes sean cortos; vagan hasta 22 bloques, pero cada bloque de distancia es tiempo de honey perdido.",
+      "Ingreso extra: las bees que llevan néctar polinizan los cultivos que sobrevuelan como si fuera bone meal; pasa la ruta de vuelo sobre tus campos de carrots y potatoes para crecimiento gratis.",
+      "Automatización: un dispenser mirando a la colmena con shears (o bottles) cosecha con un reloj de redstone mientras la campfire mantiene la paz; sin jugador.",
+      "Haz crecer la colonia: los saplings de oak, birch o cherry plantados a menos de 2 bloques de flowers tienen un 5% de probabilidad de generar un nest con 2-3 bees; las granjas de árboles bordeadas de flowers hacen las veces de fábricas de bees."
+    ],
+    "materials": [
+      "Bees: de nests naturales (plains, sunflower plains, flower forests) o de tus propias tiradas del 5% con saplings",
+      "Beehives (3 honeycombs + 6 planks) o nests reubicados (Silk Touch de noche, con las bees dentro)",
+      "Una campfire por bahía de cosecha, a menos de 5 bloques bajo la colmena",
+      "Flowers, muchas flowers",
+      "Dispensers, shears, glass bottles y un reloj de redstone para automatizar"
+    ],
+    "steps": [
+      "Encuentra bees: plains, sunflower plains y flower forests generan nests en los árboles; reubica un nest de noche con Silk Touch para que las bees viajen dentro.",
+      "O cría las tuyas: da una flower a dos bees y producirán una cría; los saplings de oak/birch junto a flowers tiran un 5% de nest por árbol.",
+      "Construye el apiario: colmenas en fila, macizos de flowers a ambos lados, cultivos más allá; una campfire bajo cada colmena.",
+      "Cosecha al goteo: cuando la honey chorrea por la colmena, esquila o embotella; tres bees por colmena la rellenan en unas diez salidas.",
+      "Automatiza la bahía: dispenser con shears apuntando a la colmena, reloj de redstone, campfire humeando debajo; las honeycombs caen en un hopper.",
+      "Embotella aparte: una segunda línea con glass bottles produce honey bottles para comida, sugar y honey blocks.",
+      "Nunca golpees una colmena: incluso una vacía enfada al vecindario; solo Silk Touch.",
+      "Craftea los productos: honey blocks (pistones pegajosos que no se pegan al slime), honeycomb blocks, candles y beehives para expandir."
+    ],
+    "rates": "Una colmena llena da 3 honeycombs o 1 honey bottle cada pocas horas del juego con tres bees ocupadas; una bahía automatizada de 4 colmenas produce stacks al día mientras está cargada, más polinización de cultivos gratis.",
+    "tips": [
+      "Reubica los nests de noche o con lluvia: todas las bees están en casa, así que el Silk Touch mueve la colonia entera en un bloque.",
+      "Mantén las wither roses lejos de las rutas de vuelo: las bees las polinizan y mueren por el efecto.",
+      "Enlaza a las rezagadas: las bees aceptan leads, incluso enfadadas.",
+      "Las honey bottles se apilan de 16 en 16 y curan poison: el snack de raid infravalorado."
+    ]
+  },
+  "ice-farm": {
+    "produces": "Ice para packed ice y blue ice: autopistas de boats rápidos y bloques de construcción que no se derriten",
+    "difficulty": "Principiante",
+    "quickAnswer": "Las fuentes de agua se congelan en ice en los biomas nevados cuando están abiertas al cielo, con poca luz y junto a un bloque sólido. Cava un estanque poco profundo en la nieve, espera con el Silk Touch en la mano y cosecha capa tras capa.",
+    "mechanics": [
+      "Las condiciones de congelación: bioma nevado, fuente de agua abierta al cielo justo encima, luz de bloque dentro del agua por debajo de 10 y al menos un bloque no-agua horizontalmente adyacente (incluso aire cuenta); luego los chunk ticks hacen el resto.",
+      "Los chunk ticks necesitan un jugador cerca, como los cultivos: un estanque de ice solo se congela mientras hay alguien en la zona.",
+      "La luz es la enemiga: las torches junto al estanque suben la luz de bloque a 10+ y detienen la congelación; ilumina los caminos, no el agua.",
+      "Silk Touch o nada: el ice minado sin él se rompe en agua (o en nada), así que toda la granja funciona con un pickaxe encantado.",
+      "La cadena de compresión: 9 ice se craftean en packed ice, 9 packed ice en blue ice; ninguno se derrite, y la blue ice es la superficie de boat más rápida del juego."
+    ],
+    "materials": [
+      "Un bioma nevado: llanuras de nieve, frozen river, frozen peaks",
+      "Water buckets para el estanque",
+      "Un pickaxe con Silk Touch (innegociable)",
+      "Bloques de construcción para los bordes del estanque y un marco sin techo",
+      "Paciencia: la congelación corre por random chunk ticks"
+    ],
+    "steps": [
+      "Explora el sitio: cualquier bioma nevado con cielo abierto vale; los frozen rivers vienen precavados.",
+      "Cava el estanque: un bloque de profundidad, cualquier forma, bordeado de bloques sólidos para que cada bloque de agua tenga un vecino no-agua.",
+      "Rellena con fuentes: solo agua quieta; el agua que fluye no se congela.",
+      "Mata la luz: nada de torches sobre el agua; mantén la luz de bloque interior por debajo de 10.",
+      "Quédate cerca: la congelación avanza por chunk ticks solo con un jugador cerca; pesca, construye o haz AFK al lado.",
+      "Cosecha con Silk Touch: rompe cada capa y el estanque se recongela solo.",
+      "Comprime: ice a packed ice (9:1) y a blue ice (9:1): 81 de ice por bloque de blue ice, y la granja lo hace gratis.",
+      "Tiende la autopista: los boats sobre blue ice alcanzan velocidades de autopista; el trayecto del End a la base se vuelve de segundos."
+    ],
+    "rates": "Un estanque de 10x10 se recongela en unos minutos de actividad cercana: stacks de ice por sesión, con la blue ice como producción lenta pero gratuita a largo plazo (81 de ice por bloque).",
+    "tips": [
+      "Las snow layers no bloquean la congelación: solo la luz y la cobertura del cielo lo hacen.",
+      "Mantén una fila de agua sin congelar en el borde para rellenar fácil el estanque tras las grandes cosechas.",
+      "La blue ice también alimenta los generadores de basalt: una granja, dos líneas de producción.",
+      "El packed ice y la blue ice nunca se derriten junto al glowstone: construye salas brillantes y frías con ellos."
+    ]
+  },
+  "villager-breeder": {
+    "produces": "Baby villagers a demanda: el motor de las trading halls, las iron farms y las raid farms",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Los villagers crían cuando están dispuestos (12 puntos de comida cada uno: 3 bread o 12 carrots/potatoes) y hay una bed libre con dos bloques de aire encima para la cría. Da de comer a dos villagers en una celda llena de beds y las crías no pararán.",
+    "mechanics": [
+      "La disposición es comida: un villager cría cuando guarda 12 puntos de comida; el bread cuenta 4 (3 hogazas), y las carrots, potatoes y beetroots cuentan 1 (12 verduras). Solo comen cuando están a punto de criar.",
+      "Las beds marcan el tope: los villagers crían solo mientras queden beds sin reclamar en rango; las beds necesitan dos bloques vacíos encima para valer para una cría.",
+      "Java comprueba un radio de 48 bloques en busca de una bed libre alcanzable y muestra partículas de enfado cuando no la hay; Bedrock hace un censo de la aldea: los diseños de celda difieren, las reglas de comida coinciden.",
+      "El diseño autoalimentado: un villager farmer trabajando una parcela de carrots o potatoes cosecha y tira comida a la pareja reproductora; sin alimentación manual tras el montaje.",
+      "Las crías tardan 20 minutos en crecer y reclaman su propia bed al momento; sácalas (corrientes de agua o minecart) para que las beds queden libres."
+    ],
+    "materials": [
+      "2 villagers (llévalos en boat o minecart desde la aldea más cercana)",
+      "Beds: una por reproductor más una por cría que quieras en cola",
+      "Un villager farmer + composter, y una parcela de carrots o potatoes (diseño autoalimentado)",
+      "Bloques de construcción para las celdas",
+      "Canales de agua o raíles para enviar las crías a la trading hall"
+    ],
+    "steps": [
+      "Importa dos villagers: secuéstralos en boat de noche cuando duermen; un boat aparcado en la bed los atrapa.",
+      "Construye la celda de cría: una sala pequeña con la pareja y una segunda cámara apilada de beds, con dos bloques de aire sobre cada almohada.",
+      "Dales de comer: lanza 3 bread o 12 carrots a cada uno hasta que aparezcan corazones, o instala al farmer y la parcela y deja que él se encargue.",
+      "Recoge las crías: una corriente de agua o canal de caída bajo la celda empuja a las crías a un corral, liberando beds para la siguiente ronda.",
+      "Asigna profesiones después: las crías crecen desempleadas; coloca una workstation delante de una para elegir su oficio y rómpela para rerrollear trades antes del primer trato.",
+      "Nunca comercies hasta que salga el trade que quieres: comerciar bloquea la profesión y las ofertas para siempre.",
+      "Escala la cadena: crías a las celdas de la trading hall, excedentes a los módulos de la iron farm, héroes a la raid farm.",
+      "Mantén a los zombies lejos: un zombie en la celda convierte tu criadero en una enfermería de infección; ilumina y valla todo."
+    ],
+    "rates": "Una pareja alimentada con beds libres produce una cría cada pocos minutos; un criadero con farmer funciona solo, llenando una trading hall de 20 celdas en un par de días del juego.",
+    "tips": [
+      "Lanza la comida al suelo: los villagers la recogen solos; no hace falta interfaz.",
+      "El chequeo de beds de 48 bloques en Java permite poner las beds muy por debajo de la pareja: apila la guardería bajo el criadero.",
+      "Los nitwits pasan (10% en Bedrock): también cuentan para las poblaciones de la iron farm.",
+      "Los zombie villagers curados también crían, y sus crías no heredan nada del descuento: el descuento es tuyo, no hereditario."
+    ]
   }
 }

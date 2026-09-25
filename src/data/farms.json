@@ -1023,5 +1023,126 @@
       "A mooshroom is the deluxe version: shear it for 5 mushrooms and it becomes a cow, or milk it with a bowl for infinite stew."
     ],
     "keywords": "mushroom farm minecraft, huge mushroom farm minecraft, how to grow mushrooms minecraft, brown mushroom farm, minecraft mushroom spreading light level"
+  },
+  {
+    "slug": "bee-farm",
+    "name": "Bee Farm (Honey Farm)",
+    "produces": "Honey bottles (sugar, food, honey blocks) and honeycombs (beehives, honeycomb blocks, candles)",
+    "difficulty": "Intermediate",
+    "editions": "both",
+    "quickAnswer": "Bees fill their hive one honey level per pollinated trip; at level 5, shear for honeycombs or bottle for honey - with a campfire smoking underneath, or they swarm you. A dispenser with shears or bottles automates the harvest completely.",
+    "mechanics": [
+      "Each pollinated bee that returns home raises the honey level by 1; at level 5 the hive drips and is ready: shears give 3 honeycombs, a glass bottle gives a honey bottle.",
+      "The anger rule: harvesting or breaking a home enrages its bees unless a campfire smokes within 5 blocks below it (or you Silk Touch the hive) - and a stung bee dies after attacking, so anger costs bees too.",
+      "Bees need flowers: plant dense flower beds around the hives so trips stay short - they wander up to 22 blocks, but every block of distance is wasted honey time.",
+      "Bonus income: bees carrying nectar pollinate crops they fly over like bone meal - run the flight path over your carrot and potato fields for free growth boosts.",
+      "Automation: a dispenser facing the hive with shears (or bottles) harvests on a redstone clock while the campfire keeps the peace - no player needed.",
+      "Grow the colony: oak, birch or cherry saplings planted within 2 blocks of flowers have a 5% chance to grow a nest with 2-3 bees - flower-lined tree farms double as bee factories."
+    ],
+    "materials": [
+      "Bees - from natural nests (plains, sunflower plains, flower forests) or your own 5% sapling rolls",
+      "Beehives (3 honeycombs + 6 planks) or relocated nests (Silk Touch at night, with the bees inside)",
+      "A campfire per harvest bay - placed within 5 blocks under the hive",
+      "Flowers, lots of flowers",
+      "Dispensers, shears, glass bottles and a redstone clock for automation"
+    ],
+    "steps": [
+      "Find bees: plains, sunflower plains and flower forests spawn nests on trees - relocate a nest at night with Silk Touch so the bees travel inside it.",
+      "Or breed your own: flower any two bees and they produce a baby; oak/birch saplings beside flowers roll a 5% nest chance per tree.",
+      "Build the apiary: hives in a row, flower beds on both sides, crops beyond - one campfire beneath each hive.",
+      "Harvest at drip: when honey runs down the hive, shear or bottle it; three bees per hive refill it in about ten bee-trips.",
+      "Automate the bay: dispenser with shears aimed at the hive, redstone clock, campfire smoking below - honeycombs land in a hopper.",
+      "Bottle separately: a second line with glass bottles produces honey bottles for food, sugar and honey blocks.",
+      "Never punch a hive: even an empty one angers the neighborhood - Silk Touch only.",
+      "Craft the goods: honey blocks (sticky pistons that do not stick to slime), honeycomb blocks, candles and beehives for expansion."
+    ],
+    "rates": "A full hive yields 3 honeycombs or 1 honey bottle every few in-game hours with three busy bees; a 4-hive automated bay produces stacks per day while loaded, plus free crop pollination.",
+    "tips": [
+      "Relocate nests at night or in rain: every bee is home, so Silk Touch moves the whole colony in one block.",
+      "Keep wither roses away from the flight paths - bees pollinate them and die from the effect.",
+      "Leash stragglers home: bees take leads, even angry ones.",
+      "Honey bottles stack to 16 and cure poison - the underrated raid snack."
+    ],
+    "keywords": "bee farm minecraft, honey farm minecraft, honeycomb farm minecraft, automatic honey farm, minecraft beehive campfire harvest"
+  },
+  {
+    "slug": "ice-farm",
+    "name": "Ice Farm",
+    "produces": "Ice for packed ice and blue ice - fast boat highways and non-melting build blocks",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Water source blocks freeze into ice in snowy biomes when open to the sky, dimly lit, and next to a solid block. Dig a shallow pond in the snow, wait with Silk Touch in hand, and harvest sheet after sheet.",
+    "mechanics": [
+      "The freeze conditions: snowy biome, water source open to the sky directly above, block light inside the water below 10, and at least one horizontally adjacent non-water block (even air counts) - then chunk ticks do the rest.",
+      "Chunk ticks need a player nearby, like crops - an ice pond freezes only while someone is in the area.",
+      "Light is the enemy: torches beside the pond push block light to 10+ and stop freezing - light the paths, not the water.",
+      "Silk Touch or nothing: ice mined without it shatters into water (or nothing), so the whole farm runs on one enchanted pickaxe.",
+      "The compression chain: 9 ice craft into packed ice, 9 packed ice into blue ice - neither melts, and blue ice is the fastest boat surface in the game."
+    ],
+    "materials": [
+      "A snowy biome - plains of snow, frozen river, frozen peaks",
+      "Water buckets for the pond",
+      "A Silk Touch pickaxe (non-negotiable)",
+      "Building blocks for pond walls and a roof-free frame",
+      "Patience: freezing runs on random chunk ticks"
+    ],
+    "steps": [
+      "Scout the spot: any snowy biome with open sky works - frozen rivers come pre-dug.",
+      "Dig the pond: one block deep, any shape, walled with solid blocks so every water block has a non-water neighbor.",
+      "Fill with source blocks: still water only - flowing water does not freeze.",
+      "Kill the light: no torches over the water; keep the block light inside below 10.",
+      "Stand by: freezing advances on chunk ticks only while a player is close - fish, build or AFK nearby.",
+      "Harvest with Silk Touch: break every sheet and the pond refreezes on its own.",
+      "Compress: ice to packed ice (9:1) to blue ice (9:1) - 81 ice per blue ice block, and the farm makes it free.",
+      "Lay the highway: boats on blue ice hit highway speeds - the End-to-base commute becomes seconds."
+    ],
+    "rates": "A 10x10 pond refreezes in a few minutes of nearby activity - stacks of ice per session, with blue ice as the slow-but-free long-term output (81 ice per block).",
+    "tips": [
+      "Snow layers do not block freezing - only light and sky cover do.",
+      "Keep a water bucket row unfrozen at the edge for easy pond refills after big harvests.",
+      "Blue ice also feeds basalt generators - one farm, two production lines.",
+      "Packed ice and blue ice never melt next to glowstone - build bright, cold halls with them."
+    ],
+    "keywords": "ice farm minecraft, packed ice farm minecraft, blue ice farm minecraft, how to freeze water minecraft, silk touch ice minecraft"
+  },
+  {
+    "slug": "villager-breeder",
+    "name": "Villager Breeder",
+    "produces": "Baby villagers on demand - the engine behind trading halls, iron farms and raid farms",
+    "difficulty": "Intermediate",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "Villagers breed when they are willing - 12 food points each (3 bread or 12 carrots/potatoes) - and there is an unclaimed bed with two blocks of air above it for the baby. Feed two villagers in a cell full of beds and the babies keep coming.",
+    "mechanics": [
+      "Willingness is food: a villager breeds when it holds 12 food points - bread counts 4 (3 loaves), carrots, potatoes and beetroots count 1 (12 vegetables). They eat only when about to breed.",
+      "Beds set the cap: villagers breed only while unclaimed beds remain in range - beds need two empty blocks above them to count for a baby.",
+      "Java checks a 48-block radius for a pathfindable unclaimed bed and shows angry particles when none is found; Bedrock runs a village census instead - cell designs differ, food rules match.",
+      "The self-feeding design: a farmer villager working a carrot or potato plot harvests and throws food to the breeder pair - no manual feeding after setup.",
+      "Babies take 20 minutes to grow and claim their own bed immediately - move them out (water streams or minecart) so the beds free up."
+    ],
+    "materials": [
+      "2 villagers (boat or minecart them home from the nearest village)",
+      "Beds - one per breeder plus one per baby you want queued",
+      "A farmer villager + composter, and a carrot or potato plot (self-feeding design)",
+      "Building blocks for the cells",
+      "Water channels or rails to ship babies to the trading hall"
+    ],
+    "steps": [
+      "Import two villagers: kidnap by boat at night when they sleep - a boat parked at the bed traps them.",
+      "Build the breeder cell: a small room with the pair, and a second chamber stacked with beds - two air blocks above each pillow.",
+      "Feed them: throw 3 bread or 12 carrots to each until hearts appear - or install the farmer and plot and let him cater.",
+      "Collect the babies: a water stream or drop chute under the cell pushes babies out to a holding pen, freeing beds for the next round.",
+      "Assign professions later: babies grow up unemployed - place a workstation in front of one to pick its job, and break it to reroll trades before the first deal.",
+      "Never trade until the trade you want shows: trading locks the profession and offers forever.",
+      "Scale the pipeline: babies to trading hall cells, extras to the iron farm pods, heroes to the raid farm.",
+      "Keep zombies away: one zombie in the cell turns your breeder into an infection ward - light and fence everything."
+    ],
+    "rates": "A fed pair with free beds produces a baby roughly every few minutes; a farmer-fed breeder runs hands-off, filling a 20-cell trading hall in a couple of in-game days.",
+    "tips": [
+      "Throw food on the ground - villagers pick it up themselves; no GUI needed.",
+      "The 48-block bed check in Java means beds can sit far below the pair: stack the nursery under the breeder.",
+      "Nitwits happen (10% in Bedrock) - they still count for iron farm populations.",
+      "Cured zombie villagers breed too, and their babies inherit nothing of the discount - the discount is yours, not hereditary."
+    ],
+    "keywords": "villager breeder minecraft, how to breed villagers minecraft, villager breeder 1.21, minecraft villager food points, automatic villager breeder"
   }
 ]
