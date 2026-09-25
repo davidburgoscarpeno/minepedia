@@ -15064,5 +15064,154 @@
   ],
   "relatedLinks": [],
   "keywords": "painting minecraft, how to make painting, painting recipe, painting sizes minecraft, secret door painting, how many paintings minecraft"
+ },
+ {
+  "slug": "how-to-make-arrow",
+  "name": "How to Make Arrows in Minecraft",
+  "shortTitle": "Make Arrows",
+  "quickAnswer": "Craft flint + stick + feather in a vertical line for 4 arrows. Flint comes from gravel, feathers from chickens - so an arrow pipeline is really a chicken farm plus a gravel shovel, and an Infinity bow makes the whole question optional.",
+  "steps": [
+   "Get flint: dig gravel with a shovel - each block has a 10% chance to drop flint instead of gravel. Fortune III on the shovel makes it guaranteed.",
+   "Get feathers: kill chickens (0-2 feathers each) or build a chicken farm for a passive supply.",
+   "Craft arrows in a column: flint on top, stick in the middle, feather at the bottom = 4 arrows.",
+   "Stockpile: a skeleton farm's drops include arrows for free, and fletcher villagers sell 16 arrows for 1 emerald at novice level.",
+   "Upgrade late-game: tipped arrows (arrow + lingering potion) and spectral arrows (4 glowstone dust + arrow) are the advanced variants.",
+   "Or skip ammo entirely: an Infinity-enchanted bow fires forever from a single arrow in your inventory."
+  ],
+  "materials": [
+   "1 flint per 4 arrows (gravel, 10% drop - Fortune III shovel guarantees it)",
+   "1 stick per 4 arrows",
+   "1 feather per 4 arrows (chickens)"
+  ],
+  "editionNote": "Identical recipe in Java and Bedrock. Small differences: in Bedrock piglin bartering can hand you 6-12 arrows, and in Java villagers with the Hero of the Village effect gift you arrows from fletchers. Mob-shot arrows (skeletons, strays, pillagers) can never be picked up in either edition.",
+  "versions": "Arrows have been craftable since the early Alpha days with the same flint-stick-feather recipe. Tipped arrows arrived in 1.9 and spectral arrows in 1.9 as well (Java).",
+  "faq": [
+   {
+    "q": "What is the fastest way to farm arrows?",
+    "a": "Early game: a fletcher villager sells 16 arrows per emerald, and a skeleton farm drops arrows plus the bones and bows for free. Late game one Infinity bow ends the problem."
+   },
+   {
+    "q": "Can you pick up arrows that skeletons shoot?",
+    "a": "No. Only arrows fired by a player (without Infinity) can be retrieved. Anything a mob shoots vanishes when it lands."
+   },
+   {
+    "q": "Does Fortune give more flint?",
+    "a": "Yes: Fortune raises the 10% flint chance per gravel block, and Fortune III makes every gravel block drop flint - dig and replace the same stack of gravel for unlimited flint."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-bow",
+   "how-to-make-crossbow",
+   "how-to-get-infinity"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/chicken/",
+    "label": "Chicken mob guide"
+   },
+   {
+    "url": "/mobs/skeleton/",
+    "label": "Skeleton mob guide"
+   }
+  ],
+  "keywords": "arrows minecraft, how to make arrows, arrow recipe minecraft, get flint fast, feather farm, fletcher arrows minecraft"
+ },
+ {
+  "slug": "how-to-make-book-and-quill",
+  "name": "How to Make a Book and Quill in Minecraft",
+  "shortTitle": "Make a Book and Quill",
+  "quickAnswer": "Combine 1 book + 1 ink sac + 1 feather anywhere in the crafting grid. Write up to 100 pages, sign it to lock the text forever as a written book, and place it on a lectern to display it - or to read pages with redstone.",
+  "steps": [
+   "Craft a book (3 paper + 1 leather), get an ink sac from a squid and a feather from a chicken.",
+   "Combine the three items anywhere in the crafting grid - the recipe is shapeless.",
+   "Hold the book and quill and right-click to open the editor: write, edit and flip through pages.",
+   "Java gives you 100 pages of 1,023 characters each; Bedrock gives 50 pages of 256 characters.",
+   "Press Sign, choose a title, and the book locks forever as a written book with your name on it.",
+   "Copy signed books by crafting a written book with more books and quills - originals copy to 'Copy of original', and copies of copies cannot be copied."
+  ],
+  "materials": [
+   "1 book (3 paper from sugar cane + 1 leather)",
+   "1 ink sac (squids in rivers and oceans)",
+   "1 feather (chickens)"
+  ],
+  "editionNote": "Page and character limits differ: Java allows 100 pages at 1,023 characters, Bedrock 50 pages at 256. Signed books show the author's name in Java; in Bedrock the author line is free text. Both editions support formatting codes with the section sign and lectern display.",
+  "versions": "Added in 1.3.1 (12w17a) - the update that also made books craftable from leather and paper. Book copying arrived in the same version, and lectern display came with 1.14.",
+  "faq": [
+   {
+    "q": "Can you edit a book after signing it?",
+    "a": "No - signing is permanent. Keep an unsigned master copy if you want to revise the text later, and sign fresh copies of the final version."
+   },
+   {
+    "q": "What is a book and quill used for?",
+    "a": "Player-written books: journals, instructions, server rulebooks, adventure-map storytelling. On a lectern it displays the text publicly and a comparator outputs a redstone signal based on the open page (15 on the last page) - the classic page-turning combination lock."
+   },
+   {
+    "q": "How many pages can you write?",
+    "a": "100 pages in Java (1,023 characters each), 50 pages in Bedrock (256 characters each), with up to 14 lines per page."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-book",
+   "how-to-make-lectern",
+   "how-to-make-bookshelf"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/squid/",
+    "label": "Squid mob guide"
+   }
+  ],
+  "keywords": "book and quill minecraft, how to make book and quill, write book minecraft, sign book minecraft, written book, book pages limit minecraft"
+ },
+ {
+  "slug": "how-to-make-fire-charge",
+  "name": "How to Make a Fire Charge in Minecraft",
+  "shortTitle": "Make a Fire Charge",
+  "quickAnswer": "Craft blaze powder + coal or charcoal + gunpowder anywhere in the grid for 3 fire charges. It works like a single-use flint and steel - light portals, campfires and TNT - and loaded into a dispenser it shoots small fireballs like a blaze.",
+  "steps": [
+   "Get blaze powder from blaze rods (Nether fortress blazes).",
+   "Get gunpowder from creepers, ghasts or witches.",
+   "Craft anywhere in the grid: blaze powder + 1 coal or charcoal + 1 gunpowder = 3 fire charges.",
+   "Use it by hand to place fire exactly like flint and steel - but the charge is consumed. It lights Nether portals, campfires, candles, TNT and even creepers (Java).",
+   "Load fire charges into a dispenser and power it: each charge fires a small fireball, the same projectile blazes shoot.",
+   "That dispenser trick makes automatic Nether portal lighters and blaze-style arrow towers."
+  ],
+  "materials": [
+   "1 blaze powder per batch (1 blaze rod = 2 powder)",
+   "1 coal or charcoal per batch",
+   "1 gunpowder per batch (creepers, ghasts, witches, or piglin bartering)"
+  ],
+  "editionNote": "Identical in Java and Bedrock, including the 3-charge recipe and dispenser fireballs. Java-only detail: fire charges can light creepers by hand. They are also one of the possible piglin bartering outputs.",
+  "versions": "Added in 1.2.1 (12w04a) alongside the fire charge's dispenser behavior. Fun fact the wiki confirms: blazes shoot small fireballs but never drop fire charges.",
+  "faq": [
+   {
+    "q": "What is a fire charge used for?",
+    "a": "Two jobs: a single-use flint and steel (lighting portals, campfires, candles, TNT) and dispenser ammunition that shoots blaze-style small fireballs - the base of auto-lighting portal designs and fireball turrets."
+   },
+   {
+    "q": "Is a fire charge better than flint and steel?",
+    "a": "Flint and steel has 65 uses; a fire charge has 1. Charges win only when a machine must do the lighting (dispensers) or when your flint and steel breaks at the worst moment in the Nether."
+   },
+   {
+    "q": "Can you throw a fire charge by hand?",
+    "a": "No. Right-clicking with a fire charge only places fire at the target block. The fireball shot exists exclusively through dispensers."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-get-blaze-rod",
+   "how-to-get-gunpowder",
+   "how-to-make-flint-and-steel"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/blaze/",
+    "label": "Blaze mob guide"
+   },
+   {
+    "url": "/mobs/creeper/",
+    "label": "Creeper mob guide"
+   }
+  ],
+  "keywords": "fire charge minecraft, how to make fire charge, fire charge recipe, fire charge dispenser, fire charge vs flint and steel, light nether portal"
  }
 ]
