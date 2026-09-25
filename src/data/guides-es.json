@@ -14349,5 +14349,127 @@
    }
   ],
   "keywords": "turtle shell minecraft, turtle scute, receta casco de tortuga, casco water breathing, potion of the turtle master, cómo conseguir scutes"
+ },
+ "how-to-start-a-raid": {
+  "name": "Cómo iniciar una Raid en Minecraft",
+  "shortTitle": "Iniciar una Raid",
+  "quickAnswer": "Bebe una ominous bottle que sueltan los raid captains para conseguir Bad Omen y entra en una aldea. El Bad Omen se convierte en Raid Omen y 30 segundos después empieza la raid: supera todas las oleadas para ganar Hero of the Village y grandes descuentos.",
+  "steps": [
+   "Consigue una ominous bottle: la sueltan los pillager captains (en patrullas y en pillager outposts). El nivel de la botella (I-V) fija tu nivel de Bad Omen.",
+   "Ve bien equipado: en Normal y Hard la raid lanza 5-7 oleadas de vindicators, evokers, witches y ravagers.",
+   "Bebe la botella para recibir Bad Omen y entra en una aldea: vale cualquier punto a unos 3 chunks de una bed, job site o bell reclamados.",
+   "El Bad Omen se convierte en Raid Omen durante 30 segundos: tu última oportunidad de beber milk y cancelar. Cuando expira, empieza la raid.",
+   "La bossbar de Raid carga durante 15 segundos y llega la oleada 1. Easy tiene 3 oleadas, Normal 5 y Hard 7; con Raid Omen II o superior se añade una oleada extra.",
+   "Mata a todos los raiders para ganar: recibes Hero of the Village, los villagers lanzan regalos y bajan sus precios, y te quedas con los drops de la raid, incluidos los totems of undying de los evokers."
+  ],
+  "materials": [
+   "Ominous bottle (la sueltan los raid captains)",
+   "Equipo completo de hierro o diamond, mejor encantado",
+   "Milk bucket (cancelación de emergencia)",
+   "Una aldea que estés dispuesto a defender"
+  ],
+  "editionNote": "El disparador es el mismo en Java y Bedrock desde la 1.21: ominous bottle -> Bad Omen -> Raid Omen -> raid, con 3/5/7 oleadas según dificultad y +1 con Raid Omen II. En Java, los raid captains pueden unirse a una raid ya en curso.",
+  "versions": "Las raids se añadieron en Village & Pillage: Java 1.14 (18w47a) y Bedrock 1.11.0. La 1.21 cambió el disparador: los captains ahora sueltan ominous bottles, así que eliges cuándo empezar la raid en vez de recibir Bad Omen automáticamente.",
+  "faq": [
+   {
+    "q": "¿Qué gano al superar una raid?",
+    "a": "Hero of the Village: los villagers de la aldea salvada te hacen grandes descuentos y te lanzan regalos. Además te quedas con todo lo que sueltan los raiders: totems of undying, emeralds, enchanted books y más."
+   },
+   {
+    "q": "¿Puedo cancelar una raid ya empezada?",
+    "a": "Beber milk solo cancela durante la ventana de 30 segundos del Raid Omen, antes de la primera oleada. Después, o superas todas las oleadas o los raiders arrasan la aldea y ganan."
+   },
+   {
+    "q": "¿Cómo consigo una raid más grande?",
+    "a": "Bebe una ominous bottle de nivel más alto: los captains sueltan botellas del nivel I al V. Con Raid Omen II o superior se añade una oleada extra con la fuerza de la última, lo que significa más y mejores drops."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/pillager/",
+    "label": "Guía del mob pillager"
+   }
+  ],
+  "keywords": "cómo iniciar una raid minecraft, bad omen, raid omen, ominous bottle raid, hero of the village, oleadas raid minecraft"
+ },
+ "how-to-make-lightning-rod": {
+  "name": "Cómo hacer un Lightning Rod en Minecraft",
+  "shortTitle": "Hacer un Lightning Rod",
+  "quickAnswer": "Fabrica un lightning rod con 3 copper ingots en vertical. Colocado con acceso al cielo, atrae todos los rayos naturales en un radio de 128 bloques (Java) o 64 (Bedrock) hacia sí mismo, protegiendo del fuego tus construcciones de madera.",
+  "steps": [
+   "Funde 3 copper ingots a partir de raw copper: el copper ore se genera entre Y=-16 e Y=112, con las vetas más ricas alrededor de Y=48.",
+   "Coloca los 3 lingotes en una columna vertical en la mesa de crafteo para fabricar la rod.",
+   "Pon la rod encima de tu construcción: debe ser el bloque más alto de su columna y ver el cielo para funcionar.",
+   "Durante las tormentas, la rod atrae todos los rayos naturales en 128 bloques en Java o 64 en Bedrock, así que caen sobre ella y no sobre tu tejado.",
+   "Extra: al ser alcanzada emite un pulso de redstone (fuerza 15, 0,4 segundos) y el rayo limpia la oxidación de la propia rod si no está encerada."
+  ],
+  "materials": [
+   "3 copper ingots"
+  ],
+  "editionNote": "Misma receta (3 copper ingots) en ambas ediciones, pero el radio de atracción cambia: 128 bloques en Java y 64 en Bedrock. El pulso de redstone (nivel 15 durante 8 game ticks) funciona igual.",
+  "versions": "Los lightning rods se añadieron en Caves & Cliffs Parte I: Java 1.17 (20w45a) y Bedrock 1.17.0.",
+  "faq": [
+   {
+    "q": "¿El lightning rod evita el daño por fuego?",
+    "a": "Redirige el rayo hacia sí misma en vez de hacia tu tejado de madera, pero el impacto aún puede prender bloques inflamables que la toquen: móntala sobre piedra, cobre u otro bloque no inflamable."
+   },
+   {
+    "q": "¿Puedo farmear charged creepers con una?",
+    "a": "Sí: como la rod atrae todos los rayos a un punto conocido durante una tormenta, puedes aparcar creepers junto a ella y conseguir charged creepers (o convertir villagers en witches) cuando quieras."
+   },
+   {
+    "q": "¿Funciona bajo techo o bajo tierra?",
+    "a": "No. La rod necesita acceso directo al cielo y ser el bloque más alto de su columna; si no, los rayos naturales la ignoran."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/creeper/",
+    "label": "Guía del mob creeper"
+   }
+  ],
+  "keywords": "lightning rod minecraft, cómo hacer un lightning rod, receta lightning rod, pararrayos de cobre, proteger casa de los rayos minecraft"
+ },
+ "how-to-get-goat-horn": {
+  "name": "Cómo conseguir un Goat Horn en Minecraft",
+  "shortTitle": "Conseguir un Goat Horn",
+  "quickAnswer": "Los goat horns caen cuando una goat adulta embiste un bloque sólido: quédate quieto junto a un árbol o piedra hasta que cargue y esquiva en el último momento. Las goats normales sueltan Ponder, Sing, Seek o Feel; las raras screaming goats sueltan Admire, Call, Yearn o Dream.",
+  "steps": [
+   "Encuentra goats en los biomas de montaña: jagged peaks, frozen peaks y snowy slopes.",
+   "Quédate quieto a 4-16 bloques de una goat con un tronco, stone u ore justo detrás de ti. Las goats intentan embestir a un objetivo inmóvil cada 30 segundos a 5 minutos.",
+   "Cuando cargue, quítate en el último momento. Si la goat te falla y se estampa contra el bloque duro, uno de sus cuernos se rompe y cae.",
+   "Cada goat adulta suelta hasta 2 horns y no le vuelven a crecer, y cada goat suelta una sola variante: necesitas varias goats para el set completo.",
+   "Las screaming goats (2% de los spawns, reconocibles al instante por su grito) sueltan las cuatro variantes más raras: Admire, Call, Yearn y Dream. Criar dos screamers da un bebé screamer casi seguro.",
+   "Toca el horn para emitir un sonido potente que se oye a lo lejos: perfecto para avisar a tus amigos desde otra montaña."
+  ],
+  "materials": [
+   "Nada que craftear: solo paciencia",
+   "Un tronco, stone u ore como cebo",
+   "Wheat (para criar goats y conseguir más horns)",
+   "Lead o boat (opcional, para mover goats)"
+  ],
+  "editionNote": "La mecánica es la misma en Java y Bedrock: embestidas cada 30 segundos a 5 minutos y hasta 2 horns por goat. La genética screaming cambia un poco: dos padres screaming siempre producen un screamer en Java y el 98% de las veces en Bedrock.",
+  "versions": "Los goat horns se anunciaron para Caves & Cliffs pero llegaron con The Wild Update: Java 1.19 (22w17a) y Bedrock 1.19.0.",
+  "faq": [
+   {
+    "q": "¿Por qué no me embiste mi goat?",
+    "a": "Solo ataca a mobs y jugadores inmóviles a 4-16 bloques, y solo cada 30 segundos a 5 minutos. Quédate completamente quieto a la vista: un pequeño paso reinicia su interés."
+   },
+   {
+    "q": "¿Les vuelven a crecer los cuernos a las goats?",
+    "a": "No. Cuando una goat ha soltado sus dos horns ya no da más: cría más goats con wheat para mantener la granja en marcha."
+   },
+   {
+    "q": "¿Qué goat suelta qué horn?",
+    "a": "Las goats normales dan Ponder, Sing, Seek o Feel; las screaming goats dan Admire, Call, Yearn o Dream. Cada goat está ligada a una sola variante, así que coleccionar las ocho exige encontrar o criar varias goats."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/goat/",
+    "label": "Guía del mob goat"
+   }
+  ],
+  "keywords": "goat horn minecraft, cómo conseguir goat horn, screaming goat, variantes de goat horn, embestida de goat minecraft, granja de goat horns"
  }
 }
