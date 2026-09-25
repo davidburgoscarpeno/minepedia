@@ -13347,5 +13347,143 @@
     "label": "Guía de Smithing Templates"
    }
   ]
+ },
+ "how-to-make-shulker-box": {
+  "name": "Cómo hacer un Shulker Box en Minecraft",
+  "shortTitle": "Hacer un Shulker Box",
+  "quickAnswer": "Fabrica 2 shulker shells encima y debajo de un chest (una columna vertical en la mesa de crafteo). Las shulker shells las sueltan los shulkers de las End cities, así que el shulker box es una mejora de almacenamiento del endgame: conserva sus 27 huecos de objetos dentro al romperlo.",
+  "steps": [
+   "Derrota a la ender dragon, encuentra una End city a través de un End gateway y mata shulkers hasta conseguir 2 shulker shells.",
+   "Fabrica un chest con 8 planks de cualquier madera.",
+   "Abre la crafting table y coloca una shulker shell en el hueco superior central, el chest en el centro y la segunda shulker shell abajo en el centro.",
+   "Recoge el shulker box. Llénalo con hasta 27 stacks de objetos.",
+   "Rómpelo con cualquier herramienta (el pickaxe es lo más rápido): cae como objeto con todo dentro, tu cofre portátil.",
+   "Opcional: combínalo con cualquier dye para recolorearlo sin perder el contenido."
+  ],
+  "materials": [
+   "2 shulker shells (las sueltan los shulkers de las End cities)",
+   "1 chest (8 planks de cualquier madera)",
+   "Opcional: cualquier dye para recolorearlo",
+   "Opcional: un cauldron con agua para quitar el color (gasta 1 nivel de agua)"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock. El shulker box siempre se suelta a sí mismo, incluso en explosiones, y conserva su contenido; pero si el objeto ya soltado se destruye (lava, cactus, despawn), el contenido se desparrama. Un piston puede empujarlo para romperlo en forma de objeto, pero no puede tirar de él.",
+  "versions": "Añadido en la 1.11 (Exploration Update, snapshot 16w39a) con los 16 colores de dye. Lo de quitar el color en un cauldron llegó en la 1.13.",
+  "faq": [
+   {
+    "q": "¿Cuántos objetos caben en un shulker box?",
+    "a": "27 huecos, igual que un chest simple: hasta 27 stacks (1.728 objetos apilables)."
+   },
+   {
+    "q": "¿Se puede meter un shulker box dentro de otro?",
+    "a": "No, los shulker boxes no se pueden anidar, pero sí caben en chests, ender chests y tu inventario, que es lo que los convierte en el mejor almacenamiento masivo del juego."
+   },
+   {
+    "q": "¿Los shulker boxes conservan el contenido al romperlos?",
+    "a": "Sí, esa es su gracia. Rompes el bloque y el objeto caído guarda todo dentro; lo vuelves a colocar y tus objetos siguen ahí."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/shulker/",
+    "label": "Guía del mob Shulker"
+   },
+   {
+    "url": "/es/structures/end-city/",
+    "label": "Guía de la estructura End City"
+   }
+  ],
+  "keywords": "shulker box minecraft, cómo hacer shulker box, receta shulker box, shulker shell, teñir shulker box, cofre portátil minecraft"
+ },
+ "how-to-make-end-crystal": {
+  "name": "Cómo hacer un End Crystal en Minecraft",
+  "shortTitle": "Hacer un End Crystal",
+  "quickAnswer": "Fabrica 7 glass + 1 eye of ender + 1 ghast tear. Los End crystals solo se colocan sobre obsidian o bedrock, explotan con la fuerza de un charged creeper al recibir daño, y poner 4 en el exit portal hace reaparecer a la ender dragon.",
+  "steps": [
+   "Consigue 7 glass fundiendo sand, 1 eye of ender (blaze powder + ender pearl) y 1 ghast tear (mata ghasts en el Nether).",
+   "Fabrícalo: glass en todos los huecos menos el central (eye of ender) y el inferior central (ghast tear).",
+   "Coloca el crystal solo encima de obsidian o bedrock: cualquier otro bloque lo rechaza.",
+   "Para hacer reaparecer a la dragon, coloca un crystal en el centro de cada uno de los 4 lados planos del exit portal del End.",
+   "Los crystals regeneran los de los pilares, resucitan a la dragon y luego explotan, así que aléjate.",
+   "En combate, dispara a los crystals de los pilares desde lejos: una flecha los detona sin riesgo y evita que curen a la dragon."
+  ],
+  "materials": [
+   "7 glass (funde sand en un furnace)",
+   "1 eye of ender (blaze powder + ender pearl)",
+   "1 ghast tear (los ghasts la sueltan en el Nether)",
+   "Obsidian o bedrock donde colocarlo"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock. La explosión tiene potencia 6, igual que un charged creeper. Detalle de Java: si un crystal lo destruye otra explosión, desaparece en vez de explotar (bug MC-118429). Los crystals sobre obsidian o bedrock no rompen el bloque de debajo.",
+  "versions": "Los End crystals existían como entidades no fabricables desde la 1.0.0 (Beta 1.9 Prerelease 6). Pasaron a ser fabricables y colocables en la 1.9 (snapshot 15w44a), la misma actualización que añadió la reaparición de la dragon.",
+  "faq": [
+   {
+    "q": "¿Cómo se hace reaparecer a la ender dragon?",
+    "a": "Coloca 4 End crystals en el exit portal, uno en el centro de cada lado plano. Los crystals de los pilares se regeneran, la dragon resucita y los 4 crystals colocados explotan."
+   },
+   {
+    "q": "¿Cuánto daño hace la explosión de un End Crystal?",
+    "a": "Tiene potencia de explosión 6, lo mismo que un charged creeper y más que el TNT (potencia 4). A quemarropa y sin armadura encantada puede matarte."
+   },
+   {
+    "q": "¿Por qué no puedo colocar mi End Crystal?",
+    "a": "Solo se adhiere a la cara superior de obsidian o bedrock. Ningún otro bloque lo acepta."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/structures/end-city/",
+    "label": "Guía de la estructura End City"
+   },
+   {
+    "url": "/es/mobs/ghast/",
+    "label": "Guía del mob Ghast"
+   }
+  ],
+  "keywords": "end crystal minecraft, cómo hacer end crystal, receta end crystal, reaparecer ender dragon, explosión end crystal, colocar end crystal"
+ },
+ "how-to-get-blaze-rod": {
+  "name": "Cómo conseguir Blaze Rods en Minecraft",
+  "shortTitle": "Conseguir Blaze Rods",
+  "quickAnswer": "Las blaze rods solo las sueltan los blazes, que aparecen en las Nether fortresses. Cada blaze que mates tú o tu lobo domesticado suelta 0-1 rods (hasta 4 con Looting III), y las necesitas para blaze powder, brewing stands y eyes of ender: el camino al End empieza aquí.",
+  "steps": [
+   "Encuentra una Nether fortress: esos largos puentes oscuros de nether bricks en el Nether. Explora en línea recta para abarcar terreno.",
+   "Localiza un blaze spawner (salas pequeñas con jaula y blazes dando vueltas) o caza los blazes que patrullan las pasarelas.",
+   "Mata tú a los blazes: las bajas de un lobo domesticado también cuentan. Los grinders, la lava y las caídas NO sueltan rods.",
+   "Cada baja suelta 0-1 blaze rods; con Looting III en la espada el techo sube a 4 por baja.",
+   "Llévate 8-10 rods antes de irte: cada una da 2 blaze powder, y entre brewing stands y eyes of ender se gastan volando.",
+   "Pociones de fire resistance, un shield y un bow hacen el farmeo de blazes mucho más seguro."
+  ],
+  "materials": [
+   "Un portal al Nether (mínimo 10 obsidian)",
+   "Armadura de iron o mejor, idealmente con Fire Protection o poción de fire resistance",
+   "Una espada (Looting III si la tienes) y un bow para matar a distancia",
+   "Comida y bloques para cubrirte dentro de la fortress"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock: los blazes son la única fuente, las rods solo caen si mata el jugador o un lobo domesticado, y Looting añade hasta 1 rod extra por nivel. Las blaze rods también sirven de combustible en el furnace (120 segundos, 12 objetos), pero es desperdiciarlas.",
+  "versions": "Añadidas en la Beta 1.9 Prerelease junto a las pociones. Desde entonces siguen siendo el único drop de los blazes y la puerta obligatoria a las pociones y al End.",
+  "faq": [
+   {
+    "q": "¿Cuántas blaze rods necesito?",
+    "a": "Cuenta 8-10: 1 rod fabrica una brewing stand, cada rod da 2 blaze powder (cada powder alimenta 20 operaciones de brewing) y cada eye of ender cuesta 1 powder; encontrar y activar el portal de una stronghold suele llevar más de 12 eyes."
+   },
+   {
+    "q": "¿Por qué los blazes no sueltan rods?",
+    "a": "La baja tiene que venir de ti o de un lobo domesticado. Lava, daño de caída, fuego y bajas de mobs no domesticados no sueltan nada."
+   },
+   {
+    "q": "¿Para qué sirven las blaze rods?",
+    "a": "Blaze powder (combustible del brewing e ingrediente de los eyes of ender), brewing stands, end rods y copper bulbs."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/blaze/",
+    "label": "Guía del mob Blaze"
+   },
+   {
+    "url": "/es/structures/nether-fortress/",
+    "label": "Guía de la estructura Nether Fortress"
+   }
+  ],
+  "keywords": "blaze rod minecraft, cómo conseguir blaze rods, probabilidad drop blaze rod, encontrar blazes, nether fortress blazes, looting blaze rods"
  }
 }
