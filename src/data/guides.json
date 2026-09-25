@@ -13273,5 +13273,155 @@
     "href": "/structures/desert-temple/"
    }
   ]
+ },
+ {
+  "slug": "how-to-make-redstone-torch",
+  "name": "How to Make a Redstone Torch in Minecraft",
+  "shortTitle": "Make a redstone torch",
+  "quickAnswer": "Craft a redstone torch with one redstone dust above one stick. It constantly powers the block above it, works as a signal inverter and is an ingredient in repeaters, comparators, activator rails and redstone lamps.",
+  "steps": [
+   "Mine redstone dust: redstone ore generates below Y=16, especially deep near bedrock - an iron pickaxe or better drops 4-5 dust per ore.",
+   "Craft sticks from any two planks.",
+   "Open a crafting table: place redstone dust in the center slot and a stick directly below it - one torch per craft.",
+   "Place it on top or on the side of a solid block: it constantly outputs power level 15.",
+   "Use it as an inverter: power the block the torch is attached to and the torch turns OFF - the classic NOT gate behind almost every redstone build.",
+   "Use it as a power source: the torch strongly powers the block directly above it and weakly powers its other neighbors.",
+   "Craft with it: redstone torches are ingredients in redstone repeaters, redstone comparators, activator rails and redstone lamps.",
+   "Avoid flicker loops: a torch forced to switch off more than eight times in 3 seconds burns out and stays off until it receives a block update."
+  ],
+  "materials": [
+   "Redstone dust x1",
+   "Stick x1",
+   "Crafting table"
+  ],
+  "editionNote": "Crafting and basic behavior are identical in Java and Bedrock. The differences are in the details: burnout recovery timing varies in Java, and in Bedrock a torch on a piston turns off when the piston is powered - the community calls that soft inversion.",
+  "versions": "One of the oldest blocks in the game: added in Java Alpha v1.0.1 (July 2010) alongside redstone itself. Became an ingredient for repeaters in Beta 1.3 and comparators in 1.5.",
+  "faq": [
+   {
+    "q": "What is the redstone torch recipe in Minecraft?",
+    "a": "One redstone dust above one stick in a crafting table - the same shape as a normal torch with redstone instead of coal. Each craft makes one redstone torch."
+   },
+   {
+    "q": "Why did my redstone torch turn off in Minecraft?",
+    "a": "Either the block it is attached to is powered (torches invert their attachment block's signal) or it burned out: more than eight state changes in 3 seconds disables it until the flicker count drops or it gets a block update."
+   },
+   {
+    "q": "What can you craft with a redstone torch?",
+    "a": "Redstone repeaters, redstone comparators, activator rails and redstone lamps all need redstone torches - keep a stack around for any redstone project."
+   }
+  ],
+  "keywords": "redstone torch recipe minecraft, how to make redstone torch minecraft, redstone torch inverter minecraft, redstone torch burnout, minecraft redstone torch uses",
+  "relatedGuides": [
+   "how-to-get-redstone",
+   "how-to-make-redstone-repeater",
+   "how-to-make-redstone-comparator",
+   "how-to-make-redstone-lamp"
+  ],
+  "relatedLinks": []
+ },
+ {
+  "slug": "how-to-get-moss",
+  "name": "How to Get Moss in Minecraft (1.17+)",
+  "shortTitle": "Get moss",
+  "quickAnswer": "Find moss blocks covering the floor and ceiling of lush caves, or buy two from a wandering trader for one emerald. Then use bone meal on a moss block to spread it across nearby stone and dirt.",
+  "steps": [
+   "Find a lush cave: look for an azalea tree on the surface - its roots mark a lush cave below, floored and roofed with moss blocks.",
+   "Mine moss with anything: it breaks instantly by hand, but a hoe is fastest - bring one to harvest stacks quickly.",
+   "Or trade for it: wandering traders sell 2 moss blocks for 1 emerald.",
+   "Spread it with bone meal: use bone meal on a moss block and moss converts convertible blocks in a 7x11x7 volume around it.",
+   "Harvest the spread: each bone meal on a flat field yields around 27 moss blocks on average.",
+   "Close the loop: compost the excess moss for bone meal - about 2.5 bone meal back per 27 moss, so a moss farm mostly feeds itself.",
+   "Watch for bonus plants: spread moss can sprout grass, moss carpet, azaleas (7.29%) and flowering azaleas (4.17%) - free decoration and saplings.",
+   "Craft with it: moss plus cobblestone or stone bricks makes their mossy variants, and 2 moss blocks craft into 3 moss carpets."
+  ],
+  "materials": [
+   "Moss block x1 (lush caves or wandering trader)",
+   "Bone meal (to multiply it)",
+   "Hoe (fastest tool)"
+  ],
+  "editionNote": "Moss spreading works the same in Java and Bedrock, though the exact column selection algorithm differs slightly - in Bedrock the source block can sit a few blocks above the center of the spread. Wandering trader pricing is the same on both.",
+  "versions": "Added in 1.17 Caves & Cliffs Part I (21w05a) and started generating naturally in lush caves in 21w10a. Also appears in trial chambers since 1.21, marking spawners that can summon slimes.",
+  "faq": [
+   {
+    "q": "Where do you find moss in Minecraft?",
+    "a": "Lush caves - the underground biome under azalea trees - are covered in moss blocks on the floor and ceiling. Moss also generates in trial chambers, and wandering traders sell 2 blocks for 1 emerald."
+   },
+   {
+    "q": "How do you multiply moss in Minecraft?",
+    "a": "Use bone meal on a moss block: it spreads moss over nearby stone, dirt and similar blocks with air above them. One bone meal yields around 27 moss blocks on a flat field, and composting the surplus almost refunds the bone meal."
+   },
+   {
+    "q": "What is moss used for in Minecraft?",
+    "a": "Mossy cobblestone and mossy stone bricks, moss carpets, and decoration - plus bonemeal-spread moss can grow azalea and flowering azalea bushes. It is also the fastest way to turn a cave floor green."
+   }
+  ],
+  "keywords": "how to get moss minecraft, minecraft moss farm, moss block minecraft lush caves, minecraft moss spread bone meal, wandering trader moss",
+  "relatedGuides": [
+   "how-to-find-lush-caves",
+   "how-to-get-bone-meal",
+   "how-to-make-composter"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Lush caves",
+    "href": "/biomes/lush-caves/"
+   },
+   {
+    "label": "Trial chambers",
+    "href": "/structures/trial-chambers/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-get-creaking-heart",
+  "name": "How to Get a Creaking Heart in Minecraft (1.21.4)",
+  "shortTitle": "Get a creaking heart",
+  "quickAnswer": "Mine a hidden creaking heart from inside a pale oak trunk in the pale garden with Silk Touch - or craft one from two pale oak logs and a block of resin. Place it between two pale oak logs and it spawns a creaking every night.",
+  "steps": [
+   "Find a pale garden: the grey, silent biome where pale oaks grow - look for its washed-out trees on your travels.",
+   "Search pale oak trunks: about 10% of naturally grown pale oaks hide a creaking heart inside the top trunk, always fully covered by logs.",
+   "Listen for it and watch the particles: an active heart at night emits eerie sounds and sends particle trails toward its creaking.",
+   "Mine it with Silk Touch: without Silk Touch the heart drops only 1-3 resin clumps (up to 6 with Fortune III) instead of itself.",
+   "Grab the experience too: breaking a naturally generated heart drops 20-24 XP in Survival.",
+   "Or craft it: place a block of resin between two pale oak logs in a vertical line on a crafting table.",
+   "Activate it: place the heart between two aligned pale oak logs - it turns dormant by day and awake at night (roughly 6:40 PM to 4:40 AM in-game).",
+   "Farm resin: at night an awake heart spawns a creaking - hit the creaking and resin clumps grow on nearby pale oak logs, with a 5-second cooldown between clumps. Breaking the heart kills its creaking instantly."
+  ],
+  "materials": [
+   "Silk Touch axe (for wild hearts)",
+   "Or: pale oak log x2 + block of resin (to craft)",
+   "Two pale oak logs to activate it"
+  ],
+  "editionNote": "Everything works the same in Java and Bedrock. Bedrock adds the Heart Transplanter achievement for placing a creaking heart correctly between pale oak logs, and early Bedrock previews tuned its sounds, hardness and resin spread range.",
+  "versions": "Added in 1.21.4 - The Garden Awakens - first shown behind the Winter Drop experimental pack in 24w40a and fully available from 24w44a, alongside the pale garden, the creaking and resin.",
+  "faq": [
+   {
+    "q": "Where do you find creaking hearts in Minecraft?",
+    "a": "Hidden inside the top trunks of about 10% of pale oak trees in the pale garden biome - always completely covered by pale oak logs, so you have to strip trunks to find them. Some abandoned camps also generate with one."
+   },
+   {
+    "q": "How do you pick up a creaking heart without breaking it?",
+    "a": "Mine it with a Silk Touch tool. Any other tool drops 1-3 resin clumps instead (Fortune raises the maximum to 6), so Silk Touch is mandatory if you want the block itself."
+   },
+   {
+    "q": "What does a creaking heart do in Minecraft?",
+    "a": "Placed between two aligned pale oak logs, it wakes at night and spawns a creaking that it protects from all damage. Hitting that creaking makes resin clumps grow on nearby pale oak logs; breaking the heart instantly kills its creaking."
+   }
+  ],
+  "keywords": "creaking heart minecraft, how to get creaking heart minecraft, pale garden minecraft, minecraft creaking heart craft, resin farm minecraft 1.21.4",
+  "relatedGuides": [
+   "how-to-get-resin",
+   "how-to-find-pale-garden"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Pale garden",
+    "href": "/biomes/pale-garden/"
+   },
+   {
+    "label": "Creaking",
+    "href": "/mobs/creaking/"
+   }
+  ]
  }
 ]
