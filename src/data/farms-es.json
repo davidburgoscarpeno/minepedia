@@ -1330,5 +1330,109 @@
    "Las vines se pueden escalar: una columna de glow berries es una escalera que te alimenta.",
    "Las berries restauran poca hambre: críalas por la luz, la estética y los foxes, no para cenar."
   ]
+ },
+ "drowned-farm": {
+  "produces": "Tridents, copper ingots y rotten flesh, más nautilus shells y fishing rods de bonus",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Los drowned aparecen en agua oscura en oceans, rivers y dripstone caves, y cualquier zombie con la cabeza bajo el agua 30 segundos se convierte en uno. Farmea un river o un acuífero de dripstone por la noche, o canaliza zombies por una trampa de agua para producir drowned en masa.",
+  "mechanics": [
+   "Aparición natural: bloques de agua a nivel de luz 0 con luz de cielo 7 o menos, en biomas ocean (Java: bajo Y=58), rivers y acuíferos de dripstone caves; las tasas son mucho mayores en rivers y dripstone caves que en oceans.",
+   "Conversión: un zombie normal (o un husk, que primero se vuelve zombie) con la cabeza sumergida 30 segundos tiembla 15 más y se convierte en drowned: el motor de toda granja de copper grande.",
+   "Trident: el 6,25% de los drowned aparecen con uno en la mano, y solo esos pueden soltarlo: 8,5% en Java (hasta 11,5% con Looting III), 25% base en Bedrock. En Bedrock, los zombies convertidos NUNCA llevan tridents: las granjas de conversión ahí son solo de copper.",
+   "Copper: cada drowned tiene un 11% de probabilidad de soltar un copper ingot si lo mata un jugador o mascota, +2% por nivel de Looting.",
+   "Bonus de Bedrock: cuando un zombie se convierte, todo lo que vestía o sostenía cae al 100% y con durabilidad completa: equipa a tus zombies antes de ahogarlos.",
+   "Solo las muertes por jugador (o wolf domesticado) sueltan copper y tridents: usa una caída de debilitamiento y remata a mano."
+  ],
+  "materials": [
+   "Para granja natural: un river o acuífero de dripstone caves, bloques de construcción, canales de agua",
+   "Para granja de conversión: un zombie spawner o mob farm de sala oscura alimentando una columna de agua",
+   "Hoppers, chests y una plataforma de ejecución a un golpe de la muerte",
+   "Sword con Looting III; botas de Depth Strider para el diseño de river"
+  ],
+  "steps": [
+   "Explora un river ancho o un acuífero de dripstone caves: las dos zonas de alta tasa de aparición.",
+   "Cierra una sección, oscurécela y construye corrientes de agua que arrastren a los drowned a un conducto central.",
+   "Déjalos caer 22 bloques hasta quedar a un golpe y remata con la sword de Looting III: copper, algún trident, shells y rods se acumulan.",
+   "Ruta de conversión: canaliza zombies desde un spawner a una columna de agua (cabeza bajo el agua, 45 segundos) y empuja los drowned recién hechos al mismo suelo de ejecución.",
+   "En Bedrock, equipa a los zombies con armadura y armas viejas primero: la conversión lo suelta todo con durabilidad completa, una línea de reciclaje gratis.",
+   "Ilumina todas las cuevas y masas de agua cercanas para concentrar las apariciones dentro de la granja."
+  ],
+  "rates": "Una granja de sección de river iluminada produce drowned toda la noche; un diseño de conversión alimentado por spawner convierte cada zombie en una tirada de 11% de copper: docenas de copper ingots por hora más el trident ocasional en Java.",
+  "tips": [
+   "La caza de tridents es más amable en Java: el 8,5% del 6,25% significa aproximadamente un trident por cada 150 drowned con Looting III; lleva paciencia.",
+   "Los axolotls luchan contra los drowned por ti y sus muertes cuentan para los drops: un ejército de buckets de axolotl es la opción con estilo.",
+   "Los drowned en bubble columns suben o bajan rápido: las columnas de soul sand y magma son las escaleras mecánicas de esta granja.",
+   "Las nautilus shells (mano secundaria, 3% Java / 8% Bedrock) más un heart of the sea fabrican el conduit: esta granja también alimenta tu base acuática."
+  ]
+ },
+ "turtle-farm": {
+  "produces": "Turtle scutes para turtle shell helmets (Water Breathing) y la Potion of the Turtle Master",
+  "difficulty": "Principiante",
+  "quickAnswer": "Cría dos turtles con seagrass y la preñada vuelve a su playa natal a poner 1-4 huevos sobre sand. Los huevos eclosionan tras unos 4-5 días de juego (más rápido de noche), y cada cría suelta un scute al crecer.",
+  "mechanics": [
+   "Regla de la playa natal: una turtle siempre vuelve al bloque donde apareció para poner sus huevos; cría turtles donde quieras la granja, o usa Silk Touch en los huevos y recolócalos para fijar una nueva playa natal para las crías.",
+   "Huevos: 1-4 por puesta, colocados en sand, red sand o suspicious sand; SOLO eclosionan en bloques tipo sand, y se agrietan 3 veces en ~4-5 días de juego, agrietándose más a menudo de noche.",
+   "El premio: cada cría de turtle suelta exactamente 1 scute al madurar; 5 scutes fabrican un turtle shell helmet con Water Breathing integrado.",
+   "Los zombies y sus variantes cazan y pisotean los huevos de turtle desde una caja de hasta 47x7x47 en Java: valla e ilumina la playa.",
+   "Enfriamiento de cría: 5 minutos en Java, 90 segundos en Bedrock.",
+   "El seagrass es toda la dieta: córtalo del fondo del océano con shears, o usa bone meal en bloques bajo el agua para más."
+  ],
+  "materials": [
+   "2 turtles (biomas beach) guiadas a casa con seagrass en la mano; no aceptan lead",
+   "Un corral de sand en o cerca de la playa donde aparecieron",
+   "Reservas de seagrass (shears + un baño de océano, o bone meal bajo el agua)",
+   "Fences y torches: seguridad anti-zombies para los huevos",
+   "Herramienta con Silk Touch (opcional) para reubicar huevos"
+  ],
+  "steps": [
+   "Encuentra turtles en una beach y atrae dos a un corral de sand vallado con seagrass; construye el corral justo donde las encontraste para que los regresos a la playa natal sean cortos.",
+   "Da seagrass a ambas: corazones, y la preñada escarba la sand y pone 1-4 huevos.",
+   "Protege la puesta: ilumina el corral y vállalo; los zombies encuentran los huevos para pisotearlos.",
+   "Espera la eclosión: 3 grietas, ~4-5 días, sobre todo de noche.",
+   "Las crías sueltan un scute cada una al crecer; recoge, y las nuevas adultas se unen al grupo reproductor (su playa natal es donde eclosionaron).",
+   "Escala apilando puestas: cada generación multiplica la colonia, y el corral se autoexpande."
+  ],
+  "rates": "Cada ronda de cría convierte seagrass en 1-4 futuros scutes por cada ~5 minutos de enfriamiento más una eclosión de 4-5 días; un corral de 10 turtles da un goteo constante de shells tras madurar la primera generación.",
+  "tips": [
+   "Turtle shell + awkward potion destila la Potion of the Turtle Master: Slowness pero Resistance enorme; un botón de tanque para peleas duras.",
+   "Los huevos eclosionan más rápido de noche: saltarte las noches frena la granja, las noches de insomnio la aceleran.",
+   "Un zombie suelto es una granja rota: detectan los huevos a través de muros; revisa el perímetro antes de hacer AFK.",
+   "Las crías de turtle son el mob más pequeño del juego: pon una half-slab en la base de la valla o se salen por debajo."
+  ]
+ },
+ "phantom-farm": {
+  "produces": "Phantom membranes para reparar elytras y destilar Potions of Slow Falling",
+  "difficulty": "Principiante",
+  "quickAnswer": "Sáltate el sueño (o la muerte) durante 3 días de juego y los phantoms empezarán a aparecer sobre ti por la noche: ponte a campo abierto sobre el nivel del mar, deja que se lancen en picado y mátalos con una sword de Looting para 0-2 membranes cada uno.",
+  "mechanics": [
+   "El reloj del insomnio: los phantoms persiguen a jugadores cuyo Time Since Last Rest supera 3 días de juego; entrar en una bed (aunque no se pase la noche) o morir lo reinicia.",
+   "Condiciones de aparición: noche o tormenta, tú por encima de Y=62 con cielo abierto encima, y sin un bloque que tape la luz sobre tu cabeza; el glass y los cobwebs valen, las leaves no.",
+   "Intentos cada 1-2 minutos con una probabilidad de éxito que crece cuanto más despierto sigas: ~25% el día 4, 40% el día 5, 50% el día 6; grupos de 1-4 en Hard.",
+   "Aparecen 20-34 bloques por encima y alrededor de ti, dan círculos y luego pican; tras el picado vuelven a subir, lentos y vulnerables.",
+   "Drops: 0-1 phantom membrane por muerte de jugador, +0-1 por nivel de Looting; Looting III da una media de 1,5 por phantom.",
+   "La luz del sol los quema como a los zombies: el amanecer limpia lo que no cazaste."
+  ],
+  "materials": [
+   "No dormir durante 3+ días de juego (el único ingrediente real)",
+   "Una plataforma AFK abierta sobre Y=62 con cielo despejado",
+   "Una sword con Looting III",
+   "Opcional: una trampa de techo de glass; los phantoms aparecen sin problema bajo glass, pican y acaban clavados contra él donde puedes rematarlos seguro",
+   "Armadura y comida para el turno de noche"
+  ],
+  "steps": [
+   "Deja de dormir: tres ciclos día-noche completos sin tocar una bed ni morir.",
+   "Construye una plataforma plana a campo abierto, sobre el nivel del mar, con el cielo directamente encima; un techo de glass sobre tu cabeza te mantiene seguro y cuenta como cielo abierto.",
+   "Espera la noche: los phantoms aparecen en el espacio aéreo a tu alrededor y empiezan sus picados en círculo.",
+   "Ponte al borde del glass y dales con la sword cuando piquen o queden flotando contra el techo; Looting III duplica el botín.",
+   "Deja que el amanecer queme a los rezagados, recoge las membranes, repite cada noche: la probabilidad de aparición sube cada día que sigas despierto.",
+   "Guarda membranes: 4 reparan una elytra en un anvil (considera Mending a largo plazo), o destila Slow Falling para la pelea del dragon."
+  ],
+  "rates": "En los días 4-6 de insomnio, espera varios phantoms por noche y jugador; una sword con Looting III convierte una noche larga en 5-10 membranes sin construir nada en absoluto.",
+  "tips": [
+   "Entrar en una bed un segundo reinicia el temporizador: no hace falta pasar la noche, así que echa una cabezada entre sesiones de granja.",
+   "Los cats asustan a los phantoms: un cat domesticado en la plataforma reduce los picados, pero también lo farmeable; tú decides.",
+   "En las versiones nuevas de este mundo, las straw beds cuentan como beds para el reloj del insomnio: cualquier bed lo reinicia.",
+   "Las membranes son el único material de reparación de elytras que queda en supervivencia desde que las reparaciones con phantom sustituyeron al leather en el anvil."
+  ]
  }
 }
