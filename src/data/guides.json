@@ -14785,5 +14785,150 @@
    }
   ],
   "keywords": "blaze rod minecraft, how to get blaze rods, blaze rod drop rate, find blazes, nether fortress blazes, looting blaze rods"
+ },
+ {
+  "slug": "how-to-trade-villagers",
+  "name": "How to Trade with Villagers in Minecraft",
+  "shortTitle": "Trade with Villagers",
+  "quickAnswer": "Give an unemployed villager a job site block (lectern, composter, blast furnace...) and right-click to trade. Every trade costs or gives emeralds, levels the villager from novice to master, and locks in once you trade - so reroll trades BEFORE the first deal by breaking and replacing the job block.",
+  "steps": [
+   "Find or breed villagers, then place a job site block next to an unemployed one: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, and so on.",
+   "Check the offered trades (right-click). Don't like them? Break the job block and place it again - the trades reroll, but ONLY if you have never traded with that villager.",
+   "Trade with emeralds and goods. Each trade gives you 3-6 XP and fills the villager's experience bar; a full bar levels it up: novice (stone badge), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
+   "Leveling unlocks new trades - master librarians sell name tags, armorers sell diamond gear, and the best enchanted books sit at the top levels.",
+   "Villagers restock up to twice per day while they can reach their job site block (in Bedrock they also need to be linked to a bed).",
+   "For permanent discounts, cure a zombie villager next to your trading hall; since 1.20.2 the big discount applies only to the first cure. The Hero of the Village effect from a raid also drops prices."
+  ],
+  "materials": [
+   "Villagers (a village, or breed two with beds + food)",
+   "Job site blocks: lectern, composter, fletching table, blast furnace, smoker, grindstone, smithing table, cauldron, brewing stand, stonecutter, loom, cartography table, barrel",
+   "Emeralds (the universal currency) and sellable goods like wheat, paper, coal or rotten flesh"
+  ],
+  "editionNote": "Java and Bedrock differ in the details: Java villagers cap at 10 trades with 2 new ones per level, Bedrock unlocks up to 3 slots per level (7-10 total). Restocking in Bedrock requires a linked bed; in Java only access to the job site. Overusing one trade raises its price through demand in both editions.",
+  "versions": "Trading as we know it dates to 1.8 (14w02a) and was completely rebalanced in 1.14 (Village & Pillage), which added job site blocks, levels and restocking. Since 1.20.2 the zombie-cure discount no longer stacks - only the first cure gives the big one.",
+  "faq": [
+   {
+    "q": "Why won't my villager restock its trades?",
+    "a": "It needs to physically reach its job site block during work hours, and it restocks at most twice per day. In Bedrock it must also be linked to a bed. Trap it in a 1x1 cell and it may never work again."
+   },
+   {
+    "q": "How do I lock in a villager's trades?",
+    "a": "Trade with it once. From that moment its profession and its full trade list are permanent - even if you break the job block. Before that first trade, breaking and replacing the block rerolls the offers."
+   },
+   {
+    "q": "What is the best way to get emeralds from villagers?",
+    "a": "Sell farmable goods: farmers buy wheat, potatoes, carrots and pumpkins; fletchers buy sticks; librarians buy paper; clerics buy rotten flesh. A crop farm plus a fletcher is the classic emerald engine."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-get-emeralds",
+   "how-to-cure-zombie-villager",
+   "how-to-get-mending"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/villager/",
+    "label": "Villager mob guide"
+   },
+   {
+    "url": "/structures/village/",
+    "label": "Village structure guide"
+   }
+  ],
+  "keywords": "villager trades minecraft, how to trade with villagers, villager trading hall, reroll villager trades, villager professions, restock trades minecraft"
+ },
+ {
+  "slug": "how-to-make-item-frame",
+  "name": "How to Make an Item Frame in Minecraft",
+  "shortTitle": "Make an Item Frame",
+  "quickAnswer": "Craft 8 sticks around 1 leather. Item frames display any item or block on walls, floors and ceilings, rotate it in 45-degree steps with a redstone signal for comparators, and a framed map grows to fill the whole block face - the base of every map wall.",
+  "steps": [
+   "Gather 8 sticks (planks from any wood) and 1 leather (cows, horses, hoglins, or fishing loot).",
+   "Craft the frame: sticks filling every slot except the center, which takes the leather.",
+   "Place it on the side, top or bottom of any solid block, then right-click with any item or block to display it.",
+   "Right-click the framed item to rotate it in 45-degree steps (8 positions); a comparator reads the rotation as a redstone signal - the classic secret-door input.",
+   "Frame a map and it expands to cover the entire block face; tile framed maps side by side for a seamless map wall.",
+   "Combine the frame with a glow ink sac from glow squids to get a glow item frame that lights up whatever it holds."
+  ],
+  "materials": [
+   "8 sticks (2 planks of any wood = 4 sticks)",
+   "1 leather (cows, mooshrooms, horses, donkeys, mules, llamas or hoglins)",
+   "Optional: 1 glow ink sac per glow item frame (glow squids)"
+  ],
+  "editionNote": "Identical crafting and use in Java and Bedrock. Small differences: in Java a frame remembers the last rotation for the next item placed, and invisible item frames (NBT Invisible) exist since 1.16. Both editions drop the frame and its contents when the supporting block breaks.",
+  "versions": "Added in 1.4.2 (the Pretty Scary Update, 12w34a). Full-block-face maps in frames arrived in 1.7, 45-degree rotation with comparator output in 1.8, invisible frames in 1.16, and the glow item frame in 1.17 (Caves & Cliffs).",
+  "faq": [
+   {
+    "q": "How do you make an item frame glow?",
+    "a": "Craft a normal item frame with a glow ink sac (dropped by glow squids in dark water). The glow item frame makes its item shine and illuminates the map or item it holds."
+   },
+   {
+    "q": "How do map walls work?",
+    "a": "Fill adjacent maps, frame them on neighboring blocks and each one renders as a full block face with a green marker showing the frame's position - a live wall-sized map of your world."
+   },
+   {
+    "q": "Can an item frame power redstone?",
+    "a": "Yes: a comparator behind the supporting block reads the item's rotation (0-7) as a signal strength. Rotate the framed sword to open your hidden piston door."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-map",
+   "how-to-make-lead",
+   "how-to-make-fishing-rod"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/glow-squid/",
+    "label": "Glow Squid mob guide"
+   }
+  ],
+  "keywords": "item frame minecraft, how to make item frame, item frame recipe, glow item frame, item frame map wall, item frame redstone"
+ },
+ {
+  "slug": "how-to-fish",
+  "name": "How to Fish in Minecraft (Treasure, Enchantments and Loot)",
+  "shortTitle": "Fishing",
+  "quickAnswer": "Craft a fishing rod (3 sticks + 2 string), cast into any water, and reel in when the bobber dips. Bites take 5-30 seconds; rain speeds them up ~20%, Lure shaves 5s per level, and in open water you can pull treasure like name tags, saddles and enchanted books.",
+  "steps": [
+   "Craft a fishing rod: 3 sticks diagonally with 2 string trailing from the top right.",
+   "Cast into any water - even a single source block works, though a proper pool unlocks treasure.",
+   "Watch the bobber: when a trail of bubbles swims up and the bobber dips, reel in fast (about 1-2 seconds in Java, half a second in Bedrock).",
+   "Fish under open sky and in the rain: covered water doubles the wait, rain cuts it ~20%.",
+   "For treasure you need open water - in Java, a 5x4x5 volume around the bobber with only water, lily pads and air, 2 blocks deep. No flowing water.",
+   "Enchant the rod: Luck of the Sea III raises treasure odds and Lure III shortens the wait; Mending makes the rod literally unbreakable through fishing XP."
+  ],
+  "materials": [
+   "1 fishing rod (3 sticks + 2 string from spiders or cobwebs)",
+   "Any body of water; an open-water pool (at least 2 deep, open sky) for treasure",
+   "Recommended enchantments: Luck of the Sea III, Lure III, Mending, Unbreaking III"
+  ],
+  "editionNote": "Loot tables match across editions, but Java gates treasure behind the 5x4x5 open-water rule while Bedrock does not, and the reel-in window is about 1-2 seconds in Java versus roughly half a second in Bedrock. Each catch also drops a 1-6 XP orb in both.",
+  "versions": "Fishing dates back to Alpha, but the modern loot system (fish, junk and treasure categories) arrived in 1.7.2. Lure and Luck of the Sea came with 1.7.2 as well, and the open-water treasure rule was added in 1.16.",
+  "faq": [
+   {
+    "q": "What treasure can you get from fishing?",
+    "a": "Name tags, saddles, nautilus shells, enchanted bows, enchanted fishing rods and enchanted books - including Mending, which is why fishing is a classic early Mending source. Junk includes lily pads, bowls, leather, sticks and bones."
+   },
+   {
+    "q": "How rare is treasure when fishing?",
+    "a": "Without enchants: 5% treasure, 10% junk, 85% fish. Each Luck of the Sea level raises the treasure odds, so LotS III roughly doubles it."
+   },
+   {
+    "q": "Why is fishing so slow?",
+    "a": "Two likely causes: the bobber is covered (no direct sky - this doubles wait time) or it is not raining (rain speeds bites ~20%). Lure III also cuts 15 seconds off the wait window."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-fishing-rod",
+   "how-to-get-mending",
+   "how-to-get-emeralds"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/glow-squid/",
+    "label": "Glow Squid mob guide"
+   }
+  ],
+  "keywords": "fishing minecraft, how to fish minecraft, fishing loot table, fishing treasure, luck of the sea, open water fishing minecraft"
  }
 ]

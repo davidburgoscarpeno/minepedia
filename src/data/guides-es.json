@@ -13485,5 +13485,132 @@
    }
   ],
   "keywords": "blaze rod minecraft, cómo conseguir blaze rods, probabilidad drop blaze rod, encontrar blazes, nether fortress blazes, looting blaze rods"
+ },
+ "how-to-trade-villagers": {
+  "name": "Cómo comerciar con villagers en Minecraft",
+  "shortTitle": "Comerciar con villagers",
+  "quickAnswer": "Dale un job site block a un villager sin oficio (lectern, composter, blast furnace...) y haz clic derecho para comerciar. Todo se paga con emeralds, el villager sube de novice a master, y sus ofertas se bloquean al primer trato: rerolléalas ANTES rompiendo y recolocando el bloque de trabajo.",
+  "steps": [
+   "Encuentra o cría villagers y coloca un job site block junto a uno sin oficio: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, etc.",
+   "Mira las ofertas (clic derecho). ¿No te gustan? Rompe el bloque de trabajo y vuelve a colocarlo: las ofertas cambian, pero SOLO si nunca has comerciado con ese villager.",
+   "Comercia con emeralds y mercancías. Cada trato te da 3-6 de XP y llena la barra del villager; al llenarse sube de nivel: novice (insignia de stone), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
+   "Al subir de nivel se desbloquean tratos nuevos: los librarians master venden name tags, los armorers venden equipo de diamond y los mejores libros encantados están en los niveles altos.",
+   "Los villagers reponen existencias hasta dos veces al día si pueden llegar a su job site block (en Bedrock además necesitan estar vinculados a una bed).",
+   "Para descuentos permanentes, cura a un zombie villager junto a tu sala de comercio; desde la 1.20.2 el gran descuento solo aplica a la primera cura. El efecto Hero of the Village de una raid también baja los precios."
+  ],
+  "materials": [
+   "Villagers (una village, o cría dos con beds + comida)",
+   "Job site blocks: lectern, composter, fletching table, blast furnace, smoker, grindstone, smithing table, cauldron, brewing stand, stonecutter, loom, cartography table, barrel",
+   "Emeralds (la moneda universal) y mercancías vendibles como wheat, paper, coal o rotten flesh"
+  ],
+  "editionNote": "Java y Bedrock difieren en detalles: en Java los villagers tienen un máximo de 10 tratos con 2 nuevos por nivel; en Bedrock se desbloquean hasta 3 huecos por nivel (7-10 en total). En Bedrock la reposición exige una bed vinculada; en Java basta con acceso al job site block. Abusar de un trato sube su precio por demanda en ambas ediciones.",
+  "versions": "El comercio actual nació en la 1.8 (14w02a) y se reequilibró por completo en la 1.14 (Village & Pillage), que añadió los job site blocks, los niveles y la reposición. Desde la 1.20.2 el descuento por curar zombies ya no se acumula: solo la primera cura da el grande.",
+  "faq": [
+   {
+    "q": "¿Por qué mi villager no repone sus ofertas?",
+    "a": "Necesita llegar físicamente a su job site block en horario de trabajo y repone como máximo dos veces al día. En Bedrock además debe estar vinculado a una bed. Si lo encierras en una celda de 1x1 puede que no vuelva a trabajar."
+   },
+   {
+    "q": "¿Cómo bloqueo las ofertas de un villager?",
+    "a": "Comercia con él una vez. Desde ese momento su profesión y su lista de tratos son permanentes, aunque rompas el bloque de trabajo. Antes de ese primer trato, romper y recolocar el bloque cambia las ofertas."
+   },
+   {
+    "q": "¿Cuál es la mejor forma de sacar emeralds a los villagers?",
+    "a": "Vende productos de granja: los farmers compran wheat, potatoes, carrots y pumpkins; los fletchers compran sticks; los librarians compran paper; los clerics compran rotten flesh. Una granja de cultivos más un fletcher es el motor clásico de emeralds."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/villager/",
+    "label": "Guía del mob Villager"
+   },
+   {
+    "url": "/es/structures/village/",
+    "label": "Guía de la estructura Village"
+   }
+  ],
+  "keywords": "comercio villagers minecraft, cómo comerciar con villagers, sala de comercio villagers, reroll ofertas villager, profesiones villager, reponer ofertas minecraft"
+ },
+ "how-to-make-item-frame": {
+  "name": "Cómo hacer un Item Frame en Minecraft",
+  "shortTitle": "Hacer un Item Frame",
+  "quickAnswer": "Fabrica 8 sticks alrededor de 1 leather. Los item frames muestran cualquier objeto o bloque en paredes, suelos y techos, lo giran en pasos de 45 grados con señal de redstone para comparators, y un map enmarcado crece hasta ocupar todo el bloque: la base de todo map wall.",
+  "steps": [
+   "Consigue 8 sticks (planks de cualquier madera) y 1 leather (cows, horses, hoglins o pesca).",
+   "Fabrícalo: sticks en todos los huecos menos el central, que lleva el leather.",
+   "Colócalo en el lateral, la parte superior o inferior de cualquier bloque sólido y haz clic derecho con cualquier objeto para exponerlo.",
+   "Haz clic derecho sobre el objeto expuesto para girarlo en pasos de 45 grados (8 posiciones); un comparator lee la rotación como señal de redstone, el clásico interruptor de puertas secretas.",
+   "Enmarca un map y se expandirá hasta cubrir toda la cara del bloque; junta maps enmarcados en mosaico para un map wall sin costuras.",
+   "Combina el frame con un glow ink sac de los glow squids para obtener un glow item frame que ilumina lo que contiene."
+  ],
+  "materials": [
+   "8 sticks (2 planks de cualquier madera = 4 sticks)",
+   "1 leather (cows, mooshrooms, horses, donkeys, mules, llamas o hoglins)",
+   "Opcional: 1 glow ink sac por glow item frame (glow squids)"
+  ],
+  "editionNote": "Crafteo y uso idénticos en Java y Bedrock. Pequeñas diferencias: en Java el frame recuerda la última rotación para el siguiente objeto, y los item frames invisibles (NBT Invisible) existen desde la 1.16. En ambas ediciones el frame y su contenido caen si se rompe el bloque de soporte.",
+  "versions": "Añadido en la 1.4.2 (Pretty Scary Update, 12w34a). Los maps a cara completa llegaron en la 1.7, la rotación de 45 grados con salida de comparator en la 1.8, los frames invisibles en la 1.16 y el glow item frame en la 1.17 (Caves & Cliffs).",
+  "faq": [
+   {
+    "q": "¿Cómo se hace un glow item frame?",
+    "a": "Fabrica un item frame normal con un glow ink sac (lo sueltan los glow squids en agua oscura). El glow item frame hace brillar su contenido e ilumina el map u objeto que sostiene."
+   },
+   {
+    "q": "¿Cómo funcionan los map walls?",
+    "a": "Rellena maps adyacentes, enmárcalos en bloques contiguos y cada uno se renderiza como una cara de bloque completa con un marcador verde que muestra la posición del frame: un mapa mural en vivo de tu mundo."
+   },
+   {
+    "q": "¿Puede un item frame activar redstone?",
+    "a": "Sí: un comparator detrás del bloque de soporte lee la rotación del objeto (0-7) como intensidad de señal. Gira la espada enmarcada para abrir tu piston door oculta."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/glow-squid/",
+    "label": "Guía del mob Glow Squid"
+   }
+  ],
+  "keywords": "item frame minecraft, cómo hacer item frame, receta item frame, glow item frame, map wall minecraft, item frame redstone"
+ },
+ "how-to-fish": {
+  "name": "Cómo pescar en Minecraft (tesoros, encantamientos y botín)",
+  "shortTitle": "Pescar",
+  "quickAnswer": "Fabrica una fishing rod (3 sticks + 2 string), lánzala a cualquier agua y recoge cuando el bobber se hunda. Las picadas tardan 5-30 segundos; la lluvia las acelera un ~20%, Lure recorta 5 s por nivel, y en aguas abiertas puedes sacar tesoros como name tags, saddles y libros encantados.",
+  "steps": [
+   "Fabrica una fishing rod: 3 sticks en diagonal con 2 string colgando de la esquina superior derecha.",
+   "Lánzala a cualquier agua: incluso un solo source block sirve, aunque una piscina en condiciones desbloquea los tesoros.",
+   "Vigila el bobber: cuando una estela de burbujas se acerque y el bobber se hunda, recoge rápido (1-2 segundos en Java, medio segundo en Bedrock).",
+   "Pesca a cielo abierto y bajo la lluvia: el agua cubierta duplica la espera y la lluvia la recorta un ~20%.",
+   "Para tesoros necesitas aguas abiertas: en Java, un volumen de 5x4x5 alrededor del bobber con solo agua, lily pads y aire, 2 bloques de profundidad. Nada de agua corriente.",
+   "Encanta la caña: Luck of the Sea III sube las probabilidades de tesoro, Lure III acorta la espera, y Mending la hace literalmente irrompible con la XP de pescar."
+  ],
+  "materials": [
+   "1 fishing rod (3 sticks + 2 string de spiders o cobwebs)",
+   "Cualquier masa de agua; una piscina de aguas abiertas (mínimo 2 de profundidad, cielo abierto) para tesoros",
+   "Encantamientos recomendados: Luck of the Sea III, Lure III, Mending, Unbreaking III"
+  ],
+  "editionNote": "Las tablas de botín coinciden entre ediciones, pero Java exige la regla de aguas abiertas 5x4x5 para los tesoros y Bedrock no, y la ventana de recogida es de 1-2 segundos en Java frente a medio segundo en Bedrock. Cada captura suelta un orbe de 1-6 de XP en ambas.",
+  "versions": "La pesca existe desde Alpha, pero el sistema de botín moderno (peces, trastos y tesoros) llegó en la 1.7.2. Lure y Luck of the Sea también llegaron con la 1.7.2, y la regla de aguas abiertas se añadió en la 1.16.",
+  "faq": [
+   {
+    "q": "¿Qué tesoros se pueden pescar?",
+    "a": "Name tags, saddles, nautilus shells, bows encantados, fishing rods encantadas y libros encantados, incluido Mending: por eso pescar es una fuente clásica de Mending al principio. Entre los trastos hay lily pads, bowls, leather, sticks y bones."
+   },
+   {
+    "q": "¿Qué probabilidad hay de pescar un tesoro?",
+    "a": "Sin encantamientos: 5% tesoro, 10% trastos, 85% peces. Cada nivel de Luck of the Sea sube las probabilidades de tesoro, así que LotS III lo duplica aproximadamente."
+   },
+   {
+    "q": "¿Por qué tarda tanto en picar?",
+    "a": "Dos causas probables: el bobber está cubierto (sin cielo directo, duplica la espera) o no está lloviendo (la lluvia acelera un ~20%). Lure III también recorta 15 segundos de la ventana de espera."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/glow-squid/",
+    "label": "Guía del mob Glow Squid"
+   }
+  ],
+  "keywords": "pesca minecraft, cómo pescar minecraft, tabla botín pesca, tesoros pesca minecraft, luck of the sea, aguas abiertas minecraft"
  }
 }
