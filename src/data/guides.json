@@ -15213,5 +15213,144 @@
    }
   ],
   "keywords": "fire charge minecraft, how to make fire charge, fire charge recipe, fire charge dispenser, fire charge vs flint and steel, light nether portal"
+ },
+ {
+  "slug": "how-to-summon-wither",
+  "name": "How to Summon the Wither in Minecraft",
+  "shortTitle": "Summon the Wither",
+  "quickAnswer": "Build a T with 4 soul sand or soul soil and place 3 wither skeleton skulls on top - the LAST block placed must be a skull. The wither charges for about 12 seconds while invulnerable, then detonates in a massive explosion, so build far from your base.",
+  "steps": [
+   "Collect 3 wither skeleton skulls from Nether fortress wither skeletons (2.5% drop, player kills only; Looting III helps) and dig up 4 soul sand or soul soil from soul sand valleys.",
+   "Travel far from anything you care about - or to a designed wither cage under the End's exit portal bedrock or in the Nether ceiling.",
+   "Build the T: 3 soul sand across the top row... no - 1 block on the ground, 1 on top of it, then 1 to each side of that top block. Skulls go on the three top blocks.",
+   "Place a skull LAST - by hand or with a dispenser. The moment the third skull lands, the boss bar appears and the wither starts charging.",
+   "Run. After roughly 12 seconds (220 game ticks) the charge-up ends in a huge explosion that wrecks the area and anything standing in it.",
+   "The build works upright, sideways or upside-down, but the two blocks beside the base must be air, and nothing spawns on Peaceful difficulty."
+  ],
+  "materials": [
+   "4 soul sand or soul soil (soul sand valleys in the Nether)",
+   "3 wither skeleton skulls (wither skeletons in Nether fortresses)",
+   "Optional: a dispenser to place the last skull from a safe distance"
+  ],
+  "editionNote": "The summon works the same in both editions, but the fight does not: Java wither has 300 HP, while Bedrock scales with difficulty (300 Easy, 450 Normal, 600 Hard) and spawns wither skeleton reinforcements at half health. Below half health it becomes immune to arrows and other projectiles in both editions.",
+  "versions": "The wither arrived in 1.4.2 (the Pretty Scary Update, 12w34a) as Minecraft's first buildable boss. It remains the only source of nether stars - the ingredient every beacon needs.",
+  "faq": [
+   {
+    "q": "Why won't my wither spawn?",
+    "a": "Three common causes: the last block placed was not a skull, the two spaces beside the base block are not air, or you are on Peaceful difficulty. Double-check all three and it goes up instantly."
+   },
+   {
+    "q": "Where should I summon the wither?",
+    "a": "Anywhere far from your builds - a remote desert, a deep cave, or a purpose-built bedrock cage under the End exit portal or on the Nether ceiling for safe farming. Never at home: the spawn explosion and skull barrage flatten everything."
+   },
+   {
+    "q": "What does the wither drop?",
+    "a": "Always 1 nether star, the beacon ingredient (it takes 10 minutes to despawn in Java, never despawns in Bedrock). Mobs it kills also leave wither roses on most terrain blocks."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-beat-wither",
+   "how-to-get-wither-skulls",
+   "how-to-make-beacon"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/wither/",
+    "label": "Wither boss guide"
+   },
+   {
+    "url": "/mobs/wither-skeleton/",
+    "label": "Wither Skeleton mob guide"
+   }
+  ],
+  "keywords": "summon wither minecraft, how to spawn wither, wither boss structure, wither skeleton skull, soul sand wither, wither cage minecraft"
+ },
+ {
+  "slug": "how-to-make-chiseled-bookshelf",
+  "name": "How to Make a Chiseled Bookshelf in Minecraft",
+  "shortTitle": "Make a Chiseled Bookshelf",
+  "quickAnswer": "Craft 6 planks + 3 wooden slabs: planks on the top and bottom rows, slabs across the middle. A chiseled bookshelf stores 6 real books you can insert and remove - and a comparator reads the last slot you touched, making it a redstone combination lock.",
+  "steps": [
+   "Gather 6 planks and 3 wooden slabs of any wood (they can be mixed).",
+   "Craft: planks filling the top and bottom rows, the 3 slabs across the middle row.",
+   "Right-click with any book - normal, enchanted, written or book and quill - to shelve it in one of the 6 slots; click a slot to take the book back.",
+   "Automate it: hoppers and droppers insert and remove books, filling the first empty slot first.",
+   "Read it with redstone: a comparator against the block outputs a signal 1-6 equal to the LAST slot interacted with (0 before the first touch).",
+   "Build a combination lock: only touching the right slots in the right order produces the signal pattern that opens the door."
+  ],
+  "materials": [
+   "6 planks of any wood",
+   "3 wooden slabs of any wood (6 planks craft 12 slabs)"
+  ],
+  "editionNote": "Identical in Java and Bedrock, including hopper automation and the 1-6 comparator signal. One quirk: even a failed hopper pull counts as an interaction with that slot, which matters for redstone designs.",
+  "versions": "Added experimentally in 1.19.3 (22w42a, behind the Update 1.20 data pack) and released fully with 1.20 (Trails & Tales). Hopper and dropper support followed within the same snapshot cycle.",
+  "faq": [
+   {
+    "q": "How many books fit in a chiseled bookshelf?",
+    "a": "6 books of any type - normal books, enchanted books, written books and books and quills, in any mix."
+   },
+   {
+    "q": "What redstone signal does a chiseled bookshelf give?",
+    "a": "A comparator reads 1-6 based on the last slot you inserted or removed a book from - not the number of books stored. Slot 4 gives power 4, and an untouched shelf gives 0."
+   },
+   {
+    "q": "Can chiseled bookshelves power an enchanting setup?",
+    "a": "No - unlike normal bookshelves, they do not boost an enchanting table. They are storage and redstone, not enchanting fuel."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-bookshelf",
+   "how-to-make-book-and-quill",
+   "how-to-make-book"
+  ],
+  "relatedLinks": [],
+  "keywords": "chiseled bookshelf minecraft, how to make chiseled bookshelf, chiseled bookshelf redstone, chiseled bookshelf comparator, combination lock minecraft, chiseled bookshelf recipe"
+ },
+ {
+  "slug": "how-to-get-spore-blossom",
+  "name": "How to Get a Spore Blossom in Minecraft",
+  "shortTitle": "Get a Spore Blossom",
+  "quickAnswer": "Spore blossoms hang only from lush cave ceilings and cannot be farmed or multiplied - every single one must be picked by hand from a lush cave. They break instantly with any tool, so the only cost is finding the cave.",
+  "steps": [
+   "Find a lush cave: look for azalea trees on the surface - a rooted azalea means lush caves directly below. Dig straight down from the tree.",
+   "Explore the cave and look up: spore blossoms hang from the ceiling, dripping green particles you can see from far away.",
+   "Break them with anything, even your fist - they pop off instantly and drop themselves.",
+   "Replant them at home on the UNDERSIDE of any solid block (not leaves).",
+   "Enjoy the ambience: the blossom rains green spore particles up to 70 blocks down and spreads floating particles in a 21x12x21 volume beneath it.",
+   "Compost the extras: 65% chance to fill a composter layer."
+  ],
+  "materials": [
+   "No tools required - it breaks instantly with bare hands",
+   "A way to find lush caves: azalea trees on the surface mark them",
+   "Optional: torches and food for caving"
+  ],
+  "editionNote": "Identical in Java and Bedrock. The key fact for both: spore blossoms are NOT renewable - bone meal does not spread them and they never regrow, so the world's supply is fixed. They are the only lush-cave block that cannot be farmed.",
+  "versions": "Revealed at Minecraft Live 2020 and added in 1.17 (21w05a), but unobtainable until 1.18 made lush caves generate naturally in survival worlds.",
+  "faq": [
+   {
+    "q": "Can you grow spore blossoms with bone meal?",
+    "a": "No. Bone meal does nothing to them and they never spread or regrow - spore blossoms are the one lush cave block that is not renewable. What you pick is all there is."
+   },
+   {
+    "q": "Where do spore blossoms spawn?",
+    "a": "Only on the ceilings of lush caves, which generate underground beneath azalea trees. No other biome has them."
+   },
+   {
+    "q": "Do spore blossoms need light?",
+    "a": "No. They hang in dark caves naturally and work on the underside of any solid block at any light level - only leaves refuse them."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-get-glow-ink",
+   "how-to-get-moss",
+   "how-to-make-composter"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/glow-squid/",
+    "label": "Glow Squid mob guide"
+   }
+  ],
+  "keywords": "spore blossom minecraft, how to get spore blossom, lush cave, spore blossom renewable, find lush caves, azalea tree minecraft"
  }
 ]

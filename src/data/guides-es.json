@@ -13859,5 +13859,126 @@
    }
   ],
   "keywords": "fire charge minecraft, cómo hacer fire charge, receta fire charge, fire charge dispenser, fire charge vs flint and steel, encender portal nether"
+ },
+ "how-to-summon-wither": {
+  "name": "Cómo invocar al Wither en Minecraft",
+  "shortTitle": "Invocar al Wither",
+  "quickAnswer": "Construye una T con 4 soul sand o soul soil y coloca 3 wither skeleton skulls encima: el ÚLTIMO bloque colocado debe ser una skull. El wither carga unos 12 segundos siendo invulnerable y luego detona en una explosión enorme, así que constrúyelo lejos de tu base.",
+  "steps": [
+   "Consigue 3 wither skeleton skulls de los wither skeletons de las Nether fortresses (2,5% de drop, solo si los matas tú; Looting III ayuda) y excava 4 soul sand o soul soil en los soul sand valleys.",
+   "Aléjate de todo lo que te importe, o ve a una jaula de wither diseñada bajo el bedrock del exit portal del End o en el techo del Nether.",
+   "Construye la T: 1 bloque en el suelo, 1 encima, y 1 a cada lado de ese bloque superior. Las skulls van en los tres bloques de arriba.",
+   "Coloca una skull la ÚLTIMA, a mano o con un dispenser. En cuanto aterrice la tercera skull, aparece la boss bar y el wither empieza a cargar.",
+   "Corre. Tras unos 12 segundos (220 game ticks) la carga termina en una explosión enorme que arrasa la zona y a todo lo que esté cerca.",
+   "La estructura funciona de pie, tumbada o boca abajo, pero los dos bloques junto a la base deben ser aire, y en dificultad Peaceful no aparece."
+  ],
+  "materials": [
+   "4 soul sand o soul soil (soul sand valleys del Nether)",
+   "3 wither skeleton skulls (wither skeletons de las Nether fortresses)",
+   "Opcional: un dispenser para colocar la última skull a distancia segura"
+  ],
+  "editionNote": "La invocación funciona igual en ambas ediciones, pero la pelea no: el wither de Java tiene 300 HP, mientras que en Bedrock escala con la dificultad (300 fácil, 450 normal, 600 difícil) y genera refuerzos de wither skeletons a mitad de vida. Por debajo de la mitad de vida se vuelve inmune a arrows y otros proyectiles en ambas ediciones.",
+  "versions": "El wither llegó en la 1.4.2 (Pretty Scary Update, 12w34a) como el primer boss construible de Minecraft. Sigue siendo la única fuente de nether stars, el ingrediente que necesita todo beacon.",
+  "faq": [
+   {
+    "q": "¿Por qué no aparece mi wither?",
+    "a": "Tres causas habituales: el último bloque colocado no era una skull, los dos huecos junto al bloque base no son aire, o estás en dificultad Peaceful. Revisa las tres y aparecerá al instante."
+   },
+   {
+    "q": "¿Dónde debería invocar al wither?",
+    "a": "En cualquier sitio lejos de tus construcciones: un desierto remoto, una cueva profunda o una jaula de bedrock bajo el exit portal del End o en el techo del Nether para farmearlo seguro. Nunca en casa: la explosión inicial y la lluvia de skulls lo arrasan todo."
+   },
+   {
+    "q": "¿Qué suelta el wither?",
+    "a": "Siempre 1 nether star, el ingrediente del beacon (tarda 10 minutos en desaparecer en Java; en Bedrock nunca desaparece). Los mobs que mata también dejan wither roses sobre la mayoría de bloques de terreno."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/wither/",
+    "label": "Guía del boss Wither"
+   },
+   {
+    "url": "/es/mobs/wither-skeleton/",
+    "label": "Guía del mob Wither Skeleton"
+   }
+  ],
+  "keywords": "invocar wither minecraft, cómo invocar wither, estructura wither boss, wither skeleton skull, soul sand wither, jaula wither minecraft"
+ },
+ "how-to-make-chiseled-bookshelf": {
+  "name": "Cómo hacer un Chiseled Bookshelf en Minecraft",
+  "shortTitle": "Hacer un Chiseled Bookshelf",
+  "quickAnswer": "Fabrica 6 planks + 3 wooden slabs: planks en las filas superior e inferior y slabs en la del medio. Un chiseled bookshelf guarda 6 libros reales que puedes meter y sacar, y un comparator lee el último hueco tocado, convirtiéndolo en una cerradura de combinación de redstone.",
+  "steps": [
+   "Consigue 6 planks y 3 wooden slabs de cualquier madera (se pueden mezclar).",
+   "Fabrícalo: planks en las filas de arriba y abajo, y las 3 slabs en la fila central.",
+   "Haz clic derecho con cualquier libro (normal, encantado, written book o book and quill) para guardarlo en uno de los 6 huecos; haz clic en un hueco para recuperarlo.",
+   "Automatízalo: los hoppers y droppers meten y sacan libros, llenando primero el primer hueco vacío.",
+   "Léelo con redstone: un comparator contra el bloque emite una señal de 1 a 6 igual al ÚLTIMO hueco con el que se interactuó (0 antes del primer toque).",
+   "Monta una cerradura de combinación: solo tocar los huecos correctos en el orden correcto produce el patrón de señal que abre la puerta."
+  ],
+  "materials": [
+   "6 planks de cualquier madera",
+   "3 wooden slabs de cualquier madera (6 planks fabrican 12 slabs)"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock, incluida la automatización con hoppers y la señal de comparator de 1 a 6. Una peculiaridad: incluso un intento fallido de un hopper cuenta como interacción con ese hueco, lo cual importa en los diseños de redstone.",
+  "versions": "Añadido de forma experimental en la 1.19.3 (22w42a, tras el data pack de Update 1.20) y lanzado por completo con la 1.20 (Trails & Tales). El soporte de hoppers y droppers llegó en el mismo ciclo de snapshots.",
+  "faq": [
+   {
+    "q": "¿Cuántos libros caben en un chiseled bookshelf?",
+    "a": "6 libros de cualquier tipo: normales, encantados, written books y books and quills, en cualquier mezcla."
+   },
+   {
+    "q": "¿Qué señal de redstone da un chiseled bookshelf?",
+    "a": "Un comparator lee de 1 a 6 según el último hueco del que metiste o sacaste un libro, no según el número de libros guardados. El hueco 4 da potencia 4, y una estantería intacta da 0."
+   },
+   {
+    "q": "¿Los chiseled bookshelves sirven para encantar?",
+    "a": "No. A diferencia de los bookshelves normales, no potencian la enchanting table. Son almacenamiento y redstone, no combustible de encantamientos."
+   }
+  ],
+  "relatedLinks": [],
+  "keywords": "chiseled bookshelf minecraft, cómo hacer chiseled bookshelf, redstone chiseled bookshelf, comparator chiseled bookshelf, cerradura combinación minecraft, receta chiseled bookshelf"
+ },
+ "how-to-get-spore-blossom": {
+  "name": "Cómo conseguir un Spore Blossom en Minecraft",
+  "shortTitle": "Conseguir un Spore Blossom",
+  "quickAnswer": "Los spore blossoms solo cuelgan de los techos de las lush caves y no se pueden farmear ni multiplicar: cada uno hay que recogerlo a mano de una lush cave. Se rompen al instante con cualquier herramienta, así que el único coste es encontrar la cueva.",
+  "steps": [
+   "Encuentra una lush cave: busca azalea trees en la superficie; una azalea enraizada significa lush caves justo debajo. Excava hacia abajo desde el árbol.",
+   "Explora la cueva y mira arriba: los spore blossoms cuelgan del techo, soltando partículas verdes que se ven desde lejos.",
+   "Rómpelos con cualquier cosa, incluso el puño: saltan al instante y se sueltan enteros.",
+   "Recolócalos en casa en la CARA INFERIOR de cualquier bloque sólido (las leaves no valen).",
+   "Disfruta del ambiente: el blossom deja caer partículas verdes de esporas hasta 70 bloques y esparce partículas flotantes en un volumen de 21x12x21 bajo él.",
+   "Composta los que sobren: 65% de probabilidad de llenar una capa del composter."
+  ],
+  "materials": [
+   "No hacen herramientas: se rompe al instante con las manos",
+   "Una forma de encontrar lush caves: los azalea trees de la superficie las marcan",
+   "Opcional: torchs y comida para espeleología"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock. El dato clave para ambas: los spore blossoms NO son renovables; el bone meal no los propaga y nunca reaparecen, así que la reserva del mundo es fija. Son el único bloque de lush caves que no se puede farmear.",
+  "versions": "Presentado en el Minecraft Live 2020 y añadido en la 1.17 (21w05a), pero inalcanzable hasta que la 1.18 hizo que las lush caves se generaran de forma natural en los mundos survival.",
+  "faq": [
+   {
+    "q": "¿Se pueden cultivar spore blossoms con bone meal?",
+    "a": "No. El bone meal no les hace nada y nunca se propagan ni reaparecen: los spore blossoms son el único bloque de lush caves no renovable. Lo que recojas es todo lo que hay."
+   },
+   {
+    "q": "¿Dónde aparecen los spore blossoms?",
+    "a": "Solo en los techos de las lush caves, que se generan bajo tierra debajo de los azalea trees. Ningún otro bioma los tiene."
+   },
+   {
+    "q": "¿Los spore blossoms necesitan luz?",
+    "a": "No. Cuelgan de forma natural en cuevas oscuras y funcionan en la cara inferior de cualquier bloque sólido a cualquier nivel de luz; solo las leaves los rechazan."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/glow-squid/",
+    "label": "Guía del mob Glow Squid"
+   }
+  ],
+  "keywords": "spore blossom minecraft, cómo conseguir spore blossom, lush cave, spore blossom renovable, encontrar lush caves, azalea tree minecraft"
  }
 }
