@@ -11318,5 +11318,188 @@
         "href": "/structures/abandoned-camp/"
       }
     ]
+  },
+  {
+    "slug": "how-to-make-shelf",
+    "name": "How to Make a Shelf in Minecraft",
+    "shortTitle": "Make a Shelf",
+    "quickAnswer": "Craft 6 matching stripped logs (or stripped stems / stripped bamboo blocks) filling the top and bottom rows for 6 shelves. A shelf displays 3 item stacks like a wall of item frames - and powered with redstone, it swaps your whole hotbar at once.",
+    "steps": [
+      "Strip 6 logs of the same wood: right-click regular logs with an axe. Stems (crimson/warped) and blocks of stripped bamboo work too.",
+      "Craft the shelves: fill the top and bottom rows of the crafting table with your 6 stripped logs, leaving the middle row empty. You get 6 shelves per craft - one of 13 wood variants, poplar included since 26.3.",
+      "Place a shelf on a wall and use any of its 3 slots to swap your main-hand item with what's stored. Items show on the front like item frames, full stacks included (the count isn't displayed).",
+      "Power it with redstone and everything changes: using a powered shelf swaps its 3 slots with the 3 rightmost slots of your hotbar - an instant loadout switch.",
+      "Chain up to 3 powered shelves side by side (facing the same way; they connect left first): two connected shelves swap 6 hotbar slots, three swap all 9 at once.",
+      "Read it with a comparator facing its back: items in the left, middle and right slots emit signal 1, 2 and 4, adding up to 7 - a tiny analog memory cell.",
+      "Automate it: hoppers and droppers fill shelves left to right (stacking into one slot until full), and a hopper underneath pulls items back out.",
+      "Fuel note: Overworld wood shelves smelt 1.5 items each in a furnace; crimson and warped shelves don't burn at all."
+    ],
+    "materials": [
+      "Stripped log x6 (matching wood; or stripped stems / stripped bamboo blocks)",
+      "Axe (to strip the logs)",
+      "Crafting table",
+      "Redstone torch or lever (optional, for hotbar swapping)"
+    ],
+    "editionNote": "Same recipe and redstone behavior in both editions. Two splits: pistons can't move shelves in Java, and in Bedrock a shelf only activates on the Input/Consume redstone tick (C-tick).",
+    "versions": "Added in 1.21.9 (Java snapshot 25w31a) and Bedrock 1.21.111 (Preview 1.21.110.20) with The Copper Age drop - 12 wood variants at launch. The poplar shelf arrived in 26.3 with the dappled forest.",
+    "faq": [
+      {
+        "q": "What does a shelf do in Minecraft?",
+        "a": "It stores and displays up to 3 item stacks like a wall-mounted item frame. Unpowered, using a slot swaps it with your hand; powered by redstone, using it swaps the shelf's contents with your hotbar - up to all 9 slots with three connected shelves."
+      },
+      {
+        "q": "How do you swap your hotbar with a shelf?",
+        "a": "Power the shelf with any redstone signal, then use it: its 3 slots exchange with your 3 rightmost hotbar slots. Connect two powered shelves for 6 slots or three for the full hotbar."
+      },
+      {
+        "q": "Can hoppers fill a shelf?",
+        "a": "Yes: hoppers and droppers insert items left to right, stacking into one slot until full, and a hopper placed under the shelf extracts them. Comparators read filled slots as signal 1+2+4."
+      }
+    ],
+    "keywords": "shelf minecraft, shelf recipe minecraft, minecraft shelf hotbar swap, copper age shelf, how to use shelf minecraft",
+    "relatedGuides": [
+      "how-to-make-chest",
+      "how-to-make-hopper",
+      "how-to-get-redstone",
+      "how-to-get-poplar-logs"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Shelf",
+        "href": "/items/shelf/"
+      },
+      {
+        "label": "Poplar log",
+        "href": "/items/poplar-log/"
+      },
+      {
+        "label": "Dappled forest",
+        "href": "/biomes/dappled-forest/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-get-nautilus-armor",
+    "name": "How to Get Nautilus Armor in Minecraft",
+    "shortTitle": "Get Nautilus Armor",
+    "quickAnswer": "Nautilus armor can't be crafted: copper, iron, golden and diamond tiers are chest loot in shipwrecks, ocean ruins and buried treasure. Upgrade diamond to netherite (19 armor) on a smithing table with a netherite upgrade template and a netherite ingot.",
+    "steps": [
+      "Know the tiers: copper (4 armor), iron (5), golden (7) and diamond (11 armor, 2 toughness) come from loot; netherite (19 armor, 3 toughness, 1 knockback resistance) is smithed, never found.",
+      "Hunt shipwrecks first: every chest type in a wreck - supply, map and treasure - can hold nautilus armor. Chances per chest: copper ~10.8%, iron ~5.4%, golden ~2.7%, diamond ~1.1%.",
+      "Check ocean ruins and buried treasure too: both big and small ruins chests and buried treasure chests roll the same tiers (buried treasure matches shipwreck odds, ruins are slightly lower).",
+      "Bring a door or water breathing: ruins and wrecks are underwater, so prep for drowning, drowned mobs and mining fatigue from elder guardians near ocean monuments.",
+      "Upgrade to netherite: on a smithing table combine a netherite upgrade smithing template + diamond nautilus armor + 1 netherite ingot.",
+      "Equip it on a tamed adult nautilus or zombie nautilus with the use button. Babies can't wear it.",
+      "Remove it anytime with shears; the armor also drops when the nautilus dies. It has no durability, so it never breaks.",
+      "Salvage spare tiers: smelt copper, iron or golden nautilus armor in a furnace or blast furnace for one nugget of its metal. Piglins love the golden one - don't flash it in the Nether.",
+      "Skip the enchanting table: nautilus armor can't be enchanted in Survival; only Creative anvils apply protection-style enchants to it."
+    ],
+    "materials": [
+      "Shipwreck / ocean ruins / buried treasure access (boat, door or water breathing)",
+      "Diamond nautilus armor + netherite ingot + netherite upgrade template (for netherite)",
+      "Smithing table (for netherite)",
+      "Shears (to remove armor)"
+    ],
+    "editionNote": "Loot sources, tiers and smithing are identical in Java and Bedrock. Bedrock quirk: due to a bug, zombies, husks, zombie villagers and drowned can pick up and wear nautilus armor.",
+    "versions": "Revealed at Minecraft LIVE September 2025 and added in 1.21.11 (Java snapshot 25w41a) and Bedrock 1.21.130 (Preview 1.21.130.20). Copper, iron and golden armor became blast-furnace smeltable in 25w42a.",
+    "faq": [
+      {
+        "q": "Can you craft nautilus armor?",
+        "a": "No. Copper, iron, golden and diamond nautilus armor only generate as chest loot in shipwrecks, ocean ruins and buried treasure. Netherite nautilus armor is made by smithing the diamond tier with a netherite ingot and upgrade template."
+      },
+      {
+        "q": "Where do you find nautilus armor?",
+        "a": "In shipwreck chests (supply, map and treasure), ocean ruins chests and buried treasure. Copper is the most common at about 11% per chest, then iron (~5%), golden (~3%) and diamond (~1%)."
+      },
+      {
+        "q": "How much protection does nautilus armor give?",
+        "a": "Copper 4, iron 5, golden 7, diamond 11 armor points (plus 2 toughness), and netherite 19 armor with 3 toughness and 1 knockback resistance. Like horse armor it has no durability and never breaks."
+      }
+    ],
+    "keywords": "nautilus armor minecraft, how to get nautilus armor, netherite nautilus armor, minecraft nautilus armor location, nautilus armor shipwreck",
+    "relatedGuides": [
+      "how-to-tame-nautilus",
+      "how-to-find-buried-treasure",
+      "how-to-upgrade-netherite",
+      "how-to-get-smithing-templates"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Nautilus armor",
+        "href": "/items/nautilus-armor/"
+      },
+      {
+        "label": "Nautilus",
+        "href": "/mobs/nautilus/"
+      },
+      {
+        "label": "Shipwreck",
+        "href": "/structures/shipwreck/"
+      },
+      {
+        "label": "Ocean ruins",
+        "href": "/structures/ocean-ruins/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-harness",
+    "name": "How to Make a Harness in Minecraft",
+    "shortTitle": "Make a Harness",
+    "quickAnswer": "Craft a harness with 3 leather across the top, 2 glass on the middle sides and 1 wool of any color in the center. Equip it on a happy ghast to ride it - up to four players on one ghast - and recolor it anytime with a single dye.",
+    "steps": [
+      "Gather 3 leather from cows, horses or hoglins, 2 glass from smelted sand, and 1 wool of the color you want - the wool sets the harness color.",
+      "Craft it: leather across the whole top row, glass in the middle-left and middle-right, and the wool in the dead center of the grid.",
+      "Get a happy ghast first: rehydrate a dried ghast from the Nether in water until it becomes a ghastling, then feed it snowballs to grow a happy ghast.",
+      "Equip the harness by using it on the happy ghast - or load it into a dispenser aimed at the ghast for hands-free equipping.",
+      "Ride with friends: up to four players can mount one harnessed happy ghast. The aviator goggles slide down over its eyes while someone is riding.",
+      "Lead unharnessed ghasts: happy ghasts without a harness follow any player holding one, so carry a spare to walk your fleet home.",
+      "Recolor freely: combine any harness with 1 matching dye in a shapeless craft - all 16 dye colors work, no need to craft from scratch.",
+      "Take it back with shears: using shears on a harnessed happy ghast removes the harness and drops it as an item."
+    ],
+    "materials": [
+      "Leather x3",
+      "Glass x2",
+      "Wool x1 (any color - sets the harness color)",
+      "Dye x1 (optional, to recolor later)",
+      "Shears (optional, to remove it)"
+    ],
+    "editionNote": "Identical recipe and behavior in Java and Bedrock, including four-player riding, dispenser equipping and shears removal.",
+    "versions": "Revealed at Minecraft LIVE March 2025 and added in 1.21.6 (Java snapshot 25w15a); Bedrock got it experimentally in 1.21.80 and fully in 1.21.90, alongside the happy ghast and dried ghast.",
+    "faq": [
+      {
+        "q": "What is the harness for in Minecraft?",
+        "a": "It's the saddle for happy ghasts: only a harnessed happy ghast can be ridden, and up to four players can ride the same ghast at once. Without it, happy ghasts just follow players holding one."
+      },
+      {
+        "q": "How do you dye a harness in Minecraft?",
+        "a": "Craft it with wool of the color you want, or recolor any existing harness by combining it with a single matching dye in a shapeless recipe. All 16 colors are available."
+      },
+      {
+        "q": "How do you remove a harness from a happy ghast?",
+        "a": "Use shears on the harnessed ghast - the harness pops off as an item you can reuse or recolor."
+      }
+    ],
+    "keywords": "harness minecraft, harness recipe minecraft, happy ghast saddle, how to ride happy ghast, minecraft harness dye",
+    "relatedGuides": [
+      "how-to-get-happy-ghast",
+      "how-to-get-leather",
+      "how-to-dye-armor",
+      "how-to-get-dried-ghast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Harness",
+        "href": "/items/harness/"
+      },
+      {
+        "label": "Happy ghast",
+        "href": "/mobs/happy-ghast/"
+      },
+      {
+        "label": "Dried ghast",
+        "href": "/items/dried-ghast/"
+      }
+    ]
   }
 ]

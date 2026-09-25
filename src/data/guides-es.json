@@ -10880,5 +10880,124 @@
       }
     ],
     "keywords": "copper lantern minecraft, receta copper lantern, copper torch minecraft, farol de cobre minecraft, nivel de luz copper lantern"
+  },
+  "how-to-make-shelf": {
+    "slug": "how-to-make-shelf",
+    "name": "Cómo hacer una shelf en Minecraft",
+    "shortTitle": "Hacer una shelf",
+    "quickAnswer": "Craftea 6 stripped logs iguales (o stripped stems / bloques de stripped bamboo) llenando las filas superior e inferior para conseguir 6 shelves. Una shelf muestra 3 stacks de objetos como una pared de item frames y, con redstone, intercambia toda tu hotbar de golpe.",
+    "steps": [
+      "Quita la corteza a 6 troncos de la misma madera: clic derecho con un hacha sobre troncos normales. También valen stems (crimson/warped) y bloques de stripped bamboo.",
+      "Craftea las shelves: llena la fila superior y la inferior de la crafting table con tus 6 stripped logs, dejando la fila central vacía. Salen 6 shelves por crafteo, una de las 13 variantes de madera, poplar incluida desde 26.3.",
+      "Coloca una shelf en la pared y usa cualquiera de sus 3 slots para intercambiar tu objeto de la mano con el almacenado. Los objetos se ven al frente como en item frames, stacks enteros incluidos (no se muestra la cantidad).",
+      "Aliméntala con redstone y todo cambia: usar una shelf activada intercambia sus 3 slots con los 3 slots más a la derecha de tu hotbar: un cambio de equipación instantáneo.",
+      "Encadena hasta 3 shelves activadas en fila (mirando al mismo lado; conectan primero a la izquierda): dos shelves conectadas intercambian 6 slots de la hotbar, tres intercambian los 9 a la vez.",
+      "Léela con un comparator mirando a su espalda: los objetos en los slots izquierdo, central y derecho emiten señal 1, 2 y 4, sumando hasta 7: una mini celda de memoria analógica.",
+      "Automatízala: los hoppers y droppers llenan las shelves de izquierda a derecha (apilando en un slot hasta llenarlo), y un hopper debajo los saca.",
+      "Nota de combustible: las shelves de madera del Overworld funden 1,5 objetos cada una en un furnace; las crimson y warped no arden."
+    ],
+    "materials": [
+      "Stripped log x6 (misma madera; o stripped stems / bloques de stripped bamboo)",
+      "Hacha (para quitar la corteza)",
+      "Crafting table",
+      "Antorcha de redstone o palanca (opcional, para el intercambio de hotbar)"
+    ],
+    "editionNote": "Misma receta y comportamiento de redstone en ambas ediciones. Dos diferencias: los pistones no pueden mover shelves en Java, y en Bedrock la shelf solo se activa en el tick de redstone Input/Consume (C-tick).",
+    "versions": "Añadida en 1.21.9 (snapshot de Java 25w31a) y Bedrock 1.21.111 (Preview 1.21.110.20) con el drop The Copper Age: 12 variantes de madera en el lanzamiento. La shelf de poplar llegó en 26.3 con el dappled forest.",
+    "faq": [
+      {
+        "q": "¿Qué hace una shelf en Minecraft?",
+        "a": "Almacena y muestra hasta 3 stacks de objetos como un item frame de pared. Sin redstone, usar un slot lo intercambia con tu mano; con redstone, usarla intercambia su contenido con tu hotbar: hasta los 9 slots con tres shelves conectadas."
+      },
+      {
+        "q": "¿Cómo intercambiar la hotbar con una shelf?",
+        "a": "Activa la shelf con cualquier señal de redstone y úsala: sus 3 slots se intercambian con tus 3 slots más a la derecha. Conecta dos shelves activadas para 6 slots o tres para la hotbar completa."
+      },
+      {
+        "q": "¿Los hoppers pueden llenar una shelf?",
+        "a": "Sí: hoppers y droppers insertan objetos de izquierda a derecha, apilando en un slot hasta llenarlo, y un hopper bajo la shelf los extrae. Los comparators leen los slots llenos como señal 1+2+4."
+      }
+    ],
+    "keywords": "shelf minecraft, receta shelf minecraft, estantería minecraft hotbar, shelf copper age, cómo usar la shelf minecraft"
+  },
+  "how-to-get-nautilus-armor": {
+    "slug": "how-to-get-nautilus-armor",
+    "name": "Cómo conseguir nautilus armor en Minecraft",
+    "shortTitle": "Conseguir nautilus armor",
+    "quickAnswer": "La nautilus armor no se puede craftear: los tiers de cobre, hierro, oro y diamante son botín de cofres en shipwrecks, ocean ruins y buried treasure. Mejora la de diamante a netherite (19 de armadura) en una smithing table con una netherite upgrade template y un netherite ingot.",
+    "steps": [
+      "Conoce los tiers: cobre (4 de armadura), hierro (5), oro (7) y diamante (11 de armadura, 2 de toughness) salen de botín; la de netherite (19 de armadura, 3 de toughness, 1 de knockback resistance) se forja, nunca se encuentra.",
+      "Ve primero a los shipwrecks: cualquier cofre del pecio (supply, map y treasure) puede contener nautilus armor. Probabilidad por cofre: cobre ~10,8%, hierro ~5,4%, oro ~2,7%, diamante ~1,1%.",
+      "Revisa también ocean ruins y buried treasure: los cofres de ruinas grandes y pequeñas y los buried treasure tiran los mismos tiers (el buried treasure iguala las probabilidades del shipwreck; las ruinas son algo menores).",
+      "Lleva una puerta o water breathing: ruinas y pecios están bajo el agua, así que prepárate para ahogarte, los drowned y la mining fatigue de los elder guardians cerca de los ocean monuments.",
+      "Mejora a netherite: en una smithing table combina una netherite upgrade smithing template + diamond nautilus armor + 1 netherite ingot.",
+      "Equípala en un nautilus o zombie nautilus adulto y domesticado con el botón de usar. Las crías no pueden llevarla.",
+      "Quítala cuando quieras con shears; la armadura también cae cuando el nautilus muere. No tiene durabilidad, así que nunca se rompe.",
+      "Recicla los tiers sobrantes: funde la nautilus armor de cobre, hierro u oro en un furnace o blast furnace para sacar un nugget de su metal. A los piglins les encanta la dorada: no la saques en el Nether.",
+      "Olvida la enchanting table: la nautilus armor no se puede encantar en Survival; solo los anvils de Creative le aplican encantamientos de protección."
+    ],
+    "materials": [
+      "Acceso a shipwreck / ocean ruins / buried treasure (barca, puerta o water breathing)",
+      "Diamond nautilus armor + netherite ingot + netherite upgrade template (para netherite)",
+      "Smithing table (para netherite)",
+      "Shears (para quitar la armadura)"
+    ],
+    "editionNote": "Fuentes de botín, tiers y forja idénticos en Java y Bedrock. Curiosidad de Bedrock: por un bug, los zombies, husks, zombie villagers y drowned pueden recoger y llevar nautilus armor.",
+    "versions": "Revelada en el Minecraft LIVE de septiembre de 2025 y añadida en 1.21.11 (snapshot de Java 25w41a) y Bedrock 1.21.130 (Preview 1.21.130.20). Las armaduras de cobre, hierro y oro se volvieron fundibles en blast furnace en 25w42a.",
+    "faq": [
+      {
+        "q": "¿Se puede craftear la nautilus armor?",
+        "a": "No. La nautilus armor de cobre, hierro, oro y diamante solo se genera como botín de cofres en shipwrecks, ocean ruins y buried treasure. La de netherite se hace forjando el tier de diamante con un netherite ingot y una upgrade template."
+      },
+      {
+        "q": "¿Dónde se encuentra la nautilus armor?",
+        "a": "En cofres de shipwreck (supply, map y treasure), cofres de ocean ruins y buried treasure. La de cobre es la más común con ~11% por cofre, luego hierro (~5%), oro (~3%) y diamante (~1%)."
+      },
+      {
+        "q": "¿Cuánto protege la nautilus armor?",
+        "a": "Cobre 4, hierro 5, oro 7, diamante 11 puntos de armadura (más 2 de toughness), y netherite 19 de armadura con 3 de toughness y 1 de knockback resistance. Como la horse armor no tiene durabilidad y nunca se rompe."
+      }
+    ],
+    "keywords": "nautilus armor minecraft, cómo conseguir nautilus armor, netherite nautilus armor, dónde encontrar nautilus armor, nautilus armor shipwreck"
+  },
+  "how-to-make-harness": {
+    "slug": "how-to-make-harness",
+    "name": "Cómo hacer un harness en Minecraft",
+    "shortTitle": "Hacer un harness",
+    "quickAnswer": "Craftea un harness con 3 leather en la fila superior, 2 glass en los lados centrales y 1 wool del color que quieras en el centro. Equípaselo a un happy ghast para montarlo (hasta cuatro jugadores en un mismo ghast) y recolórealo cuando quieras con un solo dye.",
+    "steps": [
+      "Consigue 3 leather de vacas, caballos u hoglins, 2 glass fundiendo arena, y 1 wool del color que quieras: la wool define el color del harness.",
+      "Craftéalo: leather en toda la fila superior, glass en las casillas central-izquierda y central-derecha, y la wool en el centro exacto de la grid.",
+      "Consigue antes un happy ghast: rehidrata un dried ghast del Nether en agua hasta que se convierta en ghastling, y aliméntalo con snowballs para que crezca un happy ghast.",
+      "Equipa el harness usándolo sobre el happy ghast, o cárgalo en un dispenser apuntando al ghast para equiparlo sin manos.",
+      "Monta con amigos: hasta cuatro jugadores pueden subirse a un mismo happy ghast con harness. Las gafas de aviador bajan sobre sus ojos mientras alguien lo monta.",
+      "Guía a los ghasts sin harness: los happy ghasts sin harness siguen a cualquier jugador que lleve uno en la mano, así que lleva uno de repuesto para pasear tu flota a casa.",
+      "Recolorea libremente: combina cualquier harness con 1 dye del color en un crafteo sin forma: funcionan los 16 colores, sin craftear desde cero.",
+      "Recupéralo con shears: usar shears sobre un happy ghast con harness lo quita y lo suelta como objeto."
+    ],
+    "materials": [
+      "Leather x3",
+      "Glass x2",
+      "Wool x1 (cualquier color: define el color del harness)",
+      "Dye x1 (opcional, para recolorear después)",
+      "Shears (opcional, para quitarlo)"
+    ],
+    "editionNote": "Receta y comportamiento idénticos en Java y Bedrock, incluidos el paseo de cuatro jugadores, el equipado con dispenser y la retirada con shears.",
+    "versions": "Revelado en el Minecraft LIVE de marzo de 2025 y añadido en 1.21.6 (snapshot de Java 25w15a); Bedrock lo recibió en experimental en 1.21.80 y completo en 1.21.90, junto al happy ghast y el dried ghast.",
+    "faq": [
+      {
+        "q": "¿Para qué sirve el harness en Minecraft?",
+        "a": "Es la silla de los happy ghasts: solo un happy ghast con harness puede montarse, y hasta cuatro jugadores pueden subir al mismo ghast a la vez. Sin él, los happy ghasts solo siguen a los jugadores que llevan uno."
+      },
+      {
+        "q": "¿Cómo se tiñe un harness en Minecraft?",
+        "a": "Craftéalo con wool del color que quieras, o recolorea cualquier harness combinándolo con un solo dye en una receta sin forma. Están los 16 colores."
+      },
+      {
+        "q": "¿Cómo quitar el harness a un happy ghast?",
+        "a": "Usa shears sobre el ghast con harness: el harness salta como objeto reutilizable o recoloreable."
+      }
+    ],
+    "keywords": "harness minecraft, receta harness minecraft, silla happy ghast, cómo montar happy ghast, teñir harness minecraft"
   }
 }
