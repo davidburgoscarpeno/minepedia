@@ -375,5 +375,113 @@
       "Mata algunos blazes mientras estás: querrás las rods para brewing stands y eyes of ender de todos modos.",
       "Una baja por charged creeper garantiza la skull; algunos jugadores atrapan uno como póliza de skulls."
     ]
+  },
+  "blaze-farm": {
+    "produces": "Blaze rods (0-1 por blaze, +1 con Looting, solo muertes por jugador) y 10 de XP por blaze",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Una granja de blazes enjaula uno de los spawners de blaze de las torres de las nether fortresses, canaliza a los blazes a una cámara de muerte y produce rods y XP. Los blazes aparecen con luz de 11 o menos, así que bloques de luz 15 como el glowstone apagan el spawner mientras construyes.",
+    "mechanics": [
+      "Los blazes solo aparecen de forma natural en nether fortresses, con nivel de luz 11 o menos, y cada fortaleza genera hasta dos plataformas con spawner de blaze en torres valladas a las que se sube por una escalera de tres bloques.",
+      "Las rods solo caen con muertes por jugador (o lobo tameado): 0-1 blaze rods, +0-1 con Looting. Los blazes también dan 10 de XP, el doble que un mob normal, por eso las granjas de blaze sirven también de granjas de XP.",
+      "Como los blazes necesitan luz 11 o menos, puedes pausar un spawner por completo rodeándolo de bloques de luz 15 (glowstone, lanterns, shroomlights) y reabrirlo quitándolos.",
+      "Los blazes disparan voleas de tres small fireballs y te prenden fuego: la fire resistance hace segura toda la granja, y las snowballs les hacen 3 de daño si quieres una opción a distancia barata.",
+      "A diferencia de la mayoría de granjas, aquí el spawner hace el trabajo: no necesitas protección contra apariciones más allá del rango del propio spawner, solo un embudo y un punto de muerte."
+    ],
+    "materials": [
+      "Una nether fortress con spawner de blaze",
+      "Glowstone u otros bloques de luz 15 para desactivar el spawner mientras construyes",
+      "Bloques de construcción y slabs para el embudo y la cámara de muerte",
+      "Pociones de fire resistance, una buena espada (Smite no sirve: los blazes no son no-muertos), Looting III opcional",
+      "Hoppers y cofres para las rods"
+    ],
+    "steps": [
+      "Encuentra el spawner: las torres de blaze sobresalen de las pasarelas de la fortaleza; una plataforma vallada con un spawner y una escalera de tres bloques. Lleva bloques: el camino es la parte peligrosa.",
+      "Desactívalo primero: coloca glowstone (o cualquier bloque de luz 15) sobre y alrededor del spawner para que no aparezcan blazes mientras construyes. Tómate la fire resistance igualmente.",
+      "Construye el embudo: encierra la zona del spawner y forma un canal para que los blazes, que flotan hacia arriba, sean empujados con trapdoors abiertas, signs o tu propio knockback hacia un único punto de recolección.",
+      "Añade la cámara de muerte: un punto donde los pies de los blazes queden expuestos pero sus fireballs no te alcancen; half-slabs o un triturador sin lava. Los blazes reciben daño del agua, así que nada de corrientes en el Nether.",
+      "Reactiva el spawner quitando el glowstone y quédate cerca: los spawners solo funcionan con un jugador a menos de 16 bloques.",
+      "Mata con Looting III: cada blaze da de media una rod por cada dos bajas, y los 10 de XP cada uno suben niveles rápido.",
+      "El AFK no es opción aquí (las rods exigen muertes por jugador), pero unos minutos de espada por sesión cubren todas las necesidades de brewing.",
+      "Marca el camino de vuelta: todas las nether fortresses se parecen, así que deja un rastro de torches o apunta las coordenadas."
+    ],
+    "rates": "Un único spawner enjaulado con Looting III da aproximadamente un stack de blaze rods por 20 minutos de matanza activa, más XP suficiente para varios encantamientos. Las fortalezas con dos spawners lo duplican si las torres están cerca.",
+    "tips": [
+      "Los bloques de luz 15 son tu interruptor: glowstone en cada cara de la jaula del spawner detiene las apariciones por completo mientras trabajas.",
+      "La fire resistance convierte la parte más aterradora de la granja en ruido de fondo; nunca farmees blazes sin ella.",
+      "Las snowballs dañan a los blazes (3 de daño): un dispenser o un stack en la mano remata a los blazes con poca vida sin riesgo.",
+      "Coge un segundo spawner solo si está a unos 16 bloques del primero; si no, un solo spawner enjaulado ya supera tu consumo de rods."
+    ]
+  },
+  "slime-farm": {
+    "produces": "Slimeballs (0-2 por slime pequeño, +1 con Looting); un slime grande da unas 9 slimeballs de media",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Los slimes aparecen por debajo de Y=40 en chunks de slime especiales (1 de cada 10 chunks, con cualquier luz) o en la superficie de los swamps entre Y=51-69, sobre todo en luna llena. Excava un chunk de slime, atrae a los slimes con un iron golem y deja que la gravedad o el magma hagan el resto.",
+    "mechanics": [
+      "Aproximadamente 1 de cada 10 chunks del Overworld es un slime chunk: los slimes aparecen ahí bajo Y=40 con cualquier luz y cualquier clima. En Java los chunks dependen de la seed del mundo; en Bedrock son las mismas coordenadas en todos los mundos.",
+      "La opción swamp: los slimes también aparecen en swamps y mangrove swamps entre Y=51-69 con luz 7 o menos, sobre todo en luna llena y nunca en luna nueva. Sin excavar, pero las tasas siguen el ciclo lunar.",
+      "Los slimes buscan un jugador o, en su defecto, un iron golem en 16 bloques: un iron golem enjaulado atrae a todos los slimes de la granja hacia la zona de muerte automáticamente.",
+      "Los slimes grandes y medianos se dividen en otros más pequeños al morir; solo el tamaño más pequeño suelta slimeballs (0-2, +1 con Looting). Las frogs se comen a los slimes pequeños de un bocado y sueltan las slimeballs: una cámara de muerte con frogs se salta las divisiones.",
+      "Como los slime chunks ignoran la luz, iluminas la granja por seguridad sin perjudicar las tasas, al revés que cualquier otra granja de mobs."
+    ],
+    "materials": [
+      "Un slime chunk (los buscadores de chunks online usan tu seed; en Bedrock cualquier mapa de slime chunks publicado vale para todos los mundos)",
+      "Pickaxes y paciencia: el diseño clásico excava el chunk entero por debajo de Y=40",
+      "1 iron golem y bloques para enjaularlo, o unas cuantas frogs",
+      "Torches, hoppers, cofres y magma blocks o campfires para el suelo de muerte",
+      "Opcional: agua para empujar slimes (flotan y forcejean, pero las corrientes los mueven)"
+    ],
+    "steps": [
+      "Encuentra tu chunk: mete tu seed en un buscador de slime chunks (Java) o consulta el mapa universal de chunks de Bedrock, y marca el área de 16x16 en la superficie.",
+      "Excávalo: vacía el chunk desde Y=39 hacia abajo por capas, dejando plataformas de 3 bloques de alto cada pocas capas; más suelo significa más apariciones.",
+      "Ilumínalo todo: torches por todas partes. A los slimes les da igual la luz, pero los creepers aparecen en la oscuridad y destrozan granjas.",
+      "Coloca el cebo: enjaula un iron golem en un pilar en el centro, o aparca frogs junto al suelo de muerte; los slimes van hacia los golems en 16 bloques y las frogs simplemente se comen a los pequeños.",
+      "Añade el suelo de muerte: magma blocks, campfires o una larga caída bajo cada plataforma rematan lo que la caída y las frogs empiezan.",
+      "Recoge abajo: hoppers bajo el suelo de muerte llenan cofres de slimeballs.",
+      "Haz AFK a 24-128 bloques: lo bastante cerca para mantener el chunk cargado y generando, lo bastante lejos para que los slimes sigan moviéndose.",
+      "Escala excavando más chunks o añadiendo capas: un slime chunk multicapa totalmente excavado es un suministro de sticky pistons de por vida."
+    ],
+    "rates": "Un único slime chunk excavado con varias plataformas y cebo de golem produce cientos de slimeballs por hora; una noche de luna llena en un swamp es más lenta pero no requiere excavar. Un slime grande da de media unas 9 slimeballs tras todas las divisiones.",
+    "tips": [
+      "En Bedrock puedes consultar cualquier mapa de slime chunks sin saber tu seed: los chunks son idénticos en todos los mundos.",
+      "Deja las plataformas a 3 bloques de alto para que quepan los slimes grandes y se dividan del todo.",
+      "Las frogs son el método de muerte elegante: matan a los slimes pequeños de un toque y sueltan las slimeballs igualmente.",
+      "Lleva una espada con Looting III para las sesiones sin AFK: cada slime pequeño que rematas a mano suelta hasta 3 slimeballs."
+    ]
+  },
+  "tree-farm": {
+    "produces": "Logs de cada tipo de madera, saplings, apples (oak y dark oak) y sticks de las leaves sobrantes",
+    "difficulty": "Principiante",
+    "quickAnswer": "Una granja de árboles es una cuadrícula de saplings que bone meleas y talas en bucle. El dark oak solo crece de cuadrados de 2x2 saplings, los oaks y dark oaks sueltan apples, y un hacha con Fortune en las leaves devuelve los saplings con intereses.",
+    "mechanics": [
+      "Los saplings crecen en dos etapas ocultas: el bone meal las salta al instante, mientras que el crecimiento natural necesita luz 9 o más sobre el sapling; torches o glowstone mantienen la granja en marcha bajo tierra o de noche.",
+      "El dark oak, y las variantes gigantes de spruce, jungle y pale oak, solo crecen de cuatro saplings plantados en cuadrado de 2x2, sin nada al lado del sapling noroeste hasta la altura final del árbol.",
+      "La economía de los saplings: las leaves sueltan saplings 1 de cada 20 (1 de cada 40 en jungle), así que cada árbol se replanta a sí mismo de sobra. Fortune III en un hacha triplica aproximadamente los saplings y apples de las leaves.",
+      "Los oaks y dark oaks sueltan apples de sus leaves: las granjas de dark oak 2x2 son la fuente renovable clásica de apples.",
+      "Los mega árboles de spruce 2x2 convierten podzol y dan más madera por bone meal, pero su altura (hasta 31 bloques) hace lenta la tala manual; elige el tamaño del árbol según la pereza que quieras talar."
+    ],
+    "materials": [
+      "Saplings de la madera elegida (el dark oak necesita 4 por árbol)",
+      "Bone meal: un bucle de composter o una granja de skeletons te mantiene surtido",
+      "Un hacha, idealmente Efficiency IV-V; Fortune III para limpiar leaves",
+      "Torches o glowstone para luz 9+ sobre cada sapling",
+      "Opcional: hoppers y cofres para una zona de recolección"
+    ],
+    "steps": [
+      "Elige tu árbol: birch para talar fácil (máximo 7 de alto), spruce o jungle 2x2 para madera a granel, dark oak 2x2 para apples y troncos gruesos.",
+      "Traza la cuadrícula: saplings individuales cada 4-5 bloques para que las copas no se enreden; cuadrados de 2x2 separados 6+ bloques para los gigantes.",
+      "Ilumina: una torch cada pocos bloques para que el bloque sobre cada sapling marque luz 9+; las granjas subterráneas lo necesitan, las de superficie solo de noche.",
+      "Bone melea cada sapling hasta que brote el árbol: de una a tres unidades suele bastar.",
+      "Tala de arriba abajo o haz pilar: birch y oak caen desde el suelo; los mega árboles piden una escalera de caracol de sus propios logs.",
+      "Replanta de inmediato de tu stock de saplings: la granja solo funciona como bucle.",
+      "Barre las leaves con un hacha de Fortune para saplings, apples y sticks, o deja que se descompongan mientras plantas la siguiente fila.",
+      "Mejora más tarde: las cámaras de explosión con TNT y los diseños con wither automatizan la madera del endgame, pero una cuadrícula manual cubre antes todas las necesidades del survival."
+    ],
+    "rates": "Una cuadrícula manual de 20 árboles con bone meal da varios stacks de logs por ciclo de diez minutos y siempre devuelve sus saplings; los bucles de dark oak 2x2 además devuelven un goteo constante de apples.",
+    "tips": [
+      "Birch es la elección principiante: nunca crece en variantes altas, así que cada árbol se tala desde el suelo.",
+      "Para árboles 2x2, bone melea cualquiera de los cuatro saplings, pero mantén despejado el entorno del noroeste o el crecimiento falla en silencio.",
+      "Composta los saplings sobrantes: cada uno tiene un 30% de subir el nivel del compost, devolviendo bone meal al bucle.",
+      "Un hacha de diamante con Efficiency V más Haste de un beacon mina logs al instante: la mayor mejora de calidad de vida para farmear madera."
+    ]
   }
 }
