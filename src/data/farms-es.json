@@ -1539,5 +1539,110 @@
    "No confundas rivers con las profundidades: las squids normales aparecen alto (Y 50-63 en Java), las glow squids bajo y a oscuras.",
    "Una sword con Looting en el suelo seco exprime +1 sac por squid cuando te apetezca trabajar a mano."
   ]
+ },
+ "shulker-farm": {
+  "produces": "Shulker shells para shulker boxes: chests portátiles y la espina dorsal de todo sistema de almacenamiento grande",
+  "difficulty": "Avanzada",
+  "quickAnswer": "Una shulker golpeada por la bala de otra shulker puede duplicarse: se teletransporta y deja una shulker nueva del mismo color atrás. Atrapa una en una cámara, deja que se dispare a sí misma (Java) o aliméntala con balas, y recoge las copias.",
+  "mechanics": [
+   "Reglas de duplicación (Java): el golpe debe venir de una bala de shulker (la suya propia cuenta), dejarla por encima del 50% de salud, y dejar que se teletransporte con éxito; la probabilidad baja un 20% por cada otra shulker a 8 bloques, así que mantén el corral despejado.",
+   "Bedrock es más simple: una shulker muerta por una bala de shulker SIEMPRE se duplica.",
+   "Drops de shells: Java 50% +6,25% por nivel de Looting (hasta 68,75%); Bedrock 0-1 base, +0-1 por nivel de Looting.",
+   "Las shulkers nunca desaparecen, ni siquiera en Peaceful: cada copia que haces es permanente hasta que la coseches.",
+   "Una shulker se teletransporta cuando su bloque deja de ser aire, cuando no tiene una cara completa a la que agarrarse, o cuando su caparazón no puede abrirse: los diseños de granja usan esto para empujar las copias a la cámara de ejecución.",
+   "Las balas infligen Levitation durante 10 segundos y hacen 4 de daño: aterrizajes con slow falling o agua te mantienen intacto mientras trabajas la granja."
+  ],
+  "materials": [
+   "Una shulker de una End city (llévala a casa en raíles por una End gateway o un viaje larguísimo en minecart)",
+   "Una cámara de duplicación: espacio abierto con caras de agarre y un punto de recolección abajo",
+   "Rails, minecarts y activator rails para el transporte",
+   "Una sword con Looting III y pociones de slow falling",
+   "Ender chests y paciencia: el trabajo con shulkers es trabajo de endgame"
+  ],
+  "steps": [
+   "Transporta una shulker desde una End city: despréndela, atrápala en un minecart y llévala por raíles a tu plataforma de granja en el End.",
+   "Construye la cámara de duplicación: la shulker se sienta donde sus propias balas puedan curvarse y golpearla (Java) o donde conecten las balas de una segunda shulker.",
+   "Cada golpe con éxito teletransporta a la original y genera una copia donde estaba: las copias heredan solo el color.",
+   "Guía las copias por un conducto (se teletransportan cuando no pueden agarrarse) a una caída de debilitamiento y un suelo de ejecución.",
+   "Remata con una sword con Looting III: shells hasta el 68,75% por muerte en Java.",
+   "Fabrica shulker boxes: 2 shells + 1 chest; tíñelas y tu almacenamiento se vuelve portátil."
+  ],
+  "rates": "Una cámara de duplicación de Java en marcha multiplica shulkers cada pocos segundos de fuego de balas; una hora de AFK produce shells suficientes para docenas de shulker boxes: la razón de que las bases de endgame tengan salas de almacenamiento.",
+  "tips": [
+   "Por debajo de la mitad de salud, una shulker puede teletransportarse 'por razones de salud' en vez de duplicarse: curación en splash o un ritmo cuidadoso de balas la mantiene por encima del 50%.",
+   "Más de 4 shulkers a 8 bloques y la probabilidad de duplicación cae a cero: expande la cámara, no la multitud.",
+   "En Peaceful, las shulkers se quedan pero no disparan: la duplicación necesita una dificultad real.",
+   "Lleva slow falling: una bala perdida en una plataforma de isla del End es si no un largo flotar hacia el vacío."
+  ]
+ },
+ "wither-rose-farm": {
+  "produces": "Wither roses: la única flor que sueltan los mobs, para black dye, suspicious stew y suelos de ejecución mortales",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Cualquier mob muerto por el wither suelta una wither rose donde murió. Atrapa un wither en una jaula con techo de bedrock, canaliza mobs a su zona de explosión y recoge una flor por muerte con hoppers.",
+  "mechanics": [
+   "Un mob muerto por el wither = una wither rose, colocada en el bloque de la muerte si es posible, soltada como ítem si no: incluso con mobGriefing desactivado, la rose siempre cae.",
+   "La rose en sí es un arma: los mobs que la tocan reciben 1 de daño cada medio segundo con el efecto Wither; los wither skeletons, el wither y la ender dragon son inmunes.",
+   "Solo los wither skeletons (y en Bedrock los zombified piglins) pueden aparecer sobre wither roses: un suelo de roses no genera nada más, por eso pavimentan las granjas de nether fortress.",
+   "Las bees mueren polinizando wither roses: mantén la bee farm al otro lado del mapa.",
+   "La jaula: genera el wither bajo el bedrock del portal de salida del End o en una caja de obsidian hecha a medida, donde sus calaveras no puedan escapar.",
+   "Materia prima: cualquier mob prescindible; un chicken cooker, un villager breeder o la salida de un spawner básico valen."
+  ],
+  "materials": [
+   "4 soul sand + 3 calaveras de wither skeleton (tu granja de wither-skeleton paga esto)",
+   "Un techo de bedrock (portal de salida del End) o una caja de contención de obsidian",
+   "Una tubería de mobs: chicken farm, villager breeder o salida de spawner",
+   "Hoppers y chests bajo la zona de ejecución",
+   "Todo resistente a explosiones: las calaveras de wither no son vecinas amables"
+  ],
+  "steps": [
+   "Construye la jaula primero, genera el wither después: 4 soul sand en T, 3 calaveras encima, y ponte detrás del bedrock.",
+   "Deja que pase la explosión inicial: el wither enjaulado es ahora tu impresora de roses.",
+   "Canaliza mobs a la cámara a la altura de la cabeza: las calaveras del wither los matan y cada cadáver planta una rose.",
+   "Pasa hoppers bajo la zona de caída hasta un chest: las roses se apilan a 64.",
+   "Escala la alimentación: un chicken cooker apilado suministra carne de rose sin fin.",
+   "Cosecha y despliega: black dye, suspicious stew de wither, o la losa de suelo más mortífera del juego."
+  ],
+  "rates": "Cada mob alimentado es una rose; un wither enjaulado alimentado por chicken cooker imprime varios stacks de wither roses por hora, limitado solo por lo rápido que suministres cuerpos.",
+  "tips": [
+   "Las wither roses como suelo de mob farm hacen doble función de control de aparición: nada excepto wither skeletons aparece sobre ellas.",
+   "Dale una rose a una brown mooshroom y luego órdenala con un bowl: suspicious stew de wither de grifo.",
+   "Mantén la jaula lejos de tu base: un wither suelto es un cráter del tamaño de una base.",
+   "Las roses se rompen al instante a mano, pero el agua, la lava y los pistons también las rompen: planea el suelo para que las inundaciones no lo arrasen."
+  ]
+ },
+ "sculk-farm": {
+  "produces": "Sculk blocks y experiencia almacenada, más sculk sensors y shriekers",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Un mob que muere a menos de 8 bloques de un sculk catalyst hace que florezca: su experiencia se convierte en sculk blocks en vez de orbes de XP. Alimenta el conducto de ejecución de una mob farm sobre un catalyst y luego mina el sculk para cobrar la XP.",
+  "mechanics": [
+   "Rango de floración: una muerte a menos de 8 bloques en Java (10 en Bedrock) de un catalyst, siempre que el mob muera sobre un bloque sólido; incluso dragons y withers lo activan.",
+   "La XP natural del mob muerto se convierte en cargas de sculk 1:1: hasta 1 sculk block por punto de experiencia, con un 9% de probabilidad de un sensor y 1% de un shrieker por el camino.",
+   "Las floraciones convierten la mayoría de bloques naturales de superficie (stone, dirt, deepslate...) en sculk: el catalyst te terraforma el suelo de ejecución solo.",
+   "El cobro: mina los sculk blocks (una hoe es lo más rápido) y cada uno suelta su XP almacenada; sin Silk Touch, o te llevas el bloque en su lugar.",
+   "Los catalysts salen de cofres del deep dark, suelos de ancient cities y del warden: matar al warden es la única fuente renovable.",
+   "El pointed dripstone bajo el nivel del catalyst permite que una caída de mobs estilo dripstone deje las muertes justo a la altura de floración."
+  ],
+  "materials": [
+   "1 sculk catalyst (deep dark / ancient city, o un warden derrotado)",
+   "Cualquier mob farm con conducto de ejecución (tus diseños de mob farm o spawner lo alimentan)",
+   "Bloques de construcción para colocar el catalyst bajo el punto de muerte",
+   "Una hoe con Efficiency para cosechar el sculk",
+   "Hoe con Silk Touch (opcional) si quieres sculk blocks para decoración"
+  ],
+  "steps": [
+   "Recupera un catalyst del deep dark: sigilo, alfombra tu camino de wool, y no despiertes al warden.",
+   "Reconstruye el suelo de ejecución de tu mob farm para que los mobs mueran a menos de 8 bloques (Java) del catalyst colocado.",
+   "Deja la granja en marcha: cada muerte hace florecer el suelo, extendiendo sculk sobre stone y dirt.",
+   "Mina el sculk con una hoe: la XP que los mobs habrían soltado sale ahora a tu horario, no al suyo.",
+   "Quédate con algún sensor y shrieker que crezca la floración (9% y 1%) para juguetes de redstone.",
+   "¿Necesitas más catalysts? El warden suelta uno: farmear wardens es un deporte de endgame en sí mismo."
+  ],
+  "rates": "La conversión es 1:1 con la XP de los mobs: una mob farm estándar floreciendo toda la noche acumula miles de XP en forma de sculk, recuperable en una sesión de hoe cuando necesites niveles.",
+  "tips": [
+   "El sculk es almacenamiento de XP, no multiplicación: pero la XP en banco no se pierde al morir como los niveles que llevas encima.",
+   "Haz florecer solo el suelo que quieras convertido: la extensión de sculk es bonita pero paisajismo casi permanente.",
+   "Los shriekers que crecen de las floraciones pueden invocar wardens: rómpelos antes de que te griten un problema.",
+   "El propio catalyst se mina rápido con hoe y solo se suelta con Silk Touch: 5 XP en caso contrario."
+  ]
  }
 }

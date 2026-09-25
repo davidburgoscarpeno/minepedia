@@ -1719,5 +1719,122 @@
    "A Looting sword on the dry floor squeezes +1 sac per squid when you feel hands-on."
   ],
   "keywords": "squid farm minecraft, ink sac farm, minecraft black dye, where do squid spawn, book and quill"
+ },
+ {
+  "slug": "shulker-farm",
+  "name": "Shulker Farm (Shells)",
+  "produces": "Shulker shells for shulker boxes - portable chests and the backbone of every big storage system",
+  "difficulty": "Advanced",
+  "editions": "java-bedrock-different",
+  "quickAnswer": "A shulker hit by another shulker's bullet can duplicate: it teleports away and leaves a new shulker of the same color behind. Trap one in a chamber, let it shoot itself (Java) or feed it bullets, and collect the copies.",
+  "mechanics": [
+   "Duplication rules (Java): the hit must come from a shulker bullet (its own counts), leave it above 50% health, and let it teleport successfully - success chance drops 20% per other shulker within 8 blocks, so keep the pen sparse.",
+   "Bedrock is simpler: a shulker killed by a shulker bullet ALWAYS duplicates.",
+   "Shell drops: Java 50% +6.25% per Looting level (up to 68.75%); Bedrock 0-1 base, +0-1 per Looting level.",
+   "Shulkers never despawn, even on Peaceful - every copy you make is permanent until harvested.",
+   "A shulker teleports when its block stops being air, when it has no full face to attach to, or when its shell cannot open - farm designs use this to push copies into the kill chamber.",
+   "Bullets inflict Levitation for 10 seconds and deal 4 damage - slow-falling or water landings keep you intact while working the farm."
+  ],
+  "materials": [
+   "One shulker from an End city (rail it home through an End gateway or a very long minecart ride)",
+   "A duplication chamber: open space with attachment faces and a collection spot below",
+   "Rails, minecarts and activator rails for transport",
+   "A Looting III sword and slow-falling potions",
+   "Ender chests and patience - shulker work is endgame work"
+  ],
+  "steps": [
+   "Ship a shulker from an End city: break it loose, catch it in a minecart and ride the rails to your End-side farm platform.",
+   "Build the duplication chamber: the shulker sits where its own bullets can arc back and hit it (Java) or where a second shulker's bullets connect.",
+   "Each successful hit teleports the original and spawns a copy where it stood - copies inherit only the color.",
+   "Guide copies down a chute (they teleport when they cannot attach) to a softening drop and a kill floor.",
+   "Finish with a Looting III sword: shells at up to 68.75% per kill on Java.",
+   "Craft shulker boxes: 2 shells + 1 chest - dye them and your storage goes portable."
+  ],
+  "rates": "A running Java duplication chamber multiplies shulkers every few seconds of bullet-fire; an hour of AFK produces enough shells for dozens of shulker boxes - the whole reason endgame bases have storage rooms.",
+  "tips": [
+   "Below half health a shulker may teleport 'for health reasons' instead of duplicating - splash healing or careful bullet pacing keeps it above 50%.",
+   "More than 4 shulkers within 8 blocks and duplication chance hits zero - expand the chamber, not the crowd.",
+   "On Peaceful, shulkers stay but do not shoot - duplication needs a real difficulty.",
+   "Bring slow falling: one stray bullet on an End island platform is otherwise a long float down to the void."
+  ],
+  "keywords": "shulker farm minecraft, shulker shell farm, shulker duplication, how to get shulker shells, shulker box"
+ },
+ {
+  "slug": "wither-rose-farm",
+  "name": "Wither Rose Farm",
+  "produces": "Wither roses - the only mob-dropped flower, for black dye, suspicious stew and deadly kill floors",
+  "difficulty": "Intermediate",
+  "editions": "both",
+  "quickAnswer": "Any mob killed by the wither drops one wither rose where it died. Trap a wither in a bedrock-ceiling cage, pipe mobs into its blast zone, and hopper up a flower per kill.",
+  "mechanics": [
+   "One mob killed by the wither = one wither rose, placed on the death block if possible, dropped as an item otherwise - even with mobGriefing off, the rose always drops.",
+   "The rose itself is a weapon: mobs touching it take 1 damage every half-second with the Wither effect - wither skeletons, the wither and the ender dragon are immune.",
+   "Only wither skeletons (and on Bedrock zombified piglins) can spawn on wither roses - a floor of roses spawns nothing else, which is why they floor nether fortress farms.",
+   "Bees die pollinating wither roses - keep the bee farm across the map.",
+   "The cage: spawn the wither under the End's exit-portal bedrock or a custom obsidian box, where its skulls cannot break out.",
+   "Feedstock: any expendable mob - a chicken cooker, a villager breeder or a basic dark-room spawner pipe all work."
+  ],
+  "materials": [
+   "4 soul sand + 3 wither skeleton skulls (your wither-skeleton farm pays for this)",
+   "A bedrock ceiling (End exit portal) or obsidian containment box",
+   "A mob pipe: chicken farm, villager breeder or spawner output",
+   "Hoppers and chests under the kill zone",
+   "Blast-resistant everything - wither skulls are not gentle neighbors"
+  ],
+  "steps": [
+   "Build the cage first, spawn the wither second: 4 soul sand in a T, 3 skulls on top, then get behind bedrock.",
+   "Let the initial explosion settle - the caged wither now sits as your rose printer.",
+   "Pipe mobs into the chamber at head height: the wither's skulls kill them and each corpse plants a rose.",
+   "Run hoppers under the drop zone into a chest - roses stack to 64.",
+   "Scale the feed: a stacked chicken cooker supplies endless rose-fodder.",
+   "Harvest and deploy: black dye, wither suspicious stew, or the deadliest floor tile in the game."
+  ],
+  "rates": "Every fed mob is one rose; a chicken-cooker-fed caged wither prints several stacks of wither roses per hour, limited only by how fast you supply bodies.",
+  "tips": [
+   "Wither roses as mob-farm flooring double as spawn control: nothing but wither skeletons spawns on them.",
+   "Feed a rose to a brown mooshroom, then milk it with a bowl: wither suspicious stew on tap.",
+   "Keep the cage far from your base - a broken wither is a base-sized crater.",
+   "Roses break instantly by hand, but water, lava and pistons break them too - plan the floor so floods do not wipe it."
+  ],
+  "keywords": "wither rose farm minecraft, how to get wither roses, wither cage, minecraft wither rose uses, black dye farm"
+ },
+ {
+  "slug": "sculk-farm",
+  "name": "Sculk Farm (XP Storage)",
+  "produces": "Sculk blocks and stored experience - plus sculk sensors and shriekers",
+  "difficulty": "Intermediate",
+  "editions": "java-bedrock-different",
+  "quickAnswer": "A mob dying within 8 blocks of a sculk catalyst blooms: its experience becomes sculk blocks instead of XP orbs. Feed a mob farm's kill chute over a catalyst, then mine the sculk to cash the XP out.",
+  "mechanics": [
+   "Bloom range: a death within 8 blocks on Java (10 on Bedrock) of a catalyst, as long as the mob dies over a solid block - even dragons and withers trigger it.",
+   "The dead mob's natural XP converts to sculk charges 1:1 - up to 1 sculk block per experience point, with a 9% chance for a sensor and 1% for a shrieker along the way.",
+   "Blooms convert most natural surface blocks (stone, dirt, deepslate...) into sculk - the catalyst terraforms the kill floor for you.",
+   "Cashing out: mine sculk blocks (a hoe is fastest) and each drops its stored XP - no Silk Touch, or you collect the block instead.",
+   "Catalysts come from deep dark chests, ancient city floors, and the warden - killing the warden is the only renewable source.",
+   "Pointed dripstone under the catalyst level lets a dripstone-style mob drop land deaths right at bloom height."
+  ],
+  "materials": [
+   "1 sculk catalyst (deep dark / ancient city, or a defeated warden)",
+   "Any mob farm with a kill chute (your mob farm or spawner designs feed it)",
+   "Building blocks to place the catalyst under the kill point",
+   "An Efficiency hoe for harvesting the sculk",
+   "Silk Touch hoe (optional) if you want sculk blocks for decoration"
+  ],
+  "steps": [
+   "Recover a catalyst from the deep dark - sneak, wool your path, and do not wake the warden.",
+   "Rebuild your mob farm's kill floor so mobs die within 8 blocks (Java) of the placed catalyst.",
+   "Let the farm run: every death blooms the floor, spreading sculk over stone and dirt.",
+   "Mine the sculk with a hoe - the XP the mobs would have dropped now comes out on your schedule, not theirs.",
+   "Keep the odd sensor and shrieker the bloom grows (9% and 1%) for redstone toys.",
+   "Need more catalysts? The warden drops one - farming wardens is its own endgame sport."
+  ],
+  "rates": "Conversion is 1:1 with mob XP - a standard mob farm blooming overnight banks thousands of XP in sculk form, retrievable in one hoe session whenever you need levels.",
+  "tips": [
+   "Sculk is XP storage, not XP multiplication - but banked XP cannot be lost on death the way carried levels can.",
+   "Bloom only the floor you want converted: sculk spread is pretty but permanent-ish landscaping.",
+   "Shriekers grown by blooms can summon wardens - break them before they scream you into trouble.",
+   "The catalyst itself mines fast with a hoe and drops itself only with Silk Touch - 5 XP otherwise."
+  ],
+  "keywords": "sculk farm minecraft, sculk catalyst farm, xp storage minecraft, how to get sculk, warden drop"
  }
 ]
