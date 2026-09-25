@@ -12655,5 +12655,157 @@
     "href": "/biomes/nether-wastes/"
    }
   ]
+ },
+ {
+  "slug": "how-to-make-redstone-lamp",
+  "name": "How to Make a Redstone Lamp in Minecraft",
+  "shortTitle": "Make a Redstone Lamp",
+  "quickAnswer": "Craft a redstone lamp with a glowstone block surrounded by 4 redstone dust. It shines at light level 15 whenever powered - the switchable light behind daylight-sensor street lamps and hidden base lighting.",
+  "steps": [
+   "Get a glowstone block: mine glowstone in the Nether and craft 4 glowstone dust back into a block.",
+   "Craft the lamp: glowstone in the center with redstone dust above, below, left and right.",
+   "Power it: any adjacent power source works - lever, button, redstone torch, powered dust, repeater, observer or daylight detector.",
+   "Light 15 on demand: an active lamp produces block light level 15, the maximum, same as glowstone - but only while powered.",
+   "Automate it: pair a lamp with an inverted daylight detector for street lights that switch on at dusk by themselves.",
+   "Mind the off-delay: lamps switch off with a short lag - 4 ticks (0.2s) in Java, 6 ticks (0.3s) in Bedrock - which matters in fast pulse circuits.",
+   "Build with it: a redstone lamp is an opaque solid block, so it blocks skylight and can carry redstone dust on top, lit or not.",
+   "Hide it anywhere: flush in floors, ceilings and walls, it looks like a clean modern light fixture - the go-to for base interiors."
+  ],
+  "materials": [
+   "Glowstone x1",
+   "Redstone dust x4",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe and light level are the same in Java and Bedrock; only the switch-off delay differs (4 ticks in Java, 6 in Bedrock).",
+  "versions": "Added in 1.2.1 (12w07a), the update that also raised the build height to 256.",
+  "faq": [
+   {
+    "q": "How do you power a redstone lamp?",
+    "a": "Any redstone power touching it works: a lever or button on the lamp, redstone dust running into it, a repeater or torch beside it, or an inverted daylight detector for automatic night lighting."
+   },
+   {
+    "q": "How much light does a redstone lamp give?",
+    "a": "Light level 15 while powered - the brightest block light in the game, equal to glowstone, sea lanterns and beacons. Unpowered it gives no light at all."
+   },
+   {
+    "q": "Redstone lamp vs glowstone - which is better?",
+    "a": "Glowstone is permanent light you cannot switch. Redstone lamps cost 4 extra redstone but toggle with any circuit, so use glowstone for always-on areas and lamps for anything you want to control or automate."
+   }
+  ],
+  "keywords": "redstone lamp minecraft, redstone lamp recipe minecraft, minecraft automatic lights, redstone lamp daylight sensor, minecraft switchable light",
+  "relatedGuides": [
+   "how-to-get-glowstone",
+   "how-to-get-redstone",
+   "how-to-make-daylight-detector",
+   "how-to-find-nether-fortress"
+  ],
+  "relatedLinks": [
+   {
+    "label": "The Nether",
+    "href": "/biomes/nether-wastes/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-redstone-repeater",
+  "name": "How to Make a Redstone Repeater in Minecraft",
+  "shortTitle": "Make a Redstone Repeater",
+  "quickAnswer": "Craft a redstone repeater with 3 stone, 2 redstone torches and 1 redstone dust. It boosts dying signals back to full 15, adds adjustable delay, works as a one-way diode, and locks into memory with a side signal.",
+  "steps": [
+   "Smelt cobblestone into 3 stone (cobblestone does NOT work in this recipe).",
+   "Craft 2 redstone torches: each is a redstone dust on top of a stick.",
+   "Craft the repeater: 3 stone across the bottom row, redstone torches in the middle-left and middle-right, redstone dust in the very center.",
+   "Boost signals: redstone dust weakens by 1 per block and dies after 15. A repeater re-emits any input at full strength 15 - chain them for long-distance wiring.",
+   "Add delay: use the repeater to cycle 4 delay settings, from 1 to 4 redstone ticks (0.1-0.4 seconds). Repeaters in series build precise timers.",
+   "Use it as a diode: signals only flow from back to front, never backward - repeaters stop feedback loops from shorting your circuits.",
+   "Lock it: power the side of a repeater with another repeater or a comparator and it freezes in its current state - a one-bit memory cell for doors and traps.",
+   "Note the speed cost: every repeater adds at least 1 redstone tick of delay, so route around them in timing-critical lines."
+  ],
+  "materials": [
+   "Stone x3 (smelted, not cobblestone)",
+   "Redstone torch x2",
+   "Redstone dust x1",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe and all four functions (boost, delay, diode, lock) work the same in Java and Bedrock.",
+  "versions": "Added in Beta 1.3 (2011) alongside beds and the redstone update of that era; the side-locking memory feature arrived in 1.4.2.",
+  "faq": [
+   {
+    "q": "Why won't my redstone repeater craft?",
+    "a": "The recipe needs smooth STONE, not cobblestone. Smelt cobblestone in a furnace first - 3 stone across the bottom, 2 redstone torches on the middle sides, 1 redstone dust in the center."
+   },
+   {
+    "q": "How far does redstone travel without a repeater?",
+    "a": "Fifteen blocks. Redstone dust loses 1 power level per block, so place a repeater every 15 blocks of dust to restore the signal to full strength 15."
+   },
+   {
+    "q": "How do you slow down a redstone signal?",
+    "a": "Right-click a repeater to raise its delay: each setting adds redstone ticks, up to 4 (0.4 seconds) per repeater. Chain several at max delay for multi-second timers."
+   }
+  ],
+  "keywords": "redstone repeater minecraft, repeater recipe minecraft, how to use redstone repeater, minecraft redstone delay, redstone repeater vs comparator",
+  "relatedGuides": [
+   "how-to-get-redstone",
+   "how-to-make-piston",
+   "how-to-make-observer",
+   "how-to-get-glowstone"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Caves",
+    "href": "/biomes/dripstone-caves/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-redstone-comparator",
+  "name": "How to Make a Redstone Comparator in Minecraft",
+  "shortTitle": "Make a Redstone Comparator",
+  "quickAnswer": "Craft a redstone comparator with 3 redstone torches, 1 nether quartz and 3 stone. It reads how full containers are, compares and subtracts signal strengths, and preserves power levels instead of boosting them.",
+  "steps": [
+   "Smelt cobblestone into 3 stone and craft 3 redstone torches (redstone dust over sticks).",
+   "Craft the comparator: 3 stone across the bottom row, nether quartz in the center, redstone torches above it and at the middle-left and middle-right.",
+   "Face it right: the arrow on top points to the output side - the comparator faces away from you when placed.",
+   "Measure containers: point the back at a chest, hopper, furnace, barrel, composter, lectern, jukebox, cake or bee nest and it outputs a signal that scales with how full or complete it is.",
+   "Compare mode (front torch down): the comparator outputs the back input only if it is at least as strong as the side inputs - a minimum-signal gate.",
+   "Subtract mode: use the placed comparator once and the front torch pops up. Now it outputs the back signal MINUS the strongest side signal - analog arithmetic for smart circuits.",
+   "Preserve levels: unlike a repeater, a comparator passes the exact input strength through (up to 15), which keeps fullness readings and analog lines intact.",
+   "Build classics: item-fullness alarms, auto-smelter controls, composter harvest triggers and secret lectern-page doors all run on comparators."
+  ],
+  "materials": [
+   "Redstone torch x3",
+   "Nether quartz x1",
+   "Stone x3 (smelted, not cobblestone)",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe and both modes work the same in Java and Bedrock. One placement perk: in Bedrock, comparators can also sit on walls and fences.",
+  "versions": "Added in 1.5 (13w01a) with the Redstone Update - the same snapshot that introduced the daylight detector and the redstone block era of analog circuitry.",
+  "faq": [
+   {
+    "q": "What does a comparator do in Minecraft?",
+    "a": "Three jobs: it measures how full a container is and outputs that as signal strength, it compares a back input against side inputs, and in subtract mode it outputs their difference. It passes signal strength through unchanged instead of resetting it to 15."
+   },
+   {
+    "q": "What is the difference between a repeater and a comparator?",
+    "a": "A repeater boosts any signal back to full 15, adds delay and works as a one-way diode. A comparator keeps the exact signal level, measures container fullness, and can compare or subtract signals - but adds no delay and cannot lock."
+   },
+   {
+    "q": "How do you detect a full chest in Minecraft?",
+    "a": "Place a comparator with its back against the chest. Its output scales with fullness - a full double chest outputs 15. Wire that to a lamp, note block or piston door for a fullness alarm or overflow shutoff."
+   }
+  ],
+  "keywords": "redstone comparator minecraft, comparator recipe minecraft, how to use comparator minecraft, comparator vs repeater minecraft, minecraft chest fullness detector",
+  "relatedGuides": [
+   "how-to-make-redstone-repeater",
+   "how-to-get-quartz",
+   "how-to-get-redstone",
+   "how-to-make-hopper"
+  ],
+  "relatedLinks": [
+   {
+    "label": "The Nether",
+    "href": "/biomes/nether-wastes/"
+   }
+  ]
  }
 ]

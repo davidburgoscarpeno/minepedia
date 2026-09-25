@@ -11839,5 +11839,121 @@
    }
   ],
   "keywords": "daylight detector minecraft, receta daylight sensor minecraft, lámparas automáticas minecraft, daylight sensor invertido, luz nocturna redstone minecraft"
+ },
+ "how-to-make-redstone-lamp": {
+  "slug": "how-to-make-redstone-lamp",
+  "name": "Cómo hacer una redstone lamp en Minecraft",
+  "shortTitle": "Hacer una redstone lamp",
+  "quickAnswer": "Craftea una redstone lamp con un bloque de glowstone rodeado de 4 redstone dust. Brilla con nivel de luz 15 siempre que tenga energía: la luz con interruptor detrás de las farolas con daylight detector y la iluminación oculta de bases.",
+  "steps": [
+   "Consigue un bloque de glowstone: mina glowstone en el Nether y craftea 4 glowstone dust de vuelta a bloque.",
+   "Craftea la lámpara: glowstone en el centro con redstone dust arriba, abajo, a la izquierda y a la derecha.",
+   "Dale energía: cualquier fuente adyacente vale: lever, button, redstone torch, dust con energía, repeater, observer o daylight detector.",
+   "Luz 15 a demanda: una lámpara activa produce luz de bloque nivel 15, el máximo, igual que la glowstone, pero solo mientras tenga energía.",
+   "Automatízala: combina la lámpara con un daylight detector invertido para farolas que se encienden solas al anochecer.",
+   "Ojo al retardo de apagado: las lámparas se apagan con un pequeño lag: 4 ticks (0.2s) en Java, 6 ticks (0.3s) en Bedrock: importante en circuitos de pulsos rápidos.",
+   "Construye con ella: una redstone lamp es un bloque sólido opaco, así que bloquea la luz del cielo y puede llevar redstone dust encima, encendida o no.",
+   "Escóndela donde quieras: a ras en suelos, techos y paredes, parece una luminaria moderna y limpia: la favorita para interiores de bases."
+  ],
+  "materials": [
+   "Glowstone x1",
+   "Redstone dust x4",
+   "Crafting table"
+  ],
+  "editionNote": "La receta y el nivel de luz son iguales en Java y Bedrock; solo cambia el retardo de apagado (4 ticks en Java, 6 en Bedrock).",
+  "versions": "Añadida en la 1.2.1 (12w07a), la actualización que también subió la altura de construcción a 256.",
+  "faq": [
+   {
+    "q": "¿Cómo se enciende una redstone lamp?",
+    "a": "Cualquier energía de redstone que la toque: un lever o button sobre la lámpara, redstone dust llegando a ella, un repeater o torch al lado, o un daylight detector invertido para iluminación nocturna automática."
+   },
+   {
+    "q": "¿Cuánta luz da una redstone lamp?",
+    "a": "Nivel de luz 15 con energía: la luz de bloque más brillante del juego, igual que glowstone, sea lanterns y beacons. Sin energía no da luz alguna."
+   },
+   {
+    "q": "¿Redstone lamp o glowstone?",
+    "a": "La glowstone es luz permanente sin interruptor. Las redstone lamps cuestan 4 redstone extra pero se encienden y apagan con cualquier circuito: glowstone para zonas siempre encendidas, lámparas para todo lo que quieras controlar o automatizar."
+   }
+  ],
+  "keywords": "redstone lamp minecraft, receta redstone lamp minecraft, luces automáticas minecraft, redstone lamp daylight detector, luz con interruptor minecraft"
+ },
+ "how-to-make-redstone-repeater": {
+  "slug": "how-to-make-redstone-repeater",
+  "name": "Cómo hacer un redstone repeater en Minecraft",
+  "shortTitle": "Hacer un redstone repeater",
+  "quickAnswer": "Craftea un redstone repeater con 3 stone, 2 redstone torches y 1 redstone dust. Devuelve las señales moribundas a 15, añade retardo ajustable, funciona como diodo unidireccional y se bloquea como memoria con una señal lateral.",
+  "steps": [
+   "Funde cobblestone en 3 stone (el cobblestone NO sirve en esta receta).",
+   "Craftea 2 redstone torches: cada una es un redstone dust sobre un stick.",
+   "Craftea el repeater: 3 stone en la fila inferior, redstone torches en el centro-izquierda y centro-derecha, y redstone dust en el centro exacto.",
+   "Amplifica señales: el redstone dust pierde 1 por bloque y muere a los 15. Un repeater reemite cualquier entrada a potencia 15 completa: encadénalos para cableados de larga distancia.",
+   "Añade retardo: usa el repeater para recorrer 4 ajustes de retardo, de 1 a 4 redstone ticks (0.1-0.4 segundos). Repeaters en serie crean temporizadores precisos.",
+   "Úsalo de diodo: las señales solo fluyen de atrás hacia adelante, nunca al revés: los repeaters evitan que los bucles de retroalimentación cortocircuiten tus circuitos.",
+   "Bloquealo: alimenta el lateral de un repeater con otro repeater o un comparator y se congela en su estado actual: una celda de memoria de un bit para puertas y trampas.",
+   "Cuenta el coste de velocidad: cada repeater añade al menos 1 redstone tick de retardo, así que rodea su uso en líneas críticas de tiempo."
+  ],
+  "materials": [
+   "Stone x3 (fundida, no cobblestone)",
+   "Redstone torch x2",
+   "Redstone dust x1",
+   "Crafting table"
+  ],
+  "editionNote": "La receta y las cuatro funciones (amplificar, retardar, diodo, bloqueo) funcionan igual en Java y Bedrock.",
+  "versions": "Añadido en la Beta 1.3 (2011); la función de bloqueo lateral como memoria llegó en la 1.4.2.",
+  "faq": [
+   {
+    "q": "¿Por qué no se craftea mi redstone repeater?",
+    "a": "La receta necesita STONE lisa, no cobblestone. Funde cobblestone en un furnace primero: 3 stone abajo, 2 redstone torches en los lados del medio y 1 redstone dust en el centro."
+   },
+   {
+    "q": "¿Hasta dónde llega la redstone sin repeater?",
+    "a": "Quince bloques. El redstone dust pierde 1 nivel de potencia por bloque, así que coloca un repeater cada 15 bloques de dust para devolver la señal a 15."
+   },
+   {
+    "q": "¿Cómo ralentizar una señal de redstone?",
+    "a": "Haz clic derecho en un repeater para subir su retardo: cada ajuste añade redstone ticks, hasta 4 (0.4 segundos) por repeater. Encadena varios al máximo para temporizadores de varios segundos."
+   }
+  ],
+  "keywords": "redstone repeater minecraft, receta repeater minecraft, cómo usar redstone repeater, retardo redstone minecraft, repeater o comparator minecraft"
+ },
+ "how-to-make-redstone-comparator": {
+  "slug": "how-to-make-redstone-comparator",
+  "name": "Cómo hacer un redstone comparator en Minecraft",
+  "shortTitle": "Hacer un redstone comparator",
+  "quickAnswer": "Craftea un redstone comparator con 3 redstone torches, 1 nether quartz y 3 stone. Lee lo llenos que están los contenedores, compara y resta potencias de señal, y conserva los niveles en vez de amplificarlos.",
+  "steps": [
+   "Funde cobblestone en 3 stone y craftea 3 redstone torches (redstone dust sobre sticks).",
+   "Craftea el comparator: 3 stone en la fila inferior, nether quartz en el centro, y redstone torches encima y en el centro-izquierda y centro-derecha.",
+   "Oriéntalo bien: la flecha de arriba apunta al lado de salida: el comparator mira hacia el lado contrario a ti al colocarlo.",
+   "Mide contenedores: apunta la parte trasera a un chest, hopper, furnace, barrel, composter, lectern, jukebox, cake o bee nest y emitirá una señal que escala con lo lleno o completo que esté.",
+   "Modo comparación (torch frontal abajo): el comparator solo da salida si la entrada trasera es al menos tan fuerte como las laterales: una puerta de señal mínima.",
+   "Modo resta: usa el comparator colocado una vez y la torch frontal se levanta. Ahora da la señal trasera MENOS la lateral más fuerte: aritmética analógica para circuitos listos.",
+   "Conserva niveles: a diferencia del repeater, el comparator deja pasar la potencia exacta de entrada (hasta 15), manteniendo intactas las lecturas de llenado y las líneas analógicas.",
+   "Monta los clásicos: alarmas de cofres llenos, control de auto-fundición, disparadores de cosecha con composter y puertas secretas por página de lectern funcionan con comparators."
+  ],
+  "materials": [
+   "Redstone torch x3",
+   "Nether quartz x1",
+   "Stone x3 (fundida, no cobblestone)",
+   "Crafting table"
+  ],
+  "editionNote": "La receta y ambos modos funcionan igual en Java y Bedrock. Una ventaja de colocación: en Bedrock los comparators también pueden ponerse sobre walls y fences.",
+  "versions": "Añadido en la 1.5 (13w01a) con la Redstone Update: el mismo snapshot que trajo el daylight detector y la era de la circuitería analógica.",
+  "faq": [
+   {
+    "q": "¿Qué hace un comparator en Minecraft?",
+    "a": "Tres trabajos: mide lo lleno que está un contenedor y lo emite como potencia de señal, compara una entrada trasera con las laterales, y en modo resta da su diferencia. Deja pasar la potencia sin cambios en vez de resetearla a 15."
+   },
+   {
+    "q": "¿Qué diferencia hay entre un repeater y un comparator?",
+    "a": "Un repeater amplifica cualquier señal a 15, añade retardo y sirve de diodo. Un comparator conserva el nivel exacto, mide el llenado de contenedores y puede comparar o restar señales, pero no añade retardo ni puede bloquearse."
+   },
+   {
+    "q": "¿Cómo detectar un chest lleno en Minecraft?",
+    "a": "Coloca un comparator con la parte trasera contra el chest. Su salida escala con el llenado: un double chest lleno da 15. Conéctalo a una lámpara, note block o piston door para una alarma o un corte de overflow."
+   }
+  ],
+  "keywords": "redstone comparator minecraft, receta comparator minecraft, cómo usar comparator minecraft, comparator o repeater minecraft, detector de chest lleno minecraft"
  }
 }
