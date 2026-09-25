@@ -592,5 +592,112 @@
       "Planta en el Overworld para ahorrarte el viaje al End: la end stone es el único requisito.",
       "No te pongas en una esquina al comer chorus fruit: el teletransporte aleatorio puede encajarte dentro de un muro."
     ]
+  },
+  "chicken-farm": {
+    "produces": "Eggs cada 5-10 minutos por chicken, feathers (0-2) y cooked chicken con el diseño de asado en lava",
+    "difficulty": "Principiante",
+    "quickAnswer": "Los chickens ponen un egg cada 5-10 minutos en un chunk cargado. Amontónalos en un corral de 1x1 sobre un hopper, lanza los eggs para multiplicar el rebaño (1 de cada 8 eclosiona) y deja que una hoja de lava a la altura de la cabeza del adulto ase a los adultos en cooked chicken automáticamente.",
+    "mechanics": [
+      "Cada chicken adulto en un chunk cargado pone un egg cada 5-10 minutos; los suelos de hoppers bajo el corral los recogen sin esfuerzo.",
+      "Los eggs lanzados eclosionan un chick 1 de cada 8 veces (un lanzamiento extra raro genera 4 de golpe): un dispenser con reloj convierte tus eggs en crecimiento exponencial del rebaño.",
+      "Los chickens no reciben daño de caída (planean), caben en un solo bloque y nunca desaparecen: la granja clásica apiña docenas en un único hueco de 1x1 sobre un hopper.",
+      "El truco del asado: los chickens adultos miden algo menos de un bloque, los chicks mucho menos; una hoja de lava sostenida por un sign a la altura de la cabeza del adulto quema solo a los adultos, y morir en fuego suelta cooked chicken en vez de crudo.",
+      "Las feathers vienen gratis con cada baja (0-2, +1 con Looting): arrows para días."
+    ],
+    "materials": [
+      "2+ chickens atraídos con seeds (wheat, melon, pumpkin o beetroot valen)",
+      "Bloques de construcción, un hopper y un cofre",
+      "Un dispenser + reloj de redstone para la incubadora automática (opcional)",
+      "Un lava bucket y un sign o trapdoor para el asador (opcional)",
+      "Seeds para criar: una granja de wheat alimenta esta"
+    ],
+    "steps": [
+      "Encierra los iniciales: atrae dos chickens con seeds a un foso de 1x1 sobre un hopper que alimenta un cofre; criarlos con seeds agranda el rebaño.",
+      "Deja que los eggs caigan: cada adulto pone un egg cada 5-10 minutos y el hopper lo atrapa todo.",
+      "Multiplica: lanza eggs contra una pared (1 de 8 eclosiona) o cárgalos en un dispenser con reloj para que la eclosión funcione sola.",
+      "Limita el rebaño con sensatez: cientos de chickens en un bloque laguean el juego; 24-50 adultos sobran para una base de survival.",
+      "Añade el asador: un sign sosteniendo lava a la altura de la cabeza del adulto sobre un segundo corral quema a los adultos mientras los chicks quedan a salvo abajo.",
+      "Recoge cooked chicken, feathers y eggs de la cadena de hoppers a los cofres.",
+      "Come el asado, craftea arrows con las feathers y flint, y no compostes nada: todo tiene uso.",
+      "Amplía por módulos: otro corral de 1x1 junto al primero duplica la producción por el precio de unos bloques."
+    ],
+    "rates": "Un corral de 20 chickens promedia un egg cada 15-30 segundos, más de un stack por hora, además de feathers y asado cuando el diseño de lava sacrifica a los adultos. La producción escala linealmente con el tamaño del rebaño.",
+    "tips": [
+      "Cualquier seed vale para atraer y criar: wheat, melon, pumpkin, beetroot o torchflower.",
+      "No sobrecargues el corral: el entity cramming mata chickens a partir de 24 por bloque en Java (aquí es una ayuda, pero desperdicia eggs).",
+      "La eclosión extra de 4 chicks es un evento de 1 entre 256: celébralo cuando pase.",
+      "Los chickens jockey (en los que llegaron zombies montados) nunca ponen eggs: sacrifícalos primero."
+    ]
+  },
+  "sheep-farm": {
+    "produces": "Wool de todos los colores (1-3 por esquileo), infinitamente renovable mientras las sheep puedan pastar",
+    "difficulty": "Principiante",
+    "quickAnswer": "Esquila a las sheep para 1-3 de wool, déjalas comer hierba para que les vuelva a crecer y repite para siempre. Tiñe la sheep una vez y cada nuevo crecimiento vuelve de ese color: un observer vigilando el grass block puede disparar las shears automáticamente para una máquina de wool totalmente automática.",
+    "mechanics": [
+      "Las shears quitan 1-3 de wool a una sheep sin hacerle daño: mucho mejor que matarla, que solo da 1 de wool (y ninguna de una sheep esquilada).",
+      "Las sheep solo regeneran wool tras pastar: comen short grass y ferns, o convierten grass blocks en dirt; sin hierba no hay wool, así que el suelo de la granja es siempre de grass blocks.",
+      "Tiñe la sheep, no la wool: una sheep teñida conserva su color en cada nuevo crecimiento, y los lambs heredan los colores; un solo dye, wool de color infinita.",
+      "El diseño automático: una sheep sobre un grass block encima de un hopper; un observer ve el grass convertirse en dirt y dispara un dispenser con shears; la wool vuelve a crecer y el ciclo se repite. Las shears se desgastan, así que guarda un cofre de repuestos o renueva con iron.",
+      "Los adultos pastan un grass block cada ~25 segundos de oportunidad (probabilidad 1/500 cada dos ticks): cada nuevo crecimiento es un ciclo de esquileo."
+    ],
+    "materials": [
+      "Sheep (2+ para criar, atraídas con wheat): una por cada color que quieras",
+      "Shears (2 de iron cada una): varias para la versión automática",
+      "Grass blocks y fences para los corrales",
+      "Observer + dispenser + hopper por módulo automático",
+      "Dyes de los colores que quieras permanentes"
+    ],
+    "steps": [
+      "Encierra sheep sobre hierba: una sheep por celda de 1x1 mantiene los diseños densos; el grass block es su combustible de crecimiento.",
+      "Tiñe primero: aplica cada color directamente a una sheep una vez; su wool vuelve a crecer de ese color para siempre.",
+      "Esquila al ritmo: mira a la sheep comer (el grass block parpadea a dirt) y esquila la wool fresca: 1-3 por ciclo.",
+      "Cría el rebaño: el wheat multiplica las sheep; los lambs crecen más rápido cuando pastan.",
+      "Automatiza un módulo: sheep sobre grass encima de un hopper, observer apuntando al grass block, dispenser con shears apuntando a la sheep; el cambio a dirt dispara las shears.",
+      "Apila módulos lado a lado para un muro arcoíris de wool, un módulo por color.",
+      "Cambia a shears nuevas cuando un dispenser se seque: cada par dura 238 usos.",
+      "Recoge de los hoppers y construye: wool para beds, carpets, banners y todas las paletas de construcción."
+    ],
+    "rates": "Un único módulo de esquileo automático produce unas pocas wool por minuto sin parar; un muro de 16 colores con un módulo cada uno cubre todas las necesidades de wool de un mundo survival. El esquileo manual de una docena de sheep da 1-3 de wool por sheep por crecimiento.",
+    "tips": [
+      "Una sheep esquilada no puede volver a teñirse hasta que le crece la wool: tiñe antes del primer esquileo.",
+      "Los grass blocks bajo slabs siguen siendo pastados: las sheep comen a través de bloques más bajos que un bloque completo, lo que ayuda a los diseños compactos.",
+      "Mantén la tall grass fuera del corral: las sheep la ignoran y solo queda desaliñada.",
+      "Con mobGriefing desactivado, los grass blocks quedan intactos pero la wool sigue creciendo: la opción de granja ordenada."
+    ]
+  },
+  "fishing-farm": {
+    "produces": "Fish, enchanted books, bows y rods encantadas, saddles, name tags, nautilus shells y XP",
+    "difficulty": "Principiante",
+    "quickAnswer": "Lanza a aguas abiertas y recoge cuando el bobber se hunda. El tesoro (enchanted books, saddles, name tags) solo pica en Java cuando el bobber flota en aguas realmente abiertas (una zona despejada de 5x4x5), así que una buena caseta de pesca con cielo encima lo pesca todo, no solo peces.",
+    "mechanics": [
+      "Cada lanzamiento espera 5-30 segundos a que pique; Lure recorta 5 segundos por nivel, la lluvia reduce ~20%, y un bobber sin acceso al cielo tarda aproximadamente el doble: pesca a cielo abierto, con lluvia si puedes.",
+      "El reparto de loot sin encantamientos: 85% fish, 10% junk, 5% treasure; Luck of the Sea sube el treasure a costa de los otros dos.",
+      "La puerta del tesoro (Java): el área de 5x4x5 alrededor del bobber debe estar abierta (fuentes de agua abajo, solo aire o lily pads arriba) o el tesoro nunca aparece, tengas la suerte que tengas. Esto es lo que rompió las viejas máquinas AFK de 1x1 en la 1.16.",
+      "La ventana de recogida: cuando el bobber se hunde tienes medio segundo en Bedrock (1-2 segundos en Java) para recoger antes de que la captura escape.",
+      "La tabla de tesoro: enchanted books (incluido mending), bows y fishing rods encantadas, saddles, name tags, nautilus shells y lily pads; la pesca sigue siendo la fuente de mending más perezosa del juego."
+    ],
+    "materials": [
+      "Una fishing rod, idealmente con Lure III y Luck of the Sea III, reparada con mending con el tiempo",
+      "Aguas abiertas: al menos 5 de ancho, 4 de alto y 5 de profundidad de agua despejada con cielo encima (tesoro en Java)",
+      "Un techo solo para ti: el bobber necesita el cielo, tú no",
+      "Cofres para la captura y un anvil para combinar los libros"
+    ],
+    "steps": [
+      "Construye la rod: 3 sticks + 2 string, y avanza hacia Lure III + Luck of the Sea III con enchanting table, villagers o la propia pesca.",
+      "Elige el sitio: un lago, océano o charco excavado con 5x4x5 despejado alrededor del bobber y cielo directo encima; los techos de glass cuentan como abierto.",
+      "Lanza y espera: las salpicaduras se acercan al bobber, se hunde y recoges; el ritmo se vuelve automático en unos minutos.",
+      "Pesca con lluvia cuando puedas: el ~20% de aceleración es dinero gratis.",
+      "Clasifica la captura: fish al cofre de comida, enchanted books a la estación del anvil, junk (string, sticks, leather) al composter o al almacén.",
+      "Combina los libros: la pesca te lanza enchanted books de bajo nivel sin parar; fusiónalos en un anvil hasta conseguir los que quieres de verdad.",
+      "Repara la rod con la XP: cada captura da 1-6 de XP, así que una rod con mending paga su propio mantenimiento mientras pescas.",
+      "Semiautomatiza si quieres: los diseños de puerta con note block permiten mantener pulsado el clic en AFK; solo mantén la regla del agua abierta o pescarás fish y junk para siempre."
+    ],
+    "rates": "Con Lure III y lluvia, pica cada pocos segundos; espera un objeto de tesoro cada par de minutos con Luck of the Sea III en aguas abiertas de Java, más 10-20 niveles de XP por hora y más peces de los que puedes comer.",
+    "tips": [
+      "Luck of the Sea primero, Lure después: la calidad del tesoro gana a la velocidad bruta hasta que tengas los encantamientos montados.",
+      "En Bedrock no hay requisito de agua abierta, pero la ventana de recogida diminuta (~0,5 s) castiga la pesca distraída.",
+      "La pesca en jungle añade bamboo y cocoa beans a la tabla de junk: materiales de scaffolding gratis.",
+      "Mantén un cofre o sign waterlogged cerca de tu punto AFK: la comprobación de agua abierta tolera bloques waterlogged sin colisión."
+    ]
   }
 }

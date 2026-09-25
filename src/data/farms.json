@@ -664,5 +664,124 @@
       "Do not stand in a corner when you eat chorus fruit: the random teleport can wedge you into a wall."
     ],
     "keywords": "chorus fruit farm minecraft, chorus flower farm minecraft, how to grow chorus fruit minecraft, purpur block farm minecraft, minecraft chorus plant guide"
+  },
+  {
+    "slug": "chicken-farm",
+    "name": "Chicken Farm",
+    "produces": "Eggs every 5-10 minutes per chicken, feathers (0-2), and cooked chicken with the lava-roast design",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Chickens lay an egg every 5-10 minutes in a loaded chunk. Stack them in a 1x1 pen over a hopper, throw the eggs to multiply the flock (1 in 8 hatches a chick), and let a lava blade at adult head height roast the adults into cooked chicken automatically.",
+    "mechanics": [
+      "Every adult chicken in a loaded chunk lays one egg every 5-10 minutes - hopper floors under the pen collect them with zero effort.",
+      "Thrown eggs hatch a chick 1 time in 8 (a rare bonus throw spawns 4 at once) - a dispenser clock turns your egg income into exponential flock growth.",
+      "Chickens take no fall damage (they glide), fit in a single block of space and never despawn - the classic farm crams dozens into one 1x1 hole over a hopper.",
+      "The roast trick: adult chickens are just under a block tall, chicks much shorter - a lava blade held by a sign at adult head height burns only adults, and dying on fire drops cooked chicken instead of raw.",
+      "Feathers come free with every kill (0-2, +1 with Looting) - arrows for days."
+    ],
+    "materials": [
+      "2+ chickens lured with seeds (wheat, melon, pumpkin or beetroot all work)",
+      "Building blocks, one hopper and one chest",
+      "A dispenser + redstone clock for the auto-hatcher (optional)",
+      "A lava bucket and a sign or trapdoor for the roaster (optional)",
+      "Seeds for breeding - a wheat farm feeds this one"
+    ],
+    "steps": [
+      "Pen the starters: lure two chickens with seeds into a 1x1 pit over a hopper feeding a chest - breeding them with seeds grows the flock.",
+      "Let the eggs roll in: every adult drops an egg each 5-10 minutes; the hopper catches everything.",
+      "Multiply: throw eggs at a wall (1 in 8 hatches) or load them into a dispenser on a clock so hatching runs itself.",
+      "Cap the flock sensibly: hundreds of chickens in one block lag the game - 24-50 adults is plenty for a survival base.",
+      "Add the roaster: a sign holding lava at adult head height above a second pen burns adults while chicks stay safe below.",
+      "Collect cooked chicken, feathers and eggs from the hopper chain into chests.",
+      "Eat the roast, craft arrows with the feathers and flint, and compost nothing - everything has a use.",
+      "Expand in modules: another 1x1 pen next to the first doubles output for the price of a few blocks."
+    ],
+    "rates": "A 20-chicken pen averages an egg every 15-30 seconds, over a stack per hour, plus feathers and roast once the lava design culls adults. Output scales linearly with flock size.",
+    "tips": [
+      "Any seed works for luring and breeding - wheat, melon, pumpkin, beetroot or torchflower.",
+      "Do not overstuff the pen: entity cramming kills chickens past 24 per block in Java (a feature here, but it wastes eggs).",
+      "The 4-chick bonus throw is a 1-in-256 event - celebrate when it happens.",
+      "Jockey chickens (the ones zombies rode in on) never lay eggs - cull them first."
+    ],
+    "keywords": "chicken farm minecraft, egg farm minecraft, automatic cooked chicken farm, minecraft chicken cooker tutorial, feather farm minecraft"
+  },
+  {
+    "slug": "sheep-farm",
+    "name": "Sheep Farm (Wool Farm)",
+    "produces": "Wool in every color (1-3 per shearing), infinitely renewable while sheep can graze",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Shear sheep for 1-3 wool, let them eat grass to regrow it, repeat forever. Dye the sheep once and every regrowth comes back in that color - an observer watching the grass block can fire shears automatically for a full-auto wool machine.",
+    "mechanics": [
+      "Shears take 1-3 wool from a sheep without hurting it - far better than killing, which drops only 1 wool (and none from a sheared sheep).",
+      "Sheep regrow wool only after grazing: they eat short grass and ferns, or convert grass blocks to dirt - no grass, no wool, so the farm floor is always grass blocks.",
+      "Dye the sheep, not the wool: a dyed sheep keeps its color through every regrowth, and lambs inherit colors - one dye purchase, infinite colored wool.",
+      "The auto design: a sheep stands on a grass block above a hopper; an observer sees the grass turn to dirt and fires a dispenser holding shears - wool regrows, cycle repeats. Shears wear out, so keep a chest of replacements or renew with iron.",
+      "Adults graze a grass block about every 25 seconds of opportunity (1/500 chance per other tick) - each regrowth is one shearing cycle."
+    ],
+    "materials": [
+      "Sheep (2+ for breeding, lured with wheat) - one per color you want",
+      "Shears (2 iron each) - several for the automated version",
+      "Grass blocks and fences for the pens",
+      "Observer + dispenser + hopper per auto module",
+      "Dyes for the colors you want permanent"
+    ],
+    "steps": [
+      "Pen sheep on grass: one sheep per 1x1 grass cell keeps designs dense - the grass block is their regrowth fuel.",
+      "Dye first: apply each color directly to a sheep once; its wool regrows that color forever.",
+      "Shear on cooldown: watch for the sheep to eat (grass block flashes to dirt) and shear the fresh wool - 1-3 per cycle.",
+      "Breed the flock: wheat multiplies sheep; lambs grow faster when they graze.",
+      "Automate one module: sheep on grass over a hopper, observer aimed at the grass block, dispenser with shears aimed at the sheep - dirt-change fires the shears.",
+      "Stack modules side by side for a rainbow wall of wool, one module per color.",
+      "Swap in fresh shears when a dispenser runs dry - each pair lasts 238 uses.",
+      "Collect from the hoppers and build: wool for beds, carpets, banners and every build palette."
+    ],
+    "rates": "A single auto-shear module produces a few wool per minute around the clock; a 16-color wall with one module each covers every wool need of a survival world. Manual shearing of a dozen sheep gives 1-3 wool per sheep per regrowth.",
+    "tips": [
+      "A sheared sheep cannot be re-dyed until its wool regrows - dye before the first shearing.",
+      "Grass blocks under slabs still get grazed: sheep eat through blocks lower than full height, which helps compact designs.",
+      "Keep tall grass out of the pen - sheep ignore it, and it just looks untidy.",
+      "With mobGriefing disabled, grass blocks stay intact but wool still regrows - the tidy-farm option."
+    ],
+    "keywords": "sheep farm minecraft, wool farm minecraft, automatic wool farm minecraft, minecraft sheep shearing farm, how to regrow wool minecraft"
+  },
+  {
+    "slug": "fishing-farm",
+    "name": "Fishing Farm",
+    "produces": "Fish, enchanted books, enchanted bows and rods, saddles, name tags, nautilus shells and XP",
+    "difficulty": "Beginner",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "Cast into open water and reel when the bobber dips. Treasure (enchanted books, saddles, name tags) only bites in Java when the bobber floats in true open water - a 5x4x5 clear zone - so a proper fishing hut with sky above catches everything, not just fish.",
+    "mechanics": [
+      "Every cast waits 5-30 seconds for a bite; Lure shaves 5 seconds per level, rain cuts ~20%, and a bobber without sky access takes roughly twice as long - fish in the open, in the rain if you can.",
+      "The loot split without enchantments: 85% fish, 10% junk, 5% treasure - Luck of the Sea raises treasure at the expense of the other two.",
+      "The treasure gate (Java): the 5x4x5 area around the bobber must be open - water source blocks below, only air or lily pads above - or treasure never spawns, no matter your Luck. This is what broke the old 1x1 AFK machines in 1.16.",
+      "The reel window: when the bobber dips you have about half a second in Bedrock (1-2 seconds in Java) to reel in before the catch escapes.",
+      "Treasure table: enchanted books (including mending), enchanted bows and fishing rods, saddles, name tags, nautilus shells and lily pads - fishing remains the laziest mending source in the game."
+    ],
+    "materials": [
+      "A fishing rod - ideally with Lure III and Luck of the Sea III, mended over time",
+      "Open water: at least 5 wide, 4 high, 5 deep of clear water with sky above (Java treasure)",
+      "A roof for yourself only - the bobber needs the sky, you do not",
+      "Chests for the catch and an anvil for combining book loot"
+    ],
+    "steps": [
+      "Build the rod: 3 sticks + 2 string, then work toward Lure III + Luck of the Sea III via enchanting table, villagers or fishing itself.",
+      "Pick the spot: a lake, ocean or dug pool with a clear 5x4x5 around the bobber and direct sky above - glass roofs count as open.",
+      "Cast and wait: splashes approach the bobber, it dips, you reel - rhythm becomes automatic in a few minutes.",
+      "Fish in the rain when you can: the ~20% speedup is free money.",
+      "Sort the catch: fish to the food chest, enchanted books to the anvil station, junk (string, sticks, leather) to the composter or storage.",
+      "Combine books: fishing throws endless low-level enchanted books at you - merge them on an anvil into the ones you actually want.",
+      "Repair the rod with the XP: every catch gives 1-6 XP, so a mending rod pays its own upkeep while you fish.",
+      "Semi-automate if you like: note-block door designs let you hold right-click AFK - just keep the open-water rule or you will catch fish and junk forever."
+    ],
+    "rates": "With Lure III and rain, a bite lands every few seconds; expect a treasure item every couple of minutes with Luck of the Sea III in Java open water, plus 10-20 XP levels per hour and more fish than you can eat.",
+    "tips": [
+      "Luck of the Sea first, Lure second - treasure quality beats raw speed until your enchants are set.",
+      "In Bedrock there is no open-water requirement, but the tiny reel window (~0.5s) punishes distracted fishing.",
+      "Jungle fishing adds bamboo and cocoa beans to the junk table - free scaffolding materials.",
+      "Keep a waterlogged chest or sign near your AFK spot: the open-water check tolerates waterlogged blocks without collision."
+    ],
+    "keywords": "fishing farm minecraft, afk fish farm minecraft, minecraft fishing loot table, how to get mending from fishing, open water fishing minecraft"
   }
 ]
