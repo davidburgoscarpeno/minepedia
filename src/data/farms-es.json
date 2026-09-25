@@ -483,5 +483,114 @@
       "Composta los saplings sobrantes: cada uno tiene un 30% de subir el nivel del compost, devolviendo bone meal al bucle.",
       "Un hacha de diamante con Efficiency V más Haste de un beacon mina logs al instante: la mayor mejora de calidad de vida para farmear madera."
     ]
+  },
+  "kelp-farm": {
+    "produces": "Kelp para fundir en dried kelp: comida, y dried kelp blocks que funden 20 objetos cada uno",
+    "difficulty": "Principiante",
+    "quickAnswer": "El kelp crece bajo el agua en cualquier océano excepto los cálidos y los helados. Plántalo en una columna de agua, déjalo crecer y rompe el segundo bloque desde abajo: todo el tallo de arriba cae como objetos. El bone meal lo acelera, y el kelp fundido se convierte en combustible que funde más kelp.",
+    "mechanics": [
+      "El kelp solo crece bajo el agua, plantado sobre un bloque con cara superior completa (no magma) en una fuente de agua o agua que fluye hacia abajo, y vive en todos los biomas oceánicos excepto warm, frozen y deep frozen oceans.",
+      "Cada planta de kelp tiene una edad oculta (0-24, visible con F3 en Java): cada bloque nuevo de crecimiento suma 1, y a los 25 se detiene; los tallos naturales alcanzan entre 2 y 26 bloques.",
+      "El truco del granjero: romper cualquier bloque de kelp re-aleatoriza la edad del bloque de abajo, así que los tallos siguen creciendo; y romper el segundo bloque desde abajo suelta todo el tallo superior como objetos de golpe.",
+      "El bone meal funciona en el kelp: un dispenser con bone meal bajo cada planta convierte una granja lenta natural en una rápida.",
+      "Las cuentas del combustible: 9 dried kelp se craftean en un dried kelp block, que funde 20 objetos (2,5 veces el coal por hueco). La ganancia neta es de 11 fundiciones por bloque tras el kelp quemado para secarlo; usa lava buckets o campfires para el primer secado y el bucle es beneficio puro.",
+      "Fundir kelp también da XP: una granja de kelp alimentando furnaces hace las veces de banco de XP silencioso y seguro cuando vacías los furnaces a mano."
+    ],
+    "materials": [
+      "Un poco de kelp de cualquier océano frío o templado",
+      "Bloques de construcción para la columna de agua (glass para verlo crecer)",
+      "Water buckets",
+      "Dispensers + bone meal + observers para la versión automática",
+      "Furnaces o smokers, y hoppers con cofres"
+    ],
+    "steps": [
+      "Consigue kelp inicial: bucea en cualquier océano que no sea cálido ni helado; el kelp se rompe al instante con la mano y todo el tallo sobre el corte cae.",
+      "Construye la columna: un tubo vertical de agua sobre un bloque base sólido, con un kelp plantado abajo por columna.",
+      "Cosecha con cabeza: rompe el segundo bloque desde abajo; la planta sigue enraizada y todo lo de arriba salta como objetos.",
+      "Automatízala: un observer vigilando el crecimiento superior dispara un piston que rompe el tallo, y las corrientes de agua llevan los objetos a un hopper.",
+      "Añade bone meal: un dispenser bajo la planta, disparado con un reloj, fuerza crecimiento constante; el kelp acepta bone meal, a diferencia de la sugar cane o el cactus.",
+      "Seca el kelp: furnaces o smokers convierten kelp en dried kelp; cómelo en un apuro, pero craftea 9 en bloques como combustible.",
+      "Cierra el bucle: los dried kelp blocks funden 20 objetos cada uno, así que la granja alimenta su propio secado con excedente para el resto de tus fundiciones.",
+      "Cosecha la XP del furnace a mano: saca el dried kelp manualmente y la XP almacenada fluye hacia ti."
+    ],
+    "rates": "Una única columna manual da unas pocas unidades de kelp por minuto; un módulo de observer-piston con bone meal produce stacks por hora y se autofinancia. Un dried kelp block funde 20 objetos: +11 netos tras el coste de secado.",
+    "tips": [
+      "Planta sobre cualquier bloque de cara superior completa excepto magma: el magma convierte la columna en un ascensor de burbujas que se traga el kelp.",
+      "Las campfires secan kelp gratis: lento, pero las primeras tandas cuestan cero combustible mientras el bucle arranca.",
+      "Mantén la granja en un spawn chunk o cerca de tu base: el kelp solo crece en chunks cargados, como todo cultivo.",
+      "Una columna de kelp en una corriente convierte agua que fluye en fuentes: el clásico truco barato del ascensor de burbujas, gratis con la granja."
+    ]
+  },
+  "cactus-farm": {
+    "produces": "Cactus para green dye y XP de fundición (1 de XP por fundición en Java, la mayor de cualquier bloque cultivable; 0,2 en Bedrock)",
+    "difficulty": "Principiante",
+    "quickAnswer": "El cactus crece sobre sand sin luz ni agua, y se rompe solo cuando un bloque se coloca a su lado: una fence a la altura correcta hace que cada segmento nuevo se coseche solo. Totalmente automático, sin bone meal (que ni siquiera funciona en cactus).",
+    "mechanics": [
+      "El cactus solo crece sobre sand, red sand, suspicious sand u otro cactus: sin luz, sin agua, sin bone meal. Añade un bloque cada 16 ticks aleatorios, unos 18 minutos de media, hasta 3 bloques de alto de forma natural.",
+      "La regla de la autocosecha: un cactus se rompe y cae como objeto en cuanto un bloque sólido ocupa un espacio a su lado; una fence, string o sign al tercer nivel rompe cada nuevo crecimiento al instante.",
+      "Ojo con los drops: un bloque de cactus destruye cualquier objeto que lo toca, incluidos los objetos de cactus; los hoppers de recolección deben estar donde los drops no rocen un cactus.",
+      "Fundir cactus da green dye y, en Java, 1 de XP por operación: la mayor XP de fundición de cualquier bloque cultivable. Las grandes baterías de furnaces alimentadas por granjas de cactus son bancos de XP clásicos: funde todo el día, vacía un furnace a mano y los niveles caen en cascada.",
+      "Las cactus flowers (10% de probabilidad a 1-2 bloques de alto, 25% a 3+) detienen el crecimiento del cactus hasta quitarlas; un cultivo extra, no un problema, en diseños que rompen el crecimiento de todos modos."
+    ],
+    "materials": [
+      "Sand o red sand, una por cactus",
+      "Cactus iniciales de cualquier desert o badlands",
+      "Fences, string, signs o trapdoors para la capa de rotura",
+      "Hoppers y cofres colocados fuera de las hitboxes de los cactus",
+      "Batería de furnaces + combustible para el banco de XP (opcional)"
+    ],
+    "steps": [
+      "Elige el diseño: filas de sand con cactus plantados a un bloque de distancia en diagonal (no pueden tocarse), en una cuadrícula tan densa como tu espacio permita.",
+      "Pon la capa de rotura: una línea de fences o string a la altura donde crecería el tercer bloque; cada segmento nuevo se rompe solo en el tick en que aparece.",
+      "Protege los drops: deja un hueco de aire completo entre el cactus y cualquier canal de agua o hopper; los objetos que tocan un cactus se destruyen.",
+      "Recoge abajo: hoppers bajo las filas de sand (o corrientes de agua que lleven a una) alimentan cofres.",
+      "Escala a lo ancho, no a lo alto: más plantas ganan a más altura; cada cactus llega a 3 bloques y solo crece con sus propios ticks aleatorios.",
+      "Alimenta el banco de XP: canaliza el cactus a una batería de furnaces con cualquier combustible, déjala funcionar y luego saca un stack a mano para cobrar la XP guardada.",
+      "Cosecha las flowers a mano si las quieres: el crecimiento roto por la granja nunca da tiempo a que la planta florezca.",
+      "Haz AFK en cualquier punto del rango: el cactus crece por ticks aleatorios en chunks cargados, sin necesidad de proximidad del jugador."
+    ],
+    "rates": "Cada cactus promedia un bloque nuevo cada ~18 minutos, así que las tasas escalan puramente con el número de plantas: unas docenas de plantas con batería de furnaces acumulan XP notable al día en Java, más stacks de green dye.",
+    "tips": [
+      "Nunca dejes que el agua de recolección toque el lado de un cactus: una corriente descuidada se come toda tu producción.",
+      "Jugadores de Java: el 1 de XP por fundición es una peculiaridad antigua que Mojang marcó como intencionada; disfrútala.",
+      "Los badlands también valen: la red sand funciona exactamente igual que la sand para plantar.",
+      "Un cactus junto a tu pared de cofres hace las veces de papelera: tírale la basura y los objetos se destruyen sin riesgo."
+    ]
+  },
+  "chorus-fruit-farm": {
+    "produces": "Chorus fruit (0-1 por bloque de planta) para comida y purpur blocks, más chorus flowers para replantar",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Las chorus plants crecen de chorus flowers plantadas en end stone, en cualquier dimensión y con cualquier luz. Cosecha el fruto cortando el tronco (todo lo de arriba se rompe), dispara a las flowers con arrows para replantar y vuelve a plantarlas para reiniciar su edad.",
+    "mechanics": [
+      "Las chorus flowers solo se plantan en end stone, pero crecen en cualquier dimensión y con cualquier luz: una granja de chorus en el Overworld junto a tu base funciona exactamente igual que una del End.",
+      "Cada flower envejece al crecer y se detiene a la edad 5 (volviéndose púrpura); cosecharla y replantarla reinicia la edad, así que las mismas flowers sirven para siempre.",
+      "Romper cualquier bloque de chorus plant rompe todo lo que hay encima: un hachazo al tronco derriba el árbol entero, y cada bloque de planta da 0-1 chorus fruit (Fortune no lo mejora).",
+      "Las flowers son el truco: solo se sueltan a sí mismas si se rompen directamente, con un proyectil o con una explosión; si rompes la planta que las sostiene, desaparecen sin dejar nada. Las arrows son la herramienta clásica de cosecha.",
+      "La chorus fruit te teletransporta unos bloques al comerla (como un enderman), comida de emergencia útil, y se funde en popped chorus fruit, la receta de los purpur blocks y las end rods."
+    ],
+    "materials": [
+      "End stone (un bloque por flower)",
+      "Chorus flowers de las islas exteriores del End",
+      "Un hacha para los troncos y un bow con arrows para las flowers",
+      "Torches opcionales: la luz no importa",
+      "Furnace si quieres producción de purpur"
+    ],
+    "steps": [
+      "Cosecha las iniciales en el End: haz un puente a las islas exteriores tras el dragón y dispara a las flowers blancas de las copas; las arrows las sueltan como objetos, romper primero el tronco las destruye.",
+      "Planta en casa: filas de end stone con una flower en cada una, separadas 3-4 bloques para que las copas ramificadas no se enreden.",
+      "Déjalas crecer: las flowers ramifican hacia arriba y afuera hasta la edad 4 y terminan a la 5; las plantas más altas y frondosas dan más fruta por cosecha.",
+      "Cosecha el fruto: corta el bloque más bajo de la planta con un hacha; la planta entera colapsa, dando 0-1 fruta por bloque.",
+      "Cosecha las flowers por separado: dispara o rompe cada flower directamente antes o después de talar la planta, o se desvanecen.",
+      "Replanta de inmediato: cada flower vuelve a su end stone con la edad reiniciada, lista para el siguiente ciclo.",
+      "Espera al tamaño completo para mejores tasas: las plantas jóvenes dan unas pocas frutas; los árboles maduros de edad 5 dan docenas.",
+      "Procesa el excedente: cómelo para el teletransporte, o fúndelo en popped chorus fruit y craftea purpur blocks y end rods para construir."
+    ],
+    "rates": "Una cuadrícula madura de 20-30 plantas adultas da varios stacks de chorus fruit por ciclo de cosecha; las plantas vuelven a crecer de las flowers replantadas en unos pocos días del juego, y las flowers duran para siempre.",
+    "tips": [
+      "Lleva siempre un bow en el End: las flowers destruidas con su bloque de soporte no sueltan nada, y cada flower perdida es un árbol perdido.",
+      "Las flowers púrpuras han terminado de crecer: cosecha esas plantas primero; las blancas aún están trabajando.",
+      "Planta en el Overworld para ahorrarte el viaje al End: la end stone es el único requisito.",
+      "No te pongas en una esquina al comer chorus fruit: el teletransporte aleatorio puede encajarte dentro de un muro."
+    ]
   }
 }

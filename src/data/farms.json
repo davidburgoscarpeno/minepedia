@@ -543,5 +543,126 @@
       "An Efficiency V diamond axe plus Haste from a beacon insta-mines logs - the single biggest quality-of-life upgrade for wood farming."
     ],
     "keywords": "tree farm minecraft, wood farm minecraft, dark oak tree farm, how to grow dark oak minecraft, minecraft tree farming guide"
+  },
+  {
+    "slug": "kelp-farm",
+    "name": "Kelp Farm",
+    "produces": "Kelp for smelting into dried kelp - food, and dried kelp blocks that smelt 20 items each",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Kelp grows underwater in any ocean except warm and frozen ones. Plant it in a column of water, let it grow and break the second block from the bottom - the whole stalk above drops as items. Bone meal speeds it up, and smelted kelp becomes fuel that smelts other kelp.",
+    "mechanics": [
+      "Kelp only grows underwater, planted on a block with a full top face (not magma) in a water source or downward-flowing water - and it lives in every ocean biome except warm, frozen and deep frozen oceans.",
+      "Each kelp plant has a hidden age (0-24, check with F3 in Java): every new block of growth adds 1, and at age 25 it stops - so natural stalks top out between 2 and 26 blocks tall.",
+      "The farmer's trick: breaking any kelp block re-randomizes the age of the block below it, so stalks keep regrowing - and breaking the second block from the bottom drops the entire upper stalk as items at once.",
+      "Bone meal works on kelp - a dispenser with bone meal under each plant turns a slow natural farm into a fast one.",
+      "Fuel math: 9 dried kelp craft into a dried kelp block, which smelts 20 items (2.5x coal per item slot). Net gain is 11 smelts per block after the kelp you burned to dry it - use lava buckets or campfires for the first drying and the loop is pure profit.",
+      "Smelting kelp also gives XP - a kelp farm feeding furnaces doubles as a quiet, safe XP bank when you empty the furnaces by hand."
+    ],
+    "materials": [
+      "A few kelp from any cold or lukewarm ocean",
+      "Building blocks for the water column (glass to watch it grow)",
+      "Water buckets",
+      "Dispensers + bone meal + observers for the automatic version",
+      "Furnaces or smokers, and hoppers with chests"
+    ],
+    "steps": [
+      "Gather starter kelp: dive any ocean that is not warm or frozen - kelp breaks instantly by hand and the whole stalk above the break drops.",
+      "Build the column: a vertical water tube over a solid base block, one kelp planted at the bottom per column.",
+      "Harvest smart: break the second block from the bottom - the plant stays rooted and everything above pops off as items.",
+      "Automate it: an observer watching the top growth fires a piston that breaks the stalk, and water currents carry items to a hopper.",
+      "Add bone meal: a dispenser under the plant, triggered on a clock, forces constant growth - kelp accepts bone meal, unlike sugar cane or cactus.",
+      "Dry the kelp: furnaces or smokers turn kelp into dried kelp - eat it in a pinch, but craft 9 into blocks for fuel.",
+      "Close the loop: dried kelp blocks smelt 20 items each, so the farm fuels its own drying with plenty left over for your other smelting.",
+      "Harvest furnace XP by hand: pull the dried kelp out manually and the stored smelting XP flows to you."
+    ],
+    "rates": "A single manual column yields a few kelp per minute; an observer-piston module with bone meal produces stacks per hour and fuels itself. One dried kelp block smelts 20 items - net +11 after drying costs.",
+    "tips": [
+      "Plant on any full-top-face block except magma - magma turns the water column into a bubble elevator that sucks the kelp down.",
+      "Campfires dry kelp for free - slow, but the first batches cost zero fuel while the loop spins up.",
+      "Keep the farm in a spawn chunk or near your base: kelp only grows in loaded chunks like every crop.",
+      "A kelp column in a water stream converts flowing water into sources - the classic cheap bubble-elevator trick, free with the farm."
+    ],
+    "keywords": "kelp farm minecraft, dried kelp block fuel minecraft, automatic kelp farm tutorial, minecraft kelp xp farm, how to grow kelp minecraft"
+  },
+  {
+    "slug": "cactus-farm",
+    "name": "Cactus Farm",
+    "produces": "Cactus for green dye and smelting XP (1 XP per smelt in Java, the highest of any farmable block; 0.2 in Bedrock)",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Cactus grows on sand with zero light and zero water, and it breaks itself when a block sits next to it - so a fence post at the right height makes every new segment harvest itself. Fully automatic, no bone meal needed (bone meal does not even work on cactus).",
+    "mechanics": [
+      "Cactus grows only on sand, red sand, suspicious sand or another cactus - no light, no water, no bone meal. It adds one block every 16 random ticks, about 18 minutes on average, up to 3 blocks tall naturally.",
+      "The self-harvest rule: a cactus breaks and drops as an item the moment any solid block occupies a space beside it - a fence, string or sign at the third level breaks every new growth instantly.",
+      "Watch the drops: a cactus block destroys any item entity that touches it, including cactus items - collection hoppers must sit where drops cannot brush a cactus.",
+      "Smelting cactus gives green dye and, in Java, 1 XP per operation - the highest smelting XP of any farmable block. Big furnace arrays fed by cactus farms are classic XP banks: smelt all day, empty one furnace by hand, and levels pour out.",
+      "Cactus flowers (10% chance at 1-2 blocks tall, 25% at 3+) stop the cactus growing until removed - a bonus crop, not a problem, in automated designs that break growth anyway."
+    ],
+    "materials": [
+      "Sand or red sand, one per cactus",
+      "Cactus starters from any desert or badlands",
+      "Fences, string, signs or trapdoors for the break layer",
+      "Hoppers and chests placed clear of the cactus hitboxes",
+      "Furnace array + fuel for the XP bank (optional)"
+    ],
+    "steps": [
+      "Pick the layout: rows of sand with cactus planted one block apart diagonally (they cannot touch), in a grid as dense as your space allows.",
+      "Set the break layer: a fence or string line at the height where the third block would grow - every new segment breaks itself the tick it appears.",
+      "Protect the drops: leave a full air gap between the cactus and any water channel or hopper - items that touch a cactus are destroyed.",
+      "Collect below: hoppers under the sand rows (or water streams leading to one) feed chests.",
+      "Scale wide, not tall: more plants beat more height - each cactus tops out at 3 blocks and only grows on its own random ticks.",
+      "Feed the XP bank: pipe cactus into a furnace array with any fuel, let it run, then pull a stack out by hand to cash the stored XP.",
+      "Harvest flowers by hand if you want them - the farm's broken growth never gives the plant time to flower anyway.",
+      "Go AFK anywhere in range: cactus grows on random ticks in loaded chunks, no player proximity required."
+    ],
+    "rates": "Each cactus averages one new block every ~18 minutes, so rates scale purely with plant count - a few dozen plants with a furnace array bank noticeable XP per day in Java, plus stacks of green dye.",
+    "tips": [
+      "Never let collection water touch a cactus side - one sloppy stream eats your entire output.",
+      "Java players: the 1 XP per smelt is a long-standing quirk Mojang marked as intended - enjoy it.",
+      "Badlands count too: red sand works exactly like sand for planting.",
+      "A cactus by your storage wall doubles as a trash can - throw junk at it and the items are destroyed safely."
+    ],
+    "keywords": "cactus farm minecraft, cactus xp farm minecraft, automatic cactus farm tutorial, green dye farm minecraft, minecraft cactus smelting xp"
+  },
+  {
+    "slug": "chorus-fruit-farm",
+    "name": "Chorus Fruit Farm",
+    "produces": "Chorus fruit (0-1 per plant block) for food and purpur blocks, plus chorus flowers to replant",
+    "difficulty": "Intermediate",
+    "editions": "both",
+    "quickAnswer": "Chorus plants grow from chorus flowers planted on end stone - in any dimension, at any light level. Harvest the fruit by chopping the trunk (everything above breaks), shoot the flowers down with arrows to replant, and re-plant to reset their age.",
+    "mechanics": [
+      "Chorus flowers plant only on end stone, but grow in any dimension and any light - an Overworld chorus farm beside your base works exactly like an End one.",
+      "Each flower ages as it grows and stops at age 5 (turning purple); harvesting and replanting the flower resets the age, so the same flowers serve forever.",
+      "Breaking any chorus plant block breaks everything above it - one axe swing at the trunk brings the whole tree down, each plant block rolling 0-1 chorus fruit (Fortune does not improve it).",
+      "The flowers are the catch: they drop themselves only when broken directly, shot with a projectile or blown up - if you break the supporting plant under them, they pop into nothing. Arrows are the classic harvest tool.",
+      "Chorus fruit teleports you a few blocks when eaten (like an enderman) - handy panic food - and smelts into popped chorus fruit, the recipe for purpur blocks and end rods."
+    ],
+    "materials": [
+      "End stone (one block per flower)",
+      "Chorus flowers from the outer End islands",
+      "An axe for the trunks and a bow with arrows for the flowers",
+      "Torches optional - light does not matter",
+      "Furnace if you want purpur production"
+    ],
+    "steps": [
+      "Harvest starters in the End: bridge to the outer islands after the dragon fight and shoot the white flowers off the treetops - arrows drop them as items; breaking the trunk first destroys them.",
+      "Plant at home: end stone rows with a flower on each, spaced 3-4 blocks apart so the branching canopies do not tangle.",
+      "Let them grow: flowers branch upward and outward through age 4, then finish at age 5 - taller, bushier plants mean more fruit per harvest.",
+      "Harvest the fruit: chop the lowest plant block with an axe - the entire plant collapses, dropping 0-1 fruit per block.",
+      "Harvest the flowers separately: shoot or break each flower directly before or after felling the plant, or they vanish.",
+      "Replant immediately: each flower goes back on end stone with its age reset, ready for the next cycle.",
+      "Wait for full size for best rates: young plants give a few fruit; mature age-5 trees give dozens.",
+      "Process the surplus: eat it for the teleport, or smelt it into popped chorus fruit and craft purpur blocks and end rods for building."
+    ],
+    "rates": "A mature grid of 20-30 fully grown plants yields several stacks of chorus fruit per harvest cycle; plants regrow from replanted flowers in a few in-game days, and the flowers last forever.",
+    "tips": [
+      "Always carry a bow in the End: flowers destroyed with their support block drop nothing, and every lost flower is a lost tree.",
+      "Purple flowers are done growing - harvest those plants first; white flowers are still working.",
+      "Plant in the Overworld to skip the End commute entirely - end stone is the only requirement.",
+      "Do not stand in a corner when you eat chorus fruit: the random teleport can wedge you into a wall."
+    ],
+    "keywords": "chorus fruit farm minecraft, chorus flower farm minecraft, how to grow chorus fruit minecraft, purpur block farm minecraft, minecraft chorus plant guide"
   }
 ]
