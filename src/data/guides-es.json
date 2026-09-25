@@ -11611,5 +11611,119 @@
    }
   ],
   "keywords": "jukebox minecraft, receta jukebox minecraft, music discs minecraft, cómo duplicar allay, parrot bailando minecraft"
+ },
+ "how-to-make-observer": {
+  "slug": "how-to-make-observer",
+  "name": "Cómo hacer un observer en Minecraft",
+  "shortTitle": "Hacer un observer",
+  "quickAnswer": "Craftea un observer con 6 cobblestone, 2 redstone dust y 1 nether quartz. Su cara vigila el bloque de enfrente y el lado del punto rojo emite un pulso de redstone cada vez que ese bloque cambia: el corazón de toda granja automática.",
+  "steps": [
+   "Consigue 6 cobblestone, 2 redstone dust y 1 nether quartz (mina el quartz ore en el Nether).",
+   "Craftea el observer: cobblestone llenando las filas superior e inferior, redstone dust en el centro-izquierda y centro, y nether quartz en el centro-derecha.",
+   "Apúntalo: la cara de los ojos mira hacia el lado contrario a ti al colocarlo, vigilando el bloque frontal; el punto rojo (salida) mira hacia ti.",
+   "Detecta cambios: cuando el bloque vigilado se actualiza (crops creciendo, agua fluyendo, un furnace terminando, un chest abriéndose), el observer emite un pulso.",
+   "Usa el pulso: en Java es un pulso fuerte de potencia 15 que dura 2 game ticks (1 redstone tick); en Bedrock se alinea a los redstone ticks. Cablea el lado del punto a pistons, lámparas o note blocks.",
+   "Monta un reloj: coloca dos observers mirándose: cada uno detecta el pulso del otro y disparan sin parar hasta romperlos. Este observer clock mueve la mayoría de las granjas.",
+   "Encadena flying machines: los observers también pulsan cuando un piston los mueve, que es lo que hace posibles las flying machines autopropulsadas.",
+   "Esconde una trampa: un observer vigilando un chest o una puerta dispara cuando un jugador la usa: el clásico disparador de alarmas y trampas."
+  ],
+  "materials": [
+   "Cobblestone x6",
+   "Redstone dust x2",
+   "Nether quartz x1",
+   "Crafting table"
+  ],
+  "editionNote": "La receta y la detección funcionan igual en Java y Bedrock, pero el pulso cambia: Java emite un pulso de 2 game ticks (1 redstone tick) y Bedrock lo alinea a los redstone ticks, detectando solo en game ticks impares. Los mecanismos sensibles al tiempo suelen comportarse distinto entre ediciones.",
+  "versions": "Añadido en Java 1.11 (16w39a); llegó a Bedrock con la 0.15.0: Bedrock de hecho tuvo observers primero. Desde entonces es el bloque más usado del redstone de granjas.",
+  "faq": [
+   {
+    "q": "¿Cómo funciona un observer en Minecraft?",
+    "a": "La cara vigila el bloque que tiene justo delante. Cuando ese bloque cambia de estado de casi cualquier forma, el lado del punto rojo emite un pulso corto de redstone. Crops creciendo, agua apareciendo, un piston extendiéndose o un chest abriéndose lo disparan."
+   },
+   {
+    "q": "¿Por qué no funciona mi observer clock?",
+    "a": "Los dos observers deben mirarse cara a cara. Si un mecanismo funciona en una edición y no en otra, casi siempre es el pulso: Java dura 1 redstone tick y Bedrock lo alinea a su propio calendario de ticks."
+   },
+   {
+    "q": "¿Para qué sirve un observer en Minecraft?",
+    "a": "Granjas automáticas (sugar cane, bamboo, pumpkins), flying machines, puertas ocultas, trampas, contadores de objetos y relojes compactos. Casi todo mecanismo de redstone más allá del nivel inicial lleva al menos uno."
+   }
+  ],
+  "keywords": "observer minecraft, receta observer minecraft, cómo usar observer minecraft, observer clock minecraft, granjas automáticas minecraft"
+ },
+ "how-to-make-dropper": {
+  "slug": "how-to-make-dropper",
+  "name": "Cómo hacer un dropper en Minecraft",
+  "shortTitle": "Hacer un dropper",
+  "quickAnswer": "Craftea un dropper con 7 cobblestone y 1 redstone dust. Dale un pulso de redstone y expulsa un objeto aleatorio de sus 9 huecos: al mundo, o directo a un contenedor al que mire. La espina dorsal del transporte de objetos.",
+  "steps": [
+   "Consigue 7 cobblestone y 1 redstone dust.",
+   "Craftea el dropper: cobblestone llenando todos los huecos menos el central y el centro inferior: el redstone dust va en el hueco central inferior.",
+   "Apúntalo: la salida del dropper mira hacia ti al colocarlo, y puede apuntar a cualquier dirección, incluso arriba o abajo del todo.",
+   "Cárgalo: un dropper tiene 9 huecos de inventario. Ábrelo con clic derecho, o llénalo y vacíalo automáticamente con hoppers.",
+   "Dispáralo: en cada activación de redstone (el flanco de subida de la señal) el dropper expulsa un objeto, elegido al azar entre sus huecos ocupados.",
+   "Lanza o transfiere: mirando al aire, el objeto sale como drop coleccionable; mirando a un chest, hopper, barrel, furnace u otro dropper, el objeto pasa directo a ese contenedor.",
+   "Encadena líneas de objetos: droppers apuntando a droppers mueven objetos hacia arriba u horizontalmente: un droppervator es el clásico ascensor rápido de objetos.",
+   "Pícalo bien: rompe un dropper con cualquier pickaxe y suelta el bloque más su contenido; sin pickaxe solo recuperas el contenido."
+  ],
+  "materials": [
+   "Cobblestone x7",
+   "Redstone dust x1",
+   "Crafting table"
+  ],
+  "editionNote": "La receta y el comportamiento son casi idénticos en Java y Bedrock. Una peculiaridad de Java: los pistons no pueden mover droppers en Java Edition, y Bedrock sí lo permite.",
+  "versions": "Añadido en la 1.5 (13w03a) junto a los hoppers en la Redstone Update: la pareja que hizo posible el manejo de objetos totalmente automático.",
+  "faq": [
+   {
+    "q": "¿Qué diferencia hay entre un dropper y un dispenser?",
+    "a": "Un dispenser USA el objeto: dispara flechas, coloca cubos de agua, equipa armadura, enciende TNT. Un dropper simplemente expulsa el objeto como drop o lo mete en un contenedor. Para transporte quieres un dropper; para efectos, un dispenser."
+   },
+   {
+    "q": "¿Cómo hacer que los objetos suban en Minecraft?",
+    "a": "Encadena droppers apuntando hacia arriba unos a otros (un droppervator) y púlsalos con un reloj de redstone: cada activación sube un objeto por la cadena. Los hoppers no pueden empujar objetos hacia arriba, así que los droppers son la solución estándar."
+   },
+   {
+    "q": "¿El dropper expulsa objetos al azar?",
+    "a": "Sí: cada activación elige un hueco ocupado al azar y expulsa un objeto de él. Para vaciarlo rápido, usa un reloj de redstone en vez de pulsos sueltos."
+   }
+  ],
+  "keywords": "dropper minecraft, receta dropper minecraft, dropper o dispenser minecraft, ascensor de objetos minecraft, cómo usar dropper"
+ },
+ "how-to-make-slime-block": {
+  "slug": "how-to-make-slime-block",
+  "name": "Cómo hacer un slime block en Minecraft",
+  "shortTitle": "Hacer un slime block",
+  "quickAnswer": "Craftea un slime block con 9 slimeballs llenando la cuadrícula. Te hace rebotar (sin daño por caída), arrastra bloques cuando un piston lo empuja, nunca se pega a los honey blocks y se descraftea a 9 slimeballs cuando las necesites.",
+  "steps": [
+   "Consigue 9 slimeballs: mata slimes en swamps de noche o en slime chunks por debajo de Y=40, comercia con wandering traders, o recógelas de los estornudos de los pandas bebé.",
+   "Craftea el slime block: slimeballs llenando los 9 huecos de la mesa de crafteo.",
+   "Rebota seguro: caer sobre un slime block no hace daño y te devuelve hacia arriba: una caída de 255 bloques rebota unos 50. Mantén agacharte para aterrizar sin rebotar (sigues sin daño).",
+   "Mueve construcciones con pistons: un piston que empuja un slime block arrastra todos los bloques movibles adyacentes: la base de flying machines, ascensores y puertas. Los slime blocks nunca se pegan a los honey blocks, así que juntos permiten máquinas compactas.",
+   "Cuidado al caminar: andar sobre slime es lento y algo resbaladizo, aunque menos que el hielo.",
+   "Prepara pociones: los slime blocks sirven para las potions of Oozing (1.21), que hacen aparecer slimes al morir los mobs.",
+   "Almacén compacto: un slime block guarda 9 slimeballs y se descraftea de vuelta a 9 slimeballs en la cuadrícula: el almacenamiento perfecto de slime.",
+   "Rómpelo al instante: los slime blocks se rompen al instante con cualquier herramienta o a mano, incluso bajo Mining Fatigue."
+  ],
+  "materials": [
+   "Slimeball x9",
+   "Crafting table"
+  ],
+  "editionNote": "La receta, el rebote y el comportamiento con pistons son iguales en Java y Bedrock. La preparación de potions of Oozing con slime blocks funciona en ambas ediciones desde la 1.21.",
+  "versions": "Añadido en la 1.8 (14w02a) como el bloque de almacenamiento rebote de la Bountiful Update. La preparación de potions of Oozing llegó en la 1.21.",
+  "faq": [
+   {
+    "q": "¿Cómo conseguir slimeballs en Minecraft?",
+    "a": "Mata slimes: aparecen en swamps de noche (más con luna llena) y en slime chunks especiales por debajo de Y=40. Los wandering traders a veces venden slimeballs, y los pandas bebé sueltan una al estornudar."
+   },
+   {
+    "q": "¿Los slime blocks evitan el daño por caída?",
+    "a": "Sí: aterrizar sobre un slime block cancela todo el daño por caída y te hace rebotar. Mantén agacharte al aterrizar para no rebotar; sigues sin recibir daño."
+   },
+   {
+    "q": "¿Qué diferencia hay entre slime blocks y honey blocks?",
+    "a": "Ambos arrastran bloques al moverlos con pistons, pero nunca se pegan entre sí: así, slime y honey lado a lado permiten mover dos grupos de forma independiente. El slime hace rebotar y evita daño por caída; el honey frena a las entidades y permite deslizarse por paredes."
+   }
+  ],
+  "keywords": "slime block minecraft, receta slime block minecraft, cómo rebotar minecraft, flying machine slime block, slimeballs minecraft"
  }
 }

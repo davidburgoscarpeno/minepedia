@@ -12355,5 +12355,155 @@
     "href": "/structures/ancient-city/"
    }
   ]
+ },
+ {
+  "slug": "how-to-make-observer",
+  "name": "How to Make an Observer in Minecraft",
+  "shortTitle": "Make an Observer",
+  "quickAnswer": "Craft an observer with 6 cobblestone, 2 redstone dust and 1 nether quartz. Its face watches the block in front and the red dot side fires a redstone pulse whenever that block changes - the heart of every automatic farm.",
+  "steps": [
+   "Gather 6 cobblestone, 2 redstone dust and 1 nether quartz (mine quartz ore in the Nether).",
+   "Craft the observer: cobblestone filling the top and bottom rows, redstone dust in the middle-left and middle-center, nether quartz in the middle-right.",
+   "Aim it: the face with the eyes points away from you when placed, watching the block in front; the red dot (output) faces toward you.",
+   "Detect changes: whenever the watched block updates - crops growing, water flowing, a furnace finishing, a chest opening - the observer emits a pulse.",
+   "Use the pulse: in Java it is a strong 15-strength pulse lasting 2 game ticks (1 redstone tick); in Bedrock it aligns to redstone ticks. Wire the dot side to pistons, lamps or note blocks.",
+   "Build a clock: place two observers facing each other - each detects the other's pulse and they fire forever until broken. This observer clock runs most farms.",
+   "Chain flying machines: observers also pulse when a piston moves them, which is what makes self-propelling flying machines possible.",
+   "Hide a trap: an observer watching a chest or door fires when a player uses it - the classic alarm and trap trigger."
+  ],
+  "materials": [
+   "Cobblestone x6",
+   "Redstone dust x2",
+   "Nether quartz x1",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe and detection work the same in Java and Bedrock, but pulse timing differs: Java emits a 2-game-tick (1 redstone tick) pulse, while Bedrock aligns to redstone ticks and detects updates only on odd game ticks. Timing-sensitive contraptions often behave differently between editions.",
+  "versions": "Added in Java 1.11 (16w39a), arriving in Bedrock with 0.15.0 - Bedrock actually got observers first. Since then it has become the most-used block in redstone farming.",
+  "faq": [
+   {
+    "q": "How does an observer work in Minecraft?",
+    "a": "The face side watches the single block directly in front of it. When that block's state changes in almost any way, the red dot side emits one short redstone pulse. Crops growing a stage, water appearing, a piston extending or a chest opening all trigger it."
+   },
+   {
+    "q": "Why is my observer clock not working?",
+    "a": "The two observers must face each other - eye side to eye side. If a contraption works in one edition but not the other, it is usually the pulse timing: Java pulses last 1 redstone tick and Bedrock aligns them to its own tick schedule."
+   },
+   {
+    "q": "What is an observer used for in Minecraft?",
+    "a": "Automatic farms (sugar cane, bamboo, pumpkins), flying machines, hidden doors, traps, item counters and compact clocks. Almost every redstone build past beginner level includes at least one."
+   }
+  ],
+  "keywords": "observer minecraft, observer recipe minecraft, how to use observer minecraft, minecraft observer clock, observer farm minecraft",
+  "relatedGuides": [
+   "how-to-get-quartz",
+   "how-to-get-redstone",
+   "how-to-make-dropper",
+   "how-to-make-sticky-piston"
+  ],
+  "relatedLinks": [
+   {
+    "label": "The Nether",
+    "href": "/biomes/nether-wastes/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-dropper",
+  "name": "How to Make a Dropper in Minecraft",
+  "shortTitle": "Make a Dropper",
+  "quickAnswer": "Craft a dropper with 7 cobblestone and 1 redstone dust. Give it a redstone pulse and it ejects one random item from its 9 slots - into the world, or straight into a container it faces. The backbone of item transport.",
+  "steps": [
+   "Gather 7 cobblestone and 1 redstone dust.",
+   "Craft the dropper: cobblestone filling every slot except the center and bottom-center - redstone dust goes in the bottom-center slot.",
+   "Aim it: the dropper's output faces toward you when placed, and it can point any direction, including straight up or down.",
+   "Load it: a dropper has 9 inventory slots. Open it with right-click, or fill and empty it automatically with hoppers.",
+   "Trigger it: on each redstone activation (the rising edge of the signal) the dropper ejects one item, chosen at random from its occupied slots.",
+   "Shoot or transfer: facing open air, the item is tossed out as a dropped item; facing a chest, hopper, barrel, furnace or another dropper, the item moves straight into that container.",
+   "Chain item lines: droppers pointing into droppers move items upward or horizontally - a droppervator is the classic fast item elevator.",
+   "Mine it right: break a dropper with any pickaxe and it drops itself plus its contents; without a pickaxe you only get the contents."
+  ],
+  "materials": [
+   "Cobblestone x7",
+   "Redstone dust x1",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe and behavior are nearly identical in Java and Bedrock. One Java quirk: pistons cannot move droppers in Java Edition, while Bedrock allows it.",
+  "versions": "Added in 1.5 (13w03a) alongside hoppers in the Redstone Update - the pair that made fully automatic item handling possible.",
+  "faq": [
+   {
+    "q": "What is the difference between a dropper and a dispenser?",
+    "a": "A dispenser USES the item - shooting arrows, placing water buckets, equipping armor, igniting TNT. A dropper simply ejects the item as a collectible drop or inserts it into a container. For item transport you want a dropper; for effects you want a dispenser."
+   },
+   {
+    "q": "How do you make items go up in Minecraft?",
+    "a": "Chain droppers pointing into each other upward (a droppervator) and pulse them with a redstone clock - each activation passes one item up the chain. Hoppers cannot push items upward, so droppers are the standard solution."
+   },
+   {
+    "q": "Does a dropper eject items randomly?",
+    "a": "Yes: each activation picks one random occupied slot and ejects one item from it. To empty a dropper quickly, run it with a redstone clock instead of single pulses."
+   }
+  ],
+  "keywords": "dropper minecraft, dropper recipe minecraft, dropper vs dispenser minecraft, minecraft item elevator, how to use dropper minecraft",
+  "relatedGuides": [
+   "how-to-make-dispenser",
+   "how-to-make-hopper",
+   "how-to-get-redstone",
+   "how-to-make-observer"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Caves",
+    "href": "/biomes/dripstone-caves/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-slime-block",
+  "name": "How to Make a Slime Block in Minecraft",
+  "shortTitle": "Make a Slime Block",
+  "quickAnswer": "Craft a slime block with 9 slimeballs filling the grid. It bounces you (no fall damage), sticks to blocks when pistons push it, never sticks to honey blocks, and uncrafts back into 9 slimeballs whenever you need them.",
+  "steps": [
+   "Collect 9 slimeballs: kill slimes in swamps at night or in slime chunks below Y=40, trade with wandering traders, or get them from sneezing baby pandas.",
+   "Craft the slime block: slimeballs filling all 9 crafting slots.",
+   "Bounce safely: falling onto a slime block deals zero fall damage and bounces you back up - a 255-block fall rebounds about 50 blocks. Hold sneak to land without bouncing (still no damage).",
+   "Move builds with pistons: a piston pushing a slime block drags every adjacent movable block along - the core of flying machines, elevators and doors. Slime blocks never stick to honey blocks, so the two combine for compact machines.",
+   "Watch your step: walking on slime is slow and slightly slippery, though less slippery than ice.",
+   "Brew with it: slime blocks are an ingredient for potions of Oozing (1.21), which make mobs spawn slimes on death.",
+   "Store compactly: one slime block holds 9 slimeballs and uncrafts back into 9 slimeballs in the grid - the perfect compact slime storage.",
+   "Break it instantly: slime blocks break instantly with any tool or bare hands, even under Mining Fatigue."
+  ],
+  "materials": [
+   "Slimeball x9",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe, bouncing and piston behavior are the same in Java and Bedrock. Potion of Oozing brewing with slime blocks works in both editions from 1.21 onward.",
+  "versions": "Added in 1.8 (14w02a) as the Bountiful Update's bouncy storage block. Potion of Oozing brewing arrived in 1.21.",
+  "faq": [
+   {
+    "q": "How do you get slimeballs in Minecraft?",
+    "a": "Kill slimes: they spawn in swamps at night (more during full moons) and in special slime chunks below Y=40. Wandering traders sometimes sell slimeballs, and baby pandas drop one when they sneeze."
+   },
+   {
+    "q": "Do slime blocks prevent fall damage?",
+    "a": "Yes - landing on a slime block cancels all fall damage and bounces you back up. Hold sneak while landing to stop the bounce; you still take no damage."
+   },
+   {
+    "q": "What is the difference between slime blocks and honey blocks?",
+    "a": "Both stick to blocks when moved by pistons, but they never stick to each other - so side-by-side slime and honey let one machine move two groups independently. Slime bounces entities and prevents fall damage; honey slows entities and lets you slide down walls."
+   }
+  ],
+  "keywords": "slime block minecraft, slime block recipe minecraft, how to bounce minecraft, slime block flying machine, minecraft slimeballs",
+  "relatedGuides": [
+   "how-to-get-slimeballs",
+   "how-to-find-slimes",
+   "how-to-make-sticky-piston",
+   "how-to-get-honey"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Swamp",
+    "href": "/biomes/swamp/"
+   }
+  ]
  }
 ]
