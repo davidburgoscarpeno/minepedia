@@ -1434,5 +1434,110 @@
    "En las versiones nuevas de este mundo, las straw beds cuentan como beds para el reloj del insomnio: cualquier bed lo reinicia.",
    "Las membranes son el único material de reparación de elytras que queda en supervivencia desde que las reparaciones con phantom sustituyeron al leather en el anvil."
   ]
+ },
+ "piglin-bartering-farm": {
+  "produces": "Ender pearls, obsidian, crying obsidian, quartz, string, potions of Fire Resistance y libros de Soul Speed, a cambio de gold",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Suelta gold ingots a un piglin adulto y te devuelve botín tras unos 6 segundos: ender pearls al ~2,1% (2-4 por acierto), obsidian y crying obsidian al ~8,5% cada una. Combínalo con una gold farm y un corral de piglins para bucles de barter infinitos.",
+  "mechanics": [
+   "Solo los piglins adultos comercian: los bebés se embolsan el ingot y corren. Examinan cada ingot durante 6 segundos en Java (8 en Bedrock) y luego tiran un ítem de la tabla.",
+   "Los platos fuertes: ender pearls 2-4 al ~2,13% (~16 ingots por pearl), quartz 5-12 al ~4,26%, string 3-9 al ~4,26%, obsidian 1 al ~8,53%, crying obsidian 1-3 al ~8,53%, potions de Fire Resistance y libros/botas de Soul Speed al 1-1,7%.",
+   "El bartering es la única fuente renovable de nether quartz, crying obsidian, soul sand, blackstone, gravel, nether brick y Soul Speed: esta granja sustituye a otras cuatro.",
+   "Los piglins recogen ingots de dispensers y droppers: la automatización es una gold farm alimentando una línea de dispensers sobre un corral de piglins, con hoppers atrapando el botín.",
+   "Lleva una pieza de armadura de gold cerca del corral o los trabajadores se amotinan (con swords).",
+   "Un piglin que acaba de ofrecer las iron boots de Soul Speed puede equipárselas: ofrécele unas golden boots para que suelte el premio."
+  ],
+  "materials": [
+   "Piglins adultos (atraídos de un crimson forest o nether wastes con gold; pónselos name tag para que no desaparezcan)",
+   "Gold ingots: idealmente una gold farm de zombie piglins río arriba",
+   "Dispensers o droppers, un reloj, hoppers y chests",
+   "Un golden helmet o boots para ti",
+   "Bloques de construcción que el Nether no pueda quemar"
+  ],
+  "steps": [
+   "Atrapa 2-4 piglins adultos en un corral pequeño con suelo de hoppers; pónselos name tag para que nunca desaparezcan.",
+   "Aliméntalos a mano primero para coger el ritmo: suelta, espera ~6 segundos, recoge el botín.",
+   "Automatiza la alimentación: dispensers con un reloj lento soltando ingots delante de los piglins.",
+   "Conecta una gold farm (la clásica granja de zombified piglins en el techo del Nether) a la línea de dispensers.",
+   "Recoge de los hoppers y ordena: pearls y libros de Soul Speed a la caja fuerte, gravel y blackstone al chest de bultos.",
+   "Lleva siempre una pieza de gold encima cuando trabajes la granja."
+  ],
+  "rates": "Cada piglin procesa un ingot cada ~6-8 segundos; un equipo de 4 piglins alimentado por una gold farm da de media unas 15-25 ender pearls y un par de stacks de obsidian por hora, más todo lo demás de la tabla.",
+  "tips": [
+   "Esta es la fuente renovable de quartz y crying obsidian: constructores, tomad nota.",
+   "Los dried ghasts ahora también salen del bartering: el inicio de tu establo de happy ghasts.",
+   "No dejes que el corral toque un bastion: los piglin brutes no comercian y nunca se calman.",
+   "Clasifica el string: 3-9 por trueque alimentan tu suministro de wool y bows en silencio."
+  ]
+ },
+ "hoglin-farm": {
+  "produces": "Raw o cooked porkchops y leather: la respuesta del Nether a la granja de cows",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Los hoglins crían con crimson fungi y sueltan 2-4 porkchops cada uno. Encierra una manada en un crimson forest, críala con fungi y empuja a los adultos a una cuchilla de lava: cooked porkchops directos del Nether.",
+  "mechanics": [
+   "Los hoglins aparecen en manadas de 3-4 en los crimson forests y reaparecen allí con el tiempo: el único mob hostil que puedes criar.",
+   "Drops: 2-4 raw porkchops más 0-1 leather, +0-1 de cada por nivel de Looting; si mueren ardiendo, los porkchops salen ya cocinados.",
+   "Cría: crimson fungi a dos adultos, enfriamiento de 5 minutos, las crías maduran en 20 minutos (un fungus recorta un 10%).",
+   "Dar cualquier crimson fungus a un hoglin evita que desaparezca, y las crías criadas nunca desaparecen: la manada persiste.",
+   "Los hoglins huyen a 7 bloques de las warped fungi (incluso en maceta), los Nether portals y los respawn anchors: así se conducen.",
+   "Se hunden en el agua y se ahogan, y la lava los quema: ambos sirven como mecanismo de ejecución; un lead también funciona, y los hoglins con lead dejan de atacar."
+  ],
+  "materials": [
+   "2+ hoglins de un crimson forest (lleva crimson fungi y un lead)",
+   "Reservas de crimson fungi: bone meal al crimson nylium para más",
+   "Warped fungi en sticks o macetas para repeler y conducir",
+   "Un corral de bloques a prueba de nether, y lava o una caída para el suelo de ejecución",
+   "Sword con Looting III si rematas a mano"
+  ],
+  "steps": [
+   "Encuentra una manada de crimson forest y vállala, o lleva dos hoglins a casa con lead: con lead no atacan.",
+   "Da un crimson fungus a cada uno para bloquear su despawn, y luego cría la pareja.",
+   "Construye el corral de modo que un corredor, flanqueado de warped fungi en macetas, lleve a la cámara de ejecución: huyen del fungus directos a ella.",
+   "Sacrifica adultos con una cuchilla de lava o daño de caída; las muertes por fuego entregan cooked porkchops automáticamente.",
+   "Vuelve a criar cada 5 minutos y da fungi a las crías para acelerar el ciclo.",
+   "Mantén la granja lejos de tu portal: los hoglins no se acercan a él, lo que rompe el corredor de conducción."
+  ],
+  "rates": "Una modesta manada de 6 adultos con cría regular da stacks de porkchops por sesión de juego; con Looting III y muerte por fuego, unos 4-7 cooked porkchops por hoglin.",
+  "tips": [
+   "El cooked porkchop da 8 de hambre y 12,8 de saturación: comida de primer nivel, y esta granja funciona enteramente dentro del Nether.",
+   "Las crías son los únicos animales bebés que dan XP: poco pero satisfactorio.",
+   "Los respawn anchors también repelen hoglins: nunca cargues tu anchor junto al corral.",
+   "Los piglins cazan hoglins: un grupo de piglins cercano 'ayudará' matando tu manada, así que elige un bosque sin patrullas de piglins."
+  ]
+ },
+ "squid-farm": {
+  "produces": "Ink sacs para black dye, book and quills y oscurecer el texto de las signs",
+  "difficulty": "Principiante",
+  "quickAnswer": "Las squid aparecen en rivers y oceans: en Java entre Y=50 e Y=63 con agua encima y debajo. Cierra una sección de river, arrastra las squids a un suelo seco y recoge 1-3 ink sacs cada una.",
+  "mechanics": [
+   "Aparición en Java: 2-4 squids en biomas river u ocean de Y=50 a Y=63, necesitando agua (o un bloque waterlogged) en el bloque de aparición y debajo, y agua encima.",
+   "Bedrock: 2-4 en oceans, 2 en rivers, y solo en la superficie: sin bloque sólido sobre el punto de aparición.",
+   "Drops: 1-3 ink sacs, +0-1 por nivel de Looting.",
+   "Las squid no pueden criar y las crías no sueltan nada (5% de las apariciones): la granja es de aparición y arrastre, no de corral.",
+   "Se asfixian tras 15 segundos fuera del agua: un suelo de recolección seco es el mecanismo de ejecución, sin sword.",
+   "Las glow squid son la prima de aguas profundas (bajo Y=30, luz 0) con glow ink sacs: granja distinta, misma idea."
+  ],
+  "materials": [
+   "Una sección de river u ocean poco profundo (en Java la banda Y=50-63 es perfecta al nivel del mar)",
+   "Bloques de construcción para cerrar y solar la sección",
+   "Canales de agua o bubble columns para el arrastre",
+   "Hoppers y chests en un suelo seco",
+   "Torches para las cuevas cercanas: la luz no frena a las squids, pero despejar ayuda"
+  ],
+  "steps": [
+   "Elige un river: la banda de alturas viene incluida, las orillas son muros naturales, y las villages suelen estar cerca.",
+   "Represa los dos extremos de una sección y haz un suelo en pendiente para que las corrientes empujen las squids a una esquina.",
+   "Coloca un conducto de caída en esa esquina sobre una sala seca: las squids entran con la corriente, caen fuera del agua y se asfixian en 15 segundos.",
+   "Los hoppers bajo el suelo seco alimentan un chest.",
+   "En Bedrock mantén la superficie del agua abierta al cielo: un techo mata la granja.",
+   "Haz AFK cerca y vacía el chest entre otros proyectos."
+  ],
+  "rates": "Una sección de river dedicada cicla bancos de 2-4 squids con constancia; espera varios stacks de ink sacs por hora en AFK: más que una vida entera de black dye y book and quills.",
+  "tips": [
+   "Ink sac + book + feather = book and quill: esta granja alimenta tu biblioteca.",
+   "El black dye de los sacs tiñe wool, glass, concrete, banners y beds.",
+   "No confundas rivers con las profundidades: las squids normales aparecen alto (Y 50-63 en Java), las glow squids bajo y a oscuras.",
+   "Una sword con Looting en el suelo seco exprime +1 sac por squid cuando te apetezca trabajar a mano."
+  ]
  }
 }
