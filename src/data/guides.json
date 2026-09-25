@@ -12205,5 +12205,155 @@
     "href": "/structures/trial-chambers/"
    }
   ]
+ },
+ {
+  "slug": "how-to-make-scaffolding",
+  "name": "How to Make Scaffolding in Minecraft",
+  "shortTitle": "Make Scaffolding",
+  "quickAnswer": "Craft 6 scaffolding with 6 bamboo (left and right columns) and 1 string (top center). Climb it like a ladder, build out up to 6 blocks from any support, and break the bottom block to collapse the whole tower.",
+  "steps": [
+   "Gather 6 bamboo (jungle biomes, shipwreck or jungle temple chests, panda drops, fishing in jungles) and 1 string (spiders, cobwebs, cats).",
+   "Craft the scaffolding: bamboo filling the left and right columns, string in the top-center slot. One craft yields 6 scaffolding.",
+   "Stack a tower: use scaffolding on scaffolding to climb upward fast - each block lands on top of the column.",
+   "Climb it: stand inside and hold jump to rise, sneak to descend. It works like a ladder you can stand inside, with a solid platform on top.",
+   "Build bridges sideways: scaffolding extends up to 6 blocks out from the nearest supported block - a 7th falls and can form a new support column on the ground below.",
+   "Use it as a work platform: mobs and players can stand on the top face, and you can place blocks against scaffolding from any angle.",
+   "Demolish in one hit: break the bottom block and every scaffolding above it breaks and drops as items - cleanup takes seconds.",
+   "Burn the leftovers only in a pinch: scaffolding works as furnace fuel but it is weak - each block smelts just 0.25 items, so a whole stack handles about 16."
+  ],
+  "materials": [
+   "Bamboo x6",
+   "String x1",
+   "Crafting table"
+  ],
+  "editionNote": "Crafting, climbing and the 6-block support limit work the same in Java and Bedrock. Placement controls differ: Java uses full-block hitboxes with direction-based placement, while Bedrock uses a simplified placement scheme.",
+  "versions": "Announced at MINECON Earth on September 29, 2018; added in 1.14 (18w45a). Bamboo planks and cherry planks can craft it in later versions' recipe variants, and it remains the builder's favorite temporary block.",
+  "faq": [
+   {
+    "q": "How do you make scaffolding in Minecraft?",
+    "a": "Put bamboo in the left and right columns of the crafting grid and one string in the top-center slot. That recipe gives 6 scaffolding blocks."
+   },
+   {
+    "q": "How far can scaffolding go sideways?",
+    "a": "Up to 6 blocks away from the nearest block that has support underneath. The 7th block turns into a falling block and drops until it lands, which can start a new support column."
+   },
+   {
+    "q": "How do you go down scaffolding?",
+    "a": "Stand inside the scaffolding and hold sneak (crouch) to descend; hold jump to climb up. Breaking the bottom block instantly collapses the whole tower for fast removal."
+   }
+  ],
+  "keywords": "scaffolding minecraft, scaffolding recipe minecraft, how to use scaffolding minecraft, minecraft bamboo scaffolding, minecraft building tips",
+  "relatedGuides": [
+   "how-to-get-bamboo",
+   "how-to-get-string",
+   "how-to-make-campfire",
+   "how-to-tame-parrot"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Jungle",
+    "href": "/biomes/jungle/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-note-block",
+  "name": "How to Make a Note Block in Minecraft",
+  "shortTitle": "Make a Note Block",
+  "quickAnswer": "Craft a note block with 8 planks around 1 redstone dust. The block underneath picks the instrument (16 total), right-clicking raises the pitch across 2 octaves, and redstone or a click plays the note.",
+  "steps": [
+   "Gather 8 planks (any wood, mixed is fine) and 1 redstone dust.",
+   "Craft the note block: planks filling every slot except the center, redstone dust in the middle.",
+   "Pick the instrument: the block directly below the note block decides the sound - wood for bass guitar, stone for drums, glass for clicks, soulsand for cowbell, 16 instruments in all. No block below (air) means harp.",
+   "Tune the pitch: use the note block to raise it one semitone per press, across two full octaves (24 semitones). The 25th press resets it to the lowest note.",
+   "Play it: a note block sounds when clicked, punched, or powered by redstone. It needs air (or a mob head) above it to make a sound.",
+   "Wire a melody: a redstone pulse plays the current note once - chain note blocks with repeaters at different ticks to build songs and doorbells.",
+   "Hear it from afar: note blocks are audible up to 48 blocks away, and the note particle's color shows the pitch.",
+   "Try mob heads: place a mob head on top and the note block plays one of that mob's ambient sounds instead - zombie groans, creeper hisses and more for alarms and pranks."
+  ],
+  "materials": [
+   "Planks x8 (any wood)",
+   "Redstone dust x1",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe, instruments, tuning and range are the same in Java and Bedrock. Mob head sounds arrived in both editions with 1.20.",
+  "versions": "Added in Beta 1.2 (2011) - one of Minecraft's oldest redstone blocks. Mob heads playing ambient mob sounds on note blocks came in 1.20 (23w12a), with no-sneak head placement in 23w03a.",
+  "faq": [
+   {
+    "q": "How do you change the instrument of a note block?",
+    "a": "Change the block directly underneath it. Stone gives bass drum, wood gives bass guitar, sand gives snare, glass gives clicks and hats, gold gives bells, clay gives flute, packed ice gives chime, wool gives guitar, bone gives xylophone, iron gives iron xylophone, soulsand gives cowbell, pumpkin gives didgeridoo, emerald gives bit, hay gives banjo, glowstone gives pling, and anything else gives piano/harp."
+   },
+   {
+    "q": "How do note blocks work with redstone?",
+    "a": "Any redstone power pulse plays the note block's current pitch once. Builders chain note blocks with repeaters set to different delays so each one fires at the right beat, creating full songs."
+   },
+   {
+    "q": "Why is my note block not making sound?",
+    "a": "It needs air or a mob head in the block directly above it - a solid block on top silences it. Right-clicking a silenced note block still changes its pitch, so tune first and clear the space above before playing."
+   }
+  ],
+  "keywords": "note block minecraft, note block recipe minecraft, minecraft note block instruments, note block songs minecraft, minecraft redstone music",
+  "relatedGuides": [
+   "how-to-get-redstone",
+   "how-to-get-amethyst-shards",
+   "how-to-find-stronghold",
+   "how-to-make-jukebox"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Plains",
+    "href": "/biomes/plains/"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-make-jukebox",
+  "name": "How to Make a Jukebox in Minecraft",
+  "shortTitle": "Make a Jukebox",
+  "quickAnswer": "Craft a jukebox with 8 planks around 1 diamond. Insert a music disc to play it (audible 64 blocks away), and watch parrots and allays dance - feed a dancing allay an amethyst shard to duplicate it.",
+  "steps": [
+   "Gather 8 planks (any wood, mixed is fine) and 1 diamond.",
+   "Craft the jukebox: planks filling every slot except the center, diamond in the middle.",
+   "Get discs: creepers killed by a skeleton's arrow drop random music discs; others hide in dungeons, ancient cities, bastions and trial chambers. Disc 5 is crafted from 9 disc fragments found in ancient cities.",
+   "Play a disc: use a music disc on the jukebox. The music plays once and is audible up to 64 blocks away; use the jukebox again to eject the disc.",
+   "Automate playback: hoppers and droppers can insert and remove discs, so a redstone clock can run a non-stop music machine.",
+   "Read it with redstone: while a disc plays, the jukebox emits a signal strength 15; a comparator reads a per-disc strength (each disc has its own value) as long as the disc sits inside, even after the music ends.",
+   "Make parrots and allays dance: tamed parrots and allays within 3 blocks of a playing jukebox start dancing.",
+   "Duplicate an allay: use an amethyst shard on an allay that is dancing to a playing jukebox - it splits into two, consuming the shard. Both get a 5-minute cooldown before duplicating again."
+  ],
+  "materials": [
+   "Planks x8 (any wood)",
+   "Diamond x1",
+   "Crafting table"
+  ],
+  "editionNote": "Recipe, playback, dancing and allay duplication work the same in Java and Bedrock. Comparator output values per disc are also shared.",
+  "versions": "Added in Alpha v1.0.14 (2010) alongside the first music discs. Allays dancing (and duplication) arrived in 1.19.1 (22w24a); note particles above playing jukeboxes in 1.19.4.",
+  "faq": [
+   {
+    "q": "How do you get music discs in Minecraft?",
+    "a": "The classic method: get a skeleton to kill a creeper with its arrow - the creeper drops a random music disc. Others (13, cat, pigstep, otherside, 5 and more) come from dungeon, woodland mansion, ancient city, bastion and trial chamber chests; disc 5 is crafted from 9 disc fragments."
+   },
+   {
+    "q": "How do you duplicate an allay in Minecraft?",
+    "a": "Play any music disc in a jukebox, wait for a nearby allay to start dancing (within 3 blocks), then use an amethyst shard on it. The allay splits into two and the shard is consumed. Each allay then has a 5-minute cooldown."
+   },
+   {
+    "q": "Can a jukebox power redstone?",
+    "a": "Yes. While a disc is playing, the jukebox emits power 15 to adjacent redstone, and a comparator reads a signal strength specific to the inserted disc - useful for disc-activated doors and secret triggers."
+   }
+  ],
+  "keywords": "jukebox minecraft, jukebox recipe minecraft, music discs minecraft, how to duplicate allay, minecraft parrot dance",
+  "relatedGuides": [
+   "how-to-find-diamonds",
+   "how-to-get-music-discs",
+   "how-to-tame-parrot",
+   "how-to-get-amethyst-shards"
+  ],
+  "relatedLinks": [
+   {
+    "label": "Ancient city",
+    "href": "/structures/ancient-city/"
+   }
+  ]
  }
 ]
