@@ -1644,5 +1644,110 @@
    "Los shriekers que crecen de las floraciones pueden invocar wardens: rómpelos antes de que te griten un problema.",
    "El propio catalyst se mina rápido con hoe y solo se suelta con Silk Touch: 5 XP en caso contrario."
   ]
+ },
+ "ghast-farm": {
+  "produces": "Ghast tears para pociones de regeneración, más gunpowder, y el music disc Tears si las matas con su propia fireball",
+  "difficulty": "Avanzada",
+  "quickAnswer": "Las ghasts aparecen en soul sand valleys, nether wastes y basalt deltas a cualquier nivel de luz, necesitando un espacio de 5x5x4 sobre un bloque sólido. Construye una plataforma de aparición en una soul sand valley, canálalas a un conducto de ejecución y saca las tears con Looting III.",
+  "mechanics": [
+   "Reglas de aparición: un bloque sólido debajo y 5x5 de ancho por 4 de alto de espacio libre, a cualquier luz; las soul sand valleys y nether wastes las generan en grupos de 4 en Java.",
+   "Peculiaridad de Java: no aparece una segunda ghast a menos de 16 bloques de otra en las soul sand valleys; el espaciado viene incorporado en el bioma.",
+   "Drops: 0-1 ghast tear y 0-2 gunpowder, +0-1 de cada por nivel de Looting.",
+   "Bonus de estilo: mata a una ghast con su propia fireball devuelta y suelta el music disc Tears, el mismo golpe que la mata de una vez.",
+   "Las ghasts solo disparan cuando te ven, desde hasta 64 bloques: una granja te mantiene invisible tras glass y muros.",
+   "Las fireballs rompen bloques débiles: construye la granja de cobblestone o mejor."
+  ],
+  "materials": [
+   "Una ubicación de soul sand valley o nether wastes (plana, lejos de otro suelo donde puedan aparecer)",
+   "Bloques de construcción resistentes a explosiones: cobblestone como mínimo",
+   "Una plataforma de aparición con huecos de 5x5 y canales de conducción (nada de agua en el Nether: usa minecarts, pistons o conductos de caída)",
+   "Hoppers y chests",
+   "Sword con Looting III para el remate"
+  ],
+  "steps": [
+   "Explora una soul sand valley con una gran área plana y sin techo: cada plataforma extra fuera de tu granja es una rival.",
+   "Construye el suelo de aparición: plataformas anchas con huecos de 5 bloques para que cada celda válida quede dentro de tus muros.",
+   "Canaliza las apariciones: muros abiertos y conductos de caída dejan que las ghasts deriven o caigan a un tubo de ejecución central.",
+   "Aplástalas o debilítalas al fondo del tubo y remata con Looting III.",
+   "Pon slabs o prueba de apariciones en cada superficie cercana: blindar el valle contra ghasts es la mayor parte del trabajo.",
+   "Haz AFK sobre la granja dentro del radio de aparición y vacía los chests entre viajes."
+  ],
+  "rates": "Una plataforma de valle a prueba de apariciones cicla grupos de ghasts con constancia; con Looting III espera una tear cada pocas muertes más stacks de gunpowder: las pociones de regeneración dejan de ser un lujo.",
+  "tips": [
+   "Poción de regeneración = ghast tear + awkward potion: la única poción que cura con el tiempo.",
+   "Una fireball devuelta mata a la ghast de una vez e imprime el disco Tears: practica tu tenis con el excedente de la granja.",
+   "Los basalt deltas también generan ghasts, pero los magma cubes se comen el mob cap ahí: los valles son más limpios.",
+   "Construye el punto AFK alto: las ghasts también aparecen en capas de aire, y un volumen de aparición de 4 bloques de alto necesita espacio."
+  ]
+ },
+ "magma-cube-farm": {
+  "produces": "Magma cream para pociones de fire resistance, y froglights en tres colores cuando las frogs se comen los cubes pequeños",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Los magma cubes aparecen a cualquier luz en basalt deltas, nether wastes y desde spawners de salas del tesoro de bastions. Construye un suelo de ejecución sobre terreno válido, o trae frogs y deja que conviertan los cubes pequeños en froglights.",
+  "mechanics": [
+   "Aparición: a todos los niveles de luz, necesitando un espacio libre de 2,08x2,08x2,08; el juego comprueba primero la hitbox del cube GRANDE, así que una sola glass pane a la altura equivocada bloquea todas las tallas: moldea tus plataformas con cuidado.",
+   "Tallas: solo aparecen big, medium y small de forma natural; los cubes grandes se dividen al morir hasta los tiny, que no sueltan nada.",
+   "Drops: magma cream de los cubes grandes (nunca de los tiny), +0-1 por nivel de Looting.",
+   "Truco de los froglights: una frog que se come un magma cube PEQUEÑO suelta un froglight; verdant de frogs frías, ochre de templadas, pearlescent de cálidas. Las muertes por frog no dan magma cream.",
+   "Las salas del tesoro de los bastions contienen spawners de magma cubes sobre el botín de gold: un núcleo de granja ya hecho.",
+   "Los basalt deltas son el bioma más denso pero blindar el terreno dentado es brutal; los nether wastes planos o un spawner de bastion son inicios más fáciles."
+  ],
+  "materials": [
+   "Un claro de basalt deltas, una plataforma de nether wastes, o un spawner de tesoro de bastion saqueado",
+   "Bloques de construcción y hoppers para el suelo de ejecución",
+   "Para froglights: 3+ frogs (variantes fría, templada, cálida) paseadas por un Nether portal",
+   "Sword con Looting III para las sesiones de magma cream",
+   "Pociones de fire resistance: este es el lugar de trabajo más inflamable del Nether"
+  ],
+  "steps": [
+   "Elige tu sitio: spawner de bastion para automatización, basalt deltas para densidad, wastes para terreno fácil.",
+   "Construye plataformas de aparición con techos de exactamente 2 bloques de alto y un poco más; recuerda que la comprobación de hitbox del cube grande mata los diseños estrechos.",
+   "Canaliza los cubes a un suelo de ejecución: saltan hacia ti encantados, así que un simple foso con hoppers funciona.",
+   "Modo magma cream: remata los cubes grandes con Looting III y deja que los tiny desaparezcan.",
+   "Modo froglight: encierra tus frogs en el suelo de ejecución y deja que atrapen los cubes pequeños: cada bocado es un froglight del color de esa frog.",
+   "Blinda los alrededores o el terreno de los deltas se robará la mitad de tus apariciones."
+  ],
+  "rates": "Un equipo de spawner de bastion produce magma cream por stacks; un suelo de froglight con tres frogs convierte una sesión de juego en chests de los tres bloques de luz.",
+  "tips": [
+   "Poción de fire resistance = magma cream + awkward potion: esta granja convierte nadar en lava en un estilo de vida.",
+   "Las frogs son los únicos mobs que sueltan froglights, y el color es de la frog, no del cube: cría las variantes primero en el Overworld.",
+   "Los magma cubes saltan más alto en lava... pero no se ahogan y tú sí: fire resistance primero, heroicidades después.",
+   "El spawner del bastion cuelga bajo el puente de la sala del tesoro: asegura la sala antes de farmearla."
+  ]
+ },
+ "cocoa-farm": {
+  "produces": "Cocoa beans para cookies, brown dye y la base ocasional de suspicious stew",
+  "difficulty": "Principiante",
+  "quickAnswer": "Planta cocoa beans en el lateral de jungle logs: crecen por 3 fases y una vaina naranja madura suelta 3 beans. Un muro de jungle logs con una fila de pistons cosecha stacks por minuto.",
+  "mechanics": [
+   "Las cocoa pods solo crecen en los laterales de jungle logs y jungle wood (el stripped también vale): el log no necesita ser parte de un árbol.",
+   "Tres fases: verde pequeña, tostada, y luego naranja grande; 20% de probabilidad de crecer por random tick, unos 5 minutos 40 segundos por fase de media.",
+   "Cosecha: las vainas maduras sueltan 3 beans, las jóvenes solo 1; Fortune no ayuda, la paciencia sí.",
+   "El bone meal fuerza una fase hacia delante: bean dentro, vaina fuera.",
+   "Automatización: el agua en movimiento, un empujón de piston, o quitar el log revienta las vainas; una fila de pistons tras el muro de logs cosecha todo el muro de una vez.",
+   "Los primeros beans salen solo de árboles de jungle naturales: los árboles crecidos de saplings nunca echan vainas, pero las vainas que plantas tú crecen en cualquier parte."
+  ],
+  "materials": [
+   "Cocoa beans de un bioma jungle (revisa los árboles naturales)",
+   "Jungle logs: un muro o torre de ellos",
+   "Una hoe o axe para romper rápido (vale cualquier herramienta)",
+   "Opcional: pistons, una lever y hoppers para la fila de cosecha",
+   "Bone meal para acelerar los primeros ciclos"
+  ],
+  "steps": [
+   "Saquea una jungle: quita todas las vainas naturales que encuentres (cada una es 1-3 plantas futuras).",
+   "Construye un muro de jungle logs en casa, de un bloque de grosor, de la altura que quieras.",
+   "Planta una bean en cada cara libre del log: cada cara es una vaina independiente.",
+   "Espera o usa bone meal hasta la fase naranja, y luego rompe: 3 beans de vuelta por vaina madura.",
+   "Replanta una bean por cara y guarda dos: el muro se multiplica a sí mismo.",
+   "Automatiza: pistons tras el muro disparan con una lever, reventando todas las vainas hacia una zanja de hoppers abajo."
+  ],
+  "rates": "Un muro de logs de 10x10 aloja más de 100 vainas; cada ciclo maduro triplica tus beans, y un muro cosechado a pistones rinde stacks de cocoa por minuto de clics.",
+  "tips": [
+   "Las cookies son 2 wheat + 1 cocoa bean por 8 cookies: snack barato, genial para el excedente de compost.",
+   "El brown dye de los beans tiñe wool, glass, concrete y banners sin squids.",
+   "La jungle wood (el bloque de pura corteza) te da 4 caras plantables por log: muros más densos.",
+   "El log no necesita leaves ni árbol: un pilar flotante en tu base cultiva cocoa sin problema."
+  ]
  }
 }
