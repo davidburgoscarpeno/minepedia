@@ -807,5 +807,113 @@
       "En Bedrock, mantén la granja también lejos de jungles y mushroom fields: las reglas del rastro difieren ahí.",
       "Las snow layers se apilan hasta 8 para una capa de altura de bloque completo: decorativo, y frena ligeramente a los mobs."
     ]
+  },
+  "lava-farm": {
+    "produces": "Lava infinita en cauldrons: un bucket lleno por cauldron por ciclo de rellenado",
+    "difficulty": "Intermedia",
+    "quickAnswer": "Una pointed dripstone colgando de un dripstone block con lava encima llena lentamente un cauldron de lava: alrededor de un bucket cada 19 minutos por pareja. Alinea una fila de ellas y la lava se convierte en combustible renovable.",
+    "mechanics": [
+      "La receta de construcción es estricta: fuente de lava arriba, un bloque sólido debajo, una pointed dripstone colgando de ese bloque y un cauldron debajo a menos de 10 bloques con solo aire (o, en Java, trapdoors abiertas y otros bloques sin colisión) entre medias.",
+      "Cada random tick en la parte alta de la stalactite tira una probabilidad de 15/256 (~5,9%) de llenar por completo un cauldron vacío de lava: en torno a un día de Minecraft (19+ minutos) por rellenado y montaje.",
+      "El agua también funciona: una fuente de agua encima llena el cauldron de nivel en nivel (tres niveles por bucket) al ~17,6% por tick, pero la lava es el premio, porque llena el cauldron entero de un goteo.",
+      "Las fuentes de lava y agua nunca se consumen: un bucket de lava alimenta un número ilimitado de buckets de salida.",
+      "Los lava buckets funden 100 objetos cada uno, así que una granja modesta supera en combustible a cualquier suministro de coal: es la mejora de furnaces del mid-game."
+    ],
+    "materials": [
+      "Pointed dripstone (dripstone caves): una por módulo",
+      "Dripstone blocks o cualquier bloque sólido para el techo",
+      "Lava buckets: uno por módulo, nunca se consumen",
+      "Cauldrons (7 de iron cada uno): tantos como puedas permitirte",
+      "Bloques ignífugos (nada de madera cerca de la lava)"
+    ],
+    "steps": [
+      "Encuentra pointed dripstone: las dripstone caves están por todas partes bajo las montañas; cosecha las puntas con cualquier herramienta.",
+      "Construye la fila del techo: bloques sólidos en línea, una fuente de lava encima de cada uno, contenida para que no se derrame.",
+      "Cuelga una pointed dripstone bajo cada bloque.",
+      "Coloca un cauldron bajo cada dripstone, con aire libre entre la punta y el cauldron.",
+      "Vete: cada módulo promedia un cauldron lleno por día de Minecraft; veinte módulos promedian un bucket cada minuto aproximadamente.",
+      "Cosecha con buckets vacíos; los cauldrons se rellenan solos para siempre.",
+      "Mantén la zona cargada: los random ticks solo corren cerca de jugadores, así que constrúyela donde pases tiempo.",
+      "Escala por filas: los módulos también se apilan verticalmente (cauldron, aire, siguiente techo) para diseños en torre."
+    ],
+    "rates": "Un módulo promedia un bucket de lava cada ~19 minutos; una batería de 20 cauldrons da aproximadamente un bucket por minuto mientras está cargada: combustible gratis para cada furnace, blast furnace y smoker que tengas.",
+    "tips": [
+      "El iron es el coste real: 7 lingotes por cauldron, así que agranda la batería a medida que crece tu granja de iron.",
+      "Mantén la madera, la wool y las carpets lejos de la fila de lava: una chispa de lag es todo lo que hace falta.",
+      "En Java puedes pasar la línea de goteo a través de trapdoors abiertas para torres compactas; Bedrock exige aire limpio.",
+      "Marca los cauldrons vacíos: los hoppers no pueden extraer lava, así que la cosecha es manual; una pasarela agiliza las rondas."
+    ]
+  },
+  "dripstone-farm": {
+    "produces": "Pointed dripstone para construcción y granjas de lava, más clay renovable por conversión de mud",
+    "difficulty": "Intermedia",
+    "quickAnswer": "La pointed dripstone crece sola al colgarla bajo un dripstone block con agua encima: un paso de crecimiento cada ~5 días del juego. Cultívala en filas para dripstone ilimitada, y pon mud encima de las stalactites para convertirlo en clay renovable.",
+    "mechanics": [
+      "Receta de crecimiento: una pointed dripstone colgando directamente bajo un dripstone block, con una fuente de agua encima del bloque (un bloque waterlogged también vale en Java). Sin agua no hay crecimiento.",
+      "El crecimiento es lento: cada random tick en la punta de la stalactite tiene un 1,138% de probabilidad de hacerla crecer (o a la stalagmite de abajo) un bloque: unos 5 días del juego por paso. Las stalactites llegan a 8 bloques, y las stalagmites suben desde una superficie sólida a menos de 11 bloques.",
+      "Las puntas vuelven a crecer tras la cosecha: rompe los segmentos inferiores y la punta restante sigue creciendo; cosecha todo menos el segmento superior.",
+      "El truco del clay: el mud colocado directamente sobre un bloque con una stalactite debajo se convierte en clay con un 45/256 (~17,6%) por random tick: mud de los mangrove swamps más dripstone es igual a clay renovable, y funciona en cualquier dimensión excepto el Nether.",
+      "Las puntas waterlogged ni crecen ni gotean: mantén seca la propia punta."
+    ],
+    "materials": [
+      "Dripstone blocks y unas pocas pointed dripstone iniciales",
+      "Water buckets (uno por columna, nunca se consumen)",
+      "Bloques de construcción para el marco de la granja",
+      "Mud para la rama de conversión de clay (mangrove swamps)",
+      "Scaffolding para cosechar sin riesgo"
+    ],
+    "steps": [
+      "Saquea una dripstone cave en busca de dripstone blocks y pointed dripstone: trae más de lo que necesitas.",
+      "Construye las filas: dripstone blocks en línea, una fuente de agua encima de cada uno, sellada para que el agua no se mueva.",
+      "Cuelga una pointed dripstone bajo cada bloque: esa punta es tu semilla permanente; nunca la coseches.",
+      "Espera: cada punta crece alrededor de un bloque por 5 días del juego mientras la zona está cargada.",
+      "Cosecha los segmentos crecidos bajo la punta semilla y déjala colgando para que vuelva a crecer.",
+      "Multiplica las filas: docenas de columnas hacen irrelevante la lenta tasa por punta.",
+      "Monta la rama de clay: bloques de mud encima de una segunda batería de stalactites se convierten en clay con el tiempo; cosecha con shovel, sin Silk Touch.",
+      "Acumula para proyectos: la pointed dripstone alimenta granjas de lava, construcciones de cuevas y trampas."
+    ],
+    "rates": "Cada columna añade aproximadamente un bloque de dripstone cada 5 días del juego: una granja de 20 columnas produce un stack de pointed dripstone por semana del juego. El mud se convierte en clay a razón de un bloque cada 2-3 minutos por stalactite mientras está cargada.",
+    "tips": [
+      "Cosecha de abajo arriba y la punta semilla seguirá produciendo para siempre.",
+      "Construye cerca de tu base: el crecimiento corre por random ticks, que necesitan un jugador a menos de 128 bloques.",
+      "Las stalactites que caen son un peligro: nunca te pongas bajo una punta suelta, y usa ese conocimiento en trampas.",
+      "La conversión de clay falla en el Nether: monta esa rama en el Overworld."
+    ]
+  },
+  "mushroom-farm": {
+    "produces": "Mushrooms brown y red para stew, más huge mushroom blocks vía bone meal",
+    "difficulty": "Principiante",
+    "quickAnswer": "Los mushrooms se propagan solos en la oscuridad (luz 12 o menos) y crecen en huge mushrooms con bone meal. Una sala oscura con suelo de podzol multiplica mushrooms para siempre, sin necesidad de luz, y el podzol te deja iluminar el lugar libremente.",
+    "mechanics": [
+      "Los mushrooms se plantan en podzol, mycelium o nylium con cualquier nivel de luz; en cualquier otro sitio necesitan luz 12 o menos y saltan del suelo a 13+.",
+      "Propagación: cada random tick da a un mushroom un 4% de probabilidad de propagarse a un bloque cercano (incluso en diagonal arriba o abajo) si hay menos de 5 de su tipo en un volumen de 9x9x3; un campo oscuro de podzol se autosiembra.",
+      "El bone meal en un mushroom lo convierte en huge mushroom cuando el bloque base vale (podzol, mycelium o nylium con cualquier luz; grass, dirt, moss y amigos con luz 12 o menos) y los 5 bloques directamente encima están libres de bloques sólidos.",
+      "Los huge mushrooms sueltan sus mushrooms pequeños al romper los bloques de la copa: aplica bone meal a un mushroom, corta el gigante y sales con más de lo que empezaste.",
+      "Ambos colores crecen igual: monta filas de brown y red una junto a otra para ingredientes de stew y decoración."
+    ],
+    "materials": [
+      "Unos pocos mushrooms de cada color (swamps, dark forests, el Nether, mushroom fields)",
+      "Podzol, mycelium o nylium para el suelo (cultivo con cualquier luz)",
+      "Bone meal para la cosecha de huge mushrooms",
+      "Un hacha para cortar copas",
+      "Una sala o cueva oscura y cerrada para el campo de propagación"
+    ],
+    "steps": [
+      "Elige la sala: cualquier espacio cerrado que puedas mantener oscuro, o ilumínalo con normalidad y pónle suelo de podzol o nylium para que la luz deje de importar.",
+      "Planta una cuadrícula inicial: un mushroom cada pocos bloques de cada color, manteniendo los tipos separados por el límite de densidad de 9x9x3.",
+      "Déjalos propagarse: un 4% por random tick por mushroom llena el campo en unos pocos días del juego.",
+      "Cosecha en oleadas: recoge todo menos uno o dos iniciales por sección y el campo se resiembra solo.",
+      "Monta la cosecha gigante: bone meal a un mushroom en podzol con 5 bloques libres encima, corta el huge mushroom para 0-2 mushrooms por bloque de copa; docenas por gigante.",
+      "Vigila el techo: un solo bloque sólido dentro de los 5 de encima del mushroom bloquea el crecimiento gigante.",
+      "Craftea la producción: mushroom stew (bowl + red + brown), fermented spider eyes con los brown, y variantes de suspicious stew.",
+      "Acumula bloques de copa con Silk Touch para construir: los stems y las copas de mushroom son bloques de estructura preciosos."
+    ],
+    "rates": "Una sala oscura de podzol con 50+ mushrooms da varios stacks por día del juego de propagación pasiva; un huge mushroom con bone meal devuelve aproximadamente un stack de mushrooms pequeños con un barrido de hacha.",
+    "tips": [
+      "El podzol es el amigo del granjero: te deja iluminar la granja para frenar a los mobs hostiles mientras los mushrooms siguen propagándose.",
+      "Separa los colores al menos 9 bloques o comparten el límite de 5 por 9x9x3 y se ralentizan mutuamente.",
+      "Los brown mushrooms emiten una luz tenue de 1: inofensiva, pero tampoco frena las apariciones.",
+      "Una mooshroom es la versión de lujo: esquílala para 5 mushrooms y se convierte en cow, o ordeñala con un bowl para stew infinito."
+    ]
   }
 }

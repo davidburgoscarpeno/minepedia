@@ -903,5 +903,125 @@
       "Snow layers stack up to 8 for a full block-height drift - decorative, and it slows mobs slightly."
     ],
     "keywords": "snow farm minecraft, snow golem farm minecraft, infinite snowballs minecraft, how to get snow minecraft, snow golem snow trail"
+  },
+  {
+    "slug": "lava-farm",
+    "name": "Lava Farm",
+    "produces": "Infinite lava in cauldrons - one full bucket per cauldron per refill cycle",
+    "difficulty": "Intermediate",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "A pointed dripstone hanging from a dripstone block with lava above it slowly fills a cauldron below with lava - about one bucket every 19 minutes per pair. Line up a row of them and lava becomes a renewable fuel source.",
+    "mechanics": [
+      "The build recipe is strict: lava source on top, a solid block under it, a pointed dripstone hanging from that block, and a cauldron below within 10 blocks with only air (or, in Java, open trapdoors and other collision-free blocks) in between.",
+      "Each random tick on the top of the stalactite rolls a 15/256 chance (~5.9%) to completely fill an empty cauldron with lava - averaging roughly one Minecraft day (19+ minutes) per refill, per setup.",
+      "Water works too: a water source above fills the cauldron one level at a time (three levels per bucket) at ~17.6% per tick - but lava is the prize, since it fills the whole cauldron in one drip.",
+      "The lava and water sources are never consumed - one bucket of lava fuels an unlimited number of buckets out.",
+      "Lava buckets smelt 100 items each, so a modest farm out-fuels any coal supply; this is the mid-game furnace upgrade."
+    ],
+    "materials": [
+      "Pointed dripstone (dripstone caves) - one per module",
+      "Dripstone blocks or any solid blocks for the ceiling",
+      "Lava buckets - one per module, never consumed",
+      "Cauldrons (7 iron each) - as many as you can afford",
+      "Fireproof building blocks (no wood near lava)"
+    ],
+    "steps": [
+      "Find pointed dripstone: dripstone caves are everywhere under mountains - harvest the tips with any tool.",
+      "Build the ceiling row: solid blocks in a line, one lava source on top of each, contained so it cannot flow off.",
+      "Hang one pointed dripstone under each block.",
+      "Place a cauldron under every dripstone, with clear air between tip and cauldron.",
+      "Walk away: each module averages a full cauldron per Minecraft day - twenty modules average a bucket about every minute.",
+      "Harvest with empty buckets; cauldrons refill on their own forever.",
+      "Keep the area loaded: random ticks run only near players, so build it where you spend time.",
+      "Scale by rows: modules stack vertically too (cauldron, air, next ceiling) for tower designs."
+    ],
+    "rates": "One module averages a lava bucket every ~19 minutes; a 20-cauldron array yields roughly a bucket a minute while loaded - free fuel for every furnace, blast furnace and smoker you own.",
+    "tips": [
+      "Iron is the real cost: 7 ingots per cauldron, so grow the array as your iron farm grows.",
+      "Keep wood, wool and carpet far from the lava row - one stray ember of lag is all it takes.",
+      "In Java you can route the drip line through open trapdoors for compact towers; Bedrock requires clean air.",
+      "Mark empty cauldrons: hoppers cannot extract lava, so harvesting is manual - a walkway makes rounds fast."
+    ],
+    "keywords": "lava farm minecraft, dripstone lava farm minecraft, infinite lava minecraft, renewable lava minecraft, pointed dripstone cauldron lava"
+  },
+  {
+    "slug": "dripstone-farm",
+    "name": "Dripstone Farm",
+    "produces": "Pointed dripstone for building and lava farms, plus renewable clay from mud conversion",
+    "difficulty": "Intermediate",
+    "editions": "both",
+    "quickAnswer": "Pointed dripstone grows on its own when hung under a dripstone block with water above - one growth step every ~5 in-game days. Farm it in rows for unlimited dripstone, and park mud on top of stalactites to convert it into renewable clay.",
+    "mechanics": [
+      "Growth recipe: a pointed dripstone hanging directly under a dripstone block, with a water source above the block (a waterlogged block also works in Java). No water, no growth.",
+      "Growth is slow: each random tick on the stalactite tip has a 1.138% chance to grow it (or the stalagmite below) by one block - about 5 in-game days per step. Stalactites cap at 8 blocks, and stalagmites join from a solid surface less than 11 blocks below.",
+      "The tips regrow after harvest: break the lower segments and the remaining tip keeps growing - harvest everything but the top segment.",
+      "The clay trick: mud placed directly above a block with a stalactite underneath converts to clay at 45/256 (~17.6%) per random tick - mud from mangrove swamps plus dripstone equals renewable clay, and it works in any dimension except the Nether.",
+      "Waterlogged tips neither grow nor drip - keep the tip itself dry."
+    ],
+    "materials": [
+      "Dripstone blocks and a few pointed dripstone starters",
+      "Water buckets (one per column, never consumed)",
+      "Building blocks for the farm frame",
+      "Mud for the clay conversion branch (mangrove swamps)",
+      "Scaffolding for safe harvesting"
+    ],
+    "steps": [
+      "Raid a dripstone cave for dripstone blocks and pointed dripstone - bring back more than you need.",
+      "Build the rows: dripstone blocks in a line, one water source on top of each, sealed so the water stays put.",
+      "Hang one pointed dripstone under each block - that tip is your permanent seed; never harvest it.",
+      "Wait: each tip grows about one block per 5 in-game days while the area is loaded.",
+      "Harvest the grown segments below the seed tip and leave it hanging to regrow.",
+      "Multiply rows: dozens of columns make the slow per-tip rate irrelevant.",
+      "Run the clay branch: mud blocks on top of a second stalactite array convert to clay over time - harvest with a shovel, no Silk Touch needed.",
+      "Stockpile for projects: pointed dripstone feeds lava farms, cave builds and traps."
+    ],
+    "rates": "Each column adds roughly one block of dripstone every 5 in-game days - a 20-column farm outputs a stack of pointed dripstone per in-game week. Mud converts to clay at about one block per 2-3 minutes per stalactite while loaded.",
+    "tips": [
+      "Harvest from the bottom up and the seed tip keeps producing forever.",
+      "Build near your base: growth runs on random ticks, which need a player within 128 blocks.",
+      "Falling stalactites are a hazard - never stand under a detached tip, and use that knowledge in traps.",
+      "Clay conversion fails in the Nether - run that branch in the Overworld."
+    ],
+    "keywords": "dripstone farm minecraft, pointed dripstone farm minecraft, how to grow dripstone minecraft, mud to clay farm minecraft, renewable clay minecraft"
+  },
+  {
+    "slug": "mushroom-farm",
+    "name": "Mushroom Farm",
+    "produces": "Brown and red mushrooms for stew, plus huge mushroom blocks via bone meal",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Mushrooms spread on their own in darkness (light 12 or less) and grow into huge mushrooms with bone meal. A dark room with podzol floors multiplies mushrooms forever - no light needed, and podzol lets you light the place freely.",
+    "mechanics": [
+      "Mushrooms plant on podzol, mycelium or nylium at any light level - anywhere else, they need light level 12 or below and pop out of the ground at 13+.",
+      "Spreading: each random tick gives a mushroom a 4% chance to spread to a nearby block (even diagonally up or down) if fewer than 5 of its type sit within a 9x9x3 volume - a dark podzol field self-seeds.",
+      "Bone meal on a mushroom grows a huge mushroom when the base block qualifies (podzol, mycelium or nylium at any light; grass, dirt, moss and friends at light 12 or below) and the 5 blocks directly above are clear of solid blocks.",
+      "Huge mushrooms drop their small mushrooms when their cap blocks break - bone meal one mushroom, chop the giant, and net more than you started with.",
+      "Both colors grow identically - run brown and red rows side by side for stew ingredients and decoration."
+    ],
+    "materials": [
+      "A few mushrooms of each color (swamps, dark forests, the Nether, mushroom fields)",
+      "Podzol, mycelium or nylium for the floor (any-light farming)",
+      "Bone meal for the huge-mushroom harvest",
+      "An axe for chopping caps",
+      "A dark, enclosed room or cave for the spread field"
+    ],
+    "steps": [
+      "Pick the room: any enclosed space you can keep dark - or light it normally and floor it with podzol or nylium so light stops mattering.",
+      "Plant a starter grid: one mushroom every few blocks of each color, keeping types separated by the 9x9x3 density cap.",
+      "Let them spread: 4% per random tick per mushroom fills the field over a few in-game days.",
+      "Harvest waves: pick everything but a starter or two per section, and the field reseeds itself.",
+      "Run the giant harvest: bone meal a mushroom on podzol with 5 clear blocks above, chop the huge mushroom for 0-2 mushrooms per cap block - dozens per giant.",
+      "Keep the ceiling honest: one solid block within 5 above the mushroom blocks the huge growth.",
+      "Craft the output: mushroom stew (bowl + red + brown), fermented spider eyes from brown mushrooms, and suspicious stew variants.",
+      "Stockpile cap blocks with Silk Touch for building - mushroom stems and caps are gorgeous structure blocks."
+    ],
+    "rates": "A dark podzol room of 50+ mushrooms yields several stacks per in-game day of passive spreading; one bone-mealed giant mushroom returns roughly a stack of small mushrooms with an axe sweep.",
+    "tips": [
+      "Podzol is the farmer's friend: it lets you light the farm to stop hostile mobs while mushrooms keep spreading.",
+      "Separate colors by at least 9 blocks or they share the 5-per-9x9x3 density cap and slow each other down.",
+      "Brown mushrooms emit a faint light of 1 - harmless, but it will not stop spawns either.",
+      "A mooshroom is the deluxe version: shear it for 5 mushrooms and it becomes a cow, or milk it with a bowl for infinite stew."
+    ],
+    "keywords": "mushroom farm minecraft, huge mushroom farm minecraft, how to grow mushrooms minecraft, brown mushroom farm, minecraft mushroom spreading light level"
   }
 ]
