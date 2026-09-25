@@ -1227,5 +1227,108 @@
    "El tinted glass bloquea la luz por completo siendo transparente: el mejor bloque de ventana para granjas de mobs.",
    "Si encuentras varias geodes cercanas, conéctalas en un solo circuito de cosecha."
   ]
+ },
+ "wheat-farm": {
+  "produces": "Wheat para bread, cría de animales y comercio con villagers, más seeds para chickens",
+  "difficulty": "Principiante",
+  "quickAnswer": "Labra dirt en farmland junto al agua, planta seeds y espera: el wheat madura por 8 fases y un cultivo maduro suelta 1 wheat más 1-4 seeds. Un villager farmer puede cosechar y replantar todo el campo por ti.",
+  "mechanics": [
+   "La farmland necesita agua a menos de 4 bloques para seguir hidratada: los cultivos hidratados crecen notablemente más rápido que los secos.",
+   "El wheat crece por 8 fases y necesita nivel de luz 9 o más para crecer; las torches convierten la noche en tiempo de cultivo.",
+   "Un cultivo maduro suelta 1 wheat y 1-4 seeds (unas 2,7 de media): Fortune sube el drop de seeds, nunca el propio wheat.",
+   "El bone meal salta fases de crecimiento al instante: la jugada clásica de comida en speedrun.",
+   "Los villagers farmer cosechan el wheat maduro y lo replantan, pero su inventario se llena de seeds: una hopper-cart bajo el campo o un diseño con segundo villager desnatara el wheat sobrante para ti.",
+   "Cosecha pronto y te llevas una seed, sin wheat: la paciencia paga."
+  ],
+  "materials": [
+   "Wheat seeds (rompe tall grass)",
+   "Una hoe, bloques de dirt y un water bucket",
+   "Torches o lanterns para luz 9+",
+   "Automatización opcional: 1 villager farmer + composter, y hoppers o hopper minecarts"
+  ],
+  "steps": [
+   "Labra una parcela de 9x9 con agua en el centro: un bloque de agua hidrata 80 de farmland.",
+   "Planta seeds en cada bloque e ilumina la parcela a 9 o más.",
+   "Cosecha solo los cultivos completamente amarillos: rompe, recoge, replanta una seed por bloque.",
+   "Para automatizar, encierra un villager farmer en el campo con su composter: trabaja la parcela todo el día.",
+   "Recoge el excedente: su inventario toca techo de seeds, y el wheat que suelta se canaliza a hoppers, o pasa una hopper minecart bajo el campo (la farmland deja caer los ítems).",
+   "Gasta el wheat: bread (3 por crafteo), cría de cows y sheep (2 por cría), o 20 wheat a un farmer por un emerald."
+  ],
+  "rates": "Una parcela hidratada e iluminada de 9x9 aloja 80 cultivos y rinde unos 80 wheat más 2 stacks de seeds por ciclo completo: pan para 26 hogazas o 4 emeralds en trades.",
+  "tips": [
+   "El 9x9 con pozo de agua es icónico por algo: máxima hidratación en mínimo espacio.",
+   "Saltar sobre la farmland la pisotea de vuelta a dirt: valla el campo y mira tus pasos.",
+   "Las bees que sobrevuelan polinizan los cultivos como bone meal: un beehive junto al campo acelera cada ciclo.",
+   "El wheat se composta al 65% por pieza: el excedente de seeds alimenta tu bucle de bone meal."
+  ]
+ },
+ "carrot-potato-farm": {
+  "produces": "Carrots y potatoes: los mejores cultivos para comerciar con villagers y un buen suministro de baked potatoes",
+  "difficulty": "Principiante",
+  "quickAnswer": "Planta carrots o potatoes en farmland hidratada y un cultivo maduro devuelve 2-5 de sí mismo: unas 5,4 con Fortune III. Dale el campo a un villager farmer y lo cosechará y replantará para siempre.",
+  "mechanics": [
+   "Ambos cultivos crecen por 8 fases (4 visibles) en farmland, más rápido si está hidratada, a nivel de luz 9 o más.",
+   "Un cultivo maduro suelta 2-5 (media 3,7); cada nivel de Fortune añade otro intento de drop: Fortune III da una media de 5,4.",
+   "Las potatoes tienen un 2% de probabilidad de soltar además una poisonous potato: un trofeo, no comida.",
+   "El bone meal avanza el cultivo 2-5 fases por uso.",
+   "No hacen falta seeds: el cultivo se planta a sí mismo; 2 de los ~3,7 drops vuelven a la tierra y el resto es beneficio.",
+   "Los cultivos iniciales salen de los campos de las villages, o de un drop del 2,5% cuando un zombie, husk o zombie villager muere a manos de un jugador o wolf.",
+   "Los rabbits asaltan los cultivos de carrots maduros (mobGriefing): vállalos fuera."
+  ],
+  "materials": [
+   "Carrots o potatoes iniciales (granjas de villages o drops raros de zombies)",
+   "Hoe, dirt, agua, torches",
+   "Automatización opcional: villager farmer + composter, hoppers o una hopper minecart",
+   "Herramienta con Fortune III para cosechas manuales"
+  ],
+  "steps": [
+   "Saquea las parcelas de carrots y potatoes de una village: replanta lo que tomes, es cortés y renovable.",
+   "Labra e hidrata una parcela, planta los cultivos directamente, ilumínala a 9+.",
+   "Cosecha los cultivos maduros con una herramienta con Fortune III y replanta 2 por bloque: el excedente es tuyo.",
+   "Automatiza con un villager farmer: cosecha y replanta todo el día, y cuando su inventario se llena de cultivo tira comida a un villager hambriento al otro lado de una valla; los hoppers bajo ese villager lo recogen todo.",
+   "Cocina las potatoes en baked potatoes: 5 de hambre y 6 de saturación las convierten en un alimento básico de primer nivel.",
+   "Comercia el excedente: los villagers farmer compran carrots y potatoes por emeralds."
+  ],
+  "rates": "Un campo de carrots de 9x9 gestionado por un villager llena un chest con varios stacks por día de juego; las baked potatoes convierten la mitad de potato en una de las mejores comidas que se pueden producir en masa sin animales.",
+  "tips": [
+   "Las golden carrots (8 gold nuggets alrededor de una carrot) son la mejor comida de saturación del juego: esta granja también alimenta esa receta.",
+   "Las carrots crían pigs y rabbits; una carrot on a stick dirige un pig ensillado.",
+   "Las potatoes se compostan mal: cómelas o comércialas, y composta las carrots que no puedas vender.",
+   "Un zombie muerto por fuego suelta una baked potato directamente en Java: un pequeño bonus macabro en una mob farm."
+  ]
+ },
+ "glow-berry-farm": {
+  "produces": "Glow berries: una comida que ilumina su propia granja, para comer, criar foxes y decorar",
+  "difficulty": "Principiante",
+  "quickAnswer": "Planta glow berries bajo un bloque y la cave vine crece hacia abajo: cada segmento nuevo tiene un 11% de probabilidad de dar berries. El bone meal en cualquier segmento de la vine le hace dar berries al instante, y esa es toda la granja.",
+  "mechanics": [
+   "Las cave vines cuelgan de la cara inferior de los bloques y crecen hacia abajo un bloque cada vez, 10% de probabilidad por random tick: un segmento nuevo cada ~11 minutos de media, hasta 25 bloques o el suelo.",
+   "Cada segmento recién crecido tiene un 11% de probabilidad de dar berries, y los segmentos existentes NUNCA dan berries por sí solos (a diferencia de los sweet berry bushes).",
+   "El bone meal en cualquier segmento de la vine le fuerza a dar berries inmediatamente: dispenser + vine = berries a demanda.",
+   "Las vines con berries emiten nivel de luz 14: la granja se ilumina a sí misma mientras crece.",
+   "Cosecha con la tecla de usar para tomar una berry sin romper la vine; romper da la misma berry por segmento con berries (Fortune no ayuda).",
+   "Encuentra tus primeras glow berries colgando de los techos de las lush caves."
+  ],
+  "materials": [
+   "Glow berries de una lush cave (basta una)",
+   "Cualquier bloque sólido con cara inferior plana de la que colgar vines",
+   "Bone meal (combínalo con un bucle moss-composter para suministro ilimitado)",
+   "Opcional: dispensers, observers y hoppers para automatizar"
+  ],
+  "steps": [
+   "Explora una lush cave y recoge glow berries de las cave vines del techo.",
+   "En casa, coloca berries bajo una fila de bloques: cada una se convierte en una vine que crece hacia abajo.",
+   "Espera a que las vines se alarguen, o sáltate la espera: bone meal a cualquier segmento y da berries ya.",
+   "Cosecha con la tecla de usar; la vine se queda y sigue creciendo.",
+   "Automatiza: un dispenser cargado con bone meal disparando a un segmento de vine, cosechado por un piston o a mano; cada dosis es una berry garantizada.",
+   "Usa shears en el segmento inferior para detener una vine en la longitud decorativa perfecta."
+  ],
+  "rates": "Un dispenser alimentado con un bone meal por clic produce una berry por clic: con una granja de bone meal detrás, las glow berries son efectivamente ilimitadas; el crecimiento natural solo gotea un segmento con berry por vine cada ~100 minutos.",
+  "tips": [
+   "La luz 14 de una vine con berries supera a una torch y queda mejor: iluminación funcional para cuevas y caminos.",
+   "Da glow berries a dos foxes para criarlos; el cachorro confía en ti.",
+   "Las vines se pueden escalar: una columna de glow berries es una escalera que te alimenta.",
+   "Las berries restauran poca hambre: críalas por la luz, la estética y los foxes, no para cenar."
+  ]
  }
 }
