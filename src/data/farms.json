@@ -783,5 +783,125 @@
       "Keep a waterlogged chest or sign near your AFK spot: the open-water check tolerates waterlogged blocks without collision."
     ],
     "keywords": "fishing farm minecraft, afk fish farm minecraft, minecraft fishing loot table, how to get mending from fishing, open water fishing minecraft"
+  },
+  {
+    "slug": "cobblestone-generator",
+    "name": "Cobblestone Generator",
+    "produces": "Infinite cobblestone - or stone when the lava flows down onto the water",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "When water touches flowing lava, the lava becomes cobblestone - mine it and a new block forms instantly. One bucket of water, one bucket of lava, and you never run out of building material again.",
+    "mechanics": [
+      "The recipe: water and flowing lava in contact replace the flowing lava with cobblestone. Only flowing lava works - a lava source block touching water turns into obsidian instead, which is why every generator keeps the lava one block above its source.",
+      "Stone variant: if the lava flows downward onto the water from above, the block forms as stone instead of cobblestone - a smoother look that skips the furnace.",
+      "Never let water reach the lava source: that turns it to obsidian and ends the generator until you bring more lava.",
+      "The classic hazard: mining the block right under you - stand to the side of the generation point, or drop the lava one level and mine from above a safe floor.",
+      "The skyblock special: the same mechanic, plus ice (which melts to water when broken next to light), is the entire foundation of skyblock worlds."
+    ],
+    "materials": [
+      "1 water bucket",
+      "1 lava bucket",
+      "A handful of any solid blocks for the frame",
+      "A pickaxe (Efficiency and Haste turn this into a conveyor belt)"
+    ],
+    "steps": [
+      "Dig the channel: a 4-long trench, one block deep, with a 2-deep hole in the middle of one side for the collection point.",
+      "Place water at one end so it flows toward the hole, lava at the other end so it flows toward the hole from the opposite side.",
+      "Where the flows meet, cobblestone appears - mine it and a new block forms within a tick.",
+      "Stand safe: position yourself so the block under your feet is never the generation block.",
+      "Mine with rhythm: hold the button and let the block respawn under your pick - Efficiency V plus a Haste beacon insta-mines it as fast as it forms.",
+      "Upgrade to stone: rebuild so the lava flows down onto the water from one block above for smooth stone output.",
+      "Automate later: TNT dupers or wither cages break generation rows for chest-scale production - manual covers everything through mid-game.",
+      "Skyblock note: if the water source freezes in a cold biome, break the ice next to a torch to get it back."
+    ],
+    "rates": "A manual generator yields about a stack per minute with an Efficiency diamond pick, faster with Haste - truly infinite, limited only by pick durability and inventory space.",
+    "tips": [
+      "Obsidian accidents are permanent: if the lava source turns to obsidian, you need fresh lava - keep a spare bucket until the design is proven.",
+      "Mending picks love generators: the XP from smelting the cobblestone repairs what mining wears down.",
+      "Build it next to your furnaces: cobble to stone to stone bricks is the survival base pipeline.",
+      "In the Nether there is no water - basalt generators are the equivalent there."
+    ],
+    "keywords": "cobblestone generator minecraft, stone generator minecraft, how to make cobblestone generator, infinite cobblestone minecraft, skyblock cobblestone generator"
+  },
+  {
+    "slug": "basalt-generator",
+    "name": "Basalt Generator",
+    "produces": "Infinite basalt - the Nether's cobblestone, and a handsome building block",
+    "difficulty": "Beginner",
+    "editions": "both",
+    "quickAnswer": "Lava flowing into a space above soul soil, next to blue ice, turns into basalt. One lava bucket, one block of soul soil, one of blue ice - infinite Nether stone with zero mining trips to the basalt deltas.",
+    "mechanics": [
+      "The recipe is exact: lava must flow into a block space that sits directly on top of soul soil AND is adjacent to blue ice - the flowing lava is replaced by basalt.",
+      "Only flowing lava converts; a lava source block is safe and does not need protection the way cobblestone generators do - there is no obsidian failure mode here.",
+      "Blue ice is the ingredient worth hoarding: it never melts, is mined with Silk Touch, and crafts 9:1 from packed ice - one iceberg biome trip sets you up forever.",
+      "Soul soil comes from soul sand valleys (or bartering-adjacent loot) - one block is enough; it is never consumed.",
+      "The generator works in any dimension, which makes it the Overworld-friendly way to mass-produce basalt for builds."
+    ],
+    "materials": [
+      "1 lava bucket",
+      "1 soul soil block (soul sand valley)",
+      "1 blue ice block (Silk Touch on icebergs, or 9 packed ice crafted)",
+      "Building blocks for the frame",
+      "A pickaxe - Efficiency recommended, basalt is tougher than cobblestone"
+    ],
+    "steps": [
+      "Place the soul soil on the floor of the frame.",
+      "Place the blue ice beside the space where basalt will form - one block to the side at the same height.",
+      "Set the lava source one block above that space so it flows down into the gap: lava touching the spot above soul soil and beside blue ice becomes basalt.",
+      "Mine the basalt; the lava flows in again and a new block forms immediately.",
+      "Stand to the side, not on the generation block - basalt under your feet plus lava above you is a bad morning.",
+      "Extend in rows: one lava source per column, so a wall of generators fills a double chest while you chat.",
+      "Mine blue ice with Silk Touch only - anything else shatters it into nothing.",
+      "Use the output: polished basalt (stonecutter) is one of the cleanest pillar textures in the game."
+    ],
+    "rates": "Manual generation gives roughly a stack every minute or two per column - slower than cobblestone because basalt is harder, but infinite once built. Each column costs one lava source, nothing else is consumed.",
+    "tips": [
+      "Pack an extra lava bucket: the design is obsidian-proof but not spill-proof.",
+      "Silk Touch is non-negotiable for moving blue ice - craft it from 9 packed ice if mining icebergs feels risky.",
+      "Basalt has higher blast resistance than cobblestone - legitimately useful for creeper-prone walls.",
+      "Pair it with a soul-speed soul soil path: your generator room becomes the fastest hallway in the base."
+    ],
+    "keywords": "basalt generator minecraft, basalt farm minecraft, how to make basalt minecraft, blue ice soul soil lava basalt, infinite basalt minecraft"
+  },
+  {
+    "slug": "snow-farm",
+    "name": "Snow Farm",
+    "produces": "Snow layers to shovel into snowballs, then snow blocks - plus a bodyguard that pelts mobs",
+    "difficulty": "Beginner",
+    "editions": "java-bedrock-different",
+    "quickAnswer": "A snow golem standing in one spot blankets the ground under itself with snow layers. Shovel the layers for snowballs, craft them into snow blocks - infinite snow from two snow blocks and a carved pumpkin.",
+    "mechanics": [
+      "Snow golems leave a snow layer trail as they move - in Java in any biome, in Bedrock only outside hot biomes (jungles, savannas, deserts, badlands, mushroom fields and the Nether are excluded there).",
+      "Confined to a single block, the golem still deposits snow on every supportable block in reach - a 1-block pen with a trapdoor lid is the classic design.",
+      "Shoveling a snow layer gives one snowball per layer; with an Efficiency shovel you can mine the layer under the golem's pen edge faster than it forms... almost - the golem re-lays it constantly.",
+      "Watch the temperature: golems take damage and die in rain, water and biomes hotter than 1.0 (deserts, badlands, the Nether) - build the farm in a temperate or cold biome, or under a roof.",
+      "mobGriefing false disables the snow trail - check the gamerule if your golem refuses to produce.",
+      "Bonus: golems hurl a snowball per second at any monster within 10 blocks (16 when boxed), and snowballs damage blazes - free blaze chip damage in Nether runs."
+    ],
+    "materials": [
+      "2 snow blocks + 1 carved pumpkin (or jack o'lantern) per golem",
+      "Blocks and a trapdoor for the pen",
+      "A shovel - Efficiency diamond or netherite, ideally Unbreaking/Mending",
+      "A roof if your biome has rain",
+      "Optional: Silk Touch shovel to collect snow layers directly"
+    ],
+    "steps": [
+      "Build the golem: two snow blocks stacked, carved pumpkin on top - it comes alive immediately.",
+      "Fence it onto one block: a 1x1 pen with a trapdoor or slab lid keeps it planted while its snow spreads under the edges.",
+      "Give it ground: supportable solid blocks around and beneath the pen edges where snow can form.",
+      "Shovel the layers: stand at the pen and mine the snow as it appears - snowballs pour in faster than most uses demand.",
+      "Roof the farm in rainy biomes: water hurts the golem, and a dead golem drops nothing but 0-15 snowballs once.",
+      "Craft up: 4 snowballs make a snow block - storage, building, and more golems.",
+      "Avoid hot biomes: deserts, savannas, badlands and the Nether kill golems; in Bedrock they also refuse to trail snow there.",
+      "Staff your base: a couple of penned golems near the wall knock back and distract zombies all night for free."
+    ],
+    "rates": "One penned golem with a good shovel gives about a stack of snowballs per minute of active shoveling - effectively infinite, and the only renewable snow in the game.",
+    "tips": [
+      "Silk Touch shovels collect the layers whole for instant snow-block reassembly - snowballs are for crafting, layers are for lazy builders.",
+      "Pumpkin must be carved: shears on a regular pumpkin first, or use a jack o'lantern directly.",
+      "In Bedrock, keep the farm out of jungles and mushroom fields too - the trail rules differ there.",
+      "Snow layers stack up to 8 for a full block-height drift - decorative, and it slows mobs slightly."
+    ],
+    "keywords": "snow farm minecraft, snow golem farm minecraft, infinite snowballs minecraft, how to get snow minecraft, snow golem snow trail"
   }
 ]

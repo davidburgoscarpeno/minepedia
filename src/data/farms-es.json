@@ -699,5 +699,113 @@
       "La pesca en jungle añade bamboo y cocoa beans a la tabla de junk: materiales de scaffolding gratis.",
       "Mantén un cofre o sign waterlogged cerca de tu punto AFK: la comprobación de agua abierta tolera bloques waterlogged sin colisión."
     ]
+  },
+  "cobblestone-generator": {
+    "produces": "Cobblestone infinito, o stone cuando la lava cae sobre el agua desde arriba",
+    "difficulty": "Principiante",
+    "quickAnswer": "Cuando el agua toca lava que fluye, la lava se convierte en cobblestone: mínalo y un bloque nuevo se forma al instante. Un bucket de agua, un bucket de lava, y nunca más te quedarás sin material de construcción.",
+    "mechanics": [
+      "La receta: agua y lava fluyendo en contacto sustituyen la lava que fluye por cobblestone. Solo funciona la lava que fluye: un bloque fuente de lava tocando agua se convierte en obsidian, y por eso todo generador mantiene la lava un bloque por encima de su fuente.",
+      "Variante stone: si la lava cae sobre el agua desde arriba, el bloque se forma como stone en vez de cobblestone: un acabado más liso que se salta el furnace.",
+      "Nunca dejes que el agua alcance la fuente de lava: la convierte en obsidian y acaba el generador hasta que traigas más lava.",
+      "El peligro clásico: minar el bloque justo bajo tus pies; ponte a un lado del punto de generación, o baja la lava un nivel y mina desde arriba con suelo seguro.",
+      "El especial skyblock: la misma mecánica, más ice (que se derrite en agua al romperse junto a luz), es la base entera de los mundos skyblock."
+    ],
+    "materials": [
+      "1 water bucket",
+      "1 lava bucket",
+      "Un puñado de bloques sólidos cualquiera para el marco",
+      "Un pickaxe (Efficiency y Haste lo convierten en cinta transportadora)"
+    ],
+    "steps": [
+      "Cava el canal: una zanja de 4 de largo y 1 de profundidad, con un hoyo de 2 de profundidad en el centro de un lado como punto de recolección.",
+      "Pon agua en un extremo para que fluya hacia el hoyo, y lava en el otro para que fluya hacia el hoyo desde el lado opuesto.",
+      "Donde se encuentran los flujos aparece cobblestone: mínalo y un bloque nuevo se forma en un tick.",
+      "Ponte a salvo: colócate de modo que el bloque bajo tus pies nunca sea el de generación.",
+      "Mina con ritmo: mantén pulsado el botón y deja que el bloque reaparezca bajo tu pickaxe; Efficiency V más un beacon de Haste lo mina al instante tan rápido como se forma.",
+      "Mejora a stone: reconstruye para que la lava caiga sobre el agua desde un bloque más arriba y obtén stone liso.",
+      "Automatiza más tarde: los dupers de TNT o las jaulas de wither rompen filas de generación para producción de cofres; el manual cubre todo hasta el mid-game.",
+      "Nota skyblock: si la fuente de agua se congela en un bioma frío, rompe el ice junto a una torch para recuperarla."
+    ],
+    "rates": "Un generador manual da alrededor de un stack por minuto con un pickaxe de diamante con Efficiency, más rápido con Haste: verdaderamente infinito, limitado solo por la durabilidad del pickaxe y el espacio del inventario.",
+    "tips": [
+      "Los accidentes de obsidian son permanentes: si la fuente de lava se convierte en obsidian, necesitas lava nueva; guarda un bucket de repuesto hasta que el diseño esté probado.",
+      "Los pickaxes con mending adoran los generadores: la XP de fundir el cobblestone repara lo que el minado desgasta.",
+      "Constrúyelo junto a tus furnaces: cobblestone → stone → stone bricks es la cadena de producción de la base survival.",
+      "En el Nether no hay agua: los generadores de basalt son el equivalente allí."
+    ]
+  },
+  "basalt-generator": {
+    "produces": "Basalt infinito: el cobblestone del Nether, y un bloque de construcción elegante",
+    "difficulty": "Principiante",
+    "quickAnswer": "La lava que fluye a un espacio sobre soul soil, junto a blue ice, se convierte en basalt. Un bucket de lava, un bloque de soul soil y uno de blue ice: piedra del Nether infinita sin viajes a las basalt deltas.",
+    "mechanics": [
+      "La receta es exacta: la lava debe fluir a un espacio de bloque que esté directamente encima de soul soil Y adyacente a blue ice; la lava que fluye es sustituida por basalt.",
+      "Solo la lava que fluye se convierte; un bloque fuente de lava está a salvo y no necesita protección como en los generadores de cobblestone: aquí no existe el modo fallo de obsidian.",
+      "La blue ice es el ingrediente a acumular: nunca se derrite, se mina con Silk Touch y se craftea 9:1 desde packed ice; un viaje a un bioma de icebergs te surte para siempre.",
+      "La soul soil viene de las soul sand valleys: un bloque basta; nunca se consume.",
+      "El generador funciona en cualquier dimensión, lo que lo convierte en la forma cómoda desde el Overworld de producir basalt en masa para construcciones."
+    ],
+    "materials": [
+      "1 lava bucket",
+      "1 bloque de soul soil (soul sand valley)",
+      "1 bloque de blue ice (Silk Touch en icebergs, o 9 packed ice crafteados)",
+      "Bloques de construcción para el marco",
+      "Un pickaxe: Efficiency recomendado, el basalt es más duro que el cobblestone"
+    ],
+    "steps": [
+      "Coloca la soul soil en el suelo del marco.",
+      "Coloca la blue ice junto al espacio donde se formará el basalt: un bloque al lado, a la misma altura.",
+      "Pon la fuente de lava un bloque por encima de ese espacio para que caiga en el hueco: la lava que toca el punto sobre soul soil y junto a blue ice se convierte en basalt.",
+      "Mina el basalt; la lava vuelve a fluir y un bloque nuevo se forma al momento.",
+      "Ponte a un lado, no sobre el bloque de generación: basalt bajo tus pies más lava sobre tu cabeza es una mala mañana.",
+      "Extiende en filas: una fuente de lava por columna, y un muro de generadores llena un double chest mientras charlas.",
+      "Mina la blue ice solo con Silk Touch: cualquier otra cosa la rompe en nada.",
+      "Usa la producción: el polished basalt (stonecutter) es una de las texturas de pilar más limpias del juego."
+    ],
+    "rates": "La generación manual da aproximadamente un stack cada minuto o dos por columna: más lento que el cobblestone porque el basalt es más duro, pero infinito una vez construido. Cada columna cuesta una fuente de lava; nada más se consume.",
+    "tips": [
+      "Lleva un lava bucket de repuesto: el diseño es a prueba de obsidian pero no a prueba de derrames.",
+      "El Silk Touch es innegociable para mover blue ice: craftéala de 9 packed ice si minar icebergs te parece arriesgado.",
+      "El basalt tiene más resistencia a explosiones que el cobblestone: legítimamente útil para muros en zonas de creepers.",
+      "Combínalo con un camino de soul speed sobre soul soil: la sala del generador se convierte en el pasillo más rápido de la base."
+    ]
+  },
+  "snow-farm": {
+    "produces": "Snow layers para palear en snowballs y luego snow blocks, más un guardaespaldas que apedrea mobs",
+    "difficulty": "Principiante",
+    "quickAnswer": "Un snow golem quieto en un punto cubre el suelo a su alrededor de snow layers. Palea las layers para conseguir snowballs, craftéalas en snow blocks: nieve infinita con dos snow blocks y una carved pumpkin.",
+    "mechanics": [
+      "Los snow golems dejan un rastro de snow layers al moverse: en Java en cualquier bioma; en Bedrock solo fuera de los biomas calientes (jungles, savannas, deserts, badlands, mushroom fields y el Nether quedan excluidos ahí).",
+      "Confinado a un solo bloque, el golem sigue depositando nieve en cada bloque que la soporte a su alcance: un corral de 1 bloque con tapa de trapdoor es el diseño clásico.",
+      "Palear una snow layer da una snowball por capa; con una shovel con Efficiency minas la capa del borde del corral casi tan rápido como se forma: el golem la repone constantemente.",
+      "Ojo a la temperatura: los golems reciben daño y mueren con lluvia, agua y biomas de más de 1.0 (deserts, badlands, el Nether); construye la granja en un bioma templado o frío, o bajo techo.",
+      "mobGriefing en false desactiva el rastro de nieve: revisa la gamerule si tu golem se niega a producir.",
+      "Extra: los golems lanzan una snowball por segundo a cualquier monstruo en 10 bloques (16 si están encerrados), y las snowballs dañan a los blazes: daño gratis a los blazes en las salidas al Nether."
+    ],
+    "materials": [
+      "2 snow blocks + 1 carved pumpkin (o jack o'lantern) por golem",
+      "Bloques y una trapdoor para el corral",
+      "Una shovel: Efficiency de diamante o netherite, idealmente Unbreaking/Mending",
+      "Un techo si tu bioma tiene lluvia",
+      "Opcional: shovel con Silk Touch para recoger las layers enteras"
+    ],
+    "steps": [
+      "Construye el golem: dos snow blocks apilados, carved pumpkin encima; cobra vida al instante.",
+      "Enciérralo en un bloque: un corral de 1x1 con tapa de trapdoor o slab lo mantiene plantado mientras su nieve se extiende por los bordes.",
+      "Dale suelo: bloques sólidos que soporten nieve alrededor y bajo los bordes del corral.",
+      "Palea las layers: ponte en el corral y mina la nieve a medida que aparece; las snowballs llegan más rápido de lo que la mayoría de usos necesitan.",
+      "Techa la granja en biomas lluviosos: el agua daña al golem, y un golem muerto solo suelta 0-15 snowballs una vez.",
+      "Craftea: 4 snowballs hacen un snow block: almacenamiento, construcción y más golems.",
+      "Evita los biomas calientes: deserts, savannas, badlands y el Nether matan a los golems; en Bedrock además se niegan a dejar nieve ahí.",
+      "Dota a tu base: un par de golems enjaulados junto al muro repelen y distraen zombies toda la noche gratis."
+    ],
+    "rates": "Un golem enjaulado con una buena shovel da alrededor de un stack de snowballs por minuto de paleo activo: efectivamente infinito, y la única nieve renovable del juego.",
+    "tips": [
+      "Las shovels con Silk Touch recogen las layers enteras para reensamblar snow blocks al instante: las snowballs son para craftear, las layers para constructores perezosos.",
+      "La pumpkin debe ser carved: pásale antes las shears a una pumpkin normal, o usa directamente un jack o'lantern.",
+      "En Bedrock, mantén la granja también lejos de jungles y mushroom fields: las reglas del rastro difieren ahí.",
+      "Las snow layers se apilan hasta 8 para una capa de altura de bloque completo: decorativo, y frena ligeramente a los mobs."
+    ]
   }
 }
