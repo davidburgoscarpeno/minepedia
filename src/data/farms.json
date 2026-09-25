@@ -1256,5 +1256,120 @@
    "Never break a bush to harvest: breaking stage 3 or 4 also yields berries (Fortune adds up to +1 per level) but costs you the plant."
   ],
   "keywords": "sweet berry farm minecraft, how to grow sweet berries, fox berry farm, minecraft berry bush light level, sweet berries uses"
+ },
+ {
+  "slug": "glow-squid-farm",
+  "name": "Glow Squid Farm",
+  "produces": "Glow ink sacs for glowing sign text and glow item frames",
+  "difficulty": "Intermediate",
+  "editions": "java-bedrock-different",
+  "quickAnswer": "Glow squid spawn in total darkness in water below Y=30 in the Overworld. Build a dark water chamber in a deep cave, flush the squid into a kill chute, and collect 1-3 glow ink sacs each - more with Looting.",
+  "mechanics": [
+   "Java spawning: schools of 4-6 in water at light level 0, below Y=30, in any Overworld biome except deep dark and sulfur caves. Bedrock: schools of 2-4 in underground water from Y=-64 to Y=30.",
+   "Unlike other aquatic mobs they need no water above or below the spawn space - a bare water pocket in darkness is enough.",
+   "Drops: 1-3 glow ink sacs, plus 0-1 more per Looting level - Looting III pays off here.",
+   "They cannot breed and babies drop nothing - 5% of spawns are babies.",
+   "They suffocate after 15 seconds out of water, so a dry kill floor finishes them hands-free.",
+   "Guardians, elder guardians and axolotls hunt glow squid - keep the farm away from monuments and axolotl pools, or weaponize an axolotl as the killer."
+  ],
+  "materials": [
+   "Building blocks for a dark chamber below Y=30 (deep caves or dug-out rooms)",
+   "Water buckets for the spawn floors and flush currents",
+   "Signs or trapdoors to channel water flows",
+   "Hoppers and chests; a Looting III sword if you kill by hand",
+   "Torches - to light every surrounding cave and force spawns into your chamber"
+  ],
+  "steps": [
+   "Find or dig a chamber below Y=30 - a natural deep cave water pocket is the cheapest start.",
+   "Build wide, shallow water floors (1-2 blocks deep) in pitch darkness: every valid block spawns squid.",
+   "Angle the floors so a timed flush (pistons releasing water) sweeps squid into a central chute.",
+   "Drop them onto a dry floor: out of water they suffocate in 15 seconds and drop their sacs onto hoppers.",
+   "Light every cave and water pocket around the farm - spawns you deny outside are spawns you get inside.",
+   "AFK at the collection point; on Java the schools of 4-6 make each spawn cycle generous."
+  ],
+  "rates": "A lit, dedicated dark chamber below Y=30 produces a steady stream of 4-6-squid schools on Java; expect stacks of glow ink sacs per hour, more with Looting.",
+  "tips": [
+   "Glow ink on a sign makes the text glow - and glow item frames make map walls and item labels pop.",
+   "Avoid building under sulfur caves or deep dark: both biomes block glow squid spawns entirely.",
+   "They relight 5 seconds after being harmed - cosmetic only, but pretty in an aquarium build.",
+   "On Bedrock, check single-layer water: squid can orient into the air and suffocate where you did not plan a kill floor."
+  ],
+  "keywords": "glow squid farm minecraft, glow ink sac farm, where do glow squid spawn, minecraft glowing sign text, glow item frame"
+ },
+ {
+  "slug": "bone-meal-farm",
+  "name": "Bone Meal Farm (Moss Composter Loop)",
+  "produces": "Bone meal for instant crop growth, tree farming and dye crafting - the farm that feeds your other farms",
+  "difficulty": "Beginner",
+  "editions": "both",
+  "quickAnswer": "Bone-meal a moss block sitting in a stone platform: the moss spreads and sprouts vegetation, you hoe it all up, and composting the harvest returns more bone meal than you spent - about 2.5 back per 1 used on a flat 7x7 grid.",
+  "mechanics": [
+   "Bone meal on a moss block converts nearby stone, dirt and similar blocks to moss in a cornerless 7x11x7 volume, and sprouts grass, moss carpet and azaleas on top.",
+   "The loop is net-positive: one bone meal on a flat 7x7 grid of convertible blocks yields about 27 moss blocks on average, which compost into roughly 2.5 bone meal.",
+   "A composter that fills completely drops one bone meal on the next use - leaves, vines, grass and most plant items all feed it.",
+   "A hoe insta-mines moss blocks - a diamond or netherite hoe clears a whole platform in seconds.",
+   "Other renewable sources: skeletons drop bones (3 bone meal each when crafted), and a bone block uncrafts into 9 bone meal.",
+   "Dispensers can apply bone meal to the moss for you - full automation is a dispenser, a stone-pushing piston feed and a composter."
+  ],
+  "materials": [
+   "1 moss block (lush caves, or shipwreck and wandering trader supply)",
+   "A platform of stone (or any moss-replaceable block), 7x7 minimum",
+   "A composter (7 slabs) and a chest",
+   "A hoe - diamond or netherite with Efficiency for speed",
+   "A few bone meal to start the loop"
+  ],
+  "steps": [
+   "Build a flat 7x7 stone platform with a moss block in the center and a composter nearby.",
+   "Use bone meal on the moss: stone turns to moss, vegetation sprouts on top.",
+   "Hoe the whole platform - moss and plants pop instantly.",
+   "Feed everything into the composter; each full cycle returns ~2.5 bone meal per bone meal spent.",
+   "Bank the profit and reinvest one per cycle - the loop runs forever.",
+   "Automate later: a dispenser applies the bone meal, pistons push fresh stone in, hoppers feed the composter."
+  ],
+  "rates": "Each manual cycle of bone-meal, hoe and compost takes under a minute and profits ~1.5 bone meal; an automated moss farm produces thousands per hour - enough to bone-meal every crop you own.",
+  "tips": [
+   "Keep one bone meal in reserve - the loop only breaks if you spend the last one.",
+   "Azaleas that sprout are a bonus: bone-meal them for flowering azalea trees and rooted dirt.",
+   "Pair this farm with your tree farm and nether wart is the only crop left that refuses bone meal.",
+   "On a skyblock-style start, the wandering trader sells moss for emeralds - the whole economy in one trade."
+  ],
+  "keywords": "bone meal farm minecraft, moss bone meal farm, composter loop, infinite bone meal, minecraft moss farm"
+ },
+ {
+  "slug": "amethyst-farm",
+  "name": "Amethyst Farm",
+  "produces": "Amethyst shards for spyglasses, tinted glass, calibrated sculk sensors and amethyst blocks",
+  "difficulty": "Intermediate",
+  "editions": "both",
+  "quickAnswer": "Find an amethyst geode, clear space around every budding amethyst block, and harvest the mature clusters with a Fortune III pickaxe - about 8.8 shards per cluster on average. Budding amethyst cannot be moved, so the farm is built where the geode spawned.",
+  "mechanics": [
+   "Budding amethyst (8.3% of a geode's inner layer) grows buds on its six faces: 20% chance per random tick on a random face, through small, medium and large bud to a full cluster - about 2 hours 16 minutes per full cycle on average.",
+   "The budding block itself is unobtainable and immovable: it drops nothing, Silk Touch does not help, and a piston destroys it. Never touch it.",
+   "Harvest math: a mature cluster mined with a pickaxe drops 4 shards - Fortune III raises the average to 8.8 (up to 16). Breaking by hand or piston yields only 2, so piston automation sacrifices three quarters of the yield.",
+   "Only full clusters drop shards - small, medium and large buds drop nothing unless Silk-Touched as blocks.",
+   "Buds grow in air or still water (Bedrock also in flowing water), so keep the faces around each budding block clear."
+  ],
+  "materials": [
+   "An amethyst geode - spherical structures underground (Y=30 to bedrock), often cutting through caves and aquifers",
+   "A Fortune III pickaxe (the whole point of the farm)",
+   "Building blocks to wall off and light the geode",
+   "Optional: pistons and observers for low-effort (low-yield) automation"
+  ],
+  "steps": [
+   "Locate a geode: explore caves below Y=30 and listen for the chime, or branch-mine until smooth basalt gives way to calcite and amethyst.",
+   "Crack it open and mark every budding amethyst block - those faces are your crop.",
+   "Clear blocks so every budding face has air in front of it; remove lava and water flows that block growth.",
+   "Wall off the geode and light it to stop mob spawns - you will AFK here.",
+   "Wait out the ~2.3-hour cycle, then harvest only the full clusters with your Fortune III pickaxe.",
+   "Optional semi-automation: observers on budding faces fire pistons that break mature clusters - convenient, but remember pistons pay only 2 shards against Fortune III's 8.8."
+  ],
+  "rates": "A typical geode exposes 10-20 budding blocks; harvested by hand with Fortune III each full cycle yields roughly 1.5-3 stacks of shards - several geodes chained together supply unlimited tinted glass.",
+  "tips": [
+   "Mark harvest time with a clock or daylight sensor near your AFK spot - clusters at bud stage are worth zero.",
+   "Silk Touch collects the clusters and buds as blocks for decoration; it is the only way to move them.",
+   "Tinted glass blocks light completely while staying transparent - the best window block for mob farms.",
+   "If you find multiple geodes close together, connect them into one harvest circuit."
+  ],
+  "keywords": "amethyst farm minecraft, budding amethyst, how to farm amethyst shards, amethyst geode, fortune amethyst cluster"
  }
 ]

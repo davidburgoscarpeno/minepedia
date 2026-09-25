@@ -1124,5 +1124,108 @@
    "Los mobs en minecarts no reciben daño del bush al atravesarlo: los raíles hacen caminos seguros por tu propio seto.",
    "Nunca rompas un bush para cosechar: romper en fase 3 o 4 también da berries (Fortune suma hasta +1 por nivel) pero te cuesta la planta."
   ]
+ },
+ "glow-squid-farm": {
+  "produces": "Glow ink sacs para texto brillante en signs y glow item frames",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Las glow squid aparecen en oscuridad total en agua por debajo de Y=30 en el Overworld. Construye una cámara de agua oscura en una cueva profunda, arrastra las squids a un conducto de muerte y recoge 1-3 glow ink sacs cada una, más con Looting.",
+  "mechanics": [
+   "Aparición en Java: bancos de 4-6 en agua a nivel de luz 0, bajo Y=30, en cualquier bioma del Overworld excepto deep dark y sulfur caves. En Bedrock: bancos de 2-4 en agua subterránea de Y=-64 a Y=30.",
+   "A diferencia de otros mobs acuáticos, no necesitan agua por encima ni por debajo del espacio de aparición: basta una bolsa de agua en la oscuridad.",
+   "Drops: 1-3 glow ink sacs, más 0-1 extra por nivel de Looting: Looting III renta aquí.",
+   "No pueden criar y las crías no dan nada: el 5% de las apariciones son bebés.",
+   "Se asfixian tras 15 segundos fuera del agua, así que un suelo seco de ejecución las remata sin intervención.",
+   "Los guardians, elder guardians y axolotls cazan glow squid: mantén la granja lejos de monuments y charcas de axolotls, o usa un axolotl como asesino."
+  ],
+  "materials": [
+   "Bloques de construcción para una cámara oscura bajo Y=30 (cuevas profundas o salas excavadas)",
+   "Water buckets para los suelos de aparición y las corrientes de barrido",
+   "Signs o trapdoors para encauzar los flujos de agua",
+   "Hoppers y chests; una sword con Looting III si matas a mano",
+   "Torches: para iluminar todas las cuevas cercanas y forzar las apariciones en tu cámara"
+  ],
+  "steps": [
+   "Encuentra o excava una cámara bajo Y=30: una bolsa de agua natural en una cueva profunda es el inicio más barato.",
+   "Construye suelos de agua anchos y poco profundos (1-2 bloques) en oscuridad total: cada bloque válido genera squids.",
+   "Inclina los suelos para que un barrido temporizado (pistons soltando agua) empuje las squids a un conducto central.",
+   "Déjalas caer sobre un suelo seco: fuera del agua se asfixian en 15 segundos y sueltan sus sacs sobre hoppers.",
+   "Ilumina todas las cuevas y bolsas de agua alrededor de la granja: las apariciones que niegas fuera son apariciones que ganas dentro.",
+   "Quédate AFK en el punto de recolección; en Java los bancos de 4-6 hacen generoso cada ciclo de aparición."
+  ],
+  "rates": "Una cámara oscura dedicada e iluminada alrededor bajo Y=30 produce un goteo constante de bancos de 4-6 squids en Java; espera stacks de glow ink sacs por hora, más con Looting.",
+  "tips": [
+   "La glow ink en una sign hace que el texto brille, y los glow item frames hacen resaltar paredes de mapas y etiquetas de ítems.",
+   "Evita construir bajo sulfur caves o deep dark: ambos biomas bloquean por completo las apariciones de glow squid.",
+   "Tardan 5 segundos en volver a brillar tras recibir daño: solo cosmético, pero precioso en un acuario.",
+   "En Bedrock, cuidado con el agua de una sola capa: las squids pueden orientarse hacia el aire y asfixiarse donde no planeaste un suelo de ejecución."
+  ]
+ },
+ "bone-meal-farm": {
+  "produces": "Bone meal para crecimiento instantáneo de cultivos, granjas de árboles y fabricación de dyes: la granja que alimenta a tus otras granjas",
+  "difficulty": "Principiante",
+  "quickAnswer": "Echa bone meal a un moss block en una plataforma de stone: el moss se extiende y brota vegetación, lo recoges todo con una hoe, y compostar la cosecha devuelve más bone meal del que gastaste: unas 2,5 por cada 1 usado en una rejilla plana de 7x7.",
+  "mechanics": [
+   "El bone meal sobre un moss block convierte los bloques cercanos de stone, dirt y similares en moss en un volumen sin esquinas de 7x11x7, y hace brotar grass, moss carpet y azaleas encima.",
+   "El bucle es neto positivo: un bone meal en una rejilla plana de 7x7 de bloques convertibles rinde unos 27 moss blocks de media, que se compostan en aproximadamente 2,5 bone meal.",
+   "Un composter que se llena por completo suelta un bone meal al siguiente uso: leaves, vines, grass y casi todo ítem vegetal lo alimentan.",
+   "Una hoe mina los moss blocks al instante: una hoe de diamond o netherite limpia una plataforma entera en segundos.",
+   "Otras fuentes renovables: los skeletons sueltan bones (3 bone meal cada uno al fabricarlo), y un bone block se desfabrica en 9 bone meal.",
+   "Los dispensers pueden aplicar el bone meal al moss por ti: la automatización completa es un dispenser, pistons empujando stone nueva y un composter."
+  ],
+  "materials": [
+   "1 moss block (lush caves, o shipwrecks y wandering traders)",
+   "Una plataforma de stone (o cualquier bloque reemplazable por moss), 7x7 mínimo",
+   "Un composter (7 slabs) y un chest",
+   "Una hoe: de diamond o netherite con Efficiency para velocidad",
+   "Unos pocos bone meal para arrancar el bucle"
+  ],
+  "steps": [
+   "Construye una plataforma plana de stone de 7x7 con un moss block en el centro y un composter cerca.",
+   "Usa bone meal en el moss: la stone se convierte en moss y brota vegetación encima.",
+   "Pasa la hoe por toda la plataforma: el moss y las plantas saltan al instante.",
+   "Échalo todo al composter; cada ciclo completo devuelve ~2,5 bone meal por bone meal gastado.",
+   "Guarda el beneficio y reinvierte uno por ciclo: el bucle funciona para siempre.",
+   "Automatiza después: un dispenser aplica el bone meal, los pistons empujan stone nueva y los hoppers alimentan el composter."
+  ],
+  "rates": "Cada ciclo manual de bone meal, hoe y compost tarda menos de un minuto y da un beneficio de ~1,5 bone meal; una granja de moss automatizada produce miles por hora: suficiente para echar bone meal a cada cultivo que tengas.",
+  "tips": [
+   "Guarda siempre un bone meal de reserva: el bucle solo se rompe si gastas el último.",
+   "Las azaleas que brotan son un extra: échales bone meal para flowering azalea trees y rooted dirt.",
+   "Combina esta granja con tu tree farm y el nether wart es el único cultivo que se resiste al bone meal.",
+   "En un inicio tipo skyblock, el wandering trader vende moss por emeralds: toda la economía en un trade."
+  ]
+ },
+ "amethyst-farm": {
+  "produces": "Amethyst shards para spyglasses, tinted glass, calibrated sculk sensors y bloques de amethyst",
+  "difficulty": "Intermedia",
+  "quickAnswer": "Encuentra una amethyst geode, despeja el espacio alrededor de cada budding amethyst y cosecha los clusters maduros con un pickaxe con Fortune III: unas 8,8 shards por cluster de media. El budding amethyst no se puede mover, así que la granja se construye donde apareció la geode.",
+  "mechanics": [
+   "El budding amethyst (el 8,3% de la capa interior de una geode) hace crecer buds en sus seis caras: 20% de probabilidad por random tick en una cara aleatoria, pasando por bud pequeño, mediano y grande hasta el cluster completo: unas 2 horas y 16 minutos por ciclo completo de media.",
+   "El bloque budding es inobtenible e inamovible: no suelta nada, Silk Touch no ayuda, y un piston lo destruye. Nunca lo toques.",
+   "La matemática de la cosecha: un cluster maduro minado con pickaxe suelta 4 shards; Fortune III sube la media a 8,8 (hasta 16). Romperlo a mano o con piston da solo 2, así que la automatización con pistons sacrifica tres cuartas partes del rendimiento.",
+   "Solo los clusters completos sueltan shards: los buds pequeños, medianos y grandes no sueltan nada salvo que los mines con Silk Touch como bloques.",
+   "Los buds crecen en aire o agua quieta (en Bedrock también en agua en movimiento), así que mantén despejadas las caras de cada bloque budding."
+  ],
+  "materials": [
+   "Una amethyst geode: estructuras esféricas subterráneas (de Y=30 al bedrock), a menudo cortando cuevas y acuíferos",
+   "Un pickaxe con Fortune III (todo el sentido de la granja)",
+   "Bloques de construcción para cercar e iluminar la geode",
+   "Opcional: pistons y observers para automatización de poco esfuerzo (y bajo rendimiento)"
+  ],
+  "steps": [
+   "Localiza una geode: explora cuevas bajo Y=30 escuchando el tintineo, o haz branch-mining hasta que el smooth basalt dé paso a calcite y amethyst.",
+   "Ábrela y marca cada bloque de budding amethyst: esas caras son tu cultivo.",
+   "Despeja bloques para que cada cara budding tenga aire delante; retira lava y corrientes de agua que bloqueen el crecimiento.",
+   "Cierra la geode e ilumínala para frenar apariciones de mobs: vas a hacer AFK aquí.",
+   "Espera el ciclo de ~2,3 horas y cosecha solo los clusters completos con tu pickaxe de Fortune III.",
+   "Semi-automatización opcional: observers en las caras budding disparan pistons que rompen los clusters maduros; cómodo, pero recuerda que los pistons pagan solo 2 shards frente a las 8,8 de Fortune III."
+  ],
+  "rates": "Una geode típica expone 10-20 bloques budding; cosechada a mano con Fortune III cada ciclo completo rinde aproximadamente 1,5-3 stacks de shards: varias geodes encadenadas dan tinted glass ilimitado.",
+  "tips": [
+   "Marca la hora de cosecha con un clock o un daylight sensor cerca de tu punto AFK: los clusters en fase bud valen cero.",
+   "Silk Touch recoge clusters y buds como bloques para decoración; es la única forma de moverlos.",
+   "El tinted glass bloquea la luz por completo siendo transparente: el mejor bloque de ventana para granjas de mobs.",
+   "Si encuentras varias geodes cercanas, conéctalas en un solo circuito de cosecha."
+  ]
  }
 }
