@@ -13612,5 +13612,121 @@
    }
   ],
   "keywords": "pesca minecraft, cómo pescar minecraft, tabla botín pesca, tesoros pesca minecraft, luck of the sea, aguas abiertas minecraft"
+ },
+ "how-to-make-armor-stand": {
+  "name": "Cómo hacer un Armor Stand en Minecraft",
+  "shortTitle": "Hacer un Armor Stand",
+  "quickAnswer": "Fabrica 6 sticks alrededor de una smooth stone slab: sticks en la fila superior, uno en el centro y la slab abajo en el medio flanqueada por dos sticks más. Los armor stands exhiben armaduras, elytra, mob heads y carved pumpkins, y en Bedrock vienen con brazos y 13 poses intercambiables.",
+  "steps": [
+   "Consigue 6 sticks (cualquier planks) y funde stone en smooth stone para fabricar 1 smooth stone slab.",
+   "Fabrícalo: sticks en toda la fila superior, un stick en el centro y la smooth stone slab abajo en el medio con un stick a cada lado.",
+   "Colócalo: puede mirar en 8 orientaciones distintas según dónde hagas clic.",
+   "Haz clic derecho con armadura, una elytra, una mob head o una carved pumpkin para equiparlo; haz clic en la pieza para recuperarla.",
+   "En Bedrock, agáchate + clic derecho para recorrer las 13 poses, o aliméntalo con redstone para animarlo.",
+   "Usa un dispenser apuntando al stand para equipar armadura automáticamente: ideal para estaciones de cambio rápido."
+  ],
+  "materials": [
+   "6 sticks (3 planks de cualquier madera)",
+   "1 smooth stone slab (funde cobblestone dos veces: cobblestone -> stone -> smooth stone, y 3 en fila para slabs)"
+  ],
+  "editionNote": "Gran diferencia entre ediciones: en Bedrock los armor stands tienen brazos por defecto, pueden sujetar objetos y shields, y cambian entre 13 poses agachándote o con redstone. En Java no tienen brazos salvo que se invoquen con el tag NBT ShowArms, y las poses requieren comandos. Equipar armadura a mano funciona igual en ambas.",
+  "versions": "Añadido en la 1.8 (Bountiful Update, 14w32a) en Java y en Bedrock 1.2.0 (Better Together). Los brazos y las poses de Bedrock están desde el lanzamiento de esa edición.",
+  "faq": [
+   {
+    "q": "¿Cómo se le ponen brazos a un armor stand en Java?",
+    "a": "Solo con comandos: invócalo con el tag NBT ShowArms en 1 (por ejemplo /summon armor_stand ~ ~ ~ {ShowArms:1b}). En Bedrock todos los armor stands tienen brazos por defecto."
+   },
+   {
+    "q": "¿Pueden los armor stands sujetar armas y herramientas?",
+    "a": "En Bedrock sí: cualquier objeto va a su mano con clic derecho. En Java un stand sin brazos no puede sujetar objetos; con comandos se le puede equipar cualquier cosa en las manos."
+   },
+   {
+    "q": "¿Se rompen los armor stands?",
+    "a": "Se rompen de dos golpes y se sueltan junto con todo lo que llevaran puesto. El agua y la lava los empujan como a entidades, y en Java son técnicamente una entidad, no un bloque."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/villager/",
+    "label": "Guía del mob Villager"
+   }
+  ],
+  "keywords": "armor stand minecraft, cómo hacer armor stand, receta armor stand, armor stand brazos, poses armor stand bedrock, exponer armadura minecraft"
+ },
+ "how-to-get-glow-ink": {
+  "name": "Cómo conseguir Glow Ink Sacs en Minecraft",
+  "shortTitle": "Conseguir Glow Ink Sacs",
+  "quickAnswer": "Mata glow squids, los mobs brillantes que aparecen en oscuridad total bajo el agua, sobre todo en acuíferos y lagos de cuevas. Cada uno suelta 1-3 glow ink sacs, que hacen brillar el texto de los signs en la oscuridad y se fabrican en glow item frames.",
+  "steps": [
+   "Encuentra un acuífero o una poza subterránea en oscuridad total: los glow squids aparecen bajo el nivel del mar donde no llega la luz, sobre todo en lush caves y lagos profundos de cuevas.",
+   "Mata glow squids: cada uno suelta 1-3 glow ink sacs (más con Looting).",
+   "Usa una glow ink sac directamente sobre un sign o hanging sign para que su texto brille con un contorno: se lee en oscuridad total.",
+   "Vuelve al texto normal cuando quieras usando un ink sac normal sobre el mismo sign.",
+   "Fabrica glow item frames: 1 item frame + 1 glow ink sac hace que lo que expongas brille.",
+   "Farméalos: los glow squids reaparecen en agua oscura, así que una piscina oscura contenida se convierte en fuente renovable de tinta."
+  ],
+  "materials": [
+   "Un plan de respiración acuática (doors, pociones o un conduit) para cazar bajo el agua",
+   "Cualquier arma: los glow squids tienen 10 de vida y no atacan",
+   "Opcional: espada con Looting III para sacos extra"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock: mismos drops, mismo comportamiento en los signs y misma receta de glow item frame. El brillo es solo visibilidad: ni el texto ni el contenido de los glow frames emiten luz real ni impiden que aparezcan mobs.",
+  "versions": "Añadido en la 1.17 (Caves & Cliffs Parte I, 21w03a) junto al glow squid, ganador de la votación de mobs de Minecraft Live 2020. El brillo en hanging signs llegó con el ciclo de la 1.20.",
+  "faq": [
+   {
+    "q": "¿Dónde aparecen los glow squids?",
+    "a": "En agua en oscuridad completa, bajo la superficie: acuíferos subterráneos, lagos de cuevas y el agua de las lush caves. Si ves puntitos brillantes a la deriva en agua oscura, son ellos."
+   },
+   {
+    "q": "¿La glow ink ilumina la zona?",
+    "a": "No. El texto brillante de los signs y el contenido de los glow item frames se ven más claros y con contorno para leerlos en la oscuridad, pero no emiten luz y los mobs pueden seguir apareciendo cerca."
+   },
+   {
+    "q": "¿Cómo se hace texto brillante en un sign?",
+    "a": "Escribe el sign con normalidad y luego haz clic derecho con una glow ink sac. Un ink sac normal lo devuelve al estado original."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/mobs/glow-squid/",
+    "label": "Guía del mob Glow Squid"
+   }
+  ],
+  "keywords": "glow ink sac minecraft, cómo conseguir glow ink, glow squid, texto brillante sign, receta glow item frame, granja glow ink"
+ },
+ "how-to-make-painting": {
+  "name": "Cómo hacer un Painting en Minecraft",
+  "shortTitle": "Hacer un Painting",
+  "quickAnswer": "Fabrica 8 sticks alrededor de cualquier wool: el color de la wool da igual. Al colocar un painting, Minecraft elige una obra aleatoria del mayor tamaño que quepa en la pared, así que tapiando partes de la pared puedes forzar exactamente el cuadro que quieres.",
+  "steps": [
+   "Fabrica 8 sticks (cualquier planks) y esquila o fabrica 1 wool de cualquier color.",
+   "Fabrica el painting: sticks en todos los huecos menos el central, que lleva la wool.",
+   "Colócalo en una pared: elegirá un lienzo aleatorio del mayor tamaño que quepa en el espacio libre.",
+   "Para forzar un tamaño concreto, tapia la pared: coloca bloques de modo que solo queden libres las dimensiones exactas que quieres y coloca el painting en ese hueco.",
+   "Rómpelo y vuelve a colocarlo para cambiar la obra dentro de ese tamaño.",
+   "Usa un painting grande como puerta oculta: colócalo sobre un hueco de 2 bloques de alto apoyado en signs y podrás atravesarlo caminando."
+  ],
+  "materials": [
+   "8 sticks (2 planks de cualquier madera)",
+   "1 wool de cualquier color (sheep o 4 string)"
+  ],
+  "editionNote": "Idéntico en Java y Bedrock: misma receta y mismo comportamiento de lienzo aleatorio. El inventario Creativo de Java además ofrece paintings predefinidos en la pestaña de Functional Blocks que siempre colocan la misma obra, útil si quieres un motivo concreto sin reintentos.",
+  "versions": "Los paintings son de las decoraciones más antiguas del juego, añadidos en febrero de 2010 durante Indev. La receta siempre ha sido sticks alrededor de wool (al principísimo llevaba planks). Hoy hay 47 paintings: 40 de Kristoffer Zetterstrand, 6 de Sarah Boeving y 1 de Jens Bergensten.",
+  "faq": [
+   {
+    "q": "¿Cómo consigo un painting concreto?",
+    "a": "Controla el espacio de la pared. El painting aparece en el mayor tamaño que quepa, así que tapia hasta dejar libre solo el tamaño buscado y recolócalo hasta que salga la obra que quieres."
+   },
+   {
+    "q": "¿Cuántos paintings hay en Minecraft?",
+    "a": "47, en tamaños de 1x1 a 4x4 bloques: 40 pintados por Kristoffer Zetterstrand, 6 por Sarah Boeving y 1 por Jens Bergensten."
+   },
+   {
+    "q": "¿Se puede atravesar un painting?",
+    "a": "Sí: los paintings son entidades, no bloques sólidos. Un painting cubriendo una puerta es la clásica entrada oculta, que sigue usándose en bases secretas hoy en día."
+   }
+  ],
+  "relatedLinks": [],
+  "keywords": "painting minecraft, cómo hacer painting, receta painting, tamaños painting minecraft, puerta secreta painting, cuántos paintings minecraft"
  }
 }

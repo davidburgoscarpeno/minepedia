@@ -14930,5 +14930,139 @@
    }
   ],
   "keywords": "fishing minecraft, how to fish minecraft, fishing loot table, fishing treasure, luck of the sea, open water fishing minecraft"
+ },
+ {
+  "slug": "how-to-make-armor-stand",
+  "name": "How to Make an Armor Stand in Minecraft",
+  "shortTitle": "Make an Armor Stand",
+  "quickAnswer": "Craft 6 sticks around a smooth stone slab: sticks across the top, one in the middle, the slab at bottom center flanked by two more sticks. Armor stands display armor sets, elytra, mob heads and carved pumpkins - and in Bedrock they come with arms and 13 switchable poses.",
+  "steps": [
+   "Gather 6 sticks (any planks) and smelt stone into smooth stone, then craft 1 smooth stone slab.",
+   "Craft the stand: sticks filling the top row, one stick in the center, and the smooth stone slab in the bottom-middle slot with a stick on each side.",
+   "Place the stand - it can face 8 different orientations depending on where you click.",
+   "Right-click with armor, an elytra, a mob head or a carved pumpkin to equip it; click the slot to take it back.",
+   "In Bedrock, sneak + right-click to cycle through the 13 poses, or power the stand with redstone to animate it.",
+   "Use a dispenser facing the stand to auto-equip armor - handy for quick-swap armor stations."
+  ],
+  "materials": [
+   "6 sticks (3 planks of any wood)",
+   "1 smooth stone slab (smelt cobblestone twice: cobblestone -> stone -> smooth stone, then 3 in a row for slabs)"
+  ],
+  "editionNote": "Big edition split: in Bedrock armor stands have arms by default, can hold items and shields, and switch between 13 poses by sneaking or with a redstone signal. In Java they are armless unless summoned with the ShowArms NBT tag, and posing needs commands. Equipping armor by hand works the same in both.",
+  "versions": "Added in 1.8 (the Bountiful Update, 14w32a) on Java and in Bedrock 1.2.0 (Better Together). Bedrock's arms and poses have been there since its launch on that edition.",
+  "faq": [
+   {
+    "q": "How do you give an armor stand arms in Java?",
+    "a": "Only with commands: summon it with the NBT tag ShowArms set to 1 (e.g. /summon armor_stand ~ ~ ~ {ShowArms:1b}). In Bedrock every armor stand has arms by default."
+   },
+   {
+    "q": "Can armor stands hold weapons and tools?",
+    "a": "In Bedrock, yes - any item goes in its hand with a right-click. In Java an armless stand cannot hold items; with commands you can equip anything in its hands."
+   },
+   {
+    "q": "Do armor stands break?",
+    "a": "They break in two hits and drop themselves plus whatever they were wearing. Water and lava push them around like entities, and in Java they are technically an entity, not a block."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-smooth-stone",
+   "how-to-get-elytra",
+   "how-to-make-item-frame"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/villager/",
+    "label": "Villager mob guide"
+   }
+  ],
+  "keywords": "armor stand minecraft, how to make armor stand, armor stand recipe, armor stand arms, armor stand poses bedrock, display armor minecraft"
+ },
+ {
+  "slug": "how-to-get-glow-ink",
+  "name": "How to Get Glow Ink Sacs in Minecraft",
+  "shortTitle": "Get Glow Ink Sacs",
+  "quickAnswer": "Kill glow squids - the glowing mobs that spawn in total darkness underwater, usually in aquifers and cave lakes. Each one drops 1-3 glow ink sacs, which make sign text glow in the dark and craft into glow item frames.",
+  "steps": [
+   "Find an aquifer or underground water pool in complete darkness - glow squids spawn below sea level where no light reaches, most commonly in lush caves and deep cave lakes.",
+   "Kill glow squids: each drops 1-3 glow ink sacs (more with Looting).",
+   "Use a glow ink sac directly on a sign or hanging sign to make its text glow with an outline - it stays readable in total darkness.",
+   "Revert glowing text any time by using a normal ink sac on the same sign.",
+   "Craft glow item frames: 1 item frame + 1 glow ink sac makes whatever you display shine.",
+   "Farm them: glow squids keep spawning in dark water, so a contained dark pool becomes a renewable ink source."
+  ],
+  "materials": [
+   "A water-breathing plan (doors, potions or a conduit) for hunting underwater",
+   "Any weapon - glow squids have 10 health and no attacks",
+   "Optional: Looting III sword for extra sacs"
+  ],
+  "editionNote": "Identical in Java and Bedrock: same drops, same glowing-sign behavior, same glow item frame recipe. The glow is visibility only - glowing text and glowing frame contents do not emit actual light and do not stop mob spawns.",
+  "versions": "Added in 1.17 (Caves & Cliffs Part I, 21w03a) alongside the glow squid, which won the 2020 Minecraft Live mob vote. Hanging sign support for glowing text arrived with the 1.20 content cycle.",
+  "faq": [
+   {
+    "q": "Where do glow squids spawn?",
+    "a": "In water in complete darkness, below the surface - underground aquifers, cave lakes and lush cave water. If you see glowing spots drifting in dark water, that is them."
+   },
+   {
+    "q": "Does glow ink light up an area?",
+    "a": "No. Glowing sign text and glow item frame contents are brighter and outlined so you can read them in the dark, but they emit no light and mobs can still spawn nearby."
+   },
+   {
+    "q": "How do you make glowing text on a sign?",
+    "a": "Write the sign normally, then right-click it with a glow ink sac. A normal ink sac switches it back."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-item-frame",
+   "how-to-make-lantern",
+   "how-to-make-torch"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/glow-squid/",
+    "label": "Glow Squid mob guide"
+   }
+  ],
+  "keywords": "glow ink sac minecraft, how to get glow ink, glow squid, glowing sign text, glow item frame recipe, glow ink farm"
+ },
+ {
+  "slug": "how-to-make-painting",
+  "name": "How to Make a Painting in Minecraft",
+  "shortTitle": "Make a Painting",
+  "quickAnswer": "Craft 8 sticks around any wool - the wool color does not matter. When you place a painting, Minecraft picks a random artwork in the largest size that fits the wall space, so blocking out parts of the wall lets you force exactly the painting you want.",
+  "steps": [
+   "Craft 8 sticks (any planks) and shear or craft 1 wool of any color.",
+   "Craft the painting: sticks filling every slot except the center, which takes the wool.",
+   "Place it on a wall - it picks a random canvas in the largest size that fits the free space.",
+   "To force a specific size, wall off the space: place blocks so only the exact dimensions you want are free, then place the painting in that gap.",
+   "Keep breaking and replacing it to reroll which artwork appears within that size.",
+   "Use a big painting as a hidden door: place it over a 2-block-high opening with signs supporting the edges and you can walk right through it."
+  ],
+  "materials": [
+   "8 sticks (2 planks of any wood)",
+   "1 wool of any color (sheep or 4 string)"
+  ],
+  "editionNote": "Identical in Java and Bedrock: same recipe, same random-canvas behavior. Java's Creative inventory also offers preset painting items in the Functional Blocks tab that always place the same artwork - useful for builders who want a specific motif without rerolling.",
+  "versions": "Paintings are one of the oldest decorations in the game, added in February 2010 during Indev. The recipe has always been sticks around wool (briefly planks at the very start). There are now 47 paintings in the game: 40 by Kristoffer Zetterstrand, 6 by Sarah Boeving and 1 by Jens Bergensten.",
+  "faq": [
+   {
+    "q": "How do I get a specific painting?",
+    "a": "Control the wall space. A painting spawns in the largest size that fits, so block the wall until only your target size is free, then place and reroll until the artwork you want appears."
+   },
+   {
+    "q": "How many paintings are in Minecraft?",
+    "a": "47, in sizes from 1x1 up to 4x4 blocks - 40 painted by Kristoffer Zetterstrand, 6 by Sarah Boeving and 1 by Jens Bergensten."
+   },
+   {
+    "q": "Can you walk through a painting?",
+    "a": "Yes - paintings are entities, not solid blocks. A painting covering a doorway makes the classic hidden entrance, still used in secret bases today."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-item-frame",
+   "how-to-make-bed",
+   "how-to-make-bookshelf"
+  ],
+  "relatedLinks": [],
+  "keywords": "painting minecraft, how to make painting, painting recipe, painting sizes minecraft, secret door painting, how many paintings minecraft"
  }
 ]
