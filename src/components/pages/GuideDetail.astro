@@ -89,7 +89,7 @@ const jsonLd = [
           if (isES && !tOv) return null;
           return <a href={L.guideHref(rel)} style="margin-right:12px">{tOv?.name ?? t.name}</a>;
         })}
-        {relatedLinks.map((l: any) => <a href={l.url} style="margin-right:12px">{l.label}</a>)}
+        {relatedLinks.map((l: any) => <a href={l.url ?? l.href} style="margin-right:12px">{l.label}</a>)}
       </p>
     )}
   </div>
