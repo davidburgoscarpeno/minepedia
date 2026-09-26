@@ -18692,5 +18692,172 @@
       "repair items minecraft",
       "too expensive anvil"
     ]
+  },
+  {
+    "slug": "how-to-make-a-mob-farm",
+    "name": "How to Make a Mob Farm",
+    "shortTitle": "Mob Farm",
+    "quickAnswer": "Build a dark room high in the air (or over the ocean) with spawning platforms and water channels that flush mobs into a central drop chute. Hostile mobs spawn at light level 0 within 128 blocks of you (Java), stay outside the 24-block no-spawn zone, and a 22-block drop leaves zombies and skeletons at one hit for easy XP.",
+    "steps": [
+      "Pick the spot. Hostile mobs spawn at light level 0 within a 128-block sphere around you (about 96 in Bedrock), but never within 24 blocks of you. Build the farm over deep ocean or 100+ blocks in the sky so you don't have to light up caves.",
+      "Build spawning platforms. Make 2-4 dark platforms (8x8 or larger, 2 blocks tall inside) with trapdoors on the edges - mobs think trapdoors are solid and walk off. Space platforms 3 blocks apart vertically.",
+      "Add water flushing. Water channels on each platform push mobs toward a central 2x2 hole. Signs or trapdoors hold the water at the chute edge. Button or slab any spots spiders could clog (they need a 3x3 space, so a 2-wide channel blocks them).",
+      "Build the kill chute. A 22-block drop leaves zombies, skeletons and creepers at half a heart - one punch kills for full XP. Add hoppers and chests at the bottom to collect drops automatically.",
+      "Light up everything else. The farm only works fast if it is the only dark spawnable space: slab or torch every cave and surface within your 128-block sphere, or AFK high above so caves are out of range."
+    ],
+    "materials": [
+      "Stacks of building blocks (cobblestone)",
+      "Water buckets + signs/trapdoors",
+      "Hoppers and chests",
+      "Torches/slabs for spawn-proofing"
+    ],
+    "editionNote": "Java: mobs spawn in a 128-block sphere and instantly despawn past 128 blocks, with a 24-block no-spawn bubble. Bedrock: the sphere is about 96 blocks at simulation distance 6+, despawning works differently, and rates are lower - Bedrock farms are usually built smaller.",
+    "versions": "Dark-room mob farms have worked since Classic. The 1.18 Caves & Cliffs update changed spawning to light level 0 (was 7), which made spawn-proofing far easier and dark-room farms more efficient.",
+    "faq": [
+      {
+        "q": "Why is my mob farm so slow?",
+        "a": "Almost always unlit caves below you absorbing the mob cap. AFK about 120 blocks above the farm floor, or spawn-proof every cave in range. Also check the difficulty is not Peaceful."
+      },
+      {
+        "q": "How high should the drop be?",
+        "a": "22 blocks to one-punch zombies, skeletons and creepers (they have 20 HP). Witches have 26 HP and spiders 16, so a few survive - or use 24+ blocks for a pure loot farm."
+      },
+      {
+        "q": "Do mob farms work in Bedrock?",
+        "a": "Yes, but rates are much lower. Build over an ocean, keep the simulation distance in mind, and consider a spawner-based farm instead - dungeons are far better in Bedrock."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-xp-fast",
+      "how-to-find-dungeon",
+      "how-to-make-an-iron-farm"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/monster-room/",
+        "label": "Monster Room"
+      },
+      {
+        "url": "/mobs/enderman/",
+        "label": "Enderman"
+      }
+    ],
+    "keywords": [
+      "mob farm",
+      "how to make a mob farm",
+      "xp farm",
+      "mob grinder",
+      "dark room farm minecraft"
+    ]
+  },
+  {
+    "slug": "how-to-make-an-iron-farm",
+    "name": "How to Make an Iron Farm",
+    "shortTitle": "Iron Farm",
+    "quickAnswer": "Trap 3 villagers with beds and workstations, place a zombie where they can see it but not reach it, and the panicking villagers summon iron golems. Spawn platforms funnel the golems into lava or a kill chamber with hoppers, producing stacks of iron per hour. Java and Bedrock designs differ, so follow one for your edition.",
+    "steps": [
+      "Understand the mechanic. In Java, villagers who panic at the sight of a hostile mob (or gossip in groups of 5) summon iron golems around themselves - as long as they have slept and worked recently. The golem spawns on solid blocks near the villagers.",
+      "Build the villager pod. Place 3 beds, 3 villagers and 3 workstations (fletching tables are cheap) in a small sealed room. They must be able to sleep at night and work by day - that's what keeps golems spawning.",
+      "Add the scare. Put a zombie (name-tagged so it never despawns) one block of sight away from the villagers, behind trapdoors or a piston system that periodically breaks line of sight so they can sleep. No direct path to them.",
+      "Build spawn platforms and a kill chamber. A solid platform around the pod with water streams pushes spawned golems into a lava blade or drop chute; hoppers below feed chests. Golems drop 3-5 iron and a poppy.",
+      "Keep it isolated. Build the farm at least 64 blocks from any other villager or village, and spawn-proof the surroundings so golems only spawn on your platform. Decorate with the poppies as a bonus."
+    ],
+    "materials": [
+      "3 villagers + 3 beds + 3 workstations",
+      "1 name-tagged zombie",
+      "Building blocks, water, lava, hoppers, chests",
+      "Name tag (anvil)"
+    ],
+    "editionNote": "Java uses the panic/gossip mechanic described here. Bedrock iron farms are different: they need 10 villagers, 20 beds, and 75% of villagers working, with golems spawning around the village center - follow a Bedrock-specific design for that edition.",
+    "versions": "Villager-summoned golem farming has existed since 1.8. The 1.16 update made golems spawn only after villagers sleep and work, killing the old 'door village' farms and standardizing the modern 3-villager panic design.",
+    "faq": [
+      {
+        "q": "Why did my iron farm stop working?",
+        "a": "The villagers can't sleep (zombie visible all night), can't reach workstations, or the zombie despawned or died. Name-tag the zombie and use a piston/trapdoor timer to break line of sight periodically."
+      },
+      {
+        "q": "How much iron does it make?",
+        "a": "A simple 3-villager Java farm produces roughly 300-400 iron per hour; stacked modules scale that up. Enough for beacons, anvils and hoppers forever."
+      },
+      {
+        "q": "Can I build it in the spawn chunks?",
+        "a": "Yes, and it will even run while you're away in Java. But the classic spot is near your base with an AFK platform above."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-breed-villagers",
+      "how-to-trade-villagers",
+      "how-to-make-a-mob-farm"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/piglin/",
+        "label": "Piglin"
+      },
+      {
+        "url": "/structures/village/",
+        "label": "Village"
+      }
+    ],
+    "keywords": [
+      "iron farm",
+      "how to make an iron farm",
+      "iron golem farm",
+      "free iron minecraft",
+      "iron farm java"
+    ]
+  },
+  {
+    "slug": "how-to-grow-wheat",
+    "name": "How to Grow Wheat",
+    "shortTitle": "Grow Wheat",
+    "quickAnswer": "Till grass or dirt next to water with a hoe (water hydrates farmland up to 4 blocks away), plant seeds from breaking tall grass, and wait - wheat grows through 8 stages in light level 9 or higher. Bone meal speeds it up, and jumping on the farmland turns it back to dirt, so fence it in.",
+    "steps": [
+      "Get seeds. Break tall grass - about 1 in 8 tufts drops wheat seeds. A few minutes of punching grass gives you a starting stack.",
+      "Hoe the farmland. Craft any hoe (wood is fine) and right-click dirt or grass blocks near water. One water block hydrates farmland up to 4 blocks away in every direction - the classic 9x9 plot with water in the middle.",
+      "Plant and light it. Right-click the farmland with seeds. Wheat only grows at light level 9 or higher, so plant outdoors in daylight or place torches around the field for night growth.",
+      "Speed it up with bone meal. Right-click bone meal on the crop to jump it forward several growth stages - 2-3 uses usually finishes it.",
+      "Harvest at stage 8. Fully grown wheat is tall and golden. Break it for 1 wheat plus 0-3 more seeds, replant immediately, and never jump on the field - trampled farmland reverts to dirt and pops the crop."
+    ],
+    "materials": [
+      "Wheat seeds (from tall grass)",
+      "Hoe (any tier)",
+      "Water bucket",
+      "Bone meal (optional)"
+    ],
+    "editionNote": "Java: crops need light level 9+ to grow and a seed planted without enough light pops out of the ground. Bedrock: crops need an internal light level of 9 and grow slightly slower. Rain does not hydrate farmland in either edition.",
+    "versions": "Wheat farming is as old as Minecraft - seeds and hoes arrived in February 2010 (Indev). The mechanics are nearly untouched since: hydration radius, 8 growth stages and trample protection with feather falling all still apply.",
+    "faq": [
+      {
+        "q": "Why won't my wheat grow?",
+        "a": "Not enough light (needs 9+ - torch it), no hydration within 4 blocks (farmland turns dry and brown), or something keeps jumping on the field. Fence it against animals."
+      },
+      {
+        "q": "Does wheat grow faster on hydrated soil?",
+        "a": "Yes - hydrated farmland grows crops about twice as fast and never reverts to dirt unless trampled."
+      },
+      {
+        "q": "What do I do with wheat?",
+        "a": "Craft bread (3 wheat in a row), breed cows and sheep (they follow wheat), make hay bales, cakes and cookies, or trade it to farmer villagers for emeralds."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-bread",
+      "how-to-breed-chickens",
+      "how-to-get-bone-meal"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/village/",
+        "label": "Village"
+      }
+    ],
+    "keywords": [
+      "how to grow wheat",
+      "wheat farm",
+      "wheat seeds minecraft",
+      "farming minecraft",
+      "grow crops"
+    ]
   }
 ]

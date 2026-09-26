@@ -16925,5 +16925,152 @@
       "reparar objetos minecraft",
       "too expensive anvil"
     ]
+  },
+  "how-to-make-a-mob-farm": {
+    "name": "Cómo hacer una granja de mobs",
+    "shortTitle": "Granja de Mobs",
+    "quickAnswer": "Construye una sala oscura en el aire (o sobre el océano) con plataformas de aparición y canales de agua que empujen a los mobs a un hueco central. Los mobs hostiles aparecen a nivel de luz 0 en un radio de 128 bloques (Java), quédate fuera de la zona de 24 bloques sin apariciones, y una caída de 22 bloques deja a zombies y esqueletos a un golpe para XP fácil.",
+    "steps": [
+      "Elige el lugar. Los mobs hostiles aparecen a nivel de luz 0 dentro de una esfera de 128 bloques a tu alrededor (~96 en Bedrock), pero nunca a menos de 24 bloques de ti. Construye sobre océano profundo o a más de 100 bloques de altura para no tener que iluminar cuevas.",
+      "Construye plataformas de aparición. Haz 2-4 plataformas oscuras (8x8 o más, 2 bloques de alto interior) con trampillas en los bordes: los mobs creen que son sólidas y se tiran. Separa las plataformas 3 bloques en vertical.",
+      "Añade canales de agua. El agua de cada plataforma empuja a los mobs hacia un hueco central de 2x2. Carteles o trampillas frenan el agua en el borde. Tapa con botones o slabs los huecos donde quepan spiders (necesitan 3x3, así que un canal de 2 las bloquea).",
+      "Construye el conducto de muerte. Una caída de 22 bloques deja a zombies, esqueletos y creepers a medio corazón: un puñetazo mata y da XP completa. Pon hoppers y chests abajo para recoger los drops automáticamente.",
+      "Ilumina todo lo demás. La granja solo rinde si es el único espacio oscuro disponible: pon slabs o antorchas en cada cueva y superficie dentro de tu esfera de 128 bloques, o haz AFK muy alto para que las cuevas queden fuera de rango."
+    ],
+    "materials": [
+      "Stacks de bloques de construcción (cobblestone)",
+      "Cubos de agua + carteles/trampillas",
+      "Hoppers y chests",
+      "Antorchas/slabs para evitar apariciones"
+    ],
+    "editionNote": "Java: los mobs aparecen en una esfera de 128 bloques y desaparecen al instante más allá, con una burbuja de 24 bloques sin apariciones. Bedrock: la esfera es de ~96 bloques con distancia de simulación 6+, el despawn funciona distinto y las tasas son menores: las granjas de Bedrock suelen ser más pequeñas.",
+    "versions": "Las granjas de sala oscura funcionan desde Classic. La 1.18 Caves & Cliffs cambió la aparición a nivel de luz 0 (antes 7), lo que facilitó mucho el spawn-proofing e hizo estas granjas más eficientes.",
+    "faq": [
+      {
+        "q": "¿Por qué va tan lenta mi granja?",
+        "a": "Casi siempre son cuevas sin iluminar debajo absorbiendo el límite de mobs. Haz AFK a unos 120 bloques sobre el suelo de la granja o inutiliza cada cueva en rango. Y comprueba que la dificultad no sea Peaceful."
+      },
+      {
+        "q": "¿Qué altura de caída?",
+        "a": "22 bloques para matar de un golpe a zombies, esqueletos y creepers (tienen 20 HP). Las witches tienen 26 HP y las spiders 16, así que algunas sobreviven; usa 24+ para una granja de solo loot."
+      },
+      {
+        "q": "¿Funciona en Bedrock?",
+        "a": "Sí, pero las tasas son mucho menores. Construye sobre un océano, ten en cuenta la distancia de simulación, y valora una granja de spawner: en Bedrock las dungeons rinden mucho mejor."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/monster-room/",
+        "label": "Monster Room"
+      },
+      {
+        "url": "/es/mobs/enderman/",
+        "label": "Enderman"
+      }
+    ],
+    "keywords": [
+      "granja de mobs",
+      "cómo hacer una granja de mobs",
+      "granja de xp",
+      "mob grinder minecraft"
+    ]
+  },
+  "how-to-make-an-iron-farm": {
+    "name": "Cómo hacer una granja de hierro",
+    "shortTitle": "Granja de Hierro",
+    "quickAnswer": "Encierra 3 aldeanos con camas y workstations, coloca un zombie donde lo vean pero no pueda alcanzarlos, y los aldeanos en pánico invocarán iron golems. Plataformas con agua llevan a los golems a lava o a una cámara de muerte con hoppers, produciendo stacks de hierro por hora. Los diseños de Java y Bedrock difieren: sigue uno de tu edición.",
+    "steps": [
+      "Entiende la mecánica. En Java, los aldeanos que entran en pánico al ver un mob hostil (o cotillean en grupos de 5) invocan iron golems a su alrededor, siempre que hayan dormido y trabajado recientemente. El golem aparece en bloques sólidos cerca de los aldeanos.",
+      "Construye el módulo de aldeanos. Coloca 3 camas, 3 aldeanos y 3 workstations (las fletching tables son baratas) en una sala pequeña sellada. Deben poder dormir de noche y trabajar de día: eso mantiene las apariciones.",
+      "Añade el susto. Pon un zombie (con name tag para que no desaparezca) a un bloque de vista de los aldeanos, tras trampillas o un sistema de pistones que rompa la línea de visión periódicamente para que duerman. Sin camino directo hasta ellos.",
+      "Construye plataformas y cámara de muerte. Una plataforma sólida alrededor del módulo con corrientes de agua empuja a los golems a una hoja de lava o a un conducto; los hoppers de abajo alimentan los chests. Los golems sueltan 3-5 de hierro y una poppy.",
+      "Mantenla aislada. Construye la granja a al menos 64 bloques de cualquier otro aldeano o aldea, e inutiliza las apariciones alrededor para que los golems solo salgan en tu plataforma. Decora con las poppies de regalo."
+    ],
+    "materials": [
+      "3 aldeanos + 3 camas + 3 workstations",
+      "1 zombie con name tag",
+      "Bloques, agua, lava, hoppers, chests",
+      "Name tag (anvil)"
+    ],
+    "editionNote": "Java usa la mecánica de pánico/cotilleo descrita aquí. Las granjas de Bedrock son distintas: necesitan 10 aldeanos, 20 camas y el 75% de los aldeanos trabajando, con golems apareciendo alrededor del centro de la aldea: sigue un diseño específico de Bedrock para esa edición.",
+    "versions": "El farmeo de golems invocados por aldeanos existe desde la 1.8. La 1.16 hizo que los golems solo aparezcan si los aldeanos duermen y trabajan, matando las viejas granjas de 'puertas' y estandarizando el diseño moderno de 3 aldeanos en pánico.",
+    "faq": [
+      {
+        "q": "¿Por qué dejó de funcionar?",
+        "a": "Los aldeanos no pueden dormir (zombie visible toda la noche), no llegan a sus workstations, o el zombie desapareció o murió. Ponle name tag y usa un temporizador de pistones/trampillas para romper la línea de visión."
+      },
+      {
+        "q": "¿Cuánto hierro produce?",
+        "a": "Una granja Java sencilla de 3 aldeanos da unos 300-400 de hierro por hora; los módulos apilados escalan. Suficiente para beacons, anvils y hoppers para siempre."
+      },
+      {
+        "q": "¿Puedo construirla en los spawn chunks?",
+        "a": "Sí, y en Java funcionará incluso cuando estés lejos. Pero el sitio clásico es cerca de tu base con una plataforma de AFK encima."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/piglin/",
+        "label": "Piglin"
+      },
+      {
+        "url": "/es/structures/village/",
+        "label": "Village"
+      }
+    ],
+    "keywords": [
+      "granja de hierro",
+      "cómo hacer una granja de hierro",
+      "granja de iron golem",
+      "hierro gratis minecraft"
+    ]
+  },
+  "how-to-grow-wheat": {
+    "name": "Cómo cultivar trigo",
+    "shortTitle": "Cultivar Trigo",
+    "quickAnswer": "Labra grass o dirt junto al agua con una azada (el agua hidrata la tierra de cultivo hasta 4 bloques), planta seeds de romper tall grass y espera: el trigo crece en 8 etapas con nivel de luz 9 o más. El bone meal lo acelera, y saltar sobre el cultivo lo devuelve a dirt, así que vállalo.",
+    "steps": [
+      "Consigue seeds. Rompe tall grass: aproximadamente 1 de cada 8 matas suelta wheat seeds. Unos minutos golpeando hierba te dan un stack inicial.",
+      "Llabra la tierra. Fabrica cualquier azada (la de madera vale) y haz clic derecho sobre dirt o grass blocks junto al agua. Un bloque de agua hidrata el cultivo hasta 4 bloques en cada dirección: la clásica parcela de 9x9 con agua en el centro.",
+      "Planta e ilumina. Haz clic derecho con las seeds sobre la tierra labrada. El trigo solo crece con nivel de luz 9 o más, así que cultiva al aire libre de día o pon antorchas alrededor para que crezca de noche.",
+      "Acelera con bone meal. Clic derecho con bone meal sobre el cultivo para avanzar varias etapas de golpe: 2-3 usos suelen bastar.",
+      "Cosecha en la etapa 8. El trigo maduro es alto y dorado. Rómpelo para 1 wheat más 0-3 seeds extra, replanta enseguida, y no saltes nunca sobre el campo: la tierra pisoteada vuelve a dirt y suelta el cultivo."
+    ],
+    "materials": [
+      "Wheat seeds (de tall grass)",
+      "Azada (cualquier tier)",
+      "Cubo de agua",
+      "Bone meal (opcional)"
+    ],
+    "editionNote": "Java: los cultivos necesitan nivel de luz 9+ para crecer y una semilla plantada sin luz suficiente se sale de la tierra. Bedrock: necesitan un nivel de luz interno de 9 y crecen algo más lento. La lluvia no hidrata la tierra en ninguna edición.",
+    "versions": "El cultivo de trigo es tan viejo como Minecraft: las seeds y las azadas llegaron en febrero de 2010 (Indev). La mecánica apenas ha cambiado desde entonces: radio de hidratación, 8 etapas de crecimiento y protección anti-pisoteo con feather falling siguen vigentes.",
+    "faq": [
+      {
+        "q": "¿Por qué no crece mi trigo?",
+        "a": "Falta luz (necesita 9+: pon antorchas), no hay hidratación a 4 bloques (la tierra se seca y se vuelve marrón) o algo salta sobre el campo. Vállalo contra animales."
+      },
+      {
+        "q": "¿Crece más rápido en tierra hidratada?",
+        "a": "Sí: la tierra hidratada cultiva al doble de velocidad y nunca vuelve a dirt salvo que la pisen."
+      },
+      {
+        "q": "¿Qué hago con el trigo?",
+        "a": "Fabrica bread (3 wheat en fila), cría vacas y ovejas (te siguen con wheat), haz hay bales, cakes y cookies, o véndelo a aldeanos farmers por emeralds."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/village/",
+        "label": "Village"
+      }
+    ],
+    "keywords": [
+      "cómo cultivar trigo",
+      "granja de trigo",
+      "seeds minecraft",
+      "agricultura minecraft",
+      "cultivar cultivos"
+    ]
   }
 }
