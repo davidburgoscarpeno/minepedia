@@ -16621,5 +16621,159 @@
       "end portal frame",
       "construir portal al end"
     ]
+  },
+  "how-to-make-a-beacon": {
+    "name": "Cómo hacer un beacon",
+    "shortTitle": "Hacer un Beacon",
+    "quickAnswer": "Fabrica un beacon con 5 glass, 3 obsidian y 1 nether star (de matar al wither). Luego colócalo sobre una pirámide de bloques de iron, gold, emerald, diamond o netherite (mínimo 3x3, hasta cuatro niveles con base 9x9, 164 bloques en total) y proyectará un rayo al cielo.",
+    "steps": [
+      "Consigue una nether star. Invoca y vence al wither: siempre suelta exactamente una. Es la parte difícil; lo demás es fácil.",
+      "Reúne glass y obsidian. Funde 5 sand en glass y mina 3 obsidian con pico de diamante o netherita (o créala con agua sobre lava).",
+      "Fabrica el beacon. Pon la nether star en el centro, 3 obsidian en la fila inferior y 5 glass en las filas superior y media.",
+      "Construye la pirámide. El beacon solo funciona sobre una base de bloques de iron, gold, emerald, diamond o netherite (se puede mezclar, el tipo es puramente cosmético). Empieza con una capa 3x3 (9 bloques) y sube a 4 niveles: 5x5, 7x7 y 9x9, 164 bloques en total.",
+      "Colócalo y actívalo. Pon el beacon en el centro de la capa superior con vista directa al cielo. Lanzará un rayo hacia arriba: dale un lingote o gema en su interfaz para elegir un poder."
+    ],
+    "materials": [
+      "1 nether star (drop del wither)",
+      "5 glass",
+      "3 obsidian",
+      "9-164 bloques de iron/gold/emerald/diamond/netherite para la pirámide"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock. El tipo de bloque de la pirámide no afecta al poder: una pirámide de iron funciona igual que una de netherite. Varios beacons pueden compartir los mismos bloques de pirámide.",
+    "versions": "El beacon se añadió en la 1.4.2 (12w32a, como 'Work in Progress') y se completó en la 12w36a con la receta de nether star. Su rango de efecto se mejoró en la 1.5 (13w05a) hasta los valores actuales.",
+    "faq": [
+      {
+        "q": "¿Por qué no se activa mi beacon?",
+        "a": "Comprueba que tenga vista directa al cielo (sin bloques opacos encima; el glass vale) y que la pirámide esté completa y centrada, con el beacon sobre el bloque central."
+      },
+      {
+        "q": "¿La pirámide completa más barata?",
+        "a": "De iron: 164 bloques = 1.476 lingotes. Haz primero una granja de hierro, o mezcla bloques de gold y emerald del comercio con aldeanos."
+      },
+      {
+        "q": "¿Cambia el color del rayo?",
+        "a": "Sí: coloca stained glass sobre el rayo para teñirlo. Combinar colores los mezcla."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/es/mobs/wither/",
+        "label": "Wither"
+      }
+    ],
+    "keywords": [
+      "beacon",
+      "cómo hacer un beacon",
+      "receta del beacon",
+      "pirámide del beacon",
+      "nether star beacon"
+    ]
+  },
+  "how-to-use-a-beacon": {
+    "name": "Cómo usar un beacon",
+    "shortTitle": "Usar un Beacon",
+    "quickAnswer": "Coloca el beacon sobre una pirámide de bloques minerales, abre su interfaz e inserta un lingote o gema (iron, gold, emerald, diamond o netherite) para elegir un poder. La pirámide de nivel 1 da Speed o Haste, la 2 añade Resistance y Jump Boost, la 3 añade Strength, y la 4 permite elegir Regeneration como segundo poder o subir el principal a nivel II.",
+    "steps": [
+      "Construye la pirámide del tamaño adecuado. Los poderes se desbloquean por nivel: 1 capa (3x3) para los básicos, hasta 4 capas (base 9x9, 164 bloques) para todos. El tipo de bloque no importa: mezcla libremente.",
+      "Abre la interfaz del beacon. Haz clic derecho y coloca un iron ingot, gold ingot, emerald, diamond o netherite ingot en el hueco.",
+      "Elige tu poder principal. Nivel 1: Speed o Haste. Nivel 2: Resistance o Jump Boost. Nivel 3: Strength. Pulsa el efecto y confirma con la marca verde: el lingote se consume.",
+      "Añade el bonus de nivel 4. Con la pirámide completa se activa el hueco secundario: elige Regeneration como segundo efecto constante o mejora el principal a nivel II (por ejemplo Haste II).",
+      "Mantente en rango. Los efectos aplican en un radio alrededor del beacon: 20 bloques en nivel 1, 30 en nivel 2, 40 en nivel 3 y 50 en nivel 4 (101x101 bloques), más toda la altura del mundo hacia arriba."
+    ],
+    "materials": [
+      "Beacon activado sobre una pirámide",
+      "Iron/gold/emerald/diamond/netherite para elegir poderes",
+      "164 bloques minerales para la pirámide máxima"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock. Los efectos duran mientras estés en rango y persisten unos 10-17 segundos al salir. En Bedrock el rayo se ve desde más lejos; los rangos son iguales.",
+    "versions": "Los poderes del beacon están estables desde la 1.4.2 (2012): cinco efectos principales más Regeneration de secundario. La 1.5 aumentó el rango de 16/24/32/40 a 20/30/40/50 bloques.",
+    "faq": [
+      {
+        "q": "¿Qué poder elegir?",
+        "a": "Haste II (pirámide máxima) para minar, Speed II para centros de viaje, Resistance + Regeneration para una base segura. Strength ayuda en arenas de wither o raids."
+      },
+      {
+        "q": "¿Puedo tener los seis poderes a la vez?",
+        "a": "Un beacon da un poder principal + el secundario de nivel 4. Construye seis beacons sobre una pirámide compartida para tener todos: un clásico proyecto de megabase."
+      },
+      {
+        "q": "¿Funcionan bajo tierra?",
+        "a": "Sí: el rango es una caja alrededor del beacon que llega hasta el fondo del mundo y hasta el límite de altura, siempre que el beacon vea el cielo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/es/mobs/wither/",
+        "label": "Wither"
+      }
+    ],
+    "keywords": [
+      "beacon",
+      "cómo usar un beacon",
+      "poderes del beacon",
+      "efectos del beacon",
+      "beacon haste 2"
+    ]
+  },
+  "how-to-get-eyes-of-ender": {
+    "name": "Cómo conseguir ojos de ender",
+    "shortTitle": "Ojos de Ender",
+    "quickAnswer": "Fabrica ojos de ender con blaze powder más una ender pearl: mata blazes en una fortaleza del Nether para conseguir blaze rods (conviértelas en powder) y endermen para las pearls. Cada ojo tiene un 20% de romperse al lanzarlo y necesitas hasta 12 para activar el End portal, así que haz 15-18.",
+    "steps": [
+      "Farmea blaze rods. Encuentra una fortaleza del Nether y mata blazes junto a sus plataformas de generadores: cada blaze suelta 0-1 blaze rod (más con Looting). Convierte cada rod en 2 blaze powder.",
+      "Farmea ender pearls. Mata endermen de noche en la Superficie (los desiertos dan mejor visibilidad) o en el Warped Forest del Nether. El trueque con piglins también da 2-4 pearls por gold ingot (~2,2%).",
+      "Fabrica los ojos. Receta sin forma: 1 blaze powder + 1 ender pearl = 1 ojo de ender. Haz 15-18 para el viaje a la stronghold.",
+      "Úsalos con cabeza. Los ojos lanzados vuelan hacia la stronghold más cercana pero se rompen el 20% de las veces: lanza poco, solo para confirmar el rumbo cada pocos cientos de bloques.",
+      "Reserva 12 para el portal. El End portal de la stronghold necesita hasta 12 ojos para rellenar sus marcos (algunos vienen puestos, ~1,2 de media). No te gastes la última docena lanzando."
+    ],
+    "materials": [
+      "Blaze rods (de blazes)",
+      "Ender pearls (endermen o trueque)",
+      "Arma y armadura para farmear"
+    ],
+    "editionNote": "Idénticos en Java y Bedrock. Los aldeanos clerics ya no venden ojos de ender en ninguna edición: fabricarlos es la única fuente renovable. Solo funcionan en la Superficie; en el Nether y el End giran al azar.",
+    "versions": "Los ojos de ender se añadieron en Beta 1.9 Prerelease 3 (2011) junto a los End portals y las salas del portal de las strongholds. Su receta y comportamiento no han cambiado desde entonces.",
+    "faq": [
+      {
+        "q": "¿Cuántos ojos necesito?",
+        "a": "12 para el portal más repuestos para los lanzamientos: cada uno tiene 20% de romperse. 15-18 cubre un viaje típico."
+      },
+      {
+        "q": "¿La forma más rápida de farmear pearls?",
+        "a": "Una granja de oro más trueque con piglins da pearls de forma pasiva; al principio, caza endermen en un desierto de noche o en un warped forest con Looting III."
+      },
+      {
+        "q": "¿Puedo comprarlos a aldeanos?",
+        "a": "Ya no: el trade de los clerics se eliminó hace tiempo. Fabrícalos con blaze powder y pearls."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/blaze/",
+        "label": "Blaze"
+      },
+      {
+        "url": "/es/items/ender-pearl/",
+        "label": "Ender Pearl"
+      },
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ],
+    "keywords": [
+      "ojo de ender",
+      "cómo conseguir ojos de ender",
+      "receta ojo de ender",
+      "ojos de ender minecraft"
+    ]
   }
 }

@@ -18350,5 +18350,178 @@
       "end portal frame",
       "how to build end portal"
     ]
+  },
+  {
+    "slug": "how-to-make-a-beacon",
+    "name": "How to Make a Beacon",
+    "shortTitle": "Make a Beacon",
+    "quickAnswer": "Craft a beacon with 5 glass, 3 obsidian and 1 nether star (from killing the wither). Then place it on top of a pyramid of iron, gold, emerald, diamond or netherite blocks - 3x3 minimum, up to four levels with a 9x9 base (164 blocks total) - and it projects a beam into the sky.",
+    "steps": [
+      "Get a nether star. Summon and defeat the wither - it always drops exactly one. This is the hard part; everything else is easy.",
+      "Gather glass and obsidian. Smelt 5 sand into glass and mine 3 obsidian with a diamond or netherite pickaxe (or make it with water on lava).",
+      "Craft the beacon. Place the nether star in the center, 3 obsidian along the bottom row and 5 glass filling the top and middle rows.",
+      "Build the pyramid. The beacon only works on a base of iron, gold, emerald, diamond or netherite blocks - any mix works, the block type is purely cosmetic. Start with a 3x3 layer (9 blocks) and go up to 4 levels: 5x5, 7x7 and 9x9 for 164 blocks total.",
+      "Place and activate. Put the beacon on the center of the top layer with a clear view of the sky. It shoots a beam upward - now feed it an ingot or gem in its GUI to pick a power."
+    ],
+    "materials": [
+      "1 nether star (wither drop)",
+      "5 glass",
+      "3 obsidian",
+      "9-164 iron/gold/emerald/diamond/netherite blocks for the pyramid"
+    ],
+    "editionNote": "Identical in Java and Bedrock. The pyramid block type makes no difference to power - a full iron pyramid works exactly like a full netherite one. Multiple beacons can share the same pyramid blocks.",
+    "versions": "The beacon was added in 1.4.2 (12w32a, as 'Work in Progress') and finished in 12w36a with the nether star recipe. Its effect range was buffed in 1.5 (13w05a) to the current values.",
+    "faq": [
+      {
+        "q": "Why won't my beacon activate?",
+        "a": "Check it has a direct view of the sky (no opaque blocks above - glass is fine) and that the pyramid is complete and centered, with the beacon on top of the middle block."
+      },
+      {
+        "q": "What is the cheapest full pyramid?",
+        "a": "Iron: 164 blocks = 1,476 iron ingots. Build an iron farm first, or mix in gold and emerald blocks from villager trading."
+      },
+      {
+        "q": "Does the beacon beam color change?",
+        "a": "Yes - place stained glass above the beam to tint it. Layering different colors mixes them."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-the-wither",
+      "how-to-use-a-beacon",
+      "how-to-get-obsidian"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/mobs/wither/",
+        "label": "Wither"
+      }
+    ],
+    "keywords": [
+      "beacon",
+      "how to make a beacon",
+      "beacon recipe",
+      "beacon pyramid",
+      "nether star beacon"
+    ]
+  },
+  {
+    "slug": "how-to-use-a-beacon",
+    "name": "How to Use a Beacon",
+    "shortTitle": "Use a Beacon",
+    "quickAnswer": "Place the beacon on a mineral block pyramid, open its GUI and insert an iron, gold, emerald, diamond or netherite ingot/gem to choose a power. Level 1 pyramids give Speed or Haste, level 2 adds Resistance and Jump Boost, level 3 adds Strength, and level 4 lets you pick Regeneration as a second power or boost the main one to level II.",
+    "steps": [
+      "Build the right pyramid size. Powers unlock by level: 1 layer (3x3) for basic powers, up to 4 layers (9x9 base, 164 blocks) for everything. The block type doesn't matter - mix iron, gold, emerald, diamond and netherite freely.",
+      "Open the beacon GUI. Right-click the beacon and place one iron ingot, gold ingot, emerald, diamond or netherite ingot in the slot.",
+      "Pick your primary power. Level 1: Speed or Haste. Level 2: Resistance or Jump Boost. Level 3: Strength. Click the effect and confirm with the green checkmark - the ingot is consumed.",
+      "Add the level 4 bonus. With a maxed pyramid, the secondary slot activates: choose Regeneration as a second constant effect, or upgrade your primary power to level II (e.g. Haste II).",
+      "Stay in range. Effects apply within a radius around the beacon: 20 blocks at level 1, 30 at level 2, 40 at level 3 and 50 at level 4 (101x101 blocks), plus the full height of the world upward."
+    ],
+    "materials": [
+      "Activated beacon on a pyramid",
+      "Iron/gold/emerald/diamond/netherite to select powers",
+      "164 mineral blocks for a max pyramid"
+    ],
+    "editionNote": "Identical in Java and Bedrock. Effects last while you are in range and linger about 10-17 seconds after leaving. In Bedrock the beam renders from farther away; effect ranges are the same.",
+    "versions": "Beacon powers have been stable since 1.4.2 (2012): five primary effects plus Regeneration as secondary. The 1.5 update increased the effect range from 16/24/32/40 to 20/30/40/50 blocks.",
+    "faq": [
+      {
+        "q": "Which power should I pick?",
+        "a": "Haste II (max pyramid) for mining and digging, Speed II for travel hubs, Resistance + Regeneration for a base safe zone. Strength helps at wither/raid arenas."
+      },
+      {
+        "q": "Can I have all six powers at once?",
+        "a": "One beacon gives one primary + the level 4 secondary. Build six beacons on a shared pyramid to run every power simultaneously - a classic megabase project."
+      },
+      {
+        "q": "Do powers work underground?",
+        "a": "Yes - range is a box around the beacon extending down to the world bottom and up to the build limit, as long as the beacon has sky access."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-beacon",
+      "how-to-beat-the-wither",
+      "how-to-get-netherite"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/nether-star/",
+        "label": "Nether Star"
+      },
+      {
+        "url": "/mobs/wither/",
+        "label": "Wither"
+      }
+    ],
+    "keywords": [
+      "beacon",
+      "how to use a beacon",
+      "beacon powers",
+      "beacon effects",
+      "haste 2 beacon"
+    ]
+  },
+  {
+    "slug": "how-to-get-eyes-of-ender",
+    "name": "How to Get Eyes of Ender",
+    "shortTitle": "Eyes of Ender",
+    "quickAnswer": "Craft eyes of ender from blaze powder plus an ender pearl: kill blazes in a nether fortress for blaze rods (craft into powder) and endermen for pearls. Each eye has a 20% chance to shatter when thrown, and you need up to 12 to activate the End portal, so make 15-18.",
+    "steps": [
+      "Farm blaze rods. Find a nether fortress and kill blazes around their spawner platforms - each blaze drops 0-1 blaze rod (more with Looting). Craft each rod into 2 blaze powder.",
+      "Farm ender pearls. Kill endermen at night in the Overworld (deserts are best for visibility) or in the Warped Forest in the Nether. Piglin bartering also gives 2-4 pearls per gold ingot about 2.2% of the time.",
+      "Craft the eyes. Shapeless recipe: 1 blaze powder + 1 ender pearl = 1 eye of ender. Make 15-18 for a stronghold trip.",
+      "Use them wisely. Thrown eyes fly toward the nearest stronghold but shatter 20% of the time - throw sparingly, only to re-check direction every few hundred blocks.",
+      "Save 12 for the portal. The End portal in the stronghold needs up to 12 eyes to fill its frames (a few come pre-filled, about 1.2 on average). Don't throw your last dozen."
+    ],
+    "materials": [
+      "Blaze rods (from blazes)",
+      "Ender pearls (endermen or bartering)",
+      "Weapon and armor for farming"
+    ],
+    "editionNote": "Identical in Java and Bedrock. Cleric villagers no longer sell eyes of ender in either edition - crafting is the only renewable source. Eyes only work in the Overworld; they spin randomly in the Nether and End.",
+    "versions": "Eyes of ender were added in Beta 1.9 Prerelease 3 (2011) together with End portals and stronghold portal rooms. Their crafting recipe and stronghold-locating behavior are unchanged since.",
+    "faq": [
+      {
+        "q": "How many eyes of ender do I need?",
+        "a": "12 to fill the portal plus spares for throws: each throw has a 20% shatter chance. 15-18 covers a typical trip."
+      },
+      {
+        "q": "What is the fastest way to farm pearls?",
+        "a": "A gold farm plus piglin bartering gives pearls passively; in the early game, hunt endermen in a desert at night or in a warped forest with Looting III."
+      },
+      {
+        "q": "Can I buy eyes from villagers?",
+        "a": "Not anymore - cleric trades for eyes of ender were removed long ago. Craft them from blaze powder and pearls."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-blaze-rods",
+      "how-to-get-ender-pearls",
+      "how-to-find-a-stronghold"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/blaze/",
+        "label": "Blaze"
+      },
+      {
+        "url": "/items/ender-pearl/",
+        "label": "Ender Pearl"
+      },
+      {
+        "url": "/structures/stronghold/",
+        "label": "Stronghold"
+      }
+    ],
+    "keywords": [
+      "eye of ender",
+      "how to get eyes of ender",
+      "ender eyes",
+      "eye of ender recipe",
+      "eyes of ender minecraft"
+    ]
   }
 ]
