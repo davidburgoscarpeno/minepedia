@@ -16298,5 +16298,170 @@
       "plantilla netherita",
       "bastion remnant"
     ]
+  },
+  "how-to-find-a-stronghold": {
+    "name": "Cómo encontrar una stronghold",
+    "shortTitle": "Stronghold",
+    "quickAnswer": "Fabrica ojos de ender (blaze powder + ender pearls) y lánzalos: vuelan hacia la stronghold más cercana. Síguelos y excava donde empiecen a caer hacia el suelo. En Java, hasta 128 strongholds generan en anillos alrededor del origen del mundo; en Bedrock suelen aparecer bajo aldeas. Con trucos, /locate structure minecraft:stronghold también sirve.",
+    "steps": [
+      "Fabrica ojos de ender. Combina blaze powder (de blaze rods) con ender pearls. Lleva 15 o más: cada lanzamiento puede romper el ojo y necesitas hasta 12 para rellenar el portal.",
+      "Lanza y sigue. Lanza un ojo al aire y camina en la dirección que vuele. Relanza cada pocos cientos de bloques para confirmar el rumbo.",
+      "Fíjate en la caída. Cuando los ojos empiecen a volar hacia el suelo, la stronghold está justo debajo. Excava con cuidado: en escalera, nunca en vertical.",
+      "Explora los pasillos. Las strongholds son laberintos de stone bricks con bibliotecas, almacenes y fuentes. Escucha los silverfish: la sala del End portal está garantizada y tiene un generador de silverfish.",
+      "Rellena el portal. Cada uno de los 12 marcos tiene un 10% de probabilidad de traer un ojo puesto (1,2 de media). Coloca ojos en los vacíos y el portal al End se activa."
+    ],
+    "materials": [
+      "Ojos de ender (15+)",
+      "Pico de hierro o mejor",
+      "Antorchas y comida",
+      "Arma (generador de silverfish en la sala del portal)"
+    ],
+    "editionNote": "En Java, las strongholds generan en anillos centrados en el origen del mundo (hasta 128). En Bedrock no hay anillos y están garantizadas bajo los puntos de encuentro de las aldeas: excavar bajo el pozo de una aldea suele revelar una.",
+    "versions": "Las strongholds se añadieron en Beta 1.8 (Adventure Update) como enormes ruinas subterráneas, y la sala del End portal llegó en Beta 1.9 Prerelease 3. Siguen siendo la única forma de llegar al End en Survival.",
+    "faq": [
+      {
+        "q": "¿Cuántos ojos de ender necesito?",
+        "a": "Hasta 12 para el marco, más repuestos para los lanzamientos: cada uno tiene ~20% de romperse. 15-18 es una cantidad segura."
+      },
+      {
+        "q": "El ojo cayó y se rompió, ¿me he perdido?",
+        "a": "No, romperse es aleatorio. Lanza otro. Si los ojos empiezan a volar hacia atrás, has pasado la stronghold de largo."
+      },
+      {
+        "q": "¿Puede una stronghold no tener portal?",
+        "a": "Todas generan exactamente una sala del portal, pero cuevas o mineshafts pueden destruirla. Si pasa, busca otra: hay hasta 128."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/stronghold/",
+        "label": "Guía de la stronghold"
+      },
+      {
+        "url": "/es/mobs/silverfish/",
+        "label": "Silverfish"
+      },
+      {
+        "url": "/es/items/ender-pearl/",
+        "label": "Ender Pearl"
+      }
+    ],
+    "keywords": [
+      "stronghold",
+      "cómo encontrar una stronghold",
+      "portal al end",
+      "ojos de ender",
+      "buscar stronghold"
+    ]
+  },
+  "how-to-beat-the-ender-dragon": {
+    "name": "Cómo vencer al ender dragon",
+    "shortTitle": "Ender Dragon",
+    "quickAnswer": "Entra al End por el portal de una stronghold, destruye los end crystals de los pilares de obsidiana (dispárales con el arco; dos están enjaulados en iron bars) y golpea al dragón con la espada cuando se pose sobre el portal de salida. Tiene 200 de vida y los golpes a la cabeza hacen daño completo. Las camas explotan en el End y son el método más rápido.",
+    "steps": [
+      "Prepárate. Lleva arco con varios stacks de flechas, espada de diamante o netherita, pociones de caída lenta si tienes, water bucket o carved pumpkin para los endermen, comida y bloques.",
+      "Destruye los end crystals. El dragón se cura con los cristales de los pilares. Dispárales desde el suelo; dos pilares tienen jaulas de iron bars que tendrás que escalar.",
+      "Pelea con el dragón. Cuando se pose sobre el portal de salida, corre y golpéale la cabeza con la espada. Esquiva las nubes de dragon's breath: puedes embotellarlas para pociones lingering.",
+      "Usa camas para ir rápido. Las camas explotan al usarlas en el End. Coloca una junto al dragón posado, cúbrete con un bloque y haz clic: cada explosión hace daño masivo.",
+      "Recoge la recompensa. La victoria suelta 12.000 de XP (hasta nivel 68), abre el portal de salida con el dragon egg encima y genera un End gateway hacia las islas exteriores. Los dragones reinvocados solo dan 500 XP."
+    ],
+    "materials": [
+      "Arco y 2+ stacks de flechas",
+      "Espada de diamante/netherita",
+      "Camas (explotan en el End)",
+      "Carved pumpkin o water bucket (endermen)"
+    ],
+    "editionNote": "El combate es idéntico en Java y Bedrock. Reinvoca al dragón colocando 4 end crystals en los bordes del portal de salida; los pilares y cristales se regeneran, y pueden aparecer hasta 20 End gateways.",
+    "versions": "El ender dragon se añadió en Beta 1.9 Prerelease 4 (2011) como el primer jefe del juego. La 1.9 Combat Update (15w31a) renovó el combate con cristales enjaulados, dragon's breath y el ritual de reinvocación.",
+    "faq": [
+      {
+        "q": "¿Cuánta vida tiene el dragón?",
+        "a": "200 HP, pero los golpes fuera de la cabeza se reducen ~75%: apunta a la cabeza o usa camas."
+      },
+      {
+        "q": "¿Por qué se cura?",
+        "a": "Queda un end crystal activo. Fíjate en el rayo de curación y destruye todos, incluidos los dos enjaulados."
+      },
+      {
+        "q": "¿Cómo cojo el dragon egg?",
+        "a": "Se teletransporta al golpearlo. Golpéalo una vez, excava bajo el bloque donde aterrice, pon una antorcha y rompe el bloque: el huevo cae y se suelta como objeto."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/ender-dragon/",
+        "label": "Ender Dragon"
+      },
+      {
+        "url": "/es/mobs/enderman/",
+        "label": "Enderman"
+      },
+      {
+        "url": "/es/items/dragon-egg/",
+        "label": "Dragon Egg"
+      }
+    ],
+    "keywords": [
+      "ender dragon",
+      "cómo vencer al ender dragon",
+      "jefe final minecraft",
+      "end crystals",
+      "pelea del dragón"
+    ]
+  },
+  "how-to-find-an-end-city": {
+    "name": "Cómo encontrar una End city",
+    "shortTitle": "End City",
+    "quickAnswer": "Vence al ender dragon y lanza una ender pearl dentro del End gateway flotante para teletransportarte a las islas exteriores. Explora las islas grandes con chorus trees hasta ver torres de purpur: es una End city, custodiada por shulkers y llena de botín de diamante encantado. Algunas tienen un end ship con la única elytra de Survival.",
+    "steps": [
+      "Vence al dragón. Los End gateways solo aparecen al morir el ender dragon: uno por baja, hasta 20. El gateway es un pequeño portal de bedrock flotando sobre el vacío.",
+      "Cruza el gateway. Lanza una ender pearl dentro (o entra a rastras/nadando por el hueco de 1 bloque) para llegar a las islas exteriores, a hasta 1.000 bloques de la principal.",
+      "Busca en las islas grandes. Las End cities generan en las islas exteriores grandes donde crecen chorus trees. Lleva bloques para puentes y recorre la costa buscando torres de purpur con end rods.",
+      "Saquea con cuidado. Los shulkers disparan proyectiles de levitación: lleva pociones de caída lenta o una ender pearl para aterrizar seguro. Las salas de botín guardan equipo de hierro y diamante encantado.",
+      "Encuentra el end ship. No todas las ciudades tienen: busca el mástil en el horizonte. Su item frame guarda la elytra (única forma de conseguirla en Survival) y una dragon head en la proa."
+    ],
+    "materials": [
+      "Ender pearls (gateway + escapes de levitación)",
+      "2+ stacks de bloques para puentes",
+      "Pociones de caída lenta (recomendado)",
+      "Buena arma para shulkers"
+    ],
+    "editionNote": "Idénticas en Java y Bedrock. Los End gateways te llevan a una isla exterior aleatoria, y las ciudades solo generan en islas grandes. Matar dragones reinvocados crea más gateways, hasta 20.",
+    "versions": "Las End cities se añadieron en la 1.9 (15w31a, Combat Update) junto a shulkers, end ships, chorus trees y la elytra: convirtieron el End en una dimensión de botín endgame.",
+    "faq": [
+      {
+        "q": "¿Qué tan raras son?",
+        "a": "Poco comunes pero no raras: espera caminar de cientos a un par de miles de bloques entre ellas. Las saqueadas quedan vacías, explora islas nuevas."
+      },
+      {
+        "q": "¿Cómo sobrevivo a la levitación?",
+        "a": "Bebe una poción de caída lenta antes de entrar, coloca agua donde caerás o lanza una ender pearl al suelo al terminar el efecto."
+      },
+      {
+        "q": "¿La elytra está garantizada?",
+        "a": "Solo en ciudades con end ship. Sigue buscando hasta ver el mástil del barco junto a una torre."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/structures/end-city/",
+        "label": "Guía de la End city"
+      },
+      {
+        "url": "/es/mobs/shulker/",
+        "label": "Shulker"
+      },
+      {
+        "url": "/es/items/elytra/",
+        "label": "Elytra"
+      }
+    ],
+    "keywords": [
+      "end city",
+      "cómo encontrar una end city",
+      "end ship",
+      "dónde está la elytra",
+      "end gateway"
+    ]
   }
 }
