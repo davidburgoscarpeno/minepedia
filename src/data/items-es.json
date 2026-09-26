@@ -780,5 +780,53 @@
     ],
     "renewable": "Totalmente renovable: hierro de granjas, smooth stone de piedra fundida y furnaces de cobblestone.",
     "editionNote": "Misma receta y velocidad en ambas ediciones. El combustible se quema al doble, así que cada coal sigue fundiendo los mismos 8 objetos: ahorras tiempo, no combustible. Como el smoker, Bedrock lo añadió en experimental en 1.9.0 y lo hizo funcional en 1.11.0."
+  },
+  "mace": {
+    "howToGet": [
+      "Fabrícala: 1 heavy core encima de 1 breeze rod en la crafting grid",
+      "Los heavy cores salen SOLO de ominous vaults en las trial chambers: un 7.5% de probabilidad por vault, abierta con una ominous trial key",
+      "Los breeze rods los sueltan los breezes, los mobs de viento de las trial chambers"
+    ],
+    "uses": [
+      "Ataque normal: 6 de daño a cooldown lleno, pero la velocidad de ataque más lenta del juego (0.6 en Java): floja para peleas en llano",
+      "Smash attack: golpea algo tras caer 1.5+ bloques y el mace suma daño por bloque caído: cuanto más larga la caída, mayor el golpe, sin tope",
+      "Aterrizar un smash reinicia tu altura de caída: cero daño de caída del descenso que alimentó el golpe",
+      "El smash además empuja a toda entidad en 2.5 bloques, como una ráfaga de wind charge",
+      "Slow Falling desactiva los smash attacks por completo: no la bebas antes de una pelea",
+      "Encantamientos insignia: Density (más daño por caída), Breach (perfora armadura), Wind Burst (relanzamiento tras un smash), además de Smite y Bane of Arthropods"
+    ],
+    "renewable": "No renovable en la práctica: cada ominous vault se abre una vez por jugador, así que los heavy cores son finitos por mundo.",
+    "editionNote": "En Java hay que desequipar las elytra antes de atacar para que el smash se active; en Bedrock los smashes se activan incluso en pleno vuelo con elytra. Durabilidad 500 en Java y 501 en Bedrock."
+  },
+  "heavy-core": {
+    "howToGet": [
+      "Ominous vaults dentro de las trial chambers: 7.5% de probabilidad por vault - la única fuente del juego",
+      "Las ominous vaults se abren con ominous trial keys, que sueltan los ominous trial spawners (spawners enfrentados con el efecto Trial Omen activo)",
+      "Cada ominous vault se abre una vez por jugador: lleva amigos con sus propias keys para más tiradas",
+      "Una vez colocado, se pica rápido con pickaxe y siempre se suelta a sí mismo"
+    ],
+    "uses": [
+      "Fabricar el mace: heavy core sobre un breeze rod en la crafting grid",
+      "Bloque trofeo de rareza épica: su nombre morado lo convierte en pieza de exhibición",
+      "Curiosidad de redstone: el comportamiento con pistones cambia entre ediciones (ver notas de edición)"
+    ],
+    "renewable": "No renovable en la práctica: una apertura por jugador por ominous vault, así que los heavy cores del mundo son finitos.",
+    "editionNote": "Java: los pistones empujan Y tiran de los heavy cores, y se pegan a slime y honey blocks. Bedrock: como el glazed terracotta, los pistones pueden empujarlos pero no tirar, y no se pegan a slime ni honey."
+  },
+  "bundle": {
+    "howToGet": [
+      "Fabrícala: 1 string encima de 1 leather en la crafting grid: esa es toda la receta",
+      "Tiñela con cualquier dye para conseguir una de las 16 variantes de color (sin forma: bundle + dye)",
+      "Totalmente renovable: string de spiders y cobwebs, leather de cows y otros mobs"
+    ],
+    "uses": [
+      "Guarda hasta un stack de objetos MEZCLADOS en un solo hueco de inventario: 64 huecos de bundle en total",
+      "Los objetos de stack 64 cuestan 1 hueco cada uno; los de stack 16 (eggs, ender pearls) cuestan 4; los no apilables (una sword) se comen la bundle entera",
+      "Saca objetos de uno en uno: abre la bundle en tu inventario y selecciona qué extraer",
+      "Las bundles anidan dentro de otras bundles (la interior cuesta 4 huecos más su contenido), y las bundles van dentro de shulker boxes, pero las shulker boxes nunca van dentro de bundles",
+      "Mejores amigas: triaje de inventario en early game, ordenar la basura del caving y llevar una de cada flor para los dyes"
+    ],
+    "renewable": "Renovable: string y leather son ambos farmeables.",
+    "editionNote": "Se comporta igual en Java y Bedrock. En Java, el coste de huecos se calcula desde el componente max_stack_size del objeto, así que objetos modificados con tamaños de stack raros se empaquetan en consecuencia."
   }
 }

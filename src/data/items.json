@@ -1331,5 +1331,83 @@
       "coal"
     ],
     "keywords": "blast furnace minecraft craft 5 iron furnace smooth stone smelt ores twice as fast armorer job site vs smoker"
+  },
+  {
+    "slug": "mace",
+    "name": "Mace",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 heavy core on top of 1 breeze rod in the crafting grid",
+      "Heavy cores come ONLY from ominous vaults in trial chambers - a 7.5% chance per vault, opened with an ominous trial key",
+      "Breeze rods drop from breezes, the wind mobs inside trial chambers"
+    ],
+    "uses": [
+      "Normal attack: 6 damage fully charged, but the slowest attack speed in the game (0.6 in Java) - weak for flat-ground fights",
+      "Smash attack: hit something after falling 1.5+ blocks and the mace adds damage per block fallen - the farther the drop, the bigger the hit, with no cap",
+      "Landing a smash resets your fall height: you take zero fall damage from the drop that fed the hit",
+      "The smash also knocks back every entity within 2.5 blocks, like a wind charge burst",
+      "Slow Falling disables smash attacks entirely - do not drink it before a fight",
+      "Signature enchants: Density (more fall damage), Breach (armor pierce), Wind Burst (relaunch after a smash) - plus Smite and Bane of Arthropods"
+    ],
+    "renewable": "Not renewable in practice: each ominous vault opens once per player, so heavy cores are finite per world.",
+    "editionNote": "In Java you must unequip the elytra before attacking for a smash to trigger; in Bedrock smashes activate even mid-elytra-flight. Durability is 500 in Java and 501 in Bedrock.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "heavy-core",
+      "breeze-rod"
+    ],
+    "keywords": "mace minecraft heavy core breeze rod smash attack density breach wind burst trial chambers weapon"
+  },
+  {
+    "slug": "heavy-core",
+    "name": "Heavy Core",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Ominous vaults inside trial chambers: 7.5% chance per vault - the only source in the game",
+      "Ominous vaults open with ominous trial keys, dropped by ominous trial spawners (spawners you face with the Trial Omen effect active)",
+      "Each ominous vault opens once per player - bring friends with their own keys for more rolls",
+      "Once placed, it mines fast with a pickaxe and always drops itself"
+    ],
+    "uses": [
+      "Craft the mace: heavy core above a breeze rod in the crafting grid",
+      "Epic-rarity trophy block - its purple name makes it a flex item for display rooms",
+      "Redstone curiosity: piston behavior differs between editions (see edition notes)"
+    ],
+    "renewable": "Not renewable in practice: one opening per player per ominous vault, so the world's heavy cores are finite.",
+    "editionNote": "Java: pistons push AND pull heavy cores, and they stick to slime and honey blocks. Bedrock: like glazed terracotta, pistons can push but not pull them, and they do not stick to slime or honey.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod",
+      "trial-key"
+    ],
+    "keywords": "heavy core minecraft ominous vault trial chambers mace crafting epic rare block"
+  },
+  {
+    "slug": "bundle",
+    "name": "Bundle",
+    "category": "Utility",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 string above 1 leather in the crafting grid - that is the whole recipe",
+      "Dye it with any dye to get one of 16 colored variants (shapeless: bundle + dye)",
+      "Fully renewable: string from spiders and cobwebs, leather from cows and other mobs"
+    ],
+    "uses": [
+      "Stores up to one stack's worth of MIXED items in a single inventory slot - 64 bundle slots total",
+      "64-stack items cost 1 slot each; 16-stack items (eggs, ender pearls) cost 4; unstackable items (a sword) eat the whole bundle",
+      "Pick items out individually: open the bundle in your inventory and scroll/select what to extract",
+      "Bundles nest inside bundles (an inner bundle costs 4 slots plus its contents), and bundles go inside shulker boxes - but shulker boxes never go inside bundles",
+      "Best friends: early-game inventory triage, caving junk sorting, and carrying one of every flower for dye runs"
+    ],
+    "renewable": "Renewable: string and leather are both farmable.",
+    "editionNote": "Behaves the same in Java and Bedrock. In Java, slot cost is computed from the item's max_stack_size data component, so modded or edited items with unusual stack sizes pack accordingly.",
+    "since": "1.21.2 (Bundles of Bravery drop; existed as experimental since 1.17)",
+    "related": [
+      "shulker-shell",
+      "stick"
+    ],
+    "keywords": "bundle minecraft how to craft bundle storage item bundles of bravery inventory dyed bundle"
   }
 ]
