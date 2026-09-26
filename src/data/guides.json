@@ -19684,5 +19684,169 @@
       "observer engine",
       "slime block machine"
     ]
+  },
+  {
+    "slug": "how-to-make-a-sugarcane-farm",
+    "name": "How to Make a Sugar Cane Farm in Minecraft",
+    "shortTitle": "Sugar Cane Farm",
+    "quickAnswer": "Plant sugar cane on dirt or sand next to water and it grows one block every 18 minutes on average, up to 3 tall. An automatic farm watches the cane with observers and knocks the top off with pistons into hoppers or a water stream - zero replanting, endless paper for rockets, books and trading.",
+    "steps": [
+      "Find starter cane. Sugar cane generates on riverbanks and shores in most biomes; the wandering trader also sells it. You only need one piece - it multiplies fast.",
+      "Plant it right. Cane goes on grass, dirt, sand or red sand directly adjacent to a water block (diagonals do not count). It needs no light and no farmland - water next door is the whole requirement.",
+      "Use the compact grid. A checkerboard of water sources with cane between them fits 4 canes per water block. Cover the water with lily pads or waterlogged slabs so you can walk the field without falling in.",
+      "Know the growth math. Every 16 random ticks the cane grows one block, which averages out to about one block per 18 minutes, stopping at 3 blocks naturally. Growth needs the chunk loaded, so build near your base or AFK spot.",
+      "Harvest the middle, keep the root. Break the middle block and the top falls too while the base replants itself - never break the bottom block or you replant by hand.",
+      "Automate with observer and piston. An observer watching the top growth level fires when cane reaches height 3, powering a piston that breaks the middle block. Drops fall into hoppers or a water stream to your chest.",
+      "Scale in layers. Stack identical rows with a 4-block gap between them, or run one long line of observers and pistons along a canal. A 20-plant starter farm already out-produces a manual field of any size."
+    ],
+    "materials": [
+      "Sugar cane (riverbanks, or the wandering trader)",
+      "Dirt or sand + water buckets",
+      "Per auto-row: observers, pistons and hoppers",
+      "Lily pads or slabs to cover the water"
+    ],
+    "editionNote": "The observer-piston farm works identically in Java and Bedrock. One big Bedrock-only bonus: bone meal grows sugar cane to full height instantly, which enables dispenser-fed cane farms - in Java bone meal does nothing on sugar cane.",
+    "versions": "Sugar cane has been farmable since Java Alpha 1.0.11 (July 2010), when it was still called reeds. The 18-minute average growth and 3-block natural height have been stable ever since; Pocket Edition added bone meal growth early on and Java never did.",
+    "faq": [
+      {
+        "q": "Why is my sugar cane not growing?",
+        "a": "It grows on random ticks, so the chunk must be loaded - stay within your simulation distance. Also check the cane still has water adjacent; if the water froze or was removed, growth stops. Light level does not matter at all."
+      },
+      {
+        "q": "Does bone meal work on sugar cane?",
+        "a": "Only in Bedrock - there it grows the plant to full height instantly. In Java bone meal cannot be used on sugar cane at all, so Java farms rely on waiting or on observers plus pistons."
+      },
+      {
+        "q": "Sugar cane farm or manual field?",
+        "a": "Manual is fine for a bookshelf or two. The moment you want firework rockets for elytra flight or a paper trading hall, build the observer-piston version: it harvests itself while you do anything else nearby."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-observer",
+      "how-to-make-a-hopper",
+      "how-to-make-piston"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "sugar cane farm",
+      "automatic sugar cane farm",
+      "paper farm minecraft",
+      "observer farm"
+    ]
+  },
+  {
+    "slug": "how-to-make-a-creeper-farm",
+    "name": "How to Make a Creeper Farm in Minecraft",
+    "shortTitle": "Creeper Farm",
+    "quickAnswer": "A creeper farm spawns creepers in a dark room with a trapdoor ceiling - exactly short enough that zombies and skeletons cannot spawn but creepers can - then flushes them with water to a kill zone. Even a small one produces around 700 gunpowder per hour, enough for all the TNT and firework rockets you will ever need.",
+    "steps": [
+      "Pick the spot. Over an ocean is ideal: fewer caves below means almost every spawn happens inside your farm. On land, light up or slab every cave in range first, or rates collapse.",
+      "Build a dark spawning platform. Any solid blocks, completely dark inside, with a 2-block-high interior. Start with one layer about 8x8 and expand later - layers stack with 3 blocks of vertical space.",
+      "Add the trapdoor ceiling. Cover the ceiling with trapdoors so the effective height drops to 1 and 13/16 blocks. Creepers spawn in that space; zombies, skeletons and witches cannot. This trick is the whole farm.",
+      "Block the spiders. Spiders still fit under trapdoors. Place carpets on the floor with 2 empty blocks between them so no flat 3x3 area remains - spiders need that space and creepers do not.",
+      "Flush them out. Water streams push creepers to a central drop. To move them faster, place cats at the far end - creepers flee from cats and run straight into your water channel.",
+      "Kill for gunpowder. Campfires under the drop kill automatically and safely. For much better rates, drop them to half a heart and finish them with a Looting III sword.",
+      "AFK in the right place. Stand about 120 blocks above the farm on a platform so mobs spawn inside the farm but outside your 24-block no-spawn bubble. Check rates after 10 minutes and add layers if you want more."
+    ],
+    "materials": [
+      "Stacks of solid building blocks and trapdoors",
+      "Carpets (spider-proofing) and water buckets",
+      "Cats (tame ocelots... cats - in a village or swamp hut)",
+      "Campfires or a Looting III sword",
+      "Chests and hoppers for collection"
+    ],
+    "editionNote": "The trapdoor height trick is Java-only: in Bedrock, creepers do not spawn under a 2-block trapdoor ceiling the same way, so Bedrock farms use other creeper-only layouts or accept mixed mobs with cat-scaring. Cat fleeing and campfire killing work on both.",
+    "versions": "Creeper farms grew up with the trapdoor ceiling trick in the early versions, and boat/minecart mob storage (1.16) later enabled charged-creeper factories for mob heads. The classic small design still yields roughly 700 gunpowder per hour today.",
+    "faq": [
+      {
+        "q": "Why is my creeper farm so slow?",
+        "a": "Unlit caves and the surface around the farm eat your mob cap. Light up or slab everything in a 128-block sphere, or move the farm high over an ocean. Also make sure you AFK 24+ blocks from the platforms - mobs never spawn closer than that to you."
+      },
+      {
+        "q": "How do I get only creepers and no other mobs?",
+        "a": "The trapdoor ceiling handles zombies and skeletons (Java), carpets spaced 2 apart handle spiders, and endermen cannot fit in a 2-high space anyway. What remains is creepers only."
+      },
+      {
+        "q": "Campfires or Looting III?",
+        "a": "Campfires are fully automatic and safe - gunpowder survives the fire, unlike lava. Looting III by hand multiplies gunpowder several times over and also gives XP, but you have to stand there swinging. Most players build campfires first and add a manual mode later."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-gunpowder",
+      "how-to-make-a-mob-farm",
+      "how-to-make-a-hopper"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "creeper farm",
+      "gunpowder farm minecraft",
+      "how to farm gunpowder",
+      "creeper only farm"
+    ]
+  },
+  {
+    "slug": "how-to-make-a-gold-farm",
+    "name": "How to Make a Gold Farm in Minecraft",
+    "shortTitle": "Gold Farm",
+    "quickAnswer": "A gold farm mass-produces zombified piglins and funnels them to a kill zone for nuggets, ingots and XP. The simple version uses Nether portals (piglins spawn inside portal frames and step out into a trap); the fast version stacks spawn platforms on the Nether roof. Add turtle eggs to lure them and a Looting III sword to multiply the drops.",
+    "steps": [
+      "Understand the two spawn sources. Zombified piglins spawn naturally in nether wastes (best rates), crimson forests and fortresses - and they also appear inside Nether portal blocks anywhere, because portals sit at exactly light level 11, the maximum they tolerate.",
+      "Start with the portal farm. In the Overworld or under the Nether bedrock ceiling, build large portal frames (up to 23x23 inside). Piglins spawn in the frame, wander out or get pushed by water, and fall to your kill zone. Cheap, safe and works from day one.",
+      "Lure with turtle eggs. Zombified piglins pathfind toward turtle eggs to crush them. An egg behind a pit or inside the portal area drags every spawned piglin exactly where you want it - no redstone needed.",
+      "Kill with Looting III. Manual kills with a Looting III sword multiply gold several times over and award XP when the piglins are angry at you. Hit one and the whole group aggros - shared anger is what makes XP modes work.",
+      "Scale to the Nether roof. Above the bedrock ceiling at Y 128+, build magma-block platforms (piglins spawn on magma, most mobs cannot) with an egg in the middle and drop chutes to a killing chamber. This is where the famous high-rate designs live.",
+      "Collect everything. Hoppers under the kill zone feed chests; add a simple sorter later so nuggets auto-craft into ingots and rotten flesh gets its own chest.",
+      "Know the rates. A basic portal farm is slow but free; mid designs reach dozens of gold blocks per hour; top Java roof designs quote 130-600 gold blocks per hour with Looting III - pick the size your patience allows."
+    ],
+    "materials": [
+      "Obsidian for portal frames + flint and steel",
+      "Turtle eggs (from breeding turtles on beaches)",
+      "Magma blocks for roof platforms (optional, big farms)",
+      "Looting III sword, hoppers and chests",
+      "Building blocks and water buckets"
+    ],
+    "editionNote": "Edition choice matters here. Natural-spawning roof farms are best on Java; on Bedrock, portal-based farms win because rapidly flickering portals spawn piglins much faster than natural spawning. Many famous Java designs simply do not work on Bedrock - copy one tagged for your edition.",
+    "versions": "Zombified piglins replaced zombie pigmen in the 1.16 Nether Update, keeping the same farm mechanics. One recent caveat: Java 1.21.5 changed anger-based XP drops, so XP rates quoted for older designs may no longer apply - gold rates are unaffected.",
+    "faq": [
+      {
+        "q": "Why are no piglins spawning in my portal?",
+        "a": "Portal spawning is random-tick based and slow for small frames - a single 4x5 portal produces a trickle. Go bigger (23x23), stack several frames, and on Java make sure you are not in peaceful difficulty. Standing too close also blocks spawns: keep 24+ blocks away."
+      },
+      {
+        "q": "Gold farm or bastion raiding?",
+        "a": "Raiding bastions is faster gold per minute early on, but finite and dangerous. A farm is infinite, safe once built, and doubles as an XP source. Most players raid one bastion for the fun, then build a farm for the supply."
+      },
+      {
+        "q": "Do zombified piglins drop XP when killed automatically?",
+        "a": "XP comes from angered piglins dying, and Java 1.21.5 patched the always-drop-XP behavior for angered piglins, so pure fall-damage or cramming modes no longer guarantee XP. Manual Looting III kills remain the reliable XP method; automatic modes are now mainly for gold."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-nether-portal",
+      "how-to-get-xp-fast",
+      "how-to-make-an-item-sorter"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "gold farm minecraft",
+      "zombified piglin farm",
+      "xp farm nether",
+      "gold farm java bedrock"
+    ]
   }
 ]

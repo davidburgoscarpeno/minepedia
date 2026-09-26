@@ -17803,5 +17803,151 @@
       "motor de observers",
       "máquina de slime blocks"
     ]
+  },
+  "how-to-make-a-sugarcane-farm": {
+    "name": "Cómo hacer una granja de sugar cane en Minecraft",
+    "shortTitle": "Granja de Sugar Cane",
+    "quickAnswer": "Planta sugar cane en dirt o sand junto al agua y crece un bloque cada 18 minutos de media, hasta 3 de alto. Una granja automática vigila la caña con observers y le corta la parte alta con pistons hacia hoppers o una corriente de agua: cero replantado y papel infinito para rockets, books y comercio.",
+    "steps": [
+      "Consigue la primera caña. La sugar cane aparece en riberas y orillas de la mayoría de biomas; el wandering trader también la vende. Solo necesitas una: se multiplica rápido.",
+      "Plántala bien. La caña va en grass, dirt, sand o red sand directamente adyacente a un bloque de agua (las diagonales no cuentan). No necesita luz ni farmland: el agua al lado es todo el requisito.",
+      "Usa la cuadrícula compacta. Un tablero de ajedrez de water sources con caña entre medias mete 4 cañas por bloque de agua. Cubre el agua con lily pads o slabs waterlogged para caminar por el campo sin caerte.",
+      "Conoce las matemáticas. Cada 16 random ticks la caña crece un bloque, lo que da de media un bloque cada 18 minutos, y se para en 3 bloques de forma natural. El crecimiento necesita el chunk cargado, así que construye cerca de tu base o punto de AFK.",
+      "Cosecha el medio, guarda la raíz. Rompe el bloque central y el de arriba cae también mientras la base se replanta sola: nunca rompas el bloque inferior o replantarás a mano.",
+      "Automatiza con observer y piston. Un observer vigilando el nivel superior dispara cuando la caña llega a 3 de alto, activando un piston que rompe el bloque central. Los drops caen en hoppers o en una corriente de agua hacia tu chest.",
+      "Escala en capas. Apila filas idénticas con 4 bloques de separación vertical, o monta una larga línea de observers y pistons a lo largo de un canal. Una granja inicial de 20 plantas ya supera a cualquier campo manual."
+    ],
+    "materials": [
+      "Sugar cane (riberas, o el wandering trader)",
+      "Dirt o sand + water buckets",
+      "Por fila automática: observers, pistons y hoppers",
+      "Lily pads o slabs para cubrir el agua"
+    ],
+    "editionNote": "La granja de observer y piston funciona igual en Java y Bedrock. Una gran ventaja solo de Bedrock: el bone meal hace crecer la sugar cane al máximo al instante, lo que permite granjas con dispensers; en Java el bone meal no hace nada en la sugar cane.",
+    "versions": "La sugar cane se cultiva desde Java Alpha 1.0.11 (julio de 2010), cuando aún se llamaba reeds. La media de 18 minutos y la altura natural de 3 bloques llevan estables desde entonces; Pocket Edition añadió pronto el crecimiento con bone meal y Java nunca lo hizo.",
+    "faq": [
+      {
+        "q": "¿Por qué no crece mi sugar cane?",
+        "a": "Crece por random ticks, así que el chunk debe estar cargado: quédate dentro de tu simulation distance. Comprueba también que la caña sigue teniendo agua adyacente; si el agua se congeló o la quitaste, el crecimiento se detiene. El nivel de luz no importa en absoluto."
+      },
+      {
+        "q": "¿Funciona el bone meal en la sugar cane?",
+        "a": "Solo en Bedrock: allí hace crecer la planta al máximo al instante. En Java no se puede usar bone meal en la sugar cane, así que las granjas de Java dependen de esperar o de observers más pistons."
+      },
+      {
+        "q": "¿Granja de sugar cane o campo manual?",
+        "a": "El manual vale para un par de bookshelves. En cuanto quieras firework rockets para volar con elytra o una trading hall de papel, monta la versión de observer y piston: se cosecha sola mientras haces cualquier otra cosa cerca."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "granja de sugar cane",
+      "granja automática de caña",
+      "granja de papel minecraft",
+      "granja con observers"
+    ]
+  },
+  "how-to-make-a-creeper-farm": {
+    "name": "Cómo hacer una granja de creepers en Minecraft",
+    "shortTitle": "Granja de Creepers",
+    "quickAnswer": "Una granja de creepers los genera en una sala oscura con techo de trapdoors: justo lo bastante bajo para que zombies y skeletons no puedan aparecer pero los creepers sí, y luego los empuja con agua a una zona de muerte. Incluso una pequeña produce unos 700 de gunpowder por hora: suficiente para todo el TNT y los firework rockets que necesitarás.",
+    "steps": [
+      "Elige el lugar. Sobre un ocean es ideal: menos cuevas debajo significa que casi todos los spawns ocurren dentro de tu granja. En tierra, ilumina o cubre con slabs todas las cuevas del alcance primero, o las tasas se hunden.",
+      "Construye una plataforma de spawn oscura. Cualquier bloque sólido, completamente a oscuras, con interior de 2 bloques de alto. Empieza con una capa de unos 8x8 y amplía después: las capas se apilan con 3 bloques de espacio vertical.",
+      "Añade el techo de trapdoors. Cubre el techo con trapdoors para que la altura efectiva baje a 1 y 13/16 bloques. Los creepers aparecen en ese espacio; zombies, skeletons y witches no pueden. Este truco es toda la granja.",
+      "Bloquea a las spiders. Las spiders aún caben bajo las trapdoors. Coloca carpets en el suelo con 2 bloques libres entre ellas para que no quede ninguna zona plana de 3x3: las spiders la necesitan y los creepers no.",
+      "Sácalos con agua. Las corrientes de agua empujan a los creepers a una caída central. Para moverlos más rápido, coloca cats en el extremo opuesto: los creepers huyen de los cats y corren directos a tu canal de agua.",
+      "Mátalos por gunpowder. Las campfires bajo la caída matan de forma automática y segura. Para tasas mucho mejores, déjalos a medio corazón y remátalos con una espada con Looting III.",
+      "Haz AFK en el lugar correcto. Ponte en una plataforma unos 120 bloques por encima de la granja para que los mobs aparezcan dentro de la granja pero fuera de tu burbuja de 24 bloques sin spawn. Revisa las tasas a los 10 minutos y añade capas si quieres más."
+    ],
+    "materials": [
+      "Stacks de bloques sólidos y trapdoors",
+      "Carpets (contra spiders) y water buckets",
+      "Cats (domados en una village o swamp hut)",
+      "Campfires o una espada con Looting III",
+      "Chests y hoppers para la recolección"
+    ],
+    "editionNote": "El truco de la altura con trapdoors es solo de Java: en Bedrock los creepers no aparecen bajo un techo de trapdoors de 2 bloques de la misma forma, así que las granjas de Bedrock usan otros diseños solo-creepers o aceptan mobs mixtos con huida por cats. La huida de cats y la muerte por campfires funcionan en ambas.",
+    "versions": "Las granjas de creepers crecieron con el truco del techo de trapdoors en las versiones tempranas, y el almacenamiento de mobs en boats y minecarts (1.16) permitió después las fábricas de charged creepers para mob heads. El diseño clásico pequeño sigue rindiendo unos 700 de gunpowder por hora hoy.",
+    "faq": [
+      {
+        "q": "¿Por qué mi granja de creepers es tan lenta?",
+        "a": "Las cuevas sin iluminar y la superficie alrededor se comen tu mob cap. Ilumina o cubre con slabs todo en una esfera de 128 bloques, o mueve la granja bien alto sobre un ocean. Asegúrate también de hacer AFK a 24+ bloques de las plataformas: los mobs nunca aparecen más cerca de ti."
+      },
+      {
+        "q": "¿Cómo consigo solo creepers y ningún otro mob?",
+        "a": "El techo de trapdoors se encarga de zombies y skeletons (Java), las carpets separadas por 2 bloques se encargan de las spiders, y los endermen no caben en un espacio de 2 de alto de todos modos. Lo que queda son solo creepers."
+      },
+      {
+        "q": "¿Campfires o Looting III?",
+        "a": "Las campfires son totalmente automáticas y seguras: la gunpowder sobrevive al fuego, a diferencia de la lava. El Looting III a mano multiplica la gunpowder varias veces y además da XP, pero tienes que quedarte ahí pegando. La mayoría monta campfires primero y añade un modo manual después."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "granja de creepers",
+      "granja de gunpowder minecraft",
+      "cómo conseguir pólvora",
+      "granja solo creepers"
+    ]
+  },
+  "how-to-make-a-gold-farm": {
+    "name": "Cómo hacer una granja de oro en Minecraft",
+    "shortTitle": "Granja de Oro",
+    "quickAnswer": "Una granja de oro produce zombified piglins en masa y los canaliza a una zona de muerte para conseguir nuggets, ingots y XP. La versión simple usa nether portals (los piglins aparecen dentro de los marcos y salen hacia una trampa); la versión rápida apila plataformas de spawn en el techo del Nether. Añade turtle eggs para atraerlos y una espada con Looting III para multiplicar los drops.",
+    "steps": [
+      "Entiende las dos fuentes de spawn. Los zombified piglins aparecen de forma natural en nether wastes (las mejores tasas), crimson forests y fortresses, y también dentro de los bloques de nether portal en cualquier sitio, porque los portals están exactamente a nivel de luz 11, el máximo que toleran.",
+      "Empieza con la granja de portals. En el Overworld o bajo el techo de bedrock del Nether, construye marcos de portal grandes (hasta 23x23 por dentro). Los piglins aparecen en el marco, salen caminando o los empuja el agua, y caen a tu zona de muerte. Barata, segura y funciona desde el primer día.",
+      "Atrae con turtle eggs. Los zombified piglins van hacia las turtle eggs para aplastarlas. Un huevo detrás de un foso o dentro de la zona del portal arrastra a cada piglin exactamente donde quieres: sin redstone.",
+      "Mata con Looting III. Las muertes manuales con una espada de Looting III multiplican el oro varias veces y dan XP cuando los piglins están enfadados contigo. Golpea a uno y todo el grupo se enfada: la ira compartida es lo que hace funcionar los modos de XP.",
+      "Escala al techo del Nether. Por encima del techo de bedrock en Y 128+, construye plataformas de magma blocks (los piglins aparecen en magma, la mayoría de mobs no pueden) con un huevo en el centro y tolvas de caída a una cámara de muerte. Ahí viven los diseños famosos de altas tasas.",
+      "Recógelo todo. Hoppers bajo la zona de muerte alimentan chests; añade un sorter simple después para que los nuggets se fabriquen en ingots y la rotten flesh tenga su propio chest.",
+      "Conoce las tasas. Una granja de portals básica es lenta pero gratis; los diseños medios alcanzan decenas de bloques de oro por hora; los mejores diseños de techo de Java citan 130-600 bloques de oro por hora con Looting III. Elige el tamaño que tu paciencia permita."
+    ],
+    "materials": [
+      "Obsidian para los marcos de portal + flint and steel",
+      "Turtle eggs (de criar turtles en playas)",
+      "Magma blocks para plataformas de techo (opcional, granjas grandes)",
+      "Espada con Looting III, hoppers y chests",
+      "Bloques de construcción y water buckets"
+    ],
+    "editionNote": "La edición importa aquí. Las granjas de spawn natural en el techo son mejores en Java; en Bedrock ganan las granjas de portals, porque portals que parpadean rápido generan piglins mucho más rápido que el spawn natural. Muchos diseños famosos de Java simplemente no funcionan en Bedrock: copia uno etiquetado para tu edición.",
+    "versions": "Los zombified piglins sustituyeron a los zombie pigmen en la 1.16 Nether Update, manteniendo la misma mecánica de granja. Una salvedad reciente: Java 1.21.5 cambió los drops de XP por ira, así que las tasas de XP citadas en diseños antiguos pueden ya no aplicar; las tasas de oro no se ven afectadas.",
+    "faq": [
+      {
+        "q": "¿Por qué no aparecen piglins en mi portal?",
+        "a": "El spawn por portal depende de random ticks y es lento con marcos pequeños: un solo portal 4x5 produce un goteo. Hazlo más grande (23x23), apila varios marcos y en Java asegúrate de no estar en peaceful. Estar demasiado cerca también bloquea spawns: mantente a 24+ bloques."
+      },
+      {
+        "q": "¿Granja de oro o saquear bastions?",
+        "a": "Saquear bastions da más oro por minuto al principio, pero es finito y peligroso. Una granja es infinita, segura una vez construida y dobla como fuente de XP. La mayoría saquea un bastion por la diversión y luego construye una granja para el suministro."
+      },
+      {
+        "q": "¿Dan XP los zombified piglins muertos automáticamente?",
+        "a": "El XP viene de piglins enfadados al morir, y Java 1.21.5 parcheó el comportamiento de soltar siempre XP en piglins enfadados, así que los modos de daño por caída o cramming ya no garantizan XP. Las muertes manuales con Looting III siguen siendo el método fiable de XP; los modos automáticos son ahora sobre todo para oro."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "granja de oro minecraft",
+      "granja de zombified piglins",
+      "granja de XP nether",
+      "granja de oro java bedrock"
+    ]
   }
 }
