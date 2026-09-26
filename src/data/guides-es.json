@@ -19146,5 +19146,158 @@
       "trident channeling",
       "encantamientos de trident"
     ]
+  },
+  "how-to-get-loyalty": {
+    "name": "Cómo conseguir Loyalty en Minecraft",
+    "shortTitle": "Loyalty",
+    "quickAnswer": "Loyalty es un encantamiento de trident (nivel máximo III) que hace que el trident lanzado vuelva volando a tu mano tras impactar. A mayor nivel, vuelve más rápido. Consíguelo en la enchanting table, trades de librarians o cofres de loot. No se puede combinar con Riptide.",
+    "steps": [
+      "Consigue un trident. Mata drowned que aparezcan con uno en ríos y océanos: Looting III aumenta las probabilidades de drop.",
+      "Encántalo con Loyalty. Tirada de enchanting table, o un anvil más un libro de Loyalty de un librarian, cofre de loot o tesoro de pesca.",
+      "Súbelo a III. Loyalty I te deja esperando un momento tras cada lanzamiento; III devuelve el trident casi al instante. Combina dos objetos o libros de Loyalty del mismo nivel en un anvil para escalar.",
+      "Lucha a distancia sin perderlo. Lanza, deja que golpee, y vuelve solo: sin perseguir drops a la lava, al océano o a un ravine. Regresa a ti aunque te hayas movido, incluso a través de paredes.",
+      "Respeta sus límites. En Java, un trident lanzado al void se pierde para siempre: no hay nada contra lo que golpear, así que nunca vuelve. En Bedrock regresa tras unos 15 bloques de void. Y Loyalty nunca puede compartir trident con Riptide."
+    ],
+    "materials": [
+      "Trident (de los drowned)",
+      "Enchanting table, o anvil + enchanted book de Loyalty",
+      "Niveles de XP",
+      "Mending (recomendado: los lanzamientos gastan durabilidad)"
+    ],
+    "editionNote": "Java: lanzar al void destruye el trident incluso con Loyalty III; la wiki lo marca como comportamiento intencionado. Bedrock: regresa tras recorrer unos 15 bloques en el void, y los tridents disparados por dispensers no vuelven en absoluto.",
+    "versions": "Loyalty se añadió en 1.13 (Update Aquatic, 2018) con el propio trident. Su comportamiento de retorno y su incompatibilidad con Riptide no han cambiado desde entonces.",
+    "faq": [
+      {
+        "q": "¿Loyalty o Riptide?",
+        "a": "Loyalty para combatir: un arma a distancia fiable que siempre vuelve. Riptide para moverte. Son mutuamente excluyentes, así que la mayoría lleva dos tridents. Loyalty además combina muy bien con Channeling."
+      },
+      {
+        "q": "Mi trident con Loyalty nunca volvió, ¿por qué?",
+        "a": "Lo más probable es que cayera al void (en Java) sin nada que golpear. También puede quedarse pillado si sales del mundo o mueres en ciertos casos límite. En el End, nunca lo lances al vacío bajo las islas."
+      },
+      {
+        "q": "¿Loyalty III lo devuelve al instante?",
+        "a": "Casi: los niveles altos acortan la espera tras el impacto. III es suficientemente rápido para lanzar en ráfaga en combate, por eso es la build estándar junto a Impaling."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/drowned/",
+        "label": "Drowned"
+      },
+      {
+        "url": "/es/structures/ocean-ruins/",
+        "label": "Ocean Ruins"
+      }
+    ],
+    "keywords": [
+      "loyalty minecraft",
+      "cómo conseguir loyalty",
+      "trident loyalty",
+      "loyalty 3",
+      "encantamientos de trident"
+    ]
+  },
+  "how-to-get-impaling": {
+    "name": "Cómo conseguir Impaling en Minecraft",
+    "shortTitle": "Impaling",
+    "quickAnswer": "Impaling es un encantamiento de trident (nivel máximo V) que suma 2,5 HP de daño por nivel. En Java solo aumenta el daño contra mobs acuáticos (fish, guardians, squids, turtles, dolphins, axolotls) y NO contra drowned. En Bedrock aumenta el daño contra cualquier mob que esté en agua o bajo la lluvia.",
+    "steps": [
+      "Consigue un trident. Los drowned con trident aparecen en ríos y océanos; Looting III mejora la probabilidad de drop.",
+      "Encántalo. Tirada de enchanting table, o un anvil más un libro de Impaling de un librarian, cofre de loot o tesoro de pesca. Combina libros del mismo nivel hasta Impaling V.",
+      "Conoce tu edición. Java: el bonus solo vale contra mobs acuáticos: guardians, elder guardians, todos los fish, squids, glow squids, turtles, dolphins, axolotls, tadpoles y nautiluses. Los drowned cuentan como undead puros y no reciben nada extra. Bedrock: CUALQUIER mob que toque agua o lluvia recibe el bonus, jugadores incluidos.",
+      "Asalta un monument. Impaling V convierte a los elder guardians en bajas de cuatro golpes y mata de un golpe a la mayoría de fish y squids. Es el encantamiento que hace cómodos los ocean monuments, las granjas de guardians y la exploración de océanos cálidos.",
+      "Ojo a las incompatibilidades. Impaling no se combina con Sharpness, Smite, Bane of Arthropods, Density ni Breach, aunque en survival nunca llegarías a ponerlos en un trident: son de swords, axes y maces."
+    ],
+    "materials": [
+      "Trident (de los drowned)",
+      "Enchanting table, o anvil + enchanted book de Impaling",
+      "Niveles de XP",
+      "Loyalty o Riptide de compañero (van aparte y sí combinan con Impaling)"
+    ],
+    "editionNote": "La gran división por edición: Java limita Impaling a mobs acuáticos (drowned excluidos, marcado como intencionado en el bug tracker), mientras Bedrock lo aplica a cualquier cosa en agua o lluvia. Bedrock además redondea el bonus a números enteros por nivel.",
+    "versions": "Impaling se añadió en 1.13 (Update Aquatic, 2018) con el trident. Su alcance de solo acuáticos en Java y de agua-o-lluvia en Bedrock se ha mantenido igual desde el lanzamiento.",
+    "faq": [
+      {
+        "q": "¿Impaling funciona contra drowned?",
+        "a": "En Java, no: los drowned se clasifican como undead, no acuáticos, y el reporte de bug se cerró como comportamiento intencionado. En Bedrock, sí si están en agua o lluvia. Para cazar drowned en Java, Smite en una sword hace el trabajo."
+      },
+      {
+        "q": "¿Merece Impaling en Java?",
+        "a": "Para contenido oceánico, sin duda: granjas de guardians, asaltos a monuments y rutas de loot en océanos cálidos. Para combate general en Java no hace nada: es un encantamiento especialista, a diferencia de la versión de Bedrock, que es un mini-Sharpness bajo la lluvia."
+      },
+      {
+        "q": "¿Impaling y Loyalty acumulan?",
+        "a": "Sí, van por vías distintas y combinan perfecto: Loyalty lo devuelve, Impaling lo hace pegar más fuerte. Es la build clásica de trident de cazador oceánico."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/guardian/",
+        "label": "Guardian"
+      },
+      {
+        "url": "/es/structures/ocean-monument/",
+        "label": "Ocean Monument"
+      }
+    ],
+    "keywords": [
+      "impaling minecraft",
+      "cómo conseguir impaling",
+      "trident impaling",
+      "impaling 5",
+      "para qué sirve impaling"
+    ]
+  },
+  "how-to-get-multishot": {
+    "name": "Cómo conseguir Multishot en Minecraft",
+    "shortTitle": "Multishot",
+    "quickAnswer": "Multishot es un encantamiento de crossbow (nivel máximo I) que dispara 3 proyectiles en abanico de 10° al precio de una arrow. También duplica tipped arrows, spectral arrows y firework rockets. No se puede combinar con Piercing, y solo el proyectil central se puede recoger de vuelta.",
+    "steps": [
+      "Fabrica o consigue una crossbow. Tripwire hook + 3 sticks + 2 string + 1 iron ingot, o quítasela a un pillager.",
+      "Encántala con Multishot. Tirada de enchanting table, o un anvil más un libro de Multishot de un librarian o cofre de loot. Un solo nivel: sin grindeo de rangos.",
+      "Dispara tres por una. Cada tiro lanza tres copias de tu proyectil cargado en un abanico horizontal fijo de 10 grados, pero solo consume una arrow de tu inventario. El coste: 3 puntos de durabilidad por tiro (uno por proyectil).",
+      "Carga la munición divertida. Multishot duplica lo que cargues: tipped arrows para efectos de área, spectral arrows para marcar grupos enteros, y firework rockets para voleas triples de explosivos: tres rockets a la vez es el clásico funde-raids.",
+      "Conoce sus rarezas. Solo la arrow central se puede recuperar tras disparar, y en Java la inmunidad de daño hace que un mismo mob solo pueda ser herido por una arrow por tiro: Multishot es para multitudes, no para objetivos únicos. Piercing es mutuamente excluyente."
+    ],
+    "materials": [
+      "Crossbow",
+      "Enchanting table, o anvil + enchanted book de Multishot",
+      "Niveles de XP",
+      "Arrows, tipped arrows o firework rockets para cargar"
+    ],
+    "editionNote": "Multishot se comporta igual en Java y Bedrock en lo básico (3 proyectiles, abanico de 10°, una arrow consumida). El límite de una arrow por mob viene del sistema de inmunidad de daño de Java, así que en Bedrock un mob sí puede comerse más de una arrow de la misma volea.",
+    "versions": "Multishot se añadió en 1.14 (Village & Pillage, 2019) junto a la propia crossbow. Su abanico, coste de munición e incompatibilidad con Piercing no han cambiado desde entonces.",
+    "faq": [
+      {
+        "q": "¿Multishot o Piercing?",
+        "a": "Multishot para control de masas y voleas de fireworks; Piercing para mobs en fila y tiros que atraviesan shields. No pueden compartir crossbow, así que elige por arma: muchos jugadores guardan una de cada."
+      },
+      {
+        "q": "¿Multishot funciona con fireworks?",
+        "a": "Sí: tres rockets por tiro, cada uno duplicado gratis. Carga rockets con firework stars para daño y una crossbow con Multishot se convierte en un lanzagranadas que solo gasta un rocket por volea."
+      },
+      {
+        "q": "¿Por qué solo una de mis tres arrows hirió al zombie?",
+        "a": "La inmunidad de daño de Java: justo tras recibir un golpe, un mob no puede recibir otro durante un instante, así que las arrows laterales rebotan en el mismo objetivo. Apunta a grupos para que cada arrow encuentre su propia víctima."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/pillager/",
+        "label": "Pillager"
+      },
+      {
+        "url": "/es/structures/pillager-outpost/",
+        "label": "Pillager Outpost"
+      }
+    ],
+    "keywords": [
+      "multishot minecraft",
+      "cómo conseguir multishot",
+      "crossbow multishot",
+      "multishot o piercing",
+      "encantamientos de crossbow"
+    ]
   }
 }
