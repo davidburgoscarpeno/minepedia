@@ -19226,7 +19226,7 @@
       "Levers, buttons, pressure plates",
       "Pistons, dispensers, lamps to power"
     ],
-    "editionNote": "Core mechanics are the same in Java and Bedrock, but Java has quasi-connectivity (pistons and droppers can be powered from one block above like doors) while Bedrock doesn't - so some Java tutorials break on Bedrock. Repeater locking is also Java-only.",
+    "editionNote": "Core mechanics are the same in Java and Bedrock, but Java has quasi-connectivity (pistons and droppers can be powered from one block above like doors) while Bedrock doesn't - so some Java tutorials break on Bedrock. Repeater locking works in both editions.",
     "versions": "Redstone arrived in Alpha 1.0.1 (2010) as 'red ore' and powered the first doors. Repeaters came in Beta 1.3, comparators in 1.5, and observers in 1.11 - the four building blocks have been stable ever since.",
     "faq": [
       {
@@ -19365,6 +19365,163 @@
       "hopper clock",
       "observer clock",
       "repeater clock minecraft"
+    ]
+  },
+  {
+    "slug": "how-to-use-a-redstone-repeater",
+    "name": "How to Use a Redstone Repeater in Minecraft",
+    "shortTitle": "Using a Repeater",
+    "quickAnswer": "A redstone repeater does four jobs: it refreshes a fading signal back to full strength 15, works as a one-way diode (signals only pass from back to front), adds an adjustable delay of 0.1 to 0.4 seconds, and locks its output state when another repeater or comparator powers its side. Right-click it to cycle through the four delay settings.",
+    "steps": [
+      "Craft or loot one. A repeater takes 3 stone (smelted cobblestone), 2 redstone torches and 1 redstone dust - or grab the two that generate naturally in every jungle temple.",
+      "Place it facing the right way. The arrow on top points from input to output. A repeater only accepts a signal at its back and only outputs from its front, so a backwards repeater does nothing.",
+      "Extend a dying signal. Dust fades by 1 strength per block and dies at 15. Put a repeater just before that point and it re-emits at full 15, buying another 15 blocks. Chain them for long wires.",
+      "Set the delay. Right-click (use) the repeater to move the little torches apart: the four settings are 1, 2, 3 and 4 redstone ticks (0.1, 0.2, 0.3 and 0.4 seconds). Every repeater adds at least 0.1s, so account for it in timed circuits.",
+      "Use it as a diode. Because signals only travel one way through a repeater, placing one between two circuit sections stops them back-feeding into each other - the classic fix when a piston door fires itself.",
+      "Lock it for memory cells. Power the side of a repeater with another repeater or a comparator pointing into it and it freezes in its current on or off state until the side signal stops. Two side-locked repeaters in a loop make a 1-bit memory cell."
+    ],
+    "materials": [
+      "Redstone repeater (3 stone + 2 redstone torches + 1 redstone dust)",
+      "Redstone dust and a lever for testing",
+      "Optional: a comparator or second repeater to try locking"
+    ],
+    "editionNote": "Works the same in Java and Bedrock, including side-locking. The one difference to watch: Java pulses shorter than the set delay get stretched to match it, which makes some 1-tick Java circuits behave differently from Bedrock builds.",
+    "versions": "Repeaters have been in the game since Java Beta 1.3 (February 2011), and two generate in every jungle temple since 1.3.1. The four delay settings and side-locking have been stable ever since.",
+    "faq": [
+      {
+        "q": "How many repeaters do I need for a long wire?",
+        "a": "One for every 15 blocks of dust. Each repeater resets the signal to full strength 15, so a 100-block run needs about 6-7 repeaters - each adding at least 0.1 seconds of delay."
+      },
+      {
+        "q": "Why is my repeater not powering the next block?",
+        "a": "It is probably facing backwards - the arrow must point away from the input. Also check that you are powering its back, not its side: a side signal locks the repeater instead of passing through."
+      },
+      {
+        "q": "What does locking a repeater do?",
+        "a": "A side-powered repeater freezes its output: if it was on, it stays on even when the back input turns off, and vice versa, until the side signal releases it. That is the basis of memory cells and hidden-input locks."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-redstone-repeater",
+      "how-to-use-redstone",
+      "how-to-make-a-redstone-clock"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "redstone repeater",
+      "how to use a repeater",
+      "repeater delay",
+      "redstone diode"
+    ]
+  },
+  {
+    "slug": "how-to-use-a-redstone-comparator",
+    "name": "How to Use a Redstone Comparator in Minecraft",
+    "shortTitle": "Using a Comparator",
+    "quickAnswer": "A redstone comparator has two modes. In compare mode (default) it passes its back input through only if that signal is at least as strong as any side input. Click the front torch to switch to subtract mode, which outputs the back signal minus the strongest side signal. Placed against a container, it instead reads how full the container is.",
+    "steps": [
+      "Craft it. A comparator takes 3 stone, 3 redstone torches and 1 nether quartz - the quartz means one Nether trip first.",
+      "Learn the layout. The two short prongs face the input (back), the single torch is the output (front), and the two bare sides accept comparison signals. Unlike a repeater, a comparator keeps the signal strength as-is instead of refreshing it to 15.",
+      "Compare mode (front torch off, the default): the output equals the back input only if the back is stronger than or equal to both side inputs; otherwise the output is off. Use it to require two conditions at once.",
+      "Subtract mode (click the comparator so the front torch lights up): output = back signal minus the strongest side signal. Feed a 15-strength input and a 3-strength side and you get 12 out - the basis of analog counters.",
+      "Read containers. Against a chest, hopper, furnace, barrel, shulker box, cake, item frame, lectern, jukebox or command block, the comparator ignores signals and outputs 0-15 based on fullness or state. A full double chest gives 15; each cake slice left changes the level.",
+      "Build an item filter. Put exact filler stacks in a hopper so the comparator reads strength 2-3, run that through a torch and back into the hopper below - the classic design only unlocks when enough of the target item arrives. This is the heart of every storage system.",
+      "Mind the delay. A comparator always adds 1 game tick (0.05s) of delay, half a repeater tick, which matters in fast clocks."
+    ],
+    "materials": [
+      "Redstone comparator (3 stone + 3 redstone torches + 1 nether quartz)",
+      "Chest or hopper to practice container reading",
+      "Redstone dust and a lamp to see the output"
+    ],
+    "editionNote": "Compare, subtract and container reading work the same in Java and Bedrock. One Java quirk: comparators can read some block states (like a cake or item frame rotation) through a solid block, which Bedrock does not always replicate - test filters on your edition.",
+    "versions": "Comparators arrived in Java 1.5, the Redstone Update (January 2013), and container measuring was added in the same snapshot cycle. The recipe and both modes have been unchanged since.",
+    "faq": [
+      {
+        "q": "What is the difference between a repeater and a comparator?",
+        "a": "A repeater refreshes the signal to full 15 and only passes one way. A comparator keeps the exact strength, can subtract signals, and reads container fullness - but it does not boost a fading signal."
+      },
+      {
+        "q": "How do I make a comparator read a chest?",
+        "a": "Place it with its back against the chest (or a block in front of the chest) and dust on the output. The signal strength scales with fullness: roughly empty = 0, one stack in a chest = 1, completely full = 15."
+      },
+      {
+        "q": "Why does my item filter overflow or jam?",
+        "a": "The filler items in the filter hopper must be ones that stack to 64 and cannot match the sorted item in the wrong slots. If the comparator reads a strength above 3 the filter opens for everything - keep exactly the classic 41-target-item plus 1-1-1-1 filler layout."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-redstone-comparator",
+      "how-to-use-redstone",
+      "how-to-make-a-redstone-clock"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "redstone comparator",
+      "how to use a comparator",
+      "comparator subtract mode",
+      "item filter"
+    ]
+  },
+  {
+    "slug": "how-to-use-observer",
+    "name": "How to Use an Observer in Minecraft",
+    "shortTitle": "Using an Observer",
+    "quickAnswer": "An observer watches the block directly in front of its face. When that block changes - grows, is placed, broken or changes state - the red dot on the back fires a 1-redstone-tick pulse at full power 15. That single pulse powers farms, traps, flying machines and the fastest compact clocks in the game.",
+    "steps": [
+      "Craft it. An observer takes 6 cobblestone, 2 redstone dust and 1 nether quartz, so it needs one Nether trip.",
+      "Place it facing the right way. The face with the two \"eyes\" watches the block in front of it; the red dot on the opposite side is the output. The face points away from you when you place it, so stand on the output side.",
+      "Wire the output. The dot side emits a pulse of strength 15 lasting 1 redstone tick (2 game ticks) - enough to fire a piston, dispenser or note block, or to feed dust, a repeater or a comparator.",
+      "Detect crop growth. Point the face at the top of sugar cane, bamboo, kelp or a cactus: when it grows one block, the observer fires once - the trigger behind most automatic farms.",
+      "Make a fast clock. Two observers facing each other detect each other pulsing and loop forever - the most compact fast clock in the game. Break and replace one to stop it.",
+      "Build a flying machine. An observer moved by a piston emits a pulse as it arrives, so two observers plus two slime blocks and pistons push each other along in a line. That is the engine of every flying machine."
+    ],
+    "materials": [
+      "Observer (6 cobblestone + 2 redstone dust + 1 nether quartz)",
+      "Pistons and slime blocks for flying machines",
+      "Something to watch: crops, a furnace, a door"
+    ],
+    "editionNote": "Java and Bedrock observers detect different changes. Java watches for block-state \"shape updates\" (very predictable); Bedrock acts as a general block-update detector and fires on some changes Java ignores - and vice versa. Farm designs are rarely cross-edition compatible, so build one made for your edition.",
+    "versions": "The observer debuted in Pocket Edition 0.15.0 (June 2016) as the first official BUD block, then came to Java in 1.11, the Exploration Update (November 2016). Its pulse has been 1 redstone tick at strength 15 ever since.",
+    "faq": [
+      {
+        "q": "Why does my observer fire randomly?",
+        "a": "It detects more than growth: block placement, breaking, water flowing in, even a chest being opened nearby on Bedrock. Check what block its face actually points at - one block off and it watches the wrong thing."
+      },
+      {
+        "q": "Observer vs comparator for farms - which one?",
+        "a": "Use an observer to catch a change the moment it happens (cane grew, melon spawned). Use a comparator to measure a level (how full a chest is). Most automatic farms use observers as the trigger and comparators in the storage system."
+      },
+      {
+        "q": "How do I stop an observer clock?",
+        "a": "Two facing observers pulse each other forever. Power one of their outputs into a piston that pushes a solid block between them, or just break one observer and place it back when you want the clock to run again."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-observer",
+      "how-to-use-redstone",
+      "how-to-make-a-piston-door"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "observer minecraft",
+      "how to use an observer",
+      "observer clock",
+      "flying machine"
     ]
   }
 ]
