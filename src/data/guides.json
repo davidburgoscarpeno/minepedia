@@ -20847,5 +20847,176 @@
       "no fall damage potion",
       "slow falling minecraft recipe"
     ]
+  },
+  {
+    "slug": "how-to-make-leaping-potion",
+    "name": "How to Make a Leaping Potion",
+    "shortTitle": "Leaping Potion",
+    "quickAnswer": "Brew an awkward potion (water bottle + nether wart) and add a rabbit's foot for Jump Boost I (3:00). Redstone extends it to 8:00; glowstone upgrades it to Jump Boost II (1:30). Level I lets you jump 1 13/16 blocks, level II 2 1/2 blocks, and each level also counts your falls as one block shorter.",
+    "steps": [
+      "Get a rabbit's foot. Rabbits hop around deserts, taigas and snowy biomes; the foot is a rare drop - bring a Looting III sword to raise the odds. Cat gifts in the morning can include one too.",
+      "Set up the brewing stand. Blaze rod plus 3 cobblestone, blaze powder fuel, water bottles below.",
+      "Brew awkward potions. Nether wart plus water bottles - the standard base.",
+      "Add the rabbit's foot. That makes a potion of Leaping: Jump Boost I (3:00). Your jump goes from 1 1/4 blocks to 1 13/16 - fences and 2-block walls become single jumps.",
+      "Pick your upgrade. Glowstone dust makes Jump Boost II (1:30): 2 1/2 block jumps, enough to clear ravines and steep cliffs. Redstone dust instead stretches level I to 8:00 for long mountain trips. Bonus: every level of Jump Boost counts your fall as one block shorter, so it softens landings too."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Water bottles + nether wart",
+      "Rabbit's foot",
+      "Glowstone dust (Jump Boost II) or redstone dust (8:00)"
+    ],
+    "editionNote": "Jump Boost works the same in Java and Bedrock: +0.1 blocks/tick of jump velocity per level and one block less of fall damage per level. In Java, corrupted negative levels exist via commands only - survival players never see them.",
+    "versions": "Leaping has been brewable since brewing launched in Beta 1.9 Prerelease 3 (2011), always from a rabbit's foot. The recipe and jump heights have stayed stable across every version since.",
+    "faq": [
+      {
+        "q": "Jump Boost I or II?",
+        "a": "II (2 1/2 blocks) for parkour, cliff climbs and escaping fights; extended I (8:00) for exploring mountains where the cheap recipe and long duration win."
+      },
+      {
+        "q": "Where do I find a rabbit's foot?",
+        "a": "Killing rabbits - best with Looting III. Deserts are the easiest hunting ground because rabbits have nowhere to hide. Tamed cats also occasionally gift one after you sleep."
+      },
+      {
+        "q": "Does Leaping stack with jump-boost beacons?",
+        "a": "Yes - beacon Jump Boost and the potion effect combine (the higher level wins per the usual rules), so a beacon base plus potions for the road covers everything."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-brewing-stand",
+      "how-to-get-nether-wart",
+      "how-to-make-swiftness-potion"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/rabbit/",
+        "label": "Rabbit"
+      },
+      {
+        "url": "/structures/nether-fortress/",
+        "label": "Nether Fortress"
+      }
+    ],
+    "keywords": [
+      "leaping potion",
+      "jump boost potion",
+      "how to make leaping potion",
+      "rabbit foot potion",
+      "jump potion minecraft"
+    ]
+  },
+  {
+    "slug": "how-to-make-slowness-potion",
+    "name": "How to Make a Slowness Potion",
+    "shortTitle": "Slowness Potion",
+    "quickAnswer": "Corrupt a potion of Swiftness or a potion of Leaping with a fermented spider eye for Slowness I (1:30). Redstone extends it to 4:00; glowstone turns plain Slowness into Slowness IV (0:20) - 60% slower. Slowness cuts movement speed by 15% per level but does not slow jumping, falling or flying.",
+    "steps": [
+      "Brew the base first. Slowness is a corruption potion: make a potion of Swiftness (awkward potion + sugar) or a potion of Leaping (awkward potion + rabbit's foot).",
+      "Add a fermented spider eye. Spider eye + brown mushroom + sugar, shapeless. It flips the effect: speed becomes Slowness I (1:30).",
+      "Extend or intensify. Redstone dust stretches Slowness I to 4:00 - great for traps. Glowstone dust on plain Slowness makes Slowness IV (0:20): 60% slower, brutal in PvP. Note you cannot corrupt an enhanced Swiftness II or Leaping II to get there.",
+      "Make it splash. Gunpowder turns it into a splash potion of Slowness for crowd control - slow a charging player, a raid wave or an angry iron golem.",
+      "Know what it does not do. Slowness only cuts ground and swim movement by 15% per level. Jumping, falling, climbing and flying stay full speed, so slowed enemies can still jump away or elytra out."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Potion of Swiftness (sugar) or Leaping (rabbit's foot)",
+      "Fermented spider eye (spider eye + brown mushroom + sugar)",
+      "Redstone (4:00), glowstone (Slowness IV) or gunpowder (splash)"
+    ],
+    "editionNote": "Slowness is identical in Java and Bedrock: -15% movement speed per level and a matching field-of-view contraction. In Bedrock, swamp hut cauldrons have a 10% chance to hold a potion of Slowness. Only plain Slowness accepts glowstone for level IV - corrupted enhanced potions keep their level.",
+    "versions": "Slowness has been in the game since brewing launched in Beta 1.9 Prerelease 3 (2011). It was briefly brewable from fire resistance, but that recipe was removed long ago - corruption is the only survival route now.",
+    "faq": [
+      {
+        "q": "Why can't I corrupt my Swiftness II?",
+        "a": "Enhanced Swiftness and Leaping cannot be corrupted - you get plain Slowness from base potions, then upgrade it with glowstone to Slowness IV yourself."
+      },
+      {
+        "q": "Slowness or Weakness for PvP?",
+        "a": "Both, honestly. Slowness stops enemies escaping or rushing you; Weakness guts their melee damage. A splash of each on the same target is miserable to fight against."
+      },
+      {
+        "q": "Does Slowness affect minecarts and boats?",
+        "a": "Only if the mob riding them has the effect - and it slows the mount's own movement. Vehicles driven by you are not slowed by your Slowness effect."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-swiftness-potion",
+      "how-to-make-weakness-potion",
+      "how-to-make-brewing-stand"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/structures/swamp-hut/",
+        "label": "Swamp Hut"
+      },
+      {
+        "url": "/mobs/witch/",
+        "label": "Witch"
+      }
+    ],
+    "keywords": [
+      "slowness potion",
+      "how to make slowness potion",
+      "slowness 4 potion",
+      "slow potion minecraft",
+      "slowness potion recipe"
+    ]
+  },
+  {
+    "slug": "how-to-make-turtle-master-potion",
+    "name": "How to Make a Turtle Master Potion",
+    "shortTitle": "Turtle Master Potion",
+    "quickAnswer": "Brew an awkward potion (water bottle + nether wart) and add a turtle scute for Slowness IV + Resistance III (0:20). Redstone stretches it to 0:40; glowstone makes the enhanced version: Slowness VI + Resistance IV (0:20) - 80% less damage taken, at 90% slower movement.",
+    "steps": [
+      "Get turtle scutes. Breed two turtles with seagrass; the baby drops one scute when it grows up on its home beach. Five scutes also craft a turtle shell helmet.",
+      "Set up the brewing stand. Blaze rod plus 3 cobblestone, blaze powder fuel, water bottles below.",
+      "Brew awkward potions. Nether wart plus water bottles, as always.",
+      "Add a turtle scute. That makes a potion of the Turtle Master (0:20): Slowness IV (-60% movement) plus Resistance III (-60% incoming damage). You become a walking fortress that barely moves.",
+      "Choose your modifier. Redstone dust extends it to 0:40. Glowstone dust makes Turtle Master II (0:20): Slowness VI with Resistance IV - 80% damage reduction, but you crawl at 10% speed. Pop it to tank the warden's hits, a raid captain rush or a point-blank creeper."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Water bottles + nether wart",
+      "Turtle scute",
+      "Redstone dust (0:40) or glowstone dust (Turtle Master II)"
+    ],
+    "editionNote": "Turtle Master is the same in Java and Bedrock: Resistance cuts incoming damage by 20% per level and Slowness cuts movement by 15% per level. The two effects always travel together in this potion - there is no way to get Resistance III without the Slowness IV from brewing.",
+    "versions": "The Turtle Master potion was added in 1.13 (Update Aquatic, 2018) alongside turtles and their scutes, and its recipe and effects have never changed.",
+    "faq": [
+      {
+        "q": "What is Turtle Master actually good for?",
+        "a": "Tank moments: surviving a warden sonic boom follow-up, holding a raid line, absorbing a creeper blast point-blank, or bridging over lava in the Nether while ghasts shoot you. Resistance IV plus Protection IV armor makes you nearly unkillable for 20 seconds."
+      },
+      {
+        "q": "Turtle Master I or II?",
+        "a": "Extended I (0:40) for most fights - 60% reduction is plenty and you keep 40% speed. II is for scripted tanking where you stand still anyway, like soaking hits while teammates fight."
+      },
+      {
+        "q": "Does Resistance reduce the warden's sonic boom?",
+        "a": "Yes - the sonic boom ignores armor, shields and enchantments, but Resistance is one of the very few things that reduces it. Turtle Master is the only potion that gives Resistance in survival."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-turtle-scute",
+      "how-to-get-turtle-shell",
+      "how-to-beat-the-warden"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/turtle/",
+        "label": "Turtle"
+      },
+      {
+        "url": "/structures/nether-fortress/",
+        "label": "Nether Fortress"
+      }
+    ],
+    "keywords": [
+      "turtle master potion",
+      "how to make turtle master potion",
+      "resistance potion minecraft",
+      "turtle scute potion",
+      "tank potion minecraft"
+    ]
   }
 ]
