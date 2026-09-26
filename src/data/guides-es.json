@@ -17228,5 +17228,157 @@
       "blaze powder poción",
       "poción de daño"
     ]
+  },
+  "how-to-make-healing-potion": {
+    "name": "Cómo hacer una poción de curación",
+    "shortTitle": "Poción de Curación",
+    "quickAnswer": "Destila una awkward potion (water bottle + nether wart) y añade una glistering melon slice para Instant Health: cura 2 corazones al instante. Añade glowstone dust para Healing II (4 corazones). No se puede extender con redstone (es instantánea), pero la versión splash es la mejor cura de emergencia del juego.",
+    "steps": [
+      "Monta el brewing stand. Blaze rod más 3 cobblestone, con blaze powder en el hueco de combustible.",
+      "Destila awkward potions. Water bottles más nether wart: la base de la poción de curación.",
+      "Añade una glistering melon slice. Fabrícala con una melon slice rodeada de 8 gold nuggets. Convierte la awkward potion en Instant Health: 2 corazones restaurados al momento.",
+      "Mejora a Healing II. Añade glowstone dust para la versión nivel II que cura 4 corazones. El redstone no hace nada aquí: el efecto es instantáneo, sin duración que extender.",
+      "Haz splash para el combate. Añade gunpowder para lanzarla: la curación splash es la cura más rápida en plena pelea y además daña a los no-muertos (zombies, esqueletos, el wither): un arma de doble uso."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Water bottles + nether wart",
+      "Glistering melon slice (melon + 8 gold nuggets)",
+      "Glowstone dust (Healing II)",
+      "Gunpowder (versión splash)"
+    ],
+    "editionNote": "Idéntica en Java y Bedrock: Instant Health cura 4 HP (2 corazones) en nivel I y 8 HP (4 corazones) en II. Los mobs no-muertos reciben esa cantidad como daño: la curación splash les hace exactamente lo que el daño instantáneo te hace a ti.",
+    "versions": "La poción de curación existe desde que llegó el brewing en Beta 1.9 Prerelease 2 (2011), siempre con glistering melon. La cura instantánea y la inversión contra no-muertos no han cambiado desde entonces.",
+    "faq": [
+      {
+        "q": "¿Por qué no funcionó el redstone?",
+        "a": "Instant Health no tiene duración, así que el redstone no puede extenderla. Solo el glowstone aplica, mejorándola a Healing II."
+      },
+      {
+        "q": "¿La curación splash daña al wither?",
+        "a": "Sí: el wither es no-muerto, así que Instant Health le daña e Instant Damage le cura. Las pociones splash de curación son un arma legítima contra el wither."
+      },
+      {
+        "q": "¿Es mejor la regeneración?",
+        "a": "Trabajos distintos: Regeneration cura durante 45 segundos, Instant Health cura ahora. Lleva splash de curación para emergencias y regeneración como preparación de jefes."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/blaze/",
+        "label": "Blaze"
+      },
+      {
+        "url": "/es/structures/nether-fortress/",
+        "label": "Fortaleza del Nether"
+      }
+    ],
+    "keywords": [
+      "poción de curación",
+      "cómo hacer poción de curación",
+      "instant health minecraft",
+      "glistering melon poción",
+      "curación splash"
+    ]
+  },
+  "how-to-make-night-vision-potion": {
+    "name": "Cómo hacer una poción de visión nocturna",
+    "shortTitle": "Poción Visión Nocturna",
+    "quickAnswer": "Destila una awkward potion (water bottle + nether wart) y añade una golden carrot para visión nocturna (3:00). Añade redstone dust para extenderla a 8:00. Todo se ve a máximo brillo: perfecta para cuevas, explorar océanos y ver en el deep dark sin antorchas.",
+    "steps": [
+      "Monta el brewing stand. Blaze rod más 3 cobblestone, con blaze powder de combustible.",
+      "Destila awkward potions. Water bottles más nether wart en el hueco superior.",
+      "Añade una golden carrot. Fabrícala con una carrot rodeada de 8 gold nuggets (o compra carrots a aldeanos farmers). Obtienes visión nocturna (3:00).",
+      "Extiende a 8:00. Añade redstone dust: la versión de 8 minutos es la que hay que llevar a las cuevas. Bébela antes de entrar y el mundo se ilumina como de día.",
+      "Úsala en todo lo oscuro. Cuevas, el fondo del océano, el deep dark, el techo del Nether. Ojo: la pantalla parpadea en los últimos 10 segundos: rebebe antes de que se acabe en mitad de una cueva."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Water bottles + nether wart",
+      "Golden carrot (carrot + 8 gold nuggets)",
+      "Redstone dust (versión 8:00)"
+    ],
+    "editionNote": "Idéntica en Java y Bedrock. La visión nocturna solo cambia cómo se ve el mundo: no impide que aparezcan mobs ni hace nada con el color de la niebla submarina más allá del brillo. Corromperla con un fermented spider eye produce invisibilidad.",
+    "versions": "La visión nocturna se unió al repertorio de pociones en Beta 1.9 Prerelease 2 (2011) y siempre ha venido de golden carrots. También es la base de las pociones de invisibilidad por corrupción.",
+    "faq": [
+      {
+        "q": "¿Visión nocturna o antorchas?",
+        "a": "Hacen cosas distintas: la visión nocturna te deja VER, las antorchas impiden que aparezcan mobs. En cuevas peligrosas quieres ambas: la poción para visibilidad, antorchas para seguridad."
+      },
+      {
+        "q": "¿Por qué parpadea mi pantalla?",
+        "a": "La poción está a punto de expirar: los últimos 10 segundos parpadean como aviso. Rebebe o coloca antorchas rápido."
+      },
+      {
+        "q": "¿Funciona bajo el agua?",
+        "a": "Sí, y combina de maravilla con Water Breathing para ocean monuments y ruins: máximo brillo más aire ilimitado."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/blaze/",
+        "label": "Blaze"
+      },
+      {
+        "url": "/es/structures/nether-fortress/",
+        "label": "Fortaleza del Nether"
+      }
+    ],
+    "keywords": [
+      "poción de visión nocturna",
+      "cómo hacer poción de visión nocturna",
+      "ver en la oscuridad minecraft",
+      "golden carrot poción"
+    ]
+  },
+  "how-to-make-water-breathing-potion": {
+    "name": "Cómo hacer una poción de respiración acuática",
+    "shortTitle": "Poción Respiración",
+    "quickAnswer": "Destila una awkward potion (water bottle + nether wart) y añade un pufferfish para Water Breathing (3:00). Añade redstone dust para extenderla a 8:00. Tu barra de aire nunca baja: esencial para ocean monuments, saquear shipwrecks y construir bajo el agua.",
+    "steps": [
+      "Pesca un pufferfish. Pesca en cualquier sitio con una fishing rod: el pufferfish es una captura poco común. Una caña con Luck of the Sea lo acelera; un pez destila hasta 3 botellas.",
+      "Monta el brewing stand. Blaze rod más 3 cobblestone, con blaze powder de combustible.",
+      "Destila awkward potions. Water bottles más nether wart.",
+      "Añade el pufferfish. Convierte la awkward potion en Water Breathing (3:00): tu medidor de aire se congela y no puedes ahogarte mientras dure.",
+      "Extiende a 8:00. Añade redstone dust para la versión de 8 minutos: la elección correcta para ocean monuments. Combínala con visión nocturna y botas Depth Strider para un kit de buceo completo."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Water bottles + nether wart",
+      "Pufferfish (pesca)",
+      "Redstone dust (versión 8:00)"
+    ],
+    "editionNote": "Idéntica en Java y Bedrock. Water Breathing detiene la pérdida de aire por completo, pero no mejora la velocidad de nado ni la visión: combina con Depth Strider, Aqua Affinity y visión nocturna para trabajo submarino de verdad. Los caparazones de tortuga dan una versión débil de 10 segundos.",
+    "versions": "Water Breathing se destila con pufferfish desde Beta 1.9 Prerelease 2 (2011), una de las pociones originales. La extensión de 8:00 con redstone no ha cambiado.",
+    "faq": [
+      {
+        "q": "¿Qué tan raros son los pufferfish?",
+        "a": "Un 11% de las capturas de peces con una caña normal (categoría 'pez', ni junk ni treasure). Una caña Luck of the Sea III los hace comunes. Solo necesitas uno por tanda de 3 botellas."
+      },
+      {
+        "q": "¿Water Breathing o conduit?",
+        "a": "Un conduit da Water Breathing más visión nocturna y minería rápida en un radio de 32-96 bloques para siempre, pero solo cerca del conduit. Las pociones viajan contigo: usa ambos para asaltar un ocean monument."
+      },
+      {
+        "q": "¿Puedo respirar en lava?",
+        "a": "No: Water Breathing solo funciona bajo el agua. Para lava necesitas resistencia al fuego."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/blaze/",
+        "label": "Blaze"
+      },
+      {
+        "url": "/es/structures/ocean-monument/",
+        "label": "Ocean Monument"
+      }
+    ],
+    "keywords": [
+      "poción de respiración acuática",
+      "cómo hacer poción de respiración acuática",
+      "respirar bajo el agua minecraft",
+      "pufferfish poción"
+    ]
   }
 }
