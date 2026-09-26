@@ -1561,5 +1561,83 @@
       "golden-dandelion"
     ],
     "keywords": "pitcher pod minecraft pitcher plant sniffer ancient seeds cyan dye two block flower"
+  },
+  {
+    "slug": "sniffer-egg",
+    "name": "Sniffer Egg",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Brush suspicious sand at warm ocean ruins - sniffer eggs are one of its exclusive loot drops",
+      "Or breed two sniffers with torchflower seeds: the egg drops as an item (unlike turtle eggs, which get placed)",
+      "Once placed, it mines with any tool or bare hands and always drops itself - no Silk Touch needed"
+    ],
+    "uses": [
+      "Place it and wait: the egg cracks twice and hatches into a snifflet (baby sniffer)",
+      "Hatching takes 10 minutes on moss blocks, 20 minutes on any other block (pale moss counts as other)",
+      "Eggs float: they need no supporting block and ignore gravity, so floating hatcheries are legal",
+      "In Java, hatching ignores the randomTickSpeed gamerule - you cannot speed it up with commands",
+      "Grow up your snifflet with torchflower seeds, then breed the adults for an egg-positive sniffer farm"
+    ],
+    "renewable": "Renewable: once you have two sniffers, breeding produces more eggs indefinitely.",
+    "editionNote": "Same hatching and breeding in Java and Bedrock. Cosmetic difference: the egg block is transparent in Bedrock, opaque in Java. The no-Silk-Touch and no-support-block behaviors are intended in both.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "torchflower-seeds",
+      "pitcher-pod"
+    ],
+    "keywords": "sniffer egg minecraft how to hatch sniffer egg warm ocean ruins suspicious sand snifflet moss"
+  },
+  {
+    "slug": "armor-stand",
+    "name": "Armor Stand",
+    "category": "Decoration",
+    "stackSize": "16",
+    "howToGet": [
+      "Craft it: 6 sticks + 1 smooth stone slab (smooth stone comes from smelting stone a second time)",
+      "Fully renewable: sticks from planks, smooth stone from cobblestone smelted twice",
+      "It is an entity, not a block - place it on solid ground with room above"
+    ],
+    "uses": [
+      "Display armor, mob heads, carved pumpkins and elytra: use the item on the stand, use again with an empty hand to take it back",
+      "Eight orientations when placing - angle your body to face the stand the way you want",
+      "Arms: Bedrock stands have arms by default and can hold any item; in Java, arms need the ShowArms NBT tag (commands or editors)",
+      "Posing: in Bedrock, sneak + use cycles through preset poses; in Java, poses require commands",
+      "Redstone toy: stands are living entities - pistons push them, water drags them, fishing rods pull them, slime blocks bounce them"
+    ],
+    "renewable": "Renewable: sticks and stone are farmable.",
+    "editionNote": "Big edition gap: Bedrock stacks to 64 and has arms and poses built in; Java stacks to 16 and needs commands for both. Java stands have 20 health, Bedrock ones 6.",
+    "since": "1.8 (2014)",
+    "related": [
+      "stick",
+      "shield"
+    ],
+    "keywords": "armor stand minecraft how to craft armor stand arms pose mannequin display elytra smooth stone slab"
+  },
+  {
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Shear a bee nest or beehive at honey level 5 (full, dripping): drops 3 honeycombs",
+      "The bees get ANGRY when sheared - place a lit campfire or soul campfire under the hive first, or use a dispenser with shears to harvest safely",
+      "Also found occasionally in structure chests"
+    ],
+    "uses": [
+      "Craft beehives (6 planks + 3 honeycombs) to relocate bee colonies to your base",
+      "Craft candles (honeycomb + string) and honeycomb blocks (4 honeycombs)",
+      "Wax copper: use a honeycomb on copper blocks, lightning rods or copper golems to freeze their oxidation state forever",
+      "Wax signs and hanging signs to lock their text - nobody (including you) can edit a waxed sign again",
+      "Honey farming loop: campfire + flowers + a few bees = infinite honeycombs and honey bottles"
+    ],
+    "renewable": "Renewable: bees refill their hives as long as flowers are nearby.",
+    "editionNote": "Same harvesting, waxing and crafting in Java and Bedrock. The campfire trick and the dispenser-shear automation work identically in both.",
+    "since": "1.15 (Buzzy Bees)",
+    "related": [
+      "copper-bars",
+      "cushion"
+    ],
+    "keywords": "honeycomb minecraft how to get honeycomb beehive candle wax copper wax sign campfire bees"
   }
 ]

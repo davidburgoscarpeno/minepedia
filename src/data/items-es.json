@@ -920,5 +920,53 @@
     ],
     "renewable": "Renovable: los sniffers escarban indefinidamente en bloques válidos.",
     "editionNote": "Mismo comportamiento en Java y Bedrock: misma lista de bloques de escarbado, mismo crecimiento en 5 etapas, mismo rendimiento de cyan dye."
+  },
+  "sniffer-egg": {
+    "howToGet": [
+      "Cepilla suspicious sand en las warm ocean ruins: los sniffer eggs son uno de sus drops exclusivos",
+      "O cría dos sniffers con torchflower seeds: el egg cae como objeto (a diferencia de los turtle eggs, que se colocan)",
+      "Una vez colocado, se mina con cualquier herramienta o a mano y siempre se suelta: no hace falta Silk Touch"
+    ],
+    "uses": [
+      "Colócalo y espera: el egg se agrieta dos veces y eclosiona en un snifflet (bebé sniffer)",
+      "La eclosión tarda 10 minutos sobre moss blocks y 20 minutos sobre cualquier otro bloque (el pale moss cuenta como otro)",
+      "Los eggs flotan: no necesitan bloque de soporte e ignoran la gravedad, así que las criaderos flotantes son legales",
+      "En Java, la eclosión ignora la gamerule randomTickSpeed: no se puede acelerar con comandos",
+      "Haz crecer a tu snifflet con torchflower seeds y luego cría a los adultos para una granja de sniffers huevo-positiva"
+    ],
+    "renewable": "Renovable: una vez que tienes dos sniffers, la cría produce más eggs indefinidamente.",
+    "editionNote": "Misma eclosión y cría en Java y Bedrock. Diferencia cosmética: el bloque de egg es transparente en Bedrock y opaco en Java. Lo de no necesitar Silk Touch ni bloque de soporte es intencionado en ambas."
+  },
+  "armor-stand": {
+    "howToGet": [
+      "Fabrícalo: 6 sticks + 1 smooth stone slab (la smooth stone sale de fundir stone una segunda vez)",
+      "Totalmente renovable: sticks de planks, smooth stone de cobblestone fundido dos veces",
+      "Es una entidad, no un bloque: colócalo en suelo sólido con espacio arriba"
+    ],
+    "uses": [
+      "Exhibe armor, mob heads, carved pumpkins y elytra: usa el objeto sobre el stand, y otra vez con la mano vacía para recuperarlo",
+      "Ocho orientaciones al colocarlo: orienta tu cuerpo para que el stand mire donde quieres",
+      "Brazos: los stands de Bedrock tienen brazos por defecto y sujetan cualquier objeto; en Java, los brazos necesitan el tag NBT ShowArms (comandos o editores)",
+      "Poses: en Bedrock, agacharte + usar recorre las poses predefinidas; en Java, las poses requieren comandos",
+      "Juguete de redstone: los stands son entidades vivas: los pistons los empujan, el agua los arrastra, las fishing rods los atraen y los slime blocks los hacen rebotar"
+    ],
+    "renewable": "Renovable: sticks y stone son farmeables.",
+    "editionNote": "Gran brecha entre ediciones: Bedrock apila a 64 y trae brazos y poses de serie; Java apila a 16 y necesita comandos para ambos. Los stands de Java tienen 20 de vida, los de Bedrock 6."
+  },
+  "honeycomb": {
+    "howToGet": [
+      "Esquilea un bee nest o beehive a honey level 5 (lleno, goteando): suelta 3 honeycombs",
+      "Las bees se ENOJAN al esquilar: coloca antes una campfire o soul campfire encendida debajo de la colmena, o usa un dispenser con shears para cosechar seguro",
+      "También aparece de vez en cuando en cofres de estructuras"
+    ],
+    "uses": [
+      "Fabrica beehives (6 planks + 3 honeycombs) para reubicar colonias de abejas en tu base",
+      "Fabrica candles (honeycomb + string) y honeycomb blocks (4 honeycombs)",
+      "Encera copper: usa un honeycomb sobre bloques de copper, lightning rods o copper golems para congelar su oxidación para siempre",
+      "Encera signs y hanging signs para bloquear su texto: nadie (ni tú) podrá volver a editar un sign encerado",
+      "Bucle de granja de miel: campfire + flores + unas pocas bees = honeycombs y honey bottles infinitos"
+    ],
+    "renewable": "Renovable: las bees rellenan sus colmenas mientras haya flores cerca.",
+    "editionNote": "Misma cosecha, encerado y crafteo en Java y Bedrock. El truco de la campfire y la automatización con dispenser-shears funcionan igual en ambas."
   }
 }
