@@ -20676,5 +20676,176 @@
       "ghast tear potion",
       "regeneration 2 potion"
     ]
+  },
+  {
+    "slug": "how-to-make-poison-potion",
+    "name": "How to Make a Poison Potion",
+    "shortTitle": "Poison Potion",
+    "quickAnswer": "Brew an awkward potion (water bottle + nether wart) and add a spider eye for Poison I (0:45). Redstone extends it to 1:30 in Java or 2:00 in Bedrock; glowstone makes Poison II (about 0:21). Poison drains 1 HP every 1.25 seconds but can never kill - it stops at 1 HP.",
+    "steps": [
+      "Set up the brewing stand. Blaze rod plus 3 cobblestone, blaze powder in the fuel slot, water bottles below.",
+      "Brew awkward potions. Nether wart plus water bottles - the base for Poison and almost every effect potion.",
+      "Add a spider eye. One eye makes Poison I (0:45). Farm spider eyes from spiders at night or from cave spider spawners in mineshafts.",
+      "Choose your upgrade. Glowstone dust makes Poison II (~0:21 in Java, 0:22 in Bedrock), draining 1 HP roughly every 0.6 seconds. Redstone dust instead stretches Poison I to 1:30 in Java, 2:00 in Bedrock.",
+      "Splash it where it hurts. Gunpowder makes a splash potion of Poison for mob farms, PvP and pranks - but remember it cannot kill, it only brings targets down to 1 HP. Spiders, cave spiders and all undead are immune."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Water bottles + nether wart",
+      "Spider eye",
+      "Glowstone dust (Poison II) or redstone dust (extended)"
+    ],
+    "editionNote": "Extended and enhanced durations differ by edition: 1:30 in Java versus 2:00 in Bedrock for extended, and 0:21 versus 0:22 for Poison II. A honey bottle cures Poison instantly - the beekeeper's antidote.",
+    "versions": "Poison has been brewable since brewing arrived in Beta 1.9 Prerelease 3 (2011), always from a spider eye. Java trimmed extended Poison from 2:00 to 1:30 in 15w33a; Bedrock still gets the full 2:00.",
+    "faq": [
+      {
+        "q": "Can a poison potion kill a mob or player?",
+        "a": "No - Poison stops at 1 HP and never deals the finishing blow. Finish targets with any damage source, or use a potion of Harming if you want instant kills."
+      },
+      {
+        "q": "Why did my splash poison do nothing to the zombie?",
+        "a": "Undead mobs (zombies, skeletons, the wither) are immune to Poison - and so are spiders, cave spiders and witches. Poison is for living players, animals and most overworld mobs."
+      },
+      {
+        "q": "Poison or Harming for PvP?",
+        "a": "Harming for burst damage now (6 or 12 HP instantly); Poison to pressure over time and force enemies to hide at 1 HP. Poison also ignores armor over its duration."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-brewing-stand",
+      "how-to-get-nether-wart",
+      "how-to-make-harming-potion"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/cave-spider/",
+        "label": "Cave Spider"
+      },
+      {
+        "url": "/structures/swamp-hut/",
+        "label": "Swamp Hut"
+      }
+    ],
+    "keywords": [
+      "poison potion",
+      "how to make poison potion",
+      "poison potion recipe minecraft",
+      "splash poison potion",
+      "spider eye potion"
+    ]
+  },
+  {
+    "slug": "how-to-make-harming-potion",
+    "name": "How to Make a Harming Potion",
+    "shortTitle": "Harming Potion",
+    "quickAnswer": "You cannot brew Harming directly - corrupt a potion of Healing or a potion of Poison with a fermented spider eye. Harming I deals 6 HP of instant damage, Harming II 12 HP. Corrupting an enhanced Healing II or Poison II gives Harming II.",
+    "steps": [
+      "Brew the base potion first. Harming comes from corruption, so make either a potion of Healing (awkward potion + glistering melon slice) or a potion of Poison (awkward potion + spider eye).",
+      "Add a fermented spider eye. Spider eye + brown mushroom + sugar, shapeless. It corrupts Healing or Poison into Instant Damage - a potion of Harming.",
+      "Aim for Harming II. Corrupt an enhanced potion - Healing II (glowstone) or Poison II (glowstone) - and you get Harming II: 12 HP of instant damage, the hardest-hitting splash in the game.",
+      "Turn it into a splash. Drinkable Harming hurts only you; add gunpowder so you can throw it. In Java, splash potions now deal the same instant damage as drinkable ones.",
+      "Know the undead twist. Harming HEALS zombies, skeletons and the wither instead of hurting them - they take damage from Healing potions instead. Never splash Harming at undead."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Potion of Healing (glistering melon) or Poison (spider eye)",
+      "Fermented spider eye (spider eye + brown mushroom + sugar)",
+      "Gunpowder (splash version - the useful one)"
+    ],
+    "editionNote": "Instant Damage values are the same in Java and Bedrock: 6 HP for I, 12 HP for II. Corruption works in both editions - just remember that in Bedrock a fermented spider eye also turns Strength II into plain Weakness, so keep your strength batches far from your harming ones.",
+    "versions": "Harming arrived with brewing in Beta 1.9 Prerelease 3 (2011) and has always been a corruption-only potion. Since Java 1.21 (and earlier in Bedrock) splash potions carry the full effect of drinkable ones, which made splash Harming II the classic PvP finisher.",
+    "faq": [
+      {
+        "q": "Why can't I put a fermented spider eye into an awkward potion?",
+        "a": "Because Harming has no direct recipe - fermented spider eyes only corrupt existing effect potions. Brew Healing or Poison first, then corrupt it."
+      },
+      {
+        "q": "Healing or Poison - which should I corrupt?",
+        "a": "Healing is cheaper on the long run if you already grow melons (glistering melon = melon slice + 8 gold nuggets). Poison works too and uses the spider eye you may already farm. Both give the same Harming potion."
+      },
+      {
+        "q": "Does Harming work on the wither?",
+        "a": "No - the wither is undead, so Harming heals it. Against undead bosses use Healing potions; against the living (and players), Harming."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-healing-potion",
+      "how-to-make-poison-potion",
+      "how-to-make-weakness-potion"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/witch/",
+        "label": "Witch"
+      },
+      {
+        "url": "/structures/nether-fortress/",
+        "label": "Nether Fortress"
+      }
+    ],
+    "keywords": [
+      "harming potion",
+      "how to make harming potion",
+      "instant damage potion",
+      "harming 2 potion recipe",
+      "damage potion minecraft"
+    ]
+  },
+  {
+    "slug": "how-to-make-slow-falling-potion",
+    "name": "How to Make a Slow Falling Potion",
+    "shortTitle": "Slow Falling Potion",
+    "quickAnswer": "Brew an awkward potion (water bottle + nether wart) and add a phantom membrane for Slow Falling (1:30). Redstone extends it to 4:00. You drift down gently and take zero fall damage - but you cannot land critical hits or mace smash attacks while it lasts.",
+    "steps": [
+      "Get a phantom membrane. Phantoms spawn at night after you skip sleep for three in-game days. Sleep one night to reset, then hunt them in the open - membranes also repair elytra, so hoard them.",
+      "Set up the brewing stand. Blaze rod plus 3 cobblestone, blaze powder fuel, water bottles below.",
+      "Brew awkward potions. Nether wart plus water bottles, as always.",
+      "Add the phantom membrane. That gives Slow Falling (1:30): you descend slowly and take no fall damage. Redstone dust stretches it to 4:00 - the version worth brewing for the End.",
+      "Drink it before the drop. Slow Falling is the safety net for end city raids, elytra learning, ravine dives and the dragon fight. Just do not plan on critical-hitting or mace-smashing mid-fall: the effect blocks both."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder fuel",
+      "Water bottles + nether wart",
+      "Phantom membrane (from phantoms)",
+      "Redstone dust (extends 1:30 to 4:00)"
+    ],
+    "editionNote": "Slow Falling behaves the same in Java and Bedrock: slower descent, no fall damage, no critical hits and no smash attacks. There is no Slow Falling II - glowstone does nothing to it.",
+    "versions": "Slow Falling was added in 1.13 (Update Aquatic, 2018) together with phantoms, and the recipe has never changed. It remains the only brewable answer to fall damage besides water buckets and hay bales.",
+    "faq": [
+      {
+        "q": "Is Slow Falling worth it for the End?",
+        "a": "Yes - it is the cheapest insurance against being knocked off end cities or off the obsidian pillars. One 4:00 potion covers a full shulker-box raid run."
+      },
+      {
+        "q": "Why can't I get critical hits with Slow Falling active?",
+        "a": "Crits require falling faster than normal, and Slow Falling caps your descent speed - the wiki notes crits and mace smash attacks are disabled while the effect lasts. Drink it after the fight, not before your attack."
+      },
+      {
+        "q": "Slow Falling or Feather Falling boots?",
+        "a": "Boots are passive and free once enchanted, but you can still die from big drops and you keep falling fast. Slow Falling gives a gentle, controllable descent - better for precise landings on pillars and rooftops."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-brewing-stand",
+      "how-to-get-nether-wart",
+      "how-to-get-phantom-membrane"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/phantom/",
+        "label": "Phantom"
+      },
+      {
+        "url": "/structures/end-city/",
+        "label": "End City"
+      }
+    ],
+    "keywords": [
+      "slow falling potion",
+      "how to make slow falling potion",
+      "phantom membrane potion",
+      "no fall damage potion",
+      "slow falling minecraft recipe"
+    ]
   }
 ]
