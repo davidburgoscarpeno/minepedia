@@ -1409,5 +1409,82 @@
       "stick"
     ],
     "keywords": "bundle minecraft how to craft bundle storage item bundles of bravery inventory dyed bundle"
+  },
+  {
+    "slug": "smithing-template",
+    "name": "Smithing Template",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Netherite Upgrade: ONLY in bastion remnant chests (guaranteed in treasure-room bastions) - the gatekeeper of netherite gear",
+      "Armor trims (18 designs): scattered across structures - sentry in pillager outposts, dune in desert temples, ward in ancient cities, tide from elder guardians (20% drop), flow and bolt in trial chambers vaults, and more",
+      "Duplicate any template you find: 7 diamonds + the template + its matching block (netherrack for netherite upgrade) makes 2 - never use your last one raw"
+    ],
+    "uses": [
+      "Netherite Upgrade at the smithing table: diamond gear + template + netherite ingot = netherite gear, keeping enchantments and prior-work penalty",
+      "Armor trims at the smithing table: template + armor piece + a trim material (amethyst, copper, diamond, emerald, gold, iron, lapis, quartz, netherite, redstone, resin brick) applies a cosmetic pattern",
+      "Trims are purely cosmetic - they change looks, not stats - but silence trim on full netherite is the server's loudest flex",
+      "Templates are consumed on use, which is why diamond duplication is the real meta"
+    ],
+    "renewable": "Mixed: most templates are effectively non-renewable per structure; elder guardians make tide farmable, and vault loot renews per player. Duplication with diamonds is the practical answer.",
+    "editionNote": "Identical in Java and Bedrock: same structures, same duplication recipe, same smithing behavior. In Java, ward, silence, rib and the netherite upgrade are strictly non-renewable without duplication.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "netherite-ingot",
+      "ancient-debris"
+    ],
+    "keywords": "smithing template minecraft netherite upgrade armor trim bastion duplicate diamonds silence ward tide"
+  },
+  {
+    "slug": "recovery-compass",
+    "name": "Recovery Compass",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 compass surrounded by 8 echo shards",
+      "Echo shards come only from ancient city chests in the deep dark - bring wool, crouch a lot, fear the warden",
+      "The compass itself is the easy part: 4 iron ingots + 1 redstone dust"
+    ],
+    "uses": [
+      "Points to your last death location - hold it and follow the needle to recover your dropped items",
+      "Only works for a player who has died before, in the same dimension as the death: in any other case it spins randomly",
+      "Essential for deep dark, Nether roof and end-city corpse runs where coordinates got lost with the death screen",
+      "Useless in hardcore mode - no respawn, no corpse, no point",
+      "It drops like any normal item when you die again (unless keepInventory is on), so do not die twice on the way back"
+    ],
+    "renewable": "Not renewable: echo shards are finite chest loot, though ancient cities are generous enough that one city usually covers several compasses.",
+    "editionNote": "Same behavior in both editions. Bedrock-only quirks: it can be enchanted, and its needle even works in the crafting-preview menu before you craft it.",
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "echo-shard",
+      "totem-of-undying"
+    ],
+    "keywords": "recovery compass minecraft echo shard last death location find items ancient city deep dark"
+  },
+  {
+    "slug": "lead",
+    "name": "Lead",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 5 string in a W pattern makes 2 leads - no slimeball needed since 1.21.6 (Chase the Skies)",
+      "Free leads from wandering traders: detach their trader llamas (shears, boats, or distance) and the leads drop",
+      "Also found in buried treasure, woodland mansion and trail ruins chests"
+    ],
+    "uses": [
+      "Leash a mob by using the lead on it, then walk - it follows. Each mob needs its own lead, but you can drag a whole train",
+      "Tie a leashed mob to a fence (use the fence while sneaking) so it stays put - the classic pasture post",
+      "Leash two mobs together directly since 1.21.6, and snip any leash cleanly with shears",
+      "Leashable crowd: horses, cows, sheep, pigs, llamas, camels, goats, frogs, axolotls, bees, sniffers, striders, happy ghasts, boats and more - even hoglins and zoglins if you are brave",
+      "Careful: leads snap past 12 blocks (16 for happy ghasts), and boosting with a firework on elytra breaks every attached lead"
+    ],
+    "renewable": "Renewable: string is farmable from spiders and cobwebs.",
+    "editionNote": "Same recipe and behavior in Java and Bedrock since 1.21.6. Before that update the recipe was 4 string + 1 slimeball, so old guides showing slimeballs are outdated.",
+    "since": "Java Alpha v1.0.17 (2010); current string-only recipe since 1.21.6",
+    "related": [
+      "slimeball",
+      "harness"
+    ],
+    "keywords": "lead minecraft how to craft lead leash mobs fence tie slimeball wandering trader happy ghast"
   }
 ]

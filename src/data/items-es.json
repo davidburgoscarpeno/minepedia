@@ -828,5 +828,52 @@
     ],
     "renewable": "Renovable: string y leather son ambos farmeables.",
     "editionNote": "Se comporta igual en Java y Bedrock. En Java, el coste de huecos se calcula desde el componente max_stack_size del objeto, así que objetos modificados con tamaños de stack raros se empaquetan en consecuencia."
+  },
+  "smithing-template": {
+    "howToGet": [
+      "Netherite Upgrade: SOLO en cofres de bastion remnants (garantizado en los bastions de treasure room): el portero del equipo de netherite",
+      "Armor trims (18 diseños): repartidos por estructuras: sentry en pillager outposts, dune en desert temples, ward en ancient cities, tide de elder guardians (20% de drop), flow y bolt en vaults de trial chambers, y más",
+      "Duplica cualquier template que encuentres: 7 diamonds + el template + su bloque correspondiente (netherrack para netherite upgrade) hacen 2: nunca uses tu último en crudo"
+    ],
+    "uses": [
+      "Netherite Upgrade en la smithing table: equipo de diamond + template + netherite ingot = equipo de netherite, conservando encantamientos y prior-work penalty",
+      "Armor trims en la smithing table: template + pieza de armadura + un material (amethyst, copper, diamond, emerald, gold, iron, lapis, quartz, netherite, redstone, resin brick) aplica un patrón cosmético",
+      "Los trims son puramente cosméticos: cambian el aspecto, no las stats, pero un silence trim sobre netherite completa es el flex más ruidoso del servidor",
+      "Los templates se consumen al usarse, y por eso la duplicación con diamonds es el verdadero meta"
+    ],
+    "renewable": "Mixto: la mayoría de templates son no renovables por estructura; los elder guardians hacen farmeable tide, y el loot de vaults se renueva por jugador. La duplicación con diamonds es la respuesta práctica.",
+    "editionNote": "Idéntico en Java y Bedrock: mismas estructuras, misma receta de duplicación, mismo comportamiento en la smithing table. En Java, ward, silence, rib y el netherite upgrade son estrictamente no renovables sin duplicar."
+  },
+  "recovery-compass": {
+    "howToGet": [
+      "Fabrícala: 1 compass rodeada de 8 echo shards",
+      "Los echo shards solo salen de cofres de ancient cities en el deep dark: lleva wool, agáchate mucho, teme al warden",
+      "La compass en sí es lo fácil: 4 iron ingots + 1 redstone dust"
+    ],
+    "uses": [
+      "Apunta a tu última ubicación de muerte: sostenla y sigue la aguja para recuperar tus objetos caídos",
+      "Solo funciona para un jugador que haya muerto antes, en la misma dimensión de la muerte: en cualquier otro caso gira loca",
+      "Esencial para las carreras al cadáver en deep dark, Nether roof y end cities donde las coordenadas se perdieron con la pantalla de muerte",
+      "Inútil en hardcore: sin respawn, sin cadáver, sin sentido",
+      "Cae como cualquier objeto normal si mueres otra vez (salvo con keepInventory), así que no mueras dos veces en el camino de vuelta"
+    ],
+    "renewable": "No renovable: los echo shards son loot finito de cofres, aunque las ancient cities son lo bastante generosas para que una ciudad cubra varias compasses.",
+    "editionNote": "Mismo comportamiento en ambas ediciones. Peculiaridades solo de Bedrock: puede encantarse, y su aguja funciona incluso en el menú de previsualización de la crafting table antes de fabricarla."
+  },
+  "lead": {
+    "howToGet": [
+      "Fabrícala: 5 string en patrón de W hacen 2 leads: sin slimeball desde la 1.21.6 (Chase the Skies)",
+      "Leads gratis de los wandering traders: suelta sus trader llamas (shears, boats o distancia) y las leads caen",
+      "También en cofres de buried treasure, woodland mansions y trail ruins"
+    ],
+    "uses": [
+      "Enlaza un mob usando la lead sobre él y camina: te sigue. Cada mob necesita su propia lead, pero puedes arrastrar un tren entero",
+      "Ata un mob enlazado a un fence (usa el fence agachado) para que se quede quieto: el clásico poste del prado",
+      "Enlaza dos mobs entre sí directamente desde la 1.21.6, y corta cualquier lead limpiamente con shears",
+      "Multitud enlazable: horses, cows, sheep, pigs, llamas, camels, goats, frogs, axolotls, bees, sniffers, striders, happy ghasts, boats y más: incluso hoglins y zoglins si eres valiente",
+      "Ojo: las leads se rompen a más de 12 bloques (16 para happy ghasts), y acelerar con un firework en elytra rompe todas las leads enganchadas"
+    ],
+    "renewable": "Renovable: el string es farmeable de spiders y cobwebs.",
+    "editionNote": "Misma receta y comportamiento en Java y Bedrock desde la 1.21.6. Antes la receta era 4 string + 1 slimeball, así que las guías viejas con slimeball están desactualizadas."
   }
 }
