@@ -875,5 +875,50 @@
     ],
     "renewable": "Renovable: el string es farmeable de spiders y cobwebs.",
     "editionNote": "Misma receta y comportamiento en Java y Bedrock desde la 1.21.6. Antes la receta era 4 string + 1 slimeball, así que las guías viejas con slimeball están desactualizadas."
+  },
+  "firework-rocket": {
+    "howToGet": [
+      "Fabrícala: 1 paper + 1-3 gunpowder hacen 3 rockets: más gunpowder significa más duración de vuelo (hasta 3)",
+      "Añade firework stars (hasta 7) en los huecos restantes para explosiones de colores, formas y daño",
+      "Farmea los insumos: sugar cane para paper, creepers para gunpowder: una granja de creepers es una gasolinera de elytra"
+    ],
+    "uses": [
+      "Impulso de elytra: usa un rocket en pleno planeo para propulsarte a 33.5 bloques por segundo: duración de vuelo 1/2/3 impulsa unos 1.5/2/2.5 segundos",
+      "NUNCA te impulses con un rocket cargado de stars: la explosión te daña a TI al detonar. Lleva un stack aparte de rockets simples de paper+gunpowder para volar",
+      "Munición de crossbow: los rockets disparados solo dañan si llevan firework stars, y más stars significan más daño; Multishot dispara 3 a la vez, Piercing no les hace nada",
+      "Lánzalos a mano o con dispensers para celebraciones: y recuerda que usar un firework en planeo rompe todas las leads que lleves enganchadas"
+    ],
+    "renewable": "Renovable sin stars (paper y gunpowder son farmeables); los efectos de stars necesitan rarezas finitas como diamonds o heads para los trails más vistosos.",
+    "editionNote": "Mismo crafteo e impulso en Java y Bedrock. El daño de explosión de los rockets con stars aplica al jugador impulsado en ambas ediciones: la regla del rocket simple para elytra es universal."
+  },
+  "torchflower-seeds": {
+    "howToGet": [
+      "Los sniffers las desentierran: cuando un sniffer termina de escarbar, hay un 50% de probabilidad de que el drop sean torchflower seeds (si no, una pitcher pod)",
+      "Escarbar solo funciona en dirt, grass blocks, podzol, coarse dirt, rooted dirt, moss, pale moss, mud y muddy mangrove roots: NUNCA en mycelium",
+      "Los sniffers nacen de sniffer eggs, que se encuentran cepillando suspicious sand en las warm ocean ruins"
+    ],
+    "uses": [
+      "Plántalas en farmland: crecen en 3 etapas hasta una torchflower: la cosecha madura da 1 torchflower pero NO devuelve la seed, así que mantén a los sniffers escarbando para no quedarte sin",
+      "Las torchflowers se fabrican en orange dye y sirven de decoración",
+      "Cría sniffers y chickens con las seeds, y acelera el crecimiento de snifflets y chicks un 10% por comida",
+      "Los farmer villagers pueden plantar torchflower seeds pero no cosechar el cultivo maduro (works as intended): nada de granja de villagers totalmente automática"
+    ],
+    "renewable": "Renovable: los sniffers escarban indefinidamente en bloques válidos.",
+    "editionNote": "Escarbado, cultivo y cría idénticos en Java y Bedrock, incluida la cosecha madura sin seed de vuelta y la limitación de cosecha de los villagers."
+  },
+  "pitcher-pod": {
+    "howToGet": [
+      "Los sniffers las desentierran: cuando un sniffer termina de escarbar y la tirada no es torchflower seeds, suelta una pitcher pod",
+      "Mismas reglas de escarbado: dirt, grass, podzol, coarse dirt, rooted dirt, moss, pale moss, mud y muddy mangrove roots: nunca mycelium",
+      "Consigue sniffers primero: cepilla suspicious sand en las warm ocean ruins para conseguir sniffer eggs"
+    ],
+    "uses": [
+      "Plántala en farmland: crece en 5 etapas hasta una pitcher plant, una flor imponente de dos bloques de alto",
+      "Las pitcher plants se fabrican en 2 cyan dye cada una: una fuente renovable de cian una vez que tu granja de sniffers funciona",
+      "Estrella decorativa: la pitcher plant es una de las flores más altas del juego, perfecta para invernaderos",
+      "Como las torchflowers, los farmer villagers la plantan pero no la cosechan cuando madura"
+    ],
+    "renewable": "Renovable: los sniffers escarban indefinidamente en bloques válidos.",
+    "editionNote": "Mismo comportamiento en Java y Bedrock: misma lista de bloques de escarbado, mismo crecimiento en 5 etapas, mismo rendimiento de cyan dye."
   }
 }

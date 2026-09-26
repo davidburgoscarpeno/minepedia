@@ -1486,5 +1486,80 @@
       "harness"
     ],
     "keywords": "lead minecraft how to craft lead leash mobs fence tie slimeball wandering trader happy ghast"
+  },
+  {
+    "slug": "firework-rocket",
+    "name": "Firework Rocket",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 paper + 1-3 gunpowder makes 3 rockets - more gunpowder means longer flight duration (up to 3)",
+      "Add firework stars (up to 7) in the remaining slots for colored, shaped, damaging explosions",
+      "Farm the inputs: sugar cane for paper, creepers for gunpowder - a creeper farm is an elytra fuel station"
+    ],
+    "uses": [
+      "Elytra boosting: use a rocket mid-glide to propel yourself at 33.5 blocks per second - flight duration 1/2/3 boosts for roughly 1.5/2/2.5 seconds",
+      "NEVER boost with a star-loaded rocket: the explosion damages YOU on detonation. Keep a separate stack of plain paper+gunpowder rockets for flying",
+      "Crossbow ammo: rockets fired from crossbows only deal damage if they carry firework stars, and more stars mean more damage; Multishot fires 3 at once, Piercing does nothing to them",
+      "Launch by hand or from dispensers for celebrations - and remember using a firework while gliding snaps every lead attached to you"
+    ],
+    "renewable": "Renewable without stars (paper + gunpowder are farmable); star effects need finite rarities like diamonds or heads for the fancy trails.",
+    "editionNote": "Same crafting and boosting in Java and Bedrock. Explosion damage from star rockets applies to the boosting player in both editions - the plain-rocket rule for elytra is universal.",
+    "since": "1.4.6 (2012); elytra boosting since 1.11.1",
+    "related": [
+      "gunpowder",
+      "stick"
+    ],
+    "keywords": "firework rocket minecraft elytra boost how to craft fireworks flight duration crossbow ammo creeper farm"
+  },
+  {
+    "slug": "torchflower-seeds",
+    "name": "Torchflower Seeds",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Sniffers dig them up: when a sniffer finishes digging, there is a 50% chance the drop is torchflower seeds (otherwise a pitcher pod)",
+      "Digging only works on dirt, grass blocks, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - NOT mycelium",
+      "Sniffers hatch from sniffer eggs, found by brushing suspicious sand in warm ocean ruins"
+    ],
+    "uses": [
+      "Plant on farmland: grows through 3 stages into a torchflower - mature crops drop 1 torchflower but NO seed back, so keep sniffers digging to stay stocked",
+      "Torchflowers craft into orange dye and work as decoration",
+      "Breed sniffers and chickens with the seeds, and speed up snifflet and chick growth by 10% per feed",
+      "Farmer villagers can plant torchflower seeds but cannot harvest the mature crop (works as intended) - no fully automatic villager farm"
+    ],
+    "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
+    "editionNote": "Identical digging, farming and breeding in Java and Bedrock, including the no-seed-back mature drop and the villager harvest limitation.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "pitcher-pod",
+      "golden-dandelion"
+    ],
+    "keywords": "torchflower seeds minecraft sniffer digging ancient seeds orange dye breed sniffer"
+  },
+  {
+    "slug": "pitcher-pod",
+    "name": "Pitcher Pod",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Sniffers dig them up: when a sniffer finishes digging and the roll is not torchflower seeds, it drops a pitcher pod",
+      "Same digging rules: dirt, grass, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - never mycelium",
+      "Get sniffers first: brush suspicious sand at warm ocean ruins for sniffer eggs"
+    ],
+    "uses": [
+      "Plant on farmland: grows through 5 stages into a pitcher plant, a striking two-block-tall flower",
+      "Pitcher plants craft into 2 cyan dye each - a renewable cyan source once your sniffer farm is running",
+      "Decoration star: the pitcher plant is one of the tallest flowers in the game, perfect for greenhouse builds",
+      "Like torchflowers, farmer villagers plant the crop but will not harvest it when mature"
+    ],
+    "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
+    "editionNote": "Same behavior in Java and Bedrock: same digging block list, same 5-stage growth, same cyan dye yield.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "torchflower-seeds",
+      "golden-dandelion"
+    ],
+    "keywords": "pitcher pod minecraft pitcher plant sniffer ancient seeds cyan dye two block flower"
   }
 ]
