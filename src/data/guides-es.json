@@ -18094,5 +18094,154 @@
       "combustible de bamboo",
       "granja de scaffolding"
     ]
+  },
+  "how-to-make-a-trading-hall": {
+    "name": "Cómo hacer una trading hall de villagers en Minecraft",
+    "shortTitle": "Trading Hall",
+    "quickAnswer": "Una trading hall alinea villagers en celdas individuales, cada una con su job site block, para comerciar con decenas de profesionales en una sola sala. Las tres partes son: entrada (un breeder que alimenta villagers nuevos), almacenamiento (celdas seguras con workstations) y salida (una forma de descartar malos traders sin hundir tu reputación).",
+    "steps": [
+      "Empieza con un villager breeder. Una hall necesita suministro constante de villagers nuevos, y secuestrarlos de villages uno a uno cansa rápido. Construye primero el breeder, junto al sitio de la hall.",
+      "Planifica las tres partes. Entrada: una vía o canal de agua que entrega villagers nuevos a celdas vacías y se cierra detrás. Almacenamiento: una celda por villager con su job site block al alcance. Salida: una ruta de descarte para los rechazados.",
+      "Construye las celdas. Celdas de un bloque de ancho con la work station al fondo y una slab o trapdoor delante mantienen a los villagers en su sitio y te dejan pulsar el botón de trade. Enlóscalas en filas con un pasillo delante.",
+      "Asigna profesiones por colocación. Un villager sin trabajo reclama el job site block libre más cercano, así que coloca la workstation que quieras (lectern para librarian, blast furnace para armorer...) justo en la celda antes de que llegue el villager.",
+      "Rehaz los trades antes de comerciar. Nunca comercies con un villager hasta que ofrezca lo que quieres: rompe y recoloca su job block para rehacer los trades de novice tantas veces como quieras. El primer trade bloquea la profesión y las ofertas para siempre.",
+      "Protege la hall. Ilumínala, emparedala y mantén fuera a los zombies: un solo zombie dentro convierte toda tu hall. Los rayos convierten villagers en witches, así que pon techo. Las workstations al alcance les dejan reabastecer dos veces al día.",
+      "Descarta sin dañar tu reputación. Nunca mates villagers a mano: baja tu reputación, sube los precios y puede volver hostiles a los iron golems. Encamina los rechazados con agua o vías a lava o fuego, que no te atribuye la muerte - o mejor, recíclalos en una iron farm o granja de cultivos.",
+      "Zombifica y cura para descuentos. Las halls avanzadas añaden una cámara de zombie: deja que un zombie convierta a un villager, cúralo, y ese villager te da grandes descuentos permanentes. En dificultad Hard la conversión está garantizada."
+    ],
+    "materials": [
+      "Villager breeder al lado (beds + comida + 2 villagers iniciales)",
+      "Job site blocks: lecterns, blast furnaces, composters...",
+      "Rails y minecarts o canales de agua para el transporte",
+      "Bloques de construcción, slabs, iluminación y techo",
+      "Lava o fuego para el sistema de descarte"
+    ],
+    "editionNote": "El concepto de la hall es idéntico en Java y Bedrock. Los detalles difieren: los villagers de Bedrock deben estar vinculados a una bed para reabastecer trades, y cada nivel desbloquea hasta tres slots de trade en vez de dos - así que las halls de Bedrock incluyen beds y las de Java pueden omitirlas. Los módulos de zombificación automática existen para ambas.",
+    "versions": "Las trading halls se hicieron prácticas con la 1.14 Village & Pillage, que ató las profesiones a los job site blocks e hizo los trades rehacibles hasta el primer trade. La mecánica lleva estable desde entonces, con el experimento Villager Trade Rebalance todavía opcional.",
+    "faq": [
+      {
+        "q": "¿Cómo rehago los trades de un villager?",
+        "a": "Rompe su job site block y vuelve a colocarlo: mientras no hayas comerciado nunca con ese villager, pierde y reclama la profesión con ofertas nuevas. En cuanto comercies una sola vez, los trades quedan bloqueados para siempre, así que rehaz primero y comercia después."
+      },
+      {
+        "q": "¿Por qué mi villager perdió su profesión?",
+        "a": "Perdió acceso a su job site block reclamado: roto, movido o bloqueado. Si nunca ha comerciado, simplemente queda sin empleo y puede reclamar otra station. Un villager con trades mantiene su profesión incluso sin station, pero no puede reabastecer."
+      },
+      {
+        "q": "¿Es malo matar a los malos traders?",
+        "a": "Sí si lo haces a mano: las muertes por jugador dañan tu reputación en la village, lo que sube precios y acaba volviendo hostiles a los iron golems. La lava, el fuego o el daño por caída no cuentan contra ti - o no mates y mueve los rechazados a una iron farm."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "trading hall minecraft",
+      "hall de comercio de villagers",
+      "cómo rehacer trades de villagers",
+      "hall de librarians"
+    ]
+  },
+  "how-to-make-a-villager-breeder": {
+    "name": "Cómo hacer un villager breeder en Minecraft",
+    "shortTitle": "Villager Breeder",
+    "quickAnswer": "Los villagers se crían solos cuando tres cosas se alinean: beds de sobra (más beds que villagers), comida suficiente en sus bolsillos (12 puntos de comida: 3 bread, o 12 carrots, potatoes o beetroots cada uno) y 2 bloques completos de aire sobre cada bed. Monta una sala pequeña con beds y dos villagers, tírales comida, y los bebés llegan solos.",
+    "steps": [
+      "Aísla el sitio. Los villagers detectan villages en una esfera de 80 bloques: construye el breeder al menos a esa distancia de cualquier village real, iron farm o trading hall para que el recuento de beds no se confunda.",
+      "Trae dos villagers. En boat por tierra o en minecart por vías. Vale cualquier pareja de adultos; que uno sea farmer hace el breeder auto-alimentado después.",
+      "Coloca las beds. Al menos 3 beds válidas (una por adulto más sobrantes para bebés). Cada bed necesita 2 bloques completos de espacio libre encima: slabs y trapdoors sobre una bed la invalidan, porque el bebé debe poder rebotar en la bed.",
+      "Aliméntalos. Tírales comida a los pies: los villagers necesitan 12 puntos de comida para estar dispuestos. El bread vale 4 puntos (3 piezas por villager); las carrots, potatoes y beetroots valen 1 (12 por villager). La recogen en su inventario oculto.",
+      "Espera los corazones. Cuando ambos están dispuestos y el censo de beds muestra capacidad libre, aparecen partículas de corazones y sale un bebé villager. El censo se hace una vez por minuto aproximadamente: sin corazones suele ser un problema de beds.",
+      "Automatiza con un farmer. Dale a un villager un composter y una parcela de cultivo: los farmers cosechan y tiran comida sobrante a los demás, así que el breeder funciona para siempre sin alimentar. Una parcela de wheat o carrots junto a las beds es el diseño clásico.",
+      "Exporta los bebés. Los bebés no pueden reclamar beds hasta crecer (20 minutos), así que déjalos caer por un hueco con trapdoor a vías o una corriente de agua directa a las celdas de tu trading hall.",
+      "Escala con cuidado. Más beds libres significa más bebés, pero los adultos solo comparten comida a cierto ritmo. Dos adultos más 6-8 beds y un farmer ya producen más que cualquier hall que vayas a construir."
+    ],
+    "materials": [
+      "2 villagers (transporte en boat o minecart)",
+      "3-8 beds con 2 bloques de aire encima de cada una",
+      "Bread, carrots, potatoes o beetroots (12 puntos por villager)",
+      "Composter + parcela de cultivo para la versión auto-alimentada",
+      "Rails o canales de agua para exportar bebés"
+    ],
+    "editionNote": "La mecánica central es la misma en Java y Bedrock: beds, puntos de comida y el radio de village de 80 bloques. El requisito de 2 bloques sobre la bed es de larga data; verifica bloques de techo inusuales en tu edición, y recuerda que los villagers de Bedrock también necesitan vínculo con bed para reabastecer trades después en la hall.",
+    "versions": "El sistema de cría por beds y comida llegó con la 1.14 Village & Pillage, sustituyendo la vieja regla del recuento de puertas, donde los villagers se criaban según \"puertas válidas\". Los 12 puntos de comida y el censo de beds sobrantes no han cambiado desde entonces.",
+    "faq": [
+      {
+        "q": "¿Por qué no se crían mis villagers?",
+        "a": "Comprueba en orden: beds de sobra (más beds que villagers), 2 bloques de aire sobre cada bed, comida tirada a sus pies (tienen que recogerla) y ninguna otra village en 80 bloques robando el recuento de beds. Sin corazones tras un minuto casi siempre es una de esas cuatro."
+      },
+      {
+        "q": "¿Cuánta comida necesitan los villagers para criarse?",
+        "a": "12 puntos de comida cada uno. El bread cuenta 4 (3 piezas); las carrots, potatoes y beetroots cuentan 1 (12 piezas). Mezcla como quieras: un villager con 2 bread y 4 carrots también está dispuesto."
+      },
+      {
+        "q": "¿Pueden los villagers criarse para siempre solos?",
+        "a": "Solo hasta que las beds se llenan: el censo de población frena la disposición cuando los villagers igualan o superan las beds válidas. Sigue exportando los bebés a tu hall y el breeder no deja de producir. Un villager farmer se encarga de la comida indefinidamente."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "villager breeder minecraft",
+      "cómo criar villagers",
+      "breeder infinito de villagers",
+      "granja de villagers"
+    ]
+  },
+  "how-to-cure-a-zombie-villager": {
+    "name": "Cómo curar un zombie villager en Minecraft",
+    "shortTitle": "Curar un Zombie Villager",
+    "quickAnswer": "Golpea a un zombie villager con una splash potion of Weakness y luego haz clic derecho con una golden apple normal (no encantada). Se estremece, gana Strength y vuelve a ser villager tras 3-5 minutos. Los villagers curados te dan descuentos permanentes: así consiguen los jugadores trades de una emerald.",
+    "steps": [
+      "Encuentra un zombie villager. El 5% de los spawns naturales de zombies son zombie villagers (en Bedrock aparecen en grupos de 2-4), y cualquier zombie que mate a un villager puede convertirlo: 100% en Hard, 50% en Normal, 0% en Easy.",
+      "Atrápalo a salvo. Atráelo a un boat, minecart o una celda pequeña oscura antes de empezar. La cura tarda minutos y el mob sigue atacándote todo el rato - además de quemarse con la luz del día como cualquier zombie.",
+      "Prepara la Weakness. Una splash potion of Weakness solo necesita un fermented spider eye en una water bottle (gunpowder para hacerla splash): sin Nether wart, así que vale desde el primer día.",
+      "Fabrica una golden apple. 8 gold ingots alrededor de una apple normal. La enchanted golden apple NO sirve para curar: tiene que ser la normal.",
+      "Aplica ambas. Lanza la Weakness (partículas grises) y luego usa la golden apple en él. Empieza a estremecerse y gana Strength: pega MÁS FUERTE mientras se cura, así que mantén distancia o déjalo encerrado.",
+      "Espera 3-5 minutos. El temporizador de cura es de 3 a 5 minutos al azar. Rodearlo de iron bars y beds (en un cubo de 9x9x9) lo acelera ligeramente: un 4% más rápido con 14 o más.",
+      "Recoge tu villager. Se transforma con un breve efecto de Nausea. Si tenía profesión antes de zombificarse, la mantiene; si había comerciado alguna vez, mantiene también sus trades exactos.",
+      "Comercia con descuento. Tu villager curado te da grandes descuentos permanentes; los villagers cercanos dan otros menores. Volver a curar al mismo villager no acumula más descuentos: una cura cada uno."
+    ],
+    "materials": [
+      "Splash potion of Weakness (fermented spider eye + water bottle + gunpowder)",
+      "Golden apple (8 gold ingots + 1 apple) - NO la encantada",
+      "Boat, minecart o una celda segura",
+      "Opcional: iron bars y beds para acelerar la cura"
+    ],
+    "editionNote": "La cura funciona igual en Java y Bedrock, con pequeñas diferencias: los nitwits curados de Bedrock pueden tener empleo (los de Java siguen siendo nitwits), y en Bedrock los villagers cercanos en 16 bloques también dan pequeños descuentos que escalan hasta 10 villagers curados. Ambas ediciones conceden el descuento personal permanente.",
+    "versions": "La cura existe desde que llegaron los zombie villagers en la 1.4.2 (2012), con la receta de Weakness más golden apple sin cambios desde entonces. La aceleración con iron bars y beds es un guiño intencionado al clásico montaje del \"zombie doctor\", y el sistema de descuento permanente llegó con la mecánica de gossip de la 1.14.",
+    "faq": [
+      {
+        "q": "¿Por qué no funciona la golden apple en el zombie villager?",
+        "a": "Dos causas habituales: es la apple encantada (Notch) -solo cura la golden apple normal- o el zombie villager no tiene el efecto de Weakness activo. Lanza primero la Weakness, mira las partículas grises en espiral y luego usa la apple."
+      },
+      {
+        "q": "¿La cura da descuentos en ambas ediciones?",
+        "a": "Sí. El jugador que cura recibe un gran descuento permanente en Java y Bedrock. Bedrock además reparte pequeños descuentos a villagers cercanos (escalando hasta 10 villagers curados), mientras Java comparte reputación por gossip. Recurar al mismo villager no añade nada."
+      },
+      {
+        "q": "¿Cómo hago que un zombie villager convierta a mi librarian?",
+        "a": "Encierra al librarian con el zombie en un espacio reducido en dificultad Hard: la conversión está garantizada ahí (50% en Normal, nunca en Easy). Luego cura el resultado. Este bucle de \"zombificar y curar\" es la forma estándar de descontar toda una trading hall."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "curar zombie villager",
+      "cómo curar un zombie villager",
+      "descuento de villagers",
+      "tiempo de cura zombie villager"
+    ]
   }
 }

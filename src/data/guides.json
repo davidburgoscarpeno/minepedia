@@ -20011,5 +20011,172 @@
       "bamboo fuel",
       "scaffolding farm"
     ]
+  },
+  {
+    "slug": "how-to-make-a-trading-hall",
+    "name": "How to Make a Villager Trading Hall in Minecraft",
+    "shortTitle": "Trading Hall",
+    "quickAnswer": "A trading hall lines up villagers in individual cells, each with its job site block, so you can trade with dozens of professionals in one room. The three parts are: input (a breeder feeding new villagers in), storage (safe cells with workstations), and output (a way to discard bad traders without tanking your reputation).",
+    "steps": [
+      "Start with a villager breeder. A hall needs a steady supply of fresh villagers, and kidnapping them from villages one by one gets old fast. Build the breeder first, next to the hall site.",
+      "Plan the three parts. Input: a rail or water channel that delivers new villagers into empty cells and closes behind them. Storage: one cell per villager with its job site block in reach. Output: a disposal route for rejects.",
+      "Build the cells. One-block-wide cells with a work station at the back and a slab or trapdoor at the front keep villagers in place and let you reach the trade button. Tile them in rows with a walkway in front.",
+      "Assign professions by placement. An unemployed villager claims the nearest unclaimed job site block, so place the workstation you want (lectern for librarian, blast furnace for armorer...) right at the cell before the villager arrives.",
+      "Reroll before you trade. Never trade with a villager until it offers what you want: break and replace its job block to reroll the novice trades as many times as you like. The first trade locks the profession and offers forever.",
+      "Protect the hall. Light it up, wall it off and keep zombies out - one zombie inside converts your whole hall. Lightning turns villagers into witches, so add a roof. Workstations within reach let them restock twice a day.",
+      "Discard without reputation damage. Never kill villagers by hand: it drops your reputation, raises prices and can turn iron golems hostile. Route rejects with water or rails to lava or fire, which does not credit you with the kill - or better, recycle them into an iron farm or crop farm.",
+      "Zombify and cure for discounts. Advanced halls add a zombie chamber: let a zombie convert a villager, cure it, and that villager gives you permanent major discounts. On Hard difficulty conversion is guaranteed."
+    ],
+    "materials": [
+      "Villager breeder next door (beds + food + 2 starter villagers)",
+      "Job site blocks: lecterns, blast furnaces, composters...",
+      "Rails and minecarts or water channels for transport",
+      "Building blocks, slabs, lighting and a roof",
+      "Lava or fire for the disposal system"
+    ],
+    "editionNote": "The hall concept is identical in Java and Bedrock. Details differ: Bedrock villagers must be linked to a bed to restock trades, and each level unlocks up to three trade slots instead of two - so Bedrock halls include beds, while Java halls can skip them. Automatic zombification modules exist for both.",
+    "versions": "Trading halls became practical with the 1.14 Village & Pillage update, which tied professions to job site blocks and made trades rerollable until the first trade. The mechanics have been stable since, with the experimental Villager Trade Rebalance still optional.",
+    "faq": [
+      {
+        "q": "How do I reroll a villager's trades?",
+        "a": "Break its job site block and place it back - as long as you have never traded with that villager, it loses and reclaims the profession with fresh offers. Once you trade even once, the trades are locked forever, so reroll first, trade after."
+      },
+      {
+        "q": "Why did my villager lose its profession?",
+        "a": "It lost access to its claimed job site block - broken, moved or blocked. If it has never traded, it simply becomes unemployed and can claim a new station. A traded villager keeps its profession even without a station, but cannot restock."
+      },
+      {
+        "q": "Is killing bad traders bad for me?",
+        "a": "Yes if you do it by hand: player kills hurt your village reputation, which raises prices and eventually turns iron golems hostile. Lava, fire or fall damage do not count against you - or skip killing entirely and move rejects to an iron farm."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-trade-villagers",
+      "how-to-make-a-villager-breeder",
+      "how-to-cure-a-zombie-villager"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "trading hall minecraft",
+      "villager trading hall",
+      "how to reroll villager trades",
+      "librarian hall"
+    ]
+  },
+  {
+    "slug": "how-to-make-a-villager-breeder",
+    "name": "How to Make a Villager Breeder in Minecraft",
+    "shortTitle": "Villager Breeder",
+    "quickAnswer": "Villagers breed on their own when three things line up: spare beds (more beds than villagers), enough food in their pockets (12 food points: 3 bread, or 12 carrots, potatoes or beetroots each), and 2 full blocks of air above every bed. Build a small room with beds and two villagers, toss food at them, and babies follow.",
+    "steps": [
+      "Isolate the site. Villagers detect villages in an 80-block sphere - build the breeder at least that far from any real village, iron farm or trading hall so bed counting does not get confused.",
+      "Bring two villagers. Boat them over land or rail them with minecarts. Any two adults work; a farmer as one of them makes the breeder self-feeding later.",
+      "Place the beds. At least 3 valid beds (one per adult plus spare for babies). Each bed needs 2 full blocks of free space above it - slabs and trapdoors over a bed invalidate it, because the baby must be able to bounce on the bed.",
+      "Feed them. Throw food at their feet: villagers need 12 food points to become willing. Bread is worth 4 points (3 loaves per villager), carrots, potatoes and beetroots 1 point each (12 per villager). They pick it up into their hidden inventory.",
+      "Wait for hearts. When both are willing and the bed census shows spare capacity, heart particles appear and a baby villager pops out. The census runs about once a minute - no hearts usually means a bed problem.",
+      "Automate with a farmer. Give one villager a composter and a crop plot: farmer villagers harvest and throw surplus food at the others, so the breeder runs forever with zero feeding. A wheat or carrot plot next to the beds is the classic layout.",
+      "Export the babies. Babies cannot claim beds until they grow (20 minutes), so drop them through a trapdoor shaft onto rails or a water stream straight to your trading hall cells.",
+      "Scale carefully. More spare beds means more babies, but the adults only share food so fast. Two adults plus 6-8 beds and a farmer already out-produces any hall you will build."
+    ],
+    "materials": [
+      "2 villagers (boat or minecart transport)",
+      "3-8 beds with 2 blocks of air above each",
+      "Bread, carrots, potatoes or beetroots (12 points per villager)",
+      "Composter + crop plot for the self-feeding version",
+      "Rails or water channels for baby export"
+    ],
+    "editionNote": "Core mechanics are the same in Java and Bedrock: beds, food points and the 80-block village radius. The 2-blocks-above-the-bed requirement is long-standing; verify unusual ceiling blocks on your edition, and remember Bedrock villagers also need bed links to restock trades later in the hall.",
+    "versions": "The bed-and-food breeding system arrived with 1.14 Village & Pillage, replacing the old door-counting rule where villagers bred based on \"valid doors\". The 12 food points and spare-bed census have been unchanged since.",
+    "faq": [
+      {
+        "q": "Why are my villagers not breeding?",
+        "a": "Check in order: spare beds (more beds than villagers), 2 blocks of air above every bed, food thrown at their feet (they must pick it up), and no other village within 80 blocks stealing the bed count. No hearts after a minute almost always means one of those four."
+      },
+      {
+        "q": "How much food do villagers need to breed?",
+        "a": "12 food points each. Bread counts 4 (3 loaves), carrots, potatoes and beetroots count 1 (12 items). Mix and match - a villager holding 2 bread and 4 carrots is willing too."
+      },
+      {
+        "q": "Can villagers breed forever on their own?",
+        "a": "Only until the beds fill up: the population census stops willingness once villagers equal or exceed valid beds. Keep exporting the babies to your hall and the breeder keeps producing. A farmer villager handles the food side indefinitely."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-trading-hall",
+      "how-to-cure-a-zombie-villager",
+      "how-to-grow-wheat"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "villager breeder minecraft",
+      "how to breed villagers",
+      "infinite villager breeder",
+      "villager farm"
+    ]
+  },
+  {
+    "slug": "how-to-cure-a-zombie-villager",
+    "name": "How to Cure a Zombie Villager in Minecraft",
+    "shortTitle": "Cure a Zombie Villager",
+    "quickAnswer": "Hit a zombie villager with a splash potion of Weakness, then right-click it with a regular golden apple (not enchanted). It shudders, gains Strength, and turns back into a villager after 3-5 minutes. Cured villagers give you permanent trading discounts - this is how players get one-emerald trades.",
+    "steps": [
+      "Find a zombie villager. 5% of natural zombie spawns are zombie villagers (in Bedrock they appear in groups of 2-4), and any zombie that kills a villager can convert it - 100% on Hard, 50% on Normal, 0% on Easy.",
+      "Trap it safely. Lure it into a boat, minecart or a small dark cell before starting. Curing takes minutes and the mob keeps attacking you the whole time - plus it burns in daylight like any zombie.",
+      "Brew Weakness. A splash potion of Weakness needs only a fermented spider eye brewed into a water bottle (gunpowder to make it splash) - no Nether wart required, so it works from day one.",
+      "Craft a golden apple. 8 gold ingots around a regular apple. The enchanted golden apple does NOT work for curing - it must be the plain one.",
+      "Apply both. Splash the Weakness (gray particles), then use the golden apple on it. It starts shuddering and gains Strength - it hits HARDER while curing, so keep your distance or keep it boxed in.",
+      "Wait 3-5 minutes. The cure timer is 3 to 5 minutes at random. Surrounding it with iron bars and beds (within a 9x9x9 cube) speeds it up slightly - about 4% faster with 14 or more.",
+      "Collect your villager. It transforms with a brief Nausea effect. If it had a profession before zombification, it keeps it; if it had ever traded, it keeps its exact trades too.",
+      "Trade at a discount. Your cured villager gives you permanent major discounts; nearby villagers give smaller ones. Re-curing the same villager does not stack further discounts - one cure each."
+    ],
+    "materials": [
+      "Splash potion of Weakness (fermented spider eye + water bottle + gunpowder)",
+      "Golden apple (8 gold ingots + 1 apple) - NOT the enchanted one",
+      "Boat, minecart or a secure cell",
+      "Optional: iron bars and beds to speed up the cure"
+    ],
+    "editionNote": "Curing works the same in Java and Bedrock, with small differences: Bedrock cured nitwits become employable (Java nitwits stay nitwits), and in Bedrock nearby villagers within 16 blocks also give small discounts scaling with up to 10 cured villagers. Both editions grant the permanent personal discount.",
+    "versions": "Curing has existed since zombie villagers arrived in 1.4.2 (2012), with the Weakness-plus-golden-apple recipe unchanged since. The iron bars and bed speed boost is an intentional nod to the classic \"zombie doctor\" setup, and the permanent discount system arrived with 1.14's gossip mechanics.",
+    "faq": [
+      {
+        "q": "Why is the golden apple not working on the zombie villager?",
+        "a": "Two usual causes: it is the enchanted (Notch) apple - only the plain golden apple cures - or the zombie villager does not have the Weakness effect active. Splash Weakness first, watch for the gray swirl particles, then use the apple."
+      },
+      {
+        "q": "Does curing give discounts in both editions?",
+        "a": "Yes. The curing player gets a permanent major discount in Java and Bedrock. Bedrock additionally spreads small discounts to nearby villagers (scaling up to 10 cured villagers), while Java shares reputation through gossip. Re-curing the same villager adds nothing."
+      },
+      {
+        "q": "How do I get a zombie villager to convert my librarian?",
+        "a": "Trap the librarian with the zombie in a confined space on Hard difficulty - conversion is guaranteed there (50% on Normal, never on Easy). Then cure the result. This \"zombify and cure\" loop is the standard way to discount an entire trading hall."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-trading-hall",
+      "how-to-make-a-villager-breeder",
+      "how-to-trade-villagers"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "cure zombie villager",
+      "how to cure a zombie villager",
+      "villager discount",
+      "zombie villager cure time"
+    ]
   }
 ]
