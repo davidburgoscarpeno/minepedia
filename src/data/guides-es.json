@@ -20355,5 +20355,160 @@
    "velocidad boat blue ice",
    "granja blue ice minecraft"
   ]
+ },
+ "how-to-use-brush": {
+  "name": "Cómo usar el brush en Minecraft (guía de arqueología)",
+  "shortTitle": "Usar el brush",
+  "quickAnswer": "Fabrica un brush con una feather arriba, un copper ingot en medio y un stick abajo. Mantén pulsado usar sobre suspicious sand o suspicious gravel durante unos 4,8 segundos y un objeto saldrá poco a poco: pottery sherds, diamonds, sniffer eggs y más, según la estructura. También puedes cepillar armadillos para conseguir scutes.",
+  "steps": [
+   "Fabrica el brush en línea vertical: feather, copper ingot, stick. Tiene 64 usos en Java (65 en Bedrock).",
+   "Encuentra bloques sospechosos: el suspicious sand se genera en desert temples, desert wells y warm ocean ruins; el suspicious gravel en cold ocean ruins y trail ruins. Son casi idénticos al sand/gravel normal: fíjate en la textura algo más rugosa.",
+   "Mantén el botón de usar sobre un bloque sospechoso. NO lo rompas: los bloques sospechosos rotos no sueltan nada. Cepillar tarda 96 game ticks (4,8 segundos) por bloque.",
+   "Mira cómo emerge el objeto: un objeto asoma del bloque por fases, sale despedido y el bloque se convierte en sand o gravel normal. Si paras a mitad, el bloque se reinicia poco a poco.",
+   "Sabe qué hay dentro: el loot depende de la estructura: las desert pyramids dan sherds, diamonds y TNT; las trail ruins esconden sherds, templates y cristal de colores; las ocean ruins esconden sherds y sniffer eggs (solo las warm ruins dan huevos).",
+   "Uso extra: mantén el brush sobre un armadillo para que suelte un armadillo scute. Cuesta 16 de durabilidad, así que un brush nuevo da 4 scutes en Java (5 en Bedrock). Encántalo con Unbreaking o Mending para que dure."
+  ],
+  "materials": [
+   "1 feather + 1 copper ingot + 1 stick por brush",
+   "Varios brushes de repuesto para una excavación grande (o Mending)",
+   "Shovel para limpiar el sand/gravel normal alrededor de los bloques sospechosos"
+  ],
+  "editionNote": "El cepillado funciona igual en ambas ediciones. Dos pequeñas diferencias: el brush tiene 64 de durabilidad en Java y 65 en Bedrock, así que cepillar armadillos da 4 frente a 5 scutes por brush.",
+  "versions": "Añadido en Java 1.20 y Bedrock 1.20.0 (Trails & Tales, 2023) junto con el sistema de arqueología. Lo de cepillar armadillos llegó después, en Java 1.20.5 / Bedrock 1.20.80.",
+  "faq": [
+   {
+    "q": "¿Puedo picar el suspicious sand con una shovel?",
+    "a": "Puedes, pero no suelta nada: el loot solo sale cepillando. Cepilla siempre los bloques sospechosos, nunca los rompas."
+   },
+   {
+    "q": "¿Cómo distingo el suspicious sand del sand normal?",
+    "a": "Los bloques sospechosos tienen una textura sutilmente más rugosa y moteada, y no les afecta la gravedad. En caso de duda, toca el bloque con el brush: si la animación de cepillado excava, es sospechoso."
+   },
+   {
+    "q": "¿Dónde encuentro sniffer eggs?",
+    "a": "Solo cepillando suspicious sand en las warm ocean ruins: cada bloque tiene 1/15 de probabilidad (6,7%) de esconder uno. Las cold ruins y las trail ruins usan suspicious gravel y nunca dan huevos."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/structures/trail-ruins/",
+    "label": "Trail Ruins"
+   },
+   {
+    "url": "/mobs/armadillo/",
+    "label": "Armadillo"
+   }
+  ],
+  "keywords": [
+   "cómo usar brush minecraft",
+   "suspicious sand minecraft",
+   "guía arqueología minecraft",
+   "loot suspicious gravel",
+   "cepillar armadillo scute"
+  ]
+ },
+ "how-to-tame-allay": {
+  "name": "Cómo domesticar un allay en Minecraft (encontrar, amistar y duplicar)",
+  "shortTitle": "Domesticar un allay",
+  "quickAnswer": "Los allays no se domestician como un wolf, pero darles cualquier objeto (úsalo sobre el allay) hace que te sigan y busquen copias tiradas de ese objeto. Encuéntralos enjaulados en los pillager outposts o encarcelados en las woodland mansions, y duplícalos con un amethyst shard mientras bailan con un jukebox.",
+  "steps": [
+   "Encuentra un allay: solo aparecen durante la generación del mundo: 50% de probabilidad de 1-3 en las jaulas de dark oak de los pillager outposts, y 50% de 1-3 en las celdas de las woodland mansions. Sácalos de ahí.",
+   "Gánate su amistad: sujeta CUALQUIER objeto y pulsa usar sobre el allay. Coge el objeto, empieza a seguirte (en un radio de 64 bloques) y busca copias tiradas de ese mismo objeto en 32 bloques a tu alrededor.",
+   "Recupera el objeto con la mano vacía (usar sobre el allay) si quieres que deje de seguirte o cambiarle de trabajo.",
+   "Automatiza la recogida con un note block: si un note block suena a menos de 16 bloques, el allay entrega los objetos ahí durante 30 segundos en vez de a ti. Repite la nota para mantenerlo fijado: el truco clásico de las granjas.",
+   "Duplica tu allay: pon cualquier music disc en un jukebox para que baile y dale un amethyst shard. Se divide en dos allays y el shard se consume. Ambos allays tienen un cooldown de 5 minutos antes de poder duplicarse otra vez.",
+   "Mantenlo a salvo: los allays tienen 20 de salud, regeneran 2 HP por segundo y su dueño no puede hacerles daño. Una lead los ata a una fence, pero un allay atado no te seguirá por los portales."
+  ],
+  "materials": [
+   "Cualquier objeto para entregarle (el que quieras que recoja)",
+   "Amethyst shard + jukebox + cualquier music disc (para duplicar)",
+   "Lead (opcional, para aparcarlo)",
+   "Note block (opcional, para puntos de entrega en granjas)"
+  ],
+  "editionNote": "El comportamiento es casi idéntico. Extras de Bedrock: los allays se teletransportan contigo a través de los nether portals, y usar una lead o name tag sobre un allay le entrega el objeto. En Java un name tag siempre cumple su función de renombrar.",
+  "versions": "Añadido en Java 1.19 y Bedrock 1.19.0 (The Wild Update, 2022) tras ganar el mob vote de Minecraft Live 2021. La duplicación con amatista llegó en la misma actualización.",
+  "faq": [
+   {
+    "q": "¿Se puede domesticar un allay como un wolf o un cat?",
+    "a": "No exactamente: no hay botón de domesticar. Darle un objeto lo convierte en TU allay: te sigue, trabaja para ti y no puedes dañarlo. Recuperar el objeto lo libera."
+   },
+   {
+    "q": "¿Por qué mi allay no recoge objetos?",
+    "a": "Tres razones habituales: la game rule mobGriefing está en false, los drops están a más de 32 bloques de ti, o tú estás a más de 64 bloques y no te sigue."
+   },
+   {
+    "q": "¿Puede un allay encontrar cualquier objeto?",
+    "a": "Recoge copias tiradas del objeto exacto que sostiene: ignora encantamientos y nombres personalizados, y no puede sacar objetos guardados dentro de shulker boxes."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/mobs/allay/",
+    "label": "Allay"
+   },
+   {
+    "url": "/structures/pillager-outpost/",
+    "label": "Pillager Outpost"
+   }
+  ],
+  "keywords": [
+   "cómo domesticar allay minecraft",
+   "dónde encontrar allay",
+   "duplicar allay amethyst",
+   "allay note block granja",
+   "guía allay minecraft"
+  ]
+ },
+ "how-to-use-mace": {
+  "name": "Cómo usar la mace en Minecraft (guía del smash attack)",
+  "shortTitle": "Usar la mace",
+  "quickAnswer": "La mace es lenta en el suelo pero letal desde arriba: cae al menos 1,5 bloques y golpea a un mob en plena caída para hacer un smash attack: +4 de daño por bloque en los primeros 3 bloques caídos, +2 en los siguientes 5 y luego +1 por bloque, SIN tope máximo. Un smash con éxito también anula tu daño de caída.",
+  "steps": [
+   "Consigue la mace primero: se fabrica con una breeze rod y un heavy core (loot de las trial chambers). Mira nuestra guía de cómo conseguir la mace.",
+   "En el suelo es mediocre: 6 de daño por golpe con la velocidad de ataque más lenta de Java (0,6). Úsala como un axe para golpes de pánico, no como tu DPS principal.",
+   "El movimiento real es el smash attack: cae 1,5+ bloques y ataca antes de aterrizar. Vale cualquier caída: salta desde una cornisa, haz un pilar y tírate, o entra rebotando con un wind charge.",
+   "El daño escala con la distancia caída: +4 por bloque en los primeros 3 bloques, +2 por bloque en los siguientes 5 y luego +1 por bloque para siempre. Una caída de 10 bloques ya pega como un crit de espada de netherite, y desde una torre alta mata de un golpe a casi todo.",
+   "Aterrizar un smash reinicia tu altura de caída, así que no recibes daño de caída. Además empuja a todo lo que esté a 2,5 bloques (a ti no).",
+   "Encántala: Density añade +0,5 de daño por nivel por bloque caído (lo mejor para daño de smash puro), Breach destroza objetivos con armadura, y Wind Burst te relanza hacia arriba tras un smash para encadenar ataques. Repara con breeze rods en un anvil: una rod restaura el 25%."
+  ],
+  "materials": [
+   "1 mace (breeze rod + heavy core)",
+   "Wind charges (opcional, para smashes desde el suelo)",
+   "Breeze rods para reparar en el anvil",
+   "Libros encantados de Density, Breach o Wind Burst"
+  ],
+  "editionNote": "Los smash attacks de Bedrock son aún más fuertes: no hay cooldown de ataque, y funcionan durante el vuelo con elytra. En Java hay que desequipar el elytra antes de que el golpe conecte, y la lenta velocidad de ataque 0,6 se aplica a los golpes normales. En ninguna edición se puede hacer smash con Slow Falling activo.",
+  "versions": "Añadida en Java 1.21 y Bedrock 1.21.0 (Tricky Trials, 2024) junto con las trial chambers, el breeze y los encantamientos exclusivos de la mace: Density, Breach y Wind Burst.",
+  "faq": [
+   {
+    "q": "¿Cuánto daño puede hacer un smash attack?",
+    "a": "No tiene tope. Tras los primeros 8 bloques (+22 de daño), cada bloque extra suma +1: una caída de 100 bloques añade más de 110 de daño sobre los 6 base, suficiente para matar de un golpe a casi cualquier mob del juego."
+   },
+   {
+    "q": "¿Funciona el smash attack con elytra?",
+    "a": "Descender con elytra cuenta como bloques caídos. En Bedrock el smash funciona en pleno vuelo; en Java hay que desequipar el elytra antes de que el golpe conecte."
+   },
+   {
+    "q": "¿Density o Breach, cuál es mejor?",
+    "a": "Density multiplica el daño del smash y gana para muertes de un golpe. Breach ignora gran parte de la armadura y gana contra jugadores o mobs con armadura en peleas largas. No puedes poner ambos en la misma mace."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/items/mace/",
+    "label": "Mace"
+   },
+   {
+    "url": "/mobs/breeze/",
+    "label": "Breeze"
+   }
+  ],
+  "keywords": [
+   "cómo usar mace minecraft",
+   "daño smash attack mace",
+   "mace density o breach",
+   "mace wind burst",
+   "guía mace minecraft"
+  ]
  }
 }
