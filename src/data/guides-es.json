@@ -17380,5 +17380,146 @@
       "respirar bajo el agua minecraft",
       "pufferfish poción"
     ]
+  },
+  "how-to-use-redstone": {
+    "name": "Cómo usar el redstone",
+    "shortTitle": "Redstone Básico",
+    "quickAnswer": "El redstone dust lleva energía hasta 15 bloques desde una fuente (lever, button, pressure plate, redstone torch) hasta un mecanismo (door, piston, lamp, dispenser). La señal baja 1 por bloque, así que usa repeaters para extenderla y torches para invertirla. Domina estas cuatro piezas - fuente, dust, repeater, torch - y podrás construir casi cualquier cosa.",
+    "steps": [
+      "Aprende las cuatro piezas clave. Fuentes de energía (levers, buttons, pressure plates, redstone torches y bloques de redstone), redstone dust para llevar la señal, repeaters para extenderla y retrasarla, y torches para invertirla. Todo lo demás son combinaciones de estas.",
+      "Coloca dust para hacer cable. El redstone dust en el suelo forma una línea que alimenta el bloque al que apunta y el bloque de debajo. Lleva energía hasta 15 bloques: el brillo muestra la fuerza, que se apaga con la distancia.",
+      "Extiende con repeaters. Un repeater refresca una señal débil a tope, añade un retraso de 0,1-0,4 segundos (clic derecho para cambiarlo) y solo deja pasar la energía en un sentido: perfecto para líneas largas y circuitos de tiempo.",
+      "Invierte con torches. Una redstone torch en el lateral de un bloque se apaga cuando ese bloque recibe energía y se enciende cuando no. Esta puerta NOT es cómo se hacen puertas que se abren al salir de la placa o luces que se encienden de noche con un daylight sensor.",
+      "Alimenta mecanismos. Lleva tu cable a pistons (empujan bloques), dispensers (disparan objetos), droppers, note blocks, lamps, doors y trapdoors. Un bloque con energía también activa cualquier mecanismo que lo toque: así funciona el cableado oculto."
+    ],
+    "materials": [
+      "Redstone dust (mina en profundidad, zona Y -59)",
+      "Redstone torches, repeaters, comparators",
+      "Levers, buttons, pressure plates",
+      "Pistons, dispensers, lamps que alimentar"
+    ],
+    "editionNote": "La mecánica central es igual en Java y Bedrock, pero Java tiene quasi-connectivity (pistons y droppers pueden recibir energía desde un bloque por encima, como las puertas) y Bedrock no: algunos tutoriales de Java fallan en Bedrock. El bloqueo de repeaters también es solo de Java.",
+    "versions": "El redstone llegó en Alpha 1.0.1 (2010) como 'red ore' y movió las primeras puertas. Los repeaters llegaron en Beta 1.3, los comparators en la 1.5 y los observers en la 1.11: las cuatro piezas básicas llevan estables desde entonces.",
+    "faq": [
+      {
+        "q": "¿Por qué mi redstone muere a los 15 bloques?",
+        "a": "Es el límite de señal: el dust lleva energía 15 bloques desde la fuente. Coloca un repeater antes de que muera para refrescarla a tope y seguir otros 15."
+      },
+      {
+        "q": "¿Qué hace un comparator?",
+        "a": "Lee lo lleno que está un contenedor (chests, hoppers, furnaces), compara o resta dos señales, y mantiene la fuerza de señal en vez de refrescarla. Usos clásicos: detectores de objetos, hopper clocks y circuitos de contraseña."
+      },
+      {
+        "q": "¿Por qué mi piston de Java se dispara sin motivo?",
+        "a": "Quasi-connectivity: en Java, los pistons tratan la energía de un bloque por encima como si apuntara a ellos. Es un bug convertido en característica; Bedrock no lo tiene."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      }
+    ],
+    "keywords": [
+      "redstone",
+      "cómo usar redstone",
+      "redstone básico",
+      "redstone para principiantes",
+      "tutorial redstone"
+    ]
+  },
+  "how-to-make-a-piston-door": {
+    "name": "Cómo hacer una piston door",
+    "shortTitle": "Piston Door",
+    "quickAnswer": "La clásica piston door 2x2 empotrada usa 4 sticky pistons (dos por lado, mirando hacia dentro) que apartan 2 bloques de pared cuando pisas las pressure plates. Cablea cada pareja con redstone y una torre de torch para que una sola entrada dispare los cuatro pistons, y la pared se abre delante de ti.",
+    "steps": [
+      "Reúne las piezas. 4 sticky pistons (piston + slimeball cada uno), redstone dust, 2 redstone torches, 4 pressure plates (o buttons) y los bloques de pared con los que quieres camuflar la puerta.",
+      "Coloca los pistons. Abre un hueco de 2 de ancho y 2 de alto en tu pared. A cada lado, coloca 2 sticky pistons un bloque detrás del hueco, mirando hacia dentro: uno a nivel de suelo y otro encima.",
+      "Pon los bloques de la puerta. Coloca tus bloques de pared justo delante de cada cabeza de piston, llenando el hueco 2x2. Cuando los pistons se retraen, tiran de estos bloques y la puerta se abre.",
+      "Cablea un lado. Lleva dust desde cada piston hasta un punto central y sube por una torre de torch: una redstone torch bajo el bloque del circuito del piston inferior invierte la señal para que la puerta quede cerrada por defecto.",
+      "Añade las pressure plates. Coloca 2 placas dentro y 2 fuera de la puerta y conéctalas a la entrada de la torre de torch. Pisa cualquier placa: la energía apaga la torch, los cuatro pistons se retraen a la vez y la puerta se abre. Cruza y se cierra detrás de ti."
+    ],
+    "materials": [
+      "4 sticky pistons",
+      "Redstone dust + 2 redstone torches",
+      "4 pressure plates (o 2 buttons)",
+      "Bloques de pared a juego con tu construcción"
+    ],
+    "editionNote": "El diseño clásico 2x2 funciona idéntico en Java y Bedrock. Las puertas mayores (3x3, 4x4, seamless) dependen de comportamientos solo de Java como la quasi-connectivity y el piston spitting, así que sigue un tutorial de tu edición para esas.",
+    "versions": "Los pistons se añadieron en Beta 1.7 (2011) y los sticky pistons en Beta 1.8: el diseño de puerta 2x2 apareció en días y sigue siendo el mecanismo de redstone más construido del juego.",
+    "faq": [
+      {
+        "q": "¿Por qué solo se abre un lado?",
+        "a": "Los dos lados no están cableados a la misma entrada. Lleva ambas parejas de pistons a la única torre de torch para que la señal de una pressure plate llegue a los cuatro pistons a la vez."
+      },
+      {
+        "q": "La puerta se abre pero no se cierra, ¿qué pasa?",
+        "a": "Falta la inversión de torch: los pistons deben quedar SIN energía por la torch cuando nadie pisa la placa. Revisa la torre: una torch rota o mal puesta deja la puerta abierta."
+      },
+      {
+        "q": "¿Puedo ocultarla del todo?",
+        "a": "Sí: usa el mismo bloque que tu pared para la puerta, entierra el cableado bajo el suelo y coloca las placas en el propio hueco de la puerta; es el compromiso estándar."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      }
+    ],
+    "keywords": [
+      "piston door",
+      "cómo hacer una piston door",
+      "puerta de pistones 2x2",
+      "puerta oculta minecraft",
+      "puerta secreta"
+    ]
+  },
+  "how-to-make-a-redstone-clock": {
+    "name": "Cómo hacer un redstone clock",
+    "shortTitle": "Redstone Clock",
+    "quickAnswer": "El redstone clock más fácil es un bucle de repeaters: 2 o más repeaters cableados en círculo con un lever para arrancarlo, pulsando para siempre. Para periodos largos usa un hopper clock (dos hoppers pasándose objetos con comparators leyéndolos) o un observer clock que pulsa dos veces por segundo. Los clocks alimentan granjas, puertas y espectáculos de luces.",
+    "steps": [
+      "Construye un repeater clock (rápido). Coloca 2 repeaters en bucle mirándose entre sí con dust entre ellos, dale un pulso con un lever, y cicla para siempre. Añade más repeaters (hasta 0,4s de retraso cada uno) para frenar el pulso.",
+      "Construye un observer clock (el más simple). Encara dos observers entre sí: cada uno ve cambiar al otro y le devuelve el pulso, creando un clock compacto de 2 pulsos por segundo sin cableado.",
+      "Construye un hopper clock (lento y preciso). Coloca 2 hoppers mirando el uno al otro, mete 1-64 objetos dentro y lee uno con un comparator. Los objetos van y vienen a 2,5 por segundo: un objeto da un ciclo de ~0,8 segundos, un stack completo ~51 segundos.",
+      "Evita el parpadeo. Los torch clocks (una torch con dust que vuelve a su propio bloque) pulsan rápido pero se queman y reinician al azar: usa repeaters u observers para cualquier cosa importante.",
+      "Conéctalo a tu máquina. Lleva la salida del clock a pistons (elevadores de objetos), dispensers (granjas automáticas), droppers o note blocks. Añade un lever en la línea para encender y apagar toda la máquina."
+    ],
+    "materials": [
+      "Repeaters / 2 observers / 2 hoppers + comparator",
+      "Redstone dust",
+      "Lever (interruptor)",
+      "Objetos para el hopper clock"
+    ],
+    "editionNote": "Los clocks de repeaters y hoppers se comportan igual en Java y Bedrock. Los observer clocks difieren ligeramente en tiempo entre ediciones, y los trucos de bloqueo de repeaters con comparators son solo de Java. Los torch clocks quemados se recuperan solos en ambas.",
+    "versions": "Los hopper clocks fueron posibles cuando llegaron hoppers y comparators en la 1.5 (Redstone Update, 2013), y los observer clocks llegaron con los observers en la 1.11. El bucle de repeaters es el clock más antiguo, de Beta 1.3.",
+    "faq": [
+      {
+        "q": "¿Qué clock uso?",
+        "a": "Pareja de observers para pulso rápido (granjas, dispensers), hopper clock para ciclos lentos (flushing de granjas de mobs, clasificadores de objetos), bucle de repeaters para todo lo intermedio con control fino del retraso."
+      },
+      {
+        "q": "¿Por qué paró mi repeater clock?",
+        "a": "Si el bucle pierde el pulso (descarga del chunk, timing del lever), queda muerto. Incorpora un arrancador: un lever o button que reinyecte un pulso, o usa un diseño autoarrancable con una torch."
+      },
+      {
+        "q": "¿Los clocks dan lag?",
+        "a": "Los rápidos con muchos pistons u hoppers pueden. Usa el clock más lento que haga el trabajo y apaga las máquinas con un lever cuando no las uses."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/items/nether-star/",
+        "label": "Nether Star"
+      }
+    ],
+    "keywords": [
+      "redstone clock",
+      "cómo hacer un redstone clock",
+      "hopper clock",
+      "observer clock",
+      "repeater clock minecraft"
+    ]
   }
 }
