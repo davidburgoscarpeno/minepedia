@@ -19758,5 +19758,156 @@
       "projectile protection o protection",
       "protección contra flechas minecraft"
     ]
+  },
+  "how-to-get-density": {
+    "name": "Cómo conseguir Density en Minecraft",
+    "shortTitle": "Density",
+    "quickAnswer": "Density es un encantamiento exclusivo del mace (nivel máximo V) que suma medio corazón de daño de smash attack por bloque caído, por nivel: Density V añade 2.5 corazones por bloque de caída. Consíguelo en la enchanting table, trades de librarians, pesca o ominous vaults de las trial chambers. No se combina con Smite, Bane of Arthropods ni Breach.",
+    "steps": [
+      "Consigue primero un mace. Density solo va en maces, así que necesitas un heavy core de una ominous vault más un breeze rod de un breeze en las trial chambers.",
+      "Encanta en la mesa. Los maces pueden sacar Density hasta V directamente. Usa 15 bookshelves para tiradas de nivel 30.",
+      "O encuentra el libro. Los libros de Density salen de trades de librarians de cualquier nivel, tesoro de pesca y ominous vaults: las ominous vaults son la fuente más fiable de niveles altos.",
+      "Entiende las matemáticas. Los smash attacks escalan con la distancia de caída, y Density multiplica esa escala: +0.5 corazones por bloque caído por nivel. Con Density V, caer 10 bloques suma 25 corazones encima del daño base del smash.",
+      "Elige tu escuela de daño. Density compite con Smite, Bane of Arthropods y Breach por el mismo hueco. Density es el especialista del one-shot: combínalo con Wind Burst para que cada kill te relance al siguiente smash."
+    ],
+    "materials": [
+      "Mace (heavy core + breeze rod)",
+      "Enchanting table + bookshelves, o anvil + libro de Density",
+      "Niveles de XP",
+      "Algo alto de lo que saltar"
+    ],
+    "editionNote": "Idéntico en Java y Bedrock: +0.5 corazones por bloque caído por nivel, hasta nivel V. Técnicamente también es incompatible con Sharpness e Impaling, pero ningún arma de supervivencia puede llevar ambos, así que nunca verás ese conflicto.",
+    "versions": "Density llegó con el mace en Java 1.21 y Bedrock 1.21.0 (2024) como uno de sus tres encantamientos insignia, junto a Breach y Wind Burst.",
+    "faq": [
+      {
+        "q": "¿Density o Breach en mi mace?",
+        "a": "Density para one-shots en PvE: su bonus por distancia de caída alcanza cifras absurdas rápido. Breach solo lo supera contra objetivos muy blindados (jugadores en netherite, mobs con mucha armadura) en terreno plano. La mayoría lleva Density y guarda un mace con Breach para PvP."
+      },
+      {
+        "q": "¿Density puede ir en una sword?",
+        "a": "No: Density es solo de maces. Smite y Bane of Arthropods son los equivalentes para swords y axes dentro de su grupo de exclusividad."
+      },
+      {
+        "q": "¿Cuánto daño suma Density V?",
+        "a": "2.5 corazones extra por bloque caído. Una caída de 5 bloques suma 12.5 corazones; una de 10 bloques, 25. Combinado con la escala propia del mace, los smashes bien apuntados eliminan a casi cualquier mob de un golpe."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/breeze/",
+        "label": "Breeze"
+      },
+      {
+        "url": "/es/structures/trial-chambers/",
+        "label": "Trial Chambers"
+      }
+    ],
+    "keywords": [
+      "density minecraft",
+      "cómo conseguir density",
+      "density 5 mace",
+      "encantamientos del mace",
+      "density o breach"
+    ]
+  },
+  "how-to-get-breach": {
+    "name": "Cómo conseguir Breach en Minecraft",
+    "shortTitle": "Breach",
+    "quickAnswer": "Breach es un encantamiento exclusivo del mace (nivel máximo IV) que ignora un 15% de la efectividad de la armadura del objetivo por nivel: Breach IV recorta el 60% de su reducción de daño por armadura, incluida la armadura natural de los mobs. Consíguelo en la enchanting table, trades de librarians, pesca u ominous vaults. No se combina con Smite, Bane of Arthropods ni Density.",
+    "steps": [
+      "Consigue un mace. Breach solo encanta maces: fabrica uno con un heavy core (ominous vault) y un breeze rod (breezes en las trial chambers).",
+      "Encanta en la mesa. Los maces pueden sacar Breach hasta IV con el set completo de bookshelves.",
+      "O encuentra el libro. Los trades de librarians, el tesoro de pesca y las ominous vaults traen libros de Breach.",
+      "Aprende qué perfora. Cada nivel ignora un 15% de la reducción de daño por armadura del objetivo, de leather a netherite, más los puntos de armadura natural de mobs como zombies y shulkers. Breach IV trata una netherite completa como si apenas estuviera ahí.",
+      "Aprende qué NO perfora. Breach ignora solo la armadura cruda. Los encantamientos Protection de esa armadura y el efecto Resistance siguen aplicando a plena potencia: un rival con Protection IV es mucho menos vulnerable que uno con netherite a secas.",
+      "Úsalo donde importa la armadura. Breach brilla en PvP y contra mobs blindados. Contra objetivos sin armadura no hace nada, y por eso la mayoría lo lleva como segundo mace junto a Density."
+    ],
+    "materials": [
+      "Mace (heavy core + breeze rod)",
+      "Enchanting table + bookshelves, o anvil + libro de Breach",
+      "Niveles de XP",
+      "Un amigo blindado para probar (con consentimiento)"
+    ],
+    "editionNote": "Funciona igual en Java y Bedrock: 15% de reducción de efectividad de armadura por nivel, máximo IV. Más allá del nivel VI no hay efecto práctico. Recuerda: la protección por encantamientos (Protection, Resistance) no se ve afectada; solo se perforan los armor points y el armor toughness.",
+    "versions": "Breach llegó con el mace en Java 1.21 y Bedrock 1.21.0 (2024). Es el contramedidas de armaduras frente al daño bruto de Density.",
+    "faq": [
+      {
+        "q": "¿Breach o Density para PvP?",
+        "a": "Breach. La armadura de netherite convierte el bonus de caída de Density en daño de cosquillas, mientras que Breach IV desmonta el 60% de esa armadura en cada golpe, incluso en golpes en llano donde Density no suma nada. Guarda Density para farmeo PvE."
+      },
+      {
+        "q": "¿Breach funciona contra el warden?",
+        "a": "El warden no tiene armor points, así que Breach no da bonus contra él, ni contra ningún mob sin armadura. Lleva mejor Density o Smite."
+      },
+      {
+        "q": "¿Breach ignora Protection IV?",
+        "a": "No: Breach solo reduce la reducción de daño de armor points y toughness. Los encantamientos Protection y el efecto Resistance aplican a plena potencia encima de la armadura que quede."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/breeze/",
+        "label": "Breeze"
+      },
+      {
+        "url": "/es/structures/trial-chambers/",
+        "label": "Trial Chambers"
+      }
+    ],
+    "keywords": [
+      "breach minecraft",
+      "cómo conseguir breach",
+      "breach 4 mace",
+      "breach o density",
+      "encantamientos del mace pvp"
+    ]
+  },
+  "how-to-get-sweeping-edge": {
+    "name": "Cómo conseguir Sweeping Edge en Minecraft",
+    "shortTitle": "Sweeping Edge",
+    "quickAnswer": "Sweeping Edge es un encantamiento de swords solo de Java Edition (nivel máximo III) que eleva el daño del sweep attack al 50%/67%/75% del daño de tu sword contra los mobs de alrededor. No hace nada sobre el mob al que golpeas directamente, y no existe en Bedrock. Consíguelo en la enchanting table, trades de librarians, pesca o cofres de estructuras.",
+    "steps": [
+      "Comprueba tu edición. Sweeping Edge es solo de Java Edition: las swords de Bedrock no tienen sweep attacks, así que el encantamiento no existe ahí.",
+      "Encanta una sword en la mesa. Cualquier sword puede sacar Sweeping Edge hasta III. Usa 15 bookshelves para tiradas de nivel 30.",
+      "O encuentra el libro. Los trades de librarians, el tesoro de pesca, los cofres de monster rooms, los de ocean ruins y otro loot de estructuras no de aldeas lo traen.",
+      "Aprende el sweep. En Java, atacar quieto en el suelo con el cooldown al 84.8% o más dispara un sweep: los mobs en una pequeña zona alrededor de tu objetivo reciben el daño del sweep y salen empujados.",
+      "Haz las cuentas. El daño del sweep es 1 + daño de la sword x nivel/(nivel+1): en III el 75% del daño de tu sword salpica a los mobs cercanos. Una diamond sword con Sharpness V barre 8.5 corazones por swing entre la multitud.",
+      "Úsalo entre multitudes. Sweeping Edge brilla en mob farms, asedios de zombies y oleadas de raids: allá donde los enemigos se apiñan. Contra un solo objetivo no suma nada."
+    ],
+    "materials": [
+      "Sword (cualquier tier)",
+      "Enchanting table + bookshelves, o anvil + libro de Sweeping Edge",
+      "Niveles de XP",
+      "Una multitud de zombies (opcional)"
+    ],
+    "editionNote": "SOLO JAVA EDITION. Bedrock no tiene la mecánica de sweep attack ni el encantamiento Sweeping Edge. En Java, el bonus solo aplica a los mobs de alrededor, nunca al que golpeas directamente.",
+    "versions": "Sweeping Edge existe desde la Combat Update (Java 1.9, 2016), que introdujo los cooldowns de ataque y los sweep attacks. Ha sido exclusivo de Java desde entonces.",
+    "faq": [
+      {
+        "q": "¿Por qué no puedo conseguir Sweeping Edge en Bedrock?",
+        "a": "Porque no existe ahí. Los sweep attacks en sí son una mecánica solo de Java: las swords de Bedrock atacan de otra forma, así que el encantamiento no tiene nada que potenciar. Mojang ha probado cambios de combate, pero a día de hoy Sweeping Edge sigue siendo solo de Java."
+      },
+      {
+        "q": "¿Sweeping Edge aumenta el daño sobre mi objetivo principal?",
+        "a": "No: solo los mobs de alrededor atrapados en el sweep reciben el daño potenciado. Tu objetivo directo recibe el golpe normal de la sword. Combínalo con Sharpness, que potencia ambos."
+      },
+      {
+        "q": "¿Sweeping Edge o Sharpness?",
+        "a": "No es una elección: acumulan en la misma sword. Sharpness sube tu golpe directo (que también sube el sweep, porque el daño del sweep escala con el daño de la sword), y Sweeping Edge sube el porcentaje de salpicadura. La sword clásica de mob farm lleva ambos."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/mobs/skeleton/",
+        "label": "Skeleton"
+      }
+    ],
+    "keywords": [
+      "sweeping edge minecraft",
+      "cómo conseguir sweeping edge",
+      "sweeping edge 3",
+      "sweeping edge bedrock",
+      "encantamientos de sword"
+    ]
   }
 }

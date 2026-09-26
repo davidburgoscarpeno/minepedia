@@ -21873,5 +21873,174 @@
       "projectile protection vs protection",
       "arrow protection minecraft"
     ]
+  },
+  {
+    "slug": "how-to-get-density",
+    "name": "How to Get Density in Minecraft",
+    "shortTitle": "Density",
+    "quickAnswer": "Density is a mace-only enchantment (max level V) that adds half a heart of smash attack damage per block fallen, per level - so Density V adds 2.5 hearts per block of drop. Get it from the enchanting table, librarian trades, fishing loot, or ominous vaults in trial chambers. It cannot combine with Smite, Bane of Arthropods or Breach.",
+    "steps": [
+      "Get a mace first. Density only goes on maces, so you need a heavy core from an ominous vault plus a breeze rod from a breeze in the trial chambers.",
+      "Enchant at the table. Maces can roll Density up to V directly. Use 15 bookshelves for level 30 rolls.",
+      "Or find the book. Density books come from librarian trades of any level, fishing treasure, and ominous vaults - ominous vaults are the most reliable source of high levels.",
+      "Understand the math. Smash attacks scale with fall distance, and Density multiplies that scaling: +0.5 hearts per block fallen per level. At Density V, dropping 10 blocks adds 25 hearts on top of the base smash damage.",
+      "Pick your damage school. Density competes with Smite, Bane of Arthropods and Breach for the same slot. Density is the one-shot specialist: pair it with Wind Burst so every kill relaunches you for the next smash."
+    ],
+    "materials": [
+      "Mace (heavy core + breeze rod)",
+      "Enchanting table + bookshelves, or anvil + Density book",
+      "XP levels",
+      "Something tall to jump off"
+    ],
+    "editionNote": "Identical in Java and Bedrock: +0.5 hearts per block fallen per level, up to level V. Technically also incompatible with Sharpness and Impaling, but no survival weapon can hold both, so you will never see that conflict.",
+    "versions": "Density arrived with the mace in Java 1.21 and Bedrock 1.21.0 (2024) as one of its three signature enchantments, alongside Breach and Wind Burst.",
+    "faq": [
+      {
+        "q": "Density or Breach on my mace?",
+        "a": "Density for PvE one-shots - its fall-distance bonus reaches absurd numbers fast. Breach only outperforms it against heavily armored targets (players in netherite, high-armor mobs) on flat ground. Most players run Density and keep a Breach mace for PvP."
+      },
+      {
+        "q": "Can Density go on a sword?",
+        "a": "No - Density is mace-only. Smite and Bane of Arthropods are the sword-and-axe equivalents in its exclusivity group."
+      },
+      {
+        "q": "How much damage does Density V add?",
+        "a": "2.5 extra hearts per block fallen. A 5-block drop adds 12.5 hearts; a 10-block drop adds 25. Combined with the mace's own fall scaling, well-aimed smashes delete nearly any mob in one hit."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-mace",
+      "how-to-get-wind-burst",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/breeze/",
+        "label": "Breeze"
+      },
+      {
+        "url": "/structures/trial-chambers/",
+        "label": "Trial Chambers"
+      }
+    ],
+    "keywords": [
+      "density minecraft",
+      "how to get density",
+      "density 5 mace",
+      "mace enchantments",
+      "density vs breach"
+    ]
+  },
+  {
+    "slug": "how-to-get-breach",
+    "name": "How to Get Breach in Minecraft",
+    "shortTitle": "Breach",
+    "quickAnswer": "Breach is a mace-only enchantment (max level IV) that ignores 15% of the target's armor effectiveness per level - Breach IV cuts 60% of their armor damage reduction, natural mob armor included. Get it from the enchanting table, librarian trades, fishing, or ominous vaults. It cannot combine with Smite, Bane of Arthropods or Density.",
+    "steps": [
+      "Get a mace. Breach only enchants maces: craft one from a heavy core (ominous vault) and a breeze rod (breezes in trial chambers).",
+      "Enchant at the table. Maces can roll Breach up to IV with a full bookshelf setup.",
+      "Or find the book. Librarian trades, fishing treasure and ominous vaults all carry Breach books.",
+      "Know what it pierces. Each level ignores 15% of the target's armor damage reduction - leather to netherite, plus the natural armor points of mobs like zombies and shulkers. Breach IV treats full netherite like it is barely there.",
+      "Know what it does NOT pierce. Breach ignores only raw armor. Protection enchantments on that armor and the Resistance effect still apply at full strength - a Protection IV opponent is far less vulnerable than a plain netherite one.",
+      "Use it where armor matters. Breach shines in PvP and against armored mobs. Against unarmored targets it does nothing, which is why most players keep it as a second mace next to Density."
+    ],
+    "materials": [
+      "Mace (heavy core + breeze rod)",
+      "Enchanting table + bookshelves, or anvil + Breach book",
+      "XP levels",
+      "An armored friend to test on (consensually)"
+    ],
+    "editionNote": "Works the same in Java and Bedrock: 15% armor-effectiveness reduction per level, max IV. Beyond level VI there is no practical effect. Remember: enchantment-based protection (Protection, Resistance) is unaffected - only armor points and armor toughness are pierced.",
+    "versions": "Breach arrived with the mace in Java 1.21 and Bedrock 1.21.0 (2024). It is the armor-counter counterpart to Density's raw damage.",
+    "faq": [
+      {
+        "q": "Breach or Density for PvP?",
+        "a": "Breach. Netherite armor turns Density's fall bonus into chip damage, while Breach IV strips 60% of that armor off every hit - including flat-ground hits where Density adds nothing. Keep Density for PvE farming."
+      },
+      {
+        "q": "Does Breach work on the warden?",
+        "a": "The warden has no armor points, so Breach gives no bonus against it - or against any unarmored mob. Bring Density or Smite instead."
+      },
+      {
+        "q": "Does Breach ignore Protection IV?",
+        "a": "No - Breach only reduces the damage reduction from armor points and toughness. Protection enchantments and the Resistance effect apply at full strength on top of whatever armor remains."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-density",
+      "how-to-get-mace",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/breeze/",
+        "label": "Breeze"
+      },
+      {
+        "url": "/structures/trial-chambers/",
+        "label": "Trial Chambers"
+      }
+    ],
+    "keywords": [
+      "breach minecraft",
+      "how to get breach",
+      "breach 4 mace",
+      "breach vs density",
+      "mace enchantments pvp"
+    ]
+  },
+  {
+    "slug": "how-to-get-sweeping-edge",
+    "name": "How to Get Sweeping Edge in Minecraft",
+    "shortTitle": "Sweeping Edge",
+    "quickAnswer": "Sweeping Edge is a Java Edition sword enchantment (max level III) that boosts sweep attack damage to 50%/67%/75% of your sword's damage against surrounding mobs. It does nothing on the mob you hit directly, and it does not exist in Bedrock. Get it from the enchanting table, librarian trades, fishing, or structure chests.",
+    "steps": [
+      "Check your edition. Sweeping Edge is Java Edition only - Bedrock swords have no sweep attacks at all, so the enchantment does not exist there.",
+      "Enchant a sword at the table. Any sword can roll Sweeping Edge up to III. Use 15 bookshelves for level 30 rolls.",
+      "Or find the book. Librarian trades, fishing treasure, monster room chests, ocean ruins chests and other non-village structure loot all carry it.",
+      "Learn the sweep. On Java, standing still on the ground and attacking with your cooldown at 84.8% or higher triggers a sweep: mobs in a small area around your target take the sweep damage and get knocked back.",
+      "Do the math. Sweep damage is 1 + sword damage x level/(level+1): III means 75% of your sword's damage splashes to nearby mobs. A Sharpness V diamond sword sweeps 8.5 hearts per swing into the crowd.",
+      "Use it in crowds. Sweeping Edge shines in mob farms, zombie sieges and raid waves - anywhere enemies pack together. For single targets it adds zero damage."
+    ],
+    "materials": [
+      "Sword (any tier)",
+      "Enchanting table + bookshelves, or anvil + Sweeping Edge book",
+      "XP levels",
+      "A crowd of zombies (optional)"
+    ],
+    "editionNote": "JAVA EDITION ONLY. Bedrock has no sweep attack mechanic and no Sweeping Edge enchantment. On Java, the bonus applies only to surrounding mobs, never to the mob you hit directly.",
+    "versions": "Sweeping Edge has existed since the Combat Update (Java 1.9, 2016), which introduced attack cooldowns and sweep attacks. It has been Java-exclusive ever since.",
+    "faq": [
+      {
+        "q": "Why can't I get Sweeping Edge on Bedrock?",
+        "a": "Because it does not exist there. Sweep attacks themselves are a Java-only mechanic - Bedrock swords swing differently, so the enchantment has nothing to boost. Mojang has tested combat changes, but as of now Sweeping Edge remains Java-only."
+      },
+      {
+        "q": "Does Sweeping Edge increase damage on my main target?",
+        "a": "No - only the surrounding mobs caught in the sweep take the boosted damage. Your direct target takes the sword's normal hit. Pair it with Sharpness, which boosts both."
+      },
+      {
+        "q": "Sweeping Edge or Sharpness?",
+        "a": "Not a choice - they stack on the same sword. Sharpness raises your direct hit (which also raises the sweep, since sweep damage scales off sword damage), and Sweeping Edge raises the splash percentage. The classic mob-farm sword has both."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-sharpness",
+      "how-to-get-smite",
+      "how-to-enchant"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/mobs/skeleton/",
+        "label": "Skeleton"
+      }
+    ],
+    "keywords": [
+      "sweeping edge minecraft",
+      "how to get sweeping edge",
+      "sweeping edge 3",
+      "sweeping edge bedrock",
+      "sword enchantments"
+    ]
   }
 ]
