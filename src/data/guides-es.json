@@ -17660,5 +17660,148 @@
       "observer clock",
       "flying machine"
     ]
+  },
+  "how-to-make-a-hopper": {
+    "name": "Cómo hacer una hopper en Minecraft",
+    "shortTitle": "Hopper",
+    "quickAnswer": "Fabrica una hopper con 5 iron ingots y un chest en forma de V: iron en las esquinas superiores y en los laterales medios, el chest en el centro y un iron debajo. Una hopper recoge objetos caídos encima de ella y mueve objetos entre contenedores a 2,5 objetos por segundo: es la tubería que conecta toda granja automática.",
+    "steps": [
+      "Funde 5 iron ingots y fabrica un chest (8 planks). La receta necesita una crafting table.",
+      "Abre la mesa y coloca iron en los huecos superior izquierdo y superior derecho, iron en los laterales medios, el chest en el centro y el último iron debajo del chest. Recoge la hopper.",
+      "Colócala apuntando hacia donde deben ir los objetos. Agáchate (sneak) y haz clic derecho en el contenedor que quieras alimentar: la hopper se engancha con la boquilla hacia ese contenedor. Sin agacharte solo abrirás el contenedor.",
+      "Aliméntala desde arriba. Una hopper saca objetos de un contenedor situado justo encima de ella y absorbe los objetos que caen en el espacio del bloque superior.",
+      "Encadena hoppers en tuberías. Las hoppers empujan hacia la hopper a la que apuntan y las de abajo también tiran, así que puedes hacer líneas horizontales o verticales de objetos por tu base.",
+      "Bloquéala con redstone cuando haga falta. Una hopper con corriente deja de empujar y tirar (los objetos dentro se quedan). Levers, torches y comparators valen: así controlan el flujo los sorters y las granjas.",
+      "Cuenta con 2,5 objetos por segundo. Tras cada transferencia la hopper espera 8 game ticks (0,4 s), así que una línea simple mueve un stack cada 26 segundos aproximadamente. Usa líneas paralelas o minecart hoppers para grandes volúmenes."
+    ],
+    "materials": [
+      "5 iron ingots (fundidos de iron ore o raw iron)",
+      "1 chest (8 wooden planks)",
+      "Crafting table"
+    ],
+    "editionNote": "Las hoppers funcionan igual en Java y Bedrock en el uso diario. Internamente difieren en detalles de rendimiento (Java prefiere un composter o contenedor encima de líneas largas; Bedrock prefiere aire) y en algunos casos límite al tirar objetos, pero toda granja normal funciona en ambas.",
+    "versions": "Las hoppers se añadieron en Java 1.5, la Redstone Update (enero de 2013), con la misma receta de iron y chest que siguen usando hoy. Llegaron a Pocket Edition en la 0.14.0.",
+    "faq": [
+      {
+        "q": "¿Por qué mi hopper no recoge objetos?",
+        "a": "Dos causas comunes: está alimentada por redstone (una hopper con corriente se bloquea y deja de mover objetos; quita la lever o la torch), o apunta a un contenedor lleno. Comprueba también que el objeto tenga adónde ir: una hopper con el destino lleno deja de tirar."
+      },
+      {
+        "q": "¿Cómo hago que una hopper apunte a un chest?",
+        "a": "Agáchate y haz clic derecho en el lateral del chest con la hopper en la mano. La boquilla se dobla visiblemente hacia el bloque que pulsaste. Una hopper colocada encima de un chest apunta hacia abajo automáticamente."
+      },
+      {
+        "q": "¿Hopper o corriente de agua para mover objetos?",
+        "a": "Las corrientes de agua son mucho más rápidas y baratas para largas distancias y recolección; las hoppers sirven para entrega precisa, transferencia entre contenedores y control con redstone. La mayoría de granjas grandes usan agua para recolectar y una línea corta de hoppers para ordenar y almacenar."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "hopper minecraft",
+      "cómo hacer una hopper",
+      "receta de la hopper",
+      "transporte de objetos"
+    ]
+  },
+  "how-to-make-an-item-sorter": {
+    "name": "Cómo hacer un item sorter en Minecraft",
+    "shortTitle": "Item Sorter",
+    "quickAnswer": "Un item sorter usa una hopper llena con exactamente 41 del objeto objetivo más 4 objetos de relleno sueltos, un comparator que la lee y una redstone torch que bloquea una segunda hopper debajo. Cuando los objetos extra suben la señal de 2 a 3, la torch se desbloquea y el sorter saca el excedente a un chest; todo lo demás sigue de largo al siguiente módulo.",
+    "steps": [
+      "Entiende la idea en una línea. Un comparator lee lo llena que está la hopper de filtro. El filtro está ajustado para que solo el objeto objetivo pueda subir la señal, y esa subida desbloquea un instante una hopper que drena el excedente a un chest.",
+      "Construye el módulo base. Haz una línea de hoppers hacia una fila de chests. Detrás de cada una, coloca una segunda hopper (el filtro) mirando a un bloque sólido, con un comparator leyéndola, dust y una redstone torch que bloquee la hopper de debajo del filtro.",
+      "Carga el filtro correctamente. Pon 41 del objeto que quieres ordenar en el primer slot y UN objeto de relleno en cada uno de los otros cuatro slots. El relleno debe apilarse a 64 y no aparecer nunca en la entrada de tu almacén: sirven objetos renombrados o basura como sticks.",
+      "Entiende la señal. Con 41+1+1+1+1 el comparator emite potencia 2. Cuando llegan más objetos objetivo, el stack crece, la salida sube a 3, la torch se apaga y la hopper inferior se desbloquea justo lo necesario para drenar el excedente, y se rebloquea. Otros objetos no pueden subir la señal, así que pasan de largo.",
+      "Repite el módulo por objeto. Monta la misma estructura una vez por tipo de objeto a lo largo de tu línea de entrada, cada una alimentando su propio chest. Deja huecos de una hopper o usa el diseño enlosable estándar para que el redstone vecino no interfiera.",
+      "Protégelo del desbordamiento. Si un chest se llena del todo, su filtro se atasca y puede romper el módulo de al lado. Da a cada objeto ordenado espacio de chest suficiente o añade un chest de desborde al final de la línea para lo no ordenado.",
+      "Prueba antes de fiarte. Lanza un stack del objeto objetivo y un stack de basura a la entrada. El objetivo cae en su chest y la basura viaja al contenedor de no ordenados: entonces ya es seguro conectar la salida de tu granja."
+    ],
+    "materials": [
+      "Por objeto: 2 hoppers, 1 comparator, 1 redstone torch, 1 chest",
+      "Redstone dust y bloques sólidos de construcción",
+      "41 de cada objeto a ordenar + 4 objetos de relleno por módulo",
+      "Línea de entrada: hoppers o una corriente de agua"
+    ],
+    "editionNote": "El filtro clásico funciona en Java y Bedrock. En Java los comparators pueden leer la hopper de filtro a través de un bloque sólido, de lo que dependen los diseños compactos habituales; las versiones Bedrock del mismo diseño pueden necesitar el comparator directamente contra la hopper. Construye un diseño hecho para tu edición.",
+    "versions": "Los item sorters son posibles desde que llegaron los comparators en Java 1.5 (2013), y el filtro de 41 más relleno es el estándar de la comunidad desde entonces: sigue funcionando sin cambios en las versiones actuales.",
+    "faq": [
+      {
+        "q": "¿Por qué se rompió mi sorter y mezcló objetos?",
+        "a": "Casi siempre es un desbordamiento: el chest se llenó, la hopper de filtro superó los 41 objetos y el módulo empezó a dejar pasar el objetivo río abajo. Vacía el chest, rellena el filtro a exactamente 41+1+1+1+1 y da más almacenamiento a los objetos de gran volumen."
+      },
+      {
+        "q": "¿Puedo ordenar objetos no apilables como tools o armor?",
+        "a": "No con el filtro clásico: depende del conteo de stacks. Los no apilables necesitan diseños dedicados (normalmente con una hopper que intenta emparejar el objeto) o simplemente un chest manual. La mayoría manda todo lo no apilable al contenedor de no ordenados."
+      },
+      {
+        "q": "¿Cuántos objetos aguanta un sorter?",
+        "a": "Una hopper de filtro mueve 2,5 objetos por segundo, así que un módulo cubre la mayoría de granjas. Para granjas muy rápidas (raid, oro), divide la entrada entre varios sorters en paralelo o pre-ordena con corrientes de agua en varias líneas."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "item sorter minecraft",
+      "cómo ordenar objetos",
+      "almacén automático",
+      "filtro de hopper"
+    ]
+  },
+  "how-to-make-a-flying-machine": {
+    "name": "Cómo hacer una flying machine en Minecraft",
+    "shortTitle": "Flying Machine",
+    "quickAnswer": "Una flying machine es un motor automóvil: dos observers mirándose entre sí, cada uno respaldado por un sticky piston, unidos por slime blocks. Un observer movido por un piston dispara un pulso, que alimenta el otro piston, que mueve la máquina y reactiva los observers: todo el conjunto avanza para siempre. Recoge sugar cane, arrasa terreno y mueve puentes sin combustible.",
+    "steps": [
+      "Reúne las piezas. El motor mínimo de un sentido necesita 2 observers, 2 sticky pistons y 3-6 slime blocks. Los slime blocks salen de 9 slimeballs cada uno, así que caza slimes en swamps de noche o en slime chunks bajo Y 40.",
+      "Entiende el bucle. Un piston que mueve un observer hace que ese observer emita un pulso al aterrizar. Apunta ese pulso al otro piston y empuja todo el conjunto un bloque, lo que mueve el primer observer, que pulsa otra vez. Movimiento y disparo se alimentan mutuamente.",
+      "Construye el motor clásico. Coloca un sticky piston mirando al frente. Engancha un observer detrás con el punto hacia el piston. Replica el mismo conjunto en espejo mirando al contrario y conecta ambos con slime blocks, manteniendo el total por debajo del límite de 12 bloques.",
+      "No pases de 12 bloques. Un piston solo puede mover 12 bloques a la vez, y cada slime block, observer y piston cuenta. Si el motor no se mueve, cuenta los bloques conectados: un bloque extra pegado por accidente es la causa habitual.",
+      "Lánzala. Coloca o quita un bloque para actualizar un observer, o da un pulso rápido a un piston. La máquina empieza a avanzar. Para pararla, pon un bloque inamovible (obsidian, furnace; en algunos diseños sirve una hoja) en su camino.",
+      "Separa slime y honey. Los slime blocks y los honey blocks nunca se pegan entre sí, y eso es una ventaja: dos mitades de motor hechas con bloques pegajosos distintos pueden deslizarse una junto a otra sin soldarse. Usa honey donde quieras un suelo móvil que no agarre las piezas de slime.",
+      "Dale un trabajo. Los slime blocks lanzan las entidades que empujan, así que pasajeros y TNT van de viaje. Acopla note blocks u observers extra como salidas y el mismo motor se convierte en cosechadora de sugar cane, taladora de túneles o puente móvil."
+    ],
+    "materials": [
+      "2 observers (6 cobblestone + 2 redstone dust + 1 quartz cada uno)",
+      "2 sticky pistons (piston + slimeball)",
+      "3-6 slime blocks (9 slimeballs cada uno)",
+      "Obsidian u otro bloque inamovible para pararla"
+    ],
+    "editionNote": "Las flying machines funcionan en Java y Bedrock, pero el timing difiere: en Java un observer movido pulsa tras su retardo normal, mientras que en Bedrock un observer movido siempre dispara inmediatamente. Muchos diseños de Java se paran o se desbocan en Bedrock, así que copia un diseño etiquetado para tu edición.",
+    "versions": "Las flying machines se hicieron posibles cuando los observers llegaron a Java 1.11 (2016); Pocket Edition los tenía desde la 0.15.0. El cambio de la 1.15 que hizo que slime y honey dejaran de pegarse abrió los diseños modernos de dos partes.",
+    "faq": [
+      {
+        "q": "¿Por qué mi flying machine no se mueve?",
+        "a": "Cuenta los bloques que un solo piston tiene que mover: más de 12 y se rinde en silencio. La otra causa clásica es un observer mirando al revés: el punto (salida) debe apuntar al piston que quieres disparar y la cara debe vigilar el bloque que se mueve."
+      },
+      {
+        "q": "¿Cómo paro una flying machine?",
+        "a": "Pon un bloque que los pistons no pueden mover en su camino: obsidian, bedrock, un furnace o un chest valen. El motor choca, el empuje falla y el bucle muere. Algunos diseños aparcan sobre una hoja o un bloque de glazed terracotta."
+      },
+      {
+        "q": "¿Puede una flying machine subir o bajar?",
+        "a": "Sí, con un diseño vertical: observers apuntando arriba o abajo con pistons y slime dispuestos para que el ciclo de empuje y arrastre trepe o descienda. Los motores verticales son más sensibles al conteo de bloques, así que empieza copiando un diseño probado bloque a bloque."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "flying machine minecraft",
+      "cómo hacer una flying machine",
+      "motor de observers",
+      "máquina de slime blocks"
+    ]
   }
 }

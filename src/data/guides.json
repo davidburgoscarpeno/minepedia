@@ -19523,5 +19523,166 @@
       "observer clock",
       "flying machine"
     ]
+  },
+  {
+    "slug": "how-to-make-a-hopper",
+    "name": "How to Make a Hopper in Minecraft",
+    "shortTitle": "Hopper",
+    "quickAnswer": "Craft a hopper with 5 iron ingots and a chest in a V shape: iron in the top corners and middle sides, the chest in the center, and one iron below it. A hopper collects dropped items above it and moves items between containers at 2.5 items per second - it is the pipe that connects every automatic farm.",
+    "steps": [
+      "Smelt 5 iron ingots and craft a chest (8 planks). The recipe needs a crafting table.",
+      "Open the table and place iron in the top-left and top-right slots, iron in the middle-left and middle-right, the chest in the center, and the last iron below the chest. Take the hopper.",
+      "Place it pointing where items should go. Crouch (sneak) and right-click the container you want it to feed - the hopper attaches with its nozzle pointing into that container. Without sneaking you just open the container.",
+      "Feed it from above. A hopper pulls items out of a container sitting directly on top of it, and sucks up item entities that land on the block space above it.",
+      "Chain hoppers into pipes. Hoppers push into the hopper they point at, and hoppers below also pull, so you can run horizontal or vertical item lines across your base.",
+      "Lock it with redstone when needed. A powered hopper stops pushing and pulling (items already inside stay put). Levers, torches and comparators all work - this is how sorters and farms control flow.",
+      "Expect 2.5 items per second. After each transfer a hopper waits 8 game ticks (0.4s), so a single hopper line moves about a stack every 26 seconds. Use parallel lines or minecart hoppers for bulk."
+    ],
+    "materials": [
+      "5 iron ingots (smelted from iron ore or raw iron)",
+      "1 chest (8 wooden planks)",
+      "Crafting table"
+    ],
+    "editionNote": "Hoppers work the same in Java and Bedrock for everyday use. Behind the scenes they differ in performance details (Java prefers a composter or container on top of long hopper lines, Bedrock prefers air) and in a few pulling edge cases, but every normal farm works on both.",
+    "versions": "Hoppers were added in Java 1.5, the Redstone Update (January 2013), with the same iron-and-chest recipe they still use today. They came to Pocket Edition in 0.14.0.",
+    "faq": [
+      {
+        "q": "Why is my hopper not taking items?",
+        "a": "Two common causes: it is powered by redstone (a powered hopper locks and stops moving items - remove the lever or torch), or it is pointing into a full container. Also check the item has somewhere to go: a hopper with a full destination stops pulling."
+      },
+      {
+        "q": "How do I make a hopper point into a chest?",
+        "a": "Crouch and right-click the side of the chest with the hopper in hand. The nozzle visibly bends toward the block you clicked. A hopper placed on top of a chest points down into it automatically."
+      },
+      {
+        "q": "Hopper or water stream for moving items?",
+        "a": "Water streams are far faster and cheaper for long distances and item collection; hoppers are for precise delivery, container-to-container transfer and redstone control. Most big farms use water to gather and a short hopper line to sort and store."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-an-item-sorter",
+      "how-to-get-iron",
+      "how-to-make-crafter"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "hopper minecraft",
+      "how to make a hopper",
+      "hopper recipe",
+      "item transport"
+    ]
+  },
+  {
+    "slug": "how-to-make-an-item-sorter",
+    "name": "How to Make an Item Sorter in Minecraft",
+    "shortTitle": "Item Sorter",
+    "quickAnswer": "An item sorter uses a hopper filled with exactly 41 of the target item plus 4 single filler items, a comparator reading that hopper, and a redstone torch that locks a second hopper below. When extra target items raise the signal from 2 to 3, the torch unlocks and the sorter pulls the extras into a chest - everything else flows past to the next module.",
+    "steps": [
+      "Learn the one-line idea. A comparator reads how full the filter hopper is. The filter is tuned so only the target item can raise the signal, and the raised signal briefly unlocks a hopper that drains the overflow into a chest.",
+      "Build the base module. Run a line of hoppers into a row of chests. Behind each, place a second hopper (the filter) facing into a solid block, with a comparator reading it, dust, and a redstone torch that locks the hopper below the filter.",
+      "Load the filter correctly. Put 41 of the item you want to sort in the first slot, then ONE filler item in each of the other four slots. Fillers must stack to 64 and must never appear in your storage input - named or junk items like sticks work.",
+      "Understand the signal. With 41+1+1+1+1 the comparator outputs strength 2. When more target items arrive the stack grows, the output hits 3, the torch turns off and the lower hopper unlocks just long enough to drain the extras, then relocks. Other items cannot raise the signal, so they slide past.",
+      "Repeat the module per item. Tile the same build once per item type along your input line, each feeding its own chest. Leave one-hopper gaps or use the standard tileable layout so neighboring redstone does not cross-talk.",
+      "Protect against overflow. If a chest fills completely, its filter backs up and can break the module next door. Give every sorted item enough chest space, or add an overflow chest at the end of the line for unsorted items.",
+      "Test before trusting it. Throw a stack of the target item and a stack of junk into the input. The target lands in its chest and the junk travels to the unsorted bin - then it is safe to connect your farm output."
+    ],
+    "materials": [
+      "Per item: 2 hoppers, 1 comparator, 1 redstone torch, 1 chest",
+      "Redstone dust and solid building blocks",
+      "41 of each item to sort + 4 filler items per module",
+      "Input line: hoppers or a water stream"
+    ],
+    "editionNote": "The classic filter works in Java and Bedrock. In Java, comparators can read the filter hopper through a solid block, which the common compact layouts rely on; Bedrock versions of the same design may need the comparator directly against the hopper. Build a design made for your edition.",
+    "versions": "Item sorters have been possible since comparators arrived in Java 1.5 (2013), and the 41-plus-filler filter design has been the community standard ever since - it still works unchanged in the latest versions.",
+    "faq": [
+      {
+        "q": "Why did my sorter break and mix items?",
+        "a": "Almost always an overflow: the chest filled, the filter hopper backed up past 41 items, and the module started passing the target item downstream. Empty the chest, refill the filter to exactly 41+1+1+1+1, and give high-volume items more storage."
+      },
+      {
+        "q": "Can I sort unstackable items like tools or armor?",
+        "a": "Not with the classic filter - it depends on stack counting. Unstackables need dedicated designs (usually with a hopper trying to match the item) or simply a manual chest. Most players send everything unstackable to the unsorted bin."
+      },
+      {
+        "q": "How many items can one sorter handle?",
+        "a": "A single filter hopper moves 2.5 items per second, so one module handles most farms. For very fast farms (raid, gold), split the input across several parallel sorters or pre-sort with water streams into multiple lines."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-hopper",
+      "how-to-use-a-redstone-comparator",
+      "how-to-use-redstone"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "item sorter minecraft",
+      "how to sort items",
+      "automatic storage system",
+      "hopper filter"
+    ]
+  },
+  {
+    "slug": "how-to-make-a-flying-machine",
+    "name": "How to Make a Flying Machine in Minecraft",
+    "shortTitle": "Flying Machine",
+    "quickAnswer": "A flying machine is a self-moving engine: two observers facing into each other, each backed by a sticky piston, linked by slime blocks. An observer moved by a piston fires a pulse, which powers the other piston, which moves the machine and re-triggers the observers - so the whole build crawls forward forever. It farms sugar cane, clears land and moves bridges with zero fuel.",
+    "steps": [
+      "Gather the parts. The minimal one-way engine needs 2 observers, 2 sticky pistons and 3-6 slime blocks. Slime blocks come from 9 slimeballs each, so hunt slimes in swamps at night or in slime chunks below Y 40.",
+      "Understand the loop. A piston that moves an observer makes that observer emit a pulse as it lands. Aim that pulse at the other piston and it pushes the whole assembly one block, which moves the first observer, which pulses again. Motion and triggering feed each other.",
+      "Build the classic engine. Place a sticky piston facing forward. Attach an observer behind it with the dot toward the piston. Mirror the same assembly facing the other way and connect both with slime blocks, keeping the total under the 12-block push limit.",
+      "Stay under 12 blocks. A piston can only move 12 blocks at once, and every slime block, observer and piston counts. If the engine refuses to move, count the connected blocks - one extra block welded on by accident is the usual cause.",
+      "Launch it. Place or remove a block to update one observer, or give one piston a quick pulse. The machine starts crawling. To stop it, place an immovable block (obsidian, furnace, a leaf block works on some designs) in its path.",
+      "Keep slime and honey apart. Slime blocks and honey blocks never stick to each other - that is a feature: two engine halves built from different sticky blocks can slide past each other without welding together. Use honey where you want a moving floor that does not grab the slime parts.",
+      "Add a job. Slime blocks launch entities they push, so riders and TNT go along for the ride. Attach note blocks or extra observers as outputs and the same engine becomes a sugar cane harvester, a tunnel bore or a moving bridge."
+    ],
+    "materials": [
+      "2 observers (6 cobblestone + 2 redstone dust + 1 quartz each)",
+      "2 sticky pistons (piston + slimeball)",
+      "3-6 slime blocks (9 slimeballs each)",
+      "Obsidian or another immovable block to stop it"
+    ],
+    "editionNote": "Flying machines work in Java and Bedrock, but timing differs: in Java a moved observer pulses after its normal delay, while in Bedrock a moved observer always fires immediately. Many Java designs stall or run away on Bedrock, so copy a build tagged for your edition.",
+    "versions": "Flying machines became possible when observers reached Java 1.11 (2016) - Pocket Edition had observers from 0.15.0. The 1.15 change that made slime and honey stop sticking to each other unlocked the modern two-part designs.",
+    "faq": [
+      {
+        "q": "Why does my flying machine not move?",
+        "a": "Count the blocks a single piston has to move - over 12 and it gives up silently. The other classic cause is an observer facing the wrong way: the dot (output) must point into the piston you want to trigger, and the face must watch the block that moves."
+      },
+      {
+        "q": "How do I stop a flying machine?",
+        "a": "Put a block pistons cannot move in its path - obsidian, bedrock, a furnace or a chest all work. The engine bumps into it, the push fails and the loop dies. Some designs park on a leaf or glazed terracotta block instead."
+      },
+      {
+        "q": "Can a flying machine go up or down?",
+        "a": "Yes, with a vertical layout - observers pointing up or down with pistons and slime arranged so the push-pull cycle climbs or descends. Vertical engines are fussier about block count, so start with a proven design block-for-block."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-observer",
+      "how-to-get-slimeballs",
+      "how-to-make-piston"
+    ],
+    "relatedLinks": [
+      {
+        "url": "/items/redstone-dust/",
+        "label": "Redstone Dust"
+      }
+    ],
+    "keywords": [
+      "flying machine minecraft",
+      "how to make a flying machine",
+      "observer engine",
+      "slime block machine"
+    ]
   }
 ]
