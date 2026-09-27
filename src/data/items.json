@@ -4293,5 +4293,101 @@
       "brush minecraft",
       "all pottery sherds"
     ]
+  },
+  {
+    "slug": "totem",
+    "name": "Totem of Undying",
+    "category": "Combat",
+    "stackSize": 1,
+    "howToGet": [
+      "Kill an evoker: every evoker drops exactly one, and Looting does not add more",
+      "Find evokers in woodland mansions and in raid waves from wave 5 onward",
+      "Farm them: bad omen plus a village raid means repeatable totems forever"
+    ],
+    "uses": [
+      "Hold it in your main hand or off-hand and fatal damage triggers it instead of killing you",
+      "Saves your life even in Hardcore mode, but not from void damage or the /kill command",
+      "On activation it grants Absorption II (5s), Regeneration II (45s) and Fire Resistance (40s), then disappears"
+    ],
+    "renewable": "Yes: evokers respawn in every new raid, so totems are farmable",
+    "editionNote": "Same mechanic in Java and Bedrock; in Java a harming arrow can kill through the totem if the physical arrow damage triggers it first",
+    "since": "1.11 (Exploration Update)",
+    "related": [
+      "emerald",
+      "diamond",
+      "netherite-ingot",
+      "netherite-upgrade"
+    ],
+    "keywords": [
+      "totem of undying",
+      "how to get totem minecraft",
+      "evoker drop",
+      "raid farm",
+      "immortality minecraft"
+    ]
+  },
+  {
+    "slug": "brush",
+    "name": "Brush",
+    "category": "Tool",
+    "stackSize": 1,
+    "howToGet": [
+      "Craft it: feather on top, copper ingot in the middle, stick at the bottom",
+      "Has 64 durability in Java and 65 in Bedrock, so carry spares on long digs",
+      "Repair two damaged brushes by combining them, or enchant with Mending"
+    ],
+    "uses": [
+      "Brush suspicious sand and suspicious gravel: 4.8 seconds per block reveals pottery sherds, sniffer eggs and treasure",
+      "The block turns back into regular sand or gravel once the item pops out",
+      "Brush an armadillo to get an armadillo scute, costing 16 durability per scute"
+    ],
+    "renewable": "Yes: feathers, copper and sticks are all farmable",
+    "editionNote": "Armadillo brushing gives 4 scutes per brush in Java but 5 in Bedrock thanks to the extra durability point",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "feather",
+      "copper-ingot",
+      "stick",
+      "armadillo-scute"
+    ],
+    "keywords": [
+      "brush minecraft",
+      "how to craft brush",
+      "archaeology minecraft",
+      "suspicious sand",
+      "armadillo scute"
+    ]
+  },
+  {
+    "slug": "netherite-block",
+    "name": "Block of Netherite",
+    "category": "Material",
+    "stackSize": 64,
+    "howToGet": [
+      "Craft 9 netherite ingots into one block (36 ancient debris worth of mining)",
+      "Mine it back with a diamond pickaxe or better, anything else drops nothing",
+      "No natural generation: every netherite block in existence was crafted by a player"
+    ],
+    "uses": [
+      "Compact storage: one block holds 9 ingots, enough to upgrade a full armor set plus 5 tools",
+      "Beacon base: works in any layer of the beacon pyramid like iron or diamond blocks",
+      "Blast-proof building: 1,200 blast resistance like obsidian, but pistons can push it, making it redstone-friendly"
+    ],
+    "renewable": "No: ancient debris is finite, so every block is a serious diamond-hunting investment",
+    "editionNote": "Same in Java and Bedrock since its introduction; added together with netherite tools in the Nether Update",
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "netherite-ingot",
+      "netherite-scrap",
+      "ancient-debris",
+      "obsidian"
+    ],
+    "keywords": [
+      "netherite block",
+      "how to make netherite block",
+      "beacon base",
+      "blast resistance",
+      "netherite storage"
+    ]
   }
 ]

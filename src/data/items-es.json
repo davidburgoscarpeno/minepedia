@@ -2500,5 +2500,47 @@
     ],
     "renewable": "No: los bloques sospechosos y los pots de trial chambers nunca se regeneran, así que cada mundo tiene una cantidad fija",
     "editionNote": "Igual en Java y Bedrock; los sherds de trial chambers requieren 1.21 o superior"
+  },
+  "totem": {
+    "howToGet": [
+      "Mata a un evoker: cada evoker suelta exactamente uno, y Looting no añade más",
+      "Encuentra evokers en woodland mansions y en las oleadas de raids a partir de la oleada 5",
+      "Móntate una granja: bad omen más una raid en una aldea significa totems repetibles para siempre"
+    ],
+    "uses": [
+      "Sujétalo en la mano principal o en la off-hand y el daño fatal lo activa en lugar de matarte",
+      "Te salva la vida incluso en modo Hardcore, pero no del daño de vacío ni del comando /kill",
+      "Al activarse otorga Absorption II (5s), Regeneration II (45s) y Fire Resistance (40s), y después desaparece"
+    ],
+    "renewable": "Sí: los evokers reaparecen en cada nueva raid, así que los totems se pueden farmear",
+    "editionNote": "Misma mecánica en Java y Bedrock; en Java una flecha de harming puede matar a través del totem si el daño físico de la flecha lo activa primero"
+  },
+  "brush": {
+    "howToGet": [
+      "Craftéalo: feather arriba, copper ingot en medio y stick abajo",
+      "Tiene 64 de durabilidad en Java y 65 en Bedrock, así que lleva repuestos en excavaciones largas",
+      "Repara dos brushes dañados combinándolos, o encántalo con Mending"
+    ],
+    "uses": [
+      "Cepilla suspicious sand y suspicious gravel: 4,8 segundos por bloque revelan pottery sherds, huevos de sniffer y tesoros",
+      "El bloque vuelve a ser sand o gravel normal cuando sale el objeto",
+      "Cepilla un armadillo para conseguir un armadillo scute, gastando 16 de durabilidad por scute"
+    ],
+    "renewable": "Sí: las feathers, el copper y los sticks son todos farmeables",
+    "editionNote": "Cepillar armadillos da 4 scutes por brush en Java pero 5 en Bedrock gracias al punto extra de durabilidad"
+  },
+  "netherite-block": {
+    "howToGet": [
+      "Craftea 9 netherite ingots en un bloque (36 ancient debris de minería)",
+      "Mínalo de vuelta con diamond pickaxe o mejor; con cualquier otra herramienta no suelta nada",
+      "No se genera de forma natural: cada bloque de netherite que existe lo crafteó un jugador"
+    ],
+    "uses": [
+      "Almacenamiento compacto: un bloque guarda 9 ingots, suficiente para mejorar una armadura completa más 5 herramientas",
+      "Base de beacon: funciona en cualquier capa de la pirámide del beacon como los bloques de iron o diamond",
+      "Construcción a prueba de explosiones: 1.200 de blast resistance como la obsidian, pero los pistons sí pueden empujarlo, ideal para redstone"
+    ],
+    "renewable": "No: el ancient debris es finito, así que cada bloque es una inversión seria de minería",
+    "editionNote": "Igual en Java y Bedrock desde su introducción; se añadió junto a las herramientas de netherite en la Nether Update"
   }
 }
