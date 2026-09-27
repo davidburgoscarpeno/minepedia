@@ -1940,5 +1940,83 @@
       "gunpowder"
     ],
     "keywords": "magma cream minecraft craft fire resistance potion brewing magma cube drop bastion blaze powder slimeball"
+  },
+  {
+    "slug": "golden-apple",
+    "name": "Golden Apple",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 1 apple surrounded by 8 gold ingots on a crafting table",
+      "Loot chests in dungeons, mineshafts, bastions, ruined portals, woodland mansions and ancient cities",
+      "The chest on the ancient city center structure always holds one - eating it there opens the piston doors to the redstone labs below"
+    ],
+    "uses": [
+      "Eat it (even at full hunger): 4 hunger, 9.6 saturation, Absorption I for 2 minutes and Regeneration II for 5 seconds",
+      "Cure zombie villagers: splash Potion of Weakness + golden apple, then wait a few minutes",
+      "Tame (+10% chance), breed, heal and speed up growth of horses",
+      "Emergency heal in boss fights and PvP - the absorption hearts absorb damage before your real health"
+    ],
+    "renewable": "Fully renewable: gold from zombified piglin farms, apples from oak and dark oak leaves or farmer trades.",
+    "editionNote": "On Bedrock, eating several in a row stacks Absorption up to 8 extra hearts; on Java it just refreshes. Cannot be turned into an enchanted golden apple on either edition.",
+    "since": "Beta 1.8 (Adventure Update)",
+    "related": [
+      "totem-of-undying",
+      "honeycomb",
+      "gunpowder"
+    ],
+    "keywords": "golden apple minecraft craft recipe 8 gold ingots cure zombie villager absorption regeneration weakness potion"
+  },
+  {
+    "slug": "cake",
+    "name": "Cake",
+    "category": "Material",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft 3 milk buckets on top, 2 sugar + 1 egg in the middle, 3 wheat on the bottom",
+      "The empty buckets come back after crafting (they stay in the grid on Java, move to your inventory on Bedrock)",
+      "Buy one from expert-level farmer villagers for emeralds"
+    ],
+    "uses": [
+      "Place it on a solid block first - cake cannot be eaten from the hotbar. Each cake has 7 slices, 2 hunger per slice (14 total)",
+      "No eating animation: restore hunger instantly while running or fighting",
+      "Share it: several players can eat from the same placed cake, and pandas pick up dropped cakes",
+      "Put a candle on a placed cake to make a birthday cake; a comparator reads a cake and outputs a signal that shrinks per slice"
+    ],
+    "renewable": "Renewable: milk from cows, sugar from cane, eggs from chickens, wheat from farms.",
+    "editionNote": "Identical recipe and hunger values in Java and Bedrock; only the leftover-bucket behavior differs (grid vs inventory).",
+    "since": "Beta 1.2",
+    "related": [
+      "honeycomb",
+      "slimeball",
+      "gunpowder"
+    ],
+    "keywords": "cake minecraft craft recipe milk buckets sugar egg wheat 7 slices candle birthday comparator"
+  },
+  {
+    "slug": "suspicious-stew",
+    "name": "Suspicious Stew",
+    "category": "Material",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft shapeless: 1 red mushroom + 1 brown mushroom + 1 bowl + any small flower (in 26.x, shelf mushrooms work as a mushroom too)",
+      "Milk a brown mooshroom with a bowl after feeding it a small flower - same effect as crafting with that flower",
+      "Loot shipwreck supply chests"
+    ],
+    "uses": [
+      "Restores 6 hunger and 7.2 saturation plus a short effect that depends on the flower used",
+      "Best flower: dandelion or blue orchid gives Saturation - extra hidden hunger recovery, the strongest stew",
+      "Other flowers: poppy = Night Vision, oxeye daisy = Regeneration, cornflower = Jump Boost, allium = Fire Resistance, wither rose = Wither (careful)",
+      "Trap food for PvP or a portable potion you can stack up on without a brewing stand"
+    ],
+    "renewable": "Renewable: mushrooms spread and mooshrooms are farmable; flowers regrow with bone meal.",
+    "editionNote": "Identical in Java and Bedrock. The flower used does not show in the tooltip - remember what you crafted with.",
+    "since": "1.14 (Village & Pillage)",
+    "related": [
+      "slimeball",
+      "honeycomb",
+      "totem-of-undying"
+    ],
+    "keywords": "suspicious stew minecraft flower effects saturation dandelion blue orchid mooshroom milking shipwreck recipe"
   }
 ]
