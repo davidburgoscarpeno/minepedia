@@ -1,1868 +1,1944 @@
 [
- {
-  "slug": "diamond",
-  "name": "Diamond",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine diamond ore or deepslate diamond ore with an iron pickaxe or better - generates from Y=16 down to bedrock, peaking around Y=-59",
-   "Loot chests in shipwrecks, buried treasure, mineshafts, bastions, end cities and strongholds",
-   "Craft from a block of diamond (9 per block)"
-  ],
-  "uses": [
-   "Craft diamond tools, weapons and armor",
-   "Craft the enchanting table (2 diamonds), jukebox (1) and firework stars with trail effect",
-   "Trade to armorer, toolsmith and weaponsmith villagers for emeralds",
-   "Duplicate smithing templates at the crafting table (7 diamonds + template + block)"
-  ],
-  "renewable": "Non-renewable as a raw item (no farm produces it), but diamond gear is renewable through villager trading.",
-  "editionNote": "Identical generation and uses in Java and Bedrock. Fortune III raises the drop to 2.2 diamonds per ore on average.",
-  "since": "Indev 0.31",
-  "related": [
-   "netherite-ingot",
-   "iron-ingot"
-  ],
-  "keywords": "diamond how to find minecraft y level fortune"
- },
- {
-  "slug": "netherite-ingot",
-  "name": "Netherite Ingot",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft from 4 netherite scraps + 4 gold ingots (shapeless recipe)",
-   "Smelt ancient debris into netherite scraps - ancient debris generates in the Nether between Y=8 and Y=119, most common around Y=15",
-   "Loot bastion remnant treasure rooms for scraps, ingots and ancient debris"
-  ],
-  "uses": [
-   "Upgrade diamond gear to netherite on a smithing table (1 netherite upgrade smithing template + 1 ingot per piece)",
-   "Netherite items float in lava, never burn, and have higher durability, damage and knockback resistance than diamond",
-   "Craft lodestone (8 chiseled stone bricks + 1 ingot)"
-  ],
-  "renewable": "Non-renewable: ancient debris does not regenerate and no farm produces it.",
-  "editionNote": "Identical in Java and Bedrock. Ancient debris never generates exposed to air, so strip mining or bed/TNT blasting at Y=15 is the standard method.",
-  "since": "1.16 (Nether Update)",
-  "related": [
-   "diamond",
-   "nether-star"
-  ],
-  "keywords": "netherite ingot ancient debris how to get y level upgrade smithing"
- },
- {
-  "slug": "iron-ingot",
-  "name": "Iron Ingot",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Smelt iron ore or raw iron - ore generates in two batches (peak around Y=16 and Y=232 in mountains)",
-   "Iron golem drops 3-5 per kill: the basis of iron farms",
-   "Craft from 9 iron nuggets or a block of iron",
-   "Loot village, mineshaft, dungeon and shipwreck chests"
-  ],
-  "uses": [
-   "The workhorse crafting material: tools, armor, buckets, anvils, hoppers, pistons, shields, shears, rails and more",
-   "Craft a block of iron (9 ingots) for beacons and iron golems",
-   "Trade to armorer, toolsmith and weaponsmith villagers (4 ingots per emerald)"
-  ],
-  "renewable": "Renewable via iron golem farms, zombie drops (rare) and bartering-adjacent sources.",
-  "editionNote": "Identical in both editions. Iron golem farm designs differ heavily between Java (villager gossip/panic) and Bedrock (beds + villagers).",
-  "since": "Classic 0.31",
-  "related": [
-   "diamond",
-   "netherite-ingot"
-  ],
-  "keywords": "iron ingot how to get farm iron golem minecraft"
- },
- {
-  "slug": "ender-pearl",
-  "name": "Ender Pearl",
-  "category": "Material",
-  "stackSize": "16",
-  "howToGet": [
-   "Kill endermen: 0-1 pearls, up to 4 with Looting III",
-   "Trade with expert cleric villagers: 5 emeralds per pearl",
-   "Barter gold ingots with piglins (small chance, 2-4 pearls)",
-   "Loot stronghold altar chests"
-  ],
-  "uses": [
-   "Craft eyes of ender (pearl + blaze powder) to find and activate the End portal",
-   "Thrown pearls teleport you where they land, dealing 5 fall damage - the classic escape and traversal tool",
-   "Pearl teleporting works across dimensions and can clip through 1-block ceilings"
-  ],
-  "renewable": "Renewable via enderman farms (the fastest source), cleric trading and piglin bartering.",
-  "editionNote": "In Java, thrown pearls create a 10-second chunk-loading ticket. In Bedrock there is no such mechanic - pearl cannons and chunk loaders do not work.",
-  "since": "Beta 1.8",
-  "related": [
-   "blaze-rod",
-   "ender-eye"
-  ],
-  "keywords": "ender pearl how to get enderman farm cleric trade teleport"
- },
- {
-  "slug": "blaze-rod",
-  "name": "Blaze Rod",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill blazes in Nether fortresses: 0-1 rods, up to 4 with Looting III - blaze spawners in fortresses make this farmable",
-   "No other source: blazes are the only mob that drops them"
-  ],
-  "uses": [
-   "Craft blaze powder (1 rod = 2 powder): fuel for the brewing stand and ingredient for eyes of ender",
-   "Brewing stand fuel: 1 powder brews 20 batches",
-   "Craft the brewing stand itself (1 rod + 3 cobblestone)"
-  ],
-  "renewable": "Renewable via blaze spawner farms in Nether fortresses.",
-  "editionNote": "Identical in Java and Bedrock. Blazes only spawn in fortress bounding boxes, so farms must be built inside a fortress.",
-  "since": "Beta 1.9 Prerelease",
-  "related": [
-   "ender-pearl",
-   "nether-star"
-  ],
-  "keywords": "blaze rod how to get blaze farm brewing fuel"
- },
- {
-  "slug": "totem-of-undying",
-  "name": "Totem of Undying",
-  "category": "Combat",
-  "stackSize": "1",
-  "howToGet": [
-   "Kill an evoker (woodland mansions and raid waves): always drops exactly 1, unaffected by Looting",
-   "Raid farms make totems fully farmable - evokers spawn in raid waves 5+"
-  ],
-  "uses": [
-   "Hold it in either hand: when you would die, it is consumed instead, restoring you to 1 heart with status effects",
-   "Java Edition: Regeneration II for 45s, Fire Resistance I for 40s and Absorption I for 5s. Bedrock Edition: Regeneration II for 30s and Absorption for 5s",
-   "Only works while held - totems in your inventory or ender chest do nothing"
-  ],
-  "renewable": "Renewable via raid farms; technically unlimited.",
-  "editionNote": "Effect durations differ: Regeneration II lasts 45s in Java and 30s in Bedrock. The void kills you in both editions - a totem does not save you from /kill or void damage below the world.",
-  "since": "1.11 (Exploration Update)",
-  "related": [
-   "nether-star",
-   "elytra"
-  ],
-  "keywords": "totem of undying evoker raid farm how to get"
- },
- {
-  "slug": "elytra",
-  "name": "Elytra",
-  "category": "Utility",
-  "stackSize": "1",
-  "howToGet": [
-   "Found in the item frame of end ships, which generate with some end cities on the outer End islands",
-   "Kill the ender dragon first to open the gateways to the outer islands",
-   "One elytra per end ship - bring ender pearls or blocks for the bridge"
-  ],
-  "uses": [
-   "Glide: jump and press jump again mid-air to spread your wings; firework rockets boost you",
-   "Repair on an anvil with phantom membranes (or combine two damaged elytra); Mending is strongly recommended",
-   "Pair with Unbreaking III: 432 base durability lasts roughly 28 minutes of flight per point of wear"
-  ],
-  "renewable": "Not farmable, but effectively unlimited: end cities generate endlessly outward on the outer islands.",
-  "editionNote": "Identical flight mechanics in both editions. Firework rocket boosting works the same in Java and Bedrock.",
-  "since": "1.9 (Combat Update)",
-  "related": [
-   "totem-of-undying",
-   "nether-star"
-  ],
-  "keywords": "elytra how to find end ship city fly fireworks repair"
- },
- {
-  "slug": "trident",
-  "name": "Trident",
-  "category": "Weapon",
-  "stackSize": "1",
-  "howToGet": [
-   "Dropped only by drowned holding a trident - never craftable",
-   "Java: 6.25% of drowned spawn with one, 8.5% drop chance (+1% per Looting level)",
-   "Bedrock: 15% of drowned spawn with one, 25% drop chance (+4% per Looting level)",
-   "Drowned farms (river or converted zombie designs) are the practical source"
-  ],
-  "uses": [
-   "Melee (9 damage) and throwable weapon - it comes back with Loyalty",
-   "Exclusive enchantments: Loyalty (returns), Channeling (summons lightning in thunderstorms), Riptide (launches you in water/rain), Impaling (bonus damage vs aquatic mobs)",
-   "Riptide tridents are the fastest pre-elytra travel in rain"
-  ],
-  "renewable": "Renewable via drowned farms; repair by combining two tridents or with Mending.",
-  "editionNote": "Drop rates are much better in Bedrock (25% vs 8.5% base). Impaling also differs: in Bedrock it damages any mob touching water or standing in rain; in Java it only affects aquatic mobs.",
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "elytra",
-   "totem-of-undying"
-  ],
-  "keywords": "trident how to get drowned drop rate riptide channeling loyalty"
- },
- {
-  "slug": "nether-star",
-  "name": "Nether Star",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Dropped by the Wither: exactly 1 per kill (Java: unaffected by Looting; the drop cannot burn or despawn for 10 minutes)",
-   "Summon the Wither with 4 soul sand/soil in a T plus 3 wither skeleton skulls",
-   "Farm wither skeletons in Nether fortresses for skulls (2.5% base, up to 5.5% with Looting III in Java)"
-  ],
-  "uses": [
-   "Craft the beacon (5 glass + 3 obsidian + 1 nether star) for area status effects and a light beam",
-   "Beacons need a pyramid of iron, gold, diamond, emerald or netherite blocks underneath"
-  ],
-  "renewable": "Renewable: the Wither can be summoned and killed repeatedly.",
-  "editionNote": "In Java the nether star cannot be destroyed by explosions and despawns only after 10 minutes; in Bedrock it can be destroyed by explosions - keep it away from the Wither fight.",
-  "since": "1.4.2 (Pretty Scary Update)",
-  "related": [
-   "blaze-rod",
-   "netherite-ingot"
-  ],
-  "keywords": "nether star wither beacon how to get skull farm"
- },
- {
-  "slug": "slimeball",
-  "name": "Slimeball",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill tiny slimes: 0-2 slimeballs, up to 5 with Looting III - slimes spawn in slime chunks below Y=40 or in swamps at night (peaks at full moon)",
-   "Baby pandas have a rare chance to sneeze out a slimeball",
-   "Slime farms on slime chunks are the bulk source"
-  ],
-  "uses": [
-   "Sticky pistons (the heart of most redstone contraptions)",
-   "Slime blocks (9 slimeballs) for flying machines, bounce pads and entity launchers",
-   "Leads (4 string + 1 slimeball) and magma cream (with blaze powder)"
-  ],
-  "renewable": "Renewable via slime farms and panda farms.",
-  "editionNote": "Slime chunk locations are identical between editions for the same seed. Swamp spawning depends on the moon phase in both editions.",
-  "since": "Alpha 1.0.11",
-  "related": [
-   "gunpowder",
-   "blaze-rod"
-  ],
-  "keywords": "slimeball how to get slime chunk farm sticky piston"
- },
- {
-  "slug": "emerald",
-  "name": "Emerald",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Trade with villagers - the main source; sell crops, sticks, paper and more",
-   "Mine emerald ore in mountains and windswept hills (Y=-16 to 320, most common around Y=236) with an iron pickaxe or better",
-   "Loot chests in villages, shipwrecks, buried treasure and trial chambers",
-   "Dropped by vindicators and evokers in raids"
-  ],
-  "uses": [
-   "Currency for all villager and wandering trader trades",
-   "Beacons: feed emeralds to select powers",
-   "Blocks of emerald for beacon pyramids and decoration"
-  ],
-  "renewable": "Yes, through villager trading",
-  "editionNote": "Identical in Java and Bedrock. Emerald ore is the rarest Overworld ore; deepslate emerald ore (below Y=0 in mountains) is the rarest block variant in the game.",
-  "since": "1.3.1 (12w21a)",
-  "related": [
-   "diamond",
-   "iron-ingot",
-   "gold-ingot"
-  ],
-  "keywords": "emerald villager trading currency mountain ore"
- },
- {
-  "slug": "gold-ingot",
-  "name": "Gold Ingot",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Smelt gold ore or deepslate gold ore (Overworld, most common below Y=32 and in badlands where it generates up to Y=256)",
-   "Mine nether gold ore with any pickaxe - drops 2-6 gold nuggets (up to 24 with Fortune III)",
-   "Kill zombified piglins (drop nuggets, occasionally ingots)",
-   "Loot bastions, ruined portals, shipwrecks and buried treasure"
-  ],
-  "uses": [
-   "Barter with piglins: throw an ingot for random loot (ender pearls, obsidian, quartz...)",
-   "Craft golden tools, armor, clocks, golden apples, powered rails and gold blocks",
-   "Golden carrots (8 nuggets + carrot) - one of the best foods",
-   "Craft netherite ingots: 4 gold + 4 netherite scraps"
-  ],
-  "renewable": "Yes, via zombified piglin farms and bartering",
-  "editionNote": "Identical in Java and Bedrock. Piglins in the Nether become hostile unless you wear at least one piece of gold armor - gold's most important 'use' is wearing it there.",
-  "since": "Indev 0.31",
-  "related": [
-   "netherite-ingot",
-   "iron-ingot",
-   "diamond"
-  ],
-  "keywords": "gold ingot piglin bartering nether badlands nuggets"
- },
- {
-  "slug": "redstone-dust",
-  "name": "Redstone Dust",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine redstone ore or deepslate redstone ore with an iron pickaxe or better - generates Y=-64 to 16, most common around Y=-59; each ore drops 4-5 dust (more with Fortune)",
-   "Kill witches (4-8 dust)",
-   "Trade with cleric villagers",
-   "Loot jungle temples, dungeons, mineshafts and trial chambers"
-  ],
-  "uses": [
-   "Power and wire redstone contraptions: pistons, farms, doors, traps",
-   "Brew potions - redstone extends potion duration",
-   "Craft repeaters, comparators, pistons, observers, dispensers, powered rails, clocks, compasses",
-   "Activate blocks directly by placing dust trails"
-  ],
-  "renewable": "Yes, via witches and cleric trades",
-  "editionNote": "Identical in Java and Bedrock. Redstone mechanics differ between editions though: Java has quasi-connectivity and 1-tick pulses; Bedrock pistons behave differently. Contraption tutorials are edition-specific.",
-  "since": "Alpha 1.0.1",
-  "related": [
-   "iron-ingot",
-   "emerald",
-   "diamond"
-  ],
-  "keywords": "redstone dust ore contraptions wiring potions"
- },
- {
-  "slug": "obsidian",
-  "name": "Obsidian",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Pour water over lava source blocks - the classic method",
-   "Loot ruined portals and bastion chests",
-   "Barter with piglins (chance per gold ingot)",
-   "The End's obsidian pillars and platform regenerate - mine them"
-  ],
-  "uses": [
-   "Build nether portals (minimum 10 obsidian)",
-   "Craft enchanting tables (4), beacons (3), ender chests (8) and end crystals",
-   "Blast-proof building (1,200 blast resistance - creepers and TNT cannot break it)"
-  ],
-  "renewable": "Yes - the End's obsidian platform regenerates whenever an entity enters the End, enabling farms",
-  "editionNote": "Identical in both editions: minable only with a diamond or netherite pickaxe (9.4s with diamond), immune to explosions, movable by pistons unlike bedrock. Crying obsidian (bartering/ruined portals) cannot build portals.",
-  "since": "Classic 0.28",
-  "related": [
-   "diamond",
-   "nether-star",
-   "gold-ingot"
-  ],
-  "keywords": "obsidian nether portal blast proof enchanting table ender chest"
- },
- {
-  "slug": "ancient-debris",
-  "name": "Ancient Debris",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine in the Nether with a diamond or netherite pickaxe - most common around Y=15, generating between Y=8 and Y=119 (never exposed to air)",
-   "Bed or TNT mining: explosions clear netherrack while blast-resistant debris survives",
-   "Loot bastion remnant treasure rooms (chance of 1-2)"
-  ],
-  "uses": [
-   "Smelt into netherite scraps; 4 scraps + 4 gold ingots = 1 netherite ingot",
-   "Blast-proof decoration block"
-  ],
-  "renewable": "No - finite per world, though worlds are effectively endless",
-  "editionNote": "Identical in Java and Bedrock: same generation range and Y=15 peak. It never generates exposed to air, so branch mining or explosions are required - you will never spot it in an open cave.",
-  "since": "1.16 (20w06a)",
-  "related": [
-   "netherite-ingot",
-   "gold-ingot",
-   "diamond"
-  ],
-  "keywords": "ancient debris netherite mining y15 bed explosion nether"
- },
- {
-  "slug": "shulker-shell",
-  "name": "Shulker Shell",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill shulkers in End cities - about a 50% drop chance, increased by Looting",
-   "In Java, a shulker hit by another shulker's bullet can duplicate - shulker farms exploit this"
-  ],
-  "uses": [
-   "Craft shulker boxes (2 shells + 1 chest): portable 27-slot storage that keeps its contents when broken",
-   "Dyed shulker boxes for color-coded storage systems"
-  ],
-  "renewable": "Yes in Java via shulker duplication farms; in Bedrock it is finite without re-looting cities",
-  "editionNote": "Drop rate differs: Java ~50% base (+6.25% per Looting level); Bedrock 0-1 shells with Looting affecting quantity. Duplication when hit by shulker bullets is a Java-only mechanic.",
-  "since": "1.11 (16w39a)",
-  "related": [
-   "elytra",
-   "nether-star",
-   "totem-of-undying"
-  ],
-  "keywords": "shulker shell box storage end city farm duplication"
- },
- {
-  "slug": "heart-of-the-sea",
-  "name": "Heart of the Sea",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Find buried treasure: every buried treasure chest contains exactly one Heart of the Sea",
-   "Get treasure maps from shipwreck map chests and ocean ruins, then dig at the red X (usually on beaches)"
-  ],
-  "uses": [
-   "Craft a conduit (1 heart + 8 nautilus shells) for underwater breathing, night vision and haste"
-  ],
-  "renewable": "No per chest, but buried treasure generates infinitely across a world's coastlines",
-  "editionNote": "Identical in Java and Bedrock: one per buried treasure chest, no other source. In Java the chest always generates at chunk coordinates 9,9 - dig there at the X.",
-  "since": "1.13 (18w15a)",
-  "related": [
-   "shulker-shell",
-   "nether-star",
-   "diamond"
-  ],
-  "keywords": "heart of the sea buried treasure map conduit"
- },
- {
-  "slug": "breeze-rod",
-  "name": "Breeze Rod",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill breezes in Trial Chambers - each drops 1-2 breeze rods (more with Looting)",
-   "Trial chambers generate underground in the Overworld; find them via exploration or trial explorer maps from cartographers"
-  ],
-  "uses": [
-   "Craft wind charges (4 per rod) - throwable knockback bursts that also self-launch you",
-   "Craft the mace (1 breeze rod + 1 heavy core from ominous vaults)",
-   "Smash attacks with the mace scale with fall distance"
-  ],
-  "renewable": "Yes - breezes respawn from their trial spawners on cooldown",
-  "editionNote": "Identical in Java and Bedrock: same drops and recipes. Wind charge fall-damage negation and mace smash mechanics match across editions since 1.21.",
-  "since": "1.21 (24w11a)",
-  "related": [
-   "trident",
-   "nether-star",
-   "totem-of-undying"
-  ],
-  "keywords": "breeze rod trial chambers wind charge mace heavy core"
- },
- {
-  "slug": "gunpowder",
-  "name": "Gunpowder",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill creepers (0-2, up to 5 with Looting III) before they explode",
-   "Kill ghasts (0-2) and witches (4-8)",
-   "Loot desert temples, shipwrecks, dungeons and woodland mansions"
-  ],
-  "uses": [
-   "Craft TNT (5 gunpowder + 4 sand)",
-   "Brew splash potions (gunpowder + any potion)",
-   "Craft firework rockets (1-3 gunpowder for flight duration) and fire charges",
-   "Craft firework stars for explosion effects"
-  ],
-  "renewable": "Yes - creeper farms are a late-game staple for rocket fuel",
-  "editionNote": "Identical in Java and Bedrock. Looting dramatically improves creeper drops; a good creeper farm is how elytra players keep fireworks stocked.",
-  "since": "Indev 0.31",
-  "related": [
-   "slimeball",
-   "blaze-rod",
-   "ender-pearl"
-  ],
-  "keywords": "gunpowder creeper tnt fireworks rockets splash potion"
- },
- {
-  "slug": "ender-eye",
-  "name": "Eye of Ender",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft from 1 blaze powder + 1 ender pearl",
-   "Buy from cleric villagers (expert level) for emeralds",
-   "Loot stronghold altar chests (rare)"
-  ],
-  "uses": [
-   "Locate strongholds: throw it and it flies toward the nearest stronghold (~12 blocks before falling, 20% chance to shatter)",
-   "Activate the End portal: insert one into each of the 12 portal frames",
-   "Craft ender chests (8 obsidian + 1 eye) and end crystals"
-  ],
-  "renewable": "Yes, via ender pearls and blaze powder farms",
-  "editionNote": "Identical in Java and Bedrock. Bring 12-15 eyes for the trip: some shatter in flight and you need up to 12 for the portal frames (each frame has a 10% chance to generate pre-filled).",
-  "since": "Beta 1.9-pre3",
-  "related": [
-   "ender-pearl",
-   "blaze-rod",
-   "elytra"
-  ],
-  "keywords": "eye of ender stronghold end portal find craft blaze powder pearl"
- },
- {
-  "slug": "golden-dandelion",
-  "name": "Golden Dandelion",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 8 gold nuggets surrounding 1 dandelion at a crafting table",
-   "Buy it from the wandering trader for 2 emeralds when it has one on offer (about a 7% chance per visit)",
-   "In Bedrock, a wandering trader showing it as an offer can drop one when killed while you hold an emerald (25%, +1% per Looting level)"
-  ],
-  "uses": [
-   "Feed to a baby mob (anything that ages except villagers) to lock its age: it never grows up and never despawns. Feed a second golden dandelion to undo it",
-   "Brew no potions, but craft suspicious stew with it for a short Saturation effect",
-   "Craft yellow dye (1 per flower) or use it as decoration, including in flower pots"
-  ],
-  "renewable": "Yes - craftable from gold nuggets (renewable via zombified piglins) and dandelions (bonemeal on grass).",
-  "editionNote": "Age-locking works the same in Java and Bedrock. Bedrock differences: golden dandelions can't be duplicated with bonemeal like other small flowers, and wandering traders can drop them as loot. Piglins inspect dropped ones for 6s (Java) or 8s (Bedrock).",
-  "since": "26.1 (Tiny Takeover)",
-  "related": [
-   "gold-ingot",
-   "emerald"
-  ],
-  "keywords": "golden dandelion baby mob stop growing age lock forever young craft gold nuggets"
- },
- {
-  "slug": "sulfur",
-  "name": "Sulfur",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine it in sulfur caves, the cave biome added in 26.2: sulfur generates throughout the biome, in sulfur pools and around sulfur springs",
-   "Craft a block from 4 sulfur spikes in a 2x2 pattern",
-   "Any pickaxe works; mined by hand or with the wrong tool it drops nothing"
-  ],
-  "uses": [
-   "Building block with a strong yellow tone (shows yellow on maps)",
-   "Cut the full decorative family at a stonecutter: sulfur slab, stairs and wall, polished sulfur (plus its slab/stair/wall), sulfur bricks (plus slab/stair/wall) and chiseled sulfur"
-  ],
-  "renewable": "Yes.",
-  "editionNote": "Identical generation and variants in Java (26.2) and Bedrock (26.30). A short-lived snapshot recipe that crafted sulfur back from potent sulfur was removed before release and never shipped.",
-  "since": "26.2 (Chaos Cubed)",
-  "related": [
-   "cinnabar",
-   "redstone-dust"
-  ],
-  "keywords": "sulfur block sulfur caves where to find stonecutter polished sulfur bricks chiseled"
- },
- {
-  "slug": "cinnabar",
-  "name": "Cinnabar",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine it in sulfur caves alongside sulfur: it generates throughout the biome and as part of sulfur springs",
-   "Any pickaxe works; without one the block drops nothing",
-   "There is no recipe or farm: cinnabar is finite, so explore deeper caves when an area runs dry"
-  ],
-  "uses": [
-   "Decorative red stone-variant building block",
-   "Cut the full family at a stonecutter: cinnabar slab, stairs and wall, polished cinnabar (plus its slab/stair/wall), cinnabar bricks (plus slab/stair/wall) and chiseled cinnabar"
-  ],
-  "renewable": "No - cinnabar cannot be farmed or crafted; what generates in the world is all there is.",
-  "editionNote": "Same generation and decorative variants in Java (26.2) and Bedrock (26.30). Real-world trivia: cinnabar is a toxic red mercury-sulfur mineral, historically used as a red pigment.",
-  "since": "26.2 (Chaos Cubed)",
-  "related": [
-   "sulfur",
-   "redstone-dust"
-  ],
-  "keywords": "cinnabar block sulfur caves red stone decorative stonecutter polished bricks chiseled"
- },
- {
-  "slug": "straw-bed",
-  "name": "Straw Bed",
-  "category": "Utility",
-  "stackSize": "16",
-  "howToGet": [
-   "Craft 4 straw beds at once from 3 hay bales in a row",
-   "Find them inside abandoned camps, the 26.3 structure in dappled forests - they generate there naturally and as loot",
-   "A hoe breaks them fastest; they drop themselves unless broken after sleeping"
-  ],
-  "uses": [
-   "Sleep through the night WITHOUT resetting your spawn point - the key difference from a regular bed",
-   "Single-use: it breaks with no drops when you wake up or leave it mid-sleep, so carry several on trips",
-   "Sleeping still clears the weather and keeps phantoms away for three in-game days",
-   "Safe in the Nether and the End: instead of exploding like a bed, it just destroys itself"
-  ],
-  "renewable": "Yes - hay bales come from wheat, so straw beds are infinitely craftable at any wheat farm.",
-  "editionNote": "Same single-use behavior in Java and Bedrock. It is not bouncy, does not reduce fall damage like a hay bale, and villagers completely ignore it as a bed. The inventory icons are deliberately different between the two editions.",
-  "since": "26.3 (Wilderness Bound)",
-  "related": [
-   "elytra",
-   "ender-pearl"
-  ],
-  "keywords": "straw bed sleep without setting spawn point single use bed craft hay bale abandoned camp travel"
- },
- {
-  "slug": "poplar-log",
-  "name": "Poplar Log",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Chop poplar trees in the dappled forest biome (26.3) - their leaves come in red, orange and yellow variants",
-   "Collect fallen poplar trunks lying on the dappled forest floor for free starter logs",
-   "Loot them from abandoned camps, where poplar logs also generate as part of the structure"
-  ],
-  "uses": [
-   "Craft poplar planks (4 per log) and build the poplar wood set, exactly like any other log family",
-   "Strip it with an axe for the stripped poplar log variant",
-   "Smelt into charcoal or burn it as furnace fuel, like all logs"
-  ],
-  "renewable": "Yes - poplar trees regrow from saplings like any other tree.",
-  "editionNote": "Behaves like every other log in Java and Bedrock. Poplar is the tenth log family, after oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry and pale oak.",
-  "since": "26.3 (Wilderness Bound)",
-  "related": [
-   "straw-bed",
-   "iron-ingot"
-  ],
-  "keywords": "poplar log dappled forest new wood type 26.3 planks fallen trunk abandoned camp"
- },
- {
-  "slug": "spear",
-  "name": "Spear",
-  "category": "Weapon",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft any of the 6 base tiers diagonally: 2 sticks down the diagonal plus 1 material at the tip (planks, cobblestone-tier block, copper ingot, iron ingot, gold ingot or diamond)",
-   "Upgrade a diamond spear to netherite at a smithing table: netherite upgrade template + diamond spear + netherite ingot",
-   "Repair two damaged matching spears together at a crafting table to combine their durability"
-  ],
-  "uses": [
-   "Jab attack (left-click): 4.5 block reach, the longest of any weapon, but it cannot hit targets closer than 2 blocks and cannot crit or sprint-knockback",
-   "Charge attack (hold right-click): damage scales with closing speed (4.6 blocks per second minimum), adds knockback at 5.1, knocks riders off their mounts and can hit several entities in one pass",
-   "Hits through non-solid blocks like cobwebs and tall grass; in Java it can even knock primed TNT horizontally"
-  ],
-  "renewable": "Yes for wood, gold, stone, copper and iron tiers. Diamond and netherite spears are not renewable (diamonds only via vaults).",
-  "editionNote": "Jab damage is one heart higher per tier in Bedrock. Java gates jabs behind a 100% attack cooldown, while Bedrock uses an ender-pearl-style use cooldown shared across all spears in your inventory. In Java a spear can charge from the offhand; in Bedrock spears cannot be held in the offhand at all.",
-  "since": "Java 1.21.11 / Bedrock 1.21.130",
-  "related": [
-   "trident"
-  ],
-  "keywords": "spear new weapon charge attack jab reach craft tiers netherite"
- },
- {
-  "slug": "cushion",
-  "name": "Cushion",
-  "category": "Decoration",
-  "stackSize": "16",
-  "howToGet": [
-   "Craft 3 matching wool slabs in a row for 1 cushion (16 colors; wool slabs are 3 wool for 6)",
-   "Dye an already-placed or crafted cushion with any dye to recolor it",
-   "Find them in abandoned camps, usually within 1-2 blocks of the campfire; white cushions also appear in loot chests"
-  ],
-  "uses": [
-   "Right-click to sit: while seated, portals, knockback, pistons and geysers cannot move you until you dismount",
-   "Decoration: they rest on any flat surface, including slabs, stairs lower step, snow layers, wildflowers and enchanting tables",
-   "Furnace fuel: 4 cushions smelt 1 item",
-   "Break instantly when attacked and always drop themselves, so rearranging is free"
-  ],
-  "renewable": "Yes - wool slabs come from sheep wool, and cushions always drop themselves.",
-  "editionNote": "In Java a piston breaks a cushion; in Bedrock a piston can push it if there is a block in front. Unlike wool blocks, cushions do NOT dampen sculk sensor or shrieker vibrations in either edition. On Bedrock it is currently behind the \"Drop 3 of 2026\" experiment toggle.",
-  "since": "Java 26.3 / Bedrock 26.40",
-  "related": [
-   "wool-stairs"
-  ],
-  "keywords": "cushion sit seat decoration wool slab abandoned camp dye colors"
- },
- {
-  "slug": "wool-stairs",
-  "name": "Wool Stairs",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft 4 stairs from 6 matching wool blocks in the classic stair shape (all 16 colors)",
-   "White wool stairs generate naturally in abandoned camps",
-   "Break them with any tool; shears are the fastest"
-  ],
-  "uses": [
-   "Soft building stairs with the full wool palette for roofs, couches and curved builds",
-   "Same wool properties as the block: flammable and vibration-dampening for sculk contraptions",
-   "Combine with wool slabs and cushions for full soft furniture sets"
-  ],
-  "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
-  "editionNote": "Works the same in Java and Bedrock (fully implemented in Bedrock 26.50). Stacks only with stairs of the same color.",
-  "since": "Java 26.3 / Bedrock 26.40",
-  "related": [
-   "cushion"
-  ],
-  "keywords": "wool stairs 16 colors shears craft abandoned camp soft"
- },
- {
-  "slug": "concrete-stairs",
-  "name": "Concrete Stairs",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft 4 stairs from 6 matching concrete blocks in the stair shape (all 16 colors)",
-   "Stonecut one concrete block into 1 concrete stair, no material wasted",
-   "Mine them with any pickaxe; without a pickaxe they drop nothing"
-  ],
-  "uses": [
-   "Flat-color stair detail for modern builds, matching the concrete palette",
-   "Unlike wool stairs they are fireproof, ideal near lava or fireplaces",
-   "Pair with concrete slabs for smooth gradients and pixel art edges"
-  ],
-  "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
-  "editionNote": "Works the same in Java and Bedrock, including the 1:1 stonecutter conversion.",
-  "since": "Java 26.3 / Bedrock 26.50",
-  "related": [
-   "wool-stairs"
-  ],
-  "keywords": "concrete stairs 16 colors stonecutter pickaxe modern build fireproof"
- },
- {
-  "slug": "wool-slab",
-  "name": "Wool Slab",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft 6 slabs from 3 matching wool blocks in a row (all 16 colors)",
-   "Break them with any tool; shears are the fastest",
-   "Craft 3 of them in a row into a cushion of the same color"
-  ],
-  "uses": [
-   "Half-height soft block for furniture, gentle slopes and color gradients with the wool palette",
-   "Flammable and vibration-dampening like full wool, useful in sculk-safe floors",
-   "Burns as furnace fuel - a handy way to clear spare slabs"
-  ],
-  "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
-  "editionNote": "Works the same in Java and Bedrock (fully implemented in Bedrock 26.50). Stacks only with slabs of the same color.",
-  "since": "Java 26.3 / Bedrock 26.40",
-  "related": [
-   "wool-stairs",
-   "cushion"
-  ],
-  "keywords": "wool slab 16 colors shears craft cushion soft sculk"
- },
- {
-  "slug": "concrete-slab",
-  "name": "Concrete Slab",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft 6 slabs from 3 matching concrete blocks in a row (all 16 colors)",
-   "Stonecut one concrete block into 1 concrete slab, no material wasted",
-   "Mine them with any pickaxe; without a pickaxe they drop nothing"
-  ],
-  "uses": [
-   "Half-height flat-color block for modern floors, paths and pixel art",
-   "Fireproof alternative to wool slabs near lava and fireplaces",
-   "Pair with concrete stairs for smooth modern exteriors"
-  ],
-  "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
-  "editionNote": "Works the same in Java and Bedrock, including the 1:2 stonecutter conversion (1 concrete block = 2 slabs).",
-  "since": "Java 26.3 / Bedrock 26.50",
-  "related": [
-   "concrete-stairs",
-   "wool-slab"
-  ],
-  "keywords": "concrete slab 16 colors stonecutter pickaxe modern build fireproof"
- },
- {
-  "slug": "saddle",
-  "name": "Saddle",
-  "category": "Utility",
-  "stackSize": "1 (does not stack)",
-  "howToGet": [
-   "Craft it: 3 leather + 1 iron ingot (leather on top-center and middle sides, iron in the center)",
-   "Chest loot in dungeons, mineshafts, strongholds, villages, desert and jungle pyramids, Nether fortresses and bastions",
-   "Fishing treasure (0.8%), leatherworker villager trade (8-10 emeralds), or a free drop from every ravager and strider jockey"
-  ],
-  "uses": [
-   "Ride and control horses, donkeys, mules, camels, pigs and striders - equines must be tamed first",
-   "Remove it any time from the mob's inventory; a saddled mob drops the saddle when killed",
-   "Pigs need a carrot on a stick to steer; striders need a warped fungus on a stick"
-  ],
-  "renewable": "Fully renewable: crafting, fishing, leatherworker trades and ravager drops all provide infinite saddles.",
-  "editionNote": "Same recipe and sources in Java and Bedrock. The saddle recipe exists since 1.21.6 - before that, loot and trading were the only ways.",
-  "since": "Infdev 2010 (craftable since 1.21.6)",
-  "related": [
-   "elytra",
-   "trident"
-  ],
-  "keywords": "saddle how to make craft leather iron ingot ride horse pig strider ravager fishing"
- },
- {
-  "slug": "name-tag",
-  "name": "Name Tag",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 1 paper + 1 nugget of any kind (diagonal in the grid)",
-   "Chest loot in dungeons, mineshafts, ancient cities and woodland mansions",
-   "Fishing treasure (0.8%) or librarian villager trades; in Bedrock, wandering traders can drop one"
-  ],
-  "uses": [
-   "Rename it on an anvil (1 experience level per whole stack) then use it on a mob to give it that name",
-   "Named mobs never despawn and stop counting toward the mob cap - essential for farms and pets",
-   "Easter eggs: Dinnerbone or Grumm flips the mob upside down, jeb_ makes a rainbow sheep, Toast reskins a rabbit, Johnny turns a vindicator hostile to everything"
-  ],
-  "renewable": "Renewable via crafting, fishing and librarian trades.",
-  "editionNote": "Crafting recipe and anvil naming work the same in both editions; the wandering trader drop is Bedrock-only.",
-  "since": "1.6.1 (Horse Update)",
-  "related": [
-   "saddle",
-   "totem-of-undying"
-  ],
-  "keywords": "name tag how to get craft paper nugget anvil rename despawn dinnerbone jeb_ toast johnny"
- },
- {
-  "slug": "turtle-scute",
-  "name": "Turtle Scute",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "The only source: a baby turtle drops exactly 1 scute when it grows into an adult",
-   "Breed turtles with seagrass, protect the eggs on the home beach, and speed growth by feeding babies seagrass (10% per use)",
-   "There is no other way - not drops, trades, chests or bartering"
-  ],
-  "uses": [
-   "Craft 5 scutes in a helmet shape into a turtle shell: a helmet that grants 10 seconds of Water Breathing when worn",
-   "Brew turtle shells into potions of the Turtle Master (Slowness + Resistance)",
-   "Villager expert clerics do not buy scutes - this is a pure progression material"
-  ],
-  "renewable": "Renewable but slow: every scute means raising a baby turtle (20 minutes base, sped up with seagrass).",
-  "editionNote": "Identical mechanics in Java and Bedrock.",
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "slimeball",
-   "shulker-shell"
-  ],
-  "keywords": "turtle scute how to get baby turtle grow shell helmet water breathing turtle master potion"
- },
- {
-  "slug": "dried-ghast",
-  "name": "Dried Ghast",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Found in soul sand valleys: a 1/3 chance of generating next to each Nether fossil",
-   "Craft it: 8 ghast tears around 1 soul sand block",
-   "Piglin bartering: about a 2.13% chance per gold ingot"
-  ],
-  "uses": [
-   "Waterlog it and wait about 20 minutes: it hydrates through visible stages and hatches into a ghastling",
-   "The ghastling grows into a happy ghast - the rideable flying mount for up to four players; feed ghastlings snowballs or golden dandelions to speed growth",
-   "Pure decoration otherwise: makes cracking ambient sounds when placed on soul sand or soul soil"
-  ],
-  "renewable": "Renewable via crafting (ghast tears farm from ghasts) and piglin bartering.",
-  "editionNote": "Identical in Java and Bedrock; mined instantly with any tool and always drops itself.",
-  "since": "1.21.6 (Chase the Skies)",
-  "related": [
-   "golden-dandelion",
-   "slimeball"
-  ],
-  "keywords": "dried ghast how to get soul sand valley nether fossil ghast tears craft waterlog ghastling happy ghast"
- },
- {
-  "slug": "wither-skeleton-skull",
-  "name": "Wither Skeleton Skull",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill wither skeletons in Nether fortresses: 2.5% base drop chance, player or tamed wolf kills only",
-   "Looting raises it to 5.5% max in Java (+1%/level) and 8.5% in Bedrock (+2%/level)",
-   "A wither skeleton killed by a charged creeper always drops its skull - one per explosion in Java, all of them in Bedrock"
-  ],
-  "uses": [
-   "3 skulls + 4 soul sand/soil in a T shape summon the Wither boss",
-   "Wearable as a head (and it reduces wither skeleton detection range, like other mob heads)",
-   "Decoration and note block sounds: a skull on a note block plays wither skeleton sounds"
-  ],
-  "renewable": "Renewable: wither skeletons spawn endlessly on fortress nether bricks, so skull farms exist.",
-  "editionNote": "Looting scaling differs: Java +1% per level (5.5% max), Bedrock +2% per level (8.5% max).",
-  "since": "1.4.2 (Pretty Scary Update)",
-  "related": [
-   "nether-star",
-   "obsidian"
-  ],
-  "keywords": "wither skeleton skull drop chance looting farm wither boss summon soul sand fortress"
- },
- {
-  "slug": "echo-shard",
-  "name": "Echo Shard",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Only found in ancient city chests in the deep dark - sneak past the sculk sensors and the warden",
-   "No crafting, no trades, no mob drops: chest loot is the one and only source",
-   "Bring wool to muffle your steps while looting the city"
-  ],
-  "uses": [
-   "Craft the recovery compass: compass surrounded by 8 echo shards points to your last death location",
-   "That is its only recipe - but it turns a lost-items panic run into a guided walk",
-   "The recovery compass only works if held by the player who died, in the same dimension"
-  ],
-  "renewable": "Not renewable, but effectively plentiful: ancient cities are common in the deep dark and each holds many chests.",
-  "editionNote": "Identical in Java and Bedrock.",
-  "since": "1.19 (The Wild Update)",
-  "related": [
-   "heart-of-the-sea",
-   "nether-star"
-  ],
-  "keywords": "echo shard ancient city recovery compass last death location warden deep dark"
- },
- {
-  "slug": "nautilus-shell",
-  "name": "Nautilus Shell",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Drowned spawn holding one in their off-hand (3% Java, 8% Bedrock) and always drop it - a drowned farm is the reliable source",
-   "Rarely dropped by killed nautiluses",
-   "Fishing treasure: 0.8% base, up to 1.9% with Luck of the Sea III"
-  ],
-  "uses": [
-   "8 nautilus shells around 1 heart of the sea craft a conduit - underwater breathing, night vision and faster mining in a 32-96 block radius when framed in prismarine",
-   "Nothing else: the conduit is the entire point of collecting them",
-   "In Bedrock, wandering traders can rarely drop one (25% while offering it as a trade, if you hold an emerald)"
-  ],
-  "renewable": "Renewable via drowned farms and fishing.",
-  "editionNote": "Drowned holding chance is 3% in Java and 8% in Bedrock; converted zombies count in Bedrock too.",
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "heart-of-the-sea",
-   "trident"
-  ],
-  "keywords": "nautilus shell conduit drowned farm fishing heart of the sea underwater breathing"
- },
- {
-  "slug": "dragon-egg",
-  "name": "Dragon Egg",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Defeat the ender dragon: the egg appears on top of the exit portal - once per world in Java, twice in Bedrock (one per first and second dragon)",
-   "Do NOT punch it directly: it teleports up to 15 blocks away (31x15x31 volume)",
-   "Torch trick: break the block under it with a torch placed below so the egg falls onto it and drops as an item - or push it with a piston"
-  ],
-  "uses": [
-   "Pure trophy: the rarest block in a survival world, proof you beat the dragon",
-   "It teleports when you try to mine it, is gravity-affected, and always drops itself in explosions",
-   "No crafting, no hatching - the egg does not hatch, ever, in vanilla"
-  ],
-  "renewable": "One per world in Java (two in Bedrock). Guard it: if it falls into the exit portal or void, it is gone for good.",
-  "editionNote": "Bedrock worlds get two eggs (first and second dragon kill); Java gets one.",
-  "since": "1.0.0 (Adventure Update)",
-  "related": [
-   "elytra",
-   "nether-star"
-  ],
-  "keywords": "dragon egg how to get teleport torch piston trick ender dragon trophy hatch"
- },
- {
-  "slug": "shield",
-  "name": "Shield",
-  "category": "Tool",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft it: iron ingot in the top-center slot of a crafting table, surrounded by 6 planks in a Y shape (any wood type)",
-   "Or trade: journeyman-level armorer villagers sell shields for emeralds (Java)",
-   "Your first shield costs 1 iron and 6 planks - there is no excuse to fight skeletons without one"
-  ],
-  "uses": [
-   "Block incoming frontal attacks: hold use in Java, sneak in Bedrock - blocking starts after a 0.25-second delay",
-   "Fully negates melee, arrows and explosions from the front; attacks of 3+ damage wear its 336 durability",
-   "Watch for axes: a hit from an axe-wielding player or mob (or a warden) disables your shield for 5 seconds",
-   "Combine it with a banner in the loom to wear your design on your arm",
-   "Repair by combining two shields or with planks on an anvil"
-  ],
-  "renewable": "Fully renewable: wood and iron are farmable, and armorers sell them.",
-  "editionNote": "Blocking differs: hold right-click in Java, sneak in Bedrock. Bedrock shields knock back melee attackers.",
-  "since": "1.9 (Combat Update)",
-  "related": [
-   "iron-ingot"
-  ],
-  "keywords": "shield minecraft recipe iron planks block axe disable banner durability"
- },
- {
-  "slug": "spyglass",
-  "name": "Spyglass",
-  "category": "Tool",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft it: 1 amethyst shard on top of 2 copper ingots in a vertical line",
-   "Amethyst shards come from harvesting fully grown amethyst clusters in geodes (Fortune helps)",
-   "Copper ingots come from smelting raw copper - one deepslate vein usually covers it"
-  ],
-  "uses": [
-   "Zoom: hold use to look through it - a narrow circular view at roughly 1/10 field of view",
-   "Scout terrain, bases, mob farms and rare biomes from far away without a single ender pearl",
-   "Using one slows you to sneaking speed, so watch your footing on cliffs",
-   "The cinematic zoom pairs great with F1 for clean screenshots"
-  ],
-  "renewable": "Fully renewable: amethyst clusters regrow and copper is abundant.",
-  "editionNote": "Identical in Java and Bedrock.",
-  "since": "1.17 (Caves & Cliffs Part I)",
-  "related": [],
-  "keywords": "spyglass minecraft recipe amethyst shard copper zoom how to make"
- },
- {
-  "slug": "trial-key",
-  "name": "Trial Key",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Ejected by trial spawners in trial chambers after you defeat their mob waves",
-   "Also found in decorated pots and chests inside trial chambers",
-   "Only trial chambers produce them - find a chamber deep underground (often near the deepslate layers)"
-  ],
-  "uses": [
-   "Unlock a standard vault: use the key on the vault block and it ejects loot - the key is consumed",
-   "Each vault opens once per player (it remembers up to 128 players), so bring friends rather than more keys",
-   "Ominous vaults need the rarer ominous trial key from ominous trial spawners - different key, better loot",
-   "Java quirk (bug MC-268183): a renamed or otherwise modified trial key will not open a vault"
-  ],
-  "renewable": "Renewable: trial spawners reset after a cooldown and can be farmed repeatedly.",
-  "editionNote": "Identical in Java and Bedrock, apart from the Java-only renamed-key bug.",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "breeze-rod"
-  ],
-  "keywords": "trial key minecraft vault trial chambers trial spawner ominous unlock loot"
- },
- {
-  "slug": "wind-charge",
-  "name": "Wind Charge",
-  "category": "Combat",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 1 breeze rod shapeless into 4 wind charges",
-   "Breeze rods drop from breezes in trial chambers - kill the spinning blue menace first",
-   "Also appears as chest loot inside trial chambers"
-  ],
-  "uses": [
-   "Throw it: a direct hit deals 1 damage and knocks the target back, with a wind burst that shoves nearby entities",
-   "Player-thrown bursts hit a 2.4-block sphere (breeze-fired ones reach 6 blocks) but knock 22% harder",
-   "Movement tech: jump and throw at your feet to launch yourself - it also resets your fall distance",
-   "Flips doors, trapdoors, buttons, levers and fence gates on impact - handy and chaotic",
-   "In Bedrock, a wind charge that passes through fire or lava sets hit entities on fire"
-  ],
-  "renewable": "Renewable: breezes respawn from trial spawners on a cooldown.",
-  "editionNote": "Bedrock-only extra: charges that fly through fire ignite their targets.",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "breeze-rod"
-  ],
-  "keywords": "wind charge minecraft breeze rod craft knockback jump boost trial chambers"
- },
- {
-  "slug": "harness",
-  "name": "Harness",
-  "category": "Utility",
-  "stackSize": "1 (does not stack)",
-  "howToGet": [
-   "Craft it: 3 leather across the top row, 2 glass on the middle sides and 1 matching wool in the center",
-   "Recolor any harness by combining it with 1 matching dye - 16 dyed variants in total"
-  ],
-  "uses": [
-   "Equip it on a happy ghast to make it rideable - up to four players can ride a single happy ghast; a dispenser can also equip it",
-   "Happy ghasts without a harness follow players holding one; the aviator goggles lower over the ghast's eyes while it is being ridden, which shows even when the rider is invisible",
-   "Remove it with shears to drop the harness as an item; when the rider dismounts, the ghast snaps to the nearest cardinal direction and can be stood on like a solid block"
-  ],
-  "renewable": "Renewable: leather from cows or hoglins, glass from smelting sand, wool from sheep.",
-  "editionNote": "Identical in Java and Bedrock. Cannot be enchanted in Survival mode.",
-  "since": "1.21.6 (Chase the Skies)",
-  "related": [
-   "dried-ghast",
-   "golden-dandelion",
-   "saddle"
-  ],
-  "keywords": "harness minecraft happy ghast ride mount craft leather glass wool goggles four players dye"
- },
- {
-  "slug": "copper-bars",
-  "name": "Copper Bars",
-  "category": "Decoration",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft them: 6 copper ingots in two rows of three give 16 copper bars",
-   "Wax any oxidation stage with a honeycomb (crafting grid or right-click the placed block) to freeze it"
-  ],
-  "uses": [
-   "Copper version of iron bars for windows, railings and cages, with the same placement mechanics",
-   "They oxidize through 4 stages (normal, exposed, weathered, oxidized); scrape with an axe or a lightning strike to revert stages, wax with honeycomb to prevent it",
-   "Waterloggable, and mined fastest with any pickaxe - they drop nothing without one"
-  ],
-  "renewable": "Renewable: copper ingots from smelting copper ore, very common especially in dripstone caves.",
-  "editionNote": "Same behavior in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111.",
-  "since": "Java 1.21.9 / Bedrock 1.21.111",
-  "related": [
-   "sulfur",
-   "cinnabar",
-   "gold-ingot"
-  ],
-  "keywords": "copper bars minecraft craft oxidize oxidation wax honeycomb exposed weathered oxidized railing"
- },
- {
-  "slug": "shelf",
-  "name": "Shelf",
-  "category": "Decoration",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 6 matching stripped logs, stems or bamboo blocks filling the top and bottom rows give 6 shelves - 13 wood variants, poplar included since 26.3",
-   "Breaks by hand, fastest with an axe"
-  ],
-  "uses": [
-   "Stores and displays up to 3 item stacks; interacting with a slot swaps it with your main-hand item, like a visible item frame wall",
-   "Power it with redstone: up to 3 adjacent powered shelves connect and using one swaps your whole hotbar at once (6 or 9 slots when merged)",
-   "Crimson and warped variants do not burn; in Java, shelves cannot be moved by pistons"
-  ],
-  "renewable": "Renewable: every wood type is renewable through saplings and fungi.",
-  "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111, poplar shelf in Java 26.3.",
-  "since": "Java 1.21.9 / Bedrock 1.21.111",
-  "related": [
-   "poplar-log",
-   "cushion",
-   "straw-bed"
-  ],
-  "keywords": "shelf minecraft craft stripped log display items redstone hotbar swap storage poplar"
- },
- {
-  "slug": "copper-chest",
-  "name": "Copper Chest",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: a regular chest surrounded by 8 copper ingots",
-   "Build a copper golem: the block of copper you use turns into a copper chest facing the pumpkin",
-   "Oxidized copper chests also generate naturally in abandoned camps"
-  ],
-  "uses": [
-   "Storage like a wooden chest, and the copper golem's source: it takes items out of copper chests to sort them into wooden chests",
-   "Place two next to each other to merge into a large copper chest - different oxidation stages still merge (the result takes the least oxidized stage and unwaxes); sneak-place in Java or push with a piston in Bedrock to keep them separate",
-   "Oxidizes through 4 stages like other copper; scrape with an axe, strike with lightning, or wax with a honeycomb to stop it"
-  ],
-  "renewable": "Renewable: copper ingots from smelting copper ore, chests from planks.",
-  "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111. Waterloggable, mined fastest with a stone pickaxe or better.",
-  "since": "Java 1.21.9 / Bedrock 1.21.111",
-  "related": [
-   "copper-bars",
-   "shelf"
-  ],
-  "keywords": "copper chest minecraft craft copper ingots copper golem sorting large chest oxidation wax abandoned camp"
- },
- {
-  "slug": "nautilus-armor",
-  "name": "Nautilus Armor",
-  "category": "Combat",
-  "stackSize": "1 (does not stack)",
-  "howToGet": [
-   "Cannot be crafted - find copper, iron, golden and diamond nautilus armor as chest loot in shipwreck supply chests, ocean ruins chests and buried treasure",
-   "Upgrade diamond nautilus armor to netherite on a smithing table: netherite upgrade smithing template + 1 netherite ingot",
-   "Remove it from a nautilus with shears; it also drops when the nautilus dies"
-  ],
-  "uses": [
-   "Equip it on a tamed nautilus or zombie nautilus (use button) for protection: copper 4, iron 5, gold 7, diamond 11, netherite 19 armor points; diamond adds 2 and netherite 3 armor toughness, netherite also knockback resistance",
-   "Like horse armor it has no durability - it never breaks",
-   "Smelt copper, iron or golden nautilus armor for a matching nugget; piglins are attracted to the golden version",
-   "Baby nautiluses cannot wear armor"
-  ],
-  "renewable": "Not renewable: fixed pool of chest loot, though a single armor piece never wears out.",
-  "editionNote": "Same in Java and Bedrock; added in Java 1.21.11 and Bedrock 1.21.130.",
-  "since": "Java 1.21.11 / Bedrock 1.21.130",
-  "related": [
-   "saddle",
-   "shield"
-  ],
-  "keywords": "nautilus armor minecraft copper iron gold diamond netherite shipwreck ocean ruins buried treasure smithing shears"
- },
- {
-  "slug": "copper-lantern",
-  "name": "Copper Lantern",
-  "category": "Decoration",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 8 copper nuggets around 1 copper torch",
-   "Copper torch recipe: copper nugget + coal or charcoal + stick (makes 4)"
-  ],
-  "uses": [
-   "Copper variant of the lantern with a green flame: full light level 15, hangs or sits like a regular lantern, waterloggable",
-   "Oxidizes through 4 stages (unoxidized, exposed, weathered, oxidized); scrape with an axe or lightning to revert, wax with a honeycomb to freeze the look",
-   "Mined fastest with a pickaxe; drops itself if its support block is moved or destroyed"
-  ],
-  "renewable": "Renewable: copper nuggets from copper ingots, coal or charcoal, sticks.",
-  "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111.",
-  "since": "Java 1.21.9 / Bedrock 1.21.111",
-  "related": [
-   "copper-bars",
-   "copper-chest"
-  ],
-  "keywords": "copper lantern minecraft craft copper nuggets copper torch green flame light oxidation wax"
- },
- {
-  "slug": "music-disc",
-  "name": "Music Disc",
-  "category": "Utility",
-  "stackSize": "1 (does not stack)",
-  "howToGet": [
-   "The classic farm: get a skeleton (or stray, bogged, parched) to land the killing blow on a creeper - it drops a random disc from the 12-disc pool (13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11, wait)",
-   "Chest loot: 13 and cat in monster rooms (21.5%), woodland mansions (21.8%) and ancient cities (16.1%); Pigstep only in bastion remnants (5.6%); otherside in monster rooms, strongholds and ancient cities; Bounce in mineshaft chests inside sulfur caves (42.1%)",
-   "Special discs: Relic by brushing suspicious gravel in trail ruins (8.3%); Precipice, Creator and Creator (Music Box) from trial chambers vaults, ominous vaults and pots; 5 is crafted from 9 disc fragments found in ancient cities (29.8%)",
-   "Kills with style: a ghast killed by your deflected fireball always drops Tears, and a chicken jockey drops Lava Chicken if you kill the rider before the chicken"
-  ],
-  "uses": [
-   "Play it in a jukebox; press use again to eject",
-   "A playing jukebox emits a redstone signal, and a comparator reads a different strength per disc - disc detectors for secret doors",
-   "A jukebox makes allays dance: give a dancing allay an amethyst shard to duplicate it (5 minute cooldown)",
-   "Hoppers and droppers can insert and extract discs for fully automatic music"
-  ],
-  "renewable": "Renewable via creeper farms funnelled into skeleton kills.",
-  "editionNote": "Same mechanics in Java and Bedrock. In Java, a wither skeleton can only credit disc drops through flaming-TNT tricks, never bow kills.",
-  "since": "Alpha 1.0.14 (first two discs)",
-  "related": [
-   "gunpowder",
-   "redstone-dust"
-  ],
-  "keywords": "music disc minecraft how to get creeper skeleton kill farm jukebox pigstep otherside 5 disc fragment relic tears lava chicken"
- },
- {
-  "slug": "enchanted-golden-apple",
-  "name": "Enchanted Golden Apple",
-  "category": "Combat",
-  "stackSize": "64",
-  "howToGet": [
-   "Cannot be crafted since 1.9 - loot-only",
-   "Chest loot in monster rooms, mineshafts, woodland mansions, ancient cities, bastion remnants, ruined portals and trial chambers vaults - always rare, a few percent at best",
-   "Ancient cities and trial chambers are the most generous modern sources"
-  ],
-  "uses": [
-   "Eat it for the strongest food buff in the game: Absorption IV for 2 minutes (16 extra hearts), Regeneration II for 20 seconds in Java (30 in Bedrock), Fire Resistance for 5 minutes and Resistance I (20% less damage) for 5 minutes",
-   "Keep one in the hotbar for boss fights - Wither, warden or a hard raid wave",
-   "Also works as a horse, donkey or mule treat for taming, breeding and healing"
-  ],
-  "renewable": "Not renewable: fixed chest loot only.",
-  "editionNote": "Regeneration lasts 20 seconds in Java (heals 16 HP) and 30 in Bedrock (heals 24 HP); everything else is identical.",
-  "since": "Java 1.3.1 (craftable until 1.9)",
-  "related": [
-   "totem-of-undying",
-   "nether-star"
-  ],
-  "keywords": "enchanted golden apple notch apple minecraft how to get absorption regeneration resistance boss fight loot"
- },
- {
-  "slug": "amethyst-shard",
-  "name": "Amethyst Shard",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine fully grown amethyst clusters inside amethyst geodes: 4 shards with any pickaxe, only 2 with other tools or explosions",
-   "Fortune boosts it: Fortune III averages 8.8 shards (up to 16); Silk Touch drops the cluster block itself instead",
-   "Clusters regrow on budding amethyst blocks - leave them and come back for a renewable farm"
-  ],
-  "uses": [
-   "Craft a spyglass (2 copper ingots + 1 shard), tinted glass (4 shards + glass), blocks of amethyst and calibrated sculk sensors",
-   "Duplicate allays: give a shard to an allay dancing at a jukebox and it splits into two (5 minute cooldown)",
-   "Smithing material: any armor trim applied with amethyst gives the purple crystal trim color"
-  ],
-  "renewable": "Renewable: budding amethyst keeps growing new clusters in place.",
-  "editionNote": "Identical in Java and Bedrock.",
-  "since": "1.17 (Caves & Cliffs Part I)",
-  "related": [
-   "spyglass",
-   "copper-bars"
-  ],
-  "keywords": "amethyst shard minecraft geode cluster budding amethyst fortune spyglass tinted glass allay duplicate farm"
- },
- {
-  "slug": "coal",
-  "name": "Coal",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Mine coal ore or deepslate coal ore with any pickaxe - 1 coal per ore, up to 4 with Fortune III",
-   "Ore generates in two batches: one peaking at Y=96 between Y=0 and Y=192, another spread evenly from Y=136 to Y=320, so mountains are coal country",
-   "Smelt... nothing - but make charcoal instead by smelting logs: it is a perfect coal clone",
-   "Loot chests in mineshafts, dungeons, villages, shipwrecks and strongholds; wither skeletons can drop it too"
-  ],
-  "uses": [
-   "Craft torches (coal + stick = 4), campfires and fire charges",
-   "Fuel: one coal smelts 8 items (80 seconds) - over 5 times more efficient than planks",
-   "Craft blocks of coal: 9 coal into a block that smelts 80 items - 10x a single piece",
-   "Trade to fisherman, armorer, toolsmith and weaponsmith villagers for emeralds"
-  ],
-  "renewable": "Technically renewable: wither skeletons drop coal, and charcoal (smelted logs) is an infinite substitute from tree farms.",
-  "editionNote": "Identical in both editions, with one Bedrock bonus: coal ore gets an extra generation batch in mountain biomes (Y=128 to 256), so Bedrock mountains are even richer.",
-  "since": "Indev 0.31 (January 28, 2010)",
-  "related": [
-   "iron-ingot",
-   "diamond"
-  ],
-  "keywords": "coal minecraft how to find coal ore y level fuel torches charcoal fortune"
- },
- {
-  "slug": "stick",
-  "name": "Stick",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft 4 sticks from 2 planks of any wood stacked vertically",
-   "Craft 1 stick from 2 bamboo stacked vertically",
-   "Leaf blocks decaying or broken without Silk Touch drop 0-2 sticks; dead bushes drop 0-2 when broken",
-   "Witches drop 0-6 sticks (up to 15 with Looting III); bonus chests and village cartographer/ toolsmith/fletcher chests hold them too"
-  ],
-  "uses": [
-   "The skeleton key of crafting: tools, weapons, torches, ladders, rails, levers, item frames, armor stands, bows, fishing rods, campfires and dozens more all need sticks",
-   "Fuel in a pinch: 5 seconds per stick - terrible, but it burns",
-   "Trade 32 sticks to a fletcher villager for an emerald - one of the easiest trades in the game"
-  ],
-  "renewable": "Fully renewable: planks come from trees, bamboo grows fast, and witches and leaves drop them forever.",
-  "editionNote": "Identical in Java and Bedrock. Fun fact: in the first Pocket Edition versions sticks existed but were unobtainable and useless - they only became craftable later.",
-  "since": "Indev 0.31 (January 29, 2010)",
-  "related": [
-   "coal",
-   "iron-ingot"
-  ],
-  "keywords": "stick minecraft craft 2 planks bamboo how to get sticks fletcher trade tools"
- },
- {
-  "slug": "blast-furnace",
-  "name": "Blast Furnace",
-  "category": "Utility block",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 5 iron ingots (full top row + middle sides), 1 furnace in the center, 3 smooth stone along the bottom",
-   "Find one generating in village armorer houses and steal it with any pickaxe",
-   "Also generates in trail ruins"
-  ],
-  "uses": [
-   "Smelts ores, raw metals and metal tools/armor twice as fast as a furnace - 5 seconds per item instead of 10",
-   "Cannot cook food or smelt stone, sand or clay - that is what the smoker and normal furnace are for",
-   "Job site block for the armorer villager - iron armor, shields and bell trades",
-   "Emits light level 13 while lit, and hoppers can automate input, fuel and output"
-  ],
-  "renewable": "Fully renewable: iron from farms, smooth stone from smelted stone, furnaces from cobblestone.",
-  "editionNote": "Same recipe and speed in both editions. Fuel burns at double rate, so each coal still smelts the same 8 items - you save time, not fuel. Like the smoker, Bedrock added it experimentally in 1.9.0 and made it functional in 1.11.0.",
-  "since": "Java 1.14 (snapshot 18w44a) / Bedrock 1.9.0 experimental",
-  "related": [
-   "iron-ingot",
-   "coal"
-  ],
-  "keywords": "blast furnace minecraft craft 5 iron furnace smooth stone smelt ores twice as fast armorer job site vs smoker"
- },
- {
-  "slug": "mace",
-  "name": "Mace",
-  "category": "Weapon",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft it: 1 heavy core on top of 1 breeze rod in the crafting grid",
-   "Heavy cores come ONLY from ominous vaults in trial chambers - a 7.5% chance per vault, opened with an ominous trial key",
-   "Breeze rods drop from breezes, the wind mobs inside trial chambers"
-  ],
-  "uses": [
-   "Normal attack: 6 damage fully charged, but the slowest attack speed in the game (0.6 in Java) - weak for flat-ground fights",
-   "Smash attack: hit something after falling 1.5+ blocks and the mace adds damage per block fallen - the farther the drop, the bigger the hit, with no cap",
-   "Landing a smash resets your fall height: you take zero fall damage from the drop that fed the hit",
-   "The smash also knocks back every entity within 2.5 blocks, like a wind charge burst",
-   "Slow Falling disables smash attacks entirely - do not drink it before a fight",
-   "Signature enchants: Density (more fall damage), Breach (armor pierce), Wind Burst (relaunch after a smash) - plus Smite and Bane of Arthropods"
-  ],
-  "renewable": "Not renewable in practice: each ominous vault opens once per player, so heavy cores are finite per world.",
-  "editionNote": "In Java you must unequip the elytra before attacking for a smash to trigger; in Bedrock smashes activate even mid-elytra-flight. Durability is 500 in Java and 501 in Bedrock.",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "heavy-core",
-   "breeze-rod"
-  ],
-  "keywords": "mace minecraft heavy core breeze rod smash attack density breach wind burst trial chambers weapon"
- },
- {
-  "slug": "heavy-core",
-  "name": "Heavy Core",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Ominous vaults inside trial chambers: 7.5% chance per vault - the only source in the game",
-   "Ominous vaults open with ominous trial keys, dropped by ominous trial spawners (spawners you face with the Trial Omen effect active)",
-   "Each ominous vault opens once per player - bring friends with their own keys for more rolls",
-   "Once placed, it mines fast with a pickaxe and always drops itself"
-  ],
-  "uses": [
-   "Craft the mace: heavy core above a breeze rod in the crafting grid",
-   "Epic-rarity trophy block - its purple name makes it a flex item for display rooms",
-   "Redstone curiosity: piston behavior differs between editions (see edition notes)"
-  ],
-  "renewable": "Not renewable in practice: one opening per player per ominous vault, so the world's heavy cores are finite.",
-  "editionNote": "Java: pistons push AND pull heavy cores, and they stick to slime and honey blocks. Bedrock: like glazed terracotta, pistons can push but not pull them, and they do not stick to slime or honey.",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "breeze-rod",
-   "trial-key"
-  ],
-  "keywords": "heavy core minecraft ominous vault trial chambers mace crafting epic rare block"
- },
- {
-  "slug": "bundle",
-  "name": "Bundle",
-  "category": "Utility",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft it: 1 string above 1 leather in the crafting grid - that is the whole recipe",
-   "Dye it with any dye to get one of 16 colored variants (shapeless: bundle + dye)",
-   "Fully renewable: string from spiders and cobwebs, leather from cows and other mobs"
-  ],
-  "uses": [
-   "Stores up to one stack's worth of MIXED items in a single inventory slot - 64 bundle slots total",
-   "64-stack items cost 1 slot each; 16-stack items (eggs, ender pearls) cost 4; unstackable items (a sword) eat the whole bundle",
-   "Pick items out individually: open the bundle in your inventory and scroll/select what to extract",
-   "Bundles nest inside bundles (an inner bundle costs 4 slots plus its contents), and bundles go inside shulker boxes - but shulker boxes never go inside bundles",
-   "Best friends: early-game inventory triage, caving junk sorting, and carrying one of every flower for dye runs"
-  ],
-  "renewable": "Renewable: string and leather are both farmable.",
-  "editionNote": "Behaves the same in Java and Bedrock. In Java, slot cost is computed from the item's max_stack_size data component, so modded or edited items with unusual stack sizes pack accordingly.",
-  "since": "1.21.2 (Bundles of Bravery)",
-  "related": [
-   "shulker-shell",
-   "stick"
-  ],
-  "keywords": "bundle minecraft how to craft bundle storage item bundles of bravery inventory dyed bundle"
- },
- {
-  "slug": "smithing-template",
-  "name": "Smithing Template",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Netherite Upgrade: ONLY in bastion remnant chests (guaranteed in treasure-room bastions) - the gatekeeper of netherite gear",
-   "Armor trims (18 designs): scattered across structures - sentry in pillager outposts, dune in desert temples, ward in ancient cities, tide from elder guardians (20% drop), flow and bolt in trial chambers vaults, and more",
-   "Duplicate any template you find: 7 diamonds + the template + its matching block (netherrack for netherite upgrade) makes 2 - never use your last one raw"
-  ],
-  "uses": [
-   "Netherite Upgrade at the smithing table: diamond gear + template + netherite ingot = netherite gear, keeping enchantments and prior-work penalty",
-   "Armor trims at the smithing table: template + armor piece + a trim material (amethyst, copper, diamond, emerald, gold, iron, lapis, quartz, netherite, redstone, resin brick) applies a cosmetic pattern",
-   "Trims are purely cosmetic - they change looks, not stats - but silence trim on full netherite is the server's loudest flex",
-   "Templates are consumed on use, which is why diamond duplication is the real meta"
-  ],
-  "renewable": "Mixed: most templates are effectively non-renewable per structure; elder guardians make tide farmable, and vault loot renews per player. Duplication with diamonds is the practical answer.",
-  "editionNote": "Identical in Java and Bedrock: same structures, same duplication recipe, same smithing behavior. In Java, ward, silence, rib and the netherite upgrade are strictly non-renewable without duplication.",
-  "since": "1.20 (Trails & Tales)",
-  "related": [
-   "netherite-ingot",
-   "ancient-debris"
-  ],
-  "keywords": "smithing template minecraft netherite upgrade armor trim bastion duplicate diamonds silence ward tide"
- },
- {
-  "slug": "recovery-compass",
-  "name": "Recovery Compass",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 1 compass surrounded by 8 echo shards",
-   "Echo shards come only from ancient city chests in the deep dark - bring wool, crouch a lot, fear the warden",
-   "The compass itself is the easy part: 4 iron ingots + 1 redstone dust"
-  ],
-  "uses": [
-   "Points to your last death location - hold it and follow the needle to recover your dropped items",
-   "Only works for a player who has died before, in the same dimension as the death: in any other case it spins randomly",
-   "Essential for deep dark, Nether roof and end-city corpse runs where coordinates got lost with the death screen",
-   "Useless in hardcore mode - no respawn, no corpse, no point",
-   "It drops like any normal item when you die again (unless keepInventory is on), so do not die twice on the way back"
-  ],
-  "renewable": "Not renewable: echo shards are finite chest loot, though ancient cities are generous enough that one city usually covers several compasses.",
-  "editionNote": "Same behavior in both editions. Bedrock-only quirks: it can be enchanted, and its needle even works in the crafting-preview menu before you craft it.",
-  "since": "1.19 (The Wild Update)",
-  "related": [
-   "echo-shard",
-   "totem-of-undying"
-  ],
-  "keywords": "recovery compass minecraft echo shard last death location find items ancient city deep dark"
- },
- {
-  "slug": "lead",
-  "name": "Lead",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 5 string in a W pattern makes 2 leads - no slimeball needed since 1.21.6 (Chase the Skies)",
-   "Free leads from wandering traders: detach their trader llamas (shears, boats, or distance) and the leads drop",
-   "Also found in buried treasure, woodland mansion and trail ruins chests"
-  ],
-  "uses": [
-   "Leash a mob by using the lead on it, then walk - it follows. Each mob needs its own lead, but you can drag a whole train",
-   "Tie a leashed mob to a fence (use the fence while sneaking) so it stays put - the classic pasture post",
-   "Leash two mobs together directly since 1.21.6, and snip any leash cleanly with shears",
-   "Leashable crowd: horses, cows, sheep, pigs, llamas, camels, goats, frogs, axolotls, bees, sniffers, striders, happy ghasts, boats and more - even hoglins and zoglins if you are brave",
-   "Careful: leads snap past 12 blocks (16 for happy ghasts), and boosting with a firework on elytra breaks every attached lead"
-  ],
-  "renewable": "Renewable: string is farmable from spiders and cobwebs.",
-  "editionNote": "Same recipe and behavior in Java and Bedrock since 1.21.6. Before that update the recipe was 4 string + 1 slimeball, so old guides showing slimeballs are outdated.",
-  "since": "Alpha v1.0.17 (2010); receta actual: 1.21.6",
-  "related": [
-   "slimeball",
-   "harness"
-  ],
-  "keywords": "lead minecraft how to craft lead leash mobs fence tie slimeball wandering trader happy ghast"
- },
- {
-  "slug": "firework-rocket",
-  "name": "Firework Rocket",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Craft it: 1 paper + 1-3 gunpowder makes 3 rockets - more gunpowder means longer flight duration (up to 3)",
-   "Add firework stars (up to 7) in the remaining slots for colored, shaped, damaging explosions",
-   "Farm the inputs: sugar cane for paper, creepers for gunpowder - a creeper farm is an elytra fuel station"
-  ],
-  "uses": [
-   "Elytra boosting: use a rocket mid-glide to propel yourself at 33.5 blocks per second - flight duration 1/2/3 boosts for roughly 1.5/2/2.5 seconds",
-   "NEVER boost with a star-loaded rocket: the explosion damages YOU on detonation. Keep a separate stack of plain paper+gunpowder rockets for flying",
-   "Crossbow ammo: rockets fired from crossbows only deal damage if they carry firework stars, and more stars mean more damage; Multishot fires 3 at once, Piercing does nothing to them",
-   "Launch by hand or from dispensers for celebrations - and remember using a firework while gliding snaps every lead attached to you"
-  ],
-  "renewable": "Renewable without stars (paper + gunpowder are farmable); star effects need finite rarities like diamonds or heads for the fancy trails.",
-  "editionNote": "Same crafting and boosting in Java and Bedrock. Explosion damage from star rockets applies to the boosting player in both editions - the plain-rocket rule for elytra is universal.",
-  "since": "1.4.6 (2012); elytra boost: 1.11.1",
-  "related": [
-   "gunpowder",
-   "stick"
-  ],
-  "keywords": "firework rocket minecraft elytra boost how to craft fireworks flight duration crossbow ammo creeper farm"
- },
- {
-  "slug": "torchflower-seeds",
-  "name": "Torchflower Seeds",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Sniffers dig them up: when a sniffer finishes digging, there is a 50% chance the drop is torchflower seeds (otherwise a pitcher pod)",
-   "Digging only works on dirt, grass blocks, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - NOT mycelium",
-   "Sniffers hatch from sniffer eggs, found by brushing suspicious sand in warm ocean ruins"
-  ],
-  "uses": [
-   "Plant on farmland: grows through 3 stages into a torchflower - mature crops drop 1 torchflower but NO seed back, so keep sniffers digging to stay stocked",
-   "Torchflowers craft into orange dye and work as decoration",
-   "Breed sniffers and chickens with the seeds, and speed up snifflet and chick growth by 10% per feed",
-   "Farmer villagers can plant torchflower seeds but cannot harvest the mature crop (works as intended) - no fully automatic villager farm"
-  ],
-  "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
-  "editionNote": "Identical digging, farming and breeding in Java and Bedrock, including the no-seed-back mature drop and the villager harvest limitation.",
-  "since": "1.20 (Trails & Tales)",
-  "related": [
-   "pitcher-pod",
-   "golden-dandelion"
-  ],
-  "keywords": "torchflower seeds minecraft sniffer digging ancient seeds orange dye breed sniffer"
- },
- {
-  "slug": "pitcher-pod",
-  "name": "Pitcher Pod",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Sniffers dig them up: when a sniffer finishes digging and the roll is not torchflower seeds, it drops a pitcher pod",
-   "Same digging rules: dirt, grass, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - never mycelium",
-   "Get sniffers first: brush suspicious sand at warm ocean ruins for sniffer eggs"
-  ],
-  "uses": [
-   "Plant on farmland: grows through 5 stages into a pitcher plant, a striking two-block-tall flower",
-   "Pitcher plants craft into 2 cyan dye each - a renewable cyan source once your sniffer farm is running",
-   "Decoration star: the pitcher plant is one of the tallest flowers in the game, perfect for greenhouse builds",
-   "Like torchflowers, farmer villagers plant the crop but will not harvest it when mature"
-  ],
-  "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
-  "editionNote": "Same behavior in Java and Bedrock: same digging block list, same 5-stage growth, same cyan dye yield.",
-  "since": "1.20 (Trails & Tales)",
-  "related": [
-   "torchflower-seeds",
-   "golden-dandelion"
-  ],
-  "keywords": "pitcher pod minecraft pitcher plant sniffer ancient seeds cyan dye two block flower"
- },
- {
-  "slug": "sniffer-egg",
-  "name": "Sniffer Egg",
-  "category": "Block",
-  "stackSize": "64",
-  "howToGet": [
-   "Brush suspicious sand at warm ocean ruins - sniffer eggs are one of its exclusive loot drops",
-   "Or breed two sniffers with torchflower seeds: the egg drops as an item (unlike turtle eggs, which get placed)",
-   "Once placed, it mines with any tool or bare hands and always drops itself - no Silk Touch needed"
-  ],
-  "uses": [
-   "Place it and wait: the egg cracks twice and hatches into a snifflet (baby sniffer)",
-   "Hatching takes 10 minutes on moss blocks, 20 minutes on any other block (pale moss counts as other)",
-   "Eggs float: they need no supporting block and ignore gravity, so floating hatcheries are legal",
-   "In Java, hatching ignores the randomTickSpeed gamerule - you cannot speed it up with commands",
-   "Grow up your snifflet with torchflower seeds, then breed the adults for an egg-positive sniffer farm"
-  ],
-  "renewable": "Renewable: once you have two sniffers, breeding produces more eggs indefinitely.",
-  "editionNote": "Same hatching and breeding in Java and Bedrock. Cosmetic difference: the egg block is transparent in Bedrock, opaque in Java. The no-Silk-Touch and no-support-block behaviors are intended in both.",
-  "since": "1.20 (Trails & Tales)",
-  "related": [
-   "torchflower-seeds",
-   "pitcher-pod"
-  ],
-  "keywords": "sniffer egg minecraft how to hatch sniffer egg warm ocean ruins suspicious sand snifflet moss"
- },
- {
-  "slug": "armor-stand",
-  "name": "Armor Stand",
-  "category": "Decoration",
-  "stackSize": "16",
-  "howToGet": [
-   "Craft it: 6 sticks + 1 smooth stone slab (smooth stone comes from smelting stone a second time)",
-   "Fully renewable: sticks from planks, smooth stone from cobblestone smelted twice",
-   "It is an entity, not a block - place it on solid ground with room above"
-  ],
-  "uses": [
-   "Display armor, mob heads, carved pumpkins and elytra: use the item on the stand, use again with an empty hand to take it back",
-   "Eight orientations when placing - angle your body to face the stand the way you want",
-   "Arms: Bedrock stands have arms by default and can hold any item; in Java, arms need the ShowArms NBT tag (commands or editors)",
-   "Posing: in Bedrock, sneak + use cycles through preset poses; in Java, poses require commands",
-   "Redstone toy: stands are living entities - pistons push them, water drags them, fishing rods pull them, slime blocks bounce them"
-  ],
-  "renewable": "Renewable: sticks and stone are farmable.",
-  "editionNote": "Big edition gap: Bedrock stacks to 64 and has arms and poses built in; Java stacks to 16 and needs commands for both. Java stands have 20 health, Bedrock ones 6.",
-  "since": "1.8 (2014)",
-  "related": [
-   "stick",
-   "shield"
-  ],
-  "keywords": "armor stand minecraft how to craft armor stand arms pose mannequin display elytra smooth stone slab"
- },
- {
-  "slug": "honeycomb",
-  "name": "Honeycomb",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Shear a bee nest or beehive at honey level 5 (full, dripping): drops 3 honeycombs",
-   "The bees get ANGRY when sheared - place a lit campfire or soul campfire under the hive first, or use a dispenser with shears to harvest safely",
-   "Also found occasionally in structure chests"
-  ],
-  "uses": [
-   "Craft beehives (6 planks + 3 honeycombs) to relocate bee colonies to your base",
-   "Craft candles (honeycomb + string) and honeycomb blocks (4 honeycombs)",
-   "Wax copper: use a honeycomb on copper blocks, lightning rods or copper golems to freeze their oxidation state forever",
-   "Wax signs and hanging signs to lock their text - nobody (including you) can edit a waxed sign again",
-   "Honey farming loop: campfire + flowers + a few bees = infinite honeycombs and honey bottles"
-  ],
-  "renewable": "Renewable: bees refill their hives as long as flowers are nearby.",
-  "editionNote": "Same harvesting, waxing and crafting in Java and Bedrock. The campfire trick and the dispenser-shear automation work identically in both.",
-  "since": "1.15 (Buzzy Bees)",
-  "related": [
-   "copper-bars",
-   "cushion"
-  ],
-  "keywords": "honeycomb minecraft how to get honeycomb beehive candle wax copper wax sign campfire bees"
- },
- {
-  "slug": "ominous-trial-key",
-  "name": "Ominous Trial Key",
-  "category": "Utility",
-  "stackSize": "64",
-  "howToGet": [
-   "Drink an ominous bottle to gain Bad Omen, then walk into a trial chamber: it becomes Trial Omen",
-   "While Trial Omen is active, trial spawners near you turn into ominous trial spawners - harder mobs, better rewards",
-   "Ominous trial spawners eject ominous trial keys as their reward (30% chance) alongside the normal loot"
-  ],
-  "uses": [
-   "Unlocks ominous vaults, the rare vault variant inside trial chambers - you must still have Trial Omen active when you open it",
-   "Ominous vault loot includes the heavy core (7.5% chance - the only source for the mace), flow and guster banner patterns, flow armor trim, enchanted golden apples and more",
-   "Each ominous vault opens once per player per world (it forgets you after 128 other players open it)"
-  ],
-  "renewable": "Yes: ominous bottles and trial chambers keep producing ominous events, so keys keep flowing.",
-  "editionNote": "Identical in both editions. Java-only quirk (bug MC-268183): a renamed ominous trial key cannot open a standard ominous vault.",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "trial-key",
-   "heavy-core",
-   "mace"
-  ],
-  "keywords": "ominous trial key how to get ominous vault loot trial omen minecraft"
- },
- {
-  "slug": "armadillo-scute",
-  "name": "Armadillo Scute",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Armadillos drop one scute naturally every 5-10 minutes - no killing needed",
-   "Brush an armadillo with the brush tool to make it drop a scute on demand (costs 16 brush durability)",
-   "Find armadillos in savanna and badlands biomes; they roll up when threatened, so approach slowly"
-  ],
-  "uses": [
-   "Craft wolf armor: 6 armadillo scutes in a helmet-like pattern",
-   "Repair wolf armor in the field: use a scute directly on the armored wolf to restore 8 durability",
-   "Repair wolf armor in an anvil: each scute restores 16 durability"
-  ],
-  "renewable": "Yes: armadillos shed scutes forever and never run out.",
-  "editionNote": "Same in both editions. A fresh unenchanted brush yields 4 scutes from brushing in Java and 5 in Bedrock (64 vs 65 brush durability).",
-  "since": "1.20.5 (Armadillo & Wolf Armor)",
-  "related": [
-   "wolf-armor"
-  ],
-  "keywords": "armadillo scute how to get brush armadillo wolf armor material minecraft"
- },
- {
-  "slug": "wolf-armor",
-  "name": "Wolf Armor",
-  "category": "Combat",
-  "stackSize": "1",
-  "howToGet": [
-   "Craft it from 6 armadillo scutes (helmet pattern: fill the top row and both side columns)",
-   "Brush armadillos or wait for their natural scute drops to gather the 6 scutes",
-   "Killed wolves always drop their equipped wolf armor, whatever kills them"
-  ],
-  "uses": [
-   "Equip it on an adult tamed wolf: the armor absorbs ALL damage to the wolf except drowning, freezing, suffocation, magic (like poison or instant damage) and thorns",
-   "64 durability: it cracks visibly as it wears down, then breaks",
-   "Repair it by using armadillo scutes on the wolf (8 durability) or in an anvil (16 per scute)",
-   "Dye it any of the 16 colors by combining it with a dye - armor looks different per wolf pack",
-   "Cannot be equipped on baby wolves or untamed wolves"
-  ],
-  "renewable": "Yes: scutes are infinitely renewable from armadillos.",
-  "editionNote": "Same in both editions. Bedrock bug: zombies, husks, zombie villagers and drowned can pick up and wear wolf armor, and it protects them. Ignore the +11 Armor tooltip in Java - it is a display bug; the armor actually blocks 100% of covered damage.",
-  "since": "1.20.5 (Armadillo & Wolf Armor)",
-  "related": [
-   "armadillo-scute"
-  ],
-  "keywords": "wolf armor minecraft how to make armadillo scute armor dye wolf armor repair"
- },
- {
-  "slug": "disc-fragment-5",
-  "name": "Disc Fragment 5",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Loot chests inside ancient cities in the deep dark - disc fragments only generate there",
-   "Expect several runs: fragments are an uncommon chest item, so sweep every chest in every city you find",
-   "Sneak past the sculk shriekers or clear the warden first - dying to him costs more than the disc is worth"
-  ],
-  "uses": [
-   "Combine 9 disc fragments in a crafting table to make the music disc \"5\" by Samuel Aberg",
-   "Play the finished disc in a jukebox - it is the eerie ambient track that tells a story through sounds",
-   "Collectible: it is one of the rarest disc paths in the game since fragments come from one structure only"
-  ],
-  "renewable": "Non-renewable: fragments only come from ancient city chests, and each world has a limited number of cities within reach.",
-  "editionNote": "Identical loot and crafting in Java and Bedrock.",
-  "since": "1.19 (The Wild Update)",
-  "related": [
-   "music-disc",
-   "echo-shard",
-   "recovery-compass"
-  ],
-  "keywords": "disc fragment 5 minecraft ancient city chest music disc 5 how to craft jukebox deep dark loot"
- },
- {
-  "slug": "dragon-breath",
-  "name": "Dragon's Breath",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Use empty glass bottles on the purple cloud left by the ender dragon's breath attack while she perches on the exit portal",
-   "Bottles also work on the effect clouds from her dragon fireballs",
-   "Resummon the dragon with 4 end crystals whenever you need to restock"
-  ],
-  "uses": [
-   "Brew any splash potion with dragon's breath to upgrade it to a lingering potion",
-   "Lingering potions leave a lasting area effect cloud and are required to craft tipped arrows",
-   "Unlocks the \"You Need a Mint\" advancement the first time you bottle it"
-  ],
-  "renewable": "Renewable: the dragon can be resummoned endlessly with end crystals, and each fight leaves plenty of breath clouds.",
-  "editionNote": "Same mechanic in Java and Bedrock. Tip: brewing with 2 or more dragon's breath leaves a spare glass bottle behind as an item.",
-  "since": "1.9 (Combat Update)",
-  "related": [
-   "dragon-egg",
-   "ender-eye",
-   "totem-of-undying"
-  ],
-  "keywords": "dragons breath minecraft how to get lingering potion brewing tipped arrows ender dragon breath bottle"
- },
- {
-  "slug": "ghast-tear",
-  "name": "Ghast Tear",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill ghasts in the Nether - they drop 0-1 tears, up to 4 with Looting III",
-   "Shoot them over land, not lava: tears burn in lava, so fight near solid ground or knock the fireball back over a ledge",
-   "Their own fireball reflected back one-shots them - the cheapest way to farm tears"
-  ],
-  "uses": [
-   "Brew with an awkward potion to make the potion of Regeneration",
-   "Craft end crystals (7 glass + eye of ender + 1 tear) to resummon the dragon or blow things up in PvP",
-   "Since 1.21.6: surround a bone block with 8 ghast tears to craft a dried ghast, which rehydrates into a ghastling"
-  ],
-  "renewable": "Renewable: ghasts spawn constantly in the Nether (soul sand valleys are full of them).",
-  "editionNote": "Identical drops and uses in Java and Bedrock.",
-  "since": "Beta 1.9 Prerelease",
-  "related": [
-   "blaze-rod",
-   "ender-eye",
-   "dried-ghast"
-  ],
-  "keywords": "ghast tear minecraft drop rate looting regeneration potion end crystal dried ghast recipe nether"
- },
- {
-  "slug": "phantom-membrane",
-  "name": "Phantom Membrane",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill phantoms - the swooping night mobs that hunt players who have not slept in 3+ days. They drop 0-1 membranes, up to 4 with Looting III",
-   "Sleep near a tamed cat: cats bring morning gifts 70% of the time, and 3.22% of those gifts are a phantom membrane",
-   "Fight phantoms over open ground at dawn - they burn in sunlight, so a morning battle is free loot"
-  ],
-  "uses": [
-   "Repair elytra on an anvil: each membrane restores 108 durability (25%) while keeping all enchantments",
-   "Brew with an awkward potion to make the potion of Slow Falling",
-   "Slow Falling potions are the safest way to fight the ender dragon's knockback and to raid end cities"
-  ],
-  "renewable": "Renewable: phantoms spawn endlessly for insomniacs, and cats keep gifting forever.",
-  "editionNote": "Identical drops and uses in Java and Bedrock.",
-  "since": "1.13 (Update Aquatic)",
-  "related": [
-   "elytra",
-   "totem-of-undying",
-   "netherite-ingot"
-  ],
-  "keywords": "phantom membrane minecraft elytra repair anvil slow falling potion cat gift phantom drop looting"
- },
- {
-  "slug": "ominous-bottle",
-  "name": "Ominous Bottle",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Kill a pillager raid captain (the one wearing the ominous banner) outside of a raid - 100% drop at level I-V",
-   "Loot vaults in trial chambers - ominous bottles appear there too, at higher levels in ominous vaults",
-   "Note: only PILLAGER captains drop it; vindicator, evoker and illusioner captains do not"
-  ],
-  "uses": [
-   "Drink it to get Bad Omen at the bottle's level for 100 minutes - you choose when to start the fun",
-   "Enter a village with Bad Omen to transform it into Raid Omen and start a raid (hero loot and discounts await)",
-   "Walk near a trial spawner to transform it into Trial Omen, converting spawners ominous for ominous trial keys",
-   "Drinking a second bottle resets the duration - and only upgrades the level if the new bottle is higher"
-  ],
-  "renewable": "Renewable: captain patrols and outposts keep spawning, and vaults restock per player.",
-  "editionNote": "Same drop and effect in both editions; the raid-level scaling from omen level is Java-only (Bedrock raids ignore the level).",
-  "since": "1.21 (Tricky Trials)",
-  "related": [
-   "trial-key",
-   "totem-of-undying",
-   "mace"
-  ],
-  "keywords": "ominous bottle minecraft bad omen how to get pillager captain raid omen trial omen drink"
- },
- {
-  "slug": "netherite-scrap",
-  "name": "Netherite Scrap",
-  "category": "Material",
-  "stackSize": "64",
-  "howToGet": [
-   "Smelt ancient debris in a furnace or blast furnace - one debris becomes one scrap",
-   "Find ancient debris in the Nether between Y=8 and Y=119, most common around Y=15 (officially peaking in the Y=8-24 band on Java, 8-23 on Bedrock)",
-   "Mine with TNT beds or pickaxes: debris is blast-resistant, so strip-mining with explosions is the classic method",
-   "Loot bastion remnant chests for ready-made scraps"
-  ],
-  "uses": [
-   "Craft 4 netherite scraps + 4 gold ingots into 1 netherite ingot",
-   "Netherite ingots upgrade diamond gear at the smithing table - the strongest equipment in the game",
-   "Like all netherite items, scrap floats in lava and survives fire in item form"
-  ],
-  "renewable": "Non-renewable: every scrap comes from finite ancient debris or bastion chests.",
-  "editionNote": "Identical in Java and Bedrock; only the peak debris band differs slightly (8-24 vs 8-23).",
-  "since": "1.16 (Nether Update)",
-  "related": [
-   "netherite-ingot",
-   "mace",
-   "elytra"
-  ],
-  "keywords": "netherite scrap minecraft ancient debris smelt y level best 15 netherite ingot craft bastion"
- }
+  {
+    "slug": "diamond",
+    "name": "Diamond",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine diamond ore or deepslate diamond ore with an iron pickaxe or better - generates from Y=16 down to bedrock, peaking around Y=-59",
+      "Loot chests in shipwrecks, buried treasure, mineshafts, bastions, end cities and strongholds",
+      "Craft from a block of diamond (9 per block)"
+    ],
+    "uses": [
+      "Craft diamond tools, weapons and armor",
+      "Craft the enchanting table (2 diamonds), jukebox (1) and firework stars with trail effect",
+      "Trade to armorer, toolsmith and weaponsmith villagers for emeralds",
+      "Duplicate smithing templates at the crafting table (7 diamonds + template + block)"
+    ],
+    "renewable": "Non-renewable as a raw item (no farm produces it), but diamond gear is renewable through villager trading.",
+    "editionNote": "Identical generation and uses in Java and Bedrock. Fortune III raises the drop to 2.2 diamonds per ore on average.",
+    "since": "Indev 0.31",
+    "related": [
+      "netherite-ingot",
+      "iron-ingot"
+    ],
+    "keywords": "diamond how to find minecraft y level fortune"
+  },
+  {
+    "slug": "netherite-ingot",
+    "name": "Netherite Ingot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft from 4 netherite scraps + 4 gold ingots (shapeless recipe)",
+      "Smelt ancient debris into netherite scraps - ancient debris generates in the Nether between Y=8 and Y=119, most common around Y=15",
+      "Loot bastion remnant treasure rooms for scraps, ingots and ancient debris"
+    ],
+    "uses": [
+      "Upgrade diamond gear to netherite on a smithing table (1 netherite upgrade smithing template + 1 ingot per piece)",
+      "Netherite items float in lava, never burn, and have higher durability, damage and knockback resistance than diamond",
+      "Craft lodestone (8 chiseled stone bricks + 1 ingot)"
+    ],
+    "renewable": "Non-renewable: ancient debris does not regenerate and no farm produces it.",
+    "editionNote": "Identical in Java and Bedrock. Ancient debris never generates exposed to air, so strip mining or bed/TNT blasting at Y=15 is the standard method.",
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "diamond",
+      "nether-star"
+    ],
+    "keywords": "netherite ingot ancient debris how to get y level upgrade smithing"
+  },
+  {
+    "slug": "iron-ingot",
+    "name": "Iron Ingot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Smelt iron ore or raw iron - ore generates in two batches (peak around Y=16 and Y=232 in mountains)",
+      "Iron golem drops 3-5 per kill: the basis of iron farms",
+      "Craft from 9 iron nuggets or a block of iron",
+      "Loot village, mineshaft, dungeon and shipwreck chests"
+    ],
+    "uses": [
+      "The workhorse crafting material: tools, armor, buckets, anvils, hoppers, pistons, shields, shears, rails and more",
+      "Craft a block of iron (9 ingots) for beacons and iron golems",
+      "Trade to armorer, toolsmith and weaponsmith villagers (4 ingots per emerald)"
+    ],
+    "renewable": "Renewable via iron golem farms, zombie drops (rare) and bartering-adjacent sources.",
+    "editionNote": "Identical in both editions. Iron golem farm designs differ heavily between Java (villager gossip/panic) and Bedrock (beds + villagers).",
+    "since": "Classic 0.31",
+    "related": [
+      "diamond",
+      "netherite-ingot"
+    ],
+    "keywords": "iron ingot how to get farm iron golem minecraft"
+  },
+  {
+    "slug": "ender-pearl",
+    "name": "Ender Pearl",
+    "category": "Material",
+    "stackSize": "16",
+    "howToGet": [
+      "Kill endermen: 0-1 pearls, up to 4 with Looting III",
+      "Trade with expert cleric villagers: 5 emeralds per pearl",
+      "Barter gold ingots with piglins (small chance, 2-4 pearls)",
+      "Loot stronghold altar chests"
+    ],
+    "uses": [
+      "Craft eyes of ender (pearl + blaze powder) to find and activate the End portal",
+      "Thrown pearls teleport you where they land, dealing 5 fall damage - the classic escape and traversal tool",
+      "Pearl teleporting works across dimensions and can clip through 1-block ceilings"
+    ],
+    "renewable": "Renewable via enderman farms (the fastest source), cleric trading and piglin bartering.",
+    "editionNote": "In Java, thrown pearls create a 10-second chunk-loading ticket. In Bedrock there is no such mechanic - pearl cannons and chunk loaders do not work.",
+    "since": "Beta 1.8",
+    "related": [
+      "blaze-rod",
+      "ender-eye"
+    ],
+    "keywords": "ender pearl how to get enderman farm cleric trade teleport"
+  },
+  {
+    "slug": "blaze-rod",
+    "name": "Blaze Rod",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill blazes in Nether fortresses: 0-1 rods, up to 4 with Looting III - blaze spawners in fortresses make this farmable",
+      "No other source: blazes are the only mob that drops them"
+    ],
+    "uses": [
+      "Craft blaze powder (1 rod = 2 powder): fuel for the brewing stand and ingredient for eyes of ender",
+      "Brewing stand fuel: 1 powder brews 20 batches",
+      "Craft the brewing stand itself (1 rod + 3 cobblestone)"
+    ],
+    "renewable": "Renewable via blaze spawner farms in Nether fortresses.",
+    "editionNote": "Identical in Java and Bedrock. Blazes only spawn in fortress bounding boxes, so farms must be built inside a fortress.",
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "ender-pearl",
+      "nether-star"
+    ],
+    "keywords": "blaze rod how to get blaze farm brewing fuel"
+  },
+  {
+    "slug": "totem-of-undying",
+    "name": "Totem of Undying",
+    "category": "Combat",
+    "stackSize": "1",
+    "howToGet": [
+      "Kill an evoker (woodland mansions and raid waves): always drops exactly 1, unaffected by Looting",
+      "Raid farms make totems fully farmable - evokers spawn in raid waves 5+"
+    ],
+    "uses": [
+      "Hold it in either hand: when you would die, it is consumed instead, restoring you to 1 heart with status effects",
+      "Java Edition: Regeneration II for 45s, Fire Resistance I for 40s and Absorption I for 5s. Bedrock Edition: Regeneration II for 30s and Absorption for 5s",
+      "Only works while held - totems in your inventory or ender chest do nothing"
+    ],
+    "renewable": "Renewable via raid farms; technically unlimited.",
+    "editionNote": "Effect durations differ: Regeneration II lasts 45s in Java and 30s in Bedrock. The void kills you in both editions - a totem does not save you from /kill or void damage below the world.",
+    "since": "1.11 (Exploration Update)",
+    "related": [
+      "nether-star",
+      "elytra"
+    ],
+    "keywords": "totem of undying evoker raid farm how to get"
+  },
+  {
+    "slug": "elytra",
+    "name": "Elytra",
+    "category": "Utility",
+    "stackSize": "1",
+    "howToGet": [
+      "Found in the item frame of end ships, which generate with some end cities on the outer End islands",
+      "Kill the ender dragon first to open the gateways to the outer islands",
+      "One elytra per end ship - bring ender pearls or blocks for the bridge"
+    ],
+    "uses": [
+      "Glide: jump and press jump again mid-air to spread your wings; firework rockets boost you",
+      "Repair on an anvil with phantom membranes (or combine two damaged elytra); Mending is strongly recommended",
+      "Pair with Unbreaking III: 432 base durability lasts roughly 28 minutes of flight per point of wear"
+    ],
+    "renewable": "Not farmable, but effectively unlimited: end cities generate endlessly outward on the outer islands.",
+    "editionNote": "Identical flight mechanics in both editions. Firework rocket boosting works the same in Java and Bedrock.",
+    "since": "1.9 (Combat Update)",
+    "related": [
+      "totem-of-undying",
+      "nether-star"
+    ],
+    "keywords": "elytra how to find end ship city fly fireworks repair"
+  },
+  {
+    "slug": "trident",
+    "name": "Trident",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Dropped only by drowned holding a trident - never craftable",
+      "Java: 6.25% of drowned spawn with one, 8.5% drop chance (+1% per Looting level)",
+      "Bedrock: 15% of drowned spawn with one, 25% drop chance (+4% per Looting level)",
+      "Drowned farms (river or converted zombie designs) are the practical source"
+    ],
+    "uses": [
+      "Melee (9 damage) and throwable weapon - it comes back with Loyalty",
+      "Exclusive enchantments: Loyalty (returns), Channeling (summons lightning in thunderstorms), Riptide (launches you in water/rain), Impaling (bonus damage vs aquatic mobs)",
+      "Riptide tridents are the fastest pre-elytra travel in rain"
+    ],
+    "renewable": "Renewable via drowned farms; repair by combining two tridents or with Mending.",
+    "editionNote": "Drop rates are much better in Bedrock (25% vs 8.5% base). Impaling also differs: in Bedrock it damages any mob touching water or standing in rain; in Java it only affects aquatic mobs.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "elytra",
+      "totem-of-undying"
+    ],
+    "keywords": "trident how to get drowned drop rate riptide channeling loyalty"
+  },
+  {
+    "slug": "nether-star",
+    "name": "Nether Star",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Dropped by the Wither: exactly 1 per kill (Java: unaffected by Looting; the drop cannot burn or despawn for 10 minutes)",
+      "Summon the Wither with 4 soul sand/soil in a T plus 3 wither skeleton skulls",
+      "Farm wither skeletons in Nether fortresses for skulls (2.5% base, up to 5.5% with Looting III in Java)"
+    ],
+    "uses": [
+      "Craft the beacon (5 glass + 3 obsidian + 1 nether star) for area status effects and a light beam",
+      "Beacons need a pyramid of iron, gold, diamond, emerald or netherite blocks underneath"
+    ],
+    "renewable": "Renewable: the Wither can be summoned and killed repeatedly.",
+    "editionNote": "In Java the nether star cannot be destroyed by explosions and despawns only after 10 minutes; in Bedrock it can be destroyed by explosions - keep it away from the Wither fight.",
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "blaze-rod",
+      "netherite-ingot"
+    ],
+    "keywords": "nether star wither beacon how to get skull farm"
+  },
+  {
+    "slug": "slimeball",
+    "name": "Slimeball",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill tiny slimes: 0-2 slimeballs, up to 5 with Looting III - slimes spawn in slime chunks below Y=40 or in swamps at night (peaks at full moon)",
+      "Baby pandas have a rare chance to sneeze out a slimeball",
+      "Slime farms on slime chunks are the bulk source"
+    ],
+    "uses": [
+      "Sticky pistons (the heart of most redstone contraptions)",
+      "Slime blocks (9 slimeballs) for flying machines, bounce pads and entity launchers",
+      "Leads (4 string + 1 slimeball) and magma cream (with blaze powder)"
+    ],
+    "renewable": "Renewable via slime farms and panda farms.",
+    "editionNote": "Slime chunk locations are identical between editions for the same seed. Swamp spawning depends on the moon phase in both editions.",
+    "since": "Alpha 1.0.11",
+    "related": [
+      "gunpowder",
+      "blaze-rod"
+    ],
+    "keywords": "slimeball how to get slime chunk farm sticky piston"
+  },
+  {
+    "slug": "emerald",
+    "name": "Emerald",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Trade with villagers - the main source; sell crops, sticks, paper and more",
+      "Mine emerald ore in mountains and windswept hills (Y=-16 to 320, most common around Y=236) with an iron pickaxe or better",
+      "Loot chests in villages, shipwrecks, buried treasure and trial chambers",
+      "Dropped by vindicators and evokers in raids"
+    ],
+    "uses": [
+      "Currency for all villager and wandering trader trades",
+      "Beacons: feed emeralds to select powers",
+      "Blocks of emerald for beacon pyramids and decoration"
+    ],
+    "renewable": "Yes, through villager trading",
+    "editionNote": "Identical in Java and Bedrock. Emerald ore is the rarest Overworld ore; deepslate emerald ore (below Y=0 in mountains) is the rarest block variant in the game.",
+    "since": "1.3.1 (12w21a)",
+    "related": [
+      "diamond",
+      "iron-ingot",
+      "gold-ingot"
+    ],
+    "keywords": "emerald villager trading currency mountain ore"
+  },
+  {
+    "slug": "gold-ingot",
+    "name": "Gold Ingot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Smelt gold ore or deepslate gold ore (Overworld, most common below Y=32 and in badlands where it generates up to Y=256)",
+      "Mine nether gold ore with any pickaxe - drops 2-6 gold nuggets (up to 24 with Fortune III)",
+      "Kill zombified piglins (drop nuggets, occasionally ingots)",
+      "Loot bastions, ruined portals, shipwrecks and buried treasure"
+    ],
+    "uses": [
+      "Barter with piglins: throw an ingot for random loot (ender pearls, obsidian, quartz...)",
+      "Craft golden tools, armor, clocks, golden apples, powered rails and gold blocks",
+      "Golden carrots (8 nuggets + carrot) - one of the best foods",
+      "Craft netherite ingots: 4 gold + 4 netherite scraps"
+    ],
+    "renewable": "Yes, via zombified piglin farms and bartering",
+    "editionNote": "Identical in Java and Bedrock. Piglins in the Nether become hostile unless you wear at least one piece of gold armor - gold's most important 'use' is wearing it there.",
+    "since": "Indev 0.31",
+    "related": [
+      "netherite-ingot",
+      "iron-ingot",
+      "diamond"
+    ],
+    "keywords": "gold ingot piglin bartering nether badlands nuggets"
+  },
+  {
+    "slug": "redstone-dust",
+    "name": "Redstone Dust",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine redstone ore or deepslate redstone ore with an iron pickaxe or better - generates Y=-64 to 16, most common around Y=-59; each ore drops 4-5 dust (more with Fortune)",
+      "Kill witches (4-8 dust)",
+      "Trade with cleric villagers",
+      "Loot jungle temples, dungeons, mineshafts and trial chambers"
+    ],
+    "uses": [
+      "Power and wire redstone contraptions: pistons, farms, doors, traps",
+      "Brew potions - redstone extends potion duration",
+      "Craft repeaters, comparators, pistons, observers, dispensers, powered rails, clocks, compasses",
+      "Activate blocks directly by placing dust trails"
+    ],
+    "renewable": "Yes, via witches and cleric trades",
+    "editionNote": "Identical in Java and Bedrock. Redstone mechanics differ between editions though: Java has quasi-connectivity and 1-tick pulses; Bedrock pistons behave differently. Contraption tutorials are edition-specific.",
+    "since": "Alpha 1.0.1",
+    "related": [
+      "iron-ingot",
+      "emerald",
+      "diamond"
+    ],
+    "keywords": "redstone dust ore contraptions wiring potions"
+  },
+  {
+    "slug": "obsidian",
+    "name": "Obsidian",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Pour water over lava source blocks - the classic method",
+      "Loot ruined portals and bastion chests",
+      "Barter with piglins (chance per gold ingot)",
+      "The End's obsidian pillars and platform regenerate - mine them"
+    ],
+    "uses": [
+      "Build nether portals (minimum 10 obsidian)",
+      "Craft enchanting tables (4), beacons (3), ender chests (8) and end crystals",
+      "Blast-proof building (1,200 blast resistance - creepers and TNT cannot break it)"
+    ],
+    "renewable": "Yes - the End's obsidian platform regenerates whenever an entity enters the End, enabling farms",
+    "editionNote": "Identical in both editions: minable only with a diamond or netherite pickaxe (9.4s with diamond), immune to explosions, movable by pistons unlike bedrock. Crying obsidian (bartering/ruined portals) cannot build portals.",
+    "since": "Classic 0.28",
+    "related": [
+      "diamond",
+      "nether-star",
+      "gold-ingot"
+    ],
+    "keywords": "obsidian nether portal blast proof enchanting table ender chest"
+  },
+  {
+    "slug": "ancient-debris",
+    "name": "Ancient Debris",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine in the Nether with a diamond or netherite pickaxe - most common around Y=15, generating between Y=8 and Y=119 (never exposed to air)",
+      "Bed or TNT mining: explosions clear netherrack while blast-resistant debris survives",
+      "Loot bastion remnant treasure rooms (chance of 1-2)"
+    ],
+    "uses": [
+      "Smelt into netherite scraps; 4 scraps + 4 gold ingots = 1 netherite ingot",
+      "Blast-proof decoration block"
+    ],
+    "renewable": "No - finite per world, though worlds are effectively endless",
+    "editionNote": "Identical in Java and Bedrock: same generation range and Y=15 peak. It never generates exposed to air, so branch mining or explosions are required - you will never spot it in an open cave.",
+    "since": "1.16 (20w06a)",
+    "related": [
+      "netherite-ingot",
+      "gold-ingot",
+      "diamond"
+    ],
+    "keywords": "ancient debris netherite mining y15 bed explosion nether"
+  },
+  {
+    "slug": "shulker-shell",
+    "name": "Shulker Shell",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill shulkers in End cities - about a 50% drop chance, increased by Looting",
+      "In Java, a shulker hit by another shulker's bullet can duplicate - shulker farms exploit this"
+    ],
+    "uses": [
+      "Craft shulker boxes (2 shells + 1 chest): portable 27-slot storage that keeps its contents when broken",
+      "Dyed shulker boxes for color-coded storage systems"
+    ],
+    "renewable": "Yes in Java via shulker duplication farms; in Bedrock it is finite without re-looting cities",
+    "editionNote": "Drop rate differs: Java ~50% base (+6.25% per Looting level); Bedrock 0-1 shells with Looting affecting quantity. Duplication when hit by shulker bullets is a Java-only mechanic.",
+    "since": "1.11 (16w39a)",
+    "related": [
+      "elytra",
+      "nether-star",
+      "totem-of-undying"
+    ],
+    "keywords": "shulker shell box storage end city farm duplication"
+  },
+  {
+    "slug": "heart-of-the-sea",
+    "name": "Heart of the Sea",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Find buried treasure: every buried treasure chest contains exactly one Heart of the Sea",
+      "Get treasure maps from shipwreck map chests and ocean ruins, then dig at the red X (usually on beaches)"
+    ],
+    "uses": [
+      "Craft a conduit (1 heart + 8 nautilus shells) for underwater breathing, night vision and haste"
+    ],
+    "renewable": "No per chest, but buried treasure generates infinitely across a world's coastlines",
+    "editionNote": "Identical in Java and Bedrock: one per buried treasure chest, no other source. In Java the chest always generates at chunk coordinates 9,9 - dig there at the X.",
+    "since": "1.13 (18w15a)",
+    "related": [
+      "shulker-shell",
+      "nether-star",
+      "diamond"
+    ],
+    "keywords": "heart of the sea buried treasure map conduit"
+  },
+  {
+    "slug": "breeze-rod",
+    "name": "Breeze Rod",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill breezes in Trial Chambers - each drops 1-2 breeze rods (more with Looting)",
+      "Trial chambers generate underground in the Overworld; find them via exploration or trial explorer maps from cartographers"
+    ],
+    "uses": [
+      "Craft wind charges (4 per rod) - throwable knockback bursts that also self-launch you",
+      "Craft the mace (1 breeze rod + 1 heavy core from ominous vaults)",
+      "Smash attacks with the mace scale with fall distance"
+    ],
+    "renewable": "Yes - breezes respawn from their trial spawners on cooldown",
+    "editionNote": "Identical in Java and Bedrock: same drops and recipes. Wind charge fall-damage negation and mace smash mechanics match across editions since 1.21.",
+    "since": "1.21 (24w11a)",
+    "related": [
+      "trident",
+      "nether-star",
+      "totem-of-undying"
+    ],
+    "keywords": "breeze rod trial chambers wind charge mace heavy core"
+  },
+  {
+    "slug": "gunpowder",
+    "name": "Gunpowder",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill creepers (0-2, up to 5 with Looting III) before they explode",
+      "Kill ghasts (0-2) and witches (4-8)",
+      "Loot desert temples, shipwrecks, dungeons and woodland mansions"
+    ],
+    "uses": [
+      "Craft TNT (5 gunpowder + 4 sand)",
+      "Brew splash potions (gunpowder + any potion)",
+      "Craft firework rockets (1-3 gunpowder for flight duration) and fire charges",
+      "Craft firework stars for explosion effects"
+    ],
+    "renewable": "Yes - creeper farms are a late-game staple for rocket fuel",
+    "editionNote": "Identical in Java and Bedrock. Looting dramatically improves creeper drops; a good creeper farm is how elytra players keep fireworks stocked.",
+    "since": "Indev 0.31",
+    "related": [
+      "slimeball",
+      "blaze-rod",
+      "ender-pearl"
+    ],
+    "keywords": "gunpowder creeper tnt fireworks rockets splash potion"
+  },
+  {
+    "slug": "ender-eye",
+    "name": "Eye of Ender",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft from 1 blaze powder + 1 ender pearl",
+      "Buy from cleric villagers (expert level) for emeralds",
+      "Loot stronghold altar chests (rare)"
+    ],
+    "uses": [
+      "Locate strongholds: throw it and it flies toward the nearest stronghold (~12 blocks before falling, 20% chance to shatter)",
+      "Activate the End portal: insert one into each of the 12 portal frames",
+      "Craft ender chests (8 obsidian + 1 eye) and end crystals"
+    ],
+    "renewable": "Yes, via ender pearls and blaze powder farms",
+    "editionNote": "Identical in Java and Bedrock. Bring 12-15 eyes for the trip: some shatter in flight and you need up to 12 for the portal frames (each frame has a 10% chance to generate pre-filled).",
+    "since": "Beta 1.9-pre3",
+    "related": [
+      "ender-pearl",
+      "blaze-rod",
+      "elytra"
+    ],
+    "keywords": "eye of ender stronghold end portal find craft blaze powder pearl"
+  },
+  {
+    "slug": "golden-dandelion",
+    "name": "Golden Dandelion",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 8 gold nuggets surrounding 1 dandelion at a crafting table",
+      "Buy it from the wandering trader for 2 emeralds when it has one on offer (about a 7% chance per visit)",
+      "In Bedrock, a wandering trader showing it as an offer can drop one when killed while you hold an emerald (25%, +1% per Looting level)"
+    ],
+    "uses": [
+      "Feed to a baby mob (anything that ages except villagers) to lock its age: it never grows up and never despawns. Feed a second golden dandelion to undo it",
+      "Brew no potions, but craft suspicious stew with it for a short Saturation effect",
+      "Craft yellow dye (1 per flower) or use it as decoration, including in flower pots"
+    ],
+    "renewable": "Yes - craftable from gold nuggets (renewable via zombified piglins) and dandelions (bonemeal on grass).",
+    "editionNote": "Age-locking works the same in Java and Bedrock. Bedrock differences: golden dandelions can't be duplicated with bonemeal like other small flowers, and wandering traders can drop them as loot. Piglins inspect dropped ones for 6s (Java) or 8s (Bedrock).",
+    "since": "26.1 (Tiny Takeover)",
+    "related": [
+      "gold-ingot",
+      "emerald"
+    ],
+    "keywords": "golden dandelion baby mob stop growing age lock forever young craft gold nuggets"
+  },
+  {
+    "slug": "sulfur",
+    "name": "Sulfur",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine it in sulfur caves, the cave biome added in 26.2: sulfur generates throughout the biome, in sulfur pools and around sulfur springs",
+      "Craft a block from 4 sulfur spikes in a 2x2 pattern",
+      "Any pickaxe works; mined by hand or with the wrong tool it drops nothing"
+    ],
+    "uses": [
+      "Building block with a strong yellow tone (shows yellow on maps)",
+      "Cut the full decorative family at a stonecutter: sulfur slab, stairs and wall, polished sulfur (plus its slab/stair/wall), sulfur bricks (plus slab/stair/wall) and chiseled sulfur"
+    ],
+    "renewable": "Yes.",
+    "editionNote": "Identical generation and variants in Java (26.2) and Bedrock (26.30). A short-lived snapshot recipe that crafted sulfur back from potent sulfur was removed before release and never shipped.",
+    "since": "26.2 (Chaos Cubed)",
+    "related": [
+      "cinnabar",
+      "redstone-dust"
+    ],
+    "keywords": "sulfur block sulfur caves where to find stonecutter polished sulfur bricks chiseled"
+  },
+  {
+    "slug": "cinnabar",
+    "name": "Cinnabar",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine it in sulfur caves alongside sulfur: it generates throughout the biome and as part of sulfur springs",
+      "Any pickaxe works; without one the block drops nothing",
+      "There is no recipe or farm: cinnabar is finite, so explore deeper caves when an area runs dry"
+    ],
+    "uses": [
+      "Decorative red stone-variant building block",
+      "Cut the full family at a stonecutter: cinnabar slab, stairs and wall, polished cinnabar (plus its slab/stair/wall), cinnabar bricks (plus slab/stair/wall) and chiseled cinnabar"
+    ],
+    "renewable": "No - cinnabar cannot be farmed or crafted; what generates in the world is all there is.",
+    "editionNote": "Same generation and decorative variants in Java (26.2) and Bedrock (26.30). Real-world trivia: cinnabar is a toxic red mercury-sulfur mineral, historically used as a red pigment.",
+    "since": "26.2 (Chaos Cubed)",
+    "related": [
+      "sulfur",
+      "redstone-dust"
+    ],
+    "keywords": "cinnabar block sulfur caves red stone decorative stonecutter polished bricks chiseled"
+  },
+  {
+    "slug": "straw-bed",
+    "name": "Straw Bed",
+    "category": "Utility",
+    "stackSize": "16",
+    "howToGet": [
+      "Craft 4 straw beds at once from 3 hay bales in a row",
+      "Find them inside abandoned camps, the 26.3 structure in dappled forests - they generate there naturally and as loot",
+      "A hoe breaks them fastest; they drop themselves unless broken after sleeping"
+    ],
+    "uses": [
+      "Sleep through the night WITHOUT resetting your spawn point - the key difference from a regular bed",
+      "Single-use: it breaks with no drops when you wake up or leave it mid-sleep, so carry several on trips",
+      "Sleeping still clears the weather and keeps phantoms away for three in-game days",
+      "Safe in the Nether and the End: instead of exploding like a bed, it just destroys itself"
+    ],
+    "renewable": "Yes - hay bales come from wheat, so straw beds are infinitely craftable at any wheat farm.",
+    "editionNote": "Same single-use behavior in Java and Bedrock. It is not bouncy, does not reduce fall damage like a hay bale, and villagers completely ignore it as a bed. The inventory icons are deliberately different between the two editions.",
+    "since": "26.3 (Wilderness Bound)",
+    "related": [
+      "elytra",
+      "ender-pearl"
+    ],
+    "keywords": "straw bed sleep without setting spawn point single use bed craft hay bale abandoned camp travel"
+  },
+  {
+    "slug": "poplar-log",
+    "name": "Poplar Log",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Chop poplar trees in the dappled forest biome (26.3) - their leaves come in red, orange and yellow variants",
+      "Collect fallen poplar trunks lying on the dappled forest floor for free starter logs",
+      "Loot them from abandoned camps, where poplar logs also generate as part of the structure"
+    ],
+    "uses": [
+      "Craft poplar planks (4 per log) and build the poplar wood set, exactly like any other log family",
+      "Strip it with an axe for the stripped poplar log variant",
+      "Smelt into charcoal or burn it as furnace fuel, like all logs"
+    ],
+    "renewable": "Yes - poplar trees regrow from saplings like any other tree.",
+    "editionNote": "Behaves like every other log in Java and Bedrock. Poplar is the tenth log family, after oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry and pale oak.",
+    "since": "26.3 (Wilderness Bound)",
+    "related": [
+      "straw-bed",
+      "iron-ingot"
+    ],
+    "keywords": "poplar log dappled forest new wood type 26.3 planks fallen trunk abandoned camp"
+  },
+  {
+    "slug": "spear",
+    "name": "Spear",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft any of the 6 base tiers diagonally: 2 sticks down the diagonal plus 1 material at the tip (planks, cobblestone-tier block, copper ingot, iron ingot, gold ingot or diamond)",
+      "Upgrade a diamond spear to netherite at a smithing table: netherite upgrade template + diamond spear + netherite ingot",
+      "Repair two damaged matching spears together at a crafting table to combine their durability"
+    ],
+    "uses": [
+      "Jab attack (left-click): 4.5 block reach, the longest of any weapon, but it cannot hit targets closer than 2 blocks and cannot crit or sprint-knockback",
+      "Charge attack (hold right-click): damage scales with closing speed (4.6 blocks per second minimum), adds knockback at 5.1, knocks riders off their mounts and can hit several entities in one pass",
+      "Hits through non-solid blocks like cobwebs and tall grass; in Java it can even knock primed TNT horizontally"
+    ],
+    "renewable": "Yes for wood, gold, stone, copper and iron tiers. Diamond and netherite spears are not renewable (diamonds only via vaults).",
+    "editionNote": "Jab damage is one heart higher per tier in Bedrock. Java gates jabs behind a 100% attack cooldown, while Bedrock uses an ender-pearl-style use cooldown shared across all spears in your inventory. In Java a spear can charge from the offhand; in Bedrock spears cannot be held in the offhand at all.",
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "trident"
+    ],
+    "keywords": "spear new weapon charge attack jab reach craft tiers netherite"
+  },
+  {
+    "slug": "cushion",
+    "name": "Cushion",
+    "category": "Decoration",
+    "stackSize": "16",
+    "howToGet": [
+      "Craft 3 matching wool slabs in a row for 1 cushion (16 colors; wool slabs are 3 wool for 6)",
+      "Dye an already-placed or crafted cushion with any dye to recolor it",
+      "Find them in abandoned camps, usually within 1-2 blocks of the campfire; white cushions also appear in loot chests"
+    ],
+    "uses": [
+      "Right-click to sit: while seated, portals, knockback, pistons and geysers cannot move you until you dismount",
+      "Decoration: they rest on any flat surface, including slabs, stairs lower step, snow layers, wildflowers and enchanting tables",
+      "Furnace fuel: 4 cushions smelt 1 item",
+      "Break instantly when attacked and always drop themselves, so rearranging is free"
+    ],
+    "renewable": "Yes - wool slabs come from sheep wool, and cushions always drop themselves.",
+    "editionNote": "In Java a piston breaks a cushion; in Bedrock a piston can push it if there is a block in front. Unlike wool blocks, cushions do NOT dampen sculk sensor or shrieker vibrations in either edition. On Bedrock it is currently behind the \"Drop 3 of 2026\" experiment toggle.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "wool-stairs"
+    ],
+    "keywords": "cushion sit seat decoration wool slab abandoned camp dye colors"
+  },
+  {
+    "slug": "wool-stairs",
+    "name": "Wool Stairs",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 4 stairs from 6 matching wool blocks in the classic stair shape (all 16 colors)",
+      "White wool stairs generate naturally in abandoned camps",
+      "Break them with any tool; shears are the fastest"
+    ],
+    "uses": [
+      "Soft building stairs with the full wool palette for roofs, couches and curved builds",
+      "Same wool properties as the block: flammable and vibration-dampening for sculk contraptions",
+      "Combine with wool slabs and cushions for full soft furniture sets"
+    ],
+    "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
+    "editionNote": "Works the same in Java and Bedrock (fully implemented in Bedrock 26.50). Stacks only with stairs of the same color.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "cushion"
+    ],
+    "keywords": "wool stairs 16 colors shears craft abandoned camp soft"
+  },
+  {
+    "slug": "concrete-stairs",
+    "name": "Concrete Stairs",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 4 stairs from 6 matching concrete blocks in the stair shape (all 16 colors)",
+      "Stonecut one concrete block into 1 concrete stair, no material wasted",
+      "Mine them with any pickaxe; without a pickaxe they drop nothing"
+    ],
+    "uses": [
+      "Flat-color stair detail for modern builds, matching the concrete palette",
+      "Unlike wool stairs they are fireproof, ideal near lava or fireplaces",
+      "Pair with concrete slabs for smooth gradients and pixel art edges"
+    ],
+    "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
+    "editionNote": "Works the same in Java and Bedrock, including the 1:1 stonecutter conversion.",
+    "since": "Java 26.3 / Bedrock 26.50",
+    "related": [
+      "wool-stairs"
+    ],
+    "keywords": "concrete stairs 16 colors stonecutter pickaxe modern build fireproof"
+  },
+  {
+    "slug": "wool-slab",
+    "name": "Wool Slab",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 6 slabs from 3 matching wool blocks in a row (all 16 colors)",
+      "Break them with any tool; shears are the fastest",
+      "Craft 3 of them in a row into a cushion of the same color"
+    ],
+    "uses": [
+      "Half-height soft block for furniture, gentle slopes and color gradients with the wool palette",
+      "Flammable and vibration-dampening like full wool, useful in sculk-safe floors",
+      "Burns as furnace fuel - a handy way to clear spare slabs"
+    ],
+    "renewable": "Yes - wool comes from sheep, which regrow it after shearing.",
+    "editionNote": "Works the same in Java and Bedrock (fully implemented in Bedrock 26.50). Stacks only with slabs of the same color.",
+    "since": "Java 26.3 / Bedrock 26.40",
+    "related": [
+      "wool-stairs",
+      "cushion"
+    ],
+    "keywords": "wool slab 16 colors shears craft cushion soft sculk"
+  },
+  {
+    "slug": "concrete-slab",
+    "name": "Concrete Slab",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 6 slabs from 3 matching concrete blocks in a row (all 16 colors)",
+      "Stonecut one concrete block into 1 concrete slab, no material wasted",
+      "Mine them with any pickaxe; without a pickaxe they drop nothing"
+    ],
+    "uses": [
+      "Half-height flat-color block for modern floors, paths and pixel art",
+      "Fireproof alternative to wool slabs near lava and fireplaces",
+      "Pair with concrete stairs for smooth modern exteriors"
+    ],
+    "renewable": "Yes - concrete comes from concrete powder (sand, gravel and dye) plus water, all renewable.",
+    "editionNote": "Works the same in Java and Bedrock, including the 1:2 stonecutter conversion (1 concrete block = 2 slabs).",
+    "since": "Java 26.3 / Bedrock 26.50",
+    "related": [
+      "concrete-stairs",
+      "wool-slab"
+    ],
+    "keywords": "concrete slab 16 colors stonecutter pickaxe modern build fireproof"
+  },
+  {
+    "slug": "saddle",
+    "name": "Saddle",
+    "category": "Utility",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "Craft it: 3 leather + 1 iron ingot (leather on top-center and middle sides, iron in the center)",
+      "Chest loot in dungeons, mineshafts, strongholds, villages, desert and jungle pyramids, Nether fortresses and bastions",
+      "Fishing treasure (0.8%), leatherworker villager trade (8-10 emeralds), or a free drop from every ravager and strider jockey"
+    ],
+    "uses": [
+      "Ride and control horses, donkeys, mules, camels, pigs and striders - equines must be tamed first",
+      "Remove it any time from the mob's inventory; a saddled mob drops the saddle when killed",
+      "Pigs need a carrot on a stick to steer; striders need a warped fungus on a stick"
+    ],
+    "renewable": "Fully renewable: crafting, fishing, leatherworker trades and ravager drops all provide infinite saddles.",
+    "editionNote": "Same recipe and sources in Java and Bedrock. The saddle recipe exists since 1.21.6 - before that, loot and trading were the only ways.",
+    "since": "Infdev 2010 (craftable since 1.21.6)",
+    "related": [
+      "elytra",
+      "trident"
+    ],
+    "keywords": "saddle how to make craft leather iron ingot ride horse pig strider ravager fishing"
+  },
+  {
+    "slug": "name-tag",
+    "name": "Name Tag",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 paper + 1 nugget of any kind (diagonal in the grid)",
+      "Chest loot in dungeons, mineshafts, ancient cities and woodland mansions",
+      "Fishing treasure (0.8%) or librarian villager trades; in Bedrock, wandering traders can drop one"
+    ],
+    "uses": [
+      "Rename it on an anvil (1 experience level per whole stack) then use it on a mob to give it that name",
+      "Named mobs never despawn and stop counting toward the mob cap - essential for farms and pets",
+      "Easter eggs: Dinnerbone or Grumm flips the mob upside down, jeb_ makes a rainbow sheep, Toast reskins a rabbit, Johnny turns a vindicator hostile to everything"
+    ],
+    "renewable": "Renewable via crafting, fishing and librarian trades.",
+    "editionNote": "Crafting recipe and anvil naming work the same in both editions; the wandering trader drop is Bedrock-only.",
+    "since": "1.6.1 (Horse Update)",
+    "related": [
+      "saddle",
+      "totem-of-undying"
+    ],
+    "keywords": "name tag how to get craft paper nugget anvil rename despawn dinnerbone jeb_ toast johnny"
+  },
+  {
+    "slug": "turtle-scute",
+    "name": "Turtle Scute",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "The only source: a baby turtle drops exactly 1 scute when it grows into an adult",
+      "Breed turtles with seagrass, protect the eggs on the home beach, and speed growth by feeding babies seagrass (10% per use)",
+      "There is no other way - not drops, trades, chests or bartering"
+    ],
+    "uses": [
+      "Craft 5 scutes in a helmet shape into a turtle shell: a helmet that grants 10 seconds of Water Breathing when worn",
+      "Brew turtle shells into potions of the Turtle Master (Slowness + Resistance)",
+      "Villager expert clerics do not buy scutes - this is a pure progression material"
+    ],
+    "renewable": "Renewable but slow: every scute means raising a baby turtle (20 minutes base, sped up with seagrass).",
+    "editionNote": "Identical mechanics in Java and Bedrock.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "slimeball",
+      "shulker-shell"
+    ],
+    "keywords": "turtle scute how to get baby turtle grow shell helmet water breathing turtle master potion"
+  },
+  {
+    "slug": "dried-ghast",
+    "name": "Dried Ghast",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Found in soul sand valleys: a 1/3 chance of generating next to each Nether fossil",
+      "Craft it: 8 ghast tears around 1 soul sand block",
+      "Piglin bartering: about a 2.13% chance per gold ingot"
+    ],
+    "uses": [
+      "Waterlog it and wait about 20 minutes: it hydrates through visible stages and hatches into a ghastling",
+      "The ghastling grows into a happy ghast - the rideable flying mount for up to four players; feed ghastlings snowballs or golden dandelions to speed growth",
+      "Pure decoration otherwise: makes cracking ambient sounds when placed on soul sand or soul soil"
+    ],
+    "renewable": "Renewable via crafting (ghast tears farm from ghasts) and piglin bartering.",
+    "editionNote": "Identical in Java and Bedrock; mined instantly with any tool and always drops itself.",
+    "since": "1.21.6 (Chase the Skies)",
+    "related": [
+      "golden-dandelion",
+      "slimeball"
+    ],
+    "keywords": "dried ghast how to get soul sand valley nether fossil ghast tears craft waterlog ghastling happy ghast"
+  },
+  {
+    "slug": "wither-skeleton-skull",
+    "name": "Wither Skeleton Skull",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill wither skeletons in Nether fortresses: 2.5% base drop chance, player or tamed wolf kills only",
+      "Looting raises it to 5.5% max in Java (+1%/level) and 8.5% in Bedrock (+2%/level)",
+      "A wither skeleton killed by a charged creeper always drops its skull - one per explosion in Java, all of them in Bedrock"
+    ],
+    "uses": [
+      "3 skulls + 4 soul sand/soil in a T shape summon the Wither boss",
+      "Wearable as a head (and it reduces wither skeleton detection range, like other mob heads)",
+      "Decoration and note block sounds: a skull on a note block plays wither skeleton sounds"
+    ],
+    "renewable": "Renewable: wither skeletons spawn endlessly on fortress nether bricks, so skull farms exist.",
+    "editionNote": "Looting scaling differs: Java +1% per level (5.5% max), Bedrock +2% per level (8.5% max).",
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "nether-star",
+      "obsidian"
+    ],
+    "keywords": "wither skeleton skull drop chance looting farm wither boss summon soul sand fortress"
+  },
+  {
+    "slug": "echo-shard",
+    "name": "Echo Shard",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Only found in ancient city chests in the deep dark - sneak past the sculk sensors and the warden",
+      "No crafting, no trades, no mob drops: chest loot is the one and only source",
+      "Bring wool to muffle your steps while looting the city"
+    ],
+    "uses": [
+      "Craft the recovery compass: compass surrounded by 8 echo shards points to your last death location",
+      "That is its only recipe - but it turns a lost-items panic run into a guided walk",
+      "The recovery compass only works if held by the player who died, in the same dimension"
+    ],
+    "renewable": "Not renewable, but effectively plentiful: ancient cities are common in the deep dark and each holds many chests.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "heart-of-the-sea",
+      "nether-star"
+    ],
+    "keywords": "echo shard ancient city recovery compass last death location warden deep dark"
+  },
+  {
+    "slug": "nautilus-shell",
+    "name": "Nautilus Shell",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Drowned spawn holding one in their off-hand (3% Java, 8% Bedrock) and always drop it - a drowned farm is the reliable source",
+      "Rarely dropped by killed nautiluses",
+      "Fishing treasure: 0.8% base, up to 1.9% with Luck of the Sea III"
+    ],
+    "uses": [
+      "8 nautilus shells around 1 heart of the sea craft a conduit - underwater breathing, night vision and faster mining in a 32-96 block radius when framed in prismarine",
+      "Nothing else: the conduit is the entire point of collecting them",
+      "In Bedrock, wandering traders can rarely drop one (25% while offering it as a trade, if you hold an emerald)"
+    ],
+    "renewable": "Renewable via drowned farms and fishing.",
+    "editionNote": "Drowned holding chance is 3% in Java and 8% in Bedrock; converted zombies count in Bedrock too.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "heart-of-the-sea",
+      "trident"
+    ],
+    "keywords": "nautilus shell conduit drowned farm fishing heart of the sea underwater breathing"
+  },
+  {
+    "slug": "dragon-egg",
+    "name": "Dragon Egg",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Defeat the ender dragon: the egg appears on top of the exit portal - once per world in Java, twice in Bedrock (one per first and second dragon)",
+      "Do NOT punch it directly: it teleports up to 15 blocks away (31x15x31 volume)",
+      "Torch trick: break the block under it with a torch placed below so the egg falls onto it and drops as an item - or push it with a piston"
+    ],
+    "uses": [
+      "Pure trophy: the rarest block in a survival world, proof you beat the dragon",
+      "It teleports when you try to mine it, is gravity-affected, and always drops itself in explosions",
+      "No crafting, no hatching - the egg does not hatch, ever, in vanilla"
+    ],
+    "renewable": "One per world in Java (two in Bedrock). Guard it: if it falls into the exit portal or void, it is gone for good.",
+    "editionNote": "Bedrock worlds get two eggs (first and second dragon kill); Java gets one.",
+    "since": "1.0.0 (Adventure Update)",
+    "related": [
+      "elytra",
+      "nether-star"
+    ],
+    "keywords": "dragon egg how to get teleport torch piston trick ender dragon trophy hatch"
+  },
+  {
+    "slug": "shield",
+    "name": "Shield",
+    "category": "Tool",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: iron ingot in the top-center slot of a crafting table, surrounded by 6 planks in a Y shape (any wood type)",
+      "Or trade: journeyman-level armorer villagers sell shields for emeralds (Java)",
+      "Your first shield costs 1 iron and 6 planks - there is no excuse to fight skeletons without one"
+    ],
+    "uses": [
+      "Block incoming frontal attacks: hold use in Java, sneak in Bedrock - blocking starts after a 0.25-second delay",
+      "Fully negates melee, arrows and explosions from the front; attacks of 3+ damage wear its 336 durability",
+      "Watch for axes: a hit from an axe-wielding player or mob (or a warden) disables your shield for 5 seconds",
+      "Combine it with a banner in the loom to wear your design on your arm",
+      "Repair by combining two shields or with planks on an anvil"
+    ],
+    "renewable": "Fully renewable: wood and iron are farmable, and armorers sell them.",
+    "editionNote": "Blocking differs: hold right-click in Java, sneak in Bedrock. Bedrock shields knock back melee attackers.",
+    "since": "1.9 (Combat Update)",
+    "related": [
+      "iron-ingot"
+    ],
+    "keywords": "shield minecraft recipe iron planks block axe disable banner durability"
+  },
+  {
+    "slug": "spyglass",
+    "name": "Spyglass",
+    "category": "Tool",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 amethyst shard on top of 2 copper ingots in a vertical line",
+      "Amethyst shards come from harvesting fully grown amethyst clusters in geodes (Fortune helps)",
+      "Copper ingots come from smelting raw copper - one deepslate vein usually covers it"
+    ],
+    "uses": [
+      "Zoom: hold use to look through it - a narrow circular view at roughly 1/10 field of view",
+      "Scout terrain, bases, mob farms and rare biomes from far away without a single ender pearl",
+      "Using one slows you to sneaking speed, so watch your footing on cliffs",
+      "The cinematic zoom pairs great with F1 for clean screenshots"
+    ],
+    "renewable": "Fully renewable: amethyst clusters regrow and copper is abundant.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.17 (Caves & Cliffs Part I)",
+    "related": [],
+    "keywords": "spyglass minecraft recipe amethyst shard copper zoom how to make"
+  },
+  {
+    "slug": "trial-key",
+    "name": "Trial Key",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Ejected by trial spawners in trial chambers after you defeat their mob waves",
+      "Also found in decorated pots and chests inside trial chambers",
+      "Only trial chambers produce them - find a chamber deep underground (often near the deepslate layers)"
+    ],
+    "uses": [
+      "Unlock a standard vault: use the key on the vault block and it ejects loot - the key is consumed",
+      "Each vault opens once per player (it remembers up to 128 players), so bring friends rather than more keys",
+      "Ominous vaults need the rarer ominous trial key from ominous trial spawners - different key, better loot",
+      "Java quirk (bug MC-268183): a renamed or otherwise modified trial key will not open a vault"
+    ],
+    "renewable": "Renewable: trial spawners reset after a cooldown and can be farmed repeatedly.",
+    "editionNote": "Identical in Java and Bedrock, apart from the Java-only renamed-key bug.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod"
+    ],
+    "keywords": "trial key minecraft vault trial chambers trial spawner ominous unlock loot"
+  },
+  {
+    "slug": "wind-charge",
+    "name": "Wind Charge",
+    "category": "Combat",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 breeze rod shapeless into 4 wind charges",
+      "Breeze rods drop from breezes in trial chambers - kill the spinning blue menace first",
+      "Also appears as chest loot inside trial chambers"
+    ],
+    "uses": [
+      "Throw it: a direct hit deals 1 damage and knocks the target back, with a wind burst that shoves nearby entities",
+      "Player-thrown bursts hit a 2.4-block sphere (breeze-fired ones reach 6 blocks) but knock 22% harder",
+      "Movement tech: jump and throw at your feet to launch yourself - it also resets your fall distance",
+      "Flips doors, trapdoors, buttons, levers and fence gates on impact - handy and chaotic",
+      "In Bedrock, a wind charge that passes through fire or lava sets hit entities on fire"
+    ],
+    "renewable": "Renewable: breezes respawn from trial spawners on a cooldown.",
+    "editionNote": "Bedrock-only extra: charges that fly through fire ignite their targets.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod"
+    ],
+    "keywords": "wind charge minecraft breeze rod craft knockback jump boost trial chambers"
+  },
+  {
+    "slug": "harness",
+    "name": "Harness",
+    "category": "Utility",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "Craft it: 3 leather across the top row, 2 glass on the middle sides and 1 matching wool in the center",
+      "Recolor any harness by combining it with 1 matching dye - 16 dyed variants in total"
+    ],
+    "uses": [
+      "Equip it on a happy ghast to make it rideable - up to four players can ride a single happy ghast; a dispenser can also equip it",
+      "Happy ghasts without a harness follow players holding one; the aviator goggles lower over the ghast's eyes while it is being ridden, which shows even when the rider is invisible",
+      "Remove it with shears to drop the harness as an item; when the rider dismounts, the ghast snaps to the nearest cardinal direction and can be stood on like a solid block"
+    ],
+    "renewable": "Renewable: leather from cows or hoglins, glass from smelting sand, wool from sheep.",
+    "editionNote": "Identical in Java and Bedrock. Cannot be enchanted in Survival mode.",
+    "since": "1.21.6 (Chase the Skies)",
+    "related": [
+      "dried-ghast",
+      "golden-dandelion",
+      "saddle"
+    ],
+    "keywords": "harness minecraft happy ghast ride mount craft leather glass wool goggles four players dye"
+  },
+  {
+    "slug": "copper-bars",
+    "name": "Copper Bars",
+    "category": "Decoration",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft them: 6 copper ingots in two rows of three give 16 copper bars",
+      "Wax any oxidation stage with a honeycomb (crafting grid or right-click the placed block) to freeze it"
+    ],
+    "uses": [
+      "Copper version of iron bars for windows, railings and cages, with the same placement mechanics",
+      "They oxidize through 4 stages (normal, exposed, weathered, oxidized); scrape with an axe or a lightning strike to revert stages, wax with honeycomb to prevent it",
+      "Waterloggable, and mined fastest with any pickaxe - they drop nothing without one"
+    ],
+    "renewable": "Renewable: copper ingots from smelting copper ore, very common especially in dripstone caves.",
+    "editionNote": "Same behavior in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "sulfur",
+      "cinnabar",
+      "gold-ingot"
+    ],
+    "keywords": "copper bars minecraft craft oxidize oxidation wax honeycomb exposed weathered oxidized railing"
+  },
+  {
+    "slug": "shelf",
+    "name": "Shelf",
+    "category": "Decoration",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 6 matching stripped logs, stems or bamboo blocks filling the top and bottom rows give 6 shelves - 13 wood variants, poplar included since 26.3",
+      "Breaks by hand, fastest with an axe"
+    ],
+    "uses": [
+      "Stores and displays up to 3 item stacks; interacting with a slot swaps it with your main-hand item, like a visible item frame wall",
+      "Power it with redstone: up to 3 adjacent powered shelves connect and using one swaps your whole hotbar at once (6 or 9 slots when merged)",
+      "Crimson and warped variants do not burn; in Java, shelves cannot be moved by pistons"
+    ],
+    "renewable": "Renewable: every wood type is renewable through saplings and fungi.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111, poplar shelf in Java 26.3.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "poplar-log",
+      "cushion",
+      "straw-bed"
+    ],
+    "keywords": "shelf minecraft craft stripped log display items redstone hotbar swap storage poplar"
+  },
+  {
+    "slug": "copper-chest",
+    "name": "Copper Chest",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: a regular chest surrounded by 8 copper ingots",
+      "Build a copper golem: the block of copper you use turns into a copper chest facing the pumpkin",
+      "Oxidized copper chests also generate naturally in abandoned camps"
+    ],
+    "uses": [
+      "Storage like a wooden chest, and the copper golem's source: it takes items out of copper chests to sort them into wooden chests",
+      "Place two next to each other to merge into a large copper chest - different oxidation stages still merge (the result takes the least oxidized stage and unwaxes); sneak-place in Java or push with a piston in Bedrock to keep them separate",
+      "Oxidizes through 4 stages like other copper; scrape with an axe, strike with lightning, or wax with a honeycomb to stop it"
+    ],
+    "renewable": "Renewable: copper ingots from smelting copper ore, chests from planks.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111. Waterloggable, mined fastest with a stone pickaxe or better.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "copper-bars",
+      "shelf"
+    ],
+    "keywords": "copper chest minecraft craft copper ingots copper golem sorting large chest oxidation wax abandoned camp"
+  },
+  {
+    "slug": "nautilus-armor",
+    "name": "Nautilus Armor",
+    "category": "Combat",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "Cannot be crafted - find copper, iron, golden and diamond nautilus armor as chest loot in shipwreck supply chests, ocean ruins chests and buried treasure",
+      "Upgrade diamond nautilus armor to netherite on a smithing table: netherite upgrade smithing template + 1 netherite ingot",
+      "Remove it from a nautilus with shears; it also drops when the nautilus dies"
+    ],
+    "uses": [
+      "Equip it on a tamed nautilus or zombie nautilus (use button) for protection: copper 4, iron 5, gold 7, diamond 11, netherite 19 armor points; diamond adds 2 and netherite 3 armor toughness, netherite also knockback resistance",
+      "Like horse armor it has no durability - it never breaks",
+      "Smelt copper, iron or golden nautilus armor for a matching nugget; piglins are attracted to the golden version",
+      "Baby nautiluses cannot wear armor"
+    ],
+    "renewable": "Not renewable: fixed pool of chest loot, though a single armor piece never wears out.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.11 and Bedrock 1.21.130.",
+    "since": "Java 1.21.11 / Bedrock 1.21.130",
+    "related": [
+      "saddle",
+      "shield"
+    ],
+    "keywords": "nautilus armor minecraft copper iron gold diamond netherite shipwreck ocean ruins buried treasure smithing shears"
+  },
+  {
+    "slug": "copper-lantern",
+    "name": "Copper Lantern",
+    "category": "Decoration",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 8 copper nuggets around 1 copper torch",
+      "Copper torch recipe: copper nugget + coal or charcoal + stick (makes 4)"
+    ],
+    "uses": [
+      "Copper variant of the lantern with a green flame: full light level 15, hangs or sits like a regular lantern, waterloggable",
+      "Oxidizes through 4 stages (unoxidized, exposed, weathered, oxidized); scrape with an axe or lightning to revert, wax with a honeycomb to freeze the look",
+      "Mined fastest with a pickaxe; drops itself if its support block is moved or destroyed"
+    ],
+    "renewable": "Renewable: copper nuggets from copper ingots, coal or charcoal, sticks.",
+    "editionNote": "Same in Java and Bedrock; added in Java 1.21.9 and Bedrock 1.21.111.",
+    "since": "Java 1.21.9 / Bedrock 1.21.111",
+    "related": [
+      "copper-bars",
+      "copper-chest"
+    ],
+    "keywords": "copper lantern minecraft craft copper nuggets copper torch green flame light oxidation wax"
+  },
+  {
+    "slug": "music-disc",
+    "name": "Music Disc",
+    "category": "Utility",
+    "stackSize": "1 (does not stack)",
+    "howToGet": [
+      "The classic farm: get a skeleton (or stray, bogged, parched) to land the killing blow on a creeper - it drops a random disc from the 12-disc pool (13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11, wait)",
+      "Chest loot: 13 and cat in monster rooms (21.5%), woodland mansions (21.8%) and ancient cities (16.1%); Pigstep only in bastion remnants (5.6%); otherside in monster rooms, strongholds and ancient cities; Bounce in mineshaft chests inside sulfur caves (42.1%)",
+      "Special discs: Relic by brushing suspicious gravel in trail ruins (8.3%); Precipice, Creator and Creator (Music Box) from trial chambers vaults, ominous vaults and pots; 5 is crafted from 9 disc fragments found in ancient cities (29.8%)",
+      "Kills with style: a ghast killed by your deflected fireball always drops Tears, and a chicken jockey drops Lava Chicken if you kill the rider before the chicken"
+    ],
+    "uses": [
+      "Play it in a jukebox; press use again to eject",
+      "A playing jukebox emits a redstone signal, and a comparator reads a different strength per disc - disc detectors for secret doors",
+      "A jukebox makes allays dance: give a dancing allay an amethyst shard to duplicate it (5 minute cooldown)",
+      "Hoppers and droppers can insert and extract discs for fully automatic music"
+    ],
+    "renewable": "Renewable via creeper farms funnelled into skeleton kills.",
+    "editionNote": "Same mechanics in Java and Bedrock. In Java, a wither skeleton can only credit disc drops through flaming-TNT tricks, never bow kills.",
+    "since": "Alpha 1.0.14 (first two discs)",
+    "related": [
+      "gunpowder",
+      "redstone-dust"
+    ],
+    "keywords": "music disc minecraft how to get creeper skeleton kill farm jukebox pigstep otherside 5 disc fragment relic tears lava chicken"
+  },
+  {
+    "slug": "enchanted-golden-apple",
+    "name": "Enchanted Golden Apple",
+    "category": "Combat",
+    "stackSize": "64",
+    "howToGet": [
+      "Cannot be crafted since 1.9 - loot-only",
+      "Chest loot in monster rooms, mineshafts, woodland mansions, ancient cities, bastion remnants, ruined portals and trial chambers vaults - always rare, a few percent at best",
+      "Ancient cities and trial chambers are the most generous modern sources"
+    ],
+    "uses": [
+      "Eat it for the strongest food buff in the game: Absorption IV for 2 minutes (16 extra hearts), Regeneration II for 20 seconds in Java (30 in Bedrock), Fire Resistance for 5 minutes and Resistance I (20% less damage) for 5 minutes",
+      "Keep one in the hotbar for boss fights - Wither, warden or a hard raid wave",
+      "Also works as a horse, donkey or mule treat for taming, breeding and healing"
+    ],
+    "renewable": "Not renewable: fixed chest loot only.",
+    "editionNote": "Regeneration lasts 20 seconds in Java (heals 16 HP) and 30 in Bedrock (heals 24 HP); everything else is identical.",
+    "since": "Java 1.3.1 (craftable until 1.9)",
+    "related": [
+      "totem-of-undying",
+      "nether-star"
+    ],
+    "keywords": "enchanted golden apple notch apple minecraft how to get absorption regeneration resistance boss fight loot"
+  },
+  {
+    "slug": "amethyst-shard",
+    "name": "Amethyst Shard",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine fully grown amethyst clusters inside amethyst geodes: 4 shards with any pickaxe, only 2 with other tools or explosions",
+      "Fortune boosts it: Fortune III averages 8.8 shards (up to 16); Silk Touch drops the cluster block itself instead",
+      "Clusters regrow on budding amethyst blocks - leave them and come back for a renewable farm"
+    ],
+    "uses": [
+      "Craft a spyglass (2 copper ingots + 1 shard), tinted glass (4 shards + glass), blocks of amethyst and calibrated sculk sensors",
+      "Duplicate allays: give a shard to an allay dancing at a jukebox and it splits into two (5 minute cooldown)",
+      "Smithing material: any armor trim applied with amethyst gives the purple crystal trim color"
+    ],
+    "renewable": "Renewable: budding amethyst keeps growing new clusters in place.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.17 (Caves & Cliffs Part I)",
+    "related": [
+      "spyglass",
+      "copper-bars"
+    ],
+    "keywords": "amethyst shard minecraft geode cluster budding amethyst fortune spyglass tinted glass allay duplicate farm"
+  },
+  {
+    "slug": "coal",
+    "name": "Coal",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Mine coal ore or deepslate coal ore with any pickaxe - 1 coal per ore, up to 4 with Fortune III",
+      "Ore generates in two batches: one peaking at Y=96 between Y=0 and Y=192, another spread evenly from Y=136 to Y=320, so mountains are coal country",
+      "Smelt... nothing - but make charcoal instead by smelting logs: it is a perfect coal clone",
+      "Loot chests in mineshafts, dungeons, villages, shipwrecks and strongholds; wither skeletons can drop it too"
+    ],
+    "uses": [
+      "Craft torches (coal + stick = 4), campfires and fire charges",
+      "Fuel: one coal smelts 8 items (80 seconds) - over 5 times more efficient than planks",
+      "Craft blocks of coal: 9 coal into a block that smelts 80 items - 10x a single piece",
+      "Trade to fisherman, armorer, toolsmith and weaponsmith villagers for emeralds"
+    ],
+    "renewable": "Technically renewable: wither skeletons drop coal, and charcoal (smelted logs) is an infinite substitute from tree farms.",
+    "editionNote": "Identical in both editions, with one Bedrock bonus: coal ore gets an extra generation batch in mountain biomes (Y=128 to 256), so Bedrock mountains are even richer.",
+    "since": "Indev 0.31 (January 28, 2010)",
+    "related": [
+      "iron-ingot",
+      "diamond"
+    ],
+    "keywords": "coal minecraft how to find coal ore y level fuel torches charcoal fortune"
+  },
+  {
+    "slug": "stick",
+    "name": "Stick",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 4 sticks from 2 planks of any wood stacked vertically",
+      "Craft 1 stick from 2 bamboo stacked vertically",
+      "Leaf blocks decaying or broken without Silk Touch drop 0-2 sticks; dead bushes drop 0-2 when broken",
+      "Witches drop 0-6 sticks (up to 15 with Looting III); bonus chests and village cartographer/ toolsmith/fletcher chests hold them too"
+    ],
+    "uses": [
+      "The skeleton key of crafting: tools, weapons, torches, ladders, rails, levers, item frames, armor stands, bows, fishing rods, campfires and dozens more all need sticks",
+      "Fuel in a pinch: 5 seconds per stick - terrible, but it burns",
+      "Trade 32 sticks to a fletcher villager for an emerald - one of the easiest trades in the game"
+    ],
+    "renewable": "Fully renewable: planks come from trees, bamboo grows fast, and witches and leaves drop them forever.",
+    "editionNote": "Identical in Java and Bedrock. Fun fact: in the first Pocket Edition versions sticks existed but were unobtainable and useless - they only became craftable later.",
+    "since": "Indev 0.31 (January 29, 2010)",
+    "related": [
+      "coal",
+      "iron-ingot"
+    ],
+    "keywords": "stick minecraft craft 2 planks bamboo how to get sticks fletcher trade tools"
+  },
+  {
+    "slug": "blast-furnace",
+    "name": "Blast Furnace",
+    "category": "Utility block",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 5 iron ingots (full top row + middle sides), 1 furnace in the center, 3 smooth stone along the bottom",
+      "Find one generating in village armorer houses and steal it with any pickaxe",
+      "Also generates in trail ruins"
+    ],
+    "uses": [
+      "Smelts ores, raw metals and metal tools/armor twice as fast as a furnace - 5 seconds per item instead of 10",
+      "Cannot cook food or smelt stone, sand or clay - that is what the smoker and normal furnace are for",
+      "Job site block for the armorer villager - iron armor, shields and bell trades",
+      "Emits light level 13 while lit, and hoppers can automate input, fuel and output"
+    ],
+    "renewable": "Fully renewable: iron from farms, smooth stone from smelted stone, furnaces from cobblestone.",
+    "editionNote": "Same recipe and speed in both editions. Fuel burns at double rate, so each coal still smelts the same 8 items - you save time, not fuel. Like the smoker, Bedrock added it experimentally in 1.9.0 and made it functional in 1.11.0.",
+    "since": "Java 1.14 (snapshot 18w44a) / Bedrock 1.9.0 experimental",
+    "related": [
+      "iron-ingot",
+      "coal"
+    ],
+    "keywords": "blast furnace minecraft craft 5 iron furnace smooth stone smelt ores twice as fast armorer job site vs smoker"
+  },
+  {
+    "slug": "mace",
+    "name": "Mace",
+    "category": "Weapon",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 heavy core on top of 1 breeze rod in the crafting grid",
+      "Heavy cores come ONLY from ominous vaults in trial chambers - a 7.5% chance per vault, opened with an ominous trial key",
+      "Breeze rods drop from breezes, the wind mobs inside trial chambers"
+    ],
+    "uses": [
+      "Normal attack: 6 damage fully charged, but the slowest attack speed in the game (0.6 in Java) - weak for flat-ground fights",
+      "Smash attack: hit something after falling 1.5+ blocks and the mace adds damage per block fallen - the farther the drop, the bigger the hit, with no cap",
+      "Landing a smash resets your fall height: you take zero fall damage from the drop that fed the hit",
+      "The smash also knocks back every entity within 2.5 blocks, like a wind charge burst",
+      "Slow Falling disables smash attacks entirely - do not drink it before a fight",
+      "Signature enchants: Density (more fall damage), Breach (armor pierce), Wind Burst (relaunch after a smash) - plus Smite and Bane of Arthropods"
+    ],
+    "renewable": "Not renewable in practice: each ominous vault opens once per player, so heavy cores are finite per world.",
+    "editionNote": "In Java you must unequip the elytra before attacking for a smash to trigger; in Bedrock smashes activate even mid-elytra-flight. Durability is 500 in Java and 501 in Bedrock.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "heavy-core",
+      "breeze-rod"
+    ],
+    "keywords": "mace minecraft heavy core breeze rod smash attack density breach wind burst trial chambers weapon"
+  },
+  {
+    "slug": "heavy-core",
+    "name": "Heavy Core",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Ominous vaults inside trial chambers: 7.5% chance per vault - the only source in the game",
+      "Ominous vaults open with ominous trial keys, dropped by ominous trial spawners (spawners you face with the Trial Omen effect active)",
+      "Each ominous vault opens once per player - bring friends with their own keys for more rolls",
+      "Once placed, it mines fast with a pickaxe and always drops itself"
+    ],
+    "uses": [
+      "Craft the mace: heavy core above a breeze rod in the crafting grid",
+      "Epic-rarity trophy block - its purple name makes it a flex item for display rooms",
+      "Redstone curiosity: piston behavior differs between editions (see edition notes)"
+    ],
+    "renewable": "Not renewable in practice: one opening per player per ominous vault, so the world's heavy cores are finite.",
+    "editionNote": "Java: pistons push AND pull heavy cores, and they stick to slime and honey blocks. Bedrock: like glazed terracotta, pistons can push but not pull them, and they do not stick to slime or honey.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "breeze-rod",
+      "trial-key"
+    ],
+    "keywords": "heavy core minecraft ominous vault trial chambers mace crafting epic rare block"
+  },
+  {
+    "slug": "bundle",
+    "name": "Bundle",
+    "category": "Utility",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it: 1 string above 1 leather in the crafting grid - that is the whole recipe",
+      "Dye it with any dye to get one of 16 colored variants (shapeless: bundle + dye)",
+      "Fully renewable: string from spiders and cobwebs, leather from cows and other mobs"
+    ],
+    "uses": [
+      "Stores up to one stack's worth of MIXED items in a single inventory slot - 64 bundle slots total",
+      "64-stack items cost 1 slot each; 16-stack items (eggs, ender pearls) cost 4; unstackable items (a sword) eat the whole bundle",
+      "Pick items out individually: open the bundle in your inventory and scroll/select what to extract",
+      "Bundles nest inside bundles (an inner bundle costs 4 slots plus its contents), and bundles go inside shulker boxes - but shulker boxes never go inside bundles",
+      "Best friends: early-game inventory triage, caving junk sorting, and carrying one of every flower for dye runs"
+    ],
+    "renewable": "Renewable: string and leather are both farmable.",
+    "editionNote": "Behaves the same in Java and Bedrock. In Java, slot cost is computed from the item's max_stack_size data component, so modded or edited items with unusual stack sizes pack accordingly.",
+    "since": "1.21.2 (Bundles of Bravery)",
+    "related": [
+      "shulker-shell",
+      "stick"
+    ],
+    "keywords": "bundle minecraft how to craft bundle storage item bundles of bravery inventory dyed bundle"
+  },
+  {
+    "slug": "smithing-template",
+    "name": "Smithing Template",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Netherite Upgrade: ONLY in bastion remnant chests (guaranteed in treasure-room bastions) - the gatekeeper of netherite gear",
+      "Armor trims (18 designs): scattered across structures - sentry in pillager outposts, dune in desert temples, ward in ancient cities, tide from elder guardians (20% drop), flow and bolt in trial chambers vaults, and more",
+      "Duplicate any template you find: 7 diamonds + the template + its matching block (netherrack for netherite upgrade) makes 2 - never use your last one raw"
+    ],
+    "uses": [
+      "Netherite Upgrade at the smithing table: diamond gear + template + netherite ingot = netherite gear, keeping enchantments and prior-work penalty",
+      "Armor trims at the smithing table: template + armor piece + a trim material (amethyst, copper, diamond, emerald, gold, iron, lapis, quartz, netherite, redstone, resin brick) applies a cosmetic pattern",
+      "Trims are purely cosmetic - they change looks, not stats - but silence trim on full netherite is the server's loudest flex",
+      "Templates are consumed on use, which is why diamond duplication is the real meta"
+    ],
+    "renewable": "Mixed: most templates are effectively non-renewable per structure; elder guardians make tide farmable, and vault loot renews per player. Duplication with diamonds is the practical answer.",
+    "editionNote": "Identical in Java and Bedrock: same structures, same duplication recipe, same smithing behavior. In Java, ward, silence, rib and the netherite upgrade are strictly non-renewable without duplication.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "netherite-ingot",
+      "ancient-debris"
+    ],
+    "keywords": "smithing template minecraft netherite upgrade armor trim bastion duplicate diamonds silence ward tide"
+  },
+  {
+    "slug": "recovery-compass",
+    "name": "Recovery Compass",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 compass surrounded by 8 echo shards",
+      "Echo shards come only from ancient city chests in the deep dark - bring wool, crouch a lot, fear the warden",
+      "The compass itself is the easy part: 4 iron ingots + 1 redstone dust"
+    ],
+    "uses": [
+      "Points to your last death location - hold it and follow the needle to recover your dropped items",
+      "Only works for a player who has died before, in the same dimension as the death: in any other case it spins randomly",
+      "Essential for deep dark, Nether roof and end-city corpse runs where coordinates got lost with the death screen",
+      "Useless in hardcore mode - no respawn, no corpse, no point",
+      "It drops like any normal item when you die again (unless keepInventory is on), so do not die twice on the way back"
+    ],
+    "renewable": "Not renewable: echo shards are finite chest loot, though ancient cities are generous enough that one city usually covers several compasses.",
+    "editionNote": "Same behavior in both editions. Bedrock-only quirks: it can be enchanted, and its needle even works in the crafting-preview menu before you craft it.",
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "echo-shard",
+      "totem-of-undying"
+    ],
+    "keywords": "recovery compass minecraft echo shard last death location find items ancient city deep dark"
+  },
+  {
+    "slug": "lead",
+    "name": "Lead",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 5 string in a W pattern makes 2 leads - no slimeball needed since 1.21.6 (Chase the Skies)",
+      "Free leads from wandering traders: detach their trader llamas (shears, boats, or distance) and the leads drop",
+      "Also found in buried treasure, woodland mansion and trail ruins chests"
+    ],
+    "uses": [
+      "Leash a mob by using the lead on it, then walk - it follows. Each mob needs its own lead, but you can drag a whole train",
+      "Tie a leashed mob to a fence (use the fence while sneaking) so it stays put - the classic pasture post",
+      "Leash two mobs together directly since 1.21.6, and snip any leash cleanly with shears",
+      "Leashable crowd: horses, cows, sheep, pigs, llamas, camels, goats, frogs, axolotls, bees, sniffers, striders, happy ghasts, boats and more - even hoglins and zoglins if you are brave",
+      "Careful: leads snap past 12 blocks (16 for happy ghasts), and boosting with a firework on elytra breaks every attached lead"
+    ],
+    "renewable": "Renewable: string is farmable from spiders and cobwebs.",
+    "editionNote": "Same recipe and behavior in Java and Bedrock since 1.21.6. Before that update the recipe was 4 string + 1 slimeball, so old guides showing slimeballs are outdated.",
+    "since": "Alpha v1.0.17 (2010); receta actual: 1.21.6",
+    "related": [
+      "slimeball",
+      "harness"
+    ],
+    "keywords": "lead minecraft how to craft lead leash mobs fence tie slimeball wandering trader happy ghast"
+  },
+  {
+    "slug": "firework-rocket",
+    "name": "Firework Rocket",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft it: 1 paper + 1-3 gunpowder makes 3 rockets - more gunpowder means longer flight duration (up to 3)",
+      "Add firework stars (up to 7) in the remaining slots for colored, shaped, damaging explosions",
+      "Farm the inputs: sugar cane for paper, creepers for gunpowder - a creeper farm is an elytra fuel station"
+    ],
+    "uses": [
+      "Elytra boosting: use a rocket mid-glide to propel yourself at 33.5 blocks per second - flight duration 1/2/3 boosts for roughly 1.5/2/2.5 seconds",
+      "NEVER boost with a star-loaded rocket: the explosion damages YOU on detonation. Keep a separate stack of plain paper+gunpowder rockets for flying",
+      "Crossbow ammo: rockets fired from crossbows only deal damage if they carry firework stars, and more stars mean more damage; Multishot fires 3 at once, Piercing does nothing to them",
+      "Launch by hand or from dispensers for celebrations - and remember using a firework while gliding snaps every lead attached to you"
+    ],
+    "renewable": "Renewable without stars (paper + gunpowder are farmable); star effects need finite rarities like diamonds or heads for the fancy trails.",
+    "editionNote": "Same crafting and boosting in Java and Bedrock. Explosion damage from star rockets applies to the boosting player in both editions - the plain-rocket rule for elytra is universal.",
+    "since": "1.4.6 (2012); elytra boost: 1.11.1",
+    "related": [
+      "gunpowder",
+      "stick"
+    ],
+    "keywords": "firework rocket minecraft elytra boost how to craft fireworks flight duration crossbow ammo creeper farm"
+  },
+  {
+    "slug": "torchflower-seeds",
+    "name": "Torchflower Seeds",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Sniffers dig them up: when a sniffer finishes digging, there is a 50% chance the drop is torchflower seeds (otherwise a pitcher pod)",
+      "Digging only works on dirt, grass blocks, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - NOT mycelium",
+      "Sniffers hatch from sniffer eggs, found by brushing suspicious sand in warm ocean ruins"
+    ],
+    "uses": [
+      "Plant on farmland: grows through 3 stages into a torchflower - mature crops drop 1 torchflower but NO seed back, so keep sniffers digging to stay stocked",
+      "Torchflowers craft into orange dye and work as decoration",
+      "Breed sniffers and chickens with the seeds, and speed up snifflet and chick growth by 10% per feed",
+      "Farmer villagers can plant torchflower seeds but cannot harvest the mature crop (works as intended) - no fully automatic villager farm"
+    ],
+    "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
+    "editionNote": "Identical digging, farming and breeding in Java and Bedrock, including the no-seed-back mature drop and the villager harvest limitation.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "pitcher-pod",
+      "golden-dandelion"
+    ],
+    "keywords": "torchflower seeds minecraft sniffer digging ancient seeds orange dye breed sniffer"
+  },
+  {
+    "slug": "pitcher-pod",
+    "name": "Pitcher Pod",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Sniffers dig them up: when a sniffer finishes digging and the roll is not torchflower seeds, it drops a pitcher pod",
+      "Same digging rules: dirt, grass, podzol, coarse dirt, rooted dirt, moss, pale moss, mud and muddy mangrove roots - never mycelium",
+      "Get sniffers first: brush suspicious sand at warm ocean ruins for sniffer eggs"
+    ],
+    "uses": [
+      "Plant on farmland: grows through 5 stages into a pitcher plant, a striking two-block-tall flower",
+      "Pitcher plants craft into 2 cyan dye each - a renewable cyan source once your sniffer farm is running",
+      "Decoration star: the pitcher plant is one of the tallest flowers in the game, perfect for greenhouse builds",
+      "Like torchflowers, farmer villagers plant the crop but will not harvest it when mature"
+    ],
+    "renewable": "Renewable: sniffers dig indefinitely on valid blocks.",
+    "editionNote": "Same behavior in Java and Bedrock: same digging block list, same 5-stage growth, same cyan dye yield.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "torchflower-seeds",
+      "golden-dandelion"
+    ],
+    "keywords": "pitcher pod minecraft pitcher plant sniffer ancient seeds cyan dye two block flower"
+  },
+  {
+    "slug": "sniffer-egg",
+    "name": "Sniffer Egg",
+    "category": "Block",
+    "stackSize": "64",
+    "howToGet": [
+      "Brush suspicious sand at warm ocean ruins - sniffer eggs are one of its exclusive loot drops",
+      "Or breed two sniffers with torchflower seeds: the egg drops as an item (unlike turtle eggs, which get placed)",
+      "Once placed, it mines with any tool or bare hands and always drops itself - no Silk Touch needed"
+    ],
+    "uses": [
+      "Place it and wait: the egg cracks twice and hatches into a snifflet (baby sniffer)",
+      "Hatching takes 10 minutes on moss blocks, 20 minutes on any other block (pale moss counts as other)",
+      "Eggs float: they need no supporting block and ignore gravity, so floating hatcheries are legal",
+      "In Java, hatching ignores the randomTickSpeed gamerule - you cannot speed it up with commands",
+      "Grow up your snifflet with torchflower seeds, then breed the adults for an egg-positive sniffer farm"
+    ],
+    "renewable": "Renewable: once you have two sniffers, breeding produces more eggs indefinitely.",
+    "editionNote": "Same hatching and breeding in Java and Bedrock. Cosmetic difference: the egg block is transparent in Bedrock, opaque in Java. The no-Silk-Touch and no-support-block behaviors are intended in both.",
+    "since": "1.20 (Trails & Tales)",
+    "related": [
+      "torchflower-seeds",
+      "pitcher-pod"
+    ],
+    "keywords": "sniffer egg minecraft how to hatch sniffer egg warm ocean ruins suspicious sand snifflet moss"
+  },
+  {
+    "slug": "armor-stand",
+    "name": "Armor Stand",
+    "category": "Decoration",
+    "stackSize": "16",
+    "howToGet": [
+      "Craft it: 6 sticks + 1 smooth stone slab (smooth stone comes from smelting stone a second time)",
+      "Fully renewable: sticks from planks, smooth stone from cobblestone smelted twice",
+      "It is an entity, not a block - place it on solid ground with room above"
+    ],
+    "uses": [
+      "Display armor, mob heads, carved pumpkins and elytra: use the item on the stand, use again with an empty hand to take it back",
+      "Eight orientations when placing - angle your body to face the stand the way you want",
+      "Arms: Bedrock stands have arms by default and can hold any item; in Java, arms need the ShowArms NBT tag (commands or editors)",
+      "Posing: in Bedrock, sneak + use cycles through preset poses; in Java, poses require commands",
+      "Redstone toy: stands are living entities - pistons push them, water drags them, fishing rods pull them, slime blocks bounce them"
+    ],
+    "renewable": "Renewable: sticks and stone are farmable.",
+    "editionNote": "Big edition gap: Bedrock stacks to 64 and has arms and poses built in; Java stacks to 16 and needs commands for both. Java stands have 20 health, Bedrock ones 6.",
+    "since": "1.8 (2014)",
+    "related": [
+      "stick",
+      "shield"
+    ],
+    "keywords": "armor stand minecraft how to craft armor stand arms pose mannequin display elytra smooth stone slab"
+  },
+  {
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Shear a bee nest or beehive at honey level 5 (full, dripping): drops 3 honeycombs",
+      "The bees get ANGRY when sheared - place a lit campfire or soul campfire under the hive first, or use a dispenser with shears to harvest safely",
+      "Also found occasionally in structure chests"
+    ],
+    "uses": [
+      "Craft beehives (6 planks + 3 honeycombs) to relocate bee colonies to your base",
+      "Craft candles (honeycomb + string) and honeycomb blocks (4 honeycombs)",
+      "Wax copper: use a honeycomb on copper blocks, lightning rods or copper golems to freeze their oxidation state forever",
+      "Wax signs and hanging signs to lock their text - nobody (including you) can edit a waxed sign again",
+      "Honey farming loop: campfire + flowers + a few bees = infinite honeycombs and honey bottles"
+    ],
+    "renewable": "Renewable: bees refill their hives as long as flowers are nearby.",
+    "editionNote": "Same harvesting, waxing and crafting in Java and Bedrock. The campfire trick and the dispenser-shear automation work identically in both.",
+    "since": "1.15 (Buzzy Bees)",
+    "related": [
+      "copper-bars",
+      "cushion"
+    ],
+    "keywords": "honeycomb minecraft how to get honeycomb beehive candle wax copper wax sign campfire bees"
+  },
+  {
+    "slug": "ominous-trial-key",
+    "name": "Ominous Trial Key",
+    "category": "Utility",
+    "stackSize": "64",
+    "howToGet": [
+      "Drink an ominous bottle to gain Bad Omen, then walk into a trial chamber: it becomes Trial Omen",
+      "While Trial Omen is active, trial spawners near you turn into ominous trial spawners - harder mobs, better rewards",
+      "Ominous trial spawners eject ominous trial keys as their reward (30% chance) alongside the normal loot"
+    ],
+    "uses": [
+      "Unlocks ominous vaults, the rare vault variant inside trial chambers - you must still have Trial Omen active when you open it",
+      "Ominous vault loot includes the heavy core (7.5% chance - the only source for the mace), flow and guster banner patterns, flow armor trim, enchanted golden apples and more",
+      "Each ominous vault opens once per player per world (it forgets you after 128 other players open it)"
+    ],
+    "renewable": "Yes: ominous bottles and trial chambers keep producing ominous events, so keys keep flowing.",
+    "editionNote": "Identical in both editions. Java-only quirk (bug MC-268183): a renamed ominous trial key cannot open a standard ominous vault.",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "trial-key",
+      "heavy-core",
+      "mace"
+    ],
+    "keywords": "ominous trial key how to get ominous vault loot trial omen minecraft"
+  },
+  {
+    "slug": "armadillo-scute",
+    "name": "Armadillo Scute",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Armadillos drop one scute naturally every 5-10 minutes - no killing needed",
+      "Brush an armadillo with the brush tool to make it drop a scute on demand (costs 16 brush durability)",
+      "Find armadillos in savanna and badlands biomes; they roll up when threatened, so approach slowly"
+    ],
+    "uses": [
+      "Craft wolf armor: 6 armadillo scutes in a helmet-like pattern",
+      "Repair wolf armor in the field: use a scute directly on the armored wolf to restore 8 durability",
+      "Repair wolf armor in an anvil: each scute restores 16 durability"
+    ],
+    "renewable": "Yes: armadillos shed scutes forever and never run out.",
+    "editionNote": "Same in both editions. A fresh unenchanted brush yields 4 scutes from brushing in Java and 5 in Bedrock (64 vs 65 brush durability).",
+    "since": "1.20.5 (Armadillo & Wolf Armor)",
+    "related": [
+      "wolf-armor"
+    ],
+    "keywords": "armadillo scute how to get brush armadillo wolf armor material minecraft"
+  },
+  {
+    "slug": "wolf-armor",
+    "name": "Wolf Armor",
+    "category": "Combat",
+    "stackSize": "1",
+    "howToGet": [
+      "Craft it from 6 armadillo scutes (helmet pattern: fill the top row and both side columns)",
+      "Brush armadillos or wait for their natural scute drops to gather the 6 scutes",
+      "Killed wolves always drop their equipped wolf armor, whatever kills them"
+    ],
+    "uses": [
+      "Equip it on an adult tamed wolf: the armor absorbs ALL damage to the wolf except drowning, freezing, suffocation, magic (like poison or instant damage) and thorns",
+      "64 durability: it cracks visibly as it wears down, then breaks",
+      "Repair it by using armadillo scutes on the wolf (8 durability) or in an anvil (16 per scute)",
+      "Dye it any of the 16 colors by combining it with a dye - armor looks different per wolf pack",
+      "Cannot be equipped on baby wolves or untamed wolves"
+    ],
+    "renewable": "Yes: scutes are infinitely renewable from armadillos.",
+    "editionNote": "Same in both editions. Bedrock bug: zombies, husks, zombie villagers and drowned can pick up and wear wolf armor, and it protects them. Ignore the +11 Armor tooltip in Java - it is a display bug; the armor actually blocks 100% of covered damage.",
+    "since": "1.20.5 (Armadillo & Wolf Armor)",
+    "related": [
+      "armadillo-scute"
+    ],
+    "keywords": "wolf armor minecraft how to make armadillo scute armor dye wolf armor repair"
+  },
+  {
+    "slug": "disc-fragment-5",
+    "name": "Disc Fragment 5",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Loot chests inside ancient cities in the deep dark - disc fragments only generate there",
+      "Expect several runs: fragments are an uncommon chest item, so sweep every chest in every city you find",
+      "Sneak past the sculk shriekers or clear the warden first - dying to him costs more than the disc is worth"
+    ],
+    "uses": [
+      "Combine 9 disc fragments in a crafting table to make the music disc \"5\" by Samuel Aberg",
+      "Play the finished disc in a jukebox - it is the eerie ambient track that tells a story through sounds",
+      "Collectible: it is one of the rarest disc paths in the game since fragments come from one structure only"
+    ],
+    "renewable": "Non-renewable: fragments only come from ancient city chests, and each world has a limited number of cities within reach.",
+    "editionNote": "Identical loot and crafting in Java and Bedrock.",
+    "since": "1.19 (The Wild Update)",
+    "related": [
+      "music-disc",
+      "echo-shard",
+      "recovery-compass"
+    ],
+    "keywords": "disc fragment 5 minecraft ancient city chest music disc 5 how to craft jukebox deep dark loot"
+  },
+  {
+    "slug": "dragon-breath",
+    "name": "Dragon's Breath",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Use empty glass bottles on the purple cloud left by the ender dragon's breath attack while she perches on the exit portal",
+      "Bottles also work on the effect clouds from her dragon fireballs",
+      "Resummon the dragon with 4 end crystals whenever you need to restock"
+    ],
+    "uses": [
+      "Brew any splash potion with dragon's breath to upgrade it to a lingering potion",
+      "Lingering potions leave a lasting area effect cloud and are required to craft tipped arrows",
+      "Unlocks the \"You Need a Mint\" advancement the first time you bottle it"
+    ],
+    "renewable": "Renewable: the dragon can be resummoned endlessly with end crystals, and each fight leaves plenty of breath clouds.",
+    "editionNote": "Same mechanic in Java and Bedrock. Tip: brewing with 2 or more dragon's breath leaves a spare glass bottle behind as an item.",
+    "since": "1.9 (Combat Update)",
+    "related": [
+      "dragon-egg",
+      "ender-eye",
+      "totem-of-undying"
+    ],
+    "keywords": "dragons breath minecraft how to get lingering potion brewing tipped arrows ender dragon breath bottle"
+  },
+  {
+    "slug": "ghast-tear",
+    "name": "Ghast Tear",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill ghasts in the Nether - they drop 0-1 tears, up to 4 with Looting III",
+      "Shoot them over land, not lava: tears burn in lava, so fight near solid ground or knock the fireball back over a ledge",
+      "Their own fireball reflected back one-shots them - the cheapest way to farm tears"
+    ],
+    "uses": [
+      "Brew with an awkward potion to make the potion of Regeneration",
+      "Craft end crystals (7 glass + eye of ender + 1 tear) to resummon the dragon or blow things up in PvP",
+      "Since 1.21.6: surround a bone block with 8 ghast tears to craft a dried ghast, which rehydrates into a ghastling"
+    ],
+    "renewable": "Renewable: ghasts spawn constantly in the Nether (soul sand valleys are full of them).",
+    "editionNote": "Identical drops and uses in Java and Bedrock.",
+    "since": "Beta 1.9 Prerelease",
+    "related": [
+      "blaze-rod",
+      "ender-eye",
+      "dried-ghast"
+    ],
+    "keywords": "ghast tear minecraft drop rate looting regeneration potion end crystal dried ghast recipe nether"
+  },
+  {
+    "slug": "phantom-membrane",
+    "name": "Phantom Membrane",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill phantoms - the swooping night mobs that hunt players who have not slept in 3+ days. They drop 0-1 membranes, up to 4 with Looting III",
+      "Sleep near a tamed cat: cats bring morning gifts 70% of the time, and 3.22% of those gifts are a phantom membrane",
+      "Fight phantoms over open ground at dawn - they burn in sunlight, so a morning battle is free loot"
+    ],
+    "uses": [
+      "Repair elytra on an anvil: each membrane restores 108 durability (25%) while keeping all enchantments",
+      "Brew with an awkward potion to make the potion of Slow Falling",
+      "Slow Falling potions are the safest way to fight the ender dragon's knockback and to raid end cities"
+    ],
+    "renewable": "Renewable: phantoms spawn endlessly for insomniacs, and cats keep gifting forever.",
+    "editionNote": "Identical drops and uses in Java and Bedrock.",
+    "since": "1.13 (Update Aquatic)",
+    "related": [
+      "elytra",
+      "totem-of-undying",
+      "netherite-ingot"
+    ],
+    "keywords": "phantom membrane minecraft elytra repair anvil slow falling potion cat gift phantom drop looting"
+  },
+  {
+    "slug": "ominous-bottle",
+    "name": "Ominous Bottle",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill a pillager raid captain (the one wearing the ominous banner) outside of a raid - 100% drop at level I-V",
+      "Loot vaults in trial chambers - ominous bottles appear there too, at higher levels in ominous vaults",
+      "Note: only PILLAGER captains drop it; vindicator, evoker and illusioner captains do not"
+    ],
+    "uses": [
+      "Drink it to get Bad Omen at the bottle's level for 100 minutes - you choose when to start the fun",
+      "Enter a village with Bad Omen to transform it into Raid Omen and start a raid (hero loot and discounts await)",
+      "Walk near a trial spawner to transform it into Trial Omen, converting spawners ominous for ominous trial keys",
+      "Drinking a second bottle resets the duration - and only upgrades the level if the new bottle is higher"
+    ],
+    "renewable": "Renewable: captain patrols and outposts keep spawning, and vaults restock per player.",
+    "editionNote": "Same drop and effect in both editions; the raid-level scaling from omen level is Java-only (Bedrock raids ignore the level).",
+    "since": "1.21 (Tricky Trials)",
+    "related": [
+      "trial-key",
+      "totem-of-undying",
+      "mace"
+    ],
+    "keywords": "ominous bottle minecraft bad omen how to get pillager captain raid omen trial omen drink"
+  },
+  {
+    "slug": "netherite-scrap",
+    "name": "Netherite Scrap",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Smelt ancient debris in a furnace or blast furnace - one debris becomes one scrap",
+      "Find ancient debris in the Nether between Y=8 and Y=119, most common around Y=15 (officially peaking in the Y=8-24 band on Java, 8-23 on Bedrock)",
+      "Mine with TNT beds or pickaxes: debris is blast-resistant, so strip-mining with explosions is the classic method",
+      "Loot bastion remnant chests for ready-made scraps"
+    ],
+    "uses": [
+      "Craft 4 netherite scraps + 4 gold ingots into 1 netherite ingot",
+      "Netherite ingots upgrade diamond gear at the smithing table - the strongest equipment in the game",
+      "Like all netherite items, scrap floats in lava and survives fire in item form"
+    ],
+    "renewable": "Non-renewable: every scrap comes from finite ancient debris or bastion chests.",
+    "editionNote": "Identical in Java and Bedrock; only the peak debris band differs slightly (8-24 vs 8-23).",
+    "since": "1.16 (Nether Update)",
+    "related": [
+      "netherite-ingot",
+      "mace",
+      "elytra"
+    ],
+    "keywords": "netherite scrap minecraft ancient debris smelt y level best 15 netherite ingot craft bastion"
+  },
+  {
+    "slug": "golden-carrot",
+    "name": "Golden Carrot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft 1 carrot surrounded by 8 gold nuggets on a crafting table",
+      "Buy 3 for 3 emeralds from master-level farmer villagers",
+      "Find them in chests in bastion remnants, ruined portals and ancient cities",
+      "Farm the ingredients: gold nuggets from zombified piglins, carrots from village farms or zombies"
+    ],
+    "uses": [
+      "Eat it: restores 6 hunger and 14.4 saturation - the highest saturation of any stackable food, so it keeps you full longest",
+      "Brew Potions of Night Vision: awkward potion + golden carrot",
+      "Tame, breed, heal and grow horses, donkeys and mules; breed and grow rabbits"
+    ],
+    "renewable": "Fully renewable: gold from zombified piglin farms, carrots from farms, or villager trading.",
+    "editionNote": "Identical in Java and Bedrock. On Java, its top-tier saturation also makes it the best stackable food for regenerating health while saturated.",
+    "since": "1.4.2 (Pretty Scary Update)",
+    "related": [
+      "honeycomb",
+      "gunpowder",
+      "totem-of-undying"
+    ],
+    "keywords": "golden carrot minecraft craft recipe saturation best food night vision potion brewing farmer villager trade"
+  },
+  {
+    "slug": "rabbit-foot",
+    "name": "Rabbit's Foot",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Kill rabbits: 10% drop chance when killed by a player, +3% per Looting level on your sword",
+      "A fox that spawns holding a rabbit's foot always drops it on death - or toss it a food item to make it swap",
+      "Tamed cats bring one as a morning gift: 70% chance of a gift when you wake up, and 16.13% of gifts are a rabbit's foot (about 11.3% per wake-up)"
+    ],
+    "uses": [
+      "Brew Potions of Leaping: awkward potion + rabbit's foot - jump higher and take less fall damage",
+      "Sell to cleric villagers for emeralds",
+      "Tame and heal camel husks; they follow players holding a rabbit's foot"
+    ],
+    "renewable": "Renewable: rabbits breed with carrots, dandelions or golden carrots, so feet are farmable indefinitely.",
+    "editionNote": "Identical in Java and Bedrock. Looting raises the drop rate on both editions.",
+    "since": "1.8 (Bountiful Update)",
+    "related": [
+      "slimeball",
+      "blaze-rod",
+      "honeycomb"
+    ],
+    "keywords": "rabbit's foot minecraft drop chance looting potion of leaping brewing cat gift fox cleric trade"
+  },
+  {
+    "slug": "magma-cream",
+    "name": "Magma Cream",
+    "category": "Material",
+    "stackSize": "64",
+    "howToGet": [
+      "Craft blaze powder + slimeball (shapeless recipe)",
+      "Kill magma cubes in the Nether - they drop 0-1 magma cream, more with Looting",
+      "Loot bastion remnant chests"
+    ],
+    "uses": [
+      "Brew Potions of Fire Resistance: awkward potion + magma cream - 3 minutes immune to fire and lava, extendable to 8 with redstone",
+      "The key ingredient for safe Nether trips: lava lakes, blaze fights and ancient debris mining all get safer",
+      "Craft magma blocks: 4 magma cream in a square"
+    ],
+    "renewable": "Renewable: magma cubes respawn in basalt deltas and nether wastes, blazes and slimes are farmable.",
+    "editionNote": "Identical in Java and Bedrock.",
+    "since": "1.0.0",
+    "related": [
+      "slimeball",
+      "blaze-rod",
+      "gunpowder"
+    ],
+    "keywords": "magma cream minecraft craft fire resistance potion brewing magma cube drop bastion blaze powder slimeball"
+  }
 ]
