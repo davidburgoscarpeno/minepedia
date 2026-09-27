@@ -1950,5 +1950,112 @@
    "No puedes embotellar dirt desde abajo: la botella debe tocar la cara superior o los lados del bloque (un dispenser apuntando a la cara inferior sí funciona).",
    "Combínala con una granja de lava con dripstone en la misma construcción: ambas usan celdas de pointed dripstone y comparten estética."
   ]
+ },
+ "honey-farm": {
+  "produces": "Honey bottles (comida, honey blocks, sugar, cura el veneno) y honeycombs (beehives, candles, encerar copper)",
+  "difficulty": "Principiante",
+  "quickAnswer": "Pon un campfire bajo un bee nest o beehive, espera a que gotee miel (nivel 5) y usa shears para honeycombs o una glass bottle para miel. Un dispenser con shears o bottles apuntando a la colmena lo automatiza todo.",
+  "mechanics": [
+   "Cada bee polinizada que sale de su casa tras trabajar sube el nivel de miel en 1. Al nivel 5 la colmena gotea y está lista para cosechar.",
+   "Las shears sobre una colmena llena sueltan 3 honeycombs; una glass bottle da 1 honey bottle. Ambas reinician el nivel a 0.",
+   "Las bees se enfadan si cosechas su casa: un campfire encendido justo debajo del nest o hive las calma por completo. Romper la colmena con Silk Touch mantiene a las bees dentro.",
+   "Los bee nests se generan en árboles de oak y birch cerca de flores; los saplings que crecen a menos de 2 bloques de una flor (o de pink petals) tienen un 5% de probabilidad de brotar con nest y 2-3 bees.",
+   "Craftea tus propias beehives con 6 planks + 3 honeycombs para ampliar el apiario, y cría bees con flores hasta tener 3 por casa."
+  ],
+  "materials": [
+   "1 bee nest (Silk Touch para moverlo) o una beehive crafteada",
+   "3 bees por casa, flores al alcance",
+   "Campfire bajo cada casa",
+   "Shears y glass bottles; dispenser + reloj de redstone para automatizar"
+  ],
+  "steps": [
+   "Encuentra o cría bees y coloca su nest o hive sobre un campfire, cerca de muchas flores.",
+   "Cría la colonia hasta 3 bees por casa usando flores, y planta más flores a su alcance de vuelo.",
+   "Espera al nivel de miel 5: el bloque gotea miel visiblemente.",
+   "Cosecha con shears (honeycombs) o glass bottle (miel) mientras el campfire echa humo; nunca rompas la casa sin Silk Touch.",
+   "Automatiza: orienta un dispenser cargado con shears o bottles hacia la colmena, actívalo con un observer que vigile el nivel de miel o un reloj simple, y recoge con hoppers debajo.",
+   "Convierte honey bottles en honey blocks (4 bottles) para mecanismos de redstone, y honeycombs en beehives, candles o encerado de copper."
+  ],
+  "rates": [
+   "Una casa con 3 bees se llena en unos 30-60 minutos de actividad diurna de las bees",
+   "Cada colmena llena da 3 honeycombs o 1 honey bottle por cosecha",
+   "Las bees solo trabajan de día y con buen tiempo: la lluvia y la noche pausan la producción"
+  ],
+  "tips": [
+   "Alfombra o valla la zona de flores para que las bees vuelen sin problemas entre flores y casa.",
+   "Las honey bottles curan el veneno y se apilan hasta 16: guarda una fila para los encuentros con cave spiders.",
+   "Encera tus construcciones de copper con un honeycomb sobre el bloque para congelar la oxidación: mira nuestra guía de chains para las copper chains.",
+   "Nunca coseches sin el campfire encendido: las bees enfadadas pican una vez y mueren, y te quedas sin mano de obra."
+  ]
+ },
+ "mud-farm": {
+  "produces": "Mud ilimitado para packed mud y mud bricks y, combinado con dripstone, la materia prima de una vía renovable de clay",
+  "difficulty": "Principiante",
+  "quickAnswer": "Usa una water bottle sobre cualquier bloque de dirt y se convierte en mud: hasta te devuelven la bottle vacía. Apunta un dispenser cargado con water bottles a una fila de dirt y la conversión funciona sola mientras recoges con el shovel.",
+  "mechanics": [
+   "Una water bottle (splash y lingering también valen) usada sobre dirt, coarse dirt o rooted dirt lo convierte en mud y devuelve la glass bottle.",
+   "El jugador no puede convertir por la cara inferior del bloque, pero los dispensers sí: así que las granjas con dispenser encaran la dirt desde cualquier lado.",
+   "El mud es algo más bajo que un bloque completo y no ralentiza; los hoppers pueden recoger objetos a través de él, lo que simplifica los diseños de recolección.",
+   "El mud colocado sobre un bloque con pointed dripstone colgando debajo se convierte en clay (~17.6% por random tick, unos 6.5 minutos de media): nunca en el Nether.",
+   "El mud natural alfombra los mangrove swamps, pero excavar biomas es más lento que convertir dirt en casa."
+  ],
+  "materials": [
+   "Dirt (unos stacks para empezar)",
+   "Glass bottles y una fuente de agua para llenarlas",
+   "Dispenser, reloj de redstone y hoppers para la versión automática",
+   "Un shovel; wheat si quieres packed mud al momento"
+  ],
+  "steps": [
+   "Llena glass bottles en cualquier fuente de agua: cada botella convierte exactamente un bloque de dirt.",
+   "Inicio manual: usa bottles sobre filas de dirt y recoge el mud con el shovel; las bottles vuelven vacías para rellenar.",
+   "Monta el conversor: un dispenser encarando un bloque de dirt, alimentado con water bottles por hoppers, activado por un reloj; mina el mud y repón la dirt (con pistons o a mano).",
+   "Combínalo con una granja de moss o de árboles para dirt infinita, y con una fila de dripstone para convertir el mud directamente en clay.",
+   "Craftea al momento: mud + wheat = packed mud; 4 packed mud = 4 mud bricks para toda la familia de ladrillos."
+  ],
+  "rates": [
+   "1 water bottle = 1 bloque de mud, tan rápido como puedas hacer clic",
+   "Un conversor de dispenser sencillo produce miles por hora, limitado solo por el suministro de bottles y el ritmo de dirt",
+   "La conversión de mud a clay añade unos 6.5 minutos por bloque sobre dripstone: las filas en paralelo la escalan linealmente"
+  ],
+  "tips": [
+   "Rellena bottles en masa en un bloque de fuente de agua: una sola fuente infinita cubre toda la granja.",
+   "Mantén la granja en el Overworld: el mud no se seca a clay en el Nether.",
+   "El mud hunde un poco a las entidades sin ralentizarlas: suelo seguro para corrales con recolección de hoppers debajo."
+  ]
+ },
+ "egg-farm": {
+  "produces": "Eggs para cakes, pumpkin pies y población de chickens, además de feathers y cooked chicken del mismo corral",
+  "difficulty": "Principiante",
+  "quickAnswer": "Encierra chickens sobre hoppers y pondrán un egg cada 5-10 minutos cada una, recogido automáticamente. Un dispenser lanzando los eggs contra una pared incuba chicks (1 de cada 8) para la siguiente generación.",
+  "mechanics": [
+   "Cada chicken adulta pone un egg cada 5-10 minutos (7.5 minutos de media) mientras el chunk esté cargado.",
+   "Los eggs lanzados tienen 1/8 de probabilidad de generar un chick, y 1 de cada 256 eggs genera 4 chicks a la vez.",
+   "Los dispensers lanzan eggs como los jugadores, así que un reloj más dispenser incuba eggs sin intervención.",
+   "Las variantes de chicken importan: las templadas ponen el egg normal, las warm ponen brown eggs y las cold ponen blue eggs, y cada una incuba su propia variante.",
+   "Los eggs se apilan hasta 16 y también son ingrediente de crafteo: la cake y la pumpkin pie necesitan uno."
+  ],
+  "materials": [
+   "Al menos 2 chickens y seeds para criarlas",
+   "Un corral vallado con hoppers y un chest bajo el suelo",
+   "Opcional: dispenser, reloj de redstone y una pared de slab para la incubadora automática"
+  ],
+  "steps": [
+   "Atrae 2+ chickens a un corral con seeds y cría hasta una docena o más.",
+   "Sustituye el suelo del corral por hoppers que alimenten un chest: los eggs caen directos al almacén.",
+   "Incubación manual: lanza eggs contra una pared; los chicks crecen en 20 minutos y empiezan a poner por sí mismos.",
+   "Incubadora automática: coloca un dispenser encarando una cámara de chicks (suelo de slab para que los chicks queden abajo y los adultos suban), aliméntalo con eggs del chest de recolección y ponlo en un reloj.",
+   "Escala: más gallinas ponedoras = más eggs = más chicks. Un bucle de dos cámaras (ponedoras sobre hoppers, incubadora al lado) funciona siempre desatendido.",
+   "Sacrifica las adultas sobrantes por raw chicken y feathers cuando el corral se llene."
+  ],
+  "rates": [
+   "Cada gallina promedia 8 eggs por hora real (1 cada 7.5 minutos aprox.)",
+   "Cuenta con ~1 chick por cada 8 eggs lanzados; cerca de 1 de cada 256 eggs saca 4 chicks",
+   "Un corral de 20 gallinas llena un chest con ~160 eggs por hora"
+  ],
+  "tips": [
+   "Las variantes warm y cold de chicken (sabana/desierto y biomas nevados) ponen brown y blue eggs: colecciona las tres para el set completo.",
+   "Mantén el corral cargado: constrúyelo cerca de tu base o de una granja que visites a menudo.",
+   "Un egg en la off-hand y un bow en la principal es una defensa clásica y barata: knockback sin arrows."
+  ]
  }
 }

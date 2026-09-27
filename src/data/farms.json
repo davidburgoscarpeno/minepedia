@@ -2196,5 +2196,124 @@
    "renewable clay minecraft",
    "brick farm minecraft"
   ]
+ },
+ {
+  "slug": "honey-farm",
+  "name": "Honey Farm",
+  "produces": "Honey bottles (food, honey blocks, sugar, cures poison) and honeycombs (beehives, candles, waxing copper)",
+  "difficulty": "Beginner",
+  "editions": "both",
+  "quickAnswer": "Put a campfire under a bee nest or beehive, wait until it drips honey (level 5), then use shears for honeycombs or a glass bottle for honey. A dispenser holding shears or bottles facing the hive automates the whole thing.",
+  "mechanics": [
+   "Each pollinated bee that leaves its home after working raises the honey level by 1. At level 5 the hive drips and is ready to harvest.",
+   "Shears on a full hive drop 3 honeycombs; a glass bottle gives 1 honey bottle. Both reset the level to 0.",
+   "Bees get angry when you harvest their home: a lit campfire directly under the nest or hive calms them completely. Breaking a hive with Silk Touch keeps the bees inside.",
+   "Bee nests generate on oak and birch trees near flowers; saplings grown within 2 blocks of a flower (or pink petals) have a 5% chance to sprout a nest with 2-3 bees.",
+   "Craft your own beehives with 6 planks + 3 honeycombs to scale the apiary, and breed bees with flowers to reach 3 bees per home."
+  ],
+  "materials": [
+   "1 bee nest (Silk Touch to move it) or a crafted beehive",
+   "3 bees per home, flowers within range",
+   "Campfire under each home",
+   "Shears and glass bottles; dispenser + redstone clock for automation"
+  ],
+  "steps": [
+   "Find or breed bees and place their nest or hive over a campfire, near plenty of flowers.",
+   "Breed the colony to 3 bees per home using flowers, and plant more flowers within flight range.",
+   "Wait for honey level 5 - the block visibly drips honey.",
+   "Harvest with shears (honeycombs) or a glass bottle (honey) while the campfire smokes; never break the home without Silk Touch.",
+   "Automate: face a dispenser loaded with shears or bottles into the hive, trigger it with an observer watching the honey level or a simple clock, and collect with hoppers below.",
+   "Turn honey bottles into honey blocks (4 bottles) for redstone contraptions, and honeycombs into beehives, candles or copper waxing."
+  ],
+  "rates": [
+   "A 3-bee home fills in roughly 30-60 minutes of daytime bee activity",
+   "One full hive yields 3 honeycombs or 1 honey bottle per harvest",
+   "Bees work only during the day and only in good weather - rain and night pause production"
+  ],
+  "tips": [
+   "Carpet or fence the flower area so bees path reliably between flowers and home.",
+   "Honey bottles cure poison and stack to 16 - keep a row for cave spider encounters.",
+   "Wax your copper builds with a honeycomb on the copper block to freeze oxidation - see our chain guide for copper chains.",
+   "Never harvest without the campfire lit: angry bees sting once and die, gutting your workforce."
+  ],
+  "keywords": "honey farm minecraft automatic honey bottle honeycomb farm bee hive campfire dispenser bees"
+ },
+ {
+  "slug": "mud-farm",
+  "name": "Mud Farm",
+  "produces": "Unlimited mud for packed mud and mud bricks - and, paired with dripstone, the input for a renewable clay pipeline",
+  "difficulty": "Beginner",
+  "editions": "both",
+  "quickAnswer": "Use a water bottle on any dirt block and it becomes mud - you even get the empty bottle back. Point a dispenser loaded with water bottles at a dirt row and the conversion runs itself while you shovel the output.",
+  "mechanics": [
+   "A water bottle (splash and lingering work too) used on dirt, coarse dirt or rooted dirt converts it to mud and returns the glass bottle.",
+   "Players cannot convert through the bottom face of a block, but dispensers can - so dispenser farms face the dirt from any side.",
+   "Mud is slightly shorter than a full block and does not slow movement; hoppers can pull items through it, which simplifies collection designs.",
+   "Mud placed above a block with pointed dripstone hanging underneath converts to clay (~17.6% per random tick, about 6.5 minutes average) - never in the Nether.",
+   "Natural mud carpets mangrove swamps, but shoveling biomes is slower than converting dirt at home."
+  ],
+  "materials": [
+   "Dirt (a few stacks to start)",
+   "Glass bottles plus a water source to fill them",
+   "Dispenser, redstone clock and hoppers for the automatic version",
+   "A shovel; wheat if you want packed mud on the spot"
+  ],
+  "steps": [
+   "Fill glass bottles at any water source - each bottle converts exactly one dirt block.",
+   "Manual start: use bottles on dirt rows and shovel the mud; bottles come back empty for refilling.",
+   "Build the converter: a dispenser facing a dirt block, fed with water bottles by hoppers, triggered by a clock; mine the mud and a piston or your own placement feeds fresh dirt.",
+   "Combine with a moss farm or tree farm for infinite dirt, and with a dripstone row to turn the mud straight into clay.",
+   "Craft on demand: mud + wheat = packed mud; 4 packed mud = 4 mud bricks for the full brick family."
+  ],
+  "rates": [
+   "1 water bottle = 1 mud block, as fast as you can click",
+   "A simple dispenser converter produces thousands per hour, limited only by bottle supply and dirt feeding",
+   "Mud-to-clay conversion adds about 6.5 minutes per block over dripstone - parallel rows scale it linearly"
+  ],
+  "tips": [
+   "Refill bottles in bulk at a water source block - one infinite source covers the whole farm.",
+   "Keep the farm in the Overworld: mud does not dry into clay in the Nether.",
+   "Mud sinks entities slightly without slowing them - safe flooring for animal pens with hopper collection underneath."
+  ],
+  "keywords": "mud farm minecraft water bottle dirt dispenser automatic packed mud clay renewable"
+ },
+ {
+  "slug": "egg-farm",
+  "name": "Egg Farm",
+  "produces": "Eggs for cakes, pumpkin pies and chicken population - plus feathers and cooked chicken from the same coop",
+  "difficulty": "Beginner",
+  "editions": "both",
+  "quickAnswer": "Fence in chickens on top of hoppers and they lay an egg every 5-10 minutes each, collected automatically. A dispenser firing the eggs at a wall hatches chicks (1 in 8 chance) to grow the next generation.",
+  "mechanics": [
+   "Every adult chicken lays one egg every 5-10 minutes (7.5 minutes average) while the chunk is loaded.",
+   "Thrown eggs have a 1/8 chance to spawn a chick - and 1 in 256 eggs spawns 4 chicks at once.",
+   "Dispensers launch eggs like players do, so a clock plus dispenser hatches eggs hands-free.",
+   "Chicken variants matter: temperate chickens lay the standard egg, warm chickens lay brown eggs and cold chickens lay blue eggs - each hatches its own variant.",
+   "Eggs stack to 16 and are also a crafting ingredient: cake and pumpkin pie both need one."
+  ],
+  "materials": [
+   "At least 2 chickens and seeds to breed them",
+   "A fenced pen with hoppers and a chest under the floor",
+   "Optional: dispenser, redstone clock and a slab wall for the auto-hatcher"
+  ],
+  "steps": [
+   "Lure 2+ chickens into a pen with seeds and breed them up to a dozen or more.",
+   "Replace the pen floor with hoppers feeding a chest - eggs drop straight into storage.",
+   "Manual hatching: throw eggs at a wall; chicks grow into adults in 20 minutes and start laying themselves.",
+   "Auto-hatcher: place a dispenser facing into a chick chamber (slab floor so chicks stay below, adults grow and rise), feed it eggs from the collection chest and run it on a clock.",
+   "Scale: more laying hens = more eggs = more chicks - a two-chamber loop (layers over hoppers, hatchery beside) runs forever unattended.",
+   "Cull spare adults for raw chicken and feathers whenever the pen gets crowded."
+  ],
+  "rates": [
+   "Each hen averages 8 eggs per real-time hour (about 1 every 7.5 minutes)",
+   "Expect roughly 1 chick per 8 eggs thrown; about 1 in 256 eggs pops 4 chicks",
+   "A 20-hen coop fills a chest with ~160 eggs per hour"
+  ],
+  "tips": [
+   "Warm and cold chicken variants (savanna/desert and snowy biomes) lay brown and blue eggs - collect all three for the full set.",
+   "Keep the laying pen loaded: build it near your base or a farm you visit often.",
+   "An egg in the off-hand plus a bow in the main hand is a classic cheap defense - knockback without arrows."
+  ],
+  "keywords": "egg farm minecraft automatic chicken egg every 5 10 minutes dispenser hatch chick chance cake"
  }
 ]
