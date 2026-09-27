@@ -2458,5 +2458,47 @@
     ],
     "renewable": "Renovable: blaze rods y chorus fruit son farmeables.",
     "editionNote": "Idéntico en Java y Bedrock."
+  },
+  "netherite-upgrade": {
+    "howToGet": [
+      "Encuéntralo en cofres de bastion remnants: no aparece en ningún otro lugar del juego",
+      "Los cofres de bridge, genéricos y hoglin stable tienen un 10% de probabilidad (subió del 3,2% antes del lanzamiento de 1.20)",
+      "Duplica el primero: smithing template + 7 diamantes + 1 netherrack devuelve 2"
+    ],
+    "uses": [
+      "Smithing table: netherite upgrade + equipo de diamante + netherite ingot = equipo de netherite",
+      "Al mejorar conserva los encantamientos, el prior work penalty, el trim y la durabilidad perdida de la pieza de diamante",
+      "A diferencia de los anvils, mejorar no cuesta experiencia ni aumenta el prior work penalty"
+    ],
+    "renewable": "No: solo se genera en cofres de bastions, pero un hallazgo se vuelve infinito gracias a la receta de duplicación con diamantes",
+    "editionNote": "Mismo objeto y receta en Java y Bedrock; se añadió en ambas durante el ciclo experimental de 1.20"
+  },
+  "armor-trim": {
+    "howToGet": [
+      "Saquea cofres de estructuras: 18 trims distintos se esconden en bastions, shipwrecks, temples, strongholds, mansions, trial chambers y más",
+      "Los elder guardians tienen un 20% de probabilidad de soltar el tide armor trim, y Looting no lo cambia",
+      "Duplica cualquier trim: template + 7 diamantes + su bloque correspondiente (cobblestone, sandstone, blackstone, purpur, prismarine...) devuelve 2"
+    ],
+    "uses": [
+      "Smithing table: trim + pieza de armadura + material de trim cambia el color del patrón de tu armadura",
+      "Los materiales de trim incluyen iron, gold, diamond, emerald, lapis, redstone, copper, amethyst, quartz, netherite y resin",
+      "Es puramente cosmético: los trims no dan nada de protección, así que presume sin miedo"
+    ],
+    "renewable": "No: cada trim es loot finito de estructuras o jefes, pero todos se duplican con diamantes una vez encontrados",
+    "editionNote": "Funciona igual en Java y Bedrock; los trims flow y bolt llegaron después con las trial chambers en 1.21"
+  },
+  "pottery-sherd": {
+    "howToGet": [
+      "Cepilla suspicious sand y suspicious gravel en trail ruins, ocean ruins, desert pyramids y desert wells",
+      "20 sherds salen de yacimientos de arqueología; flow, guster y scrape aparecen en decorated pots de las trial chambers",
+      "Rompe un decorated pot con cualquier herramienta sin Silk Touch y devuelve los sherds con los que se creó"
+    ],
+    "uses": [
+      "Craftea 4 sherds o bricks en cualquier mezcla para crear un decorated pot con esos patrones en sus caras",
+      "Colecciona los 23 diseños para los advancements Respecting the Remnants y Careful Restoration",
+      "Con Silk Touch o el puño cae la maceta entera, así que puedes mover pots terminados sin riesgo"
+    ],
+    "renewable": "No: los bloques sospechosos y los pots de trial chambers nunca se regeneran, así que cada mundo tiene una cantidad fija",
+    "editionNote": "Igual en Java y Bedrock; los sherds de trial chambers requieren 1.21 o superior"
   }
 }
