@@ -27844,5 +27844,133 @@
     "label": "Piston en minecraft.wiki"
    }
   ]
+ },
+ "how-to-make-a-sticky-piston": {
+  "name": "Cómo hacer un sticky piston en Minecraft",
+  "shortTitle": "Hacer un sticky piston",
+  "quickAnswer": "Fabrica un sticky piston colocando 1 slimeball justo encima de 1 piston en la crafting grid. Las slimeballs salen de matar slimes en swamps de noche o en slime chunks por debajo de Y=40.",
+  "steps": [
+   "Fabrica primero un piston normal: 3 planks, 4 cobblestone, 1 iron ingot y 1 redstone dust.",
+   "Consigue una slimeball matando slimes pequeños: swamps de noche (mejor con luna llena) o slime chunks por debajo de Y=40.",
+   "Abre una crafting table.",
+   "Coloca la slimeball en la ranura central de la columna superior.",
+   "Coloca el piston justo debajo.",
+   "Recoge el sticky piston."
+  ],
+  "materials": [
+   "1 piston",
+   "1 slimeball"
+  ],
+  "editionNote": "La receta del sticky piston es igual en Java y Bedrock: una slimeball sobre un piston, sin importar la columna. Un sticky piston empuja bloques como un piston normal y además tira del bloque frontal al retraerse, lo que permite puertas 2x2, escaleras ocultas, block swappers y flying machines. Un detalle de Java: un sticky piston con un pulso de 1 tick suelta su bloque en vez de tirar de él, base de las máquinas de Java; en Bedrock los sticky pistons siempre tiran. Los honey blocks y slime blocks se pegan a los bloques empujados pero no entre sí, la regla detrás de todo motor de flying machine.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo se consiguen slimeballs en Minecraft?",
+    "a": "Mata slimes pequeños: cada uno suelta 0-2 slimeballs (más con Looting). Los slimes aparecen en swamps de noche entre Y=51 e Y=69 (más con luna llena, ninguno con luna nueva) y en slime chunks por debajo de Y=40 con cualquier luz. Los baby pandas también sueltan una slimeball al estornudar, muy raramente."
+   },
+   {
+    "q": "¿Qué diferencia hay entre un piston y un sticky piston?",
+    "a": "Un piston normal solo empuja; el bloque se queda donde lo dejó. Un sticky piston además tira del bloque que toca al retraerse. Usa pistons normales para empujes de un solo sentido (ascensores de objetos, granjas) y sticky para todo lo que deba abrir y cerrar (puertas, entradas ocultas)."
+   },
+   {
+    "q": "¿Cuántos bloques puede tirar un sticky piston?",
+    "a": "Uno. Un sticky piston solo tira del bloque que tiene justo delante, aunque los slime blocks o honey blocks pegados a ese bloque arrastran sus propios bloques conectados. El límite de empuje de 12 bloques sigue aplicando a toda la estructura movida."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Sticky_Piston",
+    "label": "Sticky Piston en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-a-dispenser": {
+  "name": "Cómo hacer un dispenser en Minecraft",
+  "shortTitle": "Hacer un dispenser",
+  "quickAnswer": "Fabrica un dispenser con 7 cobblestone, 1 bow y 1 redstone dust: llena todas las ranuras menos el centro y la inferior central, pon el bow en el centro y la redstone debajo. El bow puede tener cualquier durabilidad.",
+  "steps": [
+   "Extrae 7 cobblestone y redstone dust de la redstone ore profunda.",
+   "Fabrica o encuentra un bow: 3 sticks y 3 string. Un bow medio roto funciona exactamente igual.",
+   "Abre una crafting table.",
+   "Llena la fila superior con 3 cobblestone.",
+   "Coloca cobblestone, bow, cobblestone en la fila central.",
+   "Coloca cobblestone, redstone dust, cobblestone en la fila inferior y recoge el dispenser."
+  ],
+  "materials": [
+   "7 cobblestone",
+   "1 bow (cualquier durabilidad, los encantamientos no importan)",
+   "1 redstone dust"
+  ],
+  "editionNote": "La receta del dispenser es idéntica en Java y Bedrock, y un bow dañado sirve igual, lo que convierte a los dispensers en el mejor uso para los bows gastados de una granja de skeletons. Al recibir corriente, un dispenser usa un objeto: dispara arrows y fire charges, coloca agua y lava desde buckets, equipa armadura a los jugadores, esquila sheep y más. Su hermano, el dropper (7 cobblestone + 1 redstone, sin bow), solo suelta objetos sin usarlos: elige dispenser para arrows, agua y armadura, y dropper para transporte de objetos. Los encantamientos del bow no se transmiten a las arrows dispensadas.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué diferencia hay entre un dispenser y un dropper?",
+    "a": "Un dispenser usa el objeto (dispara arrows, coloca agua, equipa armadura, esquila sheep); un dropper solo expulsa el objeto como si pulsaras Q. Usa un dropper para mover objetos entre contenedores y un dispenser para todo lo que deba activarse."
+   },
+   {
+    "q": "¿Se puede usar un bow roto para fabricar un dispenser?",
+    "a": "Sí. El bow puede tener cualquier durabilidad, incluso a un uso de romperse, y sus encantamientos no afectan al dispenser. Los bows de una granja de skeletons son material de fabricación perfecto."
+   },
+   {
+    "q": "¿Qué puede hacer un dispenser en Minecraft?",
+    "a": "Disparar arrows, tipped arrows, spectral arrows, fire charges, snowballs y eggs; colocar o recoger agua y lava con buckets; aplicar bone meal a los cultivos; equipar armadura, elytra y carved pumpkins a jugadores; esquilar sheep; encender TNT; y colocar boats y minecarts sobre agua o rails."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Dispenser",
+    "label": "Dispenser en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-an-observer": {
+  "name": "Cómo hacer un observer en Minecraft",
+  "shortTitle": "Hacer un observer",
+  "quickAnswer": "Fabrica un observer con 6 cobblestone, 2 redstone dust y 1 nether quartz: el cobblestone llena las filas superior e inferior, y la fila central es redstone, redstone, quartz.",
+  "steps": [
+   "Extrae 6 cobblestone y 2 redstone dust.",
+   "Consigue 1 nether quartz minando nether quartz ore en el Nether (cualquier bioma).",
+   "Abre una crafting table.",
+   "Llena la fila superior con 3 cobblestone.",
+   "Coloca redstone dust, redstone dust, nether quartz en la fila central.",
+   "Llena la fila inferior con 3 cobblestone y recoge el observer."
+  ],
+  "materials": [
+   "6 cobblestone",
+   "2 redstone dust",
+   "1 nether quartz"
+  ],
+  "editionNote": "La receta del observer es igual en Java y Bedrock. Un observer vigila el bloque frente a su cara y emite un pulso de redstone de 1 tick por la parte trasera cuando ese bloque cambia: cultivos creciendo, furnaces terminando, pistons moviéndose, cofres abriéndose. Los observers de Java tienen un pulso de 1 game tick y detectan cambios que Bedrock no capta (como los contenedores), mientras que los de Bedrock pulsan 2 ticks, así que los observer clocks y las flying machines difieren ligeramente por edición. Dos observers mirándose entre sí forman el reloj instantáneo clásico que alimenta la mayoría de granjas automáticas de sugar cane y bamboo.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace un observer en Minecraft?",
+    "a": "Detecta cambios en el bloque frente a su cara y envía un pulso corto de redstone por detrás. El crecimiento de cultivos, colocar bloques, el movimiento de pistons, el estado del furnace y los cambios de agua lo activan, lo que lo convierte en el sensor central de las granjas automáticas."
+   },
+   {
+    "q": "¿Cómo se hace un observer clock?",
+    "a": "Coloca dos observers de modo que la cara de cada uno mire a la parte trasera del otro. Se activan mutuamente para siempre, produciendo un pulso rápido repetido que alimenta dispensers, pistons y lámparas. Rompe la línea de visión de un observer para pararlo."
+   },
+   {
+    "q": "¿Los observers funcionan distinto en Bedrock?",
+    "a": "Sí. Los observers de Java pulsan durante 1 game tick y los de Bedrock durante 2 ticks, y cada edición detecta algunos cambios de bloque que la otra no. Las flying machines y los relojes de droppers diseñados para Java suelen necesitar otro espaciado en Bedrock."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Observer",
+    "label": "Observer en minecraft.wiki"
+   }
+  ]
  }
 }
