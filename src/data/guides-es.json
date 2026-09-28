@@ -26703,5 +26703,131 @@
     "label": "Trapdoor en minecraft.wiki"
    }
   ]
+ },
+ "how-to-make-a-book-and-quill": {
+  "name": "Cómo hacer un book and quill en Minecraft",
+  "shortTitle": "Hacer un book and quill",
+  "quickAnswer": "Fabrica un book and quill sin forma fija con 1 book, 1 ink sac y 1 feather en cualquier parte de la crafting grid. Es un libro editable: escribe hasta 100 páginas, fírmalo para bloquear el texto, y cópialo o véndelo.",
+  "steps": [
+   "Fabrica un book con 3 paper y 1 leather.",
+   "Consigue un ink sac de un squid (o un glow ink sac de un glow squid).",
+   "Consigue una feather de un chicken.",
+   "Abre una crafting table (también vale la cuadrícula 2x2 del inventario).",
+   "Coloca el book, el ink sac y la feather en cualquier parte de la cuadrícula: la receta no tiene forma.",
+   "Recoge el book and quill, ábrelo en la mano, escribe, y pulsa Sign para ponerle título y bloquearlo."
+  ],
+  "materials": [
+   "1 book (3 paper + 1 leather)",
+   "1 ink sac",
+   "1 feather"
+  ],
+  "editionNote": "La receta del book and quill no tiene forma y es idéntica en Java y Bedrock. Un book and quill guarda hasta 100 páginas (Java) con edición completa hasta que lo firmas; firmar bloquea el contenido para siempre y te permite titular el libro. Los libros firmados se pueden copiar en la crafting grid (copias del original o de una copia, pero las copias de copias dejan de funcionar), venderse a librarians por emeralds, y colocarse en lecterns para exhibirlos.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo se copia un libro escrito en Minecraft?",
+    "a": "Fabrica el written book firmado junto a uno o más books and quills vacíos en la cuadrícula: recuperas el original más las copias. Las copias marcadas 'Copy of original' se pueden copiar de nuevo; las 'Copy of a copy' no."
+   },
+   {
+    "q": "¿Se puede editar un libro después de firmarlo?",
+    "a": "No. La firma es permanente: el título y el autor quedan fijados y el texto se bloquea. Si crees que necesitarás cambios, guarda una copia maestra sin firmar y firma solo duplicados."
+   },
+   {
+    "q": "¿Cuál es el límite de páginas de un book and quill?",
+    "a": "100 páginas en Java y 50 en Bedrock, con límite de caracteres por página. Divide las historias largas en volúmenes."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Book_and_Quill",
+    "label": "Book and Quill en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-a-lightning-rod": {
+  "name": "Cómo hacer una lightning rod en Minecraft",
+  "shortTitle": "Hacer una lightning rod",
+  "quickAnswer": "Fabrica una lightning rod con 3 copper ingots en línea vertical. Colócala en lo alto de tu construcción: atrae todos los rayos en un radio de 128 bloques en Java (64 en Bedrock) y evita que los tejados de madera ardan en tormentas.",
+  "steps": [
+   "Mina copper ore (común en dripstone caves y sobre Y=48).",
+   "Funde el raw copper en 3 copper ingots.",
+   "Abre una crafting table.",
+   "Coloca los 3 copper ingots en línea vertical por cualquier columna.",
+   "Recoge la lightning rod.",
+   "Colócala en el punto más alto de la estructura que quieras proteger; funciona en cualquier orientación, incluso de lado."
+  ],
+  "materials": [
+   "3 copper ingots"
+  ],
+  "editionNote": "La receta de la lightning rod es igual en Java y Bedrock, pero el radio de protección difiere: 128 bloques esféricos en Java, 64 en Bedrock. Una rod alcanzada emite una señal de redstone de 15 por un instante, lo que alimenta lightning farms y detectores. Las rods se oxidan como otros bloques de cobre salvo que las enceres con un honeycomb, y una axe retira la oxidación. El rayo ya no prende fuego en la propia rod, pero los rayos solo se redirigen durante tormentas, y la rod debe ser el bloque más alto de su columna para funcionar.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una lightning rod en Minecraft?",
+    "a": "Durante las tormentas atrae hacia sí todos los rayos de su radio en lugar de dejar que caigan alrededor. Así protege construcciones inflamables, evita que los villagers se conviertan en witches, y permite crear charged creepers o convertir pigs a propósito."
+   },
+   {
+    "q": "¿La lightning rod detiene los incendios?",
+    "a": "Evita que el rayo golpee tu construcción, así que no más incendios de tejado por tormentas. La propia rod nunca arde. No hace nada contra el fuego de lava, flint and steel o hogueras."
+   },
+   {
+    "q": "¿Se puede encerar una lightning rod?",
+    "a": "Sí. Usa un honeycomb para detener la oxidación en su estado actual, o rás pala con una axe para quitar la oxidación. Una rod totalmente oxidada funciona exactamente igual; el cambio es solo visual."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Lightning_Rod",
+    "label": "Lightning Rod en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-a-chiseled-bookshelf": {
+  "name": "Cómo hacer una chiseled bookshelf en Minecraft",
+  "shortTitle": "Hacer una chiseled bookshelf",
+  "quickAnswer": "Fabrica una chiseled bookshelf con 6 planks y 3 wooden slabs: planks en las filas superior e inferior, slabs en la fila central. Guarda 6 libros de cualquier tipo y emite señal de redstone a través de un comparator.",
+  "steps": [
+   "Convierte logs en 6 planks de cualquier tipo de madera.",
+   "Fabrica 3 wooden slabs con 3 planks más.",
+   "Abre una crafting table.",
+   "Llena la fila superior con 3 planks y la fila inferior con 3 planks.",
+   "Llena la fila central con las 3 wooden slabs.",
+   "Recoge la chiseled bookshelf; haz clic derecho con books, enchanted books o written books para llenar sus 6 huecos."
+  ],
+  "materials": [
+   "6 planks (cualquier madera)",
+   "3 wooden slabs (cualquier madera)"
+  ],
+  "editionNote": "La receta de la chiseled bookshelf es igual en Java y Bedrock, y se permite mezclar tipos de madera en la misma receta. A diferencia de la bookshelf normal NO mejora la enchanting table; su función es almacenamiento y redstone. Guarda 6 libros de cualquier tipo (normales, enchanted, written, books and quills), un comparator lee el último hueco con el que interactuaste como potencia 1-6, y los hoppers o droppers pueden insertar y extraer huecos concretos, lo que permite puertas secretas y filtros de objetos. En Java los pistons no pueden moverla.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿La chiseled bookshelf sirve para encantar?",
+    "a": "No. Solo las bookshelves normales suben el nivel de encantamientos alrededor de una enchanting table. La chiseled bookshelf es almacenamiento decorativo con comportamiento de redstone, así que mantén 15 estanterías normales alrededor de tu mesa."
+   },
+   {
+    "q": "¿Cómo funciona la señal de redstone de la chiseled bookshelf?",
+    "a": "Un comparator contra la estantería lee el hueco que tocaste por última vez: el hueco 1 da potencia 1, el 6 da potencia 6. Los hoppers insertan en el primer hueco libre y los droppers pueden apuntar a huecos, así que los constructores codifican combinaciones como cerraduras de puertas."
+   },
+   {
+    "q": "¿Se pueden guardar enchanted books en una chiseled bookshelf?",
+    "a": "Sí. Acepta books, enchanted books, written books y books and quills, hasta 6 en total, y puedes añadirlas o quitarlas individualmente haciendo clic en el hueco."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Chiseled_Bookshelf",
+    "label": "Chiseled Bookshelf en minecraft.wiki"
+   }
+  ]
  }
 }

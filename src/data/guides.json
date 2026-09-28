@@ -30204,5 +30204,173 @@
    "how to craft trapdoor",
    "iron trapdoor recipe"
   ]
+ },
+ {
+  "slug": "how-to-make-a-book-and-quill",
+  "name": "How to Make a Book and Quill in Minecraft",
+  "shortTitle": "Make a Book and Quill",
+  "quickAnswer": "Craft a book and quill shapelessly with 1 book, 1 ink sac and 1 feather anywhere in the crafting grid. It is a writable book: type up to 100 pages, sign it to lock the text, and copy or trade it.",
+  "steps": [
+   "Craft a book from 3 paper and 1 leather.",
+   "Get an ink sac from a squid (or a glow ink sac from a glow squid).",
+   "Get a feather from a chicken.",
+   "Open a crafting table (the 2x2 inventory grid works too).",
+   "Place the book, ink sac and feather anywhere in the grid: the recipe is shapeless.",
+   "Take the book and quill, open it in your hand, write, then press Sign to title and lock it."
+  ],
+  "materials": [
+   "1 book (3 paper + 1 leather)",
+   "1 ink sac",
+   "1 feather"
+  ],
+  "editionNote": "The book and quill recipe is shapeless and identical in Java and Bedrock. A book and quill holds up to 100 pages (Java) with full text editing until you sign it; signing locks the content forever and lets you title the book. Signed books can be copied in the crafting grid (copies of the original or of a copy, but copies of copies stop working), sold to librarian villagers for emeralds, and placed on lecterns for display. Use formatting codes sparingly: the section sign only works in Bedrock.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "How do you copy a written book in Minecraft?",
+    "a": "Craft the signed written book together with one or more empty books and quills in the grid: you get the original back plus copies. Copies marked 'Copy of original' can be copied again; 'Copy of a copy' cannot."
+   },
+   {
+    "q": "Can you edit a book after signing it?",
+    "a": "No. Signing is permanent: the title and author are set and the text locks. If you might need changes, keep an unsigned master copy and sign only duplicates."
+   },
+   {
+    "q": "What is the page limit of a book and quill?",
+    "a": "100 pages in Java and 50 pages in Bedrock, with a character limit per page. Server plugins rarely change this, so split long stories into volumes."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-book",
+   "how-to-make-a-chiseled-bookshelf",
+   "how-to-make-a-sign",
+   "how-to-make-an-item-frame"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Book_and_Quill",
+    "label": "Book and Quill on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "book and quill recipe",
+   "how to make a book and quill",
+   "writable book minecraft",
+   "how to write a book minecraft",
+   "sign book minecraft"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-lightning-rod",
+  "name": "How to Make a Lightning Rod in Minecraft",
+  "shortTitle": "Make a Lightning Rod",
+  "quickAnswer": "Craft a lightning rod with 3 copper ingots in a vertical line. Place it on top of your build: it attracts every lightning strike within 128 blocks in Java (64 in Bedrock) and keeps wooden roofs from burning in storms.",
+  "steps": [
+   "Mine copper ore (common in dripstone caves and around Y=48).",
+   "Smelt the raw copper into 3 copper ingots.",
+   "Open a crafting table.",
+   "Place the 3 copper ingots in a vertical line down any column.",
+   "Take the lightning rod.",
+   "Place it on the highest point of the structure you want to protect; it works in any orientation, even sideways."
+  ],
+  "materials": [
+   "3 copper ingots"
+  ],
+  "editionNote": "The lightning rod recipe is the same in Java and Bedrock, but the protection radius differs: 128 blocks spherical in Java, 64 in Bedrock. A struck rod emits a redstone signal of 15 for a moment, which powers lightning farms and detectors. Rods oxidize like other copper blocks unless you wax them with a honeycomb, and an axe scrapes oxidation back. Lightning no longer starts fires on the rod itself, but strikes only get redirected during thunderstorms, and the rod must be the highest block of its column to work.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a lightning rod do in Minecraft?",
+    "a": "During thunderstorms it pulls every lightning strike in its radius onto itself instead of the surroundings. That protects flammable builds, prevents villagers turning into witches, and lets you farm charged creepers or convert pigs deliberately."
+   },
+   {
+    "q": "Does a lightning rod stop fires?",
+    "a": "It stops lightning from hitting your build, so no more random roof fires from storms. The rod itself never burns. It does nothing against fire spread from lava, flint and steel or fireplaces."
+   },
+   {
+    "q": "Can you wax a lightning rod?",
+    "a": "Yes. Use a honeycomb on it to stop oxidation at its current stage, or scrape it with an axe to remove oxidation. A fully oxidized rod still works exactly the same; the change is purely visual."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-find-iron",
+   "how-to-make-a-furnace",
+   "how-to-make-a-trapdoor",
+   "how-to-make-a-door"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Lightning_Rod",
+    "label": "Lightning Rod on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "lightning rod recipe",
+   "how to make a lightning rod",
+   "lightning rod minecraft",
+   "copper lightning rod",
+   "lightning rod range"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-chiseled-bookshelf",
+  "name": "How to Make a Chiseled Bookshelf in Minecraft",
+  "shortTitle": "Make a Chiseled Bookshelf",
+  "quickAnswer": "Craft a chiseled bookshelf with 6 planks and 3 wooden slabs: planks in the top and bottom rows, slabs in the middle row. It stores 6 books of any kind and outputs a redstone signal through a comparator.",
+  "steps": [
+   "Turn logs into 6 planks of any wood type.",
+   "Craft 3 wooden slabs from 3 more planks.",
+   "Open a crafting table.",
+   "Fill the top row with 3 planks and the bottom row with 3 planks.",
+   "Fill the middle row with the 3 wooden slabs.",
+   "Take the chiseled bookshelf; right-click it with books, enchanted books or written books to fill its 6 slots."
+  ],
+  "materials": [
+   "6 planks (any wood)",
+   "3 wooden slabs (any wood)"
+  ],
+  "editionNote": "The chiseled bookshelf recipe is the same in Java and Bedrock, and mixing wood types in one recipe is allowed. Unlike the normal bookshelf it does NOT boost an enchanting table; its job is storage and redstone. It holds 6 books of any kind (regular, enchanted, written, books and quills), a comparator reads the last slot you interacted with as signal strength 1-6, and hoppers or droppers can insert and extract specific slots, which enables secret doors and item filters. In Java pistons cannot move it.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "Does a chiseled bookshelf work for enchanting?",
+    "a": "No. Only regular bookshelves raise enchantment levels around an enchanting table. The chiseled bookshelf is decorative storage with redstone behavior, so keep 15 normal shelves around your table."
+   },
+   {
+    "q": "How does the chiseled bookshelf redstone signal work?",
+    "a": "A comparator against the shelf reads the slot you last touched: slot 1 gives strength 1, slot 6 gives strength 6. Hoppers insert into the first free slot and droppers can target slots, so builders encode combinations as door locks."
+   },
+   {
+    "q": "Can you store enchanted books in a chiseled bookshelf?",
+    "a": "Yes. It accepts books, enchanted books, written books and books and quills, up to 6 total, and you can add or remove them individually by clicking the slot."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-book",
+   "how-to-make-a-book-and-quill",
+   "how-to-enchant",
+   "how-to-make-a-sign"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Chiseled_Bookshelf",
+    "label": "Chiseled Bookshelf on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "chiseled bookshelf recipe",
+   "how to make a chiseled bookshelf",
+   "chiseled bookshelf minecraft",
+   "chiseled bookshelf redstone",
+   "chiseled bookshelf enchanting"
+  ]
  }
 ]
