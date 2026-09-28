@@ -28341,5 +28341,210 @@
    "redstone inverter not gate",
    "redstone torch light level"
   ]
+ },
+ {
+  "slug": "how-to-make-a-lever",
+  "name": "How to Make a Lever in Minecraft",
+  "shortTitle": "Make a Lever",
+  "quickAnswer": "Craft a lever with 1 stick directly above 1 cobblestone. It is the simplest redstone power switch: flick it to turn doors, pistons, lamps, and machines on and off.",
+  "steps": [
+   "Craft 1 stick from planks.",
+   "Mine 1 cobblestone.",
+   "Open the crafting table or your 2x2 inventory grid.",
+   "Place the stick in the slot directly above the cobblestone.",
+   "Take the lever.",
+   "Place it on the top, side, or bottom of a solid block and right-click to flip it; it powers the block it sits on and everything touching it."
+  ],
+  "materials": [
+   "1 stick",
+   "1 cobblestone"
+  ],
+  "editionNote": "The lever recipe is the same in Java and Bedrock. Unlike buttons, levers stay on until you flick them back, which makes them the standard switch for doors, lights, and farms. A lever also locks hoppers it powers, which is how manual overrides on sorting systems work. In Java you can waterlog a lever, handy for underwater bases.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a lever do in Minecraft?",
+    "a": "It is a manual redstone switch that stays in the on or off position. It powers the block it is attached to and all adjacent redstone components, running doors, pistons, lamps, and machines."
+   },
+   {
+    "q": "Lever vs button: what is the difference?",
+    "a": "A lever holds its state until flipped again; a button pulses briefly and turns itself off (1 second for stone, 1.5 for wood). Use levers for toggles, buttons for momentary triggers."
+   },
+   {
+    "q": "Why does my lever stop my hopper from working?",
+    "a": "That is normal redstone behavior: a powered hopper locks and stops moving items. Your lever is powering the hopper through the block it sits on; move the lever or use it deliberately as an on-off switch for the farm."
+   },
+   {
+    "q": "Can a lever be placed on any block?",
+    "a": "On the top, side, or bottom of most solid blocks. It cannot attach to non-solid blocks like glass or glowstone in Java."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-redstone-torch",
+   "how-to-make-a-tripwire-hook",
+   "how-to-make-a-redstone-repeater"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-redstone-torch/",
+    "label": "How to Make a Redstone Torch"
+   },
+   {
+    "url": "/guides/how-to-make-a-tripwire-hook/",
+    "label": "How to Make a Tripwire Hook"
+   },
+   {
+    "url": "/guides/how-to-make-a-redstone-repeater/",
+    "label": "How to Make a Redstone Repeater"
+   }
+  ],
+  "keywords": [
+   "how to make a lever minecraft",
+   "lever recipe",
+   "lever vs button minecraft",
+   "lever locking hopper",
+   "redstone switch minecraft"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-tripwire-hook",
+  "name": "How to Make a Tripwire Hook in Minecraft",
+  "shortTitle": "Make a Tripwire Hook",
+  "quickAnswer": "Craft 2 tripwire hooks with 1 iron ingot, 1 stick, and 1 plank in a vertical line. Place two hooks facing each other with string between them: anything crossing the line triggers a redstone signal.",
+  "steps": [
+   "Smelt 1 iron ingot.",
+   "Craft 1 stick and 1 plank of any wood type.",
+   "Open the crafting table.",
+   "Place the iron ingot in the top-center, the stick in the center, and the plank in the bottom-center.",
+   "Take the 2 tripwire hooks.",
+   "Mount the hooks on opposite blocks facing each other, then lay string in a straight line between them (up to 40 blocks). The string must sit on the hooks to arm the trap."
+  ],
+  "materials": [
+   "1 iron ingot",
+   "1 stick",
+   "1 plank of any type"
+  ],
+  "editionNote": "The tripwire hook recipe is the same in Java and Bedrock and gives 2 hooks per craft. A valid tripwire circuit needs two hooks and 1 to 40 string in a straight horizontal line; entities crossing or breaking the string fire both hooks. Shears disarm tripwire silently (breaking string with shears does not trigger it), which is why you carry them into jungle temples and pillager outposts.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "How do you set up a tripwire in Minecraft?",
+    "a": "Place two tripwire hooks on blocks facing each other, then lay string in a straight line between them, up to 40 blocks long. When the string shows connected on both hooks, anything passing through triggers the signal."
+   },
+   {
+    "q": "How do you disarm a tripwire without setting it off?",
+    "a": "Break the string with shears. Any other tool (or walking through it) triggers the hooks. This matters in jungle temples, where the tripwire fires dispensers loaded with arrows."
+   },
+   {
+    "q": "What are tripwire hooks used for?",
+    "a": "Perimeter alarms, hidden traps, automatic doors, item-count filters, and string duplication farms. Paired with dispensers or note blocks they make classic entry alerts."
+   },
+   {
+    "q": "Does string have to touch the tripwire hooks?",
+    "a": "Yes. String not connected to a hook does nothing. Lay the line so it starts on one hook and ends on the other; valid string shows a small raised connection at each hook."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-lever",
+   "how-to-make-a-daylight-detector",
+   "how-to-make-a-crossbow"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-lever/",
+    "label": "How to Make a Lever"
+   },
+   {
+    "url": "/guides/how-to-make-a-daylight-detector/",
+    "label": "How to Make a Daylight Detector"
+   },
+   {
+    "url": "/guides/how-to-make-a-crossbow/",
+    "label": "How to Make a Crossbow"
+   }
+  ],
+  "keywords": [
+   "how to make a tripwire hook minecraft",
+   "tripwire hook recipe",
+   "how to set up tripwire minecraft",
+   "disarm tripwire shears",
+   "jungle temple trap"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-daylight-detector",
+  "name": "How to Make a Daylight Detector in Minecraft",
+  "shortTitle": "Make a Daylight Detector",
+  "quickAnswer": "Craft a daylight detector with 3 glass on top, 3 nether quartz in the middle, and 3 wooden slabs on the bottom. It outputs redstone power based on sunlight; right-click it to invert it into a night sensor for automatic lamps.",
+  "steps": [
+   "Smelt 3 sand into 3 glass.",
+   "Mine 3 nether quartz in the Nether.",
+   "Craft 3 wooden slabs of any type.",
+   "Open the crafting table.",
+   "Fill the top row with 3 glass.",
+   "Fill the middle row with 3 nether quartz.",
+   "Fill the bottom row with 3 wooden slabs.",
+   "Take the daylight detector. Right-click the placed block once to switch it into inverted (night) mode."
+  ],
+  "materials": [
+   "3 glass",
+   "3 nether quartz",
+   "3 wooden slabs of any type"
+  ],
+  "editionNote": "The daylight detector recipe is the same in Java and Bedrock. In normal mode its signal rises with the sun (strongest at noon); inverted mode flips it to peak at midnight, which is the classic way to switch street lamps and base lighting on automatically at dusk. It needs sky access to read sunlight, though in Java it still works under transparent blocks like glass, and rain weakens the reading.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a daylight detector do in Minecraft?",
+    "a": "It outputs a redstone signal whose strength follows the time of day: strong at noon, zero at night. Right-click it for inverted mode, which does the opposite and peaks at midnight."
+   },
+   {
+    "q": "How do you make automatic lamps in Minecraft?",
+    "a": "Place an inverted daylight detector with sky access and wire it to your redstone lamps. When the sun sets, the detector powers up and the lamps turn on by themselves."
+   },
+   {
+    "q": "Does a daylight detector work under a roof?",
+    "a": "It needs to see the sky, though transparent blocks above it (glass, slabs) still let light through in Java. Solid blocks overhead drop its reading toward zero."
+   },
+   {
+    "q": "Does rain affect daylight detectors?",
+    "a": "Yes, thunderstorms and rain reduce the effective light level, so the output signal drops during storms even at midday."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-lever",
+   "how-to-make-redstone-lamp",
+   "how-to-make-a-tripwire-hook"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-lever/",
+    "label": "How to Make a Lever"
+   },
+   {
+    "url": "/guides/how-to-make-redstone-lamp/",
+    "label": "How to Make a Redstone Lamp"
+   },
+   {
+    "url": "/guides/how-to-make-a-tripwire-hook/",
+    "label": "How to Make a Tripwire Hook"
+   }
+  ],
+  "keywords": [
+   "how to make a daylight detector minecraft",
+   "daylight detector recipe",
+   "inverted daylight sensor",
+   "automatic lamps minecraft",
+   "night sensor minecraft"
+  ]
  }
 ]

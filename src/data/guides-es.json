@@ -25245,5 +25245,171 @@
     "label": "Cómo hacer un piston"
    }
   ]
+ },
+ "how-to-make-a-lever": {
+  "name": "Cómo hacer una lever en Minecraft",
+  "shortTitle": "Hacer una lever",
+  "quickAnswer": "Fabrica una lever con 1 stick justo encima de 1 cobblestone. Es el interruptor de redstone más simple: gírala para encender y apagar puertas, pistons, lámparas y máquinas.",
+  "steps": [
+   "Fabrica 1 stick de planks.",
+   "Mina 1 cobblestone.",
+   "Abre la crafting table o tu cuadrícula 2x2 del inventario.",
+   "Coloca el stick en la ranura justo encima del cobblestone.",
+   "Recoge la lever.",
+   "Colócala encima, al lado o debajo de un bloque sólido y haz clic derecho para girarla; alimenta el bloque sobre el que está y todo lo que lo toca."
+  ],
+  "materials": [
+   "1 stick",
+   "1 cobblestone"
+  ],
+  "editionNote": "La receta de la lever es igual en Java y Bedrock. A diferencia de los buttons, las levers se quedan encendidas hasta que las giras de nuevo, lo que las convierte en el interruptor estándar de puertas, luces y granjas. Una lever también bloquea los hoppers que alimenta, que es cómo funcionan los interruptores manuales de los sistemas de clasificación. En Java puedes waterloggear una lever, útil para bases submarinas.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una lever en Minecraft?",
+    "a": "Es un interruptor manual de redstone que se mantiene encendido o apagado. Alimenta el bloque al que está unida y todos los componentes de redstone adyacentes, haciendo funcionar puertas, pistons, lámparas y máquinas."
+   },
+   {
+    "q": "¿Lever o button: cuál es la diferencia?",
+    "a": "Una lever mantiene su estado hasta que la giras de nuevo; un button da un pulso breve y se apaga solo (1 segundo el de piedra, 1,5 el de madera). Usa levers para interruptores fijos y buttons para disparos momentáneos."
+   },
+   {
+    "q": "¿Por qué mi lever impide que funcione mi hopper?",
+    "a": "Es el comportamiento normal de la redstone: un hopper alimentado se bloquea y deja de mover objetos. Tu lever está alimentando el hopper a través del bloque en el que está; muévela o úsala a propósito como interruptor de la granja."
+   },
+   {
+    "q": "¿Se puede poner una lever en cualquier bloque?",
+    "a": "Encima, al lado o debajo de la mayoría de bloques sólidos. No puede unirse a bloques no sólidos como glass o glowstone en Java."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-redstone-torch/",
+    "label": "Cómo hacer una redstone torch"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-tripwire-hook/",
+    "label": "Cómo hacer un tripwire hook"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-redstone-repeater/",
+    "label": "Cómo hacer un redstone repeater"
+   }
+  ]
+ },
+ "how-to-make-a-tripwire-hook": {
+  "name": "Cómo hacer un tripwire hook en Minecraft",
+  "shortTitle": "Hacer un tripwire hook",
+  "quickAnswer": "Fabrica 2 tripwire hooks con 1 iron ingot, 1 stick y 1 plank en línea vertical. Coloca dos hooks enfrentados con string entre ellos: cualquier cosa que cruce la línea dispara una señal de redstone.",
+  "steps": [
+   "Funde 1 iron ingot.",
+   "Fabrica 1 stick y 1 plank de cualquier tipo de madera.",
+   "Abre la crafting table.",
+   "Coloca el iron ingot en el centro superior, el stick en el centro y la plank en el centro inferior.",
+   "Recoge los 2 tripwire hooks.",
+   "Monta los hooks en bloques opuestos mirándose, y luego tiende string en línea recta entre ellos (hasta 40 bloques). El string debe asentarse sobre los hooks para armar la trampa."
+  ],
+  "materials": [
+   "1 iron ingot",
+   "1 stick",
+   "1 plank de cualquier tipo"
+  ],
+  "editionNote": "La receta del tripwire hook es igual en Java y Bedrock y da 2 hooks por crafteo. Un circuito de tripwire válido necesita dos hooks y de 1 a 40 string en línea recta horizontal; las entidades que cruzan o rompen el string disparan ambos hooks. Las shears desarman el tripwire en silencio (romper el string con shears no lo activa), por eso se llevan a los jungle temples y pillager outposts.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo se monta un tripwire en Minecraft?",
+    "a": "Coloca dos tripwire hooks en bloques enfrentados y tiende string en línea recta entre ellos, hasta 40 bloques. Cuando el string aparece conectado en ambos hooks, cualquier cosa que lo atraviese dispara la señal."
+   },
+   {
+    "q": "¿Cómo se desarma un tripwire sin activarlo?",
+    "a": "Rompe el string con shears. Cualquier otra herramienta (o cruzarlo caminando) activa los hooks. Esto importa en los jungle temples, donde el tripwire dispara dispensers cargados de arrows."
+   },
+   {
+    "q": "¿Para qué sirven los tripwire hooks?",
+    "a": "Alarmas de perímetro, trampas ocultas, puertas automáticas, filtros por cantidad de objetos y granjas de duplicación de string. Con dispensers o note blocks forman la clásica alerta de entrada."
+   },
+   {
+    "q": "¿El string tiene que tocar los tripwire hooks?",
+    "a": "Sí. El string que no está conectado a un hook no hace nada. Tiende la línea de modo que empiece en un hook y termine en el otro; el string válido muestra una pequeña conexión elevada en cada hook."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-lever/",
+    "label": "Cómo hacer una lever"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-daylight-detector/",
+    "label": "Cómo hacer un daylight detector"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-crossbow/",
+    "label": "Cómo hacer una crossbow"
+   }
+  ]
+ },
+ "how-to-make-a-daylight-detector": {
+  "name": "Cómo hacer un daylight detector en Minecraft",
+  "shortTitle": "Hacer un daylight detector",
+  "quickAnswer": "Fabrica un daylight detector con 3 glass arriba, 3 nether quartz en el medio y 3 wooden slabs abajo. Emite corriente de redstone según la luz solar; haz clic derecho para invertirlo en un sensor nocturno para lámparas automáticas.",
+  "steps": [
+   "Funde 3 sand en 3 glass.",
+   "Mina 3 nether quartz en el Nether.",
+   "Fabrica 3 wooden slabs de cualquier tipo.",
+   "Abre la crafting table.",
+   "Llena la fila superior con 3 glass.",
+   "Llena la fila del medio con 3 nether quartz.",
+   "Llena la fila inferior con 3 wooden slabs.",
+   "Recoge el daylight detector. Haz clic derecho sobre el bloque ya colocado para cambiarlo a modo invertido (nocturno)."
+  ],
+  "materials": [
+   "3 glass",
+   "3 nether quartz",
+   "3 wooden slabs de cualquier tipo"
+  ],
+  "editionNote": "La receta del daylight detector es igual en Java y Bedrock. En modo normal su señal sube con el sol (máxima al mediodía); el modo invertido lo voltea para llegar al pico a medianoche, la forma clásica de encender farolas e iluminación de base automáticamente al anochecer. Necesita acceso al cielo para leer la luz solar, aunque en Java sigue funcionando bajo bloques transparentes como glass, y la lluvia debilita la lectura.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace un daylight detector en Minecraft?",
+    "a": "Emite una señal de redstone cuya fuerza sigue la hora del día: fuerte al mediodía, cero de noche. Haz clic derecho para el modo invertido, que hace lo contrario y llega al máximo a medianoche."
+   },
+   {
+    "q": "¿Cómo se hacen lámparas automáticas en Minecraft?",
+    "a": "Coloca un daylight detector invertido con acceso al cielo y cablea tus redstone lamps. Cuando se pone el sol, el detector se enciende y las lámparas se activan solas."
+   },
+   {
+    "q": "¿Funciona un daylight detector bajo techo?",
+    "a": "Necesita ver el cielo, aunque los bloques transparentes encima (glass, slabs) dejan pasar la luz en Java. Los bloques sólidos sobre él reducen su lectura casi a cero."
+   },
+   {
+    "q": "¿La lluvia afecta a los daylight detectors?",
+    "a": "Sí, las tormentas y la lluvia reducen el nivel de luz efectivo, así que la señal de salida cae durante las tormentas incluso al mediodía."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-lever/",
+    "label": "Cómo hacer una lever"
+   },
+   {
+    "url": "/es/guides/how-to-make-redstone-lamp/",
+    "label": "Cómo hacer una redstone lamp"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-tripwire-hook/",
+    "label": "Cómo hacer un tripwire hook"
+   }
+  ]
  }
 }
