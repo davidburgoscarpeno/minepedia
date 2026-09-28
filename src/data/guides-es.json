@@ -23321,5 +23321,167 @@
         "label": "Cómo hacer una poción de Strength"
       }
     ]
+  },
+  "how-to-make-potion-of-poison": {
+    "name": "Cómo hacer una poción de Poison en Minecraft",
+    "shortTitle": "Poción de Poison",
+    "quickAnswer": "Destila una poción de Poison añadiendo un spider eye a una awkward potion en el brewing stand. Envenena durante 45 segundos, ampliables a 1 minuto y 30 segundos con redstone dust o sube a Poison II con glowstone dust.",
+    "steps": [
+      "Prepara un brewing stand y cárgalo con blaze powder.",
+      "Destila water bottles con nether wart para hacer awkward potions, la base de casi todas las pociones.",
+      "Consigue un spider eye matando spiders, cave spiders o witches.",
+      "Coloca hasta 3 awkward potions en las ranuras inferiores del brewing stand.",
+      "Pon el spider eye en la ranura de ingrediente de arriba.",
+      "Espera 20 segundos. Ya tienes pociones de Poison que dañan durante 45 segundos.",
+      "Opcional: añade redstone dust para alargarla a 1 minuto y 30 segundos, glowstone dust para Poison II (21 segundos, daño más rápido) o gunpowder para splash potions."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Nether wart + water bottles (para las awkward potions)",
+      "1 spider eye",
+      "Redstone dust o glowstone dust (modificadores opcionales)",
+      "Gunpowder (opcional, splash)"
+    ],
+    "editionNote": "Poison funciona igual en Java y Bedrock: daño con el tiempo que nunca puede matar por sí solo, dejando siempre al objetivo con 1 de vida. Eso hace que la splash poison sea genial para debilitar mobs en granjas de XP o capturas. Las witches beben antídotos contra el veneno, así que ni lo intentes con ellas.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿El veneno puede matarte en Minecraft?",
+        "a": "No. El daño de Poison se detiene en 1 de vida (medio corazón). Te deja peligrosamente débil pero el golpe final tiene que venir de otra cosa, por eso el veneno se usa para ablandar mobs en vez de matarlos."
+      },
+      {
+        "q": "¿Cuánto dura Poison?",
+        "a": "La poción base dura 45 segundos. Redstone la alarga a 1 minuto y 30 segundos, y glowstone la sube a Poison II durante 21 segundos de ticks más rápidos."
+      },
+      {
+        "q": "¿Para qué sirve un spider eye?",
+        "a": "Los spider eyes destilan pociones de Poison desde awkward potions, y son uno de los tres ingredientes (con un brown mushroom y sugar) de un fermented spider eye, que corrompe pociones en efectos negativos como Harming y Slowness."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-a-brewing-stand/",
+        "label": "Cómo hacer un brewing stand"
+      },
+      {
+        "url": "/es/guides/how-to-make-potion-of-harming/",
+        "label": "Cómo hacer una poción de Harming"
+      },
+      {
+        "url": "/es/guides/how-to-make-potion-of-healing/",
+        "label": "Cómo hacer una poción de Healing"
+      }
+    ]
+  },
+  "how-to-make-potion-of-harming": {
+    "name": "Cómo hacer una poción de Harming en Minecraft",
+    "shortTitle": "Poción de Harming",
+    "quickAnswer": "Destila una poción de Harming añadiendo un fermented spider eye a una poción de Healing o de Poison en el brewing stand. Hace 6 de daño instantáneo, subido a 12 con glowstone dust. Al ser instantánea no se puede alargar con redstone.",
+    "steps": [
+      "Prepara un brewing stand y cárgalo con blaze powder.",
+      "Destila primero una poción base: una de Healing (awkward potion + glistering melon slice) o una de Poison (awkward potion + spider eye).",
+      "Fabrica un fermented spider eye con 1 spider eye, 1 brown mushroom y 1 sugar.",
+      "Coloca hasta 3 pociones de Healing o Poison en las ranuras inferiores del brewing stand.",
+      "Pon el fermented spider eye en la ranura de ingrediente de arriba. Corrompe el efecto positivo convirtiéndolo en daño instantáneo.",
+      "Espera 20 segundos. Ya tienes pociones de Harming que hacen 6 de daño al instante.",
+      "Opcional: añade glowstone dust para Harming II (12 de daño instantáneo) y luego gunpowder para splash potions que lanzar a los enemigos."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Poción de Healing o Poison como base",
+      "1 fermented spider eye (spider eye + brown mushroom + sugar)",
+      "Glowstone dust (opcional, Harming II)",
+      "Gunpowder (para la versión splash, su uso principal)"
+    ],
+    "editionNote": "Harming es una poción instantánea sin duración, así que redstone nunca la alarga en ninguna edición. La splash Harming es un arma clásica de PvP y de limpieza de mobs, pero recuerda el truco: los mobs undead (zombies, skeletons, el wither) se curan con Harming en vez de dañarse, así que nunca se la lances.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto daño hace Harming?",
+        "a": "La poción de Harming hace 6 de daño (3 corazones) al instante. Harming II hace 12 de daño (6 corazones). No hay versión extendida porque el efecto es instantáneo."
+      },
+      {
+        "q": "¿Harming funciona contra los zombies?",
+        "a": "No, al contrario: los mobs undead como zombies, skeletons y el wither se curan con las pociones de Harming y reciben daño de las de Healing. Tenlo claro antes de una pelea."
+      },
+      {
+        "q": "¿Cómo se hace Harming II?",
+        "a": "Destila una poción de Harming corrompiendo una poción de Healing o Poison con un fermented spider eye, y luego añade glowstone dust. Harming II hace 12 de daño instantáneo, y con gunpowder se convierte en la splash potion de daño directo más fuerte."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-potion-of-healing/",
+        "label": "Cómo hacer una poción de Healing"
+      },
+      {
+        "url": "/es/guides/how-to-make-potion-of-poison/",
+        "label": "Cómo hacer una poción de Poison"
+      },
+      {
+        "url": "/es/guides/how-to-make-a-brewing-stand/",
+        "label": "Cómo hacer un brewing stand"
+      }
+    ]
+  },
+  "how-to-make-potion-of-slowness": {
+    "name": "Cómo hacer una poción de Slowness en Minecraft",
+    "shortTitle": "Poción de Slowness",
+    "quickAnswer": "Destila una poción de Slowness añadiendo un fermented spider eye a una poción de Swiftness o de Leaping en el brewing stand. Ralentiza el movimiento durante 1 minuto y 30 segundos, ampliables a 4 minutos con redstone dust o intensifícala a Slowness IV con glowstone dust.",
+    "steps": [
+      "Prepara un brewing stand y cárgalo con blaze powder.",
+      "Destila primero una poción base: una de Swiftness (awkward potion + sugar) o una de Leaping (awkward potion + rabbit's foot).",
+      "Fabrica un fermented spider eye con 1 spider eye, 1 brown mushroom y 1 sugar.",
+      "Coloca hasta 3 pociones de Swiftness o Leaping en las ranuras inferiores del brewing stand.",
+      "Pon el fermented spider eye en la ranura de ingrediente de arriba. Corrompe el impulso de velocidad convirtiéndolo en Slowness.",
+      "Espera 20 segundos. Ya tienes pociones de Slowness que ralentizan el movimiento durante 1 minuto y 30 segundos.",
+      "Opcional: añade redstone dust para una versión de 4 minutos, glowstone dust para Slowness IV, o gunpowder para splash potions y ralentizar enemigos."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "Poción de Swiftness o Leaping como base",
+      "1 fermented spider eye (spider eye + brown mushroom + sugar)",
+      "Redstone dust o glowstone dust (modificadores opcionales)",
+      "Gunpowder (opcional, splash)"
+    ],
+    "editionNote": "Slowness funciona igual en Java y Bedrock: recorta la velocidad de movimiento un 15% en nivel I y mucho más en nivel IV. La splash Slowness es además la mitad del control de masas al curar un zombie villager: ralentiza al zombie que te persigue mientras preparas la splash de Weakness y la golden apple.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura Slowness?",
+        "a": "La poción base dura 1 minuto y 30 segundos. Redstone la alarga a 4 minutos, y glowstone la sube a Slowness IV con un efecto mucho más fuerte pero más corto."
+      },
+      {
+        "q": "¿Por qué Slowness se destila desde Swiftness?",
+        "a": "Los fermented spider eyes corrompen las pociones convirtiéndolas en su efecto opuesto. Swiftness te acelera, así que su forma corrompida te ralentiza. El mismo truco convierte Leaping en Slowness y Healing en Harming."
+      },
+      {
+        "q": "¿Para qué sirve Slowness?",
+        "a": "Lanzada como splash potion ralentiza a los mobs hostiles y a otros jugadores, dándote tiempo para escapar o controlar una pelea. También es útil para mantener quieto a un zombie villager mientras lo curas con Weakness y una golden apple."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-potion-of-swiftness/",
+        "label": "Cómo hacer una poción de Swiftness"
+      },
+      {
+        "url": "/es/guides/how-to-cure-a-zombie-villager/",
+        "label": "Cómo curar un zombie villager"
+      },
+      {
+        "url": "/es/guides/how-to-make-a-brewing-stand/",
+        "label": "Cómo hacer un brewing stand"
+      }
+    ]
   }
 }
