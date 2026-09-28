@@ -25411,5 +25411,170 @@
     "label": "Cómo hacer un tripwire hook"
    }
   ]
+ },
+ "how-to-make-a-button": {
+  "name": "Cómo hacer un button en Minecraft",
+  "shortTitle": "Hacer un button",
+  "quickAnswer": "Fabrica un button con una sola plank (button de madera) o un solo bloque de stone (button de piedra) en cualquier ranura de la cuadrícula. Los buttons dan un pulso corto de redstone al pulsarse y son la entrada estándar para puertas y disparadores.",
+  "steps": [
+   "Convierte 1 log en planks (button de madera) o funde cobblestone en stone (button de piedra).",
+   "Abre la crafting table o tu cuadrícula 2x2 del inventario.",
+   "Coloca 1 plank o 1 bloque de stone en cualquier ranura.",
+   "Recoge el button.",
+   "Colócalo encima, al lado o debajo de un bloque junto a lo que quieras alimentar, y púlsalo.",
+   "Un button de madera da un pulso de 1,5 segundos, uno de piedra de 1 segundo."
+  ],
+  "materials": [
+   "1 plank de cualquier madera (button de madera)",
+   "o 1 bloque de stone (button de piedra)"
+  ],
+  "editionNote": "La receta del button es igual en Java y Bedrock y no podría ser más barata: un bloque, sin stick. Los buttons de madera también se activan con arrows y tridents clavados en ellos, lo que los convierte en el objetivo de aperturas de puertas a distancia; los de piedra solo responden al jugador. El polished blackstone funciona como variante de piedra. Los buttons se rompen al instante con cualquier herramienta y saltan si se quita su bloque de apoyo.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Button o lever en Minecraft: cuál usar?",
+    "a": "Usa un button para disparos momentáneos como puertas y dispensers; se apaga solo al segundo. Usa una lever cuando quieras que una máquina siga encendida hasta que la apagues."
+   },
+   {
+    "q": "¿Pueden las arrows pulsar un button en Minecraft?",
+    "a": "Sí, pero solo los buttons de madera. Una arrow o trident clavado en un button de madera lo mantiene pulsado hasta que el proyectil desaparece. Los buttons de piedra y polished blackstone ignoran los proyectiles."
+   },
+   {
+    "q": "¿Cuánto tiempo se queda pulsado un button?",
+    "a": "Un button de piedra da un pulso de 1 segundo (10 ticks de redstone) y uno de madera de 1,5 segundos (15 ticks). Una arrow en un button de madera lo mantiene activo mientras viva la arrow."
+   },
+   {
+    "q": "¿Cómo se abre una iron door con un button?",
+    "a": "Las iron doors solo se abren con corriente de redstone. Coloca un button en el bloque junto a la puerta y púlsalo; la puerta se abre durante el pulso y se cierra sola."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-lever/",
+    "label": "Cómo hacer una lever"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-pressure-plate/",
+    "label": "Cómo hacer una pressure plate"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-target-block/",
+    "label": "Cómo hacer un target block"
+   }
+  ]
+ },
+ "how-to-make-a-pressure-plate": {
+  "name": "Cómo hacer una pressure plate en Minecraft",
+  "shortTitle": "Hacer una pressure plate",
+  "quickAnswer": "Fabrica una pressure plate con 2 bloques iguales uno al lado del otro: 2 planks para la de madera, 2 stone para la de piedra, 2 iron ingots para la weighted pesada o 2 gold ingots para la ligera. Pisarla emite corriente de redstone.",
+  "steps": [
+   "Elige tu tipo: de madera (la activa cualquier mob u objeto), de piedra (solo entidades vivas), o weighted de hierro/oro (la señal escala con el número de entidades).",
+   "Reúne 2 materiales iguales: planks, stone, iron ingots o gold ingots.",
+   "Abre la crafting table.",
+   "Coloca los 2 materiales uno al lado del otro en dos ranuras horizontales.",
+   "Recoge la pressure plate.",
+   "Colócala en el suelo frente a una puerta o sobre redstone enterrado; pisarla alimenta los componentes adyacentes."
+  ],
+  "materials": [
+   "2 planks de una madera (madera)",
+   "o 2 bloques de stone (piedra)",
+   "o 2 iron ingots (weighted pesada)",
+   "o 2 gold ingots (weighted ligera)"
+  ],
+  "editionNote": "Las recetas de las pressure plates son iguales en Java y Bedrock. Las de madera se activan con cualquier cosa, incluidos objetos tirados, lo que las convierte también en detectores de objetos; las de piedra solo se activan con mobs y jugadores, más seguras para puertas donde un objeto tirado las mantendría abiertas. Las weighted plates emiten una señal que crece con el número de entidades encima, la base de los disparadores por cantidad de jugadores. El polished blackstone funciona como variante de piedra.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una pressure plate en Minecraft?",
+    "a": "Emite una señal de redstone mientras una entidad está encima, alimentando dust y componentes adyacentes. Es el clásico abridor automático de puertas y disparador de trampas de suelo."
+   },
+   {
+    "q": "¿Pressure plate de madera o de piedra: cuál es la diferencia?",
+    "a": "Las de madera reaccionan a todo, incluidos objetos tirados y arrows; las de piedra solo a jugadores, mobs y otras entidades vivas. Usa piedra para puertas, madera para detectar objetos."
+   },
+   {
+    "q": "¿Qué son las weighted pressure plates?",
+    "a": "Las weighted pesadas (hierro) y ligeras (oro) escalan la fuerza de su señal con el número de entidades encima, de 0 a 15. El oro detecta diferencias finas de cantidad; el hierro necesita muchas más entidades por paso."
+   },
+   {
+    "q": "¿Puede una pressure plate abrir una iron door?",
+    "a": "Sí. Coloca la plate justo delante o bajo el bloque junto a la iron door; pisarla abre la puerta hasta que te bajes."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-button/",
+    "label": "Cómo hacer un button"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-lever/",
+    "label": "Cómo hacer una lever"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-tripwire-hook/",
+    "label": "Cómo hacer un tripwire hook"
+   }
+  ]
+ },
+ "how-to-make-a-target-block": {
+  "name": "Cómo hacer un target block en Minecraft",
+  "shortTitle": "Hacer un target block",
+  "quickAnswer": "Fabrica un target block con 1 hay bale rodeada de 4 redstone dust (arriba, abajo, izquierda y derecha). Dispárale con cualquier proyectil y emite una señal de redstone cuya fuerza depende de lo cerca del centro que aciertes.",
+  "steps": [
+   "Fabrica una hay bale con 9 wheat (llena la cuadrícula).",
+   "Mina 4 redstone dust.",
+   "Abre la crafting table.",
+   "Coloca la hay bale en la ranura central.",
+   "Coloca 1 redstone dust arriba, abajo, a la izquierda y a la derecha.",
+   "Recoge el target block.",
+   "Dispárale con una arrow, trident, snowball o egg: los impactos en el centro dan fuerza 15, los del borde tan bajo como 1."
+  ],
+  "materials": [
+   "1 hay bale (9 wheat)",
+   "4 redstone dust"
+  ],
+  "editionNote": "La receta del target block es igual en Java y Bedrock y se añadió en la 1.16. Dos trucos lo hacen único: la fuerza de su señal codifica tu puntería (de 1 a 15 por anillo), así que los minijuegos de tiro con arco y las puertas de habilidad leen tu precisión, y redirige el redstone dust hacia sí mismo, ordenando líneas de dust en esquinas compactas. Se mina más rápido con una hoe.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace un target block en Minecraft?",
+    "a": "Cuando un proyectil lo golpea, emite un pulso de redstone cuya fuerza depende de la precisión: 15 en el centro, bajando a 1 en el borde. También atrae y redirige el redstone dust colocado cerca."
+   },
+   {
+    "q": "¿Cómo redirige el redstone el target block?",
+    "a": "El redstone dust colocado junto a un target block apunta hacia él, incluso en esquinas, permitiendo dirigir líneas de dust sin repeaters. Es tanto una herramienta de cableado como un bloque de juego."
+   },
+   {
+    "q": "¿Qué proyectiles activan un target block?",
+    "a": "Arrows, tridents, snowballs, eggs, fire charges, ender pearls e incluso fishing bobbers, básicamente cualquier cosa lanzada o disparada. Los golpes cuerpo a cuerpo no hacen nada."
+   },
+   {
+    "q": "¿Cómo se hace una hay bale?",
+    "a": "Llena las 9 ranuras de la cuadrícula con wheat. Las hay bales también reducen el daño de caída un 80% al aterrizar sobre ellas y alimentan a horses y llamas."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-bow/",
+    "label": "Cómo hacer un bow"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-button/",
+    "label": "Cómo hacer un button"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-pressure-plate/",
+    "label": "Cómo hacer una pressure plate"
+   }
+  ]
  }
 }

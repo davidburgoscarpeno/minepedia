@@ -28546,5 +28546,209 @@
    "automatic lamps minecraft",
    "night sensor minecraft"
   ]
+ },
+ {
+  "slug": "how-to-make-a-button",
+  "name": "How to Make a Button in Minecraft",
+  "shortTitle": "Make a Button",
+  "quickAnswer": "Craft a button with a single plank (wooden button) or a single stone block (stone button) anywhere in the crafting grid. Buttons give a short redstone pulse when pressed and are the standard door and trigger input.",
+  "steps": [
+   "Turn 1 log into planks (wooden button) or smelt cobblestone into stone (stone button).",
+   "Open the crafting table or your 2x2 inventory grid.",
+   "Place 1 plank or 1 stone block in any slot.",
+   "Take the button.",
+   "Place it on the top, side, or bottom of a block next to what you want to power, and press it.",
+   "A wooden button pulses for 1.5 seconds, a stone button for 1 second."
+  ],
+  "materials": [
+   "1 plank of any wood type (wooden button)",
+   "or 1 stone block (stone button)"
+  ],
+  "editionNote": "The button recipe is the same in Java and Bedrock and could not be cheaper: one block, no stick. Wooden buttons can also be triggered by arrows and tridents stuck in them, which makes them the target for remote door openers; stone buttons only respond to a player press. Polished blackstone works as a stone variant. Buttons break instantly with any tool and pop off if their support block is removed.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "Button vs lever in Minecraft: which should I use?",
+    "a": "Use a button for momentary triggers like doors and dispensers; it turns itself off after a second. Use a lever when you want a machine to stay on until you switch it back."
+   },
+   {
+    "q": "Can arrows press a button in Minecraft?",
+    "a": "Yes, but only wooden buttons. An arrow or trident stuck in a wooden button holds it pressed until the projectile despawns. Stone and polished blackstone buttons ignore projectiles."
+   },
+   {
+    "q": "How long does a button stay pressed?",
+    "a": "A stone button pulses for 1 second (10 redstone ticks) and a wooden button for 1.5 seconds (15 redstone ticks). An arrow in a wooden button keeps it on for the arrow's lifetime."
+   },
+   {
+    "q": "How do you open an iron door with a button?",
+    "a": "Iron doors only open with redstone power. Place a button on the block next to the door and press it; the door opens for the pulse and closes on its own."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-lever",
+   "how-to-make-a-pressure-plate",
+   "how-to-make-a-target-block"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-lever/",
+    "label": "How to Make a Lever"
+   },
+   {
+    "url": "/guides/how-to-make-a-pressure-plate/",
+    "label": "How to Make a Pressure Plate"
+   },
+   {
+    "url": "/guides/how-to-make-a-target-block/",
+    "label": "How to Make a Target Block"
+   }
+  ],
+  "keywords": [
+   "how to make a button minecraft",
+   "button recipe minecraft",
+   "wooden button arrow",
+   "button vs lever minecraft",
+   "iron door button"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-pressure-plate",
+  "name": "How to Make a Pressure Plate in Minecraft",
+  "shortTitle": "Make a Pressure Plate",
+  "quickAnswer": "Craft a pressure plate with 2 matching blocks side by side: 2 planks for a wooden plate, 2 stone for a stone plate, 2 iron ingots for a heavy weighted plate, or 2 gold ingots for a light weighted plate. Stepping on it emits redstone power.",
+  "steps": [
+   "Pick your type: wooden (any mob or item triggers), stone (only living entities), or weighted iron/gold (signal scales with entity count).",
+   "Gather 2 matching materials: planks, stone, iron ingots, or gold ingots.",
+   "Open the crafting table.",
+   "Place the 2 materials side by side in two horizontal slots.",
+   "Take the pressure plate.",
+   "Place it on the ground in front of a door or over buried redstone; stepping on it powers adjacent components."
+  ],
+  "materials": [
+   "2 planks of one wood type (wooden)",
+   "or 2 stone blocks (stone)",
+   "or 2 iron ingots (heavy weighted)",
+   "or 2 gold ingots (light weighted)"
+  ],
+  "editionNote": "The pressure plate recipes are the same in Java and Bedrock. Wooden plates trigger from anything, including dropped items, which makes them double as item detectors; stone plates only trigger from mobs and players, safer for doors where a dropped item would hold them open. Weighted plates output a signal that grows with the number of entities standing on them, the basis of player-count triggers. Polished blackstone works as a stone variant.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a pressure plate do in Minecraft?",
+    "a": "It emits a redstone signal while an entity stands on it, powering adjacent dust and components. It is the classic automatic door opener and floor trap trigger."
+   },
+   {
+    "q": "Wooden vs stone pressure plate: what is the difference?",
+    "a": "Wooden plates react to everything, including dropped items and arrows; stone plates only react to players, mobs, and other living entities. Use stone for doors, wood for item detection."
+   },
+   {
+    "q": "What are weighted pressure plates?",
+    "a": "Heavy (iron) and light (gold) weighted plates scale their signal strength with the number of entities on them, from 0 to 15. Gold detects fine count differences; iron needs many more entities per step."
+   },
+   {
+    "q": "Can a pressure plate open an iron door?",
+    "a": "Yes. Place the plate directly in front of or under the block next to the iron door; stepping on it powers the door open until you step off."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-button",
+   "how-to-make-a-lever",
+   "how-to-make-a-tripwire-hook"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-button/",
+    "label": "How to Make a Button"
+   },
+   {
+    "url": "/guides/how-to-make-a-lever/",
+    "label": "How to Make a Lever"
+   },
+   {
+    "url": "/guides/how-to-make-a-tripwire-hook/",
+    "label": "How to Make a Tripwire Hook"
+   }
+  ],
+  "keywords": [
+   "how to make a pressure plate minecraft",
+   "pressure plate recipe",
+   "weighted pressure plate",
+   "wooden vs stone pressure plate",
+   "automatic door minecraft"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-target-block",
+  "name": "How to Make a Target Block in Minecraft",
+  "shortTitle": "Make a Target Block",
+  "quickAnswer": "Craft a target block with 1 hay bale surrounded by 4 redstone dust (top, bottom, left, right). Shoot it with any projectile and it emits a redstone signal whose strength depends on how close to the bullseye you hit.",
+  "steps": [
+   "Craft a hay bale from 9 wheat (fill the grid).",
+   "Mine 4 redstone dust.",
+   "Open the crafting table.",
+   "Place the hay bale in the center slot.",
+   "Place 1 redstone dust above, below, left, and right of it.",
+   "Take the target block.",
+   "Shoot it with an arrow, trident, snowball, or egg: bullseye hits output strength 15, edge hits as low as 1."
+  ],
+  "materials": [
+   "1 hay bale (9 wheat)",
+   "4 redstone dust"
+  ],
+  "editionNote": "The target block recipe is the same in Java and Bedrock and was added in 1.16. Two tricks make it unique: its signal strength encodes your accuracy (1 to 15 by ring), so archery minigames and skill doors read your aim, and it redirects redstone dust toward itself, pulling stray dust lines into tidy corners for compact wiring. Mine it fastest with a hoe.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a target block do in Minecraft?",
+    "a": "When a projectile hits it, it outputs a redstone pulse whose strength depends on hit accuracy: strength 15 for a bullseye, fading to 1 at the edge. It also attracts and redirects redstone dust placed nearby."
+   },
+   {
+    "q": "How does the target block redirect redstone?",
+    "a": "Redstone dust placed next to a target block points into it, even around corners, letting you steer dust lines without repeaters. It is a wiring tool as much as a game block."
+   },
+   {
+    "q": "What projectiles trigger a target block?",
+    "a": "Arrows, tridents, snowballs, eggs, fire charges, ender pearls, and even fishing bobbers, basically anything thrown or shot. Melee hits do nothing."
+   },
+   {
+    "q": "How do you make a hay bale?",
+    "a": "Fill all 9 crafting slots with wheat. Hay bales also reduce fall damage by 80% when you land on them and feed horses and llamas."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-bow",
+   "how-to-make-a-crossbow",
+   "how-to-make-a-button"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-bow/",
+    "label": "How to Make a Bow"
+   },
+   {
+    "url": "/guides/how-to-make-a-button/",
+    "label": "How to Make a Button"
+   },
+   {
+    "url": "/guides/how-to-make-a-pressure-plate/",
+    "label": "How to Make a Pressure Plate"
+   }
+  ],
+  "keywords": [
+   "how to make a target block minecraft",
+   "target block recipe",
+   "target block redstone redirect",
+   "hay bale minecraft",
+   "archery target minecraft"
+  ]
  }
 ]
