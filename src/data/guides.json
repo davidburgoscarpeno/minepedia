@@ -28953,5 +28953,210 @@
    "powered rail not working",
    "gold rails minecraft"
   ]
+ },
+ {
+  "slug": "how-to-make-detector-rails",
+  "name": "How to Make Detector Rails in Minecraft",
+  "shortTitle": "Make Detector Rails",
+  "quickAnswer": "Craft 6 detector rails with 6 iron ingots in two columns, a stone pressure plate in the center, and redstone dust below it. A detector rail emits a redstone signal while a minecart sits or passes over it.",
+  "steps": [
+   "Smelt 6 iron ingots.",
+   "Craft a stone pressure plate (2 stone side by side).",
+   "Mine 1 redstone dust.",
+   "Open the crafting table.",
+   "Fill the left and right columns with 3 iron ingots each.",
+   "Place the stone pressure plate in the center slot and the redstone dust below it.",
+   "Take the 6 detector rails. Lay one in your track and wire its output to lamps, note blocks, or powered rails."
+  ],
+  "materials": [
+   "6 iron ingots",
+   "1 stone pressure plate (2 stone)",
+   "1 redstone dust"
+  ],
+  "editionNote": "The detector rail recipe is the same in Java and Bedrock and yields 6 per craft. Think of it as a pressure plate for tracks: it outputs full-strength power while any cart is on it, so it times station stops, switches junctions, and triggers welcome messages. Pairing detector rails with unpowered powered rails is the classic self-launching station: the cart brakes on the dead rail, then the detector rail lights it when you get in.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a detector rail do in Minecraft?",
+    "a": "It emits a redstone signal while a minecart is on top of it, full strength regardless of cart type. Use it to detect arrivals, trigger station mechanisms, count laps, or light up trackside displays."
+   },
+   {
+    "q": "How do you make an automatic minecart station?",
+    "a": "End the track with an unlit powered rail so the cart brakes, put a detector rail next to it wired to that powered rail (plus a button), and the rail lights up to launch you when you board."
+   },
+   {
+    "q": "Detector rail vs activator rail: what is the difference?",
+    "a": "A detector rail senses the cart and outputs redstone to your wiring. An activator rail acts on the cart itself: ejecting riders, igniting TNT carts, and toggling hopper carts."
+   },
+   {
+    "q": "Does a detector rail work with chest and hopper minecarts?",
+    "a": "Yes, any minecart variant triggers it at full strength. Comparator-style analog reading of cart fullness is not what it does; for content detection read the cart through a comparator setup instead."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-activator-rails",
+   "how-to-make-powered-rails",
+   "how-to-make-a-pressure-plate"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-activator-rails/",
+    "label": "How to Make Activator Rails"
+   },
+   {
+    "url": "/guides/how-to-make-powered-rails/",
+    "label": "How to Make Powered Rails"
+   },
+   {
+    "url": "/guides/how-to-make-a-pressure-plate/",
+    "label": "How to Make a Pressure Plate"
+   }
+  ],
+  "keywords": [
+   "how to make detector rails minecraft",
+   "detector rail recipe",
+   "detector rail station",
+   "detector vs activator rail",
+   "minecart sensor minecraft"
+  ]
+ },
+ {
+  "slug": "how-to-make-activator-rails",
+  "name": "How to Make Activator Rails in Minecraft",
+  "shortTitle": "Make Activator Rails",
+  "quickAnswer": "Craft 6 activator rails with 6 iron ingots in two columns, 2 sticks in the center column, and a redstone torch in the middle. A powered activator rail ejects riders, ignites TNT minecarts, and toggles hopper minecarts.",
+  "steps": [
+   "Smelt 6 iron ingots.",
+   "Craft 2 sticks and 1 redstone torch.",
+   "Open the crafting table.",
+   "Fill the left and right columns with 3 iron ingots each.",
+   "Place 1 stick in the top-center and 1 in the bottom-center.",
+   "Place the redstone torch in the center slot.",
+   "Take the 6 activator rails. Lay one in your track and power it to trigger carts passing over it."
+  ],
+  "materials": [
+   "6 iron ingots",
+   "2 sticks",
+   "1 redstone torch"
+  ],
+  "editionNote": "The activator rail recipe is the same in Java and Bedrock and yields 6 per craft. Its three jobs: powered, it shakes riders out of the cart (automatic passenger drop-off), primes TNT minecarts to explode, and locks or unlocks hopper minecarts so they stop or resume collecting items. Unpowered activator rails do nothing, and mobs also get ejected, which makes them the standard villager unloading stop.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does an activator rail do in Minecraft?",
+    "a": "When powered, it ejects players and mobs from the cart passing over it, ignites TNT minecarts, and toggles hopper minecarts between collecting and locked. Unpowered it acts like a plain rail."
+   },
+   {
+    "q": "How do you automatically unload villagers from a minecart?",
+    "a": "Run the track over a powered activator rail. The rail ejects the villager off the cart onto the spot you designed, no manual breaking needed."
+   },
+   {
+    "q": "Why did my hopper minecart stop collecting items?",
+    "a": "It crossed a powered activator rail, which locks hopper carts. Cross another powered activator rail to unlock it, or keep activator rails unpowered on collection routes."
+   },
+   {
+    "q": "Activator rail vs detector rail: what is the difference?",
+    "a": "A detector rail outputs redstone when it senses a cart. An activator rail consumes redstone to act on the cart: eject, ignite, or toggle. Stations often use both together."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-detector-rails",
+   "how-to-make-powered-rails",
+   "how-to-make-a-redstone-torch"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-detector-rails/",
+    "label": "How to Make Detector Rails"
+   },
+   {
+    "url": "/guides/how-to-make-powered-rails/",
+    "label": "How to Make Powered Rails"
+   },
+   {
+    "url": "/guides/how-to-make-a-redstone-torch/",
+    "label": "How to Make a Redstone Torch"
+   }
+  ],
+  "keywords": [
+   "how to make activator rails minecraft",
+   "activator rail recipe",
+   "activator rail eject villager",
+   "hopper minecart locked",
+   "activator vs detector rail"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-trapped-chest",
+  "name": "How to Make a Trapped Chest in Minecraft",
+  "shortTitle": "Make a Trapped Chest",
+  "quickAnswer": "Craft a trapped chest with 1 chest and 1 tripwire hook anywhere in the crafting grid. It looks like a normal chest but emits a redstone signal while any player has it open, the classic bait for hidden traps and alarms.",
+  "steps": [
+   "Craft a chest with 8 planks in a ring.",
+   "Craft a tripwire hook (iron ingot over stick over plank).",
+   "Open the crafting table or your 2x2 inventory grid.",
+   "Place the chest and the tripwire hook in any two slots, the recipe is shapeless.",
+   "Take the trapped chest.",
+   "Place it and wire redstone from any side: opening the lid powers the block beneath it and everything touching it while someone looks inside."
+  ],
+  "materials": [
+   "1 chest (8 planks)",
+   "1 tripwire hook (1 iron ingot + 1 stick + 1 plank)"
+  ],
+  "editionNote": "The trapped chest recipe is the same in Java and Bedrock. A trapped chest shows a faint red tint around the latch, the only visual giveaway, and two trapped chests side by side form a large trapped chest. Its signal strength grows with the number of players viewing it (up to 15), so a comparator can tell how many people are raiding your loot room. Pair it with TNT, dispensers, or a sticky piston floor for the classic trap.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a trapped chest do in Minecraft?",
+    "a": "It works as a normal chest but emits a redstone signal while any player has it open, powering adjacent blocks and redstone dust. It is the standard trigger for chest-activated traps and theft alarms."
+   },
+   {
+    "q": "How can you tell if a chest is trapped in Minecraft?",
+    "a": "Look at the latch: a trapped chest has a red tint around the clasp where a normal chest is plain. Crouch and check before opening loot in suspicious places."
+   },
+   {
+    "q": "Trapped chest vs ender chest: what is the difference?",
+    "a": "A trapped chest stores items locally and outputs redstone when opened; an ender chest opens a personal cloud inventory shared across every ender chest and never outputs a signal."
+   },
+   {
+    "q": "Does the trapped chest signal get stronger with more players?",
+    "a": "Yes. The output equals the number of players currently viewing the chest, capped at 15, so a comparator reading it can count how many people have it open."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-tripwire-hook",
+   "how-to-make-chest",
+   "how-to-make-detector-rails"
+  ],
+  "relatedLinks": [
+   {
+    "url": "/guides/how-to-make-a-tripwire-hook/",
+    "label": "How to Make a Tripwire Hook"
+   },
+   {
+    "url": "/guides/how-to-make-chest/",
+    "label": "How to Make a Chest"
+   },
+   {
+    "url": "/guides/how-to-make-detector-rails/",
+    "label": "How to Make Detector Rails"
+   }
+  ],
+  "keywords": [
+   "how to make a trapped chest minecraft",
+   "trapped chest recipe",
+   "how to tell trapped chest",
+   "trapped chest redstone signal",
+   "chest trap minecraft"
+  ]
  }
 ]

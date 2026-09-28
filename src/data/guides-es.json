@@ -25740,5 +25740,171 @@
     "label": "Cómo hacer una redstone torch"
    }
   ]
+ },
+ "how-to-make-detector-rails": {
+  "name": "Cómo hacer detector rails en Minecraft",
+  "shortTitle": "Hacer detector rails",
+  "quickAnswer": "Fabrica 6 detector rails con 6 iron ingots en dos columnas, una stone pressure plate en el centro y redstone dust debajo. Una detector rail emite una señal de redstone mientras un minecart está sobre ella o pasa por encima.",
+  "steps": [
+   "Funde 6 iron ingots.",
+   "Fabrica una stone pressure plate (2 stone uno al lado del otro).",
+   "Mina 1 redstone dust.",
+   "Abre la crafting table.",
+   "Llena las columnas izquierda y derecha con 3 iron ingots cada una.",
+   "Coloca la stone pressure plate en la ranura central y el redstone dust debajo.",
+   "Recoge las 6 detector rails. Coloca una en tu vía y cablea su salida a lámparas, note blocks o powered rails."
+  ],
+  "materials": [
+   "6 iron ingots",
+   "1 stone pressure plate (2 stone)",
+   "1 redstone dust"
+  ],
+  "editionNote": "La receta de la detector rail es igual en Java y Bedrock y da 6 por crafteo. Piensa en ella como una pressure plate para vías: emite corriente a máxima fuerza mientras cualquier cart esté encima, así que sincroniza paradas de estación, conmuta cruces y dispara mensajes de bienvenida. Combinar detector rails con powered rails apagadas es la clásica estación de autolanzamiento: el cart frena en la rail muerta y la detector rail la enciende al subirte.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una detector rail en Minecraft?",
+    "a": "Emite una señal de redstone mientras un minecart está encima, a máxima fuerza sin importar el tipo de cart. Úsala para detectar llegadas, disparar mecanismos de estación, contar vueltas o iluminar paneles junto a la vía."
+   },
+   {
+    "q": "¿Cómo se hace una estación de minecart automática?",
+    "a": "Termina la vía con una powered rail apagada para que el cart frene, pon una detector rail al lado cableada a esa powered rail (más un button), y la rail se enciende para lanzarte al subir."
+   },
+   {
+    "q": "¿Detector rail o activator rail: cuál es la diferencia?",
+    "a": "Una detector rail detecta el cart y emite redstone a tu cableado. Una activator rail actúa sobre el propio cart: expulsa pasajeros, enciende TNT carts y alterna hopper carts."
+   },
+   {
+    "q": "¿Funciona la detector rail con chest y hopper minecarts?",
+    "a": "Sí, cualquier variante de minecart la activa a máxima fuerza. La lectura analógica del contenido del cart estilo comparator no es su función; para detectar contenido usa un montaje con comparator."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-activator-rails/",
+    "label": "Cómo hacer activator rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-powered-rails/",
+    "label": "Cómo hacer powered rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-pressure-plate/",
+    "label": "Cómo hacer una pressure plate"
+   }
+  ]
+ },
+ "how-to-make-activator-rails": {
+  "name": "Cómo hacer activator rails en Minecraft",
+  "shortTitle": "Hacer activator rails",
+  "quickAnswer": "Fabrica 6 activator rails con 6 iron ingots en dos columnas, 2 sticks en la columna central y una redstone torch en el medio. Una activator rail encendida expulsa pasajeros, enciende TNT minecarts y alterna hopper minecarts.",
+  "steps": [
+   "Funde 6 iron ingots.",
+   "Fabrica 2 sticks y 1 redstone torch.",
+   "Abre la crafting table.",
+   "Llena las columnas izquierda y derecha con 3 iron ingots cada una.",
+   "Coloca 1 stick en el centro superior y 1 en el centro inferior.",
+   "Coloca la redstone torch en la ranura central.",
+   "Recoge las 6 activator rails. Coloca una en tu vía y aliméntala para disparar los carts que pasen sobre ella."
+  ],
+  "materials": [
+   "6 iron ingots",
+   "2 sticks",
+   "1 redstone torch"
+  ],
+  "editionNote": "La receta de la activator rail es igual en Java y Bedrock y da 6 por crafteo. Sus tres trabajos: encendida, sacude a los pasajeros fuera del cart (parada automática de pasajeros), ceba los TNT minecarts para que exploten, y bloquea o desbloquea los hopper minecarts para que paren o reanuden la recogida de objetos. Apagadas no hacen nada, y los mobs también salen expulsados, lo que las convierte en la parada estándar para descargar villagers.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una activator rail en Minecraft?",
+    "a": "Cuando está encendida, expulsa a jugadores y mobs del cart que pasa sobre ella, enciende TNT minecarts y alterna los hopper minecarts entre recoger y bloquearse. Apagada actúa como un rail normal."
+   },
+   {
+    "q": "¿Cómo se descargan villagers de un minecart automáticamente?",
+    "a": "Pasa la vía sobre una activator rail encendida. La rail expulsa al villager del cart justo en el punto que diseñaste, sin romper nada a mano."
+   },
+   {
+    "q": "¿Por qué mi hopper minecart dejó de recoger objetos?",
+    "a": "Cruzó una activator rail encendida, que bloquea los hopper carts. Cruza otra activator rail encendida para desbloquearlo, o mantén las activator rails apagadas en las rutas de recogida."
+   },
+   {
+    "q": "¿Activator rail o detector rail: cuál es la diferencia?",
+    "a": "Una detector rail emite redstone cuando detecta un cart. Una activator rail consume redstone para actuar sobre el cart: expulsar, encender o alternar. Las estaciones suelen usar ambas juntas."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-detector-rails/",
+    "label": "Cómo hacer detector rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-powered-rails/",
+    "label": "Cómo hacer powered rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-redstone-torch/",
+    "label": "Cómo hacer una redstone torch"
+   }
+  ]
+ },
+ "how-to-make-a-trapped-chest": {
+  "name": "Cómo hacer una trapped chest en Minecraft",
+  "shortTitle": "Hacer una trapped chest",
+  "quickAnswer": "Fabrica una trapped chest con 1 chest y 1 tripwire hook en cualquier ranura de la cuadrícula. Parece una chest normal pero emite una señal de redstone mientras un jugador la tiene abierta, el cebo clásico para trampas y alarmas ocultas.",
+  "steps": [
+   "Fabrica una chest con 8 planks en anillo.",
+   "Fabrica un tripwire hook (iron ingot sobre stick sobre plank).",
+   "Abre la crafting table o tu cuadrícula 2x2 del inventario.",
+   "Coloca la chest y el tripwire hook en dos ranuras cualesquiera, la receta no tiene forma.",
+   "Recoge la trapped chest.",
+   "Colócala y cablea redstone desde cualquier lado: abrir la tapa alimenta el bloque de debajo y todo lo que lo toca mientras alguien mira dentro."
+  ],
+  "materials": [
+   "1 chest (8 planks)",
+   "1 tripwire hook (1 iron ingot + 1 stick + 1 plank)"
+  ],
+  "editionNote": "La receta de la trapped chest es igual en Java y Bedrock. Una trapped chest muestra un tenue tinte rojo alrededor del cierre, su única señal visual, y dos trapped chests juntas forman una large trapped chest. Su señal crece con el número de jugadores mirándola (hasta 15), así que un comparator puede contar cuánta gente está saqueando tu sala de tesoros. Combínala con TNT, dispensers o un suelo de sticky pistons para la trampa clásica.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace una trapped chest en Minecraft?",
+    "a": "Funciona como una chest normal pero emite una señal de redstone mientras un jugador la tiene abierta, alimentando bloques y redstone dust adyacentes. Es el disparador estándar de trampas activadas por cofres y alarmas antirrobo."
+   },
+   {
+    "q": "¿Cómo saber si una chest es trapped en Minecraft?",
+    "a": "Mira el cierre: una trapped chest tiene un tinte rojo alrededor del broche donde una chest normal es lisa. Agáchate y comprueba antes de abrir botines en sitios sospechosos."
+   },
+   {
+    "q": "¿Trapped chest o ender chest: cuál es la diferencia?",
+    "a": "Una trapped chest guarda objetos localmente y emite redstone al abrirla; una ender chest abre un inventario personal en la nube compartido entre todas las ender chests y nunca emite señal."
+   },
+   {
+    "q": "¿La señal de la trapped chest sube con más jugadores?",
+    "a": "Sí. La salida equivale al número de jugadores mirando la chest en ese momento, con tope de 15, así que un comparator leyéndola puede contar cuánta gente la tiene abierta."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-tripwire-hook/",
+    "label": "Cómo hacer un tripwire hook"
+   },
+   {
+    "url": "/es/guides/how-to-make-chest/",
+    "label": "Cómo hacer una chest"
+   },
+   {
+    "url": "/es/guides/how-to-make-detector-rails/",
+    "label": "Cómo hacer detector rails"
+   }
+  ]
  }
 }
