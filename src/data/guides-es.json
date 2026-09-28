@@ -25576,5 +25576,169 @@
     "label": "Cómo hacer una pressure plate"
    }
   ]
+ },
+ "how-to-make-a-minecart": {
+  "name": "Cómo hacer un minecart en Minecraft",
+  "shortTitle": "Hacer un minecart",
+  "quickAnswer": "Fabrica un minecart con 5 iron ingots: 2 en los lados del medio y 3 en la fila inferior, formando una U. Colócalo sobre rails para montarlo, y combínalo con una chest, hopper, furnace o TNT para las variantes de trabajo.",
+  "steps": [
+   "Funde 5 iron ingots de iron ore.",
+   "Abre la crafting table.",
+   "Coloca 1 iron ingot en el medio a la izquierda y 1 en el medio a la derecha.",
+   "Llena la fila inferior con los otros 3 ingots.",
+   "Recoge el minecart.",
+   "Colócalo sobre un rail y haz clic derecho para montar. Para carts de utilidad, fabrícalo junto con una chest, hopper, furnace o bloque de TNT."
+  ],
+  "materials": [
+   "5 iron ingots"
+  ],
+  "editionNote": "La receta del minecart es igual en Java y Bedrock. La velocidad máxima en vía plana con powered rails es de 8 bloques por segundo, como esprintar, así que las vías de tren ganan a caminar pero no a la elytra. Variantes de minecart: los chest carts transportan objetos, los hopper carts aspiran drops a través del bloque de encima (el descargador estándar de granjas), los furnace carts empujan otros carts (Java) y los TNT carts explotan en activator rails. Atropellar mobs o villagers con un cart los hace montar, la forma clásica de moverlos por las vías.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo se monta un minecart en Minecraft?",
+    "a": "Coloca el minecart sobre un rail y haz clic derecho para subir. Despega desde una pendiente o usa powered rails para arrancar; pulsa adelante para empujarlo, y agáchate o rompe el cart para bajar."
+   },
+   {
+    "q": "¿Cómo se hace un minecart con chest?",
+    "a": "Fabrica un minecart junto con una chest en cualquier ranura de la cuadrícula. El mismo patrón funciona con una hopper, furnace o TNT para esas variantes."
+   },
+   {
+    "q": "¿Por qué mi minecart va tan lento?",
+    "a": "Los rails normales no empujan los carts; sin powered rails un cart en terreno plano se para por inercia. Coloca powered rails con regularidad (una cada 38 rails normales mantiene la velocidad máxima en llano) y aliméntalas con una torch o lever."
+   },
+   {
+    "q": "¿Puede un minecart subir cuestas?",
+    "a": "Sí, con powered rails en la pendiente. Una subida sin energía frena el cart y lo hace rodar hacia abajo."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-rails/",
+    "label": "Cómo hacer rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-powered-rails/",
+    "label": "Cómo hacer powered rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-hopper/",
+    "label": "Cómo hacer un hopper"
+   }
+  ]
+ },
+ "how-to-make-rails": {
+  "name": "Cómo hacer rails en Minecraft",
+  "shortTitle": "Hacer rails",
+  "quickAnswer": "Fabrica 16 rails con 6 iron ingots en dos columnas y 1 stick en el centro. Los rails transportan minecarts; las curvas se conectan automáticamente y las pendientes funcionan sin ingredientes extra.",
+  "steps": [
+   "Funde 6 iron ingots.",
+   "Fabrica 1 stick.",
+   "Abre la crafting table.",
+   "Llena las columnas izquierda y derecha con 3 iron ingots cada una.",
+   "Coloca el stick en la ranura central.",
+   "Recoge los 16 rails.",
+   "Colócalos sobre bloques en línea; curvan en las esquinas y suben un bloque cada vez automáticamente."
+  ],
+  "materials": [
+   "6 iron ingots",
+   "1 stick"
+  ],
+  "editionNote": "La receta del rail es igual en Java y Bedrock y da 16 rails por crafteo, así que un stack de hierro se convierte en más de 170 rails. Las abandoned mineshafts son la alternativa gratuita: sus pasillos están llenos de rails que puedes recolectar con cualquier pickaxe. Los rails se pueden waterloggear para líneas submarinas, y un rail siempre prefiere conectar cuesta abajo cuando hay varias conexiones posibles, lo que importa en el diseño de cruces.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cuántos rails da la receta en Minecraft?",
+    "a": "16 rails por crafteo con 6 iron ingots y 1 stick. El hierro es el factor limitante en las vías largas, así que recolectar rails de mineshafts y las granjas de hierro rentan rápido."
+   },
+   {
+    "q": "¿Cómo se hace girar una vía de minecart?",
+    "a": "Solo coloca rails en forma de L; el rail de la esquina se forma automáticamente. Un rail normal conecta con cualquier rail adyacente, prefiriendo pendientes y direcciones sur/este en empates."
+   },
+   {
+    "q": "¿Pueden los rails subir cuestas en Minecraft?",
+    "a": "Sí, los rails suben un bloque por paso sin ingredientes especiales. El cart sigue necesitando velocidad, así que intercala powered rails en las subidas."
+   },
+   {
+    "q": "¿Dónde se encuentran rails gratis?",
+    "a": "Las abandoned mineshafts se generan con rails a lo largo de los túneles, a menudo bajo chest minecarts. Lleva una pickaxe y recógelos; las woodland mansions también tienen una sala de rails."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-a-minecart/",
+    "label": "Cómo hacer un minecart"
+   },
+   {
+    "url": "/es/guides/how-to-make-powered-rails/",
+    "label": "Cómo hacer powered rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-redstone-torch/",
+    "label": "Cómo hacer una redstone torch"
+   }
+  ]
+ },
+ "how-to-make-powered-rails": {
+  "name": "Cómo hacer powered rails en Minecraft",
+  "shortTitle": "Hacer powered rails",
+  "quickAnswer": "Fabrica 6 powered rails con 6 gold ingots en dos columnas, 1 stick en el centro y 1 redstone dust abajo en el centro. Las powered rails empujan los minecarts cuando están encendidas por redstone y los frenan cuando están apagadas.",
+  "steps": [
+   "Funde 6 gold ingots (las badlands y el oro del Nether son lo más rápido).",
+   "Fabrica 1 stick y mina 1 redstone dust.",
+   "Abre la crafting table.",
+   "Llena las columnas izquierda y derecha con 3 gold ingots cada una.",
+   "Coloca el stick en la ranura central.",
+   "Coloca el redstone dust en la ranura inferior central.",
+   "Recoge las 6 powered rails. Colócalas en tu vía y aliméntalas con una redstone torch, lever o detector rail."
+  ],
+  "materials": [
+   "6 gold ingots",
+   "1 stick",
+   "1 redstone dust"
+  ],
+  "editionNote": "La receta de la powered rail es igual en Java y Bedrock y da 6 por crafteo, así que las granjas de oro (zombified piglins) son el suministro de vías a largo plazo. Una powered rail encendida acelera un cart hasta el tope de 8 bloques por segundo; una apagada es un freno seco, que las estaciones usan para retener carts. En llano, una powered rail cada 38 rails normales mantiene un cart ocupado a velocidad máxima.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿A qué distancia se ponen las powered rails en Minecraft?",
+    "a": "En vía plana, 1 powered rail cada 38 rails normales mantiene un minecart ocupado a toda velocidad. Cuesta arriba hace falta aproximadamente 1 powered rail cada 2 a 4 bloques según la pendiente y la carga."
+   },
+   {
+    "q": "¿Por qué mi minecart se para en las powered rails?",
+    "a": "La powered rail está apagada. Aliméntala con una redstone torch debajo o al lado, una lever, o una detector rail antes en la línea. Las powered rails apagadas actúan como frenos."
+   },
+   {
+    "q": "¿Qué diferencia hay entre powered, detector y activator rails?",
+    "a": "Las powered rails empujan o frenan carts. Las detector rails emiten una señal de redstone cuando pasa un cart, como una pressure plate para vías. Las activator rails disparan el propio cart: expulsan pasajeros, encienden TNT carts o alternan hopper carts."
+   },
+   {
+    "q": "¿Cómo se enciende una powered rail?",
+    "a": "Cualquier fuente de redstone que la toque o toque el bloque de debajo: redstone torch, lever, button, detector rail o redstone block. Una torch alimenta hasta 9 rails seguidas."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "/es/guides/how-to-make-rails/",
+    "label": "Cómo hacer rails"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-minecart/",
+    "label": "Cómo hacer un minecart"
+   },
+   {
+    "url": "/es/guides/how-to-make-a-redstone-torch/",
+    "label": "Cómo hacer una redstone torch"
+   }
+  ]
  }
 }
