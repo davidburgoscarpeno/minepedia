@@ -28099,5 +28099,132 @@
     "label": "Mushroom Stew en minecraft.wiki"
    }
   ]
+ },
+ "how-to-make-a-comparator": {
+  "name": "Cómo hacer un comparator en Minecraft",
+  "shortTitle": "Hacer un comparator",
+  "quickAnswer": "Fabrica un redstone comparator con 3 redstone torches, 1 nether quartz y 3 stone: torches arriba en el centro, a izquierda y derecha de la fila central, quartz en el centro, y una fila inferior completa de stone (no cobblestone).",
+  "steps": [
+   "Fabrica 3 redstone torches (1 stick + 1 redstone dust cada una).",
+   "Extrae nether quartz ore en el Nether para conseguir 1 quartz.",
+   "Funde cobblestone en smooth stone: la fila inferior necesita stone, no cobblestone.",
+   "Abre una crafting table.",
+   "Coloca una redstone torch arriba en el centro, y una en cada ranura izquierda y derecha de la fila central, con la quartz en el centro.",
+   "Llena la fila inferior con 3 stone y recoge el comparator."
+  ],
+  "materials": [
+   "3 redstone torches",
+   "1 nether quartz",
+   "3 stone (fundida, no cobblestone)"
+  ],
+  "editionNote": "La receta del comparator es idéntica en Java y Bedrock, con una trampa: la fila inferior debe ser smooth stone fundida de cobblestone, no cobblestone en bruto. Los comparators hacen dos trabajos: el modo compare (por defecto) emite la señal más fuerte entre la entrada trasera y la lateral, y el modo subtract (clic derecho) emite la trasera menos la lateral. Su función estrella es leer lo lleno que está un contenedor: un comparator contra un chest, hopper o furnace emite una señal de 0 a 15 según su contenido, lo que alimenta ordenadores automáticos de objetos, brewing stands y puertas secretas que se abren al soltar la cantidad justa de objetos.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué hace un redstone comparator?",
+    "a": "Tres cosas: pasa la señal sin cambios en modo compare, resta la entrada lateral de la trasera en modo subtract, y mide lo lleno que está un contenedor (chests, hoppers, furnaces, composters, jukeboxes) como señal de 0-15. Los clasificadores de objetos, las puertas secretas y los brewers automáticos se construyen sobre esa lectura."
+   },
+   {
+    "q": "¿Por qué no funciona mi receta del comparator?",
+    "a": "La fila inferior debe ser stone (cobblestone fundida en un furnace), no cobblestone en bruto. Revisa también las posiciones de las torches: arriba en el centro, izquierda y derecha de la fila central, con la nether quartz justo en el centro."
+   },
+   {
+    "q": "¿Qué diferencia hay entre un repeater y un comparator?",
+    "a": "Un repeater refresca y retrasa una señal, y la bloquea. Un comparator compara o resta dos señales y lee estados de bloque como lo lleno de un chest. Los repeaters extienden las líneas de redstone; los comparators hacen la lógica del redstone."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Redstone_Comparator",
+    "label": "Redstone Comparator en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-a-dropper": {
+  "name": "Cómo hacer un dropper en Minecraft",
+  "shortTitle": "Hacer un dropper",
+  "quickAnswer": "Fabrica un dropper con 7 cobblestone y 1 redstone dust: llena todas las ranuras menos el centro y la inferior central, que lleva la redstone. Un dropper expulsa objetos sin usarlos, perfecto para transporte de objetos.",
+  "steps": [
+   "Extrae 7 cobblestone y redstone dust de la redstone ore profunda.",
+   "Abre una crafting table.",
+   "Llena la fila superior con 3 cobblestone.",
+   "Coloca cobblestone en las ranuras central izquierda y central derecha, dejando el centro vacío.",
+   "Coloca cobblestone, redstone dust, cobblestone en la fila inferior.",
+   "Recoge el dropper."
+  ],
+  "materials": [
+   "7 cobblestone",
+   "1 redstone dust"
+  ],
+  "editionNote": "La receta del dropper es igual en Java y Bedrock, y es el hermano barato del dispenser: no necesita bow. Al recibir corriente, un dropper expulsa un objeto aleatorio de su inventario: como objeto soltado al mundo, o directamente dentro de un contenedor al que mire. Ese segundo comportamiento es el que importa: droppers mirando hacia arriba a hoppers o chests construyen ascensores de objetos, líneas de entrada para fundición automática y sistemas de clasificación. Un dropper mirando a otro dropper puede encadenar objetos en horizontal, y un observer clock junto al primero automatiza toda la línea.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Qué diferencia hay entre un dropper y un dispenser?",
+    "a": "Un dropper expulsa el objeto como si lo tirara un jugador, o lo inserta en un contenedor al que mire. Un dispenser usa el objeto: dispara arrows, coloca agua, equipa armadura. Los droppers mueven objetos; los dispensers los activan. El dropper además es más barato porque no necesita bow."
+   },
+   {
+    "q": "¿Cómo se hace un ascensor de objetos en Minecraft?",
+    "a": "Apila droppers mirando hacia arriba y coloca un observer vigilando un bloque con corriente o un observer clock junto al de abajo para que cada dropper se active en secuencia. Los objetos viajan del dropper inferior al superior y salen a un chest o corriente de agua."
+   },
+   {
+    "q": "¿Puede un dropper meter objetos en un chest?",
+    "a": "Sí. Cuando un dropper mira a un contenedor (chest, hopper, furnace, otro dropper) y recibe corriente, mueve un objeto de su inventario a ese contenedor. Es la base de toda línea automática de transporte de objetos."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Dropper",
+    "label": "Dropper en minecraft.wiki"
+   }
+  ]
+ },
+ "how-to-make-a-note-block": {
+  "name": "Cómo hacer un note block en Minecraft",
+  "shortTitle": "Hacer un note block",
+  "quickAnswer": "Fabrica un note block con 8 planks de cualquier madera rodeando 1 redstone dust en el centro. Haz clic derecho para afinar el tono, y dale corriente de redstone para tocarlo.",
+  "steps": [
+   "Corta cualquier árbol y convierte logs en planks: necesitas 8.",
+   "Extrae redstone dust de la redstone ore profunda por debajo de Y=16.",
+   "Abre una crafting table.",
+   "Llena todas las ranuras exteriores con planks, dejando el centro libre.",
+   "Coloca la redstone dust en la ranura central.",
+   "Recoge el note block."
+  ],
+  "materials": [
+   "8 planks (cualquier madera, mezclar funciona)",
+   "1 redstone dust"
+  ],
+  "editionNote": "La receta del note block es idéntica en Java y Bedrock y acepta cualquier mezcla de tipos de planks. Un note block toca un tono al recibir corriente o al hacer clic: el clic derecho sube el tono hasta dos octavas completas, y el bloque de debajo elige el instrumento: madera para bajo, piedra para percusión, glass para clics, wool para guitarra, packed mud para flauta y más. En Java, poner una cabeza de jugador o mob encima reproduce el sonido ambiental de ese mob, y los allays bailan con los note blocks y sueltan objetos duplicados cerca de ellos. Los músicos de redstone encadenan note blocks afinados con repeaters para hacer canciones completas; los jugadores survival usan uno como timbre o alerta de granja de mobs.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo se cambia el instrumento de un note block?",
+    "a": "El bloque justo debajo decide el instrumento: bloques de madera dan bajo, piedra da percusión, glass da clics, wool da guitarra, packed mud da flauta, gold blocks dan campanas, y una cabeza de mob o jugador encima reproduce el sonido de esa criatura en Java."
+   },
+   {
+    "q": "¿Qué hacen los note blocks con los allays?",
+    "a": "Un note block tocado cerca de un allay hace que suelte los objetos que lleva en ese note block durante 30 segundos, la mecánica central de las granjas de clasificación con allays. Wool entre el note block y el allay bloquea la señal si necesitas apagarla."
+   },
+   {
+    "q": "¿Cuántas notas puede tocar un note block?",
+    "a": "Dos octavas completas: el clic derecho recorre 25 tonos de F#3 a F#5. El tono se reinicia si el bloque de encima queda obstruido o si rompes y recolocas el note block."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Note_Block",
+    "label": "Note Block en minecraft.wiki"
+   }
+  ]
  }
 }

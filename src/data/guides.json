@@ -32062,5 +32062,174 @@
    "minecraft stew",
    "mooshroom stew minecraft"
   ]
+ },
+ {
+  "slug": "how-to-make-a-comparator",
+  "name": "How to Make a Redstone Comparator in Minecraft",
+  "shortTitle": "Make a Comparator",
+  "quickAnswer": "Craft a redstone comparator with 3 redstone torches, 1 nether quartz and 3 stone: torches at top-center, middle-left and middle-right, quartz in the center, and a full bottom row of stone (not cobblestone).",
+  "steps": [
+   "Craft 3 redstone torches (1 stick + 1 redstone dust each).",
+   "Mine nether quartz ore in the Nether for 1 quartz.",
+   "Smelt cobblestone into smooth stone: the bottom row needs stone, not cobblestone.",
+   "Open a crafting table.",
+   "Place a redstone torch top-center, and one torch each in the middle-left and middle-right slots, with the quartz in the center.",
+   "Fill the bottom row with 3 stone and take the comparator."
+  ],
+  "materials": [
+   "3 redstone torches",
+   "1 nether quartz",
+   "3 stone (smelted, not cobblestone)"
+  ],
+  "editionNote": "The comparator recipe is identical in Java and Bedrock, with one trap: the bottom row must be smooth stone smelted from cobblestone, not cobblestone itself. Comparators do two jobs: compare mode (default) outputs the stronger of the back and side inputs, and subtract mode (right-click the torch on) outputs the back input minus the side. Their killer feature is reading container fullness: a comparator against a chest, hopper or furnace outputs a signal from 0 to 15 based on how full it is, which powers automatic sorters, brewing stands and secret doors that open when you drop the right item count.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What does a redstone comparator do?",
+    "a": "Three things: it passes a signal through unchanged in compare mode, subtracts the side input from the back input in subtract mode, and measures container fullness (chests, hoppers, furnaces, composters, jukeboxes) as a 0-15 signal. Item sorters, secret doors and automatic brewers are built on that reading ability."
+   },
+   {
+    "q": "Why won't my comparator recipe work?",
+    "a": "The bottom row must be stone (cobblestone smelted in a furnace), not raw cobblestone. Also check the torch positions: top-center, middle-left and middle-right, with the nether quartz dead center."
+   },
+   {
+    "q": "What is the difference between a repeater and a comparator?",
+    "a": "A repeater refreshes and delays a signal, and locks it. A comparator compares or subtracts two signals and reads block states like chest fullness. Repeaters extend redstone lines; comparators make redstone logic."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-redstone-torch",
+   "how-to-make-redstone-repeater",
+   "how-to-make-an-observer",
+   "how-to-make-smooth-stone"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Redstone_Comparator",
+    "label": "Redstone Comparator on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "comparator recipe minecraft",
+   "how to make a comparator",
+   "redstone comparator minecraft",
+   "how to craft comparator",
+   "comparator minecraft"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-dropper",
+  "name": "How to Make a Dropper in Minecraft",
+  "shortTitle": "Make a Dropper",
+  "quickAnswer": "Craft a dropper with 7 cobblestone and 1 redstone dust: fill every slot except the center and the bottom-center, which takes the redstone. A dropper ejects items without using them, perfect for item transport.",
+  "steps": [
+   "Mine 7 cobblestone and redstone dust from deep redstone ore.",
+   "Open a crafting table.",
+   "Fill the top row with 3 cobblestone.",
+   "Place cobblestone in the middle-left and middle-right slots, leaving the center empty.",
+   "Place cobblestone, redstone dust, cobblestone across the bottom row.",
+   "Take the dropper."
+  ],
+  "materials": [
+   "7 cobblestone",
+   "1 redstone dust"
+  ],
+  "editionNote": "The dropper recipe is the same in Java and Bedrock, and it is the dispenser's cheaper sibling: no bow needed. When powered, a dropper ejects one random item from its inventory: as a dropped item into the world, or straight into a container it faces. That second behavior is what matters: droppers facing up into hoppers or chests build item elevators, automatic smelter input lines and multi-item sorting systems. A dropper facing another dropper can chain items horizontally, and an observer clock next to the first one automates the whole line.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "What is the difference between a dropper and a dispenser?",
+    "a": "A dropper ejects the item as if thrown by a player, or inserts it into a container it faces. A dispenser uses the item: shooting arrows, placing water, equipping armor. Droppers move items; dispensers activate them. The dropper is also cheaper since it needs no bow."
+   },
+   {
+    "q": "How do you make an item elevator in Minecraft?",
+    "a": "Stack droppers facing upward, then place an observer watching a powered block or an observer clock next to the bottom one so every dropper fires in sequence. Items travel from the bottom dropper to the top one and out into a chest or water stream."
+   },
+   {
+    "q": "Can a dropper put items into a chest?",
+    "a": "Yes. When a dropper faces a container (chest, hopper, furnace, another dropper) and gets powered, it moves one item from its inventory into that container. This is the basis of every automatic item-transport line."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-dispenser",
+   "how-to-make-a-hopper",
+   "how-to-make-a-chest",
+   "how-to-make-a-redstone-torch"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Dropper",
+    "label": "Dropper on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "dropper recipe",
+   "how to make a dropper in minecraft",
+   "how to craft a dropper",
+   "dropper minecraft",
+   "dropper vs dispenser"
+  ]
+ },
+ {
+  "slug": "how-to-make-a-note-block",
+  "name": "How to Make a Note Block in Minecraft",
+  "shortTitle": "Make a Note Block",
+  "quickAnswer": "Craft a note block with 8 planks of any wood surrounding 1 redstone dust in the center. Right-click it to tune the pitch, and power it with redstone to play.",
+  "steps": [
+   "Chop any tree and turn logs into planks: you need 8.",
+   "Mine redstone dust from deep redstone ore below Y=16.",
+   "Open a crafting table.",
+   "Fill every outer slot with planks, leaving the center free.",
+   "Place the redstone dust in the center slot.",
+   "Take the note block."
+  ],
+  "materials": [
+   "8 planks (any wood, mixed works)",
+   "1 redstone dust"
+  ],
+  "editionNote": "The note block recipe is identical in Java and Bedrock and accepts any mix of plank types. A note block plays a tone when powered or clicked: right-clicking raises the pitch up to two full octaves, and the block underneath picks the instrument: wood for bass, stone for drums, glass for clicks, wool for guitar, packed mud for flute and more. In Java, putting a player or mob head on top plays that mob's ambient sound, and allays dance to note blocks and drop duplicated items near them. Redstone musicians chain tuned note blocks with repeaters into full songs; survival players use one as a doorbell or a mob-farm alert.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
+  "faq": [
+   {
+    "q": "How do you change the instrument of a note block?",
+    "a": "The block directly underneath decides the instrument: wood blocks give bass, stone gives drum sounds, glass gives clicks and sticks, wool gives guitar, packed mud gives flute, honeycomb gives flute-like tones, gold blocks give bells, and a mob or player head on top plays that creature's sound in Java."
+   },
+   {
+    "q": "What do note blocks do with allays?",
+    "a": "A note block played near an allay makes it drop its carried items at that note block for 30 seconds, the core mechanic of allay item-sorting farms. Wool between the note block and the allay blocks the signal if you need to turn it off."
+   },
+   {
+    "q": "How many notes can a note block play?",
+    "a": "Two full octaves: right-clicking cycles through 25 pitches from F#3 to F#5. The pitch resets if the block above it is obstructed or if you break and replace the note block."
+   }
+  ],
+  "relatedGuides": [
+   "how-to-make-a-redstone-torch",
+   "how-to-make-a-piston",
+   "how-to-find-a-stronghold",
+   "how-to-find-an-ancient-city"
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Note_Block",
+    "label": "Note Block on minecraft.wiki"
+   }
+  ],
+  "keywords": [
+   "note block recipe",
+   "how to make a note block in minecraft",
+   "note block minecraft",
+   "how to craft note block",
+   "note block songs minecraft"
+  ]
  }
 ]
