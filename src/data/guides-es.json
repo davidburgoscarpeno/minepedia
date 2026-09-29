@@ -25196,5 +25196,262 @@
       }
     ],
     "slug": "how-to-install-datapacks"
+  },
+  "how-to-change-gamemode": {
+    "name": "Cómo cambiar el modo de juego en Minecraft",
+    "shortTitle": "Cambiar modo de juego",
+    "quickAnswer": "Ejecuta /gamemode creative (o survival, adventure, spectator) con cheats activados. Atajo de Java: mantén F3 y pulsa F4 para abrir el selector de modo. Bedrock: los ajustes del mundo también tienen un desplegable de modo de juego.",
+    "keywords": "cómo cambiar modo de juego minecraft creative survival adventure spectator f3 f4 comando bedrock ajustes",
+    "materials": [
+      "Cheats activados (en Java vale el truco de Open to LAN)",
+      "Java: teclado para el selector F3 + F4",
+      "Bedrock: acceso a los ajustes del mundo"
+    ],
+    "steps": [
+      "Con cheats: abre el chat (T) y ejecuta /gamemode creative, /gamemode survival, /gamemode adventure o /gamemode spectator.",
+      "Para otros jugadores en un servidor: /gamemode survival NombreJugador (solo operators).",
+      "Atajo de Java: mantén F3 y pulsa F4. Se abre el selector de modo; pulsa F4 para recorrer los modos y suelta F3 para aplicar. Incluye spectator.",
+      "Bedrock: abre los ajustes del mundo y usa el desplegable de modo de juego, o ejecuta el mismo comando /gamemode con cheats activados.",
+      "Creative da bloques infinitos y vuelo; adventure restringe romper bloques para mapas; spectator te deja atravesar bloques y observar mobs.",
+      "El modo queda fijado por mundo hasta que lo cambies otra vez: no hace falta repetir el comando."
+    ],
+    "versions": "El selector F3 + F4 existe en todas las versiones actuales de Java (1.16+). El comando /gamemode funciona en ambas ediciones.",
+    "editionNote": "Bedrock fija el modo del mundo desde el desplegable de ajustes y desactiva los logros si pasas un mundo survival a creative. Java no bloquea logros.",
+    "faq": [
+      {
+        "q": "¿Pasar a creative desactiva los logros?",
+        "a": "Bedrock: sí, para siempre en ese mundo. Java: no, los advancements siguen funcionando."
+      },
+      {
+        "q": "¿Qué es el modo spectator?",
+        "a": "Un modo sin interacción: atraviesas bloques volando y puedes hacer clic en mobs para ver a través de sus ojos. Está en Java y en Bedrock."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats",
+      "how-to-keep-inventory",
+      "how-to-teleport"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-change-gamemode"
+  },
+  "how-to-change-the-time": {
+    "name": "Cómo cambiar la hora en Minecraft",
+    "shortTitle": "Cambiar la hora",
+    "quickAnswer": "Ejecuta /time set day (o noon, night, midnight) con cheats activados. /time set 1000 usa ticks exactos. Para el ciclo día-noche del todo con /gamerule doDaylightCycle false.",
+    "keywords": "cómo cambiar la hora minecraft time set day night comando ticks doDaylightCycle siempre de día",
+    "materials": [
+      "Cheats activados (en Java vale el truco de Open to LAN)",
+      "Nada más: un comando"
+    ],
+    "steps": [
+      "Abre el chat (T) y ejecuta /time set day: el sol salta a la mañana.",
+      "Otros presets: /time set noon (sol en lo alto), /time set sunset, /time set night (salen monstruos), /time set midnight.",
+      "Control exacto: /time set 1000 fija el tick 1000. Un día de Minecraft completo son 24000 ticks (20 minutos reales); el día empieza sobre el tick 0-1000 y la noche cae cerca del tick 13000.",
+      "Avanza el tiempo sin saltos: /time add 6000 suma esos ticks.",
+      "Congela el tiempo para siempre: /gamerule doDaylightCycle false: el sol se detiene hasta que lo vuelvas a poner en true. Combinado con /time set day tienes día permanente.",
+      "Consulta la hora actual con /time query daytime."
+    ],
+    "versions": "Los comandos de tiempo y doDaylightCycle funcionan igual en todas las versiones actuales de Java y Bedrock.",
+    "editionNote": "Comandos idénticos en ambas ediciones. Bedrock también muestra el ciclo de día en los ajustes del mundo bajo cheats, lo que desactiva los logros.",
+    "faq": [
+      {
+        "q": "¿Cuánto dura un día de Minecraft?",
+        "a": "20 minutos reales: 10 de día y 10 de noche. Eso son 24000 ticks de juego."
+      },
+      {
+        "q": "¿Puedo saltarme la noche sin cheats?",
+        "a": "Sí: duerme en una bed. En servidores multiplayer, todos los jugadores (o un porcentaje fijado) deben dormir a la vez."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats",
+      "how-to-change-the-weather",
+      "how-to-make-a-bed"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-change-the-time"
+  },
+  "how-to-change-the-weather": {
+    "name": "Cómo cambiar el clima en Minecraft",
+    "shortTitle": "Cambiar el clima",
+    "quickAnswer": "Ejecuta /weather clear (o rain, thunder) con cheats activados; añade una duración en segundos, como /weather clear 1000000. Para los cambios de clima para siempre con /gamerule doWeatherCycle false.",
+    "keywords": "cómo cambiar el clima minecraft weather clear rain thunder comando quitar lluvia doWeatherCycle",
+    "materials": [
+      "Cheats activados (en Java vale el truco de Open to LAN)",
+      "Nada más: un comando"
+    ],
+    "steps": [
+      "Abre el chat (T) y ejecuta /weather clear: la lluvia o la tormenta paran en segundos.",
+      "Otras opciones: /weather rain inicia la lluvia, /weather thunder inicia una tormenta (rayos y monstruos de día).",
+      "Añade duración en segundos: /weather clear 1000000 mantiene el cielo despejado más de 11 días de juego en tiempo real.",
+      "Congela el clima para siempre: /gamerule doWeatherCycle false: el clima actual no vuelve a cambiar hasta que lo pongas en true otra vez.",
+      "El clima solo existe en el Overworld: el Nether y el End no tienen.",
+      "Dormir durante una tormenta en una bed también la despeja, sin cheats."
+    ],
+    "versions": "Los comandos de clima y doWeatherCycle funcionan igual en todas las versiones actuales de Java y Bedrock.",
+    "editionNote": "Idéntico en ambas ediciones. Los desiertos y los biomas nevados reaccionan distinto: en los desiertos no llueve, y en los biomas fríos nieva en lugar de llover.",
+    "faq": [
+      {
+        "q": "¿Cómo quito la lluvia para siempre?",
+        "a": "Ejecuta /gamerule doWeatherCycle false con el cielo despejado. El clima queda congelado hasta que reactives el ciclo."
+      },
+      {
+        "q": "¿La lluvia sirve para algo?",
+        "a": "Sí: pescar es más rápido con lluvia, los tridents con Riptide funcionan, y los cauldrons se llenan de agua. Las tormentas permiten creepers cargados y mob heads."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-change-the-time",
+      "how-to-enable-cheats",
+      "how-to-fish"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-change-the-weather"
+  },
+  "how-to-join-a-server": {
+    "name": "Cómo unirse a un servidor de Minecraft",
+    "shortTitle": "Unirse a un servidor",
+    "quickAnswer": "Java: Multiplayer > Add Server, pega la dirección del servidor y entra. Bedrock: Play > pestaña Servers, elige un servidor destacado o baja hasta Add Server. Ambos jugadores necesitan la misma edición: Java y Bedrock no pueden entrar en servidores del otro.",
+    "keywords": "cómo unirse a un servidor minecraft add server ip multiplayer java bedrock pestaña servers lan",
+    "materials": [
+      "La dirección del servidor (IP o dominio, a veces con puerto)",
+      "La misma edición y más o menos la misma versión que el servidor",
+      "Una cuenta online (los servidores la verifican)"
+    ],
+    "steps": [
+      "Java: pulsa Multiplayer > Add Server, ponle nombre y pega la dirección (como play.ejemplo.com). Pulsa Done y entra desde la lista.",
+      "Si el servidor usa un puerto personalizado, añádelo tras dos puntos: ejemplo.com:25565.",
+      "Bedrock: Play > pestaña Servers muestra servidores destacados: toca uno para entrar. Para otros, baja al final y toca Add Server para indicar nombre, dirección y puerto.",
+      "Versiones a juego: la mayoría de servidores admiten un rango de versiones; tu perfil del launcher debe estar dentro o dará error de 'outdated'.",
+      "Mundos LAN: un mundo abierto a LAN aparece solo en la lista Multiplayer de cada dispositivo de la misma red, sin dirección.",
+      "¿No entra? Revisa la dirección, que el servidor esté online y que no estés baneado; 'Connection refused' suele ser servidor caído o puerto equivocado."
+    ],
+    "versions": "Las grandes redes (Hypixel y compañía) van en Java; los servidores destacados de Bedrock cubren consola y móvil. Los rangos de versión de cada servidor están en sus webs.",
+    "editionNote": "Java y Bedrock son ecosistemas separados: una dirección de Java no funciona en Bedrock ni al revés, salvo que el servidor use un proxy especial.",
+    "faq": [
+      {
+        "q": "¿Entrar en servidores es gratis?",
+        "a": "Sí: unirse a cualquier servidor es gratis. Algunos venden rangos cosméticos, pero nunca los necesitas para jugar."
+      },
+      {
+        "q": "¿Por qué dice 'outdated client'?",
+        "a": "Tu versión es más vieja o más nueva de lo que admite el servidor. Cambia tu instalación del launcher a una versión compatible."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-minecraft-server",
+      "how-to-play-with-friends",
+      "how-to-play-older-versions"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servidores/"
+      }
+    ],
+    "slug": "how-to-join-a-server"
+  },
+  "how-to-reduce-lag": {
+    "name": "Cómo reducir el lag y subir los FPS en Minecraft",
+    "shortTitle": "Reducir el lag",
+    "quickAnswer": "Java: baja la distancia de renderizado y los gráficos en Video Settings, cierra otras apps e instala Sodium (Fabric) para la mayor subida de FPS. Dale más RAM al juego solo si se está quedando sin ella. Bedrock: baja la distancia de renderizado en los ajustes de Video.",
+    "keywords": "cómo reducir lag minecraft más fps sodium distancia de renderizado gráficos asignar ram pc justo",
+    "materials": [
+      "Java: acceso a Video Settings",
+      "Fabric + Sodium para la mayor ganancia de FPS (gratis)",
+      "Bedrock: ajustes de Video en el juego"
+    ],
+    "steps": [
+      "Primera palanca: Options > Video Settings > Render Distance. Bajar de 12 a 8 chunks es la mayor ganancia de FPS en PCs justos.",
+      "Pon Graphics en Fast, apaga Smooth Lighting y Clouds, reduce Particles y limita Max Framerate a la tasa de tu monitor.",
+      "Ruta de mods en Java: instala Fabric y añade Sodium (renderizado) más Lithium y FerriteCore de Modrinth: juntos pueden doblar los FPS. Todo gratis.",
+      "Cierra navegadores y launchers mientras juegas; los portátiles deben ir enchufados con el plan de energía de alto rendimiento.",
+      "RAM: añade más solo si el gráfico de F3 muestra la memoria al límite: 2 GB extra desde Installations del launcher bastan para jugar con mods.",
+      "El lag de servidor es otra cosa: si los bloques reaparecen tras picarlos, el servidor va sobrecargado, no tu PC. Baja el view-distance del servidor y reduce granjas y entidades cargadas.",
+      "Bedrock: baja Render Distance en los ajustes de Video, apaga gráficos fancy y ray tracing, y reinicia el juego para limpiar memoria."
+    ],
+    "versions": "Sodium y compañía siguen cada versión de Java rápidamente. Los nombres de los ajustes cambian un poco entre versiones, pero las mismas palancas existen en todas.",
+    "editionNote": "Java tiene las soluciones con mods (familia Sodium). Bedrock ya va optimizado pero ofrece menos ajustes: la distancia de renderizado es la principal.",
+    "faq": [
+      {
+        "q": "¿Más RAM siempre da más FPS?",
+        "a": "No. Minecraft solo se beneficia de RAM extra cuando de verdad se queda sin ella (jugar con mods). Si no, más RAM no cambia nada."
+      },
+      {
+        "q": "¿Sodium está permitido en servidores?",
+        "a": "Sí: es un mod de rendimiento puro, permitido en todas partes, incluidos los servidores competitivos."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-allocate-more-ram",
+      "how-to-install-mods",
+      "how-to-show-coordinates"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-reduce-lag"
+  },
+  "how-to-change-difficulty": {
+    "name": "Cómo cambiar la dificultad en Minecraft",
+    "shortTitle": "Cambiar dificultad",
+    "quickAnswer": "Ejecuta /difficulty peaceful (o easy, normal, hard) con cheats activados; en Java singleplayer no hacen falta cheats desde los ajustes. Bedrock: ajustes del mundo > desplegable Difficulty. Los mundos Hardcore están bloqueados en Hard para siempre.",
+    "keywords": "cómo cambiar dificultad minecraft peaceful easy normal hard comando hardcore bloqueado ajustes",
+    "materials": [
+      "Java: ajustes del mundo o cheats",
+      "Bedrock: acceso a los ajustes del mundo (dueño/operator en servidores)",
+      "Nada más"
+    ],
+    "steps": [
+      "Java sin cheats: pausa > Options > ajuste de dificultad (o fíjala en la pantalla de creación del mundo). En singleplayer la cambias libremente.",
+      "Con cheats en cualquier edición: /difficulty peaceful, /difficulty easy, /difficulty normal o /difficulty hard.",
+      "Peaceful elimina los mobs hostiles y regenera vida; easy/normal/hard escalan el daño, los efectos del hambre y los comportamientos de los zombies.",
+      "Bedrock: ajustes del mundo > desplegable Difficulty: no necesita cheats y los logros se mantienen.",
+      "Servidores: la dificultad vive en server.properties (difficulty=normal) o cámbiala en caliente como operator con /difficulty.",
+      "Aviso Hardcore: los mundos Hardcore (opción de creación de Java) están bloqueados en Hard con una sola vida: /difficulty no puede tocarlos."
+    ],
+    "versions": "Las cuatro dificultades y el comando /difficulty son idénticos en todas las versiones actuales. El modo Hardcore llegó a Bedrock en la 1.21.",
+    "editionNote": "Java cambia la dificultad sin cheats en singleplayer. En Bedrock el desplegable de ajustes lo hace sin tocar los logros. Bloquear la dificultad (botón del candado en Java) obliga a usar cheats para desbloquearla.",
+    "faq": [
+      {
+        "q": "¿Cambiar la dificultad desactiva los logros?",
+        "a": "No: la dificultad es un ajuste normal en ambas ediciones, no un cheat."
+      },
+      {
+        "q": "¿Qué quita Peaceful?",
+        "a": "Casi todos los mobs hostiles desaparecen y dejan de aparecer, y tu vida se regenera. Algunos mobs sobreviven: la pelea del Ender Dragon cambia y los shulkers se quedan."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats",
+      "how-to-change-gamemode",
+      "how-to-keep-inventory"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-change-difficulty"
   }
 }
