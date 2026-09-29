@@ -25137,58 +25137,45 @@
   ]
  },
  "how-to-make-a-redstone-comparator": {
-  "name": "Cómo hacer un redstone comparator en Minecraft",
-  "shortTitle": "Hacer un redstone comparator",
-  "quickAnswer": "Fabrica un redstone comparator con 3 redstone torches, 1 nether quartz y 3 stone: torches arriba en el centro y a los lados del medio, quartz en el centro y stone en la fila inferior. Compara, resta y lee lo lleno que está un contenedor.",
+  "name": "Cómo hacer un comparator en Minecraft",
+  "shortTitle": "Hacer un comparator",
+  "quickAnswer": "Fabrica un redstone comparator con 3 redstone torches, 1 nether quartz y 3 stone: torches arriba en el centro, a izquierda y derecha de la fila central, quartz en el centro, y una fila inferior completa de stone (no cobblestone).",
   "steps": [
-   "Fabrica 3 redstone torches (redstone dust sobre un stick).",
-   "Mina 1 nether quartz de nether quartz ore en el Nether.",
-   "Funde 3 cobblestone en 3 smooth stone.",
-   "Abre la crafting table.",
-   "Coloca una redstone torch en el centro superior, otra en el medio izquierdo y otra en el medio derecho, con el nether quartz en el centro.",
-   "Llena la fila inferior con 3 stone.",
-   "Recoge el comparator. Haz clic derecho para alternar entre los modos comparar y restar."
+   "Fabrica 3 redstone torches (1 stick + 1 redstone dust cada una).",
+   "Extrae nether quartz ore en el Nether para conseguir 1 quartz.",
+   "Funde cobblestone en smooth stone: la fila inferior necesita stone, no cobblestone.",
+   "Abre una crafting table.",
+   "Coloca una redstone torch arriba en el centro, y una en cada ranura izquierda y derecha de la fila central, con la quartz en el centro.",
+   "Llena la fila inferior con 3 stone y recoge el comparator."
   ],
   "materials": [
    "3 redstone torches",
    "1 nether quartz",
-   "3 stone (cobblestone fundido)"
+   "3 stone (fundida, no cobblestone)"
   ],
-  "editionNote": "La receta del comparator es igual en Java y Bedrock. Con la torch frontal apagada está en modo comparar (la salida iguala la entrada trasera si ninguna entrada lateral es más fuerte); clic derecho para encender la torch y pasar a modo restar (salida igual a entrada trasera menos la entrada lateral más fuerte). Apuntando a una chest, hopper, furnace, lectern o jukebox, emite el nivel de llenado o estado del contenedor, lo que alimenta filtros de objetos, alarmas de almacén y cerraduras secretas de páginas.",
+  "editionNote": "La receta del comparator es idéntica en Java y Bedrock, con una trampa: la fila inferior debe ser smooth stone fundida de cobblestone, no cobblestone en bruto. Los comparators hacen dos trabajos: el modo compare (por defecto) emite la señal más fuerte entre la entrada trasera y la lateral, y el modo subtract (clic derecho) emite la trasera menos la lateral. Su función estrella es leer lo lleno que está un contenedor: un comparator contra un chest, hopper o furnace emite una señal de 0 a 15 según su contenido, lo que alimenta ordenadores automáticos de objetos, brewing stands y puertas secretas que se abren al soltar la cantidad justa de objetos.",
   "versions": [
    "java",
    "bedrock"
   ],
   "faq": [
    {
-    "q": "¿Qué hace un redstone comparator en Minecraft?",
-    "a": "Lee la fuerza de la señal en vez de solo encendido-apagado. Compara dos entradas, resta una de otra y mide lo lleno que está un contenedor, emitiendo de 0 a 15 según el caso."
+    "q": "¿Qué hace un redstone comparator?",
+    "a": "Tres cosas: pasa la señal sin cambios en modo compare, resta la entrada lateral de la trasera en modo subtract, y mide lo lleno que está un contenedor (chests, hoppers, furnaces, composters, jukeboxes) como señal de 0-15. Los clasificadores de objetos, las puertas secretas y los brewers automáticos se construyen sobre esa lectura."
    },
    {
-    "q": "¿Cómo lee un comparator una chest?",
-    "a": "Coloca el comparator con su parte trasera contra la chest. Emite una señal de 0 (vacía) a 15 (completamente llena), escalando con cada objeto. Hoppers, furnaces, brewing stands y muchos otros bloques funcionan igual."
+    "q": "¿Por qué no funciona mi receta del comparator?",
+    "a": "La fila inferior debe ser stone (cobblestone fundida en un furnace), no cobblestone en bruto. Revisa también las posiciones de las torches: arriba en el centro, izquierda y derecha de la fila central, con la nether quartz justo en el centro."
    },
    {
-    "q": "¿Qué es el modo restar de un comparator?",
-    "a": "Haz clic derecho en el comparator para que se encienda su torch frontal. Entonces emite la fuerza de la entrada trasera menos la entrada lateral más fuerte, usado para matemáticas de señal precisas y filtros por cantidad de objetos."
-   },
-   {
-    "q": "¿Comparator o repeater: cuál es la diferencia?",
-    "a": "Un repeater refresca y retrasa una señal y solo le importa si está encendida o apagada. Un comparator conserva la fuerza exacta, puede hacer operaciones con dos señales y lee el llenado de contenedores."
+    "q": "¿Qué diferencia hay entre un repeater y un comparator?",
+    "a": "Un repeater refresca y retrasa una señal, y la bloquea. Un comparator compara o resta dos señales y lee estados de bloque como lo lleno de un chest. Los repeaters extienden las líneas de redstone; los comparators hacen la lógica del redstone."
    }
   ],
   "relatedLinks": [
    {
-    "url": "/es/guides/how-to-make-a-redstone-repeater/",
-    "label": "Cómo hacer un redstone repeater"
-   },
-   {
-    "url": "/es/guides/how-to-make-a-redstone-torch/",
-    "label": "Cómo hacer una redstone torch"
-   },
-   {
-    "url": "/es/guides/how-to-make-a-hopper/",
-    "label": "Cómo hacer un hopper"
+    "url": "https://minecraft.wiki/w/Redstone_Comparator",
+    "label": "Redstone Comparator en minecraft.wiki"
    }
   ]
  },
@@ -28097,49 +28084,6 @@
    {
     "url": "https://minecraft.wiki/w/Mushroom_Stew",
     "label": "Mushroom Stew en minecraft.wiki"
-   }
-  ]
- },
- "how-to-make-a-comparator": {
-  "name": "Cómo hacer un comparator en Minecraft",
-  "shortTitle": "Hacer un comparator",
-  "quickAnswer": "Fabrica un redstone comparator con 3 redstone torches, 1 nether quartz y 3 stone: torches arriba en el centro, a izquierda y derecha de la fila central, quartz en el centro, y una fila inferior completa de stone (no cobblestone).",
-  "steps": [
-   "Fabrica 3 redstone torches (1 stick + 1 redstone dust cada una).",
-   "Extrae nether quartz ore en el Nether para conseguir 1 quartz.",
-   "Funde cobblestone en smooth stone: la fila inferior necesita stone, no cobblestone.",
-   "Abre una crafting table.",
-   "Coloca una redstone torch arriba en el centro, y una en cada ranura izquierda y derecha de la fila central, con la quartz en el centro.",
-   "Llena la fila inferior con 3 stone y recoge el comparator."
-  ],
-  "materials": [
-   "3 redstone torches",
-   "1 nether quartz",
-   "3 stone (fundida, no cobblestone)"
-  ],
-  "editionNote": "La receta del comparator es idéntica en Java y Bedrock, con una trampa: la fila inferior debe ser smooth stone fundida de cobblestone, no cobblestone en bruto. Los comparators hacen dos trabajos: el modo compare (por defecto) emite la señal más fuerte entre la entrada trasera y la lateral, y el modo subtract (clic derecho) emite la trasera menos la lateral. Su función estrella es leer lo lleno que está un contenedor: un comparator contra un chest, hopper o furnace emite una señal de 0 a 15 según su contenido, lo que alimenta ordenadores automáticos de objetos, brewing stands y puertas secretas que se abren al soltar la cantidad justa de objetos.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "¿Qué hace un redstone comparator?",
-    "a": "Tres cosas: pasa la señal sin cambios en modo compare, resta la entrada lateral de la trasera en modo subtract, y mide lo lleno que está un contenedor (chests, hoppers, furnaces, composters, jukeboxes) como señal de 0-15. Los clasificadores de objetos, las puertas secretas y los brewers automáticos se construyen sobre esa lectura."
-   },
-   {
-    "q": "¿Por qué no funciona mi receta del comparator?",
-    "a": "La fila inferior debe ser stone (cobblestone fundida en un furnace), no cobblestone en bruto. Revisa también las posiciones de las torches: arriba en el centro, izquierda y derecha de la fila central, con la nether quartz justo en el centro."
-   },
-   {
-    "q": "¿Qué diferencia hay entre un repeater y un comparator?",
-    "a": "Un repeater refresca y retrasa una señal, y la bloquea. Un comparator compara o resta dos señales y lee estados de bloque como lo lleno de un chest. Los repeaters extienden las líneas de redstone; los comparators hacen la lógica del redstone."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Redstone_Comparator",
-    "label": "Redstone Comparator en minecraft.wiki"
    }
   ]
  },

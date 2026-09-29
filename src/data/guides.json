@@ -23600,7 +23600,7 @@
   "relatedGuides": [
    "how-to-make-weakness-potion",
    "how-to-get-gunpowder",
-   "how-to-make-awkward-potion"
+   "how-to-make-potion-of-weakness"
   ],
   "relatedLinks": [
    {
@@ -28209,70 +28209,58 @@
  {
   "slug": "how-to-make-a-redstone-comparator",
   "name": "How to Make a Redstone Comparator in Minecraft",
-  "shortTitle": "Make a Redstone Comparator",
-  "quickAnswer": "Craft a redstone comparator with 3 redstone torches, 1 nether quartz, and 3 stone: torches on the top-center and middle sides, quartz in the center, stone across the bottom. It compares, subtracts, and reads container fullness.",
+  "shortTitle": "Make a Comparator",
+  "quickAnswer": "Craft a redstone comparator with 3 redstone torches, 1 nether quartz and 3 stone: torches at top-center, middle-left and middle-right, quartz in the center, and a full bottom row of stone (not cobblestone).",
   "steps": [
-   "Craft 3 redstone torches (redstone dust over a stick).",
-   "Mine 1 nether quartz from nether quartz ore in the Nether.",
-   "Smelt 3 cobblestone into 3 smooth stone.",
-   "Open the crafting table.",
-   "Place a redstone torch in the top-center, middle-left, and middle-right slots with the nether quartz in the center.",
-   "Fill the bottom row with 3 stone.",
-   "Take the comparator. Right-click it to toggle between compare and subtract modes."
+   "Craft 3 redstone torches (1 stick + 1 redstone dust each).",
+   "Mine nether quartz ore in the Nether for 1 quartz.",
+   "Smelt cobblestone into smooth stone: the bottom row needs stone, not cobblestone.",
+   "Open a crafting table.",
+   "Place a redstone torch top-center, and one torch each in the middle-left and middle-right slots, with the quartz in the center.",
+   "Fill the bottom row with 3 stone and take the comparator."
   ],
   "materials": [
    "3 redstone torches",
    "1 nether quartz",
-   "3 stone (smelted cobblestone)"
+   "3 stone (smelted, not cobblestone)"
   ],
-  "editionNote": "The comparator recipe is the same in Java and Bedrock. Its front torch down means compare mode (output equals the rear input if no side input is stronger); right-click to light the torch for subtract mode (output equals rear input minus the strongest side input). Pointed at a chest, hopper, furnace, lectern, or jukebox, it outputs the container's fullness or state, which powers item filters, storage alarms, and secret page locks.",
+  "editionNote": "The comparator recipe is identical in Java and Bedrock, with one trap: the bottom row must be smooth stone smelted from cobblestone, not cobblestone itself. Comparators do two jobs: compare mode (default) outputs the stronger of the back and side inputs, and subtract mode (right-click the torch on) outputs the back input minus the side. Their killer feature is reading container fullness: a comparator against a chest, hopper or furnace outputs a signal from 0 to 15 based on how full it is, which powers automatic sorters, brewing stands and secret doors that open when you drop the right item count.",
   "versions": [
    "java",
    "bedrock"
   ],
   "faq": [
    {
-    "q": "What does a redstone comparator do in Minecraft?",
-    "a": "It reads signal strength instead of just on-off. It compares two inputs, subtracts one from another, and measures how full a container is, outputting 0 to 15 accordingly."
+    "q": "What does a redstone comparator do?",
+    "a": "Three things: it passes a signal through unchanged in compare mode, subtracts the side input from the back input in subtract mode, and measures container fullness (chests, hoppers, furnaces, composters, jukeboxes) as a 0-15 signal. Item sorters, secret doors and automatic brewers are built on that reading ability."
    },
    {
-    "q": "How does a comparator read a chest?",
-    "a": "Place the comparator with its rear against the chest. It outputs a signal from 0 (empty) to 15 (completely full), scaling with every item. Hoppers, furnaces, brewing stands, and many other blocks work the same way."
+    "q": "Why won't my comparator recipe work?",
+    "a": "The bottom row must be stone (cobblestone smelted in a furnace), not raw cobblestone. Also check the torch positions: top-center, middle-left and middle-right, with the nether quartz dead center."
    },
    {
-    "q": "What is subtract mode on a comparator?",
-    "a": "Right-click the comparator so its front torch lights up. It then outputs the rear input strength minus the strongest side input, used for precise signal math and item-count filters."
-   },
-   {
-    "q": "Comparator vs repeater: what is the difference?",
-    "a": "A repeater refreshes and delays a signal and only cares if it is on or off. A comparator preserves exact signal strength, can do math on two signals, and reads container fullness."
+    "q": "What is the difference between a repeater and a comparator?",
+    "a": "A repeater refreshes and delays a signal, and locks it. A comparator compares or subtracts two signals and reads block states like chest fullness. Repeaters extend redstone lines; comparators make redstone logic."
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-redstone-repeater",
    "how-to-make-a-redstone-torch",
-   "how-to-make-a-hopper"
+   "how-to-make-redstone-repeater",
+   "how-to-make-an-observer",
+   "how-to-make-smooth-stone"
   ],
   "relatedLinks": [
    {
-    "url": "/guides/how-to-make-a-redstone-repeater/",
-    "label": "How to Make a Redstone Repeater"
-   },
-   {
-    "url": "/guides/how-to-make-a-redstone-torch/",
-    "label": "How to Make a Redstone Torch"
-   },
-   {
-    "url": "/guides/how-to-make-a-hopper/",
-    "label": "How to Make a Hopper"
+    "url": "https://minecraft.wiki/w/Redstone_Comparator",
+    "label": "Redstone Comparator on minecraft.wiki"
    }
   ],
   "keywords": [
-   "how to make a redstone comparator minecraft",
-   "comparator recipe",
-   "comparator subtract mode",
-   "comparator read chest fullness",
-   "nether quartz comparator"
+   "comparator recipe minecraft",
+   "how to make a comparator",
+   "redstone comparator minecraft",
+   "how to craft comparator",
+   "comparator minecraft"
   ]
  },
  {
@@ -32061,63 +32049,6 @@
    "mushroom stew recipe",
    "minecraft stew",
    "mooshroom stew minecraft"
-  ]
- },
- {
-  "slug": "how-to-make-a-comparator",
-  "name": "How to Make a Redstone Comparator in Minecraft",
-  "shortTitle": "Make a Comparator",
-  "quickAnswer": "Craft a redstone comparator with 3 redstone torches, 1 nether quartz and 3 stone: torches at top-center, middle-left and middle-right, quartz in the center, and a full bottom row of stone (not cobblestone).",
-  "steps": [
-   "Craft 3 redstone torches (1 stick + 1 redstone dust each).",
-   "Mine nether quartz ore in the Nether for 1 quartz.",
-   "Smelt cobblestone into smooth stone: the bottom row needs stone, not cobblestone.",
-   "Open a crafting table.",
-   "Place a redstone torch top-center, and one torch each in the middle-left and middle-right slots, with the quartz in the center.",
-   "Fill the bottom row with 3 stone and take the comparator."
-  ],
-  "materials": [
-   "3 redstone torches",
-   "1 nether quartz",
-   "3 stone (smelted, not cobblestone)"
-  ],
-  "editionNote": "The comparator recipe is identical in Java and Bedrock, with one trap: the bottom row must be smooth stone smelted from cobblestone, not cobblestone itself. Comparators do two jobs: compare mode (default) outputs the stronger of the back and side inputs, and subtract mode (right-click the torch on) outputs the back input minus the side. Their killer feature is reading container fullness: a comparator against a chest, hopper or furnace outputs a signal from 0 to 15 based on how full it is, which powers automatic sorters, brewing stands and secret doors that open when you drop the right item count.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "What does a redstone comparator do?",
-    "a": "Three things: it passes a signal through unchanged in compare mode, subtracts the side input from the back input in subtract mode, and measures container fullness (chests, hoppers, furnaces, composters, jukeboxes) as a 0-15 signal. Item sorters, secret doors and automatic brewers are built on that reading ability."
-   },
-   {
-    "q": "Why won't my comparator recipe work?",
-    "a": "The bottom row must be stone (cobblestone smelted in a furnace), not raw cobblestone. Also check the torch positions: top-center, middle-left and middle-right, with the nether quartz dead center."
-   },
-   {
-    "q": "What is the difference between a repeater and a comparator?",
-    "a": "A repeater refreshes and delays a signal, and locks it. A comparator compares or subtracts two signals and reads block states like chest fullness. Repeaters extend redstone lines; comparators make redstone logic."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-redstone-torch",
-   "how-to-make-redstone-repeater",
-   "how-to-make-an-observer",
-   "how-to-make-smooth-stone"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Redstone_Comparator",
-    "label": "Redstone Comparator on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "comparator recipe minecraft",
-   "how to make a comparator",
-   "redstone comparator minecraft",
-   "how to craft comparator",
-   "comparator minecraft"
   ]
  },
  {
