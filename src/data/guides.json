@@ -2170,49 +2170,6 @@
   "keywords": "silk touch minecraft how to get enchantment librarian enchanting table fortune incompatible ice glass bee nest"
  },
  {
-  "slug": "how-to-make-book",
-  "name": "How to Make a Book in Minecraft",
-  "shortTitle": "Make a Book",
-  "quickAnswer": "Craft a book with 3 paper and 1 leather. Paper comes from sugar cane (3 cane = 3 paper) and leather from cows or horses - farm sugar cane early, because books become bookshelves, and 15 bookshelves unlock max-level enchanting.",
-  "steps": [
-   "Plant sugar cane: place it on dirt, sand or grass next to water. It grows up to 3 blocks tall - harvest the top two and leave the bottom to regrow.",
-   "Make paper: 3 sugar cane in a row on a crafting table gives 3 paper.",
-   "Get leather: cows drop 0-2, horses, donkeys, mules, llamas and hoglins also drop it; Looting raises the drop count.",
-   "Craft the book: 3 paper + 1 leather (shapeless).",
-   "Turn books into bookshelves: 3 books + 6 planks of any wood gives 1 bookshelf.",
-   "Build the enchanting corner: 15 bookshelves placed around an enchanting table with a one-block air gap unlock level-30 enchantments.",
-   "Alternative sources: break existing bookshelves for 3 books each (no Silk Touch), loot village and stronghold libraries, disenchant enchanted books on a grindstone, or take gifted books from librarian villagers in Java."
-  ],
-  "materials": [
-   "3 paper (3 sugar cane)",
-   "1 leather (cows, horses, hoglins...)",
-   "For bookshelves: 6 planks per shelf",
-   "15 bookshelves for max-level enchanting"
-  ],
-  "editionNote": "Same recipes in Java and Bedrock. In Java, librarian villagers throw books at players with the Hero of the Village effect.",
-  "versions": "Books since Java Alpha 1.0.11; current 3 paper + 1 leather recipe since Beta 1.3.",
-  "faq": [
-   {
-    "q": "How many bookshelves do I need for max enchants?",
-    "a": "Exactly 15, placed around the enchanting table with one block of air between the table and the shelves. More than 15 adds nothing."
-   },
-   {
-    "q": "What is the fastest way to farm books?",
-    "a": "An automatic or manual sugar cane farm plus a cow breeder: each book needs 3 paper and 1 leather. Raiding a stronghold library is a good one-time haul - mine the shelves without Silk Touch for 3 books each."
-   },
-   {
-    "q": "Can I get leather without killing cows?",
-    "a": "Yes: fishing can yield leather as junk, hoglins and foxes drop it, and leatherworker villagers sell leather. But a small cow pen is by far the fastest renewable source."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-enchant",
-   "how-to-get-silk-touch"
-  ],
-  "relatedLinks": [],
-  "keywords": "book minecraft craft paper leather sugar cane bookshelf enchanting table 15 bookshelves"
- },
- {
   "slug": "how-to-make-shield",
   "name": "How to Make a Shield in Minecraft",
   "shortTitle": "Make a Shield",
@@ -2297,7 +2254,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-book",
+   "how-to-make-a-book",
    "how-to-get-a-name-tag"
   ],
   "relatedLinks": [
@@ -2448,7 +2405,7 @@
   ],
   "relatedGuides": [
    "how-to-enchant",
-   "how-to-make-book",
+   "how-to-make-a-book",
    "how-to-get-mending"
   ],
   "relatedLinks": [
@@ -2816,57 +2773,6 @@
   "keywords": "hopper minecraft craft 5 iron chest automation item transfer 2.5 items per second redstone lock furnace farm"
  },
  {
-  "slug": "how-to-make-bed",
-  "name": "How to Make a Bed in Minecraft",
-  "shortTitle": "Make a Bed",
-  "quickAnswer": "Craft a bed with 3 matching wool in a row over 3 planks of any wood. Sleep at night (or during a thunderstorm) to skip to morning and set your respawn point - but never try to sleep in the Nether or the End: the bed explodes with more power than TNT.",
-  "steps": [
-   "Get 3 wool of the same color: shear sheep (1-3 wool each, and they regrow it) or kill them for 1. All three pieces must match - mixed colors do not craft.",
-   "Chop any tree for 3 planks; mixing wood types is fine.",
-   "Craft it: the 3 matching wool filling the middle row, the 3 planks filling the bottom row. The bed takes the wool's color.",
-   "Sleep at night: use the bed when it gets dark (or during a thunderstorm, at any hour). After about 5 seconds it is morning, rain and snow stop, and phantoms reset.",
-   "Set your respawn: a successful sleep sets your spawn point to the bed. If the bed is later broken or blocked, you respawn at world spawn instead.",
-   "Keep monsters away: you cannot sleep if a hostile mob is within 8 blocks horizontally and 5 vertically of the bed head - light up and secure the room first.",
-   "NEVER in the Nether or the End: using a bed there makes it explode with power 5 (stronger than TNT's 4) and sets everything on fire. In the Nether, use a respawn anchor instead.",
-   "Help villagers too: villagers sleep in beds at night and need spare beds to breed - a bed is the core of any villager breeder or village."
-  ],
-  "materials": [
-   "3 wool of the same color",
-   "3 planks of any wood"
-  ],
-  "editionNote": "Works the same in both editions, explosions included - in Bedrock you can disable bed explosions with the respawnBlocksExplode gamerule. One Bedrock quirk: waterlogged beds need Water Breathing or Conduit Power to sleep in.",
-  "versions": "Beds were added in Java Beta 1.3 and Pocket Edition 0.4.0 - all red at first; the 16 colors arrived in Java 1.12. The straw bed variant arrived in 26.10.",
-  "faq": [
-   {
-    "q": "Why does my bed explode in the Nether?",
-    "a": "Intentional game design: beds only work in the Overworld. Using one in the Nether, the End or a disabled custom dimension detonates it with explosion power 5 and sets fires. Use a respawn anchor (crying obsidian + glowstone) to set a Nether spawn point."
-   },
-   {
-    "q": "Why can't I sleep - 'monsters nearby'?",
-    "a": "A hostile mob is within 8 blocks horizontally and 5 vertically of the bed's head, even through walls. Kill it or move the bed; lighting the area stops new spawns."
-   },
-   {
-    "q": "Does the bed color matter?",
-    "a": "Only cosmetically. All 16 colors work identically, and you can re-dye an existing bed with one dye instead of crafting a new one."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-shield",
-   "how-to-get-xp-fast"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Straw Bed",
-    "href": "/items/straw-bed/"
-   },
-   {
-    "label": "Sheep",
-    "href": "/mobs/sheep/"
-   }
-  ],
-  "keywords": "bed minecraft craft 3 wool planks sleep respawn point explode nether monsters nearby colors"
- },
- {
   "slug": "how-to-make-compass",
   "name": "How to Make a Compass in Minecraft",
   "shortTitle": "Make a Compass",
@@ -3207,8 +3113,8 @@
   ],
   "relatedGuides": [
    "how-to-get-honeycomb",
-   "how-to-make-bed",
-   "how-to-make-book"
+   "how-to-make-a-bed",
+   "how-to-make-a-book"
   ],
   "relatedLinks": [
    {
@@ -3273,53 +3179,6 @@
    }
   ],
   "keywords": "smoker minecraft craft furnace 4 logs cook food twice as fast butcher job site blast furnace vs smoker"
- },
- {
-  "slug": "how-to-make-boat",
-  "name": "How to Make a Boat in Minecraft",
-  "shortTitle": "Make a Boat",
-  "quickAnswer": "Craft a boat with 5 matching planks in a U shape. Place it on water and right-click to ride - boats are the fastest cheap travel in the game, fly across ice, and even trap mobs that walk into them.",
-  "steps": [
-   "Chop any overworld tree and craft 5 matching planks - all 5 must be the same wood type. Oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo (makes a raft), pale oak and crimson... no wait, crimson and warped are Nether fungi and cannot make boats.",
-   "Craft it: planks in the middle-left and middle-right, and a full bottom row - a U shape.",
-   "Place the boat on water and use it to hop in. Steer with your movement keys; no fuel, no paddles needed in modern versions.",
-   "Break it to pick it back up: one hit and it drops as an item. Boats are also perfect one-way tickets - mobs that wander into a boat cannot get out, so park one next to a zombie and it is yours.",
-   "Ride ice highways: boats slide at extreme speed on ice, packed ice and especially blue ice - the fastest overland travel in the game without elytra.",
-   "Add a chest: combine the boat with a chest for a boat with chest, floating storage for long trips.",
-   "Bring friends: a boat fits two entities - you plus a villager, an animal, or a friend. Boats are THE way to kidnap villagers for a trading hall.",
-   "Fall safely: in Java, boats negate fall damage entirely when you land in one - MLG boat clutches are a thing."
-  ],
-  "materials": [
-   "5 matching planks of one overworld wood"
-  ],
-  "editionNote": "Same recipe in both editions (the old Pocket Edition recipe with a wooden shovel is long gone). Control feel differs slightly between editions, and Java's boats fully cancel fall damage - Bedrock players still take the hit if the boat lands on land.",
-  "versions": "Boats were added in Java Alpha v1.0.6 - one of the oldest vehicles in gaming - and in Pocket Edition 0.11.0. The one-wood-type-per-boat variants and the chest boat arrived much later (1.9 and 1.19).",
-  "faq": [
-   {
-    "q": "Why can't I craft a bamboo boat?",
-    "a": "Bamboo works differently: 5 bamboo planks make a bamboo raft, which works exactly like a boat. Nether woods (crimson, warped) cannot be made into boats at all."
-   },
-   {
-    "q": "How do you transport villagers in Minecraft?",
-    "a": "Push a boat into them or place it right next to them and they climb in - then row them anywhere. Combine with rails for the classic villager moving service."
-   },
-   {
-    "q": "Is a boat faster than a horse?",
-    "a": "On water, absolutely. On blue ice a boat hits extreme speeds - over 70 blocks per second - faster than almost anything except elytra with rockets."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-tame-a-horse",
-   "how-to-get-elytra",
-   "how-to-build-trading-hall"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Villager",
-    "href": "/mobs/villager/"
-   }
-  ],
-  "keywords": "boat minecraft craft 5 planks ride water ice blue ice fast travel villager transport boat with chest raft"
  },
  {
   "slug": "how-to-make-grindstone",
@@ -3559,7 +3418,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-boat",
+   "how-to-make-a-boat",
    "how-to-find-diamonds",
    "how-to-build-trading-hall"
   ],
@@ -4109,7 +3968,7 @@
   ],
   "relatedGuides": [
    "how-to-make-compass",
-   "how-to-make-bed",
+   "how-to-make-a-bed",
    "how-to-find-diamonds"
   ],
   "relatedLinks": [
@@ -5548,7 +5407,7 @@
   ],
   "relatedGuides": [
    "how-to-find-ocean-monument",
-   "how-to-make-boat",
+   "how-to-make-a-boat",
    "how-to-breathe-underwater"
   ],
   "relatedLinks": [
@@ -5771,7 +5630,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-book",
+   "how-to-make-a-book",
    "how-to-tame-a-fox",
    "how-to-breed-horses"
   ],
@@ -5832,7 +5691,7 @@
   ],
   "relatedGuides": [
    "how-to-get-string",
-   "how-to-make-boat",
+   "how-to-make-a-boat",
    "how-to-get-xp-fast"
   ],
   "relatedLinks": [
@@ -6132,7 +5991,7 @@
   ],
   "relatedGuides": [
    "how-to-make-paper",
-   "how-to-make-book",
+   "how-to-make-a-book",
    "how-to-make-cake"
   ],
   "relatedLinks": [
@@ -6813,7 +6672,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-bed",
+   "how-to-make-a-bed",
    "how-to-get-golden-dandelion",
    "how-to-make-cushion"
   ],
@@ -8083,7 +7942,7 @@
   ],
   "relatedGuides": [
    "how-to-get-silk-touch",
-   "how-to-make-boat",
+   "how-to-make-a-boat",
    "how-to-find-ancient-city"
   ],
   "relatedLinks": [
@@ -10273,65 +10132,6 @@
   "keywords": "amethyst shards minecraft, how to get amethyst shards, amethyst geode minecraft, amethyst farm, fortune amethyst"
  },
  {
-  "slug": "how-to-make-blast-furnace",
-  "name": "How to Make a Blast Furnace in Minecraft",
-  "shortTitle": "Make a Blast Furnace",
-  "quickAnswer": "Craft 5 iron ingots + 1 furnace + 3 smooth stone for a blast furnace: it smelts ores, raw metals, ancient debris and metal gear TWICE as fast as a furnace (using fuel twice as fast too), and it turns villagers into armorers.",
-  "steps": [
-   "Gather the parts: 5 iron ingots, 1 regular furnace (8 cobblestone), and 3 smooth stone (smelt cobblestone into stone, then smelt the stone again).",
-   "Craft it: iron ingots across the top row, iron - furnace - iron in the middle, and 3 smooth stone along the bottom.",
-   "Or steal one: blast furnaces generate in armorer houses in villages and inside trail ruins - any pickaxe picks them up (wooden pickaxe is enough).",
-   "Know what it smelts: ONLY ores, raw metals, ancient debris, and iron/gold/chainmail/copper tools and armor. No food, no stone, no sand - that's what the smoker and regular furnace are for.",
-   "Double speed, double fuel: items smelt twice as fast, and fuel burns twice as fast - so the items-per-coal ratio is identical to a furnace. You're buying time, not efficiency.",
-   "Recycle your gear: smelting iron, gold, chainmail or copper gear in a blast furnace returns one nugget of its metal - a slow but real way to salvage mob drops and failed crafts.",
-   "Feed it with hoppers: like furnaces, hoppers can input items and fuel and extract results - three hoppers make it fully automatic, ideal under an ore-super-smelter array.",
-   "Make an armorer: an unclaimed blast furnace near an unemployed villager turns them into an armorer - the villager who sells you diamond armor and that sweet bell-price chainmail."
-  ],
-  "materials": [
-   "Iron ingot x5",
-   "Furnace x1 (8 cobblestone)",
-   "Smooth stone x3 (smelt cobblestone twice)",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe and smelting behavior are identical in Java and Bedrock. One quirky split: pistons can push blast furnaces only in Bedrock. Both editions generate them in village armorer houses and trail ruins (since 1.20).",
-  "versions": "Added in 1.14 (18w44a) for villages and pillage, gaining sounds in 19w03a. Ancient debris became smeltable in 1.16, raw metals in 1.17, and trail ruins started generating them in 1.20.",
-  "faq": [
-   {
-    "q": "What does a blast furnace do in Minecraft?",
-    "a": "It smelts ores, raw metals, ancient debris and metal tools/armor twice as fast as a regular furnace - but only those items. Fuel burns twice as fast too, so efficiency per coal is unchanged; you pay the same for half the waiting. It also serves as the armorer villager's workstation."
-   },
-   {
-    "q": "Blast furnace vs smoker - what's the difference?",
-    "a": "Both smelt at double speed with double fuel use, but for different things: the blast furnace handles ores and metals (including ancient debris and gear recycling into nuggets), while the smoker handles food. A serious base wants both, plus regular furnaces for everything else."
-   },
-   {
-    "q": "Can a blast furnace smelt ancient debris?",
-    "a": "Yes - ancient debris is on its allowed list since 1.16, making blast furnaces the fastest way to turn debris into netherite scrap. Same fuel-per-item cost as a furnace, half the time."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-iron",
-   "how-to-get-netherite",
-   "how-to-make-smoker",
-   "how-to-make-furnace"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Blast furnace",
-    "href": "/items/blast-furnace/"
-   },
-   {
-    "label": "Trail ruins",
-    "href": "/structures/trail-ruins/"
-   },
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   }
-  ],
-  "keywords": "blast furnace minecraft, how to make blast furnace, blast furnace recipe, blast furnace vs smoker, what does a blast furnace do"
- },
- {
   "slug": "how-to-make-copper-bars",
   "name": "How to Make Copper Bars in Minecraft",
   "shortTitle": "Make Copper Bars",
@@ -11238,56 +11038,6 @@
   ]
  },
  {
-  "slug": "how-to-make-barrel",
-  "name": "How to Make a Barrel in Minecraft",
-  "shortTitle": "Make a Barrel",
-  "quickAnswer": "Craft a barrel with 6 planks (left and right columns) and 2 wooden slabs (top and bottom center). It stores 27 slots like a chest, but opens even with a block on top - and an unclaimed barrel hires a fisherman villager.",
-  "steps": [
-   "Craft planks and 2 wooden slabs (any wood, mixed types work).",
-   "Craft the barrel: planks filling the left and right columns, one slab in the top-center slot and one in the bottom-center slot.",
-   "Or find one: barrels generate in fisher cottages in villages. Break it with anything (axe is fastest) and it drops itself plus everything inside.",
-   "Store items: a barrel holds 27 slots, exactly like a single chest. Use it with right-click to open the interface.",
-   "Use it where chests can't go: opening a barrel is never blocked, even with a solid block directly above it - perfect for floors and tight walls.",
-   "Automate it: droppers can fill barrels, and hoppers can both fill and empty them, so they slot straight into item sorters and storage systems.",
-   "Move it (Bedrock only): pistons can push barrels; in Java they are immovable.",
-   "Hire a fisherman: place an unclaimed barrel near an unemployed villager and it becomes a fisherman, trading fish, coal and fishing gear."
-  ],
-  "materials": [
-   "Planks x6 (any wood)",
-   "Wooden slab x2 (any wood)",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe and storage behavior are identical in Java and Bedrock. The one difference: pistons can move barrels only in Bedrock Edition.",
-  "versions": "Added in 1.14 (18w44a) as a decoration block; barrels started generating in village fisher cottages in 18w48a, gained their crafting recipe in 18w50a and became the fisherman's job site in 19w11a.",
-  "faq": [
-   {
-    "q": "Is a barrel better than a chest in Minecraft?",
-    "a": "For storage density, yes: a barrel holds the same 27 slots as a single chest but opens even with a block on top, so you can stack them into floors, walls and ceilings with no wasted space. Chests can join into doubles, though, and only chests work for trapped-chest redstone tricks."
-   },
-   {
-    "q": "How do you make a barrel in Minecraft?",
-    "a": "Put planks in the left and right columns of the crafting grid and one wooden slab in the top-center and bottom-center slots: 6 planks plus 2 slabs of any wood."
-   },
-   {
-    "q": "What villager uses a barrel?",
-    "a": "The fisherman. An unemployed villager who claims a barrel becomes a fisherman and trades raw and cooked fish, coal, buckets of cod and fishing rods, and buys string and boats at higher levels."
-   }
-  ],
-  "keywords": "barrel minecraft, barrel recipe minecraft, minecraft barrel vs chest, fisherman villager job block, minecraft storage block",
-  "relatedGuides": [
-   "how-to-make-chest",
-   "how-to-make-hopper",
-   "how-to-find-village",
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   }
-  ]
- },
- {
   "slug": "how-to-make-lectern",
   "name": "How to Make a Lectern in Minecraft",
   "shortTitle": "Make a Lectern",
@@ -11742,56 +11492,6 @@
   ]
  },
  {
-  "slug": "how-to-make-target-block",
-  "name": "How to Make a Target Block in Minecraft",
-  "shortTitle": "Make a Target Block",
-  "quickAnswer": "Craft a target block with a hay bale surrounded by 4 redstone dust. Shoot it with any projectile: the closer to the bullseye, the stronger the redstone signal - and it redirects redstone dust toward itself.",
-  "steps": [
-   "Get a hay bale: craft 9 wheat into one, or harvest hay bales from villages.",
-   "Craft the target: place the hay bale in the center with redstone dust above, below, left and right of it.",
-   "Shoot it: arrows, snowballs, eggs, ender pearls, tridents, firework rockets, fishing bobbers, llama spit, shulker bullets and more all trigger it.",
-   "Read the strength: the closer the projectile lands to the center, the stronger the redstone signal - a perfect bullseye gives the maximum.",
-   "Test your aim: wire the target to redstone lamps or note blocks at different distances to build a shooting range that scores your accuracy.",
-   "Steer redstone dust: a target block redirects nearby redstone dust to point into it - the cleanest way to force dust to connect where you need it.",
-   "Trigger with fireworks: even a firework rocket boosting an elytra glider activates the block - great for dramatic entrances.",
-   "Add it to minigames: combine targets, pistons and score counters for archery challenges, lucky-hit doors and projectile-activated traps."
-  ],
-  "materials": [
-   "Hay bale x1 (9 wheat, or from villages)",
-   "Redstone dust x4",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe, projectile list and signal behavior are the same in Java and Bedrock.",
-  "versions": "Added in 1.16 (20w09a) with the Nether Update, as part of the redstone additions alongside the target's dust-redirecting behavior.",
-  "faq": [
-   {
-    "q": "What activates a target block in Minecraft?",
-    "a": "Almost any projectile: arrows, tridents, snowballs, eggs, ender pearls, splash and lingering potions, firework rockets, fishing bobbers, llama spit, shulker bullets, dragon fireballs and small fireballs. The nearer to the center it hits, the stronger the signal."
-   },
-   {
-    "q": "How do you make redstone dust point where you want?",
-    "a": "Place a target block next to the dust. Redstone dust always tries to connect to a target block, so it is the standard trick for redirecting dust into pistons, doors and other components."
-   },
-   {
-    "q": "What is the target block used for?",
-    "a": "Shooting ranges with real scoring, projectile-activated doors and traps, minigames, and as a redstone wiring tool because dust redirects toward it."
-   }
-  ],
-  "keywords": "target block minecraft, target block recipe minecraft, minecraft shooting range, target block redstone minecraft, how to redirect redstone dust",
-  "relatedGuides": [
-   "how-to-make-bow",
-   "how-to-get-ender-pearls",
-   "how-to-get-redstone",
-   "how-to-make-observer"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   }
-  ]
- },
- {
   "slug": "how-to-make-daylight-detector",
   "name": "How to Make a Daylight Detector in Minecraft",
   "shortTitle": "Make a Daylight Detector",
@@ -12035,7 +11735,7 @@
    "how-to-make-campfire",
    "how-to-make-smoker",
    "how-to-make-smoker",
-   "how-to-make-bed"
+   "how-to-make-a-bed"
   ],
   "relatedLinks": [
    {
@@ -14096,7 +13796,7 @@
   ],
   "relatedGuides": [
    "how-to-make-item-frame",
-   "how-to-make-bed",
+   "how-to-make-a-bed",
    "how-to-make-bookshelf"
   ],
   "relatedLinks": [],
@@ -14188,7 +13888,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-book",
+   "how-to-make-a-book",
    "how-to-make-lectern",
    "how-to-make-bookshelf"
   ],
@@ -14338,7 +14038,7 @@
   "relatedGuides": [
    "how-to-make-bookshelf",
    "how-to-make-book-and-quill",
-   "how-to-make-book"
+   "how-to-make-a-book"
   ],
   "relatedLinks": [],
   "keywords": "chiseled bookshelf minecraft, how to make chiseled bookshelf, chiseled bookshelf redstone, chiseled bookshelf comparator, combination lock minecraft, chiseled bookshelf recipe"
@@ -25454,67 +25154,56 @@
   "slug": "how-to-make-a-book",
   "name": "How to Make a Book in Minecraft",
   "shortTitle": "Make a Book",
-  "quickAnswer": "Craft a book with 3 paper and 1 leather anywhere in the crafting grid. Books build bookshelves, become book and quill with an ink sac and feather, and are the base for enchanted books on an enchanting table.",
+  "quickAnswer": "Craft a book with 3 paper and 1 leather placed anywhere in the crafting grid: the recipe is shapeless. Books feed bookshelves, book and quills and enchanted-book storage.",
   "steps": [
-   "Craft 3 paper from sugar cane: 3 cane in a row makes 3 paper.",
-   "Get 1 leather from cows, horses, or hoglins.",
-   "Open the crafting table or your 2x2 inventory grid.",
-   "Place the 3 paper and 1 leather in any slots, the recipe is shapeless.",
+   "Gather sugar cane from riverbanks and craft it into paper: 3 sugar cane in a row make 3 paper.",
+   "Kill cows or horses for leather, or fish leather up as junk.",
+   "Open a crafting table (or your 2x2 inventory grid).",
+   "Place 3 paper and 1 leather anywhere in the grid: the recipe is shapeless.",
    "Take the book.",
-   "Use it for bookshelves, a book and quill (book + ink sac + feather), or enchant it on an enchanting table to store an enchantment."
+   "Craft in bulk: an enchanting setup with 15 bookshelves costs 45 books total."
   ],
   "materials": [
-   "3 paper (from sugar cane)",
+   "3 paper (from 3 sugar cane)",
    "1 leather"
   ],
-  "editionNote": "The book recipe is the same in Java and Bedrock, shapeless since the start. Enchanting a book directly on an enchanting table turns it into an enchanted book for the anvil, but librarian villagers sell specific enchanted books like Mending for emeralds, which is usually the smarter route. A grindstone strips enchantments off an enchanted book and leaves a plain book. Librarians also throw books at you in Java while you have Hero of the Village.",
+  "editionNote": "The book recipe is shapeless and identical in Java and Bedrock: 3 paper plus 1 leather anywhere in the grid. Books are the base ingredient for bookshelves (6 planks + 3 books), book and quills (book + ink sac + feather) and chiseled bookshelves, and librarian villagers buy them for emeralds. You can also get books without crafting: breaking a bookshelf drops 3 books, so raiding village libraries and stronghold libraries is the fastest way to stock up early. Disenchanting a regular book on a grindstone is pointless, but enchanted books are a different item entirely.",
   "versions": [
    "java",
    "bedrock"
   ],
   "faq": [
    {
-    "q": "How do you get paper for books in Minecraft?",
-    "a": "Craft 3 sugar cane in a row for 3 paper. Set up a sugar cane farm along water early, because books, maps, and firework rockets all compete for paper."
+    "q": "How many books do you need for a full enchanting table setup?",
+    "a": "45 books. A maxed enchanting table needs 15 bookshelves, and each bookshelf costs 3 books, so 15 x 3 = 45. That is 135 paper and 45 leather in raw materials."
    },
    {
-    "q": "How do you make a book and quill?",
-    "a": "Craft a book with an ink sac and a feather. It opens a text editor where you can write and sign a book; signed books cannot be edited again."
+    "q": "Can you get books without leather in Minecraft?",
+    "a": "Yes. Break bookshelves in villages, stronghold libraries or woodland mansions: each shelf drops 3 books. Books also appear in shipwreck, stronghold and village chest loot, and you can barter or trade for enchanted ones."
    },
    {
-    "q": "How do you get leather in Minecraft?",
-    "a": "Cows, mooshrooms, horses, donkeys, mules, llamas, and hoglins drop leather. Rabbits drop hide in small amounts and 4 rabbit hides craft into 1 leather."
-   },
-   {
-    "q": "Is it better to enchant books or buy them from librarians?",
-    "a": "Librarians, for treasure enchants. Enchanting tables cannot roll Mending, Frost Walker, or Soul Speed at all; a librarian with a lectern can sell any of them, and you can re-roll trades by breaking and replacing the lectern before locking a trade."
+    "q": "What do librarian villagers trade for books?",
+    "a": "Novice librarians buy 24 books for 1 emerald in current versions. Librarians also sell enchanted books for emeralds plus a regular book, which is the backbone of most trading-hall enchantment setups."
    }
   ],
   "relatedGuides": [
+   "how-to-make-paper",
    "how-to-make-a-bookshelf",
-   "how-to-make-a-lectern",
-   "how-to-get-mending"
+   "how-to-make-a-book-and-quill",
+   "how-to-make-chiseled-bookshelf"
   ],
   "relatedLinks": [
    {
-    "url": "/guides/how-to-make-a-bookshelf/",
-    "label": "How to Make a Bookshelf"
-   },
-   {
-    "url": "/guides/how-to-make-a-lectern/",
-    "label": "How to Make a Lectern"
-   },
-   {
-    "url": "/guides/how-to-get-mending/",
-    "label": "How to Get Mending"
+    "url": "https://minecraft.wiki/w/Book",
+    "label": "Book on minecraft.wiki"
    }
   ],
   "keywords": [
-   "how to make a book minecraft",
+   "how to make a book in minecraft",
    "book recipe minecraft",
-   "how to get paper minecraft",
-   "book and quill recipe",
-   "enchanted book librarian"
+   "how to craft a book",
+   "books minecraft recipe",
+   "how to get books minecraft"
   ]
  },
  {
@@ -28999,62 +28688,6 @@
   ]
  },
  {
-  "slug": "how-to-make-books",
-  "name": "How to Make Books in Minecraft",
-  "shortTitle": "Make Books",
-  "quickAnswer": "Craft a book with 3 paper and 1 leather placed anywhere in the crafting grid: the recipe is shapeless. Books feed bookshelves, book and quills and enchanted-book storage.",
-  "steps": [
-   "Gather sugar cane from riverbanks and craft it into paper: 3 sugar cane in a row make 3 paper.",
-   "Kill cows or horses for leather, or fish leather up as junk.",
-   "Open a crafting table (or your 2x2 inventory grid).",
-   "Place 3 paper and 1 leather anywhere in the grid: the recipe is shapeless.",
-   "Take the book.",
-   "Craft in bulk: an enchanting setup with 15 bookshelves costs 45 books total."
-  ],
-  "materials": [
-   "3 paper (from 3 sugar cane)",
-   "1 leather"
-  ],
-  "editionNote": "The book recipe is shapeless and identical in Java and Bedrock: 3 paper plus 1 leather anywhere in the grid. Books are the base ingredient for bookshelves (6 planks + 3 books), book and quills (book + ink sac + feather) and chiseled bookshelves, and librarian villagers buy them for emeralds. You can also get books without crafting: breaking a bookshelf drops 3 books, so raiding village libraries and stronghold libraries is the fastest way to stock up early. Disenchanting a regular book on a grindstone is pointless, but enchanted books are a different item entirely.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "How many books do you need for a full enchanting table setup?",
-    "a": "45 books. A maxed enchanting table needs 15 bookshelves, and each bookshelf costs 3 books, so 15 x 3 = 45. That is 135 paper and 45 leather in raw materials."
-   },
-   {
-    "q": "Can you get books without leather in Minecraft?",
-    "a": "Yes. Break bookshelves in villages, stronghold libraries or woodland mansions: each shelf drops 3 books. Books also appear in shipwreck, stronghold and village chest loot, and you can barter or trade for enchanted ones."
-   },
-   {
-    "q": "What do librarian villagers trade for books?",
-    "a": "Novice librarians buy 24 books for 1 emerald in current versions. Librarians also sell enchanted books for emeralds plus a regular book, which is the backbone of most trading-hall enchantment setups."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-paper",
-   "how-to-make-a-bookshelf",
-   "how-to-make-a-book-and-quill",
-   "how-to-make-chiseled-bookshelf"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Book",
-    "label": "Book on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "book recipe minecraft",
-   "how to make a book in minecraft",
-   "how to craft books",
-   "books minecraft recipe",
-   "how to get books minecraft"
-  ]
- },
- {
   "slug": "how-to-make-arrows",
   "name": "How to Make Arrows in Minecraft",
   "shortTitle": "Make Arrows",
@@ -29379,7 +29012,7 @@
    "how-to-make-paper",
    "how-to-get-honey",
    "how-to-make-a-cake",
-   "how-to-make-books"
+   "how-to-make-a-book"
   ],
   "relatedLinks": [
    {
