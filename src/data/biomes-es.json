@@ -2022,5 +2022,143 @@
       "Mina blue ice de las bases sumergidas de los icebergs: cada bloque equivale a 81 ice normales.",
       "La temperatura varía dentro del bioma: las zonas frías tienen snowfall por encima de Y=120 mientras en las cálidas llueve."
     ]
+  },
+  "end-midlands": {
+    "category": "End",
+    "description": "Las laderas de las islas exteriores del End, entre los picos de las highlands y los acantilados de las barrens. Aquí generan End cities, pero no chorus trees.",
+    "keywords": "bioma end midlands, islas exteriores del end, dónde hay end cities, biomas del end minecraft",
+    "resources": [
+      "End stone a granel",
+      "Loot de End cities: ships con elytra, shulker shells, equipo de diamante encantado",
+      "End gateways de vuelta a la isla central"
+    ],
+    "mobs": [
+      "Endermen: el único mob natural de los biomas exteriores del End",
+      "Shulkers dentro de las End cities que generan aquí"
+    ],
+    "structures": [
+      "End cities (pero no chorus trees)",
+      "End gateways"
+    ],
+    "whyGo": [
+      "Cazar End cities: midlands y highlands son los únicos biomas exteriores con cities",
+      "Shulker shells para shulker boxes",
+      "Farmear ender pearls en terreno abierto"
+    ],
+    "tips": [
+      "Las cities aparecen tanto en laderas de midlands como en picos de highlands: inspecciona toda la isla, no solo la cima.",
+      "Solo en Java Edition: en Bedrock el End exterior es un único bioma indivisible.",
+      "Lleva ender pearls o una elytra: los acantilados de las midlands caen directo al void."
+    ]
+  },
+  "end-highlands": {
+    "category": "End",
+    "description": "Las cimas del centro de cada isla exterior del End: el único bioma donde crecen los chorus trees, y el otro hogar de las End cities y su loot.",
+    "keywords": "bioma end highlands, bioma de chorus fruit, dónde crecen chorus trees, end city elytra",
+    "resources": [
+      "Chorus fruit y chorus flowers: solo aquí, de los chorus trees",
+      "Loot de End cities: elytra, shulker shells, dragon heads en los ships",
+      "End stone y purpur de las ruinas de las cities"
+    ],
+    "mobs": [
+      "Endermen por las cimas",
+      "Shulkers vigilando las End cities"
+    ],
+    "structures": [
+      "End cities con sus ships",
+      "Bosques de chorus trees",
+      "End gateways"
+    ],
+    "whyGo": [
+      "La única fuente de chorus fruit, chorus flowers y popped chorus fruit",
+      "Caza de elytra: los End ships generan con cities en islas de highlands",
+      "Purpur blocks y end rods para construir"
+    ],
+    "tips": [
+      "Rompe la base de un chorus tree para tirar la planta entera; replanta chorus flowers sobre end stone en casa.",
+      "El chorus fruit te teletransporta aleatoriamente al comerlo: nunca picarques cerca del borde de un acantilado.",
+      "Highlands y midlands cubren todas las End cities del juego: si una isla tiene city, es uno de estos dos biomas."
+    ]
+  },
+  "end-barrens": {
+    "category": "End",
+    "description": "Los bordes más extremos de las islas del End: plataformas vacías de end stone que se desploman en acantilados sobre el void. Sin cities ni chorus trees: solo endermen y la caída.",
+    "keywords": "bioma end barrens, borde de las islas del end, acantilados del void minecraft",
+    "resources": [
+      "End stone: es lo único que genera aquí",
+      "Ender pearls de los endermen locales"
+    ],
+    "mobs": [
+      "Endermen, y solo endermen"
+    ],
+    "structures": [
+      "Ninguna: las End cities y los chorus trees nunca generan en las barrens",
+      "Solo end gateways"
+    ],
+    "whyGo": [
+      "Extracción tranquila de end stone lejos de los shulkers",
+      "Granjas de endermen a campo abierto",
+      "Orientarte: las barrens siempre significan que estás en el borde de la isla"
+    ],
+    "tips": [
+      "Si estás en barrens, la city que buscas está más adentro: cruza las midlands hacia el centro de la isla.",
+      "La caída del borde de las barrens es un viaje sin retorno al void: haz puentes con cuidado.",
+      "Solo en Java Edition: Bedrock trata todo el End exterior como un único bioma."
+    ]
+  },
+  "small-end-islands": {
+    "category": "End",
+    "description": "Los vacíos entre las islas exteriores del End, salpicados de islotes circulares de end stone. Sin cities ni chorus: solo peldaños sobre el void.",
+    "keywords": "bioma small end islands, islotes del end, huecos del end exterior, viajar por el end minecraft",
+    "resources": [
+      "End stone de los islotes",
+      "Ender pearls de los endermen de paso"
+    ],
+    "mobs": [
+      "Solo endermen"
+    ],
+    "structures": [
+      "Pequeñas islas circulares: el único feature que genera aquí",
+      "Ni End cities ni chorus trees",
+      "End gateways"
+    ],
+    "whyGo": [
+      "Atajos: las cadenas de islotes pueden puentear el hueco entre islas grandes",
+      "Granjas de endermen sin escondites",
+      "Vuelos con elytra de postal entre las islas grandes"
+    ],
+    "tips": [
+      "No pierdas tiempo buscando cities aquí: solo generan en midlands y highlands.",
+      "Los islotes son plataformas de aterrizaje de emergencia perfectas en vuelos largos con elytra: márcalos en tu mapa.",
+      "Solo en Java Edition: en Bedrock este terreno forma parte del único bioma del End exterior."
+    ]
+  },
+  "the-void": {
+    "category": "End",
+    "description": "Un bioma vacío de puro aire que usa el preset superflat The Void: una plataforma de cobblestone de 33x33 en el fondo del mundo y nada más, para siempre.",
+    "keywords": "bioma the void, preset superflat void, mundo void minecraft, plataforma de cobblestone",
+    "resources": [
+      "Una void start platform de 33x33 de stone con centro de cobblestone en X=8, Y=-61, Z=8",
+      "En mundos single biome: stone, dirt, minerales y cuevas sin más",
+      "Todo lo demás debe venir del bonus chest, de wandering traders o de mods"
+    ],
+    "mobs": [
+      "No spawnea nada de forma natural en el void superflat: ni mobs pasivos, y monstruos solo en estructuras que construyas",
+      "Los wandering traders siguen apareciendo de vez en cuando"
+    ],
+    "structures": [
+      "Solo la void start platform",
+      "Sin estructuras, sin features, sin variación de biomas"
+    ],
+    "whyGo": [
+      "El clásico reto de supervivencia estilo skyblock",
+      "Un lienzo en blanco perfecto para map makers y pruebas de redstone",
+      "Mundos void en creativo para construir limpio sin terreno"
+    ],
+    "tips": [
+      "Activa el bonus chest: en un void superflat es tu única fuente de madera y comida.",
+      "En un mundo single biome de void el terreno genera como en un mundo normal: solo faltan estructuras y features.",
+      "Solo en Java Edition: en Bedrock el preset plano Void usa el bioma plains pero genera idéntico."
+    ]
   }
 }

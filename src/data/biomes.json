@@ -2188,5 +2188,153 @@
       "Mine blue ice from iceberg bases underwater: 9 blue ice craft nothing, but each block saves 81 regular ice.",
       "Temperature varies inside the biome: cold pockets get snowfall above Y=120 while warm pockets get rain."
     ]
+  },
+  {
+    "slug": "end-midlands",
+    "name": "End Midlands",
+    "category": "End",
+    "description": "The sloping shoulders of the outer End islands, between the highland peaks and the barren cliffs. End cities generate here - but no chorus trees.",
+    "keywords": "end midlands biome, outer end islands, end city location, minecraft end biomes",
+    "resources": [
+      "End stone in bulk",
+      "End city loot: elytra ships, shulker shells, enchanted diamond gear",
+      "End gateways back to the central island"
+    ],
+    "mobs": [
+      "Endermen - the only natural mob in the End's outer biomes",
+      "Shulkers inside the End cities that generate here"
+    ],
+    "structures": [
+      "End cities (but no chorus trees)",
+      "End gateways"
+    ],
+    "whyGo": [
+      "End city hunting: midlands and highlands are the only outer biomes with cities",
+      "Shulker shells for shulker boxes",
+      "Ender pearl farming in wide open terrain"
+    ],
+    "tips": [
+      "Cities appear on midlands slopes and highland tops alike - scan the whole island, not just the peak.",
+      "Java Edition only: in Bedrock the outer End is one undivided biome.",
+      "Bring ender pearls or an elytra: midlands cliffs drop straight into the void."
+    ]
+  },
+  {
+    "slug": "end-highlands",
+    "name": "End Highlands",
+    "category": "End",
+    "description": "The hilltops at the center of each outer End island - the only biome where chorus trees grow, and the other home of End cities and their loot.",
+    "keywords": "end highlands biome, chorus fruit biome, chorus tree location, end city elytra",
+    "resources": [
+      "Chorus fruit and chorus flowers - only here, from chorus trees",
+      "End city loot: elytra, shulker shells, dragon heads on ships",
+      "End stone and purpur from city ruins"
+    ],
+    "mobs": [
+      "Endermen across the hilltops",
+      "Shulkers guarding the End cities"
+    ],
+    "structures": [
+      "End cities with their ships",
+      "Chorus tree forests",
+      "End gateways"
+    ],
+    "whyGo": [
+      "The only source of chorus fruit, chorus flowers and popped chorus fruit",
+      "Elytra hunting: End ships generate with cities on highland islands",
+      "Purpur blocks and end rods for building"
+    ],
+    "tips": [
+      "Break the bottom of a chorus tree to drop the whole plant; replant chorus flowers on end stone at home.",
+      "Chorus fruit teleports you randomly when eaten - never snack near a cliff edge.",
+      "Highlands plus midlands cover every End city in the game: if an island has a city, it is one of these two biomes."
+    ]
+  },
+  {
+    "slug": "end-barrens",
+    "name": "End Barrens",
+    "category": "End",
+    "description": "The outermost edges of the End's islands: empty end stone shelves that crumble into steep cliffs above the void. No cities, no chorus trees - just endermen and the drop.",
+    "keywords": "end barrens biome, end island edge, minecraft end void cliffs",
+    "resources": [
+      "End stone - nothing else generates here",
+      "Ender pearls from the local endermen"
+    ],
+    "mobs": [
+      "Endermen, and only endermen"
+    ],
+    "structures": [
+      "None: End cities and chorus trees never generate in the barrens",
+      "End gateways only"
+    ],
+    "whyGo": [
+      "Quiet end stone quarrying away from shulkers",
+      "Enderman farming in the open",
+      "Reading island shape: barrens always mean you are at the edge"
+    ],
+    "tips": [
+      "If you are in barrens, the city you want is further in - cross the midlands toward the island center.",
+      "The cliff drop below the barrens edge is a one-way trip into the void: bridge carefully.",
+      "Java Edition only: Bedrock treats the whole outer End as a single biome."
+    ]
+  },
+  {
+    "slug": "small-end-islands",
+    "name": "Small End Islands",
+    "category": "End",
+    "description": "The empty gulfs between the outer End islands, dotted with small circular islets of end stone. No cities, no chorus - just stepping stones over the void.",
+    "keywords": "small end islands biome, end islets, outer end gaps, minecraft end travel",
+    "resources": [
+      "End stone from the islets",
+      "Ender pearls from passing endermen"
+    ],
+    "mobs": [
+      "Endermen only"
+    ],
+    "structures": [
+      "Small circular islands - the only feature that generates here",
+      "No End cities and no chorus trees",
+      "End gateways"
+    ],
+    "whyGo": [
+      "Shortcuts: islet chains can bridge the gap between big islands",
+      "Enderman farming with nowhere for them to hide",
+      "Scenic elytra flying between the big islands"
+    ],
+    "tips": [
+      "Do not waste time hunting cities here: they only generate in midlands and highlands.",
+      "Islets make great emergency landing pads on long elytra flights - mark them on your map.",
+      "Java Edition only: in Bedrock this terrain is part of the single outer End biome."
+    ]
+  },
+  {
+    "slug": "the-void",
+    "name": "The Void",
+    "category": "End",
+    "description": "An empty biome of pure air used by The Void superflat preset: one 33x33 cobblestone platform at the bottom of the world and nothing else, forever.",
+    "keywords": "the void biome, void superflat preset, void world minecraft, cobblestone platform",
+    "resources": [
+      "One 33x33 void start platform of stone with a cobblestone center at X=8, Y=-61, Z=8",
+      "In single biome worlds: plain stone, dirt, ores and caves - nothing else",
+      "Everything else must come from bonus chests, wandering traders or mods"
+    ],
+    "mobs": [
+      "Nothing spawns naturally in the superflat void - no passive mobs, and monsters only from structures you build",
+      "Wandering traders still appear occasionally"
+    ],
+    "structures": [
+      "The void start platform only",
+      "No structures, no features, no biomes variation"
+    ],
+    "whyGo": [
+      "The classic skyblock-style survival challenge",
+      "A perfectly blank canvas for map makers and redstone testing",
+      "Creative void worlds for clean builds without terrain"
+    ],
+    "tips": [
+      "Enable the bonus chest: in a superflat void it is your only source of wood and food.",
+      "In a single biome void world the terrain generates like a normal world - only structures and features are missing.",
+      "Java Edition only: in Bedrock the Void flat preset uses the plains biome but generates identically."
+    ]
   }
 ]
