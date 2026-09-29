@@ -27705,5 +27705,311 @@
         "url": "/items/elytra/"
       }
     ]
+  },
+  {
+    "slug": "how-to-install-shaders",
+    "name": "How to Install Shaders in Minecraft (Java)",
+    "shortTitle": "Install Shaders",
+    "quickAnswer": "Install Iris (recommended) or OptiFine - both free - then drop a shader pack ZIP into the shaderpacks folder and enable it in Video Settings > Shaders. Shaders are Java Edition only; Bedrock has its own Vibrant Visuals setting.",
+    "keywords": "how to install shaders minecraft java iris optifine shaderpacks folder vibrant visuals free",
+    "materials": [
+      "Minecraft Java Edition",
+      "Iris (with Fabric) or OptiFine - both free downloads",
+      "A shader pack ZIP (BSL, Complementary, Sildur's...)",
+      "A PC with a decent GPU - shaders are heavy"
+    ],
+    "steps": [
+      "Choose your loader: Iris + Sodium is the modern pick (better performance and mod compatibility); OptiFine is the classic all-in-one. Both are free - never pay for shaders or installers.",
+      "For Iris: run the Fabric installer for your Minecraft version, then drop the Iris and Sodium JARs into the mods folder. For OptiFine: download the JAR matching your game version and run it - it creates a launcher profile.",
+      "Launch the game once with that profile, then close it. A shaderpacks folder appears inside your .minecraft directory.",
+      "Download a shader pack (it comes as a ZIP - do not unzip it) and move the ZIP into the shaderpacks folder.",
+      "In-game: Options > Video Settings > Shaders, select the pack, click Done. The world relights itself with the new look.",
+      "Tune performance: shader packs have Low/Medium/High presets. If your FPS drops hard, lower the preset before blaming your PC.",
+      "Bedrock players: shaders as such do not exist - the built-in Vibrant Visuals graphics setting (on supported devices) is the official equivalent."
+    ],
+    "versions": "Shader support via OptiFine/Iris works on all current Java versions. Iris updates faster on new releases; OptiFine sometimes lags behind version updates.",
+    "editionNote": "Java Edition only. Bedrock (Windows, console, mobile) cannot install shader packs - use Vibrant Visuals or marketplace looks instead.",
+    "faq": [
+      {
+        "q": "Are shaders free?",
+        "a": "Yes. Iris, OptiFine and every major shader pack (BSL, Complementary, Sildur's) are free. Sites charging for shader downloads or 'premium installers' are scams - get everything from the official pages."
+      },
+      {
+        "q": "Shaders vs texture packs - what is the difference?",
+        "a": "Texture packs change how blocks look; shaders change the lighting, shadows, water and sky. They stack: most people run both together."
+      },
+      {
+        "q": "My game crashes with shaders - what now?",
+        "a": "Update your graphics drivers first. Then try Iris instead of OptiFine (or vice versa), pick the Low preset, and check the pack matches your Minecraft version. Old packs on new versions are the most common crash cause."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-allocate-more-ram"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      },
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-play-with-friends",
+    "name": "How to Play Minecraft with Friends (Every Way)",
+    "shortTitle": "Play with Friends",
+    "quickAnswer": "Same edition required: Bedrock players add each other as Xbox friends and join from the Friends tab; Java players open their world to LAN or join the same server IP. Realms is the paid always-on option on both editions; free server hosting works for Java.",
+    "keywords": "how to play minecraft with friends multiplayer java bedrock lan server realms join world cross platform",
+    "materials": [
+      "The same edition as your friends: Java with Java, Bedrock with Bedrock",
+      "The same game version",
+      "An online Microsoft account for Bedrock friend play"
+    ],
+    "steps": [
+      "Check editions first: Java (PC only) and Bedrock (Windows, consoles, mobile) cannot play together. This is the #1 reason 'it does not work'.",
+      "Bedrock, easiest way: everyone signs in with a Microsoft account, one player opens their world with Multiplayer enabled, friends find it in the Friends tab and join. No IP needed.",
+      "Same house, any edition: open the world to LAN (Java: Esc > Open to LAN; Bedrock: Multiplayer settings) and others join from the LAN section.",
+      "Java servers: one player runs or rents a server, shares the IP, everyone adds it under Multiplayer > Add Server. Free hosting options exist - see our servers section.",
+      "Realms: Mojang's official subscription server - always online, works on both editions (separate Realms for Java and Bedrock), one player pays and invites the rest for free.",
+      "Match versions: if a friend cannot join, check everyone runs the same game version - version mismatch is the second most common join failure.",
+      "On public servers, friend each other and use /tpa or the server's party system to play together instead of hunting coordinates."
+    ],
+    "versions": "Applies to current Java and Bedrock. Realms is a paid Mojang subscription; everything else listed here is free.",
+    "editionNote": "Cross-edition play (Java with Bedrock) is impossible in vanilla. Some unofficial proxy servers bridge them, but that is server-side work - not something clients can fix.",
+    "faq": [
+      {
+        "q": "Can Java and Bedrock players play together?",
+        "a": "Not in vanilla - they are different codebases. Some community servers run a proxy (Geyser) that lets Bedrock clients join Java servers, but the server owner must set that up."
+      },
+      {
+        "q": "Why can I not see my friend's world?",
+        "a": "Run the checklist: same edition, same version, the host has Multiplayer toggled on (Bedrock) or opened to LAN (Java), you are Xbox friends (Bedrock online), and nobody's firewall or parental settings block multiplayer."
+      },
+      {
+        "q": "Is Realms the only always-online option?",
+        "a": "No: a rented or self-hosted server stays online without the host playing. Realms is just the simplest - the others are free or cheaper but need more setup."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-teleport"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      },
+      {
+        "label": "Free Hosting",
+        "url": "/tools/free-hosting/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-backup-your-world",
+    "name": "How to Back Up Your Minecraft World",
+    "shortTitle": "Back Up Your World",
+    "quickAnswer": "Your world is a folder: Java keeps it in .minecraft/saves, Bedrock in the com.mojang/minecraftWorlds folder. Copy the world folder somewhere safe and you have a full backup - restore by copying it back. Do it before updates, mods and experiments.",
+    "keywords": "how to backup minecraft world saves folder restore copy java bedrock where are worlds stored",
+    "materials": [
+      "Access to your game files (file explorer on PC)",
+      "Free disk space for the copy",
+      "Optional: cloud storage or a USB drive for off-machine copies"
+    ],
+    "steps": [
+      "Java (Windows): press Win+R, type %appdata%\\.minecraft\\saves and hit Enter. Each folder there is one world.",
+      "Java (Mac/Linux): saves live in ~/Library/Application Support/minecraft/saves (Mac) and ~/.minecraft/saves (Linux).",
+      "Bedrock (Windows): worlds are in %localappdata%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds.",
+      "Bedrock (mobile): on Android the same com.mojang folder lives in internal storage (games/com.mojang/minecraftWorlds) if the game is set to External/Application storage; iOS keeps it inside the app's files - use the Files app.",
+      "Close the game, then copy the whole world folder to your backup spot. Copying while playing can corrupt the copy.",
+      "To restore: put the folder back where it came from and restart the game. The world appears in the list with its original name.",
+      "Habit: back up before big updates, before adding or removing mods (Java), and monthly in general. Servers: copy the world folder while the server is stopped."
+    ],
+    "versions": "Folder locations are current for the official launcher and Bedrock installs. Third-party launchers keep their own instance folders with a saves directory inside.",
+    "editionNote": "Java worlds and Bedrock worlds are not interchangeable - a backup can only be restored to the same edition.",
+    "faq": [
+      {
+        "q": "Can I move a world from Java to Bedrock?",
+        "a": "Not directly - the formats differ. Community converters exist, but they are unofficial and lossy; keep backups in their original edition."
+      },
+      {
+        "q": "My world disappeared - is the backup enough?",
+        "a": "If the folder still exists in saves, the world is there - the list sometimes hides worlds after version issues. If the folder is gone, only a real backup copy (or file-recovery tools) can bring it back."
+      },
+      {
+        "q": "How big are world folders?",
+        "a": "Fresh worlds are a few MB; long-played worlds with lots of exploring reach hundreds of MB to several GB. Check size before picking a cloud plan, but any USB stick handles most worlds."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-allocate-more-ram"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      },
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-update-minecraft",
+    "name": "How to Update Minecraft (Every Platform)",
+    "shortTitle": "Update Minecraft",
+    "quickAnswer": "Java updates itself through the launcher: just pick the Latest Release installation and play. Bedrock updates through your device's app store (Microsoft Store, Play Store, App Store or the console's game menu). Servers must be updated separately with the new server JAR.",
+    "keywords": "how to update minecraft latest version launcher java bedrock console mobile server update",
+    "materials": [
+      "Internet connection",
+      "The official launcher (Java) or your device's store (Bedrock)",
+      "A world backup before big updates (recommended)"
+    ],
+    "steps": [
+      "Java: open the Minecraft Launcher - it downloads new versions automatically. In the Installations tab, the Latest Release installation always points at the newest version.",
+      "Java, stay on an old version: create a separate installation pinned to your version (useful for mods and servers that have not updated).",
+      "Bedrock on Windows: open the Microsoft Store > Library > Get updates.",
+      "Bedrock on mobile: update from the Play Store (Android) or App Store (iOS) like any app.",
+      "Bedrock on consoles: highlight the game, press the options/menu button and choose Check for Updates - consoles usually auto-update when online.",
+      "Servers: the server does not update with your client. Download the new server JAR (Java) or Bedrock server build, stop the server, swap the file and start it again. Clients and server must match versions to play together.",
+      "Before updating a world you care about: back it up. Worlds upgraded to a new version usually cannot go back to the old one."
+    ],
+    "versions": "Applies to the current release channels. Java snapshots and Bedrock previews are separate opt-in tracks for testing upcoming updates.",
+    "editionNote": "Java updates live in the launcher; Bedrock updates live in each platform's store. There is no in-game update button on Bedrock.",
+    "faq": [
+      {
+        "q": "Why is my game not updating?",
+        "a": "Java: make sure you launch the Latest Release installation, not a pinned old one. Bedrock: stores sometimes hold updates for hours by region - check the store page manually and restart the device."
+      },
+      {
+        "q": "Will updating break my mods?",
+        "a": "Usually yes, temporarily: mods are built per version. Keep a pinned installation on your modded version until your mods update - this is exactly what the Installations tab is for."
+      },
+      {
+        "q": "My friends updated and I cannot join their world?",
+        "a": "Versions must match. Either update to their version or ask them to host on yours. Realms always runs the latest version, so Realms players must stay current."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-backup-your-world",
+      "how-to-play-with-friends"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Versions",
+        "url": "/versions/"
+      },
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-a-super-smelter",
+    "name": "How to Make a Super Smelter (Auto Furnace)",
+    "shortTitle": "Make a Super Smelter",
+    "quickAnswer": "A super smelter is a row of furnaces fed automatically: hoppers on top load items to smelt, hoppers on the side load fuel, and hoppers underneath pull the results into a chest. Feed it once and walk away - it smelts stacks while you play.",
+    "keywords": "super smelter minecraft auto furnace array hoppers automatic smelting how to build xp",
+    "materials": [
+      "Furnaces (any count - 8 to 16 is a good start)",
+      "3 hoppers per furnace plus 1-2 input and 1-2 output chests",
+      "Building blocks for the frame",
+      "Fuel: dried kelp blocks, coal blocks or lava buckets"
+    ],
+    "steps": [
+      "Place a row of furnaces side by side, one block apart or touching - the design works either way.",
+      "Run a hopper line into the TOP of each furnace: place hoppers facing down into them and connect the line back to one input chest. This line carries the items to smelt.",
+      "Run a second hopper line into the BACK or SIDE of each furnace for fuel. Connect it to a fuel chest.",
+      "Place a hopper under each furnace facing into a collection line that ends in the output chest.",
+      "Balance the load: hoppers distribute items unevenly - put a minecart-with-hopper track above the top line for even spread, or simply overfill the input chest so every furnace stays busy.",
+      "Fuel it efficiently: dried kelp blocks smelt 20 items each and farm themselves; a lava bucket smelts 100. Load the fuel chest and the system runs for hours.",
+      "XP trick: furnaces bank the XP of everything they smelt. Pull one item out manually from any furnace after a big run and all the stored XP floods into you."
+    ],
+    "versions": "Hopper-fed furnace arrays work identically in all current versions. Minecart distribution behaves slightly differently per edition - the overfilling method avoids that entirely.",
+    "editionNote": "Works in Java and Bedrock. Hopper timing differs slightly, which is why the overfilled-input design is recommended for both.",
+    "faq": [
+      {
+        "q": "Why does the first furnace get everything?",
+        "a": "Hoppers push into the first available slot, so the nearest furnace fills first. Either overflow the input (simple) or use a hopper-minecart on a rail over the furnaces (even)."
+      },
+      {
+        "q": "Is a blast furnace or smoker better for a super smelter?",
+        "a": "They smelt their categories (ores / food) twice as fast but only those categories. Mixed input needs regular furnaces; dedicated arrays with blast furnaces for ores and smokers for food are the fastest setup."
+      },
+      {
+        "q": "How do I collect the XP?",
+        "a": "XP accumulates inside each furnace as it smelts. Manually take out any single finished item and the furnace dumps all its stored XP on you - one claim after a long session is a huge level boost."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-furnace",
+      "how-to-make-hopper",
+      "how-to-get-xp-fast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Furnace",
+        "url": "/items/furnace/"
+      },
+      {
+        "label": "Hopper",
+        "url": "/items/hopper/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-show-coordinates",
+    "name": "How to Show Coordinates in Minecraft (Java and Bedrock)",
+    "shortTitle": "Show Coordinates",
+    "quickAnswer": "Java: press F3 - your X, Y and Z are in the debug screen. Bedrock: enable Show Coordinates in the world settings (no cheats needed). X/Z are your horizontal position, Y is height - diamonds live around Y=-59.",
+    "keywords": "how to show coordinates minecraft f3 java bedrock xyz enable coordinates world settings",
+    "materials": [
+      "Java: a keyboard (F3)",
+      "Bedrock: world settings access (owner or operator)",
+      "No cheats required on either edition"
+    ],
+    "steps": [
+      "Java: press F3 in-game. The debug overlay appears - look for the XYZ line near the top left. Press F3 again to hide it.",
+      "Read it right: X runs east(+)/west(-), Y is height, Z runs south(+)/north(-). Your block position is the rounded-down value.",
+      "Java extras: F3 + G shows chunk borders, F3 + B shows hitboxes, F3 + Q lists all debug shortcuts. On some laptops F3 needs Fn + F3.",
+      "Bedrock: open the world settings (pause > Settings, or the pencil icon on the world list) and toggle Show Coordinates on. They display permanently at the top left.",
+      "Bedrock without cheats: the Show Coordinates toggle is a world setting, not a cheat - achievements stay enabled. The copy-coordinates button next to it puts your position in chat.",
+      "Use them: write down base coordinates, mark diamonds level (Y=-59 in current versions), and navigate back home by walking toward your saved X and Z.",
+      "Multiplayer: server rules may hide the F3 coordinates (reduced debug info). Bedrock servers and Realms respect the world setting controlled by the owner."
+    ],
+    "versions": "F3 debug screen since early Java; Show Coordinates toggle in Bedrock since 1.8. Both work in all current versions.",
+    "editionNote": "Java shows coordinates via F3 with no setting needed. Bedrock needs the world toggle, which the world owner controls - on Realms ask the owner to enable it.",
+    "faq": [
+      {
+        "q": "F3 does nothing - why?",
+        "a": "On laptops the function row often needs Fn + F3. Some keyboards map F3 to brightness or volume - check your Fn lock. In-game, make sure no chat window is open."
+      },
+      {
+        "q": "Why does my server hide coordinates?",
+        "a": "Java servers can enable reducedDebugInfo, which strips coordinates from F3 for everyone. It is a server-side rule - only the owner can change it (gamerule reducedDebugInfo false)."
+      },
+      {
+        "q": "What Y level should I mine at?",
+        "a": "For diamonds in current versions, Y=-59 (just above bedrock, watching for lava). For iron, mountain tops and Y=16; for coal, high mountains; for ancient debris in the Nether, Y=15."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-your-way-home",
+      "how-to-find-diamonds"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Ores",
+        "url": "/ores/"
+      },
+      {
+        "label": "Commands",
+        "url": "/commands/"
+      }
+    ]
   }
 ]

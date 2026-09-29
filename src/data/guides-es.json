@@ -24386,5 +24386,283 @@
         "url": "/es/items/elytra/"
       }
     ]
+  },
+  "how-to-install-shaders": {
+    "name": "Cómo instalar shaders en Minecraft (Java)",
+    "shortTitle": "Instalar shaders",
+    "quickAnswer": "Instala Iris (recomendado) u OptiFine, ambos gratis, y luego deja el ZIP del shader pack en la carpeta shaderpacks y actívalo en Video Settings > Shaders. Los shaders son solo de Java Edition; Bedrock tiene su propio ajuste Vibrant Visuals.",
+    "keywords": "cómo instalar shaders minecraft java iris optifine carpeta shaderpacks vibrant visuals gratis",
+    "materials": [
+      "Minecraft Java Edition",
+      "Iris (con Fabric) u OptiFine: ambas descargas gratuitas",
+      "Un shader pack en ZIP (BSL, Complementary, Sildur's...)",
+      "Un PC con una GPU decente: los shaders pesan"
+    ],
+    "steps": [
+      "Elige tu cargador: Iris + Sodium es la opción moderna (mejor rendimiento y compatibilidad con mods); OptiFine es el clásico todo en uno. Ambos son gratis: nunca pagues por shaders ni instaladores.",
+      "Para Iris: ejecuta el instalador de Fabric para tu versión de Minecraft y luego deja los JAR de Iris y Sodium en la carpeta mods. Para OptiFine: descarga el JAR de tu versión y ejecútalo: crea un perfil en el launcher.",
+      "Arranca el juego una vez con ese perfil y ciérralo. Aparece una carpeta shaderpacks dentro de tu directorio .minecraft.",
+      "Descarga un shader pack (viene en ZIP: no lo descomprimas) y mueve el ZIP a la carpeta shaderpacks.",
+      "En el juego: Options > Video Settings > Shaders, selecciona el pack y haz clic en Done. El mundo se reilumina con el nuevo aspecto.",
+      "Ajusta el rendimiento: los packs tienen presets Low/Medium/High. Si los FPS caen en picado, baja el preset antes de culpar a tu PC.",
+      "Jugadores de Bedrock: los shaders como tal no existen: el ajuste gráfico integrado Vibrant Visuals (en dispositivos compatibles) es el equivalente oficial."
+    ],
+    "versions": "El soporte de shaders vía OptiFine/Iris funciona en todas las versiones actuales de Java. Iris se actualiza más rápido en los lanzamientos nuevos; OptiFine a veces va por detrás.",
+    "editionNote": "Solo Java Edition. Bedrock (Windows, consolas, móvil) no puede instalar shader packs: usa Vibrant Visuals o aspectos del marketplace.",
+    "faq": [
+      {
+        "q": "¿Los shaders son gratis?",
+        "a": "Sí. Iris, OptiFine y todos los shader packs importantes (BSL, Complementary, Sildur's) son gratis. Los sitios que cobran por descargas de shaders o 'instaladores premium' son estafas: consigue todo de las páginas oficiales."
+      },
+      {
+        "q": "¿Shaders vs texture packs, cuál es la diferencia?",
+        "a": "Los texture packs cambian el aspecto de los bloques; los shaders cambian la iluminación, sombras, agua y cielo. Se acumulan: la mayoría usa ambos a la vez."
+      },
+      {
+        "q": "¿El juego crashea con shaders, qué hago?",
+        "a": "Actualiza primero los drivers gráficos. Luego prueba Iris en vez de OptiFine (o al revés), elige el preset Low y comprueba que el pack coincide con tu versión de Minecraft. Los packs viejos en versiones nuevas son la causa de crasheo más común."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      },
+      {
+        "label": "Servidores",
+        "url": "/es/servers/"
+      }
+    ]
+  },
+  "how-to-play-with-friends": {
+    "name": "Cómo jugar a Minecraft con amigos (todas las formas)",
+    "shortTitle": "Jugar con amigos",
+    "quickAnswer": "Hace falta la misma edición: los de Bedrock se agregan como amigos de Xbox y se unen desde la pestaña Friends; los de Java abren su mundo a LAN o entran a la misma IP de servidor. Realms es la opción de pago siempre activa en ambas ediciones; el hosting gratuito funciona para Java.",
+    "keywords": "cómo jugar minecraft con amigos multiplayer java bedrock lan servidor realms unirse a mundo multiplataforma",
+    "materials": [
+      "La misma edición que tus amigos: Java con Java, Bedrock con Bedrock",
+      "La misma versión del juego",
+      "Una cuenta Microsoft online para jugar con amigos en Bedrock"
+    ],
+    "steps": [
+      "Comprueba primero las ediciones: Java (solo PC) y Bedrock (Windows, consolas, móvil) no pueden jugar juntas. Esta es la razón número 1 de 'no funciona'.",
+      "Bedrock, la vía fácil: todos inician sesión con cuenta Microsoft, un jugador abre su mundo con Multiplayer activado, los amigos lo encuentran en la pestaña Friends y entran. Sin IP.",
+      "Misma casa, cualquier edición: abre el mundo a LAN (Java: Esc > Open to LAN; Bedrock: ajustes de Multiplayer) y los demás entran desde la sección LAN.",
+      "Servidores Java: un jugador monta o alquila un servidor, comparte la IP y todos la añaden en Multiplayer > Add Server. Existen opciones de hosting gratuito: mira nuestra sección de servidores.",
+      "Realms: el servidor oficial de suscripción de Mojang: siempre online, funciona en ambas ediciones (Realms separados para Java y Bedrock), uno paga e invita al resto gratis.",
+      "Iguala versiones: si un amigo no puede entrar, comprueba que todos corren la misma versión: la incompatibilidad de versiones es la segunda causa de fallo más común.",
+      "En servidores públicos, agregaos como amigos y usad /tpa o el sistema de party del servidor para jugar juntos en vez de cazar coordenadas."
+    ],
+    "versions": "Aplica al Java y Bedrock actuales. Realms es una suscripción de pago de Mojang; todo lo demás de la lista es gratis.",
+    "editionNote": "El juego entre ediciones (Java con Bedrock) es imposible en vanilla. Algunos servidores no oficiales las puentean, pero eso es trabajo del lado del servidor: no algo que los clientes puedan arreglar.",
+    "faq": [
+      {
+        "q": "¿Pueden jugar juntos los de Java y Bedrock?",
+        "a": "En vanilla no: son códigos distintos. Algunos servidores de la comunidad corren un proxy (Geyser) que permite a clientes Bedrock entrar a servidores Java, pero el dueño del servidor debe configurarlo."
+      },
+      {
+        "q": "¿Por qué no veo el mundo de mi amigo?",
+        "a": "Revisa la lista: misma edición, misma versión, el anfitrión tiene Multiplayer activado (Bedrock) o abierto a LAN (Java), sois amigos de Xbox (Bedrock online), y ningún firewall o control parental bloquea el multijugador."
+      },
+      {
+        "q": "¿Realms es la única opción siempre online?",
+        "a": "No: un servidor alquilado o autoalojado sigue online sin que el anfitrión juegue. Realms es simplemente lo más fácil: las otras son gratis o más baratas pero requieren más montaje."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servers/"
+      },
+      {
+        "label": "Hosting gratis",
+        "url": "/es/tools/free-hosting/"
+      }
+    ]
+  },
+  "how-to-backup-your-world": {
+    "name": "Cómo hacer backup de tu mundo de Minecraft",
+    "shortTitle": "Hacer backup del mundo",
+    "quickAnswer": "Tu mundo es una carpeta: Java la guarda en .minecraft/saves, Bedrock en la carpeta com.mojang/minecraftWorlds. Copia la carpeta del mundo a un sitio seguro y tienes un backup completo: restaura copiándola de vuelta. Hazlo antes de actualizaciones, mods y experimentos.",
+    "keywords": "cómo hacer backup mundo minecraft carpeta saves restaurar copiar java bedrock dónde se guardan los mundos",
+    "materials": [
+      "Acceso a los archivos del juego (explorador de archivos en PC)",
+      "Espacio libre en disco para la copia",
+      "Opcional: almacenamiento en la nube o un USB para copias fuera del equipo"
+    ],
+    "steps": [
+      "Java (Windows): pulsa Win+R, escribe %appdata%\\.minecraft\\saves y dale a Enter. Cada carpeta ahí es un mundo.",
+      "Java (Mac/Linux): los saves están en ~/Library/Application Support/minecraft/saves (Mac) y ~/.minecraft/saves (Linux).",
+      "Bedrock (Windows): los mundos están en %localappdata%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds.",
+      "Bedrock (móvil): en Android la misma carpeta com.mojang vive en el almacenamiento interno (games/com.mojang/minecraftWorlds) si el juego usa almacenamiento externo/aplicación; iOS la mantiene dentro de los archivos de la app: usa la app Archivos.",
+      "Cierra el juego y luego copia la carpeta entera del mundo a tu sitio de backup. Copiar mientras juegas puede corromper la copia.",
+      "Para restaurar: vuelve a poner la carpeta donde estaba y reinicia el juego. El mundo aparece en la lista con su nombre original.",
+      "Hábito: haz backup antes de grandes actualizaciones, antes de añadir o quitar mods (Java), y una vez al mes en general. Servidores: copia la carpeta del mundo con el servidor parado."
+    ],
+    "versions": "Las ubicaciones de carpetas son las actuales para el launcher oficial y las instalaciones de Bedrock. Los launchers de terceros guardan sus propias carpetas de instancia con un directorio saves dentro.",
+    "editionNote": "Los mundos de Java y Bedrock no son intercambiables: un backup solo se puede restaurar en la misma edición.",
+    "faq": [
+      {
+        "q": "¿Puedo mover un mundo de Java a Bedrock?",
+        "a": "No directamente: los formatos difieren. Existen conversores de la comunidad, pero son no oficiales y con pérdidas; guarda los backups en su edición original."
+      },
+      {
+        "q": "Mi mundo desapareció, ¿basta el backup?",
+        "a": "Si la carpeta sigue en saves, el mundo está ahí: la lista a veces oculta mundos tras problemas de versión. Si la carpeta no está, solo una copia de backup real (o herramientas de recuperación de archivos) puede traerlo de vuelta."
+      },
+      {
+        "q": "¿Cuánto ocupan las carpetas de mundo?",
+        "a": "Los mundos nuevos pesan unos pocos MB; los mundos muy jugados con mucha exploración llegan a cientos de MB o varios GB. Comprueba el tamaño antes de elegir plan de nube, pero cualquier USB maneja la mayoría de mundos."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servers/"
+      },
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ]
+  },
+  "how-to-update-minecraft": {
+    "name": "Cómo actualizar Minecraft (todas las plataformas)",
+    "shortTitle": "Actualizar Minecraft",
+    "quickAnswer": "Java se actualiza solo por el launcher: elige la instalación Latest Release y juega. Bedrock se actualiza desde la tienda de tu dispositivo (Microsoft Store, Play Store, App Store o el menú del juego en consola). Los servidores se actualizan aparte con el nuevo JAR del servidor.",
+    "keywords": "cómo actualizar minecraft última versión launcher java bedrock consola móvil actualizar servidor",
+    "materials": [
+      "Conexión a internet",
+      "El launcher oficial (Java) o la tienda de tu dispositivo (Bedrock)",
+      "Un backup del mundo antes de grandes actualizaciones (recomendado)"
+    ],
+    "steps": [
+      "Java: abre el Minecraft Launcher: descarga las versiones nuevas automáticamente. En la pestaña Installations, la instalación Latest Release siempre apunta a la versión más nueva.",
+      "Java, quedarse en una versión vieja: crea una instalación separada fijada a tu versión (útil para mods y servidores que aún no se han actualizado).",
+      "Bedrock en Windows: abre Microsoft Store > Library > Get updates.",
+      "Bedrock en móvil: actualiza desde Play Store (Android) o App Store (iOS) como cualquier app.",
+      "Bedrock en consolas: resalta el juego, pulsa el botón de opciones/menú y elige Check for Updates: las consolas suelen autoactualizar estando online.",
+      "Servidores: el servidor no se actualiza con tu cliente. Descarga el nuevo JAR del servidor (Java) o la build de Bedrock server, para el servidor, cambia el archivo y arráncalo de nuevo. Cliente y servidor deben coincidir en versión para jugar juntos.",
+      "Antes de actualizar un mundo que te importa: haz backup. Los mundos subidos a una versión nueva normalmente no pueden volver a la vieja."
+    ],
+    "versions": "Aplica a los canales de lanzamiento actuales. Las snapshots de Java y las previews de Bedrock son vías separadas de prueba para próximas actualizaciones.",
+    "editionNote": "Las actualizaciones de Java viven en el launcher; las de Bedrock en la tienda de cada plataforma. No hay botón de actualizar dentro del juego en Bedrock.",
+    "faq": [
+      {
+        "q": "¿Por qué no se actualiza mi juego?",
+        "a": "Java: asegúrate de arrancar la instalación Latest Release, no una vieja fijada. Bedrock: las tiendas a veces retienen actualizaciones horas por región: revisa la página de la tienda manualmente y reinicia el dispositivo."
+      },
+      {
+        "q": "¿Actualizar romperá mis mods?",
+        "a": "Normalmente sí, temporalmente: los mods se compilan por versión. Mantén una instalación fijada en tu versión modeada hasta que tus mods se actualicen: para eso está la pestaña Installations."
+      },
+      {
+        "q": "¿Mis amigos actualizaron y no puedo entrar a su mundo?",
+        "a": "Las versiones deben coincidir. O actualizas a su versión o les pides que alojen en la tuya. Realms siempre corre la última versión, así que los jugadores de Realms deben mantenerse al día."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Versiones",
+        "url": "/es/versions/"
+      },
+      {
+        "label": "Servidores",
+        "url": "/es/servers/"
+      }
+    ]
+  },
+  "how-to-make-a-super-smelter": {
+    "name": "Cómo hacer un super smelter (furnace automático)",
+    "shortTitle": "Hacer un super smelter",
+    "quickAnswer": "Un super smelter es una fila de furnaces alimentada automáticamente: hoppers por arriba cargan los objetos a fundir, hoppers por el lado cargan el combustible, y hoppers por debajo sacan los resultados a un chest. Cárgalo una vez y olvídate: funde stacks mientras juegas.",
+    "keywords": "super smelter minecraft furnace automático array hoppers fundición automática cómo construir xp",
+    "materials": [
+      "Furnaces (los que quieras: 8 a 16 es un buen inicio)",
+      "3 hoppers por furnace más 1-2 chests de entrada y 1-2 de salida",
+      "Bloques de construcción para el marco",
+      "Combustible: dried kelp blocks, coal blocks o lava buckets"
+    ],
+    "steps": [
+      "Coloca una fila de furnaces uno al lado del otro, juntos o separados por un bloque: el diseño funciona igual.",
+      "Pasa una línea de hoppers por la parte SUPERIOR de cada furnace: pon hoppers mirando hacia abajo dentro de ellos y conecta la línea a un chest de entrada. Esta línea lleva los objetos a fundir.",
+      "Pasa una segunda línea de hoppers por la PARTE TRASERA o el LADO de cada furnace para el combustible. Conéctala a un chest de combustible.",
+      "Coloca un hopper bajo cada furnace mirando a una línea de recolección que termina en el chest de salida.",
+      "Equilibra la carga: los hoppers reparten los objetos de forma desigual: pon una vía con minecart con hopper sobre la línea superior para un reparto uniforme, o simplemente sobrellena el chest de entrada para que ningún furnace pare.",
+      "Aliméntalo con eficiencia: los dried kelp blocks funden 20 objetos cada uno y se farmean solos; un lava bucket funde 100. Carga el chest de combustible y el sistema corre durante horas.",
+      "Truco de XP: los furnaces acumulan el XP de todo lo que funden. Saca manualmente un solo objeto de cualquier furnace tras una gran tanda y todo el XP guardado cae sobre ti."
+    ],
+    "versions": "Los arrays de furnaces con hoppers funcionan igual en todas las versiones actuales. La distribución por minecart se comporta ligeramente distinto por edición: el método de sobrellenado lo evita por completo.",
+    "editionNote": "Funciona en Java y Bedrock. El timing de los hoppers difiere ligeramente, por eso el diseño de entrada sobrellenada es el recomendado para ambas.",
+    "faq": [
+      {
+        "q": "¿Por qué el primer furnace se lleva todo?",
+        "a": "Los hoppers empujan al primer hueco disponible, así que el furnace más cercano se llena primero. O desbordas la entrada (simple) o usas un hopper-minecart sobre raíles encima de los furnaces (uniforme)."
+      },
+      {
+        "q": "¿Es mejor un blast furnace o smoker para un super smelter?",
+        "a": "Funden sus categorías (minerales / comida) al doble de rápido pero solo esas categorías. La entrada mixta necesita furnaces normales; arrays dedicados con blast furnaces para minerales y smokers para comida son el montaje más rápido."
+      },
+      {
+        "q": "¿Cómo recojo el XP?",
+        "a": "El XP se acumula dentro de cada furnace al fundir. Saca manualmente cualquier objeto terminado y el furnace te suelta todo el XP guardado: un solo cobro tras una sesión larga es un subidón de niveles enorme."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Furnace",
+        "url": "/es/items/furnace/"
+      },
+      {
+        "label": "Hopper",
+        "url": "/es/items/hopper/"
+      }
+    ]
+  },
+  "how-to-show-coordinates": {
+    "name": "Cómo ver las coordenadas en Minecraft (Java y Bedrock)",
+    "shortTitle": "Ver coordenadas",
+    "quickAnswer": "Java: pulsa F3: tus X, Y y Z están en la pantalla de debug. Bedrock: activa Show Coordinates en los ajustes del mundo (no necesita cheats). X/Z son tu posición horizontal, Y es la altura: los diamonds están sobre Y=-59.",
+    "keywords": "cómo ver coordenadas minecraft f3 java bedrock xyz activar coordenadas ajustes del mundo",
+    "materials": [
+      "Java: un teclado (F3)",
+      "Bedrock: acceso a los ajustes del mundo (dueño u operador)",
+      "No hacen falta cheats en ninguna edición"
+    ],
+    "steps": [
+      "Java: pulsa F3 en el juego. Aparece la capa de debug: busca la línea XYZ cerca de la parte superior izquierda. Pulsa F3 otra vez para ocultarla.",
+      "Léelas bien: la X va este(+)/oeste(-), la Y es la altura, la Z va sur(+)/norte(-). Tu posición de bloque es el valor redondeado hacia abajo.",
+      "Extras de Java: F3 + G muestra los bordes de chunk, F3 + B muestra las hitboxes, F3 + Q lista todos los atajos de debug. En algunos portátiles F3 necesita Fn + F3.",
+      "Bedrock: abre los ajustes del mundo (pausa > Settings, o el icono del lápiz en la lista de mundos) y activa Show Coordinates. Se muestran permanentes arriba a la izquierda.",
+      "Bedrock sin cheats: el toggle Show Coordinates es un ajuste del mundo, no un cheat: los logros siguen activos. El botón de copiar coordenadas junto a él pone tu posición en el chat.",
+      "Úsalas: apunta las coordenadas de tu base, marca el nivel de los diamonds (Y=-59 en las versiones actuales) y navega a casa caminando hacia tu X y Z guardadas.",
+      "Multiplayer: las reglas del servidor pueden ocultar las coordenadas del F3 (reduced debug info). Los servidores Bedrock y Realms respetan el ajuste del mundo que controla el dueño."
+    ],
+    "versions": "La pantalla de debug F3 existe desde el Java temprano; el toggle Show Coordinates de Bedrock desde la 1.8. Ambos funcionan en todas las versiones actuales.",
+    "editionNote": "Java muestra las coordenadas con F3 sin ajuste alguno. Bedrock necesita el toggle del mundo, que controla el dueño: en Realms pide al dueño que lo active.",
+    "faq": [
+      {
+        "q": "F3 no hace nada, ¿por qué?",
+        "a": "En portátiles la fila de funciones suele necesitar Fn + F3. Algunos teclados mapean F3 a brillo o volumen: revisa tu Fn lock. En el juego, asegúrate de que no hay ninguna ventana de chat abierta."
+      },
+      {
+        "q": "¿Por qué mi servidor oculta las coordenadas?",
+        "a": "Los servidores Java pueden activar reducedDebugInfo, que quita las coordenadas del F3 a todos. Es una regla del lado del servidor: solo el dueño puede cambiarla (gamerule reducedDebugInfo false)."
+      },
+      {
+        "q": "¿A qué nivel Y debería minar?",
+        "a": "Para diamonds en las versiones actuales, Y=-59 (justo sobre la bedrock, ojo a la lava). Para iron, cimas de montañas y Y=16; para coal, montañas altas; para ancient debris en el Nether, Y=15."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Ores",
+        "url": "/es/ores/"
+      },
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ]
   }
 }
