@@ -28011,5 +28011,281 @@
         "url": "/commands/"
       }
     ]
+  },
+  {
+    "slug": "how-to-install-mods",
+    "name": "How to Install Mods in Minecraft (Java)",
+    "shortTitle": "Install Mods",
+    "quickAnswer": "Java: install a mod loader (Fabric, Forge or NeoForge) from its official site, run the installer, drop the mod .jar files into the mods folder and launch the loader profile. Mods must match your Minecraft version and loader. Bedrock cannot run mods - it uses add-ons.",
+    "keywords": "how to install mods minecraft java fabric forge neoforge mods folder curseforge modrinth mod loader",
+    "materials": [
+      "Minecraft Java Edition",
+      "A mod loader: Fabric, Forge or NeoForge",
+      "Mod .jar files from CurseForge or Modrinth",
+      "Mods matching your exact Minecraft version"
+    ],
+    "steps": [
+      "Pick a loader: Fabric is light and updates fast, NeoForge/Forge run the big classic mods. Check which loader each mod requires - mods are not cross-compatible between loaders.",
+      "Download the installer only from the official site: fabricmc.net, files.minecraftforge.net or neoforged.net. Avoid re-upload sites that bundle junk.",
+      "Run the installer with Minecraft closed, choose your game version and install the client. It creates a new profile in the Minecraft Launcher.",
+      "Download your mods from CurseForge or Modrinth. Every mod page lists the game version and loader it supports - both must match your install.",
+      "Open the mods folder: launch the loader profile once and use the Mods button on the title screen, or go straight to .minecraft/mods (%appdata%\\.minecraft on Windows). Create the folder if it does not exist.",
+      "Drop the .jar files into mods. On Fabric, most mods also need the Fabric API mod - install it the same way.",
+      "Launch the Fabric/Forge/NeoForge profile. The Mods menu lists what loaded; a crash at startup almost always means a version or loader mismatch - remove the newest mod and check versions."
+    ],
+    "versions": "Loaders track each Minecraft release. Fabric usually updates within hours of a new version; NeoForge and Forge take longer. Always match mod, loader and game version.",
+    "editionNote": "Java Edition only. Bedrock (Windows, console, mobile) does not support mods - it uses add-ons from the Marketplace or .mcpack files.",
+    "faq": [
+      {
+        "q": "Are mods free?",
+        "a": "Yes. Mods on CurseForge and Modrinth are free. Any site charging for a mod or a 'premium mod installer' is a scam."
+      },
+      {
+        "q": "Can I use mods on a server?",
+        "a": "Only if the server runs the same loader and mods. Client-side mods (minimap, performance) work on any server that allows them."
+      },
+      {
+        "q": "Do mods disable achievements?",
+        "a": "No. Java advancements keep working with mods installed."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-allocate-more-ram",
+      "how-to-backup-your-world"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      },
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-texture-packs",
+    "name": "How to Install Texture Packs (Resource Packs)",
+    "shortTitle": "Install Texture Packs",
+    "quickAnswer": "Java: download the pack .zip and drop it (without unzipping) into the resourcepacks folder via Options > Resource Packs > Open Pack Folder, then move it to the Selected column. Bedrock: open the .mcpack file and it imports itself; activate it in Settings > Global Resources.",
+    "keywords": "how to install texture packs resource packs minecraft java bedrock mcpack resourcepacks folder",
+    "materials": [
+      "A texture/resource pack: .zip (Java) or .mcpack (Bedrock)",
+      "Java: from CurseForge or Modrinth; Bedrock: also the Marketplace",
+      "A pack matching your Minecraft version"
+    ],
+    "steps": [
+      "Download a pack from CurseForge, Modrinth or the Marketplace. Java packs are .zip files - do not unzip them.",
+      "Java: launch the game and go to Options > Resource Packs > Open Pack Folder. The resourcepacks folder opens.",
+      "Copy the .zip into that folder, return to the game and move the pack from the Available column to Selected with the arrow. Click Done - the game reloads with the new textures.",
+      "Order matters: packs higher in the Selected list override lower ones. Put your main pack on top.",
+      "Bedrock: double-click the .mcpack file (or open it with Minecraft) and it imports automatically. Activate it in Settings > Global Resources, or per world in the world settings.",
+      "Marketplace packs on Bedrock install from the Marketplace itself and activate the same way."
+    ],
+    "versions": "Packs are version-sensitive: a pack built for a much older release can show missing or purple-black textures on new blocks. Pack pages list the supported versions.",
+    "editionNote": "Java calls them resource packs (they can also change sounds and fonts); 'texture pack' is the old name for the same thing. Bedrock uses .mcpack files and Marketplace content.",
+    "faq": [
+      {
+        "q": "Do texture packs disable achievements?",
+        "a": "No. Resource packs are cosmetic on both editions - achievements stay enabled."
+      },
+      {
+        "q": "The pack shows in Available but nothing changes?",
+        "a": "Move it to the Selected column with the arrow and press Done. If textures look broken, the pack targets a different Minecraft version."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-change-your-skin"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-a-minecraft-server",
+    "name": "How to Make a Minecraft Server (Free)",
+    "shortTitle": "Make a Server",
+    "quickAnswer": "Java, free: download the official server .jar from minecraft.net, run it once, set eula=true in eula.txt, run it again - your server is live. Friends on your network join via your local IP; friends over the internet need port 25565 forwarded, or use a free host like Aternos instead.",
+    "keywords": "how to make a minecraft server free java server jar eula port forwarding 25565 aternos realms host",
+    "materials": [
+      "A PC that can stay on while you play",
+      "Java installed (same Java your game uses)",
+      "The official server .jar from minecraft.net",
+      "Router access for port forwarding (only for internet play)"
+    ],
+    "steps": [
+      "Create an empty folder for the server and download server.jar into it from minecraft.net/download/server - the official, free download.",
+      "Run it: java -Xmx2G -Xms2G -jar server.jar nogui. It stops right away and generates eula.txt and the server files.",
+      "Open eula.txt and change eula=false to eula=true (you accept the Minecraft EULA). Save the file.",
+      "Run the command again. The world generates and the console prints 'Done' - the server is running. Type stop to shut it down cleanly.",
+      "Join from the same PC with the address localhost, or from other devices on your home network with your PC's local IP.",
+      "Friends over the internet: forward TCP port 25565 on your router to your PC and share your public IP. server.properties holds the settings (motd, difficulty, max players).",
+      "No router access? Use a free host like Aternos (ad-supported) or a tunnel like playit.gg. Realms is Mojang's paid option with the simplest setup of all."
+    ],
+    "versions": "The server .jar matches each game release - take the latest, unless you play modded, then match your mods' version. Bedrock has its own official dedicated server for Windows and Linux.",
+    "editionNote": "Java and Bedrock servers are separate: a Java server does not accept Bedrock players without unofficial proxies. Consoles and mobile can only join Bedrock servers or Realms.",
+    "faq": [
+      {
+        "q": "Is running a server free?",
+        "a": "Yes - the official server .jar is free, and hosts like Aternos are free (ad-supported). Realms is Mojang's paid subscription. Never pay for 'server installer' downloads."
+      },
+      {
+        "q": "How much RAM does a server need?",
+        "a": "1-2 GB is fine for a few friends on vanilla. Raise it with -Xmx4G if you add mods or many players."
+      },
+      {
+        "q": "Can I add mods to my server?",
+        "a": "Yes - install Fabric or NeoForge on the server and every player needs the same mods on their client."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-play-with-friends",
+      "how-to-install-mods",
+      "how-to-backup-your-world"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      },
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-maps",
+    "name": "How to Install Minecraft Maps (Java and Bedrock)",
+    "shortTitle": "Install Maps",
+    "quickAnswer": "Java: unzip the download and copy the world folder (the one containing level.dat) into .minecraft/saves - it appears in your Singleplayer list. Bedrock: double-click the .mcworld file and Minecraft imports it automatically.",
+    "keywords": "how to install minecraft maps download worlds java saves folder level.dat mcworld bedrock import",
+    "materials": [
+      "A downloaded map: .zip (Java) or .mcworld (Bedrock)",
+      "Java: file access to your .minecraft folder",
+      "The Minecraft version the map was made for"
+    ],
+    "steps": [
+      "Download maps from CurseForge or Modrinth. Java maps come as a .zip with a world folder inside; Bedrock maps are .mcworld files.",
+      "Java: unzip the download. Inside is a folder that directly contains level.dat - that folder is the world.",
+      "Open your saves folder: Windows %appdata%\\.minecraft\\saves, macOS ~/Library/Application Support/minecraft/saves, Linux ~/.minecraft/saves.",
+      "Copy the world folder into saves and start Minecraft - the map appears in the Singleplayer list.",
+      "Bedrock: open the .mcworld file (double-click, or share it to Minecraft on mobile). It imports itself and shows up in your world list.",
+      "Check the map's required version: adventure and parkour maps with command blocks often only work on the exact version the creator lists."
+    ],
+    "versions": "Maps made in newer versions will not open in older game versions. Older maps usually upgrade on first open, but command-block contraptions can break across big updates.",
+    "editionNote": "Console players (PlayStation, Xbox, Switch) cannot import map files - only Marketplace worlds or Realms. Map import works on Windows, mobile and Java on any OS.",
+    "faq": [
+      {
+        "q": "The map does not appear in Singleplayer?",
+        "a": "Usually nested folders: saves must contain the world folder that directly holds level.dat - not a zip, and not a folder inside a folder."
+      },
+      {
+        "q": "Are maps free?",
+        "a": "Community maps on CurseForge and Modrinth are free. Marketplace worlds on Bedrock can cost Minecoins."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-backup-your-world",
+      "how-to-find-your-world-seed"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Seeds",
+        "url": "/seeds/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-find-your-world-seed",
+    "name": "How to Find Your Minecraft World Seed",
+    "shortTitle": "Find World Seed",
+    "quickAnswer": "Java: run /seed in chat (needs cheats or operator). Bedrock: open the world settings - the seed is listed there and viewing it needs no cheats. Use the seed when creating a world to generate the same terrain again.",
+    "keywords": "how to find world seed minecraft java seed command bedrock world settings same world recreate",
+    "materials": [
+      "Java: cheats enabled or operator on the server",
+      "Bedrock: access to the world settings",
+      "Nothing else - no downloads needed"
+    ],
+    "steps": [
+      "Java singleplayer with cheats: open chat (T) and run /seed. The seed appears in chat - click it to copy it.",
+      "Java without cheats: press Esc > Open to LAN > Allow Cheats: ON > Start LAN World, then run /seed. Cheats turn off again when you quit the world.",
+      "Java on a server: only operators can run /seed - ask an admin.",
+      "Bedrock: pause > Settings (or the pencil icon next to the world in the list) and scroll the Game section - the seed is shown there in plain sight, and looking at it does not affect achievements.",
+      "Use it: when creating a new world, paste the number into the Seed field to generate the same terrain.",
+      "Share it with friends so they spawn in the same world layout - handy with our famous seeds lists."
+    ],
+    "versions": "A seed only reproduces the same world on the same edition and roughly the same version - world generation changed at 1.18, so seeds from before generate different terrain today.",
+    "editionNote": "Java and Bedrock seeds are not interchangeable: the same number produces a different world on each edition.",
+    "faq": [
+      {
+        "q": "Can I get the seed of a very old world?",
+        "a": "Yes - /seed works on any Java world you can open, and Bedrock always shows the seed in settings, no matter when the world was created."
+      },
+      {
+        "q": "Does checking the seed disable achievements?",
+        "a": "No. Viewing it on Bedrock is free; on Java, /seed needs cheats, but Java has no achievement lockout anyway."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-show-coordinates",
+      "how-to-enable-cheats",
+      "how-to-teleport"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Seeds",
+        "url": "/seeds/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-enable-cheats",
+    "name": "How to Enable Cheats in Minecraft",
+    "shortTitle": "Enable Cheats",
+    "quickAnswer": "New world: turn on Allow Cheats (Java) or Activate Cheats (Bedrock) in the creation screen. Existing Java world: Esc > Open to LAN > Allow Cheats: ON - commands work until you quit. Existing Bedrock world: toggle Activate Cheats in the world settings, which permanently disables achievements for that world.",
+    "keywords": "how to enable cheats minecraft allow cheats open to lan activate cheats bedrock achievements commands",
+    "materials": [
+      "A singleplayer world (servers need operator permissions instead)",
+      "Java: Esc menu for the LAN trick",
+      "Bedrock: access to the world settings"
+    ],
+    "steps": [
+      "New world (Java): Create New World > Game > Allow Cheats: ON before generating the world.",
+      "New world (Bedrock): flip the Activate Cheats toggle in the creation screen - the game warns that achievements will be disabled for that world.",
+      "Existing Java world: press Esc > Open to LAN, set Allow Cheats: ON and start the LAN world. Commands work until you close the world - repeat the trick each session.",
+      "Existing Bedrock world: world settings > Activate Cheats. The change is permanent for that world: achievements stay off even if you turn cheats back off later.",
+      "What cheats unlock: /gamemode, /give, /tp, /time set, /weather, /seed and the full command list.",
+      "On Realms and servers, cheats come from operator permissions (/op from the owner), not from these world toggles."
+    ],
+    "versions": "The Open to LAN trick works in every modern Java version. Java never blocks advancements for cheats; Bedrock blocks achievements the moment cheats turn on.",
+    "editionNote": "Java keeps advancements with cheats on. Bedrock disables achievements per world the moment you activate cheats - there is no way to re-enable them on that world.",
+    "faq": [
+      {
+        "q": "Do cheats disable achievements?",
+        "a": "Bedrock: yes, permanently for that world. Java: no - advancements keep working."
+      },
+      {
+        "q": "Can I enable cheats on someone else's server?",
+        "a": "No. You need operator permissions from the server owner - there is no client-side trick."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-teleport",
+      "how-to-find-your-world-seed",
+      "how-to-show-coordinates"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Commands",
+        "url": "/commands/"
+      }
+    ]
   }
 ]
