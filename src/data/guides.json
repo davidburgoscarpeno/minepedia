@@ -28800,5 +28800,267 @@
         "url": "/commands/"
       }
     ]
+  },
+  {
+    "slug": "how-to-make-a-flat-world",
+    "name": "How to Make a Flat World (Superflat) in Minecraft",
+    "shortTitle": "Make a Flat World",
+    "quickAnswer": "Java: Create New World > More > World Type: Superflat, then pick a preset (Classic Flat is the default). Bedrock: Create New > toggle Flat world on. Flat worlds are ideal for redstone testing and building.",
+    "keywords": "how to make a flat world minecraft superflat preset classic flat void world customize layers java bedrock",
+    "materials": [
+      "Java: world creation screen (More > World Type)",
+      "Bedrock: world creation screen (Flat toggle)",
+      "Optional: a preset code for custom layers (Java)"
+    ],
+    "steps": [
+      "Java: Create New World > More tab > World Type > Superflat.",
+      "Click Customize (or the preset name) to choose: Classic Flat, Tunnelers' Dream, Water World, Overworld, Snowy Kingdom, Bottomless Pit, Desert, Redstone Ready or The Void.",
+      "Classic Flat is 1 bedrock, 2 dirt and 1 grass block on top - villages spawn and slimes are everywhere at night.",
+      "The Void preset gives you one stone platform over nothing: perfect for skyblock-style or redstone labs.",
+      "Java custom layers: edit the preset code to stack any blocks you want in any order.",
+      "Bedrock: Create New > scroll to the Flat world toggle and turn it on. Bedrock has fewer preset options than Java.",
+      "Flat worlds still have structures on some presets (villages, mineshafts) - and yes, slimes spawn constantly on Classic Flat grass."
+    ],
+    "versions": "Superflat has existed since 2012 and works the same today. The preset list and the customization UI live in the More tab of the creation screen in current Java versions.",
+    "editionNote": "Java offers nine presets plus fully custom layer codes. Bedrock only has the basic flat toggle with a limited set of options.",
+    "faq": [
+      {
+        "q": "Can I add structures to a flat world?",
+        "a": "Java: yes - several presets include villages or mineshafts, and the preset code controls which structures generate. Bedrock flat worlds have no structure options."
+      },
+      {
+        "q": "Why are there so many slimes?",
+        "a": "Flat worlds put the surface near slime-chunk height, so slimes spawn constantly on the grass. Use The Void or Water World preset to avoid them."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-slime-chunks",
+      "how-to-use-redstone",
+      "how-to-change-gamemode"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Seeds",
+        "url": "/seeds/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-a-skin",
+    "name": "How to Make Your Own Minecraft Skin",
+    "shortTitle": "Make a Skin",
+    "quickAnswer": "Draw or edit a 64x64 PNG in a free skin editor (Blockbench, The Skindex, NameMC), then upload it: Java via the launcher (Skins tab) or minecraft.net profile, Bedrock via the dressing room. Choose the Classic (4px arms) or Slim (3px arms) model.",
+    "keywords": "how to make a minecraft skin custom skin editor free 64x64 png upload classic slim blockbench",
+    "materials": [
+      "A free skin editor: Blockbench, The Skindex or NameMC editor",
+      "Java: launcher or minecraft.net profile access",
+      "Bedrock: the in-game dressing room"
+    ],
+    "steps": [
+      "Start from the default Steve or Alex template, or edit any skin you like. Skin editors show a 3D preview while you paint the 2D layout.",
+      "The file is a tiny 64x64 PNG: head, torso, arms and legs each get fixed regions. The second layer (hat/jacket areas) adds depth.",
+      "Pick your model: Classic has 4-pixel arms, Slim (Alex) has 3-pixel arms. Uploading to the wrong model distorts the arms.",
+      "Free editors: Blockbench (desktop-grade, free), The Skindex and NameMC (browser editors, also free). No payment or account needed to draw.",
+      "Java upload: Minecraft Launcher > Skins tab > New Skin, or minecraft.net > your profile > Change Skin. Pick the model and upload the PNG.",
+      "Bedrock: open the dressing room (Profile > Edit Character) and import your own PNG, or build one from the free body parts there.",
+      "Skins are account-wide on Java; servers see your skin as soon as you upload it."
+    ],
+    "versions": "The 64x64 skin format has been stable for years and works in all current versions. Very old skins (64x32) still load but miss the second layer.",
+    "editionNote": "Java skins upload through the launcher or minecraft.net. Bedrock skins live in the dressing room and also support marketplace items - but your own PNGs are always free.",
+    "faq": [
+      {
+        "q": "Is making a skin free?",
+        "a": "Yes - editors like Blockbench, The Skindex and NameMC are free, and uploading your own PNG costs nothing on both editions."
+      },
+      {
+        "q": "Why do my skin's arms look wrong?",
+        "a": "You uploaded with the wrong model. If the skin was drawn for Slim (3px arms), choose Slim at upload - and the other way around."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-change-your-skin",
+      "how-to-get-a-cape"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Skins",
+        "url": "/skins/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-zoom-in-minecraft",
+    "name": "How to Zoom In Minecraft",
+    "shortTitle": "Zoom In",
+    "quickAnswer": "Java: install OptiFine and hold C to zoom (free). Fabric users can grab a zoom mod like Logical Zoom instead. Bedrock has no zoom - lowering FOV in Video settings is the closest built-in option.",
+    "keywords": "how to zoom in minecraft optifine zoom key c logical zoom fabric bedrock fov spyglass",
+    "materials": [
+      "Java: OptiFine (free) or a Fabric zoom mod",
+      "Vanilla alternative: the spyglass item",
+      "Bedrock: FOV slider in Video settings"
+    ],
+    "steps": [
+      "OptiFine route (Java): download OptiFine free from optifine.net, run the installer, then hold C in-game to zoom. Change the key in Controls > Zoom.",
+      "Fabric route: install Fabric and add a zoom mod like Logical Zoom from Modrinth - same hold-to-zoom behavior.",
+      "Adjust zoom feel in OptiFine's settings: smooth camera and zoom scrolling (Ctrl + C by default) change how it looks.",
+      "Vanilla option: craft a spyglass (2 copper ingots + 1 amethyst shard) - it zooms your view with a scope overlay, no mods needed.",
+      "Bedrock: no zoom mod exists, but Settings > Video > FOV can be lowered for a permanent slight zoom. Spyglasses work on Bedrock too.",
+      "Server note: zoom mods are client-side and allowed almost everywhere - check server rules before using them competitively."
+    ],
+    "versions": "OptiFine sometimes updates a few days behind new releases; Fabric zoom mods usually update within hours. Spyglass works in every version since 1.17.",
+    "editionNote": "Zoom mods are Java-only. Bedrock players are limited to the spyglass and the FOV slider.",
+    "faq": [
+      {
+        "q": "Is zooming considered cheating?",
+        "a": "No - it is client-side viewing, like turning up your render distance. Most servers allow it; a few competitive ones ban it, so check the rules."
+      },
+      {
+        "q": "Is OptiFine free and safe?",
+        "a": "Yes, from optifine.net only. Copycat sites bundle malware - never download OptiFine from anywhere else."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-install-mods",
+      "how-to-get-spyglass"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-find-your-death-location",
+    "name": "How to Find Where You Died in Minecraft",
+    "shortTitle": "Find Death Location",
+    "quickAnswer": "Craft a recovery compass (compass + 8 echo shards) - it points to your last death spot. Otherwise retrace with coordinates: your items stay for 5 minutes per loaded chunk, and only the death chunk's timer runs while you are away.",
+    "keywords": "how to find where you died minecraft death location recovery compass items despawn 5 minutes coordinates",
+    "materials": [
+      "Recovery compass: compass + 8 echo shards (ancient cities)",
+      "Or coordinates noted at death (F3 screenshot habit)",
+      "Speed: an elytra, horse or nether shortcut helps"
+    ],
+    "steps": [
+      "The reliable tool: a recovery compass always points to your last death location. Craft it with 1 compass surrounded by 8 echo shards from ancient city chests.",
+      "It only works in the dimension where you died - in the wrong dimension it spins aimlessly.",
+      "Without one: retrace your route. The death message in chat names what killed you but not coordinates, so screenshot your F3 screen when exploring dangerous places.",
+      "Your items despawn after 5 minutes - but only while their chunk is loaded. The timer pauses if nobody is near, so you usually have far more than 5 real minutes.",
+      "Died in lava? Items burn on contact with lava - only netherite gear floats and survives.",
+      "With cheats, /gamerule keepInventory true makes this a non-issue for the future.",
+      "Bedrock: the same 5-minute rule applies, and the recovery compass exists there too."
+    ],
+    "versions": "The recovery compass was added in 1.19 and works in all current versions. The 5-minute despawn rule has never changed.",
+    "editionNote": "Identical mechanics on Java and Bedrock: 5-minute despawn per loaded chunk, recovery compass on both.",
+    "faq": [
+      {
+        "q": "Do my items really disappear after 5 minutes?",
+        "a": "Only after 5 minutes of the chunk being loaded. While you run back, your death chunk is usually unloaded and the timer is paused - do not linger near the spot without picking things up."
+      },
+      {
+        "q": "Can I see my death coordinates in chat?",
+        "a": "Not by default. Java's death screen shows coordinates only in hardcore-style datapacks or mods - the recovery compass is the vanilla answer."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-recovery-compass",
+      "how-to-get-echo-shard",
+      "how-to-keep-inventory"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/items/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-optifine",
+    "name": "How to Install OptiFine (Java)",
+    "shortTitle": "Install OptiFine",
+    "quickAnswer": "Download OptiFine free from optifine.net, run the .jar and click Install - it adds an OptiFine profile to your launcher. To combine it with Forge mods, drop the OptiFine .jar into the mods folder instead.",
+    "keywords": "how to install optifine minecraft java download optifine.net zoom shaders fps forge mods",
+    "materials": [
+      "Minecraft Java Edition",
+      "Java installed (to run the .jar)",
+      "The OptiFine download matching your Minecraft version"
+    ],
+    "steps": [
+      "Run your target Minecraft version once in the launcher first - OptiFine can only patch versions that exist on your PC.",
+      "Download OptiFine from optifine.net > Downloads, picking the exact Minecraft version. It is free - the official site is the only safe source.",
+      "Double-click the downloaded .jar and click Install. It creates an OptiFine profile in the launcher.",
+      "Select the OptiFine profile on the Play tab and launch. New video settings appear: shaders support, zoom (C), dynamic lights and performance toggles.",
+      "With Forge mods: skip the installer - put the OptiFine .jar directly into .minecraft/mods and launch your Forge profile.",
+      "Fabric users: OptiFine does not work natively with Fabric - use Sodium plus Iris instead for the same features.",
+      "Trouble? A 'version not found' error means the game version and OptiFine version do not match."
+    ],
+    "versions": "Each Minecraft release needs its matching OptiFine build. New game versions sometimes take days or weeks to get a stable OptiFine - preview builds appear first.",
+    "editionNote": "Java Edition only. Bedrock cannot use OptiFine - performance and shaders on Bedrock come from the built-in settings and Vibrant Visuals.",
+    "faq": [
+      {
+        "q": "Is OptiFine free?",
+        "a": "Yes, completely free from optifine.net. Sites selling OptiFine or offering 'premium' downloads are scams."
+      },
+      {
+        "q": "OptiFine or Sodium?",
+        "a": "OptiFine is all-in-one and simple (shaders, zoom, FPS). Sodium + Iris on Fabric usually wins on raw FPS and mod compatibility - pick the ecosystem your other mods use."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-zoom-in-minecraft",
+      "how-to-reduce-lag"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-transfer-a-world",
+    "name": "How to Transfer a Minecraft World (PC, Mobile, Between Editions)",
+    "shortTitle": "Transfer a World",
+    "quickAnswer": "Java: copy the world folder out of .minecraft/saves onto a USB drive or cloud, then drop it into the saves folder on the new PC. Bedrock: use the Export World button to create a .mcworld file and open it on the new device. Java to Bedrock (or back) needs the free Chunker converter.",
+    "keywords": "how to transfer minecraft world new pc export mcworld saves folder java bedrock chunker convert",
+    "materials": [
+      "Java: file access to .minecraft/saves",
+      "Bedrock: the Export World button in world settings",
+      "Cross-edition: Chunker (free web converter)"
+    ],
+    "steps": [
+      "Java to Java: quit the world, open .minecraft/saves, copy the world folder to a USB stick or cloud drive.",
+      "On the new PC, paste the folder into .minecraft/saves - it appears in the Singleplayer list.",
+      "Bedrock (Windows/mobile): world list > pencil icon > scroll down > Export World. It saves a .mcworld file you can share.",
+      "On the new device, open the .mcworld file - Minecraft imports it automatically.",
+      "Java to Bedrock or Bedrock to Java: use Chunker, the free official-partner web converter - upload the world, choose the target edition and download the converted file.",
+      "Consoles: no direct file access - use Realms as a bridge (upload the world to a Realm, download it on the other console) or transfer via the same-account cloud.",
+      "Always keep a backup of the original world before converting."
+    ],
+    "versions": "Converted or copied worlds keep their version. Opening a world in a newer version upgrades it permanently - it will not open in older versions after that.",
+    "editionNote": "Java uses plain folders; Bedrock uses .mcworld packages. Converting between editions changes some blocks and behaviors - Chunker reports what did not carry over.",
+    "faq": [
+      {
+        "q": "Is Chunker free?",
+        "a": "Yes - Chunker is a free web tool by Hive, partnered with Mojang, no account needed. Do not pay for world converters."
+      },
+      {
+        "q": "Will my builds survive a conversion?",
+        "a": "Buildings and terrain carry over well; redstone contraptions, entities and some items can behave differently or be lost. Keep the original as backup."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-backup-your-world",
+      "how-to-install-maps",
+      "how-to-play-older-versions"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
   }
 ]

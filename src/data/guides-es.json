@@ -25453,5 +25453,267 @@
       }
     ],
     "slug": "how-to-change-difficulty"
+  },
+  "how-to-make-a-flat-world": {
+    "name": "Cómo crear un mundo plano (superflat) en Minecraft",
+    "shortTitle": "Mundo plano",
+    "quickAnswer": "Java: Create New World > More > World Type: Superflat, y elige un preset (Classic Flat es el de defecto). Bedrock: Create New > activa el interruptor Flat world. Los mundos planos son ideales para probar redstone y construir.",
+    "keywords": "cómo crear mundo plano minecraft superflat preset classic flat void personalizar capas java bedrock",
+    "materials": [
+      "Java: pantalla de creación de mundo (More > World Type)",
+      "Bedrock: pantalla de creación (interruptor Flat)",
+      "Opcional: un código de preset para capas personalizadas (Java)"
+    ],
+    "steps": [
+      "Java: Create New World > pestaña More > World Type > Superflat.",
+      "Pulsa Customize (o el nombre del preset) para elegir: Classic Flat, Tunnelers' Dream, Water World, Overworld, Snowy Kingdom, Bottomless Pit, Desert, Redstone Ready o The Void.",
+      "Classic Flat es 1 bedrock, 2 dirt y 1 grass block arriba: aparecen villages y los slimes están por todas partes de noche.",
+      "El preset The Void te da una plataforma de piedra sobre la nada: perfecto para laboratorios de redstone o estilo skyblock.",
+      "Capas personalizadas en Java: edita el código del preset para apilar los bloques que quieras en el orden que quieras.",
+      "Bedrock: Create New > baja hasta el interruptor Flat world y actívalo. Bedrock tiene menos opciones de preset que Java.",
+      "Los mundos planos siguen teniendo estructuras en algunos presets (villages, mineshafts): y sí, los slimes aparecen sin parar en el césped de Classic Flat."
+    ],
+    "versions": "Superflat existe desde 2012 y funciona igual hoy. La lista de presets y la personalización viven en la pestaña More de la pantalla de creación en las versiones actuales de Java.",
+    "editionNote": "Java ofrece nueve presets más códigos de capas personalizados. Bedrock solo tiene el interruptor flat básico con opciones limitadas.",
+    "faq": [
+      {
+        "q": "¿Puedo tener estructuras en un mundo plano?",
+        "a": "Java: sí, varios presets incluyen villages o mineshafts, y el código del preset controla qué estructuras se generan. Los mundos planos de Bedrock no tienen opciones de estructuras."
+      },
+      {
+        "q": "¿Por qué hay tantos slimes?",
+        "a": "Los mundos planos dejan la superficie a la altura de los slime chunks, así que aparecen slimes constantemente en el césped. Usa los presets The Void o Water World para evitarlos."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-slime-chunks",
+      "how-to-use-redstone",
+      "how-to-change-gamemode"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Seeds",
+        "url": "/es/seeds/"
+      }
+    ],
+    "slug": "how-to-make-a-flat-world"
+  },
+  "how-to-make-a-skin": {
+    "name": "Cómo crear tu propia skin de Minecraft",
+    "shortTitle": "Crear una skin",
+    "quickAnswer": "Dibuja o edita un PNG de 64x64 en un editor de skins gratis (Blockbench, The Skindex, NameMC) y súbelo: Java desde el launcher (pestaña Skins) o el perfil de minecraft.net, Bedrock desde el vestidor. Elige el modelo Classic (brazos de 4px) o Slim (brazos de 3px).",
+    "keywords": "cómo crear skin minecraft skin personalizada editor gratis 64x64 png subir classic slim blockbench",
+    "materials": [
+      "Un editor de skins gratis: Blockbench, The Skindex o el editor de NameMC",
+      "Java: acceso al launcher o al perfil de minecraft.net",
+      "Bedrock: el vestidor del juego"
+    ],
+    "steps": [
+      "Empieza desde la plantilla de Steve o Alex, o edita cualquier skin que te guste. Los editores muestran una vista 3D mientras pintas el diseño en 2D.",
+      "El archivo es un pequeño PNG de 64x64: cabeza, torso, brazos y piernas tienen regiones fijas. La segunda capa (zonas de sombrero/chaqueta) da profundidad.",
+      "Elige tu modelo: Classic tiene brazos de 4 píxeles, Slim (Alex) tiene brazos de 3 píxeles. Subir con el modelo equivocado deforma los brazos.",
+      "Editores gratis: Blockbench (nivel escritorio, gratis), The Skindex y NameMC (editores en el navegador, también gratis). Sin pagos ni cuentas para dibujar.",
+      "Subir en Java: Minecraft Launcher > pestaña Skins > New Skin, o minecraft.net > tu perfil > Change Skin. Elige el modelo y sube el PNG.",
+      "Bedrock: abre el vestidor (Profile > Edit Character) e importa tu propio PNG, o monta una con las piezas gratuitas de ahí.",
+      "Las skins son de la cuenta en Java: los servidores ven tu skin en cuanto la subes."
+    ],
+    "versions": "El formato de skin 64x64 lleva años estable y funciona en todas las versiones actuales. Las skins muy viejas (64x32) siguen cargando pero sin segunda capa.",
+    "editionNote": "Las skins de Java se suben por el launcher o minecraft.net. Las de Bedrock viven en el vestidor y admiten artículos del Marketplace, pero tus propios PNG siempre son gratis.",
+    "faq": [
+      {
+        "q": "¿Crear una skin es gratis?",
+        "a": "Sí: editores como Blockbench, The Skindex y NameMC son gratis, y subir tu propio PNG no cuesta nada en ninguna edición."
+      },
+      {
+        "q": "¿Por qué los brazos de mi skin se ven mal?",
+        "a": "La subiste con el modelo equivocado. Si la skin se dibujó para Slim (brazos de 3px), elige Slim al subirla, y al revés."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-change-your-skin",
+      "how-to-get-a-cape"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Skins",
+        "url": "/es/skins/"
+      }
+    ],
+    "slug": "how-to-make-a-skin"
+  },
+  "how-to-zoom-in-minecraft": {
+    "name": "Cómo hacer zoom en Minecraft",
+    "shortTitle": "Hacer zoom",
+    "quickAnswer": "Java: instala OptiFine y mantén C para hacer zoom (gratis). Los usuarios de Fabric pueden instalar un mod de zoom como Logical Zoom. Bedrock no tiene zoom: bajar el FOV en los ajustes de Video es lo más parecido.",
+    "keywords": "cómo hacer zoom minecraft optifine tecla de zoom c logical zoom fabric bedrock fov spyglass",
+    "materials": [
+      "Java: OptiFine (gratis) o un mod de zoom para Fabric",
+      "Alternativa vanilla: el objeto spyglass",
+      "Bedrock: deslizador de FOV en ajustes de Video"
+    ],
+    "steps": [
+      "Ruta OptiFine (Java): descarga OptiFine gratis de optifine.net, ejecuta el instalador y mantén C en el juego para hacer zoom. Cambia la tecla en Controls > Zoom.",
+      "Ruta Fabric: instala Fabric y añade un mod de zoom como Logical Zoom desde Modrinth: mismo comportamiento de mantener para hacer zoom.",
+      "Ajusta la sensación del zoom en los ajustes de OptiFine: la cámara suave y el scroll del zoom (Ctrl + C por defecto) cambian cómo se ve.",
+      "Opción vanilla: craftea un spyglass (2 copper ingots + 1 amethyst shard): acerca la vista con un visor, sin mods.",
+      "Bedrock: no existen mods de zoom, pero Settings > Video > FOV se puede bajar para un ligero zoom permanente. Los spyglasses también funcionan en Bedrock.",
+      "Nota de servidores: los mods de zoom son del lado del cliente y están permitidos casi en todas partes: revisa las normas antes de usarlos en competitivo."
+    ],
+    "versions": "OptiFine a veces se actualiza unos días detrás de las versiones nuevas; los mods de zoom de Fabric suelen actualizarse en horas. El spyglass funciona en todas las versiones desde la 1.17.",
+    "editionNote": "Los mods de zoom son solo de Java. Los jugadores de Bedrock se limitan al spyglass y al deslizador de FOV.",
+    "faq": [
+      {
+        "q": "¿Hacer zoom cuenta como trampa?",
+        "a": "No: es visualización del lado del cliente, como subir la distancia de renderizado. Casi todos los servidores lo permiten; algunos competitivos lo prohíben, así que revisa las normas."
+      },
+      {
+        "q": "¿OptiFine es gratis y seguro?",
+        "a": "Sí, solo desde optifine.net. Las webs copia meten malware: nunca descargues OptiFine de otro sitio."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-install-mods",
+      "how-to-get-spyglass"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-zoom-in-minecraft"
+  },
+  "how-to-find-your-death-location": {
+    "name": "Cómo encontrar dónde moriste en Minecraft",
+    "shortTitle": "Encontrar tu muerte",
+    "quickAnswer": "Craftea un recovery compass (compass + 8 echo shards): apunta al lugar de tu última muerte. Si no, vuelve sobre tus pasos con coordenadas: tus objetos duran 5 minutos por chunk cargado, y solo corre el temporizador del chunk de la muerte mientras estás lejos.",
+    "keywords": "cómo encontrar dónde morí minecraft lugar de muerte recovery compass objetos despawn 5 minutos coordenadas",
+    "materials": [
+      "Recovery compass: compass + 8 echo shards (ancient cities)",
+      "O coordenadas anotadas al morir (costumbre de captura con F3)",
+      "Velocidad: unas elytra, un caballo o un atajo por el Nether ayudan"
+    ],
+    "steps": [
+      "La herramienta fiable: un recovery compass apunta siempre al lugar de tu última muerte. Craftéalo con 1 compass rodeado de 8 echo shards de los cofres de las ancient cities.",
+      "Solo funciona en la dimensión donde moriste: en la dimensión equivocada gira sin rumbo.",
+      "Sin uno: vuelve sobre tu ruta. El mensaje de muerte del chat dice qué te mató pero no las coordenadas, así que haz captura de tu pantalla F3 al explorar zonas peligrosas.",
+      "Tus objetos desaparecen a los 5 minutos, pero solo mientras su chunk está cargado. El temporizador se pausa si no hay nadie cerca, así que sueles tener mucho más de 5 minutos reales.",
+      "¿Moriste en lava? Los objetos se queman al tocar la lava: solo el equipo de netherite flota y sobrevive.",
+      "Con cheats, /gamerule keepInventory true hace que esto deje de ser un problema en adelante.",
+      "Bedrock: se aplica la misma regla de los 5 minutos, y el recovery compass también existe ahí."
+    ],
+    "versions": "El recovery compass se añadió en la 1.19 y funciona en todas las versiones actuales. La regla de los 5 minutos de despawn nunca ha cambiado.",
+    "editionNote": "Mecánicas idénticas en Java y Bedrock: 5 minutos de despawn por chunk cargado y recovery compass en ambas.",
+    "faq": [
+      {
+        "q": "¿Mis objetos desaparecen de verdad a los 5 minutos?",
+        "a": "Solo tras 5 minutos con el chunk cargado. Mientras vuelves corriendo, el chunk de tu muerte suele estar descargado y el temporizador en pausa: no te entretengas cerca sin recoger las cosas."
+      },
+      {
+        "q": "¿Puedo ver las coordenadas de mi muerte en el chat?",
+        "a": "No por defecto. La pantalla de muerte de Java solo muestra coordenadas con datapacks o mods: el recovery compass es la respuesta vanilla."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-recovery-compass",
+      "how-to-get-echo-shard",
+      "how-to-keep-inventory"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Objetos",
+        "url": "/es/items/"
+      }
+    ],
+    "slug": "how-to-find-your-death-location"
+  },
+  "how-to-install-optifine": {
+    "name": "Cómo instalar OptiFine (Java)",
+    "shortTitle": "Instalar OptiFine",
+    "quickAnswer": "Descarga OptiFine gratis de optifine.net, ejecuta el .jar y pulsa Install: añade un perfil de OptiFine a tu launcher. Para combinarlo con mods de Forge, mete el .jar de OptiFine en la carpeta mods.",
+    "keywords": "cómo instalar optifine minecraft java descargar optifine.net zoom shaders fps forge mods",
+    "materials": [
+      "Minecraft Java Edition",
+      "Java instalado (para ejecutar el .jar)",
+      "La descarga de OptiFine que coincide con tu versión de Minecraft"
+    ],
+    "steps": [
+      "Ejecuta primero tu versión de Minecraft una vez en el launcher: OptiFine solo puede parchear versiones que existen en tu PC.",
+      "Descarga OptiFine en optifine.net > Downloads, eligiendo la versión exacta de Minecraft. Es gratis: la web oficial es la única fuente segura.",
+      "Haz doble clic en el .jar descargado y pulsa Install. Crea un perfil de OptiFine en el launcher.",
+      "Selecciona el perfil de OptiFine en la pestaña Play y arranca. Aparecen ajustes de vídeo nuevos: soporte de shaders, zoom (C), luces dinámicas y opciones de rendimiento.",
+      "Con mods de Forge: sáltate el instalador y mete el .jar de OptiFine directamente en .minecraft/mods, y arranca tu perfil de Forge.",
+      "Usuarios de Fabric: OptiFine no funciona nativamente con Fabric: usa Sodium más Iris para las mismas funciones.",
+      "¿Problemas? Un error de 'version not found' significa que la versión del juego y la de OptiFine no coinciden."
+    ],
+    "versions": "Cada versión de Minecraft necesita su build de OptiFine. Las versiones nuevas del juego a veces tardan días o semanas en tener un OptiFine estable: antes aparecen las preview builds.",
+    "editionNote": "Solo Java Edition. Bedrock no puede usar OptiFine: el rendimiento y los shaders en Bedrock vienen de los ajustes integrados y de Vibrant Visuals.",
+    "faq": [
+      {
+        "q": "¿OptiFine es gratis?",
+        "a": "Sí, completamente gratis desde optifine.net. Las webs que venden OptiFine u ofrecen descargas 'premium' son estafas."
+      },
+      {
+        "q": "¿OptiFine o Sodium?",
+        "a": "OptiFine es todo en uno y sencillo (shaders, zoom, FPS). Sodium + Iris en Fabric suele ganar en FPS puros y compatibilidad con mods: elige el ecosistema de tus otros mods."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-shaders",
+      "how-to-zoom-in-minecraft",
+      "how-to-reduce-lag"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-install-optifine"
+  },
+  "how-to-transfer-a-world": {
+    "name": "Cómo transferir un mundo de Minecraft (PC, móvil, entre ediciones)",
+    "shortTitle": "Transferir un mundo",
+    "quickAnswer": "Java: copia la carpeta del mundo de .minecraft/saves a un USB o a la nube, y métela en la carpeta saves del nuevo PC. Bedrock: usa el botón Export World para crear un archivo .mcworld y ábrelo en el nuevo dispositivo. De Java a Bedrock (o al revés) hace falta el conversor gratuito Chunker.",
+    "keywords": "cómo transferir mundo minecraft pc nuevo exportar mcworld carpeta saves java bedrock chunker convertir",
+    "materials": [
+      "Java: acceso a archivos de .minecraft/saves",
+      "Bedrock: el botón Export World en los ajustes del mundo",
+      "Entre ediciones: Chunker (conversor web gratis)"
+    ],
+    "steps": [
+      "De Java a Java: sal del mundo, abre .minecraft/saves y copia la carpeta del mundo a un USB o a la nube.",
+      "En el PC nuevo, pega la carpeta en .minecraft/saves: aparece en la lista de Singleplayer.",
+      "Bedrock (Windows/móvil): lista de mundos > icono del lápiz > baja > Export World. Guarda un archivo .mcworld que puedes compartir.",
+      "En el dispositivo nuevo, abre el archivo .mcworld: Minecraft lo importa automáticamente.",
+      "De Java a Bedrock o de Bedrock a Java: usa Chunker, el conversor web gratuito asociado a Mojang: sube el mundo, elige la edición de destino y descarga el archivo convertido.",
+      "Consolas: no hay acceso directo a archivos: usa Realms como puente (sube el mundo a un Realm y descárgalo en la otra consola) o transfiere por la nube de la misma cuenta.",
+      "Guarda siempre un backup del mundo original antes de convertir."
+    ],
+    "versions": "Los mundos copiados o convertidos mantienen su versión. Abrir un mundo en una versión más nueva lo actualiza para siempre: después no se abre en versiones viejas.",
+    "editionNote": "Java usa carpetas normales; Bedrock usa paquetes .mcworld. Convertir entre ediciones cambia algunos bloques y comportamientos: Chunker informa de lo que no se trasladó.",
+    "faq": [
+      {
+        "q": "¿Chunker es gratis?",
+        "a": "Sí: Chunker es una herramienta web gratuita de Hive, asociada a Mojang, sin cuentas. No pagues por conversores de mundos."
+      },
+      {
+        "q": "¿Mis construcciones sobreviven a una conversión?",
+        "a": "Los edificios y el terreno se trasladan bien; los mecanismos de redstone, las entidades y algunos objetos pueden comportarse distinto o perderse. Guarda el original como backup."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-backup-your-world",
+      "how-to-install-maps",
+      "how-to-play-older-versions"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servidores/"
+      }
+    ],
+    "slug": "how-to-transfer-a-world"
   }
 }
