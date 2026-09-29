@@ -13293,56 +13293,6 @@
    "ojos de ender minecraft"
   ]
  },
- "how-to-make-an-enchantment-table": {
-  "name": "Cómo hacer una mesa de encantamientos",
-  "shortTitle": "Mesa de Encantamientos",
-  "quickAnswer": "Fabrica una enchanting table con 1 book, 2 diamonds y 4 obsidian: el book arriba, los diamonds a los lados del centro y la obsidian rellenando el resto. Colócala y gasta lapis lazuli y niveles de XP para encantar herramientas, armadura y libros. Añade 15 bookshelves a un bloque de distancia para desbloquear encantamientos de nivel 30.",
-  "steps": [
-   "Consigue los diamonds y la obsidian. Mina 2 diamonds en lo profundo (la Y -59 es ideal) y 4 obsidian con pico de diamante, o crea obsidian con agua sobre lava.",
-   "Haz un book. Fabrica 3 paper (de sugar cane) más 1 leather para conseguir un book.",
-   "Fabrica la mesa. En la cuadrícula: book en el hueco superior central, diamonds en los laterales centrales, obsidian en el centro y toda la fila inferior.",
-   "Monta la sala de encantamientos. Coloca la mesa con suelo libre alrededor: las bookshelves colocadas con exactamente un bloque de aire entre ellas y la mesa suben los niveles disponibles, hasta 15 estanterías.",
-   "Encanta tu primer objeto. Abre la mesa, pon una herramienta, arma, pieza de armadura o libro en el hueco izquierdo y 1-3 lapis lazuli en el derecho, y elige una de las tres ofertas. Cada una cuesta niveles de XP y lapis."
-  ],
-  "materials": [
-   "1 book",
-   "2 diamonds",
-   "4 obsidian",
-   "Lapis lazuli + niveles de XP (para encantar)"
-  ],
-  "editionNote": "Idéntica en Java y Bedrock. Desde la 1.8, encantar cuesta lapis lazuli en ambas ediciones. El nombre se fijó como 'Enchantment Table' en la 1.14; los veteranos la conocen como Enchanting Table.",
-  "versions": "La mesa de encantamientos se añadió en Beta 1.9 Prerelease 3 (2011) con tope de 50 niveles y sin coste de lapis. La 1.8 (14w02a) introdujo el coste de lapis, el tope de 30 niveles y el máximo de 15 bookshelves.",
-  "faq": [
-   {
-    "q": "¿Por qué mi máximo es nivel 8?",
-    "a": "Necesitas bookshelves: hasta 15, a un bloque de la mesa a su altura o una por encima. Antorchas o alfombras entre una estantería y la mesa anulan el bonus."
-   },
-   {
-    "q": "¿Puedo mover la mesa?",
-    "a": "Sí: mínala con cualquier pico. Sin pico no suelta nada."
-   },
-   {
-    "q": "¿Cómo repito las ofertas?",
-    "a": "Encanta algo barato como una pala de madera o un libro para reiniciar la semilla, o usa un grindstone para limpiar un mal resultado y reintentar."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/diamond/",
-    "label": "Diamond"
-   },
-   {
-    "url": "/es/items/obsidian/",
-    "label": "Obsidian"
-   }
-  ],
-  "keywords": [
-   "mesa de encantamientos",
-   "cómo hacer una mesa de encantamientos",
-   "receta mesa de encantar",
-   "encantar minecraft"
-  ]
- },
  "how-to-get-level-30-enchantments": {
   "name": "Cómo conseguir encantamientos de nivel 30",
   "shortTitle": "Encantamientos Nv. 30",
@@ -22331,6 +22281,102 @@
    {
     "url": "https://minecraft.wiki/w/Fermented_Spider_Eye",
     "label": "Fermented Spider Eye - Minecraft Wiki"
+   }
+  ]
+ },
+ "how-to-spawn-the-wither": {
+  "slug": "how-to-spawn-the-wither",
+  "name": "Cómo invocar al wither en Minecraft",
+  "shortTitle": "Invocar al wither",
+  "quickAnswer": "Construye una T con 4 bloques de soul sand o soul soil y coloca 3 wither skeleton skulls encima: el último bloque colocado debe ser una skull. Funciona en cualquier dimensión. El wither tiene 300 HP en Java y hasta 600 en Difícil en Bedrock.",
+  "steps": [
+   "Consigue 4 soul sand o soul soil del Nether (los soul sand valleys son la fuente más fácil).",
+   "Consigue 3 wither skeleton skulls: mata wither skeletons en las nether fortresses. La probabilidad base de drop es 2,5%; Looting III la sube a 5,5%.",
+   "Elige bien la arena: una zona plana lejos de tu base, la clásica trampa bajo el bedrock de la fuente de salida del End, o el techo de una cueva en la capa de deepslate.",
+   "Coloca la T: 3 soul sand en fila horizontal con 1 más apilado sobre el bloque central (o en vertical, 3 de alto con 2 brazos).",
+   "Coloca las 3 wither skeleton skulls sobre los tres bloques superiores. El último bloque colocado debe ser una skull, y en Java no vale con pistons ni dispensers.",
+   "Apártate enseguida: el wither parpadea en blanco unos 10 segundos, crece, y entonces detona en una explosión enorme (mayor que la TNT o un charged creeper).",
+   "Pelea bajo cobertura: dispara skulls explosivas que infligen Wither II (tu barra de vida se vuelve negra y drena). En Bedrock además embiste y genera 3-4 wither skeletons a media vida.",
+   "Mátalo para conseguir 1 nether star (siempre): el ingrediente clave del beacon."
+  ],
+  "materials": [
+   "4 soul sand o soul soil",
+   "3 wither skeleton skulls (wither skeletons en las nether fortresses; Looting III ayuda)",
+   "Opcional: pociones de Strength/Regeneration, espada con Smite V o arco con Power V, golden apples, milk"
+  ],
+  "editionNote": "La vida cambia por edición: 300 HP siempre en Java; 300 en Fácil, 450 en Normal y 600 en Difícil en Bedrock. Bedrock además le da ataque de embestida, explosión a media vida, y genera wither skeletons a media vida (excepto en Fácil). En Bedrock puede invocarse con dispensers; en Java no.",
+  "versions": [
+   "1.4.2 (Pretty Scary Update)"
+  ],
+  "faq": [
+   {
+    "q": "¿Se puede invocar al wither en el End o en el Overworld?",
+    "a": "Sí, en cualquier dimensión. El sitio seguro clásico es bajo la fuente de bedrock del End, que lo deja clavado en su sitio."
+   },
+   {
+    "q": "¿Cuál es la probabilidad de drop de las wither skeleton skulls?",
+    "a": "2,5% base, subiendo con Looting hasta un máximo de 5,5% con Looting III (Java). Sin Looting espera matar decenas de wither skeletons por skull."
+   },
+   {
+    "q": "¿Pueden los pistons o dispensers construir el wither por ti?",
+    "a": "En Bedrock, los dispensers pueden colocar la skull final. En Java la estructura debe construirse a mano: el último bloque tiene que colocarlo el jugador."
+   },
+   {
+    "q": "¿Qué suelta el wither?",
+    "a": "Siempre 1 nether star (para craftear un beacon) más 50 XP. En Bedrock pueden aparecer wither roses donde sus ataques matan mobs."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Wither",
+    "label": "Wither - Minecraft Wiki"
+   }
+  ]
+ },
+ "how-to-make-glass-panes": {
+  "slug": "how-to-make-glass-panes",
+  "name": "Cómo hacer glass panes en Minecraft",
+  "shortTitle": "Hacer glass panes",
+  "quickAnswer": "Craftea 16 glass panes con 6 bloques de glass llenando las dos filas inferiores de la cuadrícula. Primero funde sand o red sand en un furnace para conseguir el glass.",
+  "steps": [
+   "Funde sand o red sand en un furnace o blast furnace con cualquier combustible: 1 sand da 1 glass.",
+   "Junta al menos 6 bloques de glass por tanda de panes.",
+   "Abre una crafting table y llena por completo las dos filas inferiores con 6 bloques de glass.",
+   "Coge los 16 glass panes del hueco de resultado: cada tanda de 6 glass da 16 panes.",
+   "Usa los panes en ventanas: son mucho más baratos que los bloques enteros (1 pane cuesta 0,375 de glass) y se conectan formando paredes finas transparentes.",
+   "Stained glass panes: tiñe primero los bloques de glass en stained glass (8 glass alrededor de 1 dye) y luego craftéalos en panes; los panes no se pueden teñir directamente."
+  ],
+  "materials": [
+   "6 bloques de glass (de fundir sand o red sand)",
+   "Crafting table",
+   "Furnace + combustible (para hacer el glass)"
+  ],
+  "editionNote": "La receta es idéntica en Java y Bedrock: 6 glass dan 16 panes. En ambas ediciones, los glass panes no sueltan nada al romperse sin Silk Touch, igual que los bloques de glass.",
+  "versions": [
+   "1.8 (Beta, añadidos los glass panes)"
+  ],
+  "faq": [
+   {
+    "q": "¿Cuántos glass panes hacen 6 glass?",
+    "a": "16 panes. Como una pared de ventana usa 1 pane por bloque, los panes rinden casi 3 veces más que los bloques enteros de glass."
+   },
+   {
+    "q": "¿Se recuperan los glass panes al romperlos?",
+    "a": "Solo con una herramienta con Silk Touch. Si no, se rompen y no sueltan nada, igual que los bloques de glass."
+   },
+   {
+    "q": "¿Se pueden teñir los glass panes?",
+    "a": "No directamente. Tiñe primero los bloques de glass en stained glass (8 glass alrededor de 1 dye) y luego craftéalos en stained glass panes."
+   },
+   {
+    "q": "¿Con qué se conectan los glass panes?",
+    "a": "Se conectan a bloques sólidos y a otros panes por los lados, formando formas finas en cruz o en línea. No conectan en diagonal ni por arriba y abajo."
+   }
+  ],
+  "relatedLinks": [
+   {
+    "url": "https://minecraft.wiki/w/Glass_Pane",
+    "label": "Glass Pane - Minecraft Wiki"
    }
   ]
  }
