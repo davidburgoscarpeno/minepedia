@@ -2768,55 +2768,6 @@
   "keywords": "fishing rod minecraft craft 3 sticks 2 string fishing treasure enchanted book luck of the sea lure nautilus shell"
  },
  {
-  "slug": "how-to-make-map",
-  "name": "How to Make a Map in Minecraft",
-  "shortTitle": "Make a Map",
-  "quickAnswer": "Craft an empty map with 8 paper around a compass (in Bedrock you can also use 9 paper for a map without a player marker). Hold it and use it to draw the terrain around you; zoom it out with more paper, and clone or lock it on a cartography table.",
-  "steps": [
-   "Get 8 paper: craft sugar cane (3 in a row = 3 paper). You will want a sugar cane farm for this - maps eat paper.",
-   "Get 1 compass: 4 iron ingots around 1 redstone dust.",
-   "Craft the empty map: compass in the center, paper filling every other slot. In Bedrock you can skip the compass - 9 paper makes a map, but without the marker showing where you are.",
-   "Draw it: hold the empty map and use it. It fills in with a top-down view of the area around you, north always at the top.",
-   "Understand the grid: the map does NOT center on you. The world is split into invisible grid squares and your map covers whichever square you stood in when you first used it.",
-   "Explore to fill it: the map only records terrain while you hold it (either hand), in a 128-block radius around you - 64 blocks in the Nether. It only maps the surface, even underground.",
-   "Zoom it out: surround the drawn map with 8 more paper on a crafting table (or combine it with 1 paper in a cartography table) to see 4 times the area. Repeat up to 4 times for a huge regional map.",
-   "Clone and lock on a cartography table: map + empty map = two copies for friends or a wall; map + glass pane = locked, so it never updates again. Perfect for finished map-wall art."
-  ],
-  "materials": [
-   "8 paper (sugar cane) + 1 compass",
-   "In Bedrock without a marker: 9 paper",
-   "To zoom out: + 8 paper per level, up to 4 levels"
-  ],
-  "editionNote": "Big difference here: Java maps always show your position marker and need a compass in the recipe. In Bedrock, only a 'locator map' (crafted with a compass) shows the marker; a map made with just paper does not. Bedrock also lets you start a new world with a free locator map via the Starting Map option.",
-  "versions": "Maps were added in Java Beta 1.6 and Pocket Edition 0.14.0; the cartography table arrived with 1.14 in both editions.",
-  "faq": [
-   {
-    "q": "Why is my map blank or not filling in?",
-    "a": "An empty map only starts drawing when you hold it and press use. After that it only records while held in your hand - and only the surface within range of where you walk."
-   },
-   {
-    "q": "Why is my map not centered on me?",
-    "a": "By design: maps snap to a fixed world grid so maps of the same zoom level never overlap. To map the neighboring area, walk past the edge of the current map and use a fresh one."
-   },
-   {
-    "q": "How do I make a big map wall?",
-    "a": "Zoom several maps out to the same level, fill each one in a different grid square, then place them in item frames side by side - they join seamlessly. Lock them with glass panes on a cartography table once they are perfect."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-compass",
-   "how-to-make-paper",
-   "how-to-find-buried-treasure"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Cartographer",
-    "href": "/villagers/cartographer/"
-   }
-  ],
-  "keywords": "map minecraft craft 8 paper compass empty map locator map zoom out cartography table clone lock map wall"
- },
- {
   "slug": "how-to-make-torch",
   "name": "How to Make a Torch in Minecraft",
   "shortTitle": "Make a Torch",
@@ -3071,54 +3022,6 @@
    }
   ],
   "keywords": "cake minecraft craft 3 milk buckets 2 sugar 1 egg 3 wheat 7 slices hunger candle the lie panda"
- },
- {
-  "slug": "how-to-make-minecart",
-  "name": "How to Make a Minecart in Minecraft",
-  "shortTitle": "Make a Minecart",
-  "quickAnswer": "Craft a minecart with 5 iron ingots in a U shape. Place it on rails to ride at up to 8 blocks per second - faster with powered rails - and haul villagers, mobs and chests across your world.",
-  "steps": [
-   "Smelt 5 iron ingots (iron ore is everywhere; bring a stone pickaxe or better).",
-   "Craft it: ingots in the middle-left, middle-right and the full bottom row - a U shape, like the bucket recipe with 2 extra ingots.",
-   "Lay rails: craft 16 rails from 6 iron + 1 stick, and powered rails from 6 gold + stick + redstone. A minecart is useless without a track.",
-   "Ride it: place the minecart on a rail and use it to hop in. It hits its 8 blocks/second top speed on flat powered rails and coasts downhill for free.",
-   "Boost with powered rails: an unpowered powered rail is a brake, a lit one is a booster. One powered rail every ~38 blocks keeps top speed on flat ground.",
-   "Move mobs and villagers: push a mob into a minecart and it cannot leave - the safest way to ship villagers to a trading hall or a zombie to your base.",
-   "Make the variants: combine with a chest, hopper, TNT or furnace for the chest, hopper, TNT and furnace minecarts - mobile storage, item collection, bombs and self-propulsion.",
-   "Loot them instead: mineshaft chests contain minecarts and rails in bulk - bring a stack of torches and rob an abandoned mineshaft instead of crafting."
-  ],
-  "materials": [
-   "5 iron ingots",
-   "Plus rails: 6 iron + 1 stick = 16 rails; powered rails need 6 gold + stick + redstone dust"
-  ],
-  "editionNote": "Identical in both editions. The classic legacy-console trick of 16 blocks/second minecarts never existed in Java or Bedrock - 8 m/s is the cap on powered rails.",
-  "versions": "Minecarts were added in Java Infdev on June 18, 2010 - the update literally named after their 'infinite development' potential - and in Pocket Edition 0.8.0.",
-  "faq": [
-   {
-    "q": "How do you make a minecart go faster?",
-    "a": "Powered rails. Place them every 30-40 blocks on flat ground (more uphill), power them with a redstone torch or lever, and the minecart holds its 8 blocks/second top speed."
-   },
-   {
-    "q": "How do you transport villagers with a minecart?",
-    "a": "Build rails to the villager, push a minecart into them (they board automatically when it touches them), and send it off. Boats work too and need no rails."
-   },
-   {
-    "q": "Minecart or boat - which is better for transport?",
-    "a": "Boats are cheaper and work anywhere with water or ice; minecarts shine for automated stations, item transport with hopper minecarts, and moving mobs uphill where boats cannot go."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-boat",
-   "how-to-find-diamonds",
-   "how-to-build-trading-hall"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Iron Ingot",
-    "href": "/items/iron-ingot/"
-   }
-  ],
-  "keywords": "minecart minecraft craft 5 iron ingots rails powered rail speed 8 blocks per second villager transport mineshaft"
  },
  {
   "slug": "how-to-make-dispenser",
@@ -10362,60 +10265,6 @@
   ]
  },
  {
-  "slug": "how-to-make-loom",
-  "name": "How to Make a Loom in Minecraft",
-  "shortTitle": "Make a Loom",
-  "quickAnswer": "Craft a loom with 2 string over 2 planks. It applies dye patterns to banners one layer at a time - cheap, previewable, and the only way to use banner pattern items like the creeper charge. Also the shepherd's job site.",
-  "steps": [
-   "Get 2 string (spiders, cobwebs or cat gifts) and 2 planks of any wood.",
-   "Craft the loom: 2 string side by side in the middle row, 2 planks directly below them.",
-   "Or find one: looms generate in shepherd houses in villages and inside trail ruins - any tool or hand breaks it, axe is fastest, and it always drops.",
-   "Make a banner first: 6 matching wool in the top two rows + 1 stick below the center gives a banner of that wool's color.",
-   "Apply patterns: put the banner in the left slot, a dye in the middle, then click a pattern from the list - stripes, borders, crosses, gradients, bricks and more, each costing just 1 dye.",
-   "Use banner pattern items for the rare designs: creeper charge, skull charge, flower charge, thing (Mojang logo), globe, snout, field masoned and bordure indented go in the third slot and are NOT consumed.",
-   "Layer up to 6 patterns on one banner in Survival, then clone the result by crafting it with blank banners of the same base color.",
-   "Put it to work: banners mark maps (Java: right-click a placed banner with a map), decorate shields in the crafting grid, and an unclaimed loom hires a shepherd villager."
-  ],
-  "materials": [
-   "String x2",
-   "Planks x2 (any wood)",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe and pattern mechanics are identical in Java and Bedrock. Both generate looms in village shepherd houses and in trail ruins (since 1.20).",
-  "versions": "Added in 1.14 (18w43a) with Village & Pillage, replacing the old shapeless banner-dyeing recipes with a previewable interface. Field masoned and bordure indented patterns arrived in 1.21.2.",
-  "faq": [
-   {
-    "q": "What does a loom do in Minecraft?",
-    "a": "It dyes patterns onto banners: insert a banner and a dye, pick a pattern from the visual list, and each layer costs one dye. Rare designs use banner pattern items in the third slot, which are not consumed. It's also the shepherd's job site block."
-   },
-   {
-    "q": "How many patterns can a banner have?",
-    "a": "Up to 6 layers in Survival using the loom (16 with commands). You can duplicate a finished banner by crafting it together with blank banners of the same base color."
-   },
-   {
-    "q": "Do banner patterns get used up in the loom?",
-    "a": "No - banner pattern items (creeper charge, skull charge, flower charge, thing, globe, snout, field masoned, bordure indented) stay in your inventory after each use, unlike dyes which are consumed."
-   }
-  ],
-  "keywords": "loom minecraft, loom recipe, minecraft banner patterns, how to use loom, shepherd villager block",
-  "relatedGuides": [
-   "how-to-make-shield",
-   "how-to-get-string",
-   "how-to-find-village",
-   "how-to-dye-armor"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   },
-   {
-    "label": "Trail ruins",
-    "href": "/structures/trail-ruins/"
-   }
-  ]
- },
- {
   "slug": "how-to-make-fletching-table",
   "name": "How to Make a Fletching Table in Minecraft",
   "shortTitle": "Make a Fletching Table",
@@ -10465,60 +10314,6 @@
    {
     "label": "Pillager outpost",
     "href": "/structures/pillager-outpost/"
-   }
-  ]
- },
- {
-  "slug": "how-to-make-lectern",
-  "name": "How to Make a Lectern in Minecraft",
-  "shortTitle": "Make a Lectern",
-  "quickAnswer": "Craft a lectern with 4 wooden slabs (3 across the top row, 1 below center) and a bookshelf in the middle. It holds books for reading, powers redstone when pages turn, and hires librarian villagers - your best source of enchanted books.",
-  "steps": [
-   "Craft 4 wooden slabs (any wood) and a bookshelf (3 books + 6 planks).",
-   "Craft the lectern: slabs across the entire top row, bookshelf in the center slot, one slab directly below it.",
-   "Or find one: empty lecterns generate in village libraries (up to two per library), and one generates in the secret room at the center of every ancient city.",
-   "Display a book: use a book and quill or a written book on the lectern. Anyone can read it - great for multiplayer rule boards and lore.",
-   "Take the book back: in Java, take it from the reading interface; in Bedrock, punch the lectern. Breaking the lectern also returns the book.",
-   "Wire it to redstone: turning a page emits a full-strength redstone pulse, and a comparator reads the current page as signal strength - the classic hidden-door trigger.",
-   "Note what it can't hold: enchanted books and normal books won't go on a lectern - only book and quill and written books.",
-   "Hire a librarian: an unemployed villager who claims a lectern becomes a librarian. Break and replace the lectern to reroll its first trades until you get the enchanted book you want."
-  ],
-  "materials": [
-   "Wooden slab x4 (any wood)",
-   "Bookshelf x1 (3 books + 6 planks)",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe and librarian behavior are the same in Java and Bedrock. Retrieval differs: Java takes the book from the reading interface, Bedrock by punching the lectern. Comparator signal increments also differ because Bedrock displays two pages at once.",
-  "versions": "Added in 1.14 (18w44a) with no functionality beyond Creative; lecterns became craftable and functional for books in 19w02a and the librarian's job site in 19w11a. The old 2012 Dinnerbone lectern concept never shipped until Village & Pillage.",
-  "faq": [
-   {
-    "q": "How do you make a lectern in Minecraft?",
-    "a": "Place 4 wooden slabs in the top row and bottom-center of the crafting grid with a bookshelf in the middle. A bookshelf is 6 planks plus 3 books."
-   },
-   {
-    "q": "How do you get Mending from a librarian?",
-    "a": "Place a lectern near an unemployed villager; when it becomes a librarian, check its first trade. If it's not the enchanted book you want, break the lectern and replace it to reroll - repeat until Mending appears, then lock the trade by trading once."
-   },
-   {
-    "q": "What does a lectern do with redstone?",
-    "a": "Turning a page on a lectern emits a short full-strength redstone pulse, and a comparator reading the lectern outputs a signal that scales with the page number - perfect for secret doors opened by turning to a specific page."
-   }
-  ],
-  "keywords": "lectern minecraft, lectern recipe minecraft, librarian villager trades, minecraft lectern redstone, how to get mending villager",
-  "relatedGuides": [
-   "how-to-make-bookshelf",
-   "how-to-find-village",
-   "how-to-find-ancient-city",
-   "how-to-cure-a-zombie-villager"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   },
-   {
-    "label": "Ancient city",
-    "href": "/structures/ancient-city/"
    }
   ]
  },
@@ -10620,56 +10415,6 @@
    {
     "label": "Jungle",
     "href": "/biomes/jungle/"
-   }
-  ]
- },
- {
-  "slug": "how-to-make-note-block",
-  "name": "How to Make a Note Block in Minecraft",
-  "shortTitle": "Make a Note Block",
-  "quickAnswer": "Craft a note block with 8 planks around 1 redstone dust. The block underneath picks the instrument (16 total), right-clicking raises the pitch across 2 octaves, and redstone or a click plays the note.",
-  "steps": [
-   "Gather 8 planks (any wood, mixed is fine) and 1 redstone dust.",
-   "Craft the note block: planks filling every slot except the center, redstone dust in the middle.",
-   "Pick the instrument: the block directly below the note block decides the sound - wood for bass guitar, stone for drums, glass for clicks, soulsand for cowbell, 16 instruments in all. No block below (air) means harp.",
-   "Tune the pitch: use the note block to raise it one semitone per press, across two full octaves (24 semitones). The 25th press resets it to the lowest note.",
-   "Play it: a note block sounds when clicked, punched, or powered by redstone. It needs air (or a mob head) above it to make a sound.",
-   "Wire a melody: a redstone pulse plays the current note once - chain note blocks with repeaters at different ticks to build songs and doorbells.",
-   "Hear it from afar: note blocks are audible up to 48 blocks away, and the note particle's color shows the pitch.",
-   "Try mob heads: place a mob head on top and the note block plays one of that mob's ambient sounds instead - zombie groans, creeper hisses and more for alarms and pranks."
-  ],
-  "materials": [
-   "Planks x8 (any wood)",
-   "Redstone dust x1",
-   "Crafting table"
-  ],
-  "editionNote": "Recipe, instruments, tuning and range are the same in Java and Bedrock. Mob head sounds arrived in both editions with 1.20.",
-  "versions": "Added in Beta 1.2 (2011) - one of Minecraft's oldest redstone blocks. Mob heads playing ambient mob sounds on note blocks came in 1.20 (23w12a), with no-sneak head placement in 23w03a.",
-  "faq": [
-   {
-    "q": "How do you change the instrument of a note block?",
-    "a": "Change the block directly underneath it. Stone gives bass drum, wood gives bass guitar, sand gives snare, glass gives clicks and hats, gold gives bells, clay gives flute, packed ice gives chime, wool gives guitar, bone gives xylophone, iron gives iron xylophone, soulsand gives cowbell, pumpkin gives didgeridoo, emerald gives bit, hay gives banjo, glowstone gives pling, and anything else gives piano/harp."
-   },
-   {
-    "q": "How do note blocks work with redstone?",
-    "a": "Any redstone power pulse plays the note block's current pitch once. Builders chain note blocks with repeaters set to different delays so each one fires at the right beat, creating full songs."
-   },
-   {
-    "q": "Why is my note block not making sound?",
-    "a": "It needs air or a mob head in the block directly above it - a solid block on top silences it. Right-clicking a silenced note block still changes its pitch, so tune first and clear the space above before playing."
-   }
-  ],
-  "keywords": "note block minecraft, note block recipe minecraft, minecraft note block instruments, note block songs minecraft, minecraft redstone music",
-  "relatedGuides": [
-   "how-to-get-redstone",
-   "how-to-get-amethyst-shards",
-   "how-to-find-stronghold",
-   "how-to-make-jukebox"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Plains",
-    "href": "/biomes/plains/"
    }
   ]
  },
@@ -12989,7 +12734,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-map",
+   "how-to-make-a-map",
    "how-to-make-lead",
    "how-to-make-fishing-rod"
   ],
@@ -13140,47 +12885,6 @@
    }
   ],
   "keywords": "glow ink sac minecraft, how to get glow ink, glow squid, glowing sign text, glow item frame recipe, glow ink farm"
- },
- {
-  "slug": "how-to-make-painting",
-  "name": "How to Make a Painting in Minecraft",
-  "shortTitle": "Make a Painting",
-  "quickAnswer": "Craft 8 sticks around any wool - the wool color does not matter. When you place a painting, Minecraft picks a random artwork in the largest size that fits the wall space, so blocking out parts of the wall lets you force exactly the painting you want.",
-  "steps": [
-   "Craft 8 sticks (any planks) and shear or craft 1 wool of any color.",
-   "Craft the painting: sticks filling every slot except the center, which takes the wool.",
-   "Place it on a wall - it picks a random canvas in the largest size that fits the free space.",
-   "To force a specific size, wall off the space: place blocks so only the exact dimensions you want are free, then place the painting in that gap.",
-   "Keep breaking and replacing it to reroll which artwork appears within that size.",
-   "Use a big painting as a hidden door: place it over a 2-block-high opening with signs supporting the edges and you can walk right through it."
-  ],
-  "materials": [
-   "8 sticks (2 planks of any wood)",
-   "1 wool of any color (sheep or 4 string)"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same recipe, same random-canvas behavior. Java's Creative inventory also offers preset painting items in the Functional Blocks tab that always place the same artwork - useful for builders who want a specific motif without rerolling.",
-  "versions": "Paintings are one of the oldest decorations in the game, added in February 2010 during Indev. The recipe has always been sticks around wool (briefly planks at the very start). There are now 47 paintings in the game: 40 by Kristoffer Zetterstrand, 6 by Sarah Boeving and 1 by Jens Bergensten.",
-  "faq": [
-   {
-    "q": "How do I get a specific painting?",
-    "a": "Control the wall space. A painting spawns in the largest size that fits, so block the wall until only your target size is free, then place and reroll until the artwork you want appears."
-   },
-   {
-    "q": "How many paintings are in Minecraft?",
-    "a": "47, in sizes from 1x1 up to 4x4 blocks - 40 painted by Kristoffer Zetterstrand, 6 by Sarah Boeving and 1 by Jens Bergensten."
-   },
-   {
-    "q": "Can you walk through a painting?",
-    "a": "Yes - paintings are entities, not solid blocks. A painting covering a doorway makes the classic hidden entrance, still used in secret bases today."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-item-frame",
-   "how-to-make-a-bed",
-   "how-to-make-bookshelf"
-  ],
-  "relatedLinks": [],
-  "keywords": "painting minecraft, how to make painting, painting recipe, painting sizes minecraft, secret door painting, how many paintings minecraft"
  },
  {
   "slug": "how-to-make-arrow",
@@ -15697,66 +15401,6 @@
   "keywords": "ocean monument minecraft, how to find ocean monument, minecraft monument raid, elder guardian mining fatigue, sponge room"
  },
  {
-  "slug": "how-to-make-a-nether-portal",
-  "name": "How to Make a Nether Portal",
-  "shortTitle": "Nether Portal",
-  "quickAnswer": "Build a vertical rectangular frame of obsidian blocks - 4x5 minimum, 23x23 maximum, and the corners are optional - then light the inside with flint and steel or a fire charge. You need at least 10 obsidian, which you can get by pouring water over lava pools or mining it with a diamond or netherite pickaxe.",
-  "steps": [
-   "Get obsidian. Pour a water bucket over lava source blocks to make obsidian (at least 10 blocks), or find a ruined portal with ready-made obsidian. Mine it with a diamond or netherite pickaxe - anything weaker drops nothing.",
-   "Build the frame. Place obsidian as a vertical rectangle at least 4 wide and 5 tall. Skip the four corners to save obsidian: two vertical sides of 3 blocks plus top and bottom rows of 2 blocks is just 10 obsidian. Maximum size is 23x23.",
-   "Light it. Use flint and steel or a fire charge on the inside of the frame. A ghast fireball or lava catching nearby wood alight also works. The frame fills with the purple portal.",
-   "Walk through. Stand inside the portal for a few seconds to travel to the Nether. One block travelled in the Nether equals eight in the Overworld, so long journeys are far shorter through portals.",
-   "Prepare before entering. Take iron armor or better, food, blocks and a gold item to keep piglins neutral. Never dig straight down in the Nether and mark your portal's coordinates."
-  ],
-  "materials": [
-   "Obsidian (10+)",
-   "Flint and Steel",
-   "Water bucket (for obsidian)"
-  ],
-  "editionNote": "Identical in Java and Bedrock. Crying obsidian cannot be used in portal frames, and portals can't be lit in the End. Ruined portals generate in the world with partial frames and loot.",
-  "versions": "Alpha 1.2.0 (2010): Nether portals added with the Halloween Update. 1.16: Crying obsidian and ruined portals added; Nether reworked.",
-  "faq": [
-   {
-    "q": "How much obsidian do I need?",
-    "a": "10 with the corners skipped, 14 for the full 4x5 frame."
-   },
-   {
-    "q": "Why won't my portal light?",
-    "a": "Check the frame is complete, vertical and inside the size limits, that you aren't in the End, and that no crying obsidian is in the frame."
-   },
-   {
-    "q": "What is the 8-to-1 rule?",
-    "a": "Each block in the Nether equals 8 blocks in the Overworld. Two portals 100 blocks apart in the Nether link to Overworld points 800 blocks apart."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-a-ruined-portal",
-   "how-to-find-a-nether-fortress",
-   "how-to-find-a-bastion"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/obsidian/",
-    "label": "Obsidian"
-   },
-   {
-    "url": "/structures/ruined-portal/",
-    "label": "Ruined Portal"
-   },
-   {
-    "url": "/items/flint-and-steel/",
-    "label": "Flint and Steel"
-   }
-  ],
-  "keywords": [
-   "nether portal",
-   "how to make a nether portal",
-   "obsidian portal",
-   "how to go to the nether",
-   "portal minecraft"
-  ]
- },
- {
   "slug": "how-to-find-a-nether-fortress",
   "name": "How to Find a Nether Fortress",
   "shortTitle": "Nether Fortress",
@@ -17141,7 +16785,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-nether-portal",
+   "how-to-make-nether-portal",
    "how-to-get-xp-fast",
    "how-to-make-an-item-sorter"
   ],
@@ -19757,7 +19401,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-nether-portal",
+   "how-to-make-nether-portal",
    "how-to-find-a-bastion",
    "how-to-make-campfire"
   ],
@@ -26199,61 +25843,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-lightning-rod",
-  "name": "How to Make a Lightning Rod in Minecraft",
-  "shortTitle": "Make a Lightning Rod",
-  "quickAnswer": "Craft a lightning rod with 3 copper ingots in a vertical line. Place it on top of your build: it attracts every lightning strike within 128 blocks in Java (64 in Bedrock) and keeps wooden roofs from burning in storms.",
-  "steps": [
-   "Mine copper ore (common in dripstone caves and around Y=48).",
-   "Smelt the raw copper into 3 copper ingots.",
-   "Open a crafting table.",
-   "Place the 3 copper ingots in a vertical line down any column.",
-   "Take the lightning rod.",
-   "Place it on the highest point of the structure you want to protect; it works in any orientation, even sideways."
-  ],
-  "materials": [
-   "3 copper ingots"
-  ],
-  "editionNote": "The lightning rod recipe is the same in Java and Bedrock, but the protection radius differs: 128 blocks spherical in Java, 64 in Bedrock. A struck rod emits a redstone signal of 15 for a moment, which powers lightning farms and detectors. Rods oxidize like other copper blocks unless you wax them with a honeycomb, and an axe scrapes oxidation back. Lightning no longer starts fires on the rod itself, but strikes only get redirected during thunderstorms, and the rod must be the highest block of its column to work.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "What does a lightning rod do in Minecraft?",
-    "a": "During thunderstorms it pulls every lightning strike in its radius onto itself instead of the surroundings. That protects flammable builds, prevents villagers turning into witches, and lets you farm charged creepers or convert pigs deliberately."
-   },
-   {
-    "q": "Does a lightning rod stop fires?",
-    "a": "It stops lightning from hitting your build, so no more random roof fires from storms. The rod itself never burns. It does nothing against fire spread from lava, flint and steel or fireplaces."
-   },
-   {
-    "q": "Can you wax a lightning rod?",
-    "a": "Yes. Use a honeycomb on it to stop oxidation at its current stage, or scrape it with an axe to remove oxidation. A fully oxidized rod still works exactly the same; the change is purely visual."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-iron",
-   "how-to-make-furnace",
-   "how-to-make-a-trapdoor",
-   "how-to-make-a-door"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Lightning_Rod",
-    "label": "Lightning Rod on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "lightning rod recipe",
-   "how to make a lightning rod",
-   "lightning rod minecraft",
-   "copper lightning rod",
-   "lightning rod range"
-  ]
- },
- {
   "slug": "how-to-make-a-soul-campfire",
   "name": "How to Make a Soul Campfire in Minecraft",
   "shortTitle": "Make a Soul Campfire",
@@ -27209,64 +26798,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-piston",
-  "name": "How to Make a Piston in Minecraft",
-  "shortTitle": "Make a Piston",
-  "quickAnswer": "Craft a piston with 3 planks across the top row, an iron ingot in the center, redstone dust below it, and cobblestone filling the remaining 4 slots. Add a slimeball to any piston to make it sticky.",
-  "steps": [
-   "Mine 4 cobblestone, 1 iron ore (smelt it into an ingot) and redstone dust from deep redstone ore (below Y=16).",
-   "Chop any tree and turn 1 log into planks.",
-   "Open a crafting table.",
-   "Fill the top row with 3 planks.",
-   "Place cobblestone, iron ingot, cobblestone across the middle row.",
-   "Place cobblestone, redstone dust, cobblestone across the bottom row and take the piston."
-  ],
-  "materials": [
-   "3 planks (any wood)",
-   "4 cobblestone",
-   "1 iron ingot",
-   "1 redstone dust"
-  ],
-  "editionNote": "The piston recipe is identical in Java and Bedrock, and any plank type (even mixed) works. A piston pushes up to 12 blocks when powered by redstone; combining it with a slimeball makes a sticky piston, which also pulls one block back. Pistons are the muscle of redstone: doors, farms, elevators, flying machines and hidden bases all start here. Java and Bedrock differ in piston behavior: Bedrock pistons are slower to retract, quasi-connectivity does not exist in Bedrock, and Java pistons can spit out their pushed block on 1-tick pulses, so farms copied from Java tutorials often need timing changes on Bedrock.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "How do you make a sticky piston in Minecraft?",
-    "a": "Craft a piston, then combine it shapelessly with 1 slimeball anywhere in the grid. Slimeballs come from killing slimes in swamps at night or slime chunks below Y=40, or from baby pandas sneezing in Bedrock and Java."
-   },
-   {
-    "q": "How many blocks can a piston push?",
-    "a": "12 blocks maximum. If the line of blocks in front of the piston contains more than 12, or includes unpushable blocks like obsidian, bedrock or extended pistons, the piston will not extend."
-   },
-   {
-    "q": "Why does my Java piston farm not work on Bedrock?",
-    "a": "Bedrock has no quasi-connectivity, pistons take longer to retract, and 1-tick pulses behave differently. Most Java piston doors and farms need rebuilt timing or different observer layouts on Bedrock."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-hopper",
-   "how-to-make-tnt",
-   "how-to-make-a-redstone-torch",
-   "how-to-make-a-piston-door"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Piston",
-    "label": "Piston on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "piston recipe",
-   "how to make a piston in minecraft",
-   "how to craft a piston",
-   "sticky piston recipe",
-   "piston minecraft"
-  ]
- },
- {
   "slug": "how-to-make-a-sticky-piston",
   "name": "How to Make a Sticky Piston in Minecraft",
   "shortTitle": "Make a Sticky Piston",
@@ -27303,7 +26834,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-piston",
+   "how-to-make-piston",
    "how-to-find-slimes",
    "how-to-get-slimeballs",
    "how-to-make-a-piston-door"
@@ -27360,7 +26891,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-piston",
+   "how-to-make-piston",
    "how-to-make-redstone-repeater",
    "how-to-make-a-redstone-torch",
    "how-to-make-hopper"
@@ -27492,63 +27023,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-mushroom-stew",
-  "name": "How to Make Mushroom Stew in Minecraft",
-  "shortTitle": "Make Mushroom Stew",
-  "quickAnswer": "Craft mushroom stew with 1 red mushroom, 1 brown mushroom and 1 bowl placed anywhere in the grid. Mushrooms grow in dark places, swamps and the Nether, and mooshrooms give infinite stew with a bowl.",
-  "steps": [
-   "Craft a bowl: 3 planks in a V shape (one in each bottom corner slot and one in the center) make 4 bowls.",
-   "Find a red mushroom and a brown mushroom: dark spots under trees, caves, swamps, dark forests, the Nether or the mushroom fields biome.",
-   "Open your 2x2 inventory grid or a crafting table.",
-   "Place the red mushroom, brown mushroom and bowl anywhere in the grid.",
-   "Take the mushroom stew.",
-   "Better than crafting: right-click a mooshroom with a bowl for free, infinite stew."
-  ],
-  "materials": [
-   "1 red mushroom",
-   "1 brown mushroom",
-   "1 bowl (3 planks make 4)"
-  ],
-  "editionNote": "The mushroom stew recipe is shapeless and identical in Java and Bedrock, and the two mushrooms can sit in any slot. Stew restores 6 hunger and 7.2 saturation, solid for a food you can farm in total darkness. The real trick is mooshrooms: milking one with a bowl gives unlimited mushroom stew, and milking a brown mooshroom after feeding it a flower gives suspicious stew with that flower's effect. Mushrooms spread slowly to blocks with light level 12 or lower, so a dark room farm works without any spores or seeds.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "Where do you find mushrooms in Minecraft?",
-    "a": "In areas with light level 12 or lower: caves, under tree canopies, swamps, dark forests, old growth taigas, the Nether (both types grow everywhere there), and the mushroom fields biome, where they generate in daylight. Brown mushrooms also come from huge brown mushrooms in dark forests and swamps."
-   },
-   {
-    "q": "How do you get infinite mushroom stew?",
-    "a": "Find a mooshroom in the mushroom fields biome (or breed two with wheat) and right-click it with an empty bowl: it fills with mushroom stew, forever, with no cooldown. Keep one mooshroom in a pen and food is solved."
-   },
-   {
-    "q": "How much hunger does mushroom stew restore?",
-    "a": "6 hunger points (3 drumsticks) and 7.2 saturation, one of the best saturation values among basic foods. Suspicious stew made from a dandelion or blue orchid gives the same stats plus a few seconds of Saturation on top."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-sugar",
-   "how-to-make-a-pumpkin-pie",
-   "how-to-make-cookies",
-   "how-to-tame-a-cat"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Mushroom_Stew",
-    "label": "Mushroom Stew on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "mushroom stew minecraft",
-   "how to make mushroom stew in minecraft",
-   "mushroom stew recipe",
-   "minecraft stew",
-   "mooshroom stew minecraft"
-  ]
- },
- {
   "slug": "how-to-make-a-note-block",
   "name": "How to Make a Note Block in Minecraft",
   "shortTitle": "Make a Note Block",
@@ -27586,7 +27060,7 @@
   ],
   "relatedGuides": [
    "how-to-make-a-redstone-torch",
-   "how-to-make-a-piston",
+   "how-to-make-piston",
    "how-to-find-a-stronghold",
    "how-to-find-an-ancient-city"
   ],
