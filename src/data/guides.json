@@ -253,53 +253,70 @@
   "slug": "how-to-get-elytra",
   "name": "How to Get Elytra in Minecraft",
   "shortTitle": "Get Elytra",
-  "quickAnswer": "Elytra is found only in End Ships, which generate at some End Cities in the outer End islands. Defeat the Ender Dragon, throw an ender pearl through an End Gateway, find an End City with a ship, and take the elytra from its item frame.",
+  "quickAnswer": "Elytra come only from End ships: beat the dragon, pearl through an End gateway to the outer islands, find an End city with a ship floating beside it, and take the elytra from the item frame in the ship's treasure room.",
   "steps": [
-   "Kill the Ender Dragon to open the End Gateways (up to 20).",
-   "Throw an ender pearl into a gateway to teleport to the outer islands.",
-   "Explore until you find an End City - towers of purpur and end stone bricks. Only some cities have a ship floating beside them.",
-   "Board the ship: bridge or pearl across. Watch for shulkers - their levitation bullets drop you from heights.",
-   "Inside the ship's hull, take the elytra from the item frame (behind the brewing stand). The dragon head sits at the bow.",
-   "To fly: equip elytra in the chestplate slot, jump from height and press jump again mid-air to glide. Use firework rockets to boost.",
-   "Repair it with phantom membranes on an anvil, or put Mending + Unbreaking III on it - elytra cannot be crafted."
+   "Defeat the Ender Dragon and enter an End gateway with an ender pearl.",
+   "Search the outer islands for an End city.",
+   "Look for the End ship, a boat-shaped structure floating beside some cities; cities without a ship have no elytra.",
+   "Board the ship via the tower bridge or by throwing an ender pearl.",
+   "Fight the shulker guarding the treasure room inside the hull.",
+   "Take the elytra from the item frame on the wall, and grab the dragon head from the bow."
   ],
   "materials": [
-   "Ender pearls (for gateways and shulker dodging)",
-   "Slow Falling potions (recommended)",
-   "Blocks for bridging",
-   "Good armor and a bow"
+   "Ender pearls",
+   "Slow falling potions or water bucket",
+   "Food and armor for shulker fights",
+   "Ender chest to bank the elytra safely"
   ],
-  "editionNote": "Identical in Java and Bedrock. Every End City has at most one ship; not every city has one - keep exploring.",
-  "versions": "Elytra since 1.9 (Combat Update).",
+  "editionNote": "Elytra cannot be crafted; the End ship item frame is the only source in Java and Bedrock. Each ship holds exactly one pair. Equip them in the chestplate slot, jump, and press jump again midair to glide; firework rockets boost flight. Repair elytra with phantom membranes on an anvil (or two damaged pairs combined), and put Mending and Unbreaking III on them immediately, because a broken pair is gone until you find another ship.",
+  "versions": [
+   "java",
+   "bedrock"
+  ],
   "faq": [
    {
-    "q": "Can you craft elytra?",
-    "a": "No. Elytra is only found as loot in End Ships - one per ship, in an item frame in the hull."
+    "q": "Can you craft elytra in Minecraft?",
+    "a": "No. Elytra are found only in an item frame inside End ships on the outer End islands, one pair per ship. There is no recipe and no villager trade."
    },
    {
-    "q": "Do elytra break?",
-    "a": "Yes: they lose 1 durability per second of flight (432 seconds total) and stop working at 1 durability instead of breaking. Repair with phantom membranes or Mending."
+    "q": "Why does the End city I found have no elytra?",
+    "a": "Only End cities with an End ship floating beside them hold elytra. If your city has no ship, keep searching other cities across the outer islands."
    },
    {
-    "q": "How do you fly forever with elytra?",
-    "a": "Use firework rockets (paper + gunpowder; 3 gunpowder for the longest boost) while gliding, and gain altitude by pitching up after each boost. With Unbreaking III + Mending it never wears out."
+    "q": "How do you fly with elytra?",
+    "a": "Equip them in the chest slot, jump from height, and press jump again while falling to open the wings. Look up to trade speed for altitude, and use firework rockets (without stars) for thrust."
+   },
+   {
+    "q": "How do you repair elytra in Minecraft?",
+    "a": "Combine them with phantom membranes on an anvil, or combine two damaged pairs. The cheap long-term answer is Mending plus Unbreaking III, applied before the first pair wears down."
    }
   ],
   "relatedGuides": [
-   "how-to-make-nether-portal",
-   "how-to-find-ancient-city"
+   "how-to-find-the-end-city",
+   "how-to-make-a-shulker-box",
+   "how-to-respawn-the-ender-dragon"
   ],
   "relatedLinks": [
    {
-    "url": "/enchantments/mending/",
-    "label": "Mending"
+    "url": "/guides/how-to-find-the-end-city/",
+    "label": "How to Find an End City"
    },
    {
-    "url": "/mobs/shulker/",
-    "label": "Shulker"
+    "url": "/guides/how-to-make-a-shulker-box/",
+    "label": "How to Make a Shulker Box"
+   },
+   {
+    "url": "/guides/how-to-respawn-the-ender-dragon/",
+    "label": "How to Respawn the Ender Dragon"
    }
   ],
-  "keywords": "how to get elytra end city ship fly wings"
+  "keywords": [
+   "how to get elytra",
+   "elytra minecraft",
+   "how to find elytra",
+   "end ship elytra",
+   "elytra end city"
+  ]
  },
  {
   "slug": "how-to-enchant",
@@ -1966,50 +1983,6 @@
   "keywords": "smooth stone minecraft how to make smelt stone blast furnace slab stonecutter recipe"
  },
  {
-  "slug": "how-to-make-name-tag",
-  "name": "How to Make a Name Tag in Minecraft",
-  "shortTitle": "Make a Name Tag",
-  "quickAnswer": "As of Drop 1 of 2026 name tags are craftable: 1 paper + 1 nugget of any type (iron or gold), shapeless. On older versions they are loot-only: fishing (0.8%, open water), master librarian trade (20 emeralds), or chests in mineshafts, dungeons, ancient cities and woodland mansions. Rename one on an anvil for 1 level, then use it on a mob.",
-  "steps": [
-   "Craft it (26.x): put 1 paper and any nugget (iron or gold both work) anywhere in the crafting grid - it is a shapeless recipe, new in Java 26.1 and Bedrock 26.0.",
-   "Fishing route: a 0.8% chance per attempt, and only in open water since 1.16 - build a proper AFK fishing spot in open water.",
-   "Trading route: master-level librarian villagers sell name tags for 20 emeralds. Set up a trading hall and farm one villager.",
-   "Loot route: chests in mineshafts, monster rooms, ancient cities and woodland mansions all roll name tags.",
-   "Bedrock bonus: a wandering trader offering a name tag trade has a 25% chance (+1% per Looting level) to drop one if killed while you hold an emerald.",
-   "Rename it: put the name tag on an anvil and type the name - it costs 1 experience level, and the name survives on the mob forever (no despawning).",
-   "Use it: right-click the mob with the renamed tag. Easter eggs: 'Dinnerbone' or 'Grumm' flips the mob upside down, 'jeb_' makes a rainbow sheep, 'Toast' reskins a rabbit, 'Johnny' makes a vindicator attack everything."
-  ],
-  "materials": [
-   "1 paper (sugar cane) + 1 nugget - 26.x crafting",
-   "Or: fishing rod + open water, or 20 emeralds",
-   "An anvil and 1 experience level"
-  ],
-  "editionNote": "Crafting arrived in Java 26.1 and Bedrock 26.0 (Drop 1 of 2026). Fishing odds and the librarian trade are the same in both; the wandering trader drop trick is Bedrock-only.",
-  "versions": "Name tag since 1.6.1; craftable since Java 26.1 / Bedrock 26.0.",
-  "faq": [
-   {
-    "q": "Can you craft a name tag?",
-    "a": "Yes, since Drop 1 of 2026 (Java 26.1, Bedrock 26.0): 1 paper plus any nugget, shapeless. Before that update name tags could not be crafted - only fished, traded or looted."
-   },
-   {
-    "q": "What is the fastest way to get a name tag?",
-    "a": "Craft it from 1 paper and 1 nugget. On older versions, a master librarian trade for 20 emeralds is the most reliable renewable source."
-   },
-   {
-    "q": "Why won't the name tag work on my mob?",
-    "a": "You must rename it on an anvil first - an unnamed name tag does nothing. Some mobs like the ender dragon cannot be named, and creakings have special rules."
-   }
-  ],
-  "relatedGuides": [],
-  "relatedLinks": [
-   {
-    "url": "/items/name-tag/",
-    "label": "Name Tag"
-   }
-  ],
-  "keywords": "name tag minecraft how to make craft paper nugget fishing librarian anvil dinnerbone jeb toast"
- },
- {
   "slug": "how-to-get-honeycomb",
   "name": "How to Get Honeycomb in Minecraft",
   "shortTitle": "Get Honeycomb",
@@ -2635,7 +2608,7 @@
   ],
   "relatedGuides": [
    "how-to-make-book",
-   "how-to-make-name-tag"
+   "how-to-get-a-name-tag"
   ],
   "relatedLinks": [
    {
@@ -2955,7 +2928,7 @@
   "keywords": "tnt minecraft craft gunpowder sand creeper explosion flint and steel tnt cannon mining ancient debris"
  },
  {
-  "slug": "how-to-respawn-ender-dragon",
+  "slug": "how-to-respawn-the-ender-dragon",
   "name": "How to Respawn the Ender Dragon in Minecraft",
   "shortTitle": "Respawn the Ender Dragon",
   "quickAnswer": "Place 4 end crystals on the edges of the exit portal, one per side, after killing the ender dragon. A 30-second sequence resets the obsidian pillars and their crystals, then the dragon returns - worth 500 XP per rematch instead of the 12,000 from the first kill.",
@@ -7568,7 +7541,7 @@
   ],
   "relatedGuides": [
    "how-to-make-brewing-stand",
-   "how-to-respawn-ender-dragon",
+   "how-to-respawn-the-ender-dragon",
    "how-to-get-gunpowder"
   ],
   "relatedLinks": [
@@ -7697,7 +7670,7 @@
   ],
   "relatedGuides": [
    "how-to-beat-ender-dragon",
-   "how-to-respawn-ender-dragon",
+   "how-to-respawn-the-ender-dragon",
    "how-to-get-ghast-tear"
   ],
   "relatedLinks": [
@@ -17022,41 +16995,44 @@
   "slug": "how-to-get-a-name-tag",
   "name": "How to Get a Name Tag in Minecraft",
   "shortTitle": "Get a Name Tag",
-  "quickAnswer": "Name tags cannot be crafted. Get them from fishing (treasure loot), chests in dungeons, mineshafts and woodland mansions, or by trading with a master librarian villager for 20 emeralds.",
+  "quickAnswer": "Craft a name tag with 1 paper and 1 nugget of any kind (iron, gold or copper): paper in the bottom-left slot, nugget in the center. Name tags are craftable since the 26.1 update; on older versions you must find them in chests, fishing or trading.",
   "steps": [
-   "No crafting recipe exists - name tags are loot and trade items only.",
-   "Fish for one: name tags are part of the fishing treasure table, so any fishing rod works and Luck of the Sea helps a lot.",
-   "Loot chests: dungeons, mineshafts, woodland mansions, ancient cities and buried treasure can all hold name tags.",
-   "Trade for one: level a librarian villager to master and buy a name tag for 20 emeralds.",
-   "Rename it on an anvil (costs 1 XP level), then use it on any mob to name it - named mobs never despawn.",
-   "Easter eggs: name a mob 'Dinnerbone' or 'Grumm' to flip it upside down, a sheep 'jeb_' for rainbow wool, a rabbit 'Toast' for a memorial skin, or a vindicator 'Johnny' to make it attack everything.",
-   "Note for 26.x worlds: recent Bedrock previews removed name tags from librarian trades and some chest loot tables - grab them while fishing still works."
+   "Craft it (26.1+): 1 paper (from sugar cane) plus 1 nugget of any kind, paper in the bottom-left slot and nugget in the center.",
+   "Or fish for one: name tags are a treasure catch with a 0.8% chance per attempt, boosted by Luck of the Sea.",
+   "Or loot chests in dungeons, mineshafts, woodland mansions, ancient cities and buried treasure.",
+   "Rename the name tag on an anvil: it costs 1 experience level, and renaming a whole stack costs the same 1 level.",
+   "Use the renamed tag on a mob. Named mobs never despawn and stop counting toward the mob cap.",
+   "Try the easter eggs: jeb_ makes a rainbow sheep, Dinnerbone or Grumm flips a mob upside down, Toast reskins a rabbit, Johnny makes a vindicator attack everything."
   ],
   "materials": [
-   "Fishing rod (Luck of the Sea helps)",
-   "Or 20 emeralds + a master librarian",
-   "Anvil + 1 XP level (to rename)"
+   "1 paper + 1 nugget of any kind (crafting, 26.1+)",
+   "Or find one: fishing treasure, structure chests, trading (pre-26.1)"
   ],
-  "editionNote": "Sources and naming are the same in Java and Bedrock: fishing treasure, structure chests, librarian trades, anvil renaming (1 XP level) and the same four Easter eggs. Bedrock 26.x previews are removing the librarian trade and some loot-table entries.",
+  "editionNote": "Name tags became craftable in both editions with the 26.1 update (1 paper + any nugget), and the same update removed name tags from librarian trades. On versions before 26.1 they are loot-only: fishing treasure (0.8%), chests in mineshafts, ancient cities, woodland mansions and buried treasure, or master librarian trades. Naming a mob costs 1 experience level on the anvil and prevents it from despawning. The four easter eggs (jeb_, Dinnerbone/Grumm, Toast, Johnny) work in both editions.",
   "versions": "Name tags were added in 1.6.1 (Horse Update) as dungeon loot, became renewable through fishing in 1.7.2, and tradable from librarians in 1.8. Bedrock preview 26.10.25 removed them from librarian trades and ancient city/mansion chests.",
   "faq": [
    {
-    "q": "What does naming a mob actually do?",
-    "a": "Named mobs never despawn - essential for keeping pets, zombie villagers you plan to cure, or rare mobs. The name also shows above their head, and named mobs keep their name through transformations like curing."
+    "q": "Can you craft a name tag in Minecraft?",
+    "a": "Yes, since the 26.1 update: 1 paper plus 1 nugget of any kind (iron, gold or copper). Before 26.1 name tags were loot-only, from fishing treasure, structure chests and librarian trades."
    },
    {
-    "q": "What is the Dinnerbone trick?",
-    "a": "Naming any mob 'Dinnerbone' or 'Grumm' renders it upside down - a nod to two Mojang developers. It is purely visual: the mob behaves normally, just inverted."
+    "q": "How do you use a name tag?",
+    "a": "Rename it on an anvil for 1 experience level, then right-click a mob with it. Named mobs never despawn and no longer count toward the mob cap. You can rename a full stack of tags for the same 1 level."
+   },
+   {
+    "q": "What are the name tag easter eggs?",
+    "a": "jeb_ on a sheep cycles its wool through rainbow colors; Dinnerbone or Grumm flips any mob upside down; Toast gives a rabbit a memorial skin; Johnny makes a vindicator attack every mob in sight."
    },
    {
     "q": "Is there any way to farm name tags?",
-    "a": "Fishing with Luck of the Sea III is the classic farm: an AFK fish farm produces name tags alongside enchanted books, bows and saddles. Librarian trading halls are the renewable alternative, at 20 emeralds each."
+    "a": "Yes: craft them from paper and nuggets (26.1+), both infinitely renewable from sugar cane farms and zombie piglin or iron farms. Before 26.1 the only farmable source was fishing with Luck of the Sea III."
    }
   ],
   "relatedGuides": [
-   "how-to-tame-an-ocelot",
-   "how-to-breed-villagers",
-   "how-to-tame-a-llama"
+   "how-to-make-paper",
+   "how-to-make-an-anvil",
+   "how-to-tame-a-cat",
+   "how-to-make-a-saddle"
   ],
   "relatedLinks": [
    {
@@ -17064,7 +17040,13 @@
     "label": "Villager mob guide"
    }
   ],
-  "keywords": "how to get a name tag minecraft, name tag minecraft, dinnerbone, jeb_ sheep, name tag fishing"
+  "keywords": [
+   "how to get a name tag",
+   "name tag minecraft",
+   "how to make a name tag",
+   "name tag recipe minecraft",
+   "how to craft a name tag"
+  ]
  },
  {
   "slug": "how-to-make-cookie",
@@ -22266,64 +22248,6 @@
   ]
  },
  {
-  "slug": "how-to-activate-beacon",
-  "name": "How to Activate a Beacon in Minecraft",
-  "shortTitle": "Activate Beacon",
-  "quickAnswer": "Craft a beacon (5 glass + 3 obsidian + 1 nether star), then place it on a pyramid of mineral blocks - iron, gold, diamond, emerald or netherite. A 3x3 base activates it; bigger pyramids (up to 9x9 base, 4 levels) unlock stronger powers. Feed it one ingot or gem to choose an effect.",
-  "steps": [
-   "Craft the beacon: 5 glass on top, 3 obsidian on the bottom row, 1 nether star in the middle. The star drops from the wither - you will need to kill one first.",
-   "Build the pyramid base. Valid blocks: iron, gold, diamond, emerald and netherite blocks - mixing types is fine, the material is purely cosmetic.",
-   "Level 1: 3x3 base (9 blocks) with the beacon on top. That is enough to activate it with Speed or Haste I.",
-   "Go bigger for more powers: level 2 adds 5x5 (34 blocks total, Resistance/Jump Boost), level 3 adds 7x7 (83 total, Strength), level 4 adds 9x9 (164 total) and unlocks the secondary power - Regeneration OR a level-II primary.",
-   "Open the beacon GUI, insert one iron/gold/diamond/emerald/netherite ingot or gem, pick your power, click the checkmark. The beam and the effect turn on.",
-   "Check range: effects reach 20/30/40/50 blocks out depending on pyramid size (and all the way up to the build height), lingering 11-17 seconds after you leave."
-  ],
-  "materials": [
-   "1 nether star (from the wither)",
-   "5 glass + 3 obsidian for the beacon",
-   "9 to 164 mineral blocks for the pyramid (iron is the budget option: 164 blocks = 1,476 iron ingots for max level)",
-   "1 ingot or gem per power activation"
-  ],
-  "editionNote": "Identical in Java and Bedrock: same pyramid sizes, same powers, same ranges (20/30/40/50). The only nuance is range being capped by simulation distance in Bedrock - keep the pyramid within your simulated chunks.",
-  "versions": "Beacons have worked this way since 1.4.2 (2012). Netherite blocks became valid pyramid blocks in 1.16.",
-  "faq": [
-   {
-    "q": "What is the cheapest full beacon pyramid?",
-    "a": "164 blocks of the same mineral: a max-level iron pyramid costs 1,476 iron ingots (23 stacks + 4). An iron farm makes this reachable; copper does NOT work - only iron, gold, diamond, emerald and netherite blocks count."
-   },
-   {
-    "q": "Do the pyramid materials change the effect?",
-    "a": "No - material is purely cosmetic. A dirt-cheap iron beacon gives exactly the same powers as a netherite one. Mix and match freely."
-   },
-   {
-    "q": "Why won't my beacon activate?",
-    "a": "The beam needs a clear view of the sky (bedrock and transparent blocks like glass are OK; solid blocks are not), and the pyramid layers must be complete and centered under the beacon. One missing corner block kills the whole thing."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-beat-the-wither",
-   "how-to-make-beacon",
-   "how-to-get-netherite"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/mobs/wither/",
-    "label": "Wither"
-   }
-  ],
-  "keywords": [
-   "how to activate beacon minecraft",
-   "beacon pyramid layers",
-   "beacon powers effects",
-   "full beacon cost iron",
-   "beacon range"
-  ]
- },
- {
   "slug": "how-to-make-banner",
   "name": "How to Make a Banner in Minecraft (Loom Guide)",
   "shortTitle": "Banners & Loom",
@@ -23716,61 +23640,6 @@
   "keywords": "how to get a saddle minecraft saddle recipe craft saddle fishing saddle"
  },
  {
-  "slug": "how-to-get-name-tag",
-  "name": "How to Get a Name Tag in Minecraft",
-  "shortTitle": "Get a Name Tag",
-  "quickAnswer": "Craft it: 1 paper + 1 nugget of any kind (since 26.1). You can also fish one up (0.8% chance) or loot it from dungeons, mineshafts, woodland mansions and ancient cities. Rename it on an anvil for 1 XP level, then use it on a mob.",
-  "steps": [
-   "Craft it (26.1+): 1 paper + any nugget (iron, gold or copper) gives a name tag.",
-   "Fish for one: name tags are a treasure catch with a 0.8% chance per attempt, boosted by Luck of the Sea.",
-   "Loot chests in dungeons, mineshafts, woodland mansions and ancient cities.",
-   "Rename the name tag on an anvil: it costs 1 experience level, and you can rename a whole stack of 64 for the same 1 level.",
-   "Use the renamed tag on a mob. Named mobs never despawn and stop counting toward the mob cap.",
-   "Try the easter eggs: jeb_ makes a rainbow sheep, Dinnerbone or Grumm flips a mob upside down, Toast reskins a rabbit, Johnny makes a vindicator attack everything."
-  ],
-  "materials": [
-   "1 paper (3 sugar cane)",
-   "1 nugget of any kind (iron, gold or copper)",
-   "Anvil + 1 XP level for renaming",
-   "Or a fishing rod with Luck of the Sea"
-  ],
-  "editionNote": "Craftable since 26.1 in Java and the 26.0 experimental previews in Bedrock. Since the same update, librarian villagers no longer sell name tags. The wandering trader can drop one in Bedrock if killed while offering it and you hold an emerald.",
-  "versions": "Crafting recipe since 26.1 (Java) / 26.0 experimental (Bedrock). On older versions: fishing, chest loot or librarian trading.",
-  "faq": [
-   {
-    "q": "How do you use a name tag?",
-    "a": "Rename it on an anvil first (1 XP level, up to 64 tags at once), then right-click the mob with it. An unnamed tag does nothing."
-   },
-   {
-    "q": "Do named mobs despawn?",
-    "a": "No. Naming a mob makes it persistent and excludes it from the mob cap, which is why farmers name their animals and pet mobs."
-   },
-   {
-    "q": "What are the name tag easter eggs?",
-    "a": "jeb_ on a sheep makes it cycle rainbow colors, Dinnerbone or Grumm renders any mob upside down, Toast gives a rabbit a special skin, and Johnny turns a vindicator hostile to everything except other illagers."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-tame-cat",
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/name-tag/",
-    "label": "Name Tag item guide"
-   },
-   {
-    "url": "/items/paper/",
-    "label": "How to get Paper"
-   },
-   {
-    "url": "/enchantments/mending/",
-    "label": "Mending enchantment"
-   }
-  ],
-  "keywords": "how to get name tag minecraft name tag recipe jeb_ dinnerbone anvil rename"
- },
- {
   "slug": "how-to-tame-axolotl",
   "name": "How to Tame an Axolotl in Minecraft",
   "shortTitle": "Tame an Axolotl",
@@ -25010,7 +24879,7 @@
    "9 to 164 mineral blocks (iron, gold, emerald, diamond or netherite, mixed freely)",
    "1 ingot, emerald or diamond to select each power"
   ],
-  "editionNote": "Beacons work the same in Java and Bedrock. The effect range grows with the pyramid level, from 20 blocks at level 1 up to 50 blocks at level 4. If the pyramid is damaged, repair it and the previously selected powers resume automatically.",
+  "editionNote": "Beacons work the same in Java and Bedrock. The effect range grows with the pyramid level, from 20 blocks at level 1 up to 50 blocks at level 4. If the pyramid is damaged, repair it and the previously selected powers resume automatically. In Bedrock the effect range is also capped by simulation distance, so keep the pyramid inside your simulated chunks.",
   "versions": [
    "java",
    "bedrock"
@@ -25118,70 +24987,6 @@
    "brewing stand recipe",
    "how to brew potions minecraft",
    "brewing stand fuel"
-  ]
- },
- {
-  "slug": "how-to-respawn-the-ender-dragon",
-  "name": "How to Respawn the Ender Dragon in Minecraft",
-  "shortTitle": "Respawn the Ender Dragon",
-  "quickAnswer": "Respawn the ender dragon by placing 4 end crystals on the exit portal in the End, one on each flat side. Each end crystal is crafted with 7 glass, 1 eye of ender and 1 ghast tear. You can refight the dragon as many times as you want.",
-  "steps": [
-   "Defeat the ender dragon once normally to open the exit portal in the center of the End.",
-   "Craft 4 end crystals. Each needs 7 glass, 1 eye of ender and 1 ghast tear, so in total you need 28 glass, 4 eyes of ender and 4 ghast tears.",
-   "Return to the End and go to the exit portal (the bedrock fountain with the dragon egg on top).",
-   "Place one end crystal on the middle of each of the four flat sides of the exit portal, on the bedrock or obsidian rim.",
-   "Step back. The crystals activate, regenerate the end crystals on the obsidian pillars and resurrect the dragon. The pillar tops explode, destroying any blocks you placed there.",
-   "Fight the dragon again. It drops less experience than the first kill (500 XP instead of 12000) and no second dragon egg, but it lets you reopen gateway portals.",
-   "Repeat as often as you like. Each respawn costs another 4 end crystals."
-  ],
-  "materials": [
-   "4 end crystals (28 glass + 4 eyes of ender + 4 ghast tears total)",
-   "Gear for another dragon fight: bow, sword, armor, slow falling potions recommended",
-   "Ender pearls for the pillars with caged crystals"
-  ],
-  "editionNote": "Respawning works the same in Java and Bedrock. The respawned dragon is identical to the first fight but drops only 500 experience points and no dragon egg. Killing it again opens more end gateway portals, up to 20, which is the main reason players refight it.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "How many times can you respawn the ender dragon?",
-    "a": "Unlimited times. Each respawn costs 4 end crystals placed on the exit portal, and you can repeat the fight as often as you want."
-   },
-   {
-    "q": "Do you get another dragon egg from respawning the dragon?",
-    "a": "No. The dragon egg only appears after the first kill. Respawned dragons drop 500 experience and no egg, but each kill can open another end gateway portal, up to 20."
-   },
-   {
-    "q": "What do you need to respawn the ender dragon?",
-    "a": "Four end crystals. Each is crafted with 7 glass, 1 eye of ender and 1 ghast tear, so farm ghasts in the Nether for 4 tears before heading back to the End."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-beat-the-ender-dragon",
-   "how-to-get-dragon-egg",
-   "how-to-find-stronghold"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/guides/how-to-beat-the-ender-dragon/",
-    "label": "How to Beat the Ender Dragon"
-   },
-   {
-    "url": "/guides/how-to-get-dragon-egg/",
-    "label": "How to Get the Dragon Egg"
-   },
-   {
-    "url": "/guides/how-to-find-stronghold/",
-    "label": "How to Find a Stronghold"
-   }
-  ],
-  "keywords": [
-   "how to respawn ender dragon",
-   "end crystal recipe",
-   "respawn dragon minecraft",
-   "refight ender dragon"
   ]
  },
  {
@@ -29190,7 +28995,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-find-elytra",
+   "how-to-get-elytra",
    "how-to-make-a-shulker-box",
    "how-to-beat-the-ender-dragon"
   ],
@@ -29214,75 +29019,6 @@
    "end gateway minecraft",
    "outer end islands",
    "shulker minecraft"
-  ]
- },
- {
-  "slug": "how-to-find-elytra",
-  "name": "How to Find Elytra in Minecraft",
-  "shortTitle": "Find Elytra",
-  "quickAnswer": "Elytra come only from End ships: beat the dragon, pearl through an End gateway to the outer islands, find an End city with a ship floating beside it, and take the elytra from the item frame in the ship's treasure room.",
-  "steps": [
-   "Defeat the Ender Dragon and enter an End gateway with an ender pearl.",
-   "Search the outer islands for an End city.",
-   "Look for the End ship, a boat-shaped structure floating beside some cities; cities without a ship have no elytra.",
-   "Board the ship via the tower bridge or by throwing an ender pearl.",
-   "Fight the shulker guarding the treasure room inside the hull.",
-   "Take the elytra from the item frame on the wall, and grab the dragon head from the bow."
-  ],
-  "materials": [
-   "Ender pearls",
-   "Slow falling potions or water bucket",
-   "Food and armor for shulker fights",
-   "Ender chest to bank the elytra safely"
-  ],
-  "editionNote": "Elytra cannot be crafted; the End ship item frame is the only source in Java and Bedrock. Each ship holds exactly one pair. Equip them in the chestplate slot, jump, and press jump again midair to glide; firework rockets boost flight. Repair elytra with phantom membranes on an anvil (or two damaged pairs combined), and put Mending and Unbreaking III on them immediately, because a broken pair is gone until you find another ship.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "Can you craft elytra in Minecraft?",
-    "a": "No. Elytra are found only in an item frame inside End ships on the outer End islands, one pair per ship. There is no recipe and no villager trade."
-   },
-   {
-    "q": "Why does the End city I found have no elytra?",
-    "a": "Only End cities with an End ship floating beside them hold elytra. If your city has no ship, keep searching other cities across the outer islands."
-   },
-   {
-    "q": "How do you fly with elytra?",
-    "a": "Equip them in the chest slot, jump from height, and press jump again while falling to open the wings. Look up to trade speed for altitude, and use firework rockets (without stars) for thrust."
-   },
-   {
-    "q": "How do you repair elytra in Minecraft?",
-    "a": "Combine them with phantom membranes on an anvil, or combine two damaged pairs. The cheap long-term answer is Mending plus Unbreaking III, applied before the first pair wears down."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-the-end-city",
-   "how-to-make-a-shulker-box",
-   "how-to-respawn-the-ender-dragon"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/guides/how-to-find-the-end-city/",
-    "label": "How to Find an End City"
-   },
-   {
-    "url": "/guides/how-to-make-a-shulker-box/",
-    "label": "How to Make a Shulker Box"
-   },
-   {
-    "url": "/guides/how-to-respawn-the-ender-dragon/",
-    "label": "How to Respawn the Ender Dragon"
-   }
-  ],
-  "keywords": [
-   "how to find elytra minecraft",
-   "elytra location end ship",
-   "how to fly with elytra",
-   "how to repair elytra",
-   "can you craft elytra"
   ]
  },
  {
@@ -29328,7 +29064,7 @@
   ],
   "relatedGuides": [
    "how-to-find-the-end-city",
-   "how-to-find-elytra",
+   "how-to-get-elytra",
    "how-to-make-chest"
   ],
   "relatedLinks": [
@@ -30362,62 +30098,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-name-tag",
-  "name": "How to Make a Name Tag in Minecraft",
-  "shortTitle": "Make a Name Tag",
-  "quickAnswer": "Craft a name tag with 1 paper and 1 nugget of any kind (iron or gold): paper in the bottom-left slot, nugget in the center. Name tags are craftable since the 26.1 update; on older versions you must find them in chests, fishing or trading.",
-  "steps": [
-   "Craft paper from sugar cane (3 sugar cane in a row makes 3 paper).",
-   "Get a nugget: smelt iron or gold gear, or craft 9 nuggets from 1 ingot.",
-   "Open a crafting table.",
-   "Place the paper in the bottom-left slot and the nugget in the center slot.",
-   "Take the name tag.",
-   "Rename it on an anvil (costs 1 experience level), then use it on a mob to name it and stop it from despawning."
-  ],
-  "materials": [
-   "1 paper",
-   "1 nugget of any kind (iron or gold)"
-  ],
-  "editionNote": "Name tags became craftable in both editions with the 26.1 update, using 1 paper plus any nugget. On versions before 26.1 they are loot-only: chests in mineshafts, ancient cities, woodland mansions and buried treasure, fishing (0.8% per catch), or master librarian trades. Naming a mob costs 1 experience level on the anvil and prevents it from despawning. Easter eggs still work: 'Dinnerbone' or 'Grumm' flips the mob upside down, 'jeb_' makes a rainbow sheep, and 'Toast' turns a rabbit black and white.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "Can you craft a name tag in Minecraft?",
-    "a": "Yes, since the 26.1 update: 1 paper plus any nugget. Before 26.1, name tags are only found as loot, fished up, or bought from master librarian villagers, so update your game for the easy recipe."
-   },
-   {
-    "q": "How do you use a name tag?",
-    "a": "First rename it on an anvil (this costs 1 experience level), then right-click the mob with it. A named mob never despawns, which is essential for keeping pets, villagers and farm animals safe."
-   },
-   {
-    "q": "What are the name tag easter eggs?",
-    "a": "Name a mob 'Dinnerbone' or 'Grumm' to flip it upside down, 'jeb_' for a rainbow-colored sheep, and 'Toast' for a special black-and-white rabbit skin. They work in both editions."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-paper",
-   "how-to-make-an-anvil",
-   "how-to-tame-a-wolf",
-   "how-to-breed-villagers"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Name_Tag",
-    "label": "Name Tag on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "name tag recipe",
-   "how to make a name tag",
-   "name tag minecraft",
-   "craftable name tag",
-   "how to craft name tag"
-  ]
- },
- {
   "slug": "how-to-make-a-soul-campfire",
   "name": "How to Make a Soul Campfire in Minecraft",
   "shortTitle": "Make a Soul Campfire",
@@ -30687,7 +30367,7 @@
    "how-to-respawn-the-ender-dragon",
    "how-to-beat-the-ender-dragon",
    "how-to-make-glass",
-   "how-to-find-elytra"
+   "how-to-get-elytra"
   ],
   "relatedLinks": [
    {
