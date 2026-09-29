@@ -25979,5 +25979,267 @@
       }
     ],
     "slug": "how-to-speedrun-minecraft"
+  },
+  "how-to-use-worldedit": {
+    "name": "Cómo usar WorldEdit (comandos para principiantes)",
+    "shortTitle": "Usar WorldEdit",
+    "quickAnswer": "WorldEdit es un mod/plugin gratuito: consigue el hacha de madera con //wand, haz clic izquierdo en una esquina y clic derecho en la opuesta para seleccionar, y luego ejecuta comandos como //set stone, //replace dirt stone, //copy y //paste. //undo arregla los errores.",
+    "keywords": "cómo usar worldedit minecraft comandos wand set replace copy paste undo mod gratis",
+    "materials": [
+      "WorldEdit (gratis): mod de Fabric/NeoForge o plugin de servidor",
+      "Cheats o permisos de operator",
+      "Un hacha de madera (el //wand)"
+    ],
+    "steps": [
+      "Instala WorldEdit gratis: como mod de Fabric/NeoForge para singleplayer, o como plugin en tu servidor. Está en Modrinth y en la web oficial.",
+      "Ejecuta //wand para conseguir el hacha de madera. Clic izquierdo en un bloque para la posición 1, clic derecho en otro para la posición 2: la selección es la caja entre ambos.",
+      "Rellena la selección: //set stone llena todo de stone. //set 50% stone,50% dirt mezcla bloques.",
+      "Sustituir en vez de borrar: //replace dirt stone cambia solo la dirt por stone y deja el resto intacto.",
+      "Copia y pega construcciones: //copy copia en relación a donde estás, //paste lo suelta a tus pies. //rotate 90 gira el portapapeles antes.",
+      "Errores: //undo revierte tu última acción, //redo la recupera. Úsalos sin miedo mientras aprendes.",
+      "Formas rápidas: //sphere stone 5, //cyl stone 5 1 y //walls stone construyen geometría sin selecciones."
+    ],
+    "versions": "WorldEdit sigue cada versión de Minecraft en Fabric y NeoForge, además de plataformas de servidor. La sintaxis de comandos es estable desde hace años.",
+    "editionNote": "Solo Java: WorldEdit no existe para Bedrock. Lo más parecido en Bedrock es el comando /fill.",
+    "faq": [
+      {
+        "q": "¿WorldEdit es gratis?",
+        "a": "Sí: el mod y el plugin son gratis desde Modrinth o la web oficial de WorldEdit. Nunca pagues por él."
+      },
+      {
+        "q": "¿Puedo tumbar mi servidor con WorldEdit?",
+        "a": "Las selecciones enormes (millones de bloques) pueden laggear o crashear: trabaja en trozos más pequeños y ten //undo a mano."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-make-a-minecraft-server",
+      "how-to-make-a-circle"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-use-worldedit"
+  },
+  "how-to-build-a-house": {
+    "name": "Cómo construir una buena casa inicial en Minecraft",
+    "shortTitle": "Construir una casa",
+    "quickAnswer": "Casa del primer día: base de 7x7, paredes de 4 bloques de alto, una door, torches dentro y un techo: vale cualquier madera o piedra. Añade ventanas, una bed, chests y estaciones de crafteo, y mejora con una segunda planta y un sótano.",
+    "keywords": "cómo construir una casa minecraft casa inicial survival primera noche diseño fácil materiales",
+    "materials": [
+      "Unos 10 stacks de tu bloque principal (logs, planks o piedra)",
+      "Una door, torches, una bed",
+      "Glass o fences para las ventanas"
+    ],
+    "steps": [
+      "Elige terreno plano cerca de recursos: madera, agua y una village o cueva a mano ganan a una vista bonita lejos de todo.",
+      "Marca una base de 7x7 o 9x9: pequeña vale. Las casas pequeñas son seguras, rápidas y ampliables.",
+      "Paredes de 4 bloques de alto quedan bien; 3 es claustrofóbico y 5 gasta material. Mezcla dos materiales (logs en las esquinas, planks entre medias) y ya parece diseñada.",
+      "Door mirando lejos de donde vagan los mobs, torches cada pocos bloques dentro: la luz mantiene a los monstruos fuera. Las carpets en el suelo son calidez opcional.",
+      "Techo: la pendiente simple de stairs es lo más fácil; un techo plano con borde de slabs también funciona. Sella cada hueco: las spiders escalan.",
+      "Dentro lo esencial: bed, 2-4 chests, crafting table, furnace. Añade smoker, blast furnace y stonecutter al crecer.",
+      "Camino de mejora: ventanas de glass panes, segunda planta para encantamientos, entrada a la mina en el sótano y una granja vallada junto a la puerta."
+    ],
+    "versions": "Las bases de construcción nunca cambian: todas las versiones funcionan igual. Los bloques nuevos (bamboo, cherry, mud bricks) solo dan más paletas.",
+    "editionNote": "Idéntico en Java y Bedrock. Solo cambian ligeramente las texturas de los bloques entre ediciones.",
+    "faq": [
+      {
+        "q": "¿Cuál es el mejor bloque para una primera casa?",
+        "a": "El que tengas más cerca: oak planks y cobblestone son los clásicos porque no cuestan nada. Mejora las paredes luego: la forma importa más que el material."
+      },
+      {
+        "q": "¿Cómo evito que aparezcan monstruos dentro?",
+        "a": "Luz. Torches cada 5-6 bloques mantienen el suelo por encima de nivel de luz cero, y los mobs hostiles solo aparecen con luz 0."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-bed",
+      "how-to-dye-wool",
+      "how-to-make-a-piston-door"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guías",
+        "url": "/es/guides/"
+      }
+    ],
+    "slug": "how-to-build-a-house"
+  },
+  "how-to-add-friends": {
+    "name": "Cómo añadir amigos en Minecraft",
+    "shortTitle": "Añadir amigos",
+    "quickAnswer": "Bedrock: añade amigos por su gamertag de Xbox: pausa > Invite to Game, o Profile > Add Friend. Java no tiene sistema de amigos: os veis en servidores o compartís una invitación de Realm. El juego cruzado funciona entre todos los dispositivos Bedrock una vez sois amigos de Xbox.",
+    "keywords": "cómo añadir amigos minecraft gamertag xbox invite to game realms java bedrock cross platform",
+    "materials": [
+      "Bedrock: inicio de sesión con cuenta Microsoft gratuita",
+      "El gamertag de Xbox de tu amigo (no su nombre de Minecraft en Java)",
+      "Java: una dirección de servidor o invitación de Realm"
+    ],
+    "steps": [
+      "Bedrock: inicia sesión con una cuenta Microsoft gratuita: desbloquea amigos, Realms y servidores destacados.",
+      "Añade un amigo: pausa en un mundo > Invite to Game > Find Cross-Platform Friends, escribe su gamertag y envía la solicitud. O usa Profile > Add Friend desde el menú principal.",
+      "Cuando acepte, sus mundos disponibles aparecen en la pestaña Friends: haz clic para unirte cuando esté jugando.",
+      "Invitar a tu mundo: ábrelo, pausa > Invite to Game y elígelo de tu lista de amigos.",
+      "Java: no hay lista de amigos: pasa a tus amigos la dirección de tu servidor, abre tu mundo a LAN en la misma red, o invítales a un Realm desde el menú Realms.",
+      "Los gamertags vienen de la cuenta de Xbox, gratuita de crear. Los jugadores de consola necesitan la suscripción online de su consola para casi todo el juego online."
+    ],
+    "versions": "El sistema de amigos funciona en todas las versiones actuales de Bedrock. Cambios de gamertag: el primero gratis, de pago después.",
+    "editionNote": "Los amigos son una función de Bedrock. El multiplayer de Java va por servidores: no existe lista de amigos integrada.",
+    "faq": [
+      {
+        "q": "¿Los jugadores de Java y Bedrock pueden ser amigos?",
+        "a": "No dentro del juego: las ediciones no pueden entrar en los mundos de la otra. Los jugadores de Bedrock de Xbox, PlayStation, Switch, móvil y Windows sí pueden agregarse todos entre sí."
+      },
+      {
+        "q": "¿La cuenta Microsoft es gratis?",
+        "a": "Sí: crearla y usarla para amigos no cuesta nada. El juego online en consolas puede seguir requiriendo la suscripción de la consola."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-play-with-friends",
+      "how-to-join-a-server",
+      "how-to-change-your-minecraft-name"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servidores/"
+      }
+    ],
+    "slug": "how-to-add-friends"
+  },
+  "how-to-play-cross-platform": {
+    "name": "Cómo jugar a Minecraft cross-platform (Xbox, PlayStation, Switch, móvil, PC)",
+    "shortTitle": "Juego cruzado",
+    "quickAnswer": "Crossplay de Bedrock: todos en Xbox, PlayStation, Switch, móvil y Windows 10/11 juegan juntos: inicia sesión con una cuenta Microsoft gratuita, añade amigos por gamertag y únete a su mundo. Java Edition no puede jugar cruzado con Bedrock; los jugadores de Java juegan juntos desde cualquier sistema.",
+    "keywords": "minecraft cross platform crossplay xbox playstation switch móvil pc jugar juntos bedrock java",
+    "materials": [
+      "Bedrock Edition en cada dispositivo (misma versión)",
+      "Una cuenta Microsoft gratuita por jugador",
+      "Amigos añadidos por gamertag"
+    ],
+    "steps": [
+      "Comprueba la edición: todo lo que no sea 'Java Edition' en PC/Mac es Bedrock: Xbox, PlayStation, Switch, iPhone, Android y la versión de Windows 10/11 hacen crossplay entre sí.",
+      "Inicia sesión: cada jugador vincula una cuenta Microsoft gratuita en Bedrock (menú principal > Sign In). Eso crea el gamertag que usan los amigos.",
+      "Agregaos por gamertag y luego entra desde la pestaña Friends o usa Invite to Game dentro de un mundo.",
+      "Los mundos también valen: un mundo abierto por un amigo admite a los demás mientras está conectado.",
+      "Opción Realms: un Realm de Bedrock es un mundo siempre online para hasta 10 amigos: es la opción de pago, gestionada por Mojang.",
+      "Java: el crossplay entre Windows, macOS y Linux es automático (mismos servidores). Java no puede jugar con Bedrock sin proxies de servidor no oficiales.",
+      "El bloqueo habitual es la versión: todos deben llevar la misma versión del juego: actualiza primero."
+    ],
+    "versions": "El crossplay exige versiones iguales en todos los dispositivos. Bedrock de consola, móvil y Windows se actualiza al unísono, así que actualizar arregla casi todos los fallos al entrar.",
+    "editionNote": "El crossplay es solo de Bedrock. Java es su propia isla entre sistemas operativos de PC.",
+    "faq": [
+      {
+        "q": "¿PlayStation y Switch pueden jugar juntas?",
+        "a": "Sí: ambas son Bedrock. Agregad vuestros gamertags con el inicio de sesión de cuenta Microsoft y entrad."
+      },
+      {
+        "q": "¿Todos tenemos que pagar por jugar online?",
+        "a": "La cuenta Microsoft es gratis, pero las consolas cobran su propia suscripción online (Game Pass Core, PS Plus, Switch Online) para el multijugador. Móvil y Windows no."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-add-friends",
+      "how-to-play-with-friends",
+      "how-to-join-a-server"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servidores/"
+      }
+    ],
+    "slug": "how-to-play-cross-platform"
+  },
+  "how-to-manage-your-server": {
+    "name": "Cómo administrar tu servidor de Minecraft (OP, whitelist, ban)",
+    "shortTitle": "Administrar servidor",
+    "quickAnswer": "Desde la consola del servidor o como operator: /op Nombre da poderes de admin, /whitelist on más /whitelist add Nombre cierra el servidor solo para amigos, /ban Nombre y /kick Nombre expulsan a los problemáticos. Todo gratis, integrado en el juego.",
+    "keywords": "cómo dar op minecraft servidor whitelist ban kick permisos de operator consola del servidor admin",
+    "materials": [
+      "Tu propio servidor (o acceso a la consola del dueño)",
+      "Los nombres de usuario exactos",
+      "Sin descargas: todo viene integrado"
+    ],
+    "steps": [
+      "OP (operator): ejecuta op NombreJugador en la consola del servidor, o /op NombreJugador como operator existente. Los ops pueden usar todos los comandos: dáselo solo a gente de confianza.",
+      "Quita poderes con /deop NombreJugador.",
+      "Whitelist: /whitelist on cierra el servidor con una lista de invitados. Añade amigos con /whitelist add NombreJugador, quita con /whitelist remove y revisa con /whitelist list.",
+      "Kick contra ban: /kick Nombre les desconecta una vez; /ban Nombre les bloquea el regreso para siempre. /pardon Nombre quita el ban.",
+      "Los operators tienen niveles de permiso (1-4) en server.properties (op-permission-level): el nivel 4 controla el propio servidor.",
+      "Todos estos ajustes también viven como archivos: ops.json, whitelist.json y banned-players.json junto al server jar: edítalos con el servidor parado.",
+      "Aternos y otros hosts ofrecen los mismos comandos en su consola web: sin editar archivos."
+    ],
+    "versions": "Estos comandos son estables desde hace años y funcionan en todas las versiones actuales de servidores Java. Los servidores dedicados de Bedrock usan los mismos comandos.",
+    "editionNote": "¿Realms en vez de servidor propio? El menú de Realms tiene botones de invitación y permisos: no hacen falta comandos.",
+    "faq": [
+      {
+        "q": "¿Debería usar whitelist?",
+        "a": "Sí, siempre, en un servidor de amigos. Es la protección más efectiva: nadie fuera de la lista puede ni conectar."
+      },
+      {
+        "q": "¿Puede un op banear al dueño?",
+        "a": "Con comandos dentro del juego, los ops de nivel 4 pueden casi todo. Solo la consola (tú) les supera: elige ops con cuidado."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-minecraft-server",
+      "how-to-join-a-server",
+      "how-to-enable-cheats"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servidores",
+        "url": "/es/servidores/"
+      }
+    ],
+    "slug": "how-to-manage-your-server"
+  },
+  "how-to-use-a-controller-on-pc": {
+    "name": "Cómo jugar a Minecraft en PC con mando",
+    "shortTitle": "Jugar con mando",
+    "quickAnswer": "Bedrock en Windows: enchufa un mando de Xbox o PlayStation y funciona sin más. Java Edition no admite mandos de forma nativa: añade el mod gratuito Controllable (Fabric/Forge) o juega a través del layout de mando de Steam.",
+    "keywords": "cómo jugar minecraft pc con mando xbox playstation java bedrock mod controllable steam",
+    "materials": [
+      "Un mando de Xbox, PlayStation o Switch Pro (USB o Bluetooth)",
+      "Bedrock en Windows: nada más",
+      "Java: el mod gratuito Controllable o Steam"
+    ],
+    "steps": [
+      "Conecta el mando: el cable USB siempre funciona; el Bluetooth se empareja desde los ajustes de Windows. Los mandos de Xbox son nativos; los de PlayStation también funcionan.",
+      "Bedrock (Windows 10/11): arranca el juego: el mando se detecta al instante con menús completos y vibración. Sin configuración.",
+      "Java: instala Fabric o Forge y añade el mod Controllable gratis de Modrinth o CurseForge: da soporte completo de mando con indicaciones de botones.",
+      "Configura en los ajustes del mod: sensibilidad de sticks, zonas muertas y mapeo de botones, todo ajustable.",
+      "Ruta Steam: añade Minecraft como juego no-Steam y activa Steam Input: Steam traduce el mando a teclado y ratón.",
+      "Los mandos Switch Pro funcionan en ambas rutas; la mira con giroscopio viene de los ajustes del mod o de Steam Input."
+    ],
+    "versions": "El soporte de mando de Bedrock viene integrado en todas las versiones actuales. Controllable sigue cada versión de Java rápidamente.",
+    "editionNote": "La diferencia es nativo contra mod: Bedrock admite mandos de serie, Java necesita un mod gratuito.",
+    "faq": [
+      {
+        "q": "¿El soporte de mando en Java es gratis?",
+        "a": "Sí: el mod Controllable y Steam Input son gratis. No compres software 'activador de mandos'."
+      },
+      {
+        "q": "¿Voy en desventaja en PvP?",
+        "a": "Los mandos apuntan más lento que un ratón: vale para survival y construcción, más difícil en PvP competitivo. Los servidores no saben cuál usas."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-reduce-lag",
+      "how-to-play-cross-platform"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-use-a-controller-on-pc"
   }
 }

@@ -29326,5 +29326,267 @@
         "url": "/advancements/"
       }
     ]
+  },
+  {
+    "slug": "how-to-use-worldedit",
+    "name": "How to Use WorldEdit (Beginner Commands)",
+    "shortTitle": "Use WorldEdit",
+    "quickAnswer": "WorldEdit is a free mod/plugin: get the wooden axe with //wand, left-click one corner and right-click the opposite corner to select, then run commands like //set stone, //replace dirt stone, //copy and //paste. //undo fixes mistakes.",
+    "keywords": "how to use worldedit minecraft commands wand set replace copy paste undo free mod",
+    "materials": [
+      "WorldEdit (free): Fabric/NeoForge mod or server plugin",
+      "Cheats or operator permissions",
+      "A wooden axe (the //wand)"
+    ],
+    "steps": [
+      "Install WorldEdit free: as a Fabric/NeoForge mod for singleplayer, or as a plugin on your server. Modrinth and the official site have it.",
+      "Run //wand to get the wooden axe. Left-click a block for position 1, right-click another for position 2 - the selection is the box between them.",
+      "Fill the selection: //set stone fills everything with stone. //set 50% stone,50% dirt mixes blocks.",
+      "Replace instead of erase: //replace dirt stone swaps only dirt to stone, leaving the rest untouched.",
+      "Copy and paste builds: //copy copies relative to where you stand, //paste puts it down at your feet. //rotate 90 turns the clipboard first.",
+      "Mistakes: //undo reverts your last action, //redo brings it back. Use them freely while learning.",
+      "Handy shapes: //sphere stone 5, //cyl stone 5 1 and //walls stone build quick geometry without selections."
+    ],
+    "versions": "WorldEdit tracks every Minecraft release on both Fabric and NeoForge, plus server platforms. Command syntax is stable for years.",
+    "editionNote": "Java only - WorldEdit does not exist for Bedrock. Bedrock's closest option is the /fill command.",
+    "faq": [
+      {
+        "q": "Is WorldEdit free?",
+        "a": "Yes - the mod and plugin are free from Modrinth or the official WorldEdit site. Never pay for it."
+      },
+      {
+        "q": "Can I crash my server with WorldEdit?",
+        "a": "Huge selections (millions of blocks) can lag or crash - work in smaller chunks and keep //undo close."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-make-a-minecraft-server",
+      "how-to-make-a-circle"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-build-a-house",
+    "name": "How to Build a Good Starter House in Minecraft",
+    "shortTitle": "Build a House",
+    "quickAnswer": "Day-one house: 7x7 footprint, walls 4 blocks high, a door, torches inside and a roof - any wood or stone works. Add windows, a bed, chests and crafting stations, then upgrade with a second floor and a basement.",
+    "keywords": "how to build a house minecraft starter house survival first night easy design materials",
+    "materials": [
+      "About 10 stacks of your main block (logs, planks or stone)",
+      "A door, torches, a bed",
+      "Glass or fences for windows"
+    ],
+    "steps": [
+      "Pick flat ground near resources: wood, water and a village or cave within reach beats a pretty view far from everything.",
+      "Lay a 7x7 or 9x9 footprint - small is fine. Tiny houses are safe, fast and expandable.",
+      "Walls 4 blocks high feel right; 3 is cramped and 5 wastes materials. Mix two materials (logs at corners, planks between) and it already looks designed.",
+      "Door facing away from where mobs wander, torches every few blocks inside - light level keeps monsters out. Carpets on the floor are optional warmth.",
+      "Roof: simple stairs slope is easiest; a flat roof with a slab lip works too. Seal every gap - spiders climb.",
+      "Inside the essentials: bed, 2-4 chests, crafting table, furnace. Add smoker, blast furnace and stonecutter as you grow.",
+      "Upgrade path: glass pane windows, a second floor for enchanting, a basement mine entrance, and a fenced farm beside the door."
+    ],
+    "versions": "Building basics never change - every version works the same. Newer blocks (bamboo, cherry, mud bricks) just give more palettes.",
+    "editionNote": "Identical on Java and Bedrock. Only the block textures differ slightly between editions.",
+    "faq": [
+      {
+        "q": "What is the best block for a first house?",
+        "a": "Whatever is closest: oak planks and cobblestone are the classics because they cost nothing. Upgrade the walls later - the shape matters more than the material."
+      },
+      {
+        "q": "How do I stop monsters from spawning inside?",
+        "a": "Light. Torches every 5-6 blocks keep the floor at light level above zero, and hostile mobs only spawn at light 0."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-bed",
+      "how-to-dye-wool",
+      "how-to-make-a-piston-door"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guides",
+        "url": "/guides/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-add-friends",
+    "name": "How to Add Friends in Minecraft",
+    "shortTitle": "Add Friends",
+    "quickAnswer": "Bedrock: add friends by their Xbox gamertag - pause > Invite to Game, or Profile > Add Friend. Java has no friend system: you meet on servers or share a Realm invite. Cross-platform play works between all Bedrock devices once you are Xbox friends.",
+    "keywords": "how to add friends minecraft gamertag xbox invite to game realms java bedrock cross platform",
+    "materials": [
+      "Bedrock: a free Microsoft account sign-in",
+      "Your friend's Xbox gamertag (not their Minecraft name on Java)",
+      "Java: a server address or Realm invite instead"
+    ],
+    "steps": [
+      "Bedrock: sign in with a free Microsoft account - it unlocks friends, Realms and featured servers.",
+      "Add a friend: pause in a world > Invite to Game > Find Cross-Platform Friends, type their gamertag and send the request. Or use Profile > Add Friend from the main menu.",
+      "Once they accept, their joinable worlds appear in the Friends tab - click to join when they are playing.",
+      "Invite to your world: open it, pause > Invite to Game and pick them from your friends list.",
+      "Java: there is no friend list - give friends your server address, open your world to LAN on the same network, or invite them to a Realm from the Realms menu.",
+      "Gamertags come from the Xbox account, free to create. Console players need their console's online subscription for most online play."
+    ],
+    "versions": "The friends system works on all current Bedrock versions. Gamertag changes: first one free, paid after that.",
+    "editionNote": "Friends are a Bedrock feature. Java multiplayer is server-based - no built-in friend list exists.",
+    "faq": [
+      {
+        "q": "Can Java and Bedrock players be friends?",
+        "a": "Not in-game - the editions cannot join each other's worlds. Bedrock players across Xbox, PlayStation, Switch, mobile and Windows can all friend each other."
+      },
+      {
+        "q": "Is a Microsoft account free?",
+        "a": "Yes - creating and using one for friends costs nothing. Online play on consoles may still require the console's subscription."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-play-with-friends",
+      "how-to-join-a-server",
+      "how-to-change-your-minecraft-name"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-play-cross-platform",
+    "name": "How to Play Minecraft Cross-Platform (Xbox, PlayStation, Switch, Mobile, PC)",
+    "shortTitle": "Play Cross-Platform",
+    "quickAnswer": "Bedrock crossplay: everyone on Xbox, PlayStation, Switch, mobile and Windows 10/11 plays together - sign in with a free Microsoft account, add friends by gamertag and join their world. Java Edition cannot crossplay with Bedrock; Java players play together on any OS.",
+    "keywords": "minecraft cross platform crossplay xbox playstation switch mobile pc play together bedrock java",
+    "materials": [
+      "Bedrock Edition on each device (same version)",
+      "A free Microsoft account per player",
+      "Friends added by gamertag"
+    ],
+    "steps": [
+      "Check the edition: everything except 'Java Edition' on PC/Mac is Bedrock - Xbox, PlayStation, Switch, iPhone, Android and the Windows 10/11 version all crossplay together.",
+      "Sign in: each player links a free Microsoft account in Bedrock (main menu > Sign In). This creates the gamertag friends use.",
+      "Add each other by gamertag, then join from the Friends tab or use Invite to Game inside a world.",
+      "Worlds work too: a world opened by one friend is joinable by the others while they are online.",
+      "Realms option: a Bedrock Realm is a always-online world for up to 10 friends - it is the paid option, run by Mojang.",
+      "Java: crossplay between Windows, macOS and Linux is automatic (same servers). Java cannot play with Bedrock without unofficial server proxies.",
+      "Version mismatch is the usual blocker: everyone must run the same game version - update first."
+    ],
+    "versions": "Crossplay requires matching versions across devices. Console, mobile and Windows Bedrock update in lockstep, so updates fix most join failures.",
+    "editionNote": "Crossplay is Bedrock-only. Java is its own island across PC operating systems.",
+    "faq": [
+      {
+        "q": "Can PlayStation and Switch play together?",
+        "a": "Yes - both run Bedrock. Add each other's gamertags through the Microsoft account sign-in and join."
+      },
+      {
+        "q": "Do we all need to pay for online play?",
+        "a": "The Microsoft account is free, but consoles charge their own online subscription (Game Pass Core, PS Plus, Switch Online) for multiplayer. Mobile and Windows do not."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-add-friends",
+      "how-to-play-with-friends",
+      "how-to-join-a-server"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-manage-your-server",
+    "name": "How to Manage Your Minecraft Server (OP, Whitelist, Ban)",
+    "shortTitle": "Manage Your Server",
+    "quickAnswer": "From the server console or as an operator: /op Name gives admin powers, /whitelist on plus /whitelist add Name locks the server to friends only, /ban Name and /kick Name remove troublemakers. All free, built into the game.",
+    "keywords": "how to op someone minecraft server whitelist ban kick operator permissions server console admin",
+    "materials": [
+      "Your own server (or the owner's console access)",
+      "Player usernames exactly as written",
+      "No downloads - everything is built in"
+    ],
+    "steps": [
+      "OP (operator): run op PlayerName in the server console, or /op PlayerName as an existing operator. Ops can use every command - give it only to people you trust.",
+      "Remove powers with /deop PlayerName.",
+      "Whitelist: /whitelist on locks the server to an invite list. Add friends with /whitelist add PlayerName, remove with /whitelist remove, and check with /whitelist list.",
+      "Kick vs ban: /kick Name disconnects them once; /ban Name blocks rejoining permanently. /pardon Name unbans.",
+      "Operators have permission levels (1-4) set in server.properties (op-permission-level) - level 4 controls the server itself.",
+      "All these settings live as files too: ops.json, whitelist.json and banned-players.json next to the server jar - edit with the server stopped.",
+      "Aternos and other hosts expose the same commands in their web console - no file editing needed."
+    ],
+    "versions": "These commands have been stable for years and work on every current Java server version. Bedrock dedicated servers use the same commands.",
+    "editionNote": "Realms instead of a self-hosted server? The Realms menu has invite and permission buttons - no commands needed.",
+    "faq": [
+      {
+        "q": "Should I use a whitelist?",
+        "a": "Yes, always, for a friends-only server. It is the single most effective protection - nobody outside the list can even connect."
+      },
+      {
+        "q": "Can an op ban the owner?",
+        "a": "From in-game commands, level-4 ops can do almost everything. Only the console (you) outranks them - choose ops carefully."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-minecraft-server",
+      "how-to-join-a-server",
+      "how-to-enable-cheats"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Servers",
+        "url": "/servers/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-use-a-controller-on-pc",
+    "name": "How to Play Minecraft on PC with a Controller",
+    "shortTitle": "Use a Controller",
+    "quickAnswer": "Bedrock on Windows: plug in an Xbox or PlayStation controller and it just works. Java Edition has no native controller support - add the free Controllable mod (Fabric/Forge) or play through Steam's controller layout.",
+    "keywords": "how to play minecraft pc controller xbox playstation java bedrock controllable mod steam",
+    "materials": [
+      "An Xbox, PlayStation or Switch Pro controller (USB or Bluetooth)",
+      "Bedrock on Windows: nothing else",
+      "Java: the free Controllable mod or Steam"
+    ],
+    "steps": [
+      "Connect the controller: USB cable always works; Bluetooth pairs from Windows settings. Xbox controllers are native; PlayStation works too.",
+      "Bedrock (Windows 10/11): launch the game - the controller is detected instantly with full menus and vibration. No setup.",
+      "Java: install Fabric or Forge, then add the Controllable mod free from Modrinth or CurseForge - it adds full controller support with button prompts.",
+      "Configure in the mod's settings: stick sensitivity, dead zones and button mapping are all adjustable.",
+      "Steam route: add Minecraft as a non-Steam game and enable Steam Input - Steam translates the controller to keyboard and mouse.",
+      "Switch Pro controllers work on both routes; gyro aiming comes from the mod settings or Steam Input."
+    ],
+    "versions": "Bedrock controller support is built into every current version. Controllable tracks each Java release quickly.",
+    "editionNote": "The difference is native vs modded: Bedrock supports controllers out of the box, Java needs a free mod.",
+    "faq": [
+      {
+        "q": "Is controller support on Java free?",
+        "a": "Yes - the Controllable mod and Steam Input are both free. Do not buy 'controller enabler' software."
+      },
+      {
+        "q": "Will I be at a disadvantage in PvP?",
+        "a": "Controllers aim slower than a mouse - fine for survival and building, harder in competitive PvP. Servers cannot tell which you use."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-reduce-lag",
+      "how-to-play-cross-platform"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
   }
 ]
