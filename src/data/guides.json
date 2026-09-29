@@ -27086,5 +27086,318 @@
         "url": "/servers/"
       }
     ]
+  },
+  {
+    "slug": "how-to-make-a-water-elevator",
+    "name": "How to Make a Water Elevator in Minecraft",
+    "shortTitle": "Make a Water Elevator",
+    "quickAnswer": "Build a 1x1 water column of source blocks, then swap the floor block: soul sand makes a bubble column that blasts you upward, and a magma block makes a whirlpool that pulls you down. Every block of the column must be a water source - grow kelp up through flowing water to convert it.",
+    "keywords": "water elevator minecraft bubble column soul sand magma block kelp source blocks how to build",
+    "materials": [
+      "1 soul sand (up elevator) and/or 1 magma block (down elevator)",
+      "Water buckets (2+ for an infinite source, or 1 plus kelp)",
+      "Kelp to convert flowing water into source blocks",
+      "Building blocks and signs or a door to hold the water in"
+    ],
+    "steps": [
+      "Build a 1x1 vertical shaft with walls, from the bottom floor to the top exit. Hold the water in with signs, trapdoors or a door at the entrance.",
+      "Fill the shaft with water so every block is a source block: the fast way is to place one water source at the bottom, then plant kelp and grow it to the top - growing kelp turns each flowing block into a source.",
+      "Break the kelp from the bottom: the whole column stays as source water.",
+      "Up elevator: replace the floor block of the shaft with soul sand. After a second, bubbles appear - step in and you shoot to the top.",
+      "Down elevator: use a magma block instead. The whirlpool pulls you down fast and you land safely on the magma block (it deals no damage while you stand still in the column).",
+      "Combine both: two adjacent shafts, one soul sand for up, one magma for down, sharing walls.",
+      "Add a water source at the top entrance so you can also swim in from the top, and light the shaft so drowned cannot spawn in it."
+    ],
+    "versions": "Bubble columns were added in the Update Aquatic (Java 1.13 / Bedrock 1.5). The mechanic is identical in both editions.",
+    "editionNote": "Works the same in Java and Bedrock. In Bedrock, entering the top of an up-column is slightly smoother at high speeds.",
+    "faq": [
+      {
+        "q": "Why are there no bubbles?",
+        "a": "Almost always a flowing-water block in the column. Every single block between the soul sand or magma and the surface must be a source block - grow kelp all the way up and break it to fix gaps."
+      },
+      {
+        "q": "Does the magma block hurt?",
+        "a": "Standing on magma deals 1 damage per tick - but sneaking negates it, and in a down elevator you only touch it for an instant. Use a hopper minecart or carpet under the exit if you want zero risk."
+      },
+      {
+        "q": "Can I go up faster?",
+        "a": "Bubble columns are already the fastest vertical transport in vanilla. Dolphin's grace, Depth Strider or a swiftness potion add a small boost inside the column."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-glowstone",
+      "how-to-breathe-underwater"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Soul Sand",
+        "url": "/items/soul-sand/"
+      },
+      {
+        "label": "Magma Block",
+        "url": "/items/magma-block/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-teleport",
+    "name": "How to Teleport in Minecraft (Commands and Survival)",
+    "shortTitle": "Teleport",
+    "quickAnswer": "With cheats on, open chat and run /tp @s X Y Z to teleport to coordinates, or /tp @s PlayerName to jump to another player. Without cheats, teleporting means ender pearls, chorus fruit or portals - there is no free teleport in survival.",
+    "keywords": "how to teleport minecraft tp command coordinates ender pearl chorus fruit cheats survival",
+    "materials": [
+      "Cheats enabled for command teleporting (or operator on a server)",
+      "Ender pearls for survival teleporting",
+      "Chorus fruit for short random hops"
+    ],
+    "steps": [
+      "Command teleport: enable cheats, open chat and type /tp @s 100 64 -250 to teleport to those coordinates. Use ~ for relative jumps: /tp @s ~50 ~ ~ moves you 50 blocks east.",
+      "Teleport to a player: /tp @s Alex sends you to Alex. On servers, /tp Alex Steve teleports one player to another (operator only).",
+      "Bring something to you: /tp @e[type=cow,limit=1] @s teleports the nearest cow to you - handy for lost pets with name tags.",
+      "Bedrock extras: /tp also accepts facing angles, and both editions support /teleport as an alias of /tp.",
+      "Survival teleport 1: throw an ender pearl. You land where it lands and take 5 fall damage - wear Feather Falling and never pearl into unloaded gaps.",
+      "Survival teleport 2: eat chorus fruit for a random 8-block teleport in any direction, including through walls and downward. It can save you from a cave-in or drop you into lava.",
+      "Survival teleport 3: portals. Nether travel moves you 8 overworld blocks per nether block, so a portal pair is the fastest long-distance 'teleport' without cheats.",
+      "Safety: before teleporting, note your current coordinates (F3 on Java, or the world 'show coordinates' setting on Bedrock) so you can always teleport back."
+    ],
+    "versions": "/tp has existed since Java Classic (modern form since 1.3.1) and in Bedrock since early versions. Ender pearls teleport since Beta 1.9; chorus fruit since 1.9.",
+    "editionNote": "Command syntax is the same in both editions. In Java, F3 shows coordinates; in Bedrock, enable Show Coordinates in world settings - no cheats needed for that toggle.",
+    "faq": [
+      {
+        "q": "How do I teleport without cheats?",
+        "a": "Ender pearls, chorus fruit and nether portals are the only vanilla options. Many multiplayer servers add /home, /spawn and /tpa commands - check the server's help menu."
+      },
+      {
+        "q": "Why does /tp kill me sometimes?",
+        "a": "You can teleport into blocks or over the void: the command does not check safety. Aim a few blocks above ground (Y is the middle coordinate) and pick a spot you have seen."
+      },
+      {
+        "q": "Can I teleport to my bed?",
+        "a": "Not with vanilla commands - there is no bed coordinate lookup. Die with keepInventory off and you respawn at your bed; otherwise note the bed's coordinates and /tp there."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-ender-pearls",
+      "how-to-get-chorus-fruit",
+      "how-to-make-nether-portal"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Commands",
+        "url": "/commands/"
+      },
+      {
+        "label": "Ender Pearl",
+        "url": "/items/ender-pearl/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-find-your-way-home",
+    "name": "How to Find Your Way Home in Minecraft",
+    "shortTitle": "Find Your Way Home",
+    "quickAnswer": "Write down your base coordinates (F3 on Java, Show Coordinates on Bedrock) and navigate back to them. A compass always points to world spawn, a recovery compass to your last death, and a lodestone-linked compass to any base you choose.",
+    "keywords": "find your way home minecraft lost how to get back coordinates compass lodestone recovery compass",
+    "materials": [
+      "Coordinates of your base - write them down before exploring",
+      "A compass (4 iron + 1 redstone)",
+      "Optional: recovery compass or a lodestone-linked compass",
+      "Torches or trail markers for cave systems"
+    ],
+    "steps": [
+      "Before exploring: stand at your base door and screenshot the coordinates. Java: press F3 and read the XYZ line. Bedrock: enable Show Coordinates in world settings (no cheats needed).",
+      "To return, walk so your current X and Z approach the base values - Y (height) rarely matters on the surface.",
+      "Compass: a normal compass points to world spawn. If your base is near spawn, follow it; if not, it is still a fixed reference point you can navigate from.",
+      "Lodestone compass: use a compass on a lodestone placed at your base and it points to that lodestone forever - the true 'point me home' item, working in any dimension.",
+      "Recovery compass: craft one with echo shards from an ancient city; it points to your last death spot, not your base - perfect for corpse runs.",
+      "Lost without coordinates: climb high at sunrise and look for terrain you remember, check your maps, or retrace with torches. As a last resort, dying respawns you at your bed (you lose your items unless keepInventory is on).",
+      "Prevention habits: sleep in a bed to set spawn, carry 8+ torches and place them always on the same side in caves (right going in, left coming out), and make a map of the area around base."
+    ],
+    "versions": "Compasses point to world spawn since Alpha. Lodestones arrived in 1.16 (Nether Update) and the recovery compass in 1.19 (The Wild Update).",
+    "editionNote": "Everything works the same in both editions. Coordinate display differs: F3 on Java, the Show Coordinates toggle on Bedrock.",
+    "faq": [
+      {
+        "q": "My compass spins randomly - why?",
+        "a": "It is lodestone-linked and its lodestone was broken, or you are in a different dimension from the lodestone. Normal compasses only break logic near the world border or in other dimensions, where they spin uselessly."
+      },
+      {
+        "q": "Do compasses work in the Nether?",
+        "a": "Normal compasses and clocks spin randomly in the Nether and the End. Lodestone compasses work everywhere as long as their lodestone is in the same dimension."
+      },
+      {
+        "q": "I died far away and lost everything - how do I get back?",
+        "a": "A recovery compass points exactly to your death spot. Without one, note that items despawn after 5 minutes of loaded time - run, and the timer only ticks while the chunk is loaded."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-a-lodestone",
+      "how-to-make-compass",
+      "how-to-make-a-map"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Compass",
+        "url": "/items/compass/"
+      },
+      {
+        "label": "Recovery Compass",
+        "url": "/items/recovery-compass/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-crawl",
+    "name": "How to Crawl in Minecraft (1-Block Spaces)",
+    "shortTitle": "Crawl",
+    "quickAnswer": "Crawling is automatic: close a trapdoor over yourself, or swim or fly into a 1-block-high gap, and your character drops to a 0.625-block-tall crawl that fits through single-block spaces. There is no crawl key - the pose triggers whenever your head would hit a block.",
+    "keywords": "how to crawl minecraft 1 block gap trapdoor crawling swift sneak sneak under",
+    "materials": [
+      "A trapdoor (any wood) for the classic crawl trigger",
+      "Optional: a piston or fence gate as alternatives",
+      "Swift Sneak leggings to crawl faster"
+    ],
+    "steps": [
+      "Place a trapdoor on the floor-level block at the entrance of your 1-block gap and flip it open vertically.",
+      "Walk into the trapdoor and close it over yourself (right-click): your character instantly drops into the crawling pose.",
+      "Move forward into the 1-block space. You travel at sneaking speed and fit anywhere a single block of air exists.",
+      "Other triggers: swim into a 1-block gap (you stay prone), fly in with an elytra, throw an ender pearl into the gap, or have a piston push a block over you.",
+      "To stop crawling, move into a space at least 1.5 blocks high: you stand up automatically.",
+      "Crawl faster: Swift Sneak leggings (ancient city loot) raise crawl speed - at Swift Sneak III you crawl nearly at walking pace.",
+      "Uses: 1-block mob-proof tunnels, secret bases, strip mining with a 1x1 profile, and reaching items under slab floors."
+    ],
+    "versions": "Crawling became an automatic mechanic in Java 1.14 (it started as a swimming side-effect in 1.13). Bedrock added proper crawling in the 1.20 updates.",
+    "editionNote": "Both editions crawl automatically now. Java triggers are slightly more generous (more block types force the pose); the trapdoor method works everywhere.",
+    "faq": [
+      {
+        "q": "Is there a crawl button?",
+        "a": "No. Crawling is not a keybind like sneaking - your character crawls only when a block forces the pose, and stands up when there is headroom again."
+      },
+      {
+        "q": "Can mobs follow me into a 1-block tunnel?",
+        "a": "Most cannot: zombies and skeletons are too tall. Baby zombies, silverfish, endermites and cave spiders fit - light the tunnel and you are safe from everything else."
+      },
+      {
+        "q": "Does crawling make you slower than sneaking?",
+        "a": "Same base speed as sneaking. Swift Sneak enchantments speed both up, which is why they are the best leggings enchantment for tunnel networks."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-swift-sneak",
+      "how-to-make-a-trapdoor",
+      "how-to-fly-elytra"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Trapdoor",
+        "url": "/items/oak-trapdoor/"
+      },
+      {
+        "label": "Swift Sneak",
+        "url": "/enchantments/swift-sneak/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-tinted-glass",
+    "name": "How to Make Tinted Glass in Minecraft",
+    "shortTitle": "Make Tinted Glass",
+    "quickAnswer": "Craft 1 glass block with 4 amethyst shards to get 2 tinted glass: a glass variant that blocks 100% of light while staying see-through. It is the only mob-proof transparent block and, unlike normal glass, it always drops itself when broken.",
+    "keywords": "tinted glass minecraft recipe amethyst shards block light mob spawning see through dark window",
+    "materials": [
+      "1 glass block per craft (smelt sand)",
+      "4 amethyst shards per craft (amethyst geodes)",
+      "A crafting table"
+    ],
+    "steps": [
+      "Find an amethyst geode (they generate underground from Y=70 down, often exposed in caves and oceans) and mine amethyst clusters with any pickaxe - fully grown clusters drop 4 shards.",
+      "Smelt sand into glass in a furnace.",
+      "Place the glass in the center of the crafting grid with amethyst shards above, below, left and right.",
+      "Collect 2 tinted glass per craft.",
+      "Build with it: tinted glass looks like smoked glass but blocks ALL light - daylight and torchlight stop dead at the block.",
+      "Control light with it: mobs spawn in the dark space behind tinted glass just like behind any solid block, so its real uses are dark rooms you can see into or out of, hiding light sources, and mob farms with viewing windows.",
+      "Break it freely: tinted glass drops itself with any tool or bare hands - no Silk Touch needed, unlike normal glass."
+    ],
+    "versions": "Tinted glass was added in 1.17 (Caves & Cliffs Part I) on both editions.",
+    "editionNote": "Identical recipe and behavior in Java and Bedrock.",
+    "faq": [
+      {
+        "q": "Does tinted glass block mob spawning?",
+        "a": "No - it blocks light, not spawning. A room behind tinted glass stays dark and mobs CAN spawn there, exactly like behind stone. That is what makes it perfect for mob-farm viewing windows and dark rooms you can still see out of."
+      },
+      {
+        "q": "Tinted glass vs stained glass - what is the difference?",
+        "a": "Stained glass is colored but transparent to light; tinted glass is neutral smoked glass that blocks light entirely. Stained is decoration, tinted is a light-control tool."
+      },
+      {
+        "q": "Do I need Silk Touch?",
+        "a": "No - tinted glass always drops itself, even broken by hand. It is one of the most forgiving building blocks in the game."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-amethyst",
+      "how-to-get-amethyst-shards",
+      "how-to-make-glass"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Amethyst Shard",
+        "url": "/items/amethyst-shard/"
+      },
+      {
+        "label": "Glass",
+        "url": "/items/glass/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-use-a-lodestone",
+    "name": "How to Use a Lodestone in Minecraft",
+    "shortTitle": "Use a Lodestone",
+    "quickAnswer": "Craft a lodestone from 8 chiseled stone bricks + 1 iron ingot, place it at your base, and use a compass on it: that compass points to the lodestone from anywhere in the same dimension. It is the only way to make a compass track a custom point.",
+    "keywords": "lodestone minecraft how to use compass link custom waypoint chiseled stone bricks recipe navigation",
+    "materials": [
+      "8 chiseled stone bricks (stonecutter or 2 stone brick slabs stacked)",
+      "1 iron ingot",
+      "1 compass per waypoint you want to track"
+    ],
+    "steps": [
+      "Craft chiseled stone bricks: run stone bricks through a stonecutter, or stack 2 stone brick slabs.",
+      "Craft the lodestone: fill the crafting grid with 8 chiseled stone bricks and put 1 iron ingot in the center. (The recipe was cheapened from netherite to iron in the Spring to Life update.)",
+      "Place the lodestone somewhere permanent - your base entrance is ideal. It needs a pickaxe to mine back.",
+      "Hold a compass and use it (right-click) on the lodestone. The compass enchants-glints and locks to that block.",
+      "Follow it home: the linked compass points at the lodestone from any distance, as long as you are in the same dimension.",
+      "Make one per dimension: a lodestone compass only works in the lodestone's dimension, so keep separate linked compasses for your overworld base, nether hub and end gateway.",
+      "If the lodestone breaks, every compass linked to it spins randomly - replace the lodestone and re-link them."
+    ],
+    "versions": "Lodestones were added in 1.16 (Nether Update). The recipe changed from a netherite ingot to an iron ingot in 1.21.5 (Spring to Life).",
+    "editionNote": "Same crafting and linking in Java and Bedrock. Lodestones also generate in ruined portal chests.",
+    "faq": [
+      {
+        "q": "Does a lodestone compass work in other dimensions?",
+        "a": "No - it must be in the same dimension as its lodestone. A nether lodestone compass is useless in the overworld and vice versa."
+      },
+      {
+        "q": "Can other players use my lodestone?",
+        "a": "Only if they link their own compass to it. Lodestones are not beacons - each compass is linked individually, and there is no limit to how many compasses point at one lodestone."
+      },
+      {
+        "q": "What happens if I lose the linked compass?",
+        "a": "Craft a new compass and right-click the lodestone again. Linking is free and instant - the lodestone never runs out."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-your-way-home",
+      "how-to-make-compass"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Lodestone",
+        "url": "/items/lodestone/"
+      },
+      {
+        "label": "Compass",
+        "url": "/items/compass/"
+      }
+    ]
   }
 ]

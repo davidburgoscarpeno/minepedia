@@ -23831,5 +23831,284 @@
         "url": "/es/servers/"
       }
     ]
+  },
+  "how-to-make-a-water-elevator": {
+    "name": "Cómo hacer un water elevator en Minecraft",
+    "shortTitle": "Hacer un water elevator",
+    "quickAnswer": "Construye una columna de agua de 1x1 con bloques fuente y cambia el bloque del suelo: soul sand crea una bubble column que te lanza hacia arriba y un magma block crea un remolino que te arrastra hacia abajo. Cada bloque de la columna debe ser una water source: haz crecer kelp a través del agua corriente para convertirla.",
+    "keywords": "water elevator minecraft bubble column soul sand magma block kelp source blocks cómo construir",
+    "materials": [
+      "1 soul sand (elevador de subida) y/o 1 magma block (de bajada)",
+      "Water buckets (2+ para una fuente infinita, o 1 más kelp)",
+      "Kelp para convertir el agua corriente en source blocks",
+      "Bloques de construcción y signs o una door para contener el agua"
+    ],
+    "steps": [
+      "Construye un hueco vertical de 1x1 con paredes, desde el suelo hasta la salida superior. Contén el agua con signs, trapdoors o una door en la entrada.",
+      "Llena el hueco de agua para que cada bloque sea un source block: la forma rápida es poner una fuente abajo, plantar kelp y hacerlo crecer hasta arriba: el kelp al crecer convierte cada bloque de agua corriente en fuente.",
+      "Rompe el kelp desde abajo: toda la columna queda como agua fuente.",
+      "Elevador de subida: cambia el bloque del suelo del hueco por soul sand. Al segundo aparecen burbujas: entra y sales disparado arriba.",
+      "Elevador de bajada: usa un magma block en su lugar. El remolino te baja rápido y aterrizas a salvo sobre el magma block (no hace daño mientras estás quieto en la columna).",
+      "Combina ambos: dos huecos adyacentes, uno con soul sand para subir y otro con magma para bajar, compartiendo paredes.",
+      "Pon una fuente de agua en la entrada superior para poder entrar también desde arriba, e ilumina el hueco para que no aparezcan drowned."
+    ],
+    "versions": "Las bubble columns se añadieron en la Update Aquatic (Java 1.13 / Bedrock 1.5). La mecánica es idéntica en ambas ediciones.",
+    "editionNote": "Funciona igual en Java y Bedrock. En Bedrock, entrar por arriba en una columna ascendente es un poco más suave a altas velocidades.",
+    "faq": [
+      {
+        "q": "¿Por qué no salen burbujas?",
+        "a": "Casi siempre es un bloque de agua corriente en la columna. Cada bloque entre la soul sand o el magma y la superficie debe ser un source block: haz crecer kelp hasta arriba y rómpelo para arreglar los huecos."
+      },
+      {
+        "q": "¿El magma block hace daño?",
+        "a": "Estar sobre magma quita 1 de daño por tick, pero agacharse lo anula, y en un elevador de bajada solo lo tocas un instante. Usa una hopper minecart o carpet bajo la salida si quieres riesgo cero."
+      },
+      {
+        "q": "¿Puedo subir más rápido?",
+        "a": "Las bubble columns ya son el transporte vertical más rápido del vanilla. Dolphin's grace, Depth Strider o una poción de swiftness dan un pequeño extra dentro de la columna."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Soul Sand",
+        "url": "/es/items/soul-sand/"
+      },
+      {
+        "label": "Magma Block",
+        "url": "/es/items/magma-block/"
+      }
+    ]
+  },
+  "how-to-teleport": {
+    "name": "Cómo teletransportarse en Minecraft (comandos y survival)",
+    "shortTitle": "Teletransportarse",
+    "quickAnswer": "Con los cheats activados, abre el chat y ejecuta /tp @s X Y Z para teletransportarte a unas coordenadas, o /tp @s NombreDeJugador para saltar a otro jugador. Sin cheats, teletransportarse significa ender pearls, chorus fruit o portales: no hay teletransporte gratis en survival.",
+    "keywords": "cómo teletransportarse minecraft tp command coordenadas ender pearl chorus fruit cheats survival",
+    "materials": [
+      "Cheats activados para teletransporte por comandos (o ser operador en un servidor)",
+      "Ender pearls para teletransporte en survival",
+      "Chorus fruit para saltos cortos aleatorios"
+    ],
+    "steps": [
+      "Teletransporte por comando: activa los cheats, abre el chat y escribe /tp @s 100 64 -250 para ir a esas coordenadas. Usa ~ para saltos relativos: /tp @s ~50 ~ ~ te mueve 50 bloques al este.",
+      "Teletransportarse a un jugador: /tp @s Alex te envía con Alex. En servidores, /tp Alex Steve teletransporta a un jugador con otro (solo operadores).",
+      "Trae algo hacia ti: /tp @e[type=cow,limit=1] @s teletransporta la cow más cercana a ti: útil para mascotas perdidas con name tag.",
+      "Extras de Bedrock: /tp también acepta ángulos de visión, y en ambas ediciones /teleport es un alias de /tp.",
+      "Teletransporte survival 1: lanza una ender pearl. Aterrizas donde cae y recibes 5 de daño de caída: lleva Feather Falling y nunca lances pearls a huecos no cargados.",
+      "Teletransporte survival 2: come chorus fruit para un teletransporte aleatorio de 8 bloques en cualquier dirección, incluso a través de paredes y hacia abajo. Puede salvarte de un derrumbe o meterte en lava.",
+      "Teletransporte survival 3: portales. Viajar por el Nether te mueve 8 bloques del overworld por cada bloque del nether, así que un par de portales es el 'teletransporte' de larga distancia más rápido sin cheats.",
+      "Seguridad: antes de teletransportarte, apunta tus coordenadas actuales (F3 en Java, o el ajuste Show Coordinates del mundo en Bedrock) para poder volver siempre."
+    ],
+    "versions": "/tp existe desde Java Classic (forma moderna desde 1.3.1) y en Bedrock desde las primeras versiones. Las ender pearls teletransportan desde la Beta 1.9; el chorus fruit desde la 1.9.",
+    "editionNote": "La sintaxis del comando es la misma en ambas ediciones. En Java, F3 muestra las coordenadas; en Bedrock, activa Show Coordinates en los ajustes del mundo: ese toggle no necesita cheats.",
+    "faq": [
+      {
+        "q": "¿Cómo me teletransporto sin cheats?",
+        "a": "Ender pearls, chorus fruit y portales del nether son las únicas opciones vanilla. Muchos servidores multiplayer añaden /home, /spawn y /tpa: mira el menú de ayuda del servidor."
+      },
+      {
+        "q": "¿Por qué /tp me mata a veces?",
+        "a": "Puedes teletransportarte dentro de bloques o sobre el void: el comando no comprueba seguridad. Apunta unos bloques por encima del suelo (Y es la coordenada del medio) y elige un sitio que hayas visto."
+      },
+      {
+        "q": "¿Puedo teletransportarme a mi cama?",
+        "a": "No con comandos vanilla: no hay consulta de coordenadas de la cama. Muere con keepInventory desactivado y reaparecerás en tu cama; si no, apunta las coordenadas de la cama y haz /tp allí."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      },
+      {
+        "label": "Ender Pearl",
+        "url": "/es/items/ender-pearl/"
+      }
+    ]
+  },
+  "how-to-find-your-way-home": {
+    "name": "Cómo encontrar el camino a casa en Minecraft",
+    "shortTitle": "Encontrar el camino a casa",
+    "quickAnswer": "Apunta las coordenadas de tu base (F3 en Java, Show Coordinates en Bedrock) y navega de vuelta a ellas. Una compass siempre apunta al world spawn, una recovery compass a tu última muerte, y una compass vinculada a un lodestone a la base que tú elijas.",
+    "keywords": "encontrar el camino a casa minecraft perdido cómo volver coordenadas compass lodestone recovery compass",
+    "materials": [
+      "Las coordenadas de tu base: apúntalas antes de explorar",
+      "Una compass (4 iron + 1 redstone)",
+      "Opcional: recovery compass o una compass vinculada a lodestone",
+      "Torches o marcadores de rastro para las cuevas"
+    ],
+    "steps": [
+      "Antes de explorar: ponte en la puerta de tu base y haz captura de las coordenadas. Java: pulsa F3 y lee la línea XYZ. Bedrock: activa Show Coordinates en los ajustes del mundo (no necesita cheats).",
+      "Para volver, camina de modo que tu X y tu Z actuales se acerquen a los de la base: la Y (altura) rara vez importa en superficie.",
+      "Compass: una compass normal apunta al world spawn. Si tu base está cerca del spawn, síguela; si no, sigue siendo un punto de referencia fijo desde el que navegar.",
+      "Compass de lodestone: usa una compass sobre un lodestone colocado en tu base y apuntará a ese lodestone para siempre: el verdadero objeto 'llévame a casa', y funciona en cualquier dimensión.",
+      "Recovery compass: fabrica una con echo shards de una ancient city; apunta a tu último punto de muerte, no a tu base: perfecta para recuperar tu cadáver.",
+      "Perdido sin coordenadas: sube alto al amanecer y busca terreno que recuerdes, consulta tus mapas o retrocede con antorchas. Como último recurso, morir te hace reaparecer en tu cama (pierdes los objetos si keepInventory está desactivado).",
+      "Hábitos de prevención: duerme en una bed para fijar tu spawn, lleva 8+ torches y colócalas siempre en el mismo lado en las cuevas (derecha al entrar, izquierda al salir), y haz un map de la zona alrededor de la base."
+    ],
+    "versions": "Las compasses apuntan al world spawn desde Alpha. Los lodestones llegaron en la 1.16 (Nether Update) y la recovery compass en la 1.19 (The Wild Update).",
+    "editionNote": "Todo funciona igual en ambas ediciones. La visualización de coordenadas difiere: F3 en Java, el toggle Show Coordinates en Bedrock.",
+    "faq": [
+      {
+        "q": "Mi compass gira locamente, ¿por qué?",
+        "a": "Está vinculada a un lodestone que se rompió, o estás en una dimensión distinta a la del lodestone. Las compasses normales solo fallan cerca del world border o en otras dimensiones, donde giran inútilmente."
+      },
+      {
+        "q": "¿Las compasses funcionan en el Nether?",
+        "a": "Las compasses y clocks normales giran aleatoriamente en el Nether y el End. Las compasses de lodestone funcionan en todas partes mientras su lodestone esté en la misma dimensión."
+      },
+      {
+        "q": "Morí lejos y lo perdí todo, ¿cómo vuelvo?",
+        "a": "Una recovery compass apunta exactamente a tu punto de muerte. Sin una, ten en cuenta que los objetos desaparecen tras 5 minutos de tiempo cargado: corre, y el contador solo corre mientras el chunk esté cargado."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Compass",
+        "url": "/es/items/compass/"
+      },
+      {
+        "label": "Recovery Compass",
+        "url": "/es/items/recovery-compass/"
+      }
+    ]
+  },
+  "how-to-crawl": {
+    "name": "Cómo gatear en Minecraft (huecos de 1 bloque)",
+    "shortTitle": "Gatear",
+    "quickAnswer": "Gatear es automático: cierra una trapdoor sobre ti, o nada o vuela hacia un hueco de 1 bloque de alto, y tu personaje pasa a una postura de 0,625 bloques que cabe por huecos de un solo bloque. No hay tecla de gatear: la postura se activa cuando tu cabeza chocaría con un bloque.",
+    "keywords": "cómo gatear minecraft hueco de 1 bloque trapdoor crawling swift sneak agacharse",
+    "materials": [
+      "Una trapdoor (de cualquier madera) para el disparador clásico",
+      "Opcional: un piston o fence gate como alternativas",
+      "Leggings con Swift Sneak para gatear más rápido"
+    ],
+    "steps": [
+      "Coloca una trapdoor en el bloque a nivel del suelo de la entrada de tu hueco de 1 bloque y ábrela en vertical.",
+      "Camina hacia la trapdoor y ciérrala sobre ti (clic derecho): tu personaje cae al instante en la postura de gatear.",
+      "Avanza hacia el hueco de 1 bloque. Te mueves a velocidad de sneak y cabes por cualquier sitio con un solo bloque de aire.",
+      "Otros disparadores: nada hacia un hueco de 1 bloque (te quedas tumbado), vuela hacia él con una elytra, lanza una ender pearl al hueco, o haz que un piston empuje un bloque sobre ti.",
+      "Para dejar de gatear, muévete a un espacio de al menos 1,5 bloques de alto: te levantas automáticamente.",
+      "Gatea más rápido: los leggings con Swift Sneak (loot de ancient cities) suben la velocidad de gateo: con Swift Sneak III gateas casi a ritmo de caminar.",
+      "Usos: túneles de 1 bloque a prueba de mobs, bases secretas, minería de 1x1, y alcanzar objetos bajo suelos de slabs."
+    ],
+    "versions": "Gatear se convirtió en mecánica automática en Java 1.14 (empezó como efecto secundario de la natación en 1.13). Bedrock añadió el gateo completo en las actualizaciones 1.20.",
+    "editionNote": "Ambas ediciones gatean automáticamente ahora. Java tiene disparadores algo más generosos (más tipos de bloque fuerzan la postura); el método de la trapdoor funciona en todas partes.",
+    "faq": [
+      {
+        "q": "¿Hay un botón de gatear?",
+        "a": "No. Gatear no es una tecla como sneak: tu personaje gatea solo cuando un bloque fuerza la postura, y se levanta cuando vuelve a haber espacio."
+      },
+      {
+        "q": "¿Pueden seguirme los mobs a un túnel de 1 bloque?",
+        "a": "La mayoría no: zombies y skeletons son demasiado altos. Los baby zombies, silverfish, endermites y cave spiders sí caben: ilumina el túnel y estarás a salvo de todo lo demás."
+      },
+      {
+        "q": "¿Gatear es más lento que sneak?",
+        "a": "Misma velocidad base que sneak. Los encantamientos Swift Sneak aceleran ambos, por eso son el mejor encantamiento de leggings para redes de túneles."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Trapdoor",
+        "url": "/es/items/oak-trapdoor/"
+      },
+      {
+        "label": "Swift Sneak",
+        "url": "/es/enchantments/swift-sneak/"
+      }
+    ]
+  },
+  "how-to-make-tinted-glass": {
+    "name": "Cómo hacer tinted glass en Minecraft",
+    "shortTitle": "Hacer tinted glass",
+    "quickAnswer": "Craftea 1 bloque de glass con 4 amethyst shards para obtener 2 tinted glass: una variante de cristal que bloquea el 100% de la luz sin dejar de ser transparente. Es el único bloque transparente a prueba de mobs y, a diferencia del glass normal, siempre se suelta al romperlo.",
+    "keywords": "tinted glass minecraft receta amethyst shards bloquear luz spawn de mobs ventana oscura",
+    "materials": [
+      "1 bloque de glass por crafteo (funde sand)",
+      "4 amethyst shards por crafteo (amethyst geodes)",
+      "Una crafting table"
+    ],
+    "steps": [
+      "Encuentra una amethyst geode (generan bajo tierra desde Y=70 hacia abajo, a menudo expuestas en cuevas y océanos) y mina los amethyst clusters con cualquier pico: los clusters maduros sueltan 4 shards.",
+      "Funde sand en glass en un furnace.",
+      "Coloca el glass en el centro de la cuadrícula de crafteo con amethyst shards arriba, abajo, a izquierda y a derecha.",
+      "Recoge 2 tinted glass por crafteo.",
+      "Construye con él: el tinted glass parece cristal ahumado pero bloquea TODA la luz: la luz del día y de las antorchas se detiene en seco en el bloque.",
+      "Ventanas a prueba de mobs: los mobs hostiles pueden spawnear en un espacio sin luz detrás del tinted glass, así que su uso real es controlar la luz: habitaciones oscuras desde las que ver hacia fuera, y ocultar fuentes de luz.",
+      "Rómpelo sin miedo: el tinted glass se suelta con cualquier herramienta o a mano: no hace falta Silk Touch, a diferencia del glass normal."
+    ],
+    "versions": "El tinted glass se añadió en la 1.17 (Caves & Cliffs Parte I) en ambas ediciones.",
+    "editionNote": "Receta y comportamiento idénticos en Java y Bedrock.",
+    "faq": [
+      {
+        "q": "¿El tinted glass bloquea el spawn de mobs por completo?",
+        "a": "Bloquea la luz por completo: no deja pasar nada. Eso significa que una habitación iluminada solo a través de tinted glass se queda a nivel de luz 0 y los mobs SÍ pueden spawnear. Su valor es hacer salas oscuras visibles desde fuera y esconder fuentes de luz, no iluminar sin peligro."
+      },
+      {
+        "q": "Tinted glass vs stained glass, ¿cuál es la diferencia?",
+        "a": "El stained glass es de colores pero transparente a la luz; el tinted glass es cristal ahumado neutro que bloquea la luz por completo. El stained es decoración, el tinted es una herramienta de control de luz."
+      },
+      {
+        "q": "¿Necesito Silk Touch?",
+        "a": "No: el tinted glass siempre se suelta, incluso roto a mano. Es uno de los bloques de construcción más agradecidos del juego."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Amethyst Shard",
+        "url": "/es/items/amethyst-shard/"
+      },
+      {
+        "label": "Glass",
+        "url": "/es/items/glass/"
+      }
+    ]
+  },
+  "how-to-use-a-lodestone": {
+    "name": "Cómo usar un lodestone en Minecraft",
+    "shortTitle": "Usar un lodestone",
+    "quickAnswer": "Craftea un lodestone con 8 chiseled stone bricks + 1 iron ingot, colócalo en tu base y usa una compass sobre él: esa compass apuntará al lodestone desde cualquier lugar de la misma dimensión. Es la única forma de hacer que una compass siga un punto personalizado.",
+    "keywords": "lodestone minecraft cómo usar compass vinculada waypoint personalizado chiseled stone bricks receta navegación",
+    "materials": [
+      "8 chiseled stone bricks (stonecutter o 2 stone brick slabs apiladas)",
+      "1 iron ingot",
+      "1 compass por cada waypoint que quieras seguir"
+    ],
+    "steps": [
+      "Craftea chiseled stone bricks: pasa stone bricks por un stonecutter, o apila 2 stone brick slabs.",
+      "Craftea el lodestone: llena la cuadrícula de crafteo con 8 chiseled stone bricks y pon 1 iron ingot en el centro. (La receta se abarató de netherite a iron en la Spring to Life update.)",
+      "Coloca el lodestone en un sitio permanente: la entrada de tu base es ideal. Necesita un pickaxe para recuperarlo.",
+      "Sujeta una compass y úsala (clic derecho) sobre el lodestone. La compass se vincula con brillo de encantamiento y queda fijada a ese bloque.",
+      "Síguela a casa: la compass vinculada apunta al lodestone desde cualquier distancia, mientras estés en la misma dimensión.",
+      "Haz una por dimensión: una compass de lodestone solo funciona en la dimensión de su lodestone, así que guarda compasses vinculadas separadas para tu base del overworld, tu hub del nether y tu end gateway.",
+      "Si el lodestone se rompe, todas las compasses vinculadas giran aleatoriamente: repón el lodestone y revincúlalas."
+    ],
+    "versions": "Los lodestones se añadieron en la 1.16 (Nether Update). La receta cambió de un netherite ingot a un iron ingot en la 1.21.5 (Spring to Life).",
+    "editionNote": "Crafteo y vinculación iguales en Java y Bedrock. Los lodestones también aparecen en cofres de ruined portals.",
+    "faq": [
+      {
+        "q": "¿Una compass de lodestone funciona en otras dimensiones?",
+        "a": "No: debe estar en la misma dimensión que su lodestone. Una compass de lodestone del nether es inútil en el overworld y viceversa."
+      },
+      {
+        "q": "¿Pueden otros jugadores usar mi lodestone?",
+        "a": "Solo si vinculan su propia compass a él. Los lodestones no son beacons: cada compass se vincula individualmente, y no hay límite de cuántas compasses apuntan a un lodestone."
+      },
+      {
+        "q": "¿Qué pasa si pierdo la compass vinculada?",
+        "a": "Craftea una compass nueva y haz clic derecho en el lodestone otra vez. Vincular es gratis e instantáneo: el lodestone nunca se agota."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Lodestone",
+        "url": "/es/items/lodestone/"
+      },
+      {
+        "label": "Compass",
+        "url": "/es/items/compass/"
+      }
+    ]
   }
 }
