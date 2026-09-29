@@ -2316,58 +2316,6 @@
   "keywords": "xp fast minecraft experience farm level 30 enchanting 1395 furnace bank sculk catalyst spawner quartz"
  },
  {
-  "slug": "how-to-make-brewing-stand",
-  "name": "How to Make a Brewing Stand in Minecraft",
-  "shortTitle": "Make a Brewing Stand",
-  "quickAnswer": "Craft a brewing stand with 1 blaze rod in the center slot and 3 stone-tier blocks (cobblestone, blackstone or cobbled deepslate, mixed if you like) across the bottom row. Then fuel it with blaze powder and brew water bottles with nether wart and ingredients.",
-  "steps": [
-   "Get a blaze rod: kill blazes around a blaze spawner in a nether fortress. Each blaze drops 0-1 blaze rods (more with Looting) - bring good armor, a bow and fire resistance potions if you can.",
-   "Mine 3 stone-tier blocks: plain cobblestone is fine, and blackstone or cobbled deepslate work too, in any mix.",
-   "Craft it: blaze rod in the center of the grid, the three blocks filling the bottom row. Out comes the brewing stand.",
-   "Free alternatives: a brewing stand also generates in the basement of igloos (with a splash potion of Weakness inside) and in village churches - but you still need blaze powder to fuel it, and that only comes from blazes.",
-   "Fuel it: craft blaze powder from blaze rods (1 rod makes 2 powder). Each powder brews 20 batches, and each ingredient stage counts as one batch.",
-   "Brew: place up to 3 water bottles in the bottom slots, nether wart on top to make awkward potions, then add your effect ingredient. Every stage takes 20 seconds.",
-   "Automate it: a hopper pointing into the top feeds ingredients, a side hopper feeds bottles, and a hopper underneath extracts finished potions."
-  ],
-  "materials": [
-   "1 blaze rod",
-   "3 cobblestone (or blackstone / cobbled deepslate)",
-   "Fuel: blaze powder (1 per 20 batches)",
-   "To brew: water bottles, nether wart and effect ingredients"
-  ],
-  "editionNote": "Works identically in both editions, with one quirk: brewing stands cannot be pushed by pistons in Java, but they can in Bedrock. Hoppers interact with the stand the same way in both.",
-  "versions": "Brewing stands were added in Java Beta 1.9 Prerelease 3 and Bedrock 0.12.1, and have required blaze powder as fuel since Java 1.9.",
-  "faq": [
-   {
-    "q": "Where do I get blaze rods for a brewing stand?",
-    "a": "From blazes, which spawn from blaze spawners inside nether fortresses. Each blaze drops 0-1 blaze rods, and Looting raises the maximum. There is no other renewable source."
-   },
-   {
-    "q": "How much blaze powder does brewing use?",
-    "a": "One blaze powder fuels 20 batches. Filling all three bottle slots still counts as one batch per ingredient stage, so a single powder stretches a long way."
-   },
-   {
-    "q": "Can I get a brewing stand without going to the Nether?",
-    "a": "You can pick one up from an igloo basement or a village church, but brewing itself needs blaze powder fuel - and blaze powder only comes from blazes. A Nether trip is unavoidable for real brewing."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-nether-fortress",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Blaze Rod",
-    "href": "/items/blaze-rod/"
-   },
-   {
-    "label": "Blaze",
-    "href": "/mobs/blaze/"
-   }
-  ],
-  "keywords": "brewing stand minecraft craft blaze rod cobblestone potions blaze powder awkward potion nether wart alchemy"
- },
- {
   "slug": "how-to-make-bookshelf",
   "name": "How to Make a Bookshelf in Minecraft",
   "shortTitle": "Make a Bookshelf",
@@ -2762,7 +2710,7 @@
   ],
   "relatedGuides": [
    "how-to-make-piston",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -2922,56 +2870,6 @@
    }
   ],
   "keywords": "map minecraft craft 8 paper compass empty map locator map zoom out cartography table clone lock map wall"
- },
- {
-  "slug": "how-to-make-bucket",
-  "name": "How to Make a Bucket in Minecraft",
-  "shortTitle": "Make a Bucket",
-  "quickAnswer": "Craft a bucket with 3 iron ingots in a V shape. It carries water, lava, milk and powder snow - and with a quick scoop you can even pick up fish, axolotls and tadpoles to move them wherever you want.",
-  "steps": [
-   "Smelt 3 iron ingots (iron ore is everywhere below sea level; stone pickaxe or better).",
-   "Craft it: one ingot in the middle-left slot, one in the middle-right, one in the bottom-center - a V shape.",
-   "Scoop water: use the bucket on a water source block. Water buckets are the base of farms, elevators, obsidian casting and the classic MLG water landing.",
-   "Scoop lava the same way in caves or the Nether: fuel for 100 smelts, a trash can, or a weapon.",
-   "Milk a cow, mooshroom or goat: use the empty bucket on one. Milk clears every status effect - including bad ones like poison and the raid-triggering Bad Omen.",
-   "Pick up powder snow in snowy slopes and groves: place it to make traps, or carry it to walk on powder snow safely with leather boots.",
-   "Catch live mobs: use a water bucket on a fish, axolotl or tadpole to pick it up alive. This is the only way to move axolotls for a blue axolotl farm and tropical fish for your aquarium.",
-   "Empty it by using it again on any spot - the placed block or mob comes out, and you keep the bucket forever."
-  ],
-  "materials": [
-   "3 iron ingots"
-  ],
-  "editionNote": "Identical recipe and behavior in both editions. One Java quirk: using a bucket directly on a waterlogged block does not scoop it. And in the current 26.x snapshots the bucket can also carry sulfur cubes - brand new content.",
-  "versions": "Buckets were added in Java Infdev on June 15, 2010 - one of the oldest items in the game - and in Pocket Edition 0.7.0.",
-  "faq": [
-   {
-    "q": "How do you get water in a bucket in Minecraft?",
-    "a": "Craft the bucket (3 iron ingots in a V), then use it on a water source block - not flowing water. Rivers, oceans and lakes are all free refills; a 2x2 hole filled with water makes an infinite source."
-   },
-   {
-    "q": "Can a bucket break or run out?",
-    "a": "No. The bucket itself never wears out - you only lose its contents. One bucket lasts your whole world."
-   },
-   {
-    "q": "How do you pick up an axolotl?",
-    "a": "Use a water bucket on it and it becomes a bucket of axolotl, which you can carry and release anywhere. Same trick works on cod, salmon, tropical fish, pufferfish and tadpoles."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-nether-portal",
-   "how-to-get-blue-axolotl"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Axolotl",
-    "href": "/mobs/axolotl/"
-   },
-   {
-    "label": "Iron Ingot",
-    "href": "/items/iron-ingot/"
-   }
-  ],
-  "keywords": "bucket minecraft craft 3 iron ingots water bucket lava bucket milk powder snow bucket of axolotl fish infinite water"
  },
  {
   "slug": "how-to-make-lantern",
@@ -3367,7 +3265,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-bucket",
+   "how-to-make-a-bucket",
    "how-to-breed-villagers"
   ],
   "relatedLinks": [
@@ -3773,59 +3671,6 @@
    }
   ],
   "keywords": "crafting table minecraft craft 4 planks 3x3 grid workbench first night tools recipes"
- },
- {
-  "slug": "how-to-make-bow",
-  "name": "How to Make a Bow in Minecraft",
-  "shortTitle": "Make a Bow",
-  "quickAnswer": "Craft a bow with 3 sticks and 3 string in a curved pattern. Hold right-click to draw, release to fire - a fully drawn bow hits for up to 11 damage, and the Infinity enchantment means you never run out of arrows.",
-  "steps": [
-   "Get 3 string: kill spiders at night, break cobwebs in mineshafts with a sword or shears, or barter with cat gifts and fishing loot.",
-   "Get 3 sticks: 2 planks = 4 sticks.",
-   "Craft it: sticks in a curve (top-center, middle-left, bottom-center) with string filling the right column. The mirror image works too.",
-   "Shoot: hold use to draw - one second of draw is a critical charge for 6-11 damage - and release to fire. Arrows drop with gravity, so aim above distant targets.",
-   "Stock arrows: craft 4 from flint + stick + feather (chicken farms are arrow factories), loot skeletons, or buy from fletcher villagers.",
-   "Enchant it: Power V boosts damage, Flame sets targets on fire, Punch knocks them back, Infinity gives infinite normal arrows from a single arrow. Mending and Infinity are mutually exclusive - pick your religion.",
-   "Repair it: combine two bows in a crafting grid or an anvil (anvil keeps enchantments). It lasts 384 shots in Java, 385 in Bedrock.",
-   "Loot one instead: skeletons and strays drop bows occasionally (rarely enchanted), and fletcher villagers sell them for 2 emeralds."
-  ],
-  "materials": [
-   "3 sticks",
-   "3 string",
-   "Arrows: flint + stick + feather"
-  ],
-  "editionNote": "Same in both editions; durability differs by one shot (384 Java, 385 Bedrock). The Infinity enchantment works identically - but only for normal arrows, not tipped or spectral ones.",
-  "versions": "Bows were added to Java in Indev 0.31 on January 22, 2010, and to Pocket Edition 0.3.3.",
-  "faq": [
-   {
-    "q": "How do you get string in Minecraft?",
-    "a": "Spiders drop 0-2 string, cobwebs broken with a sword or shears drop 1, cats gift string in the morning, and fishing and bartering with piglins also give it. A spider farm makes string infinite."
-   },
-   {
-    "q": "Is Infinity or Mending better on a bow?",
-    "a": "Infinity, for most players: you never craft arrows again. Mending makes sense only if you love tipped arrows (Infinity does not work on them) or already carry an arrow farm's output. You cannot have both."
-   },
-   {
-    "q": "How much damage does a bow do?",
-    "a": "A fully drawn bow deals 6-11 damage (average 9); Power V raises the max to 25. Quick shots deal as little as 1, so always draw fully when you can."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-crossbow",
-   "how-to-enchant",
-   "how-to-make-fishing-rod"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Skeleton",
-    "href": "/mobs/skeleton/"
-   },
-   {
-    "label": "Spider",
-    "href": "/mobs/spider/"
-   }
-  ],
-  "keywords": "bow minecraft craft 3 sticks 3 string arrows infinity power flame damage enchant mending skeleton"
  },
  {
   "slug": "how-to-make-golden-apple",
@@ -4880,7 +4725,7 @@
   ],
   "relatedGuides": [
    "how-to-use-conduit",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-enchant"
   ],
   "relatedLinks": [
@@ -5165,7 +5010,7 @@
   ],
   "relatedGuides": [
    "how-to-find-nether-fortress",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-beat-the-wither"
   ],
   "relatedLinks": [
@@ -5227,7 +5072,7 @@
   ],
   "relatedGuides": [
    "how-to-find-nether-fortress",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-get-blaze-rods"
   ],
   "relatedLinks": [
@@ -5282,7 +5127,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-bow",
+   "how-to-make-a-bow",
    "how-to-make-fishing-rod",
    "how-to-make-lead"
   ],
@@ -6414,7 +6259,7 @@
   "relatedGuides": [
    "how-to-get-quartz",
    "how-to-get-redstone",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -6609,7 +6454,7 @@
   "relatedGuides": [
    "how-to-get-blaze-rods",
    "how-to-find-slimes",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -6853,7 +6698,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-respawn-the-ender-dragon",
    "how-to-get-gunpowder"
   ],
@@ -7167,7 +7012,7 @@
   "relatedGuides": [
    "how-to-get-elytra",
    "how-to-fly-elytra",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -7223,7 +7068,7 @@
   ],
   "relatedGuides": [
    "how-to-breed-turtles",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-get-phantom-membrane"
   ],
   "relatedLinks": [
@@ -7281,7 +7126,7 @@
   "relatedGuides": [
    "how-to-find-trial-chambers",
    "how-to-make-mace",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -9213,7 +9058,7 @@
   ],
   "relatedGuides": [
    "how-to-get-mending",
-   "how-to-make-bow",
+   "how-to-make-a-bow",
    "how-to-enchant",
    "how-to-get-xp-fast"
   ],
@@ -9331,7 +9176,7 @@
   ],
   "relatedGuides": [
    "how-to-get-infinity",
-   "how-to-make-bow",
+   "how-to-make-a-bow",
    "how-to-enchant",
    "how-to-get-xp-fast"
   ],
@@ -9751,7 +9596,7 @@
   "relatedGuides": [
    "how-to-get-power",
    "how-to-get-knockback",
-   "how-to-make-bow",
+   "how-to-make-a-bow",
    "how-to-get-infinity"
   ],
   "relatedLinks": [
@@ -10864,60 +10709,6 @@
    "how-to-get-string",
    "how-to-find-village",
    "how-to-dye-armor"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Village",
-    "href": "/structures/village/"
-   },
-   {
-    "label": "Trail ruins",
-    "href": "/structures/trail-ruins/"
-   }
-  ]
- },
- {
-  "slug": "how-to-make-cartography-table",
-  "name": "How to Make a Cartography Table in Minecraft",
-  "shortTitle": "Make a Cartography Table",
-  "quickAnswer": "Craft a cartography table with 2 paper on top and 4 planks in a 2x2 below. It zooms out maps (map + paper), clones them (map + empty map) and locks them (map + glass pane) - and it employs cartographer villagers.",
-  "steps": [
-   "Get 2 paper (3 sugar cane in a row makes 3) and 4 planks of any wood.",
-   "Craft the table: 2 paper across the top, 4 planks filling the left and middle columns of the two rows below.",
-   "Or find one: cartography tables generate in cartographer houses in villages and in trail ruins - break it with anything, axe is fastest.",
-   "Zoom out a map: map + paper extends its coverage one level, up to 4 times - each level covers 4x the area (from 128x128 up to 2048x2048 blocks).",
-   "Clone a map: map + empty map gives 2 identical maps. Share one with a friend or keep a backup before locking.",
-   "Lock a map: map + glass pane freezes it forever - locked maps can't be zoomed, cloned further or updated by terrain changes. Perfect for finished wall maps.",
-   "Bedrock extras: the table also creates empty maps (paper), empty locator maps (paper + compass), adds player pointers and renames maps.",
-   "Hire a cartographer: an unclaimed table turns an unemployed villager into a cartographer - the profession that sells explorer maps to ocean monuments and woodland mansions."
-  ],
-  "materials": [
-   "Paper x2 (3 sugar cane = 3 paper)",
-   "Planks x4 (any wood)",
-   "Crafting table"
-  ],
-  "editionNote": "Crafting recipe and zoom/clone/lock functions are identical in Java and Bedrock. Bedrock adds pointer placement, empty and locator map creation, and map renaming in the same block.",
-  "versions": "Added in 1.14 (18w44a) and made functional in 19w02a, with sounds in 19w06a. Trail ruins started generating it in 1.20.",
-  "faq": [
-   {
-    "q": "What does a cartography table do in Minecraft?",
-    "a": "It works maps: zoom them out one level per paper (4 levels max), clone them with an empty map, and lock them with a glass pane so they never change. In Bedrock it also creates empty maps, adds pointers and renames maps."
-   },
-   {
-    "q": "How do you zoom out a map in Minecraft?",
-    "a": "Put your map in the cartography table with one piece of paper: it expands one zoom level, covering 4x the area. Repeat up to 4 times for the maximum 2048x2048 block view."
-   },
-   {
-    "q": "How do you copy a map in Minecraft?",
-    "a": "Combine your map with an empty map in a cartography table to get two identical copies. Craft the empty map from paper and a compass (or just paper for a no-pointer version in Bedrock)."
-   }
-  ],
-  "keywords": "cartography table minecraft, cartography table recipe, how to zoom out map minecraft, how to copy map minecraft, cartographer villager",
-  "relatedGuides": [
-   "how-to-find-village",
-   "how-to-find-woodland-mansion",
-   "how-to-make-compass",
-   "how-to-get-sugar-cane"
   ],
   "relatedLinks": [
    {
@@ -12809,7 +12600,7 @@
   "keywords": "igloo minecraft, how to find igloo minecraft, igloo basement minecraft, minecraft igloo zombie villager, igloo with basement minecraft",
   "relatedGuides": [
    "how-to-cure-a-zombie-villager",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-make-golden-apple"
   ],
   "relatedLinks": [
@@ -13508,7 +13299,7 @@
   ],
   "relatedGuides": [
    "how-to-find-nether-fortress",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-get-eye-of-ender"
   ],
   "relatedLinks": [
@@ -13837,7 +13628,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-bow",
+   "how-to-make-a-bow",
    "how-to-make-crossbow",
    "how-to-get-infinity"
   ],
@@ -13852,53 +13643,6 @@
    }
   ],
   "keywords": "arrows minecraft, how to make arrows, arrow recipe minecraft, get flint fast, feather farm, fletcher arrows minecraft"
- },
- {
-  "slug": "how-to-make-book-and-quill",
-  "name": "How to Make a Book and Quill in Minecraft",
-  "shortTitle": "Make a Book and Quill",
-  "quickAnswer": "Combine 1 book + 1 ink sac + 1 feather anywhere in the crafting grid. Write up to 100 pages, sign it to lock the text forever as a written book, and place it on a lectern to display it - or to read pages with redstone.",
-  "steps": [
-   "Craft a book (3 paper + 1 leather), get an ink sac from a squid and a feather from a chicken.",
-   "Combine the three items anywhere in the crafting grid - the recipe is shapeless.",
-   "Hold the book and quill and right-click to open the editor: write, edit and flip through pages.",
-   "Java gives you 100 pages of 1,023 characters each; Bedrock gives 50 pages of 256 characters.",
-   "Press Sign, choose a title, and the book locks forever as a written book with your name on it.",
-   "Copy signed books by crafting a written book with more books and quills - originals copy to 'Copy of original', and copies of copies cannot be copied."
-  ],
-  "materials": [
-   "1 book (3 paper from sugar cane + 1 leather)",
-   "1 ink sac (squids in rivers and oceans)",
-   "1 feather (chickens)"
-  ],
-  "editionNote": "Page and character limits differ: Java allows 100 pages at 1,023 characters, Bedrock 50 pages at 256. Signed books show the author's name in Java; in Bedrock the author line is free text. Both editions support formatting codes with the section sign and lectern display.",
-  "versions": "Added in 1.3.1 (12w17a) - the update that also made books craftable from leather and paper. Book copying arrived in the same version, and lectern display came with 1.14.",
-  "faq": [
-   {
-    "q": "Can you edit a book after signing it?",
-    "a": "No - signing is permanent. Keep an unsigned master copy if you want to revise the text later, and sign fresh copies of the final version."
-   },
-   {
-    "q": "What is a book and quill used for?",
-    "a": "Player-written books: journals, instructions, server rulebooks, adventure-map storytelling. On a lectern it displays the text publicly and a comparator outputs a redstone signal based on the open page (15 on the last page) - the classic page-turning combination lock."
-   },
-   {
-    "q": "How many pages can you write?",
-    "a": "100 pages in Java (1,023 characters each), 50 pages in Bedrock (256 characters each), with up to 14 lines per page."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-book",
-   "how-to-make-lectern",
-   "how-to-make-bookshelf"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/squid/",
-    "label": "Squid mob guide"
-   }
-  ],
-  "keywords": "book and quill minecraft, how to make book and quill, write book minecraft, sign book minecraft, written book, book pages limit minecraft"
  },
  {
   "slug": "how-to-make-fire-charge",
@@ -14037,7 +13781,7 @@
   ],
   "relatedGuides": [
    "how-to-make-bookshelf",
-   "how-to-make-book-and-quill",
+   "how-to-make-a-book-and-quill",
    "how-to-make-a-book"
   ],
   "relatedLinks": [],
@@ -14174,7 +13918,7 @@
   "relatedGuides": [
    "how-to-make-arrow",
    "how-to-get-dragon-breath",
-   "how-to-make-brewing-stand"
+   "how-to-make-a-brewing-stand"
   ],
   "relatedLinks": [
    {
@@ -14455,7 +14199,7 @@
   ],
   "relatedGuides": [
    "how-to-breed-turtles",
-   "how-to-make-brewing-stand",
+   "how-to-make-a-brewing-stand",
    "how-to-use-armor-trims"
   ],
   "relatedLinks": [
@@ -16835,63 +16579,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-beacon",
-  "name": "How to Make a Beacon",
-  "shortTitle": "Make a Beacon",
-  "quickAnswer": "Craft a beacon with 5 glass, 3 obsidian and 1 nether star (from killing the wither). Then place it on top of a pyramid of iron, gold, emerald, diamond or netherite blocks - 3x3 minimum, up to four levels with a 9x9 base (164 blocks total) - and it projects a beam into the sky.",
-  "steps": [
-   "Get a nether star. Summon and defeat the wither - it always drops exactly one. This is the hard part; everything else is easy.",
-   "Gather glass and obsidian. Smelt 5 sand into glass and mine 3 obsidian with a diamond or netherite pickaxe (or make it with water on lava).",
-   "Craft the beacon. Place the nether star in the center, 3 obsidian along the bottom row and 5 glass filling the top and middle rows.",
-   "Build the pyramid. The beacon only works on a base of iron, gold, emerald, diamond or netherite blocks - any mix works, the block type is purely cosmetic. Start with a 3x3 layer (9 blocks) and go up to 4 levels: 5x5, 7x7 and 9x9 for 164 blocks total.",
-   "Place and activate. Put the beacon on the center of the top layer with a clear view of the sky. It shoots a beam upward - now feed it an ingot or gem in its GUI to pick a power."
-  ],
-  "materials": [
-   "1 nether star (wither drop)",
-   "5 glass",
-   "3 obsidian",
-   "9-164 iron/gold/emerald/diamond/netherite blocks for the pyramid"
-  ],
-  "editionNote": "Identical in Java and Bedrock. The pyramid block type makes no difference to power - a full iron pyramid works exactly like a full netherite one. Multiple beacons can share the same pyramid blocks.",
-  "versions": "The beacon was added in 1.4.2 (12w32a, as 'Work in Progress') and finished in 12w36a with the nether star recipe. Its effect range was buffed in 1.5 (13w05a) to the current values.",
-  "faq": [
-   {
-    "q": "Why won't my beacon activate?",
-    "a": "Check it has a direct view of the sky (no opaque blocks above - glass is fine) and that the pyramid is complete and centered, with the beacon on top of the middle block."
-   },
-   {
-    "q": "What is the cheapest full pyramid?",
-    "a": "Iron: 164 blocks = 1,476 iron ingots. Build an iron farm first, or mix in gold and emerald blocks from villager trading."
-   },
-   {
-    "q": "Does the beacon beam color change?",
-    "a": "Yes - place stained glass above the beam to tint it. Layering different colors mixes them."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-beat-the-wither",
-   "how-to-use-a-beacon",
-   "how-to-get-obsidian"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/nether-star/",
-    "label": "Nether Star"
-   },
-   {
-    "url": "/mobs/wither/",
-    "label": "Wither"
-   }
-  ],
-  "keywords": [
-   "beacon",
-   "how to make a beacon",
-   "beacon recipe",
-   "beacon pyramid",
-   "nether star beacon"
-  ]
- },
- {
   "slug": "how-to-use-a-beacon",
   "name": "How to Use a Beacon",
   "shortTitle": "Use a Beacon",
@@ -16925,7 +16612,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-beacon",
+   "how-to-make-beacon",
    "how-to-beat-the-wither",
    "how-to-get-netherite"
   ],
@@ -24095,70 +23782,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-campfire",
-  "name": "How to Make a Campfire in Minecraft",
-  "shortTitle": "Make a Campfire",
-  "quickAnswer": "Craft a campfire with 3 sticks, 1 coal or charcoal, and 3 logs: sticks in a triangle on top, the coal in the center, and the logs along the bottom row. It cooks food slowly for free, lights areas and smokes bees into calm.",
-  "steps": [
-   "Gather 3 sticks, 1 coal or charcoal, and 3 logs of any type (stripped logs, wood and stems work too).",
-   "Open the crafting table.",
-   "Place 1 stick in the top-middle slot and 1 stick each in the middle-left and middle-right slots, forming a triangle.",
-   "Place the coal or charcoal in the center slot.",
-   "Place the 3 logs along the entire bottom row.",
-   "Take the campfire. It spawns lit, and you can extinguish it with a shovel or water and relight it with flint and steel.",
-   "Use it to cook up to 4 food items at once on its surface with no fuel, as a light source, as a smoke signal, or placed under a beehive to harvest honey safely."
-  ],
-  "materials": [
-   "3 sticks",
-   "1 coal or charcoal",
-   "3 of any logs, wood, stripped logs or stems"
-  ],
-  "editionNote": "The campfire works the same in Java and Bedrock and was added in 1.14. It cooks 4 items at a time without fuel but slowly (30 seconds each), deals damage to mobs standing on it while lit, and its smoke calms bees below a hive. The soul campfire variant uses soul soil or soul sand instead and repels piglins.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "What does a campfire do in Minecraft?",
-    "a": "It cooks up to 4 food items at once without fuel, lights an area, sends a smoke signal visible from far away, calms bees when placed under their hive, and damages mobs that stand on it."
-   },
-   {
-    "q": "How do you cook on a campfire?",
-    "a": "Right-click the lit campfire with raw food in hand to place up to 4 items on it. Each cooks in 30 seconds with no fuel needed and pops off when done."
-   },
-   {
-    "q": "What is the difference between a campfire and a soul campfire?",
-    "a": "The soul campfire is crafted with soul soil or soul sand instead of coal. It burns with blue flames, gives less light, damages mobs more, melts nothing around it, and repels piglins in the Nether."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-smoker",
-   "how-to-make-a-blast-furnace",
-   "how-to-make-a-stonecutter"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/guides/how-to-make-a-smoker/",
-    "label": "How to Make a Smoker"
-   },
-   {
-    "url": "/guides/how-to-make-a-blast-furnace/",
-    "label": "How to Make a Blast Furnace"
-   },
-   {
-    "url": "/guides/how-to-make-a-stonecutter/",
-    "label": "How to Make a Stonecutter"
-   }
-  ],
-  "keywords": [
-   "how to make a campfire minecraft",
-   "campfire recipe",
-   "campfire minecraft uses",
-   "soul campfire minecraft"
-  ]
- },
- {
   "slug": "how-to-use-an-anvil",
   "name": "How to Use an Anvil in Minecraft",
   "shortTitle": "Use an Anvil",
@@ -24524,7 +24147,7 @@
   "relatedGuides": [
    "how-to-make-a-cartography-table",
    "how-to-make-a-barrel",
-   "how-to-make-a-campfire"
+   "how-to-make-campfire"
   ],
   "relatedLinks": [
    {
@@ -24792,7 +24415,7 @@
   "relatedGuides": [
    "how-to-make-a-bow",
    "how-to-make-a-fishing-rod",
-   "how-to-make-a-campfire"
+   "how-to-make-campfire"
   ],
   "relatedLinks": [
    {
@@ -24857,8 +24480,8 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-bookshelf",
-   "how-to-make-a-campfire",
+   "how-to-make-bookshelf",
+   "how-to-make-campfire",
    "how-to-make-a-bed"
   ],
   "relatedLinks": [
@@ -24881,74 +24504,6 @@
    "how to get flint minecraft",
    "how to light nether portal",
    "flint and steel uses"
-  ]
- },
- {
-  "slug": "how-to-make-a-bookshelf",
-  "name": "How to Make a Bookshelf in Minecraft",
-  "shortTitle": "Make a Bookshelf",
-  "quickAnswer": "Craft a bookshelf with 6 planks and 3 books: planks on the top and bottom rows, 3 books across the middle. Surround an enchanting table with 15 bookshelves, one block of air between, to unlock level 30 enchantments.",
-  "steps": [
-   "Craft 3 books: each needs 3 paper (from sugar cane) and 1 leather.",
-   "Turn logs into 6 planks of any wood type.",
-   "Open the crafting table.",
-   "Fill the top row with 3 planks.",
-   "Fill the middle row with 3 books.",
-   "Fill the bottom row with 3 planks.",
-   "Take the bookshelf. For max enchant power, ring your enchanting table with 15 bookshelves at one-block distance."
-  ],
-  "materials": [
-   "6 planks of any type",
-   "3 books (9 paper + 3 leather)"
-  ],
-  "editionNote": "The bookshelf recipe is the same in Java and Bedrock. Exactly 15 bookshelves placed with a one-block air gap around an enchanting table unlock the full level 30 enchant range; torches or carpet between a shelf and the table block its bonus. Bookshelves are also the natural habitat of librarian villagers, drop 3 books when broken without Silk Touch, and can even smelt 1.5 items as furnace fuel.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "How many bookshelves do you need for level 30 enchants?",
-    "a": "15 bookshelves, placed one block away from the enchanting table so air (not torches or carpet) separates them. Fewer shelves cap the offered enchant levels lower."
-   },
-   {
-    "q": "How do you get leather for books in Minecraft?",
-    "a": "Cows, horses, donkeys, llamas, and hoglins drop leather. Early game, breed cows for a steady supply; hoglin farms in the Nether scale fastest."
-   },
-   {
-    "q": "Do bookshelves do anything besides enchanting?",
-    "a": "They attract librarian villagers as a job-site-adjacent block in villages, drop 3 books when mined without Silk Touch, and chiseled bookshelves (a different block) store books for redstone contraptions."
-   },
-   {
-    "q": "Does breaking a bookshelf give the shelf back?",
-    "a": "Only with Silk Touch. Without it, a bookshelf drops 3 books and the 6 planks are lost, so move shelves with a Silk Touch axe."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-flint-and-steel",
-   "how-to-make-a-lectern",
-   "how-to-get-mending"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/guides/how-to-make-a-flint-and-steel/",
-    "label": "How to Make Flint and Steel"
-   },
-   {
-    "url": "/guides/how-to-make-a-lectern/",
-    "label": "How to Make a Lectern"
-   },
-   {
-    "url": "/guides/how-to-get-mending/",
-    "label": "How to Get Mending"
-   }
-  ],
-  "keywords": [
-   "how to make a bookshelf minecraft",
-   "bookshelf recipe",
-   "15 bookshelves enchanting table",
-   "how to get leather minecraft",
-   "level 30 enchantments setup"
   ]
  },
  {
@@ -24993,7 +24548,7 @@
   ],
   "relatedGuides": [
    "how-to-make-a-flint-and-steel",
-   "how-to-make-a-bookshelf",
+   "how-to-make-bookshelf",
    "how-to-breed-villagers"
   ],
   "relatedLinks": [
@@ -25188,7 +24743,7 @@
   ],
   "relatedGuides": [
    "how-to-make-paper",
-   "how-to-make-a-bookshelf",
+   "how-to-make-bookshelf",
    "how-to-make-a-book-and-quill",
    "how-to-make-chiseled-bookshelf"
   ],
@@ -26820,7 +26375,7 @@
   ],
   "relatedGuides": [
    "how-to-find-iron",
-   "how-to-make-a-campfire",
+   "how-to-make-campfire",
    "how-to-make-a-lantern",
    "how-to-find-diamonds"
   ],
@@ -27602,7 +27157,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-campfire",
+   "how-to-make-campfire",
    "how-to-make-a-lantern",
    "how-to-make-a-torch",
    "how-to-make-a-furnace"
@@ -27619,63 +27174,6 @@
    "soul campfire minecraft",
    "soul campfire piglins",
    "soul soil campfire"
-  ]
- },
- {
-  "slug": "how-to-make-a-brush",
-  "name": "How to Make a Brush in Minecraft",
-  "shortTitle": "Make a Brush",
-  "quickAnswer": "Craft a brush with 1 feather, 1 copper ingot and 1 stick in a vertical line: feather on top, copper ingot in the middle, stick at the bottom. Use it on suspicious sand and gravel at archaeology sites to uncover loot.",
-  "steps": [
-   "Get 1 feather from a chicken.",
-   "Smelt copper ore into 1 copper ingot.",
-   "Craft 1 stick from planks.",
-   "Open a crafting table.",
-   "Place the feather, copper ingot and stick in a vertical line down any column, in that order.",
-   "Take the brush. Hold use on suspicious sand or suspicious gravel to slowly reveal the item inside."
-  ],
-  "materials": [
-   "1 feather",
-   "1 copper ingot",
-   "1 stick"
-  ],
-  "editionNote": "The brush recipe is the same in Java and Bedrock. Suspicious sand generates in desert temples, desert wells, warm ocean ruins and trail ruins; suspicious gravel appears in cold ocean ruins and trail ruins. Brushing takes several seconds per block and drops pottery sherds, sniffer eggs, smithing templates and other loot depending on the structure. A brush has 64 uses and can be repaired by combining two damaged brushes or enchanted with Mending or Unbreaking. Brushing a live armadillo drops an armadillo scute without damaging the brush, which is the renewable way to get scutes for wolf armor.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "What is the brush used for in Minecraft?",
-    "a": "Archaeology: brush suspicious sand and suspicious gravel to extract pottery sherds, sniffer eggs and templates hidden inside. It also harvests armadillo scutes by brushing a live armadillo, the key ingredient of wolf armor."
-   },
-   {
-    "q": "How many uses does a brush have?",
-    "a": "64 uses before it breaks. Combine two damaged brushes in the grid or grindstone to add their durability, or enchant it with Mending and Unbreaking to keep it forever."
-   },
-   {
-    "q": "Where do you find suspicious sand?",
-    "a": "Inside desert pyramids, desert wells, warm ocean ruins and trail ruins. It looks like sand with slightly rougher texture; brushing it instead of mining it is the only way to keep the loot inside."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-a-furnace",
-   "how-to-make-a-lightning-rod",
-   "how-to-make-a-campfire",
-   "how-to-get-string"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Brush",
-    "label": "Brush on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "brush recipe",
-   "how to make a brush",
-   "brush minecraft",
-   "archaeology brush",
-   "suspicious sand brush"
   ]
  },
  {
@@ -27851,64 +27349,6 @@
   ]
  },
  {
-  "slug": "how-to-make-a-cake",
-  "name": "How to Make a Cake in Minecraft",
-  "shortTitle": "Make a Cake",
-  "quickAnswer": "Craft a cake with 3 milk buckets across the top row, sugar-egg-sugar in the middle row, and 3 wheat along the bottom. Place it like a block and eat up to 7 slices; the empty buckets are returned.",
-  "steps": [
-   "Get 3 milk buckets by milking a cow, mooshroom or goat with iron buckets.",
-   "Harvest 3 wheat from a wheat farm.",
-   "Make 2 sugar from sugar cane.",
-   "Get 1 egg from a chicken (any egg color works).",
-   "Open a crafting table: milk buckets on top, sugar-egg-sugar in the middle, wheat on the bottom.",
-   "Take the cake, place it on a solid block, and right-click to eat one slice at a time. It serves 7 slices."
-  ],
-  "materials": [
-   "3 milk buckets (buckets are returned)",
-   "2 sugar",
-   "1 egg (any type)",
-   "3 wheat"
-  ],
-  "editionNote": "The cake recipe is the same in Java and Bedrock, and current versions accept any egg, including the blue and brown variants from cold and warm chickens. A placed cake has 7 slices and each slice restores 2 hunger points, so one cake feeds 14 hunger total, but you cannot eat it from your hand: it must be placed first. Cakes stack to 1, do not work with hoppers, and a comparator reads the remaining slices as redstone strength, which bakers use for secret 'cake eaten' detectors. In Java the empty buckets stay in the grid; in Bedrock they drop to your inventory.",
-  "versions": [
-   "java",
-   "bedrock"
-  ],
-  "faq": [
-   {
-    "q": "How many slices does a cake have in Minecraft?",
-    "a": "Seven slices per placed cake, each restoring 2 hunger points (one drumstick) and 0.4 saturation. Break the cake and the whole thing is lost, so place it where you plan to eat."
-   },
-   {
-    "q": "Can you pick up a cake once placed?",
-    "a": "No. Mining a placed cake destroys it, even with Silk Touch. Only an uneaten cake in item form can be carried, so place it permanently or accept losing the leftovers."
-   },
-   {
-    "q": "Do you get the buckets back after making a cake?",
-    "a": "Yes. The 3 milk buckets return as empty buckets: they stay in the crafting grid in Java and move to your inventory in Bedrock, ready to refill."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-make-bread",
-   "how-to-make-cookies",
-   "how-to-make-a-bucket",
-   "how-to-make-paper"
-  ],
-  "relatedLinks": [
-   {
-    "url": "https://minecraft.wiki/w/Cake",
-    "label": "Cake on minecraft.wiki"
-   }
-  ],
-  "keywords": [
-   "cake recipe",
-   "how to make a cake",
-   "cake minecraft",
-   "how to craft cake",
-   "minecraft cake slices"
-  ]
- },
- {
   "slug": "how-to-make-cookies",
   "name": "How to Make Cookies in Minecraft",
   "shortTitle": "Make Cookies",
@@ -27945,7 +27385,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-a-cake",
+   "how-to-make-cake",
    "how-to-make-bread",
    "how-to-make-a-book",
    "how-to-make-paper"
@@ -28002,7 +27442,7 @@
   ],
   "relatedGuides": [
    "how-to-find-gold",
-   "how-to-make-a-cake",
+   "how-to-make-cake",
    "how-to-breed-villagers",
    "how-to-make-a-bucket"
   ],
@@ -29011,7 +28451,7 @@
   "relatedGuides": [
    "how-to-make-paper",
    "how-to-get-honey",
-   "how-to-make-a-cake",
+   "how-to-make-cake",
    "how-to-make-a-book"
   ],
   "relatedLinks": [
@@ -29067,7 +28507,7 @@
   ],
   "relatedGuides": [
    "how-to-make-sugar",
-   "how-to-make-a-cake",
+   "how-to-make-cake",
    "how-to-make-cookies",
    "how-to-make-a-golden-apple"
   ],
