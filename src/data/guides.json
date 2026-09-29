@@ -794,7 +794,7 @@
    "Netherite Upgrade template per item (duplicatable)",
    "Smithing table"
   ],
-  "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air.",
+  "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air. Before 1.20 the upgrade needed only the ingot, with no smithing template required.",
   "versions": "Netherite added in 1.16; the smithing template requirement added in 1.20. Current as of 26.3.",
   "faq": [
    {
@@ -1844,57 +1844,6 @@
   "keywords": "dye armor minecraft leather armor cauldron bedrock java colors mix undye wolf armor horse armor"
  },
  {
-  "slug": "how-to-make-saddle",
-  "name": "How to Make a Saddle in Minecraft",
-  "shortTitle": "Make a Saddle",
-  "quickAnswer": "Since 1.21.6 saddles are craftable: 3 leather + 1 iron ingot in a T shape (leather on top center, leather-iron-leather in the middle row). Before that version - or if you lack materials - get one from fishing (0.8%), a master leatherworker trade, or by killing a ravager.",
-  "steps": [
-   "Craft it (1.21.6+): place leather in the top-center slot and leather-iron ingot-leather across the middle row of a crafting table - 3 leather and 1 iron ingot total.",
-   "Note what changed in 1.21.6: saddles no longer generate in monster room, ancient city, desert pyramid, jungle pyramid or stronghold altar chests - crafting is now the main route.",
-   "Fishing: every fishing attempt has a 0.8% chance of a saddle (treasure category). Luck of the Sea raises your odds of treasure.",
-   "Trading: master-level leatherworker villagers sell saddles for emeralds - reliable and renewable once you have a trading hall.",
-   "Kill a ravager during a raid: it always drops a saddle, unaffected by Looting.",
-   "Nether route: strider jockeys (a zombified piglin riding a strider) always drop their saddle when the strider dies.",
-   "Extra trick since 1.21.6: use shears on a saddled mob to take the saddle off without hurting it."
-  ],
-  "materials": [
-   "3 leather (cows, horses, hoglins)",
-   "1 iron ingot",
-   "Crafting table",
-   "Alternatives: fishing rod / emeralds / raid"
-  ],
-  "editionNote": "Both editions craft saddles the same way: Java since 1.21.6, Bedrock since 1.21.90. Fishing odds (0.8%) and ravager drops are identical in both.",
-  "versions": "Saddle since Infdev; craftable since Java 1.21.6 / Bedrock 1.21.90.",
-  "faq": [
-   {
-    "q": "Can you craft a saddle in Minecraft?",
-    "a": "Yes, since 1.21.6: 3 leather and 1 iron ingot in a T shape. Before that version saddles were loot-only - fishing, trading, dungeon chests or ravagers."
-   },
-   {
-    "q": "What is the fastest way to get a saddle?",
-    "a": "Craft it - 3 leather from cows and 1 iron ingot. Without materials, a master leatherworker trade or a lucky fishing session are the next fastest."
-   },
-   {
-    "q": "How do you get a saddle off a pig or horse?",
-    "a": "Since 1.21.6, use shears on the saddled mob. Before that, the only way to recover a saddle from a pig was killing it."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-tame-horse"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/saddle/",
-    "label": "Saddle"
-   },
-   {
-    "url": "/mobs/ravager/",
-    "label": "Ravager"
-   }
-  ],
-  "keywords": "saddle minecraft how to craft leather iron recipe fishing ravager leatherworker trade shears"
- },
- {
   "slug": "how-to-make-lead",
   "name": "How to Make a Lead in Minecraft",
   "shortTitle": "Make a Lead",
@@ -2306,7 +2255,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-saddle",
+   "how-to-get-saddle",
    "how-to-tame-horse"
   ],
   "relatedLinks": [
@@ -8931,7 +8880,7 @@
    }
   ],
   "relatedGuides": [
-   "how-to-make-saddle",
+   "how-to-get-saddle",
    "how-to-tame-horse",
    "how-to-find-village"
   ],
@@ -11000,64 +10949,6 @@
    }
   ],
   "keywords": "amethyst shards minecraft, how to get amethyst shards, amethyst geode minecraft, amethyst farm, fortune amethyst"
- },
- {
-  "slug": "how-to-make-spyglass",
-  "name": "How to Make a Spyglass in Minecraft",
-  "shortTitle": "Make a Spyglass",
-  "quickAnswer": "Craft 1 amethyst shard + 2 copper ingots in a vertical line to get a spyglass. Use it to zoom your view to 1/10 of your FOV - perfect for scouting terrain, spying on monuments, and spotting bases from render distance.",
-  "steps": [
-   "Get an amethyst shard: mine a fully grown amethyst cluster in an amethyst geode (pickaxe = 4 shards). One shard is all the spyglass needs.",
-   "Get 2 copper ingots: mine copper ore (peaks around Y=48, and is extra common in dripstone caves) and smelt the raw copper in a furnace or blast furnace.",
-   "Craft it: amethyst shard on top, two copper ingots below it - a vertical 3-item recipe in the crafting grid.",
-   "Or loot one: spyglasses also appear in chests, so keep an eye out while exploring.",
-   "Zoom in: hold use to look through it. Your FOV shrinks to 1/10 of normal - 7 degrees in Java (default 70), 6 in Bedrock (default 60). That's real long-distance scouting.",
-   "Know the limits: the spyglass magnifies what you already see - it won't render mobs beyond render distance or clear distant fog. You also move slower while scoping, and the view auto-closes after 1 minute of continuous use.",
-   "Remove the vignette: the square overlay frame disappears with F1 in Java (intended behavior), handy for clean screenshots through the scope.",
-   "Practical uses: checking if a woodland mansion is worth the trek, reading ocean monument layouts, counting illagers before a raid, spying guardian lasers, and inspecting your mega-build from a mountain."
-  ],
-  "materials": [
-   "Amethyst shard x1",
-   "Copper ingot x2",
-   "Crafting table"
-  ],
-  "editionNote": "Same recipe and zoom mechanic in both editions. Two splits: default spyglass FOV is 7 degrees in Java vs 6 in Bedrock (both are 1/10 of the respective default FOV), and only Java can hide the square overlay with F1. Bedrock also has a camera-damping setting for scope movement.",
-  "versions": "Added in 1.17 - Caves & Cliffs Part I (20w45a), together with amethyst geodes and copper. Its recipe has never changed.",
-  "faq": [
-   {
-    "q": "How do you make a spyglass in Minecraft?",
-    "a": "Place 1 amethyst shard above 2 copper ingots in a crafting grid - a simple vertical recipe. Amethyst shards come from fully grown clusters in amethyst geodes, and copper ingots from smelting copper ore (most common around Y=48 and in dripstone caves)."
-   },
-   {
-    "q": "How much does a spyglass zoom?",
-    "a": "It shows 1/10 of your normal field of view: 7 degrees in Java and 6 in Bedrock with default settings. If you play with a custom FOV (30-110 degrees), the spyglass view scales to 3-11 degrees accordingly."
-   },
-   {
-    "q": "Is the spyglass useful?",
-    "a": "For scouting, yes - it lets you inspect monuments, mansions, outposts and bases from far away before committing. It can't see beyond render distance or through fog, and it slows you while in use, but for planning attacks and exploring oceans it's the cheapest optic in the game."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-amethyst",
-   "how-to-get-amethyst-shards",
-   "how-to-get-iron",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Spyglass",
-    "href": "/items/spyglass/"
-   },
-   {
-    "label": "Amethyst geode",
-    "href": "/structures/amethyst-geode/"
-   },
-   {
-    "label": "Dripstone caves",
-    "href": "/biomes/dripstone-caves/"
-   }
-  ],
-  "keywords": "spyglass minecraft, how to make spyglass, spyglass recipe minecraft, minecraft zoom, spyglass fov"
  },
  {
   "slug": "how-to-make-blast-furnace",
@@ -14589,7 +14480,7 @@
   "relatedGuides": [
    "how-to-tame-horse",
    "how-to-upgrade-netherite",
-   "how-to-make-saddle"
+   "how-to-get-saddle"
   ],
   "relatedLinks": [
    {
@@ -17213,7 +17104,7 @@
    "Buckets of tropical fish (to attract and breed)",
    "A lush cave"
   ],
-  "editionNote": "Behavior is the same in Java and Bedrock: bucket-catching, tropical fish following and breeding, combat Regeneration and play-dead all match. Blue axolotls are breeding-only (1 in 1200) in both editions since 1.17.1.",
+  "editionNote": "Behavior is the same in Java and Bedrock: bucket-catching, tropical fish following and breeding, combat Regeneration and play-dead all match. Blue axolotls are breeding-only (1 in 1200) in both editions since 1.17.1. One edition split: axolotls follow you from 10 blocks away in Java and 16 in Bedrock.",
   "versions": "Axolotls were added in 1.17 (20w51a, Caves and Cliffs part 1). Natural blue spawns existed for only a few months - 1.17.1 made blue breeding-exclusive, a nod to the roughly 1200 axolotls left in the wild in real life.",
   "faq": [
    {
@@ -23590,12 +23481,13 @@
   "shortTitle": "Get a Saddle",
   "quickAnswer": "Craft it: 3 leather + 1 iron ingot on a crafting table (since 1.21.6). Before that update, saddles came from fishing (0.8%), ravager drops, strider jockeys, village trading and structure chests like nether fortresses and dungeons.",
   "steps": [
-   "Craft it (1.21.6+): place leather top-center, leather middle-left, iron ingot center, leather middle-right. That is 3 leather and 1 iron ingot per saddle.",
+   "Craft it (1.21.6+): place leather in the top-center slot and leather, iron ingot, leather across the middle row - 3 leather and 1 iron ingot per saddle.",
    "Fish for one: saddles are a treasure catch with a 0.8% chance per attempt, improved by Luck of the Sea.",
-   "Kill a ravager during a raid: it always drops its saddle, and Looting does not change that.",
-   "Kill a strider jockey in the Nether: the strider always drops the saddle it wears.",
+   "Kill a ravager during a raid: it always drops a saddle, and Looting does not change that.",
+   "Kill a strider jockey in the Nether (a zombified piglin riding a strider): the strider always drops the saddle it wears.",
    "Trade with a master-level leatherworker villager, who sells a saddle for emeralds.",
-   "Loot chests in nether fortresses, dungeons, desert temples, jungle temples, villages, bastions and ancient cities."
+   "Loot chests: nether fortresses, bastion remnants and village tannery chests can still hold saddles.",
+   "Remove one without killing the mob: since 1.21.6, using shears on a saddled mob takes the saddle off safely."
   ],
   "materials": [
    "3 leather (cows, horses or hoglins)",
@@ -23603,20 +23495,20 @@
    "Crafting table",
    "Or a fishing rod with Luck of the Sea for the old-school route"
   ],
-  "editionNote": "The crafting recipe arrived together in Java 1.21.6 and Bedrock 1.21.90. Since the same update, shears remove a saddle from a mob without killing it. Skeleton horses can only be saddled in Java.",
+  "editionNote": "Saddles became craftable in Java 1.21.6 and Bedrock 1.21.90 (3 leather + 1 iron ingot), and the same update lets shears remove a saddle from a mob without killing it. The 1.21.6 update also removed saddles from monster room, ancient city, desert pyramid, jungle pyramid and stronghold altar chests, so chest hunting now means nether fortresses, bastions and village tanneries. Fishing odds (0.8%) and the ravager drop are identical in both editions.",
   "versions": "Craftable since 1.21.6 (Java) / 1.21.90 (Bedrock), the Chase the Skies drop. On older versions use fishing, ravagers or chest loot.",
   "faq": [
    {
     "q": "Can you craft a saddle in Minecraft?",
-    "a": "Yes, since the Chase the Skies drop (Java 1.21.6, Bedrock 1.21.90): 3 leather + 1 iron ingot. Before that version saddles were uncraftable and only came from loot, fishing, trading or ravagers."
+    "a": "Yes, since 1.21.6: 3 leather plus 1 iron ingot, with the leather in the top-center slot and leather-iron-leather across the middle row. Before 1.21.6 saddles were loot-only."
    },
    {
-    "q": "What mobs can wear a saddle?",
-    "a": "Horses, donkeys, mules, zombie horses, camels, camel husks, pigs, striders, nautiluses and zombie nautiluses. In Java, skeleton horses too. A saddle is what lets you control the mob while riding it."
+    "q": "What is the fastest way to get a saddle?",
+    "a": "Craft it from 3 leather and 1 iron ingot - both farmable in minutes. Without crafting, killing a ravager during a raid guarantees one, and master leatherworker villagers sell them for emeralds."
    },
    {
-    "q": "Which chest has the best chance of a saddle?",
-    "a": "Nether fortress chests are the classic best bet, followed by dungeons and bastion remnants. But with the crafting recipe available, chest hunting is no longer the efficient route."
+    "q": "How do you get a saddle off a pig or horse?",
+    "a": "Since 1.21.6, use shears on the saddled mob to remove the saddle without hurting it. On equines and camels you can also open their inventory and take it out of the saddle slot."
    }
   ],
   "relatedGuides": [
@@ -23638,60 +23530,6 @@
    }
   ],
   "keywords": "how to get a saddle minecraft saddle recipe craft saddle fishing saddle"
- },
- {
-  "slug": "how-to-tame-axolotl",
-  "name": "How to Tame an Axolotl in Minecraft",
-  "shortTitle": "Tame an Axolotl",
-  "quickAnswer": "Axolotls cannot be tamed like wolves, but they behave like pets: scoop one into a water bucket to carry it, and it follows you when you hold a bucket of tropical fish. Breed two with buckets of tropical fish for a baby, with a 1/1200 chance of the rare blue variant.",
-  "steps": [
-   "Find axolotls underwater in lush caves, where they spawn above clay blocks.",
-   "Catch one with a water bucket: use the bucket on the axolotl to get a bucket of axolotl, which keeps it alive forever.",
-   "Lead it around by holding a bucket of tropical fish: axolotls follow you within 10 blocks (Java) or 16 blocks (Bedrock).",
-   "Breed two adults by feeding each a bucket of tropical fish. The baby has a 1/1200 chance to be blue, otherwise it takes a parent color.",
-   "Keep them wet: axolotls survive out of water about 5 minutes (6000 ticks), and they need water or rain to stay alive.",
-   "Bring them into ocean fights: axolotls attack drowned, guardians and fish, and after you kill a mob they fought, they heal you with Regeneration and remove Mining Fatigue."
-  ],
-  "materials": [
-   "Water bucket (to catch them)",
-   "Buckets of tropical fish (food; tropical fish only, not cod or salmon)",
-   "A lush cave with water and clay"
-  ],
-  "editionNote": "Follow range is 10 blocks in Java and 16 in Bedrock. Breeding cooldown is 5 minutes in Java but 1 minute in Bedrock, and Regeneration from axolotl fights is capped at 2 minutes in Java but uncapped in Bedrock.",
-  "versions": "Axolotls exist since 1.17 (Caves & Cliffs Part 1). The blue variant never spawns naturally: it only comes from breeding.",
-  "faq": [
-   {
-    "q": "Can you actually tame an axolotl?",
-    "a": "Not in the wolf sense. There is no taming animation or sit command, but a bucketed axolotl is yours forever, follows you with tropical fish and fights alongside you, so it works like a pet in practice."
-   },
-   {
-    "q": "What do axolotls eat in Minecraft?",
-    "a": "Only buckets of tropical fish. Not raw tropical fish items: you must catch living tropical fish with a water bucket first, then feed the bucket to the axolotl."
-   },
-   {
-    "q": "How rare is the blue axolotl?",
-    "a": "1 in 1200 babies. It never spawns in the wild, so breeding is the only way, which is why blue axolotl farms use two non-blue parents and lots of tropical fish."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-tame-cat",
-   "how-to-get-trident"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/mobs/axolotl/",
-    "label": "Axolotl mob guide"
-   },
-   {
-    "url": "/mobs/tropical-fish/",
-    "label": "Tropical Fish mob guide"
-   },
-   {
-    "url": "/biomes/lush-caves/",
-    "label": "Lush Caves biome"
-   }
-  ],
-  "keywords": "how to tame axolotl minecraft axolotl pet bucket of axolotl blue axolotl breeding"
  },
  {
   "slug": "how-to-ride-strider",
@@ -24000,7 +23838,7 @@
   ],
   "relatedGuides": [
    "how-to-get-sniffer-egg",
-   "how-to-tame-axolotl"
+   "how-to-tame-an-axolotl"
   ],
   "relatedLinks": [
    {
@@ -24450,62 +24288,6 @@
   "keywords": "how to enchant elytra minecraft unbreaking mending elytra anvil best elytra enchantments"
  },
  {
-  "slug": "how-to-upgrade-to-netherite",
-  "name": "How to Upgrade Diamond Gear to Netherite in Minecraft",
-  "shortTitle": "Upgrade to Netherite",
-  "quickAnswer": "You need a netherite upgrade smithing template from a bastion remnant, plus a netherite ingot per piece. On a smithing table: template + diamond gear + ingot. The upgrade keeps enchantments, durability loss, trims and costs no XP.",
-  "steps": [
-   "Find a netherite upgrade template in bastion remnant chests (bridge, generic and hoglin stable chests have a 10% chance each).",
-   "Duplicate your template before using it: 7 diamonds + 1 netherrack + the template gives 2 back.",
-   "Make netherite ingots: 4 netherite scraps (smelted ancient debris) + 4 gold ingots each.",
-   "Open a smithing table: left slot the template, middle the diamond piece, right the ingot.",
-   "Take your netherite gear: enchantments, prior work penalty, armor trims and remaining durability all carry over.",
-   "Unlike anvil work, the upgrade costs zero experience and adds no prior work penalty.",
-   "Do all 9 pieces: helmet, chestplate, leggings, boots, sword, pickaxe, axe, shovel and hoe each need one ingot and one template."
-  ],
-  "materials": [
-   "Netherite upgrade template (bastions) + 7 diamonds and netherrack per copy",
-   "Netherite ingots (ancient debris + gold)",
-   "Diamond gear to upgrade",
-   "Smithing table (4 planks + 2 iron)"
-  ],
-  "editionNote": "The smithing flow is identical in Java and Bedrock since 1.20 changed it. Older versions (pre-1.20) upgraded with just the ingot, no template required.",
-  "versions": "Template-based upgrading exists since 1.20 (Trails & Tales). Before that, diamond gear + netherite ingot in the smithing table was enough.",
-  "faq": [
-   {
-    "q": "Do you keep enchantments when upgrading to netherite?",
-    "a": "Yes, everything carries over: enchantments, prior work penalty, durability damage and armor trims. The smithing table costs no XP for the upgrade, unlike anvil combining."
-   },
-   {
-    "q": "Where do I get the netherite upgrade template?",
-    "a": "Only from bastion remnant chests: 10% chance in bridge, generic and hoglin stable chests. Once you have one, duplicate it with 7 diamonds and a netherrack instead of hunting more."
-   },
-   {
-    "q": "Is netherite worth it over diamond?",
-    "a": "Yes for tools and armor: +1 attack damage on swords, more durability, knockback resistance on armor, and netherite items float in lava instead of burning. The template hunt is the real cost, not the stats."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-get-netherite",
-   "how-to-find-bastion"
-  ],
-  "relatedLinks": [
-   {
-    "url": "/items/netherite-upgrade/",
-    "label": "Netherite Upgrade item guide"
-   },
-   {
-    "url": "/items/netherite-ingot/",
-    "label": "How to get Netherite Ingots"
-   },
-   {
-    "url": "/items/diamond/",
-    "label": "How to get Diamonds"
-   }
-  ],
-  "keywords": "how to upgrade to netherite minecraft smithing template netherite armor keep enchantments"
- },
- {
   "slug": "how-to-find-lush-cave",
   "name": "How to Find a Lush Cave in Minecraft",
   "shortTitle": "Find a Lush Cave",
@@ -24542,7 +24324,7 @@
   ],
   "relatedGuides": [
    "how-to-get-glow-berries",
-   "how-to-tame-axolotl"
+   "how-to-tame-an-axolotl"
   ],
   "relatedLinks": [
    {
@@ -24704,7 +24486,7 @@
   ],
   "relatedGuides": [
    "how-to-get-netherite",
-   "how-to-upgrade-to-netherite",
+   "how-to-upgrade-netherite",
    "how-to-get-ward-armor-trim"
   ],
   "relatedLinks": [
@@ -25163,7 +24945,7 @@
   ],
   "relatedGuides": [
    "how-to-get-netherite",
-   "how-to-upgrade-to-netherite",
+   "how-to-upgrade-netherite",
    "how-to-use-smithing-table"
   ],
   "relatedLinks": [

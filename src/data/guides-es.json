@@ -706,7 +706,7 @@
    "Netherite Upgrade template por objeto (duplicable)",
    "Smithing table"
   ],
-  "editionNote": "Idéntico en Java y Bedrock: mismo máximo de debris en Y=15, misma receta, misma mecánica de templates. Los objetos de netherite flotan en la lava y nunca arden: se acabó perder equipo en la lava. El ancient debris nunca se genera expuesto al aire.",
+  "editionNote": "Idéntico en Java y Bedrock: mismo máximo de debris en Y=15, misma receta, misma mecánica de templates. Los objetos de netherite flotan en la lava y nunca arden: se acabó perder equipo en la lava. El ancient debris nunca se genera expuesto al aire. Antes de la 1.20 la mejora solo necesitaba el lingote, sin smithing template.",
   "versions": "Netherite añadida en la 1.16; el requisito del smithing template se añadió en la 1.20. Vigente en la 26.3.",
   "faq": [
    {
@@ -1664,52 +1664,6 @@
    }
   ],
   "relatedLinks": []
- },
- "how-to-make-saddle": {
-  "name": "Cómo hacer una Saddle en Minecraft",
-  "shortTitle": "Hacer una Saddle",
-  "quickAnswer": "Desde 1.21.6 las saddles se craftean: 3 leather + 1 iron ingot en forma de T (leather arriba al centro, leather-iron-leather en la fila del medio). En versiones anteriores - o si te faltan materiales - consíguela pescando (0,8%), de un leatherworker master o matando un ravager.",
-  "steps": [
-   "Craftéala (1.21.6+): pon leather en el slot superior central y leather-iron ingot-leather en la fila central de la crafting table: 3 leather y 1 iron ingot en total.",
-   "Lo que cambió en 1.21.6: las saddles ya no aparecen en los cofres de monster rooms, ancient cities, desert pyramids, jungle pyramids ni altares de strongholds: el crafteo es ahora la vía principal.",
-   "Pesca: cada intento de pesca tiene un 0,8% de soltar una saddle (categoría tesoro). Suerte del Mar sube tus opciones de tesoro.",
-   "Comercio: los leatherworker de nivel master venden saddles por emeralds - fiable y renovable en cuanto tengas un trading hall.",
-   "Mata un ravager durante una raid: siempre suelta una saddle, sin que Saqueo afecte.",
-   "Ruta del Nether: los strider jockeys (un zombified piglin montado en un strider) siempre sueltan su saddle al morir el strider.",
-   "Truco extra desde 1.21.6: usa shears sobre un mob ensillado para quitarle la saddle sin hacerle daño."
-  ],
-  "materials": [
-   "3 leather (cows, horses, hoglins)",
-   "1 iron ingot",
-   "Crafting table",
-   "Alternativas: fishing rod / emeralds / raid"
-  ],
-  "editionNote": "Ambas ediciones craftean la saddle igual: Java desde 1.21.6, Bedrock desde 1.21.90. La pesca (0,8%) y el drop de ravager son idénticos en las dos.",
-  "versions": "Saddle desde Infdev; crafteable desde Java 1.21.6 / Bedrock 1.21.90.",
-  "faq": [
-   {
-    "q": "¿Se puede craftear una saddle en Minecraft?",
-    "a": "Sí, desde 1.21.6: 3 leather y 1 iron ingot en forma de T. Antes eran solo botín: pesca, comercio, cofres de dungeons o ravagers."
-   },
-   {
-    "q": "¿Cuál es la forma más rápida de conseguir una saddle?",
-    "a": "Crafteándola: 3 leather de cows y 1 iron ingot. Sin materiales, un trade de leatherworker master o una sesión de pesca con suerte son lo siguiente."
-   },
-   {
-    "q": "¿Cómo se quita una saddle a un pig o horse?",
-    "a": "Desde 1.21.6, usa shears sobre el mob ensillado. Antes, la única forma de recuperar la saddle de un pig era matándolo."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/saddle/",
-    "label": "Saddle"
-   },
-   {
-    "url": "/es/mobs/ravager/",
-    "label": "Ravager"
-   }
-  ]
  },
  "how-to-make-lead": {
   "name": "Cómo hacer un Lead en Minecraft",
@@ -10570,64 +10524,6 @@
   ],
   "keywords": "amethyst shards minecraft, cómo conseguir amethyst shards, amethyst geode minecraft, granja de amatista, fortune amatista"
  },
- "how-to-make-spyglass": {
-  "slug": "how-to-make-spyglass",
-  "name": "Cómo hacer un spyglass en Minecraft",
-  "shortTitle": "Hacer un spyglass",
-  "quickAnswer": "Craftea 1 amethyst shard + 2 copper ingots en línea vertical para conseguir un spyglass. Úsalo para acercar tu vista a 1/10 de tu FOV: perfecto para explorar terreno, espiar monuments y avistar bases a la distancia de renderizado.",
-  "steps": [
-   "Consigue una amethyst shard: mina un amethyst cluster completamente crecido en una amethyst geode (pico = 4 shards). Una sola shard es todo lo que necesita el spyglass.",
-   "Consigue 2 copper ingots: mina copper ore (pico hacia Y=48, y extra común en dripstone caves) y funde el raw copper en un horno o blast furnace.",
-   "Craftéalo: amethyst shard arriba, dos copper ingots debajo: una receta vertical de 3 objetos en la cuadrícula de crafteo.",
-   "O lutea uno: los spyglasses también aparecen en cofres, así que mantén los ojos abiertos al explorar.",
-   "Haz zoom: mantén usar para mirar a través. Tu FOV se reduce a 1/10 de lo normal: 7 grados en Java (70 por defecto), 6 en Bedrock (60 por defecto). Eso es exploración a larga distancia de verdad.",
-   "Conoce los límites: el spyglass amplifica lo que ya ves: no renderiza mobs más allá de la distancia de renderizado ni aclara la niebla lejana. También te mueves más lento mientras apuntas, y la vista se cierra sola tras 1 minuto de uso continuo.",
-   "Quita la viñeta: el marco cuadrado de la pantalla desaparece con F1 en Java (comportamiento intencionado), útil para capturas limpias a través de la mira.",
-   "Usos prácticos: comprobar si una woodland mansion merece el viaje, leer el diseño de un ocean monument, contar illagers antes de una raid, espiar láseres de guardians, e inspeccionar tu megaconstrucción desde una montaña."
-  ],
-  "materials": [
-   "Amethyst shard x1",
-   "Copper ingot x2",
-   "Crafting table"
-  ],
-  "editionNote": "Misma receta y mecánica de zoom en ambas ediciones. Dos divisiones: el FOV por defecto del spyglass es de 7 grados en Java frente a 6 en Bedrock (ambos 1/10 del FOV por defecto respectivo), y solo Java puede ocultar el marco cuadrado con F1. Bedrock además tiene un ajuste de amortiguación de cámara para el movimiento con la mira.",
-  "versions": "Añadido en la 1.17 - Caves & Cliffs Part I (20w45a), junto a las amethyst geodes y el cobre. Su receta nunca ha cambiado.",
-  "faq": [
-   {
-    "q": "¿Cómo se hace un spyglass en Minecraft?",
-    "a": "Coloca 1 amethyst shard sobre 2 copper ingots en la cuadrícula de crafteo: una receta vertical sencilla. Las amethyst shards salen de clusters completamente crecidos en amethyst geodes, y los copper ingots de fundir copper ore (más común hacia Y=48 y en dripstone caves)."
-   },
-   {
-    "q": "¿Cuánto zoom hace un spyglass?",
-    "a": "Muestra 1/10 de tu campo de visión normal: 7 grados en Java y 6 en Bedrock con ajustes por defecto. Si juegas con un FOV personalizado (30-110 grados), la vista del spyglass escala a 3-11 grados en consecuencia."
-   },
-   {
-    "q": "¿Es útil el spyglass?",
-    "a": "Para explorar, sí: te permite inspeccionar monuments, mansions, outposts y bases desde lejos antes de comprometerte. No puede ver más allá de la distancia de renderizado ni a través de la niebla, y te ralentiza al usarlo, pero para planear ataques y explorar océanos es la óptica más barata del juego."
-   }
-  ],
-  "relatedGuides": [
-   "how-to-find-amethyst",
-   "how-to-get-amethyst-shards",
-   "how-to-get-iron",
-   "how-to-enchant"
-  ],
-  "relatedLinks": [
-   {
-    "label": "Spyglass",
-    "href": "/es/items/spyglass/"
-   },
-   {
-    "label": "Amethyst geode",
-    "href": "/es/structures/amethyst-geode/"
-   },
-   {
-    "label": "Dripstone caves",
-    "href": "/es/biomes/dripstone-caves/"
-   }
-  ],
-  "keywords": "spyglass minecraft, cómo hacer spyglass, receta spyglass minecraft, zoom minecraft, spyglass fov"
- },
  "how-to-make-blast-furnace": {
   "slug": "how-to-make-blast-furnace",
   "name": "Cómo hacer un blast furnace en Minecraft",
@@ -15547,7 +15443,7 @@
    "Buckets of tropical fish (para atraerlos y criarlos)",
    "Una lush cave"
   ],
-  "editionNote": "El comportamiento es igual en Java y Bedrock: atrapar con bucket, seguimiento y cría con tropical fish, Regeneration en combate y hacerse el muerto coinciden. Los axolotls azules son solo de cría (1 entre 1200) en ambas ediciones desde la 1.17.1.",
+  "editionNote": "Casi todo el comportamiento es igual en Java y Bedrock: atrapar con bucket, seguimiento y cría con tropical fish, Regeneration en combate y hacerse el muerto coinciden. Los axolotls azules son solo de cría (1 entre 1200) en ambas ediciones desde la 1.17.1. Una diferencia de edición: los axolotls te siguen desde 10 bloques en Java y 16 en Bedrock.",
   "versions": "Los axolotls se añadieron en la 1.17 (20w51a, Caves and Cliffs parte 1). Los spawns naturales azules duraron solo unos meses: la 1.17.1 los hizo exclusivos de cría, un guiño a los aproximadamente 1200 axolotls que quedan en libertad en la vida real.",
   "faq": [
    {
@@ -21226,12 +21122,13 @@
   "shortTitle": "Conseguir saddle",
   "quickAnswer": "Craftéala: 3 leather + 1 iron ingot en la crafting table (desde 1.21.6). Antes de esa actualización, las saddles salían de pescar (0,8%), de ravagers, de strider jockeys, del comercio con aldeanos y de cofres de estructuras como nether fortresses y dungeons.",
   "steps": [
-   "Craftéala (1.21.6+): leather arriba en el centro, leather a la izquierda del centro, iron ingot en el centro, leather a la derecha del centro. Son 3 leather y 1 iron ingot por saddle.",
-   "Péscala: las saddles son una captura de tesoro con un 0,8% de probabilidad por intento, mejorada con Luck of the Sea.",
-   "Mata un ravager durante una raid: siempre suelta su saddle, y Looting no lo cambia.",
-   "Mata un strider jockey en el Nether: el strider siempre suelta la saddle que lleva puesta.",
-   "Comercia con un leatherworker de nivel máster, que vende una saddle por emeralds.",
-   "Saquea cofres de nether fortresses, dungeons, desert temples, jungle temples, villages, bastions y ancient cities."
+   "Fábricala (1.21.6+): coloca leather en la ranura superior central y leather, iron ingot, leather en la fila central: 3 leather y 1 iron ingot por saddle.",
+   "Pesca una: las saddles son un tesoro de pesca con un 0.8% de probabilidad por intento, mejorado con Luck of the Sea.",
+   "Mata un ravager durante una raid: siempre suelta una saddle, y Looting no lo cambia.",
+   "Mata un strider jockey en el Nether (un zombified piglin montando un strider): el strider siempre suelta la saddle que lleva.",
+   "Comercia con un villager leatherworker de nivel master, que vende saddles por emeralds.",
+   "Saquea cofres: las nether fortresses, los bastion remnants y los cofres de las tenerías de las villages aún pueden tener saddles.",
+   "Quítala sin matar al mob: desde 1.21.6, usar shears sobre un mob ensillado retira la saddle sin dañarlo."
   ],
   "materials": [
    "3 leather (cows, horses o hoglins)",
@@ -21239,20 +21136,20 @@
    "Crafting table",
    "O una fishing rod con Luck of the Sea para la ruta clásica"
   ],
-  "editionNote": "La receta de crafteo llegó a la vez en Java 1.21.6 y Bedrock 1.21.90. Desde la misma actualización, las shears quitan la saddle de un mob sin matarlo. Los skeleton horses solo pueden ensillarse en Java.",
+  "editionNote": "Las saddles se volvieron crafteables en Java 1.21.6 y Bedrock 1.21.90 (3 leather + 1 iron ingot), y la misma actualización permite quitar la saddle de un mob con shears sin matarlo. La 1.21.6 también eliminó las saddles de los cofres de monster rooms, ancient cities, desert pyramids, jungle pyramids y altares de strongholds, así que la búsqueda de cofres ahora significa nether fortresses, bastions y tenerías de villages. La pesca (0.8%) y el drop de ravager son idénticos en ambas ediciones.",
   "versions": "Crafteable desde 1.21.6 (Java) / 1.21.90 (Bedrock), el drop Chase the Skies. En versiones anteriores usa pesca, ravagers o cofres.",
   "faq": [
    {
     "q": "¿Se puede craftear una saddle en Minecraft?",
-    "a": "Sí, desde el drop Chase the Skies (Java 1.21.6, Bedrock 1.21.90): 3 leather + 1 iron ingot. Antes de esa versión la saddle no se podía craftear y solo salía de loot, pesca, comercio o ravagers."
+    "a": "Sí, desde la 1.21.6: 3 leather más 1 iron ingot, con el leather en la ranura superior central y leather-iron-leather en la fila central. Antes de la 1.21.6 las saddles eran solo botín."
    },
    {
-    "q": "¿Qué mobs pueden llevar saddle?",
-    "a": "Horses, donkeys, mules, zombie horses, camels, camel husks, pigs, striders, nautiluses y zombie nautiluses. En Java, también los skeleton horses. La saddle es lo que te permite controlar al mob al montarlo."
+    "q": "¿Cuál es la forma más rápida de conseguir una saddle?",
+    "a": "Fabrícala con 3 leather y 1 iron ingot, ambos farmeables en minutos. Sin crafteo, matar un ravager durante una raid garantiza una, y los leatherworkers master las venden por emeralds."
    },
    {
-    "q": "¿Qué cofre tiene más probabilidad de saddle?",
-    "a": "Los cofres de nether fortress son la apuesta clásica, seguidos de dungeons y bastion remnants. Pero con la receta de crafteo disponible, buscar cofres ya no es la ruta eficiente."
+    "q": "¿Cómo se quita una saddle de un pig o un horse?",
+    "a": "Desde la 1.21.6, usa shears sobre el mob ensillado para quitar la saddle sin dañarlo. En équidos y camels también puedes abrir su inventario y sacarla de la ranura de la saddle."
    }
   ],
   "relatedLinks": [
@@ -21267,54 +21164,6 @@
    {
     "url": "/es/mobs/ravager/",
     "label": "Guía del mob Ravager"
-   }
-  ]
- },
- "how-to-tame-axolotl": {
-  "name": "Cómo domesticar un axolotl en Minecraft",
-  "shortTitle": "Domesticar axolotl",
-  "quickAnswer": "Los axolotls no se pueden domesticar como los wolves, pero se comportan como mascotas: mételo en un water bucket para llevarlo contigo, y te sigue cuando sostienes un bucket of tropical fish. Cría dos con buckets of tropical fish para conseguir una cría, con 1/1200 de probabilidad de la rara variante azul.",
-  "steps": [
-   "Encuentra axolotls bajo el agua en las lush caves, donde aparecen sobre bloques de clay.",
-   "Atrapa uno con un water bucket: usa el cubo sobre el axolotl para conseguir un bucket of axolotl, que lo mantiene vivo para siempre.",
-   "Guíalo sosteniendo un bucket of tropical fish: los axolotls te siguen en un radio de 10 bloques (Java) o 16 bloques (Bedrock).",
-   "Cría dos adultos alimentando a cada uno con un bucket of tropical fish. La cría tiene 1/1200 de probabilidad de ser azul; si no, hereda el color de un padre.",
-   "Mantenlos húmedos: los axolotls sobreviven fuera del agua unos 5 minutos (6000 ticks), y necesitan agua o lluvia para seguir vivos.",
-   "Llévalos a peleas oceánicas: los axolotls atacan a drowned, guardians y peces, y cuando matas un mob contra el que luchaban, te curan con Regeneration y te quitan el Mining Fatigue."
-  ],
-  "materials": [
-   "Water bucket (para atraparlos)",
-   "Buckets of tropical fish (comida; solo tropical fish, no cod ni salmon)",
-   "Una lush cave con agua y clay"
-  ],
-  "editionNote": "El radio de seguimiento es de 10 bloques en Java y 16 en Bedrock. El cooldown de cría es de 5 minutos en Java pero 1 minuto en Bedrock, y la Regeneration de las peleas con axolotls está limitada a 2 minutos en Java pero no tiene límite en Bedrock.",
-  "versions": "Los axolotls existen desde 1.17 (Caves & Cliffs Parte 1). La variante azul nunca aparece de forma natural: solo sale de la cría.",
-  "faq": [
-   {
-    "q": "¿Se puede domesticar un axolotl de verdad?",
-    "a": "No en el sentido de los wolves. No hay animación de domesticar ni orden de sentarse, pero un axolotl en cubo es tuyo para siempre, te sigue con tropical fish y lucha a tu lado, así que en la práctica funciona como mascota."
-   },
-   {
-    "q": "¿Qué comen los axolotls en Minecraft?",
-    "a": "Solo buckets of tropical fish. No el objeto de tropical fish crudo: primero debes atrapar tropical fish vivos con un water bucket y luego darles el cubo al axolotl."
-   },
-   {
-    "q": "¿Qué tan raro es el axolotl azul?",
-    "a": "1 de cada 1200 crías. Nunca aparece en estado salvaje, así que la cría es la única vía, por eso las granjas de axolotls azules usan dos padres no azules y muchos tropical fish."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/mobs/axolotl/",
-    "label": "Guía del mob Axolotl"
-   },
-   {
-    "url": "/es/mobs/tropical-fish/",
-    "label": "Guía del mob Tropical Fish"
-   },
-   {
-    "url": "/es/biomes/lush-caves/",
-    "label": "Bioma Lush Caves"
    }
   ]
  },
@@ -21987,56 +21836,6 @@
    {
     "url": "/es/items/phantom-membrane/",
     "label": "Cómo conseguir Phantom Membranes"
-   }
-  ]
- },
- "how-to-upgrade-to-netherite": {
-  "name": "Cómo mejorar el equipo de diamante a netherite en Minecraft",
-  "shortTitle": "Mejorar a netherite",
-  "quickAnswer": "Necesitas un netherite upgrade smithing template de un bastion remnant, más un netherite ingot por pieza. En la smithing table: template + equipo de diamante + ingot. La mejora conserva encantamientos, pérdida de durabilidad y trims, y no cuesta XP.",
-  "steps": [
-   "Encuentra un netherite upgrade template en cofres de bastion remnants (los cofres de bridge, genéricos y hoglin stable tienen un 10% de probabilidad cada uno).",
-   "Duplica tu template antes de usarlo: 7 diamonds + 1 netherrack + el template devuelve 2.",
-   "Haz netherite ingots: 4 netherite scraps (ancient debris fundido) + 4 gold ingots cada uno.",
-   "Abre una smithing table: hueco izquierdo el template, en medio la pieza de diamante, a la derecha el ingot.",
-   "Recoge tu equipo de netherite: encantamientos, prior work penalty, armor trims y durabilidad restante se conservan todos.",
-   "A diferencia del anvil, la mejora cuesta cero experiencia y no añade prior work penalty.",
-   "Haz las 9 piezas: helmet, chestplate, leggings, boots, sword, pickaxe, axe, shovel y hoe necesitan cada una un ingot y un template."
-  ],
-  "materials": [
-   "Netherite upgrade template (bastions) + 7 diamonds y netherrack por copia",
-   "Netherite ingots (ancient debris + oro)",
-   "Equipo de diamante a mejorar",
-   "Smithing table (4 planks + 2 iron)"
-  ],
-  "editionNote": "El flujo de la smithing table es idéntico en Java y Bedrock desde que 1.20 lo cambió. Las versiones anteriores (pre-1.20) mejoraban solo con el ingot, sin template.",
-  "versions": "La mejora con templates existe desde 1.20 (Trails & Tales). Antes bastaba el equipo de diamante + netherite ingot en la smithing table.",
-  "faq": [
-   {
-    "q": "¿Se conservan los encantamientos al mejorar a netherite?",
-    "a": "Sí, todo se conserva: encantamientos, prior work penalty, daño de durabilidad y armor trims. La smithing table no cuesta XP por la mejora, a diferencia de combinar en el anvil."
-   },
-   {
-    "q": "¿Dónde consigo el netherite upgrade template?",
-    "a": "Solo de cofres de bastion remnants: 10% de probabilidad en cofres de bridge, genéricos y hoglin stable. Cuando tengas uno, duplícalo con 7 diamonds y un netherrack en lugar de buscar más."
-   },
-   {
-    "q": "¿Vale la pena la netherite frente al diamante?",
-    "a": "Sí para herramientas y armadura: +1 de daño en espadas, más durabilidad, resistencia al knockback en la armadura, y los objetos de netherite flotan en la lava en lugar de quemarse. La caza del template es el coste real, no las estadísticas."
-   }
-  ],
-  "relatedLinks": [
-   {
-    "url": "/es/items/netherite-upgrade/",
-    "label": "Guía del objeto Netherite Upgrade"
-   },
-   {
-    "url": "/es/items/netherite-ingot/",
-    "label": "Cómo conseguir Netherite Ingots"
-   },
-   {
-    "url": "/es/items/diamond/",
-    "label": "Cómo conseguir Diamonds"
    }
   ]
  },
