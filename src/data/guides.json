@@ -28287,5 +28287,261 @@
         "url": "/commands/"
       }
     ]
+  },
+  {
+    "slug": "how-to-keep-inventory",
+    "name": "How to Keep Inventory When You Die",
+    "shortTitle": "Keep Inventory",
+    "quickAnswer": "Run /gamerule keepInventory true (needs cheats) and you keep your items and XP when you die. Turn it back off with /gamerule keepInventory false. On Bedrock it is also a world toggle: Activate Cheats > Keep Inventory.",
+    "keywords": "how to keep inventory minecraft gamerule keepinventory true die keep items command",
+    "materials": [
+      "Cheats enabled (Java: Open to LAN trick works)",
+      "Bedrock: also available as a world toggle in settings"
+    ],
+    "steps": [
+      "Java: open chat (T) and run /gamerule keepInventory true. The game confirms the rule changed.",
+      "No cheats on your Java world? Press Esc > Open to LAN > Allow Cheats: ON, start the LAN world and run the command. The gamerule stays saved in the world even after cheats turn off again.",
+      "Bedrock: world settings > Activate Cheats, then scroll to the Keep Inventory toggle and turn it on. Activating cheats disables achievements on that world.",
+      "From now on, dying costs you nothing: you respawn with your full inventory and experience levels.",
+      "To go back to normal, run /gamerule keepInventory false (or flip the Bedrock toggle off).",
+      "Server owners: the same command works from the server console or as an operator."
+    ],
+    "versions": "keepInventory exists in every version that has gamerules - practically all modern Java and Bedrock versions.",
+    "editionNote": "Bedrock hides it behind the cheats toggle, which disables achievements. Java has no achievement lockout - advancements keep working.",
+    "faq": [
+      {
+        "q": "Does keepInventory count as cheating?",
+        "a": "It is a built-in game rule Mojang put in the game - on Java it does not even cost you advancements. On Bedrock, any cheat toggle disables achievements for that world."
+      },
+      {
+        "q": "Do I lose XP with keepInventory on?",
+        "a": "No. You keep your items and your experience levels when you die."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats",
+      "how-to-teleport",
+      "how-to-find-your-way-home"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Commands",
+        "url": "/commands/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-set-spawn-point",
+    "name": "How to Set Your Spawn Point in Minecraft",
+    "shortTitle": "Set Spawn Point",
+    "quickAnswer": "Sleep in a bed (Overworld) or click a charged respawn anchor (Nether) to set your respawn point. With cheats, /spawnpoint sets it exactly where you stand. Without any of these you respawn at world spawn.",
+    "keywords": "how to set spawn point minecraft bed respawn anchor spawnpoint command world spawn",
+    "materials": [
+      "A bed (3 wool + 3 planks) for the Overworld",
+      "A respawn anchor + glowstone for the Nether",
+      "Cheats for the /spawnpoint command"
+    ],
+    "steps": [
+      "Overworld: place a bed and sleep in it (right-click at night or during thunderstorms). The chat confirms 'Respawn point set'.",
+      "Your bed spawn stays until the bed is broken or blocked - then you respawn at world spawn with a 'bed missing or obstructed' message.",
+      "Nether: beds explode there. Use a respawn anchor instead: craft it with 6 crying obsidian + 3 glowstone, place it and charge it with glowstone blocks (up to 4 charges).",
+      "Click the charged anchor to set your Nether spawn. Each death uses one charge - recharge with more glowstone.",
+      "With cheats: /spawnpoint sets your spawn exactly where you stand, in any dimension. /spawnpoint @p X Y Z sets precise coordinates.",
+      "World spawn itself only moves with /setworldspawn (cheats) - useful for server lobbies and adventure maps."
+    ],
+    "versions": "Respawn anchors were added in 1.16 (Nether Update) and work the same in all current versions.",
+    "editionNote": "Beds set spawns identically on Java and Bedrock. Respawn anchors exist on both editions too - just never right-click a bed in the Nether or the End.",
+    "faq": [
+      {
+        "q": "Why did I respawn at world spawn?",
+        "a": "Your bed was broken or blocked, or your respawn anchor ran out of charges. The death message tells you which one happened."
+      },
+      {
+        "q": "Can I have spawns in several places?",
+        "a": "Only one personal respawn point at a time - the last bed slept in or anchor clicked wins. Compass plus lodestone helps you navigate between bases."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-bed",
+      "how-to-make-respawn-anchor",
+      "how-to-use-a-lodestone"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Commands",
+        "url": "/commands/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-find-slime-chunks",
+    "name": "How to Find Slime Chunks in Minecraft",
+    "shortTitle": "Find Slime Chunks",
+    "quickAnswer": "Slimes spawn below Y=40 in special 'slime chunks' - about 1 in 10 chunks, regardless of light. Java: your chunks depend on the world seed (press F3+G to see chunk borders). Bedrock: slime chunks are the same fixed coordinates in every world. Slimes also spawn in swamps at night (Y=51-69).",
+    "keywords": "how to find slime chunks minecraft slime farm y level swamp java bedrock chunk borders f3 g",
+    "materials": [
+      "Java: F3 debug screen (F3 + G for chunk borders)",
+      "Your world seed (/seed) for chunk-finder tools",
+      "A pickaxe to dig down to Y=40 or below"
+    ],
+    "steps": [
+      "Underground method (both editions): slimes spawn below Y=40 in slime chunks, about 1 in 10 chunks, in any light level. Dig out a large room under Y=40 and see where slimes appear.",
+      "Java: press F3 + G to draw chunk borders in the world. A chunk runs 16x16 blocks; the debug screen also shows your current chunk.",
+      "Java: your slime chunks depend on the world seed. Run /seed, then plug the seed into a free chunk-finder map tool to mark every slime chunk around your base.",
+      "Bedrock: slime chunks sit at the same fixed coordinates in every world - any Bedrock slime-chunk map works without knowing your seed.",
+      "Swamp method: slimes spawn on the surface in swamps and mangrove swamps between Y=51 and Y=69 when the light level is 7 or less. They are most common on a full moon and never spawn on a new moon.",
+      "Farming tip: light up nearby caves to free the mob cap, then stand 24-32 blocks from your slime-chunk platform so slimes keep spawning."
+    ],
+    "versions": "Slime chunk mechanics are stable across current versions. Swamp spawning (Y=51-69, light 7 or less, moon phases) works the same on Java and Bedrock.",
+    "editionNote": "Java slime chunks are seed-based; Bedrock slime chunks are fixed coordinates shared by every world. Swamp spawning is identical on both.",
+    "faq": [
+      {
+        "q": "Do slimes need darkness in slime chunks?",
+        "a": "No - below Y=40 they spawn at any light level. Only the swamp surface spawns care about light (7 or less)."
+      },
+      {
+        "q": "Why is my slime farm empty?",
+        "a": "Usually the mob cap is full of cave mobs, or you are standing too close (slimes do not spawn within 24 blocks of you). Light up caves around the farm."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-slimes",
+      "how-to-get-slimeballs",
+      "how-to-make-a-mob-farm"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-play-older-versions",
+    "name": "How to Play Older Versions of Minecraft",
+    "shortTitle": "Play Older Versions",
+    "quickAnswer": "Java: Minecraft Launcher > Installations > New Installation > pick any version from the dropdown (back to the oldest alphas) and play it. Bedrock has no official version switcher - only Java can downgrade.",
+    "keywords": "how to play older versions minecraft downgrade launcher installations old version java alpha beta",
+    "materials": [
+      "Minecraft Java Edition",
+      "The official Minecraft Launcher",
+      "An installation per version you want to keep"
+    ],
+    "steps": [
+      "Open the Minecraft Launcher and go to the Installations tab.",
+      "Click New Installation, give it a name (e.g. '1.8.9 PvP') and open the Version dropdown.",
+      "Pick the version you want - the list goes back through every release, beta and alpha. Enable snapshots/historical versions in the filter if you do not see the oldest ones.",
+      "Save, then select that installation on the Play tab and launch. The launcher downloads the old version automatically.",
+      "Modded old versions: install the matching Forge/Fabric version for that release and put old mods in its mods folder.",
+      "Warning: worlds saved in a newer version will not open in an older one. Back up worlds before switching versions."
+    ],
+    "versions": "The launcher offers every Java release back to the 2009 alphas, plus snapshots. Old console editions (Xbox 360, PS3) are frozen at their last updates.",
+    "editionNote": "Java Edition only. Bedrock (Windows, console, mobile) always updates to the latest version with no official downgrade path.",
+    "faq": [
+      {
+        "q": "Can I play a newer world in an old version?",
+        "a": "No. Worlds upgraded to a newer version cannot be opened in older ones - keep backups per version."
+      },
+      {
+        "q": "Why play old versions?",
+        "a": "Nostalgia, old mechanics (pre-1.9 combat), and mods that were never updated past a certain version."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-update-minecraft",
+      "how-to-backup-your-world",
+      "how-to-install-mods"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Versions",
+        "url": "/versions/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-take-a-screenshot",
+    "name": "How to Take a Screenshot in Minecraft",
+    "shortTitle": "Take a Screenshot",
+    "quickAnswer": "Java: press F2 in-game - the screenshot saves to .minecraft/screenshots. Hide the HUD first with F1. On Bedrock use your device's own capture (Win+G, console share button, or phone screenshot).",
+    "keywords": "how to take a screenshot minecraft f2 screenshots folder hide hud f1 bedrock capture",
+    "materials": [
+      "Java: the F2 key (Fn + F2 on some laptops)",
+      "F1 hides the HUD for clean shots",
+      "Bedrock: your platform's capture button"
+    ],
+    "steps": [
+      "Java: press F2 at any moment in-game. A chat message confirms the screenshot was saved.",
+      "Find them in .minecraft/screenshots: %appdata%\\.minecraft\\screenshots on Windows, ~/Library/Application Support/minecraft/screenshots on macOS, ~/.minecraft/screenshots on Linux.",
+      "Clean shots: press F1 first to hide the HUD and your hand, and F3 to hide debug info if it is on. Press F1 again to bring the HUD back.",
+      "Bedrock on Windows: use Win + Alt + PrtScn (Game Bar) or the Snipping Tool - the game has no F2 key.",
+      "Consoles: use the controller's share/capture button; the shot saves to the console's media gallery.",
+      "Mobile: use the phone's normal screenshot gesture. Bedrock also has a screenshot button in the pause menu on some platforms."
+    ],
+    "versions": "F2 and F1 have worked the same in every Java version. Bedrock relies on the platform capture tools in all current versions.",
+    "editionNote": "Only Java has the built-in F2 screenshot. Bedrock always uses the operating system's capture feature.",
+    "faq": [
+      {
+        "q": "Where do Java screenshots go?",
+        "a": "Into .minecraft/screenshots next to your saves folder. The chat message after pressing F2 links straight to the file."
+      },
+      {
+        "q": "F2 does nothing on my laptop?",
+        "a": "Hold Fn + F2 - many laptops map F2 to brightness or volume by default."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-show-coordinates",
+      "how-to-install-shaders"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Tools",
+        "url": "/tools/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-datapacks",
+    "name": "How to Install Datapacks in Minecraft (Java)",
+    "shortTitle": "Install Datapacks",
+    "quickAnswer": "Java: drop the datapack .zip (unzipped stays zipped) into the datapacks folder inside your world save, then run /reload or reopen the world. New worlds: use the More > Data Packs button on the creation screen. Bedrock does not support datapacks - it uses add-ons.",
+    "keywords": "how to install datapacks minecraft java datapacks folder world save vanilla tweaks reload",
+    "materials": [
+      "Minecraft Java Edition",
+      "A datapack .zip from a trusted source (Vanilla Tweaks, Modrinth, Planet Minecraft)",
+      "A datapack made for your Minecraft version"
+    ],
+    "steps": [
+      "New world: on the creation screen click More > Data Packs, drag the .zip into the window and move it to the Selected column.",
+      "Existing world: select the world in the Singleplayer list and click Edit > Open World Folder, then open the datapacks folder.",
+      "Drop the datapack .zip into that folder - keep it zipped.",
+      "Load the world and run /reload (needs cheats), or simply close and reopen the world. Most packs print a message in chat when they load.",
+      "Check active packs with /datapack list. Enable or disable them with /datapack enable and /datapack disable.",
+      "If nothing loads, the pack is probably for another version or nested wrongly - the .zip must contain the pack.mcmeta file at its top level."
+    ],
+    "versions": "Datapacks are version-sensitive: the pack format number changes with major releases. Use packs that list your version - Vanilla Tweaks publishes one download per release.",
+    "editionNote": "Java Edition only. Bedrock uses behaviour packs and add-ons instead, installed like resource packs.",
+    "faq": [
+      {
+        "q": "Are datapacks free?",
+        "a": "Yes - Vanilla Tweaks, Modrinth and Planet Minecraft datapacks are all free. No account or payment needed."
+      },
+      {
+        "q": "Do datapacks work on servers?",
+        "a": "Yes - put them in the server world's datapacks folder. Players do not need to install anything; datapacks are server-side."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-backup-your-world",
+      "how-to-enable-cheats"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
   }
 ]

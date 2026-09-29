@@ -24940,5 +24940,261 @@
       }
     ],
     "slug": "how-to-enable-cheats"
+  },
+  "how-to-keep-inventory": {
+    "name": "Cómo conservar el inventario al morir",
+    "shortTitle": "Keep inventory",
+    "quickAnswer": "Ejecuta /gamerule keepInventory true (necesita cheats) y conservarás tus objetos y tu XP al morir. Vuelve a la normalidad con /gamerule keepInventory false. En Bedrock también hay un interruptor: Activate Cheats > Keep Inventory.",
+    "keywords": "cómo conservar inventario minecraft gamerule keepinventory true morir conservar objetos comando",
+    "materials": [
+      "Cheats activados (en Java vale el truco de Open to LAN)",
+      "Bedrock: también disponible como interruptor en los ajustes"
+    ],
+    "steps": [
+      "Java: abre el chat (T) y ejecuta /gamerule keepInventory true. El juego confirma el cambio de regla.",
+      "¿Sin cheats en tu mundo Java? Pulsa Esc > Open to LAN > Allow Cheats: ON, arranca el mundo LAN y ejecuta el comando. La gamerule queda guardada en el mundo aunque los cheats se apaguen después.",
+      "Bedrock: ajustes del mundo > Activate Cheats, baja hasta el interruptor Keep Inventory y actívalo. Activar cheats desactiva los logros de ese mundo.",
+      "A partir de ahora, morir no cuesta nada: reapareces con todo tu inventario y tus niveles de experiencia.",
+      "Para volver a la normalidad, ejecuta /gamerule keepInventory false (o apaga el interruptor en Bedrock).",
+      "Dueños de servidores: el mismo comando funciona desde la consola del servidor o como operator."
+    ],
+    "versions": "keepInventory existe en todas las versiones con gamerules: prácticamente todas las versiones modernas de Java y Bedrock.",
+    "editionNote": "Bedrock lo esconde tras el interruptor de cheats, que desactiva los logros. Java no bloquea nada: los advancements siguen funcionando.",
+    "faq": [
+      {
+        "q": "¿keepInventory cuenta como hacer trampa?",
+        "a": "Es una regla de juego integrada por Mojang: en Java ni siquiera te quita advancements. En Bedrock, cualquier interruptor de cheats desactiva los logros de ese mundo."
+      },
+      {
+        "q": "¿Pierdo XP con keepInventory activado?",
+        "a": "No. Conservas tus objetos y tus niveles de experiencia al morir."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats",
+      "how-to-teleport",
+      "how-to-find-your-way-home"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-keep-inventory"
+  },
+  "how-to-set-spawn-point": {
+    "name": "Cómo fijar tu punto de reaparición en Minecraft",
+    "shortTitle": "Fijar spawn point",
+    "quickAnswer": "Duerme en una bed (Overworld) o haz clic en un respawn anchor cargado (Nether) para fijar tu punto de reaparición. Con cheats, /spawnpoint lo fija exactamente donde estás. Sin nada de esto reapareces en el world spawn.",
+    "keywords": "cómo fijar punto de reaparición minecraft bed respawn anchor spawnpoint comando world spawn",
+    "materials": [
+      "Una bed (3 wool + 3 planks) para el Overworld",
+      "Un respawn anchor + glowstone para el Nether",
+      "Cheats para el comando /spawnpoint"
+    ],
+    "steps": [
+      "Overworld: coloca una bed y duerme en ella (clic derecho de noche o durante tormentas). El chat confirma 'Respawn point set'.",
+      "Tu spawn de cama dura hasta que la cama se rompe o queda obstruida: entonces reapareces en el world spawn con el mensaje 'bed missing or obstructed'.",
+      "Nether: las beds explotan allí. Usa un respawn anchor: se craftea con 6 crying obsidian + 3 glowstone; colócalo y cárgalo con bloques de glowstone (hasta 4 cargas).",
+      "Haz clic en el anchor cargado para fijar tu spawn del Nether. Cada muerte gasta una carga: recarga con más glowstone.",
+      "Con cheats: /spawnpoint fija tu spawn exactamente donde estás, en cualquier dimensión. /spawnpoint @p X Y Z usa coordenadas exactas.",
+      "El world spawn en sí solo se mueve con /setworldspawn (cheats): útil para lobbies de servidores y mapas de aventura."
+    ],
+    "versions": "Los respawn anchors se añadieron en la 1.16 (Nether Update) y funcionan igual en todas las versiones actuales.",
+    "editionNote": "Las beds fijan el spawn igual en Java y Bedrock. Los respawn anchors también existen en ambas ediciones: solo recuerda no hacer clic en una bed en el Nether o en el End.",
+    "faq": [
+      {
+        "q": "¿Por qué reaparecí en el world spawn?",
+        "a": "Tu bed se rompió o quedó bloqueada, o tu respawn anchor se quedó sin cargas. El mensaje de muerte te dice cuál de las dos cosas pasó."
+      },
+      {
+        "q": "¿Puedo tener spawns en varios sitios?",
+        "a": "Solo un punto de reaparición personal a la vez: manda la última bed usada o el último anchor pulsado. Compass con lodestone te ayuda a moverte entre bases."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-bed",
+      "how-to-make-respawn-anchor",
+      "how-to-use-a-lodestone"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Comandos",
+        "url": "/es/commands/"
+      }
+    ],
+    "slug": "how-to-set-spawn-point"
+  },
+  "how-to-find-slime-chunks": {
+    "name": "Cómo encontrar slime chunks en Minecraft",
+    "shortTitle": "Encontrar slime chunks",
+    "quickAnswer": "Los slimes aparecen por debajo de Y=40 en 'slime chunks' especiales: más o menos 1 de cada 10 chunks, con cualquier luz. Java: tus chunks dependen de la seed del mundo (pulsa F3+G para ver los bordes de chunk). Bedrock: los slime chunks son las mismas coordenadas fijas en todos los mundos. También salen en swamps de noche (Y=51-69).",
+    "keywords": "cómo encontrar slime chunks minecraft granja de slimes altura y swamp java bedrock bordes de chunk f3 g",
+    "materials": [
+      "Java: pantalla de debug F3 (F3 + G para los bordes de chunk)",
+      "La seed de tu mundo (/seed) para herramientas de búsqueda de chunks",
+      "Un pickaxe para bajar a Y=40 o menos"
+    ],
+    "steps": [
+      "Método subterráneo (ambas ediciones): los slimes aparecen bajo Y=40 en slime chunks, cerca de 1 de cada 10 chunks, con cualquier nivel de luz. Excava una sala grande bajo Y=40 y mira dónde aparecen slimes.",
+      "Java: pulsa F3 + G para dibujar los bordes de chunk en el mundo. Un chunk mide 16x16 bloques; la pantalla de debug también muestra tu chunk actual.",
+      "Java: tus slime chunks dependen de la seed del mundo. Ejecuta /seed y mete la seed en un mapa buscador de chunks gratuito para marcar todos los slime chunks alrededor de tu base.",
+      "Bedrock: los slime chunks están en las mismas coordenadas fijas en todos los mundos: cualquier mapa de slime chunks de Bedrock funciona sin saber tu seed.",
+      "Método swamp: los slimes aparecen en superficie en swamps y mangrove swamps entre Y=51 e Y=69 con nivel de luz 7 o menos. Son más frecuentes con luna llena y nunca aparecen con luna nueva.",
+      "Truco de farmeo: ilumina las cuevas cercanas para liberar el mob cap y ponte a 24-32 bloques de tu plataforma para que sigan apareciendo slimes."
+    ],
+    "versions": "La mecánica de slime chunks es estable en las versiones actuales. El spawn en swamps (Y=51-69, luz 7 o menos, fases de la luna) funciona igual en Java y Bedrock.",
+    "editionNote": "Los slime chunks de Java dependen de la seed; los de Bedrock son coordenadas fijas compartidas por todos los mundos. El spawn en swamps es idéntico en ambas.",
+    "faq": [
+      {
+        "q": "¿Los slimes necesitan oscuridad en slime chunks?",
+        "a": "No: bajo Y=40 aparecen con cualquier nivel de luz. Solo los spawns de superficie en swamps dependen de la luz (7 o menos)."
+      },
+      {
+        "q": "¿Por qué mi granja de slimes está vacía?",
+        "a": "Normalmente el mob cap está lleno de mobs de cuevas, o estás demasiado cerca (no aparecen slimes a menos de 24 bloques de ti). Ilumina las cuevas de alrededor."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-slimes",
+      "how-to-get-slimeballs",
+      "how-to-make-a-mob-farm"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/es/mobs/"
+      }
+    ],
+    "slug": "how-to-find-slime-chunks"
+  },
+  "how-to-play-older-versions": {
+    "name": "Cómo jugar a versiones antiguas de Minecraft",
+    "shortTitle": "Versiones antiguas",
+    "quickAnswer": "Java: Minecraft Launcher > Installations > New Installation > elige cualquier versión en el desplegable (hasta las alphas más viejas) y juégala. Bedrock no tiene selector de versiones oficial: solo Java puede volver atrás.",
+    "keywords": "cómo jugar versiones antiguas minecraft volver a versión anterior launcher installations java alpha beta",
+    "materials": [
+      "Minecraft Java Edition",
+      "El Minecraft Launcher oficial",
+      "Una instalación por cada versión que quieras guardar"
+    ],
+    "steps": [
+      "Abre el Minecraft Launcher y ve a la pestaña Installations.",
+      "Pulsa New Installation, ponle un nombre (por ejemplo '1.8.9 PvP') y abre el desplegable Version.",
+      "Elige la versión que quieras: la lista recorre todas las releases, betas y alphas. Activa snapshots/versiones históricas en el filtro si no ves las más antiguas.",
+      "Guarda, selecciona esa instalación en la pestaña Play y arranca. El launcher descarga la versión antigua automáticamente.",
+      "Versiones antiguas con mods: instala el Forge/Fabric correspondiente a esa versión y mete mods antiguos en su carpeta mods.",
+      "Aviso: los mundos guardados en una versión más nueva no se abren en una más vieja. Haz backup de los mundos antes de cambiar de versión."
+    ],
+    "versions": "El launcher ofrece todas las versiones de Java hasta las alphas de 2009, más snapshots. Las viejas ediciones de consola (Xbox 360, PS3) se quedaron congeladas en sus últimas actualizaciones.",
+    "editionNote": "Solo Java Edition. Bedrock (Windows, consolas, móvil) siempre se actualiza a la última versión, sin vuelta atrás oficial.",
+    "faq": [
+      {
+        "q": "¿Puedo jugar un mundo nuevo en una versión vieja?",
+        "a": "No. Los mundos actualizados a una versión más nueva no se abren en versiones anteriores: guarda backups por versión."
+      },
+      {
+        "q": "¿Para qué jugar a versiones viejas?",
+        "a": "Nostalgia, mecánicas antiguas (el combate de antes de la 1.9) y mods que nunca se actualizaron más allá de cierta versión."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-update-minecraft",
+      "how-to-backup-your-world",
+      "how-to-install-mods"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Versiones",
+        "url": "/es/versions/"
+      }
+    ],
+    "slug": "how-to-play-older-versions"
+  },
+  "how-to-take-a-screenshot": {
+    "name": "Cómo hacer una captura de pantalla en Minecraft",
+    "shortTitle": "Hacer captura",
+    "quickAnswer": "Java: pulsa F2 en el juego: la captura se guarda en .minecraft/screenshots. Oculta antes el HUD con F1. En Bedrock usa la captura de tu dispositivo (Win+G, botón de compartir de la consola o captura del móvil).",
+    "keywords": "cómo hacer captura de pantalla minecraft f2 carpeta screenshots ocultar hud f1 bedrock captura",
+    "materials": [
+      "Java: la tecla F2 (Fn + F2 en algunos portátiles)",
+      "F1 oculta el HUD para capturas limpias",
+      "Bedrock: el botón de captura de tu plataforma"
+    ],
+    "steps": [
+      "Java: pulsa F2 en cualquier momento del juego. Un mensaje en el chat confirma que se guardó la captura.",
+      "Las encuentras en .minecraft/screenshots: %appdata%\\.minecraft\\screenshots en Windows, ~/Library/Application Support/minecraft/screenshots en macOS, ~/.minecraft/screenshots en Linux.",
+      "Capturas limpias: pulsa F1 antes para ocultar el HUD y tu mano, y F3 para quitar la info de debug si está activa. Pulsa F1 otra vez para recuperar el HUD.",
+      "Bedrock en Windows: usa Win + Alt + PrtScn (Game Bar) o la Herramienta Recortes: el juego no tiene tecla F2.",
+      "Consolas: usa el botón de compartir/capturar del mando; la captura se guarda en la galería de la consola.",
+      "Móvil: usa el gesto de captura habitual del teléfono. Bedrock también tiene botón de captura en el menú de pausa en algunas plataformas."
+    ],
+    "versions": "F2 y F1 funcionan igual en todas las versiones de Java. Bedrock depende de las herramientas de captura de la plataforma en todas las versiones actuales.",
+    "editionNote": "Solo Java tiene la captura integrada con F2. Bedrock usa siempre la función de captura del sistema operativo.",
+    "faq": [
+      {
+        "q": "¿Dónde van las capturas de Java?",
+        "a": "A .minecraft/screenshots, junto a tu carpeta saves. El mensaje del chat tras pulsar F2 enlaza directo al archivo."
+      },
+      {
+        "q": "¿F2 no hace nada en mi portátil?",
+        "a": "Mantén Fn + F2: muchos portátiles asignan F2 al brillo o al volumen por defecto."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-show-coordinates",
+      "how-to-install-shaders"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Herramientas",
+        "url": "/es/tools/"
+      }
+    ],
+    "slug": "how-to-take-a-screenshot"
+  },
+  "how-to-install-datapacks": {
+    "name": "Cómo instalar datapacks en Minecraft (Java)",
+    "shortTitle": "Instalar datapacks",
+    "quickAnswer": "Java: mete el .zip del datapack (sin descomprimir) en la carpeta datapacks dentro del save de tu mundo, y ejecuta /reload o reabre el mundo. Mundos nuevos: usa el botón More > Data Packs en la pantalla de creación. Bedrock no admite datapacks: usa add-ons.",
+    "keywords": "cómo instalar datapacks minecraft java carpeta datapacks save del mundo vanilla tweaks reload",
+    "materials": [
+      "Minecraft Java Edition",
+      "Un .zip de datapack de una fuente fiable (Vanilla Tweaks, Modrinth, Planet Minecraft)",
+      "Un datapack hecho para tu versión de Minecraft"
+    ],
+    "steps": [
+      "Mundo nuevo: en la pantalla de creación pulsa More > Data Packs, arrastra el .zip a la ventana y pásalo a la columna Selected.",
+      "Mundo ya creado: selecciona el mundo en la lista de Singleplayer y pulsa Edit > Open World Folder; abre la carpeta datapacks.",
+      "Mete el .zip del datapack en esa carpeta: déjalo comprimido.",
+      "Carga el mundo y ejecuta /reload (necesita cheats), o simplemente cierra y reabre el mundo. La mayoría de packs escriben un mensaje en el chat al cargar.",
+      "Comprueba los packs activos con /datapack list. Actívalos o desactívalos con /datapack enable y /datapack disable.",
+      "Si no carga nada, el pack es de otra versión o está mal anidado: el .zip debe contener el archivo pack.mcmeta en su nivel superior."
+    ],
+    "versions": "Los datapacks dependen de la versión: el número de formato de pack cambia con las versiones grandes. Usa packs que indiquen tu versión: Vanilla Tweaks publica una descarga por versión.",
+    "editionNote": "Solo Java Edition. Bedrock usa behaviour packs y add-ons, que se instalan como los resource packs.",
+    "faq": [
+      {
+        "q": "¿Los datapacks son gratis?",
+        "a": "Sí: los datapacks de Vanilla Tweaks, Modrinth y Planet Minecraft son gratis. Sin cuentas ni pagos."
+      },
+      {
+        "q": "¿Funcionan los datapacks en servidores?",
+        "a": "Sí: mételos en la carpeta datapacks del mundo del servidor. Los jugadores no tienen que instalar nada; los datapacks van del lado del servidor."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-backup-your-world",
+      "how-to-enable-cheats"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/es/mods/"
+      }
+    ],
+    "slug": "how-to-install-datapacks"
   }
 }
