@@ -29062,5 +29062,269 @@
         "url": "/servers/"
       }
     ]
+  },
+  {
+    "slug": "how-to-link-nether-portals",
+    "name": "How to Link Nether Portals (Fast Travel)",
+    "shortTitle": "Link Nether Portals",
+    "quickAnswer": "The Nether is 1:8 with the Overworld: divide your Overworld X and Z by 8, build a portal at those Nether coordinates and light it - the two portals link. In Java, the game searches 128 blocks in the Overworld and 16 in the Nether for an existing portal before creating a new one.",
+    "keywords": "how to link nether portals minecraft 1 to 8 ratio nether hub fast travel portal not linking coordinates",
+    "materials": [
+      "10 obsidian per portal (14 for the full frame) + flint and steel",
+      "Your Overworld coordinates (F3)",
+      "Safe paths in the Nether for the hub"
+    ],
+    "steps": [
+      "The rule: 1 block in the Nether equals 8 in the Overworld (X and Z only - Y stays the same).",
+      "Stand at your Overworld base, note X and Z (F3), divide both by 8 rounding down. That is where the matching portal goes in the Nether.",
+      "Build and light the Nether portal at exactly those coordinates. Walk through and back - the portals now link both ways.",
+      "Why portals mis-link: when you enter a portal, the game converts your position and looks for an existing portal nearby - 128 blocks radius in the Overworld and 16 in the Nether on Java (128 in both on Bedrock) - before generating a new one.",
+      "Fixing a mis-link: break the wrongly placed portal, rebuild it at the exact divided coordinates and relight. Also check the Y: the game picks the nearest portal counting height too.",
+      "Build a Nether hub: portals for each base connected by safe tunnels or blue-ice boat roads - travel is 8x faster than the Overworld.",
+      "Long distances beyond the world edge behave differently near X/Z 30 million - normal bases never hit that."
+    ],
+    "versions": "The 1:8 ratio has never changed. Search radii: Java 128 Overworld / 16 Nether; Bedrock 128 in both dimensions.",
+    "editionNote": "Java and Bedrock use the same 1:8 conversion; only the portal search radius differs (16 vs 128 blocks in the Nether).",
+    "faq": [
+      {
+        "q": "My portal took me somewhere random - why?",
+        "a": "No portal existed within search range of your converted coordinates, so the game generated one in the nearest valid spot. Build your portal exactly at X/8, Z/8 (same Y) to force the link."
+      },
+      {
+        "q": "How far must two Overworld portals be to not collide?",
+        "a": "On Java, Overworld portals within 1024 blocks of each other share the same Nether portal zone (128 Overworld blocks = 16 Nether blocks). Space Nether portals at least 16 Nether blocks apart."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-nether-portal",
+      "how-to-show-coordinates",
+      "how-to-get-blue-ice"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Structures",
+        "url": "/structures/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-use-f3-debug-screen",
+    "name": "How to Use the F3 Debug Screen (Java)",
+    "shortTitle": "Use the F3 Screen",
+    "quickAnswer": "Press F3 in Java Edition to open the debug overlay: coordinates, biome, light level, FPS and chunk info. Useful combos: F3+G chunk borders, F3+B hitboxes, F3+C copy coordinates, F3+Q lists every shortcut.",
+    "keywords": "how to use f3 debug screen minecraft java coordinates light level biome chunk borders hitboxes fps",
+    "materials": [
+      "Minecraft Java Edition",
+      "A keyboard (Fn + F3 on some laptops)",
+      "No cheats needed - F3 always works"
+    ],
+    "steps": [
+      "Press F3 in-game. The overlay shows two columns of data; press F3 again to close it.",
+      "Read your position: XYZ is your exact spot, Block is the rounded block, Chunk is your chunk position. Y is your height - diamonds at Y=-59.",
+      "Find the biome, light level and difficulty on the left column; FPS and version sit at the top.",
+      "F3 + G draws chunk borders - essential for slime chunks and farms.",
+      "F3 + B shows entity hitboxes and where mobs are looking - find hidden mobs through walls.",
+      "F3 + C copies your current coordinates to the clipboard (hold it - it crashes the game after 10 seconds as a manual crash key).",
+      "F3 + A reloads chunks, F3 + T reloads textures, F3 + Q shows the full shortcut list."
+    ],
+    "versions": "The debug screen exists in every Java version. The exact layout shifts between releases but coordinates, light and biome are always there.",
+    "editionNote": "Java only. Bedrock has no F3 screen - enable Show Coordinates in world settings and use the paper doll and FOV instead.",
+    "faq": [
+      {
+        "q": "Does F3 need cheats?",
+        "a": "No - the debug screen works in every Java world, even with cheats off. Some multiplayer servers hide coordinates with reducedDebugInfo."
+      },
+      {
+        "q": "How do I see the light level for mob spawns?",
+        "a": "The 'Client Light' line shows block and sky light at your position. Hostile mobs spawn at block light 0 in current versions."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-show-coordinates",
+      "how-to-find-slime-chunks",
+      "how-to-reduce-lag"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Tools",
+        "url": "/tools/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-fabric",
+    "name": "How to Install Fabric (Java Mod Loader)",
+    "shortTitle": "Install Fabric",
+    "quickAnswer": "Download the Fabric installer free from fabricmc.net, run it, pick your Minecraft version and install - a Fabric profile appears in the launcher. Drop Fabric API plus your mods into .minecraft/mods and play.",
+    "keywords": "how to install fabric minecraft java mod loader fabricmc.net fabric api mods folder sodium",
+    "materials": [
+      "Minecraft Java Edition",
+      "The free Fabric installer from fabricmc.net",
+      "Fabric API + your mods from Modrinth or CurseForge"
+    ],
+    "steps": [
+      "Run your target Minecraft version once in the launcher so Fabric can hook into it.",
+      "Download the Fabric installer from fabricmc.net - free and the only official source.",
+      "Run the installer, choose your Minecraft version and click Install. It creates a Fabric profile in the launcher.",
+      "Download Fabric API from Modrinth or CurseForge - nearly every Fabric mod needs it.",
+      "Put Fabric API and your mods (all matching your game version) into .minecraft/mods.",
+      "Launch the Fabric profile. The Mods menu on the title screen lists everything that loaded.",
+      "Recommended starters: Sodium (FPS), Iris (shaders), Lithium (server logic), Mod Menu - all free on Modrinth."
+    ],
+    "versions": "Fabric updates within hours of new Minecraft releases, snapshots included. Match the loader, Fabric API and every mod to your exact game version.",
+    "editionNote": "Java Edition only. Bedrock has no mod loaders - use add-ons instead.",
+    "faq": [
+      {
+        "q": "Is Fabric free?",
+        "a": "Yes - the installer, Fabric API and mods on Modrinth are all free. Never pay for a mod loader."
+      },
+      {
+        "q": "Fabric, Forge or NeoForge?",
+        "a": "Fabric is light and updates fastest; NeoForge/Forge host the biggest content mods. Pick whichever your mods require - many performance and quality-of-life mods are Fabric-only."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-reduce-lag",
+      "how-to-install-shaders"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-record-minecraft",
+    "name": "How to Record Minecraft Gameplay (Free)",
+    "shortTitle": "Record Gameplay",
+    "quickAnswer": "Free on PC: install OBS Studio, add a Game Capture source for Minecraft and hit Start Recording. Consoles record with the built-in capture (Xbox/PlayStation share button, Switch 30s clips); phones use the screen recorder.",
+    "keywords": "how to record minecraft gameplay free obs studio game capture console clips phone screen recorder",
+    "materials": [
+      "PC: OBS Studio (free, obsproject.com)",
+      "Consoles: built-in capture button",
+      "Phones: the system screen recorder"
+    ],
+    "steps": [
+      "PC: download OBS Studio free from obsproject.com (Windows, macOS, Linux). The auto-setup wizard picks sane settings.",
+      "Add a source: + > Game Capture, mode 'Capture specific window', select the Minecraft window. Mic goes in with the default audio.",
+      "Settings > Output: Recording Quality 'High' with MP4 or MKV format works for YouTube; 1080p 60fps if your PC handles it.",
+      "Press Start Recording and play. F1 in Minecraft hides the HUD for clean shots.",
+      "Consoles: Xbox captures up to a few minutes with the share button (longer to an external drive); PlayStation saves up to the last hour with the Create button; Switch holds the capture button for the last 30 seconds.",
+      "Phones/tablets: use the built-in screen recorder (Control Center on iOS, quick settings on Android).",
+      "Lightweight alternative on Windows: the Xbox Game Bar (Win + G) records without installing anything."
+    ],
+    "versions": "OBS works with every Minecraft version - it records the window, not the game files.",
+    "editionNote": "Recording is identical for Java and Bedrock on PC. Console and mobile use the platform capture tools, which cost nothing.",
+    "faq": [
+      {
+        "q": "Is OBS Studio free?",
+        "a": "Yes, completely free and open source from obsproject.com. No watermarks, no time limits, no account."
+      },
+      {
+        "q": "My recording lags - what do I lower?",
+        "a": "Drop to 720p 30fps in OBS output settings, use the hardware encoder (NVENC/QuickSync) instead of x264, and lower Minecraft's render distance."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-take-a-screenshot",
+      "how-to-reduce-lag",
+      "how-to-use-f3-debug-screen"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Tools",
+        "url": "/tools/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-play-hardcore",
+    "name": "How to Play Hardcore Mode in Minecraft",
+    "shortTitle": "Play Hardcore",
+    "quickAnswer": "Create a new world and set Game Mode to Hardcore (Java: the creation screen; Bedrock: the world settings since 1.21). Difficulty locks to Hard and death is permanent - you can only spectate the world afterwards.",
+    "keywords": "how to play hardcore minecraft hardcore mode one life permanent death spectator bedrock java create world",
+    "materials": [
+      "A new world - Hardcore is chosen at creation",
+      "Java: creation screen; Bedrock: world settings (1.21+)",
+      "Nerves: death deletes your access to the world"
+    ],
+    "steps": [
+      "Java: Create New World > Game Mode: Hardcore. The difficulty locks to Hard and cannot be changed.",
+      "Bedrock: world settings > toggle Hardcore on (added in 1.21) - same one-life rules.",
+      "Die once and the world offers Spectator mode only: fly around your builds forever, but never play in that world again.",
+      "Cheats and bonus chests are off by default in Hardcore; the Open to LAN cheat trick still works on Java if you enable it.",
+      "Survival priorities: a bed before night one, a shield before caves, totems of undying before anything risky, and never dig straight down.",
+      "Totems of undying from evokers (woodland mansions and raids) are the only in-game second chance.",
+      "Back up the world folder if you want a personal 'checkpoint' - it is your world, nobody judges."
+    ],
+    "versions": "Hardcore has been in Java since 2011 and arrived on Bedrock in 1.21 (2024). Rules are identical on both editions now.",
+    "editionNote": "Both editions have Hardcore today. Java Hardcore worlds can be reopened in Spectator only; Bedrock shows the same one-life behavior.",
+    "faq": [
+      {
+        "q": "Can I revive a Hardcore world?",
+        "a": "Not officially - death is permanent. On Java, editing the world's level.dat with external tools can un-hardcore it, but that is your call."
+      },
+      {
+        "q": "Does Hardcore cost anything?",
+        "a": "No - it is a built-in game mode on both editions, completely free."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-change-gamemode",
+      "how-to-get-totem-of-undying",
+      "how-to-backup-your-world"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guides",
+        "url": "/guides/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-speedrun-minecraft",
+    "name": "How to Speedrun Minecraft (Beginner Any% Guide)",
+    "shortTitle": "Speedrun Basics",
+    "quickAnswer": "The Any% route: village or shipwreck start for food and beds, bucket early, build a nether portal with the bucket method, trade gold with piglins for ender pearls, get blaze rods, find the stronghold and kill the dragon with beds. Casual runs take 30-60 minutes.",
+    "keywords": "how to speedrun minecraft any percent beginner route bucket method piglin trades beds dragon kill",
+    "materials": [
+      "A random seed (Any% rules) - set seed runs are a separate category",
+      "A water bucket as early as possible",
+      "Beds for the dragon fight - 4 or 5"
+    ],
+    "steps": [
+      "Start: grab food, wood and a bed fast. Villages and shipwrecks give food, beds and iron - reset weak starts without mercy.",
+      "Iron bucket first: carry water for cliffs, lava and enderman defense.",
+      "Nether entry: speedrunners skip the diamond pickaxe - shape a portal frame by pouring lava with the bucket and turning it to obsidian (the 'bucket method').",
+      "In the Nether: find a bastion remnant and trade gold to piglins for ender pearls; find a fortress and kill blazes for 7-8 blaze rods.",
+      "Back in the Overworld, throw eyes of ender to triangulate the stronghold, dig down and fill the portal.",
+      "The dragon: place beds at the fountain, wait for it to perch, and click the bed as its head arrives - bed explosions ignore armor and melt its health.",
+      "Practice segments separately (bastion routes, fortress spawns) before chaining full runs. Timing tools and the leaderboard live on speedrun.com - free."
+    ],
+    "versions": "Runs happen mostly on recent versions (1.16.1 was the classic Any% version; current categories use newer ones). Mechanics described work in all 1.16+ versions.",
+    "editionNote": "Java dominates competitive speedrunning. Bedrock has its own categories with different routes - the bed explosion trick works on both.",
+    "faq": [
+      {
+        "q": "Is speedrunning free?",
+        "a": "Yes - the game you already own plus free tools (speedrun.com leaderboards, practice maps). Nothing to buy."
+      },
+      {
+        "q": "Why do runners use beds on the dragon?",
+        "a": "Beds explode when used in the End, and the explosion does huge damage to the perched dragon - faster than any sword."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-the-ender-dragon",
+      "how-to-barter-piglins",
+      "how-to-get-blaze-rods"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Advancements",
+        "url": "/advancements/"
+      }
+    ]
   }
 ]
