@@ -1,316 +1,367 @@
 [
- {
-  "slug": "pack-png",
-  "name": "pack.png Seed",
-  "seed": "3257840388504953787",
-  "version": "Java Alpha 1.2.2 (world loads in modern Java with different terrain)",
-  "coords": "x=49, z=0",
-  "edition": "java",
-  "story": "The default server-list icon of Minecraft, pack.png, was added in Alpha 1.2.2 (November 2010) and nobody knew which world it showed. After an 8-month community hunt led by SalC1 with the Minecraft@Home distributed computing project, the seed was found in September 2020. It is probably the most famous seed in the game.",
-  "notes": [
-   "Load it in Alpha 1.2.2 for the exact original terrain; newer versions generate a different world from the same seed",
-   "The iconic cloud-and-waterfall cliff is at x=49, z=0",
-   "The hunt searched 281 quadrillion possible seeds with BOINC volunteers"
-  ],
-  "source": "https://packpng.com/",
-  "sourceName": "packpng.com",
-  "keywords": "pack png seed server icon famous 3257840388504953787"
- },
- {
-  "slug": "title-panorama-original",
-  "name": "Original Title Screen Panorama",
-  "seed": "2151901553968352745",
-  "version": "Java Beta 1.7.3 (world seen in Beta 1.8 through 1.12)",
-  "coords": "X=61.48, Y=75, Z=-68.73",
-  "edition": "java",
-  "story": "The slowly rotating blurred world behind the Minecraft main menu from Beta 1.8 (2011) to 1.13. The seed was cracked by the Minecraft@Home community on July 18, 2020 after about a month of research. A second valid seed exists - 8091867987493326313 - because old versions used only 48 bits of the seed, so thousands of seeds generate this same world.",
-  "notes": [
-   "Use 2151901553968352745 or 8091867987493326313 in Beta 1.7.3 for the exact panorama world",
-   "Stand at X=61.48, Y=75, Z=-68.73 looking the right way to recreate the shot",
-   "54.5 exaFLOPs of volunteer computing went into the search"
-  ],
-  "source": "https://minecraftathome.com/projects/1-13-1-16-panoramas.html",
-  "sourceName": "minecraftathome.com",
-  "keywords": "title screen panorama seed original main menu 2151901553968352745"
- },
- {
-  "slug": "title-panorama-118",
-  "name": "1.18 Title Screen Panorama",
-  "seed": "2151901553968352745",
-  "version": "Java 21w40a (1.18 snapshot) and later",
-  "coords": "X=4.83, Y=130.15, Z=-7294.28",
-  "edition": "java",
-  "story": "The sunset panorama introduced in 1.18 was cracked by Minecraft@Home in October 2021 - and turned out to be the same seed as the original 2011 panorama, placed 7,000 blocks away. Mojang reused it deliberately as an easter egg tribute, so the community accidentally cracked the same seed twice.",
-  "notes": [
-   "Same seed as the original panorama - the magic is in the coordinates: X=4.83, Y=130.15, Z=-7294.28",
-   "Recreate the shot: /time set 12949 with doDaylightCycle off, facing east",
-   "Modern 1.18+ terrain, so it works in current Java versions"
-  ],
-  "source": "https://minecraftathome.com/",
-  "sourceName": "minecraftathome.com",
-  "keywords": "1.18 panorama seed caves and cliffs title screen sunset easter egg"
- },
- {
-  "slug": "herobrine-screenshot",
-  "name": "Herobrine Screenshot Seed",
-  "seed": "478868574082066804",
-  "version": "Java Alpha v1.0.16_02",
-  "coords": "X=5.06, Y=71, Z=-298.54",
-  "edition": "java",
-  "story": "The world behind the most famous Minecraft creepypasta. The original 2010 Herobrine screenshot (the white-eyed 'Steve' in the fog) was a hoax, but the world was real. Minecraft@Home rebuilt the visible terrain block by block - using leaf-decay glitches, chunk borders and block texture rotations as clues - and recovered the seed in January 2021. The Minecraft Launcher later joked in its changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
-  "notes": [
-   "Only generates correctly in Alpha v1.0.16_02 (enable historical versions in the launcher)",
-   "Stand at X=5.06, Y=71, Z=-298.54 to recreate the exact screenshot view",
-   "Herobrine was never in the game: you will find the hill, the trees and the fog, nothing more",
-   "Mojang references the seed in the 15 Year Journey map's Alpha minigame"
-  ],
-  "source": "https://minecraft.wiki/w/Herobrine",
-  "sourceName": "Minecraft@Home (January 2021)",
-  "keywords": "herobrine seed screenshot 478868574082066804 alpha creepypasta famous"
- },
- {
-  "slug": "herobrine-livestream",
-  "name": "Herobrine Livestream Seed",
-  "seed": "3609313613745973624",
-  "version": "Java Alpha v1.0.17_04",
-  "coords": "Not published - spawn and explore",
-  "edition": "java",
-  "story": "The seed of the Brocraft livestream where streamer Copeland 'encountered' Herobrine live in 2010, the moment the legend truly went viral. The streams themselves were lost media for 14 years until Enderboss25 recovered them in July 2024 from a viewer who had privately archived them. Copeland eventually released the original world download himself.",
-  "notes": [
-   "Generates in Alpha v1.0.17_04 (historical versions in the launcher)",
-   "The livestream was staged: the 'Herobrine' was a retextured door/painting trick",
-   "The original streams resurfaced in 2024 and are viewable again",
-   "Companion to the Herobrine screenshot seed - two different worlds, one myth"
-  ],
-  "source": "https://minecraft.wiki/w/Herobrine",
-  "sourceName": "Minecraft@Home / Enderboss25",
-  "keywords": "herobrine seed livestream brocraft copeland 3609313613745973624 alpha lost media"
- },
- {
-  "slug": "skull-on-fire-painting",
-  "name": "Skull on Fire Painting Seed",
-  "seed": "-6984854390176336655",
-  "version": "Java Alpha v1.1.2_01 or prior",
-  "coords": "Not published - spawn and explore",
-  "edition": "java",
-  "story": "The world shown in 'Skull on Fire', one of Minecraft's original Kristoffer Zetterstrand paintings. For over a decade nobody knew whether the burning-skull landscape was a real place. Seed researchers proved it was: the terrain in the painting exists in Alpha terrain generation, and either of two seeds reproduces it (the second is -1044887956651363087, because Alpha worlds only use part of the seed bits).",
-  "notes": [
-   "Generates in Alpha v1.1.2_01 or earlier (historical versions in the launcher)",
-   "Two equivalent seeds: -6984854390176336655 or -1044887956651363087",
-   "The painting itself is by Kristoffer Zetterstrand, like most of Minecraft's classic art",
-   "One of the last great 'lost' Minecraft images to be reverse-engineered"
-  ],
-  "source": "https://minecraft.wiki/w/World_seed",
-  "sourceName": "Minecraft@Home",
-  "keywords": "skull on fire painting seed -6984854390176336655 zetterstrand alpha famous"
- },
- {
-  "slug": "title-panorama-113",
-  "name": "1.13 Title Screen Panorama",
-  "seed": "1458140401",
-  "version": "Java snapshot 18w22a (world seen on the 1.13 title screen)",
-  "coords": "Not published - spawn and explore",
-  "edition": "java",
-  "story": "The warm coral-reef ocean that rotated behind the main menu during the Update Aquatic era (1.13). Fittingly, the seed was not brute-forced this time: it is simply the text '18w22a' typed into the seed box - the very snapshot the screenshot was taken in - which hashes to 1458140401.",
-  "notes": [
-   "Type 18w22a or 1458140401 - both produce the same world",
-   "Load it in any 1.13+ version; the reef spawns in warm ocean terrain",
-   "The underwater panorama was Mojang's showcase for Update Aquatic's new oceans",
-   "Same panorama family as the original and 1.18 seeds already in this list"
-  ],
-  "source": "https://minecraft.wiki/w/World_seed",
-  "sourceName": "minecraft.wiki",
-  "keywords": "1.13 panorama seed 1458140401 18w22a title screen update aquatic coral reef"
- },
- {
-  "slug": "title-panorama-119",
-  "name": "1.19 Title Screen Panorama",
-  "seed": "-1696067516",
-  "version": "Java snapshot 22w15a (world seen on the 1.19 title screen)",
-  "coords": "Not published - spawn and explore",
-  "edition": "java",
-  "story": "The mangrove swamp panorama that welcomed players to The Wild Update (1.19). Like the 1.13 panorama, the seed hides in plain sight: type 'thewildupdate' into the seed box and the text hashes to -1696067516, the same world Mojang photographed in snapshot 22w15a.",
-  "notes": [
-   "Type thewildupdate or -1696067516 - both produce the same world",
-   "Load in 1.19+ for the mangrove swamp terrain",
-   "The panorama spotlights the then-new mangrove trees, mud and fireflies-era ambience",
-   "Text seeds are hashed with Java's String.hashCode, which is why words become numbers"
-  ],
-  "source": "https://minecraft.wiki/w/World_seed",
-  "sourceName": "minecraft.wiki",
-  "keywords": "1.19 panorama seed -1696067516 thewildupdate title screen mangrove swamp wild update"
- },
- {
-  "slug": "gargamel",
-  "name": "gargamel Seed",
-  "seed": "gargamel",
-  "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world from the same word)",
-  "coords": "spawn",
-  "edition": "java",
-  "story": "The seed that taught the community what seeds were for. Shared on February 25-27, 2011, right after Beta 1.3 added the seed input box, 'gargamel' dumped players inside a pitch-black cave - many thought they had spawned at night or in hell - and the world outside was an outrageous landscape of overhangs, cliffs and floating rock. It became the first viral seed and the template for every seed showcase since.",
-  "notes": [
-   "The spawn is literally inside a dark cave: dig up or toward the light to escape, then enjoy the terrain",
-   "Load it in Beta 1.3 through 1.7.3 for the original world; later versions generate different terrain from the same word",
-   "Named after the Smurfs villain, for reasons lost to forum history",
-   "Still one of the most-remembered seeds ever, regularly topping 'most famous seed' forum threads"
-  ],
-  "source": "https://minecraft-seeds.net/seed/b1.3-b1.7.3/gargamel/",
-  "sourceName": "minecraft-seeds.net",
-  "keywords": "gargamel seed minecraft beta famous cave spawn first viral seed 2011"
- },
- {
-  "slug": "404",
-  "name": "404 Seed (404 Challenge)",
-  "seed": "404",
-  "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world)",
-  "coords": "spawn",
-  "edition": "java",
-  "story": "Home of the legendary 404 Challenge. You spawn facing a small gravel hole in a beach: punch one block of gravel, the whole floor collapses, and you fall into a vast dark cave system. The community challenge that grew around it - gather what you can during one day, drop in at night, then survive underground with no torches and no return to the surface - became one of the first great Minecraft survival challenges, played by Stampylongnose and countless others.",
-  "notes": [
-   "The gravel pit at spawn is the entrance: breaking one gravel block collapses the rest into the cave",
-   "Classic rules: one day of surface gathering, then underground forever - no torches allowed",
-   "Works in Beta 1.3 through 1.7.3; later updates changed the terrain and killed the challenge",
-   "The cave below is rich: early diamonds are common if you explore on the way down"
-  ],
-  "source": "https://ggservers.com/blog/the-forgotten-404-minecraft-challenge/",
-  "sourceName": "ggservers.com",
-  "keywords": "404 seed minecraft 404 challenge gravel cave no torches beta survival challenge"
- },
- {
-  "slug": "glacier",
-  "name": "Glacier Seed",
-  "seed": "Glacier",
-  "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world)",
-  "coords": "spawn",
-  "edition": "java",
-  "story": "The third pillar of the Beta 1.3 golden age of seeds, remembered alongside gargamel and 404 in every classic-seed thread. 'Glacier' spawned players in a dramatic frozen world of towering ice-covered mountains and frozen lakes - the go-to showcase for how extreme old-school terrain could get, and a favorite for epic builds on impossible icy cliffs.",
-  "notes": [
-   "Capital G matters: enter 'Glacier' exactly, seeds are case-sensitive",
-   "Load in Beta 1.3 through 1.7.3 for the original frozen terrain",
-   "A staple of retro-Minecraft modpacks that recreate the beta terrain generator",
-   "Perfect time capsule for seeing how far world generation has evolved since 2011"
-  ],
-  "source": "https://www.minecraftforum.net/forums/minecraft-java-edition/seeds/324412-whats-the-most-famous-seed-ever-old-or-new",
-  "sourceName": "minecraftforum.net",
-  "keywords": "glacier seed minecraft beta famous ice mountains frozen terrain 2011 classic"
- },
- {
-  "slug": "north-carolina",
-  "name": "North Carolina (Demo World Seed)",
-  "seed": "North Carolina",
-  "version": "Any modern Java version (the demo world regenerates faithfully)",
-  "coords": "Spawn area",
-  "edition": "java",
-  "story": "The world of Minecraft's official demo mode - the free trial that millions of players tried before buying - is generated from the seed \"North Carolina\". Type exactly that (with the space and capitals) into the seed box of any full Java version and the demo world appears: the same hills, the same river, the same starter chest. It is probably the most-played seed in history, and it was hiding in plain sight.",
-  "notes": [
-   "The demo spawns you with a small bonus chest containing starter tools and torches",
-   "Works in modern Java - the demo world generates the same way it does in demo mode",
-   "Capitalization matters: type North Carolina exactly, with the space"
-  ],
-  "source": "https://minecraft.wiki/w/Seed_(world_generation)",
-  "sourceName": "Minecraft Wiki",
-  "keywords": "minecraft demo world seed north carolina trial seed famous"
- },
- {
-  "slug": "worstseedever",
-  "name": "worstseedever Seed",
-  "seed": "worstseedever",
-  "version": "Java Beta 1.7.3 and earlier (modern versions generate a different world)",
-  "coords": "A few steps from spawn",
-  "edition": "java",
-  "story": "One of the first viral seeds ever, from the Beta era around 2011. Despite the name, it is a fantastic world: right at spawn, falling sand collapses to reveal a half-buried dungeon with a monster spawner and a loot chest, and the cave system below was packed with diamonds and redstone. The ironic name made it a legend of early YouTube and forums.",
-  "notes": [
-   "At spawn, watch the sand collapse: dig into it to find the buried dungeon with spawner and chest",
-   "The cave system underneath was famous for easy diamonds, redstone and every ore",
-   "Only works in Beta 1.7.3 and earlier - the 1.7.2 dungeon generation change broke it in modern versions (confirmed by the wiki)"
-  ],
-  "source": "https://minecraft.wiki/w/Biome/Before_Beta_1.8",
-  "sourceName": "Minecraft Wiki",
-  "keywords": "worstseedever seed minecraft beta dungeon spawn famous classic"
- },
- {
-  "slug": "nyan",
-  "name": "nyan Seed (Pocket Edition Legend)",
-  "seed": "nyan",
-  "version": "Pocket Edition Alpha (2012, finite-world era - modern Bedrock generates a different world)",
-  "coords": "The mountain face at spawn",
-  "edition": "bedrock",
-  "story": "The most famous Pocket Edition seed ever. Back when MCPE worlds were small and finite, nyan spawned you facing a colossal mountain with overhangs, lava falls and ice - in a version where lava was almost mythical. A whole generation of mobile players built their first base in that cliff face, and the community later converted the original world file so it can still be played in modern Bedrock.",
-  "notes": [
-   "The spawn faces a huge mountain with lava flows and ice - unforgettable in the finite-world era",
-   "Typing nyan in modern Bedrock creates a different world; the original survives as a community-preserved world file",
-   "Other beloved PE classics of the same era: 999 (double village) and Nether (rare lava)"
-  ],
-  "source": "https://www.reddit.com/r/GoldenAgeMinecraft/comments/1nbuf8m/",
-  "sourceName": "r/GoldenAgeMinecraft",
-  "keywords": "nyan seed minecraft pocket edition classic mcpe famous mountain"
- },
- {
-  "slug": "title-panorama-116",
-  "name": "1.16 Title Panorama Seed",
-  "seed": "6006096527635909600",
-  "version": "Java 1.16 (taken in snapshot 20w13a)",
-  "coords": "Warped forest biome",
-  "edition": "java",
-  "story": "The background panorama of the Minecraft title screen during the Nether Update (1.16): a blue-green warped forest with its huge fungi. The community project Minecraft@Home located the exact seed and viewpoint in mid-2020, shortly after the snapshot released, using distributed computing across thousands of volunteer machines.",
-  "notes": [
-   "Load it in Java 1.16 (or the 20w13a snapshot) for the exact panorama terrain",
-   "The viewpoint sits in a warped forest - the blue biome with huge warped fungi",
-   "The same project also found the pack.png seed and the Beta-era title panorama"
-  ],
-  "source": "https://minecraft.wiki/w/Seed_(world_generation)",
-  "sourceName": "Minecraft Wiki",
-  "keywords": "1.16 panorama seed title screen nether update warped forest 6006096527635909600"
- },
- {
-  "slug": "title-panorama-114",
-  "name": "1.14 Title Screen Panorama",
-  "seed": "2802867088795589976",
-  "version": "Java 18w48a (1.14 snapshot) and later",
-  "coords": "X=240.57, Y=78.12, Z=147.38",
-  "edition": "java",
-  "story": "The Village & Pillage panorama - a plains village buzzing with villagers at dawn - kept its seed secret for over three years until the panorama-cracking community pinned it down in 2022. The exact spot sits near spawn in a plains biome, so you can stand where the camera stood within a minute of creating the world.",
-  "notes": [
-   "Stand at X=240.57, Y=78.12, Z=147.38 and face the village view to recreate the shot",
-   "The world spawns you in plains at 140, 100 - the panorama point is a short walk away",
-   "Best experienced on 1.14-era terrain generation; newer versions reshape the village"
-  ],
-  "source": "https://minecraft.wiki/w/Historical_panoramas",
-  "sourceName": "minecraft.wiki",
-  "keywords": "1.14 panorama seed village and pillage title screen plains village"
- },
- {
-  "slug": "title-panorama-115",
-  "name": "1.15 Title Screen Panorama",
-  "seed": "-4404205509303106230",
-  "version": "Java 19w41a (1.15 snapshot) and later",
-  "coords": "X=339.691, Y=65.546, Z=-1072.041",
-  "edition": "java",
-  "story": "The Buzzy Bees panorama shows bees drifting over a flower forest hillside at sunrise. Its seed was cracked by the community in the same 2022 effort that revealed the 1.14 panorama, ending another multi-year hunt - the bees had been hiding in plain sight the whole time.",
-  "notes": [
-   "Camera spot: X=339.691, Y=65.546, Z=-1072.041",
-   "You spawn in a forest at 136, 56 - a decent hike from the panorama point, so bring a boat or use /tp",
-   "Visit on 1.15-era world generation for the authentic flower forest hillside"
-  ],
-  "source": "https://minecraft.wiki/w/Historical_panoramas",
-  "sourceName": "minecraft.wiki",
-  "keywords": "1.15 panorama seed buzzy bees title screen flower forest bees"
- },
- {
-  "slug": "title-panorama-120",
-  "name": "1.20 Title Screen Panorama",
-  "seed": "8554477380691140270",
-  "version": "Java 23w14a (1.20 snapshot) and later",
-  "coords": "X=1839.272, Y=128, Z=6312.295",
-  "edition": "java",
-  "story": "The Trails & Tales panorama floats above a cherry grove valley with a ruined portal in the foreground - the first panorama shot in a 1.20 feature biome. Its seed was found by the panorama-cracking community in 2023, and the spot sits thousands of blocks from spawn, which is why /tp is your friend.",
-  "notes": [
-   "Camera spot: X=1839.272, Y=128, Z=6312.295 - teleport, do not walk",
-   "Spawns you in a bamboo jungle at 16, -16, far from the cherry grove shot",
-   "Modern terrain generation: this one looks right in current versions"
-  ],
-  "source": "https://minecraft.wiki/w/Historical_panoramas",
-  "sourceName": "minecraft.wiki",
-  "keywords": "1.20 panorama seed trails and tales title screen cherry grove"
- }
+  {
+    "slug": "pack-png",
+    "name": "pack.png Seed",
+    "seed": "3257840388504953787",
+    "version": "Java Alpha 1.2.2 (world loads in modern Java with different terrain)",
+    "coords": "x=49, z=0",
+    "edition": "java",
+    "story": "The default server-list icon of Minecraft, pack.png, was added in Alpha 1.2.2 (November 2010) and nobody knew which world it showed. After an 8-month community hunt led by SalC1 with the Minecraft@Home distributed computing project, the seed was found in September 2020. It is probably the most famous seed in the game.",
+    "notes": [
+      "Load it in Alpha 1.2.2 for the exact original terrain; newer versions generate a different world from the same seed",
+      "The iconic cloud-and-waterfall cliff is at x=49, z=0",
+      "The hunt searched 281 quadrillion possible seeds with BOINC volunteers"
+    ],
+    "source": "https://packpng.com/",
+    "sourceName": "packpng.com",
+    "keywords": "pack png seed server icon famous 3257840388504953787"
+  },
+  {
+    "slug": "title-panorama-original",
+    "name": "Original Title Screen Panorama",
+    "seed": "2151901553968352745",
+    "version": "Java Beta 1.7.3 (world seen in Beta 1.8 through 1.12)",
+    "coords": "X=61.48, Y=75, Z=-68.73",
+    "edition": "java",
+    "story": "The slowly rotating blurred world behind the Minecraft main menu from Beta 1.8 (2011) to 1.13. The seed was cracked by the Minecraft@Home community on July 18, 2020 after about a month of research. A second valid seed exists - 8091867987493326313 - because old versions used only 48 bits of the seed, so thousands of seeds generate this same world.",
+    "notes": [
+      "Use 2151901553968352745 or 8091867987493326313 in Beta 1.7.3 for the exact panorama world",
+      "Stand at X=61.48, Y=75, Z=-68.73 looking the right way to recreate the shot",
+      "54.5 exaFLOPs of volunteer computing went into the search"
+    ],
+    "source": "https://minecraftathome.com/projects/1-13-1-16-panoramas.html",
+    "sourceName": "minecraftathome.com",
+    "keywords": "title screen panorama seed original main menu 2151901553968352745"
+  },
+  {
+    "slug": "title-panorama-118",
+    "name": "1.18 Title Screen Panorama",
+    "seed": "2151901553968352745",
+    "version": "Java 21w40a (1.18 snapshot) and later",
+    "coords": "X=4.83, Y=130.15, Z=-7294.28",
+    "edition": "java",
+    "story": "The sunset panorama introduced in 1.18 was cracked by Minecraft@Home in October 2021 - and turned out to be the same seed as the original 2011 panorama, placed 7,000 blocks away. Mojang reused it deliberately as an easter egg tribute, so the community accidentally cracked the same seed twice.",
+    "notes": [
+      "Same seed as the original panorama - the magic is in the coordinates: X=4.83, Y=130.15, Z=-7294.28",
+      "Recreate the shot: /time set 12949 with doDaylightCycle off, facing east",
+      "Modern 1.18+ terrain, so it works in current Java versions"
+    ],
+    "source": "https://minecraftathome.com/",
+    "sourceName": "minecraftathome.com",
+    "keywords": "1.18 panorama seed caves and cliffs title screen sunset easter egg"
+  },
+  {
+    "slug": "herobrine-screenshot",
+    "name": "Herobrine Screenshot Seed",
+    "seed": "478868574082066804",
+    "version": "Java Alpha v1.0.16_02",
+    "coords": "X=5.06, Y=71, Z=-298.54",
+    "edition": "java",
+    "story": "The world behind the most famous Minecraft creepypasta. The original 2010 Herobrine screenshot (the white-eyed 'Steve' in the fog) was a hoax, but the world was real. Minecraft@Home rebuilt the visible terrain block by block - using leaf-decay glitches, chunk borders and block texture rotations as clues - and recovered the seed in January 2021. The Minecraft Launcher later joked in its changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
+    "notes": [
+      "Only generates correctly in Alpha v1.0.16_02 (enable historical versions in the launcher)",
+      "Stand at X=5.06, Y=71, Z=-298.54 to recreate the exact screenshot view",
+      "Herobrine was never in the game: you will find the hill, the trees and the fog, nothing more",
+      "Mojang references the seed in the 15 Year Journey map's Alpha minigame"
+    ],
+    "source": "https://minecraft.wiki/w/Herobrine",
+    "sourceName": "Minecraft@Home (January 2021)",
+    "keywords": "herobrine seed screenshot 478868574082066804 alpha creepypasta famous"
+  },
+  {
+    "slug": "herobrine-livestream",
+    "name": "Herobrine Livestream Seed",
+    "seed": "3609313613745973624",
+    "version": "Java Alpha v1.0.17_04",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The seed of the Brocraft livestream where streamer Copeland 'encountered' Herobrine live in 2010, the moment the legend truly went viral. The streams themselves were lost media for 14 years until Enderboss25 recovered them in July 2024 from a viewer who had privately archived them. Copeland eventually released the original world download himself.",
+    "notes": [
+      "Generates in Alpha v1.0.17_04 (historical versions in the launcher)",
+      "The livestream was staged: the 'Herobrine' was a retextured door/painting trick",
+      "The original streams resurfaced in 2024 and are viewable again",
+      "Companion to the Herobrine screenshot seed - two different worlds, one myth"
+    ],
+    "source": "https://minecraft.wiki/w/Herobrine",
+    "sourceName": "Minecraft@Home / Enderboss25",
+    "keywords": "herobrine seed livestream brocraft copeland 3609313613745973624 alpha lost media"
+  },
+  {
+    "slug": "skull-on-fire-painting",
+    "name": "Skull on Fire Painting Seed",
+    "seed": "-6984854390176336655",
+    "version": "Java Alpha v1.1.2_01 or prior",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The world shown in 'Skull on Fire', one of Minecraft's original Kristoffer Zetterstrand paintings. For over a decade nobody knew whether the burning-skull landscape was a real place. Seed researchers proved it was: the terrain in the painting exists in Alpha terrain generation, and either of two seeds reproduces it (the second is -1044887956651363087, because Alpha worlds only use part of the seed bits).",
+    "notes": [
+      "Generates in Alpha v1.1.2_01 or earlier (historical versions in the launcher)",
+      "Two equivalent seeds: -6984854390176336655 or -1044887956651363087",
+      "The painting itself is by Kristoffer Zetterstrand, like most of Minecraft's classic art",
+      "One of the last great 'lost' Minecraft images to be reverse-engineered"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "Minecraft@Home",
+    "keywords": "skull on fire painting seed -6984854390176336655 zetterstrand alpha famous"
+  },
+  {
+    "slug": "title-panorama-113",
+    "name": "1.13 Title Screen Panorama",
+    "seed": "1458140401",
+    "version": "Java snapshot 18w22a (world seen on the 1.13 title screen)",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The warm coral-reef ocean that rotated behind the main menu during the Update Aquatic era (1.13). Fittingly, the seed was not brute-forced this time: it is simply the text '18w22a' typed into the seed box - the very snapshot the screenshot was taken in - which hashes to 1458140401.",
+    "notes": [
+      "Type 18w22a or 1458140401 - both produce the same world",
+      "Load it in any 1.13+ version; the reef spawns in warm ocean terrain",
+      "The underwater panorama was Mojang's showcase for Update Aquatic's new oceans",
+      "Same panorama family as the original and 1.18 seeds already in this list"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.13 panorama seed 1458140401 18w22a title screen update aquatic coral reef"
+  },
+  {
+    "slug": "title-panorama-119",
+    "name": "1.19 Title Screen Panorama",
+    "seed": "-1696067516",
+    "version": "Java snapshot 22w15a (world seen on the 1.19 title screen)",
+    "coords": "Not published - spawn and explore",
+    "edition": "java",
+    "story": "The mangrove swamp panorama that welcomed players to The Wild Update (1.19). Like the 1.13 panorama, the seed hides in plain sight: type 'thewildupdate' into the seed box and the text hashes to -1696067516, the same world Mojang photographed in snapshot 22w15a.",
+    "notes": [
+      "Type thewildupdate or -1696067516 - both produce the same world",
+      "Load in 1.19+ for the mangrove swamp terrain",
+      "The panorama spotlights the then-new mangrove trees, mud and fireflies-era ambience",
+      "Text seeds are hashed with Java's String.hashCode, which is why words become numbers"
+    ],
+    "source": "https://minecraft.wiki/w/World_seed",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.19 panorama seed -1696067516 thewildupdate title screen mangrove swamp wild update"
+  },
+  {
+    "slug": "gargamel",
+    "name": "gargamel Seed",
+    "seed": "gargamel",
+    "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world from the same word)",
+    "coords": "spawn",
+    "edition": "java",
+    "story": "The seed that taught the community what seeds were for. Shared on February 25-27, 2011, right after Beta 1.3 added the seed input box, 'gargamel' dumped players inside a pitch-black cave - many thought they had spawned at night or in hell - and the world outside was an outrageous landscape of overhangs, cliffs and floating rock. It became the first viral seed and the template for every seed showcase since.",
+    "notes": [
+      "The spawn is literally inside a dark cave: dig up or toward the light to escape, then enjoy the terrain",
+      "Load it in Beta 1.3 through 1.7.3 for the original world; later versions generate different terrain from the same word",
+      "Named after the Smurfs villain, for reasons lost to forum history",
+      "Still one of the most-remembered seeds ever, regularly topping 'most famous seed' forum threads"
+    ],
+    "source": "https://minecraft-seeds.net/seed/b1.3-b1.7.3/gargamel/",
+    "sourceName": "minecraft-seeds.net",
+    "keywords": "gargamel seed minecraft beta famous cave spawn first viral seed 2011"
+  },
+  {
+    "slug": "404",
+    "name": "404 Seed (404 Challenge)",
+    "seed": "404",
+    "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world)",
+    "coords": "spawn",
+    "edition": "java",
+    "story": "Home of the legendary 404 Challenge. You spawn facing a small gravel hole in a beach: punch one block of gravel, the whole floor collapses, and you fall into a vast dark cave system. The community challenge that grew around it - gather what you can during one day, drop in at night, then survive underground with no torches and no return to the surface - became one of the first great Minecraft survival challenges, played by Stampylongnose and countless others.",
+    "notes": [
+      "The gravel pit at spawn is the entrance: breaking one gravel block collapses the rest into the cave",
+      "Classic rules: one day of surface gathering, then underground forever - no torches allowed",
+      "Works in Beta 1.3 through 1.7.3; later updates changed the terrain and killed the challenge",
+      "The cave below is rich: early diamonds are common if you explore on the way down"
+    ],
+    "source": "https://ggservers.com/blog/the-forgotten-404-minecraft-challenge/",
+    "sourceName": "ggservers.com",
+    "keywords": "404 seed minecraft 404 challenge gravel cave no torches beta survival challenge"
+  },
+  {
+    "slug": "glacier",
+    "name": "Glacier Seed",
+    "seed": "Glacier",
+    "version": "Java Beta 1.3 - 1.7.3 (modern versions generate a different world)",
+    "coords": "spawn",
+    "edition": "java",
+    "story": "The third pillar of the Beta 1.3 golden age of seeds, remembered alongside gargamel and 404 in every classic-seed thread. 'Glacier' spawned players in a dramatic frozen world of towering ice-covered mountains and frozen lakes - the go-to showcase for how extreme old-school terrain could get, and a favorite for epic builds on impossible icy cliffs.",
+    "notes": [
+      "Capital G matters: enter 'Glacier' exactly, seeds are case-sensitive",
+      "Load in Beta 1.3 through 1.7.3 for the original frozen terrain",
+      "A staple of retro-Minecraft modpacks that recreate the beta terrain generator",
+      "Perfect time capsule for seeing how far world generation has evolved since 2011"
+    ],
+    "source": "https://www.minecraftforum.net/forums/minecraft-java-edition/seeds/324412-whats-the-most-famous-seed-ever-old-or-new",
+    "sourceName": "minecraftforum.net",
+    "keywords": "glacier seed minecraft beta famous ice mountains frozen terrain 2011 classic"
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina (Demo World Seed)",
+    "seed": "North Carolina",
+    "version": "Any modern Java version (the demo world regenerates faithfully)",
+    "coords": "Spawn area",
+    "edition": "java",
+    "story": "The world of Minecraft's official demo mode - the free trial that millions of players tried before buying - is generated from the seed \"North Carolina\". Type exactly that (with the space and capitals) into the seed box of any full Java version and the demo world appears: the same hills, the same river, the same starter chest. It is probably the most-played seed in history, and it was hiding in plain sight.",
+    "notes": [
+      "The demo spawns you with a small bonus chest containing starter tools and torches",
+      "Works in modern Java - the demo world generates the same way it does in demo mode",
+      "Capitalization matters: type North Carolina exactly, with the space"
+    ],
+    "source": "https://minecraft.wiki/w/Seed_(world_generation)",
+    "sourceName": "Minecraft Wiki",
+    "keywords": "minecraft demo world seed north carolina trial seed famous"
+  },
+  {
+    "slug": "worstseedever",
+    "name": "worstseedever Seed",
+    "seed": "worstseedever",
+    "version": "Java Beta 1.7.3 and earlier (modern versions generate a different world)",
+    "coords": "A few steps from spawn",
+    "edition": "java",
+    "story": "One of the first viral seeds ever, from the Beta era around 2011. Despite the name, it is a fantastic world: right at spawn, falling sand collapses to reveal a half-buried dungeon with a monster spawner and a loot chest, and the cave system below was packed with diamonds and redstone. The ironic name made it a legend of early YouTube and forums.",
+    "notes": [
+      "At spawn, watch the sand collapse: dig into it to find the buried dungeon with spawner and chest",
+      "The cave system underneath was famous for easy diamonds, redstone and every ore",
+      "Only works in Beta 1.7.3 and earlier - the 1.7.2 dungeon generation change broke it in modern versions (confirmed by the wiki)"
+    ],
+    "source": "https://minecraft.wiki/w/Biome/Before_Beta_1.8",
+    "sourceName": "Minecraft Wiki",
+    "keywords": "worstseedever seed minecraft beta dungeon spawn famous classic"
+  },
+  {
+    "slug": "nyan",
+    "name": "nyan Seed (Pocket Edition Legend)",
+    "seed": "nyan",
+    "version": "Pocket Edition Alpha (2012, finite-world era - modern Bedrock generates a different world)",
+    "coords": "The mountain face at spawn",
+    "edition": "bedrock",
+    "story": "The most famous Pocket Edition seed ever. Back when MCPE worlds were small and finite, nyan spawned you facing a colossal mountain with overhangs, lava falls and ice - in a version where lava was almost mythical. A whole generation of mobile players built their first base in that cliff face, and the community later converted the original world file so it can still be played in modern Bedrock.",
+    "notes": [
+      "The spawn faces a huge mountain with lava flows and ice - unforgettable in the finite-world era",
+      "Typing nyan in modern Bedrock creates a different world; the original survives as a community-preserved world file",
+      "Other beloved PE classics of the same era: 999 (double village) and Nether (rare lava)"
+    ],
+    "source": "https://www.reddit.com/r/GoldenAgeMinecraft/comments/1nbuf8m/",
+    "sourceName": "r/GoldenAgeMinecraft",
+    "keywords": "nyan seed minecraft pocket edition classic mcpe famous mountain"
+  },
+  {
+    "slug": "title-panorama-116",
+    "name": "1.16 Title Panorama Seed",
+    "seed": "6006096527635909600",
+    "version": "Java 1.16 (taken in snapshot 20w13a)",
+    "coords": "Warped forest biome",
+    "edition": "java",
+    "story": "The background panorama of the Minecraft title screen during the Nether Update (1.16): a blue-green warped forest with its huge fungi. The community project Minecraft@Home located the exact seed and viewpoint in mid-2020, shortly after the snapshot released, using distributed computing across thousands of volunteer machines.",
+    "notes": [
+      "Load it in Java 1.16 (or the 20w13a snapshot) for the exact panorama terrain",
+      "The viewpoint sits in a warped forest - the blue biome with huge warped fungi",
+      "The same project also found the pack.png seed and the Beta-era title panorama"
+    ],
+    "source": "https://minecraft.wiki/w/Seed_(world_generation)",
+    "sourceName": "Minecraft Wiki",
+    "keywords": "1.16 panorama seed title screen nether update warped forest 6006096527635909600"
+  },
+  {
+    "slug": "title-panorama-114",
+    "name": "1.14 Title Screen Panorama",
+    "seed": "2802867088795589976",
+    "version": "Java 18w48a (1.14 snapshot) and later",
+    "coords": "X=240.57, Y=78.12, Z=147.38",
+    "edition": "java",
+    "story": "The Village & Pillage panorama - a plains village buzzing with villagers at dawn - kept its seed secret for over three years until the panorama-cracking community pinned it down in 2022. The exact spot sits near spawn in a plains biome, so you can stand where the camera stood within a minute of creating the world.",
+    "notes": [
+      "Stand at X=240.57, Y=78.12, Z=147.38 and face the village view to recreate the shot",
+      "The world spawns you in plains at 140, 100 - the panorama point is a short walk away",
+      "Best experienced on 1.14-era terrain generation; newer versions reshape the village"
+    ],
+    "source": "https://minecraft.wiki/w/Historical_panoramas",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.14 panorama seed village and pillage title screen plains village"
+  },
+  {
+    "slug": "title-panorama-115",
+    "name": "1.15 Title Screen Panorama",
+    "seed": "-4404205509303106230",
+    "version": "Java 19w41a (1.15 snapshot) and later",
+    "coords": "X=339.691, Y=65.546, Z=-1072.041",
+    "edition": "java",
+    "story": "The Buzzy Bees panorama shows bees drifting over a flower forest hillside at sunrise. Its seed was cracked by the community in the same 2022 effort that revealed the 1.14 panorama, ending another multi-year hunt - the bees had been hiding in plain sight the whole time.",
+    "notes": [
+      "Camera spot: X=339.691, Y=65.546, Z=-1072.041",
+      "You spawn in a forest at 136, 56 - a decent hike from the panorama point, so bring a boat or use /tp",
+      "Visit on 1.15-era world generation for the authentic flower forest hillside"
+    ],
+    "source": "https://minecraft.wiki/w/Historical_panoramas",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.15 panorama seed buzzy bees title screen flower forest bees"
+  },
+  {
+    "slug": "title-panorama-120",
+    "name": "1.20 Title Screen Panorama",
+    "seed": "8554477380691140270",
+    "version": "Java 23w14a (1.20 snapshot) and later",
+    "coords": "X=1839.272, Y=128, Z=6312.295",
+    "edition": "java",
+    "story": "The Trails & Tales panorama floats above a cherry grove valley with a ruined portal in the foreground - the first panorama shot in a 1.20 feature biome. Its seed was found by the panorama-cracking community in 2023, and the spot sits thousands of blocks from spawn, which is why /tp is your friend.",
+    "notes": [
+      "Camera spot: X=1839.272, Y=128, Z=6312.295 - teleport, do not walk",
+      "Spawns you in a bamboo jungle at 16, -16, far from the cherry grove shot",
+      "Modern terrain generation: this one looks right in current versions"
+    ],
+    "source": "https://minecraft.wiki/w/Historical_panoramas",
+    "sourceName": "minecraft.wiki",
+    "keywords": "1.20 panorama seed trails and tales title screen cherry grove"
+  },
+  {
+    "slug": "wilderness-bound-panorama",
+    "name": "Wilderness Bound Title Panorama Seed",
+    "seed": "822930755",
+    "version": "Java and Bedrock 26.50 (current title screen panorama)",
+    "coords": "x=90037, y=110, z=36983",
+    "edition": "both",
+    "story": "The current Minecraft title screen panorama (Wilderness Bound, version 26.50) was photographed in-game on this seed at these exact coordinates, in both editions. The Java panorama even keeps terrain quirks copied from the Bedrock version - you can spot cut-off trees in the background.",
+    "notes": [
+      "The panorama viewpoint is at x=90037, y=110, z=36983 - teleport there and look around to match the title screen",
+      "Works in both Java and Bedrock; the terrain matches their respective editions",
+      "Far from spawn (90k blocks out) - bring elytra or use /tp"
+    ],
+    "source": "https://minecraft.wiki/w/Panorama",
+    "sourceName": "minecraft.wiki",
+    "keywords": "wilderness bound panorama seed title screen 26.50 822930755 current minecraft background"
+  },
+  {
+    "slug": "tiny-takeover-panorama",
+    "name": "Tiny Takeover Panorama Seed",
+    "seed": "-1701815224735573849",
+    "version": "Bedrock Preview (since Preview 1.18.20.22 / beta 1.21.80.21) and Minecraft Education Learning Cubed update",
+    "coords": "x=-256, y=126, z=-2007",
+    "edition": "bedrock",
+    "story": "The Tiny Takeover panorama - the one shown in Minecraft Preview builds and in the Minecraft Education Learning Cubed update - was taken on this seed at x=-256, y=126, z=-2007. It is the only panorama visible in Bedrock Previews and betas with Vibrant Visuals turned off.",
+    "notes": [
+      "Viewpoint at x=-256, y=126, z=-2007",
+      "Used in Bedrock Preview and Minecraft Education; not currently the regular Bedrock title screen",
+      "Documented on the minecraft.wiki Panorama page"
+    ],
+    "source": "https://minecraft.wiki/w/Panorama",
+    "sourceName": "minecraft.wiki",
+    "keywords": "tiny takeover panorama seed minecraft preview education -1701815224735573849"
+  },
+  {
+    "slug": "minecraft-preview-panorama",
+    "name": "Minecraft Preview Panorama Seed",
+    "seed": "2510333169515186510",
+    "version": "Minecraft Preview (Bedrock Preview app)",
+    "coords": "x=979, y=71, z=-11",
+    "edition": "java",
+    "story": "The panorama shown in the Minecraft Preview app was captured on seed 2510333169515186510 at x=979, y=71, z=-11, as documented on the wiki's Panorama page. Preview players see it every time the app boots.",
+    "notes": [
+      "Viewpoint at x=979, y=71, z=-11 - close to spawn, easy to visit",
+      "Documented on minecraft.wiki as the Preview panorama source world",
+      "Load the seed and teleport to the coordinates to match the Preview title background"
+    ],
+    "source": "https://minecraft.wiki/w/Panorama",
+    "sourceName": "minecraft.wiki",
+    "keywords": "minecraft preview panorama seed 2510333169515186510 title background"
+  }
 ]

@@ -1,172 +1,199 @@
 {
- "pack-png": {
-  "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
-  "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
-  "notes": [
-   "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
-   "El icónico acantilado con nubes y cascada está en x=49, z=0",
-   "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
-  ]
- },
- "title-panorama-original": {
-  "version": "Java Beta 1.7.3 (el mundo se ve de Beta 1.8 a 1.12)",
-  "story": "El mundo borroso que gira lentamente detrás del menú principal de Minecraft, desde Beta 1.8 (2011) hasta 1.13. La comunidad de Minecraft@Home descifró la seed el 18 de julio de 2020 tras cerca de un mes de investigación. Existe una segunda seed válida, 8091867987493326313, porque las versiones antiguas usaban solo 48 bits de la seed, así que miles de seeds generan este mismo mundo.",
-  "notes": [
-   "Usa 2151901553968352745 o 8091867987493326313 en Beta 1.7.3 para el mundo exacto del panorama",
-   "Colócate en X=61.48, Y=75, Z=-68.73 mirando en la dirección correcta para recrear la imagen",
-   "54,5 exaFLOPs de computación voluntaria se invirtieron en la búsqueda"
-  ]
- },
- "title-panorama-118": {
-  "version": "Java 21w40a (snapshot de 1.18) y posteriores",
-  "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
-  "notes": [
-   "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
-   "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
-   "Terreno moderno de 1.18+, así que funciona en las versiones actuales de Java"
-  ]
- },
- "herobrine-screenshot": {
-  "version": "Java Alpha v1.0.16_02",
-  "story": "El mundo detrás del creepypasta más famoso de Minecraft. La captura original de Herobrine de 2010 (el 'Steve' de ojos blancos en la niebla) era un hoax, pero el mundo era real. Minecraft@Home reconstruyó el terreno visible bloque a bloque (usando como pistas el fallo de caída de hojas, los bordes de chunk y las rotaciones de texturas) y recuperó la seed en enero de 2021. El launcher de Minecraft bromeó después en su changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
-  "notes": [
-   "Solo se genera correctamente en Alpha v1.0.16_02 (activa las versiones históricas en el launcher)",
-   "Ponte en X=5.06, Y=71, Z=-298.54 para recrear la vista exacta de la captura",
-   "Herobrine nunca estuvo en el juego: encontrarás la colina, los árboles y la niebla, nada más",
-   "Mojang referencia la seed en el minijuego Alpha del mapa 15 Year Journey"
-  ]
- },
- "herobrine-livestream": {
-  "version": "Java Alpha v1.0.17_04",
-  "story": "La seed del directo de Brocraft en el que el streamer Copeland 'se encontró' con Herobrine en vivo en 2010, el momento en que la leyenda se hizo viral. Los propios directos fueron lost media durante 14 años hasta que Enderboss25 los recuperó en julio de 2024 gracias a un espectador que los había archivado en privado. El propio Copeland acabó publicando la descarga del mundo original.",
-  "notes": [
-   "Se genera en Alpha v1.0.17_04 (versiones históricas en el launcher)",
-   "El directo estaba preparado: el 'Herobrine' era un truco con una puerta/pintura retexturizada",
-   "Los directos originales reaparecieron en 2024 y se pueden volver a ver",
-   "Compañera de la seed de la captura de Herobrine: dos mundos distintos, un mismo mito"
-  ]
- },
- "skull-on-fire-painting": {
-  "version": "Java Alpha v1.1.2_01 o anterior",
-  "story": "El mundo que aparece en 'Skull on Fire', uno de los cuadros originales de Kristoffer Zetterstrand en Minecraft. Durante más de una década nadie supo si el paisaje de la calavera en llamas era un lugar real. Los investigadores de seeds demostraron que sí: el terreno del cuadro existe en la generación de Alpha, y cualquiera de las dos seeds lo reproduce (la segunda es -1044887956651363087, porque los mundos de Alpha solo usan parte de los bits de la seed).",
-  "notes": [
-   "Se genera en Alpha v1.1.2_01 o anterior (versiones históricas en el launcher)",
-   "Dos seeds equivalentes: -6984854390176336655 o -1044887956651363087",
-   "El cuadro es de Kristoffer Zetterstrand, como la mayoría del arte clásico de Minecraft",
-   "Una de las últimas grandes imágenes 'perdidas' de Minecraft en ser reconstruida"
-  ]
- },
- "title-panorama-113": {
-  "version": "Java snapshot 18w22a (el mundo del menú de la 1.13)",
-  "story": "El cálido océano de arrecife de coral que rotaba tras el menú principal en la era de Update Aquatic (1.13). Esta vez la seed no se descubrió por fuerza bruta: es simplemente el texto '18w22a' escrito en la casilla de seed (el propio snapshot en que se hizo la captura), que se transforma en 1458140401.",
-  "notes": [
-   "Escribe 18w22a o 1458140401: ambos producen el mismo mundo",
-   "Cárgalo en cualquier versión 1.13+; el arrecife aparece en terreno de océano cálido",
-   "La panorámica submarina era el escaparate de Mojang para los nuevos océanos de Update Aquatic",
-   "Misma familia de panorámicas que las seeds original y 1.18 que ya están en esta lista"
-  ]
- },
- "title-panorama-119": {
-  "version": "Java snapshot 22w15a (el mundo del menú de la 1.19)",
-  "story": "La panorámica de manglar que daba la bienvenida a los jugadores en The Wild Update (1.19). Como la de la 1.13, la seed está a la vista: escribe 'thewildupdate' en la casilla de seed y el texto se transforma en -1696067516, el mismo mundo que Mojang fotografió en el snapshot 22w15a.",
-  "notes": [
-   "Escribe thewildupdate o -1696067516: ambos producen el mismo mundo",
-   "Cárgalo en 1.19+ para el terreno de manglar",
-   "La panorámica destaca los entonces nuevos manglares, el barro y el ambiente de la época de las luciérnagas",
-   "Las seeds de texto se transforman con String.hashCode de Java, por eso las palabras se convierten en números"
-  ]
- },
- "gargamel": {
-  "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto con la misma palabra)",
-  "story": "La seed que enseñó a la comunidad para qué servían las seeds. Compartida el 25-27 de febrero de 2011, justo cuando Beta 1.3 añadió la caja de seeds, 'gargamel' soltaba a los jugadores dentro de una cueva a oscuras (muchos creyeron haber aparecido de noche o en el infierno) y el mundo de fuera era un paisaje escandaloso de voladizos, acantilados y roca flotante. Fue la primera seed viral y la plantilla de todos los showcases de seeds desde entonces.",
-  "notes": [
-   "El spawn es literalmente dentro de una cueva oscura: pica hacia arriba o hacia la luz para salir, y luego disfruta del terreno",
-   "Cárgala en Beta 1.3 a 1.7.3 para el mundo original; las versiones posteriores generan terreno distinto con la misma palabra",
-   "Lleva el nombre del villano de Los Pitufos, por razones perdidas en la historia de los foros",
-   "Sigue siendo una de las seeds más recordadas, encabezando hilos de 'la seed más famosa' una y otra vez"
-  ]
- },
- "404": {
-  "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto)",
-  "story": "Hogar del legendario 404 Challenge. Apareces frente a un pequeño agujero de gravel en una playa: pica un bloque de gravel, todo el suelo colapsa y caes en un vasto sistema de cuevas oscuras. El reto comunitario que creció alrededor (recolecta lo que puedas durante un día, tírate de noche y sobrevive bajo tierra sin torches y sin volver a la superficie) se convirtió en uno de los primeros grandes retos de supervivencia de Minecraft, jugado por Stampylongnose y tantos otros.",
-  "notes": [
-   "La fosa de gravel del spawn es la entrada: romper un bloque de gravel colapsa el resto hacia la cueva",
-   "Reglas clásicas: un día de recolección en superficie, luego bajo tierra para siempre: prohibidas las torches",
-   "Funciona en Beta 1.3 a 1.7.3; las actualizaciones posteriores cambiaron el terreno y mataron el reto",
-   "La cueva de abajo es rica: los diamonds tempranos son habituales si exploras de bajada"
-  ]
- },
- "glacier": {
-  "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto)",
-  "story": "El tercer pilar de la edad de oro de seeds de la Beta 1.3, recordado junto a gargamel y 404 en todo hilo de seeds clásicas. 'Glacier' soltaba a los jugadores en un mundo helado y dramático de montañas altísimas cubiertas de hielo y lagos congelados: el escaparate favorito de lo extremo que podía ser el terreno de la vieja escuela, y un clásico para construcciones épicas sobre acantilados helados imposibles.",
-  "notes": [
-   "La G mayúscula importa: escribe 'Glacier' exactamente, las seeds distinguen mayúsculas",
-   "Cárgala en Beta 1.3 a 1.7.3 para el terreno helado original",
-   "Un clásico de los modpacks retro que recrean el generador de terreno beta",
-   "Cápsula del tiempo perfecta para ver cuánto ha evolucionado la generación de mundo desde 2011"
-  ]
- },
- "north-carolina": {
-  "version": "Cualquier versión moderna de Java (el mundo de la demo se regenera fielmente)",
-  "story": "El mundo del modo demo oficial de Minecraft - la prueba gratuita que millones de jugadores probaron antes de comprar - se genera con la seed \"North Carolina\". Escribe exactamente eso (con el espacio y las mayúsculas) en la caja de seed de cualquier versión completa de Java y aparece el mundo de la demo: las mismas colinas, el mismo río, el mismo cofre inicial. Probablemente es la seed más jugada de la historia, y estaba a la vista de todos.",
-  "notes": [
-   "La demo te genera con un pequeño cofre extra con herramientas iniciales y antorchas",
-   "Funciona en Java moderno: el mundo de la demo se genera igual que en el modo demo",
-   "Las mayúsculas importan: escribe North Carolina exactamente, con el espacio"
-  ]
- },
- "worstseedever": {
-  "version": "Java Beta 1.7.3 y anteriores (las versiones modernas generan un mundo distinto)",
-  "story": "Una de las primeras seeds virales de la historia, de la era Beta alrededor de 2011. A pesar del nombre, es un mundo fantástico: justo en el spawn, la arena que cae se derrumba y revela una dungeon semienterrada con un monster spawner y un cofre de loot, y el sistema de cuevas de debajo estaba lleno de diamantes y redstone. El nombre irónico la convirtió en leyenda de los primeros YouTube y foros.",
-  "notes": [
-   "En el spawn, mira cómo se derrumba la arena: excava ahí para encontrar la dungeon enterrada con spawner y cofre",
-   "El sistema de cuevas de debajo era famoso por sus diamantes, redstone y todos los minerales fáciles",
-   "Solo funciona en Beta 1.7.3 y anteriores: el cambio de generación de dungeons de la 1.7.2 la rompió en versiones modernas (confirmado por la wiki)"
-  ]
- },
- "nyan": {
-  "version": "Pocket Edition Alpha (2012, era de mundos finitos; el Bedrock moderno genera un mundo distinto)",
-  "story": "La seed más famosa de la historia de Pocket Edition. Cuando los mundos de MCPE eran pequeños y finitos, nyan te generaba frente a una montaña colosal con salientes, cascadas de lava y hielo, en una versión donde la lava era casi mítica. Toda una generación de jugadores móviles construyó su primera base en esa pared, y la comunidad convirtió después el archivo de mundo original para que aún se pueda jugar en Bedrock moderno.",
-  "notes": [
-   "El spawn mira a una montaña enorme con coladas de lava y hielo: inolvidable en la era de los mundos finitos",
-   "Escribir nyan en Bedrock moderno crea un mundo distinto; el original sobrevive como archivo de mundo preservado por la comunidad",
-   "Otros clásicos queridos de PE de la misma época: 999 (aldea doble) y Nether (lava rarísima)"
-  ]
- },
- "title-panorama-116": {
-  "version": "Java 1.16 (capturada en la snapshot 20w13a)",
-  "story": "La panorámica de fondo de la pantalla de título de Minecraft durante la Nether Update (1.16): un warped forest verdeazulado con sus enormes hongos. El proyecto comunitario Minecraft@Home localizó la seed y el punto de vista exactos a mediados de 2020, poco después de publicarse la snapshot, usando computación distribuida entre miles de máquinas voluntarias.",
-  "notes": [
-   "Cárgala en Java 1.16 (o la snapshot 20w13a) para el terreno exacto de la panorámica",
-   "El punto de vista está en un warped forest: el bioma azul con los hongos warped gigantes",
-   "El mismo proyecto también encontró la seed de pack.png y la panorámica de la era Beta"
-  ]
- },
- "title-panorama-114": {
-  "version": "Java 18w48a (snapshot de 1.14) y posteriores",
-  "story": "El panorama de Village & Pillage (una aldea de plains llena de aldeanos al amanecer) mantuvo su seed en secreto más de tres años, hasta que la comunidad descifradora de panoramas la localizó en 2022. El punto exacto está cerca del spawn en un bioma de plains, así que puedes ponerte donde estaba la cámara a un minuto de crear el mundo.",
-  "notes": [
-   "Ponte en X=240.57, Y=78.12, Z=147.38 y mira hacia la aldea para recrear la imagen",
-   "El mundo te genera en plains en 140, 100: el punto del panorama está a un paseo corto",
-   "Se disfruta mejor con la generación de terreno de la época de 1.14; las versiones nuevas remodelan la aldea"
-  ]
- },
- "title-panorama-115": {
-  "version": "Java 19w41a (snapshot de 1.15) y posteriores",
-  "story": "El panorama de Buzzy Bees muestra bees volando sobre una ladera de flower forest al amanecer. Su seed fue descifrada por la comunidad en el mismo esfuerzo de 2022 que reveló el panorama de 1.14, cerrando otra búsqueda de años: las bees llevaban escondidas a plena vista todo ese tiempo.",
-  "notes": [
-   "Punto de la cámara: X=339.691, Y=65.546, Z=-1072.041",
-   "Apareces en un forest en 136, 56: hay un buen trecho hasta el punto del panorama, así que lleva un boat o usa /tp",
-   "Visítala con la generación de mundo de la época de 1.15 para la ladera de flower forest auténtica"
-  ]
- },
- "title-panorama-120": {
-  "version": "Java 23w14a (snapshot de 1.20) y posteriores",
-  "story": "El panorama de Trails & Tales flota sobre un valle de cherry grove con un ruined portal en primer plano: el primer panorama rodado en un bioma característico de 1.20. Su seed la encontró la comunidad descifradora en 2023, y el lugar está a miles de bloques del spawn, por eso /tp es tu amigo.",
-  "notes": [
-   "Punto de la cámara: X=1839.272, Y=128, Z=6312.295: teletranspórtate, no vayas andando",
-   "Apareces en una bamboo jungle en 16, -16, lejos de la imagen del cherry grove",
-   "Generación de terreno moderna: este se ve bien en las versiones actuales"
-  ]
- }
+  "pack-png": {
+    "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
+    "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
+    "notes": [
+      "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
+      "El icónico acantilado con nubes y cascada está en x=49, z=0",
+      "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
+    ]
+  },
+  "title-panorama-original": {
+    "version": "Java Beta 1.7.3 (el mundo se ve de Beta 1.8 a 1.12)",
+    "story": "El mundo borroso que gira lentamente detrás del menú principal de Minecraft, desde Beta 1.8 (2011) hasta 1.13. La comunidad de Minecraft@Home descifró la seed el 18 de julio de 2020 tras cerca de un mes de investigación. Existe una segunda seed válida, 8091867987493326313, porque las versiones antiguas usaban solo 48 bits de la seed, así que miles de seeds generan este mismo mundo.",
+    "notes": [
+      "Usa 2151901553968352745 o 8091867987493326313 en Beta 1.7.3 para el mundo exacto del panorama",
+      "Colócate en X=61.48, Y=75, Z=-68.73 mirando en la dirección correcta para recrear la imagen",
+      "54,5 exaFLOPs de computación voluntaria se invirtieron en la búsqueda"
+    ]
+  },
+  "title-panorama-118": {
+    "version": "Java 21w40a (snapshot de 1.18) y posteriores",
+    "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
+    "notes": [
+      "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
+      "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
+      "Terreno moderno de 1.18+, así que funciona en las versiones actuales de Java"
+    ]
+  },
+  "herobrine-screenshot": {
+    "version": "Java Alpha v1.0.16_02",
+    "story": "El mundo detrás del creepypasta más famoso de Minecraft. La captura original de Herobrine de 2010 (el 'Steve' de ojos blancos en la niebla) era un hoax, pero el mundo era real. Minecraft@Home reconstruyó el terreno visible bloque a bloque (usando como pistas el fallo de caída de hojas, los bordes de chunk y las rotaciones de texturas) y recuperó la seed en enero de 2021. El launcher de Minecraft bromeó después en su changelog: 'removed Herobrine from Java Alpha 1.0.16_02'.",
+    "notes": [
+      "Solo se genera correctamente en Alpha v1.0.16_02 (activa las versiones históricas en el launcher)",
+      "Ponte en X=5.06, Y=71, Z=-298.54 para recrear la vista exacta de la captura",
+      "Herobrine nunca estuvo en el juego: encontrarás la colina, los árboles y la niebla, nada más",
+      "Mojang referencia la seed en el minijuego Alpha del mapa 15 Year Journey"
+    ]
+  },
+  "herobrine-livestream": {
+    "version": "Java Alpha v1.0.17_04",
+    "story": "La seed del directo de Brocraft en el que el streamer Copeland 'se encontró' con Herobrine en vivo en 2010, el momento en que la leyenda se hizo viral. Los propios directos fueron lost media durante 14 años hasta que Enderboss25 los recuperó en julio de 2024 gracias a un espectador que los había archivado en privado. El propio Copeland acabó publicando la descarga del mundo original.",
+    "notes": [
+      "Se genera en Alpha v1.0.17_04 (versiones históricas en el launcher)",
+      "El directo estaba preparado: el 'Herobrine' era un truco con una puerta/pintura retexturizada",
+      "Los directos originales reaparecieron en 2024 y se pueden volver a ver",
+      "Compañera de la seed de la captura de Herobrine: dos mundos distintos, un mismo mito"
+    ]
+  },
+  "skull-on-fire-painting": {
+    "version": "Java Alpha v1.1.2_01 o anterior",
+    "story": "El mundo que aparece en 'Skull on Fire', uno de los cuadros originales de Kristoffer Zetterstrand en Minecraft. Durante más de una década nadie supo si el paisaje de la calavera en llamas era un lugar real. Los investigadores de seeds demostraron que sí: el terreno del cuadro existe en la generación de Alpha, y cualquiera de las dos seeds lo reproduce (la segunda es -1044887956651363087, porque los mundos de Alpha solo usan parte de los bits de la seed).",
+    "notes": [
+      "Se genera en Alpha v1.1.2_01 o anterior (versiones históricas en el launcher)",
+      "Dos seeds equivalentes: -6984854390176336655 o -1044887956651363087",
+      "El cuadro es de Kristoffer Zetterstrand, como la mayoría del arte clásico de Minecraft",
+      "Una de las últimas grandes imágenes 'perdidas' de Minecraft en ser reconstruida"
+    ]
+  },
+  "title-panorama-113": {
+    "version": "Java snapshot 18w22a (el mundo del menú de la 1.13)",
+    "story": "El cálido océano de arrecife de coral que rotaba tras el menú principal en la era de Update Aquatic (1.13). Esta vez la seed no se descubrió por fuerza bruta: es simplemente el texto '18w22a' escrito en la casilla de seed (el propio snapshot en que se hizo la captura), que se transforma en 1458140401.",
+    "notes": [
+      "Escribe 18w22a o 1458140401: ambos producen el mismo mundo",
+      "Cárgalo en cualquier versión 1.13+; el arrecife aparece en terreno de océano cálido",
+      "La panorámica submarina era el escaparate de Mojang para los nuevos océanos de Update Aquatic",
+      "Misma familia de panorámicas que las seeds original y 1.18 que ya están en esta lista"
+    ]
+  },
+  "title-panorama-119": {
+    "version": "Java snapshot 22w15a (el mundo del menú de la 1.19)",
+    "story": "La panorámica de manglar que daba la bienvenida a los jugadores en The Wild Update (1.19). Como la de la 1.13, la seed está a la vista: escribe 'thewildupdate' en la casilla de seed y el texto se transforma en -1696067516, el mismo mundo que Mojang fotografió en el snapshot 22w15a.",
+    "notes": [
+      "Escribe thewildupdate o -1696067516: ambos producen el mismo mundo",
+      "Cárgalo en 1.19+ para el terreno de manglar",
+      "La panorámica destaca los entonces nuevos manglares, el barro y el ambiente de la época de las luciérnagas",
+      "Las seeds de texto se transforman con String.hashCode de Java, por eso las palabras se convierten en números"
+    ]
+  },
+  "gargamel": {
+    "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto con la misma palabra)",
+    "story": "La seed que enseñó a la comunidad para qué servían las seeds. Compartida el 25-27 de febrero de 2011, justo cuando Beta 1.3 añadió la caja de seeds, 'gargamel' soltaba a los jugadores dentro de una cueva a oscuras (muchos creyeron haber aparecido de noche o en el infierno) y el mundo de fuera era un paisaje escandaloso de voladizos, acantilados y roca flotante. Fue la primera seed viral y la plantilla de todos los showcases de seeds desde entonces.",
+    "notes": [
+      "El spawn es literalmente dentro de una cueva oscura: pica hacia arriba o hacia la luz para salir, y luego disfruta del terreno",
+      "Cárgala en Beta 1.3 a 1.7.3 para el mundo original; las versiones posteriores generan terreno distinto con la misma palabra",
+      "Lleva el nombre del villano de Los Pitufos, por razones perdidas en la historia de los foros",
+      "Sigue siendo una de las seeds más recordadas, encabezando hilos de 'la seed más famosa' una y otra vez"
+    ]
+  },
+  "404": {
+    "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto)",
+    "story": "Hogar del legendario 404 Challenge. Apareces frente a un pequeño agujero de gravel en una playa: pica un bloque de gravel, todo el suelo colapsa y caes en un vasto sistema de cuevas oscuras. El reto comunitario que creció alrededor (recolecta lo que puedas durante un día, tírate de noche y sobrevive bajo tierra sin torches y sin volver a la superficie) se convirtió en uno de los primeros grandes retos de supervivencia de Minecraft, jugado por Stampylongnose y tantos otros.",
+    "notes": [
+      "La fosa de gravel del spawn es la entrada: romper un bloque de gravel colapsa el resto hacia la cueva",
+      "Reglas clásicas: un día de recolección en superficie, luego bajo tierra para siempre: prohibidas las torches",
+      "Funciona en Beta 1.3 a 1.7.3; las actualizaciones posteriores cambiaron el terreno y mataron el reto",
+      "La cueva de abajo es rica: los diamonds tempranos son habituales si exploras de bajada"
+    ]
+  },
+  "glacier": {
+    "version": "Java Beta 1.3 - 1.7.3 (las versiones modernas generan un mundo distinto)",
+    "story": "El tercer pilar de la edad de oro de seeds de la Beta 1.3, recordado junto a gargamel y 404 en todo hilo de seeds clásicas. 'Glacier' soltaba a los jugadores en un mundo helado y dramático de montañas altísimas cubiertas de hielo y lagos congelados: el escaparate favorito de lo extremo que podía ser el terreno de la vieja escuela, y un clásico para construcciones épicas sobre acantilados helados imposibles.",
+    "notes": [
+      "La G mayúscula importa: escribe 'Glacier' exactamente, las seeds distinguen mayúsculas",
+      "Cárgala en Beta 1.3 a 1.7.3 para el terreno helado original",
+      "Un clásico de los modpacks retro que recrean el generador de terreno beta",
+      "Cápsula del tiempo perfecta para ver cuánto ha evolucionado la generación de mundo desde 2011"
+    ]
+  },
+  "north-carolina": {
+    "version": "Cualquier versión moderna de Java (el mundo de la demo se regenera fielmente)",
+    "story": "El mundo del modo demo oficial de Minecraft - la prueba gratuita que millones de jugadores probaron antes de comprar - se genera con la seed \"North Carolina\". Escribe exactamente eso (con el espacio y las mayúsculas) en la caja de seed de cualquier versión completa de Java y aparece el mundo de la demo: las mismas colinas, el mismo río, el mismo cofre inicial. Probablemente es la seed más jugada de la historia, y estaba a la vista de todos.",
+    "notes": [
+      "La demo te genera con un pequeño cofre extra con herramientas iniciales y antorchas",
+      "Funciona en Java moderno: el mundo de la demo se genera igual que en el modo demo",
+      "Las mayúsculas importan: escribe North Carolina exactamente, con el espacio"
+    ]
+  },
+  "worstseedever": {
+    "version": "Java Beta 1.7.3 y anteriores (las versiones modernas generan un mundo distinto)",
+    "story": "Una de las primeras seeds virales de la historia, de la era Beta alrededor de 2011. A pesar del nombre, es un mundo fantástico: justo en el spawn, la arena que cae se derrumba y revela una dungeon semienterrada con un monster spawner y un cofre de loot, y el sistema de cuevas de debajo estaba lleno de diamantes y redstone. El nombre irónico la convirtió en leyenda de los primeros YouTube y foros.",
+    "notes": [
+      "En el spawn, mira cómo se derrumba la arena: excava ahí para encontrar la dungeon enterrada con spawner y cofre",
+      "El sistema de cuevas de debajo era famoso por sus diamantes, redstone y todos los minerales fáciles",
+      "Solo funciona en Beta 1.7.3 y anteriores: el cambio de generación de dungeons de la 1.7.2 la rompió en versiones modernas (confirmado por la wiki)"
+    ]
+  },
+  "nyan": {
+    "version": "Pocket Edition Alpha (2012, era de mundos finitos; el Bedrock moderno genera un mundo distinto)",
+    "story": "La seed más famosa de la historia de Pocket Edition. Cuando los mundos de MCPE eran pequeños y finitos, nyan te generaba frente a una montaña colosal con salientes, cascadas de lava y hielo, en una versión donde la lava era casi mítica. Toda una generación de jugadores móviles construyó su primera base en esa pared, y la comunidad convirtió después el archivo de mundo original para que aún se pueda jugar en Bedrock moderno.",
+    "notes": [
+      "El spawn mira a una montaña enorme con coladas de lava y hielo: inolvidable en la era de los mundos finitos",
+      "Escribir nyan en Bedrock moderno crea un mundo distinto; el original sobrevive como archivo de mundo preservado por la comunidad",
+      "Otros clásicos queridos de PE de la misma época: 999 (aldea doble) y Nether (lava rarísima)"
+    ]
+  },
+  "title-panorama-116": {
+    "version": "Java 1.16 (capturada en la snapshot 20w13a)",
+    "story": "La panorámica de fondo de la pantalla de título de Minecraft durante la Nether Update (1.16): un warped forest verdeazulado con sus enormes hongos. El proyecto comunitario Minecraft@Home localizó la seed y el punto de vista exactos a mediados de 2020, poco después de publicarse la snapshot, usando computación distribuida entre miles de máquinas voluntarias.",
+    "notes": [
+      "Cárgala en Java 1.16 (o la snapshot 20w13a) para el terreno exacto de la panorámica",
+      "El punto de vista está en un warped forest: el bioma azul con los hongos warped gigantes",
+      "El mismo proyecto también encontró la seed de pack.png y la panorámica de la era Beta"
+    ]
+  },
+  "title-panorama-114": {
+    "version": "Java 18w48a (snapshot de 1.14) y posteriores",
+    "story": "El panorama de Village & Pillage (una aldea de plains llena de aldeanos al amanecer) mantuvo su seed en secreto más de tres años, hasta que la comunidad descifradora de panoramas la localizó en 2022. El punto exacto está cerca del spawn en un bioma de plains, así que puedes ponerte donde estaba la cámara a un minuto de crear el mundo.",
+    "notes": [
+      "Ponte en X=240.57, Y=78.12, Z=147.38 y mira hacia la aldea para recrear la imagen",
+      "El mundo te genera en plains en 140, 100: el punto del panorama está a un paseo corto",
+      "Se disfruta mejor con la generación de terreno de la época de 1.14; las versiones nuevas remodelan la aldea"
+    ]
+  },
+  "title-panorama-115": {
+    "version": "Java 19w41a (snapshot de 1.15) y posteriores",
+    "story": "El panorama de Buzzy Bees muestra bees volando sobre una ladera de flower forest al amanecer. Su seed fue descifrada por la comunidad en el mismo esfuerzo de 2022 que reveló el panorama de 1.14, cerrando otra búsqueda de años: las bees llevaban escondidas a plena vista todo ese tiempo.",
+    "notes": [
+      "Punto de la cámara: X=339.691, Y=65.546, Z=-1072.041",
+      "Apareces en un forest en 136, 56: hay un buen trecho hasta el punto del panorama, así que lleva un boat o usa /tp",
+      "Visítala con la generación de mundo de la época de 1.15 para la ladera de flower forest auténtica"
+    ]
+  },
+  "title-panorama-120": {
+    "version": "Java 23w14a (snapshot de 1.20) y posteriores",
+    "story": "El panorama de Trails & Tales flota sobre un valle de cherry grove con un ruined portal en primer plano: el primer panorama rodado en un bioma característico de 1.20. Su seed la encontró la comunidad descifradora en 2023, y el lugar está a miles de bloques del spawn, por eso /tp es tu amigo.",
+    "notes": [
+      "Punto de la cámara: X=1839.272, Y=128, Z=6312.295: teletranspórtate, no vayas andando",
+      "Apareces en una bamboo jungle en 16, -16, lejos de la imagen del cherry grove",
+      "Generación de terreno moderna: este se ve bien en las versiones actuales"
+    ]
+  },
+  "wilderness-bound-panorama": {
+    "version": "Java y Bedrock 26.50 (panorama actual de la pantalla de título)",
+    "story": "El panorama actual de la pantalla de título de Minecraft (Wilderness Bound, versión 26.50) se fotografió dentro del juego en esta seed y en estas coordenadas exactas, en ambas ediciones. El panorama de Java incluso conserva rarezas del terreno copiadas de la versión de Bedrock: se ven árboles cortados al fondo.",
+    "notes": [
+      "El punto de vista del panorama está en x=90037, y=110, z=36983: haz tp ahí y mira alrededor para reconocer la pantalla de título",
+      "Funciona en Java y en Bedrock; el terreno coincide con sus respectivas ediciones",
+      "Lejos del spawn (90 mil bloques): lleva elytra o usa /tp"
+    ]
+  },
+  "tiny-takeover-panorama": {
+    "version": "Bedrock Preview (desde Preview 1.18.20.22 / beta 1.21.80.21) y la actualización Learning Cubed de Minecraft Education",
+    "story": "El panorama Tiny Takeover (el que se muestra en las builds de Minecraft Preview y en la actualización Learning Cubed de Minecraft Education) se tomó en esta seed en x=-256, y=126, z=-2007. Es el único panorama visible en Previews y betas de Bedrock con Vibrant Visuals desactivado.",
+    "notes": [
+      "Punto de vista en x=-256, y=126, z=-2007",
+      "Se usa en Bedrock Preview y Minecraft Education; no es la pantalla de título normal de Bedrock",
+      "Documentado en la página Panorama de minecraft.wiki"
+    ]
+  },
+  "minecraft-preview-panorama": {
+    "version": "Minecraft Preview (app Bedrock Preview)",
+    "story": "El panorama que muestra la app Minecraft Preview se capturó en la seed 2510333169515186510 en x=979, y=71, z=-11, según documenta la página Panorama de la wiki. Los jugadores de Preview lo ven cada vez que arranca la app.",
+    "notes": [
+      "Punto de vista en x=979, y=71, z=-11: cerca del spawn, fácil de visitar",
+      "Documentado en minecraft.wiki como el mundo de origen del panorama de Preview",
+      "Carga la seed y teletranspórtate a las coordenadas para reconocer el fondo del título de Preview"
+    ]
+  }
 }
