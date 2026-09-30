@@ -31702,5 +31702,117 @@
         "label": "Hacer Shears"
       }
     ]
+  },
+  "how-to-get-nylium": {
+    "slug": "how-to-get-nylium",
+    "name": "Cómo conseguir nylium en Minecraft",
+    "shortTitle": "Conseguir nylium",
+    "quickAnswer": "Mina crimson nylium en crimson forest o warped nylium en warped forest con un pico con Silk Touch. Para conseguir más, pon netherrack junto a nylium, deja aire encima y usa bone meal sobre el netherrack.",
+    "steps": [
+      "Encuentra el bosque del Nether correspondiente: crimson nylium es el suelo rojo de crimson forest y warped nylium el azul verdoso de warped forest.",
+      "Lleva un pico con Silk Touch. Un pico normal suelta netherrack y, sin pico, el bloque no suelta nada.",
+      "Recoge al menos un bloque del tipo que quieras y colócalo junto a netherrack en tu base.",
+      "Deja aire sobre el netherrack y usa bone meal en ese bloque, no en el nylium. Se convierte en el tipo cercano.",
+      "Separa los bloques de origen crimson y warped si necesitas un color: con ambos cerca, cualquiera de los dos puede salir con la misma probabilidad.",
+      "Para huge fungi, planta crimson fungus en crimson nylium o warped fungus en warped nylium y aplica bone meal. No dejes bloques opacos sobre nylium: puede volver a ser netherrack."
+    ],
+    "materials": [
+      "Pico con Silk Touch",
+      "Netherrack y bone meal para convertirlo",
+      "Un bloque de crimson o warped nylium como origen"
+    ],
+    "editionNote": "Ambas ediciones permiten convertir netherrack junto a nylium. Crear más a partir de netherrack minado no es lo mismo que renovar su materia prima: la wiki señala el netherrack generado por portales como una vía renovable exclusiva de Bedrock. Nylium no se extiende solo como grass.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué nylium suelta netherrack?",
+        "a": "El pico necesita Silk Touch para conservarlo. Un pico normal suelta netherrack."
+      },
+      {
+        "q": "¿En qué bloque uso bone meal?",
+        "a": "En el netherrack junto a nylium, con aire encima. Usarlo en nylium genera vegetación del Nether: es otra acción."
+      },
+      {
+        "q": "¿Warped fungus puede crecer enorme en crimson nylium?",
+        "a": "No. Haz coincidir el fungus y el suelo: warped necesita warped nylium y crimson necesita crimson nylium."
+      },
+      {
+        "q": "¿Nylium puede volver a ser netherrack?",
+        "a": "Sí. Un bloque opaco encima puede hacer que se degrade con un random tick. Deja descubiertos los bloques de origen."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-get-silk-touch/",
+        "label": "Conseguir Silk Touch"
+      },
+      {
+        "url": "/es/guides/how-to-find-crimson-forest/",
+        "label": "Encontrar un crimson forest"
+      },
+      {
+        "url": "/es/guides/how-to-find-warped-forest/",
+        "label": "Encontrar un warped forest"
+      }
+    ]
+  },
+  "how-to-make-snow-block": {
+    "slug": "how-to-make-snow-block",
+    "name": "Cómo hacer un snow block en Minecraft",
+    "shortTitle": "Hacer un snow block",
+    "quickAnswer": "Pon cuatro snowballs en un cuadrado 2x2 para hacer un snow block. La receta cabe en el inventario. A diferencia de las capas finas de snow, los bloques completos no se derriten junto a fuentes de luz normales ni en biomas secos.",
+    "steps": [
+      "Recoge snowballs con una shovel al romper snow. Un snow block completo roto con shovel sin Silk Touch da cuatro snowballs.",
+      "Abre la cuadrícula del inventario o un crafting table.",
+      "Pon una snowball en cada casilla de un cuadrado 2x2 y recoge el snow block.",
+      "Usa bloques completos para construir donde las capas finas se derretirían. Snow blocks y powder snow son bloques distintos.",
+      "Para recoger un snow block intacto, usa Silk Touch. Para snowballs, usa una shovel sin Silk Touch; sin una herramienta adecuada puede no soltar nada.",
+      "Para un snow golem, apila dos snow blocks y coloca al final una carved pumpkin o jack o'lantern encima."
+    ],
+    "materials": [
+      "4 snowballs por snow block",
+      "Shovel para recoger snowballs",
+      "Herramienta con Silk Touch (opcional, para recoger bloques intactos)"
+    ],
+    "editionNote": "La receta funciona en Java y Bedrock. Los snow blocks completos no se derriten por bloques que emitan luz ni por biomas secos. Eso no vuelve seguro un snow golem en todos los biomas: el mob tiene sus propias reglas de daño por temperatura y agua.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Hace falta crafting table para snow blocks?",
+        "a": "No. Cuatro snowballs en un cuadrado 2x2 caben en el inventario."
+      },
+      {
+        "q": "¿Los snow blocks se derriten junto a torches?",
+        "a": "No. Los bloques completos no se derriten junto a bloques que emiten luz. Las capas finas tienen otras reglas."
+      },
+      {
+        "q": "¿Snow block es lo mismo que powder snow?",
+        "a": "No. Snow block es un bloque sólido hecho con snowballs. Powder snow es otro bloque, con mecánicas distintas de recogida y movimiento."
+      },
+      {
+        "q": "¿Cuántas snowballs hacen falta para un snow golem?",
+        "a": "Ocho para los dos snow blocks. También necesitas carved pumpkin o jack o'lantern, que se coloca al final."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-snow-golem/",
+        "label": "Hacer un Snow Golem"
+      },
+      {
+        "url": "/es/guides/how-to-find-ice-spikes/",
+        "label": "Encontrar ice spikes"
+      },
+      {
+        "url": "/es/guides/how-to-get-silk-touch/",
+        "label": "Conseguir Silk Touch"
+      }
+    ]
   }
 }
