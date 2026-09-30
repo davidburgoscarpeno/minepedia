@@ -31419,5 +31419,203 @@
         "url": "/items/"
       }
     ]
+  },
+  {
+    "slug": "best-y-level-for-every-ore",
+    "name": "Best Y Level for Every Ore in Minecraft",
+    "shortTitle": "Best Y Level for Every Ore",
+    "quickAnswer": "Coal Y=95 or mountain tops, copper Y=48, iron Y=15 or Y=232, gold Y=-16 (badlands surface), lapis Y=0, redstone Y=-59, diamond Y=-59, emerald Y=232 in mountains, ancient debris Y=15 in the Nether. Since 1.18, ores peak at different heights instead of one universal level.",
+    "keywords": "best y level for every ore minecraft ore distribution diamond iron gold redstone lapis emerald ancient debris",
+    "materials": [
+      "An iron pickaxe or better (diamond-tier for obsidian-depth mining)",
+      "Torches, food and a water bucket for deep mining",
+      "F3 (Java) or coordinates enabled (Bedrock) to read your Y level"
+    ],
+    "steps": [
+      "Coal: Y=95 is the triangle peak, and mountains above Y=136 are packed with it - exposed coal skips 50% of air-exposed spots, so cave coal is rarer than it looks.",
+      "Copper: Y=48, in a triangle from -16 to 112 - dripstone caves get extra-large copper veins.",
+      "Iron: two peaks - Y=15 (triangle -24 to 56) underground, and Y=232 (triangle 80 up past 320) on mountain faces. Mountains are the iron jackpot.",
+      "Gold: Y=-16 in a triangle from -64 to 32. In badlands, gold generates 32-256 at huge rates right on the surface - mine badlands instead.",
+      "Lapis: Y=0 at the triangle center (-32 to 32); a second buried batch spans -64 to 64 and never touches air.",
+      "Redstone: uniform from -64 to 15 plus a triangle peaking toward the bedrock floor - mine at Y=-59 and you get redstone and diamonds together.",
+      "Diamond: Y=-59, just above bedrock - the triangle runs -64 to 16 and gets denser the deeper you go. Half of air-exposed diamonds are skipped, so strip-mine instead of caving.",
+      "Emerald: Y=232 peak, only in mountain and windswept biomes (-16 to 480 triangle) - look on high slopes, not underground.",
+      "Ancient debris: Y=15 in the Nether - a tiny triangle 8-24 plus a sparse uniform spread 8-119, never exposed to air. Beds or TNT at Y=15 are the classic blast-mining setup.",
+      "Nether quartz and nether gold: uniform from 10 to 117 everywhere, with extra in basalt deltas."
+    ],
+    "versions": "These ranges are the 1.18+ world generation and are current on Java and Bedrock as of 2026. Small per-edition quirks exist (extra coal batch in mountain biomes differs slightly).",
+    "editionNote": "Y=-59 remains the universal deep-mining floor on both editions: diamonds, redstone, lapis and gold all overlap there.",
+    "faq": [
+      {
+        "q": "What is the best Y level for diamonds?",
+        "a": "Y=-59. Diamond generation is a triangle from -64 to 16 that thickens toward bedrock, and mining at -59 keeps you just above the lava-rich bedrock layers. Strip-mine rather than cave: air-exposed ore has a 50% chance to be skipped."
+      },
+      {
+        "q": "Did ore levels change in 1.18?",
+        "a": "Yes - the Caves and Cliffs update stretched the world to Y=-64 and Y=320 and gave every ore its own distribution curve. The old 'mine at Y=11 for everything' advice is obsolete."
+      },
+      {
+        "q": "Where is ancient debris most common?",
+        "a": "Y=15 in the Nether. It never generates exposed to air, so you will not find it in open nether caves - blast or branch-mine through netherrack at that height."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds",
+      "how-to-find-ancient-debris",
+      "how-to-find-copper"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Ores",
+        "url": "/ores/"
+      }
+    ]
+  },
+  {
+    "slug": "best-food-in-minecraft",
+    "name": "Best Food in Minecraft (Hunger and Saturation Ranked)",
+    "shortTitle": "Best Food in Minecraft",
+    "quickAnswer": "Golden carrots are the best everyday food: 6 hunger and the highest saturation of any stackable food (14.4). Steak and cooked porkchops restore the most hunger per bite (8 with 12.8 saturation). Golden apples and enchanted golden apples win for combat effects.",
+    "keywords": "best food minecraft hunger saturation golden carrot steak porkchop golden apple rabbit stew",
+    "materials": [
+      "A farmer villager for golden carrots, or a cow and pig farm",
+      "Gold for golden carrots and apples",
+      "A crafting table and furnace or smoker for cooking"
+    ],
+    "steps": [
+      "Golden carrot - best saturation (6 hunger, 14.4 saturation): you stay full longest, and farmers sell them for emeralds.",
+      "Steak and cooked porkchops - best hunger refill (8 hunger, 12.8 saturation): the workhorse food of most worlds.",
+      "Cooked salmon and cooked mutton - solid mid-tier (6 hunger, 9.6 saturation).",
+      "Rabbit stew - biggest single meal (10 hunger, 12 saturation) but unstackable, so it stays a novelty.",
+      "Golden apple - the combat food: 4 hunger plus Regeneration II and 2 absorption hearts; eat before any hard fight.",
+      "Enchanted golden apple - the panic button: Regeneration IV, Absorption IV, Resistance and Fire Resistance. Uncraftable - loot it from ancient cities, mansions, bastions and vaults.",
+      "Suspicious stew with a dandelion or blue orchid - the saturation secret: its Saturation effect outperforms everything per inventory slot if you farm flowers.",
+      "Baked potato and bread - the best early-game farm foods (5 hunger, 6 saturation).",
+      "Honey bottle - modest food but cures poison: the cave spider counter."
+    ],
+    "versions": "Hunger and saturation values are the same on Java and Bedrock. Saturation is hidden in-game; Java mods and the wiki values are how players compare foods.",
+    "editionNote": "Saturation decides how long until you are hungry again - that is why golden carrots beat steak for exploring, while steak restores more raw hunger after a fight.",
+    "faq": [
+      {
+        "q": "What is the best food in Minecraft overall?",
+        "a": "Golden carrots for daily use - top saturation, stackable, cheap from farmer villagers. Steak or porkchops if you need raw hunger back fast. Golden apples when the fight matters more than the meal."
+      },
+      {
+        "q": "Is suspicious stew good?",
+        "a": "With a dandelion or blue orchid it grants Saturation, making it one of the most efficient foods per slot - but it needs a mooshroom, a bowl and the right flower, so it is a specialist choice."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-golden-carrot",
+      "how-to-make-suspicious-stew",
+      "how-to-breed-cows"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/items/"
+      }
+    ]
+  },
+  {
+    "slug": "all-wolf-variants",
+    "name": "All 9 Wolf Variants in Minecraft (And Where to Find Them)",
+    "shortTitle": "All 9 Wolf Variants",
+    "quickAnswer": "Wolves come in 9 variants, one per biome: Pale (taiga), Woods (forest), Ashen (snowy taiga), Black (old growth pine taiga), Chestnut (old growth spruce taiga), Rusty (sparse jungle), Spotted (savanna plateau), Striped (wooded badlands), Snowy (grove). Tame any of them with bones.",
+    "keywords": "all wolf variants minecraft where to find pale woods ashen black chestnut rusty spotted striped snowy",
+    "materials": [
+      "Bones from skeletons (a stack is plenty)",
+      "Meat to heal and breed your wolves after taming",
+      "Wolf armor from armadillo scutes for adventuring"
+    ],
+    "steps": [
+      "Pale - taiga, packs of 4. The classic wolf look from before the variants update.",
+      "Woods - forest, packs of 4. The most common variant by biome coverage.",
+      "Ashen - snowy taiga, packs of 4.",
+      "Black - old growth pine taiga, packs of 2-4.",
+      "Chestnut - old growth spruce taiga, packs of 2-4.",
+      "Rusty - sparse jungle, packs of 2-4.",
+      "Spotted - savanna plateau, the biggest packs at 4-8.",
+      "Striped - wooded badlands, packs of 4-8.",
+      "Snowy - grove, always spawns alone: the lone-wolf variant.",
+      "Taming: hold bones and use them on the wolf until hearts appear - anywhere from 1 to a dozen bones. The red collar (dyeable) marks a tamed wolf.",
+      "Collecting tip: breed two variants and the puppy takes one parent's variant at random - breed your rare finds instead of hiking for duplicates."
+    ],
+    "versions": "All 9 variants exist on Java and Bedrock since 1.20.5. Wolves spawned by eggs or commands in jungles use Rusty; badlands eggs give Striped.",
+    "editionNote": "Snowy wolves spawn solo in groves, so finding one takes patience - check grove biomes on mountain slopes.",
+    "faq": [
+      {
+        "q": "How many wolf variants are there?",
+        "a": "9: Pale, Woods, Ashen, Black, Chestnut, Rusty, Spotted, Striped and Snowy - each tied to its own biome."
+      },
+      {
+        "q": "Can I get every variant without exploring?",
+        "a": "Almost: breed two wolves of different variants and the puppy randomly inherits either parent's variant. You still need to find each variant once."
+      },
+      {
+        "q": "Do wolf variants behave differently?",
+        "a": "No - the differences are purely cosmetic. Health, damage and taming are identical across all 9."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-tame-a-wolf",
+      "how-to-breed-wolves",
+      "how-to-make-wolf-armor"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
+  },
+  {
+    "slug": "all-cat-variants",
+    "name": "All 11 Cat Variants in Minecraft (And How to Get Them)",
+    "shortTitle": "All 11 Cat Variants",
+    "quickAnswer": "There are 11 cat variants: Tabby, Tuxedo, Red, Siamese, British Shorthair, Calico, Persian, Ragdoll, White, Black and Jellie. Village cats spawn in random variants, swamp huts always spawn a black cat, and black cats appear more often during a full moon. Tame them with raw cod or salmon.",
+    "keywords": "all cat variants minecraft 11 cats tabby tuxedo siamese persian ragdoll jellie black cat swamp hut",
+    "materials": [
+      "Raw cod or raw salmon (cats will not approach if you move fast)",
+      "A village with beds, or a swamp hut",
+      "Dye for the collar once tamed"
+    ],
+    "steps": [
+      "Tabby, Tuxedo, Red, Siamese, British Shorthair, Calico, Persian, Ragdoll, White - random spawns in villages.",
+      "Black - the swamp hut cat: every swamp hut (witch hut) spawns one all-black cat that never despawns.",
+      "Jellie - a village spawn like the others, added after a community vote: gray and white, based on a real cat.",
+      "Full moon bonus: black cats spawn far more often during a full moon - the night to hunt for one outside swamp huts.",
+      "Taming: hold raw cod or salmon, crouch or stand still and let the cat approach, then feed it until hearts appear - moving scares it off.",
+      "Collars: tamed cats get a red collar by default; use any of the 16 dyes to recolor it.",
+      "Breeding: feed two tamed cats raw fish and the kitten takes one parent's variant at random.",
+      "Perks: cats scare away creepers and phantoms - keep one at your base entrance and next to your bed."
+    ],
+    "versions": "All 11 variants exist on Java and Bedrock. Swamp hut cats are always black on both editions.",
+    "editionNote": "Cats repel creepers and phantoms within a short radius - a tamed cat at your door is the cheapest security system in the game.",
+    "faq": [
+      {
+        "q": "How many cat variants are in Minecraft?",
+        "a": "11: Tabby, Tuxedo, Red, Siamese, British Shorthair, Calico, Persian, Ragdoll, White, Black and Jellie."
+      },
+      {
+        "q": "Where do black cats spawn?",
+        "a": "Guaranteed in swamp huts (witch huts), and much more often everywhere during a full moon."
+      },
+      {
+        "q": "Why won't the cat come to me?",
+        "a": "Cats flee from movement. Hold raw cod or salmon, stand still or crouch, and let it walk to you - then feed it."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-tame-a-cat",
+      "how-to-breed-cats",
+      "how-to-tame-an-ocelot"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
   }
 ]
