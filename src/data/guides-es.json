@@ -29706,5 +29706,103 @@
       }
     ],
     "slug": "wandering-trader-trades"
+  },
+  "fishing-loot-table": {
+    "name": "Tabla de loot de la pesca en Minecraft: cada captura con probabilidades",
+    "shortTitle": "Tabla de loot de la pesca",
+    "quickAnswer": "Las capturas de la pesca caen en tres categorías: fish (85% sin encantar), junk (10%) y treasure (5%). El treasure incluye enchanted books, bows y fishing rods encantadas, name tags, nautilus shells y saddles: cada uno sobre un 0,83% por lance, hasta un 1,89% con Luck of the Sea III. El fish es mayoritariamente raw cod (51% por lance), más salmon, pufferfish y tropical fish. En Java, el treasure solo pica en open water.",
+    "keywords": "tabla loot pesca minecraft probabilidades treasure enchanted book name tag saddle nautilus shell luck of the sea junk fish",
+    "materials": [
+      "Una fishing rod (3 sticks y 2 string)",
+      "Luck of the Sea III y Lure III para los mejores resultados",
+      "En Java, un punto de open water: un área 5x4x5 alrededor del bobber con solo agua, lily pads y aire"
+    ],
+    "steps": [
+      "Probabilidades por categoría: 85% fish, 10% junk, 5% treasure sin encantar. Cada nivel de Luck of the Sea mueve un 1-2% del junk y el fish al treasure: con LotS III queda 84,5% fish, 4,1% junk, 11,3% treasure.",
+      "Capturas de fish (Java): raw cod 60% de la categoría (51% por lance), raw salmon 25% (21,25%), pufferfish 13% (11,05%), tropical fish 2% (1,7%).",
+      "Capturas de treasure: enchanted book, bow encantada, fishing rod encantada, name tag, nautilus shell y saddle: 16,67% de la categoría treasure cada una en Java (0,83% por lance sin encantar, 1,89% con LotS III). En Bedrock el enchanted book es algo más común (19,35% del treasure).",
+      "Las bows y rods pescadas vienen encantadas como de una enchanting table de nivel 30 con un 0-25% de durabilidad; los books pueden llevar cualquier encantamiento excepto Swift Sneak, Soul Speed y Wind Burst.",
+      "Capturas de junk: lily pads (1,7% por lance), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks y water bottles (1% cada una), sticks y string (0,5%), fishing rods sin encantar (0,2%) y 10 ink sacs (0,1%).",
+      "Regla de jungle: pescar en jungle, sparse jungle o bamboo jungle añade bamboo a la tabla de junk (Bedrock también añade cocoa beans y sube el peso del salmon); las probabilidades de fish y treasure no cambian.",
+      "Open water (solo Java): el bobber necesita una zona 5x4x5 de water source blocks, bloques waterlogged, lily pads o aire: nada de agua corriente ni bloques sólidos encima. Sin eso, el treasure nunca pica.",
+      "Velocidad: una captura tarda 5-30 segundos; cada nivel de Lure recorta 5 segundos, la lluvia acelera el temporizador un 20%, y un cielo cubierto sobre el bobber dobla la espera aproximadamente.",
+      "Las cuentas del treasure: con LotS III, Lure III y lluvia, espera un objeto de treasure cada 11 lances aproximadamente: mending books, name tags y saddles de grifo."
+    ],
+    "versions": "Las probabilidades por categoría son iguales en Java y Bedrock; Bedrock da algo más de peso al enchanted book en el treasure y añade cocoa beans al junk de jungle. La regla de open water es solo de Java. Verificado con minecraft.wiki a 26.x.",
+    "editionNote": "Una granja AFK de pesca con una rod con LotS III sigue siendo la fuente más vaga de enchanted books, name tags y saddles del juego.",
+    "faq": [
+      {
+        "q": "¿Qué se puede pescar en Minecraft?",
+        "a": "Fish (cod, salmon, pufferfish, tropical fish), treasure (enchanted books, bows y rods encantadas, name tags, nautilus shells, saddles) y junk (lily pads, bones, bowls, leather, bottles y más). Sin encantar, el reparto es 85% fish, 10% junk, 5% treasure."
+      },
+      {
+        "q": "¿Cuál es la probabilidad de un enchanted book pescando?",
+        "a": "Sobre un 0,83% por lance sin encantar en Java, hasta un 1,89% con Luck of the Sea III: aproximadamente un libro cada 53 lances con la mejor rod. En Bedrock es algo mayor: del 0,97% al 2,19%."
+      },
+      {
+        "q": "¿Por qué no pesco treasure?",
+        "a": "En Java, el treasure requiere open water: un área 5x4x5 alrededor del bobber con nada más que water sources, bloques waterlogged, lily pads y aire. Un bloque sobre el bobber o una piscina de 1 bloque bloquea el treasure por completo."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-fish",
+      "best-fishing-rod-enchantments",
+      "how-to-make-fishing-rod"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/es/mobs/"
+      }
+    ],
+    "slug": "fishing-loot-table"
+  },
+  "minecraft-day-length": {
+    "name": "¿Cuánto dura un día en Minecraft? Tiempos completos del ciclo día-noche",
+    "shortTitle": "Duración del día en Minecraft",
+    "quickAnswer": "Un ciclo completo día-noche de Minecraft dura 20 minutos reales (24.000 ticks): el día dura 10 minutos, el sunset 50 segundos, la noche 8 minutos y 20 segundos, y el sunrise 50 segundos. El tiempo de Minecraft corre 72 veces más rápido que el real, así que una hora de Minecraft pasa en 50 segundos reales.",
+    "keywords": "cuanto dura un dia minecraft ciclo dia noche duracion minutos ticks 20 minutos daylight cycle tiempo",
+    "materials": [
+      "Una bed para saltarte la noche",
+      "Opcional: un clock para leer la hora en cuevas"
+    ],
+    "steps": [
+      "Ciclo completo: 20 minutos reales, 24.000 ticks: el tiempo de Minecraft corre 72 veces más rápido que el real.",
+      "Día: 10 minutos (ticks 0-12000, de 06:00 a 18:00 en hora del juego). El sol está en lo más alto al mediodía, tick 6000.",
+      "Sunset/dusk: 50 segundos (ticks 12000-13000). La luz del cielo baja y las beds pasan a poder usarse.",
+      "Noche: 8 minutos y 20 segundos (ticks 13000-23000). La luz del cielo cae a 4 y los hostile mobs spawnean en la superficie; la luna está en lo alto a medianoche, tick 18000.",
+      "Sunrise/dawn: 50 segundos (ticks 23000-24000). La luz sube y la luz del sol empieza a quemar a zombies y skeletons.",
+      "Conversiones útiles: 1 hora de Minecraft = 50 segundos reales; 1 semana de Minecraft = 2 horas y 20 minutos; un ciclo lunar completo de 8 fases = 2 horas y 40 minutos de juego real.",
+      "Saltarte la noche: dormir en una bed salta directamente al siguiente dawn (tick 24000) y fija tu spawn point.",
+      "El ciclo sigue corriendo mientras estás en el Nether o el End: los clocks y daylight detectors siguen funcionando con la hora del Overworld."
+    ],
+    "versions": "El ciclo de 20 minutos es idéntico en Java y Bedrock. Verificado con minecraft.wiki a 26.x.",
+    "editionNote": "Diez minutos de luz por ciclo: planifica tu primer día alrededor de eso: refugio antes del tick 12000, o una bed antes de tu primera noche.",
+    "faq": [
+      {
+        "q": "¿Cuánto dura un día de Minecraft en tiempo real?",
+        "a": "El ciclo día-noche completo dura 20 minutos reales: 10 minutos de día, 50 segundos de sunset, 8 minutos y 20 segundos de noche y 50 segundos de sunrise."
+      },
+      {
+        "q": "¿Cuánto dura la noche en Minecraft?",
+        "a": "8 minutos y 20 segundos (10.000 ticks), más las transiciones de 50 segundos de sunset y sunrise. Dormir en una bed se la salta entera."
+      },
+      {
+        "q": "¿Cuántos ticks tiene un día de Minecraft?",
+        "a": "24.000 ticks el ciclo completo: 12.000 de día, 1.000 de sunset, 10.000 de noche y 1.000 de sunrise."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-survive-your-first-night",
+      "how-to-make-a-bed",
+      "how-to-get-xp-fast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/es/mobs/"
+      }
+    ],
+    "slug": "minecraft-day-length"
   }
 }

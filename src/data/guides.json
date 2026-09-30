@@ -33053,5 +33053,103 @@
         "url": "/mobs/"
       }
     ]
+  },
+  {
+    "slug": "fishing-loot-table",
+    "name": "Minecraft Fishing Loot Table: Every Catch with Chances",
+    "shortTitle": "Fishing Loot Table",
+    "quickAnswer": "Fishing catches fall into three categories: fish (85% unenchanted), junk (10%) and treasure (5%). Treasure includes enchanted books, enchanted bows and fishing rods, name tags, nautilus shells and saddles - each about 0.83% per cast, rising to 1.89% with Luck of the Sea III. Fish is mostly raw cod (51% per cast), plus salmon, pufferfish and tropical fish. On Java, treasure only bites in open water.",
+    "keywords": "minecraft fishing loot table chances treasure enchanted book name tag saddle nautilus shell luck of the sea junk fish",
+    "materials": [
+      "A fishing rod (3 sticks and 2 string)",
+      "Luck of the Sea III and Lure III for the best results",
+      "On Java, an open-water spot: a 5x4x5 area around the bobber with only water, lily pads and air"
+    ],
+    "steps": [
+      "Category chances: 85% fish, 10% junk, 5% treasure unenchanted. Each level of Luck of the Sea shifts about 1-2% from junk and fish into treasure - with LotS III it is 84.5% fish, 4.1% junk, 11.3% treasure.",
+      "Fish catches (Java): raw cod 60% of the category (51% per cast), raw salmon 25% (21.25%), pufferfish 13% (11.05%), tropical fish 2% (1.7%).",
+      "Treasure catches: enchanted book, enchanted bow, enchanted fishing rod, name tag, nautilus shell and saddle - 16.67% of the treasure category each in Java (0.83% per cast unenchanted, 1.89% with LotS III). In Bedrock the enchanted book is slightly more common (19.35% of treasure).",
+      "Caught bows and rods come enchanted as if from a level-30 enchanting table with 0-25% durability left; books can hold any enchantment except Swift Sneak, Soul Speed and Wind Burst.",
+      "Junk catches: lily pads (1.7% per cast), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks and water bottles (1% each), sticks and string (0.5%), unenchanted fishing rods (0.2%) and 10 ink sacs (0.1%).",
+      "Jungle rule: fishing in jungle, sparse jungle or bamboo jungle adds bamboo to the junk table (Bedrock also adds cocoa beans and boosts salmon); fish and treasure chances stay the same.",
+      "Open water (Java only): the bobber needs a 5x4x5 zone of water source blocks, waterlogged blocks, lily pads or air - no flowing water, no solid blocks overhead. Without it, treasure never bites.",
+      "Speed: a catch takes 5-30 seconds; each Lure level cuts 5 seconds, rain speeds the timer by about 20%, and a covered sky above the bobber roughly doubles the wait.",
+      "Treasure math: with LotS III, Lure III and rain, expect a treasure item roughly every 11 casts - mending books, name tags and saddles on tap."
+    ],
+    "versions": "Category chances are the same on Java and Bedrock; Bedrock weights the enchanted book slightly higher in treasure and adds cocoa beans to jungle junk. The open-water treasure rule is Java-only. Verified against minecraft.wiki as of 26.x.",
+    "editionNote": "An AFK fish farm with a LotS III rod is still the laziest source of enchanted books, name tags and saddles in the game.",
+    "faq": [
+      {
+        "q": "What can you catch fishing in Minecraft?",
+        "a": "Fish (cod, salmon, pufferfish, tropical fish), treasure (enchanted books, enchanted bows and rods, name tags, nautilus shells, saddles) and junk (lily pads, bones, bowls, leather, bottles and more). Unenchanted, the split is 85% fish, 10% junk, 5% treasure."
+      },
+      {
+        "q": "What is the chance of an enchanted book from fishing?",
+        "a": "About 0.83% per cast unenchanted in Java, rising to 1.89% with Luck of the Sea III - roughly one book every 53 casts with the best rod. In Bedrock it is slightly higher: 0.97% to 2.19%."
+      },
+      {
+        "q": "Why am I not catching treasure?",
+        "a": "On Java, treasure requires open water: a 5x4x5 area around the bobber with nothing but water sources, waterlogged blocks, lily pads and air. A block over the bobber or a 1-block pool blocks treasure completely."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-fish",
+      "best-fishing-rod-enchantments",
+      "how-to-make-fishing-rod"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
+  },
+  {
+    "slug": "minecraft-day-length",
+    "name": "How Long Is a Minecraft Day? Full Day-Night Cycle Times",
+    "shortTitle": "Minecraft Day Length",
+    "quickAnswer": "A full Minecraft day-night cycle lasts 20 real minutes (24,000 game ticks): daytime runs 10 minutes, sunset 50 seconds, nighttime 8 minutes 20 seconds, and sunrise 50 seconds. Minecraft time runs 72 times faster than real time, so one Minecraft hour passes in 50 real seconds.",
+    "keywords": "how long is a minecraft day night cycle length minutes ticks 20 minutes daylight cycle time",
+    "materials": [
+      "A bed to skip the night",
+      "Optional: a clock to read the time in caves"
+    ],
+    "steps": [
+      "Full cycle: 20 real minutes, 24,000 ticks - Minecraft time runs 72x faster than real time.",
+      "Daytime: 10 minutes (ticks 0-12000, 06:00 to 18:00 in game time). The sun is directly overhead at midday, tick 6000.",
+      "Sunset/dusk: 50 seconds (ticks 12000-13000). The sky light falls and beds become usable.",
+      "Nighttime: 8 minutes 20 seconds (ticks 13000-23000). Sky light drops to 4 and hostile mobs spawn on the surface; the moon is overhead at midnight, tick 18000.",
+      "Sunrise/dawn: 50 seconds (ticks 23000-24000). The sky light rises and sunlight starts burning zombies and skeletons.",
+      "Useful conversions: 1 Minecraft hour = 50 real seconds; 1 Minecraft week = 2 hours 20 minutes; a full 8-phase moon cycle = 2 hours 40 minutes of real play.",
+      "Skip the night: sleeping in a bed jumps straight to the next dawn (tick 24000) and sets your spawn point.",
+      "The cycle keeps running while you are in the Nether or the End - clocks and daylight detectors keep working through the Overworld's time."
+    ],
+    "versions": "The 20-minute cycle is identical on Java and Bedrock. Verified against minecraft.wiki as of 26.x.",
+    "editionNote": "Ten minutes of daylight per cycle: plan your first day around it - shelter before tick 12000, or a bed before your first night.",
+    "faq": [
+      {
+        "q": "How long is a Minecraft day in real time?",
+        "a": "The full day-night cycle is 20 real minutes: 10 minutes of daytime, 50 seconds of sunset, 8 minutes 20 seconds of night and 50 seconds of sunrise."
+      },
+      {
+        "q": "How long is nighttime in Minecraft?",
+        "a": "8 minutes 20 seconds (10,000 ticks), plus 50-second sunset and sunrise transitions. Sleeping in a bed skips it entirely."
+      },
+      {
+        "q": "How many ticks are in a Minecraft day?",
+        "a": "24,000 ticks for the full cycle - 12,000 for daytime, 1,000 for sunset, 10,000 for night and 1,000 for sunrise."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-survive-your-first-night",
+      "how-to-make-a-bed",
+      "how-to-get-xp-fast"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
   }
 ]
