@@ -32163,5 +32163,155 @@
         "url": "/structures/"
       }
     ]
+  },
+  {
+    "slug": "all-banner-patterns",
+    "name": "All 10 Banner Patterns in Minecraft (And How to Get Each)",
+    "shortTitle": "All 10 Banner Patterns",
+    "quickAnswer": "There are 10 banner patterns: 6 crafted from paper plus an item (Flower Charge, Creeper Charge, Skull Charge, Thing, Field Masoned, Bordure Indented) and 4 found or traded (Globe, Snout, Flow, Guster). Use them in a loom with a banner and dye - the pattern item is never consumed.",
+    "keywords": "all banner patterns minecraft loom flower charge creeper skull thing globe snout flow guster how to craft",
+    "materials": [
+      "A loom (2 string, 2 planks)",
+      "Paper for the 6 craftable patterns",
+      "A banner and dye per design"
+    ],
+    "steps": [
+      "Flower Charge: paper + oxeye daisy - the flower icon.",
+      "Creeper Charge: paper + creeper head - the creeper face, the community favorite.",
+      "Skull Charge: paper + wither skeleton skull - the skull and crossbones.",
+      "Thing: paper + enchanted golden apple - the Mojang logo, the most expensive pattern in the game.",
+      "Field Masoned: paper + a bricks block - the brickwork pattern.",
+      "Bordure Indented: paper + vines - the fancy scalloped border.",
+      "Globe: traded from a master-level cartographer - the world map pattern.",
+      "Snout: looted from bastion remnant chests - the piglin snout.",
+      "Flow and Guster: looted from vaults and ominous vaults in trial chambers - the two newest patterns.",
+      "Using them: loom plus banner plus dye plus pattern - the pattern item stays in your inventory, so one pattern decorates unlimited banners.",
+      "Layer up to 6 patterns on one banner (16 on Bedrock with commands), and copy a finished banner by crafting it with a blank banner of the same base color."
+    ],
+    "versions": "All 10 patterns exist on Java and Bedrock. The 6-shape layering limit applies to survival on both.",
+    "editionNote": "Thing is the only pattern that costs an uncraftable item - the enchanted golden apple must be looted before you can make Mojang-logo banners.",
+    "faq": [
+      {
+        "q": "How many banner patterns are there?",
+        "a": "10: six craftable (Flower Charge, Creeper Charge, Skull Charge, Thing, Field Masoned, Bordure Indented) and four from loot or trading (Globe, Snout, Flow, Guster)."
+      },
+      {
+        "q": "Do banner patterns get used up?",
+        "a": "No - the pattern item is never consumed in the loom. Craft one Creeper Charge and it serves forever."
+      },
+      {
+        "q": "How do I copy a banner?",
+        "a": "Craft the finished banner together with a blank banner of the same base color - the design duplicates onto the blank one."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-banner",
+      "how-to-raid-trial-chambers",
+      "how-to-get-enchanted-golden-apple"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/items/"
+      }
+    ]
+  },
+  {
+    "slug": "minecraft-light-levels",
+    "name": "Minecraft Light Levels Explained (Mob Spawns, Crops and Every Light Source)",
+    "shortTitle": "Light Levels Explained",
+    "quickAnswer": "Light runs from 0 to 15. Hostile mobs spawn only at block light 0 (since 1.18), crops need light 9 or higher to grow, and ice melts at light 12+. Torches give 14, lanterns and glowstone 15, soul torches 10, redstone torches 7 - press F3 (Java) to see the light level at your feet.",
+    "keywords": "minecraft light levels mob spawning light level 0 torch lantern glowstone crops f3 debug",
+    "materials": [
+      "Torches or better for spawn-proofing",
+      "F3 debug screen on Java (light level reads at your position)",
+      "Any 15-light source for max brightness"
+    ],
+    "steps": [
+      "The spawn rule: since 1.18, hostile mobs spawn only where block light is exactly 0 - a single torch every few blocks makes an area permanently safe.",
+      "Light falls by 1 per block from the source - a torch (14) lights 0-level darkness about 12 blocks away diagonally; grid torches every 10-12 blocks to spawn-proof caves.",
+      "Level 15 sources: glowstone, sea lantern, shroomlight, lantern, campfire, jack o'lantern, lava, beacon, conduit, froglights, crying obsidian is 10 (not 15) - check before you build with it.",
+      "Torch 14, end rod 14; soul torch and soul lantern 10; redstone torch 7; candles 3 per candle up to 12; magma 3.",
+      "Crops: farmland crops need light 9+ to grow - torches over the rows double as decoration and night farming.",
+      "Snow and ice: ice melts at block light 12+ from non-sun sources - keep lanterns away from ice paths; sunlight never melts ice.",
+      "Reading light: on Java press F3 and look for 'Client Light' (block + sky). On Bedrock, enable the light level overlay in video settings or count torch distance.",
+      "Skylight vs block light: mobs care about internal light combining both - underground, only your placed block light matters, which is why caves need torches even at noon."
+    ],
+    "versions": "The light level 0 spawn rule has applied on Java and Bedrock since 1.18. Light source values are the same on both editions.",
+    "editionNote": "The single most useful fact in this guide: light level 1 anywhere stops all hostile spawns - you do not need brightness, you need coverage.",
+    "faq": [
+      {
+        "q": "What light level do mobs spawn at?",
+        "a": "Block light 0 only, since the 1.18 update. Before that it was 7 or below, which is why old guides talk about torch grids every 6 blocks - today any light at all prevents spawns."
+      },
+      {
+        "q": "How do I see light levels?",
+        "a": "Java: press F3 and read the light value at your position. Bedrock: turn on the light level overlay in video settings (or use the F3-style debug on some devices)."
+      },
+      {
+        "q": "Do mobs spawn on slabs and glass?",
+        "a": "Light aside, mobs cannot spawn on bottom slabs, glass, leaves or carpets - a cheap way to spawn-proof dark corners without lighting them."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-f3-debug-screen",
+      "how-to-reduce-lag",
+      "how-to-make-a-torch"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/items/"
+      }
+    ]
+  },
+  {
+    "slug": "best-enchantments-for-other-tools",
+    "name": "Best Enchantments for Hoes, Shears, Shields and More",
+    "shortTitle": "Best Enchantments for Other Tools",
+    "quickAnswer": "Hoes take Efficiency, Fortune or Silk Touch, Unbreaking and Mending. Shears, shields, flint and steel, brushes and riding sticks take Unbreaking and Mending - shears also take Efficiency. Most of these need an anvil and books rather than the enchanting table.",
+    "keywords": "best hoe enchantments minecraft shears shield flint and steel brush enchant unbreaking mending anvil",
+    "materials": [
+      "An anvil plus enchanted books (most of these tools skip the enchanting table)",
+      "Librarians or loot for Mending and Unbreaking books",
+      "XP levels"
+    ],
+    "steps": [
+      "Hoe: Fortune III turns leaf-breaking into a sapling-and-stick factory and boosts crop drops; Silk Touch is the leaf-block alternative. Add Efficiency V, Unbreaking III and Mending for the sculk-and-leaves super-tool.",
+      "Hoe note: the hoe is the fastest tool for leaves, hay bales, sponges, moss and sculk-family blocks - enchanting one is worth it in the deep dark.",
+      "Shears: Unbreaking III and Mending keep them alive through wool farms; Efficiency V shaves wool and leaves faster. Efficiency goes on at the table, the rest by anvil.",
+      "Shield: only Unbreaking III and Mending, both by anvil - a Mending shield repairs itself from XP while it saves your life.",
+      "Flint and steel: Unbreaking III and Mending by anvil - yes, you can, and a netherite-grade lighter is oddly satisfying.",
+      "Brush: Unbreaking III and Mending by anvil - archaeology brushes break fast, so enchant before the big dig.",
+      "Carrot on a stick and warped fungus on a stick: Unbreaking and Mending for pig and strider riding - pure luxury.",
+      "General rule: if a tool accepts no table enchantments, the anvil-plus-books route still applies Unbreaking and Mending - nothing durable should leave your base unenchanted."
+    ],
+    "versions": "These enchantment options are the same on Java and Bedrock. Table availability differs slightly by item; the anvil route works everywhere.",
+    "editionNote": "The hoe is the hidden gem: it is the fastest leaf and sculk tool in the game, and Fortune III on a hoe multiplies sweet berry and crop harvests.",
+    "faq": [
+      {
+        "q": "Can you enchant a shield?",
+        "a": "Not at the enchanting table - but an anvil with books applies Unbreaking III and Mending to a shield, and you absolutely should."
+      },
+      {
+        "q": "Is Fortune on a hoe worth it?",
+        "a": "Yes for farmers and builders: Fortune III boosts drops from leaves, sweet berry bushes and crops, and Silk Touch hoes pick up leaf blocks directly for hedges."
+      },
+      {
+        "q": "What is the fastest tool for leaves?",
+        "a": "The hoe - by design. An Efficiency V hoe clears leaf canopies instantly, which is why end-game builders carry one."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-an-anvil",
+      "how-to-get-mending",
+      "best-shovel-enchantments"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Enchantments",
+        "url": "/enchantments/"
+      }
+    ]
   }
 ]

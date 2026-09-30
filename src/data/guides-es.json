@@ -28816,5 +28816,155 @@
       }
     ],
     "slug": "how-to-find-every-structure"
+  },
+  "all-banner-patterns": {
+    "name": "Los 10 banner patterns de Minecraft (y cómo conseguir cada uno)",
+    "shortTitle": "Los 10 banner patterns",
+    "quickAnswer": "Hay 10 banner patterns: 6 crafteados con paper más un objeto (Flower Charge, Creeper Charge, Skull Charge, Thing, Field Masoned, Bordure Indented) y 4 encontrados o comerciados (Globe, Snout, Flow, Guster). Úsalos en un loom con un banner y dye: el patrón nunca se consume.",
+    "keywords": "todos los banner patterns minecraft loom flower charge creeper skull thing globe snout flow guster cómo craftear estandarte",
+    "materials": [
+      "Un loom (2 string, 2 planks)",
+      "Paper para los 6 patrones crafteables",
+      "Un banner y dye por diseño"
+    ],
+    "steps": [
+      "Flower Charge: paper + oxeye daisy: el icono de flor.",
+      "Creeper Charge: paper + creeper head: la cara del creeper, el favorito de la comunidad.",
+      "Skull Charge: paper + wither skeleton skull: la calavera con tibias cruzadas.",
+      "Thing: paper + enchanted golden apple: el logo de Mojang, el patrón más caro del juego.",
+      "Field Masoned: paper + un bloque de bricks: el patrón de ladrillo.",
+      "Bordure Indented: paper + vines: el borde festoneado elegante.",
+      "Globe: comerciado con un cartographer de nivel maestro: el patrón del mapa del mundo.",
+      "Snout: saqueado de cofres de bastion remnants: el hocico de piglin.",
+      "Flow y Guster: saqueados de vaults y ominous vaults en las trial chambers: los dos patrones más nuevos.",
+      "Cómo usarlos: loom más banner más dye más patrón: el patrón se queda en tu inventario, así que un patrón decora banners ilimitados.",
+      "Apila hasta 6 patrones en un banner (16 en Bedrock con comandos), y copia un banner terminado crafteándolo con un banner en blanco del mismo color base."
+    ],
+    "versions": "Los 10 patrones existen en Java y Bedrock. El límite de 6 capas se aplica en survival en ambas.",
+    "editionNote": "Thing es el único patrón que cuesta un objeto incrafteable: hay que saquear la enchanted golden apple antes de poder hacer banners con el logo de Mojang.",
+    "faq": [
+      {
+        "q": "¿Cuántos banner patterns hay?",
+        "a": "10: seis crafteables (Flower Charge, Creeper Charge, Skull Charge, Thing, Field Masoned, Bordure Indented) y cuatro de loot o comercio (Globe, Snout, Flow, Guster)."
+      },
+      {
+        "q": "¿Se gastan los banner patterns?",
+        "a": "No: el patrón nunca se consume en el loom. Craftea un Creeper Charge y te sirve para siempre."
+      },
+      {
+        "q": "¿Cómo copio un banner?",
+        "a": "Craftea el banner terminado junto con un banner en blanco del mismo color base: el diseño se duplica en el blanco."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-banner",
+      "how-to-raid-trial-chambers",
+      "how-to-get-enchanted-golden-apple"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/es/items/"
+      }
+    ],
+    "slug": "all-banner-patterns"
+  },
+  "minecraft-light-levels": {
+    "name": "Los niveles de luz en Minecraft explicados (spawns de mobs, cosechas y cada fuente de luz)",
+    "shortTitle": "Niveles de luz explicados",
+    "quickAnswer": "La luz va de 0 a 15. Los mobs hostiles solo aparecen con luz de bloque 0 (desde la 1.18), las cosechas necesitan luz 9 o más para crecer, y el hielo se derrite con luz 12+. Las torches dan 14, las lanterns y el glowstone 15, las soul torches 10, las redstone torches 7: pulsa F3 (Java) para ver el nivel de luz bajo tus pies.",
+    "keywords": "minecraft niveles de luz spawn mobs nivel de luz 0 torch lantern glowstone cosechas f3 debug",
+    "materials": [
+      "Torches o mejor para blindar zonas contra spawns",
+      "Pantalla de debug F3 en Java (el nivel de luz se lee en tu posición)",
+      "Cualquier fuente de luz 15 para el brillo máximo"
+    ],
+    "steps": [
+      "La regla del spawn: desde la 1.18, los mobs hostiles solo aparecen donde la luz de bloque es exactamente 0: una sola torch cada pocos bloques hace una zona segura para siempre.",
+      "La luz cae 1 por bloque desde la fuente: una torch (14) ilumina la oscuridad de nivel 0 a unos 12 bloques en diagonal; pon torches en rejilla cada 10-12 bloques para blindar cuevas.",
+      "Fuentes de nivel 15: glowstone, sea lantern, shroomlight, lantern, campfire, jack o'lantern, lava, beacon, conduit, froglights; la crying obsidian da 10 (no 15): comprueba antes de construir con ella.",
+      "Torch 14, end rod 14; soul torch y soul lantern 10; redstone torch 7; candles 3 por vela hasta 12; magma 3.",
+      "Cosechas: los cultivos de farmland necesitan luz 9+ para crecer: las torches sobre los surcos sirven de decoración y de granja nocturna a la vez.",
+      "Nieve y hielo: el hielo se derrite con luz de bloque 12+ de fuentes que no sean el sol: aleja las lanterns de los caminos de hielo; la luz solar nunca derrite el hielo.",
+      "Leer la luz: en Java pulsa F3 y busca 'Client Light' (block + sky). En Bedrock, activa la superposición de nivel de luz en los ajustes de vídeo o cuenta la distancia de las torches.",
+      "Luz de cielo frente a luz de bloque: a los mobs les importa la luz interna que combina ambas: bajo tierra solo cuenta la luz de bloque que colocas, por eso las cuevas necesitan torches incluso al mediodía."
+    ],
+    "versions": "La regla de spawn a nivel de luz 0 se aplica en Java y Bedrock desde la 1.18. Los valores de las fuentes de luz son iguales en ambas ediciones.",
+    "editionNote": "El dato más útil de esta guía: un nivel de luz 1 en cualquier sitio detiene todos los spawns hostiles: no necesitas brillo, necesitas cobertura.",
+    "faq": [
+      {
+        "q": "¿A qué nivel de luz aparecen los mobs?",
+        "a": "Solo con luz de bloque 0, desde la actualización 1.18. Antes era 7 o menos, por eso las guías antiguas hablan de rejillas de torches cada 6 bloques: hoy cualquier luz impide los spawns."
+      },
+      {
+        "q": "¿Cómo veo los niveles de luz?",
+        "a": "Java: pulsa F3 y lee el valor de luz en tu posición. Bedrock: activa la superposición de nivel de luz en los ajustes de vídeo (o usa el debug estilo F3 en algunos dispositivos)."
+      },
+      {
+        "q": "¿Aparecen mobs en slabs y glass?",
+        "a": "Luz aparte, los mobs no pueden aparecer en bottom slabs, glass, leaves ni carpets: una forma barata de blindar esquinas oscuras sin iluminarlas."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-f3-debug-screen",
+      "how-to-reduce-lag",
+      "how-to-make-a-torch"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/es/items/"
+      }
+    ],
+    "slug": "minecraft-light-levels"
+  },
+  "best-enchantments-for-other-tools": {
+    "name": "Los mejores encantamientos para hoes, shears, shields y más",
+    "shortTitle": "Mejores encantos de otras herramientas",
+    "quickAnswer": "Las hoes aceptan Efficiency, Fortune o Silk Touch, Unbreaking y Mending. Las shears, shields, flint and steel, brushes y bastones de montar aceptan Unbreaking y Mending; las shears también Efficiency. La mayoría necesita un anvil y books en lugar de la enchanting table.",
+    "keywords": "mejores encantamientos hoe minecraft shears shield flint and steel brush encantar unbreaking mending anvil azada tijeras escudo",
+    "materials": [
+      "Un anvil más enchanted books (la mayoría de estas herramientas no usan la enchanting table)",
+      "Librarians o loot para los books de Mending y Unbreaking",
+      "Niveles de XP"
+    ],
+    "steps": [
+      "Hoe: Fortune III convierte romper leaves en una fábrica de saplings y sticks y aumenta los drops de cosechas; Silk Touch es la alternativa para bloques de leaves. Añade Efficiency V, Unbreaking III y Mending para la súper herramienta de sculk y leaves.",
+      "Nota de la hoe: es la herramienta más rápida para leaves, hay bales, sponges, moss y bloques de la familia sculk: encantar una vale la pena en el deep dark.",
+      "Shears: Unbreaking III y Mending las mantienen vivas en las granjas de wool; Efficiency V esquila wool y leaves más rápido. Efficiency entra en la mesa, el resto por anvil.",
+      "Shield: solo Unbreaking III y Mending, ambos por anvil: un shield con Mending se repara solo con XP mientras te salva la vida.",
+      "Flint and steel: Unbreaking III y Mending por anvil: sí, se puede, y un mechero de nivel netherite es curiosamente satisfactorio.",
+      "Brush: Unbreaking III y Mending por anvil: los brushes de arqueología se rompen rápido, así que encanta antes de la gran excavación.",
+      "Carrot on a stick y warped fungus on a stick: Unbreaking y Mending para montar pigs y striders: puro lujo.",
+      "Regla general: si una herramienta no acepta encantamientos de mesa, la vía del anvil con books sigue aplicando Unbreaking y Mending: nada duradero debería salir de tu base sin encantar."
+    ],
+    "versions": "Estas opciones de encantamiento son iguales en Java y Bedrock. La disponibilidad en mesa varía ligeramente por objeto; la vía del anvil funciona en todas partes.",
+    "editionNote": "La hoe es la joya oculta: es la herramienta más rápida para leaves y sculk del juego, y Fortune III en una hoe multiplica las cosechas de sweet berries y cultivos.",
+    "faq": [
+      {
+        "q": "¿Se puede encantar un shield?",
+        "a": "No en la enchanting table, pero un anvil con books aplica Unbreaking III y Mending a un shield, y desde luego deberías hacerlo."
+      },
+      {
+        "q": "¿Vale la pena Fortune en una hoe?",
+        "a": "Sí para granjeros y constructores: Fortune III aumenta los drops de leaves, sweet berry bushes y cultivos, y las hoes de Silk Touch recogen bloques de leaves directamente para setos."
+      },
+      {
+        "q": "¿Cuál es la herramienta más rápida para las leaves?",
+        "a": "La hoe, por diseño. Una hoe con Efficiency V despeja copas de leaves al instante, por eso los constructores de fin de juego llevan una."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-an-anvil",
+      "how-to-get-mending",
+      "best-shovel-enchantments"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Enchantments",
+        "url": "/es/enchantments/"
+      }
+    ],
+    "slug": "best-enchantments-for-other-tools"
   }
 }
