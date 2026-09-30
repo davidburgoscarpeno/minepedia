@@ -29465,7 +29465,7 @@
   "leatherworker-trades": {
     "name": "Intercambios del leatherworker en Minecraft: cada trato por nivel",
     "shortTitle": "Lista de tratos del leatherworker",
-    "quickAnswer": "Los leatherworkers compran leather (6), flint (26), rabbit hides (9) y turtle scutes (4) por emeralds, y venden piezas de leather armor (3-7 emeralds), leather horse armor (6) y - el famoso - saddles por 6 emeralds en nivel master. Dales un cauldron y no volverás a buscar una saddle en loot.",
+    "quickAnswer": "Los leatherworkers compran leather (6), flint (26), rabbit hides (9) y turtle scutes (4) por emeralds, y venden piezas de leather armor (3-7 emeralds), leather horse armor (6) y saddles por 6 emeralds en nivel master. Dales un cauldron y puedes saltarte el crafteo de la saddle por completo.",
     "keywords": "intercambios leatherworker minecraft lista cauldron saddle leather horse armor flint rabbit hide emerald peletero",
     "materials": [
       "Un cauldron y un villager desempleado",
@@ -29478,7 +29478,7 @@
       "Journeyman: compra 9 rabbit hides por 1 emerald; vende una leather tunic por 7 emeralds.",
       "Expert: compra 4 turtle scutes por 1 emerald; vende leather horse armor por 6 emeralds.",
       "Master: vende un leather cap por 5 emeralds y - el trato estrella - una saddle por 6 emeralds.",
-      "La mejor ruta de emeralds: una granja automática de cows produce leather de grifo, y cavar gravel con una shovel sin Fortune repone flint rápido.",
+      "El trato master de la saddle es la vía rápida: las saddles se craftean desde 1.21.6 (3 leather y 1 iron ingot), pero este trato se salta la receta y la búsqueda de materiales.",
       "El trato master de la saddle es la razón de ser de esta profesión: las saddles solo salen como loot, así que un leatherworker master las hace renovables.",
       "Sube al leatherworker con leather y flint, mantén el cauldron alcanzable, y cúralo para saddles y horse armor más baratas."
     ],
@@ -29487,7 +29487,7 @@
     "faq": [
       {
         "q": "¿Cómo le compro una saddle a un villager?",
-        "a": "Sube un leatherworker a master y compra una saddle por 6 emeralds. Es la única fuente renovable de saddles del juego aparte de la pesca y el loot."
+        "a": "Sube un leatherworker a master y compra una saddle por 6 emeralds. Las saddles también se craftean desde 1.21.6 (3 leather más 1 iron ingot), pero el trato es instantáneo una vez subido el villager."
       },
       {
         "q": "¿Qué estación de trabajo necesita un leatherworker?",
@@ -30175,7 +30175,7 @@
     "keywords": "como conseguir zombie horse minecraft zombie horseman spawn tamear saddle iron spear 26.3",
     "materials": [
       "Un arma y un shield para encargarte del zombie jinete con spear",
-      "Una saddle (cómprala a un leatherworker master por 6 emeralds, o encuéntrala en loot)",
+      "Una saddle (craftéala: 3 leather y 1 iron ingot; o cómprala a un leatherworker master por 6 emeralds)",
       "Opcional: horse armor para el hueco de armadura"
     ],
     "steps": [
@@ -30218,5 +30218,56 @@
       }
     ],
     "slug": "how-to-get-zombie-horse"
+  },
+  "how-to-get-skeleton-horse": {
+    "name": "Cómo conseguir un skeleton horse en Minecraft (skeleton trap)",
+    "shortTitle": "Conseguir un skeleton horse",
+    "quickAnswer": "Los skeleton horses vienen de las skeleton traps: durante las tormentas, una pequeña fracción de los rayos naturales genera un caballo trampa solitario. Acércate a 10 bloques y un rayo lo convierte en cuatro skeleton horsemen: skeletons con bows y helmets encantados sobre skeleton horses. Mata a los jinetes y los caballos son tuyos: ya están tameados, respiran bajo el agua y reciben la mitad de daño de caída.",
+    "keywords": "como conseguir skeleton horse minecraft skeleton trap horseman tormenta rayo tamear spawn caballo esqueleto",
+    "materials": [
+      "Una tormenta (y paciencia para esperarla)",
+      "Un shield y un buen arma para cuatro skeletons a la vez",
+      "Una saddle (craftea 3 leather y 1 iron ingot) para llevarte uno a casa"
+    ],
+    "steps": [
+      "Espera una tormenta: los skeleton trap horses solo spawnean de rayos naturales durante tormentas, en cualquier bioma donde pueda llover.",
+      "Las probabilidades: cada rayo natural tiene un 0,75-6,75% de probabilidad de generar un trap horse, escalando con la dificultad y la dificultad regional (máximo en Hard).",
+      "Channeling no funciona: los rayos de un trident con Channeling o dirigidos a un lightning rod nunca generan una trampa: tiene que ser un rayo natural de tormenta.",
+      "Reconoce la trampa: un único skeleton horse sin jinete, extrañamente quieto en campo abierto. Date prisa: una trampa sin activar desaparece a los 15 minutos, aunque tenga nombre.",
+      "Actívala: acércate a 10 bloques. Un rayo (inofensivo, sin fuego) convierte el caballo en un skeleton horseman y genera tres más cerca: cuatro jinetes en total.",
+      "Los jinetes: skeletons normales (nunca strays) con bows encantados e iron helmets encantados, a veces con armadura extra. Su equipo encantado puede caer al morir.",
+      "Pelea con cabeza: levanta un shield, usa el terreno para cortar la línea de visión y elimina a los skeletons de uno en uno. No golpees a los caballos: son el premio.",
+      "Reclama tus caballos: con los jinetes muertos, los skeleton horses se vuelven totalmente pasivos: y ya están tameados, sin derribos. Pon la saddle y sal cabalgando.",
+      "Ventajas: los skeleton horses respiran bajo el agua, se hunden en vez de flotar (¡galopa por el fondo del mar!), regeneran vida, reciben la mitad de daño de caída y aguantan caídas de 6 bloques.",
+      "Límites: los skeleton horses no pueden criar, los bebés nunca spawnean de forma natural, y los adultos sin tamear atraen baby zombie jockeys (el 15% de los baby zombies, husks, zombie villagers o drowned cercanos se suben)."
+    ],
+    "versions": "Las skeleton traps funcionan igual en Java y Bedrock; las probabilidades escalan con la dificultad en ambas. Verificado con minecraft.wiki a 26.x.",
+    "editionNote": "Tormenta más un caballo esquelético solitario en un campo: acércate, aguanta cuatro flechas, y vuelve a casa en una montura undead que galopa por el fondo del océano.",
+    "faq": [
+      {
+        "q": "¿Cómo spawnean los skeleton horses en Minecraft?",
+        "a": "De las skeleton traps: un pequeño porcentaje de los rayos naturales de las tormentas (0,75-6,75% según la dificultad) genera un trap horse. Acercarse a 10 bloques lo activa en cuatro skeleton horsemen."
+      },
+      {
+        "q": "¿Puedo crear una skeleton trap con un trident con Channeling?",
+        "a": "No: los rayos de los tridents con Channeling y los lightning rods nunca generan una skeleton trap. Solo cuentan los rayos naturales de tormenta."
+      },
+      {
+        "q": "¿Hay que tamear un skeleton horse?",
+        "a": "No: los skeleton horses de una trampa activada ya están tameados. Mata a los skeletons jinetes, pon una saddle al caballo y móntalo inmediatamente."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-zombie-horse",
+      "how-to-tame-a-horse",
+      "how-to-get-saddle"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/es/mobs/"
+      }
+    ],
+    "slug": "how-to-get-skeleton-horse"
   }
 }
