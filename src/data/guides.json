@@ -29588,5 +29588,275 @@
         "url": "/mods/"
       }
     ]
+  },
+  {
+    "slug": "how-to-survive-your-first-night",
+    "name": "How to Survive Your First Night in Minecraft (Beginner Guide)",
+    "shortTitle": "Survive the First Night",
+    "quickAnswer": "Your first day in 10 steps: punch trees for 20+ logs, make planks, a crafting table and wooden tools, upgrade to stone tools, dig a small shelter or build 4 walls before sunset, place torches and a door, and wait out the night. A bed skips it entirely if you find 3 wool.",
+    "keywords": "how to survive first night minecraft beginner guide first day what to do shelter bed torches",
+    "materials": [
+      "20+ logs from trees (day one priority)",
+      "8 cobblestone for a furnace",
+      "3 wool for a bed if you find sheep",
+      "A door and torches before dark"
+    ],
+    "steps": [
+      "Punch a tree: hold left-click on the trunk until it drops. Collect 20 or more logs - everything else follows from wood.",
+      "Open your inventory, turn logs into planks, then planks into a crafting table. Place it down.",
+      "Craft a wooden pickaxe, mine 11 stone, and upgrade immediately: stone pickaxe, axe and sword beat wooden ones.",
+      "Build a furnace from 8 cobblestone. Use it later for charcoal if you find no coal.",
+      "Watch the sun: you have about 10 minutes of daylight. By mid-afternoon you need a shelter plan.",
+      "Shelter options: dig into a hillside, bury yourself in a 1x1 hole with a torch, or build a tiny 5x5 hut. All equally valid on day one.",
+      "Light it: torches (coal or charcoal + sticks) inside and around the entrance. Monsters spawn in darkness.",
+      "Make a door (6 planks) - zombies can break wooden doors only on Hard, and a closed door stops everything else.",
+      "Found 3 sheep? Craft a bed (3 wool + 3 planks) and sleep - the night skips in seconds and your spawn point is set.",
+      "No bed? Wait inside. The night lasts about 7 minutes. Use the time to organize chests, cook food and plan the mine."
+    ],
+    "versions": "Day-night basics are unchanged in every version: 10 minutes of day, 10 of night, and monsters at light level 0.",
+    "editionNote": "Identical on Java and Bedrock. Controls differ by device, but the survival checklist is the same everywhere.",
+    "faq": [
+      {
+        "q": "What kills most beginners on night one?",
+        "a": "Going out in the dark. Zombies, skeletons, spiders and creepers spawn anywhere with light level 0 - stay in your lit shelter until sunrise."
+      },
+      {
+        "q": "Do creepers burn in sunlight?",
+        "a": "No - only zombies and skeletons burn. Creepers and spiders survive the day, so stay careful in the morning too."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-build-a-house",
+      "how-to-make-a-bed",
+      "how-to-make-a-crafting-table"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guides",
+        "url": "/guides/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-install-forge",
+    "name": "How to Install Forge (Java Mod Loader)",
+    "shortTitle": "Install Forge",
+    "quickAnswer": "Download the Forge installer free from files.minecraftforge.net, run it and install the client - a Forge profile appears in the launcher. Drop your mods into .minecraft/mods and play. Forge and NeoForge mods must match your exact Minecraft version.",
+    "keywords": "how to install forge minecraft java mod loader files.minecraftforge.net mods folder neoforge",
+    "materials": [
+      "Minecraft Java Edition",
+      "The free Forge installer from files.minecraftforge.net",
+      "Forge mods matching your Minecraft version"
+    ],
+    "steps": [
+      "Launch your target Minecraft version once in the official launcher - Forge can only install over versions that exist on your PC.",
+      "Download the installer from files.minecraftforge.net - free, and the only official source. Pick the version matching your game.",
+      "Run the downloaded .jar and choose Install client. It creates a Forge profile in the launcher.",
+      "Download your Forge mods from CurseForge or Modrinth - check each mod lists Forge (or NeoForge) and your exact game version.",
+      "Put the mod .jar files into .minecraft/mods. Launch once to generate the folder if it is missing.",
+      "Select the Forge profile and play. The Mods button on the title screen shows what loaded.",
+      "Crashes at startup almost always mean a version mismatch: mod for 1.20.1 does not run on 1.21. Remove the newest mod and re-check.",
+      "Newer mods may target NeoForge instead - the installer works the same way, from neoforged.net."
+    ],
+    "versions": "Forge publishes builds for every Minecraft release, though big content mods sometimes lag a version behind. NeoForge is the modern fork many mods moved to after 1.20.2.",
+    "editionNote": "Java Edition only. Bedrock does not support Forge or mods - it uses add-ons.",
+    "faq": [
+      {
+        "q": "Is Forge free?",
+        "a": "Yes - Forge is free from files.minecraftforge.net. Sites charging for installers or modpacks are scams."
+      },
+      {
+        "q": "Forge or Fabric?",
+        "a": "Forge/NeoForge host the big content mods (Create, Twilight Forest); Fabric is lighter and faster to update. Many players install both profiles and pick per modpack."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-install-mods",
+      "how-to-install-fabric",
+      "how-to-backup-your-world"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mods",
+        "url": "/mods/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-mine-efficiently",
+    "name": "How to Mine Efficiently in Minecraft (Branch Mining and Cave Mining)",
+    "shortTitle": "Mine Efficiently",
+    "quickAnswer": "For diamonds, branch mine at Y=-59: a main tunnel with side branches every 2 blocks exposes the most ore per pickaxe. For everything else, explore big caves - faster and free, just more dangerous.",
+    "keywords": "how to mine efficiently minecraft branch mining strip mining best y level diamonds cave mining spacing",
+    "materials": [
+      "An iron pickaxe or better (diamonds need iron+)",
+      "Torches, food, a water bucket",
+      "F3 to check your Y level (Java)"
+    ],
+    "steps": [
+      "Know your levels: diamonds peak around Y=-59 (bedrock floor), iron at Y=16 and in mountains, gold low in badlands, coal high in the world.",
+      "Branch mining: dig a main tunnel at Y=-59, then side branches every 2 blocks (one solid block between tunnels). You see every ore while breaking the fewest blocks.",
+      "Never dig straight down - stand between two blocks and mine one at a time so you never fall into lava or a cave.",
+      "Cave mining: the huge deep caves below Y=0 expose tons of ore for free. Bring torches, a shield and food - it is faster but riskier than tunnels.",
+      "Lava rule at diamond level: lava lakes sit at Y=-54 and below. Digging at Y=-59 keeps your head above most of it - pour your water bucket before stepping forward.",
+      "Enchant your pickaxe: Fortune III triples diamond drops; Efficiency V with haste chews through stone; Unbreaking III saves diamonds on repairs.",
+      "Inventory discipline: drop cobblestone as you go, keep one slot for torches, and return when food runs low - dying with 20 diamonds is the real cost."
+    ],
+    "versions": "Ore distribution has been stable since 1.18: diamonds deepest, and the Y=-59 sweet spot holds in all current versions.",
+    "editionNote": "Identical ore levels on Java and Bedrock. Only the debug screen (F3) differs - Bedrock shows coordinates in world settings.",
+    "faq": [
+      {
+        "q": "Is strip mining or cave mining better?",
+        "a": "Cave mining finds more ore per minute; branch mining finds more per pickaxe and is far safer. Do caves early game, branch mine when geared."
+      },
+      {
+        "q": "Why mine at Y=-59 and not lower?",
+        "a": "Below that you hit the bedrock floor and constant lava. Y=-59 keeps you at peak diamond density with a floor to stand on."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-diamonds",
+      "how-to-get-fortune",
+      "how-to-show-coordinates"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Items",
+        "url": "/items/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-get-infinite-water",
+    "name": "How to Make an Infinite Water Source in Minecraft",
+    "shortTitle": "Infinite Water",
+    "quickAnswer": "Dig a 2x2 hole one block deep, place water in two opposite corners - the other two spots become sources too, and you can bucket water out forever. A 3x1 trench with water at both ends works the same.",
+    "keywords": "how to make infinite water source minecraft 2x2 water spring bucket farm hydration",
+    "materials": [
+      "A bucket",
+      "2 water buckets' worth of water (from any lake or river)",
+      "A shovel to dig the hole"
+    ],
+    "steps": [
+      "Craft a bucket (3 iron) and fill it twice at any lake, river or ocean.",
+      "Dig a 2x2 hole, one block deep.",
+      "Place one water source in a corner, and the second in the opposite corner.",
+      "The four spots are now all source blocks - the 2x2 regenerates instantly when you take water out.",
+      "Take water with an empty bucket from any of the four spots, forever. Never run dry again.",
+      "Small version: a 3x1 trench with sources at both ends also regenerates - the middle block is always a source.",
+      "Use it for farms (crops hydrate 4 blocks from water), cauldrons, bubble elevators and obsidian making."
+    ],
+    "versions": "The 2x2 infinite spring has worked since the earliest versions and is unchanged today.",
+    "editionNote": "Works identically on Java and Bedrock.",
+    "faq": [
+      {
+        "q": "Why does my water disappear when I take it?",
+        "a": "You placed only one source or broke the 2x2 shape. With two sources in opposite corners, all four blocks are permanent sources."
+      },
+      {
+        "q": "Can I move my infinite spring?",
+        "a": "Sources cannot be picked up as blocks - build the 2x2 where you need it. It takes seconds to recreate anywhere."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-make-a-bucket",
+      "how-to-make-a-water-elevator",
+      "how-to-get-obsidian"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Farms",
+        "url": "/farms/"
+      }
+    ]
+  },
+  {
+    "slug": "things-to-do-in-minecraft",
+    "name": "25 Things to Do in Minecraft When You're Bored",
+    "shortTitle": "Things to Do",
+    "quickAnswer": "Bored in Minecraft? Beat the Ender Dragon and the Wither, build a mega-base, start a redstone project, complete all advancements, raid an ancient city, collect every music disc, build a villager trading hall, or start a hardcore world - this list has 25 ideas with links.",
+    "keywords": "things to do in minecraft when bored ideas goals challenges what to do after beating the game",
+    "materials": [
+      "Your world - every idea here works in vanilla",
+      "No mods or purchases needed"
+    ],
+    "steps": [
+      "Boss goals: beat the Ender Dragon, respawn it for the gateways, defeat the Wither and power a full beacon pyramid.",
+      "Exploration: find every biome, raid an ancient city, conquer trial chambers, locate a woodland mansion and loot an ocean monument.",
+      "Collection: all 126 advancements, every music disc, one of each armor trim, a full mob museum with name tags.",
+      "Building: a mega-base with a theme, a working town with villager houses, a castle with a moat, an automatic farm district.",
+      "Redstone: a hidden piston door, an item sorter for your storage room, a flying machine, a super smelter.",
+      "Farming: an iron farm, a gold farm on the Nether roof, a raid farm, an XP farm - materials stop being a problem forever.",
+      "Nether projects: link all your bases with a portal hub, pave a blue-ice boat highway, build on the Nether roof (Java).",
+      "Challenges: hardcore mode, a superflat survival, one-chunk challenge, or a speedrun against your own best time.",
+      "Community: join a server with friends, start a Realm, or visit the big public servers for minigames.",
+      "Creative break: recreate your house from real life, build a famous landmark, or design your dream base in a creative world first."
+    ],
+    "versions": "Every idea works in current versions. A few (Nether roof access) are Java-specific - noted where it matters.",
+    "editionNote": "Nearly everything works on both editions; server minigames lean Java or Bedrock depending on the network.",
+    "faq": [
+      {
+        "q": "I beat the dragon - is the game over?",
+        "a": "That is the tutorial ending, not the end. The Wither, full beacons, ancient cities, trial chambers and every farm and build project are still ahead of you."
+      },
+      {
+        "q": "What do most players do long-term?",
+        "a": "Big builds and automation: a base you are proud of plus farms that print resources. Add friends on a server and it never gets old."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-beat-the-ender-dragon",
+      "how-to-make-a-raid-farm",
+      "how-to-play-hardcore"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Advancements",
+        "url": "/advancements/"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-play-minecraft-for-free",
+    "name": "How to Play Minecraft for Free (Official Ways Only)",
+    "shortTitle": "Play for Free",
+    "quickAnswer": "Official free options: the Minecraft free trial on minecraft.net (Java demo and Bedrock trial), and Minecraft Classic free in your browser at classic.minecraft.net. Everything else claiming 'free Minecraft' is piracy or a scam.",
+    "keywords": "how to play minecraft for free official trial demo minecraft classic browser free no download",
+    "materials": [
+      "A browser for Minecraft Classic",
+      "The official launcher for the Java demo",
+      "No payment - these are Mojang's own free options"
+    ],
+    "steps": [
+      "Java demo: download the official launcher from minecraft.net, log in and choose Play Demo - you get about 100 minutes of full survival free.",
+      "Bedrock trial: Android and some consoles offer a free trial version from their stores - a limited-time full game.",
+      "Minecraft Classic: classic.minecraft.net runs the 2009 creative version free in your browser, no download or account - invite up to 9 friends with a link.",
+      "Education trials: Minecraft Education offers a free trial for school accounts - only if your school uses it.",
+      "What is NOT free: the full game, Realms, and the Marketplace. Sites offering 'free Minecraft accounts' or cracked launchers are piracy and often malware.",
+      "If you like the trial, the full game is a one-time purchase on minecraft.net - Java and Bedrock come together on PC."
+    ],
+    "versions": "Minecraft Classic is the 2009 build, frozen forever. The demos and trials always run the current version.",
+    "editionNote": "Java demo on PC; Bedrock trials on Android and consoles; Classic in any browser. All official and free.",
+    "faq": [
+      {
+        "q": "Is Minecraft Classic the real game?",
+        "a": "It is the original 2009 creative mode - 32 blocks, no survival, no mobs. Fun nostalgia and genuinely free, but not the modern game."
+      },
+      {
+        "q": "Are 'free Minecraft' sites safe?",
+        "a": "No. Cracked launchers and account generators are piracy and a top malware vector. The only safe free options are Mojang's own trial, demo and Classic."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-update-minecraft",
+      "how-to-play-with-friends",
+      "how-to-install-mods"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Versions",
+        "url": "/versions/"
+      }
+    ]
   }
 ]
