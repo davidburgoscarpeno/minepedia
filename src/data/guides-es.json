@@ -30766,5 +30766,160 @@
       }
     ],
     "slug": "how-to-find-swamp"
+  },
+  "how-to-make-awkward-potion": {
+    "name": "Cómo hacer una awkward potion en Minecraft",
+    "shortTitle": "Awkward potion",
+    "quickAnswer": "Destila una awkward potion añadiendo nether wart a una water bottle en el brewing stand. No tiene ningún efecto por sí sola, pero es la base de casi todas las pociones de efecto del juego.",
+    "steps": [
+      "Fabrica un brewing stand con 1 blaze rod y 3 cobblestone, y cárgalo con blaze powder.",
+      "Fabrica glass bottles con 3 glass y llénalas de agua en cualquier fuente de agua o cauldron.",
+      "Consigue nether wart: crece en las salas de escaleras de las nether fortresses y en las viviendas de los bastion remnants.",
+      "Coloca hasta 3 water bottles en las ranuras inferiores del brewing stand.",
+      "Pon 1 nether wart en la ranura de ingrediente de arriba.",
+      "Espera 20 segundos. Las water bottles se convierten en awkward potions.",
+      "Deja las awkward potions en el stand y añade un ingrediente de efecto (como una golden carrot para Night Vision o un magma cream para Fire Resistance) para destilar una poción de verdad."
+    ],
+    "materials": [
+      "Brewing stand + blaze powder de combustible",
+      "1-3 water bottles (3 glass cada una, llenas de agua)",
+      "1 nether wart por tanda"
+    ],
+    "editionNote": "En Java Edition la awkward potion es la única poción base que acepta un ingrediente de efecto, así que destilar nether wart primero es obligatorio para todo excepto la poción de Weakness. En Bedrock Edition, las mundane y thick potions también admiten ingredientes de efecto, pero la ruta del nether wart sigue siendo la estándar. La receta es idéntica en ambas ediciones.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Qué hace una awkward potion?",
+        "a": "Nada por sí sola. Beberla no da ningún efecto. Su única función es servir de base para destilar pociones de efecto como Swiftness, Strength o Night Vision."
+      },
+      {
+        "q": "¿Dónde encuentro nether wart?",
+        "a": "El nether wart crece sobre soul sand en las escaleras de las nether fortresses y en las viviendas de los bastion remnants. Llévate también el soul sand para cultivarlo en casa; crece en cualquier dimensión."
+      },
+      {
+        "q": "¿Qué poción no necesita una awkward potion?",
+        "a": "La poción de Weakness es la única: se destila añadiendo un fermented spider eye directamente a una water bottle, sin paso de nether wart."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-a-brewing-stand/",
+        "label": "Cómo hacer un brewing stand"
+      },
+      {
+        "url": "/es/guides/how-to-make-potion-of-weakness/",
+        "label": "Cómo hacer una poción de Weakness"
+      },
+      {
+        "url": "/es/guides/how-to-make-potion-of-strength/",
+        "label": "Cómo hacer una poción de Strength"
+      }
+    ],
+    "slug": "how-to-make-awkward-potion"
+  },
+  "how-to-make-potion-of-luck": {
+    "name": "Cómo conseguir una poción de Luck en Minecraft",
+    "shortTitle": "Poción de Luck",
+    "quickAnswer": "La poción de Luck solo existe en Java Edition y no tiene receta de destilación: solo se consigue en el inventario de Creative o con comandos. Mejora tu suerte al pescar durante 5 minutos.",
+    "steps": [
+      "Abre un mundo de Java Edition con los trucos activados, o cambia a modo Creative.",
+      "En Creative, busca 'luck' en el inventario y coge la poción de Luck (también están las versiones splash y lingering).",
+      "Con comandos, usa /give @s minecraft:potion[minecraft:potion_contents={potion:\"minecraft:luck\"}] para la versión bebible.",
+      "Bébetela para obtener el efecto Luck durante 5 minutos.",
+      "Pesca mientras dure el efecto: Luck aumenta el peso del botín de tesoro y reduce la basura, así que pescarás más name tags, libros encantados y saddles.",
+      "Para probar Luck en survival de forma legítima, consigue el efecto Hero of the Village y quédate cerca de un fletcher: puede regalarte arrows of Luck."
+    ],
+    "materials": [
+      "Java Edition (la poción no existe en Bedrock)",
+      "Trucos activados o modo Creative",
+      "Una fishing rod para aprovechar el efecto"
+    ],
+    "editionNote": "La poción de Luck es exclusiva de Java Edition y no se puede destilar ni conseguir en Survival: Mojang la mantuvo para los creadores de mapas tras plantearse quitarla en la 1.9. En Bedrock Edition no existe en absoluto. La única vía survival de tocar el efecto es la arrow of Luck que te regalan los fletchers mientras tienes Hero of the Village (también solo en Java).",
+    "versions": [
+      "java"
+    ],
+    "faq": [
+      {
+        "q": "¿Se puede destilar una poción de Luck?",
+        "a": "No. No hay receta de destilación en ninguna versión. En Java Edition solo sale del inventario de Creative o de comandos; en Bedrock no existe."
+      },
+      {
+        "q": "¿Qué hace exactamente el efecto Luck?",
+        "a": "Luck mejora las loot tables que usan calidad, y ahora mismo eso solo significa pesca: sube la probabilidad de capturas de tesoro y baja la de basura. No afecta a los drops de mobs ni al botín de cofres."
+      },
+      {
+        "q": "¿Cuánto dura la poción de Luck?",
+        "a": "Las versiones bebible y splash duran 5 minutos, la lingering potion 1 minuto y 15 segundos, y las arrows of Luck 37 segundos."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-awkward-potion/",
+        "label": "Cómo hacer una awkward potion"
+      },
+      {
+        "url": "/es/guides/how-to-make-splash-potion/",
+        "label": "Cómo hacer una splash potion"
+      },
+      {
+        "url": "/es/guides/how-to-make-lingering-potions/",
+        "label": "Cómo hacer lingering potions"
+      }
+    ],
+    "slug": "how-to-make-potion-of-luck"
+  },
+  "how-to-make-potion-of-decay": {
+    "name": "Cómo conseguir una poción de Decay en Minecraft",
+    "shortTitle": "Poción de Decay",
+    "quickAnswer": "La poción de Decay es exclusiva de Bedrock Edition y no se puede destilar: consíguela en el inventario de Creative o con comandos. Inflige Wither II durante 40 segundos, capaz de matar a lo que toque.",
+    "steps": [
+      "Abre un mundo de Bedrock Edition (móvil, consola o Windows) con los trucos activados, o cambia a modo Creative.",
+      "En Creative, busca 'decay' en el inventario: encontrarás la poción, la splash potion, la lingering potion y la arrow of Decay.",
+      "Con comandos, usa /give @s potion 1 44 o el equivalente de tu versión para conseguir la poción de Decay bebible.",
+      "Bébetela o lánzala para aplicar Wither II durante 40 segundos (10 segundos con la nube lingering).",
+      "Usa splash potions of Decay contra mobs duros: a diferencia del Poison, el Wither puede matar a su objetivo y también daña a los mobs no-muertos.",
+      "En Survival, la opción legal más cercana es el propio efecto Wither: lucha contra el wither, toca una wither rose o come suspicious stew hecho con una wither rose."
+    ],
+    "materials": [
+      "Bedrock Edition (la poción no existe en Java)",
+      "Trucos activados o modo Creative",
+      "Un objetivo que merezca un Wither II"
+    ],
+    "editionNote": "Las pociones de Decay son exclusivas de Bedrock Edition: existen en el inventario de Creative pero no tienen receta de destilación y no se pueden conseguir en Survival. Java Edition no tiene poción de Decay de ninguna forma. El efecto Wither que aplican es más fuerte que el Poison en dos cosas: puede matar a la víctima (el Poison siempre te deja a medio corazón) y daña a los mobs no-muertos como zombies y esqueletos.",
+    "versions": [
+      "bedrock"
+    ],
+    "faq": [
+      {
+        "q": "¿Se puede destilar una poción de Decay?",
+        "a": "No. Ni siquiera en Bedrock Edition hay receta de destilación. Solo existe en el inventario de Creative o mediante comandos, y Java Edition no la tiene en ninguna forma."
+      },
+      {
+        "q": "¿Qué diferencia hay entre Wither y Poison?",
+        "a": "Wither actúa más lento por tick pero puede bajarte a cero corazones y matarte, mientras que el Poison siempre se detiene a medio corazón. Además, el Wither funciona contra mobs no-muertos, a los que el Poison no puede dañar."
+      },
+      {
+        "q": "¿Cuánto dura la poción de Decay?",
+        "a": "Tanto la versión bebible como la splash aplican Wither II durante 40 segundos. La nube de la lingering potion lo aplica durante 10 segundos, suficiente para acabar con la mayoría de los mobs."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "url": "/es/guides/how-to-make-awkward-potion/",
+        "label": "Cómo hacer una awkward potion"
+      },
+      {
+        "url": "/es/guides/how-to-make-splash-potion/",
+        "label": "Cómo hacer una splash potion"
+      },
+      {
+        "url": "/es/guides/how-to-get-wither-rose/",
+        "label": "Cómo conseguir una wither rose"
+      }
+    ],
+    "slug": "how-to-make-potion-of-decay"
   }
 }
