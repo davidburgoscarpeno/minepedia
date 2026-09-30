@@ -10665,7 +10665,7 @@
       "Encuentra o cría villagers y coloca un job site block junto a uno sin oficio: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, etc.",
       "Mira las ofertas (clic derecho). ¿No te gustan? Rompe el bloque de trabajo y vuelve a colocarlo: las ofertas cambian, pero SOLO si nunca has comerciado con ese villager.",
       "Comercia con emeralds y mercancías. Cada trato te da 3-6 de XP y llena la barra del villager; al llenarse sube de nivel: novice (insignia de stone), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
-      "Al subir de nivel se desbloquean tratos nuevos: los librarians master venden name tags, los armorers venden equipo de diamond y los mejores libros encantados están en los niveles altos.",
+      "Al subir de nivel se desbloquean tratos nuevos: los librarians master venden candles, los armorers venden equipo de diamond y los mejores libros encantados están en los niveles altos.",
       "Los villagers reponen existencias hasta dos veces al día si pueden llegar a su job site block (en Bedrock además necesitan estar vinculados a una bed).",
       "Para descuentos permanentes, cura a un zombie villager junto a tu sala de comercio; desde la 1.20.2 el gran descuento solo aplica a la primera cura. El efecto Hero of the Village de una raid también baja los precios."
     ],
@@ -22486,7 +22486,7 @@
     "shortTitle": "Usar una name tag",
     "quickAnswer": "Renombra primero la name tag en un anvil (1 nivel de experiencia renombra un stack entero) y luego úsala sobre un mob. Los mobs con nombre nunca desaparecen y muestran su nombre sobre la cabeza; y nombres secretos como Dinnerbone, jeb_, Toast y Johnny activan easter eggs ocultos.",
     "steps": [
-      "Consigue una name tag: no se pueden craftear. Encuéntrala como loot de cofres, pescándola como tesoro o comerciando con un librarian master: nuestra guía de name tags cubre todas las fuentes.",
+      "Consigue una name tag: craftéala con 1 paper y 1 nugget de cualquier tipo (26.1+), encuéntrala como loot de cofres o pescándola como tesoro: nuestra guía de name tags cubre todas las fuentes.",
       "Coloca un anvil y pon la name tag en el primer hueco.",
       "Escribe el nombre (hasta 50 caracteres en Java, 30 en Bedrock). Renombrar cuesta 1 nivel de experiencia, y ese único nivel renombra un stack entero de hasta 64 tags a la vez.",
       "Coge la tag renombrada y úsala sobre un mob (clic derecho o interactuar). El nombre aparece flotando sobre su cabeza.",
@@ -27895,7 +27895,7 @@
       "Fisherman (barrel): compra string, coal y pescado crudo, vende pescado cocinado, campfires y fishing rods.",
       "Fletcher (fletching table): compra sticks, string y feathers, vende arrows, bows y crossbows: 32 sticks por una emerald es la clásica granja de emeralds.",
       "Leatherworker (cauldron): compra leather, vende armadura de leather, item frames y saddles.",
-      "Librarian (lectern): compra paper y books, vende bookshelves, name tags, lanterns y todos los enchanted books del juego, incluido Mending: la profesión más valiosa.",
+      "Librarian (lectern): compra paper y books, vende bookshelves, lanterns, glass, candles y todos los enchanted books del juego, incluido Mending: la profesión más valiosa.",
       "Mason (stonecutter): compra clay, stone y quartz, vende bricks, terracotta y bloques de quartz.",
       "Shepherd (loom): compra wool y dyes, vende wool, carpets, camas, banners y paintings.",
       "Toolsmith (smithing table): compra coal e iron, vende axes, pickaxes, shovels, hoes y bells: herramientas de diamond en niveles altos.",
@@ -28966,5 +28966,105 @@
       }
     ],
     "slug": "best-enchantments-for-other-tools"
+  },
+  "librarian-trades": {
+    "name": "Intercambios del librarian en Minecraft: cada trato por nivel",
+    "shortTitle": "Lista de tratos del librarian",
+    "quickAnswer": "Los librarians compran paper, books, ink sacs y book and quills, y venden bookshelves, lanterns, glass, compasses, clocks, candles y -la razón por la que todos quieren uno- enchanted books en todos los niveles. Mending cuesta 10-38 emeralds; los librarians master venden candles desde la actualización 26.1, que eliminó el viejo trato de name tags.",
+    "keywords": "intercambios librarian minecraft lista cada trato mending enchanted book precio candle master novice apprentice bibliotecario",
+    "materials": [
+      "Una lectern y un villager desempleado",
+      "Paper, books y emeralds para subir de nivel",
+      "Un montaje de curación de zombie villager para los descuentos"
+    ],
+    "steps": [
+      "Novice: compra 24 paper por 1 emerald; vende una bookshelf por 9 emeralds, y ofrece un enchanted book por 5-64 emeralds más un book: este primer book es el que rebarajas rompiendo la lectern.",
+      "Apprentice: compra 4 books por 1 emerald; vende una lantern por 1 emerald; segunda oferta de enchanted book.",
+      "Journeyman: compra 5 ink sacs por 1 emerald; vende 4 glass por 1 emerald; tercera oferta de enchanted book.",
+      "Expert: compra book and quills por emeralds; vende un compass por 4 emeralds y un clock por 5 emeralds; cuarta oferta de enchanted book.",
+      "Master: vende candles de colores por 3 emeralds: la actualización 26.1 sustituyó el viejo trato de name tags por candles.",
+      "Precios de enchanted books: los books de nivel I cuestan 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64; los encantamientos tesoro (Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst) cuestan el doble, con tope en 64: así que Mending cae entre 10 y 38.",
+      "Disciplina de rebarajado: nunca comercies antes de que aparezca el book que quieres: el primer intercambio fija las ofertas del librarian para siempre.",
+      "Descuentos por curación: un librarian zombi curado rebaja los precios, hasta 1 emerald incluso por books tesoro: el Mending más barato del juego.",
+      "Reposición: los librarians reabastecen dos veces al día en su lectern: mantenla colocada y alcanzable o los intercambios quedan bloqueados."
+    ],
+    "versions": "La lista de tratos coincide en Java y Bedrock con pequeñas diferencias de probabilidad por oferta. El trato master de candles y la eliminación de las name tags llegaron en la 26.1 en ambas ediciones.",
+    "editionNote": "En versiones anteriores a la 26.1, los librarians master vendían name tags por 20 emeralds; ahora las name tags salen de crafteo (1 paper + 1 nugget), loot, pesca y wandering traders.",
+    "faq": [
+      {
+        "q": "¿Cuánto cuesta Mending en un librarian?",
+        "a": "Mending es un book tesoro, así que su precio se duplica: entre 10 y 38 emeralds más un book. Cura al librarian y puede bajar a 1 emerald."
+      },
+      {
+        "q": "¿Los librarians siguen vendiendo name tags?",
+        "a": "No: la actualización 26.1 eliminó el trato de name tags y los librarians master ahora venden candles. Craftea name tags con 1 paper y 1 nugget, o encuéntralas como loot y tesoro de pesca."
+      },
+      {
+        "q": "¿Cómo consigo un enchanted book concreto?",
+        "a": "Coloca una lectern a un villager desempleado, mira la oferta de book de novice, y rompe y recoloca la lectern hasta que aparezca el book: luego fíjalo con un intercambio y no lo pierdas nunca."
+      }
+    ],
+    "relatedGuides": [
+      "minecraft-villager-jobs",
+      "best-villager-trades",
+      "how-to-get-mending"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/es/mobs/"
+      }
+    ],
+    "slug": "librarian-trades"
+  },
+  "minecraft-anvil-too-expensive": {
+    "name": "Por qué tu anvil dice 'Too Expensive' en Minecraft (y cómo arreglarlo)",
+    "shortTitle": "Arregla el 'Too Expensive' del anvil",
+    "quickAnswer": "Cada vez que un objeto pasa por un anvil, su penalización de trabajo previo se duplica aproximadamente: 1, 3, 7, 15, 31 niveles extra. Cuando el coste total supera los 39 niveles, el anvil de survival se niega con un 'Too Expensive'. Arréglalo combinando books primero, aplicando los books más caros antes, o limpiando el objeto en un grindstone y empezando de nuevo.",
+    "keywords": "too expensive minecraft anvil arreglar penalización trabajo previo 39 niveles combinar books orden grindstone yunque demasiado caro",
+    "materials": [
+      "Un anvil y un grindstone",
+      "Enchanted books, idealmente combinados antes de tocar la herramienta",
+      "40 niveles de XP para el máximo legal"
+    ],
+    "steps": [
+      "La causa: cada operación de anvil añade una penalización oculta de 'trabajo previo' al objeto: se duplica aproximadamente cada vez (1, 3, 7, 15, 31 niveles), así que cinco pasos por el anvil ya cuestan +31 en cada trabajo posterior.",
+      "El tope: los anvils de survival rechazan cualquier operación que cueste 40 niveles o más y muestran 'Too Expensive'. El modo creativo ignora el tope.",
+      "Prevención 1 - combina books con books primero: fusiona enchanted books entre sí (llevan su propia penalización, más barata) y luego aplica el book combinado a una herramienta nueva en el menor número de operaciones posible.",
+      "Prevención 2 - lo caro primero: aplica los books de mayor nivel y valor al principio, cuando las penalizaciones son bajas; deja los books baratos y el renombrado para el final.",
+      "Prevención 3 - nunca renombres pronto: renombrar cuenta como uso de anvil y suma a la penalización: pon nombre a tu equipo después de los encantamientos, o no lo renombres.",
+      "Prevención 4 - la enchanting table primero: consigue todos los encantamientos posibles de la propia mesa, y añade por anvil solo lo que falte.",
+      "El arreglo para un objeto bloqueado: pásalo por el grindstone para borrar todos los encantamientos (recuperas algo de XP), reencanta desde cero en el orden correcto: duele, pero es más barato que un pico perfecto muerto.",
+      "Mending salva el día: una herramienta con Mending nunca necesita reemplazo, así que planifica el orden de encantado una vez, págalo una vez y repara con XP para siempre.",
+      "Nota de crossbow y bow: los encantamientos incompatibles (Multishot/Piercing, Infinity/Mending) también bloquean el anvil, pero con 'no se puede combinar', no con 'Too Expensive'."
+    ],
+    "versions": "El tope de 39 niveles y la penalización de trabajo previo son iguales en Java y Bedrock. El coste mostrado exacto incluye costes de material además de la penalización.",
+    "editionNote": "Un plan perfecto para una herramienta al máximo: encanta el objeto base en la mesa, combina todos los books extra en uno, aplica en dos operaciones de anvil, renombra al final: la penalización total se queda mínima.",
+    "faq": [
+      {
+        "q": "¿Qué significa 'Too Expensive' en Minecraft?",
+        "a": "Que la operación de anvil costaría 40 niveles de XP o más, lo que el modo survival prohíbe. Ocurre porque la penalización de trabajo previo del objeto creció demasiado por uso repetido del anvil, no porque el encantamiento sea imposible."
+      },
+      {
+        "q": "¿Puedo quitar la penalización de trabajo previo?",
+        "a": "Solo limpiando el objeto en un grindstone, lo que elimina todos los encantamientos (las maldiciones se quedan) y devuelve un poco de XP. Luego reconstruye los encantamientos en un orden eficiente."
+      },
+      {
+        "q": "¿Cuál es el orden más barato para combinar encantamientos?",
+        "a": "Combina books con books primero, pon el encantamiento más caro en la herramienta primero, y añade el resto en el menor número de pasos por el anvil posible. Renombrar siempre va el último."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-an-anvil",
+      "how-to-repair-tools",
+      "best-pickaxe-enchantments"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Enchantments",
+        "url": "/es/enchantments/"
+      }
+    ],
+    "slug": "minecraft-anvil-too-expensive"
   }
 }

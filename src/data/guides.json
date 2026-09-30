@@ -11797,7 +11797,7 @@
       "Find or breed villagers, then place a job site block next to an unemployed one: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, and so on.",
       "Check the offered trades (right-click). Don't like them? Break the job block and place it again - the trades reroll, but ONLY if you have never traded with that villager.",
       "Trade with emeralds and goods. Each trade gives you 3-6 XP and fills the villager's experience bar; a full bar levels it up: novice (stone badge), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
-      "Leveling unlocks new trades - master librarians sell name tags, armorers sell diamond gear, and the best enchanted books sit at the top levels.",
+      "Leveling unlocks new trades - master librarians sell candles, armorers sell diamond gear, and the best enchanted books sit at the top levels.",
       "Villagers restock up to twice per day while they can reach their job site block (in Bedrock they also need to be linked to a bed).",
       "For permanent discounts, cure a zombie villager next to your trading hall; since 1.20.2 the big discount applies only to the first cure. The Hero of the Village effect from a raid also drops prices."
     ],
@@ -25689,7 +25689,7 @@
     "shortTitle": "Use a Name Tag",
     "quickAnswer": "Rename the name tag on an anvil first (1 experience level renames a whole stack), then use it on a mob. Named mobs never despawn and show their name overhead - and secret names like Dinnerbone, jeb_, Toast and Johnny trigger hidden easter eggs.",
     "steps": [
-      "Get a name tag: they cannot be crafted. Find one as chest loot, fish one up as treasure, or trade for one with a master librarian - our name tag guide covers every source.",
+      "Get a name tag: craft one with 1 paper and 1 nugget of any kind (26.1+), find one as chest loot, or fish one up as treasure - our name tag guide covers every source.",
       "Place an anvil and put the name tag in the first slot.",
       "Type the name (up to 50 characters in Java, 30 in Bedrock). Renaming costs 1 experience level, and that single level renames an entire stack of up to 64 tags at once.",
       "Take the renamed tag and use it on a mob (right-click or interact). The name appears floating above the mob's head.",
@@ -31243,7 +31243,7 @@
       "Fisherman (barrel): buys string, coal and raw fish, sells cooked fish, campfires and fishing rods.",
       "Fletcher (fletching table): buys sticks, string and feathers, sells arrows, bows and crossbows - 32 sticks for an emerald is the classic emerald farm.",
       "Leatherworker (cauldron): buys leather, sells leather armor, item frames and saddles.",
-      "Librarian (lectern): buys paper and books, sells bookshelves, name tags, lanterns and every enchanted book in the game, including Mending - the most valuable profession.",
+      "Librarian (lectern): buys paper and books, sells bookshelves, lanterns, glass, candles and every enchanted book in the game, including Mending - the most valuable profession.",
       "Mason (stonecutter): buys clay, stone and quartz, sells bricks, terracotta and quartz blocks.",
       "Shepherd (loom): buys wool and dyes, sells wool, carpets, beds, banners and paintings.",
       "Toolsmith (smithing table): buys coal and iron, sells axes, pickaxes, shovels, hoes and bells - diamond tools at higher levels.",
@@ -32306,6 +32306,106 @@
       "how-to-use-an-anvil",
       "how-to-get-mending",
       "best-shovel-enchantments"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Enchantments",
+        "url": "/enchantments/"
+      }
+    ]
+  },
+  {
+    "slug": "librarian-trades",
+    "name": "Librarian Trades in Minecraft: Every Trade by Level",
+    "shortTitle": "Librarian Trades List",
+    "quickAnswer": "Librarians buy paper, books, ink sacs and book and quills, and sell bookshelves, lanterns, glass, compasses, clocks, candles and - the reason everyone wants one - enchanted books at every level. Mending costs 10-38 emeralds; master librarians sell candles since the 26.1 update, which removed the old name tag trade.",
+    "keywords": "librarian trades minecraft list every trade mending enchanted book price candle master novice apprentice",
+    "materials": [
+      "A lectern and an unemployed villager",
+      "Paper, books and emeralds for leveling",
+      "A zombie villager cure setup for discounts"
+    ],
+    "steps": [
+      "Novice: buys 24 paper for 1 emerald; sells a bookshelf for 9 emeralds, and offers an enchanted book for 5-64 emeralds plus a book - this first book is the one you reroll by breaking the lectern.",
+      "Apprentice: buys 4 books for 1 emerald; sells a lantern for 1 emerald; second enchanted book offer.",
+      "Journeyman: buys 5 ink sacs for 1 emerald; sells 4 glass for 1 emerald; third enchanted book offer.",
+      "Expert: buys book and quills for emeralds; sells a compass for 4 emeralds and a clock for 5 emeralds; fourth enchanted book offer.",
+      "Master: sells colored candles for 3 emeralds - the 26.1 update replaced the old master name tag trade with candles.",
+      "Enchanted book pricing: level I books run 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64; treasure enchantments (Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst) cost double, capped at 64 - so Mending lands between 10 and 38.",
+      "Reroll discipline: never trade before the book you want appears - the first trade locks the librarian's offers permanently.",
+      "Cure discounts: a cured zombie librarian cuts prices, down to 1 emerald even for treasure books - the cheapest Mending in the game.",
+      "Restocks: librarians resupply twice a day at their lectern - keep it placed and reachable or trades stay locked out."
+    ],
+    "versions": "The trade list matches Java and Bedrock with small probability differences per offer. The candle master trade and the removal of name tags arrived in 26.1 on both editions.",
+    "editionNote": "On versions before 26.1, master librarians sold name tags for 20 emeralds - now name tags come from crafting (1 paper + 1 nugget), loot, fishing and wandering traders.",
+    "faq": [
+      {
+        "q": "How much does Mending cost from a librarian?",
+        "a": "Mending is a treasure book, so its price is doubled: between 10 and 38 emeralds plus a book. Cure the librarian and it can drop to 1 emerald."
+      },
+      {
+        "q": "Do librarians still sell name tags?",
+        "a": "No - the 26.1 update removed the name tag trade and master librarians now sell candles. Craft name tags with 1 paper and 1 nugget, or find them as loot and fishing treasure."
+      },
+      {
+        "q": "How do I get a specific enchanted book?",
+        "a": "Place a lectern on an unemployed villager, check the novice book offer, and break and replace the lectern until the book appears - then lock it in with one trade and never lose it."
+      }
+    ],
+    "relatedGuides": [
+      "minecraft-villager-jobs",
+      "best-villager-trades",
+      "how-to-get-mending"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Mobs",
+        "url": "/mobs/"
+      }
+    ]
+  },
+  {
+    "slug": "minecraft-anvil-too-expensive",
+    "name": "Why Your Anvil Says 'Too Expensive' in Minecraft (And How to Fix It)",
+    "shortTitle": "Fix 'Too Expensive' Anvil",
+    "quickAnswer": "Every time an item goes through an anvil, its prior work penalty roughly doubles - 1, 3, 7, 15, 31 extra levels. When the total cost passes 39 levels, survival anvils refuse with 'Too Expensive'. Fix it by combining books first, applying the priciest books earliest, or wiping the item on a grindstone and starting over.",
+    "keywords": "too expensive minecraft anvil fix prior work penalty 39 levels combine books order grindstone",
+    "materials": [
+      "An anvil and a grindstone",
+      "Enchanted books, ideally combined before touching the tool",
+      "40 levels of XP for the legal maximum"
+    ],
+    "steps": [
+      "The cause: every anvil operation adds a hidden 'prior work' penalty to the item - it roughly doubles each time (1, 3, 7, 15, 31 levels), so five trips through the anvil already cost +31 on every later job.",
+      "The cap: survival anvils refuse any operation costing 40 or more levels and show 'Too Expensive'. Creative mode ignores the cap.",
+      "Prevention 1 - combine books with books first: merge enchanted books together (they carry their own, cheaper penalty), then apply the combined book to a fresh tool in as few operations as possible.",
+      "Prevention 2 - expensive first: apply the highest-level, most valuable books earliest while penalties are low; save cheap books and renaming for last.",
+      "Prevention 3 - never rename early: renaming counts as an anvil use and adds to the penalty - name your gear after the enchantments, or skip renaming.",
+      "Prevention 4 - enchanting table first: get as many enchantments as possible from the table itself, then only add what is missing by anvil.",
+      "The fix for a bricked item: grindstone the tool to wipe all enchantments (you get some XP back), re-enchant from scratch in the right order - painful but cheaper than a dead god-pickaxe.",
+      "Mending saves the day: a Mending tool never needs replacement, so plan the enchant order once, pay it once, and repair with XP forever.",
+      "Crossbow and bow note: incompatible enchantments (Multishot/Piercing, Infinity/Mending) also block the anvil - but with 'cannot combine', not 'Too Expensive'."
+    ],
+    "versions": "The 39-level cap and prior work penalty are the same on Java and Bedrock. The exact displayed cost includes material costs on top of the penalty.",
+    "editionNote": "A perfect plan for a max tool: table-enchant the base item, combine all extra books into one, apply in two anvil operations, rename last - total penalty stays minimal.",
+    "faq": [
+      {
+        "q": "What does 'Too Expensive' mean in Minecraft?",
+        "a": "The anvil operation would cost 40 or more XP levels, which survival mode forbids. It happens because the item's prior work penalty grew too large from repeated anvil use - not because the enchantment is impossible."
+      },
+      {
+        "q": "Can I remove the prior work penalty?",
+        "a": "Only by wiping the item on a grindstone, which removes all enchantments (curses stay) and refunds a little XP. Then rebuild the enchantments in an efficient order."
+      },
+      {
+        "q": "What is the cheapest order to combine enchantments?",
+        "a": "Combine books with books first, put the most expensive enchantment on the tool first, and add the rest in as few anvil trips as possible. Renaming always goes last."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-use-an-anvil",
+      "how-to-repair-tools",
+      "best-pickaxe-enchantments"
     ],
     "relatedLinks": [
       {
