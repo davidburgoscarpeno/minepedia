@@ -10,6 +10,7 @@ const ov: any = isES ? (enchEs as any)[e.slug] : null;
 const whatItDoes = ov?.whatItDoes ?? e.whatItDoes;
 const howToGet: string[] = ov?.howToGet ?? e.howToGet;
 const bestUses = ov?.bestUses ?? e.bestUses;
+const appliesTo = ov?.appliesTo ?? e.appliesTo;
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Encantamientos', crumbHref: '/es/enchantments/',
@@ -58,7 +59,7 @@ const jsonLd = [
     </p>
     <div class="quick-answer"><strong>{L.quick}</strong> {whatItDoes}</div>
     <h2>{L.applies}</h2>
-    <p>{e.appliesTo}.</p>
+    <p>{appliesTo}.</p>
     <h2>{L.howH}</h2>
     <ul>{howToGet.map(h => <li>{h}</li>)}</ul>
     <h2>{L.bestH}</h2>
