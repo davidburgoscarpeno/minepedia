@@ -1630,18 +1630,13 @@
     "ingredients": [
       {
         "name": "String",
-        "qty": 4,
+        "qty": 5,
         "howToGet": "Kill spiders, break cobwebs with a sword or shears, or fish."
-      },
-      {
-        "name": "Slimeball",
-        "qty": 1,
-        "howToGet": "Kill tiny slimes (slime chunks below Y=40 or swamps at night) or collect from sneezing baby pandas."
       }
     ],
     "pattern": [
       "SS ",
-      "SB ",
+      "SS ",
       "  S"
     ],
     "uses": [
@@ -1652,17 +1647,16 @@
     "variants": [
       "No variants; leads break if stretched beyond 10 blocks"
     ],
-    "editionNote": "Identical recipe in Java and Bedrock. In Java you can leash multiple animals at once, one per lead.",
+    "editionNote": "Since Java 25w18a (1.21.6) and Bedrock 1.21.90 the lead is crafted from 5 string. Before that it needed 4 string and 1 slimeball, so older guides and videos show a different recipe. In Java you can leash multiple animals at once, one per lead.",
     "since": "1.6 (Horse Update)",
     "related": [
       "fishing-rod",
       "chest",
       "boat"
     ],
-    "keywords": "lead recipe how to make craft leash slimeball string animals",
+    "keywords": "lead recipe how to make craft leash string animals",
     "legend": {
-      "S": "String",
-      "B": "Slimeball"
+      "S": "String"
     }
   },
   {
