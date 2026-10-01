@@ -992,5 +992,142 @@
       "feather-falling"
     ],
     "keywords": "frost walker enchantment boots water ice treasure max level"
+  },
+  {
+    "treasure": true,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "curse-of-binding",
+    "name": "Curse of Binding",
+    "maxLevel": "I",
+    "appliesTo": "Armor, elytra, carved pumpkins, heads and turtle shells (anvil or loot)",
+    "whatItDoes": "The item cannot be taken off an armor slot unless you are in Creative mode, you die or the item breaks. Items without durability and elytra only come off if you die, so removal is impossible in Hardcore. A grindstone does not remove it, and mobs are bound by it too.",
+    "howToGet": [
+      "Treasure enchantment: not available in the enchanting table",
+      "Fishing, librarian trades and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Rarely a good thing to keep. Check enchanted loot before you equip it.",
+    "incompatibleWith": [],
+    "since": "1.11 (16w39a)",
+    "related": [
+      "curse-of-vanishing",
+      "protection",
+      "mending"
+    ],
+    "keywords": "curse of binding enchantment armor cannot remove treasure"
+  },
+  {
+    "treasure": true,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "curse-of-vanishing",
+    "name": "Curse of Vanishing",
+    "maxLevel": "I",
+    "appliesTo": "Almost all gear with durability, plus compasses and carved pumpkins",
+    "whatItDoes": "If you die with the item in your inventory it is removed from the world instead of dropping. It does not vanish if you drop it first, store it in a container, or keep inventory is on, and it does not trigger inside shulker boxes or bundles.",
+    "howToGet": [
+      "Treasure enchantment: not available in the enchanting table",
+      "Fishing, librarian trades and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Mostly a downside. Remove it with a grindstone before you take risks with the item.",
+    "incompatibleWith": [],
+    "since": "1.11 (16w39a)",
+    "related": [
+      "curse-of-binding",
+      "mending",
+      "unbreaking"
+    ],
+    "keywords": "curse of vanishing enchantment death item disappears treasure"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "density",
+    "name": "Density",
+    "maxLevel": "V",
+    "appliesTo": "Maces",
+    "whatItDoes": "Adds 0.5 damage per block fallen, per level, to a mace smash attack.",
+    "howToGet": [
+      "Enchanting table (mace or book)",
+      "Enchanted books from fishing, librarian trades and ominous vaults in trial chambers",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Built for big falls. At level V a drop of 20 blocks adds 50 extra damage. It cannot share a mace with Breach.",
+    "incompatibleWith": [
+      "Breach",
+      "Smite",
+      "Bane of Arthropods"
+    ],
+    "since": "1.20.5 (24w13a)",
+    "related": [
+      "breach",
+      "wind-burst",
+      "unbreaking"
+    ],
+    "keywords": "density enchantment mace smash attack fall damage max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "breach",
+    "name": "Breach",
+    "maxLevel": "IV",
+    "appliesTo": "Maces",
+    "whatItDoes": "Cuts the target's armor effectiveness by 15 percentage points per level. If armor would reduce damage by 50%, Breach I makes it 35%.",
+    "howToGet": [
+      "Enchanting table (mace or book)",
+      "Enchanted books from fishing, librarian trades and ominous vaults in trial chambers",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Strong against heavily armored players and mobs. It cannot share a mace with Density.",
+    "incompatibleWith": [
+      "Density",
+      "Smite",
+      "Bane of Arthropods"
+    ],
+    "since": "1.20.5 (24w13a)",
+    "related": [
+      "density",
+      "wind-burst",
+      "unbreaking"
+    ],
+    "keywords": "breach enchantment mace armor penetration max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "wind-burst",
+    "name": "Wind Burst",
+    "maxLevel": "III",
+    "appliesTo": "Maces",
+    "whatItDoes": "A mace smash attack launches you back into the air so you can chain smash attacks. It needs a smash attack, which means falling more than 1.5 blocks before the hit.",
+    "howToGet": [
+      "Only as level I enchanted books from ominous vaults in trial chambers (about 5.5% chance per ejection)",
+      "Combine in an anvil to raise the level"
+    ],
+    "bestUses": "Lets you chain smash attacks. A wind charge or Jump Boost helps you gain the first fall.",
+    "incompatibleWith": [],
+    "since": "1.20.5 (24w13a)",
+    "related": [
+      "density",
+      "breach",
+      "unbreaking"
+    ],
+    "keywords": "wind burst enchantment mace smash attack launch ominous vault"
   }
 ]

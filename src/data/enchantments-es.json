@@ -359,5 +359,54 @@
     ],
     "bestUses": "Te deja cruzar lagos y océanos a pie. No puede ir en las mismas botas que Depth Strider.",
     "appliesTo": "Botas"
+  },
+  "curse-of-binding": {
+    "appliesTo": "Armadura, elytra, calabazas talladas, cabezas y caparazones de tortuga (yunque o botín)",
+    "whatItDoes": "El objeto no se puede quitar de una ranura de armadura salvo que estés en Creativo, mueras o el objeto se rompa. Los objetos sin durabilidad y los elytra solo salen si mueres, así que quitarlo es imposible en Hardcore. La piedra de afilar no lo elimina, y los mobs también quedan atados por él.",
+    "howToGet": [
+      "Encantamiento de tesoro: no sale en la mesa de encantamientos",
+      "Pesca, comercio con bibliotecarios y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Pocas veces conviene conservarlo. Revisa el botín encantado antes de equiparlo."
+  },
+  "curse-of-vanishing": {
+    "appliesTo": "Casi todo el equipo con durabilidad, además de brújulas y calabazas talladas",
+    "whatItDoes": "Si mueres con el objeto en el inventario, desaparece del mundo en vez de caer. No desaparece si lo sueltas antes, lo guardas en un contenedor o tienes keepInventory activado, y no se activa dentro de shulker boxes ni bundles.",
+    "howToGet": [
+      "Encantamiento de tesoro: no sale en la mesa de encantamientos",
+      "Pesca, comercio con bibliotecarios y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Casi siempre es una desventaja. Quítala con una piedra de afilar antes de arriesgar el objeto."
+  },
+  "density": {
+    "whatItDoes": "Suma 0,5 de daño por bloque caído y por nivel a un ataque de golpe con maza.",
+    "howToGet": [
+      "Mesa de encantamientos (maza o libro)",
+      "Libros encantados de pesca, comercio con bibliotecarios y bóvedas ominosas de cámaras de prueba",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Pensada para grandes caídas. En el nivel V una caída de 20 bloques añade 50 de daño extra. No puede ir en la misma maza que Breach.",
+    "appliesTo": "Mazas"
+  },
+  "breach": {
+    "whatItDoes": "Reduce la eficacia de la armadura del objetivo en 15 puntos porcentuales por nivel. Si la armadura reduciría el daño un 50%, Breach I lo deja en un 35%.",
+    "howToGet": [
+      "Mesa de encantamientos (maza o libro)",
+      "Libros encantados de pesca, comercio con bibliotecarios y bóvedas ominosas de cámaras de prueba",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Fuerte contra jugadores y mobs con mucha armadura. No puede ir en la misma maza que Density.",
+    "appliesTo": "Mazas"
+  },
+  "wind-burst": {
+    "whatItDoes": "Un ataque de golpe con maza te lanza de nuevo al aire para encadenar golpes. Requiere un ataque de golpe, es decir, caer más de 1,5 bloques antes del impacto.",
+    "howToGet": [
+      "Solo como libros encantados de nivel I en bóvedas ominosas de cámaras de prueba (un 5,5% por expulsión)",
+      "Combinar en yunque para subir de nivel"
+    ],
+    "bestUses": "Te permite encadenar golpes. Un wind charge o Jump Boost ayuda a conseguir la primera caída.",
+    "appliesTo": "Mazas"
   }
 }
