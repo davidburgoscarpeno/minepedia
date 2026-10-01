@@ -26,7 +26,8 @@
     "related": [
       "smite",
       "looting",
-      "unbreaking"
+      "unbreaking",
+      "bane-of-arthropods"
     ],
     "keywords": "sharpness enchantment sword axe damage max level"
   },
@@ -56,7 +57,10 @@
     "related": [
       "unbreaking",
       "mending",
-      "feather-falling"
+      "feather-falling",
+      "fire-protection",
+      "blast-protection",
+      "projectile-protection"
     ],
     "keywords": "protection enchantment armor damage reduction"
   },
@@ -529,5 +533,157 @@
       "mending"
     ],
     "keywords": "swift sneak enchantment leggings ancient city warden sneaking faster"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "smite",
+    "name": "Smite",
+    "maxLevel": "V",
+    "appliesTo": "Swords and spears at the enchanting table; axes and maces by anvil in Java, directly in Bedrock",
+    "whatItDoes": "Adds 2.5 damage per level to each hit on undead: zombies and their variants (drowned, husks, zombie villagers, zombified piglins, zoglins, zombie horses), skeletons and their variants (strays, bogged, wither skeletons, skeleton horses), phantoms and withers. In Bedrock the damage is rounded down.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Worth it for undead-heavy trips such as the Nether fortress or a wither fight. It does nothing against other mobs, so Sharpness stays the general pick.",
+    "incompatibleWith": [
+      "Sharpness",
+      "Bane of Arthropods",
+      "Density (mace)",
+      "Breach (mace)"
+    ],
+    "since": "1.0.0 (Beta 1.9 Prerelease 4)",
+    "related": [
+      "sharpness",
+      "bane-of-arthropods",
+      "looting"
+    ],
+    "keywords": "smite enchantment undead zombie skeleton damage max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "bane-of-arthropods",
+    "name": "Bane of Arthropods",
+    "maxLevel": "V",
+    "appliesTo": "Swords and spears at the enchanting table; axes and maces by anvil in Java, directly in Bedrock",
+    "whatItDoes": "Adds 2.5 damage per level against arthropods (bees, cave spiders, endermites, silverfish, spiders) and inflicts Slowness IV on them for 1 to 1.5 seconds at level I, up to 3.5 seconds at level V. In Bedrock the damage is rounded down.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Useful against spider-heavy places such as mineshafts with cave spiders. It does nothing against other mobs, so most players keep Sharpness.",
+    "incompatibleWith": [
+      "Sharpness",
+      "Smite",
+      "Density (mace)",
+      "Breach (mace)"
+    ],
+    "since": "1.0.0 (Beta 1.9 Prerelease 4)",
+    "related": [
+      "sharpness",
+      "smite",
+      "looting"
+    ],
+    "keywords": "bane of arthropods enchantment spider silverfish slowness max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "fire-protection",
+    "name": "Fire Protection",
+    "maxLevel": "IV",
+    "appliesTo": "All armor pieces and turtle shell",
+    "whatItDoes": "Cuts damage from fire sources by 8% per level on each piece: fire, lava, magma blocks, lit campfires, blaze projectiles, flaming arrows and burning zombies. It also shortens burning time. Blaze and magma cube contact damage and ghast fireballs are not reduced. Total damage reduction from all armor enchantments caps at 80%.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, trial chamber vaults, librarian villagers and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Swap it in for Protection only when one damage source is the main threat. It cannot be combined with Protection or the other protection types on the same piece.",
+    "incompatibleWith": [
+      "Protection",
+      "Blast Protection",
+      "Projectile Protection"
+    ],
+    "since": "1.0.0 (Beta 1.9 Prerelease 4)",
+    "related": [
+      "protection",
+      "unbreaking",
+      "mending"
+    ],
+    "keywords": "fire protection enchantment armor lava fire damage max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "blast-protection",
+    "name": "Blast Protection",
+    "maxLevel": "IV",
+    "appliesTo": "All armor pieces and turtle shell",
+    "whatItDoes": "Cuts damage from explosions by 8% per level on each piece (32% at level IV) and raises explosion knockback resistance by 15% per level. Covers creepers, TNT, ghast fireballs, end crystals, beds and respawn anchors, the wither, firework rockets and wind charges. Total damage reduction from all armor enchantments caps at 80%.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, trial chamber vaults, librarian villagers and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Swap it in for Protection only when one damage source is the main threat. It cannot be combined with Protection or the other protection types on the same piece.",
+    "incompatibleWith": [
+      "Protection",
+      "Fire Protection",
+      "Projectile Protection"
+    ],
+    "since": "1.0.0 (Beta 1.9 Prerelease 4)",
+    "related": [
+      "protection",
+      "unbreaking",
+      "mending"
+    ],
+    "keywords": "blast protection enchantment creeper tnt explosion armor max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "projectile-protection",
+    "name": "Projectile Protection",
+    "maxLevel": "IV",
+    "appliesTo": "All armor pieces and turtle shell",
+    "whatItDoes": "Cuts damage from projectiles by 8% per level on each piece (32% at level IV): arrows, thrown tridents, shulker bullets, llama spit, blaze fireballs and wind charges. It also reduces direct hits from ghast fireballs and wither skulls, but not their explosions. Total damage reduction from all armor enchantments caps at 80%.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, trial chamber vaults, librarian villagers and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Swap it in for Protection only when one damage source is the main threat. It cannot be combined with Protection or the other protection types on the same piece.",
+    "incompatibleWith": [
+      "Protection",
+      "Fire Protection",
+      "Blast Protection"
+    ],
+    "since": "1.0.0 (Beta 1.9 Prerelease 4)",
+    "related": [
+      "protection",
+      "unbreaking",
+      "mending"
+    ],
+    "keywords": "projectile protection enchantment arrow skeleton armor max level"
   }
 ]
