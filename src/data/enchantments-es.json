@@ -299,5 +299,65 @@
     ],
     "bestUses": "Sirve para crear creepers cargados y como daño extra en tormentas. No puede ir en el mismo tridente que Riptide.",
     "appliesTo": "Tridentes"
+  },
+  "impaling": {
+    "whatItDoes": "Suma 2,5 de daño extra por nivel en cada golpe, lanzado o cuerpo a cuerpo. En Java solo reciben el daño extra los mobs acuáticos (ajolotes, delfines, guardianes, nautilus, calamares, renacuajos, tortugas y peces, pero no los ahogados). En Bedrock se aplica a cualquier mob o jugador en contacto con agua o lluvia, y el daño se redondea hacia abajo.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Ideal para monumentos oceánicos y caza bajo el agua en Java. En Bedrock también funciona con mobs terrestres bajo la lluvia.",
+    "appliesTo": "Tridentes"
+  },
+  "multishot": {
+    "whatItDoes": "Una ballesta dispara dos flechas extra en cada disparo, separadas 10 grados, pero gasta una sola flecha. Solo se puede recoger la flecha central. En Java solo una flecha del mismo disparo puede dañar al mismo mob. Las flechas con efecto y los cohetes de fuegos artificiales también se duplican. Cada proyectil gasta un punto de durabilidad.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Buena contra grupos de mobs y combina bien con Quick Charge. No puede ir en la misma ballesta que Piercing.",
+    "appliesTo": "Ballestas"
+  },
+  "piercing": {
+    "whatItDoes": "Las flechas de la ballesta atraviesan tantas entidades como el nivel del encantamiento (nivel + 1 entidades dañadas en total) y aún se pueden recoger. Piercing ignora los escudos, incluso bloqueando, pero no la concha cerrada de un shulker, la armadura del Wither con media vida ni la armadura de viento del breeze. No afecta a los cohetes de fuegos artificiales.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Útil contra filas de mobs y contra quienes usan escudo. No puede ir en la misma ballesta que Multishot.",
+    "appliesTo": "Ballestas"
+  },
+  "quick-charge": {
+    "whatItDoes": "Reduce en 0,25 segundos por nivel el tiempo de carga de la ballesta. La carga normal es de 1,25 segundos, así que Quick Charge III carga en 0,5 segundos. Con comandos en el nivel V o superior en Java la ballesta se carga al instante.",
+    "howToGet": [
+      "Mesa de encantamientos (niveles I y II)",
+      "Pesca, salas de monstruos y cofres de la biblioteca de la fortaleza (niveles I y II)",
+      "Nivel III: combina en un yunque dos ballestas o libros que tengan Quick Charge II"
+    ],
+    "bestUses": "Una elección habitual en builds de ballesta, sobre todo con Multishot o Piercing.",
+    "appliesTo": "Ballestas"
+  },
+  "flame": {
+    "whatItDoes": "Las flechas de un arco con Flame salen en llamas, prenden fuego a los mobs y causan 5 de daño por fuego durante 5 segundos. Las flechas en llamas solo encienden jugadores, mobs, TNT, hogueras y velas, no otros bloques, y se vuelven flechas normales si atraviesan agua o lluvia.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Buena contra mobs que no sean inmunes al fuego.",
+    "appliesTo": "Arcos"
+  },
+  "frost-walker": {
+    "whatItDoes": "Mientras caminas por el suelo, el agua de origen cercana se convierte en hielo escarchado en un radio de 2 + nivel bloques (misma altura, con aire encima). El hielo se derrite si te detienes. También elimina el daño de bloques de magma y hogueras, pero no el de la lava.",
+    "howToGet": [
+      "Encantamiento de tesoro: no sale en la mesa de encantamientos",
+      "Botín de templos de la jungla y fortalezas, pesca y comercio con bibliotecarios",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Te deja cruzar lagos y océanos a pie. No puede ir en las mismas botas que Depth Strider.",
+    "appliesTo": "Botas"
   }
 }

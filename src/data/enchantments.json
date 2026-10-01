@@ -824,5 +824,173 @@
       "unbreaking"
     ],
     "keywords": "channeling enchantment trident lightning thunderstorm charged creeper"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "impaling",
+    "name": "Impaling",
+    "maxLevel": "V",
+    "appliesTo": "Tridents",
+    "whatItDoes": "Adds 2.5 extra damage per level on each hit, thrown or in melee. In Java only aquatic mobs take the extra damage (axolotls, dolphins, guardians, nautiluses, squid, tadpoles, turtles and fish, but not drowned). In Bedrock it applies to any mob or player touching water or rain, and the damage is rounded down.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Best for ocean monuments and underwater hunting in Java. In Bedrock it also works on land mobs standing in rain.",
+    "incompatibleWith": [
+      "Sharpness",
+      "Smite",
+      "Bane of Arthropods",
+      "Density (mace)",
+      "Breach (mace)"
+    ],
+    "since": "1.13 (18w07a)",
+    "related": [
+      "channeling",
+      "riptide",
+      "loyalty"
+    ],
+    "keywords": "impaling enchantment trident aquatic damage max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "multishot",
+    "name": "Multishot",
+    "maxLevel": "I",
+    "appliesTo": "Crossbows",
+    "whatItDoes": "A crossbow shoots two extra arrows on each shot, 10 degrees apart, but uses only one arrow. Only the central arrow can be picked up. In Java only one arrow from the same shot can damage the same mob. Tipped arrows and firework rockets are duplicated too. Each projectile costs one durability point.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Good for groups of mobs and pairs well with Quick Charge. It cannot share a crossbow with Piercing.",
+    "incompatibleWith": [
+      "Piercing"
+    ],
+    "since": "1.14 (18w43a)",
+    "related": [
+      "piercing",
+      "quick-charge",
+      "unbreaking"
+    ],
+    "keywords": "multishot enchantment crossbow arrows max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "piercing",
+    "name": "Piercing",
+    "maxLevel": "IV",
+    "appliesTo": "Crossbows",
+    "whatItDoes": "Arrows from the crossbow pass through as many entities as the enchantment level (level + 1 entities damaged in total) and can still be picked up. Piercing ignores shields, even when blocking, but not a closed shulker shell, the Wither armor at half health or a breeze wind armor. It has no effect on firework rockets.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Useful against lines of mobs and against shield users. It cannot share a crossbow with Multishot.",
+    "incompatibleWith": [
+      "Multishot"
+    ],
+    "since": "1.14 (18w43a)",
+    "related": [
+      "multishot",
+      "quick-charge",
+      "unbreaking"
+    ],
+    "keywords": "piercing enchantment crossbow shield arrows max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "quick-charge",
+    "name": "Quick Charge",
+    "maxLevel": "III",
+    "appliesTo": "Crossbows",
+    "whatItDoes": "Cuts crossbow charge time by 0.25 seconds per level. The normal load time is 1.25 seconds, so Quick Charge III loads in 0.5 seconds. With commands at level V or higher in Java the crossbow loads instantly.",
+    "howToGet": [
+      "Enchanting table (levels I and II)",
+      "Fishing, monster rooms and stronghold library chests (levels I and II)",
+      "Level III: combine two crossbows or books that both have Quick Charge II in an anvil"
+    ],
+    "bestUses": "A standard pick for crossbow builds, especially with Multishot or Piercing.",
+    "incompatibleWith": [],
+    "since": "1.14 (18w43a)",
+    "related": [
+      "multishot",
+      "piercing",
+      "unbreaking"
+    ],
+    "keywords": "quick charge enchantment crossbow reload speed max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "flame",
+    "name": "Flame",
+    "maxLevel": "I",
+    "appliesTo": "Bows",
+    "whatItDoes": "Arrows from a Flame bow are on fire when shot, set mobs alight and deal 5 fire damage over 5 seconds. Flaming arrows light only players, mobs, TNT, campfires and candles, not other blocks, and turn into normal arrows if fired through water or rain.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Good against mobs that are not fire-immune.",
+    "incompatibleWith": [],
+    "since": "1.1",
+    "related": [
+      "power",
+      "punch",
+      "infinity"
+    ],
+    "keywords": "flame enchantment bow fire arrow max level"
+  },
+  {
+    "treasure": true,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "frost-walker",
+    "name": "Frost Walker",
+    "maxLevel": "II",
+    "appliesTo": "Boots",
+    "whatItDoes": "While you walk on the ground, nearby source water becomes frosted ice within a radius of 2 + level blocks (same height, air above). The ice melts if you stop. It also removes damage from magma blocks and campfires, though not from lava.",
+    "howToGet": [
+      "Treasure enchantment: not available in the enchanting table",
+      "Jungle temple and stronghold chest loot, fishing and librarian trades",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Lets you cross lakes and oceans on foot. It cannot share boots with Depth Strider.",
+    "incompatibleWith": [
+      "Depth Strider"
+    ],
+    "since": "1.9 (15w42a)",
+    "related": [
+      "depth-strider",
+      "soul-speed",
+      "feather-falling"
+    ],
+    "keywords": "frost walker enchantment boots water ice treasure max level"
   }
 ]
