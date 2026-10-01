@@ -45,7 +45,8 @@ const L = isES ? {
           <h3>{isES ? topic.es : topic.en}</h3>
           <ul>{topic.slugs.map(slug => {
             const guide = guides.find(g => g.slug === slug);
-            const label = isES ? (guidesEs as any)[slug]?.shortTitle : guide?.shortTitle;
+            const esLabels: Record<string, string> = { 'how-to-make-furnace': 'Hacer un horno', 'how-to-make-campfire': 'Hacer una hoguera' };
+            const label = isES ? (esLabels[slug] ?? (guidesEs as any)[slug]?.shortTitle) : guide?.shortTitle;
             return <li style="margin:8px 0"><a href={L.base + slug + '/'}>{label}</a></li>;
           })}</ul>
         </div>)}
