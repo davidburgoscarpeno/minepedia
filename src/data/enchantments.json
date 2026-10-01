@@ -685,5 +685,144 @@
       "mending"
     ],
     "keywords": "projectile protection enchantment arrow skeleton armor max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "luck-of-the-sea",
+    "name": "Luck of the Sea",
+    "maxLevel": "III",
+    "appliesTo": "Fishing rods",
+    "whatItDoes": "With the default loot tables it raises the chance of treasure catches by about 2.1% per level, and cuts junk by about 1.95% and fish by about 0.15% per level. At level III treasure is 11.3% of catches (5% unenchanted) and junk 4.2% (10% unenchanted).",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil",
+      "Already on a fishing rod you catch while fishing"
+    ],
+    "bestUses": "Pair it with Lure on a fishing rod when you are fishing for treasure such as enchanted books and name tags.",
+    "incompatibleWith": [],
+    "since": "1.7.2 (13w36a)",
+    "related": [
+      "lure",
+      "unbreaking",
+      "mending"
+    ],
+    "keywords": "luck of the sea enchantment fishing treasure junk max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "lure",
+    "name": "Lure",
+    "maxLevel": "III",
+    "appliesTo": "Fishing rods",
+    "whatItDoes": "Shortens the wait before something bites by 5 seconds per level. Fish cannot be caught above level V; if commands push the level beyond 5, the wait timer does not start and nothing bites.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Level III cuts the wait by 15 seconds, which speeds up any fishing farm or treasure hunt.",
+    "incompatibleWith": [],
+    "since": "1.7.2 (13w36a)",
+    "related": [
+      "luck-of-the-sea",
+      "unbreaking",
+      "mending"
+    ],
+    "keywords": "lure enchantment fishing rod bite speed max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "loyalty",
+    "name": "Loyalty",
+    "maxLevel": "III",
+    "appliesTo": "Tridents",
+    "whatItDoes": "A thrown trident returns to you after it hits a block or entity. Higher levels bring it back faster: about 16.7 blocks per second at level I, 33.3 at level II and 50 at level III. If your inventory is full it circles you until a slot frees up. In Java a trident thrown into the void never returns.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "The usual choice for a trident you throw repeatedly. It cannot share a trident with Riptide.",
+    "incompatibleWith": [
+      "Riptide"
+    ],
+    "since": "1.13 (18w07a)",
+    "related": [
+      "riptide",
+      "channeling",
+      "unbreaking"
+    ],
+    "keywords": "loyalty enchantment trident return max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "riptide",
+    "name": "Riptide",
+    "maxLevel": "III",
+    "appliesTo": "Tridents",
+    "whatItDoes": "The trident can only be thrown while you stand in water or in rain, and it launches you with it instead. Distance is (6 x level) + 3 blocks in rain or standing in water, and (4 x level) + 3 underwater. It does not work where it cannot rain unless you are in water.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil",
+      "Trial chamber vaults"
+    ],
+    "bestUses": "Fast travel in rainy weather or between water bodies, and a way to propel yourself with elytra in water or rain. It cannot share a trident with Loyalty or Channeling.",
+    "incompatibleWith": [
+      "Loyalty",
+      "Channeling"
+    ],
+    "since": "1.13 (18w07a)",
+    "related": [
+      "loyalty",
+      "channeling",
+      "unbreaking"
+    ],
+    "keywords": "riptide enchantment trident launch rain water max level"
+  },
+  {
+    "treasure": false,
+    "editions": [
+      "java",
+      "bedrock"
+    ],
+    "slug": "channeling",
+    "name": "Channeling",
+    "maxLevel": "I",
+    "appliesTo": "Tridents",
+    "whatItDoes": "Summons a lightning bolt when a thrown trident hits an entity or a lightning rod during a thunderstorm, including in dry biomes. It raises ranged trident damage from 8 to 13. Creepers become charged creepers, pigs become zombified piglins and villagers become witches. No opaque or partly transparent block may sit above the target.",
+    "howToGet": [
+      "Enchanting table",
+      "Enchanted books from fishing, librarian villagers, monster rooms and structure loot",
+      "Combine in an anvil"
+    ],
+    "bestUses": "Used for charged creepers and as extra damage in storms. It cannot share a trident with Riptide.",
+    "incompatibleWith": [
+      "Riptide"
+    ],
+    "since": "1.13 (18w07a)",
+    "related": [
+      "riptide",
+      "loyalty",
+      "unbreaking"
+    ],
+    "keywords": "channeling enchantment trident lightning thunderstorm charged creeper"
   }
 ]

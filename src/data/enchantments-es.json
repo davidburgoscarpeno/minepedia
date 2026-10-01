@@ -222,5 +222,52 @@
       "Combinar en yunque"
     ],
     "bestUses": "Cámbiala por Protection solo cuando una fuente de daño sea la amenaza principal. No se puede combinar con Protection ni con las otras protecciones en la misma pieza."
+  },
+  "luck-of-the-sea": {
+    "whatItDoes": "Con las tablas de botín por defecto sube la probabilidad de tesoros en torno a un 2,1% por nivel, y reduce la basura un 1,95% y los peces un 0,15% por nivel. En el nivel III el tesoro es el 11,3% de las capturas (5% sin encantar) y la basura el 4,2% (10% sin encantar).",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque",
+      "Ya puesto en una caña de pescar que consigues pescando"
+    ],
+    "bestUses": "Combínalo con Lure en una caña cuando pesques tesoros como libros encantados y etiquetas."
+  },
+  "lure": {
+    "whatItDoes": "Acorta en 5 segundos por nivel la espera hasta que algo pica. No se pueden pescar peces por encima del nivel V; si con comandos pasas del nivel 5, el temporizador de espera no arranca y nada pica.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "El nivel III recorta 15 segundos de espera, lo que acelera cualquier granja de pesca o búsqueda de tesoros."
+  },
+  "loyalty": {
+    "whatItDoes": "Un tridente lanzado vuelve a ti después de golpear un bloque o una entidad. Los niveles altos lo traen más rápido: unos 16,7 bloques por segundo en el nivel I, 33,3 en el II y 50 en el III. Si tu inventario está lleno, da vueltas a tu alrededor hasta que se libera un hueco. En Java un tridente lanzado al vacío no vuelve nunca.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "La opción habitual para un tridente que lanzas muchas veces. No puede ir en el mismo tridente que Riptide."
+  },
+  "riptide": {
+    "whatItDoes": "El tridente solo se lanza si estás en el agua o bajo la lluvia, y en lugar de soltarse te impulsa a ti. La distancia es (6 x nivel) + 3 bloques con lluvia o de pie en el agua, y (4 x nivel) + 3 bajo el agua. No funciona donde no puede llover salvo que estés en el agua.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque",
+      "Bóvedas de cámaras de prueba"
+    ],
+    "bestUses": "Viaje rápido con lluvia o entre masas de agua, y una forma de impulsarte con elytra en el agua o la lluvia. No puede ir en el mismo tridente que Loyalty ni Channeling."
+  },
+  "channeling": {
+    "whatItDoes": "Invoca un rayo cuando un tridente lanzado golpea una entidad o un pararrayos durante una tormenta eléctrica, también en biomas secos. Sube el daño a distancia del tridente de 8 a 13. Los creepers se vuelven creepers cargados, los cerdos piglins zombificados y los aldeanos brujas. No debe haber bloques opacos ni parcialmente transparentes sobre el objetivo.",
+    "howToGet": [
+      "Mesa de encantamientos",
+      "Libros encantados de pesca, aldeanos bibliotecarios, salas de monstruos y botín de estructuras",
+      "Combinar en yunque"
+    ],
+    "bestUses": "Sirve para crear creepers cargados y como daño extra en tormentas. No puede ir en el mismo tridente que Riptide."
   }
 }
