@@ -4911,58 +4911,65 @@
     "slug": "how-to-get-clay",
     "name": "How to Get Clay in Minecraft",
     "shortTitle": "Get Clay",
-    "quickAnswer": "Dig up the gray clay disks in shallow rivers, lakes and swamps (4 clay balls per block), find huge amounts on the floors of lush cave ponds, or convert mud to clay by placing it above a pointed dripstone (~6.5 minutes per block).",
+    "quickAnswer": "Find gray clay patches in shallow water or on lush cave pond floors. Each clay block drops four clay balls without Silk Touch. For renewable clay, put mud above a block with pointed dripstone hanging underneath and wait for it to convert.",
     "steps": [
-      "Look in shallow water: clay generates as crystal-shaped disks underwater in rivers, lakes and shallow oceans in grassy biomes, and is common in swamps. A shovel is the fastest tool.",
-      "Each clay block drops 4 clay balls. Silk Touch drops the block itself instead; Fortune does NOT increase the drop.",
-      "Farm lush caves: clay generates in large quantities on the floors of lush cave ponds, plus as blobs underground. One lush cave can yield stacks.",
-      "Convert mud into clay: place a mud block on top of a block with pointed dripstone hanging underneath. Each random tick has a ~17.6% chance to convert it, averaging about 6.5 minutes per block. It doesn't work in the Nether.",
-      "Check villages: mason houses in plains, savanna and desert villages contain clay, and novice mason villagers buy 10 clay balls for 1 emerald when you want emeralds back.",
-      "Uses: smelt clay balls into bricks (4 bricks craft a brick block) and smelt clay blocks into terracotta, the base for all glazed and dyed building blocks."
+      "Look for gray clay patches in shallow rivers, lakes and swamps, or explore the pond floors of lush caves.",
+      "Mine with any tool; a shovel is fastest. Each block drops four clay balls.",
+      "Use Silk Touch to collect the whole block instead. Fortune does not increase the number of balls.",
+      "For a renewable route, hang pointed dripstone beneath a supporting block and put mud directly on top of that block.",
+      "Wait for the mud to turn into clay. Conversion depends on random ticks, so it is not a fixed timer. It does not work in the Nether.",
+      "Smelt clay balls into brick items, or smelt whole clay blocks into terracotta. Four balls in a 2×2 square also rebuild one clay block."
     ],
     "materials": [
-      "Shovel (fastest for clay)",
-      "Doors or water breathing for underwater digging",
-      "Pointed dripstone + mud (conversion farm)",
-      "Silk Touch shovel (optional, keeps blocks)"
+      "Shovel for faster mining",
+      "Silk Touch tool to keep whole blocks (optional)",
+      "Mud, a supporting block and pointed dripstone for conversion (optional)"
     ],
-    "editionNote": "Mechanics are the same in both editions. In Java, mason villagers also throw clay blocks at you while you have Hero of the Village. The mud-to-clay dripstone conversion works in Java and Bedrock, but never in the Nether.",
-    "versions": "Clay was added in Java Alpha v1.0.11 (July 2010), and underwater clay disks arrived in Beta 1.8. The mud conversion and lush cave clay came with 1.19 (The Wild Update).",
+    "editionNote": "Clay drops and the mud conversion work in Java and Bedrock. The conversion does not work in the Nether. In Java, masons can give clay blocks to players with Hero of the Village.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
     "faq": [
       {
-        "q": "Where is clay most common in Minecraft?",
-        "a": "Lush caves have the biggest concentrations: pond floors and underground blobs. On the surface, swamps and shallow rivers have the most underwater clay disks."
+        "q": "Where should I look for lots of clay?",
+        "a": "Lush cave pond floors contain large amounts. Shallow surface water is another convenient source."
       },
       {
-        "q": "How do you turn mud into clay?",
-        "a": "Place pointed dripstone hanging under a solid block, then put a mud block on top. The dripstone drains the water: each random tick has about a 17.6% chance to convert the mud into clay, roughly 6.5 minutes on average."
+        "q": "How do I turn mud into clay?",
+        "a": "Put mud on top of a block with pointed dripstone hanging beneath it, then wait. Random ticks control conversion, not a guaranteed countdown."
       },
       {
         "q": "Does Fortune give more clay?",
-        "a": "No. A clay block always drops exactly 4 clay balls no matter the Fortune level. Use Silk Touch if you want the block itself."
+        "a": "No. Without Silk Touch, each clay block drops four balls regardless of Fortune."
       },
       {
-        "q": "What can you make with clay?",
-        "a": "Smelt clay balls into bricks (4 bricks = 1 brick block) for brick builds and flower pots, and smelt clay blocks into terracotta, which you can dye into 16 colors and glaze into patterns."
+        "q": "What is the difference between clay balls and blocks?",
+        "a": "Balls smelt into brick items. Whole blocks smelt into terracotta. Four balls craft back into one block."
       }
     ],
     "relatedGuides": [
+      "how-to-make-bricks",
+      "how-to-make-mud",
       "how-to-find-lush-caves",
-      "how-to-find-dripstone-caves",
-      "how-to-get-emeralds"
+      "how-to-find-dripstone-caves"
     ],
     "relatedLinks": [
       {
-        "label": "Lush Caves",
-        "href": "/biomes/lush-caves/"
+        "url": "/guides/how-to-make-bricks/",
+        "label": "Make Bricks"
       },
       {
-        "label": "Swamp",
-        "href": "/biomes/swamp/"
+        "url": "/guides/how-to-make-mud/",
+        "label": "Make Mud"
       },
       {
-        "label": "Village",
-        "href": "/structures/village/"
+        "url": "/guides/how-to-find-lush-caves/",
+        "label": "Find Lush Caves"
+      },
+      {
+        "url": "/guides/how-to-find-dripstone-caves/",
+        "label": "Find Dripstone Caves"
       }
     ],
     "keywords": "how to get clay minecraft, where to find clay minecraft, mud to clay dripstone, clay farm minecraft, minecraft bricks terracotta"
@@ -24636,52 +24643,65 @@
     "slug": "how-to-make-bricks",
     "name": "How to Make Bricks in Minecraft",
     "shortTitle": "Make Bricks",
-    "quickAnswer": "Smelt clay balls in a furnace to get brick items, then craft 4 brick items in a 2x2 square to make 1 brick block. Clay balls come from breaking clay blocks, which generate underwater in rivers, swamps, beaches and lush caves.",
+    "quickAnswer": "Smelt clay balls in a regular furnace to make brick items, then put four brick items in a 2×2 square to make one brick block. A blast furnace cannot smelt clay. Breaking one clay block gives the four balls needed for one brick block.",
     "steps": [
-      "Find clay blocks: look underwater in rivers, swamps, lakes, beaches and shallow oceans, or in lush caves. Mason houses in villages often have some too.",
-      "Break the clay blocks with any tool (a shovel is fastest). Each block drops 4 clay balls, Fortune does not increase this, and Silk Touch drops the block itself.",
-      "Smelt each clay ball in a furnace or blast furnace with any fuel: 1 clay ball gives 1 brick item.",
-      "Craft 4 brick items in a 2x2 square on a crafting table (or your inventory grid) to get 1 brick block.",
-      "Decorative variants: put brick blocks in a stonecutter for brick stairs, slabs and walls, or craft them directly.",
-      "Flower pots: 3 brick items in a V shape make a flower pot for decorating with plants."
+      "Collect clay from shallow water or lush cave ponds. A shovel is fastest.",
+      "Break each clay block without Silk Touch to get four clay balls. Fortune does not increase this drop.",
+      "Smelt the balls in a regular furnace with fuel: one clay ball makes one brick item. A blast furnace does not work.",
+      "Put four brick items in a 2×2 square in your inventory or a crafting table to make one brick block.",
+      "Use finished brick blocks in a stonecutter for stairs, slabs or walls. Mine placed brick blocks with any pickaxe.",
+      "Keep individual brick items for flower pots: three in a V shape make one pot."
     ],
     "materials": [
-      "Clay balls (from clay blocks under water)",
-      "Furnace or blast furnace + fuel",
-      "Crafting table"
+      "4 clay balls per brick block",
+      "Regular furnace and fuel",
+      "Any pickaxe to recover placed brick blocks"
     ],
-    "editionNote": "The process is identical in Java and Bedrock. In both editions, breaking clay without Silk Touch always drops exactly 4 clay balls regardless of the tool.",
+    "editionNote": "The clay-to-brick recipe works in Java and Bedrock. Clay balls make brick items; whole clay blocks smelt into terracotta instead. Novice mason villagers also sell brick items, not finished brick blocks.",
     "versions": [
-      "Alpha 1.0.11 (bricks and clay added)"
+      "java",
+      "bedrock"
     ],
     "faq": [
       {
-        "q": "Where do you find clay in Minecraft?",
-        "a": "Underwater in rivers, swamps, lakes and beaches, plus lush caves. Look for light gray discs on the water floor. Villages with a mason often have clay blocks or a stonecutter yard too."
+        "q": "Can a blast furnace make bricks?",
+        "a": "No. Use a regular furnace. A blast furnace does not accept clay balls."
       },
       {
-        "q": "Can you craft clay balls back into a clay block?",
-        "a": "Yes: 4 clay balls in a 2x2 square make 1 clay block, handy for compact storage."
+        "q": "How much clay makes 64 brick blocks?",
+        "a": "64 clay blocks drop 256 clay balls. Smelt all 256 balls into brick items, then craft them into 64 brick blocks."
       },
       {
-        "q": "How many bricks do you need for a full brick house?",
-        "a": "A lot: each brick block costs 4 smelted clay balls, so a single stack of 64 brick blocks means 256 clay balls and 256 smelting operations. A blast furnace cuts the smelting time in half."
+        "q": "Do masons sell brick blocks?",
+        "a": "They sell individual brick items at novice level. Craft four items together to make a block."
       },
       {
-        "q": "Can villagers give you bricks?",
-        "a": "Yes. Mason villagers sell brick blocks for emeralds at higher levels, and in Java they may throw bricks at you with the Hero of the Village effect."
+        "q": "Why did my clay become terracotta?",
+        "a": "You smelted a whole clay block. Break the block into clay balls first if you want bricks."
       }
     ],
     "relatedGuides": [
-      "how-to-make-stone-bricks",
-      "how-to-make-mud-bricks",
+      "how-to-get-clay",
       "how-to-make-furnace",
-      "how-to-make-a-blast-furnace"
+      "how-to-make-a-stonecutter",
+      "how-to-make-mud-bricks"
     ],
     "relatedLinks": [
       {
-        "url": "https://minecraft.wiki/w/Bricks",
-        "label": "Bricks - Minecraft Wiki"
+        "url": "/guides/how-to-get-clay/",
+        "label": "Get Clay"
+      },
+      {
+        "url": "/guides/how-to-make-furnace/",
+        "label": "Make a Furnace"
+      },
+      {
+        "url": "/guides/how-to-make-a-stonecutter/",
+        "label": "Make a Stonecutter"
+      },
+      {
+        "url": "/guides/how-to-make-mud-bricks/",
+        "label": "Make Mud Bricks"
       }
     ],
     "keywords": [

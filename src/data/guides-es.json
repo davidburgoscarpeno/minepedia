@@ -4483,41 +4483,43 @@
     "keywords": "cómo conseguir pumpkins minecraft, granja de pumpkins minecraft, dónde aparecen las pumpkins, pumpkin seeds minecraft, carved pumpkin enderman"
   },
   "how-to-get-clay": {
-    "name": "Cómo conseguir Clay en Minecraft",
-    "shortTitle": "Conseguir Clay",
-    "quickAnswer": "Desentierra los discos grises de clay en ríos, lagos y swamps poco profundos (4 clay balls por bloque), encuentra enormes cantidades en el suelo de las pozas de las lush caves, o convierte mud en clay colocándola sobre un pointed dripstone (~6,5 minutos por bloque).",
+    "name": "Cómo conseguir arcilla en Minecraft",
+    "shortTitle": "Conseguir arcilla",
+    "quickAnswer": "Busca manchas de arcilla gris en aguas poco profundas o en el suelo de las pozas de cuevas frondosas. Cada bloque suelta cuatro bolas si lo rompes sin Toque de seda. Para obtener arcilla renovable, coloca barro sobre un bloque con una estalactita de espeleotema puntiagudo debajo y espera.",
     "steps": [
-      "Busca en aguas poco profundas: el clay genera como discos con forma de cristal bajo el agua en ríos, lagos y océanos someros en biomas con grass, y es común en los swamps. Una shovel es la herramienta más rápida.",
-      "Cada bloque de clay suelta 4 clay balls. Silk Touch suelta el bloque entero; Fortune NO aumenta el drop.",
-      "Farmea lush caves: el clay genera en grandes cantidades en el suelo de las pozas de las lush caves, además de vetas bajo tierra. Una sola lush cave puede dar stacks enteros.",
-      "Convierte mud en clay: coloca un bloque de mud encima de un bloque con un pointed dripstone colgando debajo. Cada random tick tiene un ~17,6% de probabilidad de convertirla, unos 6,5 minutos de media por bloque. No funciona en el Nether.",
-      "Revisa villages: las casas de mason en villages de plains, savanna y desert contienen clay, y los villagers mason novatos compran 10 clay balls por 1 emerald cuando quieras emeralds de vuelta.",
-      "Usos: funde clay balls en bricks (4 bricks craftean un brick block) y funde bloques de clay en terracotta, la base de todos los bloques de construcción esmaltados y teñidos."
+      "Busca arcilla gris en ríos, lagos y pantanos poco profundos, o explora las pozas de cuevas frondosas.",
+      "Usa cualquier herramienta; la pala es lo más rápido. Cada bloque suelta cuatro bolas de arcilla.",
+      "Usa Toque de seda para recoger el bloque entero. Fortuna no aumenta la cantidad de bolas.",
+      "Para producir arcilla renovable, coloca espeleotema puntiagudo colgando bajo un bloque de soporte y pon barro directamente encima de ese bloque.",
+      "Espera a que el barro se convierta en arcilla. El proceso depende de actualizaciones aleatorias, no de un tiempo fijo. No funciona en el Nether.",
+      "Funde bolas de arcilla para obtener ladrillos o bloques enteros para obtener terracota. Cuatro bolas en un cuadrado de 2×2 también reconstruyen un bloque de arcilla."
     ],
     "materials": [
-      "Shovel (la más rápida para clay)",
-      "Doors o water breathing para cavar bajo el agua",
-      "Pointed dripstone + mud (granja de conversión)",
-      "Shovel con Silk Touch (opcional, conserva bloques)"
+      "Pala para minar más rápido",
+      "Herramienta con Toque de seda para conservar bloques (opcional)",
+      "Barro, bloque de soporte y espeleotema puntiagudo para la conversión (opcional)"
     ],
-    "editionNote": "Las mecánicas son iguales en ambas ediciones. En Java, los villagers mason además te lanzan bloques de clay mientras tienes Hero of the Village. La conversión de mud con dripstone funciona en Java y Bedrock, pero nunca en el Nether.",
-    "versions": "El clay se añadió en Java Alpha v1.0.11 (julio de 2010), y los discos de clay submarinos llegaron en la Beta 1.8. La conversión de mud y el clay de las lush caves llegaron con la 1.19 (The Wild Update).",
+    "editionNote": "La recogida y la conversión de barro funcionan en Java y Bedrock. La conversión no funciona en el Nether. En Java, los albañiles pueden regalar bloques de arcilla a jugadores con Héroe de la aldea.",
+    "versions": [
+      "java",
+      "bedrock"
+    ],
     "faq": [
       {
-        "q": "¿Dónde es más común el clay en Minecraft?",
-        "a": "Las lush caves tienen las mayores concentraciones: suelos de pozas y vetas subterráneas. En la superficie, los swamps y ríos poco profundos tienen más discos de clay submarinos."
+        "q": "¿Dónde puedo encontrar mucha arcilla?",
+        "a": "En el suelo de las pozas de cuevas frondosas. Las aguas poco profundas de la superficie son otra fuente práctica."
       },
       {
-        "q": "¿Cómo se convierte mud en clay?",
-        "a": "Coloca un pointed dripstone colgando bajo un bloque sólido y pon un bloque de mud encima. El dripstone drena el agua: cada random tick tiene un ~17,6% de probabilidad de convertir la mud en clay, unos 6,5 minutos de media."
+        "q": "¿Cómo se convierte el barro en arcilla?",
+        "a": "Pon barro sobre un bloque con espeleotema puntiagudo colgando debajo y espera. La conversión depende de actualizaciones aleatorias, no de una cuenta atrás garantizada."
       },
       {
-        "q": "¿Fortune da más clay?",
-        "a": "No. Un bloque de clay siempre suelta exactamente 4 clay balls sin importar el nivel de Fortune. Usa Silk Touch si quieres el bloque entero."
+        "q": "¿Fortuna proporciona más arcilla?",
+        "a": "No. Sin Toque de seda, cada bloque suelta cuatro bolas, independientemente de Fortuna."
       },
       {
-        "q": "¿Qué se puede hacer con clay?",
-        "a": "Funde clay balls en bricks (4 bricks = 1 brick block) para construcciones de ladrillo y flower pots, y funde bloques de clay en terracotta, que puedes teñir en 16 colores y esmaltar con patrones."
+        "q": "¿Qué diferencia hay entre bolas y bloques de arcilla?",
+        "a": "Las bolas se funden en ladrillos; los bloques enteros, en terracota. Cuatro bolas vuelven a formar un bloque."
       }
     ],
     "relatedGuides": [
@@ -4527,16 +4529,20 @@
     ],
     "relatedLinks": [
       {
-        "label": "Lush Caves",
-        "href": "/es/biomes/lush-caves/"
+        "url": "/es/guides/how-to-make-bricks/",
+        "label": "Hacer ladrillos"
       },
       {
-        "label": "Swamp",
-        "href": "/es/biomes/swamp/"
+        "url": "/es/guides/how-to-make-mud/",
+        "label": "Hacer barro"
       },
       {
-        "label": "Village",
-        "href": "/es/structures/village/"
+        "url": "/es/guides/how-to-find-lush-caves/",
+        "label": "Encontrar Lush Caves"
+      },
+      {
+        "url": "/es/guides/how-to-find-dripstone-caves/",
+        "label": "Encontrar Dripstone Caves"
       }
     ],
     "keywords": "cómo conseguir clay minecraft, dónde encontrar clay minecraft, mud a clay dripstone, granja de clay minecraft, bricks terracotta minecraft"
@@ -21651,48 +21657,61 @@
   },
   "how-to-make-bricks": {
     "slug": "how-to-make-bricks",
-    "name": "Cómo hacer bricks en Minecraft",
-    "shortTitle": "Hacer bricks",
-    "quickAnswer": "Funde clay balls en un furnace para conseguir bricks (ítem), y luego craftea 4 bricks en un cuadrado 2x2 para hacer 1 brick block. Los clay balls salen al romper clay blocks, que se generan bajo el agua en rivers, swamps, beaches y lush caves.",
+    "name": "Cómo hacer ladrillos en Minecraft",
+    "shortTitle": "Hacer ladrillos",
+    "quickAnswer": "Funde bolas de arcilla en un horno normal para obtener ladrillos sueltos. Coloca cuatro ladrillos en un cuadrado de 2×2 para hacer un bloque de ladrillos. El alto horno no sirve para la arcilla. Un bloque de arcilla proporciona las cuatro bolas necesarias para un bloque de ladrillos.",
     "steps": [
-      "Encuentra clay blocks: mira bajo el agua en rivers, swamps, lagos, beaches y océanos poco profundos, o en lush caves. Las casas de mason en las aldeas suelen tener también.",
-      "Rompe los clay blocks con cualquier herramienta (la shovel es lo más rápido). Cada bloque suelta 4 clay balls, Fortune no aumenta esto, y Silk Touch suelta el bloque entero.",
-      "Funde cada clay ball en un furnace o blast furnace con cualquier combustible: 1 clay ball da 1 brick (ítem).",
-      "Craftea 4 bricks en un cuadrado 2x2 en una crafting table (o en tu cuadrícula del inventario) para conseguir 1 brick block.",
-      "Variantes decorativas: mete los brick blocks en un stonecutter para sacar brick stairs, slabs y walls, o craftéalas directamente.",
-      "Flower pots: 3 bricks en forma de V hacen una flower pot para decorar con plantas."
+      "Recoge arcilla en aguas poco profundas o en las pozas de cuevas frondosas. Una pala es lo más rápido.",
+      "Rompe cada bloque sin Toque de seda para obtener cuatro bolas de arcilla. Fortuna no aumenta la cantidad.",
+      "Funde las bolas en un horno normal con combustible: cada bola produce un ladrillo. El alto horno no funciona.",
+      "Coloca cuatro ladrillos sueltos en un cuadrado de 2×2 del inventario o una mesa de trabajo para hacer un bloque de ladrillos.",
+      "Usa los bloques terminados en un cortapiedras para hacer escaleras, losas o muros. Recoge los bloques colocados con cualquier pico.",
+      "Reserva ladrillos sueltos para macetas: tres en forma de V producen una maceta."
     ],
     "materials": [
-      "Clay balls (de clay blocks bajo el agua)",
-      "Furnace o blast furnace + combustible",
-      "Crafting table"
+      "4 bolas de arcilla por bloque de ladrillos",
+      "Horno normal y combustible",
+      "Cualquier pico para recuperar los bloques colocados"
     ],
-    "editionNote": "El proceso es idéntico en Java y Bedrock. En ambas ediciones, romper clay sin Silk Touch siempre suelta exactamente 4 clay balls con cualquier herramienta.",
+    "editionNote": "La receta funciona en Java y Bedrock. Las bolas de arcilla producen ladrillos; los bloques enteros de arcilla se funden en terracota. Los aldeanos albañiles de nivel novato venden ladrillos sueltos, no bloques terminados.",
     "versions": [
-      "Alpha 1.0.11 (bricks y clay añadidos)"
+      "java",
+      "bedrock"
     ],
     "faq": [
       {
-        "q": "¿Dónde se encuentra clay en Minecraft?",
-        "a": "Bajo el agua en rivers, swamps, lagos y beaches, además de en lush caves. Busca discos gris claro en el fondo. Las aldeas con un mason también suelen tener clay blocks."
+        "q": "¿El alto horno sirve para hacer ladrillos?",
+        "a": "No. Usa un horno normal. El alto horno no acepta bolas de arcilla."
       },
       {
-        "q": "¿Se pueden volver a craftear los clay balls en un clay block?",
-        "a": "Sí: 4 clay balls en un cuadrado 2x2 hacen 1 clay block, útil para almacenar de forma compacta."
+        "q": "¿Cuánta arcilla hace falta para 64 bloques de ladrillos?",
+        "a": "64 bloques de arcilla sueltan 256 bolas. Funde las 256 bolas y combina los ladrillos resultantes para fabricar 64 bloques."
       },
       {
-        "q": "¿Cuántos bricks hacen falta para una casa entera?",
-        "a": "Muchos: cada brick block cuesta 4 clay balls fundidas, así que un stack de 64 brick blocks son 256 clay balls y 256 fundiciones. Un blast furnace reduce el tiempo a la mitad."
+        "q": "¿Los albañiles venden bloques de ladrillos?",
+        "a": "Venden ladrillos sueltos desde el nivel novato. Combina cuatro para fabricar un bloque."
       },
       {
-        "q": "¿Te pueden dar bricks los aldeanos?",
-        "a": "Sí. Los mason venden brick blocks por emeralds en niveles altos, y en Java pueden lanzarte bricks con el efecto Hero of the Village."
+        "q": "¿Por qué mi arcilla se convirtió en terracota?",
+        "a": "Fundiste un bloque entero. Rómpelo en bolas de arcilla antes de fundirlo si quieres ladrillos."
       }
     ],
     "relatedLinks": [
       {
-        "url": "https://minecraft.wiki/w/Bricks",
-        "label": "Bricks - Minecraft Wiki"
+        "url": "/es/guides/how-to-get-clay/",
+        "label": "Conseguir Clay"
+      },
+      {
+        "url": "/es/guides/how-to-make-furnace/",
+        "label": "Hacer un Furnace"
+      },
+      {
+        "url": "/es/guides/how-to-make-a-stonecutter/",
+        "label": "Hacer un cortapiedras"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-bricks/",
+        "label": "Hacer ladrillos de barro"
       }
     ]
   },
