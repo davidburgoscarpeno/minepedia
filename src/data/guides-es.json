@@ -15638,51 +15638,64 @@
     ]
   },
   "how-to-make-mud-bricks": {
+    "slug": "how-to-make-mud-bricks",
     "name": "Cómo hacer ladrillos de barro en Minecraft",
     "shortTitle": "Hacer ladrillos de barro",
-    "quickAnswer": "Craftea packed mud con 1 mud + 1 wheat, y luego 4 packed mud en 4 mud bricks. La mud sale de water bottles sobre dirt (o de los mangrove swamps). Las mud bricks también hacen stairs, slabs y walls: el bloque marrón perfecto para ruinas del desierto.",
+    "quickAnswer": "Coloca cuatro bloques de barro compacto en un cuadrado de 2×2 para fabricar cuatro bloques de ladrillos de barro. Cada bloque compacto se hace con un bloque de barro y una unidad de trigo. Los ladrillos sirven para escaleras, losas y muros.",
     "steps": [
-      "Consigue mud: usa una water bottle sobre cualquier bloque de dirt (dirt, coarse dirt o rooted dirt), o excávala directamente en un mangrove swamp con una shovel.",
-      "Craftea packed mud: 1 mud + 1 wheat en cualquier posición de la cuadrícula da 1 packed mud. La wheat sale de cualquier pequeña granja de trigo.",
-      "Craftea mud bricks: 4 packed mud en un cuadrado 2x2 dan 4 mud bricks. Cualquier pickaxe las mina; otras herramientas no sueltan nada.",
-      "Amplía el set: las mud bricks se craftean (o cortan en el stonecutter) en stairs, slabs y walls de mud brick: el stonecutter no desperdicia nada.",
-      "Fuente alternativa: las mud bricks se generan de forma natural dentro de las trail ruins, así que los viajes de arqueología sirven también como acarreo de materiales.",
-      "Escala con automatización: un dispenser disparando water bottles a dirt crea mud sin manos: mira nuestra guía de granja de clay para el diseño completo con celdas de dripstone que además renueva la materia prima."
+      "Consigue barro usando un frasco con agua sobre tierra o recogiéndolo en un manglar.",
+      "Combina un bloque de barro con una unidad de trigo para obtener un bloque de barro compacto.",
+      "Reúne cuatro bloques compactos y colócalos en un cuadrado de 2×2 en el inventario o una mesa de trabajo.",
+      "Recoge cuatro bloques de ladrillos de barro.",
+      "Para fabricar escaleras, losas o muros, usa los ladrillos terminados en una mesa o un cortapiedras.",
+      "Recoge los ladrillos colocados con cualquier pico. A mano o con otra herramienta no sueltan nada."
     ],
     "materials": [
-      "Mud (water bottle + dirt, o un mangrove swamp)",
-      "Wheat: 1 por packed mud",
-      "Cualquier pickaxe para recolectar los bricks colocados",
-      "Stonecutter (opcional, para stairs/slabs/walls baratos)"
+      "4 bloques de barro compacto para 4 bloques de ladrillos",
+      "O 4 bloques de barro y 4 unidades de trigo para fabricar el barro compacto",
+      "Pico para recuperar los ladrillos colocados",
+      "Cortapiedras o mesa para fabricar variantes (opcional)"
     ],
-    "editionNote": "Recetas y comportamiento idénticos en Java y Bedrock.",
-    "versions": "Añadidas en Java 1.19 y Bedrock 1.19.0 (The Wild Update, 2022) junto a la mud, los mangrove swamps y la mecánica de mud a clay con dripstone.",
+    "editionNote": "La receta funciona en Java y Bedrock. El cortapiedras ahorra material al fabricar escaleras, pero las losas y los muros tienen el mismo rendimiento que en una mesa de trabajo.",
     "faq": [
       {
-        "q": "¿Qué diferencia hay entre mud, packed mud y mud bricks?",
-        "a": "La mud es el bloque crudo (de dirt + water bottle). La packed mud es mud + wheat: ya es un bloque de construcción. Las mud bricks son 4 packed mud crafteadas juntas: la versión ladrillo pulido con stairs, slabs y walls."
+        "q": "¿Qué diferencia hay entre barro y ladrillos de barro?",
+        "a": "El barro es el material inicial. Barro y trigo producen barro compacto; cuatro bloques compactos producen cuatro de ladrillos."
       },
       {
-        "q": "¿Son renovables las mud bricks?",
-        "a": "Totalmente. La dirt es renovable (coarse dirt + hoe), las water bottles son infinitas y la wheat crece en días: el suministro de mud bricks nunca se agota."
+        "q": "¿Necesito una mesa de trabajo?",
+        "a": "No para los ladrillos: la receta de 2×2 cabe en el inventario. Las recetas de sus escaleras, losas y muros sí necesitan mesa o cortapiedras."
       },
       {
-        "q": "¿Hace falta un pickaxe concreto para las mud bricks?",
-        "a": "Vale cualquier pickaxe, incluso de madera. Minarlas con cualquier otra cosa (o a mano) rompe el bloque sin soltarlo."
+        "q": "¿Qué pico necesito?",
+        "a": "Cualquiera, incluso de madera. Sin pico no recuperas el bloque."
       }
+    ],
+    "versions": [
+      "java",
+      "bedrock"
     ],
     "relatedLinks": [
       {
-        "url": "/farms/clay-farm/",
-        "label": "Granja de Clay (Mud + Dripstone)"
+        "url": "/es/guides/how-to-make-mud/",
+        "label": "Hacer barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-packed-mud/",
+        "label": "Hacer barro compacto"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-stairs/",
+        "label": "Hacer escaleras de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-wall/",
+        "label": "Hacer un muro de ladrillos de barro"
       }
-    ],
-    "keywords": [
-      "cómo hacer mud bricks minecraft",
-      "receta packed mud",
-      "mud brick stairs slab wall",
-      "mud bricks trail ruins",
-      "usos mud minecraft"
     ]
   },
   "how-to-find-deep-dark": {
@@ -16026,56 +16039,63 @@
     ]
   },
   "how-to-make-mud": {
+    "slug": "how-to-make-mud",
     "name": "Cómo hacer barro en Minecraft",
     "shortTitle": "Hacer barro",
-    "quickAnswer": "Usa una water bottle sobre cualquier bloque de dirt, coarse dirt o rooted dirt y se convierte en mud (recuperas la glass bottle). El mud natural cubre los mangrove swamps. Se craftea en packed mud y mud bricks, y se seca hasta clay sobre una pointed dripstone.",
+    "quickAnswer": "Usa un frasco con agua sobre tierra, tierra estéril o tierra enraizada para convertir el bloque en barro. También puedes recoger barro natural en los manglares. Para construir con ladrillos, combina primero barro y trigo.",
     "steps": [
-      "Craftea water bottles: llena glass bottles en cualquier fuente de agua o cauldron.",
-      "Usa una bottle sobre dirt: haz clic derecho en dirt, coarse dirt o rooted dirt con la water bottle. El bloque se convierte en mud y te devuelven la botella vacía: una botella por bloque.",
-      "Automatízalo: un dispenser cargado con water bottles convierte dirt por sí solo, que es como funcionan las granjas automáticas de mud (los dispensers incluso alcanzan la cara inferior, algo que el jugador no puede).",
-      "O excava el natural: los mangrove swamps están alfombrados de mud, y también aparece en trail ruins y en algunas entradas de trial chambers. Un shovel es lo más rápido.",
-      "Craftea los bloques de construcción: mud + wheat hace packed mud, y 4 packed mud hacen 4 mud bricks: una paleta completa de ladrillo marrón cálido con stairs, slabs y walls.",
-      "Sécalo hasta clay: coloca mud encima de un bloque con una pointed dripstone colgando debajo y se convertirá en clay (un 17.6% de probabilidad por random tick, unos 6.5 minutos de media). Esto convierte al mud en la vía renovable de clay: mira nuestra granja de clay.",
-      "Conoce sus peculiaridades: el mud es algo más bajo que un bloque completo: las entidades se hunden un poco en él (sin ralentización, a diferencia del soul sand), la sand cae como objeto sobre él y los hoppers pueden recoger objetos a través de él."
+      "Llena un frasco de cristal con agua.",
+      "Usa el frasco sobre la cara superior o lateral de un bloque de tierra, tierra estéril o tierra enraizada.",
+      "El bloque se convierte en barro. Recógelo a mano o con una pala para hacerlo más rápido.",
+      "Como alternativa, recoge barro natural en un manglar.",
+      "Combina un bloque de barro con una unidad de trigo para hacer barro compacto. Después fabrica ladrillos con cuatro bloques compactos."
     ],
     "materials": [
-      "Glass bottles (3 de glass cada una)",
-      "Dirt de cualquier tipo",
-      "Un shovel para el mud natural de los mangrove swamps",
-      "Wheat para packed mud, pointed dripstone para clay"
+      "Frasco con agua",
+      "Tierra, tierra estéril o tierra enraizada",
+      "Pala para recoger más rápido (opcional)",
+      "Trigo para fabricar barro compacto"
     ],
-    "editionNote": "La conversión y los crafteos son iguales en ambas ediciones; ten en cuenta que el mud nunca se convierte en clay en el Nether en ninguna de las dos.",
-    "versions": "Añadido en Java 1.19 y Bedrock 1.19.0 (The Wild Update, 2022) con el mangrove swamp.",
+    "editionNote": "La conversión funciona en Java y Bedrock. Al usar el frasco a mano, apunta a la cara superior o lateral, no a la inferior. Un dispensador con frascos de agua puede automatizar la conversión.",
     "faq": [
       {
-        "q": "¿Se puede volver de mud a dirt?",
-        "a": "Indirectamente, sí: haz crecer una azalea sobre mud y el mud de debajo se convierte en rooted dirt, que puedes pasar a dirt normal con un hoe. Las spruce grandes convierten el mud en podzol."
+        "q": "¿Necesito encontrar un manglar?",
+        "a": "No. Puedes convertir tierra en barro con un frasco con agua."
       },
       {
-        "q": "¿Es renovable el mud?",
-        "a": "Sí: las water bottles sobre dirt producen mud infinito, y el agua es infinita. Eso también hace renovable el clay con el truco de la dripstone."
+        "q": "¿El barro ralentiza al jugador?",
+        "a": "No. Te hundes ligeramente en él, pero no reduce la velocidad de movimiento."
       },
       {
-        "q": "¿Te ralentiza el mud como el soul sand?",
-        "a": "No. Te hundes unos píxeles en el mud, pero la velocidad de movimiento es normal: es seguro para caminos y granjas."
+        "q": "¿Se puede fabricar un muro directamente con barro?",
+        "a": "No. Primero fabrica barro compacto con trigo y después ladrillos de barro."
       }
+    ],
+    "versions": [
+      "java",
+      "bedrock"
     ],
     "relatedLinks": [
       {
-        "url": "/biomes/mangrove-swamp/",
-        "label": "Mangrove Swamp"
+        "url": "/es/guides/how-to-make-packed-mud/",
+        "label": "Hacer barro compacto"
       },
       {
-        "url": "/farms/clay-farm/",
-        "label": "Granja de Clay"
+        "url": "/es/guides/how-to-make-mud-bricks/",
+        "label": "Hacer ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-stairs/",
+        "label": "Hacer escaleras de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-wall/",
+        "label": "Hacer un muro de ladrillos de barro"
       }
-    ],
-    "keywords": [
-      "cómo hacer mud minecraft",
-      "mud water bottle dirt",
-      "mud a clay minecraft",
-      "receta packed mud",
-      "granja de mud minecraft"
     ]
   },
   "how-to-get-bolt-armor-trim": {
@@ -30976,57 +30996,64 @@
     "slug": "how-to-find-blackstone"
   },
   "how-to-make-packed-mud": {
+    "slug": "how-to-make-packed-mud",
     "name": "Cómo hacer barro compacto en Minecraft",
     "shortTitle": "Hacer barro compacto",
-    "quickAnswer": "Fabrica packed mud combinando 1 bloque de mud y 1 wheat en cualquier posición de la cuadrícula de fabricación. Cuatro packed mud se convierten luego en 4 mud bricks, la base del set de construcción de mud bricks.",
+    "quickAnswer": "Combina un bloque de barro y una unidad de trigo en cualquier posición de una cuadrícula para hacer un bloque de barro compacto. Basta con el inventario. Cuatro bloques compactos en un cuadrado de 2×2 producen cuatro bloques de ladrillos de barro.",
     "steps": [
-      "Consigue mud: usa una water bottle sobre un bloque de dirt (coarse dirt y rooted dirt también valen) para convertirlo, o excávalo en un mangrove swamp.",
-      "Consigue wheat: cultívalo a partir de seeds en farmland, o saquéalo de granjas y cofres de villages.",
-      "Abre la cuadrícula de fabricación del inventario o una crafting table.",
-      "Coloca 1 mud y 1 wheat en cualquier casilla; la receta no tiene forma fija.",
-      "Recoge el packed mud. Cae como bloque incluso rompiéndolo con la mano, aunque un pico es más rápido.",
-      "Para construir con él, convierte 4 packed mud en 4 mud bricks y luego haz stairs, slabs y walls de mud bricks.",
-      "También puedes encontrar packed mud ya generado de forma natural en las trail ruins."
+      "Consigue barro usando un frasco con agua sobre tierra, o recógelo en un manglar.",
+      "Consigue una unidad de trigo por bloque que quieras fabricar.",
+      "Coloca un bloque de barro y una unidad de trigo en cualquier casilla de la cuadrícula del inventario o una mesa de trabajo.",
+      "Recoge un bloque de barro compacto. La receta no exige una forma concreta.",
+      "Para hacer ladrillos, coloca cuatro bloques compactos en un cuadrado de 2×2.",
+      "Recoge el barro compacto colocado a mano o con un pico para hacerlo más rápido."
     ],
     "materials": [
-      "1 mud (water bottle + dirt, o minado en mangrove swamps)",
-      "1 wheat (cultivado o saqueado de villages)",
-      "Crafting table (opcional, vale la cuadrícula 2x2)"
+      "1 bloque de barro",
+      "1 unidad de trigo",
+      "Pico para recoger más rápido (opcional)"
     ],
-    "editionNote": "La receta de packed mud es idéntica en Java y Bedrock y se añadió en la 1.19 junto a los mangrove swamps. En ambas ediciones también se genera como parte de las trail ruins, así que quienes hacen arqueología suelen tenerlo por casa. El wheat es el único aglutinante orgánico que funciona; ni hay bales ni otros cultivos sirven de sustituto.",
+    "editionNote": "La receta funciona en Java y Bedrock y no necesita mesa de trabajo. El barro compacto se recoge incluso a mano; los ladrillos de barro, en cambio, necesitan pico.",
+    "faq": [
+      {
+        "q": "¿La receta necesita una forma concreta?",
+        "a": "No. El barro y el trigo pueden ir en cualquier casilla."
+      },
+      {
+        "q": "¿Para qué sirve el barro compacto?",
+        "a": "Como bloque decorativo y como ingrediente de los ladrillos de barro."
+      },
+      {
+        "q": "¿Necesito pico para recogerlo?",
+        "a": "No, se recoge a mano. Un pico acelera el proceso."
+      }
+    ],
     "versions": [
       "java",
       "bedrock"
     ],
-    "faq": [
-      {
-        "q": "¿Para qué sirve el packed mud?",
-        "a": "Sobre todo para fabricar mud bricks: 4 packed mud hacen 4 mud bricks, que luego se convierten en stairs, slabs y walls. También es un bloque de construcción con buena textura por sí solo."
-      },
-      {
-        "q": "¿Cómo consigo mud sin encontrar un mangrove swamp?",
-        "a": "Apunta con una water bottle a cualquier bloque de dirt, coarse dirt o rooted dirt y úsala: el bloque se convierte en mud y te devuelve la glass bottle vacía. Funciona en cualquier bioma y dimensión."
-      },
-      {
-        "q": "¿La receta de packed mud no tiene forma fija?",
-        "a": "Exacto. El mud y el wheat pueden ir en cualquier casilla de la cuadrícula, así que puedes fabricarlo en la cuadrícula 2x2 del inventario sin crafting table."
-      }
-    ],
     "relatedLinks": [
       {
         "url": "/es/guides/how-to-make-mud/",
-        "label": "Cómo hacer mud"
+        "label": "Hacer barro"
       },
       {
         "url": "/es/guides/how-to-make-mud-bricks/",
-        "label": "Cómo hacer mud bricks"
+        "label": "Hacer ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-find-trail-ruins/",
-        "label": "Cómo encontrar trail ruins"
+        "url": "/es/guides/how-to-make-mud-brick-stairs/",
+        "label": "Hacer escaleras de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-wall/",
+        "label": "Hacer un muro de ladrillos de barro"
       }
-    ],
-    "slug": "how-to-make-packed-mud"
+    ]
   },
   "how-to-find-azalea": {
     "name": "Cómo encontrar azalea en Minecraft",
@@ -34075,16 +34102,24 @@
     ],
     "relatedLinks": [
       {
-        "url": "/es/guides/how-to-make-mud-bricks/",
-        "label": "Hacer ladrillos de barro"
+        "url": "/es/guides/how-to-make-mud/",
+        "label": "Hacer barro"
       },
       {
         "url": "/es/guides/how-to-make-packed-mud/",
         "label": "Hacer barro compacto"
       },
       {
-        "url": "/es/guides/how-to-make-a-stonecutter/",
-        "label": "Hacer un cortapiedras"
+        "url": "/es/guides/how-to-make-mud-bricks/",
+        "label": "Hacer ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-stairs/",
+        "label": "Hacer escaleras de ladrillos de barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
       }
     ]
   },
@@ -34128,16 +34163,24 @@
     ],
     "relatedLinks": [
       {
+        "url": "/es/guides/how-to-make-mud/",
+        "label": "Hacer barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-packed-mud/",
+        "label": "Hacer barro compacto"
+      },
+      {
         "url": "/es/guides/how-to-make-mud-bricks/",
         "label": "Hacer ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-make-mud-brick-wall/",
-        "label": "Hacer un muro de ladrillos de barro"
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-make-a-stonecutter/",
-        "label": "Hacer un cortapiedras"
+        "url": "/es/guides/how-to-make-mud-brick-wall/",
+        "label": "Hacer un muro de ladrillos de barro"
       }
     ]
   },
@@ -34181,6 +34224,14 @@
     ],
     "relatedLinks": [
       {
+        "url": "/es/guides/how-to-make-mud/",
+        "label": "Hacer barro"
+      },
+      {
+        "url": "/es/guides/how-to-make-packed-mud/",
+        "label": "Hacer barro compacto"
+      },
+      {
         "url": "/es/guides/how-to-make-mud-bricks/",
         "label": "Hacer ladrillos de barro"
       },
@@ -34189,8 +34240,8 @@
         "label": "Hacer escaleras de ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-make-a-stonecutter/",
-        "label": "Hacer un cortapiedras"
+        "url": "/es/guides/how-to-make-mud-brick-wall/",
+        "label": "Hacer un muro de ladrillos de barro"
       }
     ]
   }
