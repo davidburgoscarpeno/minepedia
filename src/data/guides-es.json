@@ -15638,8 +15638,8 @@
     ]
   },
   "how-to-make-mud-bricks": {
-    "name": "Cómo hacer mud bricks en Minecraft",
-    "shortTitle": "Hacer mud bricks",
+    "name": "Cómo hacer ladrillos de barro en Minecraft",
+    "shortTitle": "Hacer ladrillos de barro",
     "quickAnswer": "Craftea packed mud con 1 mud + 1 wheat, y luego 4 packed mud en 4 mud bricks. La mud sale de water bottles sobre dirt (o de los mangrove swamps). Las mud bricks también hacen stairs, slabs y walls: el bloque marrón perfecto para ruinas del desierto.",
     "steps": [
       "Consigue mud: usa una water bottle sobre cualquier bloque de dirt (dirt, coarse dirt o rooted dirt), o excávala directamente en un mangrove swamp con una shovel.",
@@ -16026,8 +16026,8 @@
     ]
   },
   "how-to-make-mud": {
-    "name": "Cómo hacer mud en Minecraft",
-    "shortTitle": "Hacer mud",
+    "name": "Cómo hacer barro en Minecraft",
+    "shortTitle": "Hacer barro",
     "quickAnswer": "Usa una water bottle sobre cualquier bloque de dirt, coarse dirt o rooted dirt y se convierte en mud (recuperas la glass bottle). El mud natural cubre los mangrove swamps. Se craftea en packed mud y mud bricks, y se seca hasta clay sobre una pointed dripstone.",
     "steps": [
       "Craftea water bottles: llena glass bottles en cualquier fuente de agua o cauldron.",
@@ -18420,53 +18420,54 @@
     ]
   },
   "how-to-make-a-stonecutter": {
-    "name": "Cómo hacer un stonecutter en Minecraft",
-    "shortTitle": "Hacer un stonecutter",
-    "quickAnswer": "Fabrica un stonecutter con 1 iron ingot sobre 3 bloques de stone en fila. Corta bloques de piedra en slabs, stairs, walls y otras variantes de uno en uno sin desperdiciar materiales, y es el bloque de trabajo del aldeano mason.",
+    "slug": "how-to-make-a-stonecutter",
+    "name": "Cómo hacer un cortapiedras en Minecraft",
+    "shortTitle": "Hacer un cortapiedras",
+    "quickAnswer": "Fabrica un cortapiedras con un lingote de hierro encima de una fila de tres bloques de piedra. Usa piedra normal, no piedra lisa, para la receta válida en Java y Bedrock. Su menú permite fabricar escaleras, losas, muros y otras variantes.",
     "steps": [
-      "Funde 3 cobblestone en un furnace para obtener smooth stone.",
-      "Reúne 1 iron ingot.",
-      "Abre la crafting table.",
-      "Coloca el iron ingot en la ranura central de la fila del medio.",
-      "Coloca los 3 bloques de stone en fila en la parte inferior.",
-      "Recoge el stonecutter. También puedes encontrarlos ya colocados en las casas de los masons de las aldeas.",
-      "Úsalo poniendo un bloque de piedra en la ranura de entrada y elige cualquier variante de la lista: stairs, slabs, walls, formas pulidas y cortadas, un clic por pieza sin formas de rejilla que memorizar."
+      "Funde tres bloques de adoquines una vez en un horno para obtener piedra normal. No vuelvas a fundirla: eso produce piedra lisa.",
+      "Reúne un lingote de hierro y abre una mesa de trabajo.",
+      "Pon el lingote en la casilla central de la fila del medio.",
+      "Llena la fila inferior con tres bloques de piedra y recoge el cortapiedras.",
+      "Colócalo, abre su menú y pon un bloque compatible en la entrada.",
+      "Selecciona una salida. Las escaleras de piedra suelen dar una por bloque y las losas dos; comprueba la cantidad mostrada antes de recogerla."
     ],
     "materials": [
-      "1 iron ingot",
-      "3 bloques de stone (cobblestone fundido)"
+      "1 lingote de hierro",
+      "3 bloques de piedra normal (adoquines fundidos una vez)",
+      "Mesa de trabajo"
     ],
-    "editionNote": "El stonecutter funciona igual en Java y Bedrock y se añadió en 1.14. Su gran ventaja es la eficiencia: las stairs de piedra salen una a una en vez de las 6 bloques por 4 stairs de la crafting table, así que no se desperdicia nada. Un aldeano que reclama un stonecutter se convierte en mason, que vende bricks, quartz y glazed terracotta.",
+    "editionNote": "Java usa tres bloques de piedra normal y un lingote de hierro. Bedrock también acepta granito, diorita, andesita y sus variantes pulidas combinados. La piedra normal funciona en ambas ediciones. El cortapiedras ahorra material en escaleras (una por bloque frente a cuatro por seis bloques); las losas tienen el mismo rendimiento que en una mesa.",
     "versions": [
       "java",
       "bedrock"
     ],
     "faq": [
       {
-        "q": "¿Qué hace un stonecutter en Minecraft?",
-        "a": "Convierte bloques de piedra en sus variantes (slabs, stairs, walls, formas pulidas, cortadas y cinceladas) de uno en uno desde un menú. Es más simple que la crafting table y desperdicia menos materiales."
+        "q": "¿La receta usa piedra normal o lisa?",
+        "a": "Piedra normal. Funde adoquines una vez para obtenerla; una segunda fundición produce piedra lisa, que no es el ingrediente de la receta compartida."
       },
       {
-        "q": "¿Es un stonecutter mejor que una crafting table?",
-        "a": "Para variantes de piedra, sí. Las stairs salen 1:1 en vez de 6 bloques por solo 4 stairs, y las slabs salen 1:2 sin formas sobrantes. Para todo lo que no sea piedra sigue haciendo falta la crafting table."
+        "q": "¿El cortapiedras siempre ahorra material?",
+        "a": "No. Ahorra bloques en escaleras, pero las losas dan dos por bloque tanto en mesa como en cortapiedras. También permite tandas más pequeñas."
       },
       {
-        "q": "¿Qué aldeano usa un stonecutter?",
-        "a": "El mason. Un aldeano desempleado que reclama un stonecutter se convierte en mason, compra clay y quartz, y vende bricks, piedras pulidas, bloques de quartz y glazed terracotta."
+        "q": "¿Puedo usar andesita, granito o diorita?",
+        "a": "Bedrock acepta esos bloques y sus variantes pulidas. Usa piedra normal en Java o si quieres una receta válida en ambas ediciones."
       }
     ],
     "relatedLinks": [
       {
-        "url": "/es/guides/how-to-make-a-grindstone/",
-        "label": "Cómo hacer un grindstone"
+        "url": "/es/guides/how-to-make-mud-brick-stairs/",
+        "label": "Hacer escaleras de ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-make-a-smoker/",
-        "label": "Cómo hacer un smoker"
+        "url": "/es/guides/how-to-make-mud-brick-slab/",
+        "label": "Hacer losas de ladrillos de barro"
       },
       {
-        "url": "/es/guides/how-to-breed-villagers/",
-        "label": "Cómo criar villagers"
+        "url": "/es/guides/how-to-make-quartz-pillar/",
+        "label": "Hacer un pilar de cuarzo"
       }
     ]
   },
@@ -30975,8 +30976,8 @@
     "slug": "how-to-find-blackstone"
   },
   "how-to-make-packed-mud": {
-    "name": "Cómo hacer packed mud en Minecraft",
-    "shortTitle": "Packed mud",
+    "name": "Cómo hacer barro compacto en Minecraft",
+    "shortTitle": "Hacer barro compacto",
     "quickAnswer": "Fabrica packed mud combinando 1 bloque de mud y 1 wheat en cualquier posición de la cuadrícula de fabricación. Cuatro packed mud se convierten luego en 4 mud bricks, la base del set de construcción de mud bricks.",
     "steps": [
       "Consigue mud: usa una water bottle sobre un bloque de dirt (coarse dirt y rooted dirt también valen) para convertirlo, o excávalo en un mangrove swamp.",
@@ -32048,8 +32049,8 @@
   },
   "how-to-make-sandstone": {
     "slug": "how-to-make-sandstone",
-    "name": "Cómo hacer sandstone en Minecraft",
-    "shortTitle": "Hacer sandstone",
+    "name": "Cómo hacer arenisca en Minecraft",
+    "shortTitle": "Hacer arenisca",
     "quickAnswer": "Pon cuatro sand en un cuadrado 2x2 para hacer un sandstone. Usa cuatro red sand para red sandstone. Para la variante smooth, funde sandstone en un furnace; el stonecutter hace variantes cut o chiseled, no smooth sandstone.",
     "steps": [
       "Recoge cuatro sand por sandstone, o cuatro red sand por red sandstone. No mezcles los dos tipos en la receta.",
@@ -32105,8 +32106,8 @@
   },
   "how-to-make-quartz-block": {
     "slug": "how-to-make-quartz-block",
-    "name": "Cómo hacer un quartz block en Minecraft",
-    "shortTitle": "Hacer un quartz block",
+    "name": "Cómo hacer un bloque de cuarzo en Minecraft",
+    "shortTitle": "Hacer un bloque de cuarzo",
     "quickAnswer": "Combina cuatro nether quartz en un cuadrado 2x2 para hacer un block of quartz. Fúndelo para smooth quartz o usa un stonecutter para pillars, bricks y chiseled quartz. No se puede convertir de nuevo en nether quartz.",
     "steps": [
       "Consigue cuatro nether quartz por bloque.",

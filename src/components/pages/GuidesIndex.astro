@@ -10,6 +10,12 @@ const { lang } = Astro.props;
 const isES = lang === 'es';
 const list = isES ? guides.filter((g: any) => (guidesEs as any)[g.slug]) : guides;
 
+const topics = [
+  { en: 'Mud and building blocks', es: 'Barro y construcción', slugs: ['how-to-make-mud', 'how-to-make-packed-mud', 'how-to-make-mud-bricks', 'how-to-make-mud-brick-stairs', 'how-to-make-mud-brick-slab', 'how-to-make-mud-brick-wall'] },
+  { en: 'Quartz variants', es: 'Variantes de cuarzo', slugs: ['how-to-make-quartz-block', 'how-to-make-smooth-quartz', 'how-to-make-quartz-bricks', 'how-to-make-quartz-pillar', 'how-to-make-chiseled-quartz'] },
+  { en: 'Sandstone variants', es: 'Variantes de arenisca', slugs: ['how-to-make-sandstone', 'how-to-make-smooth-sandstone', 'how-to-make-cut-sandstone', 'how-to-make-chiseled-sandstone', 'how-to-make-red-sandstone'] },
+  { en: 'Crafting and fuel', es: 'Fabricación y combustible', slugs: ['how-to-make-a-stonecutter', 'how-to-make-furnace', 'how-to-make-campfire', 'how-to-make-dried-kelp-block'] }
+];
 const L = isES ? {
   title: 'Guías de Minecraft',
   desc: 'Guías perennes de Minecraft: cómo encontrar diamantes, hacer un portal al Nether, domar caballos, criar aldeanos, conseguir las elytra, encantar y más. Java y Bedrock.',
@@ -32,6 +38,19 @@ const L = isES ? {
     <h1>{L.h1}</h1>
     <p class="sub">{L.sub}</p>
     <SearchBox placeholder={L.placeholder} />
+    <section aria-label={isES ? 'Guías por tema' : 'Guides by topic'} style="margin:24px 0">
+      <h2>{isES ? 'Explora por tema' : 'Explore by topic'}</h2>
+      <div class="grid-cards">
+        {topics.map(topic => <div class="card">
+          <h3>{isES ? topic.es : topic.en}</h3>
+          <ul>{topic.slugs.map(slug => {
+            const guide = guides.find(g => g.slug === slug);
+            const label = isES ? (guidesEs as any)[slug]?.shortTitle : guide?.shortTitle;
+            return <li style="margin:8px 0"><a href={L.base + slug + '/'}>{label}</a></li>;
+          })}</ul>
+        </div>)}
+      </div>
+    </section>
     <GameShot id="guides-block-breaking" />
     <div class="grid-cards" style="margin-top:24px">
       {list.map((g: any) => {
