@@ -240,7 +240,7 @@
     "name": "Cow",
     "type": "Passive",
     "health": "10 (5 hearts)",
-    "where": "Grassy biomes of the Overworld, in herds of up to 4. Needs grass and light level 9+ to spawn (Java).",
+    "where": "Most grassy biomes of the Overworld, except snowy plains, meadows, cherry groves, mangrove swamps and pale gardens.",
     "howToKill": "Any weapon; it runs when hit. Looting increases leather and beef drops.",
     "drops": [
       {
@@ -254,9 +254,9 @@
         "notes": "Books, item frames, leather armor"
       }
     ],
-    "spawnConditions": "Grass blocks with light level 9 or higher (Java), 2 blocks of space. Also spawns with world generation.",
-    "behavior": "Wanders, follows players holding wheat, can be milked with a bucket for infinite milk.",
-    "tameOrBreed": "Breed two adults with wheat. Baby grows up in 20 minutes (faster if fed wheat).",
+    "spawnConditions": "On well-lit grass blocks with at least two blocks of space above. Herds of four in Java, 2-3 in Bedrock. Also in village pens at world generation.",
+    "behavior": "Wanders, follows players holding wheat within six blocks, and can be milked with a bucket. Three variants (temperate, cold, warm). Baby cows drop nothing. Source: minecraft.wiki Cow.",
+    "tameOrBreed": "Breed two adults with wheat.",
     "editions": [
       "java",
       "bedrock"
@@ -274,18 +274,18 @@
     "name": "Pig",
     "type": "Passive",
     "health": "10 (5 hearts)",
-    "where": "Grassy biomes of the Overworld, in herds. Common everywhere except snowy and badlands biomes.",
+    "where": "Most grassy biomes of the Overworld, except snowy plains, meadows, mangrove swamps and pale gardens.",
     "howToKill": "Any weapon; it flees when hurt. Kills by fire drop cooked porkchops directly.",
     "drops": [
       {
         "item": "Raw Porkchop (Cooked if killed by fire)",
         "qty": "1-3 (up to 6 with Looting III)",
-        "notes": "Cooked porkchop is a top-tier food (8 hunger points)"
+        "notes": "Cook it for food"
       }
     ],
-    "spawnConditions": "Grass blocks with light level 9 or higher (Java).",
-    "behavior": "Wanders, follows players holding carrots, potatoes or beetroots. Can be saddled and steered with a carrot on a stick.",
-    "tameOrBreed": "Breed two adults with carrots, potatoes or beetroots.",
+    "spawnConditions": "On grass blocks. Groups of 4 in Java, 1 to 3 in Bedrock; 5% spawn as babies. Also in village pens at world generation.",
+    "behavior": "Wanders and flees briefly when hurt. Can be ridden with a saddle and a carrot on a stick; they cannot spawn with a saddle. Three variants (temperate, cold, warm). Baby pigs drop nothing. Source: minecraft.wiki Pig.",
+    "tameOrBreed": "Breed two adults with carrots or potatoes.",
     "editions": [
       "java",
       "bedrock"
@@ -562,7 +562,7 @@
     "type": "Neutral",
     "health": "16 (8 hearts)",
     "where": "Crimson forests, Nether wastes and bastion remnants.",
-    "howToKill": "Wear at least one piece of gold armor and they leave you alone. They flee from soul fire, soul torches, soul lanterns and zoglins. If you fight, a shield blocks crossbow shots; melee piglins hit hard, so pillar up.",
+    "howToKill": "Wear at least one piece of golden armor and they stay neutral. If you fight, a shield blocks crossbow shots; melee piglins hit hard, so pillar up.",
     "drops": [
       {
         "item": "Held item (gold sword or crossbow)",
@@ -575,9 +575,9 @@
         "notes": "Not a drop: throw a gold ingot at an adult piglin and it throws back items - ender pearls, obsidian, quartz, string, fire charges, iron nuggets, Soul Speed books and more"
       }
     ],
-    "spawnConditions": "Light level 11 or lower in crimson forests and Nether wastes; always in bastions. Does not spawn on nether wart blocks.",
-    "behavior": "Attacks players not wearing gold, and anyone who opens a chest or mines gold blocks/ore nearby. Piglins that travel to the Overworld or End zombify after 15 seconds.",
-    "tameOrBreed": "Cannot be tamed or bred. Adults barter; baby piglins take gold but never barter back.",
+    "spawnConditions": "Groups of 4 in nether wastes and 3-4 in crimson forests, at light level 11 or less in Java (7 or less in Bedrock); also generated in bastion remnants. They do not spawn on nether wart or magma blocks. 20% (Java) or 5% (Bedrock) spawn as babies.",
+    "behavior": "Neutral: hostile unless you wear golden armor. Adults spawn with a golden sword (45%), golden spear (5%) or crossbow (50%), and 10% per armor slot. Baby piglins never grow up, are passive and take gold without giving anything back. Source: minecraft.wiki Piglin.",
+    "tameOrBreed": "Cannot be tamed. Adults barter for gold ingots; baby piglins take gold but give nothing back.",
     "editions": [
       "java",
       "bedrock"

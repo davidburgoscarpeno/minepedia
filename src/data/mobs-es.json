@@ -85,11 +85,11 @@
   },
   "cow": {
     "type": "Pacífico",
-    "where": "Biomas con hierba del Overworld, en manadas de hasta 4. Necesita hierba y nivel de luz 9+ para aparecer (Java).",
-    "spawnConditions": "Bloques de hierba con nivel de luz 9 o más (Java), 2 bloques de espacio. También aparece con la generación del mundo.",
+    "where": "Casi todos los biomas con hierba del Overworld, salvo llanuras nevadas, prados, cerezos, manglares y jardines pálidos.",
+    "spawnConditions": "Sobre bloques de hierba bien iluminados con al menos dos bloques de espacio encima. Manadas de cuatro en Java y de 2-3 en Bedrock. También en corrales de aldeas al generar el mundo.",
     "howToKill": "Cualquier arma; huye al recibir daño. Saqueo aumenta los drops de cuero y ternera.",
-    "behavior": "Deambula, sigue a jugadores con trigo, se puede ordeñar con un cubo para leche infinita.",
-    "tameOrBreed": "Cría dos adultos con trigo. La cría tarda 20 minutos en crecer (más rápido si le das trigo).",
+    "behavior": "Deambula, sigue a jugadores con trigo a menos de seis bloques y se ordeña con un cubo. Tres variantes (templada, fría, cálida). Las crías no sueltan nada. Fuente: minecraft.wiki Cow.",
+    "tameOrBreed": "Cría a dos adultos con trigo.",
     "notes": [
       "Cocinada da filete: una de las mejores comidas",
       "Libros, marcos, armadura de cuero"
@@ -97,13 +97,13 @@
   },
   "pig": {
     "type": "Pacífico",
-    "where": "Biomas con hierba del Overworld, en manadas. Común en todas partes salvo biomas nevados y badlands.",
-    "spawnConditions": "Bloques de hierba con nivel de luz 9 o más (Java).",
+    "where": "Casi todos los biomas con hierba del Overworld, salvo llanuras nevadas, prados, manglares y jardines pálidos.",
+    "spawnConditions": "Sobre bloques de hierba. Grupos de 4 en Java y de 1 a 3 en Bedrock; 5% aparecen como crías. También en corrales de aldeas al generar el mundo.",
     "howToKill": "Cualquier arma; huye al recibir daño. Si muere por fuego suelta chuletas cocinadas directamente.",
-    "behavior": "Deambula, sigue a jugadores con zanahorias, patatas o remolacha. Se puede ensillar y dirigir con una zanahoria en un palo.",
-    "tameOrBreed": "Cría dos adultos con zanahorias, patatas o remolachas.",
+    "behavior": "Deambula y huye un momento al recibir daño. Se puede montar con silla y zanahoria en un palo; no aparecen con silla. Tres variantes (templada, fría, cálida). Las crías no sueltan nada. Fuente: minecraft.wiki Pig.",
+    "tameOrBreed": "Cría a dos adultos con zanahorias o patatas.",
     "notes": [
-      "La chuleta cocinada es comida de primer nivel (8 puntos de hambre)"
+      "Cocínala para comer"
     ]
   },
   "wolf": {
@@ -204,10 +204,10 @@
   "piglin": {
     "type": "Neutral",
     "where": "Bosques carmesí, Nether wastes y bastiones en ruinas.",
-    "spawnConditions": "Nivel de luz 11 o menos en bosques carmesí y Nether wastes; siempre en bastiones. No aparece sobre bloques de verrugas del Nether.",
-    "howToKill": "Lleva al menos una pieza de armadura de oro y te dejarán en paz. Huyen del fuego de almas, antorchas de almas, faroles de almas y zoglins. Si peleas, un escudo bloquea los disparos de ballesta; los piglins cuerpo a cuerpo pegan fuerte, así que sube a un pilar.",
-    "behavior": "Ataca a jugadores sin oro, y a cualquiera que abra un cofre o pique bloques o mineral de oro cerca. Los piglins que viajan al Overworld o al End se zombifican a los 15 segundos.",
-    "tameOrBreed": "No se puede domesticar ni criar. Los adultos comercian (bartering); los bebés cogen oro pero nunca devuelven nada.",
+    "spawnConditions": "Grupos de 4 en nether wastes y de 3-4 en bosques carmesí, con luz 11 o menos en Java (7 o menos en Bedrock); también se generan en restos de bastión. No aparecen sobre bloques de verruga del Nether ni de magma. 20% (Java) o 5% (Bedrock) aparecen como crías.",
+    "howToKill": "Lleva al menos una pieza de armadura de oro y se quedan neutrales. Si peleas, un escudo bloquea los disparos de ballesta; los piglins cuerpo a cuerpo pegan fuerte, así que sube con pilares.",
+    "behavior": "Neutral: hostil salvo que lleves armadura de oro. Los adultos aparecen con espada de oro (45%), lanza de oro (5%) o ballesta (50%), y 10% por pieza de armadura. Los piglins bebé nunca crecen, son pasivos y aceptan oro sin dar nada. Fuente: minecraft.wiki Piglin.",
+    "tameOrBreed": "No se puede domesticar. Los adultos hacen trueque por lingotes de oro; los bebés cogen el oro pero no dan nada.",
     "notes": [
       "8,5% de probabilidad, +1% por nivel de Saqueo",
       "No es un drop: lanza un lingote de oro a un piglin adulto y te devuelve objetos: ender pearls, obsidiana, cuarzo, hilo, fire charges, pepitas de hierro, libros de Soul Speed y más"
