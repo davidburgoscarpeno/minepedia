@@ -108,14 +108,15 @@
   },
   "wolf": {
     "type": "Neutral (domesticable)",
-    "where": "Bosques, taigas y arboledas, en manadas de 4. Variantes distintas por bioma desde la 1.20.5.",
-    "spawnConditions": "Hierba, nieve o tierra estéril en biomas de tipo bosque, nivel de luz 9+ (Java).",
+    "where": "Varios biomas (bosques, taigas, arboledas y más) sobre hierba, tierra gruesa, nieve o podzol; 9 variantes de color, casi todas en manadas.",
+    "spawnConditions": "Bloques de hierba, tierra gruesa, nieve (8 capas en Java), bloques de nieve o podzol en los biomas de cada variante.",
     "howToKill": "Los lobos salvajes son neutrales; ataca a uno y toda la manada se vuelve hostil. Los lobos domesticados se teletransportan a ti y luchan por ti.",
-    "behavior": "Neutral en manada: hieres a uno, los hieres a todos. Los domesticados te siguen, se teletransportan, se sientan a la orden y atacan a tus objetivos.",
-    "tameOrBreed": "Domésticalo con huesos (cada hueso tiene 1 de 3 de probabilidad). Cría dos lobos domesticados con cualquier carne; el cachorro nace domesticado.",
+    "behavior": "Neutral. Si atacas a uno, los lobos salvajes y los domesticados de pie en un área de 33x21x33 se vuelven hostiles contigo. Fuente: minecraft.wiki Wolf.",
+    "tameOrBreed": "Se doman con huesos. Criar suelta 1-7 de XP.",
     "notes": [
       "Matar lobos no da objetos"
-    ]
+    ],
+    "health": "8 (4 corazones) salvaje; 40 (20 corazones) domesticado"
   },
   "villager": {
     "type": "Pacífico",
@@ -191,9 +192,9 @@
   "ghast": {
     "type": "Hostil",
     "where": "Nether wastes, valles de soul sand y deltas de basalto, en cualquier sitio con espacio abierto suficiente (5x4x5).",
-    "spawnConditions": "Nivel de luz 11 o menos, con 5x4x5 de espacio libre, en Nether wastes, valles de soul sand y deltas de basalto.",
-    "howToKill": "Devuélvele la bola de fuego con un golpe cuerpo a cuerpo: una bola devuelta lo mata de un golpe y da el logro Return to Sender. Si no, dispárale con arco. Las pociones de resistencia al fuego anulan todo el daño de fuego.",
-    "behavior": "Flota y dispara bolas de fuego explosivas cuando estás a menos de 16 bloques. Las bolas no pueden romper roca ni otros bloques de alta resistencia a explosiones.",
+    "spawnConditions": "Bloque sólido debajo y un espacio libre de 5x5x4, con cualquier nivel de luz, en Nether wastes, valles de arena de almas y deltas de basalto. Java: grupos de 4 en wastes y valles, solos en deltas; Bedrock siempre solos.",
+    "howToKill": "Devuelve su bola de fuego: una bola desviada hace 1000 de daño al ghast que golpea directamente y lo mata. Si no, dispárale con arco. Los ghasts no son no-muertos, así que Smite no sirve.",
+    "behavior": "Flota y lanza una bola de fuego cada 3 segundos si tiene línea de visión; no se acerca. Los bloques con resistencia a explosiones 3,5 o más sobreviven. Fuente: minecraft.wiki Ghast.",
     "tameOrBreed": "No se puede domesticar ni criar. (El happy ghast montable es un mob pacífico aparte que crece de un bloque de ghast seco.)",
     "notes": [
       "Producto clave de las granjas de ghasts",
@@ -225,10 +226,10 @@
   },
   "iron-golem": {
     "type": "Neutral (mob de utilidad)",
-    "where": "Aldeas (aparece automáticamente cuando los aldeanos cumplen los requisitos) y enjaulado en algunos puestos de pillagers. Los jugadores también pueden construir uno.",
-    "spawnConditions": "Java: los aldeanos que han dormido y trabajado generan gólems cuando no detectan ninguno cerca (los aldeanos en pánico los generan más rápido). Bedrock: 10+ aldeanos vinculados a 20+ camas. Construido por el jugador: T de 4 bloques de hierro con una calabaza tallada colocada la última.",
-    "howToKill": "Sube a un pilar de 3+ bloques para que no te alcance y golpéale los pies. Evita matar gólems de aldea cerca de un centro de comercio que aún uses: los precios suben. Construye el tuyo con 4 bloques de hierro en T más una calabaza tallada encima.",
-    "behavior": "Patrulla aldeas y ataca a la mayoría de mobs hostiles a la vista, además de a jugadores que lo ataquen a él o a los aldeanos. Empuje enorme: lanza a los objetivos por los aires. Se agrieta al recibir daño; repáralo con lingotes de hierro.",
+    "where": "Aldeas (los aldeanos los generan al cumplirse las condiciones). También puedes construir uno.",
+    "spawnConditions": "Java: los aldeanos invocan golems al cotillear o cada 5 s si entran en pánico, si se cumplen las condiciones. Bedrock: aldeas con al menos 20 camas y 10 aldeanos. La probabilidad de intento es 1 entre 700 por tick. Construido: T de 4 bloques de hierro y una calabaza tallada.",
+    "howToKill": "Sube con pilares para que no te alcance y golpéalo desde arriba. Tiene 100 de vida y se agrieta al recibir daño. Construye el tuyo con 4 bloques de hierro en T y una calabaza tallada o jack o'lantern encima.",
+    "behavior": "Ataca monstruos con los brazos y los lanza por el aire; se defiende de jugadores que lo atacan. Etapas de vida: 100, 75, 50 y 25 al agrietarse. Fuente: minecraft.wiki Iron Golem.",
     "tameOrBreed": "No se puede domesticar ni criar, pero un gólem construido por un jugador nunca ataca a su creador.",
     "notes": [
       "La base de las granjas de hierro",

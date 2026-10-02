@@ -302,8 +302,8 @@
     "slug": "wolf",
     "name": "Wolf",
     "type": "Neutral (tameable)",
-    "health": "8 (4 hearts) wild; 20 (10 hearts) tamed",
-    "where": "Forests, taigas and groves, in packs of 4. Different variants per biome since 1.20.5.",
+    "health": "8 (4 hearts) wild; 40 (20 hearts) tamed",
+    "where": "Several biomes (forests, taigas, groves and more) on grass, coarse dirt, snow or podzol; 9 colour variants, most in packs.",
     "howToKill": "Wild wolves are neutral; attack one and the whole pack turns hostile. Tamed wolves teleport to you and fight for you.",
     "drops": [
       {
@@ -312,9 +312,9 @@
         "notes": "Killing wolves gives no items"
       }
     ],
-    "spawnConditions": "Grass, snow or coarse dirt in forest-type biomes, light level 9+ (Java).",
-    "behavior": "Neutral in packs: hurts one, hurts all. Tamed wolves follow, teleport to you, sit on command and attack your targets.",
-    "tameOrBreed": "Tame with bones (each bone has a 1 in 3 chance). Breed two tamed wolves with any meat; the pup is born tamed.",
+    "spawnConditions": "Grass blocks, coarse dirt, snow (8 layers in Java), snow blocks or podzol in the biomes where each variant spawns.",
+    "behavior": "Neutral. If you attack one, wild wolves and standing tamed wolves in a 33x21x33 area turn hostile to you. Source: minecraft.wiki Wolf.",
+    "tameOrBreed": "Tame with bones. Breeding drops 1-7 XP.",
     "editions": [
       "java",
       "bedrock"
@@ -528,7 +528,7 @@
     "type": "Hostile",
     "health": "10 (5 hearts)",
     "where": "Nether wastes, soul sand valleys and basalt deltas, anywhere with enough open space (5x4x5).",
-    "howToKill": "Deflect its fireball back with a melee hit - a reflected fireball one-shots it and earns the Return to Sender advancement. Otherwise shoot it with a bow. Fire resistance potions negate the fire damage entirely.",
+    "howToKill": "Hit its fireball back: a deflected fireball deals 1000 damage to a ghast it hits directly, killing it. Otherwise shoot it with a bow. Ghasts are not undead, so Smite does nothing.",
     "drops": [
       {
         "item": "Gunpowder",
@@ -541,8 +541,8 @@
         "notes": "Brews Potions of Regeneration"
       }
     ],
-    "spawnConditions": "Light level 11 or lower, with 5x4x5 free space, in Nether wastes, soul sand valleys and basalt deltas.",
-    "behavior": "Floats and fires explosive fireballs when you are within 16 blocks. Fireballs cannot break cobblestone or other high blast-resistance blocks.",
+    "spawnConditions": "Solid block below and a free 5x5x4 space, at any light level, in Nether wastes, soul sand valleys and basalt deltas. Java: groups of 4 in wastes and valleys, single in deltas; Bedrock always single.",
+    "behavior": "Floats and shoots a fireball every 3 seconds when it has line of sight; it does not approach. Blocks with blast resistance 3.5 or more survive a fireball. Source: minecraft.wiki Ghast.",
     "tameOrBreed": "Cannot be tamed or bred. (The rideable happy ghast is a separate passive mob grown from a dried ghast block.)",
     "editions": [
       "java",
@@ -625,8 +625,8 @@
     "name": "Iron Golem",
     "type": "Neutral (utility mob)",
     "health": "100 (50 hearts)",
-    "where": "Villages (spawns automatically when villagers meet the requirements) and caged at some pillager outposts. Players can also build one.",
-    "howToKill": "Pillar up 3+ blocks so it cannot reach you and hit its feet. Avoid killing village golems near a trading hall you still use - prices rise. Build your own with 4 iron blocks in a T plus a carved pumpkin on top.",
+    "where": "Villages (spawned by villagers when conditions are met). Players can also build one.",
+    "howToKill": "Pillar up so it cannot reach you and hit it from above. It has 100 health and cracks as it is damaged. Build your own with 4 iron blocks in a T and a carved pumpkin or jack o'lantern on top.",
     "drops": [
       {
         "item": "Iron Ingot",
@@ -639,8 +639,8 @@
         "notes": "It offers poppies to villager children"
       }
     ],
-    "spawnConditions": "Java: villagers that have slept and worked spawn golems when none is detected nearby (panicking villagers spawn them faster). Bedrock: 10+ villagers linked to 20+ beds. Player-built: T of 4 iron blocks with a carved pumpkin placed last.",
-    "behavior": "Patrols villages and attacks most hostile mobs on sight, plus players who attack it or villagers. Huge knockback - it throws targets into the air. Cracks as it takes damage; repair it with iron ingots.",
+    "spawnConditions": "Java: villagers summon golems when gossiping or every 5 s while panicking, if conditions are met. Bedrock: villages with at least 20 beds and 10 villagers. Chance of an attempt is 1 in 700 per tick. Player-built: T of 4 iron blocks plus a carved pumpkin.",
+    "behavior": "Attacks monsters with its arms, knocking them into the air; retaliates against players who attack it. Health stages: 100, 75, 50 and 25 as it cracks. Source: minecraft.wiki Iron Golem.",
     "tameOrBreed": "Cannot be tamed or bred, but a player-built golem never attacks its creator.",
     "editions": [
       "java",
