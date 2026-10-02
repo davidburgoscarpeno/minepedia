@@ -207,10 +207,10 @@
     "editions": "both",
     "quickAnswer": "Pumpkin and melon stems grow a fruit on a random adjacent dirt block. An observer watching that spot fires a piston the moment the fruit appears, breaking it into a hopper. Repeat the module in rows for infinite pumpkins and melons.",
     "mechanics": [
-      "A planted stem matures, then grows a pumpkin or melon on a random adjacent farmland/dirt/grass block with air above - the same stem fruits again and again.",
+      "A mature stem tries to grow a melon or pumpkin in one of its four adjacent blocks; it fails if the chosen block is not empty or the block below is not a dirt-type block (dirt, grass, farmland, podzol, mud, moss block, etc.). The same stem fruits again and again.",
       "An observer facing the fruit spot detects the fruit appearing and outputs a one-tick pulse: perfect for firing a piston.",
       "The piston breaks the fruit (melons drop 3-7 slices), and a hopper minecart or hopper line collects it.",
-      "Bone meal speeds up stem growth but not fruiting - the fruiting itself is random-tick based."
+      "Pumpkin stems need light level 9 or higher and take about 10-30 minutes to fully grow. Bone meal fully grows them but does not produce the fruit instantly."
     ],
     "materials": [
       "Pumpkin or melon seeds (chest loot, or craft from found fruit)",
@@ -221,16 +221,17 @@
     ],
     "steps": [
       "Till a hydrated farmland row and plant stems with one empty dirt block beside each stem (the fruit spot).",
-      "Place an observer facing each fruit spot (its face toward the spot, red dot toward the piston).",
-      "Put a piston beside each spot so it pushes across and breaks the fruit the instant it grows.",
+      "Place an observer facing each fruit spot.",
+      "Put a piston beside each fruit spot and connect the observer's output to the piston, so it breaks the fruit when it grows.",
       "Run hoppers or a hopper minecart track under the row into chests.",
-      "Light the whole build 24/7 so stems keep working, and stack floors vertically for volume."
+      "Keep light level 9 or higher over the stems, and stack floors vertically for volume."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Melon slices are the backbone of glistening melons for healing potions; pumpkins trade to farmer villagers for emeralds (6 pumpkins = 1 emerald at apprentice level).",
-      "Keep the fruit spot as the ONLY valid growth spot per stem by slab-proofing other adjacent blocks - the observer then never misses.",
-      "Jack o'lanterns from pumpkin + torch make great underwater lighting."
+      "Melon slices make glistering melon slices (healing potions). An apprentice farmer buys 6 pumpkins for 1 emerald, and a journeyman buys 4 melons for 1 emerald.",
+      "Leave only one free block next to each stem so the observer always watches the same spot: the stem only fruits into empty adjacent blocks.",
+      "Jack o'lanterns from pumpkin + torch make great underwater lighting.",
+      "Source: minecraft.wiki Melon, Pumpkin and Trading."
     ],
     "keywords": "pumpkin farm melon automatic observer piston villager trading"
   },

@@ -180,10 +180,10 @@
     "difficulty": "Principiante",
     "quickAnswer": "Los tallos de calabaza y melón hacen crecer un fruto en un bloque de tierra adyacente aleatorio. Un observer vigilando ese punto dispara un pistón en el momento en que aparece el fruto, rompiéndolo hacia una tolva. Repite el módulo en filas para calabazas y melones infinitos.",
     "mechanics": [
-      "Un tallo plantado madura y luego hace crecer una calabaza o un melón en un bloque de farmland/dirt/grass adyacente aleatorio con aire encima: el mismo tallo fructifica una y otra vez.",
+      "Un tallo maduro intenta generar un melón o calabaza en uno de los cuatro bloques adyacentes; falla si el bloque elegido no está vacío o el de debajo no es de tipo tierra (dirt, grass, farmland, podzol, mud, moss block, etc.). El mismo tallo fructifica una y otra vez.",
       "Un observer mirando al punto del fruto detecta su aparición y emite un pulso de un tick: perfecto para disparar un pistón.",
       "El pistón rompe el fruto (los melones sueltan 3-7 rodajas) y una hopper minecart o línea de tolvas lo recoge.",
-      "El bone meal acelera el crecimiento del tallo pero no la fructificación: la fruta en sí depende de ticks aleatorios."
+      "Los tallos de calabaza necesitan luz de nivel 9 o más y tardan unos 10-30 minutos en crecer del todo. El bone meal los deja crecidos pero no genera la fruta al instante."
     ],
     "materials": [
       "Semillas de calabaza o melón (botín de cofres, o craftéalas de fruta encontrada)",
@@ -194,16 +194,17 @@
     ],
     "steps": [
       "Laba una fila de farmland hidratada y planta tallos con un bloque de tierra vacío junto a cada tallo (el punto del fruto).",
-      "Coloca un observer mirando a cada punto de fruto (su cara hacia el punto, el punto rojo hacia el pistón).",
-      "Pon un pistón junto a cada punto para que empuje a través y rompa el fruto en el instante en que crece.",
+      "Coloca un observer mirando a cada punto de fruto.",
+      "Pon un pistón junto a cada punto de fruto y conecta la salida del observer al pistón, para que rompa el fruto cuando crezca.",
       "Pasa tolvas o una vía de hopper minecart bajo la fila hasta los cofres.",
-      "Ilumina toda la construcción 24/7 para que los tallos sigan trabajando, y apila pisos en vertical para volumen."
+      "Mantén luz de nivel 9 o más sobre los tallos, y apila pisos en vertical para ganar volumen."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Las rodajas de melón son la base de las glistering melons para pociones de curación; las calabazas se tradean a farmers por esmeraldas (6 calabazas = 1 esmeralda a nivel aprendiz).",
-      "Haz que el punto del fruto sea el ÚNICO punto de crecimiento válido por tallo poniendo losas en los demás bloques adyacentes: el observer nunca falla.",
-      "Las jack o'lanterns de calabaza + antorcha son una gran iluminación submarina."
+      "Las rodajas de melón sirven para las glistering melon slices (pociones de curación). Un farmer aprendiz compra 6 calabazas por 1 esmeralda, y uno oficial compra 4 melones por 1 esmeralda.",
+      "Deja un solo bloque libre junto a cada tallo para que el observer vigile siempre el mismo punto: el tallo solo fructifica en bloques adyacentes vacíos.",
+      "Las jack o'lanterns de calabaza + antorcha son una gran iluminación submarina.",
+      "Fuente: minecraft.wiki Melon, Pumpkin y Trading."
     ]
   },
   "bamboo-farm": {
