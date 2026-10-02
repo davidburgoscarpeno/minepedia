@@ -1348,7 +1348,7 @@
       "Conversión: un zombie normal (o un husk, que primero se vuelve zombie) con la cabeza sumergida 30 segundos tiembla 15 más y se convierte en drowned: el motor de toda granja de copper grande.",
       "Trident: el 6,25% de los drowned aparecen con uno en la mano, y solo esos pueden soltarlo: 8,5% en Java (hasta 11,5% con Looting III), 25% base en Bedrock. En Bedrock, los zombies convertidos NUNCA llevan tridents: las granjas de conversión ahí son solo de copper.",
       "Copper: cada drowned tiene un 11% de probabilidad de soltar un copper ingot si lo mata un jugador o mascota, +2% por nivel de Looting.",
-      "Bonus de Bedrock: cuando un zombie se convierte, todo lo que vestía o sostenía cae al 100% y con durabilidad completa: equipa a tus zombies antes de ahogarlos.",
+      "Un zombie convertido en drowned suelta el equipo que llevaba; los zombies convertidos en Bedrock nunca llevan trident.",
       "Solo las muertes por jugador (o wolf domesticado) sueltan copper y tridents: usa una caída de debilitamiento y remata a mano."
     ],
     "materials": [
@@ -1360,17 +1360,18 @@
     "steps": [
       "Explora un river ancho o un acuífero de dripstone caves: las dos zonas de alta tasa de aparición.",
       "Cierra una sección, oscurécela y construye corrientes de agua que arrastren a los drowned a un conducto central.",
-      "Déjalos caer 22 bloques hasta quedar a un golpe y remata con la sword de Looting III: copper, algún trident, shells y rods se acumulan.",
+      "Déjalos caer para debilitarlos y remata a mano con una espada de Looting III: copper, algún trident y nautilus shells.",
       "Ruta de conversión: canaliza zombies desde un spawner a una columna de agua (cabeza bajo el agua, 45 segundos) y empuja los drowned recién hechos al mismo suelo de ejecución.",
-      "En Bedrock, equipa a los zombies con armadura y armas viejas primero: la conversión lo suelta todo con durabilidad completa, una línea de reciclaje gratis.",
+      "Equipa a los zombies con armadura y armas viejas antes de convertirlos: la conversión suelta ese equipo.",
       "Ilumina todas las cuevas y masas de agua cercanas para concentrar las apariciones dentro de la granja."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "La caza de tridents es más amable en Java: el 8,5% del 6,25% significa aproximadamente un trident por cada 150 drowned con Looting III; lleva paciencia.",
-      "Los axolotls luchan contra los drowned por ti y sus muertes cuentan para los drops: un ejército de buckets de axolotl es la opción con estilo.",
+      "Trident en Java: 8,5 % de soltarlo (11,5 % con Looting III) para el 6,25 % que lo lleva, así que hacen falta muchos drowned.",
+      "Las drowned con trident pueden aparecer montadas en un zombie nautilus (50 % fuera de ríos) si llevan trident.",
       "Los drowned en bubble columns suben o bajan rápido: las columnas de soul sand y magma son las escaleras mecánicas de esta granja.",
-      "Las nautilus shells (mano secundaria, 3% Java / 8% Bedrock) más un heart of the sea fabrican el conduit: esta granja también alimenta tu base acuática."
+      "Las nautilus shells (mano secundaria, 3% Java / 8% Bedrock) más un heart of the sea fabrican el conduit: esta granja también alimenta tu base acuática.",
+      "Fuente: minecraft.wiki Drowned."
     ]
   },
   "turtle-farm": {
@@ -1414,10 +1415,10 @@
     "quickAnswer": "Sáltate el sueño (o la muerte) durante 3 días de juego y los phantoms empezarán a aparecer sobre ti por la noche: ponte a campo abierto sobre el nivel del mar, deja que se lancen en picado y mátalos con una sword de Looting para 0-2 membranes cada uno.",
     "mechanics": [
       "El reloj del insomnio: los phantoms persiguen a jugadores cuyo Time Since Last Rest supera 3 días de juego; entrar en una bed (aunque no se pase la noche) o morir lo reinicia.",
-      "Condiciones de aparición: noche o tormenta, tú por encima de Y=62 con cielo abierto encima, y sin un bloque que tape la luz sobre tu cabeza; el glass y los cobwebs valen, las leaves no.",
+      "Condiciones de aparición: noche o tormenta, tú por encima del nivel del mar (Y=64) con el cielo visible encima (las cobwebs no lo bloquean) y dificultad local suficiente.",
       "Intentos cada 1-2 minutos con una probabilidad de éxito que crece cuanto más despierto sigas: ~25% el día 4, 40% el día 5, 50% el día 6; grupos de 1-4 en Hard.",
       "Aparecen 20-34 bloques por encima y alrededor de ti, dan círculos y luego pican; tras el picado vuelven a subir, lentos y vulnerables.",
-      "Drops: 0-1 phantom membrane por muerte de jugador, +0-1 por nivel de Looting; Looting III da una media de 1,5 por phantom.",
+      "Drops: 0-1 phantom membrane por muerte de jugador, y con Looting III hasta 0-4 (media 2).",
       "La luz del sol los quema como a los zombies: el amanecer limpia lo que no cazaste."
     ],
     "materials": [
@@ -1431,16 +1432,17 @@
       "Deja de dormir: tres ciclos día-noche completos sin tocar una bed ni morir.",
       "Construye una plataforma plana a campo abierto, sobre el nivel del mar, con el cielo directamente encima; un techo de glass sobre tu cabeza te mantiene seguro y cuenta como cielo abierto.",
       "Espera la noche: los phantoms aparecen en el espacio aéreo a tu alrededor y empiezan sus picados en círculo.",
-      "Ponte al borde del glass y dales con la sword cuando piquen o queden flotando contra el techo; Looting III duplica el botín.",
+      "Ponte al borde del glass y dales con la espada cuando piquen o queden flotando contra el techo.",
       "Deja que el amanecer queme a los rezagados, recoge las membranes, repite cada noche: la probabilidad de aparición sube cada día que sigas despierto.",
-      "Guarda membranes: 4 reparan una elytra en un anvil (considera Mending a largo plazo), o destila Slow Falling para la pelea del dragon."
+      "Guarda las membranes: sirven para reparar elytras en un yunque y para destilar Slow Falling."
     ],
     "rates": "En los días 4-6 de insomnio, espera varios phantoms por noche y jugador; una sword con Looting III convierte una noche larga en 5-10 membranes sin construir nada en absoluto.",
     "tips": [
       "Entrar en una bed un segundo reinicia el temporizador: no hace falta pasar la noche, así que echa una cabezada entre sesiones de granja.",
-      "Los cats asustan a los phantoms: un cat domesticado en la plataforma reduce los picados, pero también lo farmeable; tú decides.",
-      "En las versiones nuevas de este mundo, las straw beds cuentan como beds para el reloj del insomnio: cualquier bed lo reinicia.",
-      "Las membranes son el único material de reparación de elytras que queda en supervivencia desde que las reparaciones con phantom sustituyeron al leather en el anvil."
+      "Los gatos asustan a los phantoms: un gato domesticado cerca reduce los picados.",
+      "La wiki indica que en una actualización futura (Third Drop 2026) las straw beds también reiniciarán el reloj del insomnio.",
+      "Las phantom membranes son el material para reparar elytras en el yunque.",
+      "Fuente: minecraft.wiki Phantom."
     ]
   },
   "piglin-bartering-farm": {

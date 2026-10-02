@@ -1507,7 +1507,7 @@
       "Conversion: a normal zombie (or a husk, which first becomes a zombie) with its head submerged for 30 seconds shakes for 15 more and becomes a drowned - the engine of every big copper farm.",
       "Trident: 6.25% of drowned spawn holding one, and only those can drop it - 8.5% on Java (up to 11.5% with Looting III), 25% base on Bedrock. On Bedrock, converted zombies NEVER carry tridents: conversion farms there are copper-only.",
       "Copper: every drowned has an 11% chance to drop a copper ingot when killed by a player or pet, +2% per Looting level.",
-      "Bedrock bonus: when a zombie converts, everything it wore or held drops at 100% and full durability - gear up your zombies before drowning them.",
+      "A zombie converted into a drowned drops the gear it was carrying; zombies converted on Bedrock never carry a trident.",
       "Only player (or tamed wolf) kills drop copper and tridents - use a softening fall and finish by hand."
     ],
     "materials": [
@@ -1519,17 +1519,18 @@
     "steps": [
       "Scout a wide river or a dripstone caves aquifer - the two high-rate spawn zones.",
       "Wall off a section, darken it (slab the surface against daylight spawns... or embrace night-only), and build water currents that sweep drowned to a central chute.",
-      "Drop them 22 blocks to one-hit health and finish with a Looting III sword - copper, occasional tridents, shells and rods pile up.",
+      "Let them fall to weaken them and finish by hand with a Looting III sword: copper, the odd trident and nautilus shells.",
       "Conversion route: pipe zombies from a spawner into a water column (head under, 45 seconds), then flush the fresh drowned to the same kill floor.",
-      "On Bedrock, equip zombies with junk armor and weapons first - conversion drops it all at full durability, a free salvage line.",
+      "Equip zombies with old armor and weapons before converting them: the conversion drops that gear.",
       "Light every surrounding cave and water body to concentrate spawns inside the farm."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Trident hunting is Java-friendlier: 8.5% of the 6.25% means roughly one trident per 150 drowned with Looting III - bring patience.",
-      "Axolotls fight drowned for you and their kills count for drops - an army of axolotl buckets is the stylish option.",
+      "Trident on Java: 8.5% to drop (11.5% with Looting III) for the 6.25% that carry one, so you need a lot of drowned.",
+      "Trident-wielding drowned can spawn riding a zombie nautilus (50% outside rivers).",
       "Drowned in bubble columns rise or sink fast - soul sand and magma columns are the escalators of this farm.",
-      "Nautilus shells (offhand, 3% Java / 8% Bedrock) plus a heart of the sea craft the conduit - this farm feeds your water base too."
+      "Nautilus shells (offhand, 3% Java / 8% Bedrock) plus a heart of the sea craft the conduit - this farm feeds your water base too.",
+      "Source: minecraft.wiki Drowned."
     ],
     "keywords": "drowned farm minecraft, trident farm, copper farm minecraft, how to get trident, zombie convert drowned"
   },
@@ -1581,10 +1582,10 @@
     "quickAnswer": "Skip sleep (or death) for 3 in-game days and phantoms start spawning above you at night - stand in the open above sea level, let them dive at you, and kill them with a Looting sword for 0-2 membranes each.",
     "mechanics": [
       "The insomnia clock: phantoms target players whose Time Since Last Rest passes 3 in-game days - entering a bed (even without sleeping through the night) or dying resets it.",
-      "Spawn conditions: night or thunderstorm, you above Y=62 with open sky overhead, and a light-blocking block must NOT be above you - glass and cobwebs are fine, leaves are not.",
+      "Spawn conditions: night or thunderstorm, you above sea level (Y=64) with sky visible above you (cobwebs do not block it), and enough local difficulty.",
       "Attempts every 1-2 minutes with a success chance that grows the longer you stay awake: about 25% on day 4, 40% on day 5, 50% on day 6 - packs of 1-4 on Hard.",
       "They spawn 20-34 blocks above and around you, circle, then dive - after a swoop they climb back to altitude, slow and vulnerable.",
-      "Drops: 0-1 phantom membrane on a player kill, +0-1 per Looting level - Looting III averages 1.5 per phantom.",
+      "Drops: 0-1 phantom membrane per player kill, and with Looting III up to 0-4 (average 2).",
       "Sunlight burns them like zombies - dawn cleans up whatever you missed."
     ],
     "materials": [
@@ -1598,16 +1599,17 @@
       "Stop sleeping: three full day-night cycles without touching a bed or dying.",
       "Build a flat platform in the open, above sea level, sky directly overhead - a glass roof over your head keeps you safe while counting as open sky.",
       "Wait for night: phantoms spawn in the airspace around you and begin their circling dives.",
-      "Stand at the edge of the glass and sword them as they swoop or hover against the ceiling - Looting III doubles the haul.",
+      "Stand at the edge of the glass and sword them as they swoop or hover against the ceiling.",
       "Let sunrise burn off the stragglers, collect the membranes, repeat nightly - the spawn chance climbs every day you stay awake.",
-      "Bank membranes: 4 repair an elytra on an anvil (consider Mending instead long-term), or brew Slow Falling for the dragon fight."
+      "Bank the membranes: they repair elytra at an anvil and brew Slow Falling."
     ],
     "rates": "On day 4-6 of insomnia, expect several phantoms per night per player - a Looting III sword turns one long night into 5-10 membranes without building anything at all.",
     "tips": [
       "Entering a bed for a second resets the timer - you do not need to sleep through the night, so nap once between farm sessions.",
-      "Cats scare phantoms: a tamed cat on the platform makes dives less frequent but also less farmable - your call.",
-      "In this world's newer versions, straw beds count as beds for the insomnia clock - any bed resets it.",
-      "Membranes are the only elytra repair material left in survival since phantom repairs replaced leather in the anvil recipes."
+      "Cats scare phantoms: a tamed cat nearby reduces the dives.",
+      "The wiki says an upcoming update (Third Drop 2026) will let straw beds also reset the insomnia clock.",
+      "Phantom membranes are the elytra repair material at an anvil.",
+      "Source: minecraft.wiki Phantom."
     ],
     "keywords": "phantom farm minecraft, phantom membrane farm, how to spawn phantoms, minecraft insomnia, repair elytra"
   },
