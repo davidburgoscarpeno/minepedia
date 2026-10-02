@@ -798,8 +798,8 @@
       "The recipe: water and flowing lava in contact replace the flowing lava with cobblestone. Only flowing lava works - a lava source block touching water turns into obsidian instead, which is why every generator keeps the lava one block above its source.",
       "Stone variant: if the lava flows downward onto the water from above, the block forms as stone instead of cobblestone - a smoother look that skips the furnace.",
       "Never let water reach the lava source: that turns it to obsidian and ends the generator until you bring more lava.",
-      "The classic hazard: mining the block right under you - stand to the side of the generation point, or drop the lava one level and mine from above a safe floor.",
-      "The skyblock special: the same mechanic, plus ice (which melts to water when broken next to light), is the entire foundation of skyblock worlds."
+      "The classic hazard: do not mine the block under your feet; stand to the side of the generation point.",
+      "If water touches the lava source it turns to obsidian and the generator stops until you bring more lava."
     ],
     "materials": [
       "1 water bucket",
@@ -812,17 +812,17 @@
       "Place water at one end so it flows toward the hole, lava at the other end so it flows toward the hole from the opposite side.",
       "Where the flows meet, cobblestone appears - mine it and a new block forms within a tick.",
       "Stand safe: position yourself so the block under your feet is never the generation block.",
-      "Mine with rhythm: hold the button and let the block respawn under your pick - Efficiency V plus a Haste beacon insta-mines it as fast as it forms.",
+      "Mine the block and a new one forms in its place.",
       "Upgrade to stone: rebuild so the lava flows down onto the water from one block above for smooth stone output.",
-      "Automate later: TNT dupers or wither cages break generation rows for chest-scale production - manual covers everything through mid-game.",
-      "Skyblock note: if the water source freezes in a cold biome, break the ice next to a torch to get it back."
+      "For more output, build several generator columns.",
+      "If the water is a source block you can pick it up with a bucket and replace it when needed."
     ],
     "rates": "A manual generator yields about a stack per minute with an Efficiency diamond pick, faster with Haste - truly infinite, limited only by pick durability and inventory space.",
     "tips": [
-      "Obsidian accidents are permanent: if the lava source turns to obsidian, you need fresh lava - keep a spare bucket until the design is proven.",
-      "Mending picks love generators: the XP from smelting the cobblestone repairs what mining wears down.",
-      "Build it next to your furnaces: cobble to stone to stone bricks is the survival base pipeline.",
-      "In the Nether there is no water - basalt generators are the equivalent there."
+      "Obsidian accidents are permanent: keep a spare lava bucket until the design is proven.",
+      "Build next to your furnaces: cobblestone to stone to stone bricks.",
+      "In the Nether there is no water: use a basalt generator there.",
+      "Source: minecraft.wiki Cobblestone."
     ],
     "keywords": "cobblestone generator minecraft, stone generator minecraft, how to make cobblestone generator, infinite cobblestone minecraft, skyblock cobblestone generator"
   },
@@ -835,10 +835,10 @@
     "quickAnswer": "Lava flowing into a space above soul soil, next to blue ice, turns into basalt. One lava bucket, one block of soul soil, one of blue ice - infinite Nether stone with zero mining trips to the basalt deltas.",
     "mechanics": [
       "The recipe is exact: lava must flow into a block space that sits directly on top of soul soil AND is adjacent to blue ice - the flowing lava is replaced by basalt.",
-      "Only flowing lava converts; a lava source block is safe and does not need protection the way cobblestone generators do - there is no obsidian failure mode here.",
-      "Blue ice is the ingredient worth hoarding: it never melts, is mined with Silk Touch, and crafts 9:1 from packed ice - one iceberg biome trip sets you up forever.",
-      "Soul soil comes from soul sand valleys (or bartering-adjacent loot) - one block is enough; it is never consumed.",
-      "The generator works in any dimension, which makes it the Overworld-friendly way to mass-produce basalt for builds."
+      "Only flowing lava is replaced with basalt: lava flowing into the space on top of soul soil and next to blue ice.",
+      "Blue ice drops nothing without Silk Touch and does not melt near light; 9 packed ice craft 1 block.",
+      "You need soul soil, which generates in soul sand valleys.",
+      "The generator works in any dimension, so you can produce basalt in the Overworld."
     ],
     "materials": [
       "1 lava bucket",
@@ -852,17 +852,17 @@
       "Place the blue ice beside the space where basalt will form - one block to the side at the same height.",
       "Set the lava source one block above that space so it flows down into the gap: lava touching the spot above soul soil and beside blue ice becomes basalt.",
       "Mine the basalt; the lava flows in again and a new block forms immediately.",
-      "Stand to the side, not on the generation block - basalt under your feet plus lava above you is a bad morning.",
-      "Extend in rows: one lava source per column, so a wall of generators fills a double chest while you chat.",
-      "Mine blue ice with Silk Touch only - anything else shatters it into nothing.",
-      "Use the output: polished basalt (stonecutter) is one of the cleanest pillar textures in the game."
+      "Stand to the side, not on the generation block.",
+      "Build several columns, one lava source per column.",
+      "Mine blue ice with Silk Touch; without it, it drops nothing.",
+      "Use basalt as a building material (its only current use)."
     ],
     "rates": "Manual generation gives roughly a stack every minute or two per column - slower than cobblestone because basalt is harder, but infinite once built. Each column costs one lava source, nothing else is consumed.",
     "tips": [
-      "Pack an extra lava bucket: the design is obsidian-proof but not spill-proof.",
-      "Silk Touch is non-negotiable for moving blue ice - craft it from 9 packed ice if mining icebergs feels risky.",
-      "Basalt has higher blast resistance than cobblestone - legitimately useful for creeper-prone walls.",
-      "Pair it with a soul-speed soul soil path: your generator room becomes the fastest hallway in the base."
+      "Pack a spare lava bucket in case of spills.",
+      "Craft blue ice from 9 packed ice if you do not want to mine icebergs.",
+      "Basalt only drops with a pickaxe; any other tool drops nothing.",
+      "Source: minecraft.wiki Basalt and Blue Ice."
     ],
     "keywords": "basalt generator minecraft, basalt farm minecraft, how to make basalt minecraft, blue ice soul soil lava basalt, infinite basalt minecraft"
   },
@@ -1084,7 +1084,7 @@
       "Chunk ticks need a player nearby, like crops - an ice pond freezes only while someone is in the area.",
       "Light is the enemy: torches beside the pond push block light to 10+ and stop freezing - light the paths, not the water.",
       "Silk Touch or nothing: ice mined without it shatters into water (or nothing), so the whole farm runs on one enchanted pickaxe.",
-      "The compression chain: 9 ice craft into packed ice, 9 packed ice into blue ice - neither melts, and blue ice is the fastest boat surface in the game."
+      "Compression: 9 ice craft into packed ice and 9 packed ice into blue ice (81 ice per block). Blue ice does not melt near light and is the fastest boat surface (72.73 m/s against 40 m/s on ice or packed ice)."
     ],
     "materials": [
       "A snowy biome - plains of snow, frozen river, frozen peaks",
@@ -1101,15 +1101,15 @@
       "Stand by: freezing advances on chunk ticks only while a player is close - fish, build or AFK nearby.",
       "Harvest with Silk Touch: break every sheet and the pond refreezes on its own.",
       "Compress: ice to packed ice (9:1) to blue ice (9:1) - 81 ice per blue ice block, and the farm makes it free.",
-      "Lay the highway: boats on blue ice hit highway speeds - the End-to-base commute becomes seconds."
+      "Build a blue ice highway for boats: top speed 72.73 m/s."
     ],
     "rates": "A 10x10 pond refreezes in a few minutes of nearby activity - stacks of ice per session, with blue ice as the slow-but-free long-term output (81 ice per block).",
     "tips": [
       "Water needs direct sky above it and block light below 10 to freeze.",
-      "Keep a water bucket row unfrozen at the edge for easy pond refills after big harvests.",
-      "Blue ice also feeds basalt generators - one farm, two production lines.",
-      "Packed ice and blue ice never melt next to glowstone - build bright, cold halls with them.",
-      "Source: minecraft.wiki Ice."
+      "Keep a water bucket row unfrozen at the edge to refill the pond.",
+      "Blue ice also feeds basalt generators.",
+      "Blue ice does not melt near light sources: use it for bright halls.",
+      "Source: minecraft.wiki Ice and Blue Ice."
     ],
     "keywords": "ice farm minecraft, packed ice farm minecraft, blue ice farm minecraft, how to freeze water minecraft, silk touch ice minecraft"
   },

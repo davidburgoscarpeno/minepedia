@@ -711,8 +711,8 @@
       "La receta: agua y lava fluyendo en contacto sustituyen la lava que fluye por cobblestone. Solo funciona la lava que fluye: un bloque fuente de lava tocando agua se convierte en obsidian, y por eso todo generador mantiene la lava un bloque por encima de su fuente.",
       "Variante stone: si la lava cae sobre el agua desde arriba, el bloque se forma como stone en vez de cobblestone: un acabado más liso que se salta el furnace.",
       "Nunca dejes que el agua alcance la fuente de lava: la convierte en obsidian y acaba el generador hasta que traigas más lava.",
-      "El peligro clásico: minar el bloque justo bajo tus pies; ponte a un lado del punto de generación, o baja la lava un nivel y mina desde arriba con suelo seguro.",
-      "El especial skyblock: la misma mecánica, más ice (que se derrite en agua al romperse junto a luz), es la base entera de los mundos skyblock."
+      "El peligro clásico: no mines el bloque bajo tus pies; ponte a un lado del punto de generación.",
+      "Si el agua toca la fuente de lava, esta se convierte en obsidiana y el generador deja de funcionar hasta que traigas más lava."
     ],
     "materials": [
       "1 water bucket",
@@ -725,17 +725,17 @@
       "Pon agua en un extremo para que fluya hacia el hoyo, y lava en el otro para que fluya hacia el hoyo desde el lado opuesto.",
       "Donde se encuentran los flujos aparece cobblestone: mínalo y un bloque nuevo se forma en un tick.",
       "Ponte a salvo: colócate de modo que el bloque bajo tus pies nunca sea el de generación.",
-      "Mina con ritmo: mantén pulsado el botón y deja que el bloque reaparezca bajo tu pickaxe; Efficiency V más un beacon de Haste lo mina al instante tan rápido como se forma.",
+      "Mina el bloque y verás cómo se genera otro en su lugar.",
       "Mejora a stone: reconstruye para que la lava caiga sobre el agua desde un bloque más arriba y obtén stone liso.",
-      "Automatiza más tarde: los dupers de TNT o las jaulas de wither rompen filas de generación para producción de cofres; el manual cubre todo hasta el mid-game.",
-      "Nota skyblock: si la fuente de agua se congela en un bioma frío, rompe el ice junto a una torch para recuperarla."
+      "Para producir más, haz varias columnas de generadores.",
+      "Si el agua es un bloque fuente, puedes recogerla con un cubo y recolocarla cuando haga falta."
     ],
     "rates": "Un generador manual da alrededor de un stack por minuto con un pickaxe de diamante con Efficiency, más rápido con Haste: verdaderamente infinito, limitado solo por la durabilidad del pickaxe y el espacio del inventario.",
     "tips": [
-      "Los accidentes de obsidian son permanentes: si la fuente de lava se convierte en obsidian, necesitas lava nueva; guarda un bucket de repuesto hasta que el diseño esté probado.",
-      "Los pickaxes con mending adoran los generadores: la XP de fundir el cobblestone repara lo que el minado desgasta.",
-      "Constrúyelo junto a tus furnaces: cobblestone → stone → stone bricks es la cadena de producción de la base survival.",
-      "En el Nether no hay agua: los generadores de basalt son el equivalente allí."
+      "La obsidiana accidental es permanente: guarda un cubo de lava de repuesto hasta probar el diseño.",
+      "Construye junto a tus hornos: adoquín a piedra y a ladrillos de piedra.",
+      "En el Nether no hay agua: allí se usa un generador de basalto.",
+      "Fuente: minecraft.wiki Cobblestone."
     ]
   },
   "basalt-generator": {
@@ -744,10 +744,10 @@
     "quickAnswer": "La lava que fluye a un espacio sobre soul soil, junto a blue ice, se convierte en basalt. Un bucket de lava, un bloque de soul soil y uno de blue ice: piedra del Nether infinita sin viajes a las basalt deltas.",
     "mechanics": [
       "La receta es exacta: la lava debe fluir a un espacio de bloque que esté directamente encima de soul soil Y adyacente a blue ice; la lava que fluye es sustituida por basalt.",
-      "Solo la lava que fluye se convierte; un bloque fuente de lava está a salvo y no necesita protección como en los generadores de cobblestone: aquí no existe el modo fallo de obsidian.",
-      "La blue ice es el ingrediente a acumular: nunca se derrite, se mina con Silk Touch y se craftea 9:1 desde packed ice; un viaje a un bioma de icebergs te surte para siempre.",
-      "La soul soil viene de las soul sand valleys: un bloque basta; nunca se consume.",
-      "El generador funciona en cualquier dimensión, lo que lo convierte en la forma cómoda desde el Overworld de producir basalt en masa para construcciones."
+      "Solo el flujo de lava se convierte en basalto: la lava que fluye hacia el hueco sobre tierra de almas y junto a hielo azul.",
+      "El hielo azul no suelta nada sin Silk Touch y no se derrite cerca de luz; 9 de hielo compacto dan 1 bloque.",
+      "Necesitas tierra de almas, que aparece en los valles de arena de almas.",
+      "El generador funciona en cualquier dimensión, así que puedes producir basalto en el Overworld."
     ],
     "materials": [
       "1 lava bucket",
@@ -761,17 +761,17 @@
       "Coloca la blue ice junto al espacio donde se formará el basalt: un bloque al lado, a la misma altura.",
       "Pon la fuente de lava un bloque por encima de ese espacio para que caiga en el hueco: la lava que toca el punto sobre soul soil y junto a blue ice se convierte en basalt.",
       "Mina el basalt; la lava vuelve a fluir y un bloque nuevo se forma al momento.",
-      "Ponte a un lado, no sobre el bloque de generación: basalt bajo tus pies más lava sobre tu cabeza es una mala mañana.",
-      "Extiende en filas: una fuente de lava por columna, y un muro de generadores llena un double chest mientras charlas.",
-      "Mina la blue ice solo con Silk Touch: cualquier otra cosa la rompe en nada.",
-      "Usa la producción: el polished basalt (stonecutter) es una de las texturas de pilar más limpias del juego."
+      "Ponte a un lado: no estés sobre el bloque de generación.",
+      "Haz varias columnas, una fuente de lava por columna.",
+      "Extrae el hielo azul con Silk Touch; sin él no suelta nada.",
+      "Usa el basalto como material de construcción (es su único uso actual)."
     ],
     "rates": "La generación manual da aproximadamente un stack cada minuto o dos por columna: más lento que el cobblestone porque el basalt es más duro, pero infinito una vez construido. Cada columna cuesta una fuente de lava; nada más se consume.",
     "tips": [
-      "Lleva un lava bucket de repuesto: el diseño es a prueba de obsidian pero no a prueba de derrames.",
-      "El Silk Touch es innegociable para mover blue ice: craftéala de 9 packed ice si minar icebergs te parece arriesgado.",
-      "El basalt tiene más resistencia a explosiones que el cobblestone: legítimamente útil para muros en zonas de creepers.",
-      "Combínalo con un camino de soul speed sobre soul soil: la sala del generador se convierte en el pasillo más rápido de la base."
+      "Lleva un cubo de lava de repuesto por si hay derrames.",
+      "El hielo azul se puede fabricar con 9 de hielo compacto si no quieres minar icebergs.",
+      "El basalto solo se mina con pico; con otra herramienta no suelta nada.",
+      "Fuente: minecraft.wiki Basalt y Blue Ice."
     ]
   },
   "snow-farm": {
@@ -969,7 +969,7 @@
       "Los chunk ticks necesitan un jugador cerca, como los cultivos: un estanque de ice solo se congela mientras hay alguien en la zona.",
       "La luz es la enemiga: las torches junto al estanque suben la luz de bloque a 10+ y detienen la congelación; ilumina los caminos, no el agua.",
       "Silk Touch o nada: el ice minado sin él se rompe en agua (o en nada), así que toda la granja funciona con un pickaxe encantado.",
-      "La cadena de compresión: 9 ice se craftean en packed ice, 9 packed ice en blue ice; ninguno se derrite, y la blue ice es la superficie de boat más rápida del juego."
+      "Compresión: 9 de hielo dan hielo compacto y 9 de hielo compacto dan hielo azul (81 hielo por bloque). El hielo azul no se derrite cerca de la luz y es la superficie más rápida para barcos (72,73 m/s frente a 40 m/s en hielo normal o compacto)."
     ],
     "materials": [
       "Un bioma nevado: llanuras de nieve, frozen river, frozen peaks",
@@ -986,15 +986,15 @@
       "Quédate cerca: la congelación avanza por chunk ticks solo con un jugador cerca; pesca, construye o haz AFK al lado.",
       "Cosecha con Silk Touch: rompe cada capa y el estanque se recongela solo.",
       "Comprime: ice a packed ice (9:1) y a blue ice (9:1): 81 de ice por bloque de blue ice, y la granja lo hace gratis.",
-      "Tiende la autopista: los boats sobre blue ice alcanzan velocidades de autopista; el trayecto del End a la base se vuelve de segundos."
+      "Haz una autopista de hielo azul para barcos: velocidad máxima 72,73 m/s."
     ],
     "rates": "Un estanque de 10x10 se recongela en unos minutos de actividad cercana: stacks de ice por sesión, con la blue ice como producción lenta pero gratuita a largo plazo (81 de ice por bloque).",
     "tips": [
-      "El agua tiene que ver el cielo directamente encima y tener luz de bloque menor que 10 para congelarse.",
-      "Mantén una fila de agua sin congelar en el borde para rellenar fácil el estanque tras las grandes cosechas.",
-      "La blue ice también alimenta los generadores de basalt: una granja, dos líneas de producción.",
-      "El packed ice y la blue ice nunca se derriten junto al glowstone: construye salas brillantes y frías con ellos.",
-      "Fuente: minecraft.wiki Ice."
+      "El agua necesita ver el cielo directamente encima y tener luz de bloque menor que 10 para congelarse.",
+      "Mantén una fila de cubo de agua sin congelar en el borde para rellenar el estanque.",
+      "El hielo azul también alimenta generadores de basalto.",
+      "El hielo azul no se derrite cerca de fuentes de luz: sirve para salas luminosas.",
+      "Fuente: minecraft.wiki Ice y Blue Ice."
     ]
   },
   "villager-breeder": {
