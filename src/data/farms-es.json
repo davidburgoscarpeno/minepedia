@@ -1178,9 +1178,9 @@
       "El bone meal sobre un moss block convierte los bloques cercanos de stone, dirt y similares en moss en un volumen sin esquinas de 7x11x7, y hace brotar grass, moss carpet y azaleas encima.",
       "El bucle es neto positivo: un bone meal en una rejilla plana de 7x7 de bloques convertibles rinde unos 27 moss blocks de media, que se compostan en aproximadamente 2,5 bone meal.",
       "Un composter que se llena por completo suelta un bone meal al siguiente uso: leaves, vines, grass y casi todo ítem vegetal lo alimentan.",
-      "Una hoe mina los moss blocks al instante: una hoe de diamond o netherite limpia una plataforma entera en segundos.",
-      "Otras fuentes renovables: los skeletons sueltan bones (3 bone meal cada uno al fabricarlo), y un bone block se desfabrica en 9 bone meal.",
-      "Los dispensers pueden aplicar el bone meal al moss por ti: la automatización completa es un dispenser, pistons empujando stone nueva y un composter."
+      "El musgo se mina más rápido con azada.",
+      "Una tolva bajo el composter extrae el hueso; una tolva o dropper sobre él le mete objetos.",
+      "Un dispenser puede aplicar hueso por ti."
     ],
     "materials": [
       "1 moss block (lush caves, o shipwrecks y wandering traders)",
@@ -1193,16 +1193,15 @@
       "Construye una plataforma plana de stone de 7x7 con un moss block en el centro y un composter cerca.",
       "Usa bone meal en el moss: la stone se convierte en moss y brota vegetación encima.",
       "Pasa la hoe por toda la plataforma: el moss y las plantas saltan al instante.",
-      "Échalo todo al composter; cada ciclo completo devuelve ~2,5 bone meal por bone meal gastado.",
+      "Mete todo en el composter: al llenarse suelta hueso.",
       "Guarda el beneficio y reinvierte uno por ciclo: el bucle funciona para siempre.",
       "Automatiza después: un dispenser aplica el bone meal, los pistons empujan stone nueva y los hoppers alimentan el composter."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Guarda siempre un bone meal de reserva: el bucle solo se rompe si gastas el último.",
-      "Las azaleas que brotan son un extra: échales bone meal para flowering azalea trees y rooted dirt.",
-      "Combina esta granja con tu tree farm y el nether wart es el único cultivo que se resiste al bone meal.",
-      "En un inicio tipo skyblock, el wandering trader vende moss por emeralds: toda la economía en un trade."
+      "Guarda un hueso de reserva: el ciclo solo se rompe si gastas el último.",
+      "No se pueden compostar bambú, arbustos secos, patatas venenosas, productos de chorus ni objetos dorados.",
+      "Fuente: minecraft.wiki Moss Block y Composter."
     ]
   },
   "amethyst-farm": {
@@ -1600,10 +1599,10 @@
     "mechanics": [
       "Un mob muerto por el wither = una wither rose, colocada en el bloque de la muerte si es posible, soltada como ítem si no: incluso con mobGriefing desactivado, la rose siempre cae.",
       "La rose en sí es un arma: los mobs que la tocan reciben 1 de daño cada medio segundo con el efecto Wither; los wither skeletons, el wither y la ender dragon son inmunes.",
-      "Solo los wither skeletons (y en Bedrock los zombified piglins) pueden aparecer sobre wither roses: un suelo de roses no genera nada más, por eso pavimentan las granjas de nether fortress.",
-      "Las bees mueren polinizando wither roses: mantén la bee farm al otro lado del mapa.",
-      "La jaula: genera el wither bajo el bedrock del portal de salida del End o en una caja de obsidian hecha a medida, donde sus calaveras no puedan escapar.",
-      "Materia prima: cualquier mob prescindible; un chicken cooker, un villager breeder o la salida de un spawner básico valen."
+      "Solo los esqueletos wither (y en Bedrock los piglins zombificados) pueden aparecer sobre rosas wither.",
+      "Las abejas que tocan una rosa wither reciben el efecto Wither (salvo en Pacífico) aunque intenten polinizarla.",
+      "Cualquier mob o jugador matado por el wither suelta una rosa wither; se coloca donde murió si es posible y, si no, cae como objeto.",
+      "Alimentar a una mooshroom marrón con una rosa wither y ordeñarla con un cuenco da estofado sospechoso con Wither 7 segundos."
     ],
     "materials": [
       "4 soul sand + 3 calaveras de wither skeleton (tu granja de wither-skeleton paga esto)",
@@ -1613,19 +1612,19 @@
       "Todo resistente a explosiones: las calaveras de wither no son vecinas amables"
     ],
     "steps": [
-      "Construye la jaula primero, genera el wither después: 4 soul sand en T, 3 calaveras encima, y ponte detrás del bedrock.",
-      "Deja que pase la explosión inicial: el wither enjaulado es ahora tu impresora de roses.",
-      "Canaliza mobs a la cámara a la altura de la cabeza: las calaveras del wither los matan y cada cadáver planta una rose.",
-      "Pasa hoppers bajo la zona de caída hasta un chest: las roses se apilan a 64.",
-      "Escala la alimentación: un chicken cooker apilado suministra carne de rose sin fin.",
-      "Cosecha y despliega: black dye, suspicious stew de wither, o la losa de suelo más mortífera del juego."
+      "Consulta la guía de wither de la wiki antes de construir: un wither suelto puede destruir tu base.",
+      "Cuando el wither esté controlado, haz que mate mobs: cada muerte suelta una rosa.",
+      "Lleva mobs a su alcance de forma segura.",
+      "Recoge las rosas con tolvas.",
+      "Alimenta la cámara con mobs que mate el wither.",
+      "Úsalas de suelo para controlar el spawn o para estofado sospechoso con una mooshroom marrón."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Las wither roses como suelo de mob farm hacen doble función de control de aparición: nada excepto wither skeletons aparece sobre ellas.",
-      "Dale una rose a una brown mooshroom y luego órdenala con un bowl: suspicious stew de wither de grifo.",
-      "Mantén la jaula lejos de tu base: un wither suelto es un cráter del tamaño de una base.",
-      "Las roses se rompen al instante a mano, pero el agua, la lava y los pistons también las rompen: planea el suelo para que las inundaciones no lo arrasen."
+      "Un suelo de rosas wither solo deja aparecer esqueletos wither (y piglins zombificados en Bedrock).",
+      "Las rosas se rompen al instante, y también con agua, lava o pistones.",
+      "Una rosa en maceta no hace daño.",
+      "Fuente: minecraft.wiki Wither Rose."
     ]
   },
   "sculk-farm": {
@@ -1910,10 +1909,10 @@
     "quickAnswer": "Los drowned sueltan copper ingots solo cuando los mata un jugador o una mascota: 11% base, +2% por nivel de Looting. El diseño fiable convierte zombies de un spawner: atrápalos en una columna de agua con la cabeza sumergida 30 segundos, se agitan y se convierten en drowned, y luego los ablandas con una caída y los rematas con una sword con Looting.",
     "mechanics": [
       "El copper solo cae en muertes por jugador o mascota: 11% de probabilidad base, +2% por nivel de Looting (17% con Looting III). Las trituradoras automáticas dan cero copper.",
-      "Cualquier zombie normal se convierte tras 30 segundos con la cabeza sumergida. Los husks se convierten primero en zombies y luego en drowned. Los zombie villagers y zombified piglins nunca se convierten.",
-      "Los drowned convertidos también sueltan copper, y en Bedrock todo lo que el zombie llevara en la mano o puesto cae al 100%, lo que además recicla equipo.",
+      "Un zombi normal empieza a convertirse si su cabeza está sumergida 30 segundos seguidos, tiembla y 15 segundos después es un ahogado. Los husks pasan primero a zombi; zombis aldeanos y piglins zombificados nunca se convierten.",
+      "En Java el ahogado conserva el equipo; en Bedrock lo que llevaba el zombi al convertirse se suelta al 100%.",
       "La alternativa es el spawn natural: los drowned aparecen con luz 0 en aguas de oceans, rivers y dripstone caves. Java exige agua de 2+ bloques de profundidad; Bedrock los genera en grupos de 2-4.",
-      "Los drowned tienen 20 HP como los zombies, así que una caída de 22 bloques los deja a medio corazón: un puñetazo, o un barrido de una sword con Looting III."
+      "Los ahogados tienen 20 de vida, igual que los zombis."
     ],
     "materials": [
       "Un zombie spawner (para el diseño de conversión) o una gran plataforma oscura sobre un river (para el diseño de spawn natural)",
@@ -1925,16 +1924,16 @@
     "steps": [
       "Localiza un zombie spawner y construye el canal clásico de recogida empujando a los zombies hacia una esquina.",
       "Construye la columna de conversión: una columna de agua sellada donde los zombies que llegan patalean con la cabeza sumergida. Dales 30+ segundos: empiezan a agitarse y se convierten en drowned.",
-      "Expulsa a los drowned recién convertidos de la columna hacia un tubo de caída de 22 bloques. La caída los deja a medio corazón.",
-      "Ponte en el punto de matanza y barre con una sword con Looting III. Cada muerte tira un 17% de copper ingot, más XP, rotten flesh y drops raros de equipo.",
+      "Saca los ahogados recién convertidos de la columna hacia un tubo de caída para debilitarlos.",
+      "Mátalos tú o con una mascota con una espada con Looting III: cada muerte tiene 17% de soltar un lingote de cobre, además de XP y objetos raros.",
       "Recoge con hoppers hacia chests. Un filtro de objetos para copper y flesh mantiene el almacén limpio.",
       "¿Sin spawner? Usa el diseño de river: construye un gran suelo de spawn oscuro sumergido en agua de river con luz 0, arrastra los spawns con agua a una caída central y mata a mano igual. Más lento, pero funciona en cualquier sitio."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Nunca automatices el golpe final si quieres copper: la tirada del 11-17% solo ocurre en muertes por jugador o mascota.",
-      "Jugadores de Bedrock: el equipo que lleve un zombie al convertirse cae al 100%, así que deja que los zombies recojan armadura vieja antes de convertirlos para materiales gratis.",
-      "Los drowned con trident solo aparecen de forma natural (unos 6,25% en Java, 15% en Bedrock), nunca por conversión: no montes una granja de conversión esperando tridents."
+      "No automatices el golpe final si quieres cobre: la probabilidad solo se tira con muertes de jugador o mascota.",
+      "En Bedrock, el equipo del zombi se suelta al 100% al convertirse.",
+      "Fuente: minecraft.wiki Drowned."
     ]
   },
   "clay-farm": {
