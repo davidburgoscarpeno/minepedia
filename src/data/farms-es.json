@@ -364,15 +364,16 @@
       "Elige el método de roses o el de altura: las wither roses en las plataformas solo admiten wither skeletons, mientras que los techos de 2 bloques en todas partes menos en tus plataformas hacen lo mismo gratis.",
       "Construye el embudo: bordes abiertos o sistemas de empuje sin agua (no hay agua en el Nether: usa trapdoors, turtle eggs o caídas abiertas) llevan a los skeletons a un único punto de muerte.",
       "Mata a mano con Looting III: cada sesión promedia una skull por 18 bajas en Java y una por 12 en Bedrock.",
-      "Lleva Smite: un golpe de Smite V mata a un wither skeleton a través de la armadura, y la fire resistance hace irrelevantes los blazes que se te escapen.",
+      "Lleva fire resistance: los blazes del fortress siguen siendo un peligro mientras trabajas.",
       "Escala: despeja más bounding box, añade plataformas y las tasas suben; tres skulls significa un wither a demanda, y los beacons vienen detrás."
     ],
     "rates": "Una granja básica de una intersección con Looting III da una skull cada pocos minutos de matanza activa; los diseños de Java totalmente despejados con wither roses producen skulls lo bastante rápido para que los beacons sean un recurso renovable. El coal y los bones se acumulan gratis.",
     "tips": [
-      "Consulta el mapa de la seed: las fortalezas se generan en bandas a lo largo del eje Z; si una está lejos, hay otra a la misma Z hacia el este u oeste.",
-      "El efecto wither de sus golpes ignora la armadura y te deja la barra de vida negra; la milk no cura el Wither, así que no te dejes rodear.",
+      "Las skulls solo caen con muertes por jugador (o con explosión de un charged creeper, que la da siempre).",
+      "El efecto Wither de sus golpes ignora la armadura; la leche lo elimina, pero no te dejes rodear.",
       "Mata algunos blazes mientras estás: querrás las rods para brewing stands y eyes of ender de todos modos.",
-      "Una baja por charged creeper garantiza la skull; algunos jugadores atrapan uno como póliza de skulls."
+      "Una baja por charged creeper garantiza la skull; algunos jugadores atrapan uno como póliza de skulls.",
+      "Fuente: minecraft.wiki Wither Skeleton."
     ]
   },
   "blaze-farm": {
@@ -399,7 +400,7 @@
       "Construye el embudo: encierra la zona del spawner y forma un canal para que los blazes, que flotan hacia arriba, sean empujados con trapdoors abiertas, signs o tu propio knockback hacia un único punto de recolección.",
       "Añade la cámara de muerte: un punto donde los pies de los blazes queden expuestos pero sus fireballs no te alcancen; half-slabs o un triturador sin lava. Los blazes reciben daño del agua, así que nada de corrientes en el Nether.",
       "Reactiva el spawner quitando el glowstone y quédate cerca: los spawners solo funcionan con un jugador a menos de 16 bloques.",
-      "Mata con Looting III: cada blaze da de media una rod por cada dos bajas, y los 10 de XP cada uno suben niveles rápido.",
+      "Mata con Looting III: en Java cada blaze suelta de media 2 rods (0-4); en Bedrock, 1,25. Cada uno da además 10 de XP.",
       "El AFK no es opción aquí (las rods exigen muertes por jugador), pero unos minutos de espada por sesión cubren todas las necesidades de brewing.",
       "Marca el camino de vuelta: todas las nether fortresses se parecen, así que deja un rastro de torches o apunta las coordenadas."
     ],
@@ -408,7 +409,8 @@
       "Los bloques de luz 15 son tu interruptor: glowstone en cada cara de la jaula del spawner detiene las apariciones por completo mientras trabajas.",
       "La fire resistance convierte la parte más aterradora de la granja en ruido de fondo; nunca farmees blazes sin ella.",
       "Las snowballs dañan a los blazes (3 de daño): un dispenser o un stack en la mano remata a los blazes con poca vida sin riesgo.",
-      "Coge un segundo spawner solo si está a unos 16 bloques del primero; si no, un solo spawner enjaulado ya supera tu consumo de rods."
+      "Una blaze rod es la única fuente de blaze powder (brewing y ojos de ender); con un solo spawner enjaulado suele sobrar.",
+      "Fuente: minecraft.wiki Blaze y Tutorial:Blaze farming."
     ]
   },
   "slime-farm": {
