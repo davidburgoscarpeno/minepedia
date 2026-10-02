@@ -1605,11 +1605,11 @@
     "editions": "both",
     "quickAnswer": "Drop gold ingots to an adult piglin and it throws back loot after about 6 seconds: ender pearls at ~2.1% (2-4 per hit), obsidian and crying obsidian at ~8.5% each. Pair it with a gold farm and a piglin pen for infinite barter loops.",
     "mechanics": [
-      "Only adult piglins barter - babies pocket the ingot and run. They examine each ingot for 6 seconds on Java (8 on Bedrock), then throw one item from the table.",
-      "The headliners: ender pearls 2-4 at ~2.13% (~16 ingots per pearl), quartz 5-12 at ~4.26%, string 3-9 at ~4.26%, obsidian 1 at ~8.53%, crying obsidian 1-3 at ~8.53%, Fire Resistance potions and Soul Speed books/boots at 1-1.7%.",
-      "Bartering is the only renewable source of nether quartz, crying obsidian, soul sand, blackstone, gravel, nether brick and Soul Speed - this farm replaces four others.",
+      "Only adult piglins barter: babies keep the ingot in their inventory without bartering, and piglin brutes ignore gold. They examine each ingot for 6 seconds on Java (8-second cycle on Bedrock), then throw one item from the table.",
+      "The headliners: ender pearls 2-4 at ~2.13% (~16 ingots per pearl), quartz 5-12 at ~4.26%, string 3-9 at ~4.26%, obsidian 1 at ~8.53%, crying obsidian 1-3, gravel 8-16, soul sand 2-8, and Soul Speed books or boots at ~1.07% and ~1.71%.",
+      "Bartering is the only renewable source of nether quartz, crying obsidian, soul sand, blackstone, gravel, dried ghasts, Soul Speed and (Java only) Nether brick.",
       "Piglins pick up ingots from dispensers and droppers - automation is a gold farm feeding a dispenser line over a piglin pen, with hoppers catching the loot.",
-      "Wear one piece of gold armor near the pen or the workers unionize (with swords).",
+      "Piglins turn hostile unless you wear at least one piece of gold armor; wear it while you work near the pen.",
       "A piglin that just offered Soul Speed iron boots may equip them - offer golden boots to make it drop the prize."
     ],
     "materials": [
@@ -1631,8 +1631,9 @@
     "tips": [
       "This is the renewable quartz and crying obsidian source - builders, take note.",
       "Dried ghasts now come from bartering too - the start of your happy ghast stable.",
-      "Do not let the pen touch a bastion: piglin brutes do not barter and never calm down.",
-      "Sort the string: 3-9 per barter feeds your wool and bow supply quietly."
+      "Do not let the pen touch a bastion: piglin brutes ignore gold and do not barter.",
+      "Sort the string (3-9 per barter): it covers wool and bows.",
+      "Source: minecraft.wiki Barter."
     ],
     "keywords": "piglin bartering farm minecraft, bartering loot table, ender pearl farm, minecraft gold farm uses, soul speed bartering"
   },

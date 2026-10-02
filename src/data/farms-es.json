@@ -1434,11 +1434,11 @@
     "difficulty": "Intermedia",
     "quickAnswer": "Suelta gold ingots a un piglin adulto y te devuelve botín tras unos 6 segundos: ender pearls al ~2,1% (2-4 por acierto), obsidian y crying obsidian al ~8,5% cada una. Combínalo con una gold farm y un corral de piglins para bucles de barter infinitos.",
     "mechanics": [
-      "Solo los piglins adultos comercian: los bebés se embolsan el ingot y corren. Examinan cada ingot durante 6 segundos en Java (8 en Bedrock) y luego tiran un ítem de la tabla.",
-      "Los platos fuertes: ender pearls 2-4 al ~2,13% (~16 ingots por pearl), quartz 5-12 al ~4,26%, string 3-9 al ~4,26%, obsidian 1 al ~8,53%, crying obsidian 1-3 al ~8,53%, potions de Fire Resistance y libros/botas de Soul Speed al 1-1,7%.",
-      "El bartering es la única fuente renovable de nether quartz, crying obsidian, soul sand, blackstone, gravel, nether brick y Soul Speed: esta granja sustituye a otras cuatro.",
+      "Solo los piglins adultos comercian: los bebés guardan el ingot en su inventario sin comerciar, y los piglin brutes ignoran el oro. Examinan cada ingot 6 segundos en Java (ciclo de 8 segundos en Bedrock) y luego tiran un ítem de la tabla.",
+      "Los platos fuertes: ender pearls 2-4 al ~2,13% (~16 ingots por pearl), quartz 5-12 al ~4,26%, string 3-9 al ~4,26%, obsidian 1 al ~8,53%, crying obsidian 1-3, gravel 8-16, soul sand 2-8 y libros o botas con Soul Speed al ~1,07% y ~1,71%.",
+      "El bartering es la única fuente renovable de nether quartz, crying obsidian, soul sand, blackstone, gravel, dried ghast, Soul Speed y (solo Java) nether brick.",
       "Los piglins recogen ingots de dispensers y droppers: la automatización es una gold farm alimentando una línea de dispensers sobre un corral de piglins, con hoppers atrapando el botín.",
-      "Lleva una pieza de armadura de gold cerca del corral o los trabajadores se amotinan (con swords).",
+      "Los piglins se vuelven hostiles si no llevas al menos una pieza de armadura de oro; póntela mientras trabajas cerca del corral.",
       "Un piglin que acaba de ofrecer las iron boots de Soul Speed puede equipárselas: ofrécele unas golden boots para que suelte el premio."
     ],
     "materials": [
@@ -1460,8 +1460,9 @@
     "tips": [
       "Esta es la fuente renovable de quartz y crying obsidian: constructores, tomad nota.",
       "Los dried ghasts ahora también salen del bartering: el inicio de tu establo de happy ghasts.",
-      "No dejes que el corral toque un bastion: los piglin brutes no comercian y nunca se calman.",
-      "Clasifica el string: 3-9 por trueque alimentan tu suministro de wool y bows en silencio."
+      "No dejes que el corral toque un bastion: los piglin brutes ignoran el oro y no comercian.",
+      "Clasifica el string (3-9 por trueque): da para wool y bows.",
+      "Fuente: minecraft.wiki Barter."
     ]
   },
   "hoglin-farm": {
