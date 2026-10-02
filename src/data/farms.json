@@ -275,12 +275,12 @@
     "produces": "Prismarine shards, prismarine crystals, fish and massive XP",
     "difficulty": "Advanced",
     "editions": "java-bedrock-different",
-    "quickAnswer": "Guardians spawn in water inside the ocean monument's bounding box. Drain or section the monument, funnel guardians into a kill tube, and one-hit them with a Looting III sword for the best combined XP and prismarine farm in the game.",
+    "quickAnswer": "Guardians spawn in water inside the ocean monument's spawn volume. Clear or divide the water, funnel guardians to a kill chamber, and collect XP, prismarine shards, crystals and fish. Design choice (draining or no-drain) matters more than any single number.",
     "mechanics": [
-      "Guardians spawn only in water blocks inside the monument's 58x58 bounding box, between Y=39 and the sea floor - nowhere else.",
-      "Java designs drain the whole monument (sand walls + sponges or flying machines), then use bubble columns or flowing water to move guardians to a drop tube.",
-      "Bedrock designs typically section spawn spots with water columns since draining is harder; rates are lower but still strong.",
-      "A 23-block drop leaves guardians at one hit; Looting III multiplies shards and crystals."
+      "Guardians only spawn in ocean monuments, in water blocks inside a 58x24x58 volume, from the monument floor (Y=39) up to about Y=61.",
+      "Many modern designs do not drain the monument: they use soul sand bubble columns to lift guardians into a kill chamber.",
+      "Guardians have 30 HP, so a fall alone needs a 34-block drop to kill; lava over a 12-block drop also works (fall + lava + fire).",
+      "If the AFK spot is near the monument, light, slab or flood nearby caves within 128 blocks so other hostile mobs do not fill the mob cap."
     ],
     "materials": [
       "Hundreds of sand or gravel for dividing walls (draining approach)",
@@ -290,17 +290,16 @@
       "Conduit or water breathing potions for construction"
     ],
     "steps": [
-      "Kill the three elder guardians first to stop Mining Fatigue.",
-      "Wall off the monument exterior with sand/gravel and sponge-drain the interior (Java), or section spawn areas in Bedrock.",
-      "Build the collection system: water or bubble columns pushing guardians to a central 1x1 drop chute.",
-      "Stand at the kill spot with Looting III: one sword swing per guardian, XP orbs stream in.",
-      "Route drops to chests and smelt the fish overflow if you want cooked food too."
+      "Choose a design: drain/partition the monument (sponges, walls) or a no-drain soul sand design.",
+      "Build the spawning area with water, and a transport system (downward flowing water or bubble columns) to a kill chamber.",
+      "Kill with a fall of 34 blocks, lava over a 12-block drop, or manually with a sword (guardians have thorns, so bring healing).",
+      "Collect drops with hoppers into chests; the cod can be eaten or traded."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "The sponges you need to drain the monument are inside it - dry them in the Nether for instant reuse.",
-      "Guardian lasers hurt: build the kill spot so their line of sight breaks before you arrive.",
-      "Pair with a furnace array: raw cod overflow becomes a solid food supply."
+      "Guardians fit through 1-block holes, so cover gaps above or around the kill spot.",
+      "The wiki notes that guardian thorns damage players who attack with swords; arrows or damage potions avoid it.",
+      "Source: minecraft.wiki Tutorial:Guardian farming."
     ],
     "keywords": "guardian xp farm ocean monument prismarine sea lantern draining looting"
   },

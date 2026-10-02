@@ -240,12 +240,12 @@
   "guardian-xp-farm": {
     "produces": "Prismarine shards, prismarine crystals, pescado y XP masivo",
     "difficulty": "Avanzada",
-    "quickAnswer": "Los guardians aparecen en el agua dentro del bounding box del ocean monument. Drena o secciona el monumento, canaliza los guardians a un tubo de muerte y mátalos de un golpe con una espada Looting III para la mejor granja combinada de XP y prismarine del juego.",
+    "quickAnswer": "Los guardianes aparecen en agua dentro del volumen de generación del monumento oceánico. Vacía o divide el agua, lleva a los guardianes a una cámara de muerte y recoge XP, fragmentos y cristales de prismarina y pescado. Elegir el diseño (con o sin vaciado) importa más que cualquier cifra suelta.",
     "mechanics": [
-      "Los guardians solo aparecen en bloques de agua dentro del bounding box de 58x58 del monumento, entre Y=39 y el fondo marino: en ningún otro sitio.",
-      "Los diseños de Java drenan todo el monumento (muros de arena + esponjas o flying machines) y luego usan columnas de burbujas o agua corriente para mover a los guardians a un tubo de caída.",
-      "Los diseños de Bedrock suelen seccionar puntos de spawn con columnas de agua, ya que drenar es más difícil; las tasas son menores pero siguen siendo potentes.",
-      "Una caída de 23 bloques deja a los guardians a un golpe; Looting III multiplica shards y crystals."
+      "Los guardianes solo aparecen en monumentos oceánicos, en bloques de agua dentro de un volumen de 58x24x58, desde el suelo del monumento (Y=39) hasta aproximadamente Y=61.",
+      "Muchos diseños modernos no vacían el monumento: usan columnas de burbujas de arena de almas para subir a los guardianes a una cámara de muerte.",
+      "Los guardianes tienen 30 PS, así que solo con caída hacen falta 34 bloques; lava sobre una caída de 12 bloques también sirve (caída + lava + fuego).",
+      "Si el punto AFK está cerca del monumento, ilumina, cubre con losas o inunda las cuevas cercanas en 128 bloques para que otros monstruos hostiles no llenen el límite de mobs."
     ],
     "materials": [
       "Cientos de bloques de arena o grava para los muros divisores (enfoque de drenado)",
@@ -255,17 +255,16 @@
       "Conduit o pociones de respiración acuática para la construcción"
     ],
     "steps": [
-      "Mata primero a los tres elder guardians para quitarte el Mining Fatigue.",
-      "Aísla el exterior del monumento con arena/grava y drena el interior con esponjas (Java), o secciona las áreas de spawn en Bedrock.",
-      "Construye el sistema de recolección: agua o columnas de burbujas empujando a los guardians a un conducto de caída central de 1x1.",
-      "Ponte en el punto de muerte con Looting III: un espadazo por guardian y las orbes de XP entran en tromba.",
-      "Lleva los drops a cofres y funde el pescado sobrante si también quieres comida cocinada."
+      "Elige un diseño: vaciar/dividir el monumento (esponjas, muros) o uno sin vaciado con arena de almas.",
+      "Construye la zona de generación con agua y un sistema de transporte (agua que fluye hacia abajo o columnas de burbujas) hasta una cámara de muerte.",
+      "Mata con una caída de 34 bloques, lava sobre una caída de 12 bloques, o a mano con espada (los guardianes tienen espinas, lleva curación).",
+      "Recoge los objetos con tolvas en cofres; el bacalao se puede comer o comerciar."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Las esponjas que necesitas para drenar el monumento están dentro de él: sécalas en el Nether para reutilizarlas al instante.",
-      "Los láseres de los guardians hacen daño: construye el punto de muerte de modo que su línea de visión se rompa antes de que llegues.",
-      "Combínala con una batería de hornos: el excedente de raw cod se convierte en una buena fuente de comida."
+      "Los guardianes caben por huecos de 1 bloque, así que tapa los huecos sobre o alrededor del punto de muerte.",
+      "La wiki indica que las espinas de los guardianes dañan a quien ataca con espada; flechas o pociones de daño lo evitan.",
+      "Fuente: minecraft.wiki Tutorial:Guardian farming."
     ]
   },
   "creeper-farm": {
