@@ -873,9 +873,9 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "A snow golem standing in one spot blankets the ground under itself with snow layers. Shovel the layers for snowballs, craft them into snow blocks - infinite snow from two snow blocks and a carved pumpkin.",
     "mechanics": [
-      "Snow golems leave a snow layer trail as they move - in Java in any biome, in Bedrock only outside hot biomes (jungles, savannas, deserts, badlands, mushroom fields and the Nether are excluded there).",
+      "Snow golems leave a snow layer trail as they move when the block can support it: in Java in any biome; in Bedrock not in high-temperature biomes (jungles, mushroom fields, savannas, stony peaks, deserts, badlands and the Nether).",
       "Confined to a single block, the golem still deposits snow on every supportable block in reach - a 1-block pen with a trapdoor lid is the classic design.",
-      "Shoveling a snow layer gives one snowball per layer; with an Efficiency shovel you can mine the layer under the golem's pen edge faster than it forms... almost - the golem re-lays it constantly.",
+      "Shoveling a snow layer gives snowballs; the golem lays it again as it moves.",
       "Watch the temperature: golems take damage and die in rain, water and biomes hotter than 1.0 (deserts, badlands, the Nether) - build the farm in a temperate or cold biome, or under a roof.",
       "mobGriefing false disables the snow trail - check the gamerule if your golem refuses to produce.",
       "Bonus: golems hurl a snowball per second at any monster within 10 blocks (16 when boxed), and snowballs damage blazes - free blaze chip damage in Nether runs."
@@ -894,15 +894,16 @@
       "Shovel the layers: stand at the pen and mine the snow as it appears - snowballs pour in faster than most uses demand.",
       "Roof the farm in rainy biomes: water hurts the golem, and a dead golem drops nothing but 0-15 snowballs once.",
       "Craft up: 4 snowballs make a snow block - storage, building, and more golems.",
-      "Avoid hot biomes: deserts, savannas, badlands and the Nether kill golems; in Bedrock they also refuse to trail snow there.",
+      "Avoid hot biomes: in deserts, badlands and the Nether golems take damage (savannas only in Java); Fire Resistance protects them.",
       "Staff your base: a couple of penned golems near the wall knock back and distract zombies all night for free."
     ],
     "rates": "One penned golem with a good shovel gives about a stack of snowballs per minute of active shoveling - effectively infinite, and the only renewable snow in the game.",
     "tips": [
       "Silk Touch shovels collect the layers whole for instant snow-block reassembly - snowballs are for crafting, layers are for lazy builders.",
       "Pumpkin must be carved: shears on a regular pumpkin first, or use a jack o'lantern directly.",
-      "In Bedrock, keep the farm out of jungles and mushroom fields too - the trail rules differ there.",
-      "Snow layers stack up to 8 for a full block-height drift - decorative, and it slows mobs slightly."
+      "In Bedrock, also keep the farm out of jungles, savannas and stony peaks: no trail there.",
+      "Snow layers stack up to 8 for a full block-height drift - decorative, and it slows mobs slightly.",
+      "Source: minecraft.wiki Snow Golem."
     ],
     "keywords": "snow farm minecraft, snow golem farm minecraft, infinite snowballs minecraft, how to get snow minecraft, snow golem snow trail"
   },
@@ -1156,7 +1157,7 @@
     "editions": "both",
     "quickAnswer": "Plant nether wart on soul sand and wait - it ignores light, water and bone meal, growing one stage about every 11 minutes on average. A mature crop drops 2-4 wart, and a Fortune III tool raises that to up to 7 per crop.",
     "mechanics": [
-      "Nether wart only grows on soul sand (never soul soil), in any dimension - since 1.3.1 it grows fine in the Overworld, so no Nether outpost needed after the first harvest.",
+      "Nether wart only grows on soul sand (never soul soil) and can grow in any dimension, so you do not need a Nether base after the first harvest.",
       "Growth is pure patience: 4 stages, a 10% chance to advance per random tick, fully grown in about 34 minutes on average. Light, water and nearby crops change nothing.",
       "Bone meal does NOT work on nether wart - the one crop in the game that shrugs it off.",
       "A fully mature crop drops 2-4 nether wart; immature stages always drop 1. Each Fortune level adds 1 to the maximum - Fortune III tops out at 7 per crop.",
@@ -1178,10 +1179,11 @@
     ],
     "rates": "A mature crop averages 3 wart (2-4 flat), so a 100-block field nets about 300 wart per ~34-minute cycle; Fortune III raises the ceiling to 7 per crop.",
     "tips": [
-      "There is no real automation for vanilla nether wart - growth cannot be forced and replanting is manual. Bigger fields, not cleverer redstone, are the answer.",
-      "Observers do detect the stage change, so a harvest-light indicator per row is possible - but you still pick by hand.",
-      "Since 1.21 you can plant wart aiming at the sides and underside of blocks too, not just the top face.",
-      "Keep the farm in the Overworld: no ghasts, no piglins, and it grows at exactly the same speed."
+      "Bone meal does not work on nether wart; the answer is a bigger field and patience.",
+      "Mature (stage 4) nether wart drops 2-4; immature drops only 1 even with Fortune.",
+      "Nether wart crops generate naturally only in nether fortresses and in the courtyard of housing-unit bastion remnants.",
+      "Keep the farm in the Overworld: no ghasts, no piglins, and it grows at exactly the same speed.",
+      "Source: minecraft.wiki Nether Wart."
     ],
     "keywords": "nether wart farm minecraft, how to grow nether wart, nether wart not growing, nether wart soul sand, fortune nether wart"
   },
