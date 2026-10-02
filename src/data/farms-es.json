@@ -1841,11 +1841,11 @@
     "difficulty": "Principiante",
     "quickAnswer": "El bonemeal sobre grass blocks hace crecer flores según el bioma (área 15x5x15 en Java, 7x5x7 en Bedrock). Para tall flowers como sunflowers y peonies, dale bonemeal a la propia flor y suelta una copia: la única forma renovable de conseguirlas. Un dispenser aplicando bonemeal sobre una plataforma de grass con cosecha de agua es toda la granja.",
     "mechanics": [
-      "El bonemeal sobre un grass block hace crecer grass y flores del bioma en un área de 15x5x15 en Java o 7x5x7 en Bedrock.",
-      "La flor que sale depende del bioma: las flower forests dan casi todos los tipos, las plains dan los clásicos, los swamps dan blue orchids.",
-      "Las tall flowers (sunflower, lilac, rose bush, peony) nunca salen del bonemeal en grass: dale bonemeal a la propia flor y suelta un duplicado. Esa duplicación funciona en ambas ediciones y es la única fuente renovable de tall flowers.",
-      "Bonus de Bedrock: el bonemeal sobre una flor PEQUEÑA propaga más flores del mismo tipo en un área de 7x7 sin grass: las granjas monocultivo de dye son triviales ahí.",
-      "Las wither roses, torchflowers y pitcher plants no se pueden farmear con bonemeal de ninguna forma."
+      "El hueso sobre un bloque de hierba hace crecer vegetación en un área de 15x15x15 en Java o 7x5x7 en Bedrock, y cada bloque de hierba elige al azar qué planta crece.",
+      "Qué flor sale depende del bioma: en el bosque de flores cada coordenada genera un solo tipo de flor, formando un degradado (en Java es tridimensional y cambia con la altura Y).",
+      "Las flores altas (girasol, lila, rosal, peonía) no salen del hueso sobre hierba: aplica hueso a la propia flor y suelta otra igual sin romper la original. Es la única forma de reproducirlas.",
+      "Algunas flores solo generan al crearse el chunk y otras solo con hueso; la tabla de la wiki lo indica por bioma.",
+      "Las flores se rompen al instante con cualquier cosa, y también si les pasa agua por encima o las empuja un pistón."
     ],
     "materials": [
       "Una plataforma de grass en el bioma cuyas flores quieres",
@@ -1855,19 +1855,18 @@
       "Hoppers y chests; un composter para el excedente"
     ],
     "steps": [
-      "Elige el bioma: flower forest para variedad, plains para los básicos rojo/amarillo, swamp para blue orchids, meadow para flores de altura.",
-      "Monta una plataforma de grass (Java: hasta 7 bloques desde el punto de clic; Bedrock: 3 bloques) con hoppers en el borde bajo.",
+      "Elige bioma: el bosque de flores da variedad; consulta las tablas de la wiki para el resto.",
+      "Prepara una plataforma de hierba (Java: hasta 7 bloques desde el punto de clic) con tolvas en el borde bajo.",
       "Coloca un dispenser aplicando bonemeal sobre el grass block central con un observer clock.",
-      "Haz periódicamente una barrida de agua (dispenser con un water bucket) para empujar las flores a los hoppers.",
+      "Con un barrido de agua periódico empujas las flores a las tolvas.",
       "Para tall flowers, coloca una de cada sobre grass y dale bonemeal directamente: cada clic duplica la flor.",
       "Clasifica o compostea la producción: las flores se vuelven dyes, y los dyes se vuelven todo lo demás."
     ],
     "rates": "Un montaje con dispenser en flower forest produce cientos de flores variadas por stack de bonemeal. La duplicación de tall flowers es exactamente 1 flor por bonemeal: lenta pero totalmente automática con un dispenser mirando a la flor.",
     "tips": [
-      "En Java, algunos biomas usan gradientes de flores: el mismo sitio da siempre la misma flor, así que explora coordenadas para el dye exacto que quieras.",
-      "La lily of the valley solo sale en biomas de bosque; las cornflowers solo en biomas de la familia plains: revisa el bioma antes de construir.",
-      "Las flores son compostables: el excedente alimenta el suministro de bonemeal de todas tus demás granjas.",
-      "Las bees necesitan flores para criar y producir honey más rápido: empareja la granja con tu zona de abejas."
+      "Las abejas necesitan flores para fabricar miel: combina esta granja con tu zona de abejas.",
+      "Las flores se pueden compostar y se convierten en tintes.",
+      "Fuente: minecraft.wiki Flower y Bone Meal."
     ]
   },
   "cave-spider-xp-farm": {
@@ -1875,10 +1874,10 @@
     "difficulty": "Intermedia",
     "quickAnswer": "Encuentra un spawner de cave spiders en una mineshaft (busca los corredores llenos de cobwebs), excava la sala, usa agua para empujar a las arañas a un tubo de caída de 14 bloques y mátalas de un golpe abajo por XP, string y spider eyes. Las cave spiders caben por huecos de 1 bloque y bajo slabs, así que la zona de matanza debe estar sellada a tope.",
     "mechanics": [
-      "Los spawners de cave spiders solo se generan en mineshafts, rodeados de cobwebs densas. Necesitan nivel de luz 0: torches sobre el spawner lo pausan mientras construyes.",
-      "Las cave spiders tienen 12 HP y miden solo 0,5 bloques de alto: se cuelan bajo slabs y por huecos de 1 bloque que frenan a las arañas normales. Sobreprotege el contenedor.",
-      "Su mordisco envenena en Normal (7 segundos) y Hard (15 segundos). El poison no puede matarte por sí solo, pero los mordiscos sí: lleva milk buckets, que quitan el veneno al instante.",
-      "Una caída de 14 bloques hace 11 de daño y las deja a 1 HP: exactamente un puñetazo, que da XP completa y drops de muerte por jugador.",
+      "Los cave spiders solo salen de spawners en minas abandonadas (nivel de luz 0) rodeados de telarañas, o de trial spawners (25% de ser el mob melee pequeño).",
+      "Tienen 12 de vida y una hitbox de 0,5 de alto y 0,7 de ancho: caben por huecos de 1 bloque de ancho y medio de alto.",
+      "Su mordisco envenena en Normal (7 segundos) y Difícil (15 segundos); el ataque cuerpo a cuerpo hace 2 en Normal y 3 en Difícil.",
+      "Son neutrales con luz de nivel 12 o más; si se vuelven hostiles, la luz ya no les afecta. Ignoran las telarañas y el veneno.",
       "Valen las reglas estándar del spawner: activo a menos de 16 bloques de ti, unas 4 arañas cada 10-40 segundos, y se pausa cuando 6+ arañas se apiñan cerca: mantenlas fluyendo."
     ],
     "materials": [
@@ -1889,18 +1888,19 @@
       "Milk buckets para emergencias de veneno"
     ],
     "steps": [
-      "Encuentra una mineshaft (las de badlands se generan cerca de la superficie) y escucha sonidos densos de araña: el spawner está en un corredor enterrado en cobwebs.",
+      "Busca una mina abandonada: el spawner está en un pasillo cubierto de telarañas.",
       "Pon torches sobre el propio spawner para apagarlo, limpia las cobwebs y excava una sala de unos 9x9x5 centrada en él.",
       "Coloca corrientes de agua por el suelo que empujen todo hacia un conducto central de 1 bloque de ancho. Las cave spiders nadan mal, así que mantén el flujo fuerte y las paredes lisas.",
-      "Construye la caída: un tubo sellado de exactamente 14 bloques hasta tu punto de matanza, con un water elevator o escalera aparte para que subas tú.",
+      "Construye la caída: la fórmula de daño por caída es distancia menos 3, así que 14 bloques dejan a los cave spiders en 1 de vida.",
       "Abajo, deja un hueco de media slab a la altura de sus ojos: tú golpeas patas a través, ellas no caben. Hoppers y chests bajo el suelo.",
-      "Ponte a menos de 16 bloques del spawner, espera el flujo y mata de un golpe. Looting III en la sword multiplica la string."
+      "Mantente a menos de 16 bloques del spawner y remata de un golpe; Looting sube el hilo (0-2 base, hasta 0-5 con Looting III)."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Sella TODO hueco más grande que media slab: las cave spiders escapan por rendijas por las que una araña normal jamás podría, y una suelta en la oscuridad es una pesadilla.",
-      "Los milk buckets ganan a cualquier poción aquí: un trago quita el veneno al instante.",
-      "Si el spawner se pausa constantemente, tu conducto de matanza está demasiado cerca: aleja la caída para que las arañas salgan antes de su caja de detección de 9x9x9."
+      "Sella todo hueco de 1 bloque de ancho y medio de alto: se cuelan por donde una araña normal no.",
+      "Sueltan 5 XP al morir a manos de un jugador o lobo domesticado.",
+      "Si el spawner se pausa, aleja la caída: se detiene con 6 o más mobs cerca.",
+      "Fuente: minecraft.wiki Cave Spider."
     ]
   },
   "drowned-copper-farm": {

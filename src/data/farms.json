@@ -2056,11 +2056,11 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "Bonemeal on grass blocks grows flowers matching the biome (15x5x15 area in Java, 7x5x7 in Bedrock). For tall flowers like sunflowers and peonies, bonemeal the flower itself and it drops a copy - the only renewable way to get them. A dispenser clicking bonemeal over a grass platform with a water harvest is the whole farm.",
     "mechanics": [
-      "Bonemeal on a grass block grows grass and biome-specific flowers in a 15x5x15 area in Java or 7x5x7 in Bedrock.",
-      "Which flower you get depends on the biome - flower forests give nearly every type, plains give the classics, swamps give blue orchids.",
-      "Tall flowers (sunflower, lilac, rose bush, peony) never come from grass bonemeal: bonemeal the flower itself and it drops a duplicate. That duplication works in both editions and is the only renewable tall-flower source.",
-      "Bedrock bonus: bonemeal on a SMALL flower spreads more flowers of the same type over a 7x7 area with no grass - mono-culture dye farms are trivial there.",
-      "Wither roses, torchflowers and pitcher plants can not be farmed with bonemeal at all."
+      "Bone meal on a grass block sprouts foliage in a 15x15x15 area in Java or 7x5x7 in Bedrock, and each grass block randomly picks which plant to grow.",
+      "Which flower you get depends on the biome: in a flower forest each coordinate can spawn only one flower type, forming a gradient (in Java it is three-dimensional and changes with Y level).",
+      "Tall flowers (sunflower, lilac, rose bush, peony) do not come from bone meal on grass: use bone meal on the flower itself and it drops another of the same type without breaking the original. It is the only way to reproduce them.",
+      "Some flowers only spawn when the chunk generates and others only with bone meal; the wiki tables list this per biome.",
+      "Flowers break instantly with anything, and also if water flows over them or a piston pushes into them."
     ],
     "materials": [
       "A grass platform in the biome whose flowers you want",
@@ -2070,19 +2070,18 @@
       "Hoppers and chests; a composter for overflow"
     ],
     "steps": [
-      "Pick the biome: flower forest for variety, plains for red/yellow basics, swamp for blue orchids, meadow for altitude flowers.",
-      "Lay a grass platform (Java: up to 7 blocks out from the click point; Bedrock: 3 blocks) with hoppers at the low edge.",
+      "Pick the biome: flower forest for variety; check the wiki's per-biome tables for the rest.",
+      "Lay a grass platform (Java: up to 7 blocks out from the click point) with hoppers at the low edge.",
       "Set a dispenser clicking bonemeal on the center grass block on an observer clock.",
-      "Periodically run a water sweep (dispenser with a water bucket) to push flowers into the hoppers.",
+      "A periodic water sweep pushes flowers into the hoppers.",
       "For tall flowers, place one of each on grass and click bonemeal directly on them - every click duplicates the flower.",
       "Sort or compost the output: flowers become dyes, dyes become everything else."
     ],
     "rates": "A flower forest dispenser setup produces hundreds of mixed flowers per bonemeal stack. Tall-flower duplication is exactly 1 flower per bonemeal - slow but fully automatic with a dispenser facing the flower.",
     "tips": [
-      "In Java, some biomes use flower gradients: the same spot always gives the same flower, so scout coordinates for the exact dye you want.",
-      "Lily of the valley only comes from forest biomes; cornflowers only from plains-family biomes - check the biome before building.",
-      "Flowers are compostable: overflow feeds the bonemeal supply of every other farm you own.",
-      "Bees need flowers to breed and produce honey faster - pair the farm with your bee area."
+      "Bees need flowers to make honey: pair this farm with your bee area.",
+      "Flowers can be composted and crafted into dyes.",
+      "Source: minecraft.wiki Flower and Bone Meal."
     ],
     "keywords": "flower farm minecraft bonemeal dye farm sunflower peony lilac rose bush duplicate tall flowers"
   },
@@ -2094,10 +2093,10 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "Find a cave spider spawner in a mineshaft (look for the corridors choked with cobwebs), dig out the room, use water to push the spiders into a 14-block drop chute, and one-punch them at the bottom for XP, string and spider eyes. Cave spiders fit through 1-block gaps and under slabs, so the kill zone must be sealed tight.",
     "mechanics": [
-      "Cave spider spawners only generate in mineshafts, surrounded by thick cobwebs. They need light level 0 to run - torches on the spawner pause it while you build.",
-      "Cave spiders have 12 HP and are only 0.5 blocks tall: they slip under slabs and through 1-wide gaps that stop normal spiders. Overbuild your containment.",
-      "Their bite poisons you on Normal (7 seconds) and Hard (15 seconds) difficulty. Poison cannot kill you by itself, but the bites can - carry milk buckets, which clear poison instantly.",
-      "A 14-block fall deals 11 damage and leaves them at 1 HP: exactly one punch, which pays full XP and player-kill drops.",
+      "Cave spiders only come from monster spawners in mineshafts (light level 0) surrounded by cobwebs, or from trial spawners (25% chance as the small melee mob).",
+      "They have 12 HP and a 0.5 tall, 0.7 wide hitbox: they fit through a gap 1 block wide and half a block tall.",
+      "Their bite poisons on Normal (7 seconds) and Hard (15 seconds); melee does 2 on Normal and 3 on Hard.",
+      "They are neutral in light level 12 or above; once hostile, light no longer affects them. They are unaffected by cobwebs and Poison.",
       "Standard spawner rules apply: active within 16 blocks of you, about 4 spiders every 10-40 seconds, and it pauses when 6+ spiders crowd around it - keep them flowing away."
     ],
     "materials": [
@@ -2108,18 +2107,19 @@
       "Milk buckets for poison emergencies"
     ],
     "steps": [
-      "Find a mineshaft (badlands mineshafts generate near the surface) and listen for dense spider sounds - the spawner sits in a corridor buried in cobwebs.",
+      "Find a mineshaft: the spawner sits in a corridor covered in cobwebs.",
       "Torch the spawner itself to shut it off, clear the cobwebs, and dig out a room roughly 9x9x5 centered on it.",
       "Lay water streams along the floor that push everything into a central 1-wide chute. Cave spiders swim poorly, so keep the flow strong and the walls smooth.",
-      "Build the drop: a sealed tube exactly 14 blocks down to your kill spot, with a separate water elevator or ladder for you to go back up.",
+      "Build the drop: fall damage is distance minus 3, so 14 blocks leave cave spiders at 1 HP.",
       "At the bottom, leave a half-slab gap at their eye level - you hit legs through it, they cannot fit out. Hoppers and chests go under the floor.",
-      "Stand within 16 blocks of the spawner, wait for the flow, and one-punch away. Looting III on a sword multiplies the string."
+      "Stay within 16 blocks of the spawner and finish with one punch; Looting raises string (0-2 base, up to 0-5 with Looting III)."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Seal EVERY hole bigger than a half slab - cave spiders escape through gaps a normal spider never could, and a loose one in the dark is misery.",
-      "Milk buckets beat every potion here: one drink clears poison instantly.",
-      "If the spawner pauses constantly, your kill chute is too close - move the drop further so spiders leave its 9x9x9 detection box faster."
+      "Seal every gap 1 block wide and half a block tall: they squeeze through where a normal spider cannot.",
+      "They drop 5 XP when killed by a player or tamed wolf.",
+      "If the spawner keeps pausing, move the drop further away: it pauses with 6 or more mobs nearby.",
+      "Source: minecraft.wiki Cave Spider."
     ],
     "keywords": [
       "cave spider farm minecraft",
