@@ -25115,7 +25115,7 @@
   "how-to-enable-cheats": {
     "name": "Cómo activar los cheats en Minecraft",
     "shortTitle": "Activar cheats",
-    "quickAnswer": "Mundo nuevo: activa Allow Cheats (Java) o Activate Cheats (Bedrock) en la pantalla de creación. Mundo Java ya creado: Esc > Open to LAN > Allow Cheats: ON: los comandos funcionan hasta que salgas. Mundo Bedrock ya creado: activa Activate Cheats en los ajustes del mundo, lo que desactiva los logros de ese mundo para siempre.",
+    "quickAnswer": "Mundo nuevo: activa Allow Commands (Java) o Activate Cheats (Bedrock) en la pantalla de creación. Mundo Java ya creado: Esc > Open to LAN > Allow Cheats: ON: los comandos funcionan hasta que salgas. Mundo Bedrock ya creado: activa Activate Cheats en los ajustes del mundo, lo que desactiva los logros de ese mundo para siempre.",
     "keywords": "cómo activar cheats minecraft allow cheats open to lan activate cheats bedrock logros comandos",
     "materials": [
       "Un mundo singleplayer (en servidores hacen falta permisos de operator)",
@@ -25123,12 +25123,13 @@
       "Bedrock: acceso a los ajustes del mundo"
     ],
     "steps": [
-      "Mundo nuevo (Java): Create New World > Game > Allow Cheats: ON antes de generar el mundo.",
+      "Mundo nuevo (Java): Create New World > Game > Allow Commands: ON antes de generar el mundo.",
       "Mundo nuevo (Bedrock): activa el interruptor Activate Cheats en la pantalla de creación: el juego avisa de que los logros quedarán desactivados en ese mundo.",
       "Mundo Java ya creado: pulsa Esc > Open to LAN, pon Allow Cheats: ON y arranca el mundo LAN. Los comandos funcionan hasta que cierres el mundo: repite el truco en cada sesión.",
       "Mundo Bedrock ya creado: ajustes del mundo > Activate Cheats. El cambio es permanente para ese mundo: los logros quedan desactivados aunque luego apagues los cheats.",
       "Lo que desbloquean los cheats: /gamemode, /give, /tp, /time set, /weather, /seed y toda la lista de comandos.",
-      "En Realms y servidores, los cheats vienen de los permisos de operator (/op del dueño), no de estos interruptores del mundo."
+      "En Realms y servidores, los cheats vienen de los permisos de operator (/op del dueño), no de estos interruptores del mundo.",
+      "Las versiones nuevas de Java también permiten activar los cheats en cualquier momento desde el menú World Options en un mundo individual. El truco de Open to LAN es temporal y, según la wiki de Minecraft, su menú cambió después de Java 26.3, así que busca la opción de cheats en la pantalla LAN o en World Options."
     ],
     "versions": "El truco de Open to LAN funciona en todas las versiones modernas de Java. Java nunca bloquea advancements por los cheats; Bedrock bloquea los logros en cuanto se activan.",
     "editionNote": "Java mantiene los advancements con cheats activados. Bedrock desactiva los logros del mundo en el momento en que activas los cheats: no hay forma de reactivarlos en ese mundo.",

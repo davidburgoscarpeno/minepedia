@@ -28498,7 +28498,7 @@
     "slug": "how-to-enable-cheats",
     "name": "How to Enable Cheats in Minecraft",
     "shortTitle": "Enable Cheats",
-    "quickAnswer": "New world: turn on Allow Cheats (Java) or Activate Cheats (Bedrock) in the creation screen. Existing Java world: Esc > Open to LAN > Allow Cheats: ON - commands work until you quit. Existing Bedrock world: toggle Activate Cheats in the world settings, which permanently disables achievements for that world.",
+    "quickAnswer": "New world: turn on Allow Commands (Java) or Activate Cheats (Bedrock) in the creation screen. Existing Java world: Esc > Open to LAN > Allow Cheats: ON - commands work until you quit. Existing Bedrock world: toggle Activate Cheats in the world settings, which permanently disables achievements for that world.",
     "keywords": "how to enable cheats minecraft allow cheats open to lan activate cheats bedrock achievements commands",
     "materials": [
       "A singleplayer world (servers need operator permissions instead)",
@@ -28506,12 +28506,13 @@
       "Bedrock: access to the world settings"
     ],
     "steps": [
-      "New world (Java): Create New World > Game > Allow Cheats: ON before generating the world.",
+      "New world (Java): Create New World > Game > Allow Commands: ON before generating the world.",
       "New world (Bedrock): flip the Activate Cheats toggle in the creation screen - the game warns that achievements will be disabled for that world.",
       "Existing Java world: press Esc > Open to LAN, set Allow Cheats: ON and start the LAN world. Commands work until you close the world - repeat the trick each session.",
       "Existing Bedrock world: world settings > Activate Cheats. The change is permanent for that world: achievements stay off even if you turn cheats back off later.",
       "What cheats unlock: /gamemode, /give, /tp, /time set, /weather, /seed and the full command list.",
-      "On Realms and servers, cheats come from operator permissions (/op from the owner), not from these world toggles."
+      "On Realms and servers, cheats come from operator permissions (/op from the owner), not from these world toggles.",
+      "Newer Java versions also let you toggle cheats at any time from the World Options menu in a singleplayer world. The Open to LAN trick is temporary and, per the Minecraft Wiki, its menu changed after Java 26.3, so look for the cheats option in the LAN screen or World Options."
     ],
     "versions": "The Open to LAN trick works in every modern Java version. Java never blocks advancements for cheats; Bedrock blocks achievements the moment cheats turn on.",
     "editionNote": "Java keeps advancements with cheats on. Bedrock disables achievements per world the moment you activate cheats - there is no way to re-enable them on that world.",
