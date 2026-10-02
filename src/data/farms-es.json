@@ -989,10 +989,11 @@
     ],
     "rates": "Un estanque de 10x10 se recongela en unos minutos de actividad cercana: stacks de ice por sesión, con la blue ice como producción lenta pero gratuita a largo plazo (81 de ice por bloque).",
     "tips": [
-      "Las snow layers no bloquean la congelación: solo la luz y la cobertura del cielo lo hacen.",
+      "El agua tiene que ver el cielo directamente encima y tener luz de bloque menor que 10 para congelarse.",
       "Mantén una fila de agua sin congelar en el borde para rellenar fácil el estanque tras las grandes cosechas.",
       "La blue ice también alimenta los generadores de basalt: una granja, dos líneas de producción.",
-      "El packed ice y la blue ice nunca se derriten junto al glowstone: construye salas brillantes y frías con ellos."
+      "El packed ice y la blue ice nunca se derriten junto al glowstone: construye salas brillantes y frías con ellos.",
+      "Fuente: minecraft.wiki Ice."
     ]
   },
   "villager-breeder": {
@@ -1380,10 +1381,10 @@
     "quickAnswer": "Cría dos turtles con seagrass y la preñada vuelve a su playa natal a poner 1-4 huevos sobre sand. Los huevos eclosionan tras unos 4-5 días de juego (más rápido de noche), y cada cría suelta un scute al crecer.",
     "mechanics": [
       "Regla de la playa natal: una turtle siempre vuelve al bloque donde apareció para poner sus huevos; cría turtles donde quieras la granja, o usa Silk Touch en los huevos y recolócalos para fijar una nueva playa natal para las crías.",
-      "Huevos: 1-4 por puesta, colocados en sand, red sand o suspicious sand; SOLO eclosionan en bloques tipo sand, y se agrietan 3 veces en ~4-5 días de juego, agrietándose más a menudo de noche.",
+      "Huevos: 1-4 por nido, en arena, arena roja o arena sospechosa; solo eclosionan en esos bloques, tras agrietarse tres veces. Los huevos eclosionan mucho más rápido al final de la noche, y en media tardan 4-5 noches.",
       "El premio: cada cría de turtle suelta exactamente 1 scute al madurar; 5 scutes fabrican un turtle shell helmet con Water Breathing integrado.",
-      "Los zombies y sus variantes cazan y pisotean los huevos de turtle desde una caja de hasta 47x7x47 en Java: valla e ilumina la playa.",
-      "Enfriamiento de cría: 5 minutos en Java, 90 segundos en Bedrock.",
+      "Los zombis y sus variantes pisotean los huevos de tortuga deliberadamente: radio de detección 47x7x47 en Java y 11x5x11 en Bedrock.",
+      "Los huevos no avanzan si no hay un jugador a menos de 128 bloques en horizontal.",
       "El seagrass es toda la dieta: córtalo del fondo del océano con shears, o usa bone meal en bloques bajo el agua para más."
     ],
     "materials": [
@@ -1404,9 +1405,10 @@
     "rates": "Cada ronda de cría convierte seagrass en 1-4 futuros scutes por cada ~5 minutos de enfriamiento más una eclosión de 4-5 días; un corral de 10 turtles da un goteo constante de shells tras madurar la primera generación.",
     "tips": [
       "Turtle shell + awkward potion destila la Potion of the Turtle Master: Slowness pero Resistance enorme; un botón de tanque para peleas duras.",
-      "Los huevos eclosionan más rápido de noche: saltarte las noches frena la granja, las noches de insomnio la aceleran.",
-      "Un zombie suelto es una granja rota: detectan los huevos a través de muros; revisa el perímetro antes de hacer AFK.",
-      "Las crías de turtle son el mob más pequeño del juego: pon una half-slab en la base de la valla o se salen por debajo."
+      "Cada huevo tiene 1/500 de agrietarse por random tick de día, pero siempre se agrieta entre las 3:03 y las 3:54 de la madrugada (ticks 21062-21904).",
+      "Los zombis pisotean los huevos: valla y ilumina la playa antes de dejar la granja sola.",
+      "Si mueves los huevos con Silk Touch antes de eclosionar, las crías recordarán el nuevo lugar como su playa de origen.",
+      "Fuente: minecraft.wiki Turtle y Turtle Egg."
     ]
   },
   "phantom-farm": {

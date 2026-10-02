@@ -1104,10 +1104,11 @@
     ],
     "rates": "A 10x10 pond refreezes in a few minutes of nearby activity - stacks of ice per session, with blue ice as the slow-but-free long-term output (81 ice per block).",
     "tips": [
-      "Snow layers do not block freezing - only light and sky cover do.",
+      "Water needs direct sky above it and block light below 10 to freeze.",
       "Keep a water bucket row unfrozen at the edge for easy pond refills after big harvests.",
       "Blue ice also feeds basalt generators - one farm, two production lines.",
-      "Packed ice and blue ice never melt next to glowstone - build bright, cold halls with them."
+      "Packed ice and blue ice never melt next to glowstone - build bright, cold halls with them.",
+      "Source: minecraft.wiki Ice."
     ],
     "keywords": "ice farm minecraft, packed ice farm minecraft, blue ice farm minecraft, how to freeze water minecraft, silk touch ice minecraft"
   },
@@ -1543,10 +1544,10 @@
     "quickAnswer": "Breed two turtles with seagrass and the pregnant one returns to its home beach to lay 1-4 eggs on sand. Eggs hatch after about 4-5 in-game days (faster at night), and each baby drops one scute when it grows up.",
     "mechanics": [
       "Home beach rule: a turtle always returns to the block where it spawned to lay eggs - breed turtles where you want the farm, or Silk Touch the eggs and re-place them to set a new home beach for the babies.",
-      "Eggs: 1-4 per clutch, placed on sand, red sand or suspicious sand - they ONLY hatch on sand-type blocks, and crack 3 times over ~4-5 in-game days, cracking more often at night.",
+      "Eggs: 1-4 per clutch, on sand, red sand or suspicious sand; they only hatch on those blocks, after cracking three times. Eggs hatch much faster at the end of the night, and on average take 4-5 nights.",
       "Payday: each baby turtle drops exactly 1 scute when it matures - 5 scutes craft a turtle shell helmet with built-in Water Breathing.",
-      "Zombies and their variants hunt and trample turtle eggs from up to a 47x7x47 box on Java - fence and light the beach.",
-      "Breeding cooldown: 5 minutes on Java, 90 seconds on Bedrock.",
+      "Zombies and their variants deliberately trample turtle eggs: detection range 47x7x47 on Java and 11x5x11 on Bedrock.",
+      "Eggs do not progress unless a player is within 128 blocks horizontally.",
       "Seagrass is the whole diet: shear it from the ocean floor, bone-meal underwater blocks for more."
     ],
     "materials": [
@@ -1567,9 +1568,10 @@
     "rates": "Each breeding round converts seagrass into 1-4 future scutes per ~5 minutes of cooldown plus a 4-5 day hatch; a 10-turtle pen yields a steady stream of shells after the first generation matures.",
     "tips": [
       "Turtle shell + awkward potion brews Potion of the Turtle Master: Slowness but massive Resistance - a tank button for hard fights.",
-      "Eggs hatch faster at night: sleep-skipping slows the farm, insomniac nights speed it up.",
-      "A trapped zombie is a broken farm: they detect eggs through walls - check the perimeter before AFKing.",
-      "Baby turtles are the smallest mob in the game - half-slab the fence bottom or they walk out under it."
+      "Each egg has a 1/500 chance to crack per random tick by day, but always cracks between 3:03 and 3:54 am (ticks 21062-21904).",
+      "Zombies trample eggs: fence and light the beach before leaving the farm alone.",
+      "If you move eggs with Silk Touch before they hatch, the babies remember the new place as their home beach.",
+      "Source: minecraft.wiki Turtle and Turtle Egg."
     ],
     "keywords": "turtle farm minecraft, scute farm, turtle shell helmet, minecraft turtle eggs not hatching, breed turtles"
   },
