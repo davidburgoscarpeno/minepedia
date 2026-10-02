@@ -1277,7 +1277,7 @@
       "Java spawning: schools of 4-6 in water at light level 0, below Y=30, in any Overworld biome except deep dark and sulfur caves. Bedrock: schools of 2-4 in underground water from Y=-64 to Y=30.",
       "Unlike other aquatic mobs they need no water above or below the spawn space - a bare water pocket in darkness is enough.",
       "Drops: 1-3 glow ink sacs, plus 0-1 more per Looting level - Looting III pays off here.",
-      "They cannot breed and babies drop nothing - 5% of spawns are babies.",
+      "No pueden criar: las crías solo aparecen por spawn natural (5%) y tardan 20 minutos en crecer.",
       "They suffocate after 15 seconds out of water, so a dry kill floor finishes them hands-free.",
       "Guardians, elder guardians and axolotls hunt glow squid - keep the farm away from monuments and axolotl pools, or weaponize an axolotl as the killer."
     ],
@@ -1301,7 +1301,8 @@
       "Glow ink on a sign makes the text glow - and glow item frames make map walls and item labels pop.",
       "Avoid building under sulfur caves or deep dark: both biomes block glow squid spawns entirely.",
       "They relight 5 seconds after being harmed - cosmetic only, but pretty in an aquarium build.",
-      "On Bedrock, check single-layer water: squid can orient into the air and suffocate where you did not plan a kill floor."
+      "On Bedrock, check single-layer water: squid can orient into the air and suffocate where you did not plan a kill floor.",
+      "Fuente: minecraft.wiki Glow Squid."
     ],
     "keywords": "glow squid farm minecraft, glow ink sac farm, where do glow squid spawn, minecraft glowing sign text, glow item frame"
   },
@@ -1354,9 +1355,9 @@
     "mechanics": [
       "Budding amethyst (8.3% of a geode's inner layer) grows buds on its six faces: 20% chance per random tick on a random face, through small, medium and large bud to a full cluster - about 2 hours 16 minutes per full cycle on average.",
       "The budding block itself is unobtainable and immovable: it drops nothing, Silk Touch does not help, and a piston destroys it. Never touch it.",
-      "Harvest math: a mature cluster mined with a pickaxe drops 4 shards - Fortune III raises the average to 8.8 (up to 16). Breaking by hand or piston yields only 2, so piston automation sacrifices three quarters of the yield.",
+      "Cosecha: un cúmulo maduro minado con pico da 4 fragmentos; roto a mano, con pistón u otro método da 2.",
       "Only full clusters drop shards - small, medium and large buds drop nothing unless Silk-Touched as blocks.",
-      "Buds grow in air or still water (Bedrock also in flowing water), so keep the faces around each budding block clear."
+      "Las yemas crecen en aire o en bloques de agua fuente, así que deja libres las caras de cada bloque de amatista en brote."
     ],
     "materials": [
       "An amethyst geode - spherical structures underground (Y=30 to bedrock), often cutting through caves and aquifers",
@@ -1369,15 +1370,16 @@
       "Crack it open and mark every budding amethyst block - those faces are your crop.",
       "Clear blocks so every budding face has air in front of it; remove lava and water flows that block growth.",
       "Wall off the geode and light it to stop mob spawns - you will AFK here.",
-      "Wait out the ~2.3-hour cycle, then harvest only the full clusters with your Fortune III pickaxe.",
-      "Optional semi-automation: observers on budding faces fire pistons that break mature clusters - convenient, but remember pistons pay only 2 shards against Fortune III's 8.8."
+      "Espera el ciclo medio de ~2 h 16 min por cara y cosecha solo los cúmulos completos con un pico.",
+      "Semiautomatización opcional: observers sobre las caras activan pistones que rompen los cúmulos, pero un pistón da 2 fragmentos frente a 4 con pico."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
       "Mark harvest time with a clock or daylight sensor near your AFK spot - clusters at bud stage are worth zero.",
       "Silk Touch collects the clusters and buds as blocks for decoration; it is the only way to move them.",
       "Tinted glass blocks light completely while staying transparent - the best window block for mob farms.",
-      "If you find multiple geodes close together, connect them into one harvest circuit."
+      "If you find multiple geodes close together, connect them into one harvest circuit.",
+      "Fuente: minecraft.wiki Amethyst Cluster y Budding Amethyst."
     ],
     "keywords": "amethyst farm minecraft, budding amethyst, how to farm amethyst shards, amethyst geode, fortune amethyst cluster"
   },
@@ -1821,12 +1823,12 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "A mob dying within 8 blocks of a sculk catalyst blooms: its experience becomes sculk blocks instead of XP orbs. Feed a mob farm's kill chute over a catalyst, then mine the sculk to cash the XP out.",
     "mechanics": [
-      "Bloom range: a death within 8 blocks on Java (10 on Bedrock) of a catalyst, as long as the mob dies over a solid block - even dragons and withers trigger it.",
-      "The dead mob's natural XP converts to sculk charges 1:1 - up to 1 sculk block per experience point, with a 9% chance for a sensor and 1% for a shrieker along the way.",
-      "Blooms convert most natural surface blocks (stone, dirt, deepslate...) into sculk - the catalyst terraforms the kill floor for you.",
+      "Floración: la muerte de cualquier entidad viva a 8 bloques (Java) o 10 (Bedrock) de un catalizador; si hay varios, solo florece el más cercano.",
+      "La experiencia de la entidad se convierte en cargas de sculk (1 XP = 1 carga) que convierten el bloque bajo ella; un bloque admite hasta 1000 cargas.",
+      "La floración convierte bloques como piedra, granito, andesita, diorita, toba o calcita en sculk.",
       "Cashing out: mine sculk blocks (a hoe is fastest) and each drops its stored XP - no Silk Touch, or you collect the block instead.",
-      "Catalysts come from deep dark chests, ancient city floors, and the warden - killing the warden is the only renewable source.",
-      "Pointed dripstone under the catalyst level lets a dripstone-style mob drop land deaths right at bloom height."
+      "Los catalizadores se generan en la deep dark; el warden suelta uno y es la única fuente renovable.",
+      "Las cargas se pierden al romper el bloque de sculk: minar con azada (sin Silk Touch) es como cobras el XP almacenado."
     ],
     "materials": [
       "1 sculk catalyst (deep dark / ancient city, or a defeated warden)",
@@ -1840,15 +1842,15 @@
       "Rebuild your mob farm's kill floor so mobs die within 8 blocks (Java) of the placed catalyst.",
       "Let the farm run: every death blooms the floor, spreading sculk over stone and dirt.",
       "Mine the sculk with a hoe - the XP the mobs would have dropped now comes out on your schedule, not theirs.",
-      "Keep the odd sensor and shrieker the bloom grows (9% and 1%) for redstone toys.",
+      "Planifica la zona de muerte para que el sculk crezca solo donde quieras.",
       "Need more catalysts? The warden drops one - farming wardens is its own endgame sport."
     ],
     "rates": "Conversion is 1:1 with mob XP - a standard mob farm blooming overnight banks thousands of XP in sculk form, retrievable in one hoe session whenever you need levels.",
     "tips": [
       "Sculk is XP storage, not XP multiplication - but banked XP cannot be lost on death the way carried levels can.",
       "Bloom only the floor you want converted: sculk spread is pretty but permanent-ish landscaping.",
-      "Shriekers grown by blooms can summon wardens - break them before they scream you into trouble.",
-      "The catalyst itself mines fast with a hoe and drops itself only with Silk Touch - 5 XP otherwise."
+      "The catalyst itself mines fast with a hoe and drops itself only with Silk Touch - 5 XP otherwise.",
+      "Fuente: minecraft.wiki Sculk Catalyst."
     ],
     "keywords": "sculk farm minecraft, sculk catalyst farm, xp storage minecraft, how to get sculk, warden drop"
   },
