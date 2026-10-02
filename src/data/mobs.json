@@ -699,7 +699,7 @@
     "type": "Hostile",
     "health": "40 (20 hearts)",
     "where": "Crimson forests and bastion remnants (hoglin stables).",
-    "howToKill": "Their charge knocks you high into the air - fight with your back to a wall, never near a cliff or lava. They flee from warped fungus placed or held nearby, and from respawn anchors and nether portals.",
+    "howToKill": "Its charge knocks you upward even if you block with a shield, so fight away from cliffs and lava. Hoglins avoid being within 7 blocks of warped fungus, nether portals and respawn anchors.",
     "drops": [
       {
         "item": "Raw Porkchop",
@@ -712,9 +712,9 @@
         "notes": ""
       }
     ],
-    "spawnConditions": "Crimson forests at any light level; never spawn on nether wart blocks. Breedable with crimson fungus.",
-    "behavior": "Charges players with huge knockback. Runs from warped fungus, portals and respawn anchors. Zombifies into a zoglin after 15 seconds in the Overworld or End.",
-    "tameOrBreed": "Cannot be tamed. Breed two adults with crimson fungus; the baby follows parents. One of the few hostile mobs that can be bred.",
+    "spawnConditions": "Herds of 3-4 in crimson forests at any light level, on most solid blocks except nether wart blocks (and shroomlights in Bedrock). They also spawn in bastion remnant stables.",
+    "behavior": "Attacks players within 16 blocks. Attacking one provokes nearby hoglins (not for babies). Baby hoglins have the weakest attack in the game. They sink in water and lava. Source: minecraft.wiki Hoglin.",
+    "tameOrBreed": "Cannot be tamed. Hoglins are breedable, one of the few hostile mobs that are.",
     "editions": [
       "java",
       "bedrock"
@@ -878,8 +878,8 @@
     "name": "Evoker",
     "type": "Hostile",
     "health": "24 (12 hearts)",
-    "where": "Woodland mansions (specific rooms) and raid waves 5+ (from wave 4 in Bedrock).",
-    "howToKill": "Rush it before it finishes a spell - it raises its arms and changes color when casting. A shield blocks the fang line if you face it. Prioritize evokers in raids before their vexes overwhelm you.",
+    "where": "Woodland mansions (floors 2 and 3) and raids from wave 5.",
+    "howToKill": "It attacks within 12 blocks by waving its arms and summoning fangs or vexes. Rush it before it finishes casting and prioritize it in raids.",
     "drops": [
       {
         "item": "Totem of undying",
@@ -892,8 +892,8 @@
         "notes": "More with Looting"
       }
     ],
-    "spawnConditions": "Mansions (does not respawn there) and the final raid waves in both editions.",
-    "behavior": "Casts two spells: a line of evoker fangs that snap up from the ground (6 blocks range), and a summoning spell that creates 3 vexes. Changes blue sheep to red within range. Runs from players between spells.",
+    "spawnConditions": "Generated in particular mansion rooms on floors 2 and 3 (no respawn). In raids on Normal and Hard from wave 5: one evoker in waves 5 and 6, three in wave 7 (one riding a ravager).",
+    "behavior": "Casts two spells: armor-piercing fangs and summoning vexes. Passive to other illagers. Source: minecraft.wiki Evoker.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -912,8 +912,8 @@
     "name": "Vindicator",
     "type": "Hostile",
     "health": "24 (12 hearts)",
-    "where": "Woodland mansions and raid waves 2+; also patrols with pillagers (Bedrock).",
-    "howToKill": "Their iron axe hits extremely hard (19 damage on Hard) and disables your shield on hit - keep distance, use a bow, or pillar up two blocks. Never trade hits with one in close quarters without armor.",
+    "where": "Woodland mansions (groups of 1-3) and raids, more often in later waves.",
+    "howToKill": "It sprints at you with an iron axe: keep your distance, use a bow or fight from high ground.",
     "drops": [
       {
         "item": "Emerald",
@@ -926,8 +926,8 @@
         "notes": "Occasional equipment drop"
       }
     ],
-    "spawnConditions": "Mansion rooms (no respawn) and raid waves; raids are the renewable source.",
-    "behavior": "Chases players and villagers with its axe raised, sprinting fast. In Java, a vindicator named 'Johnny' attacks every mob in sight. Breaks wooden doors in raids (Hard difficulty).",
+    "spawnConditions": "Generated in woodland mansion rooms (they do not respawn) and during raids, sometimes riding a ravager (Java).",
+    "behavior": "Sprints toward its targets with an iron axe. On Normal and Hard it may have an enchanted axe; raid vindicators may have Sharpness I, or Sharpness II from wave 6. In Java, it can join a patrol if near the captain. Source: minecraft.wiki Vindicator.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -946,8 +946,8 @@
     "name": "Ravager",
     "type": "Hostile",
     "health": "100 (50 hearts)",
-    "where": "Raid waves 3+ (wave 3 in Java, wave 4+ in Bedrock), sometimes with a pillager, vindicator or evoker rider.",
-    "howToKill": "Its charge destroys crops and leaves, and its bite hits hard - fight it with a bow from high ground, or raise a shield: a ravager that rams a raised shield gets stunned for about 2 seconds, then roars (knockback). Kill any rider first, then focus the beast.",
+    "where": "Raids, from wave 3, alone or ridden by a pillager, vindicator or evoker.",
+    "howToKill": "Its charge and bite hit hard; a blocked bite deals no damage and has a 50% chance to stun it for 2 seconds. Fight from high ground with a bow and kill any rider first.",
     "drops": [
       {
         "item": "Saddle",
@@ -955,8 +955,8 @@
         "notes": "Always in Java - a renewable saddle source"
       }
     ],
-    "spawnConditions": "Only in raids, never naturally elsewhere.",
-    "behavior": "Charges in straight lines, bites for heavy damage, and roars (knockback + damage) when stunned. Destroys crops, leaves and snow layers it walks over. Villagers and iron golems are its priority targets.",
+    "spawnConditions": "Only alongside illagers during raids, from wave 3. A ravager spawned elsewhere may join a raid within 96 blocks of its center.",
+    "behavior": "Attacks players, adult villagers, wandering traders and iron golems by charging, biting and roaring. Rams with 5 blocks of knockback. Breaks leaves and some crops (more plants and snow in Bedrock) and takes 75% less knockback. Source: minecraft.wiki Ravager.",
     "tameOrBreed": "Cannot be tamed or ridden (despite dropping saddles).",
     "editions": [
       "java",

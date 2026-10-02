@@ -252,10 +252,10 @@
   "hoglin": {
     "type": "Hostil",
     "where": "Bosques carmesí y bastiones en ruinas (establos de hoglins).",
-    "spawnConditions": "Bosques carmesí con cualquier nivel de luz; nunca aparecen sobre bloques de verrugas del Nether. Se cría con hongo carmesí.",
-    "howToKill": "Su carga te lanza por los aires: lucha con la espalda contra una pared, nunca cerca de un precipicio o lava. Huyen del hongo distorsionado colocado o en la mano, y de anclas de reaparición y portales del Nether.",
-    "behavior": "Carga contra los jugadores con un empuje enorme. Huye de hongos distorsionados, portales y anclas de reaparición. Se zombifica en un zoglin tras 15 segundos en el Overworld o el End.",
-    "tameOrBreed": "No se puede domesticar. Cría dos adultos con hongo carmesí; la cría sigue a los padres. Uno de los pocos mobs hostiles que se pueden criar.",
+    "spawnConditions": "Manadas de 3-4 en bosques carmesí con cualquier nivel de luz, sobre casi cualquier bloque sólido salvo bloques de verruga del Nether (y shroomlights en Bedrock). También en establos de restos de bastión.",
+    "howToKill": "Su embestida te lanza hacia arriba incluso si bloqueas con escudo, así que pelea lejos de precipicios y lava. Los hoglins evitan estar a menos de 7 bloques de hongos distorsionados, portales del Nether y ancla de reaparición.",
+    "behavior": "Ataca a jugadores a menos de 16 bloques. Atacar a uno provoca a los hoglins cercanos (no si es una cría). Las crías tienen el ataque más débil del juego. Se hunden en agua y lava. Fuente: minecraft.wiki Hoglin.",
+    "tameOrBreed": "No se puede domesticar. Los hoglins se pueden criar, uno de los pocos mobs hostiles que lo permiten.",
     "notes": [
       "Cocinado si muere por fuego: las granjas de hoglins son granjas de comida sólidas",
       ""
@@ -313,10 +313,10 @@
   },
   "evoker": {
     "type": "Hostil",
-    "where": "Mansiones del bosque (salas concretas) y oleadas de raid 5+ (desde la 4 en Bedrock).",
-    "spawnConditions": "Mansiones (no reaparece ahí) y las últimas oleadas de raid en ambas ediciones.",
-    "howToKill": "Ve a por él antes de que termine un hechizo: levanta los brazos y cambia de color al lanzarlo. Un escudo bloquea la línea de colmillos si lo encaras. Prioriza a los evokers en las raids antes de que sus vexes te abrumen.",
-    "behavior": "Lanza dos hechizos: una línea de colmillos que brotan del suelo (6 bloques de alcance), y un hechizo de invocación que crea 3 vexes. Convierte ovejas azules en rojas dentro de su rango. Huye de los jugadores entre hechizos.",
+    "where": "Mansiones del bosque (plantas 2 y 3) y asaltos desde la oleada 5.",
+    "spawnConditions": "Se genera en ciertas salas de mansión en las plantas 2 y 3 (no reaparece). En asaltos en Normal y Difícil desde la oleada 5: un evoker en las oleadas 5 y 6, tres en la 7 (uno montando un ravager).",
+    "howToKill": "Ataca a menos de 12 bloques moviendo los brazos e invocando colmillos o vexes. Ve a por él antes de que termine el hechizo y priorízalo en asaltos.",
+    "behavior": "Lanza dos hechizos: colmillos que atraviesan armadura e invocación de vexes. Pasivo con otros illagers. Fuente: minecraft.wiki Evoker.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Siempre: la única fuente renovable de tótems",
@@ -325,10 +325,10 @@
   },
   "vindicator": {
     "type": "Hostil",
-    "where": "Mansiones del bosque y oleadas de raid 2+; también patrulla con pillagers (Bedrock).",
-    "spawnConditions": "Salas de mansión (sin respawn) y oleadas de raid; las raids son la fuente renovable.",
-    "howToKill": "Su hacha de hierro pega muy fuerte (19 de daño en difícil) y desactiva tu escudo al golpear: mantén distancia, usa arco o sube a un pilar de dos bloques. Nunca intercambies golpes a corta distancia sin armadura.",
-    "behavior": "Persigue a jugadores y aldeanos con el hacha en alto, corriendo rápido. En Java, un vindicator llamado 'Johnny' ataca a todo mob a la vista. Rompe puertas de madera en raids (dificultad difícil).",
+    "where": "Mansiones del bosque (grupos de 1-3) y asaltos, más a menudo en oleadas tardías.",
+    "spawnConditions": "Se generan en salas de mansiones (no reaparecen) y durante asaltos, a veces montando un ravager (Java).",
+    "howToKill": "Corre hacia ti con un hacha de hierro: mantén la distancia, usa arco o pelea desde altura.",
+    "behavior": "Corre hacia sus objetivos con un hacha de hierro. En Normal y Difícil puede llevar un hacha encantada; en asaltos puede tener Filo I, o Filo II desde la oleada 6. En Java puede unirse a una patrulla si está cerca del capitán. Fuente: minecraft.wiki Vindicator.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Hasta 4 con Saqueo III",
@@ -337,10 +337,10 @@
   },
   "ravager": {
     "type": "Hostil",
-    "where": "Oleadas de raid 3+ (oleada 3 en Java, oleada 4+ en Bedrock), a veces con un pillager, vindicator o evoker de jinete.",
-    "spawnConditions": "Solo en raids, nunca de forma natural en otro sitio.",
-    "howToKill": "Su carga destroza cultivos y hojas, y su mordisco pega fuerte: lucha con arco desde una zona elevada, o levanta un escudo: un ravager que embiste un escudo levantado queda aturdido unos 2 segundos y luego ruge (empuje). Mata primero al jinete y luego a la bestia.",
-    "behavior": "Carga en línea recta, muerde con daño alto y ruge (empuje + daño) al quedar aturdido. Destruye cultivos, hojas y capas de nieve que pisa. Aldeanos y gólems de hierro son sus objetivos prioritarios.",
+    "where": "Asaltos, desde la oleada 3, solo o montado por un saqueador, vindicador o evocador.",
+    "spawnConditions": "Solo junto a illagers durante asaltos, desde la oleada 3. Un ravager generado en otro sitio puede unirse a un asalto a menos de 96 bloques de su centro.",
+    "howToKill": "Su embestida y mordisco pegan fuerte; un mordisco bloqueado no hace daño y tiene 50% de aturdirlo 2 segundos. Pelea desde altura con arco y mata antes al jinete.",
+    "behavior": "Ataca a jugadores, aldeanos adultos, mercaderes errantes y golems de hierro embistiendo, mordiendo y rugiendo. Embiste con 5 bloques de empuje. Rompe hojas y algunos cultivos (más plantas y nieve en Bedrock) y recibe 75% menos de retroceso. Fuente: minecraft.wiki Ravager.",
     "tameOrBreed": "No se puede domesticar ni montar (aunque suelte sillas de montar).",
     "notes": [
       "Siempre en Java: una fuente renovable de sillas"
@@ -404,7 +404,7 @@
     "tameOrBreed": "Cría dos ovejas con trigo; criar suelta 1-7 de XP. Cualquier tinte cambia el color de la lana de una oveja sin esquilar.",
     "notes": [
       "Del color de su vellón; nada si está esquilada",
-      "Mutón cocinado si muere ardiendo"
+      "Cordero cocinado si muere ardiendo"
     ]
   },
   "chicken": {
