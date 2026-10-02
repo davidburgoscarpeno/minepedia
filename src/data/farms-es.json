@@ -1543,12 +1543,12 @@
     "difficulty": "Avanzada",
     "quickAnswer": "Una shulker golpeada por la bala de otra shulker puede duplicarse: se teletransporta y deja una shulker nueva del mismo color atrás. Atrapa una en una cámara, deja que se dispare a sí misma (Java) o aliméntala con balas, y recoge las copias.",
     "mechanics": [
-      "Reglas de duplicación (Java): el golpe debe venir de una bala de shulker (la suya propia cuenta), dejarla por encima del 50% de salud, y dejar que se teletransporte con éxito; la probabilidad baja un 20% por cada otra shulker a 8 bloques, así que mantén el corral despejado.",
-      "Bedrock es más simple: una shulker muerta por una bala de shulker SIEMPRE se duplica.",
+      "Reglas de duplicación (Java): el golpe debe ser daño de proyectil de una bala de shulker (la suya propia cuenta), la shulker debe tener la tapa abierta y sobrevivir, y tener éxito una comprobación de azar: 100 % menos 20 % por cada otra shulker a 8 bloques (con 5 o más otras nunca ocurre).",
+      "En Bedrock (desde 1.19 se puede farmear) una shulker muerta por una bala de shulker siempre se duplica.",
       "Drops de shells: Java 50% +6,25% por nivel de Looting (hasta 68,75%); Bedrock 0-1 base, +0-1 por nivel de Looting.",
       "Las shulkers nunca desaparecen, ni siquiera en Peaceful: cada copia que haces es permanente hasta que la coseches.",
       "Una shulker se teletransporta cuando su bloque deja de ser aire, cuando no tiene una cara completa a la que agarrarse, o cuando su caparazón no puede abrirse: los diseños de granja usan esto para empujar las copias a la cámara de ejecución.",
-      "Las balas infligen Levitation durante 10 segundos y hacen 4 de daño: aterrizajes con slow falling o agua te mantienen intacto mientras trabajas la granja."
+      "Las balas infligen Levitation durante 10 segundos y hacen 3, 4 o 6 de daño en Easy, Normal y Hard: protégete con slow falling o agua al aterrizar."
     ],
     "materials": [
       "Una shulker de una End city (llévala a casa en raíles por una End gateway o un viaje larguísimo en minecart)",
@@ -1567,10 +1567,11 @@
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Por debajo de la mitad de salud, una shulker puede teletransportarse 'por razones de salud' en vez de duplicarse: curación en splash o un ritmo cuidadoso de balas la mantiene por encima del 50%.",
-      "Más de 4 shulkers a 8 bloques y la probabilidad de duplicación cae a cero: expande la cámara, no la multitud.",
-      "En Peaceful, las shulkers se quedan pero no disparan: la duplicación necesita una dificultad real.",
-      "Lleva slow falling: una bala perdida en una plataforma de isla del End es si no un largo flotar hacia el vacío."
+      "Si tras el golpe la salud queda por debajo del 50 %, hay un 20 % de probabilidad de que se teletransporte 'por salud' y entonces no se duplica.",
+      "Con 5 o más otras shulkers a 8 bloques, la duplicación es imposible: amplía la cámara, no la multitud.",
+      "Una shulker que se teletransporta prueba hasta 5 posiciones aleatorias en una región de 17x17x17; tener muchos puntos válidos alrededor mejora la tasa.",
+      "Lleva slow falling: una bala perdida en una plataforma de isla del End es si no un largo flotar hacia el vacío.",
+      "Fuente: minecraft.wiki Shulker y Tutorial:Shulker farming."
     ]
   },
   "wither-rose-farm": {

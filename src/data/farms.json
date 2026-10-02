@@ -1726,12 +1726,12 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "A shulker hit by another shulker's bullet can duplicate: it teleports away and leaves a new shulker of the same color behind. Trap one in a chamber, let it shoot itself (Java) or feed it bullets, and collect the copies.",
     "mechanics": [
-      "Duplication rules (Java): the hit must come from a shulker bullet (its own counts), leave it above 50% health, and let it teleport successfully - success chance drops 20% per other shulker within 8 blocks, so keep the pen sparse.",
-      "Bedrock is simpler: a shulker killed by a shulker bullet ALWAYS duplicates.",
+      "Duplication rules (Java): the hit must be projectile damage from a shulker bullet (its own counts), the shulker must have its lid open and survive, and a random check must pass: 100% minus 20% per other shulker within 8 blocks (with 5 or more others it can never happen).",
+      "In Bedrock (farmable since 1.19) a shulker killed by a shulker bullet always duplicates.",
       "Shell drops: Java 50% +6.25% per Looting level (up to 68.75%); Bedrock 0-1 base, +0-1 per Looting level.",
       "Shulkers never despawn, even on Peaceful - every copy you make is permanent until harvested.",
       "A shulker teleports when its block stops being air, when it has no full face to attach to, or when its shell cannot open - farm designs use this to push copies into the kill chamber.",
-      "Bullets inflict Levitation for 10 seconds and deal 4 damage - slow-falling or water landings keep you intact while working the farm."
+      "Bullets inflict Levitation for 10 seconds and deal 3, 4 or 6 damage on Easy, Normal and Hard: protect yourself with slow falling or water when landing."
     ],
     "materials": [
       "One shulker from an End city (rail it home through an End gateway or a very long minecart ride)",
@@ -1750,10 +1750,11 @@
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Below half health a shulker may teleport 'for health reasons' instead of duplicating - splash healing or careful bullet pacing keeps it above 50%.",
-      "More than 4 shulkers within 8 blocks and duplication chance hits zero - expand the chamber, not the crowd.",
-      "On Peaceful, shulkers stay but do not shoot - duplication needs a real difficulty.",
-      "Bring slow falling: one stray bullet on an End island platform is otherwise a long float down to the void."
+      "If the hit leaves health below 50%, there is a 20% chance it teleports away 'for health reasons' and then does not duplicate.",
+      "With 5 or more other shulkers within 8 blocks, duplication is impossible: enlarge the chamber, not the crowd.",
+      "A teleporting shulker tries up to 5 random spots in a 17x17x17 region; many valid spots around it improves the rate.",
+      "Bring slow falling: one stray bullet on an End island platform is otherwise a long float down to the void.",
+      "Source: minecraft.wiki Shulker and Tutorial:Shulker farming."
     ],
     "keywords": "shulker farm minecraft, shulker shell farm, shulker duplication, how to get shulker shells, shulker box"
   },
