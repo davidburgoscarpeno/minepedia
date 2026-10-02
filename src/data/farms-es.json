@@ -563,9 +563,9 @@
     "mechanics": [
       "Las chorus flowers solo se plantan en end stone, pero crecen en cualquier dimensión y con cualquier luz: una granja de chorus en el Overworld junto a tu base funciona exactamente igual que una del End.",
       "Cada flower envejece al crecer y se detiene a la edad 5 (volviéndose púrpura); cosecharla y replantarla reinicia la edad, así que las mismas flowers sirven para siempre.",
-      "Romper cualquier bloque de chorus plant rompe todo lo que hay encima: un hachazo al tronco derriba el árbol entero, y cada bloque de planta da 0-1 chorus fruit (Fortune no lo mejora).",
-      "Las flowers son el truco: solo se sueltan a sí mismas si se rompen directamente, con un proyectil o con una explosión; si rompes la planta que las sostiene, desaparecen sin dejar nada. Las arrows son la herramienta clásica de cosecha.",
-      "La chorus fruit te teletransporta unos bloques al comerla (como un enderman), comida de emergencia útil, y se funde en popped chorus fruit, la receta de los purpur blocks y las end rods."
+      "Cada bloque de planta de chorus tiene 50% de soltar una fruta, y Fortune no cambia nada.",
+      "Las flores solo se sueltan si las rompes directamente, les disparas o explotan; si rompes el soporte, desaparecen. El hueso no afecta al crecimiento.",
+      "Comer una fruta de chorus (incluso con hambre llena) restaura 4 de hambre, te teletransporta a un punto aleatorio a +-8 bloques y anula el daño de caída; al fundirse da fruta de chorus reventada, requisito del purpur."
     ],
     "materials": [
       "End stone (un bloque por flower)",
@@ -581,15 +581,16 @@
       "Cosecha el fruto: corta el bloque más bajo de la planta con un hacha; la planta entera colapsa, dando 0-1 fruta por bloque.",
       "Cosecha las flowers por separado: dispara o rompe cada flower directamente antes o después de talar la planta, o se desvanecen.",
       "Replanta de inmediato: cada flower vuelve a su end stone con la edad reiniciada, lista para el siguiente ciclo.",
-      "Espera al tamaño completo para mejores tasas: las plantas jóvenes dan unas pocas frutas; los árboles maduros de edad 5 dan docenas.",
-      "Procesa el excedente: cómelo para el teletransporte, o fúndelo en popped chorus fruit y craftea purpur blocks y end rods para construir."
+      "Una planta crecida sin restricciones da de 1 a 8 flores (media 3,7), y de 5 a 22 bloques de altura.",
+      "Come la fruta para teletransportarte o fúndela en fruta reventada para el purpur."
     ],
     "rates": "Una cuadrícula madura de 20-30 plantas adultas da varios stacks de chorus fruit por ciclo de cosecha; las plantas vuelven a crecer de las flowers replantadas en unos pocos días del juego, y las flowers duran para siempre.",
     "tips": [
-      "Lleva siempre un bow en el End: las flowers destruidas con su bloque de soporte no sueltan nada, y cada flower perdida es un árbol perdido.",
-      "Las flowers púrpuras han terminado de crecer: cosecha esas plantas primero; las blancas aún están trabajando.",
-      "Planta en el Overworld para ahorrarte el viaje al End: la end stone es el único requisito.",
-      "No te pongas en una esquina al comer chorus fruit: el teletransporte aleatorio puede encajarte dentro de un muro."
+      "Lleva un arco: las flores destruidas junto a su soporte no sueltan nada.",
+      "Las flores moradas (edad 5) dejan de crecer; las blancas aún crecen.",
+      "Plantar en el Overworld sirve: solo hace falta piedra del End.",
+      "La fruta tiene 1 segundo de enfriamiento entre usos.",
+      "Fuente: minecraft.wiki Chorus Flower y Chorus Fruit."
     ]
   },
   "chicken-farm": {
@@ -855,9 +856,9 @@
     "mechanics": [
       "Receta de crecimiento: una pointed dripstone colgando directamente bajo un dripstone block, con una fuente de agua encima del bloque (un bloque waterlogged también vale en Java). Sin agua no hay crecimiento.",
       "El crecimiento es lento: cada random tick en la punta de la stalactite tiene un 1,138% de probabilidad de hacerla crecer (o a la stalagmite de abajo) un bloque: unos 5 días del juego por paso. Las stalactites llegan a 8 bloques, y las stalagmites suben desde una superficie sólida a menos de 11 bloques.",
-      "Las puntas vuelven a crecer tras la cosecha: rompe los segmentos inferiores y la punta restante sigue creciendo; cosecha todo menos el segmento superior.",
+      "Se rompe con cualquier herramienta (el pico es lo más rápido) y al instante con un tridente lanzado; el pico no importa para el crecimiento.",
       "El truco del clay: el mud colocado directamente sobre un bloque con una stalactite debajo se convierte en clay con un 45/256 (~17,6%) por random tick: mud de los mangrove swamps más dripstone es igual a clay renovable, y funciona en cualquier dimensión excepto el Nether.",
-      "Las puntas waterlogged ni crecen ni gotean: mantén seca la propia punta."
+      "Una punta con agua (waterlogged) no suelta partículas de goteo; los mercaderes errantes pueden vender 2 dripstone puntiaguda por 1 esmeralda."
     ],
     "materials": [
       "Dripstone blocks y unas pocas pointed dripstone iniciales",
@@ -870,18 +871,18 @@
       "Saquea una dripstone cave en busca de dripstone blocks y pointed dripstone: trae más de lo que necesitas.",
       "Construye las filas: dripstone blocks en línea, una fuente de agua encima de cada uno, sellada para que el agua no se mueva.",
       "Cuelga una pointed dripstone bajo cada bloque: esa punta es tu semilla permanente; nunca la coseches.",
-      "Espera: cada punta crece alrededor de un bloque por 5 días del juego mientras la zona está cargada.",
-      "Cosecha los segmentos crecidos bajo la punta semilla y déjala colgando para que vuelva a crecer.",
+      "Espera: de media tarda 5 días de juego (100 minutos) por cada paso de crecimiento.",
+      "Mina los segmentos crecidos y deja la punta colgando bajo el bloque de dripstone para que siga creciendo.",
       "Multiplica las filas: docenas de columnas hacen irrelevante la lenta tasa por punta.",
       "Monta la rama de clay: bloques de mud encima de una segunda batería de stalactites se convierten en clay con el tiempo; cosecha con shovel, sin Silk Touch.",
-      "Acumula para proyectos: la pointed dripstone alimenta granjas de lava, construcciones de cuevas y trampas."
+      "Úsala para clay o para llenar calderos con agua y lava."
     ],
     "rates": "Cada columna añade aproximadamente un bloque de dripstone cada 5 días del juego: una granja de 20 columnas produce un stack de pointed dripstone por semana del juego. El mud se convierte en clay a razón de un bloque cada 2-3 minutos por stalactite mientras está cargada.",
     "tips": [
-      "Cosecha de abajo arriba y la punta semilla seguirá produciendo para siempre.",
-      "Construye cerca de tu base: el crecimiento corre por random ticks, que necesitan un jugador a menos de 128 bloques.",
-      "Las stalactites que caen son un peligro: nunca te pongas bajo una punta suelta, y usa ese conocimiento en trampas.",
-      "La conversión de clay falla en el Nether: monta esa rama en el Overworld."
+      "Las estalactitas que caen hacen daño: no te pongas debajo de una punta suelta.",
+      "La conversión a arcilla no ocurre en el Nether: haz esa rama en el Overworld.",
+      "Si rompes el soporte de una estalactita, caen todos los bloques sin apoyo por debajo.",
+      "Fuente: minecraft.wiki Pointed Dripstone."
     ]
   },
   "mushroom-farm": {

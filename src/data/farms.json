@@ -634,9 +634,9 @@
     "mechanics": [
       "Chorus flowers plant only on end stone, but grow in any dimension and any light - an Overworld chorus farm beside your base works exactly like an End one.",
       "Each flower ages as it grows and stops at age 5 (turning purple); harvesting and replanting the flower resets the age, so the same flowers serve forever.",
-      "Breaking any chorus plant block breaks everything above it - one axe swing at the trunk brings the whole tree down, each plant block rolling 0-1 chorus fruit (Fortune does not improve it).",
-      "The flowers are the catch: they drop themselves only when broken directly, shot with a projectile or blown up - if you break the supporting plant under them, they pop into nothing. Arrows are the classic harvest tool.",
-      "Chorus fruit teleports you a few blocks when eaten (like an enderman) - handy panic food - and smelts into popped chorus fruit, the recipe for purpur blocks and end rods."
+      "Each chorus plant block has a 50% chance to drop a chorus fruit, and Fortune does not change it.",
+      "Flowers only drop if broken directly, shot or blown up; if their support is broken they drop nothing. Bone meal has no effect on growth.",
+      "Eating chorus fruit (even with a full hunger bar) restores 4 hunger, teleports you to a random spot within +-8 blocks and removes fall damage; smelted it becomes popped chorus fruit, a prerequisite for purpur."
     ],
     "materials": [
       "End stone (one block per flower)",
@@ -652,15 +652,16 @@
       "Harvest the fruit: chop the lowest plant block with an axe - the entire plant collapses, dropping 0-1 fruit per block.",
       "Harvest the flowers separately: shoot or break each flower directly before or after felling the plant, or they vanish.",
       "Replant immediately: each flower goes back on end stone with its age reset, ready for the next cycle.",
-      "Wait for full size for best rates: young plants give a few fruit; mature age-5 trees give dozens.",
-      "Process the surplus: eat it for the teleport, or smelt it into popped chorus fruit and craft purpur blocks and end rods for building."
+      "A fully grown unrestricted plant gives 1 to 8 flowers (average 3.7), and is 5 to 22 blocks tall.",
+      "Eat the fruit to teleport or smelt it into popped chorus fruit for purpur."
     ],
     "rates": "A mature grid of 20-30 fully grown plants yields several stacks of chorus fruit per harvest cycle; plants regrow from replanted flowers in a few in-game days, and the flowers last forever.",
     "tips": [
-      "Always carry a bow in the End: flowers destroyed with their support block drop nothing, and every lost flower is a lost tree.",
-      "Purple flowers are done growing - harvest those plants first; white flowers are still working.",
-      "Plant in the Overworld to skip the End commute entirely - end stone is the only requirement.",
-      "Do not stand in a corner when you eat chorus fruit: the random teleport can wedge you into a wall."
+      "Carry a bow: flowers destroyed with their support drop nothing.",
+      "Purple flowers (age 5) stop growing; white ones are still growing.",
+      "Planting in the Overworld works: end stone is the only requirement.",
+      "Chorus fruit has a 1 second cooldown between uses.",
+      "Source: minecraft.wiki Chorus Flower and Chorus Fruit."
     ],
     "keywords": "chorus fruit farm minecraft, chorus flower farm minecraft, how to grow chorus fruit minecraft, purpur block farm minecraft, minecraft chorus plant guide"
   },
@@ -958,9 +959,9 @@
     "mechanics": [
       "Growth recipe: a pointed dripstone hanging directly under a dripstone block, with a water source above the block (a waterlogged block also works in Java). No water, no growth.",
       "Growth is slow: each random tick on the stalactite tip has a 1.138% chance to grow it (or the stalagmite below) by one block - about 5 in-game days per step. Stalactites cap at 8 blocks, and stalagmites join from a solid surface less than 11 blocks below.",
-      "The tips regrow after harvest: break the lower segments and the remaining tip keeps growing - harvest everything but the top segment.",
+      "It breaks with any tool (a pickaxe is quickest) and instantly from a thrown trident; the tool does not matter for growth.",
       "The clay trick: mud placed directly above a block with a stalactite underneath converts to clay at 45/256 (~17.6%) per random tick - mud from mangrove swamps plus dripstone equals renewable clay, and it works in any dimension except the Nether.",
-      "Waterlogged tips neither grow nor drip - keep the tip itself dry."
+      "A waterlogged tip produces no drip particles; wandering traders may trade 2 pointed dripstone for 1 emerald."
     ],
     "materials": [
       "Dripstone blocks and a few pointed dripstone starters",
@@ -973,18 +974,18 @@
       "Raid a dripstone cave for dripstone blocks and pointed dripstone - bring back more than you need.",
       "Build the rows: dripstone blocks in a line, one water source on top of each, sealed so the water stays put.",
       "Hang one pointed dripstone under each block - that tip is your permanent seed; never harvest it.",
-      "Wait: each tip grows about one block per 5 in-game days while the area is loaded.",
-      "Harvest the grown segments below the seed tip and leave it hanging to regrow.",
+      "Wait: on average each growth step takes 5 in-game days (100 minutes).",
+      "Mine the grown segments and leave the tip hanging under the dripstone block so it keeps growing.",
       "Multiply rows: dozens of columns make the slow per-tip rate irrelevant.",
       "Run the clay branch: mud blocks on top of a second stalactite array convert to clay over time - harvest with a shovel, no Silk Touch needed.",
-      "Stockpile for projects: pointed dripstone feeds lava farms, cave builds and traps."
+      "Use it for clay or to drip water and lava into cauldrons."
     ],
     "rates": "Each column adds roughly one block of dripstone every 5 in-game days - a 20-column farm outputs a stack of pointed dripstone per in-game week. Mud converts to clay at about one block per 2-3 minutes per stalactite while loaded.",
     "tips": [
-      "Harvest from the bottom up and the seed tip keeps producing forever.",
-      "Build near your base: growth runs on random ticks, which need a player within 128 blocks.",
-      "Falling stalactites are a hazard - never stand under a detached tip, and use that knowledge in traps.",
-      "Clay conversion fails in the Nether - run that branch in the Overworld."
+      "Falling stalactites deal damage: never stand under a detached tip.",
+      "Clay conversion does not happen in the Nether: run that branch in the Overworld.",
+      "If you break a stalactite's support, all unsupported blocks below it fall.",
+      "Source: minecraft.wiki Pointed Dripstone."
     ],
     "keywords": "dripstone farm minecraft, pointed dripstone farm minecraft, how to grow dripstone minecraft, mud to clay farm minecraft, renewable clay minecraft"
   },
