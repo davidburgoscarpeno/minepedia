@@ -1105,12 +1105,12 @@
     "difficulty": "Principiante",
     "quickAnswer": "Planta sweet berries en grass o dirt y crecerán por 4 fases solas. Recoge un bush maduro con usar (no romper) para llevarte 2-3 berries mientras el bush sigue plantado y rebrota; o deja que un fox coseche por ti.",
     "mechanics": [
-      "Los bushes se plantan en grass, dirt, coarse dirt, podzol, mycelium, moss, mud o farmland, y crecen por 4 fases con un 20% de probabilidad por random tick; el bloque de encima necesita nivel de luz 10+ para el crecimiento natural.",
-      "Cosecha con la tecla de usar: un bush maduro suelta 2-3 berries y vuelve a la fase 2, así que la planta sigue viva; nunca replantes. La fase 3 da 1-2 berries.",
-      "Aquí el bone meal sí funciona: cada uso avanza una fase de crecimiento, y echar bone meal a un bush maduro expulsa una berry directamente; los diseños con dispensers automatizan esto.",
-      "Los foxes son mano de obra gratis: un fox que alcanza un bush maduro se come las berries y las suelta en el suelo; las hopper minecarts bajo la fila las recogen.",
-      "Las bees también polinizan los bushes de berries, saltándolos una fase de crecimiento; aparca un beehive cerca.",
-      "Moverse a través de un bush frena a las entidades a un tercio de su velocidad y hace 1 de daño cada medio segundo; los foxes son inmunes, y el bush anula todo el daño de caída en su interior."
+      "Los arbustos se plantan en hierba, tierra, tierra gruesa, tierra de raíces, tierra de cultivo, podzol, micelio, musgo, barro o raíces de manglar con barro, y crecen en 4 etapas con 20% por random tick; el bloque de encima necesita luz de nivel 9 o más.",
+      "Cosecha con uso: un arbusto maduro da 2-3 bayas y vuelve a la etapa 2; en etapa 3 da 1-2. Romperlo da lo mismo y Fortune suma 1 por nivel, pero pierdes la planta.",
+      "Las abejas polinizan los arbustos y los adelantan una etapa.",
+      "Los zorros comen bayas para criar y son inmunes a los arbustos.",
+      "Pasar por un arbusto ralentiza a las entidades y hace 1 de daño (una vez cada medio segundo) solo si te mueves; cancela el daño de caída.",
+      "Los arbustos crecen de forma natural en taigas y taigas nevadas."
     ],
     "materials": [
       "Sweet berries para empezar: los bushes generan en parches en los biomas taiga, snowy taiga y old growth taiga (y en abandoned camps)",
@@ -1120,18 +1120,18 @@
     ],
     "steps": [
       "Encuentra un bioma de la familia taiga y cosecha unos cuantos bushes a mano: cada berry es una semilla.",
-      "Planta filas con un bloque de aire sobre cada bush y añade torches o lanterns para que el bloque superior se quede en luz 10 o más.",
+      "Planta filas con un bloque de aire encima de cada arbusto y asegura luz 9 o más.",
       "Cosecha solo con la tecla de usar: clic derecho arranca las berries y deja un bush en fase 2 que rebrota en minutos.",
-      "Aceléralo: echa bone meal a las filas a mano, o carga dispensers y dales pulsos; un bush maduro con bone meal expulsa la berry sin reiniciar la planta.",
-      "Automatiza con un fox: encierra un fox por cada tramo de fila; cosecha los bushes maduros y suelta las berries para las hopper minecarts de debajo.",
-      "Arma las sobras: un seto de berries alrededor de tu base daña y frena a todo lo que lo atraviesa; a todo excepto a los foxes."
+      "Acelera con abejas cerca o con hueso a mano.",
+      "Cosecha siempre con la tecla de uso para conservar la planta.",
+      "Un seto de arbustos daña y ralentiza a casi todo lo que lo cruce, menos zorros."
     ],
     "rates": "Un bush maduro da 2-3 berries por uso y rebrota desde la fase 2 en minutos; una doble fila iluminada de 40 bushes recogida a mano en cada ciclo alimenta mejor que la mayoría de comidas iniciales.",
     "tips": [
-      "Las berries restauran poca hambre: su valor real es el volumen, criar foxes y los setos defensivos, no la alta cocina.",
-      "Da sweet berries a dos foxes para criarlos; el cachorro nacido de tu cría confía en ti y no huirá.",
-      "Los mobs en minecarts no reciben daño del bush al atravesarlo: los raíles hacen caminos seguros por tu propio seto.",
-      "Nunca rompas un bush para cosechar: romper en fase 3 o 4 también da berries (Fortune suma hasta +1 por nivel) pero te cuesta la planta."
+      "Cada baya restaura 2 de hambre; en el composter tienen 30% de subir el nivel.",
+      "Dos zorros alimentados con bayas dulces crían; el cachorro confía en ti.",
+      "Los mobs en una vagoneta a altura estándar no reciben daño al cruzar arbustos.",
+      "Fuente: minecraft.wiki Sweet Berry Bush."
     ]
   },
   "glow-squid-farm": {
@@ -1313,11 +1313,11 @@
     "difficulty": "Principiante",
     "quickAnswer": "Planta glow berries bajo un bloque y la cave vine crece hacia abajo: cada segmento nuevo tiene un 11% de probabilidad de dar berries. El bone meal en cualquier segmento de la vine le hace dar berries al instante, y esa es toda la granja.",
     "mechanics": [
-      "Las cave vines cuelgan de la cara inferior de los bloques y crecen hacia abajo un bloque cada vez, 10% de probabilidad por random tick: un segmento nuevo cada ~11 minutos de media, hasta 25 bloques o el suelo.",
+      "Las raíces de cueva (cave vines) crecen hacia abajo bajo un bloque con 10% por random tick (~11,4 minutos por segmento de media) hasta tocar el suelo.",
       "Cada segmento recién crecido tiene un 11% de probabilidad de dar berries, y los segmentos existentes NUNCA dan berries por sí solos (a diferencia de los sweet berry bushes).",
-      "El bone meal en cualquier segmento de la vine le fuerza a dar berries inmediatamente: dispenser + vine = berries a demanda.",
+      "El hueso sobre cualquier segmento de la liana le hace dar bayas si aún no las tiene (no crece un segmento nuevo); las abejas con polen también las fertilizan.",
       "Las vines con berries emiten nivel de luz 14: la granja se ilumina a sí misma mientras crece.",
-      "Cosecha con la tecla de usar para tomar una berry sin romper la vine; romper da la misma berry por segmento con berries (Fortune no ayuda).",
+      "Pulsar uso sobre una liana con bayas da una unidad sin romperla; romperla da una unidad y Fortune no afecta.",
       "Encuentra tus primeras glow berries colgando de los techos de las lush caves."
     ],
     "materials": [
@@ -1330,16 +1330,17 @@
       "Explora una lush cave y recoge glow berries de las cave vines del techo.",
       "En casa, coloca berries bajo una fila de bloques: cada una se convierte en una vine que crece hacia abajo.",
       "Espera a que las vines se alarguen, o sáltate la espera: bone meal a cualquier segmento y da berries ya.",
-      "Cosecha con la tecla de usar; la vine se queda y sigue creciendo.",
-      "Automatiza: un dispenser cargado con bone meal disparando a un segmento de vine, cosechado por un piston o a mano; cada dosis es una berry garantizada.",
-      "Usa shears en el segmento inferior para detener una vine en la longitud decorativa perfecta."
+      "Cosecha con la tecla de uso; la liana se queda.",
+      "Aplica hueso a los segmentos sin bayas para forzar bayas; puedes automatizarlo con un dispenser.",
+      "Coloca bayas bajo cualquier bloque cuya cara inferior sea completa para ampliar la granja."
     ],
     "rates": "Un dispenser alimentado con un bone meal por clic produce una berry por clic: con una granja de bone meal detrás, las glow berries son efectivamente ilimitadas; el crecimiento natural solo gotea un segmento con berry por vine cada ~100 minutos.",
     "tips": [
-      "La luz 14 de una vine con berries supera a una torch y queda mejor: iluminación funcional para cuevas y caminos.",
-      "Da glow berries a dos foxes para criarlos; el cachorro confía en ti.",
-      "Las vines se pueden escalar: una columna de glow berries es una escalera que te alimenta.",
-      "Las berries restauran poca hambre: críalas por la luz, la estética y los foxes, no para cenar."
+      "Con bayas la liana da luz de nivel 14: iluminación funcional.",
+      "Las bayas brillantes acortan un 10% el tiempo de crecimiento de un zorro bebé.",
+      "Las lianas se escalan: una columna es una escalera que te da comida.",
+      "Cada baya restaura 2 de hambre; en el composter tienen 30% de subir el nivel.",
+      "Fuente: minecraft.wiki Glow Berries."
     ]
   },
   "drowned-farm": {

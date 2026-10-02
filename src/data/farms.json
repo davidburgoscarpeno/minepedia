@@ -1236,12 +1236,12 @@
     "editions": "both",
     "quickAnswer": "Plant sweet berries on grass or dirt and they grow through 4 stages on their own. Pick a mature bush with use (not break) to take 2-3 berries while the bush stays planted and regrows - or let a fox harvest for you.",
     "mechanics": [
-      "Bushes plant on grass, dirt, coarse dirt, podzol, mycelium, moss, mud or farmland, and grow through 4 stages with a 20% chance per random tick - the block above needs light level 10+ for natural growth.",
-      "Harvest with the use key: a mature bush drops 2-3 berries and reverts to stage 2, so the plant keeps living - never replant. Stage 3 gives 1-2 berries.",
-      "Bone meal works here: each use advances one growth stage, and bone-mealing a fully mature bush ejects a berry item straight out - dispenser designs automate this.",
-      "Foxes are the free workforce: a fox that reaches a mature bush eats the berries and drops them on the ground - hopper minecarts under the row collect them.",
-      "Bees pollinate berry bushes too, jumping them a growth stage - park a beehive nearby.",
-      "Moving through a bush slows entities to about a third of their speed and deals 1 damage per half-second; foxes are immune, and the bush cancels all fall damage inside it."
+      "Bushes plant on grass, dirt, coarse dirt, rooted dirt, farmland, podzol, mycelium, moss, mud or muddy mangrove roots, and grow through 4 stages with a 20% chance per random tick; the block above needs light level 9 or higher.",
+      "Harvest with use: a mature bush drops 2-3 berries and reverts to stage 2; stage 3 gives 1-2. Breaking gives the same and Fortune adds 1 per level, but you lose the plant.",
+      "Bees pollinate bushes and advance them one growth stage.",
+      "Foxes breed on sweet berries and are immune to bushes.",
+      "Moving through a bush slows entities and deals 1 damage (once per half-second) only if you move; it cancels fall damage.",
+      "Bushes generate naturally in taiga and snowy taiga biomes."
     ],
     "materials": [
       "Sweet berries to start - bushes generate in patches in taiga, snowy taiga and old growth taiga biomes (and in abandoned camps)",
@@ -1251,18 +1251,18 @@
     ],
     "steps": [
       "Find a taiga-family biome and harvest a few bushes by hand - every berry is a seed.",
-      "Plant rows with one block of air above each bush, and add torches or lanterns so the block overhead stays at light 10 or more.",
+      "Plant rows with one block of air above each bush and make sure the light is 9 or higher.",
       "Harvest with the use key only: right-click strips the berries and leaves a stage-2 bush that regrows in minutes.",
-      "Speed it up: bone-meal the rows by hand, or load dispensers and pulse them - a mature bush bone-mealed ejects the berry without resetting the plant.",
-      "Automate with a fox: pen one fox per row section; it harvests mature bushes and drops the berries for hopper minecarts below.",
-      "Weaponize the leftovers: a berry hedge around your base damages and slows anything that pushes through it - everything except foxes."
+      "Speed it up with bees nearby or bone meal by hand.",
+      "Always harvest with the use key to keep the plant.",
+      "A berry hedge damages and slows almost everything crossing it, except foxes."
     ],
     "rates": "A mature bush gives 2-3 berries per use and regrows from stage 2 within minutes; a lit double row of 40 bushes hand-picked each cycle out-eats most starter food sources.",
     "tips": [
-      "Berries restore little hunger - their real value is volume, fox breeding and defense hedges, not gourmet meals.",
-      "Feed two foxes sweet berries to breed them; the kit born from your breeding trusts you and will not flee.",
-      "Mobs in minecarts take no bush damage when pushed through - rails make safe paths through your own hedge.",
-      "Never break a bush to harvest: breaking stage 3 or 4 also yields berries (Fortune adds up to +1 per level) but costs you the plant."
+      "Each berry restores 2 hunger; in a composter they have a 30% chance to raise the level.",
+      "Feed two foxes sweet berries to breed them; the baby trusts you.",
+      "Mobs at standard height in a minecart take no damage crossing bushes.",
+      "Source: minecraft.wiki Sweet Berry Bush."
     ],
     "keywords": "sweet berry farm minecraft, how to grow sweet berries, fox berry farm, minecraft berry bush light level, sweet berries uses"
   },
@@ -1468,11 +1468,11 @@
     "editions": "both",
     "quickAnswer": "Plant glow berries under a block and the cave vine grows downward - each new segment has an 11% chance to bear berries. Bone meal on any vine segment makes it bear berries instantly, which is the whole farm.",
     "mechanics": [
-      "Cave vines hang from block undersides and grow down one block at a time, 10% chance per random tick - a new segment every ~11 minutes on average, up to 25 blocks or the floor.",
+      "Cave vines grow downward from the underside of a block with a 10% chance per random tick (about 11.4 minutes per segment on average) until they reach the floor.",
       "Each newly grown segment has an 11% chance to bear berries - and existing segments NEVER grow berries on their own (unlike sweet berry bushes).",
-      "Bone meal on any vine segment forces it to bear berries immediately - dispenser + vine = on-demand berries.",
+      "Bone meal on any vine segment makes it bear berries if it has none (it does not grow a new segment); bees carrying pollen also fertilize it.",
       "Berry-bearing vines give off light level 14: the farm lights itself while it grows.",
-      "Harvest with the use key to take one berry without breaking the vine; breaking gives the same one berry per berry-bearing segment (Fortune does not help).",
+      "Pressing use on a berry-bearing vine gives one unit without breaking it; breaking it also gives one unit and Fortune does not affect it.",
       "Find your first glow berries hanging from lush caves ceilings."
     ],
     "materials": [
@@ -1485,16 +1485,17 @@
       "Explore a lush cave and pick glow berries from the cave vines on the ceiling.",
       "At home, place berries under a row of blocks - each becomes a vine growing downward.",
       "Wait for the vines to lengthen - or skip the wait entirely: bone meal any segment and it bears berries now.",
-      "Harvest with the use key; the vine stays and keeps growing.",
-      "Automate: a dispenser loaded with bone meal firing at a vine segment, harvested by a piston or by hand - every dose is a guaranteed berry.",
-      "Shear the bottom segment to stop a vine at the perfect decorative length."
+      "Harvest with the use key; the vine stays.",
+      "Apply bone meal to segments without berries to force berries; a dispenser can automate it.",
+      "Place berries under any block with a full bottom face to expand the farm."
     ],
     "rates": "A dispenser fed one bone meal per click produces one berry per click - with a bone meal farm behind it, glow berries are effectively unlimited; natural growth alone trickles a berry segment per vine every ~100 minutes.",
     "tips": [
-      "Light 14 from a berry vine beats a torch and looks better - functional lighting for caves and paths.",
-      "Feed two foxes glow berries to breed them; the kit trusts you.",
-      "Vines are climbable - a glow berry column is a ladder that feeds you.",
-      "Berries restore little hunger: grow them for light, looks and foxes, not for dinner."
+      "Berry-bearing vines give light level 14: functional lighting.",
+      "Glow berries reduce a baby fox's time to grow up by 10%.",
+      "Vines are climbable: a column is a ladder that feeds you.",
+      "Each berry restores 2 hunger; in a composter they have a 30% chance to raise the level.",
+      "Source: minecraft.wiki Glow Berries."
     ],
     "keywords": "glow berries farm minecraft, cave vine farm, minecraft glow berries uses, lush caves glow berries, glowing food minecraft"
   },
