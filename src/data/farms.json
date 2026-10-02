@@ -105,11 +105,11 @@
     "produces": "Gold nuggets, gold ingots, rotten flesh - and huge amounts of XP",
     "difficulty": "Advanced",
     "editions": "java-bedrock-different",
-    "quickAnswer": "In Java, zombified piglins spawn inside large nether portal frames - build giant portals, funnel the piglins into a kill zone and swing your sword for endless gold and XP. In Bedrock, portals do not spawn piglins; use a zombified piglin platform farm in the nether wastes with a trident killer instead.",
+    "quickAnswer": "Zombified piglins spawn from active nether portals in the Overworld on both editions, so a farm builds large portals, collects the piglins that appear and kills them for gold nuggets and XP. The spawn point differs: in Java they appear inside a bottom portal block, in Bedrock one block east or south of the portal.",
     "mechanics": [
-      "Java: every active nether portal block can spawn a zombified piglin at light level 11 or lower - bigger portals and more frames mean more spawns. Many designs stack portals above the Nether bedrock ceiling (build limit) for maximum rates.",
-      "Bedrock: zombified piglins spawn naturally throughout the nether wastes; farms use big spawn platforms at low Y with turtle-egg bait or drop chutes, and a trident killer for AFK XP.",
-      "Trident killer (Bedrock + works in Java): pistons push a thrown trident back and forth, killing mobs while crediting you with the kill - full XP while AFK."
+      "Every random tick, a portal block in the Overworld has a chance to spawn a zombified piglin: 1/2000 on Easy, 1/1000 on Normal and 3/2000 on Hard. More portal blocks mean more spawns. This spawning ignores the mob cap.",
+      "Java: the piglin appears inside one of the bottom portal blocks and cannot use the portal for a preset time. Bedrock: it appears one block east or south of the portal, and portals at negative heights spawn none.",
+      "Zombified piglins also spawn naturally in the Nether, at light level 11 and below."
     ],
     "materials": [
       "Java: obsidian for the biggest portal frames you can build (a max portal is 23x23 inside) plus flint and steel",
@@ -118,13 +118,12 @@
       "Bedrock variant: ~1000 blocks for spawn platforms and the trident killer (pistons, observers, lever)"
     ],
     "steps": [
-      "Java: build one or more max-size portals in the Nether, ideally on the nether roof (above Y=128) where no other spawns compete.",
-      "Lure or flush piglins to a kill chamber: they path toward turtle eggs and fall into the collection point.",
-      "Kill with a Looting III sword sweep for gold nuggets (craft into ingots) plus XP, or set a trident killer for AFK mode.",
-      "Bedrock: build large platforms in a nether wastes area around Y=30-40, drop the piglins 22+ blocks to a trident killer, and AFK nearby.",
-      "Store the rotten flesh for cleric trading - 32 flesh per emerald turns the byproduct into emeralds."
+      "Build one or more large portals in the Overworld and light them.",
+      "Guide the piglins that spawn into a kill chamber so they cannot wander off.",
+      "Kill them with a Looting sword for gold nuggets (craft into ingots) and XP.",
+      "Store the rotten flesh: clerics buy rotten flesh for emeralds."
     ],
-    "rates": "Portal-based Java farms are among the fastest XP sources in the game - level 30 in a couple of minutes of swinging, plus chests of gold per hour. Bedrock platform farms are slower but still top-tier XP.",
+    "rates": "The rate scales with the number of portal blocks and the difficulty. Check your own numbers in game before relying on any figure.",
     "tips": [
       "Keep anger management in mind: hitting one piglin angers the group, which is exactly what you want at the kill point and nowhere else.",
       "Gold feeds bartering farms (piglin bartering for pearls, quartz, obsidian) and golden apples/carrots.",
@@ -193,10 +192,9 @@
       "Build an AFK spot ~120 blocks above the swamp so only the farm's floors are in spawning range.",
       "Collect at the chests: gunpowder for rockets, glowstone and redstone for brewing, bottles for honey and potion work."
     ],
-    "rates": "A good Java perimeter-lit witch farm produces 1,000+ witch drops per hour. Unlit single-hut farms give a trickle. Bedrock huts are barely worth farming - use raids.",
+    "rates": "Rates depend on how much of the 7x7x9 hut volume you can make spawnable. In Java witches can spawn at any valid block in that volume; in Bedrock a killed witch respawns on a single block on the hut floor, so Bedrock huts yield much less.",
     "tips": [
       "The bounding box survives demolishing the hut: use a tool like Chunkbase with your seed to see it exactly.",
-      "Triple-hut seeds (three huts in range of one AFK spot) triple the output - hunt one if you are starting a long-term world.",
       "Cats from the hut keep spawning as pets - free creeper repellent."
     ],
     "keywords": "witch farm hut swamp gunpowder glowstone redstone potion drops"

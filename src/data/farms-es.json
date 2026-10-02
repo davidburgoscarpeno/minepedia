@@ -90,11 +90,11 @@
   "gold-xp-farm": {
     "produces": "Gold nuggets, gold ingots, rotten flesh, y cantidades enormes de XP",
     "difficulty": "Avanzada",
-    "quickAnswer": "En Java, los zombified piglins aparecen dentro de marcos de portal al Nether grandes: construye portales gigantes, canaliza los piglins a una zona de muerte y blande tu espada para oro y XP sin fin. En Bedrock los portales no generan piglins; usa una granja de plataformas de zombified piglins en el nether wastes con un trident killer.",
+    "quickAnswer": "Los zombified piglins aparecen en los portales del Overworld activos en ambas ediciones, así que una granja construye portales grandes, recoge a los piglins que salen y los mata para conseguir pepitas de oro y XP. El punto de aparición cambia: en Java salen dentro de un bloque inferior del portal, en Bedrock un bloque al este o sur del portal.",
     "mechanics": [
-      "Java: cada bloque de portal al Nether activo puede generar un zombified piglin a nivel de luz 11 o menos; portales más grandes y más marcos significan más spawns. Muchos diseños apilan portales sobre el techo de bedrock del Nether (límite de construcción) para tasas máximas.",
-      "Bedrock: los zombified piglins aparecen de forma natural por todo el nether wastes; las granjas usan grandes plataformas de spawn a Y baja con cebo de turtle egg o conductos de caída, y un trident killer para XP en AFK.",
-      "Trident killer (Bedrock, y funciona en Java): unos pistones empujan un tridente lanzado de un lado a otro, matando mobs mientras te atribuyen la muerte: XP completo en AFK."
+      "En cada random tick, un bloque de portal en el Overworld tiene una probabilidad de generar un zombified piglin: 1/2000 en Easy, 1/1000 en Normal y 3/2000 en Hard. Más bloques de portal significan más apariciones. Este spawn ignora el límite de mobs.",
+      "Java: el piglin aparece dentro de uno de los bloques inferiores del portal y no puede usarlo durante un tiempo fijo. Bedrock: aparece un bloque al este o sur del portal, y los portales a alturas negativas no generan ninguno.",
+      "Los zombified piglins también aparecen de forma natural en el Nether, con nivel de luz 11 o menos."
     ],
     "materials": [
       "Java: obsidiana para los marcos de portal más grandes que puedas construir (un portal máximo es 23x23 por dentro) más flint and steel",
@@ -103,13 +103,12 @@
       "Variante Bedrock: ~1000 bloques para plataformas de spawn y el trident killer (pistones, observers, palanca)"
     ],
     "steps": [
-      "Java: construye uno o varios portales de tamaño máximo en el Nether, idealmente en el techo del Nether (por encima de Y=128) donde ningún otro spawn compita.",
-      "Atrae o arrastra a los piglins a una cámara de muerte: van hacia los turtle eggs y caen al punto de recolección.",
-      "Mata con un barrido de espada Looting III para gold nuggets (fúndelos en lingotes) más XP, o monta un trident killer para modo AFK.",
-      "Bedrock: construye grandes plataformas en una zona de nether wastes alrededor de Y=30-40, deja caer a los piglins 22+ bloques hasta un trident killer y haz AFK cerca.",
-      "Guarda la rotten flesh para tradear con clerics: 32 carnes por esmeralda convierten el subproducto en esmeraldas."
+      "Construye uno o varios portales grandes en el Overworld y enciéndelos.",
+      "Guía a los piglins que salen hasta una cámara de muerte para que no se dispersen.",
+      "Mátalos con una espada con Looting para conseguir pepitas de oro (cráftalas en lingotes) y XP.",
+      "Guarda la carne podrida: los clérigos la compran por esmeraldas."
     ],
-    "rates": "Las granjas de Java basadas en portales están entre las fuentes de XP más rápidas del juego: nivel 30 en un par de minutos de espadazos, más cofres de oro por hora. Las granjas de plataformas de Bedrock son más lentas pero siguen siendo XP de primer nivel.",
+    "rates": "El ritmo depende del número de bloques de portal y de la dificultad. Comprueba tus propias cifras en el juego antes de fiarte de ninguna.",
     "tips": [
       "Ten en cuenta la gestión de la ira: golpear a un piglin enfada al grupo, que es exactamente lo que quieres en el punto de muerte y en ningún otro sitio.",
       "El oro alimenta granjas de bartering (piglins por perlas, quartz, obsidiana) y manzanas/zanahorias doradas.",
@@ -170,10 +169,9 @@
       "Construye un punto de AFK a ~120 bloques sobre el pantano para que solo los suelos de la granja estén en rango de spawn.",
       "Recoge en los cofres: gunpowder para cohetes, glowstone y redstone para alquimia, botellas para miel y pociones."
     ],
-    "rates": "Una buena granja de brujas de Java con perímetro iluminado produce más de 1.000 drops de bruja por hora. Las granjas de cabaña única sin iluminar dan un goteo. Las cabañas de Bedrock apenas merecen la pena: usa raids.",
+    "rates": "El ritmo depende de cuánto del volumen de 7x7x9 de la cabaña puedas dejar apto para spawn. En Java las witches pueden aparecer en cualquier bloque válido de ese volumen; en Bedrock una witch muerta reaparece en un solo bloque del suelo de la cabaña, así que rinde mucho menos.",
     "tips": [
       "El bounding box sobrevive a demoler la cabaña: usa una herramienta como Chunkbase con tu seed para verlo con exactitud.",
-      "Las seeds de triple cabaña (tres cabañas al alcance de un solo punto de AFK) triplican la producción: busca una si empiezas un mundo a largo plazo.",
       "Los gatos de la cabaña siguen apareciendo como mascotas: repelente de creepers gratis."
     ]
   },
