@@ -137,12 +137,12 @@
     "produces": "Totems of undying, emeralds, enchanted books, redstone, glowstone, saddles",
     "difficulty": "Advanced",
     "editions": "java-bedrock-different",
-    "quickAnswer": "A raid farm triggers Bad Omen raids at a pillager outpost on purpose, funnels every wave into a kill zone and harvests the drops: totems from evokers, emeralds from everyone, and witch loot on top. It is the most loot-dense farm in the game - and one of the most complex to build.",
+    "quickAnswer": "A raid farm triggers Bad Omen raids at a pillager outpost on purpose, funnels every wave into a kill zone and harvests the drops: totems from evokers and witch loot on top. It is one of the most complex farms to build.",
     "mechanics": [
       "Kill a pillager captain (banner carrier) to get Bad Omen - since 1.21 captains drop an Ominous Bottle you drink when ready, which makes timing the farm far easier.",
-      "Entering a village with Bad Omen starts a raid: waves of pillagers, vindicators, evokers, witches and ravagers scale with difficulty and Bad Omen level.",
+      "When a player with Bad Omen enters a village, the effect turns into Raid Omen, and if it is not cancelled the raid starts after about 30 seconds. Waves of pillagers, vindicators, evokers, witches and ravagers follow, scaling with difficulty and Raid Omen level.",
       "Farm designs define an artificial 'village' (beds + workstations) near the outpost so raids trigger where you want, then push raid mobs into lava blades, fall damage or a trident killer.",
-      "Raid mobs drop emeralds and enchanted books (vindicators/pillagers), totems (evokers, always 1), redstone/glowstone/gunpowder (witches) and saddles (ravagers)."
+      "Evokers always drop 1 totem of undying. Witches drop potion ingredients, and ravagers can drop saddles. Check each mob's page for exact loot."
     ],
     "materials": [
       "A pillager outpost with spawn-proofed surroundings",
@@ -159,7 +159,7 @@
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Bad Omen level sets the wave count: level 5 Ominous Bottles (from higher-level captains) give the longest raids.",
+      "Wave count depends on difficulty (3 on Easy, 5 on Normal, 7 on Hard), plus one extra wave if the Raid Omen level is II or higher. Ominous bottles dropped by captains are level I to V at random.",
       "Keep the villagers unreachable: one ravager in the pod ends the farm until you restock.",
       "Designs break between versions more than any other farm - verify the design matches your game version exactly, and note that Java and Bedrock raid spawning works completely differently."
     ],

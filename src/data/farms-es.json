@@ -118,12 +118,12 @@
   "raid-farm": {
     "produces": "Totems of undying, esmeraldas, libros encantados, redstone, glowstone, monturas",
     "difficulty": "Avanzada",
-    "quickAnswer": "Una raid farm provoca raids de Bad Omen en un pillager outpost a propósito, canaliza cada oleada a una zona de muerte y cosecha los drops: totems de los evokers, esmeraldas de todos, y botín de brujas encima. Es la granja con más botín por metro cuadrado del juego, y una de las más complejas de construir.",
+    "quickAnswer": "Una raid farm provoca raids de Bad Omen en un pillager outpost a propósito, canaliza cada oleada a una zona de muerte y cosecha los drops: tótems de los evokers y botín de brujas encima. Es una de las granjas más complejas de construir.",
     "mechanics": [
       "Mata a un capitán pillager (el del estandarte) para conseguir Bad Omen: desde la 1.21 los capitanes sueltan una Ominous Bottle que te bebes cuando estés listo, lo que facilita mucho el ritmo de la granja.",
-      "Entrar en una aldea con Bad Omen inicia una raid: oleadas de pillagers, vindicators, evokers, brujas y ravagers que escalan con la dificultad y el nivel de Bad Omen.",
+      "Cuando un jugador con Bad Omen entra en una aldea, el efecto se convierte en Raid Omen y, si no se cancela, la raid empieza unos 30 segundos después. Siguen oleadas de pillagers, vindicators, evokers, witches y ravagers, que escalan con la dificultad y el nivel de Raid Omen.",
       "Los diseños definen una 'aldea' artificial (camas + bloques de trabajo) cerca del outpost para que las raids se disparen donde quieres, y luego empujan a los mobs de la raid a cuchillas de lava, daño de caída o un trident killer.",
-      "Los mobs de raid sueltan esmeraldas y libros encantados (vindicators/pillagers), totems (evokers, siempre 1), redstone/glowstone/gunpowder (brujas) y monturas (ravagers)."
+      "Los evokers sueltan siempre 1 tótem de la inmortalidad. Las witches sueltan ingredientes de pociones y los ravagers pueden soltar sillas de montar. Mira la página de cada mob para el botín exacto."
     ],
     "materials": [
       "Un pillager outpost con los alrededores a prueba de spawns",
@@ -140,7 +140,7 @@
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "El nivel de Bad Omen fija el número de oleadas: las Ominous Bottles de nivel 5 (de capitanes de más nivel) dan las raids más largas.",
+      "El número de oleadas depende de la dificultad (3 en Easy, 5 en Normal, 7 en Hard), más una extra si el nivel de Raid Omen es II o superior. Las ominous bottles que sueltan los capitanes son de nivel I a V al azar.",
       "Mantén a los aldeanos inalcanzables: un ravager en la celda termina la granja hasta que la repongas.",
       "Los diseños se rompen entre versiones más que ninguna otra granja: verifica que el diseño coincide exactamente con tu versión, y ten en cuenta que el spawn de raids funciona de forma completamente distinta en Java y Bedrock."
     ]
