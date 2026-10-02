@@ -136,8 +136,8 @@
         "notes": "Brewing ingredient; do not eat unless desperate"
       }
     ],
-    "spawnConditions": "Light level 0 in the Overworld, needs a 3x3x2 space but only a 1-block-high center.",
-    "behavior": "Hostile below light level 12, neutral in daylight. Climbs walls and sees through blocks to track you.",
+    "spawnConditions": "Light level 0 in the Overworld, in a 3x1x3 space centered on an opaque block; in Java the block above the spawn space cannot be a full solid block. 1% spawn with a skeleton rider (spider jockey).",
+    "behavior": "Hostile while the light around it is 11 or less, otherwise it only attacks if attacked. Sees up to 16 blocks, detects players through blocks, pounces at close range and climbs walls. Source: minecraft.wiki Spider.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -157,7 +157,7 @@
     "type": "Neutral",
     "health": "40 (20 hearts)",
     "where": "All three dimensions at light level 0; very common in the End and in warped forests.",
-    "howToKill": "Fight under a 2-block-high roof: it is 3 blocks tall and cannot reach you. Attack its legs. It teleports away from arrows and water, so use melee.",
+    "howToKill": "It is 3 blocks tall. It teleports away from arrows and most projectiles, so melee is more reliable. Rain, water and splash water bottles hurt it (1 HP).",
     "drops": [
       {
         "item": "Ender Pearl",
@@ -165,8 +165,8 @@
         "notes": "Essential for Eyes of Ender to reach the End"
       }
     ],
-    "spawnConditions": "Light level 0 in the Overworld and Nether; light level 7 or less in the End.",
-    "behavior": "Neutral until you look at its face (crosshair on its head) or attack it. Picks up and moves certain blocks. Takes damage from water.",
+    "spawnConditions": "On any solid surface with at least three empty blocks above, at light level 0 in the Overworld and the End, or light level 7 or less in the Nether.",
+    "behavior": "Neutral until you damage it or look directly at its face. In Java, staring at an aggravated enderman from within 16 blocks paralyzes it while you keep eye contact. Picks up and moves certain blocks. Source: minecraft.wiki Enderman.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -185,7 +185,7 @@
     "type": "Hostile (boss-tier)",
     "health": "500 (250 hearts)",
     "where": "Deep Dark biome, summoned by sculk shriekers after 4 warnings. Spawns from the ground near the shrieker.",
-    "howToKill": "You are not meant to fight it: sneak away and break the shriekers. If you must fight, it has no armor but huge health; its sonic boom ignores armor and shields. Killing it drops only a sculk catalyst - no real reward.",
+    "howToKill": "You are not meant to fight it: sneak away and break the shriekers. It has huge health (500) and its ranged attack ignores armor and Protection.",
     "drops": [
       {
         "item": "Sculk Catalyst",
@@ -193,8 +193,8 @@
         "notes": "Spreads sculk when mobs die nearby; only drop"
       }
     ],
-    "spawnConditions": "Only via sculk shrieker activation (natural shriekers, 4 triggers), in the Deep Dark below Y=0.",
-    "behavior": "Blind: hunts by sound and smell. Vibrations from walking, projectiles or blocks attract it. Sonic boom pierces walls and shields. Burrows away after 60 seconds of calm.",
+    "spawnConditions": "Only when a player activates naturally generated sculk shriekers four times; light level has no effect. It emerges from the ground within an 11x13x11 area around the shrieker.",
+    "behavior": "Blind: hunts by vibrations and by sniffing. Vibrations from players, mobs, projectiles and minecarts attract it. Digs down to despawn after 60 seconds without a target. Source: minecraft.wiki Warden.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",

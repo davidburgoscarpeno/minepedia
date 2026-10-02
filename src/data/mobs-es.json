@@ -41,9 +41,9 @@
   "spider": {
     "type": "Neutral (hostil en la oscuridad)",
     "where": "Overworld con nivel de luz 0. Las arañas de cueva salen de spawners en minas abandonadas.",
-    "spawnConditions": "Nivel de luz 0 en el Overworld; necesita un espacio de 3x3x2 pero solo 1 bloque de alto en el centro.",
+    "spawnConditions": "Nivel de luz 0 en el Overworld, en un espacio de 3x1x3 centrado en un bloque opaco; en Java el bloque sobre el espacio no puede ser un bloque sólido completo. 1% aparecen con un esqueleto montado (spider jockey).",
     "howToKill": "Objetivo fácil cuerpo a cuerpo; salta al atacar. De día deja de atacar salvo que la provoques. Las espadas con Bane of Arthropods la matan rápido.",
-    "behavior": "Hostil por debajo de nivel de luz 12, neutral de día. Escala paredes y ve a través de los bloques para seguirte.",
+    "behavior": "Hostil mientras la luz a su alrededor sea 11 o menos; si no, solo ataca si lo atacan. Ve a 16 bloques, detecta jugadores a través de bloques, salta al acecho y trepa muros. Fuente: minecraft.wiki Spider.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Arcos, cañas de pescar, lana, riendas",
@@ -53,9 +53,9 @@
   "enderman": {
     "type": "Neutral",
     "where": "Las tres dimensiones con nivel de luz 0; muy común en el End y en bosques distorsionados (warped forests).",
-    "spawnConditions": "Nivel de luz 0 en el Overworld y el Nether; nivel de luz 7 o menos en el End.",
-    "howToKill": "Pelea bajo un techo de 2 bloques de alto: mide 3 bloques y no puede alcanzarte. Ataca sus piernas. Se teletransporta para esquivar flechas y agua, así que usa cuerpo a cuerpo.",
-    "behavior": "Neutral hasta que le miras a la cara (la mira sobre su cabeza) o lo atacas. Recoge y mueve ciertos bloques. El agua le hace daño.",
+    "spawnConditions": "Sobre cualquier superficie sólida con al menos tres bloques libres encima, con nivel de luz 0 en el Overworld y el End, o 7 o menos en el Nether.",
+    "howToKill": "Mide 3 bloques de alto. Se teletransporta para esquivar flechas y casi todos los proyectiles, así que el cuerpo a cuerpo es más fiable. La lluvia, el agua y las pociones de agua lo dañan (1 de vida).",
+    "behavior": "Neutral hasta que lo dañas o lo miras directamente a la cara. En Java, mirar a un enderman enfadado a menos de 16 bloques lo paraliza mientras mantengas el contacto visual. Recoge y mueve ciertos bloques. Fuente: minecraft.wiki Enderman.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Imprescindible para los ojos de ender y llegar al End"
@@ -64,9 +64,9 @@
   "warden": {
     "type": "Hostil (nivel boss)",
     "where": "Bioma Deep Dark, invocado por sculk shriekers tras 4 avisos. Sale del suelo cerca del shrieker.",
-    "spawnConditions": "Solo por activación de sculk shriekers (shriekers naturales, 4 activaciones), en el Deep Dark por debajo de Y=0.",
-    "howToKill": "No está pensado para luchar: escápate agachado y rompe los shriekers. Si tienes que pelear, no lleva armadura pero tiene muchísima vida; su onda sónica ignora armadura y escudos. Al matarlo solo suelta un catalizador sculk: sin recompensa real.",
-    "behavior": "Ciego: caza por sonido y olor. Las vibraciones de caminar, proyectiles o bloques lo atraen. La onda sónica atraviesa paredes y escudos. Se entierra tras 60 segundos de calma.",
+    "spawnConditions": "Solo cuando un jugador activa shriekers generados de forma natural cuatro veces; el nivel de luz no influye. Emerge del suelo en un área de 11x13x11 alrededor del shrieker.",
+    "howToKill": "No está pensado para pelear: escabúllete y rompe los shriekers. Tiene mucha vida (500) y su ataque a distancia ignora armadura y Protección.",
+    "behavior": "Ciego: caza por vibraciones y olfateando. Le atraen las vibraciones de jugadores, mobs, proyectiles y vagonetas. Se entierra y desaparece tras 60 segundos sin objetivo. Fuente: minecraft.wiki Warden.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Propaga sculk cuando mueren mobs cerca; único drop"
