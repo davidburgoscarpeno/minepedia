@@ -733,7 +733,7 @@
     "type": "Hostile",
     "health": "30 (15 hearts)",
     "where": "In and around ocean monuments - the only place they spawn.",
-    "howToKill": "Fight them out of water or with Depth Strider + Respiration gear. Their laser charges for 2 seconds: break line of sight behind a pillar to reset it. In melee, watch the spikes - hitting a guardian with extended spikes hurts you back (Thorns-like).",
+    "howToKill": "Break line of sight behind a pillar: its laser charges slowly. Guardians inflict retaliatory damage when you hit them in melee, so mind the spikes. Fight out of water or with Respiration and Depth Strider.",
     "drops": [
       {
         "item": "Prismarine Shard",
@@ -751,8 +751,8 @@
         "notes": "40% chance; cooked if killed by fire"
       }
     ],
-    "spawnConditions": "Only inside the 58x58 ocean monument bounding box, in water. Guardian farms drain the monument and funnel spawns into kill chambers.",
-    "behavior": "Swims around the monument and zaps players, squid and axolotls with a charging laser. Spikes extend when it takes damage and reflect part of melee hits.",
+    "spawnConditions": "Only in ocean monuments, in water (flowing or still). In Java they spawn less often in open-sky water than in covered areas; in Bedrock they use 25 fixed spawn columns.",
+    "behavior": "Swims around attacking players, squid, glow squid and axolotls with a slow-charging laser. Spikes extend when it is not swimming. Survives out of water, hopping erratically. Source: minecraft.wiki Guardian.",
     "tameOrBreed": "Cannot be tamed or bred. Axolotls attack guardians and help you raid monuments.",
     "editions": [
       "java",
@@ -771,7 +771,7 @@
     "name": "Witch",
     "type": "Hostile",
     "health": "26 (13 hearts)",
-    "where": "Swamp witch huts at night, raids (from wave 3-4), and anywhere a villager is struck by lightning.",
+    "where": "Swamp huts, anywhere in the Overworld at light level 0 (except mushroom fields and deep dark), raids, and villagers struck by lightning.",
     "howToKill": "Rush it before it drinks: witches drink Potions of Healing (4 hearts), Fire Resistance, Water Breathing and Swiftness. A bow from outside its potion range works too. Never let it splash you near other mobs.",
     "drops": [
       {
@@ -785,8 +785,8 @@
         "notes": "8.5% chance (+1% per Looting) if killed mid-drink"
       }
     ],
-    "spawnConditions": "Witch huts in swamps (a 7x9x4 spawn volume), raids, and villagers converted by lightning. Raid farms double as witch farms.",
-    "behavior": "Throws splash potions of Poison (up to 44s), Slowness, Weakness and Harming. Drinks counter-potions: heals when hurt, fire resistance when burning, water breathing when submerged, swiftness when far away.",
+    "spawnConditions": "Swamp huts (a 7x7x9 spawn volume in Java), light level 0 in the Overworld (always individually), raids from wave 3 or 4 (Java) or wave 4 (Bedrock), and villagers struck by lightning within four blocks.",
+    "behavior": "Throws splash potions and drinks potions to defend itself. It can drop the potion it was drinking: 8.5% chance, +1% per Looting level. Cannot open doors. Source: minecraft.wiki Witch.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -806,7 +806,7 @@
     "type": "Hostile",
     "health": "20 (10 hearts)",
     "where": "The Overworld night sky, above players who have not slept or died for 3+ in-game days.",
-    "howToKill": "They swoop down in a straight line - sidestep and hit them as they pass, or shoot them circling overhead. They burn in daylight. Cats scare phantoms away, so keep one nearby or sleep regularly.",
+    "howToKill": "They dive in attack runs: sidestep and hit them as they pass, or shoot them. They burn in sunlight. Cats make phantoms stay at least 16 blocks away.",
     "drops": [
       {
         "item": "Phantom Membrane",
@@ -814,8 +814,8 @@
         "notes": "Repairs elytra on an anvil; brews Potions of Slow Falling"
       }
     ],
-    "spawnConditions": "Above sea level at night or during thunderstorms, targeting players with 3+ days without sleep (the insomnia timer resets when you sleep or die). Spawn attempts start after 1 hour of insomnia.",
-    "behavior": "Circles high above its target and dives in straight attack runs. Undead: burns in sunlight, despawns at dawn, hurt by Healing potions and healed by Harming.",
+    "spawnConditions": "At night or in thunderstorms above sea level (Y=64) with sky above you, at light level 7 or less, when your time since last rest is 3 in-game days (1 real-time hour, 72000 ticks). 1-2 spawn on Easy, 1-3 on Normal, 1-4 on Hard, 20-34 blocks above you.",
+    "behavior": "Undead flier that burns in sunlight and dives to bite. Sleeping resets the timer. Source: minecraft.wiki Phantom.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",

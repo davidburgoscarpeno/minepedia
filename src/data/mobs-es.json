@@ -264,9 +264,9 @@
   "guardian": {
     "type": "Hostil",
     "where": "Dentro y alrededor de los monumentos oceánicos: el único sitio donde aparece.",
-    "spawnConditions": "Solo dentro del área de 58x58 del monumento oceánico, en agua. Las granjas de guardianes drenan el monumento y canalizan los spawns a cámaras de matanza.",
-    "howToKill": "Lucha fuera del agua o con equipo de Depth Strider + Respiration. Su láser carga durante 2 segundos: rompe la línea de visión tras un pilar para reiniciarlo. En cuerpo a cuerpo, ojo con las púas: golpear a un guardián con las púas extendidas te devuelve daño (tipo Thorns).",
-    "behavior": "Nada alrededor del monumento y electrocuta con un láser cargado a jugadores, calamares y ajolotes. Las púas se extienden al recibir daño y reflejan parte de los golpes cuerpo a cuerpo.",
+    "spawnConditions": "Solo en monumentos oceánicos, en agua (corriente o quieta). En Java aparecen menos en agua abierta al cielo que en zonas cubiertas; en Bedrock usan 25 columnas fijas.",
+    "howToKill": "Rompe la línea de visión tras un pilar: su láser se carga despacio. Los guardianes hacen daño de represalia si los golpeas cuerpo a cuerpo, así que cuidado con las púas. Pelea fuera del agua o con Respiración y Agilidad acuática.",
+    "behavior": "Nada atacando a jugadores, calamares, calamares luminosos y ajolotes con un láser de carga lenta. Las púas se extienden cuando no nada. Sobrevive fuera del agua dando saltos erráticos. Fuente: minecraft.wiki Guardian.",
     "tameOrBreed": "No se puede domesticar ni criar. Los ajolotes atacan a los guardianes y te ayudan a asaltar monumentos.",
     "notes": [
       "Bloques de prismarina, faroles de mar",
@@ -276,10 +276,10 @@
   },
   "witch": {
     "type": "Hostil",
-    "where": "Cabañas de bruja de pantano de noche, raids (desde la oleada 3-4), y dondequiera que un rayo alcance a un aldeano.",
-    "spawnConditions": "Cabañas de bruja en pantanos (volumen de spawn de 7x9x4), raids, y aldeanos convertidos por un rayo. Las granjas de raids hacen también de granjas de brujas.",
+    "where": "Cabañas de pantano, cualquier sitio del Overworld con luz 0 (salvo mushroom fields y deep dark), asaltos y aldeanos alcanzados por un rayo.",
+    "spawnConditions": "Cabañas de pantano (volumen de 7x7x9 en Java), luz 0 en el Overworld (siempre solas), asaltos desde la oleada 3 o 4 (Java) o la 4 (Bedrock) y aldeanos alcanzados por un rayo a menos de cuatro bloques.",
     "howToKill": "Ve a por ella antes de que beba: las brujas beben Pociones de Curación (4 corazones), Resistencia al fuego, Respiración acuática y Rapidez. Un arco desde fuera de su rango de pociones también funciona. Nunca dejes que te salpique cerca de otros mobs.",
-    "behavior": "Lanza pociones en splash de Veneno (hasta 44s), Lentitud, Debilidad y Daño. Bebe contrapociones: se cura al recibir daño, resistencia al fuego al arder, respiración acuática al sumergirse, rapidez cuando estás lejos.",
+    "behavior": "Lanza pociones arrojadizas y bebe pociones para defenderse. Puede soltar la poción que bebía: 8,5% y +1% por nivel de Saqueo. No abre puertas. Fuente: minecraft.wiki Witch.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Las granjas de brujas producen todo esto, sobre todo redstone y glowstone",
@@ -289,9 +289,9 @@
   "phantom": {
     "type": "Hostil",
     "where": "El cielo nocturno del Overworld, sobre jugadores que no han dormido ni muerto en 3+ días de juego.",
-    "spawnConditions": "Sobre el nivel del mar de noche o durante tormentas, apuntando a jugadores con 3+ días sin dormir (el contador de insomnio se reinicia al dormir o morir). Los intentos de spawn empiezan tras 1 hora de insomnio.",
-    "howToKill": "Bajan en picado en línea recta: aparta el paso y golpéalos al pasar, o dispárales mientras circulan arriba. Se queman con la luz del día. Los gatos ahuyentan a los phantoms: ten uno cerca o duerme con regularidad.",
-    "behavior": "Circula alto sobre su objetivo y se lanza en picado en línea recta. No-muerto: se quema con el sol, desaparece al amanecer, recibe daño de pociones de Curación y se cura con Daño.",
+    "spawnConditions": "De noche o en tormenta sobre el nivel del mar (Y=64) con cielo encima, con luz 7 o menos, cuando llevas 3 días de juego sin descansar (1 hora real, 72000 ticks). Aparecen 1-2 en Fácil, 1-3 en Normal y 1-4 en Difícil, a 20-34 bloques sobre ti.",
+    "howToKill": "Se lanzan en picado: esquiva y golpéalos al pasar, o dispárales. Se queman con el sol. Los gatos hacen que se mantengan al menos a 16 bloques.",
+    "behavior": "Volador no-muerto que se quema con el sol y se lanza a morder. Dormir reinicia el contador. Fuente: minecraft.wiki Phantom.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Repara élitros en el yunque; sirve para Pociones de Caída lenta"
