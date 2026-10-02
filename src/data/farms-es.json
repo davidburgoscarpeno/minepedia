@@ -814,9 +814,9 @@
   "lava-farm": {
     "produces": "Lava infinita en cauldrons: un bucket lleno por cauldron por ciclo de rellenado",
     "difficulty": "Intermedia",
-    "quickAnswer": "Una pointed dripstone colgando de un dripstone block con lava encima llena lentamente un cauldron de lava: alrededor de un bucket cada 19 minutos por pareja. Alinea una fila de ellas y la lava se convierte en combustible renovable.",
+    "quickAnswer": "Una estalactita de pointed dripstone bajo una fuente de lava rellena poco a poco un caldero vacío con lava: 15/256 de probabilidad por random tick, de media una vez cada ~19 minutos por módulo. Con una fila de módulos, la lava pasa a ser un combustible renovable.",
     "mechanics": [
-      "La receta de construcción es estricta: fuente de lava arriba, un bloque sólido debajo, una pointed dripstone colgando de ese bloque y un cauldron debajo a menos de 10 bloques con solo aire (o, en Java, trapdoors abiertas y otros bloques sin colisión) entre medias.",
+      "La receta: una fuente de lava arriba, un bloque sólido debajo, una pointed dripstone colgando de ese bloque y un caldero vacío debajo a menos de 10 bloques de la punta. En el Nether no hace falta la fuente de lava.",
       "Cada random tick en la parte alta de la stalactite tira una probabilidad de 15/256 (~5,9%) de llenar por completo un cauldron vacío de lava: en torno a un día de Minecraft (19+ minutos) por rellenado y montaje.",
       "El agua también funciona: una fuente de agua encima llena el cauldron de nivel en nivel (tres niveles por bucket) al ~17,6% por tick, pero la lava es el premio, porque llena el cauldron entero de un goteo.",
       "Las fuentes de lava y agua nunca se consumen: un bucket de lava alimenta un número ilimitado de buckets de salida.",
@@ -842,9 +842,10 @@
     "rates": "Un módulo promedia un bucket de lava cada ~19 minutos; una batería de 20 cauldrons da aproximadamente un bucket por minuto mientras está cargada: combustible gratis para cada furnace, blast furnace y smoker que tengas.",
     "tips": [
       "El iron es el coste real: 7 lingotes por cauldron, así que agranda la batería a medida que crece tu granja de iron.",
-      "Mantén la madera, la wool y las carpets lejos de la fila de lava: una chispa de lag es todo lo que hace falta.",
-      "En Java puedes pasar la línea de goteo a través de trapdoors abiertas para torres compactas; Bedrock exige aire limpio.",
-      "Marca los cauldrons vacíos: los hoppers no pueden extraer lava, así que la cosecha es manual; una pasarela agiliza las rondas."
+      "Mantén lejos de la fila de lava cualquier cosa que no quieras que se queme.",
+      "El caldero debe estar a 10 bloques o menos de la punta de la estalactita.",
+      "Marca los cauldrons vacíos: los hoppers no pueden extraer lava, así que la cosecha es manual; una pasarela agiliza las rondas.",
+      "Fuente: minecraft.wiki Lava."
     ]
   },
   "dripstone-farm": {
@@ -890,7 +891,7 @@
     "mechanics": [
       "Los mushrooms se plantan en podzol, mycelium o nylium con cualquier nivel de luz; en cualquier otro sitio necesitan luz 12 o menos y saltan del suelo a 13+.",
       "Propagación: cada random tick da a un mushroom un 4% de probabilidad de propagarse a un bloque cercano (incluso en diagonal arriba o abajo) si hay menos de 5 de su tipo en un volumen de 9x9x3; un campo oscuro de podzol se autosiembra.",
-      "El bone meal en un mushroom lo convierte en huge mushroom cuando el bloque base vale (podzol, mycelium o nylium con cualquier luz; grass, dirt, moss y amigos con luz 12 o menos) y los 5 bloques directamente encima están libres de bloques sólidos.",
+      "Con bone meal, un mushroom puede crecer en un mushroom gigante si está sobre un bloque válido (dirt, grass, podzol, mycelium o nylium) y hay espacio libre; lo ideal es dejar un espacio de 7x7x8 para que el bone meal nunca falle.",
       "Los huge mushrooms sueltan sus mushrooms pequeños al romper los bloques de la copa: aplica bone meal a un mushroom, corta el gigante y sales con más de lo que empezaste.",
       "Ambos colores crecen igual: monta filas de brown y red una junto a otra para ingredientes de stew y decoración."
     ],
@@ -906,8 +907,8 @@
       "Planta una cuadrícula inicial: un mushroom cada pocos bloques de cada color, manteniendo los tipos separados por el límite de densidad de 9x9x3.",
       "Déjalos propagarse: un 4% por random tick por mushroom llena el campo en unos pocos días del juego.",
       "Cosecha en oleadas: recoge todo menos uno o dos iniciales por sección y el campo se resiembra solo.",
-      "Monta la cosecha gigante: bone meal a un mushroom en podzol con 5 bloques libres encima, corta el huge mushroom para 0-2 mushrooms por bloque de copa; docenas por gigante.",
-      "Vigila el techo: un solo bloque sólido dentro de los 5 de encima del mushroom bloquea el crecimiento gigante.",
+      "Haz la cosecha del gigante: usa bone meal en un mushroom sobre un bloque válido con espacio libre; un mushroom gigante da al menos 20 mushrooms al recolectarlo.",
+      "Deja espacio: un bone meal puede fallar si el mushroom gigante no tiene sitio para crecer.",
       "Craftea la producción: mushroom stew (bowl + red + brown), fermented spider eyes con los brown, y variantes de suspicious stew.",
       "Acumula bloques de copa con Silk Touch para construir: los stems y las copas de mushroom son bloques de estructura preciosos."
     ],
@@ -915,8 +916,9 @@
     "tips": [
       "El podzol es el amigo del granjero: te deja iluminar la granja para frenar a los mobs hostiles mientras los mushrooms siguen propagándose.",
       "Separa los colores al menos 9 bloques o comparten el límite de 5 por 9x9x3 y se ralentizan mutuamente.",
-      "Los brown mushrooms emiten una luz tenue de 1: inofensiva, pero tampoco frena las apariciones.",
-      "Una mooshroom es la versión de lujo: esquílala para 5 mushrooms y se convierte en cow, o ordeñala con un bowl para stew infinito."
+      "Un mushroom marrón da luz de nivel 1, lo que impide la mayoría de apariciones hostiles (en versiones actuales necesitan luz de bloque 0); las soul torches (luz 10) también sirven para mushrooms.",
+      "Una mooshroom es la versión de lujo: esquílala para 5 mushrooms y se convierte en cow, o ordeñala con un bowl para stew infinito.",
+      "Fuente: minecraft.wiki Tutorial:Mushroom farming."
     ]
   },
   "bee-farm": {

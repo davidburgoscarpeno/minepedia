@@ -913,9 +913,9 @@
     "produces": "Infinite lava in cauldrons - one full bucket per cauldron per refill cycle",
     "difficulty": "Intermediate",
     "editions": "java-bedrock-different",
-    "quickAnswer": "A pointed dripstone hanging from a dripstone block with lava above it slowly fills a cauldron below with lava - about one bucket every 19 minutes per pair. Line up a row of them and lava becomes a renewable fuel source.",
+    "quickAnswer": "A pointed dripstone stalactite under a lava source slowly fills an empty cauldron with lava: 15/256 chance per random tick, about once every ~19 minutes per module on average. A row of modules makes lava a renewable fuel.",
     "mechanics": [
-      "The build recipe is strict: lava source on top, a solid block under it, a pointed dripstone hanging from that block, and a cauldron below within 10 blocks with only air (or, in Java, open trapdoors and other collision-free blocks) in between.",
+      "The recipe: a lava source on top, a solid block under it, a pointed dripstone hanging from that block, and an empty cauldron below within 10 blocks of the tip. In the Nether the lava source is not needed.",
       "Each random tick on the top of the stalactite rolls a 15/256 chance (~5.9%) to completely fill an empty cauldron with lava - averaging roughly one Minecraft day (19+ minutes) per refill, per setup.",
       "Water works too: a water source above fills the cauldron one level at a time (three levels per bucket) at ~17.6% per tick - but lava is the prize, since it fills the whole cauldron in one drip.",
       "The lava and water sources are never consumed - one bucket of lava fuels an unlimited number of buckets out.",
@@ -941,9 +941,10 @@
     "rates": "One module averages a lava bucket every ~19 minutes; a 20-cauldron array yields roughly a bucket a minute while loaded - free fuel for every furnace, blast furnace and smoker you own.",
     "tips": [
       "Iron is the real cost: 7 ingots per cauldron, so grow the array as your iron farm grows.",
-      "Keep wood, wool and carpet far from the lava row - one stray ember of lag is all it takes.",
-      "In Java you can route the drip line through open trapdoors for compact towers; Bedrock requires clean air.",
-      "Mark empty cauldrons: hoppers cannot extract lava, so harvesting is manual - a walkway makes rounds fast."
+      "Keep anything you do not want burned away from the lava row.",
+      "The cauldron must be within 10 blocks of the stalactite tip.",
+      "Mark empty cauldrons: hoppers cannot extract lava, so harvesting is manual - a walkway makes rounds fast.",
+      "Source: minecraft.wiki Lava."
     ],
     "keywords": "lava farm minecraft, dripstone lava farm minecraft, infinite lava minecraft, renewable lava minecraft, pointed dripstone cauldron lava"
   },
@@ -997,7 +998,7 @@
     "mechanics": [
       "Mushrooms plant on podzol, mycelium or nylium at any light level - anywhere else, they need light level 12 or below and pop out of the ground at 13+.",
       "Spreading: each random tick gives a mushroom a 4% chance to spread to a nearby block (even diagonally up or down) if fewer than 5 of its type sit within a 9x9x3 volume - a dark podzol field self-seeds.",
-      "Bone meal on a mushroom grows a huge mushroom when the base block qualifies (podzol, mycelium or nylium at any light; grass, dirt, moss and friends at light 12 or below) and the 5 blocks directly above are clear of solid blocks.",
+      "With bone meal, a mushroom can grow into a huge mushroom if it sits on a valid block (dirt, grass, podzol, mycelium or nylium) and has room; ideally leave a 7x7x8 space so the bone meal never fails.",
       "Huge mushrooms drop their small mushrooms when their cap blocks break - bone meal one mushroom, chop the giant, and net more than you started with.",
       "Both colors grow identically - run brown and red rows side by side for stew ingredients and decoration."
     ],
@@ -1013,8 +1014,8 @@
       "Plant a starter grid: one mushroom every few blocks of each color, keeping types separated by the 9x9x3 density cap.",
       "Let them spread: 4% per random tick per mushroom fills the field over a few in-game days.",
       "Harvest waves: pick everything but a starter or two per section, and the field reseeds itself.",
-      "Run the giant harvest: bone meal a mushroom on podzol with 5 clear blocks above, chop the huge mushroom for 0-2 mushrooms per cap block - dozens per giant.",
-      "Keep the ceiling honest: one solid block within 5 above the mushroom blocks the huge growth.",
+      "Run the giant harvest: bone meal a mushroom on a valid block with room above; a huge mushroom gives at least 20 mushrooms when harvested.",
+      "Leave space: a bone meal can fail if the huge mushroom has no room to grow.",
       "Craft the output: mushroom stew (bowl + red + brown), fermented spider eyes from brown mushrooms, and suspicious stew variants.",
       "Stockpile cap blocks with Silk Touch for building - mushroom stems and caps are gorgeous structure blocks."
     ],
@@ -1022,8 +1023,9 @@
     "tips": [
       "Podzol is the farmer's friend: it lets you light the farm to stop hostile mobs while mushrooms keep spreading.",
       "Separate colors by at least 9 blocks or they share the 5-per-9x9x3 density cap and slow each other down.",
-      "Brown mushrooms emit a faint light of 1 - harmless, but it will not stop spawns either.",
-      "A mooshroom is the deluxe version: shear it for 5 mushrooms and it becomes a cow, or milk it with a bowl for infinite stew."
+      "A brown mushroom emits light level 1, which stops most hostile spawns (current versions need block light 0); soul torches (light 10) also work for mushrooms.",
+      "A mooshroom is the deluxe version: shear it for 5 mushrooms and it becomes a cow, or milk it with a bowl for infinite stew.",
+      "Source: minecraft.wiki Tutorial:Mushroom farming."
     ],
     "keywords": "mushroom farm minecraft, huge mushroom farm minecraft, how to grow mushrooms minecraft, brown mushroom farm, minecraft mushroom spreading light level"
   },
