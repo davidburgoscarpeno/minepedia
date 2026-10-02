@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import GameShot from '../../components/GameShot.astro';
 import ench from '../../data/enchantments.json';
+import enchEs from '../../data/enchantments-es.json';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
@@ -38,8 +39,8 @@ const S = lang === 'es' ? {
         <a class="card" href={lang === 'es' ? `/es/enchantments/${e.slug}/` : `/enchantments/${e.slug}/`}>
           <img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{e.name}<span class="pips">{Array.from({ length: 5 }).map((_, i) => <i class={i < (ROMAN[e.maxLevel] || 1) ? 'on' : ''} />)}</span></h3>
-          <p>{e.whatItDoes.split('.')[0]}.</p>
-          <p class="meta"><b>{S.for}</b> {e.appliesTo}</p>
+          <p>{((lang === 'es' && (enchEs as any)[e.slug]?.whatItDoes) || e.whatItDoes).split('.')[0]}.</p>
+          <p class="meta"><b>{S.for}</b> {(lang === 'es' && (enchEs as any)[e.slug]?.appliesTo) || e.appliesTo}</p>
         </a>
       ))}
     </div>

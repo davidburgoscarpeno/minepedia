@@ -64,7 +64,7 @@ const S = isES ? {
     <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
     <h1>{S.h1}</h1>
     <p class="sub">{S.sub}</p>
-    <SearchBox placeholder={S.placeholder} />
+    <SearchBox placeholder={S.placeholder} lang={lang} />
     <div class="quick-answer" set:html={S.quick}></div>
     <h2>{S.basicsH}</h2>
     <ul>

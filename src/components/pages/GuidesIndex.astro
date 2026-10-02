@@ -37,7 +37,7 @@ const L = isES ? {
     <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / {isES ? 'Guías' : 'Guides'}</nav>
     <h1>{L.h1}</h1>
     <p class="sub">{L.sub}</p>
-    <SearchBox placeholder={L.placeholder} />
+    <SearchBox placeholder={L.placeholder} lang={lang as any} />
     <section aria-label={isES ? 'Guías por tema' : 'Guides by topic'} style="margin:24px 0">
       <h2>{isES ? 'Explora por tema' : 'Explore by topic'}</h2>
       <div class="grid-cards">

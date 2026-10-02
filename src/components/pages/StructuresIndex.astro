@@ -33,7 +33,7 @@ const S = isES ? {
     <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
     <h1>{S.h1}</h1>
     <p class="sub">{S.sub}</p>
-    <SearchBox placeholder={S.placeholder} />
+    <SearchBox placeholder={S.placeholder} lang={lang as any} />
     <div class="grid-cards">
       {structures.map(s => (
         <a class="card" href={S.cardHref(s.slug)}>

@@ -35,7 +35,7 @@ const L = isES ? {
     <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / {isES ? 'Objetos' : 'Items'}</nav>
     <h1>{L.h1}</h1>
     <p class="sub">{L.sub}</p>
-    <SearchBox placeholder={L.placeholder} />
+    <SearchBox placeholder={L.placeholder} lang={lang as any} />
     <div class="grid-cards">
       {items.map(i => {
         const [a, b] = TILE[i.category] || TILE.Material;
