@@ -917,10 +917,10 @@
     "quickAnswer": "Las bees llenan su colmena un nivel de honey por viaje polinizado; al nivel 5, esquila para honeycombs o embotella para honey, con una campfire humeando debajo, o te atacan en enjambre. Un dispenser con shears o bottles automatiza la cosecha por completo.",
     "mechanics": [
       "Cada bee polinizada que vuelve a casa sube el nivel de honey en 1; al nivel 5 la colmena gotea y está lista: las shears dan 3 honeycombs y una glass bottle da una honey bottle.",
-      "La regla del enfado: cosechar o romper una casa enfurece a sus bees salvo que una campfire humee a menos de 5 bloques debajo (o uses Silk Touch en la colmena); y una bee que pica muere tras atacar, así que el enfado también cuesta bees.",
+      "La regla del enfado: cosechar a mano enfurece a las bees salvo que haya fuego justo debajo o una campfire encendida hasta 5 bloques por debajo con el humo despejado; al romper la colmena, solo Silk Touch evita el enfado. Una bee que pica pierde el aguijón y muere.",
       "Las bees necesitan flowers: planta macizos densos de flowers alrededor de las colmenas para que los viajes sean cortos; vagan hasta 22 bloques, pero cada bloque de distancia es tiempo de honey perdido.",
       "Ingreso extra: las bees que llevan néctar polinizan los cultivos que sobrevuelan como si fuera bone meal; pasa la ruta de vuelo sobre tus campos de carrots y potatoes para crecimiento gratis.",
-      "Automatización: un dispenser mirando a la colmena con shears (o bottles) cosecha con un reloj de redstone mientras la campfire mantiene la paz; sin jugador.",
+      "Automatización: un dispenser con shears (o glass bottles) mirando directamente a la colmena la cosecha al recibir una señal de redstone, sin jugador.",
       "Haz crecer la colonia: los saplings de oak, birch o cherry plantados a menos de 2 bloques de flowers tienen un 5% de probabilidad de generar un nest con 2-3 bees; las granjas de árboles bordeadas de flowers hacen las veces de fábricas de bees."
     ],
     "materials": [
@@ -934,8 +934,8 @@
       "Encuentra bees: plains, sunflower plains y flower forests generan nests en los árboles; reubica un nest de noche con Silk Touch para que las bees viajen dentro.",
       "O cría las tuyas: da una flower a dos bees y producirán una cría; los saplings de oak/birch junto a flowers tiran un 5% de nest por árbol.",
       "Construye el apiario: colmenas en fila, macizos de flowers a ambos lados, cultivos más allá; una campfire bajo cada colmena.",
-      "Cosecha al goteo: cuando la honey chorrea por la colmena, esquila o embotella; tres bees por colmena la rellenan en unas diez salidas.",
-      "Automatiza la bahía: dispenser con shears apuntando a la colmena, reloj de redstone, campfire humeando debajo; las honeycombs caen en un hopper.",
+      "Cosecha al goteo: cuando la colmena está en nivel 5, esquila (3 honeycombs) o embotella (1 honey bottle); la colmena vuelve a nivel 0.",
+      "Automatiza la bahía: dispenser con shears apuntando a la colmena y un reloj de redstone; las honeycombs caen en un hopper.",
       "Embotella aparte: una segunda línea con glass bottles produce honey bottles para comida, sugar y honey blocks.",
       "Nunca golpees una colmena: incluso una vacía enfada al vecindario; solo Silk Touch.",
       "Craftea los productos: honey blocks (pistones pegajosos que no se pegan al slime), honeycomb blocks, candles y beehives para expandir."
@@ -943,9 +943,10 @@
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
       "Reubica los nests de noche o con lluvia: todas las bees están en casa, así que el Silk Touch mueve la colonia entera en un bloque.",
-      "Mantén las wither roses lejos de las rutas de vuelo: las bees las polinizan y mueren por el efecto.",
+      "No uses wither roses con las bees: no sirven para criar y darle una a una bee le causa el efecto Wither.",
       "Enlaza a las rezagadas: las bees aceptan leads, incluso enfadadas.",
-      "Las honey bottles se apilan de 16 en 16 y curan poison: el snack de raid infravalorado."
+      "Las honey bottles se apilan de 16 en 16 y curan poison: el snack de raid infravalorado.",
+      "Fuente: minecraft.wiki Bee, Bee Nest y Beehive."
     ]
   },
   "ice-farm": {

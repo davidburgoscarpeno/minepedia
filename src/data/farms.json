@@ -1028,10 +1028,10 @@
     "quickAnswer": "Bees fill their hive one honey level per pollinated trip; at level 5, shear for honeycombs or bottle for honey - with a campfire smoking underneath, or they swarm you. A dispenser with shears or bottles automates the harvest completely.",
     "mechanics": [
       "Each pollinated bee that returns home raises the honey level by 1; at level 5 the hive drips and is ready: shears give 3 honeycombs, a glass bottle gives a honey bottle.",
-      "The anger rule: harvesting or breaking a home enrages its bees unless a campfire smokes within 5 blocks below it (or you Silk Touch the hive) - and a stung bee dies after attacking, so anger costs bees too.",
+      "The anger rule: harvesting by hand angers the bees unless there is fire directly beneath or a lit campfire up to 5 blocks below with the smoke unobstructed; when breaking the hive, only Silk Touch avoids anger. A bee that stings loses its stinger and dies.",
       "Bees need flowers: plant dense flower beds around the hives so trips stay short - they wander up to 22 blocks, but every block of distance is wasted honey time.",
       "Bonus income: bees carrying nectar pollinate crops they fly over like bone meal - run the flight path over your carrot and potato fields for free growth boosts.",
-      "Automation: a dispenser facing the hive with shears (or bottles) harvests on a redstone clock while the campfire keeps the peace - no player needed.",
+      "Automation: a dispenser holding shears (or glass bottles) facing the hive directly harvests it when powered by redstone, with no player needed.",
       "Grow the colony: oak, birch or cherry saplings planted within 2 blocks of flowers have a 5% chance to grow a nest with 2-3 bees - flower-lined tree farms double as bee factories."
     ],
     "materials": [
@@ -1045,8 +1045,8 @@
       "Find bees: plains, sunflower plains and flower forests spawn nests on trees - relocate a nest at night with Silk Touch so the bees travel inside it.",
       "Or breed your own: flower any two bees and they produce a baby; oak/birch saplings beside flowers roll a 5% nest chance per tree.",
       "Build the apiary: hives in a row, flower beds on both sides, crops beyond - one campfire beneath each hive.",
-      "Harvest at drip: when honey runs down the hive, shear or bottle it; three bees per hive refill it in about ten bee-trips.",
-      "Automate the bay: dispenser with shears aimed at the hive, redstone clock, campfire smoking below - honeycombs land in a hopper.",
+      "Harvest at level 5: shear for 3 honeycombs or bottle for 1 honey bottle; the hive resets to level 0.",
+      "Automate the bay: a dispenser with shears aimed at the hive and a redstone clock; the honeycombs land in a hopper.",
       "Bottle separately: a second line with glass bottles produces honey bottles for food, sugar and honey blocks.",
       "Never punch a hive: even an empty one angers the neighborhood - Silk Touch only.",
       "Craft the goods: honey blocks (sticky pistons that do not stick to slime), honeycomb blocks, candles and beehives for expansion."
@@ -1054,9 +1054,10 @@
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
       "Relocate nests at night or in rain: every bee is home, so Silk Touch moves the whole colony in one block.",
-      "Keep wither roses away from the flight paths - bees pollinate them and die from the effect.",
+      "Keep wither roses away from bees: they cannot be used to breed them, and feeding one to a bee gives it the Wither effect.",
       "Leash stragglers home: bees take leads, even angry ones.",
-      "Honey bottles stack to 16 and cure poison - the underrated raid snack."
+      "Honey bottles stack to 16 and cure poison - the underrated raid snack.",
+      "Source: minecraft.wiki Bee, Bee Nest and Beehive."
     ],
     "keywords": "bee farm minecraft, honey farm minecraft, honeycomb farm minecraft, automatic honey farm, minecraft beehive campfire harvest"
   },
