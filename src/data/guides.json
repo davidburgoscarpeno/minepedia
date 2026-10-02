@@ -19941,7 +19941,7 @@
       "Redstone dust or glowstone dust (optional modifiers)",
       "Gunpowder (optional, splash)"
     ],
-    "editionNote": "Poison works the same in Java and Bedrock: damage over time that can never kill by itself, always leaving the target at 1 health. That makes splash poison great for weakening mobs for XP farms or captures. Witches drink poison antidotes, so do not bother poisoning them.",
+    "editionNote": "Poison is damage over time that can never kill by itself: it stops at half a heart. That makes splash poison great for weakening mobs for XP farms or captures. Java and Bedrock differ slightly: the extended potion lasts 1:30 in Java and 2:00 in Bedrock, and Poison II lasts 0:21 in Java and 0:22 in Bedrock.",
     "versions": [
       "java",
       "bedrock"
@@ -27145,7 +27145,7 @@
       "A redstone power source: button, lever or redstone block"
     ],
     "steps": [
-      "Enable cheats: in singleplayer, create the world with Cheats ON, or open to LAN with Allow Cheats: On. On servers you need operator status.",
+      "Enable cheats: in singleplayer, create the world with Allow Commands (Java) or Cheats (Bedrock) ON, or open to LAN with Allow Cheats: On. On servers you need operator status.",
       "Run /give @s minecraft:command_block in chat. The block goes straight to your inventory.",
       "Java alternative: in Creative mode, open Options > Controls and set Operator Items Tab to ON - the block appears in the Operator Utilities tab of the Creative inventory.",
       "Place the block, right-click it and type your command (for example /time set day). The interface also sets the block type: impulse (runs once), chain (runs after another block) or repeat (runs every tick).",

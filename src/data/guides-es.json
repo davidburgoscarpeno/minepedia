@@ -17967,7 +17967,7 @@
       "Redstone dust o glowstone dust (modificadores opcionales)",
       "Gunpowder (opcional, splash)"
     ],
-    "editionNote": "Poison funciona igual en Java y Bedrock: daño con el tiempo que nunca puede matar por sí solo, dejando siempre al objetivo con 1 de vida. Eso hace que la splash poison sea genial para debilitar mobs en granjas de XP o capturas. Las witches beben antídotos contra el veneno, así que ni lo intentes con ellas.",
+    "editionNote": "Poison es daño con el tiempo y nunca mata por sí solo: se detiene en medio corazón. Por eso el veneno splash es ideal para debilitar mobs en granjas de XP o capturas. Java y Bedrock difieren un poco: la poción ampliada dura 1:30 en Java y 2:00 en Bedrock, y Poison II dura 0:21 en Java y 0:22 en Bedrock.",
     "versions": [
       "java",
       "bedrock"
@@ -23872,7 +23872,7 @@
       "Una fuente de redstone: button, lever o bloque de redstone"
     ],
     "steps": [
-      "Activa los cheats: en un jugador, crea el mundo con Cheats en ON, o abre a LAN con Allow Cheats: On. En servidores necesitas ser operador.",
+      "Activa los cheats: en un jugador, crea el mundo con Allow Commands (Java) o Cheats (Bedrock) en ON, o abre a LAN con Allow Cheats: On. En servidores necesitas ser operador.",
       "Ejecuta /give @s minecraft:command_block en el chat. El bloque va directo a tu inventario.",
       "Alternativa en Java: en modo Creative, abre Options > Controls y pon Operator Items Tab en ON: el bloque aparece en la pestaña Operator Utilities del inventario creativo.",
       "Coloca el bloque, haz clic derecho y escribe tu comando (por ejemplo /time set day). La interfaz también define el tipo: impulse (se ejecuta una vez), chain (tras otro bloque) o repeat (cada tick).",
