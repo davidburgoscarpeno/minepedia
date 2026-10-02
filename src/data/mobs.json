@@ -212,17 +212,17 @@
     "name": "Blaze",
     "type": "Hostile",
     "health": "20 (10 hearts)",
-    "where": "Nether fortresses, from spawners and natural spawns at light level 11 or less.",
-    "howToKill": "Use a shield against its triple fireballs, or snowballs (they deal 3 damage each to blazes). A strength potion finishes them quickly. Fire Resistance removes most of the threat.",
+    "where": "Nether fortresses: natural spawns at light level 11 or less, and spawners on up to two platforms per fortress.",
+    "howToKill": "Use a shield: it blocks both the fireball damage and the ignition. Fire Resistance removes most of the threat. In melee range it hits once per second.",
     "drops": [
       {
         "item": "Blaze Rod",
-        "qty": "0-1 (up to 4 with Looting III)",
+        "qty": "0-1, 50% (up to 0-4 with Looting III)",
         "notes": "Brewing stands, fuel, Eyes of Ender - the gate to beating the game"
       }
     ],
-    "spawnConditions": "Nether fortresses, light level 11 or less. Spawners sit in small stairwell rooms.",
-    "behavior": "Flies, shoots three fireballs in a burst, sets targets on fire on contact. Immune to fire and lava; takes extra damage from snowballs.",
+    "spawnConditions": "Nether fortresses, light level 11 or less; groups of 2-3 in Java, 1-3 in Bedrock. A fortress can have up to two spawner platforms, each fenced with Nether brick and reached by a three-block staircase.",
+    "behavior": "Floats, charges 3 seconds then shoots three small fireballs 0.3 s apart (5 HP base, sets target on fire for 5 s). Melee once per second at under 2 blocks. Source: minecraft.wiki Blaze.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -389,12 +389,12 @@
     "type": "Boss",
     "health": "200 (100 hearts)",
     "where": "The End dimension - the central island. Respawn it by placing 4 end crystals on the exit portal edges.",
-    "howToKill": "Destroy the end crystals on the obsidian pillars first (shoot the exposed ones, pillar up to the caged ones) so it cannot heal. Then hit it with a bow while it flies and with a sword when it perches on the exit portal. Beds explode in the End: place one and detonate it as the dragon perches for massive damage. Bring Slow Falling or a water bucket for knockback.",
+    "howToKill": "Destroy the end crystals on the obsidian pillars so it cannot heal, then attack the dragon with a bow and with melee. Bring Slow Falling or a water bucket.",
     "drops": [
       {
-        "item": "12,000 XP (first kill; 500 afterwards)",
+        "item": "12,000 XP (first kill)",
         "qty": "-",
-        "notes": "The biggest XP drop in the game"
+        "notes": "Appears about 7.7 seconds after the dragon begins ascending"
       },
       {
         "item": "Dragon Egg",
@@ -402,13 +402,13 @@
         "notes": "First kill only, on top of the exit portal - trophy item"
       },
       {
-        "item": "Opens the exit portal + End Gateway",
+        "item": "Opens the exit portal",
         "qty": "-",
-        "notes": "The gateway leads to the outer islands (elytra!)"
+        "notes": "The portal returns you to the Overworld"
       }
     ],
-    "spawnConditions": "One dragon per End dimension; resummon with 4 end crystals arranged on each side of the exit portal.",
-    "behavior": "Circles the island, breathes dragon's breath (area damage cloud), charges at players, and perches on the exit portal where it is immune to arrows. Heals from end crystals.",
+    "spawnConditions": "One dragon spawns about 1 second after something first arrives in the End; resummon it with four end crystals, one on each side of the exit portal (on bedrock or obsidian).",
+    "behavior": "Charges at players and shoots fireballs that create damaging effect clouds. Source: minecraft.wiki Ender Dragon.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -425,9 +425,9 @@
     "slug": "wither",
     "name": "Wither",
     "type": "Boss",
-    "health": "300 (150 hearts) Java / 600 Bedrock",
+    "health": "300 (150 hearts) in Java; Bedrock 300 Easy, 450 Normal, 600 Hard",
     "where": "Spawned by the player anywhere: 4 soul sand or soul soil in a T shape with 3 wither skeleton skulls on top.",
-    "howToKill": "Spawn it in a cramped bedrock ceiling (Java: under the exit portal fountain; Bedrock: a deep cave) so it cannot fly away. It is immune to arrows below half health - finish it with a Smite V sword. Bring strength potions, golden apples and milk to cure the Wither effect.",
+    "howToKill": "Plan an arena before you build: it explodes (power 7) 11 seconds after spawning, and below half health it becomes immune to some projectiles such as arrows. Fight it in melee with a Smite sword. It always drops a Nether star.",
     "drops": [
       {
         "item": "Nether Star",
@@ -435,8 +435,8 @@
         "notes": "Crafts the beacon - the reason to fight it"
       }
     ],
-    "spawnConditions": "Player-built: T of soul sand/soil + 3 wither skeleton skulls (skull last). Wither skeleton skulls drop in Nether fortresses at 2.5% (5.5% with Looting III).",
-    "behavior": "On spawn it charges up and explodes, then flies shooting explosive skulls that inflict the Wither effect (drains health, kills hearts). Breaks most blocks on contact. Below half health it gains a shield against projectiles (Java) or dashes and spawns wither skeletons (Bedrock).",
+    "spawnConditions": "Player-built: 4 soul sand or soul soil blocks in a T, then 3 wither skeleton skulls on top of the three upper blocks, the last block placed being a skull.",
+    "behavior": "Invulnerable for 11 seconds after spawning, then explodes. It flies and shoots explosive blue and black skulls that inflict the Wither effect. Immune to fire, lava, drowning and freezing; harmed by Instant Health and Smite. Drops 50 XP (Java: only if killed by a player or tamed wolf). Source: minecraft.wiki Wither.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",

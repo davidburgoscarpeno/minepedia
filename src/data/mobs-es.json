@@ -74,10 +74,10 @@
   },
   "blaze": {
     "type": "Hostil",
-    "where": "Fortalezas del Nether, por spawners y spawns naturales con nivel de luz 11 o menos.",
-    "spawnConditions": "Fortalezas del Nether, nivel de luz 11 o menos. Los spawners están en salas pequeñas con escaleras.",
-    "howToKill": "Usa un escudo contra su ráfaga triple de bolas de fuego, o bolas de nieve (hacen 3 de daño cada una a los blazes). Una poción de fuerza los remata rápido. Resistencia al fuego elimina casi todo el peligro.",
-    "behavior": "Vuela, dispara tres bolas de fuego en ráfaga, prende al objetivo al contacto. Inmune al fuego y la lava; recibe daño extra de bolas de nieve.",
+    "where": "Fortalezas del Nether: spawns naturales con luz 11 o menos y spawners en hasta dos plataformas por fortaleza.",
+    "spawnConditions": "Fortalezas del Nether, luz 11 o menos; grupos de 2-3 en Java y 1-3 en Bedrock. Una fortaleza puede tener hasta dos plataformas de spawner, rodeadas de vallas de ladrillo del Nether y con escalera de tres bloques.",
+    "howToKill": "Usa un escudo: bloquea el daño de las bolas de fuego y el fuego. Resistencia al fuego quita casi toda la amenaza. Cuerpo a cuerpo golpea una vez por segundo.",
+    "behavior": "Flota, carga 3 segundos y lanza tres bolas de fuego pequeñas con 0,3 s de separación (5 de daño base, prende 5 s). Cuerpo a cuerpo una vez por segundo a menos de 2 bloques. Fuente: minecraft.wiki Blaze.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Soportes de pociones, combustible, ojos de ender: la puerta para pasarse el juego"
@@ -142,22 +142,22 @@
   "ender-dragon": {
     "type": "Boss",
     "where": "La dimensión del End: la isla central. Reinvócalo colocando 4 cristales de end en los bordes del portal de salida.",
-    "spawnConditions": "Un dragón por dimensión del End; reinvócalo con 4 cristales de end colocados en cada lado del portal de salida.",
-    "howToKill": "Destruye primero los cristales de end de los pilares de obsidiana (dispara a los expuestos, sube con bloques a los enjaulados) para que no se cure. Luego atácala con arco mientras vuela y con espada cuando se posa en el portal de salida. Las camas explotan en el End: coloca una y detónala cuando el dragón se pose para un daño masivo. Lleva Caída lenta o un cubo de agua para el empuje.",
-    "behavior": "Sobrevuela la isla en círculos, escupe aliento de dragón (nube de daño en área), carga contra los jugadores y se posa en el portal de salida, donde es inmune a las flechas. Se cura con los cristales de end.",
+    "spawnConditions": "Un dragón aparece 1 segundo después de que algo llegue al End; reinvócalo con cuatro cristales del End, uno en cada lado del portal de salida (sobre bedrock u obsidiana).",
+    "howToKill": "Destruye los cristales del End de los pilares de obsidiana para que no se cure y ataca al dragón con arco y cuerpo a cuerpo. Lleva Caída lenta o un cubo de agua.",
+    "behavior": "Carga contra jugadores y lanza bolas de fuego que crean nubes con efectos dañinos. Fuente: minecraft.wiki Ender Dragon.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "El mayor drop de XP del juego",
+      "12.000 XP en la primera muerte",
       "Solo la primera muerte, encima del portal de salida: objeto trofeo",
-      "La puerta de enlace lleva a las islas exteriores (¡élitros!)"
+      "El portal te devuelve al Overworld"
     ]
   },
   "wither": {
     "type": "Boss",
     "where": "Lo invoca el jugador en cualquier sitio: 4 de soul sand o soul soil en forma de T con 3 cabezas de wither skeleton encima.",
-    "spawnConditions": "Construido por el jugador: T de soul sand/soil + 3 cabezas de wither skeleton (la cabeza, la última). Las cabezas de wither skeleton caen en fortalezas del Nether al 2,5% (5,5% con Saqueo III).",
-    "howToKill": "Invócalo bajo un techo de bedrock estrecho (Java: bajo la fuente del portal de salida; Bedrock: una cueva profunda) para que no pueda volar. Es inmune a las flechas por debajo de media vida: remátalo con una espada de Smite V. Lleva pociones de fuerza, manzanas doradas y leche para curar el efecto Wither.",
-    "behavior": "Al aparecer se carga y explota, luego vuela disparando calaveras explosivas que infligen el efecto Wither (drena vida, mata corazones). Rompe casi todos los bloques al contacto. Por debajo de media vida gana un escudo contra proyectiles (Java) o embiste y genera wither skeletons (Bedrock).",
+    "spawnConditions": "Construido por el jugador: 4 bloques de arena o tierra de almas en T y 3 cráneos de esqueleto wither sobre los tres bloques superiores; el último bloque en colocarse es un cráneo.",
+    "howToKill": "Planea una arena antes de construir: explota (potencia 7) 11 segundos tras aparecer y, por debajo de la mitad de vida, es inmune a algunos proyectiles como las flechas. Lucha cuerpo a cuerpo con una espada con Smite. Siempre suelta una estrella del Nether.",
+    "behavior": "Invulnerable 11 segundos tras aparecer y luego explota. Vuela y dispara cráneos explosivos azules y negros que causan Wither. Inmune a fuego, lava, ahogamiento y congelación; le dañan Curación instantánea y Smite. Suelta 50 XP (Java: solo si lo mata un jugador o lobo domesticado). Fuente: minecraft.wiki Wither.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Sirve para craftear la baliza: la razón de luchar"
