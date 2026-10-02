@@ -636,9 +636,9 @@
     "mechanics": [
       "Las shears quitan 1-3 de wool a una sheep sin hacerle daño: mucho mejor que matarla, que solo da 1 de wool (y ninguna de una sheep esquilada).",
       "Las sheep solo regeneran wool tras pastar: comen short grass y ferns, o convierten grass blocks en dirt; sin hierba no hay wool, así que el suelo de la granja es siempre de grass blocks.",
-      "Tiñe la sheep, no la wool: una sheep teñida conserva su color en cada nuevo crecimiento, y los lambs heredan los colores; un solo dye, wool de color infinita.",
+      "Tiñe a la oveja, no a la lana: una oveja teñida conserva el color tras cada rebrote, y las crías heredan el color de los padres (mezcla si los tintes se pueden combinar).",
       "El diseño automático: una sheep sobre un grass block encima de un hopper; un observer ve el grass convertirse en dirt y dispara un dispenser con shears; la wool vuelve a crecer y el ciclo se repite. Las shears se desgastan, así que guarda un cofre de repuestos o renueva con iron.",
-      "Los adultos pastan un grass block cada ~25 segundos de oportunidad (probabilidad 1/500 cada dos ticks): cada nuevo crecimiento es un ciclo de esquileo."
+      "Una oveja esquilada solo recupera la lana tras comer un bloque de hierba; las crías comen hierba mucho más a menudo que los adultos."
     ],
     "materials": [
       "Sheep (2+ para criar, atraídas con wheat): una por cada color que quieras",
@@ -662,7 +662,8 @@
       "Una sheep esquilada no puede volver a teñirse hasta que le crece la wool: tiñe antes del primer esquileo.",
       "Los grass blocks bajo slabs siguen siendo pastados: las sheep comen a través de bloques más bajos que un bloque completo, lo que ayuda a los diseños compactos.",
       "Mantén la tall grass fuera del corral: las sheep la ignoran y solo queda desaliñada.",
-      "Con mobGriefing desactivado, los grass blocks quedan intactos pero la wool sigue creciendo: la opción de granja ordenada."
+      "Las ovejas comen hierba corta, hierba seca y helechos (no hierba alta ni helechos grandes) y convierten bloques de hierba en tierra.",
+      "Fuente: minecraft.wiki Sheep."
     ]
   },
   "fishing-farm": {
@@ -1692,8 +1693,8 @@
     "difficulty": "Intermedia",
     "quickAnswer": "Los magma cubes aparecen a cualquier luz en basalt deltas, nether wastes y desde spawners de salas del tesoro de bastions. Construye un suelo de ejecución sobre terreno válido, o trae frogs y deja que conviertan los cubes pequeños en froglights.",
     "mechanics": [
-      "Aparición: a todos los niveles de luz, necesitando un espacio libre de 2,08x2,08x2,08; el juego comprueba primero la hitbox del cube GRANDE, así que una sola glass pane a la altura equivocada bloquea todas las tallas: moldea tus plataformas con cuidado.",
-      "Tallas: solo aparecen big, medium y small de forma natural; los cubes grandes se dividen al morir hasta los tiny, que no sueltan nada.",
+      "Aparición: con cualquier luz, en un espacio libre de bloques sólidos y líquidos. El magma cube grande mide 2,08 bloques de alto, así que las plataformas necesitan ese hueco.",
+      "Los magma cubes grandes se dividen al morir hasta llegar al tamaño pequeño; la magma cream cae de los tamaños mayores.",
       "Drops: magma cream de los cubes grandes (nunca de los tiny), +0-1 por nivel de Looting.",
       "Truco de los froglights: una frog que se come un magma cube PEQUEÑO suelta un froglight; verdant de frogs frías, ochre de templadas, pearlescent de cálidas. Las muertes por frog no dan magma cream.",
       "Las salas del tesoro de los bastions contienen spawners de magma cubes sobre el botín de gold: un núcleo de granja ya hecho.",
@@ -1708,7 +1709,7 @@
     ],
     "steps": [
       "Elige tu sitio: spawner de bastion para automatización, basalt deltas para densidad, wastes para terreno fácil.",
-      "Construye plataformas de aparición con techos de exactamente 2 bloques de alto y un poco más; recuerda que la comprobación de hitbox del cube grande mata los diseños estrechos.",
+      "Construye plataformas de aparición con techo lo bastante alto para el tamaño grande (2,08 bloques).",
       "Canaliza los cubes a un suelo de ejecución: saltan hacia ti encantados, así que un simple foso con hoppers funciona.",
       "Modo magma cream: remata los cubes grandes con Looting III y deja que los tiny desaparezcan.",
       "Modo froglight: encierra tus frogs en el suelo de ejecución y deja que atrapen los cubes pequeños: cada bocado es un froglight del color de esa frog.",
@@ -1718,8 +1719,9 @@
     "tips": [
       "Poción de fire resistance = magma cream + awkward potion: esta granja convierte nadar en lava en un estilo de vida.",
       "Las frogs son los únicos mobs que sueltan froglights, y el color es de la frog, no del cube: cría las variantes primero en el Overworld.",
-      "Los magma cubes saltan más alto en lava... pero no se ahogan y tú sí: fire resistance primero, heroicidades después.",
-      "El spawner del bastion cuelga bajo el puente de la sala del tesoro: asegura la sala antes de farmearla."
+      "Los magma cubes son a prueba de fuego y pueden aparecer sobre magma blocks.",
+      "Con Looting III la magma cream rinde de media 1,75 por cubo grande (0-4) en Java.",
+      "Fuente: minecraft.wiki Magma Cube."
     ]
   },
   "cocoa-farm": {
