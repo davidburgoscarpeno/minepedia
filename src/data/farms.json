@@ -2225,9 +2225,9 @@
     "mechanics": [
       "Each pollinated bee that leaves its home after working raises the honey level by 1. At level 5 the hive drips and is ready to harvest.",
       "Shears on a full hive drop 3 honeycombs; a glass bottle gives 1 honey bottle. Both reset the level to 0.",
-      "Bees get angry when you harvest their home: a lit campfire directly under the nest or hive calms them completely. Breaking a hive with Silk Touch keeps the bees inside.",
-      "Bee nests generate on oak and birch trees near flowers; saplings grown within 2 blocks of a flower (or pink petals) have a 5% chance to sprout a nest with 2-3 bees.",
-      "Craft your own beehives with 6 planks + 3 honeycombs to scale the apiary, and breed bees with flowers to reach 3 bees per home."
+      "A lit campfire (or other fire) within 5 blocks below the nest or hive keeps the bees calm; with Silk Touch the bees stay inside. A dispenser with bottles or shears harvests without angering them.",
+      "Each nest or hive houses up to 3 bees; they enter at night, in rain and after collecting nectar, and exit only from the front face.",
+      "Beehives are crafted from any planks plus honeycomb; shears drop 3 honeycombs, a bottle gives a honey bottle, and the level resets to 0."
     ],
     "materials": [
       "1 bee nest (Silk Touch to move it) or a crafted beehive",
@@ -2240,7 +2240,7 @@
       "Breed the colony to 3 bees per home using flowers, and plant more flowers within flight range.",
       "Wait for honey level 5 - the block visibly drips honey.",
       "Harvest with shears (honeycombs) or a glass bottle (honey) while the campfire smokes; never break the home without Silk Touch.",
-      "Automate: face a dispenser loaded with shears or bottles into the hive, trigger it with an observer watching the honey level or a simple clock, and collect with hoppers below.",
+      "Automate: a dispenser with shears or glass bottles facing the hive harvests without angering the bees; collect with hoppers.",
       "Turn honey bottles into honey blocks (4 bottles) for redstone contraptions, and honeycombs into beehives, candles or copper waxing."
     ],
     "rates": [
@@ -2249,10 +2249,10 @@
       "Bees work only during the day and only in good weather - rain and night pause production"
     ],
     "tips": [
-      "Carpet or fence the flower area so bees path reliably between flowers and home.",
-      "Honey bottles cure poison and stack to 16 - keep a row for cave spider encounters.",
-      "Wax your copper builds with a honeycomb on the copper block to freeze oxidation - see our chain guide for copper chains.",
-      "Never harvest without the campfire lit: angry bees sting once and die, gutting your workforce."
+      "Honey bottles remove Poison, and 4 bottles craft a honey block.",
+      "A honeycomb on a copper block waxes it and stops oxidation.",
+      "Honey level 5 is the comparator's maximum signal: use it for automation.",
+      "Source: minecraft.wiki Beehive, Honey Bottle and Honeycomb."
     ],
     "keywords": "honey farm minecraft automatic honey bottle honeycomb farm bee hive campfire dispenser bees"
   },
@@ -2304,10 +2304,10 @@
     "quickAnswer": "Fence in chickens on top of hoppers and they lay an egg every 5-10 minutes each, collected automatically. A dispenser firing the eggs at a wall hatches chicks (1 in 8 chance) to grow the next generation.",
     "mechanics": [
       "Every adult chicken lays one egg every 5-10 minutes (7.5 minutes average) while the chunk is loaded.",
-      "Thrown eggs have a 1/8 chance to spawn a chick - and 1 in 256 eggs spawns 4 chicks at once.",
-      "Dispensers launch eggs like players do, so a clock plus dispenser hatches eggs hands-free.",
-      "Chicken variants matter: temperate chickens lay the standard egg, warm chickens lay brown eggs and cold chickens lay blue eggs - each hatches its own variant.",
-      "Eggs stack to 16 and are also a crafting ingredient: cake and pumpkin pie both need one."
+      "A thrown egg has a 1/8 chance of spawning a chick; if so, 1/32 of spawning three more (on average 1 in 256 eggs spawns 4 chicks).",
+      "Dispensers throw eggs just like a player.",
+      "There are three egg variants: standard (temperate chicken), brown (warm) and blue (cold).",
+      "Eggs stack to 16 and are an ingredient for cake and pumpkin pie."
     ],
     "materials": [
       "At least 2 chickens and seeds to breed them",
@@ -2317,8 +2317,8 @@
     "steps": [
       "Lure 2+ chickens into a pen with seeds and breed them up to a dozen or more.",
       "Replace the pen floor with hoppers feeding a chest - eggs drop straight into storage.",
-      "Manual hatching: throw eggs at a wall; chicks grow into adults in 20 minutes and start laying themselves.",
-      "Auto-hatcher: place a dispenser facing into a chick chamber (slab floor so chicks stay below, adults grow and rise), feed it eggs from the collection chest and run it on a clock.",
+      "To hatch by hand, throw eggs at a wall.",
+      "Auto-hatching: a dispenser loaded with eggs and fired by a redstone clock into a chick chamber.",
       "Scale: more laying hens = more eggs = more chicks - a two-chamber loop (layers over hoppers, hatchery beside) runs forever unattended.",
       "Cull spare adults for raw chicken and feathers whenever the pen gets crowded."
     ],
@@ -2328,9 +2328,10 @@
       "A 20-hen coop fills a chest with ~160 eggs per hour"
     ],
     "tips": [
-      "Warm and cold chicken variants (savanna/desert and snowy biomes) lay brown and blue eggs - collect all three for the full set.",
-      "Keep the laying pen loaded: build it near your base or a farm you visit often.",
-      "An egg in the off-hand plus a bow in the main hand is a classic cheap defense - knockback without arrows."
+      "Warm and cold chickens lay brown and blue eggs: collect all three.",
+      "Thrown eggs knock mobs back but deal no damage, and provoke neutral mobs.",
+      "A fox has a 3% chance to spawn holding an egg.",
+      "Source: minecraft.wiki Egg."
     ],
     "keywords": "egg farm minecraft automatic chicken egg every 5 10 minutes dispenser hatch chick chance cake"
   }
