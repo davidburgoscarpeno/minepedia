@@ -1278,11 +1278,11 @@
     "difficulty": "Principiante",
     "quickAnswer": "Planta carrots o potatoes en farmland hidratada y un cultivo maduro devuelve 2-5 de sí mismo: unas 5,4 con Fortune III. Dale el campo a un villager farmer y lo cosechará y replantará para siempre.",
     "mechanics": [
-      "Ambos cultivos crecen por 8 fases (4 visibles) en farmland, más rápido si está hidratada, a nivel de luz 9 o más.",
-      "Un cultivo maduro suelta 2-5 (media 3,7); cada nivel de Fortune añade otro intento de drop: Fortune III da una media de 5,4.",
-      "Las potatoes tienen un 2% de probabilidad de soltar además una poisonous potato: un trofeo, no comida.",
-      "El bone meal avanza el cultivo 2-5 fases por uso.",
-      "No hacen falta seeds: el cultivo se planta a sí mismo; 2 de los ~3,7 drops vuelven a la tierra y el resto es beneficio.",
+      "Ambos cultivos tienen 8 etapas (4 aspectos visibles) sobre tierra de cultivo, crecen más rápido hidratados y necesitan luz 9 o más para crecer (en Java, 8 para plantar).",
+      "Un cultivo maduro da 2-5 (media 3 5/7); cada nivel de Fortune añade un intento de drop y Fortune III da de media 5 3/7.",
+      "Las patatas tienen 2% de soltar además una patata venenosa.",
+      "El hueso aumenta al azar la etapa del cultivo.",
+      "No hacen falta semillas: replantas parte de lo cosechado.",
       "Los cultivos iniciales salen de los campos de las villages, o de un drop del 2,5% cuando un zombie, husk o zombie villager muere a manos de un jugador o wolf.",
       "Los rabbits asaltan los cultivos de carrots maduros (mobGriefing): vállalos fuera."
     ],
@@ -1296,16 +1296,17 @@
       "Saquea las parcelas de carrots y potatoes de una village: replanta lo que tomes, es cortés y renovable.",
       "Labra e hidrata una parcela, planta los cultivos directamente, ilumínala a 9+.",
       "Cosecha los cultivos maduros con una herramienta con Fortune III y replanta 2 por bloque: el excedente es tuyo.",
-      "Automatiza con un villager farmer: cosecha y replanta todo el día, y cuando su inventario se llena de cultivo tira comida a un villager hambriento al otro lado de una valla; los hoppers bajo ese villager lo recogen todo.",
-      "Cocina las potatoes en baked potatoes: 5 de hambre y 6 de saturación las convierten en un alimento básico de primer nivel.",
-      "Comercia el excedente: los villagers farmer compran carrots y potatoes por emeralds."
+      "Automatiza: un aldeano granjero recolecta y replanta; consulta la guía de granjas de aldeanos.",
+      "Hornea las patatas para comerlas.",
+      "Los aldeanos necesitan 12 zanahorias o patatas para volverse dispuestos a criar."
     ],
     "rates": "Un campo de carrots de 9x9 gestionado por un villager llena un chest con varios stacks por día de juego; las baked potatoes convierten la mitad de potato en una de las mejores comidas que se pueden producir en masa sin animales.",
     "tips": [
-      "Las golden carrots (8 gold nuggets alrededor de una carrot) son la mejor comida de saturación del juego: esta granja también alimenta esa receta.",
-      "Las carrots crían pigs y rabbits; una carrot on a stick dirige un pig ensillado.",
-      "Las potatoes se compostan mal: cómelas o comércialas, y composta las carrots que no puedas vender.",
-      "Un zombie muerto por fuego suelta una baked potato directamente en Java: un pequeño bonus macabro en una mob farm."
+      "Las zanahorias y patatas crían cerdos; las zanahorias también conejos.",
+      "Tanto patatas como zanahorias en el composter tienen 65% de subir el nivel.",
+      "En Java, un zombi matado con fuego suelta una patata al horno.",
+      "Los conejos comen cultivos maduros de zanahoria si mobGriefing está activo: vallado.",
+      "Fuente: minecraft.wiki Carrot y Potato."
     ]
   },
   "glow-berry-farm": {
@@ -1529,10 +1530,10 @@
     "mechanics": [
       "Aparición en Java: 2-4 squids en biomas river u ocean de Y=50 a Y=63, necesitando agua (o un bloque waterlogged) en el bloque de aparición y debajo, y agua encima.",
       "Bedrock: 2-4 en oceans, 2 en rivers, y solo en la superficie: sin bloque sólido sobre el punto de aparición.",
-      "Drops: 1-3 ink sacs, +0-1 por nivel de Looting.",
-      "Las squid no pueden criar y las crías no sueltan nada (5% de las apariciones): la granja es de aparición y arrastre, no de corral.",
+      "Los calamares sueltan tinta; los detalles de cantidad con Looting se pueden consultar en la wiki.",
+      "Los calamares no crían: las crías solo aparecen de forma natural y tardan 20 minutos en crecer.",
       "Se asfixian tras 15 segundos fuera del agua: un suelo de recolección seco es el mecanismo de ejecución, sin sword.",
-      "Las glow squid son la prima de aguas profundas (bajo Y=30, luz 0) con glow ink sacs: granja distinta, misma idea."
+      "El calamar luminoso es el primo de las profundidades, con otra granja."
     ],
     "materials": [
       "Una sección de river u ocean poco profundo (en Java la banda Y=50-63 es perfecta al nivel del mar)",
@@ -1546,15 +1547,14 @@
       "Represa los dos extremos de una sección y haz un suelo en pendiente para que las corrientes empujen las squids a una esquina.",
       "Coloca un conducto de caída en esa esquina sobre una sala seca: las squids entran con la corriente, caen fuera del agua y se asfixian en 15 segundos.",
       "Los hoppers bajo el suelo seco alimentan un chest.",
-      "En Bedrock mantén la superficie del agua abierta al cielo: un techo mata la granja.",
+      "En Bedrock mantén la superficie del agua abierta al cielo: un techo impide el spawn.",
       "Haz AFK cerca y vacía el chest entre otros proyectos."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "Ink sac + book + feather = book and quill: esta granja alimenta tu biblioteca.",
-      "El black dye de los sacs tiñe wool, glass, concrete, banners y beds.",
-      "No confundas rivers con las profundidades: las squids normales aparecen alto (Y 50-63 en Java), las glow squids bajo y a oscuras.",
-      "Una sword con Looting en el suelo seco exprime +1 sac por squid cuando te apetezca trabajar a mano."
+      "No confundas ríos con profundidades: los calamares normales aparecen alto (Y 50-63 en Java).",
+      "Los calamares fuera del agua mueren por asfixia en 15 segundos y resisten mucho el retroceso.",
+      "Fuente: minecraft.wiki Squid."
     ]
   },
   "shulker-farm": {

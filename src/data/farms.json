@@ -1429,11 +1429,11 @@
     "editions": "both",
     "quickAnswer": "Plant carrots or potatoes on hydrated farmland and a mature crop returns 2-5 of itself - about 5.4 with Fortune III. Give the field to a farmer villager and he harvests and replants it forever.",
     "mechanics": [
-      "Both crops grow through 8 stages (4 visible) on farmland, faster when hydrated, at light level 9 or more.",
-      "A mature crop drops 2-5 (average 3.7); each Fortune level adds another drop attempt - Fortune III averages 5.4.",
-      "Potatoes have a 2% chance to also drop a poisonous potato - a trophy, not food.",
-      "Bone meal advances the crop 2-5 stages per use.",
-      "No seeds needed: the crop plants itself - 2 of the ~3.7 drops go back in the ground, the rest is profit.",
+      "Both crops go through 8 growth stages (4 visible) on farmland, grow faster hydrated and need light level 9 or more to grow (Java needs 8 to plant).",
+      "A mature crop drops 2-5 (average 3 5/7); each Fortune level adds one drop attempt, and Fortune III averages 5 3/7.",
+      "Potatoes have a 2% chance to also drop a poisonous potato.",
+      "Bone meal randomly increases the crop's growth stage.",
+      "No seeds needed: replant part of what you harvest.",
       "Starter crops come from village fields, or a 2.5% drop when a zombie, husk or zombie villager is killed by a player or wolf.",
       "Rabbits raid mature carrot crops (mobGriefing): fence them out."
     ],
@@ -1447,16 +1447,17 @@
       "Raid a village's carrot and potato plots - replant what you take, it is polite and renewable.",
       "Hoe and hydrate a plot, plant the crops directly, light it to 9+.",
       "Harvest mature crops with a Fortune III tool and replant 2 per block - the surplus is yours.",
-      "Automate with a farmer villager: he harvests and replants all day, and once his inventory fills with crop he throws food at a hungry villager on the other side of a fence - hoppers under that villager skim the lot.",
-      "Cook potatoes into baked potatoes - 5 hunger and 6 saturation make them a top-tier staple food.",
-      "Trade the surplus: farmer villagers buy carrots and potatoes for emeralds."
+      "Automate: a farmer villager harvests and replants; see our villager farming guide.",
+      "Cook potatoes into baked potatoes to eat them.",
+      "Villagers need 12 carrots or potatoes to become willing to breed."
     ],
     "rates": "A villager-run 9x9 carrot field fills a chest with several stacks per in-game day; baked potatoes turn the potato half into one of the best foods you can mass-produce without animals.",
     "tips": [
-      "Golden carrots (8 gold nuggets around a carrot) are the best saturation food in the game - this farm feeds that recipe too.",
-      "Carrots breed pigs and rabbits; a carrot on a stick steers a saddled pig.",
-      "Potatoes compost poorly - eat or trade them, compost the carrots you cannot sell instead.",
-      "Zombie-killed-with-fire drops a baked potato directly in Java - a grim little bonus in a mob farm."
+      "Carrots and potatoes breed pigs; carrots also breed rabbits.",
+      "Both carrots and potatoes in a composter have a 65% chance to raise the level.",
+      "In Java, a zombie killed by fire drops a baked potato.",
+      "Rabbits eat mature carrot crops if mobGriefing is on: fence them out.",
+      "Source: minecraft.wiki Carrot and Potato."
     ],
     "keywords": "carrot farm minecraft, potato farm minecraft, villager carrot farm, minecraft baked potato, fortune carrots"
   },
@@ -1708,10 +1709,10 @@
     "mechanics": [
       "Java spawning: 2-4 squid in river or ocean biomes from Y=50 to Y=63, needing water (or a waterlogged block) at the spawn block and below, and water above.",
       "Bedrock: 2-4 in oceans, 2 in rivers, and only on the surface - no solid block above the spawn spot.",
-      "Drops: 1-3 ink sacs, +0-1 per Looting level.",
-      "Squid cannot breed and babies drop nothing (5% of spawns) - the farm is a spawn-and-flush, not a pen.",
+      "Squid drop ink sacs; see the wiki for exact Looting amounts.",
+      "Squid cannot breed: babies only appear naturally and take 20 minutes to grow up.",
       "They suffocate after 15 seconds out of water - a dry collection floor is the kill mechanism, no sword needed.",
-      "Glow squid are the deep-water cousin (below Y=30, light 0) with glow ink sacs - different farm, same idea."
+      "The glow squid is the deep-water cousin, with its own farm."
     ],
     "materials": [
       "A river or shallow ocean section (Java: the Y=50-63 band is perfect at sea level)",
@@ -1725,15 +1726,14 @@
       "Dam both ends of a section and lay a sloped floor so currents push squid toward one corner.",
       "Place a drop chute at that corner over a dry room - squid wash in, fall out of the water, suffocate in 15 seconds.",
       "Hoppers under the dry floor feed a chest.",
-      "On Bedrock keep the water surface open to the sky - a roof kills the farm.",
+      "On Bedrock keep the water surface open to the sky: a solid block above stops spawns.",
       "AFK nearby and empty the chest between other projects."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "Ink sac + book + feather = book and quill - this farm feeds your library.",
-      "Black dye from sacs colors wool, glass, concrete, banners and beds.",
-      "Do not confuse rivers with the deep: regular squid spawn high (Y 50-63 on Java), glow squid spawn low and dark.",
-      "A Looting sword on the dry floor squeezes +1 sac per squid when you feel hands-on."
+      "Do not confuse rivers with the deep: regular squid spawn high (Y 50-63 on Java).",
+      "Squid out of water suffocate in 15 seconds and are very resistant to knockback.",
+      "Source: minecraft.wiki Squid."
     ],
     "keywords": "squid farm minecraft, ink sac farm, minecraft black dye, where do squid spawn, book and quill"
   },
