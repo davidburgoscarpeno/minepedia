@@ -511,8 +511,8 @@
     "quickAnswer": "A tree farm is a planted grid of saplings you bone meal and chop on a loop. Dark oak grows only from 2x2 sapling squares, oaks and dark oaks drop apples, and a Fortune axe on the leaves pays the saplings back with interest.",
     "mechanics": [
       "Saplings grow in two hidden stages: bone meal skips ahead instantly, while natural growth needs light level 9 or higher above the sapling - torches or glowstone keep a farm running underground or at night.",
-      "Dark oak, and the giant spruce, jungle and pale oak variants, grow only from four saplings planted in a 2x2 square - with nothing beside the north-western sapling up to the tree's full height.",
-      "Sapling economics: leaves drop saplings 1 in 20 (1 in 40 for jungle), so every tree more than replants itself. Fortune III on an axe roughly triples sapling and apple drops from leaves.",
+      "Dark oak and the giant spruce, jungle and pale oak variants only grow from four saplings planted in a 2x2 square.",
+      "When broken or decayed, leaves can drop a sapling of their own species. Oak and dark oak leaves also have a 1/200 chance of dropping an apple.",
       "Oaks and dark oaks drop apples from their leaves - dark oak 2x2 farms are the classic renewable apple source.",
       "Spruce 2x2 mega trees convert podzol and give the most wood per bonemeal, but their height (up to 31 blocks) makes manual harvesting slow - pick tree size to match how lazy you want the chopping to be."
     ],
@@ -531,14 +531,15 @@
       "Chop from the top down or pillar up: birch and oak come down from the ground, mega trees want a spiral staircase of their own logs.",
       "Replant immediately from your sapling stock - the farm only works as a loop.",
       "Sweep the leaves with a Fortune axe for saplings, apples and sticks, or let them decay while you plant the next row.",
-      "Upgrade later: TNT-based blast chambers and wither-powered designs automate endgame wood, but a manual grid covers every survival need first."
+      "Upgrade later: once the manual grid works, you can move to automatic designs."
     ],
     "rates": "A 20-tree manual grid with bone meal yields several stacks of logs per ten-minute cycle and always pays its saplings back; dark oak 2x2 loops additionally return a steady trickle of apples.",
     "tips": [
       "Birch is the beginner pick: it never grows tall variants, so every tree chops from flat ground.",
-      "For 2x2 trees, bone meal any of the four saplings - but keep the area around the north-west one clear or growth fails silently.",
+      "2x2 trees need free space around and above them: if something is in the way, the tree does not grow.",
       "Compost your excess saplings: each has a 30% chance to raise the compost level, feeding bone meal back into the loop.",
-      "An Efficiency V diamond axe plus Haste from a beacon insta-mines logs - the single biggest quality-of-life upgrade for wood farming."
+      "An Efficiency axe speeds up chopping a lot; the wiki suggests picking the tree by available space and how easy it is to automate.",
+      "Source: minecraft.wiki Tutorial:Tree farming."
     ],
     "keywords": "tree farm minecraft, wood farm minecraft, dark oak tree farm, how to grow dark oak minecraft, minecraft tree farming guide"
   },
@@ -1850,11 +1851,11 @@
     "editions": "both",
     "quickAnswer": "Ghasts spawn in soul sand valleys, nether wastes and basalt deltas at any light level, needing a 5x5x4 space over a solid block. Build a spawn platform in a soul sand valley, funnel them to a kill chute, and Looting III the tears out.",
     "mechanics": [
-      "Spawn rules: a solid block below and 5x5 wide x 4 high of free space, at any light level - soul sand valleys and nether wastes spawn them in groups of 4 on Java.",
+      "Spawn rules: a solid block below and 5x5 wide x 4 high of free space, at any light level. On Java they spawn in groups of 4 in Nether wastes and soul sand valleys, and singly in basalt deltas; on Bedrock always singly.",
       "Java quirk: no second ghast spawns within 16 blocks of another in soul sand valleys - spacing is built into the biome.",
       "Drops: 0-1 ghast tear and 0-2 gunpowder, +0-1 of each per Looting level.",
       "Style bonus: kill a ghast with its own deflected fireball and it drops the Tears music disc - the same deflect that one-shots it.",
-      "Ghasts only shoot when they see you, from up to 64 blocks away - a farm keeps you invisible behind glass and walls.",
+      "Ghast fireballs are their only attack: protect yourself with walls and glass.",
       "Fireballs break weak blocks: build the farm from cobblestone or better."
     ],
     "materials": [
@@ -1877,7 +1878,8 @@
       "Regeneration potion = ghast tear + awkward potion - the only potion that heals over time.",
       "One returned fireball one-shots a ghast and prints the Tears disc: practice your tennis on the farm's overflow.",
       "Basalt deltas also spawn ghasts, but magma cubes eat the mob cap there - valleys are cleaner.",
-      "Build the AFK spot high: ghasts spawn in mid-air layers too, and a 4-block-tall spawn volume needs headroom."
+      "Build the AFK spot high: ghasts spawn in mid-air layers too, and a 4-block-tall spawn volume needs headroom.",
+      "Source: minecraft.wiki Ghast."
     ],
     "keywords": "ghast farm minecraft, ghast tear farm, regeneration potion, tears music disc minecraft, soul sand valley"
   },

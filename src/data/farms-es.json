@@ -452,8 +452,8 @@
     "quickAnswer": "Una granja de árboles es una cuadrícula de saplings que bone meleas y talas en bucle. El dark oak solo crece de cuadrados de 2x2 saplings, los oaks y dark oaks sueltan apples, y un hacha con Fortune en las leaves devuelve los saplings con intereses.",
     "mechanics": [
       "Los saplings crecen en dos etapas ocultas: el bone meal las salta al instante, mientras que el crecimiento natural necesita luz 9 o más sobre el sapling; torches o glowstone mantienen la granja en marcha bajo tierra o de noche.",
-      "El dark oak, y las variantes gigantes de spruce, jungle y pale oak, solo crecen de cuatro saplings plantados en cuadrado de 2x2, sin nada al lado del sapling noroeste hasta la altura final del árbol.",
-      "La economía de los saplings: las leaves sueltan saplings 1 de cada 20 (1 de cada 40 en jungle), así que cada árbol se replanta a sí mismo de sobra. Fortune III en un hacha triplica aproximadamente los saplings y apples de las leaves.",
+      "El dark oak y los gigantes de spruce, jungle y pale oak solo crecen de cuatro saplings plantados en un cuadrado 2x2.",
+      "Al romper o decaer, las leaves sueltan un sapling de su especie. Las leaves de oak y dark oak tienen además 1/200 de soltar una manzana.",
       "Los oaks y dark oaks sueltan apples de sus leaves: las granjas de dark oak 2x2 son la fuente renovable clásica de apples.",
       "Los mega árboles de spruce 2x2 convierten podzol y dan más madera por bone meal, pero su altura (hasta 31 bloques) hace lenta la tala manual; elige el tamaño del árbol según la pereza que quieras talar."
     ],
@@ -472,14 +472,15 @@
       "Tala de arriba abajo o haz pilar: birch y oak caen desde el suelo; los mega árboles piden una escalera de caracol de sus propios logs.",
       "Replanta de inmediato de tu stock de saplings: la granja solo funciona como bucle.",
       "Barre las leaves con un hacha de Fortune para saplings, apples y sticks, o deja que se descompongan mientras plantas la siguiente fila.",
-      "Mejora más tarde: las cámaras de explosión con TNT y los diseños con wither automatizan la madera del endgame, pero una cuadrícula manual cubre antes todas las necesidades del survival."
+      "Mejora más tarde: cuando tengas la cuadrícula manual, puedes pasar a diseños automáticos."
     ],
     "rates": "Una cuadrícula manual de 20 árboles con bone meal da varios stacks de logs por ciclo de diez minutos y siempre devuelve sus saplings; los bucles de dark oak 2x2 además devuelven un goteo constante de apples.",
     "tips": [
       "Birch es la elección principiante: nunca crece en variantes altas, así que cada árbol se tala desde el suelo.",
-      "Para árboles 2x2, bone melea cualquiera de los cuatro saplings, pero mantén despejado el entorno del noroeste o el crecimiento falla en silencio.",
+      "Para árboles 2x2 hace falta espacio libre alrededor y encima: si algo estorba, el árbol no crece.",
       "Composta los saplings sobrantes: cada uno tiene un 30% de subir el nivel del compost, devolviendo bone meal al bucle.",
-      "Un hacha de diamante con Efficiency V más Haste de un beacon mina logs al instante: la mayor mejora de calidad de vida para farmear madera."
+      "Un hacha con Efficiency acelera mucho la tala; la wiki recomienda el árbol según el espacio y lo automatizable que sea.",
+      "Fuente: minecraft.wiki Tutorial:Tree farming."
     ]
   },
   "kelp-farm": {
@@ -1655,11 +1656,11 @@
     "difficulty": "Avanzada",
     "quickAnswer": "Las ghasts aparecen en soul sand valleys, nether wastes y basalt deltas a cualquier nivel de luz, necesitando un espacio de 5x5x4 sobre un bloque sólido. Construye una plataforma de aparición en una soul sand valley, canálalas a un conducto de ejecución y saca las tears con Looting III.",
     "mechanics": [
-      "Reglas de aparición: un bloque sólido debajo y 5x5 de ancho por 4 de alto de espacio libre, a cualquier luz; las soul sand valleys y nether wastes las generan en grupos de 4 en Java.",
+      "Reglas de aparición: un bloque sólido debajo y 5x5 de ancho por 4 de alto de espacio libre, con cualquier luz. En Java salen en grupos de 4 en nether wastes y soul sand valleys, y sueltas en basalt deltas; en Bedrock siempre de una en una.",
       "Peculiaridad de Java: no aparece una segunda ghast a menos de 16 bloques de otra en las soul sand valleys; el espaciado viene incorporado en el bioma.",
       "Drops: 0-1 ghast tear y 0-2 gunpowder, +0-1 de cada por nivel de Looting.",
       "Bonus de estilo: mata a una ghast con su propia fireball devuelta y suelta el music disc Tears, el mismo golpe que la mata de una vez.",
-      "Las ghasts solo disparan cuando te ven, desde hasta 64 bloques: una granja te mantiene invisible tras glass y muros.",
+      "Las fireballs de la ghast son su único ataque: protégete con muros y cristal.",
       "Las fireballs rompen bloques débiles: construye la granja de cobblestone o mejor."
     ],
     "materials": [
@@ -1682,7 +1683,8 @@
       "Poción de regeneración = ghast tear + awkward potion: la única poción que cura con el tiempo.",
       "Una fireball devuelta mata a la ghast de una vez e imprime el disco Tears: practica tu tenis con el excedente de la granja.",
       "Los basalt deltas también generan ghasts, pero los magma cubes se comen el mob cap ahí: los valles son más limpios.",
-      "Construye el punto AFK alto: las ghasts también aparecen en capas de aire, y un volumen de aparición de 4 bloques de alto necesita espacio."
+      "Construye el punto AFK alto: las ghasts también aparecen en capas de aire, y un volumen de aparición de 4 bloques de alto necesita espacio.",
+      "Fuente: minecraft.wiki Ghast."
     ]
   },
   "magma-cube-farm": {
