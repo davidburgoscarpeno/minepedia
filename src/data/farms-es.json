@@ -1741,10 +1741,10 @@
     "mechanics": [
       "Las cocoa pods solo crecen en los laterales de jungle logs y jungle wood (el stripped también vale): el log no necesita ser parte de un árbol.",
       "Tres fases: verde pequeña, tostada, y luego naranja grande; 20% de probabilidad de crecer por random tick, unos 5 minutos 40 segundos por fase de media.",
-      "Cosecha: las vainas maduras sueltan 3 beans, las jóvenes solo 1; Fortune no ayuda, la paciencia sí.",
-      "El bone meal fuerza una fase hacia delante: bean dentro, vaina fuera.",
-      "Automatización: el agua en movimiento, un empujón de piston, o quitar el log revienta las vainas; una fila de pistons tras el muro de logs cosecha todo el muro de una vez.",
-      "Los primeros beans salen solo de árboles de jungle naturales: los árboles crecidos de saplings nunca echan vainas, pero las vainas que plantas tú crecen en cualquier parte."
+      "Cosecha: un cacao maduro suelta 3 granos; Fortune no aumenta la cantidad.",
+      "Se planta en el lateral de troncos de jungla, madera de jungla y sus versiones sin corteza; el tronco no tiene que formar parte de un árbol.",
+      "Los cacaos solo aparecen en troncos de jungla generados de forma natural en jungla y jungla dispersa; no en árboles crecidos de brote.",
+      "En Java los granos solo salen de cacaos naturales; en Bedrock también aparecen en cofres de bonificación y pescando en jungla."
     ],
     "materials": [
       "Cocoa beans de un bioma jungle (revisa los árboles naturales)",
@@ -1757,16 +1757,16 @@
       "Saquea una jungle: quita todas las vainas naturales que encuentres (cada una es 1-3 plantas futuras).",
       "Construye un muro de jungle logs en casa, de un bloque de grosor, de la altura que quieras.",
       "Planta una bean en cada cara libre del log: cada cara es una vaina independiente.",
-      "Espera o usa bone meal hasta la fase naranja, y luego rompe: 3 beans de vuelta por vaina madura.",
+      "Espera a la etapa naranja y rompe el cacao con un hacha (lo más rápido): 3 granos por cacao maduro.",
       "Replanta una bean por cara y guarda dos: el muro se multiplica a sí mismo.",
-      "Automatiza: pistons tras el muro disparan con una lever, reventando todas las vainas hacia una zanja de hoppers abajo."
+      "Replanta en cada cara libre y repite: el muro se multiplica solo."
     ],
     "rates": "Un muro de logs de 10x10 aloja más de 100 vainas; cada ciclo maduro triplica tus beans, y un muro cosechado a pistones rinde stacks de cocoa por minuto de clics.",
     "tips": [
-      "Las cookies son 2 wheat + 1 cocoa bean por 8 cookies: snack barato, genial para el excedente de compost.",
-      "El brown dye de los beans tiñe wool, glass, concrete y banners sin squids.",
-      "La jungle wood (el bloque de pura corteza) te da 4 caras plantables por log: muros más densos.",
-      "El log no necesita leaves ni árbol: un pilar flotante en tu base cultiva cocoa sin problema."
+      "Los granos de cacao tiñen de marrón la lana de las ovejas.",
+      "Un pilar de troncos de jungla en tu base vale: el tronco no necesita árbol.",
+      "Tarda de media 5 min 41 s por etapa, así que planta todas las caras a la vez.",
+      "Fuente: minecraft.wiki Cocoa Beans."
     ]
   },
   "spawner-xp-farm": {
@@ -1808,11 +1808,11 @@
     "difficulty": "Intermedia",
     "quickAnswer": "El bonemeal sobre un moss block convierte stone, deepslate, tuff y variantes de dirt cercanas en moss en un área sin esquinas de 7x11x7. Automatízalo con un generador de stone alimentando una plataforma, un dispenser aplicando bonemeal, y agua o pistons cosechando el moss: entra bonemeal, salen azaleas y moss.",
     "mechanics": [
-      "El bonemeal sobre moss convierte andesite, coarse dirt, deepslate, diorite, dirt, granite, grass blocks, mycelium, podzol, rooted dirt, stone, tuff y pale moss en moss blocks: Java también convierte mud y muddy mangrove roots.",
+      "Hueso en un bloque de musgo lo extiende a bloques de las etiquetas de piedra base del Overworld y tierra (andesita, diorita, granito, toba, piedra, pizarra, tierra...) si tienen aire encima.",
       "El área de propagación es un volumen sin esquinas de 7x11x7 centrado en el moss al que das bonemeal, y solo se convierten los bloques con aire encima.",
-      "El moss convertido hace crecer follaje encima: 52% short grass, 26% moss carpet, 10% tall grass, 7% azalea, 4% flowering azalea.",
-      "Alimentándolo con stone fresco de un generador haces el moss prácticamente infinito; alimentarlo con dirt es más simple y casi igual de bueno.",
-      "El moss se mina más rápido con hoe: una hoe de netherite con Efficiency V mina instantáneamente toda la capa."
+      "El musgo puede generar hierba, azalea o alfombra de musgo encima al crearse con aire arriba.",
+      "Cada hueso en una cuadrícula plana de 7x7 convertible da de media unos 27 bloques de musgo (varía mucho), que en composter devuelven ~2,5 huesos.",
+      "El musgo se mina más rápido con azada; un pistón lo rompe y suelta como objeto."
     ],
     "materials": [
       "Al menos 1 moss block (lush caves, o trial chambers cerca de spawners de slime)",
@@ -1831,10 +1831,11 @@
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "El moss también marca los trial spawners de slime en las trial chambers: útil cuando cazas keys.",
-      "Las granjas de bone meal (bucles de composter o granjas de mobs) mantienen el dispenser alimentado para siempre.",
-      "El moss convierte deepslate y tuff, así que la granja sirve también para limpiar visualmente capas feas al minar.",
-      "Reserva siempre un moss block antes de convertir toda la plataforma: una granja sin moss es una granja que hay que resembrar desde las cuevas."
+      "El musgo también marca los spawners de slimes en las cámaras de prueba.",
+      "Un huevo de sniffer eclosiona el doble de rápido sobre musgo.",
+      "Un bloque de musgo en el composter sube el nivel con 65% de probabilidad.",
+      "Guarda un bloque de musgo antes de convertir toda la plataforma.",
+      "Fuente: minecraft.wiki Moss Block."
     ]
   },
   "flower-farm": {
