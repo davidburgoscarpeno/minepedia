@@ -670,9 +670,9 @@
     "quickAnswer": "Chickens lay an egg every 5-10 minutes in a loaded chunk. Stack them in a 1x1 pen over a hopper, throw the eggs to multiply the flock (1 in 8 hatches a chick), and let a lava blade at adult head height roast the adults into cooked chicken automatically.",
     "mechanics": [
       "Every adult chicken in a loaded chunk lays one egg every 5-10 minutes - hopper floors under the pen collect them with zero effort.",
-      "Thrown eggs hatch a chick 1 time in 8 (a rare bonus throw spawns 4 at once) - a dispenser clock turns your egg income into exponential flock growth.",
+      "A thrown egg hatches a chick 1 time in 8: a dispenser on a clock turns your eggs into flock growth.",
       "Chickens take no fall damage (they glide), fit in a single block of space and never despawn - the classic farm crams dozens into one 1x1 hole over a hopper.",
-      "The roast trick: adult chickens are just under a block tall, chicks much shorter - a lava blade held by a sign at adult head height burns only adults, and dying on fire drops cooked chicken instead of raw.",
+      "A chicken killed by fire drops cooked chicken instead of raw chicken, so a lava kill system produces pre-cooked food.",
       "Feathers come free with every kill (0-2, +1 with Looting) - arrows for days."
     ],
     "materials": [
@@ -686,18 +686,19 @@
       "Pen the starters: lure two chickens with seeds into a 1x1 pit over a hopper feeding a chest - breeding them with seeds grows the flock.",
       "Let the eggs roll in: every adult drops an egg each 5-10 minutes; the hopper catches everything.",
       "Multiply: throw eggs at a wall (1 in 8 hatches) or load them into a dispenser on a clock so hatching runs itself.",
-      "Cap the flock sensibly: hundreds of chickens in one block lag the game - 24-50 adults is plenty for a survival base.",
-      "Add the roaster: a sign holding lava at adult head height above a second pen burns adults while chicks stay safe below.",
+      "Cap the flock: on Java the entity cramming limit reduces a 1x1 pen to about 24 chickens (not an issue on Bedrock).",
+      "Add a kill system (for example lava); the wiki explains how to filter out immature chicks so you do not kill chicks you still need.",
       "Collect cooked chicken, feathers and eggs from the hopper chain into chests.",
       "Eat the roast, craft arrows with the feathers and flint, and compost nothing - everything has a use.",
       "Expand in modules: another 1x1 pen next to the first doubles output for the price of a few blocks."
     ],
     "rates": "A 20-chicken pen averages an egg every 15-30 seconds, over a stack per hour, plus feathers and roast once the lava design culls adults. Output scales linearly with flock size.",
     "tips": [
-      "Any seed works for luring and breeding - wheat, melon, pumpkin, beetroot or torchflower.",
-      "Do not overstuff the pen: entity cramming kills chickens past 24 per block in Java (a feature here, but it wastes eggs).",
-      "The 4-chick bonus throw is a 1-in-256 event - celebrate when it happens.",
-      "Jockey chickens (the ones zombies rode in on) never lay eggs - cull them first."
+      "Any seed works for luring and breeding: wheat, beetroot, melon, pumpkin, torchflower or pitcher pod.",
+      "The entity cramming limit (Java) leaves about 24 chickens per 1x1 pen; Bedrock does not have that problem.",
+      "Each adult chicken lays about 8 eggs per hour on average, and loose eggs despawn after 5 minutes: collect them with hoppers.",
+      "Jockey chickens (the ones zombies rode in on) never lay eggs - cull them first.",
+      "Source: minecraft.wiki Tutorial:Egg farming and Chicken."
     ],
     "keywords": "chicken farm minecraft, egg farm minecraft, automatic cooked chicken farm, minecraft chicken cooker tutorial, feather farm minecraft"
   },
