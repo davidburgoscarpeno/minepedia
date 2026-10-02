@@ -350,13 +350,13 @@
     "produces": "Ender pearls and huge amounts of XP (5 XP per enderman)",
     "difficulty": "Advanced",
     "editions": "both",
-    "quickAnswer": "An enderman farm sits in the End: a spawning platform 128+ blocks from the main island, an endermite bait in a minecart that endermen hate on sight, and a 43-block drop that leaves them at one hit. The fastest XP farm in the game.",
+    "quickAnswer": "An enderman farm sits in the End: spawning platforms more than 128 blocks from other spawnable blocks, a name-tagged endermite in a minecart as bait and a 43-block drop that leaves them at half a heart for a one-hit kill. With enough platforms, XP comes in very fast.",
     "mechanics": [
       "Endermen spawn constantly across the End's islands - but the farm works by building the only spawning spaces within 128 blocks of the AFK spot, far out in the void.",
       "The bait: an endermite has a 5% chance to spawn when a thrown ender pearl lands. Name it with a name tag immediately - an unnamed endermite despawns within 2 minutes, even in a minecart.",
-      "Endermen within 64 blocks with line of sight charge the endermite to kill it - that hatred walks them straight off the platform and down the chute.",
+      "Endermen that spawn within 62 blocks and in sight of the endermite pathfind to it and attack; that hatred walks them off the platform and down the drop chute.",
       "A drop of 43 blocks leaves endermen at half a heart - one punch kills, and XP flows at full speed.",
-      "In Bedrock the endermite spawns where the pearl lands (in Java it spawns at your original position), and Bedrock endermites fight back - the bait-in-minecart design works in both."
+      "Endermites spawn with a 5% chance when an ender pearl lands and despawn even inside a minecart, which is why you name them with a name tag."
     ],
     "materials": [
       "Access to the End (beat the dragon first)",
@@ -366,11 +366,11 @@
     ],
     "steps": [
       "Beat the ender dragon, then bridge or pearl 128+ blocks away from the main island in any direction - the void is your spawn-proofing.",
-      "Build the spawning platform: a big slab-free pad (20x20 or larger) with a 2x2 hole in the middle, 3 blocks of headroom.",
+      "Build the spawning platforms more than 128 blocks from any other spawnable block, with the spawning pads at least 43 blocks above the landing area.",
       "Set the bait: throw pearls until an endermite appears (5% chance each), catch it in a minecart over the hole, and name it before 2 minutes pass.",
       "Build the drop chute below the hole: 43 blocks of fall leaves endermen one hit from death; 44+ kills them outright if you only want pearls.",
       "Add the kill floor: a safe spot at the bottom where you swipe at their feet - sweeping-edge swords hit whole groups in Java.",
-      "Stand on the AFK spot: endermen spawn on the platform, aggro the endermite from 64 blocks away, path to it and fall.",
+      "Stand on the AFK spot: endermen spawn on the platform, see the endermite, path to it and fall.",
       "Collect: hoppers under the kill floor feed chests; expect to fill them with pearls faster than you can use them.",
       "Repair your gear for free: the XP stream mends every mending item you hold or wear in seconds."
     ],
@@ -379,7 +379,8 @@
       "Name the endermite the moment it lands - forgetting the name tag is the number one way these farms die.",
       "Build the platform from bottom slabs or leaves while you work so nothing spawns on your construction site.",
       "Bring a pumpkin helmet for the walk back: one accidental glance at the main island's endermen ends trips early.",
-      "Void-side rails beat bridges: a minecart line from the outer End islands makes restocking painless."
+      "Void-side rails beat bridges: a minecart line from the outer End islands makes restocking painless.",
+      "Source: minecraft.wiki Tutorial:Enderman farming."
     ],
     "keywords": "enderman farm minecraft, xp farm minecraft end, ender pearl farm minecraft, endermite farm tutorial, fastest xp farm minecraft"
   },

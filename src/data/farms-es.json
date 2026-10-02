@@ -307,13 +307,13 @@
   "enderman-farm": {
     "produces": "Ender pearls y enormes cantidades de XP (5 de XP por enderman)",
     "difficulty": "Avanzada",
-    "quickAnswer": "Una granja de endermen se monta en el End: una plataforma de aparición a más de 128 bloques de la isla principal, un endermite de cebo en un minecart que los endermen odian a primera vista, y una caída de 43 bloques que los deja a un golpe. La granja de XP más rápida del juego.",
+    "quickAnswer": "Una granja de endermen está en el End: plataformas de aparición a más de 128 bloques de otros bloques de aparición, un endermite con name tag en un minecart como cebo y una caída de 43 bloques que los deja a medio corazón para matarlos de un golpe. Con suficientes plataformas, la XP llega muy rápido.",
     "mechanics": [
       "Los endermen aparecen constantemente por las islas del End, pero la granja funciona construyendo los únicos espacios de aparición en 128 bloques desde el punto AFK, lejos en el vacío.",
       "El cebo: un endermite tiene un 5% de probabilidad de aparecer cuando cae una ender pearl lanzada. Nómbralo con un name tag de inmediato: un endermite sin nombre desaparece en 2 minutos, incluso en un minecart.",
-      "Los endermen a menos de 64 bloques con línea de visión cargan contra el endermite para matarlo: ese odio los lleva directos fuera de la plataforma y al canal.",
+      "Los endermen que aparecen a 62 bloques o menos y con línea de visión del endermite se dirigen a atacarlo; ese odio los lleva fuera de la plataforma y por el canal de caída.",
       "Una caída de 43 bloques deja a los endermen a medio corazón: un puñetazo basta, y la XP fluye a toda velocidad.",
-      "En Bedrock el endermite aparece donde cae la pearl (en Java aparece en tu posición original), y los endermites de Bedrock contraatacan: el diseño de cebo en minecart funciona en ambas."
+      "Los endermites aparecen con un 5 % al caer una ender pearl y desaparecen aunque estén en un minecart, por eso se les pone name tag."
     ],
     "materials": [
       "Acceso al End (derrota primero al dragón)",
@@ -323,11 +323,11 @@
     ],
     "steps": [
       "Derrota al ender dragon y luego haz un puente o teletranspórtate a más de 128 bloques de la isla principal en cualquier dirección; el vacío es tu protección contra apariciones.",
-      "Construye la plataforma de aparición: una gran plataforma sin slabs (20x20 o más) con un agujero de 2x2 en el centro y 3 bloques de altura libre.",
+      "Construye la plataforma de aparición a más de 128 bloques de cualquier bloque donde puedan aparecer, con las plataformas de aparición al menos 43 bloques por encima de la zona de aterrizaje.",
       "Coloca el cebo: lanza pearls hasta que aparezca un endermite (5% cada una), atrápalo en un minecart sobre el agujero y nómbralo antes de que pasen 2 minutos.",
       "Construye el canal de caída bajo el agujero: 43 bloques de caída dejan a los endermen a un golpe; con 44+ mueren solos si solo quieres pearls.",
       "Añade la zona de muerte: un punto seguro abajo donde golpearles los pies; las espadas con sweeping edge golpean a grupos enteros en Java.",
-      "Quédate en el punto AFK: los endermen aparecen en la plataforma, se enfurecen con el endermite desde 64 bloques, van hacia él y caen.",
+      "Quédate en el punto AFK: los endermen aparecen en la plataforma, ven al endermite, van hacia él y caen.",
       "Recoge: los hoppers bajo la zona de muerte llenan cofres; espera llenarlos de pearls más rápido de lo que puedes gastarlas.",
       "Repara tu equipo gratis: la corriente de XP repara con mending todo lo que lleves en la mano o puesto en segundos."
     ],
@@ -336,7 +336,8 @@
       "Nombra al endermite en cuanto aparezca: olvidar el name tag es la forma número uno de que estas granjas mueran.",
       "Construye la plataforma con bottom slabs o leaves mientras trabajas para que nada aparezca en tu obra.",
       "Lleva un pumpkin helmet para la vuelta: una mirada accidental a los endermen de la isla principal acaba con el viaje.",
-      "Los raíles por el vacío ganan a los puentes: una línea de minecart desde las islas exteriores del End facilita reabastecerse."
+      "Los raíles por el vacío ganan a los puentes: una línea de minecart desde las islas exteriores del End facilita reabastecerse.",
+      "Fuente: minecraft.wiki Tutorial:Enderman farming."
     ]
   },
   "wither-skeleton-farm": {
