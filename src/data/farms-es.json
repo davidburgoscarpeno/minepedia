@@ -414,11 +414,11 @@
     "difficulty": "Intermedia",
     "quickAnswer": "Los slimes aparecen por debajo de Y=40 en chunks de slime especiales (1 de cada 10 chunks, con cualquier luz) o en la superficie de los swamps entre Y=51-69, sobre todo en luna llena. Excava un chunk de slime, atrae a los slimes con un iron golem y deja que la gravedad o el magma hagan el resto.",
     "mechanics": [
-      "Aproximadamente 1 de cada 10 chunks del Overworld es un slime chunk: los slimes aparecen ahí bajo Y=40 con cualquier luz y cualquier clima. En Java los chunks dependen de la seed del mundo; en Bedrock son las mismas coordenadas en todos los mundos.",
-      "La opción swamp: los slimes también aparecen en swamps y mangrove swamps entre Y=51-69 con luz 7 o menos, sobre todo en luna llena y nunca en luna nueva. Sin excavar, pero las tasas siguen el ciclo lunar.",
-      "Los slimes buscan un jugador o, en su defecto, un iron golem en 16 bloques: un iron golem enjaulado atrae a todos los slimes de la granja hacia la zona de muerte automáticamente.",
-      "Los slimes grandes y medianos se dividen en otros más pequeños al morir; solo el tamaño más pequeño suelta slimeballs (0-2, +1 con Looting). Las frogs se comen a los slimes pequeños de un bocado y sueltan las slimeballs: una cámara de muerte con frogs se salta las divisiones.",
-      "Como los slime chunks ignoran la luz, iluminas la granja por seguridad sin perjudicar las tasas, al revés que cualquier otra granja de mobs."
+      "Aproximadamente 1 de cada 10 chunks es un slime chunk: ahí los slimes aparecen por debajo de Y=40 con cualquier luz. En Java dependen de la semilla del mundo; en Bedrock están en las mismas coordenadas en todos los mundos.",
+      "La opción del pantano: los slimes también aparecen en pantanos y manglares entre Y=51 e Y=69 con nivel de luz 7 o menos, sobre todo con luna llena y nunca con luna nueva. No hay que excavar, pero la tasa es menor que en un slime chunk.",
+      "Un slime busca a un jugador, o si no a un gólem de hierro, a 16 bloques o menos, así que un gólem de hierro enjaulado puede atraerlos.",
+      "Los slimes grandes y medianos se dividen al morir; solo el tamaño pequeño suelta bolas de slime. Un slime grande da unas 9 bolas de media (0-32).",
+      "Un slime necesita un espacio libre de unos 2,04 bloques por cada lado para aparecer, por eso las plataformas usan un hueco de 2,5 bloques."
     ],
     "materials": [
       "Un slime chunk (los buscadores de chunks online usan tu seed; en Bedrock cualquier mapa de slime chunks publicado vale para todos los mundos)",
@@ -428,21 +428,18 @@
       "Opcional: agua para empujar slimes (flotan y forcejean, pero las corrientes los mueven)"
     ],
     "steps": [
-      "Encuentra tu chunk: mete tu seed en un buscador de slime chunks (Java) o consulta el mapa universal de chunks de Bedrock, y marca el área de 16x16 en la superficie.",
-      "Excávalo: vacía el chunk desde Y=39 hacia abajo por capas, dejando plataformas de 3 bloques de alto cada pocas capas; más suelo significa más apariciones.",
-      "Ilumínalo todo: torches por todas partes. A los slimes les da igual la luz, pero los creepers aparecen en la oscuridad y destrozan granjas.",
-      "Coloca el cebo: enjaula un iron golem en un pilar en el centro, o aparca frogs junto al suelo de muerte; los slimes van hacia los golems en 16 bloques y las frogs simplemente se comen a los pequeños.",
-      "Añade el suelo de muerte: magma blocks, campfires o una larga caída bajo cada plataforma rematan lo que la caída y las frogs empiezan.",
-      "Recoge abajo: hoppers bajo el suelo de muerte llenan cofres de slimeballs.",
-      "Haz AFK a 24-128 bloques: lo bastante cerca para mantener el chunk cargado y generando, lo bastante lejos para que los slimes sigan moviéndose.",
-      "Escala excavando más chunks o añadiendo capas: un slime chunk multicapa totalmente excavado es un suministro de sticky pistons de por vida."
+      "Encuentra tu chunk: usa un buscador de slime chunks con tu semilla (Java) o un mapa de slime chunks de Bedrock (mismas coordenadas en todos los mundos).",
+      "Excava el chunk y construye plataformas de aparición con un hueco de 2,5 bloques (las losas ayudan).",
+      "Ilumina un poco los alrededores: en slime chunks aparecen con cualquier luz, pero conviene que otros monstruos hostiles no llenen el límite de mobs.",
+      "Construye el sistema de muerte: lleva a los slimes con agua a una trampa de cactus (destruye un 20 % de las bolas) o a trampas de ahogamiento que los dividen y rematan.",
+      "Recoge con tolvas en cofres.",
+      "Quédate AFK a 128 bloques o menos de las plataformas y evita que aparezcan monstruos en el resto de esa zona."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "En Bedrock puedes consultar cualquier mapa de slime chunks sin saber tu seed: los chunks son idénticos en todos los mundos.",
-      "Deja las plataformas a 3 bloques de alto para que quepan los slimes grandes y se dividan del todo.",
-      "Las frogs son el método de muerte elegante: matan a los slimes pequeños de un toque y sueltan las slimeballs igualmente.",
-      "Lleva una espada con Looting III para las sesiones sin AFK: cada slime pequeño que rematas a mano suelta hasta 3 slimeballs."
+      "En pantanos los slimes necesitan luz 7 o menos; setas marrones (luz 1) en cada punto de aparición mantienen alejados a otros mobs.",
+      "Desde Java 1.21, una poción arrojadiza de Supuración más una de daño sobre un corral de mobs (los lepismas son los mejores) genera slimes medianos sin necesitar chunk.",
+      "Fuente: minecraft.wiki Tutorial:Slime farming y Slime."
     ]
   },
   "tree-farm": {

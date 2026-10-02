@@ -469,11 +469,11 @@
     "editions": "both",
     "quickAnswer": "Slimes spawn below Y=40 in special slime chunks (about 1 in 10 chunks, any light level) or on swamp surfaces between Y=51-69, most on full moons. Dig out a slime chunk, bait the slimes with an iron golem and let gravity or magma do the killing.",
     "mechanics": [
-      "About 1 in 10 Overworld chunks is a slime chunk: slimes spawn there below Y=40 in any light and any weather. In Java the chunks depend on your world seed; in Bedrock they are the same coordinates in every world.",
-      "The swamp option: slimes also spawn in swamps and mangrove swamps between Y=51-69 at light level 7 or less - most often on a full moon and never on a new moon. No digging required, but rates follow the moon cycle.",
-      "Slimes seek a player or, failing that, an iron golem within 16 blocks - a caged iron golem pulls every slime in the farm toward the kill zone automatically.",
-      "Big and medium slimes split into smaller ones on death; only the smallest size drops slimeballs (0-2, +1 with Looting). Frogs eat small slimes outright and drop slimeballs - a frog-powered kill chamber skips the splitting.",
-      "Because slime chunks ignore light, you light the farm for safety without hurting rates - unlike every other mob farm."
+      "About 1 in 10 chunks is a slime chunk: slimes spawn there below Y=40 in any light. In Java the chunks depend on your world seed; in Bedrock they are at the same coordinates in every world.",
+      "The swamp option: slimes also spawn in swamps and mangrove swamps between Y=51 and Y=69 at light level 7 or less, most often on a full moon and never on a new moon. No digging required, but spawn rates are lower than in slime chunks.",
+      "A slime looks for a player, or failing that an iron golem, within 16 blocks, so a caged iron golem can pull slimes toward it.",
+      "Large and medium slimes split on death; only the smallest size drops slimeballs. A large slime gives about 9 slimeballs on average (0-32).",
+      "A slime needs a clear space of about 2.04 blocks in each direction to spawn, so spawn platforms use a 2.5-block gap."
     ],
     "materials": [
       "A slime chunk (chunk finders online use your seed; in Bedrock, any published slime-chunk map works for every world)",
@@ -483,21 +483,18 @@
       "Optional: water to push slimes (they float and flail, but currents still move them)"
     ],
     "steps": [
-      "Find your chunk: plug your seed into a slime chunk finder (Java) or look up the universal Bedrock chunk map - then mark the 16x16 area on the surface.",
-      "Dig it out: excavate the chunk from Y=39 down in layers, leaving 3-block-high platforms every few layers - more floor space means more spawns.",
-      "Light everything: torches everywhere. Slimes do not care about light, but creepers do spawn in the dark and they wreck farms.",
-      "Set the bait: cage an iron golem on a pillar in the center, or park frogs along the kill floor - slimes path toward golems within 16 blocks, frogs simply eat the small ones.",
-      "Add the kill floor: magma blocks, campfires or a long drop under each platform finishes what the fall and the frogs start.",
-      "Collect below: hoppers under the kill floor feed chests of slimeballs.",
-      "AFK 24-128 blocks away: close enough to keep the chunk loaded and spawning, far enough that slimes keep moving.",
-      "Scale by digging more chunks or adding layers - a fully dug multi-layer slime chunk is a sticky piston supply for life."
+      "Find your chunk: use a slime chunk finder with your seed (Java), or a Bedrock slime chunk map (same coordinates in every world).",
+      "Dig out the chunk and build spawning platforms with a 2.5-block gap (slabs help).",
+      "Light the surroundings a little: slimes spawn in any light in slime chunks, but other hostile mobs should not fill the mob cap.",
+      "Build a kill system: slimes can be washed into a cactus trap (it destroys about 20% of the slimeballs) or into drowning traps that split and finish them.",
+      "Collect with hoppers into chests.",
+      "AFK within 128 blocks of the spawning platforms, and spawn-proof the other areas in that range."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "In Bedrock you can check any slime chunk map without knowing your seed - the chunks are identical in every world.",
-      "Keep the platforms 3 blocks high so big slimes fit and split all the way down.",
-      "Frogs are the elegant kill method: they one-shot small slimes and still drop the slimeballs.",
-      "Bring a Looting III sword for AFK-free sessions - every small slime you finish by hand drops up to 3 slimeballs."
+      "Slimes in swamps need light level 7 or less; brown mushrooms (light level 1) on every spawn spot keep other mobs away.",
+      "Since Java 1.21 a Splash Potion of Oozing plus a harming potion on a pen of mobs (silverfish work best) spawns medium slimes with no chunk needed.",
+      "Source: minecraft.wiki Tutorial:Slime farming and Slime."
     ],
     "keywords": "slime farm minecraft, slime chunk minecraft, slimeball farm tutorial, how to find slime chunks minecraft, swamp slime farm"
   },
