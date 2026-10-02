@@ -660,7 +660,7 @@
     "type": "Hostile",
     "health": "24 (12 hearts)",
     "where": "Pillager outposts, wandering patrols, and village raids.",
-    "howToKill": "Their crossbow hits hard but needs a reload after each shot - rush them during the reload or block with a shield. In raids, focus the banner-carrying captains.",
+    "howToKill": "Rush them or block with a shield; at range they fire arrows from a crossbow. In raids, kill the banner-carrying captain.",
     "drops": [
       {
         "item": "Crossbow",
@@ -678,8 +678,8 @@
         "notes": "From captains; cosmetic trophy"
       }
     ],
-    "spawnConditions": "Patrols spawn near players after about 5 in-game days (light level under 8 in Java, 0-7 in Bedrock). Outposts spawn captains continuously; raid waves scale with the Bad Omen level.",
-    "behavior": "Armed with crossbows; shoots players, villagers, wandering traders and iron golems. In Java a pillager whose crossbow breaks turns passive.",
+    "spawnConditions": "Patrols appear after about 5.5 in-game days, 24 to 48 blocks from a player (Bedrock: light level 0-7; 2-5 pillagers, Java: 1-5). Pillagers keep spawning around the top floor of pillager outposts. In raids they are more common in early waves, and one rides a ravager in wave 5.",
+    "behavior": "Armed with a crossbow; attacks players, villagers, wandering traders and iron golems. A crossbow breaks after 465 uses without Unbreaking, and an unarmed pillager is passive. Source: minecraft.wiki Pillager.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -976,7 +976,7 @@
     "type": "Hostile",
     "health": "14 (7 hearts)",
     "where": "Summoned by evokers in woodland mansions and raids - never spawns naturally.",
-    "howToKill": "They phase through walls, so hiding does not work - face them with a shield up and hit during their attack dive. They die on their own after 30-119 seconds (Java), so surviving the wave is a valid strategy.",
+    "howToKill": "They fly through blocks, so hiding does not work. Hit them as they charge. Vexes summoned by an evoker start taking damage after 30 to 119 seconds and die.",
     "drops": [
       {
         "item": "Iron sword",
@@ -984,8 +984,8 @@
         "notes": "Their held sword has a 0% base drop rate, rising only with Looting"
       }
     ],
-    "spawnConditions": "Only summoned by evokers, in groups of 3.",
-    "behavior": "Small flying gray spirits with red eyes when attacking. They float through solid blocks and dive at targets with an iron sword. In Java they take damage over time and die within about two minutes of being summoned.",
+    "spawnConditions": "Only summoned by evokers, in groups of 3; blocks at the spawn point prevent it.",
+    "behavior": "Flies through any block, including bedrock. Attacks players, adult villagers, iron golems and wandering traders; without a weapon it still targets them but deals no damage. Drops 5 XP when killed by a player or tamed wolf; the iron sword never drops. Source: minecraft.wiki Vex.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",

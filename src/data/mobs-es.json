@@ -239,9 +239,9 @@
   "pillager": {
     "type": "Hostil",
     "where": "Puestos de pillagers, patrullas errantes y raids de aldeas.",
-    "spawnConditions": "Las patrullas aparecen cerca de los jugadores tras unos 5 días de juego (nivel de luz por debajo de 8 en Java, 0-7 en Bedrock). Los puestos generan capitanes continuamente; las oleadas de raid escalan con el nivel de Bad Omen.",
-    "howToKill": "Su ballesta pega fuerte pero necesita recargar tras cada tiro: ve a por ellos durante la recarga o bloquea con escudo. En raids, prioriza a los capitanes con estandarte.",
-    "behavior": "Armado con ballesta; dispara a jugadores, aldeanos, vendedores ambulantes y gólems de hierro. En Java, un pillager cuya ballesta se rompe se vuelve pacífico.",
+    "spawnConditions": "Las patrullas aparecen tras unos 5,5 días del juego, a 24-48 bloques de un jugador (Bedrock: nivel de luz 0-7; 2-5 saqueadores, Java: 1-5). Los saqueadores siguen apareciendo en la planta superior de los puestos de saqueadores. En asaltos abundan más en las primeras oleadas y uno monta un ravager en la oleada 5.",
+    "howToKill": "Ve a por ellos o bloquea con escudo; a distancia disparan flechas con ballesta. En asaltos, mata al capitán con el estandarte.",
+    "behavior": "Armado con ballesta; ataca a jugadores, aldeanos, mercaderes errantes y golems de hierro. La ballesta se rompe tras 465 usos sin Irrompibilidad, y un saqueador sin arma es pasivo. Fuente: minecraft.wiki Pillager.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "8,5% de probabilidad, +1% por nivel de Saqueo",
@@ -349,9 +349,9 @@
   "vex": {
     "type": "Hostil",
     "where": "Invocado por evokers en mansiones del bosque y raids: nunca aparece de forma natural.",
-    "spawnConditions": "Solo invocado por evokers, en grupos de 3.",
-    "howToKill": "Atraviesan paredes, así que esconderse no sirve: encáralos con el escudo en alto y golpea durante su picado de ataque. Mueren solos a los 30-119 segundos (Java), así que sobrevivir a la oleada es una estrategia válida.",
-    "behavior": "Pequeños espíritus grises voladores con ojos rojos al atacar. Flotan a través de bloques sólidos y se lanzan en picado contra los objetivos con una espada de hierro. En Java reciben daño con el tiempo y mueren a los dos minutos de ser invocados.",
+    "spawnConditions": "Solo los invocan los evocadores, en grupos de 3; los bloques en el punto de aparición lo impiden.",
+    "howToKill": "Vuelan a través de bloques, así que esconderse no sirve. Golpéalos cuando carguen. Los vex invocados por un evocador empiezan a recibir daño tras 30-119 segundos y mueren.",
+    "behavior": "Vuela a través de cualquier bloque, incluida la roca madre. Ataca a jugadores, aldeanos adultos, golems de hierro y mercaderes errantes; sin arma sigue atacándolos pero no hace daño. Suelta 5 de XP si lo mata un jugador o lobo domesticado; la espada de hierro nunca cae. Fuente: minecraft.wiki Vex.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Su espada en mano tiene 0% de drop base, y solo sube con Saqueo"
