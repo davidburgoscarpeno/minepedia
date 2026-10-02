@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import PotionIcon from '../PotionIcon.astro';
 import BrewDiagram from '../BrewDiagram.astro';
+import HubRelated from '../HubRelated.astro';
 import potions from '../../data/potions.json';
 import potionsEs from '../../data/potions-es.json';
 
@@ -84,5 +85,6 @@ const S = isES ? {
         </a>
       ))}
     </div>
+    <HubRelated lang={lang} links={[{ en:['/recipes/','Crafting recipes'], es:['/es/recipes/','Recetas de crafteo'] }, { en:['/enchantments/','Enchantments'], es:['/es/enchantments/','Encantamientos'] }, { en:['/commands/effect/','/effect command'], es:['/es/commands/effect/','Comando /effect'] }, { en:['/commands/give/','/give command'], es:['/es/commands/give/','Comando /give'] }]} />
   </div>
 </Base>

@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import commands from '../../data/commands.json';
+import commandsEs from '../../data/commands-es.json';
+import HubRelated from '../HubRelated.astro';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const S = lang === 'es' ? {
@@ -36,9 +38,10 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', na
         <a class="card" href={lang === 'es' ? `/es/commands/${c.slug}/` : `/commands/${c.slug}/`}>
           <img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{c.name}</h3>
-          <p>{c.summary}</p>
+          <p>{(lang === 'es' && (commandsEs as any)[c.slug]?.summary) || c.summary}</p>
         </a>
       ))}
     </div>
+    <HubRelated lang={lang} links={[{ en:['/guides/how-to-enable-cheats/','How to enable cheats'], es:['/es/guides/how-to-enable-cheats/','Cómo activar los trucos'] }, { en:['/guides/how-to-get-a-command-block/','How to get a command block'], es:['/es/guides/how-to-get-a-command-block/','Cómo conseguir un command block'] }, { en:['/recipes/','Crafting recipes'], es:['/es/recipes/','Recetas de crafteo'] }, { en:['/enchantments/','Enchantments'], es:['/es/enchantments/','Encantamientos'] }, { en:['/potions/','Potions'], es:['/es/potions/','Pociones'] }]} />
   </div>
 </Base>

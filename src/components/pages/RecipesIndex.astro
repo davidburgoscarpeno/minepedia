@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
+import HubRelated from '../HubRelated.astro';
 import recipes from '../../data/recipes.json';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
@@ -44,5 +45,6 @@ const S = lang === 'es' ? {
         </div>
       </section>
     ))}
+    <HubRelated lang={lang} links={[{ en:['/potions/','Brewing recipes'], es:['/es/potions/','Recetas de pociones'] }, { en:['/enchantments/','Enchantments'], es:['/es/enchantments/','Encantamientos'] }, { en:['/commands/give/','/give command'], es:['/es/commands/give/','Comando /give'] }, { en:['/guides/','All guides'], es:['/es/guides/','Todas las guías'] }]} />
   </div>
 </Base>

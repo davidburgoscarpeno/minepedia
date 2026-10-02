@@ -1,0 +1,11 @@
+---
+interface Props { lang?: 'en' | 'es'; links: { en: [string, string]; es: [string, string] }[]; }
+const { lang = 'en', links } = Astro.props;
+const isES = lang === 'es';
+---
+<section class="hub-related" style="margin-top:32px">
+  <h2>{isES ? 'Sigue explorando' : 'Keep exploring'}</h2>
+  <ul>
+    {links.map(l => { const [href, label] = isES ? l.es : l.en; return <li><a href={href}>{label}</a></li>; })}
+  </ul>
+</section>

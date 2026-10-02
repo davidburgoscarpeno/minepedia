@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import GameShot from '../../components/GameShot.astro';
+import HubRelated from '../HubRelated.astro';
 import ench from '../../data/enchantments.json';
 import enchEs from '../../data/enchantments-es.json';
 interface Props { lang?: 'en' | 'es' }
@@ -44,5 +45,6 @@ const S = lang === 'es' ? {
         </a>
       ))}
     </div>
+    <HubRelated lang={lang} links={[{ en:['/guides/how-to-enchant/','How to enchant items'], es:['/es/guides/how-to-enchant/','Cómo encantar objetos'] }, { en:['/guides/best-sword-enchantments/','Best sword enchantments'], es:['/es/guides/best-sword-enchantments/','Mejores encantamientos para espada'] }, { en:['/guides/all-enchantments-list/','All enchantments list'], es:['/es/guides/all-enchantments-list/','Lista de todos los encantamientos'] }, { en:['/tools/xp-calculator/','XP calculator'], es:['/es/tools/xp-calculator/','Calculadora de XP'] }, { en:['/commands/enchant/','/enchant command'], es:['/es/commands/enchant/','Comando /enchant'] }, { en:['/potions/','Potions'], es:['/es/potions/','Pociones'] }]} />
   </div>
 </Base>
