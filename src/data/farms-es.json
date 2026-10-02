@@ -1773,11 +1773,11 @@
     "difficulty": "Principiante",
     "quickAnswer": "Encuentra una monster room con un spawner de zombie o skeleton, excava una sala de 9x9 alrededor, añade un canal de agua que empuje a los mobs a un conducto de caída y déjalos a medio corazón con una caída de 22 bloques para matarlos de un puñetazo. Quédate a menos de 16 bloques y el spawner hace el resto: la clásica primera granja de XP de cualquier mundo.",
     "mechanics": [
-      "Un spawner se activa cuando estás a menos de 16 bloques (medido a tus pies) e intenta generar 4 mobs cada 10-40 segundos.",
-      "Java genera mobs en un volumen de 9x3x9 centrado en el spawner; Bedrock usa un rango en forma de diamante de 4 bloques en cada dirección.",
-      "El spawner se pausa cuando 6 o más de sus mobs están apretados en una caja de 9x9x9 a su alrededor: tu sistema debe mantener a los mobs ALEJÁNDOSE.",
-      "Los spawners de zombie, skeleton y spider necesitan nivel de luz 0: las torches sobre y alrededor del spawner lo desactivan mientras construyes.",
-      "Una caída de 22 bloques deja a zombies y skeletons a medio corazón: un puñetazo mata, y las muertes a mano dan XP completa y drops raros."
+      "Un spawner se activa con un jugador a menos de 16 bloques (en radio esférico, medido a los pies) e intenta generar 4 mobs, y espera de 10 a 39,95 segundos antes de repetir.",
+      "En Java genera mobs en un volumen de hasta 9x3x9 centrado en el spawner (4 bloques en horizontal, 1 en vertical); Bedrock usa un volumen distinto.",
+      "Si hay 6 o más mobs de su tipo en un volumen de 9x9x9 (Java) alrededor, el spawner no genera nada en ese ciclo: tu sistema debe sacar a los mobs de ahí.",
+      "Los spawners de monstruos no se obtienen en Survival, ni con Silk Touch; al romperlos con pico sueltan 15-43 de experiencia, y con cualquier otra herramienta nada.",
+      "En un monster room el spawner genera zombi (50%), esqueleto (25%) o araña (25%)."
     ],
     "materials": [
       "Water buckets (2-4) para la corriente de recolección",
@@ -1787,19 +1787,18 @@
       "Signs o trapdoors para el control de agua en el conducto"
     ],
     "steps": [
-      "Encuentra una monster room (cubo de cobblestone + mossy cobblestone) explorando cuevas, o localízala con /locate structure minecraft:monster_room.",
+      "Encuentra una monster room (cubo de cobblestone y mossy cobblestone con un spawner en el centro) explorando cuevas.",
       "Ilumina el spawner con torches inmediatamente para que nada aparezca mientras construyes.",
-      "Excava la sala hasta 4 bloques a cada lado del spawner y 2-3 bloques por debajo de su nivel.",
+      "Despeja la sala hasta 4 bloques a cada lado del spawner, dentro de su zona de aparición.",
       "Coloca agua en las esquinas traseras para que la corriente empuje a cada mob a una esquina, y de ahí a un conducto de 1x1.",
-      "Construye un tubo de caída de 22 bloques desde el conducto; abajo, los mobs aterrizan a medio corazón junto a tu punto de AFK/muerte.",
+      "Construye un tubo de caída desde el canal para llevar a los mobs a tu zona de muerte.",
       "Quita las torches, quédate a menos de 16 bloques y reparte puñetazos: recoge XP, bones, flesh y arrows en los hoppers."
     ],
     "rates": "Una granja de un solo spawner bien hecha da nivel 30 en unos 15-20 minutos de matanza activa. Los montajes de spawner doble (dos salas a menos de 16 bloques de un mismo punto AFK) lo duplican aproximadamente.",
     "tips": [
-      "Los spawners de skeleton superan a los de zombie: bones y arrows son útiles, y los skeletons no pueden recoger tu equipo.",
-      "Los spawners de spider necesitan una zona de caída de 3x3 y un diseño de muerte a prueba de string: valen, pero son más liosos; sáltatelos en tu primera granja.",
-      "Si los mobs dejan de aparecer a media sesión, has llegado al tope de 6 mobs: amplía la zona de muerte o aleja a los mobs del spawner.",
-      "Deja una torch en hueco rápido sobre el spawner como interruptor de apagado para reparar equipo a salvo."
+      "Si dejan de generarse mobs, puede ser el límite de 6 mobs: ensancha la zona de muerte o aleja a los mobs.",
+      "Mantén una antorcha disponible para apagar el spawner rápido cuando repares equipo.",
+      "Fuente: minecraft.wiki Monster Spawner."
     ]
   },
   "moss-farm": {
@@ -1943,10 +1942,10 @@
     "quickAnswer": "Convierte dirt en mud con una water bottle, coloca la mud encima de un bloque que tenga pointed dripstone colgando debajo y espera: la mud se seca y se convierte en clay en unos 6,5 minutos de media. Cada bloque de clay equivale a 4 clay balls para bricks: totalmente renovable y automatizable.",
     "mechanics": [
       "Usar una water bottle sobre dirt, coarse dirt o rooted dirt la convierte en mud. Un dispenser cargado con water bottles automatiza el paso y devuelve la botella vacía.",
-      "La mud colocada sobre un bloque con pointed dripstone colgando debajo se seca y pasa a ser clay: 45/256 (unos 17,6%) de probabilidad por random tick, con una media de 388 segundos (~6,5 minutos).",
-      "La dirt es renovable: combina 2 dirt + 2 gravel en 4 coarse dirt, y luego pásale la hoe para volver a dirt. La gravel llega a montones por bartering con piglins.",
-      "Cada bloque de clay se rompe en 4 clay balls. Las balls se cuecen en bricks (para brick blocks y flower pots) o se craftean en terracotta, y los mason villagers las compran por emeralds.",
-      "El pointed dripstone también es renovable: crece bajo dripstone blocks con una fuente de agua encima, así que la granja escala gratis."
+      "Si colocas barro justo encima de un bloque con dripstone puntiaguda colgando debajo, con el tiempo se convierte en arcilla; no ocurre en el Nether.",
+      "El barro es renovable: sal de usar una botella de agua en tierra, tierra gruesa o tierra de raíces.",
+      "Cada bloque de arcilla da 4 bolas de arcilla (Fortune no cambia nada). Las bolas se funden en ladrillos; la arcilla se funde en terracota; un albañil novato compra 10 bolas por 1 esmeralda.",
+      "La botella no puede usarse en la cara inferior del bloque, pero un dispenser sí puede."
     ],
     "materials": [
       "Pointed dripstone (de las dripstone caves): uno por celda",
@@ -1956,18 +1955,18 @@
       "Una shovel para cosechar la clay"
     ],
     "steps": [
-      "Saquea una dripstone cave por un stack de pointed dripstone. De paso, fíjate en algún dripstone block con agua encima: así se regenera más después.",
+      "Consigue dripstone puntiaguda en una cueva de dripstone.",
       "Construye una celda: un bloque sólido a nivel de la mud, pointed dripstone colgando de su cara inferior y espacio libre arriba para el bloque de mud.",
       "Repite la celda en filas largas o cuadrículas: cada celda convierte de forma independiente, así que una fila de 20 multiplica la producción por 20.",
       "Coloca mud encima de cada celda a mano, o automatiza: un dispenser dispara una water bottle a un bloque de dirt (creando mud) y un piston empuja la mud a la celda.",
-      "Espera. Cada celda produce de media un bloque de clay cada ~6,5 minutos, así que vete a otra cosa y vuelve luego.",
+      "Espera: la conversión de barro a arcilla es aleatoria y lenta; vuelve más tarde.",
       "Pica la clay con una shovel (4 balls por bloque), craftea bricks o terracotta, o véndeselas a los mason villagers por emeralds."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
-      "El truco de la water bottle también funciona con botellas splash y lingering, pero un dispenser con botellas normales es la automatización más barata.",
-      "No puedes embotellar dirt desde abajo: la botella debe tocar la cara superior o los lados del bloque (un dispenser apuntando a la cara inferior sí funciona).",
-      "Combínala con una granja de lava con dripstone en la misma construcción: ambas usan celdas de pointed dripstone y comparten estética."
+      "Un dispenser con botellas de agua normales automatiza la creación de barro.",
+      "Las pelotas de arcilla también aparecen en cofres de albañil de aldea (1-3).",
+      "Fuente: minecraft.wiki Mud, Clay y Clay Ball."
     ]
   },
   "honey-farm": {

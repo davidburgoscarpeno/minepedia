@@ -1980,11 +1980,11 @@
     "editions": "java-bedrock-different",
     "quickAnswer": "Find a monster room with a zombie or skeleton spawner, dig out a 9x9 room around it, add a water channel that pushes mobs to a drop chute, and soften them with a 22-block fall so they die in one punch. Stand within 16 blocks and the spawner does the rest - the classic first XP farm in any world.",
     "mechanics": [
-      "A spawner activates when you stand within 16 blocks of it (measured at your feet) and tries to spawn 4 mobs every 10-40 seconds.",
-      "Java spawns mobs in a 9x3x9 volume centered on the spawner; Bedrock uses a diamond-shaped range 4 blocks out in each direction.",
-      "The spawner pauses when 6 or more of its mobs are packed in a 9x9x9 box around it - your kill system must keep mobs MOVING AWAY.",
-      "Zombie, skeleton and spider spawners need light level 0 to work: torches placed on and around the spawner disable it while you build.",
-      "A 22-block drop leaves zombies and skeletons at half a heart - one punch kills, and kills by hand give full XP and rare drops."
+      "A spawner activates with a player within 16 blocks (spherical radius, measured at foot level) and attempts to spawn 4 mobs, then waits 10 to 39.95 seconds before trying again.",
+      "In Java it spawns mobs in a volume of at most 9x3x9 centered on the spawner (4 blocks horizontally, 1 vertically); Bedrock uses a different volume.",
+      "If 6 or more mobs of its type intersect a 9x9x9 volume (Java) around it, the spawner spawns nothing that cycle: your system must move mobs away.",
+      "Monster spawners cannot be obtained in Survival, even with Silk Touch; broken with a pickaxe they drop 15-43 experience, and nothing with any other tool.",
+      "A monster room spawner holds a zombie (50%), skeleton (25%) or spider (25%)."
     ],
     "materials": [
       "Water buckets (2-4) for the collection stream",
@@ -1994,19 +1994,18 @@
       "Signs or trapdoors for water control in the drop chute"
     ],
     "steps": [
-      "Find a monster room (cobblestone + mossy cobblestone cube) while caving, or locate one with /locate structure minecraft:monster_room.",
+      "Find a monster room (cobblestone and mossy cobblestone cube with a spawner in the centre) while caving.",
       "Light the spawner with torches immediately so nothing spawns while you build.",
-      "Dig the room out to 4 blocks on each side of the spawner and 2-3 blocks below its level.",
+      "Clear the room out to 4 blocks on each side of the spawner, inside its spawn volume.",
       "Place water in the back corners so the flow pushes every mob to one corner, then down a 1x1 chute.",
-      "Build a 22-block drop tube from the chute; at the bottom, mobs land at half a heart next to your AFK/kill spot.",
+      "Build a drop tube from the chute to carry mobs to your kill spot.",
       "Remove the torches, stand within 16 blocks, and punch away - collect XP, bones, flesh and arrows at the hoppers."
     ],
     "rates": "A well-built single-spawner farm gives level 30 in about 15-20 minutes of active killing. Double-spawner setups (two rooms within 16 blocks of one AFK spot) roughly double it.",
     "tips": [
-      "Skeleton spawners beat zombie spawners: bones and arrows are useful, and skeletons can not pick up your gear.",
-      "Spider spawners need a 3x3 drop area and string-proof kill design - fine, but messier; skip for a first farm.",
-      "If mobs stop spawning mid-session, you hit the 6-mob crowding cap: widen the kill zone or pull mobs further from the spawner.",
-      "Keep one torch slot on the spawner for a fast off-switch when you need to repair gear safely."
+      "If mobs stop spawning, you may have hit the 6-mob cap: widen the kill zone or move mobs away faster.",
+      "Keep a torch handy to switch the spawner off quickly when you repair gear.",
+      "Source: minecraft.wiki Monster Spawner."
     ],
     "keywords": "spawner xp farm minecraft zombie skeleton monster room dungeon xp grinder level 30"
   },
@@ -2182,10 +2181,10 @@
     "quickAnswer": "Turn dirt into mud with a water bottle, place the mud above a block that has pointed dripstone hanging underneath, and wait: the mud dries into clay in about 6.5 minutes on average. Every clay block smelts or crafts into 4 clay balls' worth of bricks - fully renewable, fully automatable.",
     "mechanics": [
       "Using a water bottle on dirt, coarse dirt or rooted dirt turns it into mud. A dispenser loaded with water bottles automates the step and returns the empty bottle.",
-      "Mud sitting on top of a block with pointed dripstone hanging below it dries into clay: 45/256 (about 17.6%) chance per random tick, averaging 388 seconds (~6.5 minutes).",
-      "Dirt is renewable: combine 2 dirt + 2 gravel into 4 coarse dirt, then hoe it into farmland and back to dirt. Gravel comes in bulk from piglin bartering.",
-      "Each clay block breaks into 4 clay balls. Balls smelt into bricks (for brick blocks and flower pots) or craft into terracotta - and mason villagers buy balls for emeralds.",
-      "Pointed dripstone is renewable too: it grows under dripstone blocks with a water source above, so the farm scales for free."
+      "If you place mud directly above a block with pointed dripstone hanging underneath, it eventually turns into clay; this does not happen in the Nether.",
+      "Mud is renewable: use a water bottle on dirt, coarse dirt or rooted dirt.",
+      "Each clay block yields 4 clay balls (Fortune changes nothing). Balls smelt into bricks; clay smelts into terracotta; a novice mason buys 10 clay balls for 1 emerald.",
+      "The bottle cannot be used on the bottom face of the block, but a dispenser can."
     ],
     "materials": [
       "Pointed dripstone (from dripstone caves) - one per cell",
@@ -2195,18 +2194,18 @@
       "A shovel for harvesting the clay"
     ],
     "steps": [
-      "Raid a dripstone cave for a stack of pointed dripstone. While you are there, note a dripstone block with water above it - that is how you regrow more later.",
+      "Get pointed dripstone from a dripstone cave.",
       "Build a cell: one solid block at mud level, pointed dripstone hanging from its underside, open space above for the mud block.",
       "Repeat the cell in long rows or grids - every cell converts independently, so a 20-cell row multiplies output by 20.",
       "Place mud on top of each cell by hand, or automate: a dispenser fires a water bottle at a dirt block (making mud) and a piston pushes the mud onto the cell.",
-      "Wait. Each cell averages one clay block every ~6.5 minutes, so go do something else and come back.",
+      "Wait: the mud-to-clay conversion is slow and random, so come back later.",
       "Mine the clay with a shovel (4 balls per block), craft bricks or terracotta, or sell the balls to mason villagers for emeralds."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
-      "The water bottle trick also works with splash and lingering bottles, but a dispenser with normal bottles is the cheapest automation.",
-      "You cannot bottle dirt from below: the bottle must hit the top or sides of the block (a dispenser pointed at the bottom face still works).",
-      "Pair this with a dripstone lava farm in the same build - both use pointed dripstone cells and share the aesthetic."
+      "A dispenser with water bottles automates making mud.",
+      "Clay balls also appear in village mason chests (1-3).",
+      "Source: minecraft.wiki Mud, Clay and Clay Ball."
     ],
     "keywords": [
       "clay farm minecraft",
