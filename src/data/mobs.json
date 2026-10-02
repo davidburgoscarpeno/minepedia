@@ -333,17 +333,17 @@
     "type": "Passive",
     "health": "20 (10 hearts)",
     "where": "Villages in plains, desert, savanna, taiga, snowy and meadow biomes. Zombie villagers appear at night anywhere.",
-    "howToKill": "You should not: killing villagers drops your village popularity and iron golems will attack you. They have no drops and give only 1-3 XP.",
+    "howToKill": "Villagers are passive and drop nothing; their value is trading with emeralds. Do not harm them.",
     "drops": [
       {
         "item": "Nothing",
         "qty": "-",
-        "notes": "Villagers drop no items; their value is trading"
+        "notes": "Villagers drop no items"
       }
     ],
-    "spawnConditions": "Generate with villages and igloo basements; never spawn naturally afterwards - breed them or cure zombie villagers to repopulate.",
-    "behavior": "Work at their job site block by day, gossip at the meeting point, sleep at night. Panic from zombies and raid mobs. 15 professions, each with its own trades.",
-    "tameOrBreed": "Breed with food (3 bread or 12 carrots/potatoes/beetroots each) plus spare valid beds. Cure zombie villagers with a Weakness splash potion + golden apple for big trade discounts.",
+    "spawnConditions": "They spawn with villages (plains, snowy plains, savannas, deserts, taigas) and igloo basements. Cure zombie villagers to get more.",
+    "behavior": "Passive mob that works at its profession and breeds. A cured villager keeps its profession and offers discounts on most trades. Source: minecraft.wiki Villager.",
+    "tameOrBreed": "Villagers need 12 carrots or potatoes to become willing to breed. Cure a zombie villager with a Weakness effect, then a golden apple; it transforms after five minutes.",
     "editions": [
       "java",
       "bedrock"
@@ -1117,8 +1117,8 @@
     "name": "Sheep",
     "type": "Passive",
     "health": "8 (4 hearts)",
-    "where": "Overworld grass biomes - plains, meadows, forests and more, in flocks of 2-4.",
-    "howToKill": "One or two sword hits. Shearing first is always better than killing.",
+    "where": "Many grassy biomes of the Overworld (plains, forests and more).",
+    "howToKill": "One or two sword hits, but shearing is better than killing.",
     "drops": [
       {
         "item": "Wool",
@@ -1128,12 +1128,12 @@
       {
         "item": "Raw mutton",
         "qty": "1-2",
-        "notes": "Cooked mutton if killed while on fire; up to 5 with Looting III"
+        "notes": "Cooked mutton if killed while on fire"
       }
     ],
-    "spawnConditions": "On grass blocks at light level 9+, in most grassy Overworld biomes. 5% spawn as babies; natural colors: white (common), black, gray, light gray, brown, and the ultra-rare pink.",
-    "behavior": "Grazes grass blocks (turning them to dirt) to regrow its fleece after shearing. Follows players holding wheat. A sheep named 'jeb_' cycles through every wool color.",
-    "tameOrBreed": "Breed two sheep with wheat; the lamb's color mixes the parents' colors. Shear with shears for 1-3 wool without killing.",
+    "spawnConditions": "Java: 4 sheep above grass at light level 9 or higher, even in snowy taigas but not pale gardens. Bedrock: 2-3 at world generation, light 7 or higher, not in pale gardens, snowy plains, ice spikes or wooded badlands. Six natural colors.",
+    "behavior": "Grazes grass blocks (turning them to dirt) and short grass, which regrows a sheared fleece. Shearing gives 1-3 wool without damage and Fortune or Looting do not affect it. Baby sheep drop nothing. Source: minecraft.wiki Sheep.",
+    "tameOrBreed": "Breed two sheep with wheat; breeding drops 1-7 XP. Any dye changes the wool color of an unsheared sheep.",
     "editions": [
       "java",
       "bedrock"
@@ -1707,7 +1707,7 @@
     "name": "Horse",
     "type": "Passive",
     "health": "15 to 30 (7.5 to 15 hearts, random per horse)",
-    "where": "Plains and savannas in herds of 2-6, all the same base color with varied markings. Villages also generate with horses in stables and pens.",
+    "where": "Plains and savannas in herds of 2-6; all horses in a herd share one color, markings vary.",
     "howToKill": "Drops 0-2 leather plus its saddle and horse armor if equipped. It never fights back, but a tamed horse is worth far more alive than as leather.",
     "drops": [
       {
@@ -1731,9 +1731,9 @@
         "notes": "Only when killed by a player or tamed wolf"
       }
     ],
-    "spawnConditions": "Herds of 2-6 in plains and savannas; 20% spawn as foals. All 7 base colors and 5 marking patterns are equally likely, with the herd sharing one color.",
-    "behavior": "Each horse rolls random speed, jump strength (up to about 5 blocks) and health at spawn, and foals inherit a blend of their parents stats. Taming works by temper: mount with an empty hand, get bucked off, and each attempt adds 5 temper until it beats the horse hidden threshold and hearts appear. Only tamed horses accept a saddle, horse armor and breeding. Feeding apples, wheat or hay bales raises temper and heals.",
-    "tameOrBreed": "Tame by mounting repeatedly (feeding first helps). Breed two tamed horses with golden apples or golden carrots; the foal takes 20 minutes to grow, sped up with food.",
+    "spawnConditions": "Herds of 2-6 in plains and savannas. All 7 base colors and 5 marking patterns (35 coats) are equally likely, and the herd shares one color. 20% spawn as foals (Bedrock; Java spawns adults for individuals).",
+    "behavior": "Passive. Horses differ in run speed, jump height and health, and these can be improved through breeding. They can fall 7 blocks safely and take half normal fall damage. Taming (required to breed, equip or control them) works by mounting repeatedly until they stop bucking you. Led with a golden carrot or golden apple. Source: minecraft.wiki Horse.",
+    "tameOrBreed": "Tame by repeatedly mounting it with an empty hand. Only tamed horses can be bred, saddled or armored.",
     "editions": [
       "java",
       "bedrock"

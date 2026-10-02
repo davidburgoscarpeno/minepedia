@@ -121,12 +121,12 @@
   "villager": {
     "type": "Pacífico",
     "where": "Aldeas de llanuras, desierto, sabana, taiga, biomas nevados y praderas. Los aldeanos zombi aparecen de noche en cualquier sitio.",
-    "spawnConditions": "Se generan con las aldeas y sótanos de iglús; nunca reaparecen de forma natural después: críalos o cura aldeanos zombi para repoblar.",
-    "howToKill": "No deberías: matar aldeanos baja tu popularidad en la aldea y los gólems de hierro te atacarán. No tienen drops y solo dan 1-3 de XP.",
-    "behavior": "Trabajan en su bloque de oficio de día, cotillean en el punto de reunión, duermen de noche. Entran en pánico con zombis y mobs de raids. 15 profesiones, cada una con sus ofertas.",
-    "tameOrBreed": "Cría con comida (3 panes o 12 zanahorias/patatas/remolachas cada uno) más camas válidas libres. Cura aldeanos zombi con poción de Debilidad en splash + manzana dorada para grandes descuentos.",
+    "spawnConditions": "Aparecen con las aldeas (llanuras, llanuras nevadas, sabanas, desiertos, taigas) y los sótanos de iglú. Cura aldeanos zombi para tener más.",
+    "howToKill": "Los aldeanos son pasivos y no sueltan nada; su valor es comerciar con esmeraldas. No les hagas daño.",
+    "behavior": "Mob pasivo que trabaja en su profesión y cría. Un aldeano curado conserva su profesión y da descuentos en casi todos sus tratos. Fuente: minecraft.wiki Villager.",
+    "tameOrBreed": "Los aldeanos necesitan 12 zanahorias o patatas para estar dispuestos a criar. Cura a un aldeano zombi con Debilidad y una manzana dorada; se transforma a los cinco minutos.",
     "notes": [
-      "Los aldeanos no sueltan objetos; su valor está en el comercio"
+      "Los aldeanos no sueltan objetos"
     ]
   },
   "shulker": {
@@ -397,14 +397,14 @@
   },
   "sheep": {
     "type": "Pacífico",
-    "where": "Biomas con hierba del Overworld: llanuras, praderas, bosques y más, en rebaños de 2-4.",
-    "spawnConditions": "Sobre bloques de hierba con nivel de luz 9+, en la mayoría de biomas con hierba del Overworld. 5% aparecen como crías; colores naturales: blanco (común), negro, gris, gris claro, marrón y el rarísimo rosa.",
-    "howToKill": "Uno o dos golpes de espada. Esquilar primero siempre es mejor que matar.",
-    "behavior": "Pasta bloques de hierba (convirtiéndolos en tierra) para que le vuelva a crecer la lana tras esquilarla. Sigue a jugadores con trigo. Una oveja llamada 'jeb_' cicla por todos los colores de lana.",
-    "tameOrBreed": "Cría dos ovejas con trigo; el color del cordero mezcla los de los padres. Esquila con tijeras para 1-3 de lana sin matarla.",
+    "where": "Muchos biomas con hierba del Overworld (llanuras, bosques y más).",
+    "spawnConditions": "Java: 4 ovejas sobre hierba con luz 9 o más, incluso en taigas nevadas pero no en jardines pálidos. Bedrock: 2-3 al generar el mundo, luz 7 o más, no en jardines pálidos, llanuras nevadas, picos de hielo ni badlands boscosos. Seis colores naturales.",
+    "howToKill": "Uno o dos golpes de espada, pero esquilar es mejor que matar.",
+    "behavior": "Pasta bloques de hierba (los convierte en tierra) y hierba corta, lo que regenera el vellón esquilado. Esquilar da 1-3 de lana sin dañarla y Fortune o Saqueo no influyen. Las crías no sueltan nada. Fuente: minecraft.wiki Sheep.",
+    "tameOrBreed": "Cría dos ovejas con trigo; criar suelta 1-7 de XP. Cualquier tinte cambia el color de la lana de una oveja sin esquilar.",
     "notes": [
-      "Del color de su lana; nada si está esquilada",
-      "Cordero cocinado si muere en llamas; hasta 5 con Saqueo III"
+      "Del color de su vellón; nada si está esquilada",
+      "Mutón cocinado si muere ardiendo"
     ]
   },
   "chicken": {
@@ -620,11 +620,11 @@
   },
   "horse": {
     "type": "Pasivo",
-    "where": "Plains y savannas en manadas de 2-6, todas del mismo color base con marcas variadas. Las villages también se generan con horses en establos y corrales.",
+    "where": "Llanuras y sabanas en manadas de 2-6; todos los caballos de una manada comparten color y varían las marcas.",
     "howToKill": "Suelta 0-2 leather más su saddle y horse armor si las llevaba. Nunca contraataca, pero un horse tameado vale mucho más vivo que como leather.",
-    "spawnConditions": "Manadas de 2-6 en plains y savannas; el 20% aparece como potro. Los 7 colores base y los 5 patrones de marcas son igual de probables, con la manada compartiendo un color.",
-    "behavior": "Cada horse sortea velocidad, salto (hasta unos 5 bloques) y vida al aparecer, y los potros heredan una mezcla de las estadísticas de sus padres. El tameo va por temperamento: móntalo con la mano vacía, déjate tirar, y cada intento suma 5 de temperamento hasta superar el umbral oculto y ver corazones. Solo los horses tameados aceptan saddle, horse armor y cría. Darles apples, wheat o hay bales sube el temperamento y los cura.",
-    "tameOrBreed": "Tamea montando una y otra vez (alimentar antes ayuda). Cría dos horses tameados con golden apples o golden carrots; el potro tarda 20 minutos en crecer, acelerado con comida.",
+    "spawnConditions": "Manadas de 2-6 en llanuras y sabanas. Los 7 colores base y 5 marcas (35 combinaciones) son igual de probables y la manada comparte color. 20% aparecen como potros (Bedrock; en Java los individuales salen adultos).",
+    "behavior": "Pasivo. Los caballos difieren en velocidad, salto y vida, y se pueden mejorar criando. Aguantan caídas de 7 bloques y reciben la mitad del daño de caída. Domarlo (necesario para criar, equipar o controlar) consiste en montarlo hasta que deja de tirarte. Se guían con zanahoria dorada o manzana dorada. Fuente: minecraft.wiki Horse.",
+    "tameOrBreed": "Se doma montándolo repetidamente con la mano vacía. Solo los domados se pueden criar, ensillar o equipar con armadura.",
     "keywords": "horse tamear saddle horse armor criar golden carrot velocidad salto estadísticas plains savanna",
     "notes": [
       "Más con Saqueo",
