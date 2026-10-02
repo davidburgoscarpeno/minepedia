@@ -749,9 +749,9 @@
     "mechanics": [
       "Every cast waits 5-30 seconds for a bite; Lure shaves 5 seconds per level, rain cuts ~20%, and a bobber without sky access takes roughly twice as long - fish in the open, in the rain if you can.",
       "The loot split without enchantments: 85% fish, 10% junk, 5% treasure - Luck of the Sea raises treasure at the expense of the other two.",
-      "The treasure gate (Java): the 5x4x5 area around the bobber must be open - water source blocks below, only air or lily pads above - or treasure never spawns, no matter your Luck. This is what broke the old 1x1 AFK machines in 1.16.",
+      "The treasure gate (Java): the 5x4x5 area around the bobber must be open water (only water sources or waterlogged blocks without collision below, air or lily pads above; flowing water does not count) or treasure never appears.",
       "The reel window: when the bobber dips you have about half a second in Bedrock (1-2 seconds in Java) to reel in before the catch escapes.",
-      "Treasure table: enchanted books (including mending), enchanted bows and fishing rods, saddles, name tags, nautilus shells and lily pads - fishing remains the laziest mending source in the game."
+      "Treasure table: bow, enchanted book, fishing rod, name tag, nautilus shell and saddle (1/6 each). Lily pads are junk, not treasure."
     ],
     "materials": [
       "A fishing rod - ideally with Lure III and Luck of the Sea III, mended over time",
@@ -767,14 +767,15 @@
       "Sort the catch: fish to the food chest, enchanted books to the anvil station, junk (string, sticks, leather) to the composter or storage.",
       "Combine books: fishing throws endless low-level enchanted books at you - merge them on an anvil into the ones you actually want.",
       "Repair the rod with the XP: every catch gives 1-6 XP, so a mending rod pays its own upkeep while you fish.",
-      "Semi-automate if you like: note-block door designs let you hold right-click AFK - just keep the open-water rule or you will catch fish and junk forever."
+      "While the open-water rule (Java) is not met you only catch fish and junk, even with Luck of the Sea."
     ],
     "rates": "Output depends on the design, the version and how much of it you build, so we do not quote an hourly figure. Build the layout below, time it for a few minutes in your own world and scale from there.",
     "tips": [
       "Luck of the Sea first, Lure second - treasure quality beats raw speed until your enchants are set.",
-      "In Bedrock there is no open-water requirement, but the tiny reel window (~0.5s) punishes distracted fishing.",
-      "Jungle fishing adds bamboo and cocoa beans to the junk table - free scaffolding materials.",
-      "Keep a waterlogged chest or sign near your AFK spot: the open-water check tolerates waterlogged blocks without collision."
+      "The reel window is about 0.5 s in Bedrock (1-2 s in Java): distracted fishing loses catches.",
+      "Fishing in jungle biomes adds bamboo to the junk table (and cocoa beans in one of the wiki's tables, depending on edition).",
+      "Keep a waterlogged chest or sign near your AFK spot: the open-water check tolerates waterlogged blocks without collision.",
+      "Source: minecraft.wiki Fishing."
     ],
     "keywords": "fishing farm minecraft, afk fish farm minecraft, minecraft fishing loot table, how to get mending from fishing, open water fishing minecraft"
   },

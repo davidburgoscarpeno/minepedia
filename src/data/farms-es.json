@@ -666,9 +666,9 @@
     "mechanics": [
       "Cada lanzamiento espera 5-30 segundos a que pique; Lure recorta 5 segundos por nivel, la lluvia reduce ~20%, y un bobber sin acceso al cielo tarda aproximadamente el doble: pesca a cielo abierto, con lluvia si puedes.",
       "El reparto de loot sin encantamientos: 85% fish, 10% junk, 5% treasure; Luck of the Sea sube el treasure a costa de los otros dos.",
-      "La puerta del tesoro (Java): el área de 5x4x5 alrededor del bobber debe estar abierta (fuentes de agua abajo, solo aire o lily pads arriba) o el tesoro nunca aparece, tengas la suerte que tengas. Esto es lo que rompió las viejas máquinas AFK de 1x1 en la 1.16.",
+      "La puerta del tesoro (Java): el área de 5x4x5 alrededor del bobber debe ser agua abierta (solo fuentes de agua o bloques waterlogged sin colisión, y aire o lily pads encima; el agua que fluye no vale) o el tesoro nunca aparece.",
       "La ventana de recogida: cuando el bobber se hunde tienes medio segundo en Bedrock (1-2 segundos en Java) para recoger antes de que la captura escape.",
-      "La tabla de tesoro: enchanted books (incluido mending), bows y fishing rods encantadas, saddles, name tags, nautilus shells y lily pads; la pesca sigue siendo la fuente de mending más perezosa del juego."
+      "La tabla de tesoro: bow, enchanted book, fishing rod, name tag, nautilus shell y saddle (cada uno 1/6). Las lily pads son junk, no tesoro."
     ],
     "materials": [
       "Una fishing rod, idealmente con Lure III y Luck of the Sea III, reparada con mending con el tiempo",
@@ -684,14 +684,15 @@
       "Clasifica la captura: fish al cofre de comida, enchanted books a la estación del anvil, junk (string, sticks, leather) al composter o al almacén.",
       "Combina los libros: la pesca te lanza enchanted books de bajo nivel sin parar; fusiónalos en un anvil hasta conseguir los que quieres de verdad.",
       "Repara la rod con la XP: cada captura da 1-6 de XP, así que una rod con mending paga su propio mantenimiento mientras pescas.",
-      "Semiautomatiza si quieres: los diseños de puerta con note block permiten mantener pulsado el clic en AFK; solo mantén la regla del agua abierta o pescarás fish y junk para siempre."
+      "Mientras no cumplas la regla del agua abierta (Java) solo pescarás fish y junk, aunque lleves Luck of the Sea."
     ],
     "rates": "El rendimiento depende del diseño, de la versión y de cuánto construyas, así que no damos una cifra por hora. Construye el diseño de abajo, mídelo unos minutos en tu mundo y escala a partir de ahí.",
     "tips": [
       "Luck of the Sea primero, Lure después: la calidad del tesoro gana a la velocidad bruta hasta que tengas los encantamientos montados.",
-      "En Bedrock no hay requisito de agua abierta, pero la ventana de recogida diminuta (~0,5 s) castiga la pesca distraída.",
-      "La pesca en jungle añade bamboo y cocoa beans a la tabla de junk: materiales de scaffolding gratis.",
-      "Mantén un cofre o sign waterlogged cerca de tu punto AFK: la comprobación de agua abierta tolera bloques waterlogged sin colisión."
+      "La ventana de recogida en Bedrock es de ~0,5 s (1-2 s en Java): la pesca distraída pierde capturas.",
+      "La pesca en biomas de jungle añade bamboo a la tabla de junk (y cocoa beans en una de las tablas de la wiki, según la edición).",
+      "Mantén un cofre o sign waterlogged cerca de tu punto AFK: la comprobación de agua abierta tolera bloques waterlogged sin colisión.",
+      "Fuente: minecraft.wiki Fishing."
     ]
   },
   "cobblestone-generator": {
