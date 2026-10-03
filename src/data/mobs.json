@@ -455,8 +455,8 @@
     "name": "Axolotl",
     "type": "Passive (aquatic)",
     "health": "14 (7 hearts)",
-    "where": "Lush caves, in water below Y=63 with clay nearby and total darkness. Five colors; blue only from breeding (1 in 1200).",
-    "howToKill": "Do not - they are helpers. If you must know: they play dead when hurt, regenerating health.",
+    "where": "Lush caves, underwater. Five colors: pink (leucistic), brown, gold, cyan and blue; blue only from breeding (1 in 1200).",
+    "howToKill": "There is no reason to: they help you in aquatic fights. If one is hurt underwater it may play dead for 10 seconds while gaining Regeneration I.",
     "drops": [
       {
         "item": "Nothing (1-3 XP)",
@@ -464,9 +464,9 @@
         "notes": "No item drops"
       }
     ],
-    "spawnConditions": "Water in lush caves, light level 0, below Y=63, within 5 blocks of a clay block.",
-    "behavior": "Swims, plays dead when damaged (regenerates), attacks fish, squid, drowned and guardians when led into battle with a bucket. Grants you Regeneration and removes Mining Fatigue for helping it fight.",
-    "tameOrBreed": "Cannot be tamed but trusts players carrying tropical fish buckets. Breed two with a bucket of tropical fish. Carry it in a water bucket - it survives 5 minutes out of water.",
+    "spawnConditions": "Spawns underwater in the lush caves biome, in groups of 4-6, when there is a clay block less than five blocks below the spawning space.",
+    "behavior": "Passive toward players; follows players holding a bucket of tropical fish. It hunts aquatic mobs and, when you kill a mob that is fighting axolotls, they remove your Mining Fatigue and give Regeneration I for 5 seconds per axolotl. It deals 2 HP per attack. It can wander on land, but can die out of water. A splash water bottle restores 90 seconds of air. Source: minecraft.wiki Axolotl.",
+    "tameOrBreed": "Cannot be tamed. Breed with buckets of tropical fish (5 minute cooldown in Java, 1 in Bedrock). Babies grow in 20 minutes, 10% faster per bucket. It can be carried in a water bucket; it does not despawn once bucketed.",
     "editions": [
       "java",
       "bedrock"
