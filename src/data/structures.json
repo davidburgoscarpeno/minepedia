@@ -165,7 +165,7 @@
     "dimension": "Overworld",
     "howToFind": [
       "Generates rarely in dark forests and pale gardens, often far from world spawn",
-      "Woodland explorer maps come from cartographer villagers and abandoned camp secret chests; a map may not point to the nearest mansion",
+      "Woodland explorer maps come from cartographer villagers (abandoned camp chests are still in development); a map may not point to the nearest mansion",
       "/locate structure minecraft:mansion"
     ],
     "loot": [
@@ -216,7 +216,7 @@
     "howToFind": [
       "Generates underground in any Overworld biome except the deep dark, often intersecting caves",
       "A dark oak variant generates on the surface in badlands biomes",
-      "/locate structure minecraft:mineshaft; explorer maps come from secret chests in abandoned camps"
+      "/locate structure minecraft:mineshaft; explorer maps are listed by the wiki as coming from secret chests in abandoned camps, a feature still in development (Third Drop 2026)"
     ],
     "loot": [
       "Chests always appear as a minecart with chest on rails: rails (78%), name tags, glow berries, seeds, powered/detector/activator rails, enchanted books (14%), diamonds (about 9%)",
@@ -306,27 +306,22 @@
     "name": "Abandoned Camp",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in 18 surface biomes, including dappled forests (usually with a poplar tree) - look for a white wool tent with a campfire",
-      "One generation attempt per 34x34-chunk region, so camps sit 8-60 chunks apart (34 on average)",
-      "Explorer maps found inside camp chests point to other abandoned camps, trial chambers and ancient cities",
+      "IN DEVELOPMENT: the wiki says this structure has appeared in development versions for Third Drop 2026 but is not released yet",
+      "Generates in eighteen Overworld surface biomes (forests, taiga, savanna, jungle, swamp, meadow, pale garden and more)",
+      "One generation attempt per 34x34-chunk region; camps are 8 to 60 chunks apart, 34.5 on average",
       "/locate structure minecraft:abandoned_camp"
     ],
     "loot": [
-      "Barrels and chests: straw beds, white cushions, wheat, bread, coal, leather, arrows, string, bones, rabbit hide, glass bottles, white candles and cobwebs",
-      "Wooden tools, fishing rods and bundles",
-      "Explorer maps leading to other camps and to major structures",
-      "Rare oxidized copper chest with better loot, often hidden under other blocks"
+      "Chests and barrels: bones, coal, straw beds (about 35% per barrel in Java 26.3) and empty maps",
+      "Camp maps lead to other camps",
+      "Rare oxidized copper chests with better loot"
     ],
     "dangers": [
-      "Nothing spawns inside - it is one of the safest structures in the game",
-      "Just the usual night mobs around the camp while you loot"
+      "Details may change before release"
     ],
     "tips": [
-      "The tents are built from wool stairs: free early-game wool if you dismantle one.",
-      "Tent fences and details change per biome (a pale garden camp uses pale oak fences) - with 10 tent variants per biome and 49 campsite variants, there are 8,820 possible layouts.",
-      "Check under and behind blocks for the rare copper chest before leaving.",
-      "Chain the explorer maps: a camp map can start a trail that ends at a trial chambers or an ancient city.",
-      "Straw beds and cushions looted here are the fastest way to try the 26.3 furniture blocks."
+      "The tent is made of white wool stairs; the campfire is unlit.",
+      "There are 10 tent variants per biome, for 8,820 possible camp configurations. Source: minecraft.wiki Abandoned Camp (in development)."
     ],
     "keywords": "abandoned camp structure 26.3 wilderness bound explorer map tent straw bed cushion copper chest",
     "relatedLinks": [
@@ -589,19 +584,16 @@
       "No map and no /locate support for the small features - strip mine in a swamp or desert and watch for bone blocks"
     ],
     "loot": [
-      "Bone blocks: each crafts into 9 bone meal - a fossil is a huge bone meal stockpile",
-      "Coal ore embedded in fossils above Y 0",
-      "Diamond ore (and deepslate diamond ore) embedded below Y -8 - the real treasure of deep fossils"
+      "Bone blocks",
+      "Coal ore embedded in fossils above Y=0",
+      "Diamond ore (Java) and deepslate diamond ore below Y=-8"
     ],
     "dangers": [
-      "Structure integrity 0.9: about 10% of the bone blocks are missing, so some fossils are fragmentary",
-      "Deep fossils sit in deepslate layers full of lava pockets - mine carefully around Y -8 and below",
-      "Do not confuse them with Nether fossils in soul sand valleys - those are a different feature (and this one has the dried ghast connection there)"
+      "Structure integrity 0.9: about 10% of the bone blocks are missing",
+      "Deep fossils sit in deepslate layers with lava pockets"
     ],
     "tips": [
-      "A Fortune pickaxe on the coal and diamond ore pays more than on the bones",
-      "Bone meal from one skull fossil keeps a tree or crop farm fed for a long time",
-      "Mining around Y -10 in a swamp covers both the deepslate diamond fossils and regular diamond levels"
+      "Each chunk has two attempts at 1/64 (Y 0 to 320, and Y -63 to -8). Source: minecraft.wiki Fossil."
     ],
     "keywords": "fossil minecraft desert swamp bone block diamond ore coal find bone meal skull spine"
   },
@@ -610,23 +602,19 @@
     "name": "Desert Well",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in desert biomes: a 1/1000 chance per chunk in Java, 1/500 in Bedrock - pure luck while crossing deserts",
-      "It is a feature, not a structure: /locate cannot find it and it generates even with structures disabled",
-      "Look for a small sandstone ring with water in the middle - sometimes with a cactus growing through it"
+      "Generates in desert biomes (desert hills and lakes too in Bedrock), on sand over solid ground",
+      "It is a structure-like feature, not a full structure",
+      "Look for a small sandstone well with water inside"
     ],
     "loot": [
-      "Suspicious sand: brush it for pottery sherds and other archaeology loot (since 1.20)",
-      "The water itself: an emergency drink for your bottles or a fishing spot in the desert",
-      "Sandstone and slabs if you are really desperate - it is five blocks of building material"
+      "Two suspicious sand blocks under the water, each with one item: pottery sherds (arms up and brewer, 25% each), brick, emerald, stick or suspicious stew (12.5% each)"
     ],
     "dangers": [
-      "None - it is completely safe, just rare",
-      "Do not dig straight down next to the water expecting treasure: there is no chest, never has been"
+      "None"
     ],
     "tips": [
-      "Bring a brush when you cross deserts: every well holds suspicious sand worth brushing",
-      "Wells generate around cacti sometimes - a cactus in the middle is normal, not a player prank",
-      "Bedrock players find them twice as often as Java players"
+      "Bring a brush: every well has suspicious sand.",
+      "Suspicious sand under desert wells was added in 1.20. Source: minecraft.wiki Desert Well."
     ],
     "keywords": "desert well minecraft suspicious sand brush pottery sherds archaeology water feature"
   }
