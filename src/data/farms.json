@@ -878,7 +878,7 @@
       "Confined to a single block, the golem still deposits snow on every supportable block in reach - a 1-block pen with a trapdoor lid is the classic design.",
       "Shoveling a snow layer gives snowballs; the golem lays it again as it moves.",
       "Watch the temperature: golems take damage and die in rain, water and biomes hotter than 1.0 (deserts, badlands, the Nether) - build the farm in a temperate or cold biome, or under a roof.",
-      "mobGriefing false disables the snow trail - check the gamerule if your golem refuses to produce.",
+      "mob_griefing false disables the snow trail - check the gamerule if your golem refuses to produce.",
       "Bonus: golems hurl a snowball per second at any monster within 10 blocks (16 when boxed), and snowballs damage blazes - free blaze chip damage in Nether runs."
     ],
     "materials": [
@@ -1435,7 +1435,7 @@
       "Bone meal randomly increases the crop's growth stage.",
       "No seeds needed: replant part of what you harvest.",
       "Starter crops come from village fields, or a 2.5% drop when a zombie, husk or zombie villager is killed by a player or wolf.",
-      "Rabbits raid mature carrot crops (mobGriefing): fence them out."
+      "Rabbits raid mature carrot crops (mob_griefing): fence them out."
     ],
     "materials": [
       "Starter carrots or potatoes (village farms or rare zombie drops)",
@@ -1456,7 +1456,7 @@
       "Carrots and potatoes breed pigs; carrots also breed rabbits.",
       "Both carrots and potatoes in a composter have a 65% chance to raise the level.",
       "In Java, a zombie killed by fire drops a baked potato.",
-      "Rabbits eat mature carrot crops if mobGriefing is on: fence them out.",
+      "Rabbits eat mature carrot crops if mob_griefing is on: fence them out.",
       "Source: minecraft.wiki Carrot and Potato."
     ],
     "keywords": "carrot farm minecraft, potato farm minecraft, villager carrot farm, minecraft baked potato, fortune carrots"
@@ -1785,7 +1785,7 @@
     "editions": "both",
     "quickAnswer": "Any mob killed by the wither drops one wither rose where it died. Trap a wither in a bedrock-ceiling cage, pipe mobs into its blast zone, and hopper up a flower per kill.",
     "mechanics": [
-      "One mob killed by the wither = one wither rose, placed on the death block if possible, dropped as an item otherwise - even with mobGriefing off, the rose always drops.",
+      "One mob killed by the wither = one wither rose, placed on the death block if possible, dropped as an item otherwise - even with mob_griefing off, the rose always drops.",
       "The rose itself is a weapon: mobs touching it take 1 damage every half-second with the Wither effect - wither skeletons, the wither and the ender dragon are immune.",
       "Only wither skeletons (and, on Bedrock, zombified piglins) can spawn on wither roses.",
       "Bees touching a wither rose get the Wither effect (except in Peaceful) even though they try to pollinate it.",

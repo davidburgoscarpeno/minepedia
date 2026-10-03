@@ -231,7 +231,7 @@
     "since": "1.8 (14w03a)",
     "permission": "Cheats enabled / operator level 2",
     "tips": [
-      "The default block limit (Java: commandModificationBlockLimit) is 32,768 - split big jobs into several fills.",
+      "The default block limit (Java: max_block_modifications) is 32,768 - split big jobs into several fills.",
       "hollow fills only the outer shell; keep only fills air blocks; outline fills only the edges.",
       "To replace one block with another in Java: /fill x1 y1 z1 x2 y2 z2 stone replace dirt."
     ],
@@ -313,7 +313,7 @@
     "tips": [
       "day = 1000, noon = 6000, sunset ~ 12000, night = 13000, midnight = 18000 ticks.",
       "/time query day tells you how many full in-game days have passed in the world.",
-      "Freeze the daylight cycle with /gamerule doDaylightCycle false."
+      "Freeze the daylight cycle with /gamerule advance_time false."
     ],
     "related": [
       "/weather",
@@ -577,7 +577,7 @@
       "java",
       "bedrock"
     ],
-    "since": "Beta 1.9 Prerelease 5 (/xp); Java 1.13 (17w45a) made /experience the main command and /xp an alias",
+    "since": "Beta 1.9 Prerelease 5",
     "permission": "Cheats enabled / operator level 2",
     "tips": [
       "Negative amounts work in Java: /xp add @s -10 levels removes levels.",
@@ -659,7 +659,7 @@
     "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
     "tips": [
       "The destination is the lowest-northwest corner of the copy.",
-      "There is a volume limit (hundreds of thousands of blocks) per clone - split big builds into sections.",
+      "The clone volume is capped by the max_block_modifications game rule (32,768 blocks by default in Java) - split big builds into sections.",
       "Combine with structure blocks or command blocks for repeatable copy-paste contraptions."
     ],
     "related": [
@@ -789,18 +789,18 @@
     "syntax": "gamerule <rule> [<value>]",
     "syntaxBedrock": "gamerule <rule: BoolGameRule> [value: Boolean] OR gamerule <rule: IntGameRule> [value: int]",
     "summary": "Changes world rules like mob griefing, keep inventory, fire spread and daylight cycle.",
-    "description": "/gamerule toggles the fundamental rules of a world: whether creepers destroy blocks (mobGriefing), whether players keep items on death (keepInventory), whether fire spreads (doFireTick), the day cycle (doDaylightCycle) and dozens more. Run it with just the rule name to read the current value. Rules are saved per world.",
+    "description": "/gamerule toggles the fundamental rules of a world: whether creepers destroy blocks (mob_griefing), whether players keep items on death (keep_inventory), how far fire can spread around players (fire_spread_radius_around_player), the day cycle (advance_time) and dozens more. Run it with just the rule name to read the current value. Rules are saved per world.",
     "examples": [
       {
-        "code": "/gamerule keepInventory true",
+        "code": "/gamerule keep_inventory true",
         "note": "Players keep their items when they die"
       },
       {
-        "code": "/gamerule mobGriefing false",
+        "code": "/gamerule mob_griefing false",
         "note": "Stop creepers, endermen and ghasts from damaging blocks"
       },
       {
-        "code": "/gamerule doDaylightCycle false",
+        "code": "/gamerule advance_time false",
         "note": "Freeze time at the current moment"
       }
     ],
@@ -812,9 +812,10 @@
     "since": "Java 1.4.2 (12w32a) / Pocket 1.0.5",
     "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock); some Bedrock rules work without cheats",
     "tips": [
-      "KeepInventory only affects deaths after it is set.",
-      "sendCommandFeedback false hides command output from other players' chat.",
-      "In Bedrock, many gamerules can also be toggled in world settings without cheats."
+      "keep_inventory only affects deaths after it is set.",
+      "send_command_feedback false hides command output from other players' chat.",
+      "In Bedrock, many gamerules can also be toggled in world settings without cheats.",
+      "Java renamed its rules in 1.21.11 (for example advance_time, keep_inventory, mob_griefing). Bedrock keeps the lowercase names: dodaylightcycle, keepinventory, mobgriefing."
     ],
     "related": [
       "/difficulty",

@@ -85,7 +85,7 @@
     "targets": "Dos esquinas (x y z) y un ID de bloque",
     "permission": "Trucos activados / nivel de operador 2",
     "tips": [
-      "El límite de bloques por defecto (Java: commandModificationBlockLimit) es 32.768: divide los trabajos grandes en varios fills.",
+      "El límite de bloques por defecto (Java: max_block_modifications) es 32.768: divide los trabajos grandes en varios fills.",
       "hollow rellena solo la carcasa exterior; keep solo rellena bloques de aire; outline solo los bordes.",
       "Para sustituir un bloque por otro en Java: /fill x1 y1 z1 x2 y2 z2 stone replace dirt."
     ],
@@ -119,7 +119,7 @@
     "tips": [
       "day = 1000, noon = 6000, atardecer ~ 12000, night = 13000, midnight = 18000 ticks.",
       "/time query day te dice cuántos días completos de juego han pasado en el mundo.",
-      "Congela el ciclo de día y noche con /gamerule doDaylightCycle false."
+      "Congela el ciclo de día y noche con /gamerule advance_time false."
     ],
     "notes": [
       "Salta a la mañana (tick 1000)",
@@ -255,7 +255,7 @@
     "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
     "tips": [
       "El destino es la esquina noroeste más baja de la copia.",
-      "Hay un límite de volumen (cientos de miles de bloques) por clonación: divide las construcciones grandes en secciones.",
+      "El volumen por clonación está limitado por la regla max_block_modifications (32.768 bloques por defecto en Java): divide las construcciones grandes en secciones.",
       "Combínalo con bloques de estructura o de comandos para mecanismos de copiar-pegar repetibles."
     ],
     "notes": [
@@ -312,13 +312,14 @@
   },
   "gamerule": {
     "summary": "Cambia reglas del mundo como mob griefing, keep inventory, propagación del fuego y ciclo de día.",
-    "description": "/gamerule activa o desactiva las reglas fundamentales de un mundo: si los creepers destruyen bloques (mobGriefing), si los jugadores conservan los objetos al morir (keepInventory), si el fuego se propaga (doFireTick), el ciclo de día (doDaylightCycle) y decenas más. Ejecútalo solo con el nombre de la regla para leer su valor actual. Las reglas se guardan por mundo.",
+    "description": "/gamerule activa o desactiva las reglas fundamentales de un mundo: si los creepers destruyen bloques (mob_griefing), si los jugadores conservan los objetos al morir (keep_inventory), hasta qué distancia se propaga el fuego alrededor de los jugadores (fire_spread_radius_around_player), el ciclo de día (advance_time) y decenas más. Ejecútalo solo con el nombre de la regla para leer su valor actual. Las reglas se guardan por mundo.",
     "targets": "Todo el mundo",
     "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock); algunas reglas de Bedrock funcionan sin trucos",
     "tips": [
-      "KeepInventory solo afecta a las muertes posteriores a activarlo.",
-      "sendCommandFeedback false oculta la salida de los comandos en el chat de otros jugadores.",
-      "En Bedrock, muchas reglas también se cambian en los ajustes del mundo sin trucos."
+      "keep_inventory solo afecta a las muertes posteriores a activarlo.",
+      "send_command_feedback false oculta la salida de los comandos en el chat de otros jugadores.",
+      "En Bedrock, muchas reglas también se cambian en los ajustes del mundo sin trucos.",
+      "Java renombró las reglas en 1.21.11 (por ejemplo advance_time, keep_inventory, mob_griefing). Bedrock conserva los nombres en minúsculas: dodaylightcycle, keepinventory, mobgriefing."
     ],
     "notes": [
       "Los jugadores conservan sus objetos al morir",

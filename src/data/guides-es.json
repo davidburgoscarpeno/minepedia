@@ -1824,7 +1824,7 @@
       "Torches y comida para las sesiones de minería",
       "Opcional: pickaxe con Silk Touch para guardar el XP de las menas"
     ],
-    "editionNote": "Las fuentes principales de XP son compartidas. En Java, los advancements de desafío pagan XP y el cactus es la mejor paga al fundir; en Bedrock los pagos de fundición varían ligeramente. Al morir sueltas 7 de XP por nivel hasta 100 puntos, salvo que keepInventory esté activado.",
+    "editionNote": "Las fuentes principales de XP son compartidas. En Java, los advancements de desafío pagan XP y el cactus es la mejor paga al fundir; en Bedrock los pagos de fundición varían ligeramente. Al morir sueltas 7 de XP por nivel hasta 100 puntos, salvo que keep_inventory esté activado.",
     "versions": "Vigente en las últimas versiones de Java y Bedrock; el pago del ender dragon en la primera muerte es de 12.000 de XP, la mayor fuente única del juego.",
     "faq": [
       {
@@ -1837,7 +1837,7 @@
       },
       {
         "q": "¿Pierdo mi XP al morir?",
-        "a": "Sueltas orbes por valor de 7 de XP por nivel, con tope de 100 puntos (unos 7 niveles), y el resto desaparece. Con la gamerule keepInventory activada lo conservas todo."
+        "a": "Sueltas orbes por valor de 7 de XP por nivel, con tope de 100 puntos (unos 7 niveles), y el resto desaparece. Con la gamerule keep_inventory activada lo conservas todo."
       }
     ],
     "relatedLinks": [
@@ -5963,7 +5963,7 @@
       "Respeta al warden: los sculk sensors y shriekers lo invocan tras 3 avisos. Si los shriekers se activan, quédate quieto y solo lootea cuando vuelva a enterrarse. Nada de los cofres vale una pelea con el warden.",
       "Lootea todos los cofres: las echo shards generan solo en cofres de ancient cities, ~30% de probabilidad por cofre en stacks de 1-3. Una ciudad completa suele tener varios cofres, así que una buena ronda da varias shards.",
       "Craftea la recovery compass: 8 echo shards alrededor de una compass normal. Apunta a la ubicación de tu muerte más reciente, pero solo mientras estés en la misma dimensión, y gira al azar antes de tu primera muerte.",
-      "Úsala bien: la propia recovery compass también cae al morir (salvo que keepInventory esté activo), así que trátala como herramienta de rescate para tus mejores equipos, no como accesorio diario.",
+      "Úsala bien: la propia recovery compass también cae al morir (salvo que keep_inventory esté activo), así que trátala como herramienta de rescate para tus mejores equipos, no como accesorio diario.",
       "Nota de renovabilidad: las shards no son farmeables; todas salen de cofres. Asalta varias ancient cities si necesitas varias recovery compasses."
     ],
     "materials": [
@@ -15206,7 +15206,7 @@
     "steps": [
       "Entiende qué hace. Un objeto maldito equipado en un hueco de armadura no se puede quitar en supervivencia. Nunca. Ni con grindstone ni con la crafting table: esas solo te lo devuelven todavía maldito.",
       "Encuéntralo como tesoro. Curse of Binding nunca aparece en la enchanting table. Busca en loot de pesca, trades de librarians (cualquier nivel), cofres de estructuras no de aldeas y, en Bedrock, drops de mobs de raids.",
-      "Aprende las vías de escape. Tres salidas: morir (el objeto cae), romper el objeto (solo si tiene durabilidad) o pasar a Creative. Con keepInventory activado, solo funciona romperlo.",
+      "Aprende las vías de escape. Tres salidas: morir (el objeto cae), romper el objeto (solo si tiene durabilidad) o pasar a Creative. Con keep_inventory activado, solo funciona romperlo.",
       "Ojo con los casos especiales. Las carved pumpkins y los mob heads no tienen durabilidad, así que la muerte es la ÚNICA salida: en hardcore eso significa nunca. Lo mismo aplica a las elytra, que tienen durabilidad pero duele romperlas. Un consuelo: colocar una pumpkin o head maldita como bloque y picarla elimina la maldición.",
       "Úsala a propósito. Es sobre todo una herramienta de troleo (dispara una pumpkin maldita con dispenser sobre un amigo), pero tiene usos reales: fijar armadura a jugadores en mapas de aventura, o a mobs para que no la cambien por mejor equipo caído."
     ],
@@ -15229,7 +15229,7 @@
       },
       {
         "q": "¿Puedo morir a propósito para quitármela?",
-        "a": "Sí, es el arreglo estándar: guarda tus objetos de valor, salta desde algo alto y recoge el objeto liberado. Con keepInventory activado, eso sí, el objeto se queda puesto tras morir, así que tendrás que romperlo."
+        "a": "Sí, es el arreglo estándar: guarda tus objetos de valor, salta desde algo alto y recoge el objeto liberado. Con keep_inventory activado, eso sí, el objeto se queda puesto tras morir, así que tendrás que romperlo."
       }
     ],
     "relatedLinks": [
@@ -15253,7 +15253,7 @@
     "steps": [
       "Entiende qué hace. Cuando mueres llevando un objeto maldito, este se desvanece del mundo en lugar de caer al suelo. Nada, ni un hopper, puede recuperarlo.",
       "Encuéntrala como tesoro. Nunca sale de la enchanting table. Loot de pesca, trades de librarians (swamp librarians con el datapack de rebalanceo de trades), cofres de estructuras no de aldeas y, en Bedrock, drops de raids.",
-      "Aprende las excepciones. El objeto NO se desvanece si lo tiraste manualmente antes de morir, o si está dentro de una shulker box o bundle en tu inventario: la maldición no ve dentro de los contenedores. Con keepInventory activado, nunca se dispara.",
+      "Aprende las excepciones. El objeto NO se desvanece si lo tiraste manualmente antes de morir, o si está dentro de una shulker box o bundle en tu inventario: la maldición no ve dentro de los contenedores. Con keep_inventory activado, nunca se dispara.",
       "Acepta que no se puede purificar. Las grindstones y la combinación en crafting no pueden quitar maldiciones. Una vez maldito, el objeto lo sigue hasta que se desvanezca o se rompa.",
       "Sácale partido. Vanishing tiene usos reales: impide que tus enemigos te looteen en PvP, y los mapmakers la usan para objetos de una sola vida. Para el equipo de diario, en cambio, trátala como una etiqueta de advertencia en un buen botín."
     ],
@@ -15263,7 +15263,7 @@
       "Una shulker box o bundle (para contrabandearlo a través de la muerte)",
       "Nervios de acero"
     ],
-    "editionNote": "Mismo comportamiento en Java y Bedrock: se desvanece al morir, contenedores y drops manuales exentos, keepInventory la desactiva. En Bedrock puede aparecer incluso en la recovery compass: una combinación especialmente cruel.",
+    "editionNote": "Mismo comportamiento en Java y Bedrock: se desvanece al morir, contenedores y drops manuales exentos, keep_inventory la desactiva. En Bedrock puede aparecer incluso en la recovery compass: una combinación especialmente cruel.",
     "versions": "Curse of Vanishing llegó en la Exploration Update (Java 1.11, 2016; Bedrock 1.1, 2017) junto a Curse of Binding.",
     "faq": [
       {
@@ -15620,7 +15620,7 @@
       },
       {
         "q": "¿Por qué mi allay no recoge objetos?",
-        "a": "Tres razones habituales: la game rule mobGriefing está en false, los drops están a más de 32 bloques de ti, o tú estás a más de 64 bloques y no te sigue."
+        "a": "Tres razones habituales: la game rule mob_griefing está en false, los drops están a más de 32 bloques de ti, o tú estás a más de 64 bloques y no te sigue."
       },
       {
         "q": "¿Puede un allay encontrar cualquier objeto?",
@@ -24126,7 +24126,7 @@
       },
       {
         "q": "¿Puedo teletransportarme a mi cama?",
-        "a": "No con comandos vanilla: no hay consulta de coordenadas de la cama. Muere con keepInventory desactivado y reaparecerás en tu cama; si no, apunta las coordenadas de la cama y haz /tp allí."
+        "a": "No con comandos vanilla: no hay consulta de coordenadas de la cama. Muere con keep_inventory desactivado y reaparecerás en tu cama; si no, apunta las coordenadas de la cama y haz /tp allí."
       }
     ],
     "relatedLinks": [
@@ -24157,7 +24157,7 @@
       "Compass: una compass normal apunta al world spawn. Si tu base está cerca del spawn, síguela; si no, sigue siendo un punto de referencia fijo desde el que navegar.",
       "Compass de lodestone: usa una compass sobre un lodestone colocado en tu base y apuntará a ese lodestone para siempre: el verdadero objeto 'llévame a casa', y funciona en cualquier dimensión.",
       "Recovery compass: fabrica una con echo shards de una ancient city; apunta a tu último punto de muerte, no a tu base: perfecta para recuperar tu cadáver.",
-      "Perdido sin coordenadas: sube alto al amanecer y busca terreno que recuerdes, consulta tus mapas o retrocede con antorchas. Como último recurso, morir te hace reaparecer en tu cama (pierdes los objetos si keepInventory está desactivado).",
+      "Perdido sin coordenadas: sube alto al amanecer y busca terreno que recuerdes, consulta tus mapas o retrocede con antorchas. Como último recurso, morir te hace reaparecer en tu cama (pierdes los objetos si keep_inventory está desactivado).",
       "Hábitos de prevención: duerme en una bed para fijar tu spawn, lleva 8+ torches y colócalas siempre en el mismo lado en las cuevas (derecha al entrar, izquierda al salir), y haz un map de la zona alrededor de la base."
     ],
     "versions": "Las compasses apuntan al world spawn desde Alpha. Los lodestones llegaron en la 1.16 (Nether Update) y la recovery compass en la 1.19 (The Wild Update).",
@@ -25159,29 +25159,29 @@
   "how-to-keep-inventory": {
     "name": "Cómo conservar el inventario al morir",
     "shortTitle": "Keep inventory",
-    "quickAnswer": "Ejecuta /gamerule keepInventory true (necesita cheats) y conservarás tus objetos y tu XP al morir. Vuelve a la normalidad con /gamerule keepInventory false. En Bedrock también hay un interruptor: Activate Cheats > Keep Inventory.",
+    "quickAnswer": "Ejecuta /gamerule keep_inventory true (necesita cheats) y conservarás tus objetos y tu XP al morir. Vuelve a la normalidad con /gamerule keep_inventory false. En Bedrock también hay un interruptor: Activate Cheats > Keep Inventory.",
     "keywords": "cómo conservar inventario minecraft gamerule keepinventory true morir conservar objetos comando",
     "materials": [
       "Cheats activados (en Java vale el truco de Open to LAN)",
       "Bedrock: también disponible como interruptor en los ajustes"
     ],
     "steps": [
-      "Java: abre el chat (T) y ejecuta /gamerule keepInventory true. El juego confirma el cambio de regla.",
+      "Java: abre el chat (T) y ejecuta /gamerule keep_inventory true. El juego confirma el cambio de regla.",
       "¿Sin cheats en tu mundo Java? Pulsa Esc > Open to LAN > Allow Cheats: ON, arranca el mundo LAN y ejecuta el comando. La gamerule queda guardada en el mundo aunque los cheats se apaguen después.",
       "Bedrock: ajustes del mundo > Activate Cheats, baja hasta el interruptor Keep Inventory y actívalo. Activar cheats desactiva los logros de ese mundo.",
       "A partir de ahora, morir no cuesta nada: reapareces con todo tu inventario y tus niveles de experiencia.",
-      "Para volver a la normalidad, ejecuta /gamerule keepInventory false (o apaga el interruptor en Bedrock).",
+      "Para volver a la normalidad, ejecuta /gamerule keep_inventory false (o apaga el interruptor en Bedrock).",
       "Dueños de servidores: el mismo comando funciona desde la consola del servidor o como operator."
     ],
-    "versions": "keepInventory existe en todas las versiones con gamerules: prácticamente todas las versiones modernas de Java y Bedrock.",
+    "versions": "keep_inventory existe en todas las versiones con gamerules: prácticamente todas las versiones modernas de Java y Bedrock.",
     "editionNote": "Bedrock lo esconde tras el interruptor de cheats, que desactiva los logros. Java no bloquea nada: los advancements siguen funcionando.",
     "faq": [
       {
-        "q": "¿keepInventory cuenta como hacer trampa?",
+        "q": "¿keep_inventory cuenta como hacer trampa?",
         "a": "Es una regla de juego integrada por Mojang: en Java ni siquiera te quita advancements. En Bedrock, cualquier interruptor de cheats desactiva los logros de ese mundo."
       },
       {
-        "q": "¿Pierdo XP con keepInventory activado?",
+        "q": "¿Pierdo XP con keep_inventory activado?",
         "a": "No. Conservas tus objetos y tus niveles de experiencia al morir."
       }
     ],
@@ -25458,8 +25458,8 @@
   "how-to-change-the-time": {
     "name": "Cómo cambiar la hora en Minecraft",
     "shortTitle": "Cambiar la hora",
-    "quickAnswer": "Ejecuta /time set day (o noon, night, midnight) con cheats activados. /time set 1000 usa ticks exactos. Para el ciclo día-noche del todo con /gamerule doDaylightCycle false.",
-    "keywords": "cómo cambiar la hora minecraft time set day night comando ticks doDaylightCycle siempre de día",
+    "quickAnswer": "Ejecuta /time set day (o noon, night, midnight) con cheats activados. /time set 1000 usa ticks exactos. Para el ciclo día-noche del todo con /gamerule advance_time false.",
+    "keywords": "cómo cambiar la hora minecraft time set day night comando ticks advance_time siempre de día",
     "materials": [
       "Cheats activados (en Java vale el truco de Open to LAN)",
       "Nada más: un comando"
@@ -25469,10 +25469,10 @@
       "Otros presets: /time set noon (sol en lo alto), /time set sunset, /time set night (salen monstruos), /time set midnight.",
       "Control exacto: /time set 1000 fija el tick 1000. Un día de Minecraft completo son 24000 ticks (20 minutos reales); el día empieza sobre el tick 0-1000 y la noche cae cerca del tick 13000.",
       "Avanza el tiempo sin saltos: /time add 6000 suma esos ticks.",
-      "Congela el tiempo para siempre: /gamerule doDaylightCycle false: el sol se detiene hasta que lo vuelvas a poner en true. Combinado con /time set day tienes día permanente.",
+      "Congela el tiempo para siempre: /gamerule advance_time false: el sol se detiene hasta que lo vuelvas a poner en true. Combinado con /time set day tienes día permanente.",
       "Consulta la hora actual con /time query daytime."
     ],
-    "versions": "Los comandos de tiempo y doDaylightCycle funcionan igual en todas las versiones actuales de Java y Bedrock.",
+    "versions": "Los comandos de tiempo y advance_time funcionan igual en todas las versiones actuales de Java y Bedrock.",
     "editionNote": "Comandos idénticos en ambas ediciones. Bedrock también muestra el ciclo de día en los ajustes del mundo bajo cheats, lo que desactiva los logros.",
     "faq": [
       {
@@ -25500,8 +25500,8 @@
   "how-to-change-the-weather": {
     "name": "Cómo cambiar el clima en Minecraft",
     "shortTitle": "Cambiar el clima",
-    "quickAnswer": "Ejecuta /weather clear (o rain, thunder) con cheats activados; añade una duración en segundos, como /weather clear 1000000. Para los cambios de clima para siempre con /gamerule doWeatherCycle false.",
-    "keywords": "cómo cambiar el clima minecraft weather clear rain thunder comando quitar lluvia doWeatherCycle",
+    "quickAnswer": "Ejecuta /weather clear (o rain, thunder) con cheats activados; añade una duración en segundos, como /weather clear 1000000. Para los cambios de clima para siempre con /gamerule advance_weather false.",
+    "keywords": "cómo cambiar el clima minecraft weather clear rain thunder comando quitar lluvia advance_weather",
     "materials": [
       "Cheats activados (en Java vale el truco de Open to LAN)",
       "Nada más: un comando"
@@ -25510,16 +25510,16 @@
       "Abre el chat (T) y ejecuta /weather clear: la lluvia o la tormenta paran en segundos.",
       "Otras opciones: /weather rain inicia la lluvia, /weather thunder inicia una tormenta (rayos y monstruos de día).",
       "Añade duración en segundos: /weather clear 1000000 mantiene el cielo despejado más de 11 días de juego en tiempo real.",
-      "Congela el clima para siempre: /gamerule doWeatherCycle false: el clima actual no vuelve a cambiar hasta que lo pongas en true otra vez.",
+      "Congela el clima para siempre: /gamerule advance_weather false: el clima actual no vuelve a cambiar hasta que lo pongas en true otra vez.",
       "El clima solo existe en el Overworld: el Nether y el End no tienen.",
       "Dormir durante una tormenta en una bed también la despeja, sin cheats."
     ],
-    "versions": "Los comandos de clima y doWeatherCycle funcionan igual en todas las versiones actuales de Java y Bedrock.",
+    "versions": "Los comandos de clima y advance_weather funcionan igual en todas las versiones actuales de Java y Bedrock.",
     "editionNote": "Idéntico en ambas ediciones. Los desiertos y los biomas nevados reaccionan distinto: en los desiertos no llueve, y en los biomas fríos nieva en lugar de llover.",
     "faq": [
       {
         "q": "¿Cómo quito la lluvia para siempre?",
-        "a": "Ejecuta /gamerule doWeatherCycle false con el cielo despejado. El clima queda congelado hasta que reactives el ciclo."
+        "a": "Ejecuta /gamerule advance_weather false con el cielo despejado. El clima queda congelado hasta que reactives el ciclo."
       },
       {
         "q": "¿La lluvia sirve para algo?",
@@ -25815,7 +25815,7 @@
       "Sin uno: vuelve sobre tu ruta. El mensaje de muerte del chat dice qué te mató pero no las coordenadas, así que haz captura de tu pantalla F3 al explorar zonas peligrosas.",
       "Tus objetos desaparecen a los 5 minutos, pero solo mientras su chunk está cargado. El temporizador se pausa si no hay nadie cerca, así que sueles tener mucho más de 5 minutos reales.",
       "¿Moriste en lava? Los objetos se queman al tocar la lava: solo el equipo de netherite flota y sobrevive.",
-      "Con cheats, /gamerule keepInventory true hace que esto deje de ser un problema en adelante.",
+      "Con cheats, /gamerule keep_inventory true hace que esto deje de ser un problema en adelante.",
       "Bedrock: se aplica la misma regla de los 5 minutos, y el recovery compass también existe ahí."
     ],
     "versions": "El recovery compass se añadió en la 1.19 y funciona en todas las versiones actuales. La regla de los 5 minutos de despawn nunca ha cambiado.",
@@ -29857,7 +29857,7 @@
       },
       {
         "q": "¿Por qué mi piglin no hace barter?",
-        "a": "Solo los piglins adultos hacen barter: los bebés se quedan el ingot y los piglin brutes ignoran el gold. Además, si la regla mobGriefing está desactivada, solo hacen barter cuando usas el ingot directamente sobre ellos."
+        "a": "Solo los piglins adultos hacen barter: los bebés se quedan el ingot y los piglin brutes ignoran el gold. Además, si la regla mob_griefing está desactivada, solo hacen barter cuando usas el ingot directamente sobre ellos."
       }
     ],
     "relatedGuides": [

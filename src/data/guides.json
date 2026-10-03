@@ -2144,7 +2144,7 @@
       "Torches and food for mining trips",
       "Optional: Silk Touch pickaxe to bank ore XP"
     ],
-    "editionNote": "Core XP sources are shared. In Java, challenge advancements pay XP and cactus is the best smelting payout; in Bedrock, smelting payouts differ slightly. Dying drops 7 XP per level up to 100 points unless keepInventory is on.",
+    "editionNote": "Core XP sources are shared. In Java, challenge advancements pay XP and cactus is the best smelting payout; in Bedrock, smelting payouts differ slightly. Dying drops 7 XP per level up to 100 points unless keep_inventory is on.",
     "versions": "Current for the latest Java and Bedrock releases; the ender dragon's first-kill payout is 12,000 XP, the highest single source in the game.",
     "faq": [
       {
@@ -2157,7 +2157,7 @@
       },
       {
         "q": "Do I lose my XP when I die?",
-        "a": "You drop orbs worth 7 XP per level, capped at 100 points (roughly 7 levels), and the rest vanishes. With the keepInventory gamerule on, you keep everything."
+        "a": "You drop orbs worth 7 XP per level, capped at 100 points (roughly 7 levels), and the rest vanishes. With the keep_inventory gamerule on, you keep everything."
       }
     ],
     "relatedGuides": [
@@ -6421,7 +6421,7 @@
       "Respect the warden: sculk sensors and shriekers summon it after 3 warnings. If shriekers trigger, freeze, and only loot once it digs back down. Nothing in the chests is worth a warden fight.",
       "Loot every chest: echo shards generate only in ancient city chests, roughly a 30% chance per chest in stacks of 1-3. A full city usually has several chests, so one good run yields multiple shards.",
       "Craft the recovery compass: 8 echo shards around a regular compass. It points to the location of your most recent death - but only while you're in the same dimension, and it spins randomly before your first death.",
-      "Use it right: the recovery compass itself still drops when you die (unless keepInventory is on), so treat it as a retrieval tool for your best gear runs, not an everyday carry.",
+      "Use it right: the recovery compass itself still drops when you die (unless keep_inventory is on), so treat it as a retrieval tool for your best gear runs, not an everyday carry.",
       "Renewable note: shards aren't farmable - every one comes from a chest. Raid multiple ancient cities if you need several recovery compasses."
     ],
     "materials": [
@@ -16816,7 +16816,7 @@
     "steps": [
       "Know what it does. A cursed item equipped in an armor slot cannot be removed in survival. Ever. Not with a grindstone, not with a crafting table - those just give it back still cursed.",
       "Find it as treasure. Curse of Binding never appears on the enchanting table. Look in fishing loot, librarian trades (any level), non-village structure chests, and - in Bedrock - raid mob drops.",
-      "Learn the escape routes. Three ways out: die (the item drops), break the item (only if it has durability), or switch to Creative. With keepInventory on, only breaking works.",
+      "Learn the escape routes. Three ways out: die (the item drops), break the item (only if it has durability), or switch to Creative. With keep_inventory on, only breaking works.",
       "Beware the special cases. Carved pumpkins and mob heads have no durability, so death is the ONLY way out - in hardcore that means never. The same applies to elytra, which have durability but are painful to break. One mercy: placing a cursed pumpkin or head as a block and mining it removes the curse.",
       "Use it on purpose. It is mostly a trolling tool (dispenser a cursed pumpkin onto a friend), but it has real uses: locking armor onto players in adventure maps, or onto mobs so they never swap for better dropped gear."
     ],
@@ -16839,7 +16839,7 @@
       },
       {
         "q": "Can I die on purpose to remove it?",
-        "a": "Yes, that is the standard fix - store your valuables, jump off something tall, and pick the freed item back up. With keepInventory on, though, the item stays on your corpse-self, so you must break it instead."
+        "a": "Yes, that is the standard fix - store your valuables, jump off something tall, and pick the freed item back up. With keep_inventory on, though, the item stays on your corpse-self, so you must break it instead."
       }
     ],
     "relatedGuides": [
@@ -16869,7 +16869,7 @@
     "steps": [
       "Know what it does. When you die holding a cursed item, it vanishes from the world instead of dropping. Nothing - not even a hopper - can recover it.",
       "Find it as treasure. It never comes from the enchanting table. Fishing loot, librarian trades (swamp librarians with the trade rebalance datapack), non-village structure chests and, in Bedrock, raid drops.",
-      "Learn the exceptions. The item does NOT vanish if you manually dropped it before dying, or if it sits inside a shulker box or bundle in your inventory - the curse cannot see inside containers. With keepInventory on, it never triggers at all.",
+      "Learn the exceptions. The item does NOT vanish if you manually dropped it before dying, or if it sits inside a shulker box or bundle in your inventory - the curse cannot see inside containers. With keep_inventory on, it never triggers at all.",
       "Accept it cannot be cleansed. Grindstones and crafting combining cannot remove curses. Once an item is cursed, it stays cursed until it vanishes or breaks.",
       "Exploit it. Vanishing has real uses: it prevents enemies from looting your gear in PvP, and mapmakers use it for one-life items. For everyday gear, though, treat it as a warning label on otherwise nice loot."
     ],
@@ -16879,7 +16879,7 @@
       "A shulker box or bundle (to smuggle it through death)",
       "Nerves of steel"
     ],
-    "editionNote": "Same behavior in Java and Bedrock: vanish on death, containers and manual drops exempt, keepInventory disables it. In Bedrock it can also appear on the recovery compass - a uniquely cruel combination.",
+    "editionNote": "Same behavior in Java and Bedrock: vanish on death, containers and manual drops exempt, keep_inventory disables it. In Bedrock it can also appear on the recovery compass - a uniquely cruel combination.",
     "versions": "Curse of Vanishing arrived in the Exploration Update (Java 1.11, 2016; Bedrock 1.1, 2017) together with Curse of Binding.",
     "faq": [
       {
@@ -17278,7 +17278,7 @@
       },
       {
         "q": "Why won't my allay pick up items?",
-        "a": "Three common reasons: the mobGriefing game rule is false, the drops are further than 32 blocks from you, or you are more than 64 blocks away so it is not following."
+        "a": "Three common reasons: the mob_griefing game rule is false, the drops are further than 32 blocks from you, or you are more than 64 blocks away so it is not following."
       },
       {
         "q": "Can an allay find any item?",
@@ -27422,7 +27422,7 @@
       },
       {
         "q": "Can I teleport to my bed?",
-        "a": "Not with vanilla commands - there is no bed coordinate lookup. Die with keepInventory off and you respawn at your bed; otherwise note the bed's coordinates and /tp there."
+        "a": "Not with vanilla commands - there is no bed coordinate lookup. Die with keep_inventory off and you respawn at your bed; otherwise note the bed's coordinates and /tp there."
       }
     ],
     "relatedGuides": [
@@ -27459,7 +27459,7 @@
       "Compass: a normal compass points to world spawn. If your base is near spawn, follow it; if not, it is still a fixed reference point you can navigate from.",
       "Lodestone compass: use a compass on a lodestone placed at your base and it points to that lodestone forever - the true 'point me home' item, working in any dimension.",
       "Recovery compass: craft one with echo shards from an ancient city; it points to your last death spot, not your base - perfect for corpse runs.",
-      "Lost without coordinates: climb high at sunrise and look for terrain you remember, check your maps, or retrace with torches. As a last resort, dying respawns you at your bed (you lose your items unless keepInventory is on).",
+      "Lost without coordinates: climb high at sunrise and look for terrain you remember, check your maps, or retrace with torches. As a last resort, dying respawns you at your bed (you lose your items unless keep_inventory is on).",
       "Prevention habits: sleep in a bed to set spawn, carry 8+ torches and place them always on the same side in caves (right going in, left coming out), and make a map of the area around base."
     ],
     "versions": "Compasses point to world spawn since Alpha. Lodestones arrived in 1.16 (Nether Update) and the recovery compass in 1.19 (The Wild Update).",
@@ -28542,29 +28542,29 @@
     "slug": "how-to-keep-inventory",
     "name": "How to Keep Inventory When You Die",
     "shortTitle": "Keep Inventory",
-    "quickAnswer": "Run /gamerule keepInventory true (needs cheats) and you keep your items and XP when you die. Turn it back off with /gamerule keepInventory false. On Bedrock it is also a world toggle: Activate Cheats > Keep Inventory.",
+    "quickAnswer": "Run /gamerule keep_inventory true (needs cheats) and you keep your items and XP when you die. Turn it back off with /gamerule keep_inventory false. On Bedrock it is also a world toggle: Activate Cheats > Keep Inventory.",
     "keywords": "how to keep inventory minecraft gamerule keepinventory true die keep items command",
     "materials": [
       "Cheats enabled (Java: Open to LAN trick works)",
       "Bedrock: also available as a world toggle in settings"
     ],
     "steps": [
-      "Java: open chat (T) and run /gamerule keepInventory true. The game confirms the rule changed.",
+      "Java: open chat (T) and run /gamerule keep_inventory true. The game confirms the rule changed.",
       "No cheats on your Java world? Press Esc > Open to LAN > Allow Cheats: ON, start the LAN world and run the command. The gamerule stays saved in the world even after cheats turn off again.",
       "Bedrock: world settings > Activate Cheats, then scroll to the Keep Inventory toggle and turn it on. Activating cheats disables achievements on that world.",
       "From now on, dying costs you nothing: you respawn with your full inventory and experience levels.",
-      "To go back to normal, run /gamerule keepInventory false (or flip the Bedrock toggle off).",
+      "To go back to normal, run /gamerule keep_inventory false (or flip the Bedrock toggle off).",
       "Server owners: the same command works from the server console or as an operator."
     ],
-    "versions": "keepInventory exists in every version that has gamerules - practically all modern Java and Bedrock versions.",
+    "versions": "keep_inventory exists in every version that has gamerules - practically all modern Java and Bedrock versions.",
     "editionNote": "Bedrock hides it behind the cheats toggle, which disables achievements. Java has no achievement lockout - advancements keep working.",
     "faq": [
       {
-        "q": "Does keepInventory count as cheating?",
+        "q": "Does keep_inventory count as cheating?",
         "a": "It is a built-in game rule Mojang put in the game - on Java it does not even cost you advancements. On Bedrock, any cheat toggle disables achievements for that world."
       },
       {
-        "q": "Do I lose XP with keepInventory on?",
+        "q": "Do I lose XP with keep_inventory on?",
         "a": "No. You keep your items and your experience levels when you die."
       }
     ],
@@ -28841,8 +28841,8 @@
     "slug": "how-to-change-the-time",
     "name": "How to Change the Time in Minecraft",
     "shortTitle": "Change the Time",
-    "quickAnswer": "Run /time set day (or noon, night, midnight) with cheats on. /time set 1000 uses exact ticks. Stop the day-night cycle completely with /gamerule doDaylightCycle false.",
-    "keywords": "how to change time minecraft time set day night command ticks doDaylightCycle always day",
+    "quickAnswer": "Run /time set day (or noon, night, midnight) with cheats on. /time set 1000 uses exact ticks. Stop the day-night cycle completely with /gamerule advance_time false.",
+    "keywords": "how to change time minecraft time set day night command ticks advance_time always day",
     "materials": [
       "Cheats enabled (Java: Open to LAN trick works)",
       "Nothing else - one command"
@@ -28852,10 +28852,10 @@
       "Other presets: /time set noon (sun overhead), /time set sunset, /time set night (monsters spawn), /time set midnight.",
       "Exact control: /time set 1000 sets tick 1000. A full Minecraft day is 24000 ticks (20 real minutes); day starts around tick 0-1000 and night falls near tick 13000.",
       "Move time forward without jumping: /time add 6000 adds that many ticks.",
-      "Freeze time forever: /gamerule doDaylightCycle false - the sun stops moving until you set it back to true. Combined with /time set day you get permanent daylight.",
+      "Freeze time forever: /gamerule advance_time false - the sun stops moving until you set it back to true. Combined with /time set day you get permanent daylight.",
       "Check the current time with /time query daytime."
     ],
-    "versions": "Time commands and doDaylightCycle work the same in all current Java and Bedrock versions.",
+    "versions": "Time commands and advance_time work the same in all current Java and Bedrock versions.",
     "editionNote": "Identical commands on both editions. Bedrock also exposes the daylight cycle in the world settings under cheats - which disables achievements.",
     "faq": [
       {
@@ -28883,8 +28883,8 @@
     "slug": "how-to-change-the-weather",
     "name": "How to Change the Weather in Minecraft",
     "shortTitle": "Change the Weather",
-    "quickAnswer": "Run /weather clear (or rain, thunder) with cheats on - add a duration in seconds, like /weather clear 1000000. Stop weather changes forever with /gamerule doWeatherCycle false.",
-    "keywords": "how to change weather minecraft weather clear rain thunder command stop rain doWeatherCycle",
+    "quickAnswer": "Run /weather clear (or rain, thunder) with cheats on - add a duration in seconds, like /weather clear 1000000. Stop weather changes forever with /gamerule advance_weather false.",
+    "keywords": "how to change weather minecraft weather clear rain thunder command stop rain advance_weather",
     "materials": [
       "Cheats enabled (Java: Open to LAN trick works)",
       "Nothing else - one command"
@@ -28893,16 +28893,16 @@
       "Open chat (T) and run /weather clear - the rain or storm stops within seconds.",
       "Other options: /weather rain starts rain, /weather thunder starts a thunderstorm (lightning, monster spawns in daylight).",
       "Add a duration in seconds: /weather clear 1000000 keeps the sky clear for over 11 in-game days of real time.",
-      "Freeze weather permanently: /gamerule doWeatherCycle false - the current weather never changes again until you set it back to true.",
+      "Freeze weather permanently: /gamerule advance_weather false - the current weather never changes again until you set it back to true.",
       "Weather only matters in the Overworld - the Nether and the End have none.",
       "Sleeping through a thunderstorm in a bed also clears it, no cheats needed."
     ],
-    "versions": "Weather commands and doWeatherCycle work the same in all current Java and Bedrock versions.",
+    "versions": "Weather commands and advance_weather work the same in all current Java and Bedrock versions.",
     "editionNote": "Identical on both editions. Deserts and snowy biomes react differently: rain does not fall in deserts, and cold biomes get snow instead.",
     "faq": [
       {
         "q": "How do I stop rain forever?",
-        "a": "Run /gamerule doWeatherCycle false while the sky is clear. Weather is frozen until you turn the cycle back on."
+        "a": "Run /gamerule advance_weather false while the sky is clear. Weather is frozen until you turn the cycle back on."
       },
       {
         "q": "Does rain help with anything?",
@@ -29198,7 +29198,7 @@
       "Without one: retrace your route. The death message in chat names what killed you but not coordinates, so screenshot your F3 screen when exploring dangerous places.",
       "Your items despawn after 5 minutes - but only while their chunk is loaded. The timer pauses if nobody is near, so you usually have far more than 5 real minutes.",
       "Died in lava? Items burn on contact with lava - only netherite gear floats and survives.",
-      "With cheats, /gamerule keepInventory true makes this a non-issue for the future.",
+      "With cheats, /gamerule keep_inventory true makes this a non-issue for the future.",
       "Bedrock: the same 5-minute rule applies, and the recovery compass exists there too."
     ],
     "versions": "The recovery compass was added in 1.19 and works in all current versions. The 5-minute despawn rule has never changed.",
@@ -33240,7 +33240,7 @@
       },
       {
         "q": "Why won't my piglin barter?",
-        "a": "Only adult piglins barter - babies keep the ingot and piglin brutes ignore gold. Also, if the mobGriefing game rule is off, piglins only barter when you use the ingot directly on them."
+        "a": "Only adult piglins barter - babies keep the ingot and piglin brutes ignore gold. Also, if the mob_griefing game rule is off, piglins only barter when you use the ingot directly on them."
       }
     ],
     "relatedGuides": [
