@@ -1282,8 +1282,8 @@
     "name": "Stray",
     "type": "Hostile",
     "health": "20 (10 hearts)",
-    "where": "Snowy biomes: snowy plains, ice spikes, frozen rivers and frozen oceans - replaces 80% of skeletons there (Java).",
-    "howToKill": "Exactly like a skeleton, but every arrow inflicts 30 seconds of Slowness - rushing them through the slowdown is painful, so use a shield, pillars or your own bow.",
+    "where": "Snowy plains and ice spikes (Java and Bedrock), replacing 80% of skeletons under open sky. In Bedrock also frozen rivers, frozen oceans, snowy slopes, jagged peaks and frozen peaks.",
+    "howToKill": "Like a skeleton, but its arrows are tipped with Slowness (30 seconds). Use a shield, pillars or your own bow.",
     "drops": [
       {
         "item": "Bone",
@@ -1301,8 +1301,8 @@
         "notes": "Only with Looting; tipped arrows for your own use"
       }
     ],
-    "spawnConditions": "Light level 0 in snowy Overworld biomes, exposed to the sky (they do not spawn under cover).",
-    "behavior": "A frozen skeleton variant shooting tipped arrows of Slowness. Burns in daylight and hides in shade and water like other skeletons; wolves attack strays on sight. In Java, a skeleton that freezes inside powder snow converts into a stray.",
+    "spawnConditions": "Spawns directly under the sky in the biomes above. Strays do not spawn from monster spawners in Java; trial spawners can spawn them.",
+    "behavior": "A skeleton variant that fires Slowness arrows and does not freeze in powder snow. Burns in daylight. A skeleton kept in powder snow for 7 seconds shakes, then becomes a stray after 15 more seconds. Drops bone, arrow and sometimes an arrow of Slowness; 5 XP when killed by a player or tamed wolf. Source: minecraft.wiki Stray.",
     "tameOrBreed": "Cannot be tamed or bred.",
     "editions": [
       "java",
@@ -1351,7 +1351,7 @@
     "name": "Mooshroom",
     "type": "Passive",
     "health": "10 (5 hearts)",
-    "where": "Mushroom fields (mushroom island) biomes only - the rare red cow.",
+    "where": "Mushroom fields biomes only, in herds of 4-8 on mycelium.",
     "howToKill": "Like a cow - but shearing it first gives 5 red mushrooms and turns it into a normal cow.",
     "drops": [
       {
@@ -1370,9 +1370,9 @@
         "notes": "Milk a red mooshroom with a bowl; suspicious stew with a brown mooshroom after feeding it a flower"
       }
     ],
-    "spawnConditions": "Only on mycelium in mushroom fields biomes, light level 9+. Hostile mobs cannot spawn there - the biome is a natural safe zone.",
-    "behavior": "A red fungus-covered cow. Shearing removes its mushrooms permanently. Lightning strikes convert red mooshrooms to brown (and back). Brown mooshrooms fed a flower give suspicious stew with that flower's effect.",
-    "tameOrBreed": "Breed with wheat. Brown mooshrooms only come from lightning or two brown parents.",
+    "spawnConditions": "Red mooshrooms spawn on mycelium in mushroom fields (5% are babies). In Bedrock they spawn at light level 9 or above since 1.21.30. Brown mooshrooms never spawn naturally.",
+    "behavior": "Shearing drops 5 mushrooms and turns it into a cow; they do not grow back. Lightning within 4 blocks swaps red and brown. Bucket gives milk, bowl gives mushroom stew; a brown mooshroom fed a small flower gives suspicious stew on its next bowl milking. Source: minecraft.wiki Mooshroom.",
+    "tameOrBreed": "Breed with wheat (not with cows). Two red mooshrooms have a 1/1024 chance of a brown baby; red x brown gives a 50% chance of either.",
     "editions": [
       "java",
       "bedrock"
