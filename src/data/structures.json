@@ -84,25 +84,24 @@
     "name": "Bastion Remnant",
     "dimension": "Nether",
     "howToFind": [
-      "Generates in every Nether biome except basalt deltas",
-      "Four types: bridges, hoglin stables, housing units and the treasure room - the treasure bastion has the giant gold-block pyramid and lava pool",
+      "Generates in nether wastes, soul sand valleys, crimson forests and warped forests (not basalt deltas: a fortress generates there instead)",
+      "Four types: bridges, hoglin stables, housing units and treasure rooms",
       "/locate structure minecraft:bastion_remnant"
     ],
     "loot": [
-      "Netherite upgrade smithing template: guaranteed in the treasure room chest (1.20+) - you need 7 diamonds to duplicate each one",
-      "Ancient debris, netherite scraps and sometimes a netherite ingot (treasure room)",
-      "Pigstep music disc, snout banner pattern, gilded blackstone",
-      "Gold blocks by the dozen, especially in the treasure bastion"
+      "Loot chests in ramparts, stables and housing units; treasure rooms hold treasure chests on a lava basin",
+      "Blocks of gold and gilded blackstone",
+      "Piglins, piglin brutes and hoglins that spawn with the structure never despawn"
     ],
     "dangers": [
-      "Piglins attack anyone without gold armor or anyone opening chests and mining gold - wear one gold piece and distract them with gold ingots dropped elsewhere",
-      "Piglin brutes: 50 HP, no fear of gold armor, huge axe damage. They do not respawn - clear them first",
-      "Magma cube spawners under the treasure bastion lava pool"
+      "Piglin brutes spawn only here when the structure generates, and do not despawn unless killed",
+      "Piglins and hoglins do not hunt each other",
+      "A magma cube spawner sits in the treasure room"
     ],
     "tips": [
-      "Loot chests without angering piglins: break the block under the chest, place a hopper feeding a new chest, and take the items from the hopper - piglins only get angry if you open or break the container directly.",
-      "Hoglins in the stables bastion are a free porkchop farm if you block them in.",
-      "Never dig straight down in a bastion: lava pockets and brute fall-traps are everywhere."
+      "Clear the piglin brutes first: they do not despawn.",
+      "Hoglin stables hold hoglins that never despawn.",
+      "Never dig straight down in a bastion: lava is everywhere. Source: minecraft.wiki Bastion Remnant."
     ],
     "keywords": "bastion remnant nether loot piglin brute netherite upgrade template pigstep treasure room"
   },
@@ -111,25 +110,23 @@
     "name": "Nether Fortress",
     "dimension": "Nether",
     "howToFind": [
-      "Generates in strips running north-south: travel east or west (X axis) and you will cross one eventually",
-      "Look for the dark nether brick bridges over lava seas - render distance high helps",
+      "Generates in all Nether biomes; the Nether is split into regions where either a fortress or a bastion remnant generates",
+      "Look for dark nether brick bridges over lava seas",
       "/locate structure minecraft:fortress"
     ],
     "loot": [
-      "Nether wart growing beside stairwells - the start of all brewing",
-      "Blaze spawners: blaze rods for brewing stands and eyes of ender",
-      "Fortress chests: diamonds, saddles, gold and iron horse armor, golden swords",
-      "Wither skeleton skulls: 2.5% base drop (Java +1% per Looting level, Bedrock +2%)"
+      "Nether wart growing beside stairways",
+      "Blaze spawners: blaze rods",
+      "Corridor chests (1/3 chance at each corridor turn): saddles, golden and iron horse armor, gold ingots, diamonds, flint and steel, golden swords"
     ],
     "dangers": [
-      "Wither skeletons inflict Wither: your hearts turn black and drain. Milk cures it",
-      "Blazes set you on fire from range - fire resistance potions turn the fight trivial",
-      "One wrong step off a bridge into lava is the classic hardcore run ender"
+      "Fortresses are the only place wither skeletons and blazes spawn",
+      "Blazes set you on fire from range",
+      "One wrong step off a bridge into lava ends many runs"
     ],
     "tips": [
-      "Wither skeletons only spawn inside the fortress bounding box - mark it before building a skull farm.",
-      "A Looting III sword nearly doubles skull rates; bring one before committing to Wither farming.",
-      "Blaze spawners: cage the spawner with torches on all faces to pause it while you build the farm."
+      "Fortresses use their own mob list; surrounding soul sand valley or warped forest raises spawn rates (Java).",
+      "Light up the fortress to find the spawn spots; glass panes or iron bars keep mobs still. Source: minecraft.wiki Nether Fortress."
     ],
     "keywords": "nether fortress find blaze spawner wither skeleton skull nether wart loot"
   },
@@ -138,25 +135,21 @@
     "name": "Trial Chambers",
     "dimension": "Overworld",
     "howToFind": [
-      "Underground structures of copper and tuff, most common between Y=-20 and Y=40 in the deepslate layers",
+      "Underground structures of copper and tuff; the starting room generates between Y=-40 and -20, and most rooms between Y=-20 and 0",
       "Buy a trial explorer map from a journeyman cartographer (12 emeralds + compass)",
       "/locate structure minecraft:trial_chambers"
     ],
     "loot": [
-      "Vaults opened with trial keys: enchanted books, emeralds, armor trims (bolt and flow)",
-      "Ominous vaults (need ominous trial keys): the heavy core for crafting the mace, flow banner pattern",
-      "Breeze rods from breezes: wind charges and mace crafting",
-      "Music discs Precipice and Creator, pottery sherds exclusive to the chambers"
+      "The only place where trial spawners and vaults generate naturally",
+      "Entrances have vaults and chests; the atrium always has an ominous vault above the entrance doorway"
     ],
     "dangers": [
-      "Trial spawners scale with player count and spawn waves of breezes, bogged, slimes, silverfish and more",
-      "Breezes jump huge distances and their wind charges knock you off ledges into melee range of everything else",
-      "Bad Omen turns trial spawners ominous: better loot, much harder waves (potion-throwing, enchanted gear)"
+      "Trial spawners can summon zombies, husks, skeletons, strays, bogged, spiders, cave spiders, slimes, silverfish and breezes",
+      "Bad Omen turns into Trial Omen and makes all trial spawners ominous: harder, with greater rewards"
     ],
     "tips": [
-      "Each player can open each vault once per structure - bring friends, everyone gets loot.",
-      "Trial spawners rest 30 minutes after a clear: the chambers are a renewable dungeon you can farm.",
-      "Bring a shield and slow-falling: wind charge knockback near the chasm rooms is the main killer."
+      "Some corridor spawners never spawn breezes.",
+      "Source: minecraft.wiki Trial Chambers."
     ],
     "keywords": "trial chambers 1.21 breeze vault trial key heavy core mace ominous",
     "relatedLinks": [

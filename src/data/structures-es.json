@@ -69,71 +69,64 @@
   },
   "bastion-remnant": {
     "howToFind": [
-      "Se genera en todos los biomas del Nether excepto basalt deltas",
-      "Cuatro tipos: puentes, establos de hoglins, viviendas y la sala del tesoro; el bastión del tesoro tiene la pirámide gigante de bloques de oro y la piscina de lava",
+      "Se genera en nether wastes, soul sand valleys, crimson forests y warped forests (no en basalt deltas: ahí se genera una fortaleza)",
+      "Cuatro tipos: puentes, establos de hoglins, unidades de viviendas y salas del tesoro",
       "/locate structure minecraft:bastion_remnant"
     ],
     "loot": [
-      "Netherite upgrade smithing template: garantizada en el cofre de la sala del tesoro (1.20+); necesitas 7 diamantes para duplicar cada una",
-      "Ancient debris, netherite scraps y a veces un netherite ingot (sala del tesoro)",
-      "Disco de música Pigstep, banner pattern Snout, gilded blackstone",
-      "Bloques de oro a docenas, sobre todo en el bastión del tesoro"
+      "Cofres de botín en murallas, establos y viviendas; las salas del tesoro tienen cofres del tesoro sobre una cuenca de lava",
+      "Bloques de oro y gilded blackstone",
+      "Los piglins, piglin brutes y hoglins que aparecen con la estructura nunca desaparecen"
     ],
     "dangers": [
-      "Los piglins atacan a quien no lleve armadura de oro o abra cofres y mine oro: ponte una pieza de oro y distrae a los demás soltando lingotes lejos",
-      "Piglin brutes: 50 HP, no les impresiona tu armadura de oro y pegan hachazos enormes. No reaparecen: límpialos primero",
-      "Spawners de magma cubes bajo la piscina de lava del bastión del tesoro"
+      "Los piglin brutes solo aparecen aquí al generarse la estructura y no desaparecen salvo que los mates",
+      "Piglins y hoglins no se cazan entre sí",
+      "Hay un spawner de magma cubes en la sala del tesoro"
     ],
     "tips": [
-      "Saquea cofres sin enfadar a los piglins: rompe el bloque bajo el cofre, coloca una tolva que alimente un cofre nuevo y saca los objetos desde la tolva; los piglins solo se enfadan si abres o rompes el contenedor directamente.",
-      "Los hoglins del bastión de establos son una granja de porkchops gratis si los encierras.",
-      "Nunca caves en vertical en un bastión: hay bolsas de lava y trampas de caída de los brutes por todas partes."
+      "Elimina primero a los piglin brutes: no desaparecen.",
+      "Los establos tienen hoglins que nunca desaparecen.",
+      "Nunca caves recto hacia abajo en un bastión: hay lava por todas partes. Fuente: minecraft.wiki Bastion Remnant."
     ]
   },
   "nether-fortress": {
     "howToFind": [
-      "Se genera en franjas de norte a sur: viaja al este u oeste (eje X) y acabarás cruzándote con una",
-      "Busca los puentes oscuros de nether bricks sobre mares de lava; ayuda subir la distancia de renderizado",
+      "Se genera en todos los biomas del Nether; el Nether se divide en regiones donde se genera o una fortaleza o un restos de bastión",
+      "Busca puentes de nether bricks oscuros sobre mares de lava",
       "/locate structure minecraft:fortress"
     ],
     "loot": [
-      "Nether wart creciendo junto a las escaleras: el inicio de toda la alquimia",
-      "Spawners de blazes: blaze rods para brewing stands y eyes of ender",
-      "Cofres de la fortaleza: diamantes, monturas, armaduras de caballo de oro e iron, espadas doradas",
-      "Wither skeleton skulls: 2,5% de drop base (Java +1% por nivel de Looting, Bedrock +2%)"
+      "Nether wart junto a las escaleras",
+      "Spawners de blaze: blaze rods",
+      "Cofres de pasillos (1/3 de probabilidad en cada giro): sillas de montar, armadura de caballo de oro y hierro, lingotes de oro, diamantes, flint and steel, espadas de oro"
     ],
     "dangers": [
-      "Los wither skeletons infligen Wither: tus corazones se vuelven negros y se vacían. La leche lo cura",
-      "Los blazes te prenden fuego a distancia: las pociones de Fire Resistance trivializan la pelea",
-      "Un paso en falso desde un puente a la lava es el clásico final de una partida hardcore"
+      "Las fortalezas son el único sitio donde aparecen wither skeletons y blazes",
+      "Los blazes te prenden fuego a distancia",
+      "Un paso en falso de un puente a la lava acaba muchas partidas"
     ],
     "tips": [
-      "Los wither skeletons solo aparecen dentro del área de la fortaleza: márcala antes de construir una granja de calaveras.",
-      "Una espada con Looting III casi duplica el ritmo de calaveras; llévala antes de comprometerte a farmear Withers.",
-      "Spawners de blazes: enjaula el spawner con antorchas en todas las caras para pausarlo mientras construyes la granja."
+      "Las fortalezas usan su propia lista de mobs; un soul sand valley o warped forest alrededor aumenta las apariciones (Java).",
+      "Ilumina la fortaleza para encontrar los puntos de aparición; paneles de cristal o barras de hierro mantienen quietos a los mobs. Fuente: minecraft.wiki Nether Fortress."
     ]
   },
   "trial-chambers": {
     "howToFind": [
-      "Estructuras subterráneas de copper y tuff, más comunes entre Y=-20 e Y=40 en las capas de deepslate",
-      "Compra un trial explorer map a un cartógrafo oficial (journeyman) por 12 esmeraldas + brújula",
+      "Estructuras subterráneas de cobre y toba; la sala inicial se genera entre Y=-40 y -20, y la mayoría de salas entre Y=-20 y 0",
+      "Compra un mapa explorador de trial chambers a un cartógrafo oficial (12 esmeraldas + brújula)",
       "/locate structure minecraft:trial_chambers"
     ],
     "loot": [
-      "Vaults que se abren con trial keys: libros encantados, esmeraldas, armor trims (bolt y flow)",
-      "Ominous vaults (requieren ominous trial keys): el heavy core para fabricar el mace, banner pattern Flow",
-      "Breeze rods de los breezes: wind charges y fabricación del mace",
-      "Discos de música Precipice y Creator, pottery sherds exclusivos de las cámaras"
+      "El único sitio donde se generan trial spawners y vaults de forma natural",
+      "Las entradas tienen vaults y cofres; el atrio siempre tiene un ominous vault sobre la puerta de entrada"
     ],
     "dangers": [
-      "Los trial spawners escalan con el número de jugadores y generan oleadas de breezes, bogged, slimes, silverfish y más",
-      "Los breezes saltan distancias enormes y sus wind charges te empujan desde los bordes al alcance cuerpo a cuerpo de todo lo demás",
-      "Bad Omen vuelve ominous a los trial spawners: mejor botín, oleadas mucho más duras (pociones lanzadas, equipo encantado)"
+      "Los trial spawners pueden invocar zombies, husks, esqueletos, strays, bogged, arañas, arañas de cueva, slimes, silverfish y breezes",
+      "Bad Omen se convierte en Trial Omen y hace ominosos todos los trial spawners: más difíciles, con mejores recompensas"
     ],
     "tips": [
-      "Cada jugador puede abrir cada vault una vez por estructura: trae amigos, todos reciben botín.",
-      "Los trial spawners descansan 30 minutos tras completarlos: las cámaras son una mazmorra renovable que puedes farmear.",
-      "Lleva escudo y Slow Falling: el knockback de los wind charges junto a las salas con sima es el principal asesino."
+      "Algunos spawners de los pasillos nunca invocan breezes.",
+      "Fuente: minecraft.wiki Trial Chambers."
     ],
     "relatedLinks": [
       {
