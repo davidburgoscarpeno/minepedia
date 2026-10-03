@@ -2088,7 +2088,6 @@
     ],
     "tips": [
       "Pufferfish inflate and poison you on contact - keep your distance or catch them with a bucket.",
-      "Warm fish plus a monument in one biome makes this the best one-stop ocean for a potion setup.",
       "The sandy floor is perfect for a glass tunnel base once the local monument is cleared."
     ]
   },
@@ -2121,8 +2120,7 @@
     ],
     "tips": [
       "Follow a cold ocean out to sea: the moment the floor drops to about Y=30 you are in monument territory.",
-      "Gravel floors mean no caves to breathe in - doors, magma columns or a conduit are your air supply.",
-      "Cold deep water hides drowned well; sweep the monument surroundings before starting a farm."
+      "Doors, magma columns or a conduit give you air on long dives."
     ]
   },
   {
@@ -2132,7 +2130,7 @@
     "description": "The strangest deep ocean: frozen-zone water whose surface never freezes. Icebergs drift between open waves, the floor is barren gravel and stone, and monuments hide under the bergs.",
     "keywords": "deep frozen ocean, icebergs minecraft, frozen ocean no ice, blue ice biome",
     "resources": [
-      "Icebergs: packed ice and blue ice without Silk Touch on the surface",
+      "Icebergs: packed ice and blue ice (Silk Touch needed to collect them)",
       "Ocean monument loot: sponges, gold, prismarine",
       "Salmon under the open water",
       "Snow and packed ice on rare stony islands"
@@ -2148,13 +2146,12 @@
       "Shipwrecks and frozen ocean ruins"
     ],
     "whyGo": [
-      "Blue ice farming straight off the icebergs - no Silk Touch grind on the sea floor",
+      "Blue ice and packed ice straight off the icebergs with Silk Touch",
       "Monuments in a biome where the surface stays open water",
       "One of the most photogenic seascapes in the game"
     ],
     "tips": [
       "Unlike the shallow frozen ocean, the surface here never ices over - boats work everywhere.",
-      "Mine blue ice from iceberg bases underwater: 9 blue ice craft nothing, but each block saves 81 regular ice.",
       "Temperature varies inside the biome: cold pockets get snowfall above Y=120 while warm pockets get rain."
     ]
   },
@@ -2280,30 +2277,25 @@
     "slug": "the-void",
     "name": "The Void",
     "category": "End",
-    "description": "An empty biome of pure air used by The Void superflat preset: one 33x33 cobblestone platform at the bottom of the world and nothing else, forever.",
+    "description": "A Java Edition biome with no terrain, structures or features, used by the Void superflat preset. In a single biome world, terrain generates as in a default world but without structures or features.",
     "keywords": "the void biome, void superflat preset, void world minecraft, cobblestone platform",
     "resources": [
-      "One 33x33 void start platform of stone with a cobblestone center at X=8, Y=-61, Z=8",
-      "In single biome worlds: plain stone, dirt, ores and caves - nothing else",
-      "Everything else must come from bonus chests, wandering traders or mods"
+      "Void start platform (generates inside the bedrock layers at the bottom of the world in a single biome world)",
+      "In single biome worlds: the usual terrain blocks (stone, dirt, water, ores) without structures"
     ],
     "mobs": [
-      "Nothing spawns naturally in the superflat void - no passive mobs, and monsters only from structures you build",
-      "Wandering traders still appear occasionally"
+      "See the wiki's Mobs section for natural spawns; structures and features do not generate"
     ],
     "structures": [
-      "The void start platform only",
-      "No structures, no features, no biomes variation"
+      "Void start platform"
     ],
     "whyGo": [
-      "The classic skyblock-style survival challenge",
-      "A perfectly blank canvas for map makers and redstone testing",
-      "Creative void worlds for clean builds without terrain"
+      "A blank canvas for map makers and redstone testing",
+      "Single biome worlds without structures or features"
     ],
     "tips": [
-      "Enable the bonus chest: in a superflat void it is your only source of wood and food.",
-      "In a single biome void world the terrain generates like a normal world - only structures and features are missing.",
-      "Java Edition only: in Bedrock the Void flat preset uses the plains biome but generates identically."
+      "In a single biome Void world the terrain generates like a default world; only structures and features are missing.",
+      "This biome is exclusive to Java Edition."
     ]
   }
 ]

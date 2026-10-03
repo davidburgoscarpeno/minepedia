@@ -1929,7 +1929,6 @@
     ],
     "tips": [
       "Los pufferfish se inflan y te envenenan al contacto: mantén la distancia o atrápalos con un bucket.",
-      "Peces cálidos y un monument en el mismo bioma lo convierten en la mejor parada única para montar tu setup de pociones.",
       "El fondo de sand es perfecto para una base de túneles de glass una vez limpiado el monument de la zona."
     ]
   },
@@ -1960,8 +1959,7 @@
     ],
     "tips": [
       "Sigue un cold ocean mar adentro: cuando el fondo cae a unos Y=30 ya estás en territorio de monuments.",
-      "Los fondos de gravel no tienen cuevas donde respirar: doors, columnas de magma o un conduit son tu oxígeno.",
-      "El agua fría y profunda esconde bien a los drowned: limpia los alrededores del monument antes de montar una granja."
+      "Doors, columnas de magma o un conduit te dan aire en inmersiones largas."
     ]
   },
   "deep-frozen-ocean": {
@@ -1969,7 +1967,7 @@
     "description": "El deep ocean más extraño: agua de zona helada cuya superficie nunca se congela. Los icebergs derivan entre olas abiertas, el fondo es gravel y stone pelados, y los monuments se esconden bajo los témpanos.",
     "keywords": "deep frozen ocean, icebergs minecraft, frozen ocean sin hielo, bioma de blue ice",
     "resources": [
-      "Icebergs: packed ice y blue ice sin necesidad de Silk Touch en superficie",
+      "Icebergs: packed ice y blue ice (hace falta Silk Touch para recogerlos)",
       "Loot de ocean monuments: sponges, gold, prismarine",
       "Salmon bajo el agua abierta",
       "Nieve y packed ice en las raras islas pedregosas"
@@ -1985,13 +1983,12 @@
       "Shipwrecks y ocean ruins heladas"
     ],
     "whyGo": [
-      "Farmear blue ice directamente de los icebergs, sin grindear Silk Touch en el fondo marino",
+      "Blue ice y packed ice directamente de los icebergs con Silk Touch",
       "Monuments en un bioma donde la superficie sigue siendo agua abierta",
       "Uno de los paisajes marinos más fotogénicos del juego"
     ],
     "tips": [
       "A diferencia del frozen ocean normal, la superficie aquí nunca se congela: los boats funcionan en todas partes.",
-      "Mina blue ice de las bases sumergidas de los icebergs: cada bloque equivale a 81 ice normales.",
       "La temperatura varía dentro del bioma: las zonas frías tienen snowfall por encima de Y=120 mientras en las cálidas llueve."
     ]
   },
@@ -2107,30 +2104,25 @@
   },
   "the-void": {
     "category": "End",
-    "description": "Un bioma vacío de puro aire que usa el preset superflat The Void: una plataforma de cobblestone de 33x33 en el fondo del mundo y nada más, para siempre.",
+    "description": "Un bioma de Java Edition sin terreno, estructuras ni features, usado por el preset superflat Void. En un mundo de bioma único, el terreno se genera como en un mundo por defecto pero sin estructuras ni features.",
     "keywords": "bioma the void, preset superflat void, mundo void minecraft, plataforma de cobblestone",
     "resources": [
-      "Una void start platform de 33x33 de stone con centro de cobblestone en X=8, Y=-61, Z=8",
-      "En mundos single biome: stone, dirt, minerales y cuevas sin más",
-      "Todo lo demás debe venir del bonus chest, de wandering traders o de mods"
+      "Plataforma de inicio del void (en un mundo de bioma único se genera dentro de las capas de bedrock, en el fondo del mundo)",
+      "En mundos de bioma único: los bloques de terreno habituales (stone, dirt, agua, ores) sin estructuras"
     ],
     "mobs": [
-      "No spawnea nada de forma natural en el void superflat: ni mobs pasivos, y monstruos solo en estructuras que construyas",
-      "Los wandering traders siguen apareciendo de vez en cuando"
+      "Consulta la sección Mobs de la wiki para los spawns naturales; no se generan estructuras ni features"
     ],
     "structures": [
-      "Solo la void start platform",
-      "Sin estructuras, sin features, sin variación de biomas"
+      "Plataforma de inicio del void"
     ],
     "whyGo": [
-      "El clásico reto de supervivencia estilo skyblock",
-      "Un lienzo en blanco perfecto para map makers y pruebas de redstone",
-      "Mundos void en creativo para construir limpio sin terreno"
+      "Un lienzo en blanco para creadores de mapas y pruebas de redstone",
+      "Mundos de bioma único sin estructuras ni features"
     ],
     "tips": [
-      "Activa el bonus chest: en un void superflat es tu única fuente de madera y comida.",
-      "En un mundo single biome de void el terreno genera como en un mundo normal: solo faltan estructuras y features.",
-      "Solo en Java Edition: en Bedrock el preset plano Void usa el bioma plains pero genera idéntico."
+      "En un mundo de bioma único Void el terreno se genera como en un mundo por defecto; solo faltan estructuras y features.",
+      "Este bioma es exclusivo de Java Edition."
     ]
   }
 }
