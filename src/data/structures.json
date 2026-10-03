@@ -164,28 +164,24 @@
     "name": "Woodland Mansion",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates only in dark forest (and pale garden) biomes, often 10,000+ blocks from spawn",
-      "Buy a Woodland Explorer Map from a journeyman cartographer villager - it marks the mansion exactly",
+      "Generates rarely in dark forests and pale gardens, often far from world spawn",
+      "Woodland explorer maps come from cartographer villagers and abandoned camp secret chests; a map may not point to the nearest mansion",
       "/locate structure minecraft:mansion"
     ],
     "loot": [
-      "Totems of undying from evokers (always drop one)",
-      "Emeralds from vindicators and evokers",
-      "Chest loot: enchanted golden apples, diamond hoe/chestplate, name tags, music discs, leads",
-      "Allays trapped in jail cells - free them",
-      "Wool, bookshelves and decorations to salvage"
+      "Evokers, one of the only sources of totems of undying",
+      "Imprisoned allays inside the mansion",
+      "Chests with random loot, plus wool, bookshelves and decorations"
     ],
     "dangers": [
-      "Vindicators: sprinting axe illagers whose hits disable shields",
-      "Evokers: summon vexes and fang lines - kill them first",
-      "Vexes phase through walls",
-      "Most rooms are dark: hostile mobs of every kind spawn inside during the raid"
+      "Vindicators: axe-wielding illagers, on every floor",
+      "Evokers (second floor and up): fangs and vexes",
+      "Most rooms are dark, so ordinary Overworld mobs can spawn inside or walk in at night"
     ],
     "tips": [
-      "Go at full iron+ gear with a shield, bow, food and torches; a bed outside sets your spawn.",
-      "Light every room as you clear it - the mansion is dark enough for mobs to keep spawning.",
-      "Secret rooms (no windows) hide behind walls: look for gaps in the map or torch through.",
-      "After clearing, a mansion makes a spectacular mega-base with dozens of furnished rooms."
+      "Vindicators and evokers do not respawn once killed.",
+      "Light every room as you clear it.",
+      "Mansions have three floors; the first floor only holds vindicator rooms. Source: minecraft.wiki Woodland Mansion."
     ],
     "keywords": "woodland mansion dark forest evoker vindicator totem allay explorer map"
   },
@@ -194,28 +190,22 @@
     "name": "Ocean Monument",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in deep ocean variants - look for the dark prismarine mass under water",
-      "Buy an Ocean Explorer Map from a journeyman cartographer",
-      "Dolphins lead you to ruins and shipwrecks, not monuments - use maps or /locate structure minecraft:monument"
+      "Generates in deep ocean biomes (deep, deep frozen, deep cold, deep lukewarm; deep warm in Bedrock)",
+      "Buy an ocean explorer map from an apprentice-level cartographer, for emeralds",
+      "/locate structure minecraft:monument"
     ],
     "loot": [
-      "8 gold blocks in the treasure room at the core",
-      "Wet sponges from sponge rooms (dry them in a furnace or the Nether)",
-      "Prismarine shards and crystals from guardians (sea lanterns, all prismarine variants)",
-      "Tide armor trim from elder guardians (~20%)",
-      "The monument itself: infinite prismarine, sea lanterns and dark prismarine"
+      "Block of gold in the treasure chamber",
+      "Wet sponges, from sponge rooms (about 30 on the ceiling; not every monument has one) - monuments are the only place sponges are found",
+      "Prismarine, dark prismarine and sea lanterns from the structure itself"
     ],
     "dangers": [
-      "Guardians: laser beams and thorny spikes, everywhere",
-      "Three elder guardians inflict Mining Fatigue III (5 minutes) - no mining until they die",
-      "Drowning: bring water breathing, doors (Java) or a conduit plan",
-      "Deep ocean means drowned patrols above too"
+      "Guardians spawn only in the monument area",
+      "Always three elder guardians: one at the top and one in each wing; they inflict Mining Fatigue III"
     ],
     "tips": [
-      "Kill the three elders first: milk buckets clear Mining Fatigue.",
-      "Drink Water Breathing + Depth Strider III, or place a conduit outside the monument.",
-      "Drain it with sand walls and sponges to convert it into the classic guardian XP farm.",
-      "In Java, TNT duplicators and flying machines are the standard draining tech."
+      "Kill the elders first, then mine.",
+      "The monument has at least six chambers and 23 pillars down to the seafloor. In Bedrock the roof is always at Y=56. Source: minecraft.wiki Ocean Monument."
     ],
     "keywords": "ocean monument guardian elder sponge gold prismarine tide trim mining fatigue"
   },
@@ -224,26 +214,22 @@
     "name": "Abandoned Mineshaft",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates underground anywhere in the Overworld, often intersecting caves - explore cave systems and listen for cave spiders",
-      "Exposed sections appear in badlands (as dark oak, near the surface) and ocean floors",
-      "/locate structure minecraft:mineshaft"
+      "Generates underground in any Overworld biome except the deep dark, often intersecting caves",
+      "A dark oak variant generates on the surface in badlands biomes",
+      "/locate structure minecraft:mineshaft; explorer maps come from secret chests in abandoned camps"
     ],
     "loot": [
-      "Chest minecarts: rails, enchanted books, name tags, melon and beetroot seeds, glow berries (in lush caves), diamonds rarely",
-      "Cobwebs galore - shear them for string",
-      "Rails: strip the whole structure for hundreds of free rails",
-      "Cave spider spawners: convert into XP/string farms"
+      "Chests always appear as a minecart with chest on rails: rails (78%), name tags, glow berries, seeds, powered/detector/activator rails, enchanted books (14%), diamonds (about 9%)",
+      "Cobwebs to shear for string",
+      "Cave spider spawners in abandoned passageways"
     ],
     "dangers": [
-      "Cave spider spawners: poison bites drain you to half a heart",
-      "Open drops and unsupported gravel ceilings",
-      "Getting lost - mineshaft corridors all look alike"
+      "Cave spider spawners hide behind cobwebs",
+      "Open drops and unsupported sections"
     ],
     "tips": [
-      "Milk or honey bottles cure cave spider poison; a shield blocks the bite.",
-      "Torch one direction only (e.g. always place on the right wall) so you can navigate back.",
-      "Badlands mineshafts are mostly open-air: free loot with daylight safety.",
-      "In Java, mineshafts float unsupported; in Bedrock they generate with support pillars - same loot."
+      "Badlands mineshafts are mostly above ground, with more complete rails; badlands also have plenty of gold ore.",
+      "Use torches to mark your way back. Source: minecraft.wiki Mineshaft."
     ],
     "keywords": "abandoned mineshaft cave spider rails chest minecart cobweb badlands"
   },

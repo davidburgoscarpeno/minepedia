@@ -137,78 +137,64 @@
   },
   "woodland-mansion": {
     "howToFind": [
-      "Solo se genera en biomas dark forest (y pale garden), a menudo a más de 10.000 bloques del spawn",
-      "Compra un Woodland Explorer Map a un aldeano cartógrafo oficial: marca la mansión exacta",
+      "Se genera raramente en bosques oscuros y jardines pálidos, a menudo lejos del spawn",
+      "Los mapas de mansión vienen de cartógrafos y de cofres secretos de campamentos abandonados; un mapa puede no señalar la más cercana",
       "/locate structure minecraft:mansion"
     ],
     "loot": [
-      "Totems of undying de los evokers (siempre sueltan uno)",
-      "Esmeraldas de vindicators y evokers",
-      "Botín de cofres: manzanas doradas encantadas, azada/pechera de diamante, name tags, discos de música, leads",
-      "Allays atrapados en celdas: libéralos",
-      "Lana, estanterías y decoración para reutilizar"
+      "Evokers, una de las únicas fuentes de tótems de la inmortalidad",
+      "Allays prisioneros dentro de la mansión",
+      "Cofres con botín aleatorio, además de lana, estanterías y decoración"
     ],
     "dangers": [
-      "Vindicators: illagers con hacha que cargan corriendo y cuyos golpes desactivan el escudo",
-      "Evokers: invocan vexes y líneas de colmillos; mátalos primero",
-      "Los vexes atraviesan paredes",
-      "La mayoría de las salas están a oscuras: aparecen mobs hostiles de todo tipo dentro durante el asalto"
+      "Vindicators: illagers con hacha, en todas las plantas",
+      "Evokers (segunda planta en adelante): colmillos y vexes",
+      "La mayoría de las salas están oscuras, así que mobs normales del Overworld pueden aparecer dentro o entrar de noche"
     ],
     "tips": [
-      "Ve con equipo completo de iron o mejor, escudo, arco, comida y antorchas; una cama fuera fija tu respawn.",
-      "Ilumina cada sala al limpiarla: la mansión es lo bastante oscura para que los mobs sigan apareciendo.",
-      "Las salas secretas (sin ventanas) se esconden tras las paredes: busca huecos en el mapa o ilumina a través.",
-      "Tras limpiarla, una mansión es una mega-base espectacular con decenas de salas amuebladas."
+      "Vindicators y evokers no reaparecen una vez eliminados.",
+      "Ilumina cada sala según la despejas.",
+      "Las mansiones tienen tres plantas; la primera solo tiene salas con vindicators. Fuente: minecraft.wiki Woodland Mansion."
     ]
   },
   "ocean-monument": {
     "howToFind": [
-      "Se genera en variantes de deep ocean: busca la masa oscura de prismarine bajo el agua",
-      "Compra un Ocean Explorer Map a un cartógrafo oficial",
-      "Los delfines te llevan a ruinas y shipwrecks, no a monumentos: usa mapas o /locate structure minecraft:monument"
+      "Se genera en biomas de océano profundo (profundo, congelado profundo, frío profundo, tibio profundo; cálido profundo en Bedrock)",
+      "Compra un mapa explorador oceánico a un cartógrafo aprendiz, por esmeraldas",
+      "/locate structure minecraft:monument"
     ],
     "loot": [
-      "8 bloques de oro en la sala del tesoro del núcleo",
-      "Esponjas mojadas de las salas de esponjas (sécalas en un horno o en el Nether)",
-      "Prismarine shards y crystals de los guardians (sea lanterns y todas las variantes de prismarine)",
-      "Armor trim Tide de los elder guardians (~20%)",
-      "El monumento en sí: prismarine infinito, sea lanterns y dark prismarine"
+      "Bloque de oro en la cámara del tesoro",
+      "Esponjas húmedas, en salas de esponjas (unas 30 en el techo; no todos los monumentos tienen una): solo se encuentran en monumentos",
+      "Prismarina, prismarina oscura y linternas marinas de la propia estructura"
     ],
     "dangers": [
-      "Guardians: rayos láser y púas con espinas, por todas partes",
-      "Tres elder guardians infligen Mining Fatigue III (5 minutos): no podrás minar hasta que mueran",
-      "Ahogarse: lleva Water Breathing, puertas (Java) o un plan con conduit",
-      "El deep ocean también significa patrullas de drowned en la superficie"
+      "Los guardianes solo aparecen en la zona del monumento",
+      "Siempre hay tres guardianes ancestrales: uno arriba y uno en cada ala; causan Fatiga minera III"
     ],
     "tips": [
-      "Mata primero a los tres elders: los cubos de leche limpian el Mining Fatigue.",
-      "Bebe Water Breathing + Depth Strider III, o coloca un conduit fuera del monumento.",
-      "Drénalo con muros de arena y esponjas para convertirlo en la clásica granja de XP de guardians.",
-      "En Java, los duplicadores de TNT y las flying machines son la tecnología estándar de drenado."
+      "Mata primero a los ancestrales y luego mina.",
+      "El monumento tiene al menos seis cámaras y 23 pilares hasta el fondo. En Bedrock el techo siempre está en Y=56. Fuente: minecraft.wiki Ocean Monument."
     ]
   },
   "mineshaft": {
     "howToFind": [
-      "Se genera bajo tierra en cualquier parte del Overworld, a menudo cruzando cuevas: explora sistemas de cuevas y escucha a las cave spiders",
-      "Aparecen secciones al aire libre en badlands (de dark oak, cerca de la superficie) y en el fondo oceánico",
-      "/locate structure minecraft:mineshaft"
+      "Se genera bajo tierra en cualquier bioma del Overworld salvo deep dark, a menudo cruzando cuevas",
+      "Una variante de roble oscuro se genera en superficie en biomas de badlands",
+      "/locate structure minecraft:mineshaft; los mapas exploradores salen de cofres secretos en campamentos abandonados"
     ],
     "loot": [
-      "Minecarts con cofre: rails, libros encantados, name tags, semillas de melón y beetroot, glow berries (en lush caves), diamantes en raras ocasiones",
-      "Telarañas a montones: córtalas con tijeras para string",
-      "Rails: desmonta la estructura entera para cientos de rails gratis",
-      "Spawners de cave spiders: conviértelos en granjas de XP/string"
+      "Los cofres siempre son vagonetas con cofre sobre raíles: raíles (78%), name tags, glow berries, semillas, raíles propulsores/detectores/activadores, libros encantados (14%), diamantes (cerca del 9%)",
+      "Telarañas que cortar con tijeras para string",
+      "Spawners de arañas de cueva en pasadizos abandonados"
     ],
     "dangers": [
-      "Spawners de cave spiders: sus mordiscos con veneno te dejan a medio corazón",
-      "Caídas al vacío y techos de grava sin soporte",
-      "Perderse: los pasillos de una mineshaft son todos iguales"
+      "Los spawners de arañas de cueva se esconden tras telarañas",
+      "Caídas abiertas y tramos sin soporte"
     ],
     "tips": [
-      "La leche o los botes de miel curan el veneno de las cave spiders; un escudo bloquea el mordisco.",
-      "Antorchas en una sola dirección (por ejemplo, siempre en la pared derecha) para saber volver.",
-      "Las mineshafts de badlands son casi al aire libre: botín gratis con la seguridad de la luz del día.",
-      "En Java las mineshafts flotan sin soporte; en Bedrock se generan con pilares. El botín es el mismo."
+      "Los mineshafts de badlands están sobre todo en superficie, con raíles más completos; los badlands también tienen mucho oro.",
+      "Usa antorchas para marcar el camino de vuelta. Fuente: minecraft.wiki Mineshaft."
     ]
   },
   "desert-temple": {
