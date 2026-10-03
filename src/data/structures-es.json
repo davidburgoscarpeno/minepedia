@@ -238,26 +238,19 @@
   },
   "trail-ruins": {
     "howToFind": [
-      "Yacimientos arqueológicos enterrados en forests, taiga, old growth taiga, snowy taiga y jungle: solo la punta de terracota asoma sobre el suelo",
-      "/locate structure minecraft:trail_ruins",
-      "Busca bloques de terracota de colores expuestos en las laderas"
+      "Estructuras enterradas en taiga, taiga nevada, taiga de abetos y pinos antiguos, bosque de abedules antiguo y jungla; solo la parte alta de la torre asoma",
+      "/locate structure minecraft:trail_ruins"
     ],
     "loot": [
-      "Suspicious gravel: cepíllala para conseguir pottery sherds (patrones exclusivos de las trail ruins)",
-      "Cuatro armor trims exclusivos: Host, Raiser, Shaper y Wayfinder",
-      "Tintes, herramientas de madera, ladrillos y otros drops comunes de arqueología",
-      "Terracota vidriada de colores y mud bricks como material rescatado"
+      "Bloques de grava sospechosa para usar con el pincel",
+      "Las únicas estructuras donde se generan ladrillos de barro, barro compactado y bloques de carbón de forma natural"
     ],
     "dangers": [
-      "Derrumbes de grava mientras excavas",
-      "La estructura enterrada es grande: la mayor parte del botín está muy bajo tierra",
-      "Creepers en el bosque de alrededor mientras cavas"
+      "Parte de la grava sospechosa se genera flotando: cae y se destruye si se actualiza un bloque contiguo"
     ],
     "tips": [
-      "Lleva pincel, pala y paciencia: solo los bloques de suspicious gravel contienen botín; cepíllalos, nunca los mines.",
-      "La suspicious gravel parece idéntica a la grava normal pero cae sin soltarse... se comporta como grava con gravedad; márcala antes de que el hoyo se derrumbe.",
-      "Excava en cuadrícula: el yacimiento completo se extiende más de 30 bloques y gran parte está bajo piedra.",
-      "Cada armor trim sale muy rara vez: cuenta con limpiar varios yacimientos para el set completo."
+      "Usa el pincel en la grava sospechosa en vez de picarla.",
+      "Las ruinas tienen un camino principal de adoquín, piedra y ladrillos de piedra que une pequeños edificios. Fuente: minecraft.wiki Trail Ruins."
     ]
   },
   "abandoned-camp": {
@@ -306,24 +299,21 @@
   },
   "end-city": {
     "howToFind": [
-      "En las outer islands del End, pasada la End gateway que aparece al matar al Ender Dragon (lanza una ender pearl a través)",
-      "Se generan en rejilla: solo en los chunks 0-8 de cada celda de 20x20 chunks, así que volando en diagonal recta cruzas todas las celdas",
+      "En las grandes islas exteriores del End donde crecen chorus, a las que se llega por la puerta del End",
       "/locate structure minecraft:end_city"
     ],
     "loot": [
-      "End ship: la única elytra del juego (en un item frame en el casco) y una dragon head en la proa",
-      "Cofres: armadura, herramientas y espadas de diamond e iron encantadas, emeralds, diamonds, saddles y horse armor",
-      "Shulker shells de los shulkers del lugar: dos hacen una shulker box, el cofre portátil"
+      "Los barcos del End: única fuente de elytra (marco con elytra en la sala del tesoro) y cabezas de dragón",
+      "Salas de botín con dos cofres (algunas tienen un cofre normal junto a un cofre de ender)",
+      "Shulkers residentes"
     ],
     "dangers": [
-      "Los shulkers disparan proyectiles teledirigidos que causan Levitation: la caída posterior es lo que te mata",
-      "La Levitation cerca del borde de una torre o del vacío bajo las islas es letal - el vacío se traga todo lo que sueltes",
-      "Endermen por todas las islas; lleva una carved pumpkin o mantén la mira baja"
+      "Shulkers: muchos aparecen en torres rascacielos; tres vigilan cada barco",
+      "Escaleras tipo parkour y caídas al vacío"
     ],
     "tips": [
-      "Cerca de la mitad de las End cities no tienen ship: si no ves el mástil desde el aire, pasa a la siguiente ciudad.",
-      "Pociones de Slow Falling o un water bucket convierten la Levitation de mortal a inofensiva.",
-      "Con una elytra ya no necesitas otra ciudad: la segunda elytra más rápida es repararla con phantom membranes, no asaltar más."
+      "Cada dirección de una torre tiene 50% de generar un puente, y cada puente 12,5% de generar un barco del End; como máximo un barco por ciudad.",
+      "Fuente: minecraft.wiki End City."
     ],
     "relatedLinks": [
       {
@@ -360,24 +350,21 @@
   },
   "ruined-portal": {
     "howToFind": [
-      "La estructura más común del juego: se genera en todos los biomas del Overworld y del Nether (menos deep dark), una por celda de rejilla de 640x640 bloques",
-      "Subterránea, sumergida o al aire; siempre rodeada de un parche de netherrack, así que busca netherrack en cuevas y costas del Overworld",
-      "/locate structure minecraft:ruined_portal (el 5% son portales gigantes, con mucho más obsidian y botín)"
+      "Se genera de forma común en todos los biomas del Overworld salvo deep dark y en todos los del Nether: uno por cuadrado de 640 bloques (25 chunks más margen)",
+      "Rodeado de netherrack; bajo tierra, en superficie o en el fondo del océano según el bioma",
+      "/locate structure minecraft:ruined_portal"
     ],
     "loot": [
-      "Un cofre garantizado: gold ingots y bloques, herramientas y armadura de gold (a menudo encantadas), golden apples, flint and steel, fire charges, obsidian, glistering melon slices y más",
-      "El propio marco: obsidian suficiente para completar un portal entero en la mayoría de diseños",
-      "Gold blocks junto al marco - hasta varios, un buen botín para el early game"
+      "Un cofre con objetos de oro y objetos para construir portales como obsidiana y flint and steel (en Java puede ser reemplazado por el terreno, a menudo lava)",
+      "Bloques de oro junto al marco en la mayoría de variantes"
     ],
     "dangers": [
-      "En el Nether, el portal puede generarse sobre lagos de lava o dentro de basalt deltas con magma cubes cerca",
-      "Cada bloque de obsidian del marco tiene un 15% (20% en Bedrock) de ser crying obsidian, que NO enciende - puede que te falten bloques",
-      "La crying obsidian brilla tenuemente: de noche es fácil no notar que tu marco reconstruido no puede encenderse"
+      "Los portales pueden estar sobre lava",
+      "Los marcos pueden tener crying obsidian, que no activa un portal del Nether"
     ],
     "tips": [
-      "Un ruined portal más su cofre suele equivaler a un viaje gratis al Nether: completa el marco con el obsidian del cofre y enciéndelo con el flint and steel o el fire charge.",
-      "Mina también la crying obsidian (pico de diamond): sirve para respawn anchors.",
-      "El parche de netherrack se ve de lejos por la noche gracias a la lava y los toques de glowstone: escanea las costas mientras navegas."
+      "13 variantes: 10 normales y 3 gigantes.",
+      "Puede que tengas que aportar la obsidiana que falta. Fuente: minecraft.wiki Ruined Portal."
     ]
   },
   "shipwreck": {
