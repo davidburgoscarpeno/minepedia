@@ -43,7 +43,7 @@
       "Suspicious sand in pyramids and wells for archaeology (1.20+)"
     ],
     "mobs": [
-      "Husks (80% of surface zombies - they do not burn in daylight and inflict Hunger)",
+      "Husks (zombie variant that does not burn in daylight and inflicts Hunger)",
       "Camels in desert villages (1.20+)",
       "Rabbits"
     ],
@@ -102,7 +102,7 @@
     "resources": [
       "Terracotta in every color (free, unlimited building material)",
       "Red sand and red sandstone",
-      "Gold ore generates much more often and higher up (extra veins between Y=32 and Y=256)",
+      "Gold ore generates much more often and higher up (extra veins up to Y=255 instead of the normal Y=32)",
       "Surface mineshafts with dark oak supports and exposed chest minecarts"
     ],
     "mobs": [
@@ -135,8 +135,8 @@
       "Red and brown mushrooms"
     ],
     "mobs": [
-      "Mooshrooms only - no hostile mobs spawn naturally, ever",
-      "Monster spawners and raid spawns still work, so light is not the reason - it is biome-level"
+      "Mooshrooms, glow squids and (Java) bats are the only natural spawns - no hostile mobs spawn naturally",
+      "Monster spawners, raids and phantoms (Java) still work - the protection is biome-level, not light-based"
     ],
     "structures": [
       "No structures generate naturally"
@@ -147,7 +147,7 @@
       "The ultimate hardcore-mode home base"
     ],
     "tips": [
-      "Bring dirt and saplings: no grass or trees generate here, and mycelium cannot grow most crops.",
+      "Bring dirt and saplings: mycelium is the surface, so grass blocks and most trees are not part of the island.",
       "Phantoms still spawn above you at night - sleep or carry a cat."
     ],
     "keywords": "mushroom fields island mooshroom mycelium no mobs safe biome"
@@ -156,7 +156,7 @@
     "slug": "cherry-grove",
     "name": "Cherry Grove",
     "category": "Overworld (mountain)",
-    "description": "Pink cherry blossom forests on mountain slopes, added in 1.20. Beautiful, peaceful and the only source of cherry wood.",
+    "description": "Pink cherry blossom forests on mountain slopes, added in 1.20. Beautiful, peaceful and home of the cherry wood set.",
     "resources": [
       "Cherry logs and saplings (pink wood set)",
       "Pink petals (renewable ground cover, bone-mealable)",
@@ -192,7 +192,7 @@
     "slug": "deep-dark",
     "name": "Deep Dark",
     "category": "Overworld (cave)",
-    "description": "A sculk-infested cave biome below Y=0, usually under mountains. No mobs spawn naturally - except the Warden you summon yourself.",
+    "description": "A sculk-infested cave biome deep underground, usually under mountains. No mobs spawn naturally - except the Warden you summon yourself.",
     "resources": [
       "Ancient cities: the best loot tables in the Overworld (echo shards, swift sneak, enchanted golden apples, disc fragments)",
       "Sculk blocks for XP farms (sculk catalysts convert mob deaths into XP-storing sculk)",
@@ -220,7 +220,7 @@
     "slug": "swamp",
     "name": "Swamp",
     "category": "Overworld (temperate)",
-    "description": "Shallow water, lily pads and oak trees draped in vines. The only biome where slimes spawn on the surface and witches live in huts.",
+    "description": "Shallow water, lily pads and oak trees draped in vines. With mangrove swamps, the only place where slimes spawn above ground, and the only biome with witch huts.",
     "resources": [
       "Slimeballs from surface slimes (spawn rates peak at full moon)",
       "Witch huts (cat and witch spawns, crafting table + cauldron)",
@@ -228,7 +228,7 @@
       "Mangrove swamp variant: mangrove wood, mud and frogs"
     ],
     "mobs": [
-      "Slimes at night (light below 8, Y 51-69, moon-dependent)",
+      "Slimes at night (Y 50-70, moon-dependent)",
       "Witches in huts; bogged (poison-arrow skeletons) in swamps and mangroves (1.21)",
       "Frogs and tadpoles (mangrove variant)"
     ],

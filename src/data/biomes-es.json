@@ -38,7 +38,7 @@
       "Arena sospechosa en pirámides y pozos para arqueología (1.20+)"
     ],
     "mobs": [
-      "Husks (80% de los zombis de superficie: no se queman de día e infligen Hambre)",
+      "Husks (variante de zombi que no se quema de día e inflige Hambre)",
       "Camellos en aldeas del desierto (1.20+)",
       "Conejos"
     ],
@@ -91,7 +91,7 @@
     "resources": [
       "Terracota de todos los colores (material de construcción gratis e ilimitado)",
       "Arena roja y arenisca roja",
-      "El mineral de oro se genera mucho más a menudo y más alto (vetas extra entre Y=32 e Y=256)",
+      "El mineral de oro se genera mucho más a menudo y más alto (vetas extra hasta Y=255 en vez del Y=32 normal)",
       "Minas abandonadas de superficie con soportes de roble oscuro y vagonetas con cofre expuestas"
     ],
     "mobs": [
@@ -121,8 +121,8 @@
       "Champiñones rojos y marrones"
     ],
     "mobs": [
-      "Solo mooshrooms: ningún mob hostil aparece de forma natural, nunca",
-      "Los spawners y los spawns de raid sí funcionan, así que no es por la luz: es a nivel de bioma"
+      "Mooshrooms, calamares luminosos y (en Java) murciélagos son los únicos spawns naturales: ningún mob hostil aparece de forma natural",
+      "Los spawners, las raids y los phantoms (Java) sí funcionan: la protección es a nivel de bioma, no de luz"
     ],
     "structures": [
       "No se generan estructuras de forma natural"
@@ -133,13 +133,13 @@
       "La base definitiva para modo hardcore"
     ],
     "tips": [
-      "Lleva tierra y saplings: aquí no se genera hierba ni árboles, y el micelio no sirve para la mayoría de cultivos.",
+      "Lleva tierra y saplings: la superficie es de micelio, así que los bloques de hierba y la mayoría de árboles no forman parte de la isla.",
       "Los phantoms aún aparecen sobre ti de noche: duerme o lleva un gato."
     ]
   },
   "cherry-grove": {
     "category": "Overworld (montaña)",
-    "description": "Bosques rosas de cerezo en laderas de montaña, añadidos en la 1.20. Bonitos, tranquilos y la única fuente de madera de cerezo.",
+    "description": "Bosques rosas de cerezo en laderas de montaña, añadidos en la 1.20. Bonitos, tranquilos y hogar del set de madera de cerezo.",
     "resources": [
       "Troncos y saplings de cerezo (set de madera rosa)",
       "Pétalos rosas (cobertura de suelo renovable, con polvo de hueso)",
@@ -172,7 +172,7 @@
   },
   "deep-dark": {
     "category": "Overworld (cueva)",
-    "description": "Un bioma de cueva infestado de sculk por debajo de Y=0, normalmente bajo montañas. No aparece ningún mob de forma natural, salvo el Warden que te invocas tú mismo.",
+    "description": "Un bioma de cueva infestado de sculk muy profundo bajo tierra, normalmente bajo montañas. No aparece ningún mob de forma natural, salvo el Warden que te invocas tú mismo.",
     "resources": [
       "Ciudades antiguas: las mejores tablas de botín del Overworld (esquirlas de eco, swift sneak, manzanas doradas encantadas, fragmentos de disco)",
       "Bloques de sculk para granjas de XP (los catalizadores convierten muertes de mobs en sculk que guarda XP)",
@@ -197,7 +197,7 @@
   },
   "swamp": {
     "category": "Overworld (templado)",
-    "description": "Agua poco profunda, nenúfares y robles cubiertos de lianas. El único bioma donde los slimes aparecen en superficie y las brujas viven en cabañas.",
+    "description": "Agua poco profunda, nenúfares y robles cubiertos de lianas. Junto a los pantanos de manglar, el único lugar donde los slimes aparecen sobre el suelo, y el único bioma con cabañas de bruja.",
     "resources": [
       "Slimeballs de slimes de superficie (las tasas máximas son en luna llena)",
       "Cabañas de bruja (spawns de gato y bruja, mesa de crafteo + caldero)",
@@ -205,7 +205,7 @@
       "Variante de manglar: madera de mangle, lodo y ranas"
     ],
     "mobs": [
-      "Slimes de noche (luz por debajo de 8, Y 51-69, depende de la luna)",
+      "Slimes de noche (Y 50-70, depende de la luna)",
       "Brujas en cabañas; bogged (esqueletos de flechas venenosas) en pantanos y manglares (1.21)",
       "Ranas y renacuajos (variante de manglar)"
     ],
