@@ -90,7 +90,7 @@
   {
     "slug": "leaping",
     "name": "Potion of Leaping",
-    "effect": "Jump Boost - jump higher (half a block more per level) and take less fall damage",
+    "effect": "Jump Boost - jump higher (1.83 blocks at level I, 2.51 at level II) and take less fall damage",
     "duration": "3:00 (8:00 extended; Leaping II 1:30 with glowstone)",
     "recipe": "Awkward Potion + rabbit's foot",
     "base": "Awkward Potion (water bottle + nether wart)",
@@ -99,8 +99,8 @@
       "Mountain travel and ravine escapes",
       "Combined with Slow Falling for safe big jumps"
     ],
-    "variants": "Extended (8:00) with redstone dust. Leaping II with glowstone dust (1:30): jump height +150% instead of +50%.",
-    "editionNote": "Jump Boost raises jump height by 50% per level I and 150% at level II.",
+    "variants": "Extended (8:00) with redstone dust. Leaping II with glowstone dust (1:30) for a higher jump.",
+    "editionNote": "Jump height is 1.83 blocks at level I and 2.51 blocks at level II.",
     "since": "1.8 (14w27a)",
     "related": [
       "swiftness",
@@ -242,7 +242,7 @@
   {
     "slug": "strength",
     "name": "Potion of Strength",
-    "effect": "Strength - more melee damage (Java: +3 hearts per level; Bedrock: +30% per level)",
+    "effect": "Strength - more melee damage (Java: +3 damage, 1.5 hearts, per level; Bedrock: +30% per level)",
     "duration": "3:00 (8:00 extended; Strength II 1:30 with glowstone)",
     "recipe": "Awkward Potion + blaze powder",
     "base": "Awkward Potion (water bottle + nether wart)",
@@ -396,7 +396,7 @@
   {
     "slug": "infestation",
     "name": "Potion of Infestation",
-    "effect": "Infested - the affected entity has a 10% chance to spawn 1-2 silverfish when hit",
+    "effect": "Infested - the affected entity has a 10% chance to spawn 1-3 silverfish when hurt",
     "duration": "3:00 (cannot be extended or amplified)",
     "recipe": "Awkward Potion + stone block (yes, plain stone)",
     "base": "Awkward Potion (water bottle + nether wart)",
