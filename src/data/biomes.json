@@ -790,13 +790,11 @@
     ],
     "mobs": [
       "Creakings (spawned by creaking hearts at night; unkillable while the heart lives, freeze when looked at)",
-      "No passive mobs spawn here - the pale garden is silent on purpose",
+      "Regular passive mobs do not spawn here",
       "Standard hostile mobs at night"
     ],
     "structures": [
-      "Woodland mansions can generate inside pale gardens",
-      "Abandoned camps sometimes generate here",
-      "Deep dark is likely underneath: pale gardens generate near plateaus and mountain slopes"
+      "Woodland mansions can generate inside pale gardens"
     ],
     "whyGo": [
       "The only source of pale oak wood, pale moss and eyeblossoms",
@@ -935,11 +933,10 @@
     ],
     "structures": [
       "Woodland mansions - the giant illager dungeon with totems of undying",
-      "Pale gardens often border dark forests, sharing the roofed-canopy look",
-      "Abandoned camps can generate here"
+      "Pale gardens often border dark forests, sharing the roofed-canopy look"
     ],
     "whyGo": [
-      "Dark oak wood only grows here (and in pale gardens) - needed for dark oak planks",
+      "Dark oak trees grow naturally here - the source of dark oak planks",
       "Woodland mansion hunting: totem of undying and allay cages",
       "Farming huge mushrooms without a mushroom fields trip"
     ],
@@ -965,10 +962,10 @@
     "slug": "flower-forest",
     "name": "Flower Forest",
     "category": "Overworld (surface)",
-    "description": "A gentler forest variant carpeted with nearly every flower type in the game. Rabbits replace wolves, and oak and birch trees here generate with bee nests far more often - the best early-game bee and dye biome.",
+    "description": "A gentler forest variant carpeted with nearly every flower type in the game. Rabbits replace wolves, and its oak and birch trees can generate with bee nests - the best early-game bee and dye biome.",
     "resources": [
       "Nearly every flower: tulips, cornflowers, lilies of the valley, alliums, poppies, dandelions and more - a dye supermarket",
-      "Bee nests on many oaks and birches - honey and honeycomb without a long hunt",
+      "Bee nests on some oaks and birches - honey and honeycomb without a long hunt",
       "Oak and birch wood, plus rabbits for meat, hide and feet"
     ],
     "mobs": [
@@ -977,16 +974,14 @@
       "Standard farm animals and hostile mobs at night"
     ],
     "structures": [
-      "No exclusive structures - villages can border it and ruined portals can interrupt it",
-      "Plains villages often sit right at its edge"
+      "No exclusive structures - villages can border it and ruined portals can interrupt it"
     ],
     "whyGo": [
       "Every dye color from one meadow - flower farms here are the most efficient in the game",
-      "Early bees: nests generate much more often than in any other biome",
+      "Early bees: bee nests generate on about 5% of the trees",
       "Rabbit farming for rabbit's feet (jump boost potions)"
     ],
     "tips": [
-      "Bone meal on a flower forest grass block only grows flowers native to the exact spot - farm specific colors by sectioning the meadow",
       "Breed bees with flowers, then move the nests home with silk touch at night (or with a campfire)",
       "Rabbit's feet from rabbit kills are the rare drop for jump boost potions - Looting helps"
     ],
@@ -1050,32 +1045,30 @@
     "slug": "jagged-peaks",
     "name": "Jagged Peaks",
     "category": "Overworld (mountain)",
-    "description": "The signature 1.18 mountain summit: bare stone peaks under a layer of snow blocks, with jagged ridgelines that can reach the world height limit of Y 256.",
+    "description": "The signature 1.18 mountain summit: bare stone peaks under a layer of snow blocks, with jagged ridgelines.",
     "resources": [
-      "Emerald ore - mountains are the only Overworld biome type that generates it, and veins get more common with altitude",
+      "Emerald ore - generates only in mountain biomes and windswept hills, and is more common at altitude",
       "Infested stone (silverfish) hiding among the regular stone",
       "Coal and iron ore exposed on the cliff faces",
       "Snow and snow blocks in bulk",
-      "Goats - only mountain biomes spawn them"
+      "Goats - they spawn frequently here"
     ],
     "mobs": [
-      "Goats (mountain biomes only) - they drop goat horns when they ram solid blocks",
-      "Standard hostile mobs at night; in Bedrock, strays replace skeletons under open sky",
+      "Goats - they drop goat horns when they ram solid blocks",
+      "Standard hostile mobs at night",
       "Glow squid in caves, bats"
     ],
     "structures": [
-      "Pillager outposts",
-      "Ruined portals occasionally on the slopes"
+      "Pillager outposts"
     ],
     "whyGo": [
-      "Emerald hunting: strip the upper peak, where emerald ore generates most often - no other Overworld biome has it.",
+      "Emerald hunting: strip the upper peak, where emerald ore generates most often - the same goes for other mountain biomes and windswept hills.",
       "Goat horns: trick a goat into ramming a tree or stone block.",
       "Snow farms and some of the best building scenery in the game, often ringing a meadow or cherry grove valley."
     ],
     "tips": [
       "Steep drops are the real killer here - carry a water bucket or elytra.",
-      "Silverfish infest the stone: mine suspect blocks with care or a Silk Touch pickaxe (infested stone breaks instantly with anything).",
-      "The summit is not the powder snow trap zone - that is snowy slopes and groves - but watch the white edges anyway."
+      "Silverfish infest the stone: mine suspect blocks with care or a Silk Touch pickaxe (infested stone breaks instantly with anything)."
     ],
     "relatedLinks": [
       {
@@ -1097,7 +1090,7 @@
     "slug": "frozen-peaks",
     "name": "Frozen Peaks",
     "category": "Overworld (mountain)",
-    "description": "The icy sibling of jagged peaks: the same dramatic summit shapes, but the mountain is made of ice and packed ice under the snow - only in the coldest mountain ranges.",
+    "description": "The icy sibling of jagged peaks: the same dramatic summit shapes, but the mountain is made of ice and packed ice under the snow - found on high mountain peaks in cold to medium temperature zones.",
     "resources": [
       "Packed ice and regular ice in huge amounts - the whole summit is ice",
       "Snow and snow blocks",
@@ -1105,7 +1098,7 @@
       "Goats"
     ],
     "mobs": [
-      "Goats (mountain biomes only)",
+      "Goats",
       "Standard hostile mobs at night; in Bedrock, strays replace skeletons under open sky",
       "Glow squid in caves, bats"
     ],
