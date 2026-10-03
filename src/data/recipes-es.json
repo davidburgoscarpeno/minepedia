@@ -17,12 +17,12 @@
     "station": "la cuadrícula 2x2 del inventario o una mesa de crafteo",
     "howToGet": [
       "Craftea 2 tablones en vertical para sacar 4 palos.",
-      "Pica mena de carbón (común entre Y=0 e Y=320, sobre todo cerca de Y=95) o quema troncos en un horno para hacer carbón vegetal."
+      "Pica mena de carbón (se encuentra de Y=0 a Y=320) o quema troncos en un horno para hacer carbón vegetal."
     ],
     "uses": [
       "Da nivel de luz 14 y evita que aparezcan mobs hostiles cerca",
       "Marca caminos en las cuevas",
-      "Derrite nieve y hielo en un radio de 2 bloques"
+      "Derrite capas de nieve a 2 bloques e hielo a 3"
     ],
     "variants": [
       "Antorcha de almas (palo + carbón + tierra de almas/arena de almas, más tenue, ahuyenta piglins)",
@@ -615,12 +615,12 @@
       "Mata arañas, rompe telarañas con espada o tijeras, o pesca."
     ],
     "uses": [
-      "Ata animales: engánchalos a vallas o arrastra caballos, vacas, llamas y barcas con pasajeros",
+      "Ata animales: engánchalos a vallas o arrastra caballos, vacas, llamas y otros mobs que se puedan atar",
       "La alternativa a construir canales y túneles para mover animales a larga distancia",
-      "También la sueltan las llamas del vendedor ambulante al separarse de la caravana"
+      "Los vendedores ambulantes aparecen con dos llamas con rienda; la rienda cae cuando se suelta una llama"
     ],
     "variants": [
-      "Sin variantes; la rienda se rompe si se estira más de 10 bloques"
+      "Sin variantes; la rienda se estira como máximo 12 bloques antes de romperse"
     ],
     "editionNote": "Desde Java 25w18a (1.21.6) y Bedrock 1.21.90 la rienda se fabrica con 5 string. Antes pedía 4 string y 1 slimeball, así que las guías y vídeos antiguos muestran otra receta. En Java puedes atar varios animales a la vez, uno por rienda."
   },

@@ -50,7 +50,7 @@
       {
         "name": "Coal or Charcoal",
         "qty": 1,
-        "howToGet": "Mine coal ore (common between Y=0 and Y=320, most around Y=95) or smelt logs in a furnace to make charcoal."
+        "howToGet": "Mine coal ore (found from Y=0 to Y=320) or smelt logs in a furnace to make charcoal."
       }
     ],
     "pattern": [
@@ -60,7 +60,7 @@
     "uses": [
       "Provides light level 14, preventing hostile mobs from spawning nearby",
       "Marks paths in caves",
-      "Melts snow and ice within 2 blocks"
+      "Melts snow layers within 2 blocks and ice within 3"
     ],
     "variants": [
       "Soul Torch (stick + coal + soul soil/soul sand, dimmer, scares piglins)",
@@ -1640,12 +1640,12 @@
       " S "
     ],
     "uses": [
-      "Tie up animals: attach to fences or drag horses, cows, llamas and boats-with-passengers around",
+      "Tie up animals: attach to fences or drag horses, cows, llamas and other leashable mobs around",
       "The alternative to building canals and tunnels for moving animals long distances",
-      "Also drops from wandering trader llamas separating from their caravan"
+      "Wandering traders spawn with two trader llamas on leads; the lead drops when a llama is detached"
     ],
     "variants": [
-      "No variants; leads break if stretched beyond 10 blocks"
+      "No variants; a lead stretches a maximum of 12 blocks before it breaks"
     ],
     "editionNote": "Since Java 25w18a (1.21.6) and Bedrock 1.21.90 the lead is crafted from 5 string. Before that it needed 4 string and 1 slimeball, so older guides and videos show a different recipe. In Java you can leash multiple animals at once, one per lead.",
     "since": "1.6 (Horse Update)",
