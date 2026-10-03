@@ -3,14 +3,15 @@
     "slug": "pack-png",
     "name": "pack.png Seed",
     "seed": "3257840388504953787",
-    "version": "Java Alpha 1.2.2 (world loads in modern Java with different terrain)",
+    "version": "Java Alpha 1.2.0 to 1.2.5 for the closest match (up to Beta 1.7.3 with minor differences)",
     "coords": "x=49, z=0",
     "edition": "java",
     "story": "The default server-list icon of Minecraft, pack.png, was added in Alpha 1.2.2 (November 2010) and nobody knew which world it showed. After an 8-month community hunt led by SalC1 with the Minecraft@Home distributed computing project, the seed was found in September 2020. It is probably the most famous seed in the game.",
     "notes": [
       "Load it in Alpha 1.2.2 for the exact original terrain; newer versions generate a different world from the same seed",
       "The iconic cloud-and-waterfall cliff is at x=49, z=0",
-      "The hunt searched 281 quadrillion possible seeds with BOINC volunteers"
+      "The hunt searched 281 quadrillion possible seeds with BOINC volunteers",
+      "Per the wiki, it is also the default seed of Bedrock's create-new-world screen when no seed is entered (since beta 1.18.20.21), spawning you in a savanna at -208, 65, 0"
     ],
     "source": "https://packpng.com/",
     "sourceName": "packpng.com",
@@ -40,7 +41,7 @@
     "version": "Java 21w40a (1.18 snapshot) and later",
     "coords": "X=4.83, Y=130.15, Z=-7294.28",
     "edition": "java",
-    "story": "The sunset panorama introduced in 1.18 was cracked by Minecraft@Home in October 2021 - and turned out to be the same seed as the original 2011 panorama, placed 7,000 blocks away. Mojang reused it deliberately as an easter egg tribute, so the community accidentally cracked the same seed twice.",
+    "story": "The sunset panorama introduced in 1.18 was cracked by Minecraft@Home in October 2021 - and turned out to be the same seed as the original 2011 panorama, placed 7,000 blocks away. The minecraft.wiki seed list gives the same seed for the original (Beta 1.8 to 18w22c) and 1.18 panoramas.",
     "notes": [
       "Same seed as the original panorama - the magic is in the coordinates: X=4.83, Y=130.15, Z=-7294.28",
       "Recreate the shot: /time set 12949 with doDaylightCycle off, facing east",
@@ -61,8 +62,7 @@
     "notes": [
       "Only generates correctly in Alpha v1.0.16_02 (enable historical versions in the launcher)",
       "Stand at X=5.06, Y=71, Z=-298.54 to recreate the exact screenshot view",
-      "Herobrine was never in the game: you will find the hill, the trees and the fog, nothing more",
-      "Mojang references the seed in the 15 Year Journey map's Alpha minigame"
+      "Herobrine was never in the game: you will find the hill, the trees and the fog, nothing more"
     ],
     "source": "https://minecraft.wiki/w/Herobrine",
     "sourceName": "Minecraft@Home (January 2021)",
@@ -188,7 +188,8 @@
       "Capital G matters: enter 'Glacier' exactly, seeds are case-sensitive",
       "Load in Beta 1.3 through 1.7.3 for the original frozen terrain",
       "A staple of retro-Minecraft modpacks that recreate the beta terrain generator",
-      "Perfect time capsule for seeing how far world generation has evolved since 2011"
+      "Perfect time capsule for seeing how far world generation has evolved since 2011",
+      "The wiki also lists the Beta 1.3_01 PC Gamer demo seed 'glacier' in all lowercase, a different world from the famous capital-G 'Glacier'"
     ],
     "source": "https://www.minecraftforum.net/forums/minecraft-java-edition/seeds/324412-whats-the-most-famous-seed-ever-old-or-new",
     "sourceName": "minecraftforum.net",
@@ -205,7 +206,8 @@
     "notes": [
       "The demo spawns you with a small bonus chest containing starter tools and torches",
       "Works in modern Java - the demo world generates the same way it does in demo mode",
-      "Capitalization matters: type North Carolina exactly, with the space"
+      "Capitalization matters: type North Carolina exactly, with the space",
+      "The wiki's Demo Mode page gives the demo seed as -343522682, which is the text 'North Carolina'"
     ],
     "source": "https://minecraft.wiki/w/Seed_(world_generation)",
     "sourceName": "Minecraft Wiki",

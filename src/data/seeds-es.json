@@ -1,11 +1,12 @@
 {
   "pack-png": {
-    "version": "Java Alpha 1.2.2 (el mundo carga en Java moderno con terreno distinto)",
+    "version": "Java Alpha 1.2.0 a 1.2.5 para la coincidencia más exacta (hasta Beta 1.7.3 con pequeñas diferencias)",
     "story": "El icono por defecto de la lista de servidores de Minecraft, pack.png, se añadió en Alpha 1.2.2 (noviembre de 2010) y nadie sabía qué mundo mostraba. Tras una búsqueda comunitaria de 8 meses liderada por SalC1 con el proyecto de computación distribuida Minecraft@Home, la seed se encontró en septiembre de 2020. Probablemente es la seed más famosa del juego.",
     "notes": [
       "Cárgala en Alpha 1.2.2 para el terreno original exacto; las versiones nuevas generan un mundo distinto con la misma seed",
       "El icónico acantilado con nubes y cascada está en x=49, z=0",
-      "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC"
+      "La búsqueda rastreó 281 billones de seeds posibles con voluntarios de BOINC",
+      "Según la wiki, también es la seed por defecto de Bedrock al crear un mundo sin seed (desde beta 1.18.20.21), y te genera en una sabana en -208, 65, 0"
     ]
   },
   "title-panorama-original": {
@@ -19,7 +20,7 @@
   },
   "title-panorama-118": {
     "version": "Java 21w40a (snapshot de 1.18) y posteriores",
-    "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. Mojang la reutilizó a propósito como homenaje en forma de easter egg, así que la comunidad descifró la misma seed dos veces sin saberlo.",
+    "story": "El panorama del atardecer introducido en 1.18 fue descifrado por Minecraft@Home en octubre de 2021, y resultó ser la misma seed que el panorama original de 2011, situada a 7.000 bloques de distancia. La lista de seeds de minecraft.wiki da la misma seed para el panorama original (Beta 1.8 a 18w22c) y el de 1.18.",
     "notes": [
       "Misma seed que el panorama original: la magia está en las coordenadas: X=4.83, Y=130.15, Z=-7294.28",
       "Recrea la imagen: /time set 12949 con doDaylightCycle desactivado, mirando al este",
@@ -32,8 +33,7 @@
     "notes": [
       "Solo se genera correctamente en Alpha v1.0.16_02 (activa las versiones históricas en el launcher)",
       "Ponte en X=5.06, Y=71, Z=-298.54 para recrear la vista exacta de la captura",
-      "Herobrine nunca estuvo en el juego: encontrarás la colina, los árboles y la niebla, nada más",
-      "Mojang referencia la seed en el minijuego Alpha del mapa 15 Year Journey"
+      "Herobrine nunca estuvo en el juego: encontrarás la colina, los árboles y la niebla, nada más"
     ]
   },
   "herobrine-livestream": {
@@ -103,7 +103,8 @@
       "La G mayúscula importa: escribe 'Glacier' exactamente, las seeds distinguen mayúsculas",
       "Cárgala en Beta 1.3 a 1.7.3 para el terreno helado original",
       "Un clásico de los modpacks retro que recrean el generador de terreno beta",
-      "Cápsula del tiempo perfecta para ver cuánto ha evolucionado la generación de mundo desde 2011"
+      "Cápsula del tiempo perfecta para ver cuánto ha evolucionado la generación de mundo desde 2011",
+      "La wiki también lista la seed de la demo de PC Gamer de Beta 1.3_01, 'glacier' en minúsculas, un mundo distinto del famoso 'Glacier' con G mayúscula"
     ]
   },
   "north-carolina": {
@@ -112,7 +113,8 @@
     "notes": [
       "La demo te genera con un pequeño cofre extra con herramientas iniciales y antorchas",
       "Funciona en Java moderno: el mundo de la demo se genera igual que en el modo demo",
-      "Las mayúsculas importan: escribe North Carolina exactamente, con el espacio"
+      "Las mayúsculas importan: escribe North Carolina exactamente, con el espacio",
+      "La página Demo Mode de la wiki da la seed de la demo como -343522682, que es el texto 'North Carolina'"
     ]
   },
   "worstseedever": {
