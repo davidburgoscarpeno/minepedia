@@ -348,7 +348,7 @@
     "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
     "tips": [
       "Esto cambia el spawn para todos; usa /spawnpoint para jugadores concretos.",
-      "La regla spawnRadius de Java controla cuánto se dispersan los jugadores alrededor.",
+      "La regla respawn_radius de Java controla cuánto se dispersan los jugadores alrededor.",
       "Las brújulas siempre apuntan al spawn del mundo, no a las camas."
     ],
     "notes": [
@@ -407,13 +407,13 @@
   },
   "attribute": {
     "summary": "Lee y modifica atributos de entidades como vida máxima, velocidad, daño de ataque y escala.",
-    "description": "/attribute expone las estadísticas numéricas de cada entidad: generic.max_health, generic.movement_speed, generic.attack_damage, generic.scale y más. Puedes leer valores, sobrescribir el valor base o apilar modificadores (el mismo sistema que usan los efectos de poción y el equipamiento). Es cómo los data packs y mapas de aventura crean bosses personalizados con 200 de vida o el doble de velocidad.",
+    "description": "/attribute expone las estadísticas numéricas de cada entidad: max_health, movement_speed, attack_damage, scale y más. Puedes leer valores, sobrescribir el valor base o apilar modificadores (el mismo sistema que usan los efectos de poción y el equipamiento). Es cómo los data packs y mapas de aventura crean bosses personalizados con 200 de vida o el doble de velocidad.",
     "targets": "Una entidad cada vez (jugadores, mobs y algunas más)",
     "permission": "Trucos activados / nivel de operador 2",
     "tips": [
       "base set persiste; usa base reset para restaurar el valor vanilla.",
       "Los modificadores se apilan con el equipamiento: consulta los totales actuales con get.",
-      "generic.scale (1.20.5+) cambia el tamaño, la hitbox y el alcance de la entidad a la vez."
+      "scale (1.20.5+) cambia el tamaño, la hitbox y el alcance de la entidad a la vez."
     ],
     "notes": [
       "Date 20 corazones de forma permanente",
@@ -455,11 +455,11 @@
   },
   "function": {
     "summary": "Ejecuta todos los comandos de un archivo de función, en orden, al instante.",
-    "description": "/function ejecuta un archivo .mcfunction de un data pack (Java) o behavior pack (Bedrock): una lista de comandos, uno por línea, ejecutados en secuencia como si se escribieran. Las funciones son cómo los mapas y data packs organizan la lógica (configuraciones, temporizadores, eventos) y en vanilla no aceptan argumentos. Combínalas con /schedule para ejecuciones retrasadas o repetidas.",
+    "description": "/function ejecuta un archivo .mcfunction de un data pack (Java) o behavior pack (Bedrock): una lista de comandos, uno por línea, ejecutados en secuencia como si se escribieran. Las funciones son cómo los mapas y data packs organizan la lógica (configuraciones, temporizadores, eventos) y en Java pueden recibir argumentos mediante macros (/function <nombre> with ...). Combínalas con /schedule para ejecuciones retrasadas o repetidas.",
     "targets": "Un archivo de función o, en Java, un tag de funciones (#namespace:tag)",
     "permission": "Trucos activados / nivel de operador 2 (Java), 1 (Bedrock)",
     "tips": [
-      "Las funciones viven en data/<namespace>/functions/ (Java) o en functions/ de un behavior pack (Bedrock).",
+      "Las funciones viven en data/<namespace>/function/ (Java) o en functions/ de un behavior pack (Bedrock).",
       "Un comando por línea, sin barra inicial; # abre un comentario.",
       "En Java, los tags minecraft:tick y minecraft:load ejecutan funciones automáticamente cada tick o al cargar."
     ],

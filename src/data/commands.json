@@ -884,7 +884,7 @@
     "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
     "tips": [
       "This changes spawn for everyone; use /spawnpoint for individual players.",
-      "Java's gamerule spawnRadius controls how randomly players scatter around it.",
+      "Java's gamerule respawn_radius controls how randomly players scatter around it.",
       "Compasses always point to the world spawn, not to beds."
     ],
     "related": [
@@ -1018,18 +1018,18 @@
     "syntax": "attribute <target> <attribute> <get|base get|base set|base reset|modifier add|modifier remove|modifier value get> ...",
     "syntaxBedrock": "(Java Edition only)",
     "summary": "Reads and modifies entity attributes like max health, speed, attack damage and scale.",
-    "description": "/attribute exposes the numeric stats behind every entity: generic.max_health, generic.movement_speed, generic.attack_damage, generic.scale and more. You can read values, overwrite the base value, or stack modifiers (the same system potion effects and equipment use). It is how data packs and adventure maps make custom bosses with 200 HP or double speed.",
+    "description": "/attribute exposes the numeric stats behind every entity: max_health, movement_speed, attack_damage, scale and more. You can read values, overwrite the base value, or stack modifiers (the same system potion effects and equipment use). It is how data packs and adventure maps make custom bosses with 200 HP or double speed.",
     "examples": [
       {
-        "code": "/attribute @s minecraft:generic.max_health base set 40",
+        "code": "/attribute @s minecraft:max_health base set 40",
         "note": "Give yourself 20 hearts permanently"
       },
       {
-        "code": "/attribute @e[type=zombie,limit=1] minecraft:generic.movement_speed base set 0.4",
+        "code": "/attribute @e[type=zombie,limit=1] minecraft:movement_speed base set 0.4",
         "note": "Make a zombie twice as fast"
       },
       {
-        "code": "/attribute @s minecraft:generic.scale base set 0.5",
+        "code": "/attribute @s minecraft:scale base set 0.5",
         "note": "Shrink yourself to half size (Java 1.20.5+)"
       }
     ],
@@ -1042,7 +1042,7 @@
     "tips": [
       "base set persists; use base reset to restore the vanilla default.",
       "Modifiers stack with equipment - check current totals with get.",
-      "generic.scale (1.20.5+) changes entity size, hitbox and reach together."
+      "scale (1.20.5+) changes entity size, hitbox and reach together."
     ],
     "related": [
       "/effect",
@@ -1135,7 +1135,7 @@
     "syntax": "function <name>",
     "syntaxBedrock": "function <name: filepath>",
     "summary": "Runs every command inside a function file, in order, instantly.",
-    "description": "/function executes a .mcfunction file from a data pack (Java) or behavior pack (Bedrock): a plain list of commands, one per line, run in sequence as if typed. Functions are how maps and data packs organize logic - setups, timers, events - and they accept no arguments in vanilla. Combine with /schedule for delayed or repeating runs.",
+    "description": "/function executes a .mcfunction file from a data pack (Java) or behavior pack (Bedrock): a plain list of commands, one per line, run in sequence as if typed. Functions are how maps and data packs organize logic - setups, timers, events - and in Java they can take arguments through macros (/function <name> with ...). Combine with /schedule for delayed or repeating runs.",
     "examples": [
       {
         "code": "/function mypack:setup/arena",
@@ -1158,7 +1158,7 @@
     "since": "Java 1.12 (17w18a) / Bedrock 1.8.0",
     "permission": "Cheats enabled / operator level 2 (Java), 1 (Bedrock)",
     "tips": [
-      "Functions live in data/<namespace>/functions/ (Java) or functions/ in a behavior pack (Bedrock).",
+      "Functions live in data/<namespace>/function/ (Java) or functions/ in a behavior pack (Bedrock).",
       "One command per line, no leading slash; # starts a comment.",
       "In Java, minecraft:tick and minecraft:load tags run functions automatically every tick or on load."
     ],
