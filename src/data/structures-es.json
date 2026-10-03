@@ -369,24 +369,21 @@
   },
   "shipwreck": {
     "howToFind": [
-      "Se genera con frecuencia en todos los biomas de ocean, derecho, de lado o boca abajo; raramente varado, dentro de icebergs o en canyons",
-      "El Dolphin's Grace hace rápido escanear el fondo oceánico; la visión nocturna ayuda aún más",
+      "Se genera de forma común en todos los océanos; raramente en playas, playas nevadas, o dentro de icebergs, ruinas oceánicas, monumentos o cañones",
+      "Derecho, de lado o boca abajo, a menudo incompleto",
       "/locate structure minecraft:shipwreck"
     ],
     "loot": [
-      "Cofre de mapas (popa): el buried treasure map - toda la razón de los shipwrecks",
-      "Cofre del tesoro (popa): iron, gold, emeralds, a veces diamonds y equipo encantado",
-      "Cofre de suministros (proa): comida, coal, armadura de leather encantada, suspicious stew, fishing rods, bamboo"
+      "Hasta 3 cofres con tablas de botín distintas: suministros en la proa, tesoro en la parte alta de la popa, mapa en la parte baja de la popa",
+      "Cofres de suministros: estofado sospechoso (54%), papel, trigo, zanahorias, patatas, bloques de musgo, carbón, armadura de cuero encantada (cerca del 21% cada pieza), TNT (7,5%)",
+      "Los cofres de mapa contienen el mapa del tesoro enterrado"
     ],
     "dangers": [
-      "Los drowned infestan las estructuras oceánicas y vigilan los pecios, algunos con tridents",
-      "Ahogarte: lleva una door o magma blocks para hacer bolsas de aire mientras luteas",
-      "Los pecios suelen estar partidos: el cofre que buscas puede estar en una sección que falta... o en el siguiente pecio"
+      "Ahogarte mientras saqueas; los naufragios suelen estar rotos, así que puede faltar un cofre"
     ],
     "tips": [
-      "Un pecio tiene hasta 3 cofres: suministros (proa), mapas y tesoro (popa) - revisa primero la popa.",
-      "Los dolphins te guían al shipwreck o ruin más cercano si les das raw cod.",
-      "La suspicious stew de los cofres de suministros es una de las pocas formas renovables de conseguirla: fíjate qué efecto de flor tiene antes de comerla."
+      "Los tres cofres dependen de qué secciones sigan intactas.",
+      "Fuente: minecraft.wiki Shipwreck."
     ],
     "relatedLinks": [
       {
@@ -397,24 +394,21 @@
   },
   "buried-treasure": {
     "howToFind": [
-      "Sigue un buried treasure map de los cofres de mapas de los shipwrecks: la X roja marca el punto",
-      "Cava en la X de pie exactamente sobre ella; en Java el cofre siempre está en la posición 9,9 relativa al chunk mirando al este (8,8 en Bedrock) - pulsa F3 y apunta a esas coordenadas",
-      "Enterrado en biomas de beach (sand o gravel encima), raramente en el fondo del ocean"
+      "Se genera en playas y playas nevadas (Bedrock: también stony shore y mushroom field shore), a veces en el fondo del océano",
+      "Java: el cofre está en la posición 9,9 relativa a la sección de chunk, mirando al este; Bedrock: 8,8",
+      "Los mapas del tesoro enterrado salen de cofres de mapa de naufragios"
     ],
     "loot": [
-      "Siempre 1 heart of the sea: la única fuente del juego, necesaria para el conduit",
-      "Iron y gold ingots, TNT, prismarine crystals, diamonds (hasta 2), emeralds",
-      "Poción de Water Breathing y pescado cocinado"
+      "Siempre 1 corazón del mar (única fuente)",
+      "Lingotes de hierro (99%), de oro (88%), bacalao/salmón cocinado (75%), poción de respiración acuática (67%), TNT (63%)",
+      "Esmeraldas 4-8, cristales de prismarina 1-5, diamantes 1-2 (cada uno en un 53-60% de los cofres)"
     ],
     "dangers": [
-      "Ahogarte al cavar tesoros sumergidos: el cofre suele quedar bajo el nivel del mar incluso en playas",
-      "Caer en cuevas al cavar en vertical: haz una escalera, no un pozo",
-      "Phantoms de noche si buscas tesoros sin dormir por playas largas"
+      "Si está expuesto al agua el cofre está inundado; ahogarte al cavar bajo el agua"
     ],
     "tips": [
-      "El heart of the sea está garantizado en cada buried treasure: cada mapa significa un conduit.",
-      "En Java, alinéate a las coordenadas de chunk 9,9 (F3 muestra Chunk: x y z) y cava un bloque: nunca excaves toda la playa.",
-      "Guarda los mapas de distintos shipwrecks: muchos apuntan al mismo tesoro, pero los mapas sobrantes ayudan a triangular."
+      "Usa las coordenadas de chunk de F3 para cavar en 9,9 en Java.",
+      "El cofre casi siempre está enterrado bajo arena o grava (piedra en colinas submarinas). Fuente: minecraft.wiki Buried Treasure."
     ],
     "relatedLinks": [
       {
@@ -429,24 +423,20 @@
   },
   "swamp-hut": {
     "howToFind": [
-      "Se genera raramente en biomas de swamp (nunca en mangrove swamps), siempre en la esquina noroeste de su chunk",
-      "Los swamp explorer maps de cartógrafos de jungle, snowy plains y taiga apuntan a una",
+      "Se genera raramente en pantanos (no en manglares), en la esquina noroeste de un chunk",
+      "Los mapas de pantano los venden cartógrafos de jungla, nevados y de taiga",
       "/locate structure minecraft:swamp_hut"
     ],
     "loot": [
-      "La cabaña en sí: cauldron (llena de una poción aleatoria en Bedrock), crafting table, red mushroom en maceta",
-      "Una black cat siempre aparece con la cabaña: una variante de gato rara y gratis",
-      "El verdadero botín son los spawns de witches: sticks, sugar, glass bottles, glowstone dust, redstone, gunpowder y pociones en plena pelea"
+      "Caldero (vacío en Java; 1-3 botellas de una poción aleatoria en Bedrock), mesa de crafteo, maceta",
+      "Una bruja y un gato negro aparecen al generarse y no desaparecen de forma natural (sin bruja en Pacífico)"
     ],
     "dangers": [
-      "La witch residente lanza pociones splash de Poison, Harming y Slowness y se cura a sí misma",
-      "Los slimes aparecen en los swamps de noche (luna llena = más)",
-      "El agua profunda y el lodo hacen lenta la aproximación: las witches te ganan en alcance si vas sin preparar"
+      "Las brujas pueden aparecer en cualquier punto del área de 7x7x9 de la cabaña"
     ],
     "tips": [
-      "Las witches y black cats aparecen dentro de la bounding box de la cabaña para siempre: las witch farms se construyen aplanando superficies de spawn alrededor.",
-      "Ilumina o pon slabs en el swamp circundante para forzar todos los spawns dentro de tu granja.",
-      "La black cat aparece una vez con la cabaña y nunca más: tameala con pescado crudo antes de que se vaya."
+      "Brujas y gatos se alejan; no vuelven a la cabaña a propósito.",
+      "En Bedrock una bruja muerta reaparece en un solo bloque, a dos bloques delante de la mesa de crafteo. Fuente: minecraft.wiki Swamp Hut."
     ],
     "relatedLinks": [
       {

@@ -423,24 +423,21 @@
     "name": "Shipwreck",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates commonly in every ocean biome, upright, sideways or upside-down; rarely beached, inside icebergs or in canyons",
-      "Dolphin's Grace makes scanning the ocean floor fast; night vision helps even more",
+      "Generates commonly in all oceans; rarely on beaches, snowy beaches, or inside icebergs, ocean ruins, monuments or canyons",
+      "Upright, sideways or upside-down, often missing parts",
       "/locate structure minecraft:shipwreck"
     ],
     "loot": [
-      "Map chest (stern): the buried treasure map - the whole point of shipwrecks",
-      "Treasure chest (stern): iron, gold, emeralds, sometimes diamonds and enchanted gear",
-      "Supply chest (bow): food, coal, enchanted leather armor, suspicious stew, fishing rods, bamboo"
+      "Up to 3 chests with different loot tables: supply chest in the bow, treasure chest in the upper stern, map chest in the lower stern",
+      "Supply chests: suspicious stew (54%), paper, wheat, carrots, potatoes, moss blocks, coal, enchanted leather armor (about 21% per piece), TNT (7.5%)",
+      "Map chests hold the buried treasure map"
     ],
     "dangers": [
-      "Drowned infest ocean structures and guard wrecks, some with tridents",
-      "Drowning itself: bring a door or magma blocks for air pockets while looting",
-      "Wrecks are often broken apart: the chest you want may be in a missing section... or the next wreck over"
+      "Drowning while looting; wrecks are often broken, so a chest may be missing"
     ],
     "tips": [
-      "A wreck has up to 3 chests: supply (bow), map and treasure (stern) - check the stern first.",
-      "Dolphins lead you to the nearest shipwreck or ruin when fed raw cod.",
-      "Suspicious stew from supply chests is one of the few renewable ways to get it - note which flower effect it has before eating."
+      "The three chests depend on which sections are intact.",
+      "Source: minecraft.wiki Shipwreck."
     ],
     "keywords": "shipwreck treasure map chest stern bow drowned ocean find suspicious stew"
   },
@@ -449,24 +446,21 @@
     "name": "Buried Treasure",
     "dimension": "Overworld",
     "howToFind": [
-      "Follow a buried treasure map from shipwreck map chests: the red X marks the spot",
-      "Dig at the X standing exactly on it, in Java the chest always sits at chunk-relative 9,9 facing east (8,8 in Bedrock) - press F3 and target those coordinates",
-      "Buried in beach biomes (sand or gravel on top), rarely on the ocean floor"
+      "Generates in beach and snowy beach biomes (Bedrock: also stony shore and mushroom field shore), sometimes on the ocean floor",
+      "Java: the chest is at chunk-section relative 9,9, facing east; Bedrock: 8,8",
+      "Buried treasure maps come from shipwreck map chests"
     ],
     "loot": [
-      "Always 1 heart of the sea - the only source in the game, needed for the conduit",
-      "Iron and gold ingots, TNT, prismarine crystals, diamonds (up to 2), emeralds",
-      "Potion of Water Breathing and cooked fish"
+      "Always 1 heart of the sea (only source)",
+      "Iron ingots (99%), gold ingots (88%), cooked cod/salmon (75%), potion of Water Breathing (67%), TNT (63%)",
+      "Emeralds 4-8, prismarine crystals 1-5, diamonds 1-2 (each in about 53-60% of chests)"
     ],
     "dangers": [
-      "Drowning while digging underwater treasure: the chest is often below sea level even on beaches",
-      "Falling into caves while digging straight down - dig a staircase, not a shaft",
-      "Phantoms at night if you treasure-hunt sleep-deprived on long beaches"
+      "If exposed to water the chest is waterlogged; drowning while digging underwater"
     ],
     "tips": [
-      "The heart of the sea is guaranteed in every buried treasure: each map means one conduit.",
-      "In Java, align to chunk coordinates 9,9 (F3 shows Chunk: x y z) and dig one block: never dig out the whole beach.",
-      "Keep maps from different shipwrecks: many point to the same treasure, but the surplus maps still help triangulate."
+      "Use F3 chunk coordinates to dig at 9,9 in Java.",
+      "The chest is almost always buried under sand or gravel (stone on underwater hills). Source: minecraft.wiki Buried Treasure."
     ],
     "keywords": "buried treasure heart of the sea conduit map x marks chunk 9 9 dig beach"
   },
@@ -475,24 +469,20 @@
     "name": "Swamp Hut",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates rarely in swamp biomes (never in mangrove swamps), always in the north-west corner of its chunk",
-      "Swamp explorer maps from jungle, snowy plains and taiga cartographers point to one",
+      "Generates rarely in swamps (not mangrove swamps), in the north-west corner of a chunk",
+      "Swamp explorer maps are sold by jungle, snowy and taiga cartographers",
       "/locate structure minecraft:swamp_hut"
     ],
     "loot": [
-      "The hut itself: cauldron (filled with a random potion in Bedrock), crafting table, potted red mushroom",
-      "A black cat always spawns with the hut - a free rare cat variant",
-      "The real loot is the witch spawns: sticks, sugar, glass bottles, glowstone dust, redstone, gunpowder and potions mid-fight"
+      "Cauldron (empty in Java; 1-3 bottles of a random potion in Bedrock), crafting table, flower pot",
+      "One witch and one black cat spawn at generation and never despawn naturally (no witch on Peaceful)"
     ],
     "dangers": [
-      "The resident witch throws poison, harming and slowness splash potions and heals herself",
-      "Slimes spawn in swamps at night (full moon = more)",
-      "Deep water and mud make the approach slow - witches outrange an unprepared player"
+      "Witches can spawn anywhere in the 7x7x9 area of the hut"
     ],
     "tips": [
-      "Witches and black cats spawn inside the hut's bounding box forever: witch farms are built by flattening spawn spaces around the hut.",
-      "Light up or slab the surrounding swamp to force all spawns into your farm.",
-      "The black cat spawns once with the hut and never again there - tame it with raw fish before it wanders off."
+      "Witches and cats wander off; they do not return to the hut on purpose.",
+      "In Bedrock a killed witch respawns on one block, two blocks in front of the crafting table. Source: minecraft.wiki Swamp Hut."
     ],
     "keywords": "swamp hut witch hut black cat cauldron witch farm slime full moon find"
   },
