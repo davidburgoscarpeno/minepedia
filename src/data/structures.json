@@ -238,24 +238,22 @@
     "name": "Desert Temple (Pyramid)",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in desert biomes, often half-buried in sand - the orange terracotta towers show above dunes",
+      "Generates in desert biomes (desert hills too in Bedrock); orange terracotta towers show above the dunes",
       "/locate structure minecraft:desert_pyramid",
-      "Desert wells and villages cluster nearby"
+      "Less frequent in Java than in Bedrock"
     ],
     "loot": [
-      "4 hidden chests under the floor: enchanted books, golden apples, diamonds, emeralds, horse armor, bones and rotten flesh",
-      "9 TNT blocks - mine them after disarming the trap",
-      "The temple itself: terracotta and cut sandstone for builds"
+      "4 chests hidden in a fosse under the center, rigged with a TNT trap: sand, enchanted books (22% per chest), emeralds, diamonds, diamond horse armor, enchanted golden apples (2.4% per chest)",
+      "A buried 5x5 side room with 6-8 suspicious sand blocks (brush them)",
+      "The temple itself: terracotta and cut sandstone"
     ],
     "dangers": [
-      "The TNT trap: a stone pressure plate on the center floor detonates 9 TNT - enough to kill an unarmored player and destroy the chests",
-      "Hostile mobs inside the unlit treasure chamber"
+      "A stone pressure plate under the blue terracotta block triggers a 3x3 grid of TNT (9 blocks), which can kill you and destroy the chests"
     ],
     "tips": [
-      "NEVER step on the center plate: dig down at the chamber corner instead, or pour water from above.",
-      "Break the pressure plate first, then mine the TNT for your own use.",
-      "In Bedrock the chests generate slightly differently but the trap is identical.",
-      "For archaeology with a brush, look for desert wells and warm ocean ruins instead - temples have no suspicious blocks."
+      "Never step on the pressure plate: dig down beside it, or break the plate first.",
+      "The temple does have suspicious sand, in its buried side room.",
+      "Source: minecraft.wiki Desert Pyramid."
     ],
     "keywords": "desert temple pyramid tnt trap chests golden apple horse armor"
   },
@@ -264,23 +262,21 @@
     "name": "Jungle Temple",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in jungle and bamboo jungle biomes, covered in vines and mossy cobblestone",
+      "Generates in jungles (not sparse jungles) and, in Java, bamboo jungles",
       "/locate structure minecraft:jungle_pyramid",
-      "Often found while parrot or bamboo hunting"
+      "Jungle explorer maps are sold by desert, savanna and swamp cartographers"
     ],
     "loot": [
-      "Two chests: iron, gold, diamonds, emeralds, bones, bamboo, horse armor and enchanted books",
-      "Dispensers and tripwire for your own traps",
-      "Sticky pistons and redstone from the puzzle mechanism"
+      "Two chests: one at the end of the arrow-trap hallway, one revealed by the lever puzzle",
+      "Chest items: bones, gold and iron ingots, bamboo, diamonds (13%), emeralds, enchanted books (4%), horse armor",
+      "Dispensers, tripwire hooks, sticky pistons and redstone"
     ],
     "dangers": [
-      "Tripwire trap: arrows fire from hidden dispensers in the entry corridor",
-      "Falls into the lower puzzle room"
+      "Two tripwire lines trigger dispensers hidden behind vines (2-14 arrows each)"
     ],
     "tips": [
-      "The three-lever puzzle: flip the correct combination to open the secret chest room - or just mine through the wall (it is only mossy cobblestone).",
-      "Cut the tripwires with shears to reuse the string.",
-      "Cocoa beans grow on jungle trees outside - grab some while you are here."
+      "The puzzle: 3 levers on chiseled stone bricks on the bottom floor; the right combination pulls away a block to reveal a chest.",
+      "Source: minecraft.wiki Jungle Pyramid."
     ],
     "keywords": "jungle temple puzzle levers tripwire dispensers cocoa mossy cobblestone"
   },
@@ -390,24 +386,22 @@
     "name": "Pillager Outpost",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in any biome where villages generate: plains, desert, savanna, taiga, snowy plains, meadow and more",
-      "Semi-rare: every few hundred to a couple thousand blocks, rarer than villages but common enough to stumble into",
+      "Generates in village biomes and also cherry grove, grove, snowy slopes and peaks",
+      "Semi-rare: every several hundred to a couple thousand blocks, rarer than villages, less rare than mansions. In Java never within villages",
       "/locate structure minecraft:pillager_outpost"
     ],
     "loot": [
-      "Ominous bottles from the raid captains (the pillagers with banner hats): drink one to get Bad Omen for raids and ominous trials",
-      "Watchtower chest: dark oak logs, arrows, food, tripwire hooks, sometimes a crossbow or enchanted crossbow",
-      "Freeing the jailed allays gives you item-collecting pets; the caged iron golem fights by your side when released"
+      "Raid captains drop an ominous bottle of level 1-5; drinking it gives Bad Omen for 100 minutes",
+      "The watchtower chest sits on the top level",
+      "Cages hold an iron golem (85% chance) or allays (50% chance); they are optional side structures"
     ],
     "dangers": [
-      "Pillagers spawn continuously around the outpost at any light level, crossbows drawn, and outrange an unprepared player",
-      "The captain drops an ominous bottle - drink it by accident near a village and you start a raid you may not survive",
-      "In Bedrock, pillagers keep spawning even after you tear the tower down"
+      "Pillagers keep spawning around the outpost (Java: light level 8 or less, in a 72x58x72 area), even if you stand in the tower",
+      "A total of eight pillagers, including the captain, spawn at generation"
     ],
     "tips": [
-      "Do not fight at ground level: pillar up beside the tower, clear the top floors first, then loot down.",
-      "Save the ominous bottle for when you are standing in the village you want to defend - Bad Omen lasts 100 minutes.",
-      "The allay jail and golem cage are side structures that do not always generate: check the perimeter."
+      "Drinking the bottle near a village starts a raid.",
+      "Up to four smaller structures spawn around the tower. Source: minecraft.wiki Pillager Outpost."
     ],
     "keywords": "pillager outpost raid captain ominous bottle bad omen allay crossbow find"
   },

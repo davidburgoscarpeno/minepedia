@@ -199,45 +199,41 @@
   },
   "desert-temple": {
     "howToFind": [
-      "Se genera en biomas desert, a menudo semienterrado en arena: las torres de terracota naranja asoman sobre las dunas",
+      "Se genera en biomas de desierto (también desert hills en Bedrock); las torres de terracota naranja asoman sobre las dunas",
       "/locate structure minecraft:desert_pyramid",
-      "Los desert wells y las aldeas suelen estar cerca"
+      "Menos frecuente en Java que en Bedrock"
     ],
     "loot": [
-      "4 cofres ocultos bajo el suelo: libros encantados, manzanas doradas, diamantes, esmeraldas, armaduras de caballo, huesos y rotten flesh",
-      "9 bloques de TNT: mínalos tras desactivar la trampa",
-      "El templo en sí: terracota y cut sandstone para construcciones"
+      "4 cofres ocultos en un foso bajo el centro, conectados a una trampa de TNT: arena, libros encantados (22% por cofre), esmeraldas, diamantes, armadura de caballo de diamante, manzanas doradas encantadas (2,4% por cofre)",
+      "Una sala lateral enterrada de 5x5 con 6-8 bloques de arena sospechosa (usa el pincel)",
+      "El propio templo: terracota y arenisca cortada"
     ],
     "dangers": [
-      "La trampa de TNT: una placa de presión de piedra en el centro del suelo detona 9 TNT, suficiente para matar a un jugador sin armadura y destruir los cofres",
-      "Mobs hostiles dentro de la cámara del tesoro a oscuras"
+      "Una placa de presión de piedra bajo el bloque de terracota azul activa una rejilla de TNT de 3x3 (9 bloques), que puede matarte y destruir los cofres"
     ],
     "tips": [
-      "NUNCA pises la placa central: cava hacia abajo por una esquina de la cámara, o vierte agua desde arriba.",
-      "Rompe primero la placa de presión y luego mina la TNT para tu propio uso.",
-      "En Bedrock los cofres se generan de forma ligeramente distinta, pero la trampa es idéntica.",
-      "Para arqueología con el pincel, busca desert wells y warm ocean ruins: los templos no tienen bloques sospechosos."
+      "Nunca pises la placa de presión: cava a su lado, o rómpela primero.",
+      "El templo sí tiene arena sospechosa, en su sala lateral enterrada.",
+      "Fuente: minecraft.wiki Desert Pyramid."
     ]
   },
   "jungle-temple": {
     "howToFind": [
-      "Se genera en biomas jungle y bamboo jungle, cubierto de lianas y mossy cobblestone",
+      "Se genera en junglas (no junglas dispersas) y, en Java, en junglas de bambú",
       "/locate structure minecraft:jungle_pyramid",
-      "Suele encontrarse mientras buscas loros o bambú"
+      "Los mapas de jungla los venden cartógrafos de desierto, sabana y pantano"
     ],
     "loot": [
-      "Dos cofres: iron, oro, diamantes, esmeraldas, huesos, bambú, armadura de caballo y libros encantados",
-      "Dispensers y tripwire para tus propias trampas",
-      "Sticky pistons y redstone del mecanismo del puzle"
+      "Dos cofres: uno al final del pasillo de flechas, otro que se revela con el puzle de palancas",
+      "Objetos: huesos, lingotes de oro y hierro, bambú, diamantes (13%), esmeraldas, libros encantados (4%), armadura de caballo",
+      "Dispensadores, ganchos de cuerda trampa, pistones adhesivos y redstone"
     ],
     "dangers": [
-      "Trampa de tripwire: flechas disparadas desde dispensers ocultos en el pasillo de entrada",
-      "Caídas a la sala inferior del puzle"
+      "Dos líneas de cuerda trampa activan dispensadores ocultos tras enredaderas (2-14 flechas cada uno)"
     ],
     "tips": [
-      "El puzle de las tres palancas: acierta la combinación para abrir la sala secreta del cofre, o simplemente pica a través de la pared (solo es mossy cobblestone).",
-      "Corta los tripwires con tijeras para reutilizar el string.",
-      "Los cocoa beans crecen en los árboles de la jungla de fuera: recoge algunos mientras estás aquí."
+      "El puzle: 3 palancas sobre ladrillos de piedra cincelados en la planta baja; la combinación correcta retira un bloque y revela un cofre.",
+      "Fuente: minecraft.wiki Jungle Pyramid."
     ]
   },
   "trail-ruins": {
@@ -338,24 +334,22 @@
   },
   "pillager-outpost": {
     "howToFind": [
-      "Se genera en cualquier bioma donde se generan villages: plains, desert, savanna, taiga, snowy plains, meadow y más",
-      "Semirrara: cada pocos cientos o miles de bloques, más rara que las villages pero habitual encontrarla por accidente",
+      "Se genera en biomas de aldea y también en cherry grove, grove, snowy slopes y picos",
+      "Semi-raro: cada varios cientos a un par de miles de bloques, más raro que las aldeas, menos que las mansiones. En Java nunca dentro de aldeas",
       "/locate structure minecraft:pillager_outpost"
     ],
     "loot": [
-      "Ominous bottles de los raid captains (los pillagers con estandarte en la cabeza): bébela para conseguir Bad Omen y activar raids y trials ominous",
-      "Cofre de la torre: dark oak logs, arrows, comida, tripwire hooks, a veces una crossbow o crossbow encantada",
-      "Liberar a los allays enjaulados te da mascotas recolectoras; el iron golem enjaulado lucha a tu lado al soltarlo"
+      "Los capitanes de asalto sueltan una botella ominosa de nivel 1-5; beberla da Bad Omen durante 100 minutos",
+      "El cofre de la torre está en la planta superior",
+      "Las jaulas tienen un golem de hierro (85%) o allays (50%); son estructuras laterales opcionales"
     ],
     "dangers": [
-      "Los pillagers reaparecen continuamente alrededor del outpost a cualquier nivel de luz, con crossbows cargadas, y te superan en alcance si vas sin preparar",
-      "El captain suelta una ominous bottle - bébetela por accidente cerca de una village y empezarás una raid que quizá no sobrevivas",
-      "En Bedrock, los pillagers siguen apareciendo incluso después de derribar la torre"
+      "Los saqueadores siguen apareciendo alrededor del puesto (Java: luz 8 o menos, en un área de 72x58x72), incluso si estás en la torre",
+      "Al generarse aparecen ocho saqueadores en total, incluido el capitán"
     ],
     "tips": [
-      "No pelees a ras de suelo: haz un pilar junto a la torre, limpia primero los pisos altos y luego lutea hacia abajo.",
-      "Guarda la ominous bottle para cuando estés en la village que quieras defender: el Bad Omen dura 100 minutos.",
-      "La jaula de los allays y la del golem son estructuras secundarias que no siempre se generan: revisa el perímetro."
+      "Beber la botella cerca de una aldea inicia una raid.",
+      "Alrededor de la torre aparecen hasta cuatro estructuras menores. Fuente: minecraft.wiki Pillager Outpost."
     ],
     "relatedLinks": [
       {
