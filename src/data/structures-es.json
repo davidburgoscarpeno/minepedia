@@ -1,37 +1,35 @@
 {
   "village": {
     "howToFind": [
-      "Se genera en biomas de plains, desert, savanna, taiga, snowy plains y meadow: camina y observa, o usa /locate structure minecraft:village_plains (cada variante tiene su propio ID)",
-      "Los cartógrafos nunca marcan aldeas en sus mapas: toca explorar",
-      "En Bedrock las aldeas son mucho más comunes que en Java"
+      "Se genera en biomas de plains, desert, savanna, taiga, snowy plains y meadow (Bedrock añade snowy taiga y sunflower plains): camina y observa, o usa /locate structure minecraft:village_plains (cada variante tiene su propio ID)",
+      "Los cartógrafos venden mapas de exploración que señalan aldeas",
+      "Las aldeas son algo más comunes en Bedrock que en Java"
     ],
     "loot": [
-      "Hay bales (9 wheat cada uno) y cosechas de las granjas",
-      "Cofres de las casas: comida, herramientas, saplings, armadura",
-      "Cofres del weaponsmith: iron, obsidian, a veces diamantes",
+      "Pacas de heno y cosechas",
+      "Cofres cuyo contenido depende del edificio",
       "Camas y workstations que puedes llevarte para tu propia trading hall"
     ],
     "dangers": [
-      "Asedios de zombis y raids de pillagers (Bad Omen)",
-      "Los iron golems defienden a los aldeanos, y a ti si tu reputación es buena",
-      "En las aldeas abandonadas (zombi) aparecen aldeanos zombi; tienen telarañas y no tienen puertas... práctica de curación gratis"
+      "Raids de illagers, que se activan al entrar en una aldea con Bad Omen",
+      "Asedios de zombis (Java): 10% de probabilidad a medianoche o en tormentas en aldeas con al menos 20 camas",
+      "Las aldeas abandonadas (2%) solo tienen aldeanos zombi, sin puertas ni antorchas, y con telarañas"
     ],
     "tips": [
-      "Toca la campana para que los aldeanos se escondan, y para ver el centro de la aldea si vas a construir granjas.",
-      "Duerme antes de medianoche la primera noche: un asedio de zombis puede arrasar la aldea antes de que llegues a comerciar.",
-      "Las aldeas abandonadas (2% de las aldeas) no penalizan el botín y tienen telarañas de sobra para string."
+      "Los aldeanos tocan la campana cuando empieza una raid, y una campana marca un punto de reunión.",
+      "Los aldeanos que se enlazan a una cama crean la aldea; hace falta al menos una cama enlazada para que exista.",
+      "Fuente: minecraft.wiki Village."
     ]
   },
   "stronghold": {
     "howToFind": [
       "Lanza eyes of ender: vuelan hacia el stronghold más cercano. Síguelos hasta que empiecen a clavarse en el suelo y entonces cava hacia abajo",
       "Triangula: lanza desde dos puntos separados unos cientos de bloques y camina hasta donde se cruzan las trayectorias; ahorra ojos",
-      "Java: se generan 128 strongholds en anillos alrededor del origen del mundo. Bedrock: ilimitados, algunos directamente bajo aldeas"
+      "Java: se generan 128 strongholds en ocho anillos alrededor del origen (el primero tiene 3, a 1.280-2.816 bloques). Bedrock: sin límite, al menos a 160 bloques del origen"
     ],
     "loot": [
-      "Bibliotecas: libros encantados (incluidos encantamientos tesoro), papel y libros",
-      "Cofres de pasillos y altar: ender pearls, iron, manzanas, eyes of ender",
-      "La sala del portal del End: 12 marcos, cada uno con un 10% de probabilidad de venir ya relleno; espera 0-2 ojos colocados"
+      "Cofres de pasillos y bibliotecas: ender pearls (cerca del 23% por cofre), pecheras de hierro, rara vez un libro encantado",
+      "La sala del portal del End, la única sala garantizada en todo stronghold"
     ],
     "dangers": [
       "Spawner de silverfish en la sala del portal: rómpelo o ilumínalo antes de activar el portal",
@@ -39,32 +37,28 @@
       "Es fácil perderse: coloca antorchas siempre en el mismo lado para marcar el camino de vuelta"
     ],
     "tips": [
-      "Lleva 12+ eyes of ender: unos para el viaje y otros para los marcos.",
-      "A veces la sala del portal se genera sin marco (un raro fallo de generación): busca otro stronghold en lugar de enfadarte.",
-      "Cava en vertical solo tras hacer una escalera: a los strongholds les encanta abrirse a cuevas y ravinas."
+      "Lleva suficientes eyes of ender para los marcos y el viaje.",
+      "Raramente la sala del portal queda sobrescrita por una cueva, monumento u otra estructura: entonces busca otro stronghold.",
+      "Cava en vertical solo tras hacer una escalera: a los strongholds les encanta abrirse a cuevas y ravinas. Fuente: minecraft.wiki Stronghold."
     ]
   },
   "ancient-city": {
     "howToFind": [
-      "Se genera en el bioma deep dark alrededor de Y=-52, casi siempre bajo montañas (jagged peaks, windswept hills)",
+      "Se genera en el bioma deep dark, con el suelo en Y=-51, a menudo bajo montañas y otras zonas de baja erosión",
       "Cava hacia abajo desde una montaña o encuentra una cueva profunda que llegue a niveles de deepslate",
       "/locate structure minecraft:ancient_city con los trucos activados"
     ],
     "loot": [
-      "Echo shards (para fabricar la recovery compass, que apunta a tu última muerte)",
-      "Libros encantados de Swift Sneak (única fuente del juego)",
-      "Manzanas doradas encantadas, disc fragments (Music Disc 5), sculk catalysts",
-      "Marco de reinforced deepslate en el centro: irrompible, puramente decorativo (no hay portal oculto)"
+      "Cofres con objetos que no se encuentran en ningún otro sitio, como disc fragments, armor trims y echo shards (para fabricar la recovery compass)",
+      "Un cofre con una manzana dorada en el centro de la ciudad"
     ],
     "dangers": [
-      "Los sculk sensors te oyen caminar, colocar y romper bloques; los sculk shriekers invocan al Warden al cuarto aviso",
-      "El Warden: 500 HP y un ataque sónico que atraviesa paredes y armadura. No está pensado para que luches contra él",
-      "Pulsos del efecto Darkness cada vez que se activan los shriekers"
+      "Los sculk sensors te oyen caminar, colocar y romper bloques; los sculk shriekers invocan al Warden",
+      "El Warden: 500 HP y un ataque sónico que atraviesa paredes y armadura. No está pensado para que luches contra él"
     ],
     "tips": [
-      "Lleva pilas de lana: caminar sobre lana es silencioso y puedes tapar los sensores antes de abrir un cofre.",
-      "Rompe cada shrieker que puedas alcanzar DESPUÉS de que se reinicie su enfriamiento del cuarto grito: un shrieker solo puede invocar un Warden por cada 4 gritos.",
-      "Si aparece el Warden: quédate quieto, deja que pase olisqueando y sal por donde viniste. Vuelve a enterrarse tras 60 segundos tranquilos."
+      "Lleva pilas de lana: amortigua las vibraciones y los sensores no te oyen.",
+      "Si aparece el Warden: sal por donde viniste, en silencio. Fuente: minecraft.wiki Ancient City."
     ],
     "relatedLinks": [
       {

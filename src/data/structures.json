@@ -4,25 +4,24 @@
     "name": "Village",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates in plains, desert, savanna, taiga, snowy plains and meadow biomes - walk and look, or use /locate structure minecraft:village_plains (each variant has its own ID)",
-      "Cartographers never map villages: exploration is the way",
-      "On Bedrock, villages are far more common than in Java"
+      "Generates in plains, desert, savanna, taiga, snowy plains and meadow biomes (Bedrock adds snowy taiga and sunflower plains) - walk and look, or use /locate structure minecraft:village_plains (each variant has its own ID)",
+      "Cartographers sell explorer maps that point to villages",
+      "Villages are slightly more common in Bedrock than in Java"
     ],
     "loot": [
-      "Hay bales (9 wheat each) and farm crops",
-      "House chests: food, tools, saplings, armor",
-      "Weaponsmith chests: iron, obsidian, sometimes diamonds",
+      "Hay bales and farm crops",
+      "Loot chests whose contents depend on the building",
       "Beds and workstations you can take for your own trading hall"
     ],
     "dangers": [
-      "Zombie sieges and pillager raids (Bad Omen)",
-      "Iron golems defend villagers - and you, if your reputation is good",
-      "Zombie villagers spawn in abandoned (zombie) villages, which have cobwebs and no doors... free curing practice"
+      "Illager raids, triggered by entering a village with Bad Omen",
+      "Zombie sieges (Java): 10% chance at midnight or during thunderstorms in villages with at least 20 beds",
+      "Abandoned villages (2%) hold only zombie villagers, no doors or torches, and cobwebs"
     ],
     "tips": [
-      "Ring the bell to make villagers hide - and to see the village center for farm building.",
-      "Sleep before midnight on your first night: a zombie siege can wipe a village before you get to trade.",
-      "Abandoned villages (2% of villages) have no loot penalty and plenty of cobweb-string."
+      "Villagers ring the bell when a raid starts, and a bell marks a gathering site.",
+      "Villagers that link to a bed create the village; a village needs at least one linked bed to exist.",
+      "Source: minecraft.wiki Village."
     ],
     "keywords": "village minecraft find loot bell raid zombie village"
   },
@@ -33,12 +32,11 @@
     "howToFind": [
       "Throw eyes of ender: they fly toward the nearest stronghold. Follow them until they start diving into the ground, then dig down",
       "Triangulate: throw from two spots a few hundred blocks apart and walk to where the flight lines cross - saves eyes",
-      "Java: 128 strongholds generate in rings around the world origin. Bedrock: unlimited, some directly under villages"
+      "Java: 128 strongholds generate in eight rings around the world origin (the first ring has 3, 1,280-2,816 blocks out). Bedrock: no limit, at least 160 blocks from the origin"
     ],
     "loot": [
-      "Libraries: enchanted books (including treasure enchantments), paper and books",
-      "Corridor and altar chests: ender pearls, iron, apples, eyes of ender",
-      "The End portal room: 12 frames, each with a 10% chance to be pre-filled - expect 0-2 eyes already in place"
+      "Chests in corridors and libraries: ender pearls (about 23% per chest), iron chestplates, rarely an enchanted book",
+      "The End portal room, the only room guaranteed in every stronghold"
     ],
     "dangers": [
       "Silverfish spawner in the portal room - break it or light it before activating the portal",
@@ -46,9 +44,9 @@
       "Easy to get lost: place torches on one side to mark the way back"
     ],
     "tips": [
-      "Bring 12+ eyes of ender: some for the trip, some for the frames.",
-      "The portal room sometimes generates without a frame (rare generation bug): find another stronghold instead of raging.",
-      "Mine straight down only after digging a staircase - strongholds love to open into caves and ravines."
+      "Bring enough eyes of ender for the frames and the trip.",
+      "Rarely the portal room is overwritten by a cave, monument or another structure: then find another stronghold.",
+      "Mine straight down only after digging a staircase - strongholds love to open into caves and ravines. Source: minecraft.wiki Stronghold."
     ],
     "keywords": "stronghold find eyes of ender end portal silverfish library loot"
   },
@@ -57,25 +55,21 @@
     "name": "Ancient City",
     "dimension": "Overworld (deep dark)",
     "howToFind": [
-      "Generates in the deep dark biome around Y=-52, most often under mountains (jagged peaks, windswept hills)",
+      "Generates in the deep dark biome, with its floor at Y=-51, often under mountains and other low-erosion areas",
       "Dig down from a mountain or find a deep cave that reaches deepslate levels",
       "/locate structure minecraft:ancient_city with cheats on"
     ],
     "loot": [
-      "Echo shards (craft the recovery compass - points to your last death spot)",
-      "Swift Sneak enchanted books (only source in the game)",
-      "Enchanted golden apples, disc fragments (Music Disc 5), sculk catalysts",
-      "Reinforced deepslate frame in the center: unbreakable, purely decorative (no hidden portal)"
+      "Chests with items found nowhere else, such as disc fragments, armor trims and echo shards (craft the recovery compass)",
+      "A chest with a golden apple in the city center"
     ],
     "dangers": [
-      "Sculk sensors hear you walk, place and break blocks - sculk shriekers summon the Warden on the fourth warning",
-      "The Warden: 500 HP, sonic boom attack that goes through walls and armor. You are not meant to fight it",
-      "Darkness effect pulses whenever shriekers trigger"
+      "Sculk sensors hear you walk, place and break blocks - sculk shriekers summon the Warden",
+      "The Warden: 500 HP, sonic boom attack that goes through walls and armor. You are not meant to fight it"
     ],
     "tips": [
-      "Bring stacks of wool: walking on wool is silent, and you can wall off sensors before looting a chest.",
-      "Break every shrieker you can reach AFTER its fourth-scream cooldown resets - a shrieker can only summon one Warden per 4 screams.",
-      "If the Warden spawns: stand still, let it sniff past, and leave the way you came. It digs back down after 60 calm seconds."
+      "Bring stacks of wool: it dampens vibrations so sensors do not hear you.",
+      "If the Warden spawns: leave the way you came, quietly. Source: minecraft.wiki Ancient City."
     ],
     "keywords": "ancient city deep dark warden loot echo shard swift sneak reinforced deepslate",
     "relatedLinks": [
