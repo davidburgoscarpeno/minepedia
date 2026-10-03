@@ -1223,14 +1223,14 @@
     "category": "Overworld (bosque)",
     "description": "Un bosque de spruce de aspecto prehistórico con árboles gigantes de 2x2, rocas musgosas y suelo de podzol. Tiene dos variantes: pine (troncos desnudos con hojas arriba) y spruce (hojas por todo el tronco). Uno de los mejores biomas de madera del juego.",
     "resources": [
-      "Spruce wood a lo grande: un solo mega árbol de 2x2 da 1-2 stacks de logs",
+      "Spruce wood a lo grande de mega árboles de 2x2",
       "Podzol y coarse dirt (Silk Touch para el podzol)",
       "Mossy cobblestone de las rocas del bosque",
       "Sweet berry bushes, mushrooms y ferns",
       "Las trail ruins se esconden bajo la hojarasca de este bioma"
     ],
     "mobs": [
-      "Wolves (domesticables: aparecen aquí de forma natural)",
+      "Chestnut wolves (domesticables)",
       "Foxes y rabbits",
       "Sheep, pigs, chickens, cows",
       "Mobs hostiles estándar bajo la densa copa"
@@ -1241,12 +1241,12 @@
     ],
     "whyGo": [
       "La tala de madera más rápida del juego: los mega spruces son rascacielos de logs",
-      "El podzol solo se genera aquí y en mushroom fields: necesario para granjas de mushrooms sin dirt paths",
+      "El podzol se genera aquí (y en old growth pine taigas): útil para granjas de mushrooms",
       "Manadas de wolves para un ejército domesticado instantáneo",
       "Terreno precioso y evocador con ruinas musgosas naturales"
     ],
     "tips": [
-      "Lleva un buen axe: un mega spruce puede superar los 30 bloques de tronco recto",
+      "Lleva un buen axe: los troncos de 2x2 tardan en talarse",
       "Las sweet berries hieren y frenan: limpia los arbustos antes de esprintar",
       "La variante pine tiene troncos desnudos (más fáciles de trepar y talar); la spruce tiene hojas hasta el suelo",
       "La copa se queda oscura de día: ilumina el suelo del bosque si te instalas aquí"
@@ -1385,7 +1385,7 @@
       "Leaf litter, dead bushes, cactus y cactus flowers"
     ],
     "mobs": [
-      "Armadillos: se enrollan al asustarse; esquílalos para conseguir scutes",
+      "Armadillos: cepíllalos para conseguir scutes; los striped wolves solo aparecen aquí",
       "Rabbits y la fauna típica de biomas cálidos",
       "Nunca llueve: los mobs hostiles arden con normalidad al amanecer"
     ],
@@ -1455,7 +1455,7 @@
       "Mobs pasivos que entran desde los biomas vecinos"
     ],
     "structures": [
-      "No se generan estructuras en el river en sí: revisa las orillas por si hay ruined portals y busca shipwrecks cercanos"
+      "Sin estructuras propias"
     ],
     "whyGo": [
       "Viaje rápido y seguro en boat entre regiones sin construir carreteras",
@@ -1464,9 +1464,8 @@
       "Caza de drowned para copper y, con suerte, tridents"
     ],
     "tips": [
-      "Sigue un river aguas abajo: casi siempre llega al océano, y las costas concentran shipwrecks y ruins.",
-      "Los rivers en zonas heladas se convierten en frozen rivers: la superficie se hiela, así que lleva botas Frost Walker o un plan B.",
-      "Si cavas hacia abajo desde el lecho suelen aparecer cuevas: el terreno bajo deja entradas al descubierto."
+      "Sigue un river aguas abajo hasta la costa, donde se generan shipwrecks y ocean ruins.",
+      "Los rivers en zonas heladas se convierten en frozen rivers: la superficie se hiela; las botas Frost Walker ayudan."
     ],
     "keywords": "bioma river minecraft clay salmon squid drowned viajar en boat frozen river"
   },
@@ -1474,15 +1473,14 @@
     "category": "Overworld (montaña)",
     "description": "La variante cálida de las cumbres: agujas de piedra desnuda con vetas de calcite que pueden llegar al límite de construcción en Y=256. Sin nieve ni árboles: solo roca espectacular, menas al aire y un deep dark garantizado debajo.",
     "resources": [
-      "Emerald ore: las montañas son la única fuente en superficie",
+      "Emerald ore: se genera en biomas de montaña",
       "Stone, andesite y calcite en cantidades enormes",
       "Vetas de coal e iron al aire en las paredes",
       "Dripstone caves y lush caves se generan debajo"
     ],
     "mobs": [
       "Mobs hostiles estándar de noche",
-      "Aquí no hay goats: prefieren las cumbres nevadas",
-      "Llamas y animales de granja en las mesetas de alrededor"
+      "No aparecen mobs pasivos (según la wiki)"
     ],
     "structures": [
       "Sin estructuras en superficie: el atractivo es el propio terreno",
@@ -1502,7 +1500,7 @@
   },
   "windswept-savanna": {
     "category": "Overworld (cálido)",
-    "description": "La prima destrozada de la savanna: acantilados enormes, islas flotantes, waterfalls y lavafalls de hasta Y=256, cubiertas de coarse dirt y matorrales de acacia. Uno de los biomas más raros y fotogénicos del juego, pero sin villages ni outposts.",
+    "description": "La prima destrozada de la savanna: acantilados enormes, islas flotantes, waterfalls y lavafalls, cubiertas de coarse dirt y matorrales de acacia. Uno de los biomas más raros y fotogénicos del juego, pero sin villages ni outposts.",
     "resources": [
       "Madera de acacia",
       "Coarse dirt y stone a montones",
@@ -1511,19 +1509,17 @@
     ],
     "mobs": [
       "Horses, donkeys y armadillos (variantes cálidas)",
-      "Llamas: solo en Bedrock Edition",
-      "Mobs hostiles incluso de día bajo los enormes salientes"
+      "Llamas: solo en Bedrock Edition"
     ],
     "structures": [
       "Ninguna: las villages, los pillager outposts y el tall grass no se generan aquí"
     ],
     "whyGo": [
       "Terreno único de islas flotantes para construcciones y capturas épicas",
-      "Captura de horses y donkeys en un paisaje espectacular",
-      "Lagos profundos al pie de los acantilados que sirven de puertos naturales"
+      "Captura de horses y donkeys en un paisaje espectacular"
     ],
     "tips": [
-      "Trátalo como una expedición de cuevas: los salientes generan mobs hostiles al mediodía, así que lleva torches y un shield.",
+      "Trátalo como una expedición de cuevas: los salientes son oscuros, así que lleva torches y un shield.",
       "Las caídas son el verdadero peligro: lleva un water bucket para aterrizajes MLG.",
       "Sin villages no hay camas ni comercio fácil; fija tu propio punto de reaparición cuanto antes."
     ],
@@ -1549,7 +1545,7 @@
     ],
     "whyGo": [
       "Cría de turtles para scutes y la potion of the turtle master",
-      "El buried treasure es la fuente más rápida de diamonds y el heart of the sea al principio",
+      "El buried treasure guarda el heart of the sea y otro botín",
       "Espacio plano y abierto para construir con vistas al océano"
     ],
     "tips": [
@@ -1594,9 +1590,8 @@
     "category": "Overworld (templado)",
     "description": "Una variante rara del birch forest donde la mitad de los árboles crece hasta 14 bloques de alto, mucho más que cualquier birch plantado con sapling. La altura extra lo convierte en el mejor bioma para farmear madera, con bee nests en algunos árboles.",
     "resources": [
-      "Birches altos (hasta 14 bloques de tronco): rendimiento de madera inigualable por árbol",
+      "Birches altos (hasta 14 bloques de tronco): troncos altos, más madera por árbol",
       "Bee nests en una pequeña parte de los árboles (0,2% en Java, 0,035% en Bedrock)",
-      "Troncos caídos de hasta 14 bloques de largo",
       "Flowers y tall grass para dyes y seeds"
     ],
     "mobs": [
@@ -1605,7 +1600,7 @@
       "Mobs hostiles estándar de noche"
     ],
     "structures": [
-      "Sin estructuras: el atractivo es el propio bosque",
+      "Pueden generarse trail ruins (no en birch forests normales)",
       "Los abandoned camps a veces se generan aquí (Java 26.3)"
     ],
     "whyGo": [
@@ -1614,9 +1609,8 @@
       "Bee nests naturales para empezar una granja de honey"
     ],
     "tips": [
-      "Marca el bioma: los birches altos no vuelven a crecer con saplings, así que tala y sigue, o conserva algunos por estética.",
-      "Árboles de hasta 14 bloques: una ladder o scaffolding ayuda a talarlos enteros.",
-      "Un árbol que crece cerca de flowers puede generar un bee nest, así que planta saplings junto a tus parterres en casa."
+      "Los birches altos no vuelven a crecer con saplings: tala algunos y conserva otros por estética.",
+      "Árboles de hasta 14 bloques: una ladder o scaffolding ayuda a talarlos enteros."
     ],
     "keywords": "old growth birch forest birches altos granja madera birch probabilidad bee nest"
   },
