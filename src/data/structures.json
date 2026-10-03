@@ -518,24 +518,20 @@
     "name": "Igloo",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates uncommonly in snowy taigas, snowy plains and snowy slopes - easy to miss, since it is just a small white dome",
-      "Only half of all igloos hide the basement: check under the third carpet from the doorway for an oak trapdoor",
+      "Generates uncommonly in snowy plains, snowy taiga and snowy slopes",
+      "Half of all igloos have an oak trapdoor under the third carpet from the doorway (the others have a snow block there)",
       "/locate structure minecraft:igloo"
     ],
     "loot": [
-      "Inside: bed, furnace, crafting table and a redstone torch - a free starter shelter",
-      "Basement (50% of igloos): brewing stand with a splash potion of Weakness, a chest with a golden apple, and two caged villagers - one of them zombified",
-      "The villager and zombie villager in the cages are the real prize: a free curing starter kit"
+      "Inside: bed, furnace, crafting table, redstone torch",
+      "Basement (50% of igloos): a villager and a zombie villager in cells, a brewing stand, a cauldron and a chest with a golden apple (100%)"
     ],
     "dangers": [
-      "The basement's stone bricks include infested blocks - silverfish pour out if you mine carelessly",
-      "An igloo without a basement is just an empty dome: no trapdoor means no loot",
-      "The zombie villager is still hostile while caged - cure it or kill it, but do not get bitten reaching in"
+      "Some basement stone bricks are infested blocks with silverfish"
     ],
     "tips": [
-      "Cure the zombie villager on the spot: splash it with the provided Weakness potion and feed it the golden apple - you get a discounted villager immediately",
-      "Take the brewing stand: it is your first one for free, no blaze rod needed",
-      "Some stone bricks are infested: mine with a weapon ready or pillar past them"
+      "In Java the villager is unemployed (plains type); in Bedrock it is snowy with a random profession.",
+      "In Bedrock an igloo with a basement counts as a village, so a raid can trigger there. Source: minecraft.wiki Igloo."
     ],
     "keywords": "igloo basement trapdoor zombie villager cure golden apple weakness potion snowy find silverfish"
   },
@@ -544,24 +540,19 @@
     "name": "Monster Room",
     "dimension": "Overworld",
     "howToFind": [
-      "Found underground anywhere in the Overworld: a cobblestone and mossy cobblestone room, 7 or 9 blocks wide, with a spawner in the center",
-      "Listen for the telltale sound: dozens of the same mob's noises coming from one spot underground",
-      "Digs straight into caves often - explore caves and watch for cobblestone walls where they do not belong"
+      "Generates uncommonly underground in any Overworld biome, always near caves, canyons, mineshafts or strongholds",
+      "A cobblestone room with mossy cobblestone floor (75% of floor cobblestone), 7 or 9 blocks wide",
+      "Spawner in the center"
     ],
     "loot": [
-      "Up to 2 chests with classic dungeon loot: name tags, saddles (before 1.21.6), music discs, golden apples, iron, gunpowder, string, bread and buckets",
-      "The spawner itself is the real treasure: zombie (50%), skeleton (25%) or spider (25%) - the heart of every XP farm",
-      "In Bedrock, zombie spawners can also produce zombie villagers (5%)"
+      "Up to 2 chests: bones, gunpowder, rotten flesh, string (58% each), wheat, bread, coal, redstone, leather, name tags (25%), music discs 13 and cat, golden apples (19%), iron ingots, buckets, enchanted books (13%)",
+      "Spawner: zombie 50%, skeleton 25%, spider 25% (Bedrock zombie spawners can also produce zombie villagers, 5%)"
     ],
     "dangers": [
-      "The room is dark by design: mobs keep spawning until you light it or break the spawner",
-      "Skeleton spawners are the deadliest early game - arrows through the dark while you place torches",
-      "Breaking the spawner gives only experience - no item - so think twice before destroying a farmable one"
+      "Mobs keep spawning in the room until it is lit or the spawner is removed"
     ],
     "tips": [
-      "Do NOT break the spawner: torch it (or slab it) to stop spawns, then convert it into an XP/drop farm later",
-      "A skeleton or zombie spawner farm means infinite arrows, bones, rotten flesh and XP at level 1 efficiency",
-      "Spider spawners make great string and XP farms, and cave spider spawners (in mineshafts) are a different, nastier block"
+      "Mobs spawn up to 4 blocks from the spawner, even outside the room walls if there is open space. Source: minecraft.wiki Monster Room."
     ],
     "keywords": "monster room dungeon spawner zombie skeleton spider chest loot music disc name tag XP farm find"
   },
@@ -570,26 +561,21 @@
     "name": "Amethyst Geode",
     "dimension": "Overworld",
     "howToFind": [
-      "Generates underground in any Overworld biome between Y -58 and Y 30 - each chunk has a 1/24 chance, so branch mining or caving stumbles into them regularly",
-      "Look for the shell: smooth basalt on the outside, a white calcite layer under it - either one exposed in a cave wall means a geode",
-      "The chime gives it away: amethyst blocks and clusters ring when walked on or mined",
+      "Generates underground in any Overworld biome between Y=-58 and Y=30; each chunk has a 1/24 chance to attempt one",
+      "Look for the smooth basalt outer layer with calcite under it",
       "/locate structure minecraft:amethyst_geode"
     ],
     "loot": [
-      "Amethyst clusters: 4 shards with a pickaxe (only 2 without one) - Fortune raises it, Silk Touch drops the cluster itself",
-      "Buds in three sizes (small, medium, large) only drop with Silk Touch",
-      "Amethyst shards craft spyglasses, tinted glass, amethyst blocks and calibrated sculk sensors",
-      "Smooth basalt and calcite as building blocks - calcite has no other source"
+      "Amethyst cluster: 4 shards with a pickaxe; any tool with Silk Touch drops the cluster or bud itself",
+      "Amethyst buds drop nothing without Silk Touch; only fully grown clusters drop shards",
+      "Amethyst blocks, smooth basalt and calcite"
     ],
     "dangers": [
-      "Budding amethyst (8.3% of the inner wall) is the only block that grows new clusters, and it can never be moved - not even Silk Touch works. Harvest shards in place",
-      "Clusters grow only through visible stages, so do not break small buds: a fully grown cluster pays 4 shards, a broken bud pays nothing",
-      "Geodes often open into big caves - the usual mob crowd comes with them"
+      "Budding amethyst makes up 8.3% of the inner layer and grows buds"
     ],
     "tips": [
-      "Mark every budding amethyst block: a geode is a renewable shard farm if you leave the buds to mature",
-      "Use Fortune III on clusters for up to 16 shards per cluster - Silk Touch only if you want the decoration",
-      "Tinted glass (2 shards + glass) blocks light while staying transparent - great for mob farms"
+      "A bud placed on budding amethyst grows through small, medium and large stages into a cluster; an unobstructed face takes about 2 hours to fully regrow on average.",
+      "Do not break buds early. Source: minecraft.wiki Amethyst Geode and Amethyst Cluster."
     ],
     "keywords": "amethyst geode minecraft find shards budding amethyst cluster calcite smooth basalt spyglass tinted glass fortune"
   },

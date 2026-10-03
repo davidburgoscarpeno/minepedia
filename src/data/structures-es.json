@@ -480,24 +480,20 @@
   },
   "igloo": {
     "howToFind": [
-      "Se genera poco a menudo en snowy taigas, snowy plains y snowy slopes - fácil de pasar por alto, es solo una cúpula blanca pequeña",
-      "Solo la mitad de los igloos esconden el sótano: mira bajo la tercera carpet desde la puerta por un oak trapdoor",
+      "Se genera de forma poco común en llanuras nevadas, taiga nevada y laderas nevadas",
+      "La mitad de los iglús tienen una trampilla de roble bajo la tercera alfombra desde la puerta (los demás tienen un bloque de nieve)",
       "/locate structure minecraft:igloo"
     ],
     "loot": [
-      "Dentro: bed, furnace, crafting table y un redstone torch - un refugio inicial gratis",
-      "Sótano (50% de los igloos): brewing stand con una splash potion of Weakness, un cofre con una golden apple, y dos villagers enjaulados - uno zombificado",
-      "El villager y el zombie villager de las jaulas son el verdadero premio: un kit de curación inicial gratis"
+      "Dentro: cama, horno, mesa de crafteo, antorcha de redstone",
+      "Sótano (50% de los iglús): un aldeano y un aldeano zombi en celdas, un soporte para pociones, un caldero y un cofre con una manzana dorada (100%)"
     ],
     "dangers": [
-      "Las stone bricks del sótano incluyen infested blocks - los silverfish salen en masa si minas sin cuidado",
-      "Un igloo sin sótano es solo una cúpula vacía: sin trapdoor no hay botín",
-      "El zombie villager sigue siendo hostil enjaulado: cúralo o mátalo, pero no te acerques a que te muerda"
+      "Algunos ladrillos de piedra del sótano son bloques infestados con silverfish"
     ],
     "tips": [
-      "Cura al zombie villager in situ: lánzale la poción de Weakness incluida y dale la golden apple - consigues un villager con descuentos al instante",
-      "Llévate el brewing stand: es tu primero gratis, sin necesidad de blaze rod",
-      "Algunas stone bricks están infestadas: mina con arma en mano o sálvalas con bloques"
+      "En Java el aldeano está sin profesión (tipo llanura); en Bedrock es nevado con profesión aleatoria.",
+      "En Bedrock un iglú con sótano cuenta como aldea, así que puede activarse una raid. Fuente: minecraft.wiki Igloo."
     ],
     "relatedLinks": [
       {
@@ -512,24 +508,19 @@
   },
   "monster-room": {
     "howToFind": [
-      "Subterránea en cualquier punto del Overworld: una sala de cobblestone y mossy cobblestone, de 7 u 9 bloques de ancho, con un spawner en el centro",
-      "Escucha la pista reveladora: decenas de sonidos del mismo mob viniendo de un punto bajo tierra",
-      "Suelen abrirse a cuevas: explora cuevas y fíjate en paredes de cobblestone donde no deberían estar"
+      "Se genera de forma poco común bajo tierra en cualquier bioma del Overworld, siempre cerca de cuevas, cañones, minas o strongholds",
+      "Sala de adoquín con suelo de adoquín musgoso (75% del suelo), de 7 o 9 bloques de ancho",
+      "Spawner en el centro"
     ],
     "loot": [
-      "Hasta 2 cofres con el botín clásico de dungeon: name tags, saddles (antes de 1.21.6), music discs, golden apples, iron, gunpowder, string, bread y buckets",
-      "El propio spawner es el verdadero tesoro: zombie (50%), skeleton (25%) o spider (25%) - el corazón de toda granja de XP",
-      "En Bedrock, los spawners de zombie también producen zombie villagers (5%)"
+      "Hasta 2 cofres: huesos, pólvora, carne podrida, hilo (58% cada uno), trigo, pan, carbón, redstone, cuero, name tags (25%), discos 13 y cat, manzanas doradas (19%), lingotes de hierro, cubos, libros encantados (13%)",
+      "Spawner: zombi 50%, esqueleto 25%, araña 25% (en Bedrock los de zombi también pueden producir aldeanos zombi, 5%)"
     ],
     "dangers": [
-      "La sala es oscura por diseño: los mobs siguen apareciendo hasta que la ilumines o rompas el spawner",
-      "Los spawners de skeleton son los más letales al principio: flechas en la oscuridad mientras colocas torches",
-      "Romper el spawner solo da experiencia - ningún objeto - así que piénsatelo antes de destruir uno farmeable"
+      "Los mobs siguen apareciendo en la sala hasta que la iluminas o quitas el spawner"
     ],
     "tips": [
-      "NO rompas el spawner: tápalo con torches (o slabs) para frenar los spawns y conviértelo luego en granja de XP/drops",
-      "Una granja de spawner de skeleton o zombie significa arrows, bones, rotten flesh y XP infinitos a nivel 1 de eficiencia",
-      "Los spawners de spider dan granjas de string y XP estupendas, y los de cave spider (en mineshafts) son otro bloque distinto y más puñetero"
+      "Los mobs aparecen hasta a 4 bloques del spawner, incluso fuera de las paredes si hay espacio abierto. Fuente: minecraft.wiki Monster Room."
     ],
     "relatedLinks": [
       {
@@ -540,26 +531,21 @@
   },
   "amethyst-geode": {
     "howToFind": [
-      "Se genera bajo tierra en cualquier bioma del Overworld entre Y -58 e Y 30 - cada chunk tiene 1/24 de probabilidad, así que minando en rama o explorando cuevas aparecen con regularidad",
-      "Busca la cáscara: smooth basalt por fuera, una capa blanca de calcite debajo - cualquiera de las dos a la vista en una pared de cueva significa geoda",
-      "El tintineo la delata: los bloques y clusters de amethyst suenan al pisarlos o picarlos",
+      "Se genera bajo tierra en cualquier bioma del Overworld entre Y=-58 y Y=30; cada chunk tiene 1/24 de probabilidad de intentarlo",
+      "Busca la capa exterior de basalto liso con calcita debajo",
       "/locate structure minecraft:amethyst_geode"
     ],
     "loot": [
-      "Amethyst clusters: 4 shards con un pickaxe (solo 2 sin él) - Fortune lo aumenta, Silk Touch suelta el cluster entero",
-      "Buds en tres tamaños (small, medium, large) solo se sueltan con Silk Touch",
-      "Las amethyst shards craftean spyglasses, tinted glass, bloques de amethyst y calibrated sculk sensors",
-      "Smooth basalt y calcite como bloques de construcción - la calcite no tiene otra fuente"
+      "Cúmulo de amatista: 4 fragmentos con un pico; cualquier herramienta con Toque de seda suelta el cúmulo o brote",
+      "Los brotes no sueltan nada sin Toque de seda; solo los cúmulos completos sueltan fragmentos",
+      "Bloques de amatista, basalto liso y calcita"
     ],
     "dangers": [
-      "La budding amethyst (8,3% de la pared interior) es el único bloque que genera clusters nuevos, y jamás se puede mover - ni Silk Touch funciona. Recoge los shards in situ",
-      "Los clusters crecen por fases visibles, así que no rompas los buds pequeños: un cluster maduro da 4 shards, un bud roto no da nada",
-      "Las geodas suelen abrir a cuevas grandes - con la compañía habitual de mobs"
+      "La amatista en brote ocupa el 8,3% de la capa interior y hace crecer brotes"
     ],
     "tips": [
-      "Marca cada bloque de budding amethyst: una geoda es una granja renovable de shards si dejas madurar los buds",
-      "Usa Fortune III en los clusters para hasta 16 shards por cluster - Silk Touch solo si quieres la decoración",
-      "El tinted glass (2 shards + glass) bloquea la luz siendo transparente - perfecto para granjas de mobs"
+      "Un brote colocado sobre amatista en brote crece por las etapas pequeña, mediana y grande hasta ser un cúmulo; una cara sin obstruir tarda de media unas 2 horas en volver a crecer entera.",
+      "No rompas los brotes antes de tiempo. Fuente: minecraft.wiki Amethyst Geode y Amethyst Cluster."
     ],
     "relatedLinks": [
       {
