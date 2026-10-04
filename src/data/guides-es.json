@@ -41820,5 +41820,54 @@
     ],
     "relatedLinks": [],
     "keywords": "music disc 5 minecraft, disc fragment, disco ancient city, cómo conseguir disc 5, craftear disc 5"
+  },
+  "how-to-use-structure-blocks": {
+    "name": "Cómo usar structure blocks en Minecraft",
+    "shortTitle": "Structure Blocks",
+    "quickAnswer": "Consigue un structure block con /give @s minecraft:structure_block (o desde la pestaña Operator Utilities del inventario creativo de Java), colócalo y ábrelo en modo Creative con nivel de permiso 2. Usa el modo Save para copiar una zona (hasta 48x48x48 en Java, 64x384x64 en Bedrock) y el modo Load para pegarla de nuevo, con rotación si quieres.",
+    "steps": [
+      "Consíguelo: usa /give, /setblock o /fill, o la pestaña Operator Utilities del inventario creativo en Java Edition. En Bedrock Edition solo se obtienen structure blocks en modo save desde el inventario mediante comandos.",
+      "Colócalo. En Survival el bloque colocado es irrompible y tiene la resistencia a explosiones de la bedrock.",
+      "Abre su pantalla. Solo se abre en modo Creative y con nivel de permiso 2 o superior.",
+      "Elige un modo: Save, Load, Corner o Data.",
+      "Modo Save: escribe un nombre de estructura, fija la posición relativa (offset) y el tamaño, y guarda. El tamaño máximo es 48x48x48 en Java y 64x384x64 en Bedrock. En Java el origen debe estar como máximo a 48 bloques en todas las direcciones.",
+      "Modo Load: escribe el nombre de la estructura guardada y colócala. Puedes rotarla. En Java Edition las estructuras se buscan primero en la carpeta generated/structures del mundo y luego en los data packs.",
+      "Usa el modo Corner para calcular el tamaño automáticamente: coloca bloques corner en la esquina opuesta y pulsa Detect en el bloque save. El modo Data está obsoleto (lo sustituye el jigsaw block) y solo funciona durante la generación natural de algunas estructuras vanilla; en Java está oculto salvo que mantengas Alt al cambiar desde el modo Corner.",
+      "Usa structure void blocks dentro de la zona: se ignoran al guardar la estructura, así que los bloques que ya había en ese punto se conservan al cargarla."
+    ],
+    "materials": [
+      "Modo Creative",
+      "Nivel de permiso 2 o superior",
+      "Structure void blocks (opcional)"
+    ],
+    "editionNote": "Los límites cambian según la edición: 48x48x48 en Java y 64x384x64 en Bedrock. En Bedrock Edition solo se obtienen structure blocks en modo save mediante los comandos del inventario, y las estructuras guardadas también pueden quedarse en memoria o en un archivo aparte.",
+    "versions": "Los structure blocks funcionan igual en las versiones actuales de Java y Bedrock, salvo por los límites indicados.",
+    "faq": [
+      {
+        "q": "¿Cómo se consigue un structure block?",
+        "a": "Con /give @s minecraft:structure_block, /setblock o /fill, o desde la pestaña Operator Utilities del inventario creativo en Java Edition."
+      },
+      {
+        "q": "¿Por qué no se abre mi structure block?",
+        "a": "Solo se abre en modo Creative y con nivel de permiso 2 o superior."
+      },
+      {
+        "q": "¿Qué tamaño puede tener una estructura?",
+        "a": "48x48x48 bloques en Java Edition y 64x384x64 en Bedrock Edition."
+      },
+      {
+        "q": "¿Puedo romper un structure block en Survival?",
+        "a": "No. Al colocarlo es irrompible en Survival y tiene la resistencia a explosiones de la bedrock."
+      },
+      {
+        "q": "¿Cuáles son los cuatro modos?",
+        "a": "Save, Load, Corner y Data."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-enable-cheats"
+    ],
+    "relatedLinks": [],
+    "keywords": "cómo usar structure block minecraft, structure block, guardar estructura, cargar estructura, tamaño structure block, give structure block"
   }
 }
