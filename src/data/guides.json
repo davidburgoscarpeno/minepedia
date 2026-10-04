@@ -46745,5 +46745,61 @@
         "label": "Get Netherrack"
       }
     ]
+  },
+  {
+    "slug": "how-to-stop-phantoms",
+    "name": "How to Stop Phantoms in Minecraft",
+    "shortTitle": "Stop Phantoms",
+    "quickAnswer": "Sleep in a bed. Phantoms spawn only at night or in thunderstorms, and only once you have gone 3 in-game days without sleeping in a bed or dying. One night in a bed resets the timer. You can also avoid them by staying under a roof or below Y=64, keeping tamed cats nearby, or turning off the spawn_phantoms game rule (doinsomnia in Bedrock).",
+    "steps": [
+      "Sleep in a bed. Entering a bed resets the timer that phantoms depend on. Phantoms need at least 3 in-game days since you last slept in a bed or died, so one bed night every 3 days is enough.",
+      "Stay under cover. Phantoms only spawn when you are above sea level (Y=64) with open sky directly above you. A solid roof over your head stops new spawns, and so does working underground below Y=64.",
+      "Keep tamed cats close. Cats hiss at a phantom that is attacking a player, and phantoms try to stay at least 16 blocks away from cats.",
+      "Remember that phantoms spawn at night or during a thunderstorm, 20 to 34 blocks above you, and attack by diving from the sky. Fight them with a bow or sword when they dive.",
+      "If you use commands or a cheats-enabled world, turn them off with /gamerule spawn_phantoms false in Java Edition, or /gamerule doinsomnia false in Bedrock Edition.",
+      "In Java 26.3, a straw bed also stops phantoms from spawning, the same way a regular bed does."
+    ],
+    "materials": [
+      "A bed",
+      "A tamed cat (optional)",
+      "A roof or a base below Y=64",
+      "Cheats enabled, for the game rule (optional)"
+    ],
+    "editionNote": "The 3-day rule and the cat behavior work the same in Java and Bedrock. The game rule is named spawn_phantoms in Java Edition and doinsomnia in Bedrock Edition, and it needs cheats. In Bedrock, phantoms also keep away from ocelots. Phantoms are afraid of cats since Java 18w44a and Bedrock beta 1.8.0.8.",
+    "versions": "Phantoms were added in Java Edition 1.13. The doInsomnia game rule arrived in Java 19w36a and Bedrock beta 1.6.0.6. Straw beds (Java 26.3, snapshot 3) also prevent phantoms from spawning.",
+    "faq": [
+      {
+        "q": "How do I stop phantoms from spawning?",
+        "a": "Sleep in a bed. Phantoms only spawn when you have not entered a bed or died for at least 3 in-game days, so one night's sleep resets the timer."
+      },
+      {
+        "q": "Do phantoms spawn if I am underground?",
+        "a": "No. They need you to be above sea level (Y=64) with sky directly above you. Cobwebs do not block that check, but a solid block does."
+      },
+      {
+        "q": "Do cats scare phantoms?",
+        "a": "Yes. Cats hiss at a phantom that is attacking a player, and phantoms try to stay at least 16 blocks away from cats."
+      },
+      {
+        "q": "Can I turn phantoms off completely?",
+        "a": "With cheats, use /gamerule spawn_phantoms false in Java Edition or /gamerule doinsomnia false in Bedrock Edition."
+      },
+      {
+        "q": "When do phantoms spawn?",
+        "a": "At night or during a thunderstorm, once you have gone 3 in-game days without sleeping in a bed or dying. They appear 20 to 34 blocks above you, and a group is 1-2 on Easy, 1-3 on Normal and 1-4 on Hard."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-phantom-membrane",
+      "how-to-make-a-bed",
+      "how-to-tame-a-cat"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Phantom",
+        "href": "/mobs/phantom/"
+      }
+    ],
+    "keywords": "how to stop phantoms minecraft, phantom spawn, how to stop phantoms spawning, insomnia minecraft, spawn_phantoms gamerule, doinsomnia, phantoms cats"
   }
 ]

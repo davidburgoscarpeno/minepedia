@@ -41302,5 +41302,60 @@
         "label": "Conseguir netherrack"
       }
     ]
+  },
+  "how-to-stop-phantoms": {
+    "name": "Cómo evitar los Phantoms en Minecraft",
+    "shortTitle": "Evitar Phantoms",
+    "quickAnswer": "Duerme en una cama. Los phantoms solo aparecen de noche o en tormentas eléctricas, y solo cuando llevas 3 días de juego sin dormir en una cama ni morir. Una noche en una cama reinicia el contador. También puedes evitarlos quedándote bajo techo o por debajo de Y=64, con gatos domesticados cerca, o desactivando la gamerule spawn_phantoms (doinsomnia en Bedrock).",
+    "steps": [
+      "Duerme en una cama. Entrar en una cama reinicia el contador del que dependen los phantoms. Necesitan al menos 3 días de juego desde la última vez que dormiste en una cama o moriste, así que una noche en cama cada 3 días basta.",
+      "Mantente a cubierto. Los phantoms solo aparecen cuando estás por encima del nivel del mar (Y=64) con cielo abierto justo encima. Un techo sólido sobre tu cabeza evita nuevos spawns, y también trabajar bajo tierra por debajo de Y=64.",
+      "Ten gatos domesticados cerca. Los gatos bufan a un phantom que ataca a un jugador, y los phantoms intentan mantenerse al menos a 16 bloques de ellos.",
+      "Recuerda que los phantoms aparecen de noche o durante una tormenta eléctrica, a 20-34 bloques sobre ti, y atacan lanzándose en picado. Combátelos con arco o espada cuando bajen.",
+      "Si usas comandos o un mundo con trucos, desactívalos con /gamerule spawn_phantoms false en Java Edition o /gamerule doinsomnia false en Bedrock Edition.",
+      "En Java 26.3, una straw bed también evita que aparezcan phantoms, igual que una cama normal."
+    ],
+    "materials": [
+      "Una cama",
+      "Un gato domesticado (opcional)",
+      "Un techo o una base por debajo de Y=64",
+      "Trucos activados, para la gamerule (opcional)"
+    ],
+    "editionNote": "La regla de los 3 días y el comportamiento de los gatos funcionan igual en Java y Bedrock. La gamerule se llama spawn_phantoms en Java Edition y doinsomnia en Bedrock Edition, y requiere trucos. En Bedrock, los phantoms también se alejan de los ocelotes. Los phantoms temen a los gatos desde Java 18w44a y Bedrock beta 1.8.0.8.",
+    "versions": "Los phantoms se añadieron en Java Edition 1.13. La gamerule doInsomnia llegó en Java 19w36a y en Bedrock beta 1.6.0.6. Las straw beds (Java 26.3, snapshot 3) también evitan que aparezcan phantoms.",
+    "faq": [
+      {
+        "q": "¿Cómo evito que aparezcan phantoms?",
+        "a": "Duerme en una cama. Los phantoms solo aparecen cuando llevas al menos 3 días de juego sin entrar en una cama ni morir, así que una noche de sueño reinicia el contador."
+      },
+      {
+        "q": "¿Aparecen phantoms si estoy bajo tierra?",
+        "a": "No. Necesitan que estés por encima del nivel del mar (Y=64) con cielo justo encima. Las cobwebs no bloquean esa comprobación, pero un bloque sólido sí."
+      },
+      {
+        "q": "¿Los gatos asustan a los phantoms?",
+        "a": "Sí. Los gatos bufan a un phantom que ataca a un jugador, y los phantoms intentan mantenerse al menos a 16 bloques de ellos."
+      },
+      {
+        "q": "¿Puedo desactivar los phantoms por completo?",
+        "a": "Con trucos, usa /gamerule spawn_phantoms false en Java Edition o /gamerule doinsomnia false en Bedrock Edition."
+      },
+      {
+        "q": "¿Cuándo aparecen los phantoms?",
+        "a": "De noche o durante una tormenta eléctrica, cuando llevas 3 días de juego sin dormir en una cama ni morir. Aparecen a 20-34 bloques sobre ti, en grupos de 1-2 en Easy, 1-3 en Normal y 1-4 en Hard."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-get-phantom-membrane",
+      "how-to-make-a-bed",
+      "how-to-tame-a-cat"
+    ],
+    "relatedLinks": [
+      {
+        "label": "Phantom",
+        "href": "/es/mobs/phantom/"
+      }
+    ],
+    "keywords": "cómo evitar phantoms minecraft, spawn phantoms, cómo evitar que salgan phantoms, insomnio minecraft, gamerule spawn_phantoms, doinsomnia, phantoms gatos"
   }
 }
