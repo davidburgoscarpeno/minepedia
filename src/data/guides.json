@@ -46859,5 +46859,54 @@
       }
     ],
     "keywords": "how to make charcoal minecraft, charcoal recipe, smelt logs, charcoal vs coal, charcoal torches, campfire charcoal"
+  },
+  {
+    "slug": "how-to-set-a-world-border",
+    "name": "How to Set a World Border in Minecraft",
+    "shortTitle": "World Border",
+    "quickAnswer": "Run /worldborder set <distance> to make the border that wide (width and length in blocks), and /worldborder center <x> <z> to move its middle. It is Java Edition only and needs permission level 2. By default the border is 59,999,968 blocks wide and centered on 0, 0.",
+    "steps": [
+      "Open chat as an operator (permission level 2, or cheats on in a single-player world).",
+      "Set the size: /worldborder set 2000 makes a 2000 x 2000 border. The distance is the width and length in blocks.",
+      "Center it: /worldborder center 0 0 moves the middle of the border. The default center is 0, 0.",
+      "Shrink or grow it slowly by adding a time in seconds: /worldborder set 500 600 changes the size over 600 seconds. The animation keeps running even if the game is paused.",
+      "Change it relative to the current size with /worldborder add, and read the current size with /worldborder get.",
+      "Tune the damage: /worldborder damage amount sets damage per second per block outside the buffer (default 0.2), and /worldborder damage buffer sets the safe distance (default 5 blocks).",
+      "Tune the warning: /worldborder warning distance (default 5 blocks) and /worldborder warning time (default 15 seconds) control when the screen tints red."
+    ],
+    "materials": [
+      "Java Edition",
+      "Permission level 2 (operator or cheats on)"
+    ],
+    "editionNote": "The world border is exclusive to Java Edition. The command only affects the dimension where you run it, so run it in the Nether and the End too if you want a border there. Bedrock Edition has no /worldborder command.",
+    "versions": "The default border is 29,999,984 blocks from the origin on each side (59,999,968 wide).",
+    "faq": [
+      {
+        "q": "What is the command for a world border?",
+        "a": "/worldborder set <distance> sets the width and length in blocks. Use /worldborder center <x> <z> to move it."
+      },
+      {
+        "q": "Does the world border exist in Bedrock?",
+        "a": "No. The world border and the /worldborder command are exclusive to Java Edition."
+      },
+      {
+        "q": "How big is the default world border?",
+        "a": "29,999,984 blocks from the origin in each direction, so 59,999,968 blocks wide."
+      },
+      {
+        "q": "Does a world border work in the Nether and the End?",
+        "a": "Each dimension has its own border. The command only affects the dimension you run it in."
+      },
+      {
+        "q": "What happens outside the world border?",
+        "a": "Players outside it (except in Creative or Spectator mode) take constant damage once they are more than 5 blocks past the border, and they usually cannot interact with blocks or entities out there. Entities cannot spawn naturally outside it."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-your-world-seed",
+      "how-to-teleport"
+    ],
+    "relatedLinks": [],
+    "keywords": "world border minecraft, worldborder command, how to set world border, minecraft world border size, worldborder set, worldborder center"
   }
 ]

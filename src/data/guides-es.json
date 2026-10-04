@@ -41414,5 +41414,53 @@
       }
     ],
     "keywords": "cómo hacer charcoal minecraft, receta charcoal, fundir logs, charcoal vs coal, torches con charcoal, campfire charcoal"
+  },
+  "how-to-set-a-world-border": {
+    "name": "Cómo poner un world border en Minecraft",
+    "shortTitle": "World Border",
+    "quickAnswer": "Ejecuta /worldborder set <distancia> para que el borde tenga ese ancho (ancho y largo en bloques) y /worldborder center <x> <z> para mover su centro. Es exclusivo de Java Edition y necesita nivel de permiso 2. Por defecto el borde mide 59.999.968 bloques de ancho y está centrado en 0, 0.",
+    "steps": [
+      "Abre el chat como operador (nivel de permiso 2, o trucos activados en un mundo de un jugador).",
+      "Fija el tamaño: /worldborder set 2000 crea un borde de 2000 x 2000. La distancia es el ancho y el largo en bloques.",
+      "Céntralo: /worldborder center 0 0 mueve el centro del borde. El centro por defecto es 0, 0.",
+      "Para encogerlo o agrandarlo poco a poco, añade un tiempo en segundos: /worldborder set 500 600 cambia el tamaño durante 600 segundos. La animación sigue aunque el juego esté en pausa.",
+      "Cámbialo respecto al tamaño actual con /worldborder add y consulta el tamaño con /worldborder get.",
+      "Ajusta el daño: /worldborder damage amount fija el daño por segundo y por bloque fuera del margen (0,2 por defecto), y /worldborder damage buffer fija la distancia segura (5 bloques por defecto).",
+      "Ajusta el aviso: /worldborder warning distance (5 bloques por defecto) y /worldborder warning time (15 segundos por defecto) controlan cuándo se tiñe la pantalla de rojo."
+    ],
+    "materials": [
+      "Java Edition",
+      "Nivel de permiso 2 (operador o trucos activados)"
+    ],
+    "editionNote": "El world border es exclusivo de Java Edition. El comando solo afecta a la dimensión donde lo ejecutas, así que ejecútalo también en el Nether y el End si quieres un borde allí. Bedrock Edition no tiene el comando /worldborder.",
+    "versions": "El borde por defecto está a 29.999.984 bloques del origen por cada lado (59.999.968 de ancho).",
+    "faq": [
+      {
+        "q": "¿Cuál es el comando del world border?",
+        "a": "/worldborder set <distancia> fija el ancho y el largo en bloques. Usa /worldborder center <x> <z> para moverlo."
+      },
+      {
+        "q": "¿Existe el world border en Bedrock?",
+        "a": "No. El world border y el comando /worldborder son exclusivos de Java Edition."
+      },
+      {
+        "q": "¿Qué tamaño tiene el world border por defecto?",
+        "a": "29.999.984 bloques desde el origen en cada dirección, es decir, 59.999.968 bloques de ancho."
+      },
+      {
+        "q": "¿Funciona el world border en el Nether y el End?",
+        "a": "Cada dimensión tiene su propio borde. El comando solo afecta a la dimensión donde lo ejecutas."
+      },
+      {
+        "q": "¿Qué pasa fuera del world border?",
+        "a": "Los jugadores fuera (salvo en Creative o Spectator) reciben daño constante cuando están a más de 5 bloques pasado el borde, y normalmente no pueden interactuar con bloques ni entidades allí. Las entidades no aparecen de forma natural fuera."
+      }
+    ],
+    "relatedGuides": [
+      "how-to-find-your-world-seed",
+      "how-to-teleport"
+    ],
+    "relatedLinks": [],
+    "keywords": "world border minecraft, comando worldborder, cómo poner world border, tamaño world border minecraft, worldborder set, worldborder center"
   }
 }
