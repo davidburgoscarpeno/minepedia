@@ -25753,21 +25753,18 @@
     "shortTitle": "Get Flint",
     "quickAnswer": "Break gravel blocks: each gravel has a 10% chance to drop flint instead of itself. Use a shovel with Fortune III for a guaranteed flint drop, and re-place your gravel to grind flint fast.",
     "steps": [
-      "Find gravel: it generates in large patches underground, in caves, on river and ocean floors, on windswept gravelly hills, and in Nether wastes deltas.",
+      "Find gravel: it generates in pockets underground, on river and ocean floors, on windswept gravelly hills, and along Nether lava sea shores.",
       "Mine gravel with a shovel. Each block has a 10% chance to drop flint instead of gravel.",
       "If the block drops gravel, just place it again and mine it again. Each break is a fresh 10% roll, so a single stack of gravel can yield plenty of flint.",
-      "For a guaranteed drop, enchant a shovel with Fortune. Fortune I raises the chance to 14%, Fortune II to 25%, and Fortune III to 100%.",
+      "For a better drop rate, enchant a shovel with Fortune. Fortune I raises the chance to 1 in 7 (about 14.3%), Fortune II to 25%, and Fortune III to 100%.",
       "Avoid Silk Touch: a Silk Touch shovel always drops the gravel block itself, so you will never get flint with it."
     ],
     "materials": [
       "Shovel (any tier)",
       "Fortune III enchantment (optional, for 100% drops)"
     ],
-    "editionNote": "Flint drops work the same in Java and Bedrock: 10% base chance, Fortune III makes it 100%. In Java Edition, piglins can also give you gravel through bartering, and fletcher villager chests sometimes contain flint.",
-    "versions": [
-      "Java 1.0+",
-      "Bedrock 0.8+"
-    ],
+    "editionNote": "Flint drops from gravel use the same chances listed here: 10% base, 1 in 7 with Fortune I, 25% with Fortune II and 100% with Fortune III.",
+    "versions": "Chances as listed on the Minecraft Wiki Gravel page.",
     "faq": [
       {
         "q": "What is the fastest way to get flint?",
@@ -47034,8 +47031,8 @@
       "Silk Touch shovel (to keep gravel)",
       "Gold ingots for bartering (optional)"
     ],
-    "editionNote": "Gravel works the same in both editions. The underground ore-like pockets in the Overworld attempt 14 times per chunk (size 0-160). Nether gravel pockets generate from level 5 to 41 in Java and up to 36 in Bedrock, and some variants of stone-type blocks they replace differ between editions.",
-    "versions": "The Nether gravel pockets are not generated in basalt deltas.",
+    "editionNote": "Gravel works the same in both editions as far as drops go. The underground ore-like pockets in the Overworld attempt 14 times per chunk (size 0-160).",
+    "versions": "Nether gravel layers are one block deep in nether wastes and 3-5 blocks deep in soul sand valleys and basalt deltas.",
     "faq": [
       {
         "q": "Where do you find gravel?",
