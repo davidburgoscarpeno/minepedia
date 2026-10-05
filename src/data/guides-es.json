@@ -973,15 +973,15 @@
   "how-to-find-nether-fortress": {
     "name": "Cómo encontrar una Nether Fortress en Minecraft",
     "shortTitle": "Encontrar una Nether Fortress",
-    "quickAnswer": "Las nether fortresses se generan en todos los biomas del Nether, alternando con bastion remnants en regiones de 432x432 bloques (Java) o 480x480 (Bedrock). Una fortress tiene un 40% de probabilidad por región en Java (33,3% en Bedrock), y siempre se genera en lugar de un bastion en los basalt deltas. Busca puentes oscuros de nether bricks sobre el mar de lava, o usa /locate structure minecraft:fortress.",
+    "quickAnswer": "Las Nether fortresses se generan en todos los biomas del Nether, alternando con bastion remnants en regiones de 432x432 bloques (Java) o 480x480 (Bedrock). Una fortress tiene un 40% por región en Java y un 33,3% en Bedrock, y en los basalt deltas se genera una fortress en lugar de un bastion. Busca puentes y pilares oscuros de nether brick sobre los mares de lava.",
     "steps": [
-      "Entra al Nether con equipo básico: armadura de iron o mejor, un bow, comida y bloques para hacer puentes.",
-      "Viaja en línea recta en cualquier dirección: fortresses y bastions alternan por región, así que los viajes largos y rectos cruzan muchas regiones. En los basalt deltas siempre hay fortress si se genera una estructura.",
-      "Escanea el horizonte del mar de lava: las fortresses son estructuras oscuras de nether bricks con pilares altos, a menudo semienterradas en netherrack con solo los puentes asomando.",
-      "Si encuentras un bastion remnant, sigue moviéndote: dos estructuras nunca se generan en la misma región, así que la siguiente región es una nueva tirada del 40% (Java) o 33,3% (Bedrock).",
-      "Dentro, sigue los corredores hasta las escaleras con jardines de soul sand para conseguir nether wart, y hasta los puentes abiertos donde están los spawners de blazes en salas enjauladas.",
-      "Farmea blaze rods de los blazes (necesarias para pociones y eyes of ender) y wither skeleton skulls de los wither skeletons en cualquier zona de nether bricks.",
-      "Atajo con comandos: /locate structure minecraft:fortress te da las coordenadas de la más cercana."
+      "Entra al Nether con armadura, un arma, comida y bloques para hacer puentes.",
+      "Viaja en línea recta: cada región tiene una fortress o un bastion remnant, nunca ambos, así que un viaje largo cruza muchas regiones.",
+      "Recuerda el área de generación: cada región tiene una separación de cuatro chunks en sus bordes sur y este, dejando un área de 368x368 (Java) o 416x416 (Bedrock) donde puede generarse una estructura.",
+      "Busca grandes complejos de nether brick con puentes, pasillos y torres sobre pilares sobre los mares de lava. También pueden estar enterradas en netherrack, pero los pasillos quedan despejados.",
+      "Si encuentras un bastion remnant, sigue: la siguiente región vuelve a tirar, 40% de fortress en Java y 33,3% en Bedrock.",
+      "Dentro, busca nether wart junto a las escaleras y hasta 2 plataformas de blaze spawner: tres escaleras de bloque completo llevan a una plataforma con nether brick fence y el spawner de blaze en el centro.",
+      "Las fortresses son el único sitio donde aparecen wither skeletons y blazes."
     ],
     "materials": [
       "Armadura de iron o superior y un shield",
@@ -990,19 +990,23 @@
       "Un flint and steel de repuesto, por si un ghast desactiva tu portal"
     ],
     "editionNote": "Las regiones de Java son de 432x432 bloques con un 40% de probabilidad de fortress; las de Bedrock son de 480x480 con un 33,3%. En los basalt deltas siempre se generan fortresses, no bastions, en ambas ediciones.",
-    "versions": "Nether fortresses desde Alpha 1.2 (2010); la alternancia por regiones con bastion remnants desde 1.16 (Nether Update).",
+    "versions": "Según la página Nether Fortress de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿En qué dirección viajo para encontrar una fortress?",
-        "a": "Cualquier dirección vale desde el sistema de regiones de 1.16: cada región tira independientemente fortress o bastion, así que una línea recta en cualquier dirección cruza muchas regiones. Los basalt deltas son la excepción: una estructura ahí siempre es una fortress."
+        "q": "¿En qué dirección debo viajar para encontrar una fortress?",
+        "a": "En cualquiera. Cada región tiene de forma independiente una fortress o un bastion remnant, así que una línea recta cruza muchas regiones."
       },
       {
-        "q": "¿Pueden generarse fortresses enterradas en netherrack?",
-        "a": "Sí, a menudo. Los pasillos interiores siempre están despejados, así que busca puentes y pilares de nether bricks asomando del netherrack."
+        "q": "¿Pueden las fortresses generarse enterradas en netherrack?",
+        "a": "Sí. El interior no se rellena de netherrack y los pasillos quedan despejados salvo pasarelas y puentes abiertos."
       },
       {
-        "q": "¿Dónde aparecen los wither skeletons en la fortress?",
-        "a": "En cualquier punto dentro de las bounding boxes de la fortress sobre nether bricks, no solo en salas concretas: puentes y corredores valen. El nivel de luz debe ser 7 o menos, algo natural dentro de las fortresses."
+        "q": "¿Qué probabilidad hay de fortress en una región?",
+        "a": "40% en Java y 33,3% en Bedrock. En los basalt deltas un intento de bastion pasa a ser una fortress."
+      },
+      {
+        "q": "¿Qué mobs solo aparecen en fortresses?",
+        "a": "Wither skeletons y blazes."
       }
     ],
     "relatedLinks": [
