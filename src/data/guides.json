@@ -712,16 +712,15 @@
     "slug": "how-to-upgrade-netherite",
     "name": "How to Upgrade to Netherite",
     "shortTitle": "Netherite Upgrade",
-    "quickAnswer": "Mine ancient debris in the Nether at Y=15, smelt it into netherite scraps, combine 4 scraps + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade smithing template (found in bastion treasure rooms). Enchantments and names are kept.",
+    "quickAnswer": "Mine ancient debris in the Nether (most common around Y=16) with a diamond or netherite pickaxe, smelt it into netherite scrap, craft 4 scrap + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade template. Enchantments, name and durability use are kept.",
     "steps": [
-      "Gear up for the Nether: diamond pickaxe (ancient debris requires diamond+), fire resistance potions, food, blocks and a bed or TNT for mining.",
-      "Mine ancient debris at Y=15 (press F3 in Java, enable coordinates in Bedrock). Bed-mine: place a bed 4+ blocks away at the end of a tunnel, click it to explode, and repeat - debris survives the blast. TNT chains work too.",
-      "Smelt ancient debris into netherite scraps in a furnace or blast furnace.",
-      "Craft netherite ingots: 4 scraps + 4 gold ingots (shapeless). Each armor piece or tool costs 1 ingot, so a full set needs 36 scraps + 36 gold.",
-      "Find a Netherite Upgrade smithing template: found only in bastion remnant chests (treasure rooms are the best place to look). Raid it with fire resistance and gold armor.",
-      "Duplicate the template at a crafting table: 7 diamonds + 1 netherrack + the template = 2 templates.",
-      "Use the smithing table: template in the left slot, diamond item in the middle, netherite ingot on the right. The netherite item keeps ALL enchantments, name and anvil uses.",
-      "Upgrade priority: pickaxe and sword first, then armor (netherite adds knockback resistance and lava-fire item immunity)."
+      "Mine ancient debris with a diamond or netherite pickaxe: any other tool drops nothing. It generates in the Nether, never naturally exposed to air, replacing netherrack (and basalt and blackstone in Java Edition).",
+      "Look around Y=16, which has the most debris on average. One cluster of 0-3 generates between Y=8 and Y=24, and another of 0-2 generates evenly from Y=8 to Y=119.",
+      "Smelt the ancient debris into netherite scrap.",
+      "Craft a netherite ingot: 4 netherite scrap + 4 gold ingots, shapeless.",
+      "Find a Netherite Upgrade smithing template in a bastion remnant: the treasure chest always holds one (100%), and bridge, hoglin stable and generic chests have a 10% chance.",
+      "Duplicate templates by crafting the template with seven diamonds and its corresponding material.",
+      "At a smithing table put the template on the left, diamond gear in the middle and a netherite ingot on the right. It costs no experience and keeps enchantments, custom names and durability use."
     ],
     "materials": [
       "Diamond pickaxe (or better)",
@@ -731,20 +730,24 @@
       "Netherite Upgrade template per item (duplicatable)",
       "Smithing table"
     ],
-    "editionNote": "Identical in Java and Bedrock: same Y=15 debris peak, same recipe, same template mechanics. Netherite items float in lava and never burn - losing gear to lava is over. Ancient debris never generates exposed to air. Before 1.20 the upgrade needed only the ingot, with no smithing template required.",
-    "versions": "Netherite added in 1.16; the smithing template requirement added in 1.20. Current as of 26.3.",
+    "editionNote": "Basalt and blackstone can only be replaced by ancient debris in Java Edition. The wiki lists the Netherite Upgrade template as not renewable in Java Edition.",
+    "versions": "Per the Minecraft Wiki Ancient Debris, Smithing Table, Smithing Template and Netherite Ingot pages.",
     "faq": [
       {
         "q": "What is the best Y level for ancient debris?",
-        "a": "Y=15. Debris generates between Y=8 and Y=119 with a strong peak at 15, always hidden inside netherrack or basalt - generated away from air."
+        "a": "Y=16 has the most on average. Clusters generate between Y=8 and Y=24, plus a smaller chance up to Y=119."
       },
       {
         "q": "Do enchantments transfer to netherite?",
-        "a": "Yes - the smithing table upgrade keeps every enchantment, the item name and prior anvil work. Nothing is lost."
+        "a": "Yes. A smithing table upgrade preserves enchantments, custom names and durability use, and costs no experience."
       },
       {
         "q": "Where is the Netherite Upgrade template?",
-        "a": "Bastion remnants only: it is found in bastion chests, so raid the treasure room first. Duplicate it with 7 diamonds + netherrack so one find serves the whole set."
+        "a": "In bastion remnant chests. The treasure chest always has one; other chests have a 10% chance."
+      },
+      {
+        "q": "Does ancient debris survive explosions?",
+        "a": "Yes. Its blast resistance of 1,200 makes it immune to normal explosions."
       }
     ],
     "relatedGuides": [

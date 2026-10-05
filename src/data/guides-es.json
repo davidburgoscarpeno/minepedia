@@ -579,16 +579,15 @@
   "how-to-upgrade-netherite": {
     "name": "Cómo mejorar a netherite en Minecraft",
     "shortTitle": "Mejora a netherite",
-    "quickAnswer": "Mina ancient debris en el Nether a Y=15, fúndelo en netherite scraps, combina 4 scraps + 4 gold ingots en un netherite ingot y mejora el equipo de diamante en una smithing table con un Netherite Upgrade smithing template (de las salas del tesoro de los bastions). Los encantamientos y nombres se conservan.",
+    "quickAnswer": "Mina ancient debris en el Nether (más frecuente alrededor de Y=16) con pico de diamante o netherita, fúndelo en netherite scrap, craftea 4 scrap + 4 lingotes de oro en un lingote de netherita y mejora equipo de diamante en una smithing table con una plantilla Netherite Upgrade. Mantiene encantamientos, nombre y desgaste.",
     "steps": [
-      "Equípate para el Nether: pico de diamante (el ancient debris requiere diamante o superior), pociones de fire resistance, comida, bloques y una cama o TNT para minar.",
-      "Mina ancient debris a Y=15 (pulsa F3 en Java, activa coordenadas en Bedrock). Minado con camas: coloca una cama a 4+ bloques al final de un túnel, haz clic para explotarla y repite: el debris sobrevive a la explosión. Las cadenas de TNT también funcionan.",
-      "Funde el ancient debris en netherite scraps en un horno o blast furnace.",
-      "Craftea netherite ingots: 4 scraps + 4 gold ingots (sin forma). Cada pieza de armadura o herramienta cuesta 1 lingote, así que un set completo necesita 36 scraps + 36 de oro.",
-      "Encuentra un Netherite Upgrade smithing template: solo se encuentra en cofres de bastion remnants (las salas del tesoro son el mejor sitio). Asálalo con fire resistance y armadura de oro.",
-      "Duplica el template en la mesa de crafteo: 7 diamantes + 1 netherrack + el template = 2 templates.",
-      "Usa la smithing table: template en el hueco izquierdo, objeto de diamante en el centro, netherite ingot a la derecha. El objeto de netherite conserva TODOS los encantamientos, el nombre y los usos de yunque.",
-      "Prioridad de mejora: primero pico y espada, luego armadura (la netherite añade resistencia al knockback e inmunidad del objeto a lava y fuego)."
+      "Mina ancient debris con pico de diamante o netherita: cualquier otra herramienta no suelta nada. Genera en el Nether, nunca expuesto al aire de forma natural, sustituyendo netherrack (y basalto y blackstone en Java).",
+      "Busca alrededor de Y=16, donde hay más de media. Un cúmulo de 0-3 genera entre Y=8 y Y=24, y otro de 0-2 genera uniformemente de Y=8 a Y=119.",
+      "Funde el ancient debris en netherite scrap.",
+      "Craftea un lingote de netherita: 4 netherite scrap + 4 lingotes de oro, sin forma.",
+      "Busca una plantilla Netherite Upgrade en un bastion remnant: el treasure chest siempre tiene una (100%) y los cofres de puente, establo de hoglins y genéricos tienen un 10%.",
+      "Duplica plantillas crafteándolas con siete diamantes y su material correspondiente.",
+      "En la smithing table pon la plantilla a la izquierda, el equipo de diamante en el centro y un lingote de netherita a la derecha. No cuesta experiencia y conserva encantamientos, nombres y desgaste."
     ],
     "materials": [
       "Pico de diamante (o mejor)",
@@ -598,20 +597,24 @@
       "Netherite Upgrade template por objeto (duplicable)",
       "Smithing table"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: mismo máximo de debris en Y=15, misma receta, misma mecánica de templates. Los objetos de netherite flotan en la lava y nunca arden: se acabó perder equipo en la lava. El ancient debris nunca se genera expuesto al aire. Antes de la 1.20 la mejora solo necesitaba el lingote, sin smithing template.",
-    "versions": "Netherite añadida en la 1.16; el requisito del smithing template se añadió en la 1.20. Vigente en la 26.3.",
+    "editionNote": "El basalto y el blackstone solo pueden ser sustituidos por ancient debris en Java. La wiki indica que la plantilla Netherite Upgrade no es renovable en Java.",
+    "versions": "Según las páginas Ancient Debris, Smithing Table, Smithing Template y Netherite Ingot de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Cuál es el mejor nivel Y para ancient debris?",
-        "a": "Y=15. El debris se genera entre Y=8 e Y=119 con un fuerte máximo en 15, siempre oculto dentro de netherrack o basalt: generado lejos del aire."
+        "q": "¿Cuál es la mejor altura Y para ancient debris?",
+        "a": "Y=16 tiene más de media. Los cúmulos generan entre Y=8 y Y=24, más una probabilidad menor hasta Y=119."
       },
       {
-        "q": "¿Se transfieren los encantamientos a la netherite?",
-        "a": "Sí: la mejora en la smithing table conserva todos los encantamientos, el nombre del objeto y los trabajos de yunque previos. No se pierde nada."
+        "q": "¿Se transfieren los encantamientos a la netherita?",
+        "a": "Sí. Mejorar en la smithing table conserva encantamientos, nombres y desgaste, y no cuesta experiencia."
       },
       {
-        "q": "¿Dónde está el Netherite Upgrade template?",
-        "a": "Solo en bastion remnants: aparece en sus cofres, así que asalta primero la sala del tesoro. Duplícalo con 7 diamantes + netherrack para que un solo hallazgo sirva para todo el set."
+        "q": "¿Dónde está la plantilla Netherite Upgrade?",
+        "a": "En cofres de bastion remnant. El treasure chest siempre tiene una; los demás un 10%."
+      },
+      {
+        "q": "¿El ancient debris resiste explosiones?",
+        "a": "Sí. Su resistencia a explosiones de 1.200 lo hace inmune a explosiones normales."
       }
     ],
     "relatedLinks": [
