@@ -4084,12 +4084,12 @@
     "shortTitle": "Conseguir Obsidian",
     "quickAnswer": "Vierte agua sobre un bloque de lava fuente: la obsidian se forma donde el agua que fluye toca lava quieta. Mínala con una diamond o netherite pickaxe (con cualquier otra no suelta nada), o haz bartering con piglins (~8,53% por 1 obsidian por gold ingot).",
     "steps": [
-      "Encuentra una lava pool: generan en la superficie y en cuevas, sobre todo por debajo de Y=0 y por todo el Nether.",
+      "Encuentra un bloque fuente de lava: las pozas de lava se generan en superficie, en cuevas y en el Nether.",
       "Vierte agua de un bucket sobre los bloques de lava fuente: el agua que fluye al tocar una fuente de lava quieta la convierte en obsidian. La lava que fluye crea cobblestone, así que apunta a las fuentes.",
-      "Mínala con una diamond o netherite pickaxe: la obsidian tarda 9,4 segundos en romperse con una diamond pickaxe. Con una herramienta más débil el bloque se rompe y no suelta nada.",
-      "Fuentes renovables: la plataforma de 25 obsidian del End se regenera cada vez que una entidad entra, los nether portals generan nuevos marcos de obsidian al crearse, y la lava se puede farmear con cauldrons bajo pointed dripstone.",
+      "Minalo con pico de diamante o netherita: tarda 9,4 segundos con diamante y 8,35 con netherita. Con una herramienta inferior tarda más y no suelta nada.",
+      "Fuentes renovables: la plataforma de 25 obsidiana del End se regenera cada vez que una entidad entra al End, los nether portals generan obsidiana al crearse, y la lava se puede cultivar con cauldrons bajo pointed dripstone.",
       "Haz bartering con piglins: un gold ingot da un ~8,53% de probabilidad de 1 obsidian, la forma más rápida de acumularla sin minar.",
-      "Lootea estructuras: los ruined portals están construidos en parte con obsidian y sus cofres pueden contener más; los cofres de los bastion remnants también guardan obsidian."
+      "Cofres: ruined portal (1-2 obsidiana, ~46%), generic chest de bastion remnant (4-6, ~24%), cofres de weaponsmith en aldeas (3-7, ~23%) y de nether fortress (2-4, ~7%)."
     ],
     "materials": [
       "Diamond o netherite pickaxe",
@@ -4097,8 +4097,8 @@
       "Gold ingots (opción bartering)",
       "Poción de fire resistance (viajes al Nether, recomendado)"
     ],
-    "editionNote": "Mecánica idéntica en ambas ediciones. Dos detalles solo de Java: los nether portals generados en el aire crean 4 bloques extra de obsidian en la base, y los tiempos de rotura (9,4 s con diamond) están medidos en Java. En Bedrock el dash attack del wither también puede destruir obsidian.",
-    "versions": "La obsidian existe desde Java Classic 0.28 (octubre de 2009), y la creación con agua sobre lava desde Infdev (junio de 2010). En Pocket Edition estaba desde las primeras demos. El bartering de obsidian con piglins llegó con la 1.16 (Nether Update).",
+    "editionNote": "En Java, un nether portal generado en el aire crea 4 bloques extra de obsidiana en la base. Las wither skulls azules pueden destruir obsidiana porque ignoran la resistencia a explosiones.",
+    "versions": "En 1.16 (20w07a) los piglins ofrecían obsidiana con ~0,92%; en 20w09a subió a ~8,85% en pilas de 1-5. Hoy es ~8,53% (40/469) por un solo bloque, según la página Obsidian de Minecraft Wiki.",
     "faq": [
       {
         "q": "¿Qué pickaxe se necesita para minar obsidian?",
@@ -4110,7 +4110,7 @@
       },
       {
         "q": "¿Para qué sirve la obsidian?",
-        "a": "Marcos de nether portal (mínimo 10 bloques), enchanting tables (4), ender chests (8), beacons (3) y construcciones a prueba de explosiones. Resiste cualquier explosión normal; solo el wither puede romperla."
+        "a": "Marcos de nether portal (mínimo 10 bloques), enchanting tables (4), ender chests (8) y beacons (3). Tiene resistencia a explosiones de 1.200 y las explosiones normales no la destruyen."
       },
       {
         "q": "¿La lava que fluye hace obsidian?",

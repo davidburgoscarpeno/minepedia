@@ -4503,12 +4503,12 @@
     "shortTitle": "Get Obsidian",
     "quickAnswer": "Pour water over a lava source block: obsidian forms where flowing water touches still lava. Mine it with a diamond or netherite pickaxe (anything else drops nothing), or barter with piglins (~8.53% for 1 obsidian per gold ingot).",
     "steps": [
-      "Find a lava pool: they generate on the surface and in caves, most commonly below Y=0 and all over the Nether.",
+      "Find a lava source block: lava pools generate on the surface, in caves and in the Nether.",
       "Pour water from a bucket onto the lava source blocks: flowing water touching a still lava source turns it into obsidian. Flowing lava makes cobblestone instead, so aim for the sources.",
-      "Mine it with a diamond or netherite pickaxe: obsidian takes 9.4 seconds to break with a diamond pickaxe. With any weaker tool the block breaks and drops nothing.",
-      "Renewable sources: the 25-obsidian platform in the End regenerates every time an entity enters, nether portals generate new obsidian frames when created, and lava can be farmed with cauldrons under pointed dripstone.",
+      "Mine it with a diamond or netherite pickaxe: obsidian takes 9.4 seconds with a diamond pickaxe and 8.35 with netherite. With a weaker tool it takes longer and drops nothing.",
+      "Renewable sources: the 25-obsidian platform in the End regenerates every time an entity enters the End, nether portals generate obsidian when created, and lava can be farmed with cauldrons under pointed dripstone.",
       "Barter with piglins: a gold ingot gives a ~8.53% chance of 1 obsidian, the fastest way to stack it up without mining.",
-      "Loot structures: ruined portals are partly built from obsidian and their chests can contain more; bastion remnant chests also hold obsidian."
+      "Loot chests: ruined portal chests (1-2 obsidian, ~46%), bastion remnant generic chests (4-6, ~24%), village weaponsmith chests (3-7, ~23%) and nether fortress chests (2-4, ~7%)."
     ],
     "materials": [
       "Diamond or netherite pickaxe",
@@ -4516,8 +4516,8 @@
       "Gold ingots (bartering option)",
       "Fire resistance potion (Nether trips, recommended)"
     ],
-    "editionNote": "Identical mechanics in both editions. Two small Java-only details: nether portals generated midair create 4 extra obsidian blocks at the bottom, and breaking times (9.4 s with diamond) are measured in Java. In Bedrock the wither's dash attack can also destroy obsidian.",
-    "versions": "Obsidian has existed since Java Classic 0.28 (October 2009), and water-over-lava creation since Infdev (June 2010). In Pocket Edition it was present from the earliest demos. Piglin bartering for obsidian arrived with 1.16 (Nether Update).",
+    "editionNote": "In Java Edition, a nether portal generated midair creates 4 extra obsidian blocks at the bottom. Blue wither skulls can destroy obsidian, since they ignore blast resistance.",
+    "versions": "In 1.16 (20w07a) piglins offered obsidian with a ~0.92% chance; in 20w09a it rose to ~8.85% in stacks of 1-5. Today it is ~8.53% (40/469) for a single block, per the Minecraft Wiki Obsidian page.",
     "faq": [
       {
         "q": "What pickaxe do you need to mine obsidian?",
@@ -4529,7 +4529,7 @@
       },
       {
         "q": "What is obsidian used for?",
-        "a": "Nether portal frames (minimum 10 blocks), enchanting tables (4), ender chests (8), beacons (3) and blast-proof builds. It resists every normal explosion; only the wither can break it."
+        "a": "Nether portal frames (minimum 10 blocks), enchanting tables (4), ender chests (8) and beacons (3). It has a blast resistance of 1,200 and normal explosions cannot destroy it."
       },
       {
         "q": "Does flowing lava make obsidian?",
