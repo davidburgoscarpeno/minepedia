@@ -53,8 +53,8 @@
       "Consigue obsidiana: vierte agua sobre bloques de lava fuente y mínala con un pico de diamante o netherite. Necesitas 10 (marco económico) o 14 (marco completo).",
       "Construye el marco en vertical: dos columnas de obsidiana de 3 bloques de alto, unidas por 2 de obsidiana arriba y 2 abajo. Espacio interior: 2x3.",
       "Las esquinas son opcionales: déjalas vacías para ahorrar 4 de obsidiana.",
-      "Enciéndelo: usa un mechero (1 iron ingot + 1 flint de la grava) en la cara interior del marco. El fuego de lava, un fire charge o una bola de fuego de ghast también funcionan.",
-      "El interior se llena de bloques de portal morados. Quédate dentro 4 segundos para teletransportarte al Nether.",
+      "Enciéndelo: el fuego colocado dentro del marco lo activa, por ejemplo con flint and steel o un fire charge. Una bola de fuego, un rayo o fuego que se propaga a material inflamable junto al portal también funciona. Los portales no se pueden activar en el End.",
+      "El interior se llena de bloques de portal. Quédate dentro 80 game ticks (4 segundos) en Survival, o 1 tick en Creative, para teletransportarte.",
       "¿Sin pico de diamante? Funde el portal in situ: haz un molde, coloca bloques de lava fuente donde va el marco y vierte agua sobre cada uno para convertirlos en obsidiana uno a uno."
     ],
     "materials": [
@@ -62,8 +62,8 @@
       "Mechero (1 iron + 1 flint)",
       "Pico de diamante/netherite O cubo de agua + lava para fundirlo in situ"
     ],
-    "editionNote": "La mecánica de portales es la misma en Java y Bedrock: marco mínimo de 4x5, máximo de 23x23. Los portales enlazados emparejan coordenadas del Overworld y del Nether en proporción 8:1 (X y Z divididas entre 8).",
-    "versions": "Sin cambios desde Alpha. La crying obsidian y los ruined portals se añadieron en la 1.16: los ruined portals se pueden reparar en portales funcionales.",
+    "editionNote": "La wiki da un marco mínimo de 4x5 y máximo de 23x23, y las cuatro esquinas no son necesarias. Los portales que crea el juego siempre incluyen las esquinas. En Java el retardo de teletransporte se puede cambiar con las gamerules playersNetherPortalDefaultDelay y playersNetherPortalCreativeDelay.",
+    "versions": "Según la página Nether Portal de Minecraft Wiki: los límites de marco de 4x5 mínimo y 23x23 máximo se introdujeron en una actualización anterior, y las gamerules del retardo llegaron en 1.20.3 (23w42a).",
     "faq": [
       {
         "q": "¿Cuánta obsidiana hace falta para un portal al Nether?",
@@ -71,7 +71,7 @@
       },
       {
         "q": "¿Por qué no se enciende mi portal al Nether?",
-        "a": "Comprueba que el marco es de obsidiana completa con un interior vacío de 2x3, que estás en el Overworld o el Nether (los portales no se forman en el End) y que enciendes la cara interior del marco."
+        "a": "Comprueba que el marco sea de obsidiana completa con interior vacío de 2x3, que no estés en el End (allí no se pueden activar) y que el fuego esté dentro del marco."
       },
       {
         "q": "¿Cómo se enlazan los portales entre dimensiones?",

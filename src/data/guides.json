@@ -60,8 +60,8 @@
       "Get obsidian: pour water over lava source blocks, then mine it with a diamond or netherite pickaxe. You need 10 (economy frame) or 14 (full frame).",
       "Build the frame upright: two obsidian columns 3 blocks tall, joined by 2 obsidian at the top and 2 at the bottom. Interior space: 2x3.",
       "Corners are optional - leave them empty to save 4 obsidian.",
-      "Light it: use flint and steel (1 iron ingot + 1 flint from gravel) on the inside of the frame. Fire from lava, a fire charge or a ghast fireball also works.",
-      "The interior fills with purple portal blocks. Stand inside for 4 seconds to teleport to the Nether.",
+      "Light it: fire placed inside the frame activates it, for example with flint and steel or a fire charge. A fireball, a lightning strike or fire spreading to flammable material next to the portal also works. Portals cannot be activated in the End.",
+      "The interior fills with portal blocks. Stand inside for 80 game ticks (4 seconds) in Survival, or 1 tick in Creative, to teleport.",
       "No diamond pickaxe? Cast the portal in place: make a mold, place lava source blocks where the frame goes, then pour water on each to turn them into obsidian one by one."
     ],
     "materials": [
@@ -69,8 +69,8 @@
       "Flint and steel (1 iron + 1 flint)",
       "Diamond/netherite pickaxe OR water bucket + lava for casting"
     ],
-    "editionNote": "Portal mechanics are the same in Java and Bedrock: minimum 4x5 frame, maximum 23x23. Linked portals match Overworld to Nether coordinates at an 8:1 ratio (X and Z divided by 8).",
-    "versions": "Unchanged since Alpha. Crying obsidian and ruined portals added in 1.16 - ruined portals can be repaired into working portals.",
+    "editionNote": "The wiki gives a 4x5 minimum and a 23x23 maximum frame, and the four corners are not required. Portals the game creates always include the corners. In Java Edition the teleport delay can be changed with the gamerules playersNetherPortalDefaultDelay and playersNetherPortalCreativeDelay.",
+    "versions": "Per the Minecraft Wiki Nether Portal page: frame limits of 4x5 minimum and 23x23 maximum were introduced in a past update, and the portal delay gamerules arrived in 1.20.3 (23w42a).",
     "faq": [
       {
         "q": "How much obsidian do you need for a nether portal?",
@@ -78,7 +78,7 @@
       },
       {
         "q": "Why won't my nether portal light?",
-        "a": "Check the frame is complete obsidian with a 2x3 empty interior, you are in the Overworld or Nether (portals do not form in the End), and you are lighting the inside face of the frame."
+        "a": "Check the frame is complete obsidian with a 2x3 empty interior, that you are not in the End (portals cannot be activated there), and that fire is placed inside the frame."
       },
       {
         "q": "How do portals link between dimensions?",
