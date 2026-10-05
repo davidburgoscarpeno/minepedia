@@ -1959,35 +1959,39 @@
   "how-to-make-tnt": {
     "name": "Cómo hacer TNT en Minecraft",
     "shortTitle": "Hacer TNT",
-    "quickAnswer": "Craftea TNT con 5 gunpowder y 4 sand (o red sand) en patrón de ajedrez: gunpowder en las esquinas y el centro, sand en los laterales. Actívala con flint and steel, redstone u otra explosión y parpadeará 4 segundos antes de explotar con potencia 4.",
+    "quickAnswer": "Craftea TNT con pólvora y arena (o arena roja), en damero. Enciéndelo con flint and steel, fire charge, redstone, fuego, un proyectil en llamas o una explosión. Encendido por fuego o redstone explota a los 4 segundos con potencia 4.",
     "steps": [
-      "Farma gunpowder: los creepers sueltan 0-2 (más con Looting) al morir a manos de un jugador: cázalos de noche o construye una granja de creepers. Los ghasts y las witches también la sueltan.",
-      "Cava 4 bloques de sand; la red sand funciona exactamente igual.",
-      "Craftea en patrón de ajedrez: gunpowder en las cuatro esquinas y el centro, sand en el medio de cada lateral.",
-      "Actívala: usa flint and steel, una señal de redstone, fuego, una arrow en llamas o una explosión cercana. El bloque se convierte en una entidad que cae, parpadea en blanco y explota a los 80 ticks (4 segundos).",
-      "Aprovecha la física: el TNT activado cae, y el agua, los pistons y otras explosiones lo empujan: el principio de funcionamiento de todo cañón de TNT.",
-      "Mina con ella: desde Java 1.14, los bloques destruidos por TNT siempre sueltan sus objetos. El TNT limpia netherrack a toda velocidad mientras la ancient debris, resistente a explosiones, sobrevive: el método clásico de minar netherite.",
-      "Conoce los límites: obsidian, bedrock y ancient debris la resisten, y el TNT normalmente no puede destruir bloques bajo el agua (las entidades sí reciben daño). En Java, un bloque cayendo como sand dentro del TNT activado permite romper bloques bajo el agua; en Bedrock no hay truco que valga."
+      "Consigue pólvora y arena (o arena roja, vale cualquier mezcla).",
+      "Craftea en damero: pólvora en las cuatro esquinas y el centro, arena en los cuatro bordes.",
+      "Enciéndelo: flint and steel, fire charge, un dispenser, una señal de redstone, fuego, un proyectil en llamas o una explosión.",
+      "Espera: el TNT activado explota a los 80 game ticks (4 segundos) si lo enciende fuego o redstone, o a los 10-30 ticks (0,5-1,5 segundos) si lo activa otra explosión.",
+      "Usa la física: el TNT activado sufre gravedad y lo empujan agua fluyendo, lava, pistons y explosiones.",
+      "TNT gratis: cada desert pyramid genera 9 TNT y los cofres de buried treasure tienen 1-2 TNT (~62,7%).",
+      "Bajo el agua, el TNT normalmente no destruye bloques."
     ],
     "materials": [
       "5 gunpowder",
       "4 sand (o red sand)",
       "Para activarla: flint and steel o una señal de redstone"
     ],
-    "editionNote": "Los trucos para romper bloques bajo el agua (sand cayendo dentro del TNT activado, bubble columns) solo funcionan en Java; en Bedrock el TNT nunca destruye bloques bajo el agua: solo lo hace la variante Underwater TNT de la Education edition.",
-    "versions": "El TNT se añadió en Java 0.26 SURVIVAL TEST y en Pocket Edition 0.1.0, la mecha dura 4 segundos desde principios de 2010, y los bloques destruidos siempre sueltan objetos desde Java 1.14.",
+    "editionNote": "En Java, un bloque con gravedad como la arena sobre el TNT al encenderlo cae a través de él y permite que la explosión rompa bloques bajo el agua. En Bedrock esos trucos no funcionan; solo el underwater TNT (opción de Education) puede destruir bloques bajo el agua.",
+    "versions": "Según la página TNT de Minecraft Wiki: la mecha era de 2 segundos en versiones tempranas y pasó a 4 segundos en 20100125.",
     "faq": [
       {
-        "q": "¿Cómo consigo gunpowder para el TNT?",
-        "a": "Los creepers son la fuente renovable: 0-2 gunpowder por baja, hasta 5 con Looting III. Una granja básica de creepers en una sala oscura produce stacks por hora. Los ghasts y las witches también la sueltan, pero con mucha menos fiabilidad."
+        "q": "¿Cuánto dura la mecha del TNT?",
+        "a": "80 game ticks (4 segundos) si lo enciende fuego o redstone, y 10-30 ticks si lo activa una explosión."
       },
       {
-        "q": "¿El TNT destruye obsidian o ancient debris?",
-        "a": "No. El TNT explota con potencia 4, y obsidian, bedrock, crying obsidian y ancient debris tienen una resistencia a explosiones mucho mayor: justo por eso minar con TNT deja la ancient debris al descubierto en vez de destruirla."
+        "q": "¿Qué potencia tiene la explosión?",
+        "a": "El TNT activado crea una explosión de potencia 4."
       },
       {
-        "q": "¿Puedo hacer que el TNT explote al instante?",
-        "a": "Un minecart with TNT (TNT + minecart) explota al instante sobre una activator rail, en un choque fuerte o con fuego. El TNT activado normal siempre tarda 4 segundos."
+        "q": "¿El TNT hace reacción en cadena?",
+        "a": "Sí. Una señal de redstone no activa el TNT adyacente, pero los TNT adyacentes se activan con la explosión."
+      },
+      {
+        "q": "¿Dónde hay TNT sin craftear?",
+        "a": "En desert pyramids (9 TNT) y cofres de buried treasure (1-2 TNT al ~62,7%)."
       }
     ],
     "relatedGuides": [

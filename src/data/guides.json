@@ -2288,35 +2288,39 @@
     "slug": "how-to-make-tnt",
     "name": "How to Make TNT in Minecraft",
     "shortTitle": "Make TNT",
-    "quickAnswer": "Craft TNT with 5 gunpowder and 4 sand (or red sand) in a checkerboard: gunpowder in the corners and center, sand on the sides. Prime it with flint and steel, redstone or another explosion and it flashes for 4 seconds before blowing up with power 4.",
+    "quickAnswer": "Craft TNT with gunpowder and sand (or red sand), in a checkerboard. Light it with flint and steel, a fire charge, redstone, fire, a flaming projectile or an explosion. Lit by fire or redstone it explodes after 4 seconds with power 4.",
     "steps": [
-      "Farm gunpowder: creepers drop 0-2 (more with Looting) when killed by a player - hunt them at night or build a creeper farm. Ghasts and witches drop it too.",
-      "Dig 4 sand blocks; red sand works exactly the same.",
-      "Craft in a checkerboard: gunpowder in the four corners and the center, sand in the middle of each edge.",
-      "Prime it: use flint and steel, a redstone signal, fire, a flaming arrow or a nearby explosion. The block becomes a falling entity that flashes white and explodes after 80 ticks (4 seconds).",
-      "Use the physics: primed TNT falls, and flowing water, pistons and other explosions push it - the working principle of every TNT cannon.",
-      "Mine with it: since Java 1.14, blocks destroyed by TNT always drop their items. TNT clears netherrack fast while blast-resistant ancient debris survives - the classic netherite mining method.",
-      "Know the limits: obsidian, bedrock and ancient debris resist it, and TNT normally cannot destroy blocks underwater (entities still take damage). In Java, a falling block like sand landing inside the primed TNT lets it break blocks underwater; in Bedrock there is no workaround."
+      "Get gunpowder and sand (or red sand, any mix works).",
+      "Craft in a checkerboard: gunpowder in the four corners and the center, sand on the four edges.",
+      "Light it: flint and steel, fire charge, a dispenser, a redstone signal, stray fire, a flaming projectile or an explosion.",
+      "Wait: primed TNT explodes after 80 game ticks (4 seconds) when lit by fire or redstone, or after 10-30 ticks (0.5-1.5 seconds) when set off by another explosion.",
+      "Use physics: primed TNT is affected by gravity and can be pushed by flowing water, lava, pistons and explosions.",
+      "Find free TNT: 9 TNT generate in each desert pyramid, and buried treasure chests hold 1-2 TNT (~62.7%).",
+      "Underwater, TNT usually cannot destroy blocks."
     ],
     "materials": [
       "5 gunpowder",
       "4 sand (or red sand)",
       "To prime: flint and steel or a redstone signal"
     ],
-    "editionNote": "Underwater block-breaking tricks (sand falling into primed TNT, bubble columns) only work in Java; in Bedrock, TNT never destroys blocks underwater - only the Education-edition Underwater TNT variant does.",
-    "versions": "TNT was added in Java 0.26 SURVIVAL TEST and Pocket Edition 0.1.0, the fuse has been 4 seconds since early 2010, and destroyed blocks have always dropped items since Java 1.14.",
+    "editionNote": "In Java Edition, a gravity block such as sand on top of TNT when it is lit falls through it and lets the explosion break blocks underwater. In Bedrock Edition those tricks do not work; only underwater TNT (Education Edition option) can destroy blocks underwater.",
+    "versions": "Per the Minecraft Wiki TNT page: the fuse was 2 seconds in early versions and became 4 seconds in 20100125.",
     "faq": [
       {
-        "q": "How do I get gunpowder for TNT?",
-        "a": "Creepers are the renewable source: 0-2 gunpowder per kill, up to 5 with Looting III. A basic dark-room creeper farm produces stacks per hour. Ghasts and witches drop it too, but far less reliably."
+        "q": "How long is the TNT fuse?",
+        "a": "80 game ticks (4 seconds) when lit by fire or redstone, and 10-30 ticks when set off by an explosion."
       },
       {
-        "q": "Does TNT destroy obsidian or ancient debris?",
-        "a": "No. TNT explodes with power 4, and obsidian, bedrock, crying obsidian and ancient debris have far higher blast resistance - which is exactly why TNT mining exposes ancient debris instead of destroying it."
+        "q": "How strong is a TNT explosion?",
+        "a": "Primed TNT creates an explosion of power 4."
       },
       {
-        "q": "Can I make TNT explode instantly?",
-        "a": "A TNT minecart (TNT + minecart) explodes instantly on an activator rail, a hard crash or fire. Normal primed TNT always takes 4 seconds."
+        "q": "Does TNT chain react?",
+        "a": "Yes. A redstone signal does not power adjacent TNT, but adjacent TNT blocks are activated by the explosion."
+      },
+      {
+        "q": "Where can I find TNT without crafting?",
+        "a": "Desert pyramids (9 TNT) and buried treasure chests (1-2 TNT at ~62.7%)."
       }
     ],
     "relatedGuides": [
