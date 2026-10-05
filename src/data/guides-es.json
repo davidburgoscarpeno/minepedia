@@ -3965,14 +3965,16 @@
   "how-to-get-string": {
     "name": "Cómo conseguir String en Minecraft",
     "shortTitle": "Conseguir String",
-    "quickAnswer": "Mata spiders o cave spiders (0-2 de string, hasta 5 con Looting III), rompe cobwebs con una sword o farmea striders en el Nether (2-5 de string). Los cats tameados, la pesca y el bartering con piglins también funcionan.",
+    "quickAnswer": "Mata arañas o arañas de cueva (0-2 string, hasta 0-5 con Looting III), rompe telarañas con una espada o mata striders en el Nether (2-5 string, hasta 2-8 con Looting III). Los gatos domesticados, el bartering con piglins, los tripwire y los cofres también dan string.",
     "steps": [
-      "Caza spiders por la noche o en zonas oscuras: sueltan 0-2 de string, más 0-1 extra por nivel de Looting (hasta 5 con Looting III). Las cave spiders sueltan lo mismo y se farmean fácil desde sus spawners.",
-      "Monta una granja de cave spiders: los mineshafts están llenos de spawners de cave spider rodeados de cobwebs. Una granja sencilla de agua y trampa da string y XP infinitos.",
-      "Rompe cobwebs con una sword: cada cobweb rota por una sword (o empujada por un piston / arrastrada por agua) suelta string. Las shears dan el bloque de cobweb, así que usa una sword. En Bedrock además puedes craftear 1 cobweb en 9 de string.",
-      "Farmea striders en el Nether: cada strider suelta 2-5 de string. En Java, Looting añade 0-1 por nivel; en Bedrock Looting no aumenta el drop (bug conocido, MCPE-112761).",
-      "Duerme con un cat tameado cerca: los cats tienen un 70% de probabilidad de traer un regalo al despertar, y el 16,13% de esos regalos son string.",
-      "Fuentes extra: la pesca tiene un 0,5% de probabilidad de string como chatarra con una fishing rod sin encantar, los piglins dan 3-9 de string por bartering (~4,26%) por un gold ingot, y hay string en cofres de dungeons, mineshafts y woodland mansions, en los tripwires de las jungle pyramids (5 por pirámide) y en las trampas de los trial chambers."
+      "Caza arañas y arañas de cueva: sueltan 0-2 string por defecto (0-3 con Looting I, 0-4 con II, 0-5 con III), con un 66,67% de soltar al menos 1 por defecto.",
+      "Mata striders en el Nether: sueltan 2-5 string por defecto, hasta 2-8 con Looting III.",
+      "Rompe telarañas con una espada: también sueltan string al empujarlas con un pistón o al arrastrarlas el agua que fluye (la lava que fluye las destruye sin dejar string).",
+      "Rompe tripwire: se rompe al instante con cualquier herramienta y suelta string. Cada jungle pyramid genera cinco piezas de tripwire, y varias aparecen junto a dispensers en trial chambers.",
+      "Duerme cerca de un gato domesticado: tiene un 70% de darte un regalo al despertar, y el 16,13% de los regalos son string.",
+      "Haz bartering con piglins: un gold ingot tiene ~4,26% (20 de 469) de dar 3-9 string.",
+      "Saquea cofres: monster rooms y mansiones del bosque (1-8, 57,8%), pirámides del desierto (1-8, 59%), puestos de saqueadores (1-6, 39,1%).",
+      "Úsalo: bow, caña de pescar, ballesta, lead, loom, scaffolding y lana blanca (4 string)."
     ],
     "materials": [
       "Sword de iron o mejor (Looting III ideal)",
@@ -3980,24 +3982,24 @@
       "Un cat tameado y una bed (opción pasiva)",
       "Gold ingots (opción bartering)"
     ],
-    "editionNote": "Dos grandes diferencias entre ediciones: Looting aumenta el string de los striders solo en Java (bug de Bedrock MCPE-112761), y solo Bedrock permite craftear cobwebs en 9 de string. Los drops de spiders y cave spiders son idénticos en ambas ediciones.",
-    "versions": "El string existe desde Java Indev 0.31 (30 de enero de 2010). Los regalos de los cats llegaron con 1.14 (Village & Pillage) y los striders junto al bartering con 1.16 (Nether Update).",
+    "editionNote": "Las probabilidades de cofres siguen la página String de Minecraft Wiki y pueden variar un poco según la edición.",
+    "versions": "Según Minecraft Wiki: los gatos ofrecen string como regalo y la ballesta y el loom usan string desde el snapshot 18w43a (Java 1.14); el bartering con piglins desde 20w09a (Java 1.16).",
     "faq": [
       {
-        "q": "¿Cuál es la forma más rápida de conseguir string?",
-        "a": "Una granja de cave spiders sobre un spawner de un mineshaft es la mejor fuente renovable: kills rápidas, XP y string. Al principio, caza spiders de noche con una sword con Looting III (hasta 5 de string por kill)."
-      },
-      {
-        "q": "¿Se puede craftear string en Minecraft?",
-        "a": "En Java no. En Bedrock Edition puedes craftear una cobweb en 9 de string. En ambas ediciones, 4 de string se craftean en 1 de wool."
-      },
-      {
         "q": "¿Qué mobs sueltan string?",
-        "a": "Las spiders y cave spiders sueltan 0-2 de string (hasta 5 con Looting III). Los striders sueltan 2-5. Los cats tameados pueden regalar string al dormir, y los piglins pueden dar 3-9 de string por bartering con oro."
+        "a": "Arañas y arañas de cueva sueltan 0-2 (hasta 0-5 con Looting III). Los striders, 2-5 (hasta 2-8 con Looting III)."
+      },
+      {
+        "q": "¿Los gatos pueden dar string?",
+        "a": "Sí: los gatos domesticados tienen un 70% de dar un regalo al despertar, y el 16,13% de los regalos son string."
+      },
+      {
+        "q": "¿Puedo conseguir string con bartering?",
+        "a": "Los piglins tienen ~4,26% de dar 3-9 string por un gold ingot."
       },
       {
         "q": "¿Para qué sirve el string?",
-        "a": "El bow, la fishing rod, la lead, la wool, el crossbow, el loom, el scaffolding y los tripwire hooks necesitan string, así que conviene tener un suministro constante."
+        "a": "Bows, cañas de pescar, ballestas, leads, looms, scaffolding y lana blanca."
       }
     ],
     "relatedGuides": [

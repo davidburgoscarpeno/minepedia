@@ -4382,14 +4382,16 @@
     "slug": "how-to-get-string",
     "name": "How to Get String in Minecraft",
     "shortTitle": "Get String",
-    "quickAnswer": "Kill spiders or cave spiders (0-2 string, up to 5 with Looting III), break cobwebs with a sword, or farm striders in the Nether (2-5 string). Tamed cats, fishing and piglin bartering work too.",
+    "quickAnswer": "Kill spiders or cave spiders (0-2 string, up to 0-5 with Looting III), break cobwebs with a sword, or kill striders in the Nether (2-5 string, up to 2-8 with Looting III). Tamed cats, piglin bartering, tripwire and loot chests also give string.",
     "steps": [
-      "Hunt spiders at night or in dark areas: they drop 0-2 string, plus 0-1 extra per Looting level (up to 5 with Looting III). Cave spiders drop the same and are easy to farm from their spawners.",
-      "Set up a cave spider farm: mineshafts are full of cave spider spawners surrounded by cobwebs. A simple water-and-trap farm gives unlimited string and XP.",
-      "Break cobwebs with a sword: every cobweb broken by a sword (or pushed by a piston / washed by water) drops string. Shears give the cobweb block instead, so use a sword. In Bedrock you can also craft 1 cobweb into 9 string.",
-      "Farm striders in the Nether: each strider drops 2-5 string. In Java, Looting adds 0-1 per level; in Bedrock Looting does not increase the drop (a known bug, MCPE-112761).",
-      "Sleep with a tamed cat nearby: cats have a 70% chance of bringing a gift when you wake up, and 16.13% of those gifts are string.",
-      "Extra sources: fishing has a 0.5% junk-chance of string with an unenchanted rod, piglins barter 3-9 string (~4.26%) for a gold ingot, and string appears in dungeon, mineshaft and woodland mansion chests, jungle pyramid tripwires (5 per pyramid) and trial chambers traps."
+      "Hunt spiders and cave spiders: they drop 0-2 string by default (0-3 with Looting I, 0-4 with II, 0-5 with III), with a 66.67% chance of at least 1 by default.",
+      "Kill striders in the Nether: they drop 2-5 string by default, up to 2-8 with Looting III.",
+      "Break cobwebs with a sword: cobwebs also drop string when pushed by a piston or washed away by flowing water (flowing lava destroys them without leaving string).",
+      "Break tripwire: it can be broken instantly with any tool and drops string. Five pieces of tripwire generate in every jungle pyramid, and several appear next to dispensers in trial chambers.",
+      "Sleep near a tamed cat: it has a 70% chance of giving a gift when you wake up, and 16.13% of gifts are string.",
+      "Barter with piglins: a gold ingot has a ~4.26% chance (20 in 469) to return 3-9 string.",
+      "Loot chests: monster rooms and woodland mansions (1-8, 57.8%), desert pyramids (1-8, 59%), pillager outposts (1-6, 39.1%).",
+      "Use it: bow, fishing rod, crossbow, lead, loom, scaffolding and white wool (4 string)."
     ],
     "materials": [
       "Iron sword or better (Looting III ideal)",
@@ -4397,24 +4399,24 @@
       "A tamed cat and a bed (passive option)",
       "Gold ingots (bartering option)"
     ],
-    "editionNote": "Two big edition differences: Looting increases strider string drops only in Java (Bedrock bug MCPE-112761), and only Bedrock lets you craft cobwebs into 9 string. Spider and cave spider drops are identical in both editions.",
-    "versions": "String has existed since Java Indev 0.31 (January 30, 2010). Cat gifts arrived with 1.14 (Village & Pillage) and striders plus bartering with 1.16 (Nether Update).",
+    "editionNote": "Chest chances shown follow the Minecraft Wiki String page and can differ slightly by edition.",
+    "versions": "Per the Minecraft Wiki: cats offer string as gifts and crossbows and looms use string since snapshot 18w43a (Java 1.14); bartering with piglins since 20w09a (Java 1.16).",
     "faq": [
       {
-        "q": "What is the fastest way to get string?",
-        "a": "A cave spider farm built on a mineshaft spawner is the best renewable source: fast kills, XP and string. Early game, hunt spiders at night with a Looting III sword (up to 5 string per kill)."
+        "q": "What mobs drop string?",
+        "a": "Spiders and cave spiders drop 0-2 (up to 0-5 with Looting III). Striders drop 2-5 (up to 2-8 with Looting III)."
       },
       {
-        "q": "Can you craft string in Minecraft?",
-        "a": "Not in Java. In Bedrock Edition you can craft one cobweb into 9 string. In both editions, 4 string crafts into 1 wool."
+        "q": "Can cats give string?",
+        "a": "Yes: tamed cats have a 70% chance of a gift on waking, and 16.13% of gifts are string."
       },
       {
-        "q": "Which mobs drop string?",
-        "a": "Spiders and cave spiders drop 0-2 string (up to 5 with Looting III). Striders drop 2-5. Tamed cats can gift string when you sleep, and piglins can barter 3-9 string for gold."
+        "q": "Can I barter for string?",
+        "a": "Piglins have a ~4.26% chance to give 3-9 string for a gold ingot."
       },
       {
-        "q": "What do you need string for?",
-        "a": "Bows, fishing rods, leads, wool, crossbows, looms, scaffolding and tripwire hooks all need string, so you will want a steady supply."
+        "q": "What is string used for?",
+        "a": "Bows, fishing rods, crossbows, leads, looms, scaffolding and white wool."
       }
     ],
     "relatedGuides": [
