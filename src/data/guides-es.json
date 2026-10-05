@@ -1901,14 +1901,14 @@
   "how-to-make-piston": {
     "name": "Cómo hacer un Piston en Minecraft",
     "shortTitle": "Hacer un Piston",
-    "quickAnswer": "Craftea un piston con 3 planks en la fila superior, 4 cobblestone en los laterales, 1 iron ingot en el centro y 1 redstone dust debajo. Combina el piston terminado con una slimeball para conseguir un sticky piston que también recoge los bloques al retraerse.",
+    "quickAnswer": "Craftea un piston con tablones de cualquier tipo, cobblestone, un lingote de hierro y redstone dust. Añade una slimeball a un piston para hacer un sticky piston. Un piston mueve hasta 12 bloques a la vez.",
     "steps": [
-      "Reúne los materiales: 3 planks de cualquier madera, 4 cobblestone, 1 iron ingot y 1 redstone dust.",
-      "Consigue redstone: mina redstone ore en las capas profundas (aparece por debajo de Y 16, con más densidad hacia Y -59) con un iron pickaxe o mejor; cada mineral suelta 4-5 redstone dust.",
-      "Craftea el piston: fila superior planks - planks - planks, fila central cobblestone - iron ingot - cobblestone, fila inferior cobblestone - redstone dust - cobblestone.",
-      "Hazlo sticky: pon el piston en la cuadrícula con una slimeball encima. Las slimeballs vienen de los slimes, que aparecen en los swamps de noche y en los slime chunks por debajo de Y 40, o de los estornudos de los baby pandas.",
-      "Conoce los límites: un piston empuja hasta 12 bloques, pero obsidian, bedrock, las cabezas de piston extendidas y (en Java) los bloques con inventario como chests y furnaces no se mueven.",
-      "Dale corriente: vale cualquier señal de redstone: una lever, un button, una pressure plate, una redstone torch o un bloque cargado junto al piston. La cabeza se extiende hacia donde miraba al colocarlo."
+      "Reúne los materiales: 3 tablones de cualquier madera, 4 cobblestone, 1 lingote de hierro y 1 redstone dust.",
+      "Craftea el piston: fila superior tablón - tablón - tablón, fila central cobblestone - lingote - cobblestone, fila inferior cobblestone - redstone dust - cobblestone.",
+      "Hazlo sticky: combina una slimeball con un piston.",
+      "Dale una señal de redstone. Se extiende en 2 game ticks (0,1 segundos) y empuja como máximo 12 bloques.",
+      "Colócalo mirando hacia ti: los pistons siempre se colocan orientados hacia el jugador.",
+      "Rómpelo con cualquier herramienta; el pico es más rápido. Siempre suelta el propio piston."
     ],
     "materials": [
       "3 planks de cualquier madera",
@@ -1917,20 +1917,24 @@
       "1 redstone dust",
       "Para un sticky piston: + 1 slimeball"
     ],
-    "editionNote": "En Bedrock, los pistons pueden empujar bloques con inventario como chests, furnaces y brewing stands; en Java no. Los pulsos de 1 tick hacen que un sticky piston suelte su bloque en vez de recogerlo, con un timing ligeramente distinto entre ediciones.",
-    "versions": "Los pistons se añadieron en Java Beta 1.7 y en Bedrock 0.15.0, junto con los sticky pistons.",
+    "editionNote": "Java tiene quasi-connectivity: un piston puede activarse desde un bloque más arriba, algo que Bedrock no tiene. Bedrock tiene soft inversion (una redstone torch en un piston activado se apaga) y un retardo de inicio fijo de 2 game ticks. En Java el retardo es de 0 o 1 tick.",
+    "versions": "Según la página Piston de Minecraft Wiki. Los slime blocks empujan y tiran de bloques adyacentes desde 14w18a.",
     "faq": [
       {
-        "q": "¿Qué diferencia hay entre un piston y un sticky piston?",
-        "a": "Un piston normal solo empuja bloques; al cortar la corriente, los bloques se quedan donde están. Un sticky piston (piston + slimeball) además arrastra un bloque de vuelta al retraerse."
+        "q": "¿Qué diferencia hay entre piston y sticky piston?",
+        "a": "El sticky piston (piston + slimeball) también tira de los bloques al retraerse; el normal solo empuja."
       },
       {
-        "q": "¿Por qué mi piston no empuja un chest o un furnace?",
-        "a": "En Java, los bloques con inventario como chests, furnaces y brewing stands son inamovibles. En Bedrock sí se pueden empujar, así que la misma máquina puede funcionar solo en una edición."
+        "q": "¿Cuántos bloques empuja un piston?",
+        "a": "Hasta 12 bloques a la vez."
       },
       {
-        "q": "¿Cuántos bloques puede mover un piston?",
-        "a": "Hasta 12 bloques en línea, contando toda la cadena que toca el empuje. Si la cadena pasa de 12 o choca con un bloque inamovible, el piston ni se extiende."
+        "q": "¿Qué tan rápido se extiende?",
+        "a": "Tarda 2 game ticks (0,1 segundos) tras su retardo de inicio."
+      },
+      {
+        "q": "¿Los slime blocks se pegan a todo?",
+        "a": "No. Los slime y honey blocks no se pegan entre sí y un piston normal no puede tirar de ellos."
       }
     ],
     "relatedGuides": [

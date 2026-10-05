@@ -2229,14 +2229,14 @@
     "slug": "how-to-make-piston",
     "name": "How to Make a Piston in Minecraft",
     "shortTitle": "Make a Piston",
-    "quickAnswer": "Craft a piston with 3 planks across the top row, 4 cobblestone down the sides, 1 iron ingot in the center and 1 redstone dust under it. Combine the finished piston with a slimeball to get a sticky piston that also pulls blocks back.",
+    "quickAnswer": "Craft a piston from any planks, cobblestone, an iron ingot and redstone dust. Add a slimeball to a piston to make a sticky piston. A piston moves up to 12 blocks at once.",
     "steps": [
       "Gather the materials: 3 planks of any wood, 4 cobblestone, 1 iron ingot and 1 redstone dust.",
-      "Get redstone: mine redstone ore deep underground (it generates below Y 16, densest around Y -59) with an iron pickaxe or better; each ore drops 4-5 redstone dust.",
       "Craft the piston: top row planks - planks - planks, middle row cobblestone - iron ingot - cobblestone, bottom row cobblestone - redstone dust - cobblestone.",
-      "Make it sticky: put the piston in a grid with a slimeball on top. Slimeballs come from slimes, which spawn in swamps at night and in slime chunks below Y 40 - or from baby pandas sneezing.",
-      "Know the limits: a piston pushes up to 12 blocks, but obsidian, bedrock, extended piston heads and (in Java) block entities like chests and furnaces will not move.",
-      "Power it: any redstone signal works - a lever, button, pressure plate, redstone torch or a powered block next to the piston. The head extends toward whatever it faces when placed."
+      "Make it sticky: combine a slimeball with a piston.",
+      "Power it with a redstone signal. It extends in 2 game ticks (0.1 seconds) and pushes at most 12 blocks.",
+      "Place it facing you: pistons are always placed facing toward the player.",
+      "Break it with any tool; a pickaxe is faster. It always drops itself."
     ],
     "materials": [
       "3 planks of any wood",
@@ -2245,20 +2245,24 @@
       "1 redstone dust",
       "For a sticky piston: + 1 slimeball"
     ],
-    "editionNote": "In Bedrock, pistons can push block entities such as chests, furnaces and brewing stands; in Java they cannot. One-tick pulses make a sticky piston drop its block instead of pulling it, with slightly different timing behavior between editions.",
-    "versions": "Pistons were added in Java Beta 1.7 and Bedrock 0.15.0, and sticky pistons alongside them.",
+    "editionNote": "Java Edition has quasi-connectivity: a piston can be powered from one block above, which Bedrock lacks. Bedrock has soft inversion (a redstone torch on a powered piston turns off) and a fixed start delay of 2 game ticks. In Java the start delay is 0 or 1 tick.",
+    "versions": "Per the Minecraft Wiki Piston page. Slime blocks pull and push adjacent blocks since 14w18a.",
     "faq": [
       {
         "q": "What is the difference between a piston and a sticky piston?",
-        "a": "A normal piston only pushes blocks; when the power turns off, the blocks stay where they are. A sticky piston (piston + slimeball) also pulls one block back when it retracts."
+        "a": "A sticky piston (piston + slimeball) can also pull blocks back; a normal piston only pushes."
       },
       {
-        "q": "Why won't my piston push a chest or furnace?",
-        "a": "In Java, block entities like chests, furnaces and brewing stands are immovable. In Bedrock they can be pushed, so the same machine may only work in one edition."
+        "q": "How many blocks can a piston push?",
+        "a": "Up to 12 blocks at once."
       },
       {
-        "q": "How many blocks can one piston move?",
-        "a": "Up to 12 blocks in a line, counting everything the push chain touches. If the chain exceeds 12 or hits an immovable block, the piston does not extend."
+        "q": "How fast does a piston extend?",
+        "a": "It takes 2 game ticks (0.1 seconds) after its start delay."
+      },
+      {
+        "q": "Do slime blocks stick to everything?",
+        "a": "No. Slime and honey blocks do not stick to each other, and a normal piston cannot pull them."
       }
     ],
     "relatedGuides": [
