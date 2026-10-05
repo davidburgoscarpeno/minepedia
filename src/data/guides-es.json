@@ -1724,14 +1724,14 @@
   "how-to-get-silk-touch": {
     "name": "Cómo conseguir Silk Touch en Minecraft",
     "shortTitle": "Conseguir Silk Touch",
-    "quickAnswer": "Silk Touch sale de la enchanting table (un encantamiento raro de nivel 1), de los librarian villagers, de la pesca de tesoros o de los cofres de monster rooms y otras estructuras. Es incompatible con Fortune - llévalo en un pickaxe aparte.",
+    "quickAnswer": "Silk Touch (nivel máximo 1, peso 1) sale de mesas de encantamiento, aldeanos bibliotecarios, libros de pesca, cofres de monster rooms y botín de otras estructuras. En Bedrock, los mobs de raids también pueden soltarlo. Es incompatible con Fortune.",
     "steps": [
-      "Vía enchanting table: monta el set completo de 15 bookshelves y encanta pickaxes hasta que aparezca Silk Touch. Tiene nivel máximo 1 y peso bajo, así que prepárate para rotar varias herramientas.",
-      "Refresca ofertas malas barato: haz un encantamiento de nivel 1 en un book u otro ítem para rerollear las ofertas de la mesa.",
-      "Vía comercio: sube de nivel a un librarian villager y revisa sus ofertas de enchanted books - los libros de Silk Touch aparecen en cualquier tier; fija la oferta comerciando una vez.",
-      "Vía botín: la pesca puede traer enchanted books como tesoro, y los cofres de las monster rooms y otras estructuras pueden contener libros de Silk Touch.",
-      "Extra de Bedrock: los mobs de las raids pueden soltar enchanted books y equipo con Silk Touch, y allí puede aplicarse a las shears.",
-      "Aplica el libro a tu herramienta en un anvil. Recuerda: Silk Touch y Fortune no pueden coexistir en la misma herramienta."
+      "Mesa de encantamientos: encanta herramientas o libros hasta que ofrezca Silk Touch. Tiene nivel máximo 1 y peso 1, así que sale con poca probabilidad.",
+      "Aldeanos bibliotecarios: revisa sus intercambios de libros encantados por Silk Touch.",
+      "Pesca: los libros encantados de pesca pueden traer Silk Touch.",
+      "Cofres: los de monster rooms y el botín de estructuras fuera de aldeas pueden contenerlo.",
+      "Solo Bedrock: los mobs que aparecieron en una raid pueden soltar Silk Touch.",
+      "Aplica el libro en un yunque. Silk Touch y Fortune no pueden estar en la misma herramienta."
     ],
     "materials": [
       "Enchanting table + 15 bookshelves, o",
@@ -1739,20 +1739,24 @@
       "Fishing rod y paciencia",
       "Anvil para aplicar los enchanted books"
     ],
-    "editionNote": "El mismo encantamiento en ambas ediciones; en Bedrock también lo sueltan los mobs de las raids y puede ir en shears. Incompatible con Fortune en todas partes.",
-    "versions": "Desde Java Beta 1.9 Prerelease 4 / Bedrock 1.0.0.",
+    "editionNote": "La wiki indica los drops de mobs de raid como fuente de Silk Touch solo en Bedrock.",
+    "versions": "Según la página Silk Touch de Minecraft Wiki.",
     "faq": [
       {
         "q": "¿Qué bloques necesitan Silk Touch?",
-        "a": "Stone (suelta stone en vez de cobblestone), glass y glass panes, grass blocks, bee nests y beehives (conserva a las bees dentro), blue ice y packed ice, amethyst buds y clusters, bookshelves, coral blocks y ender chests - todos se rompen o se degradan sin él."
+        "a": "Piedra (si no, suelta cobblestone), hielo, packed ice y blue ice (si no, nada), deepslate, menas (el bloque en vez del objeto), bloques de setas, estanterías (si no, 3 libros), melones, podzol y nylium."
       },
       {
-        "q": "¿Pueden ir Silk Touch y Fortune en el mismo pickaxe?",
-        "a": "No - son mutuamente excluyentes. Lleva dos pickaxes: Fortune para los minerales y Silk Touch para los bloques que quieras intactos."
+        "q": "¿Silk Touch y Fortune pueden ir en el mismo pico?",
+        "a": "No, son incompatibles. Lleva dos picos."
       },
       {
         "q": "¿Existe Silk Touch II?",
-        "a": "No. Silk Touch tiene un solo nivel; niveles superiores no hacen nada y no se pueden conseguir en survival."
+        "a": "No. El nivel máximo es 1."
+      },
+      {
+        "q": "¿Silk Touch recoge un spawner?",
+        "a": "No. La wiki indica que el spawner no se obtiene con Silk Touch."
       }
     ],
     "relatedLinks": [
