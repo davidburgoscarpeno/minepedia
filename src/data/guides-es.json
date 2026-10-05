@@ -385,16 +385,15 @@
   "how-to-make-beacon": {
     "name": "Cómo hacer y usar un beacon en Minecraft",
     "shortTitle": "Hacer un beacon",
-    "quickAnswer": "Craftea un beacon con 1 nether star, 5 glass y 3 obsidiana, colócalo sobre una pirámide de 9 a 164 bloques de hierro, oro, diamante, esmeralda o netherite (1-4 capas) y dale un lingote o gema para elegir un poder como Speed, Haste o Regeneration.",
+    "quickAnswer": "Craftea un beacon con cristal, una nether star y obsidiana. Colócalo sobre una pirámide de 1 a 4 capas de bloques de hierro, oro, esmeralda, diamante o netherita (9 a 164 bloques) y dale un lingote de hierro, oro, esmeralda, diamante o netherita para elegir sus poderes.",
     "steps": [
-      "Mata al Wither para conseguir su nether star (mira nuestra guía del Wither).",
-      "Craftea el beacon: nether star en el centro, 3 obsidiana en la fila inferior y glass rellenando el resto.",
-      "Mina o funde el material de la pirámide: el hierro es la opción práctica (una pirámide completa de 4 capas cuesta 164 bloques = 1.476 lingotes; una granja de hierro lo hace llevadero). Los bloques de esmeralda, oro, diamante y netherite funcionan idénticamente y se pueden mezclar.",
-      "Construye la pirámide en terreno llano con cielo despejado encima: la capa 1 es 3x3, la 2 es 5x5, la 3 es 7x7, la 4 es 9x9, con el beacon arriba. No puede haber bloques transparentes (salvo el propio beacon) sobre él.",
-      "Abre la interfaz del beacon e inserta un iron ingot, gold ingot, esmeralda, diamante o netherite ingot. Elige un poder primario: Speed, Haste, Resistance, Jump Boost o Strength (más capas desbloquean más opciones).",
-      "Con las 4 capas, elige también un poder secundario: Regeneration, o sube el primario a nivel II.",
-      "El haz necesita acceso al cielo y da efectos en un radio: 20 bloques con 1 capa hasta 50 bloques con 4 capas. Los efectos duran ~17 segundos tras salir del radio.",
-      "El stained glass sobre el haz lo colorea: apila colores para mezclarlos."
+      "Consigue una nether star y craftea el beacon con cristal, una nether star y obsidiana.",
+      "Construye la pirámide: la capa 1 es de 3x3 (9 bloques), una de 3 capas es 7x7, 5x5, 3x3 (83 bloques) y una de 4 capas es 9x9, 7x7, 5x5, 3x3 (164 bloques, 1.476 lingotes o gemas). El beacon va encima.",
+      "Usa bloques de hierro, oro, esmeralda, diamante o netherita, solos o mezclados. El tipo de bloque es solo estético.",
+      "Mantén el haz despejado: se desactiva si cruza cualquier bloque totalmente opaco, salvo bedrock. El cristal tintado sobre el beacon colorea el haz.",
+      "Haz clic derecho en el beacon, pon un lingote de hierro, oro, esmeralda, diamante o netherita, elige un Primary Power y confirma. Da igual cuál ofrezcas.",
+      "Poderes: Resistance y Jump Boost piden pirámide de 2 capas y Strength de 3. Con 4 capas también puedes elegir un Secondary Power: Regeneration, o subir el poder primario al nivel II.",
+      "Si la pirámide se rompe, el poder elegido vuelve al reconstruirla, sin gastar otro objeto."
     ],
     "materials": [
       "1 nether star (drop del Wither)",
@@ -402,20 +401,24 @@
       "164 bloques minerales para la pirámide máxima (hierro recomendado)",
       "1 lingote/gema para activarlo"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: misma receta, tamaños de pirámide, poderes y radio. En Bedrock el haz se activa un poco más rápido y los efectos del beacon se aplican también hasta 4 bloques por debajo de la pirámide.",
-    "versions": "Los beacons se añadieron en la 1.4.2. Los bloques de netherite pasaron a ser material válido de pirámide en la 1.16. Vigente en la 26.3.",
+    "editionNote": "Según la wiki, el haz de un beacon se ve desde cualquier chunk cargado: hasta 512 bloques en Java y 2048 en Bedrock. En Bedrock el haz se actualiza cada 80 ticks (4 segundos). En Java otro beacon encima puede cambiar el color del haz.",
+    "versions": "Según la página Beacon de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Cuántos bloques hacen falta para un beacon completo?",
-        "a": "164 bloques para una pirámide de 4 capas (9x9 + 7x7 + 5x5 + 3x3). En hierro son 1.476 lingotes: farmea hierro antes de intentarlo."
+        "q": "¿Cuántos bloques necesito para un beacon completo?",
+        "a": "164 bloques para una pirámide de 4 capas, es decir 1.476 lingotes o gemas."
       },
       {
-        "q": "¿Los distintos materiales de pirámide dan mejores efectos?",
-        "a": "No. Los bloques de hierro, oro, diamante, esmeralda y netherite funcionan idénticamente, y puedes mezclarlos en una misma pirámide."
+        "q": "¿Los materiales dan mejores efectos?",
+        "a": "No. El tipo de bloque es estético y puedes mezclar hierro, oro, esmeralda, diamante y netherita."
       },
       {
         "q": "¿Por qué no funciona mi beacon?",
-        "a": "Necesita vista despejada del cielo: ningún bloque sólido ni transparente (que no sea el beacon) encima. Comprueba que la pirámide está completa y que le diste un lingote o gema."
+        "a": "Probablemente un bloque totalmente opaco bloquea el haz, o la pirámide está incompleta."
+      },
+      {
+        "q": "¿Qué le doy a un beacon?",
+        "a": "Un lingote de hierro, oro, esmeralda, diamante o netherita. Da igual cuál."
       }
     ],
     "relatedLinks": [

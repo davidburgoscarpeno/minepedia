@@ -496,16 +496,15 @@
     "slug": "how-to-make-beacon",
     "name": "How to Make and Use a Beacon in Minecraft",
     "shortTitle": "Make a Beacon",
-    "quickAnswer": "Craft a beacon with 1 nether star, 5 glass and 3 obsidian, place it on a pyramid of 9 to 164 iron, gold, diamond, emerald or netherite blocks (1-4 layers), and feed it an ingot or gem to pick a power like Speed, Haste or Regeneration.",
+    "quickAnswer": "Craft a beacon from glass, a nether star and obsidian. Place it on a pyramid of 1 to 4 layers of iron, gold, emerald, diamond or netherite blocks (9 to 164 blocks), then feed it one iron ingot, gold ingot, emerald, diamond or netherite ingot to pick its powers.",
     "steps": [
-      "Kill the Wither for its nether star (see our Wither guide).",
-      "Craft the beacon: nether star in the center, 3 obsidian along the bottom row, glass filling the rest.",
-      "Mine or smelt the pyramid material: iron is the practical choice (a full 4-layer pyramid costs 164 blocks = 1,476 ingots - an iron farm makes this painless). Emerald, gold, diamond and netherite blocks work identically and can be mixed.",
-      "Build the pyramid on flat ground with clear sky above: layer 1 is 3x3, layer 2 is 5x5, layer 3 is 7x7, layer 4 is 9x9, beacon on top. No transparent blocks (except the beacon itself) can sit above it.",
-      "Open the beacon UI and insert one iron ingot, gold ingot, emerald, diamond or netherite ingot. Choose a primary power: Speed, Haste, Resistance, Jump Boost or Strength (more layers unlock more options).",
-      "With all 4 layers, also pick a secondary power: Regeneration, or boost the primary to level II.",
-      "The beam needs sky access and gives effects in a radius: 20 blocks for 1 layer up to 50 blocks for 4 layers. Effects last ~17 seconds after leaving the radius.",
-      "Stained glass above the beam colors it - stack colors to blend."
+      "Get a nether star and craft the beacon with glass, a nether star and obsidian.",
+      "Build the pyramid: layer 1 is 3x3 (9 blocks), a 3-layer pyramid is 7x7, 5x5, 3x3 (83 blocks), and a 4-layer pyramid is 9x9, 7x7, 5x5, 3x3 (164 blocks, 1,476 ingots or gems). The beacon sits on top.",
+      "Use iron, gold, emerald, diamond or netherite blocks, alone or mixed. The block type is purely cosmetic.",
+      "Keep the beam clear: it deactivates if it intersects any fully opaque block, except bedrock. Stained glass above the beacon colors the beam.",
+      "Right-click the beacon, place one iron ingot, gold ingot, emerald, diamond or netherite ingot, pick a Primary Power and confirm. Which item you feed does not matter.",
+      "Powers: Resistance and Jump Boost need a 2-layer pyramid, Strength needs 3 layers. On a 4-layer pyramid you can also pick a Secondary Power: Regeneration, or raise the primary power to level II.",
+      "If the pyramid breaks, the chosen power returns when you rebuild it, with no new item needed."
     ],
     "materials": [
       "1 nether star (Wither drop)",
@@ -513,20 +512,24 @@
       "164 mineral blocks for a max pyramid (iron recommended)",
       "1 ingot/gem to activate"
     ],
-    "editionNote": "Identical in Java and Bedrock: same recipe, pyramid sizes, powers and radius. In Bedrock the beam activates a bit faster and beacon effects apply up to 4 blocks below the pyramid as well.",
-    "versions": "Beacons were added in 1.4.2. Netherite blocks became valid pyramid material in 1.16. Current as of 26.3.",
+    "editionNote": "Per the wiki, a beacon beam is visible from any loaded chunk: up to 512 blocks in Java Edition and 2048 blocks in Bedrock Edition. In Bedrock Edition the beam updates every 80 ticks (4 seconds). In Java Edition another beacon above can change the beam color.",
+    "versions": "Per the Minecraft Wiki Beacon page.",
     "faq": [
       {
         "q": "How many blocks do you need for a full beacon?",
-        "a": "164 blocks for a 4-layer pyramid (9x9 + 7x7 + 5x5 + 3x3). In iron that is 1,476 ingots - farm iron before attempting it."
+        "a": "164 blocks for a 4-layer pyramid, which is 1,476 ingots or gems."
       },
       {
         "q": "Do different pyramid materials give better effects?",
-        "a": "No. Iron, gold, diamond, emerald and netherite blocks all work identically, and you can mix them in one pyramid."
+        "a": "No. The block type is cosmetic, and you can mix iron, gold, emerald, diamond and netherite blocks."
       },
       {
         "q": "Why is my beacon not working?",
-        "a": "It needs a clear view of the sky: no solid or transparent blocks (other than the beacon) above it. Check the pyramid is complete and you fed it an ingot or gem."
+        "a": "Its beam is probably blocked by a fully opaque block above it, or the pyramid is incomplete."
+      },
+      {
+        "q": "What do I feed a beacon?",
+        "a": "One iron ingot, gold ingot, emerald, diamond or netherite ingot. It does not matter which."
       }
     ],
     "relatedGuides": [
