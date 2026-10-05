@@ -5102,16 +5102,15 @@
   "how-to-get-gunpowder": {
     "name": "Cómo conseguir Gunpowder en Minecraft",
     "shortTitle": "Conseguir Gunpowder",
-    "quickAnswer": "Mata creepers antes de que exploten: cada uno suelta 0-2 de gunpowder (hasta 5 con Looting III). Los ghasts y las witches también la sueltan, y una granja de creepers sobre un río u océano es la forma clásica de apilarla automáticamente.",
+    "quickAnswer": "Mata creepers o ghasts: cada uno suelta 0-2 gunpowder por defecto y hasta 0-5 con Looting III. Las brujas también lo sueltan. Además puedes saquear cofres, cepillar suspicious sand en pirámides del desierto o comprar 4 de gunpowder por 1 esmeralda a un comerciante errante.",
     "steps": [
-      "Caza creepers de noche: sueltan 0-2 de gunpowder al morir, más 1 extra por nivel de Looting (hasta 5 con Looting III). Mátalos con espada o bow antes de que exploten: un creeper que explota no suelta nada.",
-      "Usa un cat: los creepers huyen de los cats, así que pasear un cat domesticado por un bioma de plains o forest te permite acorralar creepers para matarlos seguro.",
-      "Farmea ghasts en el Nether: los ghasts sueltan 0-2 de gunpowder (hasta 5 con Looting III). Dispárales con un bow en nether wastes o soul sand valleys abiertos.",
-      "Mata witches: su pool de drops incluye 0-2 de gunpowder, así que una granja de witches sobre una swamp hut produce gunpowder junto a redstone, glowstone y sticks.",
-      "Construye una granja de creepers: una granja de plataformas oscuras con trapdoors en el techo (solo los creepers caben en el hueco de 1.5 bloques) y cats que los asustan hacia el conducto de caída produce stacks por hora. Ojo: en Bedrock, las granjas de creepers dejan de funcionar tras unas horas y hay que reiniciar.",
-      "Lootea cofres: la gunpowder genera en cofres de dungeons, desert pyramids, woodland mansions y shipwrecks, y desde la 1.19.4 puedes sacarla cepillando suspicious sand en las desert pyramids. En la 26.3 también genera en cofres de abandoned camps.",
-      "Cómprala: los wandering traders venden a veces 4 de gunpowder por 1 emerald.",
-      "Para qué la necesitas: TNT (5 de gunpowder + 4 de sand), fire charges, firework stars y rockets (duración 1-3 para volar con elytra), y convertir cualquier poción en splash potion con brewing."
+      "Mata creepers antes de que exploten (un creeper que explota no suelta nada aquí): 0-2 gunpowder por defecto, 0-3 con Looting I, 0-4 con II y 0-5 con III. La wiki da un 66,67% de soltar al menos 1 por defecto, hasta 94,44% con Looting III.",
+      "Mata ghasts en el Nether: la tabla de drops es la misma que la del creeper (0-2, hasta 0-5 con Looting III).",
+      "Mata brujas: pueden soltar 0-6 gunpowder por defecto (0-15 con Looting III), pero la probabilidad de soltar algo es mucho menor, cerca del 17,87% por defecto.",
+      "Saquea cofres: monster rooms (1-8, 57,8%), mansiones del bosque (1-8, 57,8%), cofres de pirámides del desierto (1-8, 59%), cofres de suministros de naufragios (1-5, 20,8%) y cofres comunes de campamentos abandonados (2-4, 27,5%).",
+      "Cepilla suspicious sand en pirámides del desierto: 12,5% de conseguir 1 gunpowder.",
+      "Cómpralo: los comerciantes errantes pueden vender ocasionalmente 4 gunpowder por 1 esmeralda.",
+      "Úsalo: TNT (gunpowder + arena o arena roja), fire charges, estrellas y cohetes de fuegos artificiales (hasta tres gunpowder en un cohete para más vuelo) y splash potions (gunpowder + cualquier poción)."
     ],
     "materials": [
       "Espada o bow (espada con Looting III ideal)",
@@ -5119,24 +5118,20 @@
       "Armadura y shield para cazar de noche",
       "Emeralds para wandering traders (opcional)"
     ],
-    "editionNote": "Los drops y las recetas son idénticos en Java y Bedrock. Dos rarezas de Bedrock: las granjas de creepers dejan de funcionar tras unas horas (recargar el mundo lo arregla), y los wandering traders pueden soltar 4 de gunpowder al morir mientras la ofrecen como trade (25% de probabilidad) si llevas un emerald en la mano.",
-    "versions": "La gunpowder (entonces llamada sulphur) está en el juego desde Java Indev 2010, soltándose solo de creepers desde febrero de 2010; los ghasts se sumaron como fuente en Alpha v1.2.0 y las witches en la 1.4.2. En Pocket Edition llegó en la v0.2.0, obtenible de creepers desde la v0.4.0.",
+    "editionNote": "En Bedrock, un comerciante errante muerto mientras ofrece el intercambio de gunpowder puede soltar 4 de gunpowder con un 25% (más 1% por nivel de Looting) si el jugador sostiene una esmeralda.",
+    "versions": "Los porcentajes de drop y de cofres salen de la página Gunpowder de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Qué mobs sueltan gunpowder?",
-        "a": "Creepers, ghasts y witches, cada uno con 0-2 de gunpowder (hasta 5 con Looting III). Los creepers son con diferencia la fuente más farmeable."
+        "q": "¿Cuánta gunpowder suelta un creeper?",
+        "a": "0-2 por defecto, hasta 0-5 con Looting III (66,67% de soltar al menos 1 por defecto, 94,44% con Looting III)."
       },
       {
-        "q": "¿Los creepers sueltan gunpowder si explotan?",
-        "a": "No. Un creeper que explota no suelta nada: tienes que matarlo tú. Mantén distancia con un bow o usa un shield, o deja que un cat los acorrale."
+        "q": "¿Los ghasts sueltan gunpowder?",
+        "a": "Sí, con la misma tabla de drops que los creepers."
       },
       {
-        "q": "¿Cuál es la forma más rápida de farmear gunpowder?",
-        "a": "Una granja solo de creepers: plataformas de spawn oscuras con trapdoors en el techo para que solo aparezcan creepers de 1.5 bloques de alto, más cats que los empujan al conducto de muerte. Looting III en la kill multiplica la producción."
-      },
-      {
-        "q": "¿Para qué sirve la gunpowder?",
-        "a": "Craftear TNT, fire charges y firework stars/rockets (3 de gunpowder dan rockets de duración 3 para volar con elytra), y hacer brewing de splash potions."
+        "q": "¿Se puede comprar gunpowder?",
+        "a": "Los comerciantes errantes pueden vender ocasionalmente 4 gunpowder por 1 esmeralda."
       }
     ],
     "relatedGuides": [
