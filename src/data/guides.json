@@ -5407,15 +5407,15 @@
     "slug": "how-to-get-quartz",
     "name": "How to Get Nether Quartz in Minecraft",
     "shortTitle": "Get Quartz",
-    "quickAnswer": "Mine nether quartz ore in the Nether: it generates in blobs up to 16 times per chunk between Y=10 and Y=117 in every Nether biome. Any pickaxe works, each ore drops 1 quartz (up to 4 with Fortune III) plus XP. Piglin bartering also gives 5-12 quartz.",
+    "quickAnswer": "Mine nether quartz ore in the Nether with any pickaxe: it drops 1 quartz (up to 4 with Fortune III, about 2.2 on average) plus 2-5 XP. Piglins also barter 5-12 quartz for a gold ingot at ~4.26%.",
     "steps": [
-      "Enter the Nether through a nether portal. Nether quartz ore generates in every Nether biome, embedded in netherrack between Y=10 and Y=117 - it is the most common Nether ore and easy to spot by its white streaks.",
-      "Mine it with any pickaxe, even wooden: mining by hand drops nothing. Each ore drops 1 nether quartz, up to 4 with Fortune III, plus 2-5 XP - quartz mining is one of the best XP sources in the game.",
-      "Skip Silk Touch: a Silk Touch pickaxe drops the ore block, and smelting it only yields 1 quartz with 0.2 XP, always worse than mining it directly with Fortune.",
-      "In Java, look at basalt deltas: quartz ore attempts to generate 32 times per chunk there (double the usual rate) to compensate for the smaller generation areas.",
-      "Barter with piglins: handing a gold ingot to a piglin has roughly a 4.26% chance of returning 5-12 nether quartz. A gold farm plus bartering makes quartz fully renewable.",
-      "Loot bastion remnants: their chests can contain nether quartz, and expert mason villagers buy quartz for emeralds, so a quartz mining session doubles as an emerald engine.",
-      "What you need it for: observers, comparators, daylight detectors, granite and diorite, quartz blocks, pillars, stairs and slabs for building, and armor trims since 1.19.4."
+      "Go to the Nether. Nether quartz ore generates in blobs from Y=10 to Y=117 in all Nether biomes, replacing netherrack 16 times per chunk.",
+      "Mine it with any pickaxe. By hand it drops nothing. Each ore drops 1 quartz, and Fortune I-III can raise it to a maximum of 4 (average 2.2 with Fortune III). It also drops 2-5 XP.",
+      "Avoid Silk Touch for quartz: it drops the ore block itself, so Fortune gives more quartz.",
+      "In Java Edition, basalt deltas try to generate quartz ore 32 times per chunk because they have fewer valid generation spots.",
+      "Barter with piglins: a gold ingot has a ~4.26% (20/469) chance to return 5-12 nether quartz.",
+      "Trade with an expert mason villager, who buys 12 nether quartz for 1 emerald, or loot bastion remnant treasure chests (8-23 quartz, ~33.7%).",
+      "Use it: it crafts redstone comparators, daylight sensors, observers, block of quartz, and granite and diorite, and it is a smithing ingredient."
     ],
     "materials": [
       "Any pickaxe (Fortune III ideal)",
@@ -5423,24 +5423,24 @@
       "Gold ingots for piglin bartering (optional)",
       "Food and armor for the Nether"
     ],
-    "editionNote": "Quartz ore generation and drops are the same in both editions, with one Java-only difference: basalt deltas double the generation attempts (32 per chunk). Bastion chest loot and piglin bartering (5-12 quartz at ~4.26%) work identically in Java and Bedrock.",
-    "versions": "Nether quartz ore was added in Java Edition 1.5 (snapshot 13w01a, the Redstone Update, January 2013). In Pocket Edition it arrived in v0.12.1. Piglin bartering for quartz was added with the 1.16 Nether Update.",
+    "editionNote": "The only generation difference listed on the wiki is Java Edition basalt deltas, where quartz ore attempts 32 times per chunk instead of 16.",
+    "versions": "Per the Minecraft Wiki: observers use quartz since 1.11 (16w39a), mason villagers buy it since 19w11a, and piglins first offered it in 1.16 (20w07a, ~0.92%) before 20w09a raised it to ~4.42%. Today it is ~4.26%.",
     "faq": [
       {
         "q": "What is the best Y level for quartz?",
-        "a": "There is no single best level: nether quartz ore generates in blobs spread fairly evenly from Y=10 to Y=117 in every Nether biome. Mine wherever the netherrack is open, ideally away from lava oceans."
+        "a": "Quartz ore generates from Y=10 to Y=117 in all Nether biomes, so mine wherever netherrack is exposed."
       },
       {
         "q": "Is Fortune or Silk Touch better for quartz?",
-        "a": "Fortune, always. Fortune III drops up to 4 quartz per ore (averaging over 2), while Silk Touch gives the block itself, which smelts into just 1 quartz. Fortune also keeps the 2-5 XP per ore."
+        "a": "Fortune: it drops up to 4 quartz (average 2.2 with Fortune III). Silk Touch drops the ore block."
       },
       {
         "q": "Is nether quartz renewable?",
-        "a": "Yes. Piglin bartering returns 5-12 quartz about 4.26% of the time, bastion chests restock nothing but quartz is farmable via gold farms, and mason villagers turn quartz into emeralds."
+        "a": "Yes. Piglins barter 5-12 quartz at ~4.26% per gold ingot."
       },
       {
-        "q": "What is nether quartz used for?",
-        "a": "Redstone components (observers, comparators, daylight detectors), crafting granite and diorite, decorative quartz blocks, pillars, stairs and slabs, and as an armor trim material since 1.19.4."
+        "q": "How much XP does quartz ore give?",
+        "a": "2-5 XP per ore."
       }
     ],
     "relatedGuides": [
