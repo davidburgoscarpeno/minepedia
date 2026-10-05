@@ -6246,11 +6246,11 @@
     "quickAnswer": "Kill phantoms: each drops 0-1 membranes (up to 4 with Looting III), only when killed by a player. Phantoms spawn after 3 in-game days without sleep. Membranes repair elytra in an anvil (25% durability each) and brew Slow Falling potions.",
     "steps": [
       "Trigger phantom spawns: stay awake for 3 straight in-game days (about an hour). Phantoms then spawn at night above you in the Overworld, diving in waves - more the longer you go without sleep.",
-      "Fight smart: phantoms swoop down in straight dives. Stand in the open at night with a Smite sword or a bow, hit them as they pass, and collect the drops - 0-1 membrane per phantom, +1 per Looting level up to 4.",
+      "Fight smart: phantoms swoop down in straight dives. Stand in the open at night, hit them as they pass, and collect the drops - 0-1 membrane per phantom (50% by default, 75% with Looting I, 87.5% with II and 91.67% with III).",
       "Or sleep with a cat: tamed cats have a 70% chance of bringing a morning gift when you wake from a bed, and 3.22% of gifts are a phantom membrane - a passive, if slow, source.",
       "Sleep regularly to avoid them: one night in a bed every 3 days resets the insomnia timer and phantoms never come - but then no membranes either.",
       "Repair your elytra: combine a damaged elytra with a phantom membrane in an anvil to restore 108 durability (25%) per membrane, keeping every enchantment. Four membranes take an elytra from nearly broken to full.",
-      "Brew Slow Falling: phantom membrane + awkward potion makes a Potion of Slow Falling (1:30, extendable to 4:00 with redstone) - essential for the End, dragon fights and shulker Levitation."
+      "Brew Slow Falling: phantom membrane + awkward potion makes a Potion of Slow Falling."
     ],
     "materials": [
       "No bed for 3 in-game days (to spawn phantoms)",
@@ -6258,8 +6258,8 @@
       "Looting III sword (optional, up to 4 membranes)",
       "Anvil for elytra repairs"
     ],
-    "editionNote": "Drop rates, cat gifts, elytra repairs and brewing are identical in Java and Bedrock. Phantom spawning mechanics (3 days of insomnia, night spawns above the player) also match.",
-    "versions": "Phantom membranes were added in Java Edition 1.13 (Update Aquatic, 18w14a) and Bedrock 1.6.0, replacing leather as the elytra repair material.",
+    "editionNote": "Both editions spawn phantoms above a player who has not slept for at least 3 in-game days, but the wiki notes the spawning mechanics differ between Java and Bedrock.",
+    "versions": "Phantom membranes are used to repair elytra in an anvil and to brew Slow Falling potions.",
     "faq": [
       {
         "q": "What drops phantom membranes?",
@@ -6275,7 +6275,7 @@
       },
       {
         "q": "What is phantom membrane used for?",
-        "a": "Repairing elytra in an anvil and brewing Potions of Slow Falling from awkward potions (1:30, extendable to 4:00 with redstone dust)."
+        "a": "Repairing elytra in an anvil and brewing Potions of Slow Falling from awkward potions."
       }
     ],
     "relatedGuides": [
