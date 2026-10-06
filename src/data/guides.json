@@ -2955,35 +2955,39 @@
     "slug": "how-to-make-flint-and-steel",
     "name": "How to Make Flint and Steel in Minecraft",
     "shortTitle": "Make Flint and Steel",
-    "quickAnswer": "Craft flint and steel with 1 iron ingot and 1 flint (from gravel) anywhere in the grid. It sets fires, lights Nether portals, ignites TNT and creepers, and relights campfires and candles.",
+    "quickAnswer": "Craft flint and steel from an iron ingot and flint. It places fire, lights Nether portals, ignites TNT and unlit campfires and candles, and forces creepers to explode. Durability is 64 in Java and 65 in Bedrock.",
     "steps": [
-      "Get flint: mine gravel - each block has a 10% chance to drop flint instead of gravel (Fortune raises it, Fortune III guarantees it). Gravel is everywhere: caves, rivers, ocean floors, the Nether.",
-      "Smelt 1 iron ingot.",
-      "Craft it: iron ingot and flint anywhere in the crafting grid - it is shapeless.",
-      "Light a Nether portal: use it inside an obsidian frame and the fire becomes portal blocks. This is THE way to light portals - always carry one in the Nether in case a ghast de-lights your way home.",
-      "Detonate on demand: use it on TNT to prime it, or right-click a creeper to force it to explode where it stands - a genuinely useful combat trick.",
-      "Relight everything: campfires, candles, candle cakes and fireplaces all relight with a click. Fire spreads on flammable blocks, so mind your wooden roof.",
-      "Repair and enchant: combine two worn ones in a grid, or add Unbreaking/Mending. It has 64 uses in Java, 65 in Bedrock.",
-      "Find one instead: ruined portal chests and some dungeon chests contain flint and steel - check the next ruined portal you pass."
+      "Craft flint and steel from an iron ingot and flint. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Place fire: use it on the space above a solid top surface, or on any side of a flammable block. Using it on non-flammable surfaces still costs durability.",
+      "Light a Nether portal: fire inside a valid obsidian frame is instantly replaced by portal blocks. It cannot light End portals.",
+      "Use it on TNT to ignite it (the explosion counts as your attack). If you are sneaking, fire is placed on the side of the TNT instead.",
+      "Use it on a creeper or charged creeper to force it to explode. This cannot be cancelled.",
+      "Relight unlit campfires, candles and cakes with candles.",
+      "Repair: combine two damaged ones for the sum of their durability plus 5%, or in an anvil. It accepts Unbreaking, Mending and Curse of Vanishing.",
+      "Find one: ruined portal chests (46.4%), abandoned camp common chests (27.5%) and nether fortress chests (17.9%)."
     ],
     "materials": [
-      "1 iron ingot",
-      "1 flint (10% drop from gravel, guaranteed with Fortune III)"
+      "Iron ingot",
+      "Flint"
     ],
-    "editionNote": "Identical in both editions apart from the one-point durability difference (64 Java, 65 Bedrock). Fire spread rules differ slightly between editions, so a fire that burns out in Java may keep going in Bedrock - and vice versa with rain.",
-    "versions": "Flint and steel was added to Java in Indev 0.31 on January 10, 2010 - originally with infinite uses - and to Pocket Edition 0.4.0.",
+    "editionNote": "Durability is 64 in Java and 65 in Bedrock. A dispenser with flint and steel can place fire or ignite TNT and campfires, but cannot detonate creepers.",
+    "versions": "Based on the Flint and Steel page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "How do you get flint in Minecraft?",
-        "a": "Mine gravel: each block has a 10% chance to drop flint instead of itself. Re-place and re-mine the gravel you get, or use a Fortune III shovel for guaranteed flint every block."
-      },
-      {
-        "q": "How do you light a Nether portal without flint and steel?",
-        "a": "Fire charges (dispensable too), lava dripping fire onto wood inside the frame, or a ghast fireball all light portals. But flint and steel is the only reliable pocket option."
+        "q": "How many uses does flint and steel have?",
+        "a": "64 in Java and 65 in Bedrock."
       },
       {
         "q": "Can flint and steel light an End portal?",
-        "a": "No. End portal frames only activate with eyes of ender - no fire needed. Flint and steel lights Nether portals, TNT, creepers, campfires, candles and plain fires."
+        "a": "No."
+      },
+      {
+        "q": "Can I make a creeper explode with it?",
+        "a": "Yes, use it on a creeper or charged creeper. It cannot be cancelled."
+      },
+      {
+        "q": "Where can I find one?",
+        "a": "Ruined portal chests, abandoned camp chests and nether fortress chests."
       }
     ],
     "relatedGuides": [
@@ -3001,7 +3005,7 @@
         "href": "/mobs/ghast/"
       }
     ],
-    "keywords": "flint and steel minecraft craft iron flint gravel light nether portal ignite tnt creeper durability campfire"
+    "keywords": "flint and steel minecraft how to make iron ingot flint nether portal tnt campfire creeper"
   },
   {
     "slug": "how-to-make-enchanting-table",

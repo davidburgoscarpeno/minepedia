@@ -2581,35 +2581,39 @@
   "how-to-make-flint-and-steel": {
     "name": "Cómo hacer un Flint and Steel en Minecraft",
     "shortTitle": "Hacer Flint and Steel",
-    "quickAnswer": "Craftea un flint and steel con 1 iron ingot y 1 flint (de la gravel) en cualquier posición de la cuadrícula. Prende fuegos, enciende portales del Nether, detona TNT y creepers, y reenciende campfires y candles.",
+    "quickAnswer": "Fabrica un encendedor (flint and steel) con un lingote de hierro y pedernal. Coloca fuego, enciende portales del Nether, TNT, fogatas y velas apagadas, y fuerza a los creepers a explotar. La durabilidad es 64 en Java y 65 en Bedrock.",
     "steps": [
-      "Consigue flint: mina gravel; cada bloque tiene un 10% de probabilidad de soltar flint en vez de gravel (Fortune lo aumenta, Fortune III lo garantiza). La gravel está por todas partes: cuevas, ríos, fondos marinos, el Nether.",
-      "Funde 1 iron ingot.",
-      "Craftéalo: iron ingot y flint en cualquier hueco de la cuadrícula, es sin forma.",
-      "Enciende un portal del Nether: úsalo dentro de un marco de obsidian y el fuego se convierte en bloques de portal. Es LA forma de encender portales; lleva siempre uno en el Nether por si un ghast apaga tu camino de vuelta.",
-      "Detona a voluntad: úsalo sobre TNT para cebarlo, o haz clic derecho en un creeper para forzarlo a explotar donde esté: un truco de combate realmente útil.",
-      "Reenciéndelo todo: campfires, candles, candle cakes y chimeneas se reencienden con un clic. El fuego se extiende por bloques inflamables, así que ojo con tu tejado de madera.",
-      "Repáralo y encántalo: combina dos gastados en la cuadrícula, o añádele Unbreaking o Mending. Tiene 64 usos en Java, 65 en Bedrock.",
-      "Encuentra uno: los cofres de los ruined portals y algunos cofres de dungeons contienen flint and steel: mira el próximo ruined portal que pases."
+      "Fabrica el encendedor con un lingote de hierro y pedernal. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Coloca fuego: úsalo sobre el espacio encima de una superficie sólida, o en cualquier lado de un bloque inflamable. Usarlo en superficies no inflamables también gasta durabilidad.",
+      "Enciende un portal del Nether: el fuego dentro de un marco de obsidiana válido se sustituye al instante por bloques de portal. No enciende portales del End.",
+      "Úsalo sobre TNT para encenderlo (la explosión cuenta como tu ataque). Si vas agachado, coloca fuego en el lado del TNT.",
+      "Úsalo sobre un creeper o creeper cargado para forzarlo a explotar. No se puede cancelar.",
+      "Reenciende fogatas, velas y tartas con velas apagadas.",
+      "Repara: combina dos dañados para sumar su durabilidad más un 5 %, o en un yunque. Admite Irrompibilidad, Reparación y Maldición de desaparición.",
+      "Encuéntralo: cofres de portales en ruinas (46,4 %), cofres comunes de campamentos abandonados (27,5 %) y cofres de fortalezas del Nether (17,9 %)."
     ],
     "materials": [
-      "1 iron ingot",
-      "1 flint (10% de drop de la gravel, garantizado con Fortune III)"
+      "Lingote de hierro",
+      "Pedernal"
     ],
-    "editionNote": "Idéntico en ambas ediciones salvo por el punto de diferencia de durabilidad (64 en Java, 65 en Bedrock). Las reglas de propagación del fuego difieren ligeramente entre ediciones, así que un fuego que se apaga en Java puede seguir ardiendo en Bedrock, y al revés con la lluvia.",
-    "versions": "El flint and steel se añadió a Java en Indev 0.31 el 10 de enero de 2010 (originalmente con usos infinitos) y a Pocket Edition 0.4.0.",
+    "editionNote": "La durabilidad es 64 en Java y 65 en Bedrock. Un dispensador con encendedor puede colocar fuego o encender TNT y fogatas, pero no hace explotar creepers.",
+    "versions": "Basado en la página Flint and Steel de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cómo se consigue flint en Minecraft?",
-        "a": "Mina gravel: cada bloque tiene un 10% de probabilidad de soltar flint en lugar de gravel. Vuelve a colocar y minar la gravel que consigas, o usa una shovel con Fortune III para flint garantizado en cada bloque."
+        "q": "¿Cuántos usos tiene el encendedor?",
+        "a": "64 en Java y 65 en Bedrock."
       },
       {
-        "q": "¿Cómo se enciende un portal del Nether sin flint and steel?",
-        "a": "Fire charges (también con dispensers), lava goteando fuego sobre madera dentro del marco, o una bola de fuego de ghast encienden portales. Pero el flint and steel es la única opción fiable de bolsillo."
+        "q": "¿Enciende un portal del End?",
+        "a": "No."
       },
       {
-        "q": "¿Puede el flint and steel encender un portal del End?",
-        "a": "No. Los marcos del End portal solo se activan con eyes of ender; no hace falta fuego. El flint and steel enciende portales del Nether, TNT, creepers, campfires, candles y fuegos normales."
+        "q": "¿Puedo hacer explotar un creeper con él?",
+        "a": "Sí, úsalo sobre un creeper o creeper cargado. No se puede cancelar."
+      },
+      {
+        "q": "¿Dónde lo encuentro?",
+        "a": "En cofres de portales en ruinas, campamentos abandonados y fortalezas del Nether."
       }
     ],
     "relatedGuides": [
@@ -2627,7 +2631,7 @@
         "href": "/es/mobs/ghast/"
       }
     ],
-    "keywords": "flint and steel minecraft craft iron flint gravel encender portal nether detonar tnt creeper durabilidad campfire"
+    "keywords": "encendedor flint and steel minecraft cómo hacer lingote de hierro pedernal portal del nether tnt fogata creeper"
   },
   "how-to-make-enchanting-table": {
     "name": "Cómo hacer un Enchanting Table en Minecraft",
