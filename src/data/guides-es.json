@@ -1092,36 +1092,38 @@
   "how-to-find-woodland-mansion": {
     "name": "Cómo encontrar una Woodland Mansion en Minecraft",
     "shortTitle": "Encontrar una Woodland Mansion",
-    "quickAnswer": "Las woodland mansions se generan raramente en dark forests y pale gardens, a menudo a más de 10.000 bloques del spawn. Compra un woodland explorer map a un cartógrafo master (14 emeralds + compass) o encuéntralo en cofres secretos de abandoned camps, y síguelo. Dentro: vindicators, evokers (la única fuente de totems of undying) y allays enjaulados.",
+    "quickAnswer": "Las woodland mansions generan raramente en dark forests y pale gardens, a menudo lejos del spawn. Compra un woodland explorer map a un cartógrafo de nivel maestro (14 esmeraldas y una brújula), o encuéntralo en un cofre secreto de un campamento abandonado. Dentro hay vindicators, evokers (la única fuente de tótems de la inmortalidad) y allays presos.",
     "steps": [
-      "Sube un aldeano cartographer a master y compra el woodland explorer map (14 emeralds + 1 compass) - o lutea uno de los cofres secretos de los abandoned camps.",
-      "Fíjate en la distancia: las mansions suelen estar a miles de bloques, así que equípate para un viaje largo y fija tu spawn con una bed.",
-      "Sigue el mapa como un treasure map: el punto blanco eres tú, el icono de la mansion es el objetivo. Viaja por el techo del Nether (8 veces más rápido) si el viaje es enorme.",
-      "La mansion solo se genera en biomas dark forest y pale garden: los tejados gigantes de dark oak se ven desde lejos.",
-      "Entra preparado: los vindicators cargan con hachas (desactivan tu shield), los evokers invocan vexes y ataques de fauces, y los monstruos normales aparecen en los pasillos oscuros.",
-      "Mata evokers para conseguir totems of undying (siempre sueltan uno), libera a los allays enjaulados y lutea las salas secretas tras los muros de dark oak.",
-      "Opcional: quémala o ocúpala. Una mansion limpia es una base espectacular: ilumínala sala a sala."
+      "Consigue un woodland explorer map: un cartógrafo maestro lo vende por 14 esmeraldas y una brújula. Los cofres secretos de campamentos abandonados también pueden tenerlo. Un mapa puede no apuntar a la mansión más cercana.",
+      "Con trucos activados, /locate structure mansion encuentra la más cercana.",
+      "Viaja preparado. La mansión solo genera en dark forests y pale gardens (en Bedrock también lush caves, dripstone caves, sulfur caves y dark forest hills).",
+      "Dentro, la primera planta solo tiene salas con vindicators. Desde la segunda planta, algunas salas grandes tienen evokers y vindicators a la vez. El interior es lo bastante oscuro para que aparezcan otros monstruos del Overworld, y algunos entran por la entrada de noche.",
+      "Mata a los evokers: cada uno suelta siempre un tótem de la inmortalidad. Los vindicators y evokers no reaparecen una vez muertos.",
+      "Libera a los allays presos. Algunas salas están selladas y las salas secretas no tienen entrada, así que busca espacios ocultos y cofres."
     ],
     "materials": [
-      "Woodland explorer map (cartographer o abandoned camp)",
-      "Armadura de iron/diamond, shield, bow, comida para el viaje",
-      "Torches: el interior está lo bastante oscuro para spawns normales",
-      "Ender chest o shulker box para el botín de vuelta a casa"
+      "Woodland explorer map (cartógrafo maestro: 14 esmeraldas y una brújula, o cofre secreto de campamento abandonado)",
+      "Armadura, escudo, arma y comida",
+      "Luz para el interior oscuro"
     ],
-    "editionNote": "Idéntica en ambas ediciones; en Bedrock, las mansions también pueden generarse en lush caves, dripstone caves, sulfur caves y dark forest hills.",
-    "versions": "Woodland mansions desde 1.11 (Exploration Update); también en pale gardens desde 1.21.4.",
+    "editionNote": "Dark forests y pale gardens son los biomas en ambas ediciones. En Bedrock la wiki también lista lush caves, dripstone caves, sulfur caves y dark forest hills. Las mansiones solo generan en chunks nuevos, nunca en chunks ya generados.",
+    "versions": "Basado en las páginas Woodland Mansion, Cartographer y Evoker de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
         "q": "¿Qué hay dentro de una woodland mansion?",
-        "a": "Vindicators, evokers, allays encarcelados, salas con spider spawners, salas secretas de botín y los únicos totems of undying del juego: cada evoker suelta uno."
+        "a": "Vindicators, evokers y allays presos, un monster spawner de arañas y cofres con botín aleatorio. La mansión tiene tres plantas y una base de cobblestone si hay huecos debajo."
       },
       {
-        "q": "¿Los evokers reaparecen en las mansions?",
-        "a": "No. Los illagers de las mansions aparecen una sola vez con la estructura, así que una mansion limpia sigue limpia: una de las pocas estructuras de asalto que queda segura para siempre."
+        "q": "¿Reaparecen los evokers y vindicators?",
+        "a": "No. Una vez muertos todos los vindicators y evokers no reaparecen, a diferencia de los pillagers en los puestos de saqueadores."
       },
       {
-        "q": "¿Por qué está la mansion tan lejos?",
-        "a": "La generación es rara y sesgada lejos del spawn: viajes de más de 10.000 bloques son normales. Usa el Nether: 1 bloque del Nether = 8 bloques del Overworld."
+        "q": "¿Cómo consigo un tótem de la inmortalidad?",
+        "a": "Los evokers son la única fuente de tótems de la inmortalidad, y cada uno suelta 1 siempre (100%). Los encuentras en woodland mansions y en raids."
+      },
+      {
+        "q": "¿El mapa siempre lleva a la mansión más cercana?",
+        "a": "No. La wiki indica que un mapa puede no apuntar siempre a la más cercana."
       }
     ],
     "relatedLinks": [
@@ -1141,7 +1143,8 @@
         "url": "/es/items/totem-of-undying/",
         "label": "Totem of Undying"
       }
-    ]
+    ],
+    "keywords": "encontrar woodland mansion mapa cartógrafo evoker tótem de la inmortalidad allay dark forest pale garden"
   },
   "how-to-find-slimes": {
     "name": "Cómo encontrar Slimes en Minecraft",
