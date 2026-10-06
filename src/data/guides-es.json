@@ -295,36 +295,34 @@
   "how-to-make-iron-golem": {
     "name": "Cómo hacer un iron golem en Minecraft",
     "shortTitle": "Hacer un iron golem",
-    "quickAnswer": "Apila 4 bloques de hierro en forma de T (3 en la fila superior, 1 en el centro debajo, 1 en la base) y coloca una carved pumpkin o jack o'lantern en el centro superior en último lugar. Se transforma en un iron golem vivo con 100 de salud que ataca a los mobs hostiles.",
+    "quickAnswer": "Coloca 4 bloques de hierro en forma de T (3 en fila arriba y 1 debajo del central) y pon una calabaza tallada o jack o'lantern encima del bloque central superior, al final. Aparece un golem de hierro con 100 HP. Un golem construido por el jugador es pasivo con los jugadores y ataca a mobs hostiles.",
     "steps": [
-      "Consigue 36 iron ingots y craftea 4 bloques de hierro (9 lingotes cada uno).",
-      "Consigue una carved pumpkin: talla una calabaza normal con tijeras. Un jack o'lantern también vale.",
-      "Coloca 1 bloque de hierro en el suelo y apila 1 más encima (cuerpo).",
-      "Pega 1 bloque de hierro a cada lado del bloque superior (brazos), formando una T.",
-      "Coloca la carved pumpkin encima del bloque central, EN ÚLTIMO LUGAR, o el golem no se formará.",
-      "La estructura se transforma en un iron golem: 100 de salud, hasta 21,5 de daño por golpe, lanza mobs por los aires.",
-      "Los golems no te siguen; patrullan donde aparecieron. Enciérralos con una valla o usa una lead para mantener a tu guardaespaldas cerca de tu base.",
-      "Las aldeas generan sus propios golems de forma natural, y los golems invocados por aldeanos se vuelven hostiles si tu popularidad en la aldea baja demasiado."
+      "Fabrica 4 bloques de hierro (36 lingotes de hierro) y consigue una calabaza tallada (esquila una calabaza) o una jack o'lantern.",
+      "Coloca 3 bloques de hierro en fila y 1 más debajo del bloque central, formando una T.",
+      "Coloca la calabaza tallada o la jack o'lantern sobre el bloque central superior. Debe ir la última (también pueden colocarla un dispensador o un enderman). Otra opción: coloca una calabaza sin tallar y esquílala para generar el golem.",
+      "Aparece el golem de hierro: 100 HP con la vida completa. Ataca a mobs hostiles y los lanza por los aires, y nunca te ataca directamente.",
+      "Para curarlo, usa un lingote de hierro sobre él: cada lingote restaura 25 HP. Las grietas muestran su salud: ninguna con 75% o más, y más grietas por debajo del 75%, 50% y 25%.",
+      "Puedes ponerle una correa (lead) para moverlo. Al morir suelta 3-5 lingotes de hierro y 0-2 amapolas."
     ],
     "materials": [
       "4 bloques de hierro (36 iron ingots)",
       "1 carved pumpkin o jack o'lantern",
       "Tijeras (para tallar la calabaza)"
     ],
-    "editionNote": "Construcción idéntica en Java y Bedrock. La T también se puede construir tumbada de lado; la calabaza siempre va la última.",
-    "versions": "Iron golems desde la 1.2.1. Textura agrietada y reparación con iron ingots (clic derecho con un lingote cura un 25%) desde la 1.15.",
+    "editionNote": "Misma construcción en T en Java y Bedrock. Diferencias según la wiki: las aldeas generan golems con reglas distintas (Java: los aldeanos los invocan al conversar o entrar en pánico; Bedrock: aldeas con al menos 20 camas y 10 aldeanos), y el hitbox mide 2,7 bloques de alto en Java y 2,9 en Bedrock.",
+    "versions": "Basado en la página Iron Golem de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué no aparece mi iron golem?",
-        "a": "Comprueba que la forma es una T de exactamente 4 bloques de hierro sin bloques extra tocándola, y que colocaste la carved pumpkin la última. Las capas de nieve o hierba sobre los bloques también pueden bloquearlo."
+        "q": "¿Por qué no aparece mi golem de hierro?",
+        "a": "Comprueba que hiciste una T con exactamente 4 bloques de hierro y que la calabaza tallada o jack o'lantern es el último bloque colocado, sobre el bloque central superior."
       },
       {
-        "q": "¿Me protegerá un iron golem?",
-        "a": "Los golems construidos por el jugador nunca atacan a su creador y luchan contra los mobs hostiles cercanos, pero no te siguen: mantenlos cercados o con una lead."
+        "q": "¿Me atacará un golem que yo construya?",
+        "a": "No. Un golem de hierro construido por el jugador es pasivo con los jugadores y nunca te ataca directamente. Ataca a mobs hostiles. Los golems que aparecen en aldeas son neutrales, contraatacan si los golpeas y son hostiles con jugadores de baja popularidad en la aldea."
       },
       {
-        "q": "¿Cómo se cura un iron golem?",
-        "a": "Haz clic derecho con un iron ingot: cada lingote restaura el 25% de su salud. Las grietas de su cuerpo muestran lo herido que está."
+        "q": "¿Cómo curo a un golem de hierro?",
+        "a": "Usa un lingote de hierro sobre él. Cada lingote cura 25 HP y se consume."
       }
     ],
     "relatedLinks": [
@@ -332,7 +330,8 @@
         "url": "/es/recipes/shears/",
         "label": "Receta de las tijeras"
       }
-    ]
+    ],
+    "keywords": "cómo hacer golem de hierro construir bloques de hierro calabaza forma de T curar lingote"
   },
   "how-to-find-end-city": {
     "name": "Cómo encontrar una End City en Minecraft",
