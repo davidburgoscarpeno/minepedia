@@ -2372,34 +2372,38 @@
     "slug": "how-to-respawn-the-ender-dragon",
     "name": "How to Respawn the Ender Dragon in Minecraft",
     "shortTitle": "Respawn the Ender Dragon",
-    "quickAnswer": "Place 4 end crystals on the edges of the exit portal, one per side, after killing the ender dragon. A 30-second sequence resets the obsidian pillars and their crystals, then the dragon returns - worth 500 XP per rematch instead of the 12,000 from the first kill.",
+    "quickAnswer": "Place four end crystals on the edges of the exit portal, one on each side. A sequence of a bit over 30 seconds resets the obsidian pillars and then the dragon respawns at (0, 128, 0). A respawned dragon drops 500 XP instead of the 12,000 of the first kill.",
     "steps": [
-      "Kill the ender dragon first - respawning only works after the original fight is won.",
-      "Craft 4 end crystals: each needs 7 glass, 1 eye of ender and 1 ghast tear, so 28 glass, 4 eyes and 4 tears in total.",
-      "Go back to the exit portal, the bedrock fountain at the center of the End's main island.",
-      "Place one end crystal on the middle block of each of the portal's four edges - they snap onto the bedrock.",
-      "Stand back: the four crystals shoot beams at every pillar, explosions reset the obsidian pillars, iron bars and end crystals, and after about 30 seconds the dragon spawns at (0, 128, 0). The four summoning crystals then explode.",
-      "Do not break any of the four crystals during the sequence - that cancels the summoning. The pillar crystals are invulnerable while it runs.",
-      "Collect the rewards: 500 XP per respawned dragon, fresh end crystals to farm, and a new end gateway per kill, up to 20 gateways. Collect the dragon egg first - it vanishes if you respawn the dragon before picking it up."
+      "Craft 4 end crystals (glass, an eye of ender and a ghast tear each).",
+      "Go to the exit portal at the center of the main End island.",
+      "Place one end crystal on each of the four sides of the exit portal, on bedrock or on obsidian placed where the bedrock was.",
+      "Stay clear: the crystals point at the tops of the pillars, setting off explosions that reset the obsidian pillars, iron bars and end crystals, and destroying any player-placed blocks on top. Then all crystals point at (0, 128, 0) and the dragon spawns there, and the four crystals explode. The sequence lasts exactly 604 ticks.",
+      "Do not destroy any of the four crystals: that cancels the summoning. The crystals on the pillars cannot be destroyed during the sequence.",
+      "Pick up the dragon egg first: if you start re-summoning without picking it up, the egg disappears.",
+      "Rewards: 500 XP per respawned dragon, and an End gateway on each kill until there are 20."
     ],
     "materials": [
       "4 end crystals (each: 7 glass + 1 eye of ender + 1 ghast tear)",
       "Total: 28 glass, 4 eyes of ender, 4 ghast tears"
     ],
-    "editionNote": "In Java the four crystals go on the edge blocks of the exit portal; in Bedrock they may also sit one block outward in each direction, though uneven arrangements are unreliable there.",
-    "versions": "Dragon respawning was added in Java 1.9 (15w44a) and Bedrock 1.0.0; respawned dragons have dropped 500 experience since the same update.",
+    "editionNote": "In Bedrock Edition the crystals can be placed one block outward in all or any of the four directions. The dragon egg appears only the first time the dragon is slain in Java Edition, and the first and second time in Bedrock Edition.",
+    "versions": "Per the Minecraft Wiki Ender Dragon page: respawned dragons have dropped 500 experience since 15w33c.",
     "faq": [
       {
         "q": "Do I get another dragon egg from a respawned dragon?",
-        "a": "No. Only the very first kill drops a dragon egg - and if you respawn the dragon without collecting it, the egg disappears forever."
+        "a": "In Java Edition only the first kill drops it. In Bedrock Edition it appears the first and second time. If you re-summon without picking it up, it disappears."
       },
       {
         "q": "How much XP does a respawned dragon give?",
-        "a": "500 experience points, down from 12,000 for the first kill. It is still one of the fastest XP sources per minute in the game."
+        "a": "500 XP, compared with 12,000 for the first kill."
       },
       {
-        "q": "How many times can I respawn the ender dragon?",
-        "a": "Unlimited times, as long as you keep crafting end crystals. Each kill - original or rematch - generates one end gateway, up to a maximum of 20."
+        "q": "How many End gateways can generate?",
+        "a": "Each defeat creates one, and no more generate once there are 20."
+      },
+      {
+        "q": "What cancels the summoning?",
+        "a": "Destroying any of the four end crystals around the exit portal."
       }
     ],
     "relatedGuides": [

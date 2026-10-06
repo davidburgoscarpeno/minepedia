@@ -17284,34 +17284,38 @@
   "how-to-respawn-the-ender-dragon": {
     "name": "Cómo resucitar al Ender Dragon en Minecraft",
     "shortTitle": "Resucitar al Ender Dragon",
-    "quickAnswer": "Coloca 4 end crystals en los bordes del exit portal, una por lado, después de matar al ender dragon. Una secuencia de 30 segundos reinicia los pilares de obsidiana y sus cristales, y el dragón vuelve: 500 XP por revancha en vez de los 12.000 de la primera baja.",
+    "quickAnswer": "Coloca cuatro end crystals en los bordes del exit portal, uno en cada lado. Una secuencia de algo más de 30 segundos restablece los pilares de obsidiana y después reaparece el dragón en (0, 128, 0). Un dragón reaparecido suelta 500 XP en lugar de los 12.000 de la primera muerte.",
     "steps": [
-      "Mata primero al ender dragon: la resucitación solo funciona después de ganar el combate original.",
-      "Craftea 4 end crystals: cada una necesita 7 glass, 1 eye of ender y 1 ghast tear, así que 28 glass, 4 eyes y 4 tears en total.",
-      "Vuelve al exit portal, la fuente de bedrock del centro de la isla principal del End.",
-      "Coloca una end crystal en el bloque central de cada uno de los cuatro bordes del portal: encajan sobre la bedrock.",
-      "Aparta: las cuatro cristales disparan rayos a cada pilar, las explosiones reinician los pilares de obsidiana, los barrotes y los end crystals, y tras unos 30 segundos el dragón aparece en (0, 128, 0). Las cuatro cristales de la invocación explotan después.",
-      "No rompas ninguna de las cuatro cristales durante la secuencia: eso cancela la invocación. Las cristales de los pilares son invulnerables mientras dura.",
-      "Recoge las recompensas: 500 XP por dragón resucitado, end crystals nuevas para farmear y un end gateway nuevo por baja, hasta 20 gateways. Recoge antes el dragon egg: desaparece si resucitas al dragón sin haberlo cogido."
+      "Craftea 4 end crystals (cristal, un ojo de ender y una lágrima de ghast cada uno).",
+      "Ve al exit portal en el centro de la isla principal del End.",
+      "Coloca un end crystal en cada uno de los cuatro lados del exit portal, sobre bedrock o sobre obsidiana colocada donde estaba la bedrock.",
+      "Aléjate: los cristales apuntan a lo alto de los pilares y provocan explosiones que restablecen los pilares de obsidiana, las barras de hierro y los end crystals, y destruyen bloques colocados por jugadores encima. Luego todos apuntan a (0, 128, 0), el dragón aparece allí y los cuatro cristales explotan. La secuencia dura exactamente 604 ticks.",
+      "No destruyas ninguno de los cuatro cristales: cancela la invocación. Los cristales de los pilares no se pueden destruir durante la secuencia.",
+      "Recoge antes el dragon egg: si empiezas a reinvocar sin recogerlo, desaparece.",
+      "Recompensas: 500 XP por dragón reaparecido, y un End gateway por cada muerte hasta que haya 20."
     ],
     "materials": [
       "4 end crystals (cada una: 7 glass + 1 eye of ender + 1 ghast tear)",
       "Total: 28 glass, 4 eyes of ender, 4 ghast tears"
     ],
-    "editionNote": "En Java las cuatro cristales van sobre los bloques del borde del exit portal; en Bedrock también pueden quedar un bloque más afuera en cada dirección, aunque las disposiciones irregulares no son fiables ahí.",
-    "versions": "La resucitación del dragón se añadió en Java 1.9 (15w44a) y en Bedrock 1.0.0; los dragones resucitados sueltan 500 de experiencia desde esa misma actualización.",
+    "editionNote": "En Bedrock los cristales pueden colocarse un bloque hacia fuera en todas o cualquiera de las cuatro direcciones. El dragon egg solo aparece la primera vez que se mata al dragón en Java, y la primera y segunda vez en Bedrock.",
+    "versions": "Según la página Ender Dragon de Minecraft Wiki: los dragones reaparecidos sueltan 500 de experiencia desde 15w33c.",
     "faq": [
       {
-        "q": "¿Consigo otro dragon egg de un dragón resucitado?",
-        "a": "No. Solo la primera baja suelta un dragon egg, y si resucitas al dragón sin recogerlo, el huevo desaparece para siempre."
+        "q": "¿Obtengo otro dragon egg de un dragón reaparecido?",
+        "a": "En Java solo la primera muerte lo suelta. En Bedrock aparece la primera y la segunda vez. Si reinvocas sin recogerlo, desaparece."
       },
       {
-        "q": "¿Cuánta XP da un dragón resucitado?",
-        "a": "500 puntos de experiencia, frente a los 12.000 de la primera baja. Sigue siendo una de las fuentes de XP más rápidas por minuto del juego."
+        "q": "¿Cuánta XP da un dragón reaparecido?",
+        "a": "500 XP, frente a 12.000 de la primera muerte."
       },
       {
-        "q": "¿Cuántas veces puedo resucitar al ender dragon?",
-        "a": "Las que quieras, mientras sigas crafteando end crystals. Cada baja, original o revancha, genera un end gateway, hasta un máximo de 20."
+        "q": "¿Cuántos End gateways pueden generarse?",
+        "a": "Cada derrota crea uno y no se generan más cuando ya hay 20."
+      },
+      {
+        "q": "¿Qué cancela la invocación?",
+        "a": "Destruir cualquiera de los cuatro end crystals alrededor del exit portal."
       }
     ],
     "relatedGuides": [
