@@ -878,35 +878,39 @@
   "how-to-get-mending": {
     "name": "Cómo conseguir Mending en Minecraft",
     "shortTitle": "Conseguir Mending",
-    "quickAnswer": "Mending es un encantamiento de tesoro, así que la mesa de encantamientos nunca lo ofrece. La forma fiable: coloca un atril junto a un aldeano sin oficio, mira el primer trueque de libro del bibliotecario, rompe y recoloca el atril hasta que ofrezca Mending, y fija el trueque. La pesca, los cofres de estructuras y las raids también pueden darlo. Aplica el libro al equipo en un yunque.",
+    "quickAnswer": "Mending es un encantamiento de tesoro, así que no sale de la mesa de encantamientos. Los aldeanos bibliotecarios pueden venderlo como libro encantado (los encantamientos de tesoro cuestan el doble, con tope de 64 esmeraldas). Pon un atril junto a un aldeano sin trabajo, mira su trueque de libros y vuelve a colocar el atril hasta que ofrezca Mending. Aplica el libro en un yunque.",
     "steps": [
-      "Monta un bibliotecario: coloca un atril (4 losas de madera + 1 estantería) junto a cualquier aldeano sin oficio con una cama cerca. Adoptará la profesión de bibliotecario.",
-      "Mira su primer trueque de libro (de novato). Si no es Mending, rompe el atril y vuelve a colocarlo: el trueque se regenera. NO compres nada todavía: un solo trueque bloquea todas las ofertas para siempre.",
-      "Repite hasta que el trueque de novato muestre Mending. Puede costar entre 10 y 38 esmeraldas (el rango teórico es 5-64, pero 10-38 cubre casi todas las tiradas).",
-      "Compra una vez para fijarlo, y luego compra todos los libros de Mending que necesites (el trueque se reabastece dos veces al día en la estación de trabajo).",
-      "Fuentes alternativas si odias el reroll del atril: botín de tesoro de la pesca, cofres de ancient cities, end cities, mineshafts, dungeons, bibliotecas de stronghold y pillager outposts, además de botín de raids.",
-      "Aplica el libro en un yunque a tu herramienta, arma, armadura o elytra. Con Mending, la XP que recoges repara el objeto en lugar de llenar tu barra de XP (los objetos en mano o puestos comparten la XP con tu barra)."
+      "Los encantamientos de tesoro no se pueden obtener en la mesa de encantamientos. La mayoría, incluido Mending, pueden aparecer en libros encantados vendidos por bibliotecarios.",
+      "Coloca un atril sin reclamar cerca de un aldeano sin trabajo. Lo reclama y se vuelve bibliotecario. Los aldeanos novatos que aún no han comerciado pueden perder la profesión.",
+      "Abre sus tratos y mira el libro encantado. Si no es Mending, rompe el atril; el aldeano pierde la profesión. Vuelve a colocar el atril para obtener nuevos tratos. No comercies antes de tener el libro que quieres: comerciar fija la profesión y los tratos del aldeano.",
+      "Cuando el libro sea Mending, cómpralo. Mending solo tiene nivel I. El precio es de 5 a 64 esmeraldas más un libro, y los encantamientos de tesoro cuestan el doble antes del tope de 64.",
+      "Aplica el libro a una herramienta, arma o pieza de armadura en un yunque. Mending es incompatible con Infinity.",
+      "Con Mending, cada orbe de experiencia que recojas repara los objetos dañados en tu mano principal, mano secundaria o ranuras de armadura, a 2 de durabilidad por punto de XP. Si hay varios, se elige uno al azar por orbe. Los objetos del resto del inventario no se reparan."
     ],
     "materials": [
-      "Atril (4 losas + 1 estantería)",
-      "Un aldeano sin oficio + una cama",
-      "10-38 esmeraldas por libro de Mending",
-      "Yunque para aplicar el libro"
+      "Un atril",
+      "Un aldeano sin trabajo",
+      "Esmeraldas y un libro para el trueque (5-64 esmeraldas)",
+      "Un yunque y el objeto a encantar"
     ],
-    "editionNote": "Las fuentes son las mismas en Java y Bedrock. La gran salvedad es el Villager Trade Rebalance experimental (una opción de creación de mundo en Java): con él ACTIVADO, los bibliotecarios dependen del bioma y Mending es el trueque de nivel maestro SOLO de los bibliotecarios de pantano, lo que exige criar aldeanos en un pantano. Con los trueques por defecto (rebalance desactivado), cualquier bibliotecario de cualquier sitio puede ofrecer Mending a cualquier nivel.",
-    "versions": "El reroll con atril funciona en todas las versiones actuales por defecto; la regla del pantano por bioma solo aplica al trade rebalance experimental. Vigente a fecha de 26.3.",
+    "editionNote": "Mending solo repara objetos dañados en las manos y ranuras de armadura en ambas ediciones. En el experimento Villager Trade Rebalance (experimento de Java 1.20.2, de Bedrock 1.20.30), los libros de Mending solo vienen de bibliotecarios de nivel maestro con atuendo de pantano, y la wiki indica que los cofres de ancient city tienen más probabilidad de dar libros de Mending. Ese experimento no forma parte de los tratos por defecto.",
+    "versions": "Basado en las páginas Mending, Enchanting, Trading y Librarian de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
         "q": "¿Por qué la mesa de encantamientos no me da Mending?",
-        "a": "Mending es un encantamiento de tesoro: nunca aparece en la mesa de encantamientos con ninguna configuración. Necesitas trueques con aldeanos, pesca o botín de estructuras; el método del atril del bibliotecario es con diferencia el más fiable."
+        "a": "Mending es un encantamiento de tesoro. Los encantamientos de tesoro no se pueden obtener en la mesa de encantamientos."
       },
       {
-        "q": "¿Cómo consigo Mending si el trade rebalance está activado?",
-        "a": "Cria dos aldeanos dentro de un bioma de pantano (o cura aldeanos zombi allí) para que el bebé cuente como de tipo pantano, sube al bibliotecario resultante a maestro y su último trueque de libro es Mending. Con el rebalance no hay reroll de atril para los libros especiales."
+        "q": "¿Mending repara objetos del inventario?",
+        "a": "No. Solo se reparan objetos dañados en tu mano principal, mano secundaria o ranuras de armadura, a 2 de durabilidad por punto de XP. Si hay varios dañados, se elige uno al azar por cada orbe."
       },
       {
-        "q": "¿Mending repara objetos de mi inventario?",
-        "a": "No. Solo los objetos que llevas puestos o en una mano absorben XP para repararse; lleva el objeto en la mano secundaria o puesto mientras farmeas XP. Si hay varios dañados, se elige uno con Mending cada vez."
+        "q": "¿Puedo poner Mending en un objeto con Infinity?",
+        "a": "No. Mending e Infinity son incompatibles."
+      },
+      {
+        "q": "¿Y si el experimento de rebalanceo de tratos está activado?",
+        "a": "Entonces los libros de Mending solo vienen de bibliotecarios de nivel maestro con atuendo de pantano, según describe la wiki para el experimento."
       }
     ],
     "relatedLinks": [
@@ -923,7 +927,8 @@
       "how-to-enchant",
       "how-to-build-trading-hall",
       "how-to-cure-zombie-villager"
-    ]
+    ],
+    "keywords": "mending encantamiento bibliotecario atril tesoro libro encantado yunque esmeraldas"
   },
   "how-to-get-happy-ghast": {
     "name": "Cómo conseguir un Happy Ghast en Minecraft",
