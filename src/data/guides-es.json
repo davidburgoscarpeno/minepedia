@@ -2096,34 +2096,39 @@
   "how-to-make-snow-golem": {
     "name": "Cómo hacer un Snow Golem en Minecraft",
     "shortTitle": "Hacer un Snow Golem",
-    "quickAnswer": "Apila 2 snow blocks en vertical y coloca una carved pumpkin o un jack o'lantern encima: el snow golem cobra vida al instante. Lanza snowballs a los monstruos (1 por segundo, solo dañan a los blazes) y deja un rastro de nieve, pero se derrite en biomas calientes y bajo la lluvia si no tiene Fire Resistance.",
+    "quickAnswer": "Apila 2 bloques de nieve en vertical y coloca una calabaza tallada o jack o'lantern encima, al final. Aparece un snow golem. Lanza bolas de nieve a los monstruos (solo dañan a los blazes, pero empujan a los mobs), deja un rastro de nieve y recibe daño con lluvia, agua y biomas calurosos salvo que tenga Fire Resistance.",
     "steps": [
-      "Consigue nieve: cava snow layers con una shovel (una shovel de Silk Touch suelta snow blocks directamente). Craftea 4 snowballs en un snow block: necesitas 2 bloques, o sea 8 snowballs.",
-      "Consigue una carved pumpkin: coloca cualquier pumpkin y úsala con shears para tallarle la cara, o craftea un jack o'lantern (carved pumpkin + torch): las dos valen como cabeza.",
-      "Constrúyelo: coloca los 2 snow blocks apilados en vertical y luego la carved pumpkin encima. El patrón también funciona de lado o boca abajo, siempre que la pumpkin sea lo último que colocas.",
-      "Conoce su arma: el golem se acerca a los monstruos y les lanza snowballs desde hasta 10 bloques (16 si está encerrado), una por segundo. Las snowballs solo dañan a los blazes (3 por impacto), pero empujan a todo lo demás: es una distracción, no un defensor.",
-      "Farma nieve con él: el golem deja un rastro de snow layer donde camina (en Java, en cualquier bioma desde 1.18). Enciérralo en una plataforma pequeña y cava el rastro para tener snowballs infinitas.",
-      "Mantenlo vivo: recibe daño bajo la lluvia, en el agua y en biomas de más de 1,0 de temperatura (deserts, savannas, badlands, el Nether). Una splash potion of Fire Resistance le permite sobrevivir incluso en el Nether.",
-      "Talléale la cabeza: usa shears sobre el golem para quitarle la pumpkin (la suelta como objeto) y descubrir su cara de muñeco de nieve."
+      "Consigue 2 bloques de nieve y una calabaza tallada o jack o'lantern.",
+      "Apila los 2 bloques de nieve en vertical y coloca la calabaza encima. Puede colocarla un jugador, un dispensador, un enderman o un comando, pero no un pistón. El patrón también funciona de lado o boca abajo, siempre que la calabaza vaya la última.",
+      "El snow golem va hacia los monstruos (salvo ghasts y monturas no-muertas) y lanza una bola de nieve por segundo desde hasta 10 bloques, o 16 si fue capturado. Las bolas de nieve solo dañan a los blazes, pero empujan a todo lo que golpean, y provocan a los mobs para que ataquen al golem. Nunca te ataca a propósito.",
+      "Deja un rastro de nieve donde los bloques pueden sostenerla. En Java ocurre en cualquier bioma; en Bedrock el rastro no se genera en biomas calurosos. Si mobGriefing es false, no aparece rastro.",
+      "Recibe 1 HP de daño por tick con lluvia, agua y en biomas con temperatura superior a 1,0 (como badlands, desiertos y biomas del Nether). El efecto Fire Resistance le permite sobrevivir allí. Tiene 4 HP.",
+      "Esquílalo para quitarle la calabaza, que cae como objeto. En Java solo puedes ponerle otra calabaza con un comando como /data.",
+      "Al morir suelta 0-15 bolas de nieve."
     ],
     "materials": [
-      "2 snow blocks (8 snowballs)",
-      "1 carved pumpkin (talla cualquier pumpkin con shears) o 1 jack o'lantern"
+      "2 bloques de nieve",
+      "1 calabaza tallada o jack o'lantern",
+      "Opcional: tijeras y una correa"
     ],
-    "editionNote": "El rastro de nieve funciona en todos los biomas en Java (desde 1.18), pero en Bedrock los biomas calientes como jungles, savannas, deserts y el Nether bloquean el rastro. La Fire Resistance lo protege del daño por calor en ambas.",
-    "versions": "Los snow golems se añadieron en Java Beta 1.9 Prerelease (1.0.0) y en Pocket Edition 0.12.0, y las cabezas de jack o'lantern valen desde el principio.",
+    "editionNote": "Java: el rastro de nieve se genera en cualquier bioma, y las sabanas cuentan como biomas calurosos para el daño. Bedrock: sin rastro en biomas calurosos (junglas, mushroom fields, sabanas, stony peaks, desiertos, badlands, Nether), una bola de nieve que te golpea da empuje y hace que lobos domados y zorros de confianza ataquen al golem, y sus bolas de nieve pueden prender fuego a mobs tras pasar por lava o fuego.",
+    "versions": "Basado en la página Snow Golem de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué mi snow golem ha muerto en el desierto o en el Nether?",
-        "a": "Los biomas con temperatura superior a 1,0 (deserts, savannas, badlands y todos los del Nether) lo derriten, y la lluvia o el agua también le hacen daño. Dale una splash potion of Fire Resistance para hacerlo resistente al calor."
+        "q": "¿Por qué murió mi snow golem en el desierto o el Nether?",
+        "a": "Los snow golems reciben daño con lluvia, agua y en biomas con temperatura superior a 1,0, como badlands, desiertos y biomas del Nether. Fire Resistance les permite sobrevivir en esos biomas."
       },
       {
-        "q": "¿Las snowballs del snow golem hacen daño?",
-        "a": "Solo a los blazes: 3 de daño por impacto, lo que convierte a los snow golems en ayudantes baratos para granjas de blazes. Contra todo lo demás las bolas solo empujan a los mobs, y los provocan para que ataquen al golem."
+        "q": "¿Hacen daño las bolas de nieve del snow golem?",
+        "a": "Solo a los blazes. Empujan a cualquier mob que golpean y provocan a los monstruos para que ataquen al golem."
       },
       {
-        "q": "¿Cómo uso un snow golem como granja de nieve?",
-        "a": "Encierra al golem en un espacio de 1x1 con techo y cava con una shovel el rastro de nieve que deja bajo él. El rastro se regenera al instante: snowballs infinitas."
+        "q": "¿Me ataca un snow golem?",
+        "a": "No, nunca te ataca a propósito. En Bedrock, una bola de nieve que te golpea da empuje y hace que lobos domados y zorros de confianza ataquen al golem."
+      },
+      {
+        "q": "¿Qué suelta un snow golem?",
+        "a": "De 0 a 15 bolas de nieve al morir, y 1 calabaza tallada al esquilarlo."
       }
     ],
     "relatedGuides": [
@@ -2140,7 +2145,7 @@
         "href": "/es/mobs/blaze/"
       }
     ],
-    "keywords": "snow golem minecraft construir snow blocks carved pumpkin snowballs granja de nieve derretir fire resistance blaze"
+    "keywords": "snow golem minecraft construir bloques de nieve calabaza tallada bolas de nieve rastro de nieve derretir fire resistance blaze"
   },
   "how-to-make-ender-chest": {
     "name": "Cómo hacer un Ender Chest en Minecraft",

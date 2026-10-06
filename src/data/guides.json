@@ -2465,34 +2465,39 @@
     "slug": "how-to-make-snow-golem",
     "name": "How to Make a Snow Golem in Minecraft",
     "shortTitle": "Make a Snow Golem",
-    "quickAnswer": "Stack 2 snow blocks vertically and place a carved pumpkin or jack o'lantern on top - the snow golem comes alive instantly. It throws snowballs at monsters (1 per second, damage only to blazes) and leaves a trail of snow, but it melts in hot biomes and rain unless it has Fire Resistance.",
+    "quickAnswer": "Stack 2 snow blocks vertically and place a carved pumpkin or jack o'lantern on top, last. A snow golem appears. It throws snowballs at monsters (they only damage blazes, but knock mobs back), leaves a snow trail, and takes damage in rain, water and hot biomes unless it has Fire Resistance.",
     "steps": [
-      "Gather snow: dig snow layers with a shovel (a Silk Touch shovel drops snow blocks directly). Craft 4 snowballs into a snow block - you need 2 blocks, so 8 snowballs.",
-      "Get a carved pumpkin: place any pumpkin and use shears on it to carve the face, or craft a jack o'lantern (carved pumpkin + torch) - both work as the head.",
-      "Build it: place the 2 snow blocks in a vertical stack, then put the carved pumpkin on top. The pattern also works sideways or upside-down, as long as the pumpkin goes last.",
-      "Know its weapon: the golem moves toward monsters and pelts them with snowballs from up to 10 blocks away (16 when confined), one per second. Snowballs only damage blazes (3 per hit) but knock back everything else - a distraction, not a defender.",
-      "Farm snow with it: the golem leaves a snow layer trail wherever it walks (in Java, in any biome since 1.18). Trap one on a small platform and dig the trail for unlimited snowballs.",
-      "Keep it alive: it takes damage in rain, in water and in biomes hotter than 1.0 (deserts, savannas, badlands, the Nether). A splash potion of Fire Resistance lets it survive even the Nether.",
-      "Shear it for fun: use shears on the golem to remove the pumpkin (it drops as an item) and reveal its derpy snowman face underneath."
+      "Get 2 snow blocks and a carved pumpkin or jack o'lantern.",
+      "Stack the 2 snow blocks vertically, then place the pumpkin on top. A player, dispenser, enderman or command can place it, but not a piston. The pattern also works sideways or upside-down, as long as the pumpkin goes last.",
+      "The snow golem moves toward monsters (except ghasts and undead mounts) and throws one snowball per second from up to 10 blocks away, or 16 if it was captured. Snowballs do damage only to blazes, but knock back anything they hit, and they provoke mobs to attack the golem. It never intentionally attacks you.",
+      "It leaves a trail of snow where blocks can support it. In Java this happens in any biome; in Bedrock the trail is not generated in hot biomes. If mobGriefing is false, no trail appears.",
+      "It takes 1 HP of damage per tick in rain, water and biomes with temperature above 1.0 (such as badlands, deserts and Nether biomes). The Fire Resistance effect lets it survive there. It has 4 HP.",
+      "Shear it to remove the pumpkin, which drops as an item. In Java you can only give it a pumpkin again with a command such as /data.",
+      "When it dies it drops 0-15 snowballs."
     ],
     "materials": [
-      "2 snow blocks (8 snowballs)",
-      "1 carved pumpkin (carve any pumpkin with shears) or 1 jack o'lantern"
+      "2 snow blocks",
+      "1 carved pumpkin or jack o'lantern",
+      "Optional: shears and a lead"
     ],
-    "editionNote": "The snow trail works in every biome in Java (since 1.18), but in Bedrock hot biomes like jungles, savannas, deserts and the Nether block the trail. Fire Resistance protects the golem from heat damage in both.",
-    "versions": "Snow golems were added in Java Beta 1.9 Prerelease (1.0.0) and Pocket Edition 0.12.0, and jack o'lantern heads have worked from the start.",
+    "editionNote": "Java: the snow trail generates in any biome, and savannas count as hot biomes for damage. Bedrock: no trail in hot biomes (jungles, mushroom fields, savannas, stony peaks, deserts, badlands, Nether), a snowball that hits you gives knockback and makes tamed wolves and trusting foxes attack the golem, and its snowballs can set mobs on fire after passing through lava or fire.",
+    "versions": "Based on the Snow Golem page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "Why did my snow golem die in the desert or the Nether?",
-        "a": "Biomes with a temperature above 1.0 (deserts, savannas, badlands and every Nether biome) melt it, and rain or water hurts it too. Give it a splash potion of Fire Resistance to make it heat-proof."
+        "a": "Snow golems take damage in rain, water and in biomes with a temperature above 1.0, such as badlands, deserts and Nether biomes. Fire Resistance lets them survive in those biomes."
       },
       {
         "q": "Do snow golem snowballs deal damage?",
-        "a": "Only to blazes: 3 damage per hit, which makes snow golems a cheap blaze farm helper. Against everything else the snowballs just knock mobs back - and provoke them to attack the golem."
+        "a": "Only to blazes. They knock back any mob they hit, and they provoke monsters to attack the golem."
       },
       {
-        "q": "How do I use a snow golem as a snow farm?",
-        "a": "Trap the golem in a 1x1 space with a roof, then dig the snow layer trail it leaves under itself with a shovel. The trail regenerates instantly, giving unlimited snowballs."
+        "q": "Does a snow golem attack me?",
+        "a": "No, it never intentionally attacks the player. In Bedrock, a snowball that hits you gives knockback and makes tamed wolves and trusting foxes attack the golem."
+      },
+      {
+        "q": "What do snow golems drop?",
+        "a": "0 to 15 snowballs when killed, and 1 carved pumpkin when sheared."
       }
     ],
     "relatedGuides": [
@@ -2509,7 +2514,7 @@
         "href": "/mobs/blaze/"
       }
     ],
-    "keywords": "snow golem minecraft build snow blocks carved pumpkin snowballs snow farm melt fire resistance blaze"
+    "keywords": "snow golem minecraft build snow blocks carved pumpkin snowballs snow trail melt fire resistance blaze"
   },
   {
     "slug": "how-to-make-ender-chest",
