@@ -12918,39 +12918,40 @@
   "how-to-beat-the-wither": {
     "name": "Cómo derrotar al Wither en Minecraft",
     "shortTitle": "Derrotar al Wither",
-    "quickAnswer": "Invoca al Wither con 4 soul sand (o soul soil) en forma de T y 3 wither skeleton skulls encima, y lucha con Smite V, Strength II y manzanas doradas, idealmente atrapado bajo el techo de bedrock del Nether o del End. Tiene 300 de HP en Java y 300-600 en Bedrock según la dificultad, y suelta una nether star.",
+    "quickAnswer": "Construye el Wither con 4 bloques de soul sand o soul soil en T y 3 wither skeleton skulls encima (coloca un cráneo el último). Tras su carga explota y empieza a luchar. Tiene 300 HP en Java (Bedrock: 300 Easy, 450 Normal, 600 Hard), se vuelve inmune a las flechas a media vida y siempre suelta una nether star.",
     "steps": [
-      "Consigue 3 wither skeleton skulls (drop raro de los wither skeletons en nether fortresses; Looting III ayuda mucho) y 4 soul sand o soul soil de los Soul Sand Valleys.",
-      "Elige la arena: el truco clásico es invocarlo bajo el techo de bedrock del Nether (alrededor de Y=127) o en un end gateway para que su cabeza se atasque, o cavar un túnel largo a nivel deepslate y luchar allí.",
-      "Equípate: armadura completa de diamante o netherite con Protection IV, una espada con Smite V (Smite supera a Sharpness contra el Wither, que es no-muerto), pociones de Strength II, Regeneration, manzanas doradas y un escudo para sus calaveras. Un arco con Power V se encarga de la primera fase.",
-      "Construye la T con el soul sand y coloca las tres calaveras en último lugar: el Wither aparece, se carga (invulnerable) y explota. Aléjate.",
-      "Fase uno (más de la mitad de salud): vuela y dispara calaveras; dispárale con el arco. Las calaveras negras te dañan, las azules (Java) rompen bloques más duros.",
-      "Fase dos (menos de la mitad de salud): gana armadura Wither (inmune a flechas), carga y rompe bloques. Cambia a la espada, come manzanas doradas cuando el efecto Wither drene tu salud y acábalo. En Bedrock a media salud también invoca wither skeletons: mátalos o te abruman.",
-      "Recoge la nether star (nunca la destruyen sus propias explosiones): es el ingrediente del beacon."
+      "Consigue 3 wither skeleton skulls y 4 bloques de soul sand o soul soil. La soul soil se puede usar igual que la soul sand.",
+      "Elige una zona con aire a ambos lados del bloque base. La estructura se puede construir de pie, tumbada o boca abajo, y la orientación de los cráneos no importa.",
+      "Construye la T con 4 bloques de soul sand/soil y coloca los 3 cráneos sobre los tres bloques superiores. El último bloque colocado debe ser un cráneo.",
+      "El Wither es invulnerable y no se mueve ni ataca durante su carga (unos 11 segundos), y luego hace una gran explosión centrada en él. Mantente lejos hasta que termine.",
+      "Vuela unos 5 bloques sobre su objetivo y dispara cráneos negros y a veces azules. Los cráneos hacen 5 HP en Easy, 8 en Normal y 12 en Hard, y causan el efecto Wither en Normal y Hard. La leche cura el efecto Wither.",
+      "A media vida se estrella contra el suelo con una gran explosión, invoca 3 wither skeletons (no en Easy) y gana wither armor, que lo hace inmune a las flechas. Pelea cuerpo a cuerpo desde entonces.",
+      "Mátalo para obtener 1 nether star, necesaria para fabricar beacons. También suelta 50 de XP (Java: solo si lo mata un jugador o un lobo domado)."
     ],
     "materials": [
       "4 soul sand o soul soil",
       "3 wither skeleton skulls",
-      "Armadura con Protection IV",
-      "Espada con Smite V y arco con Power V",
-      "Pociones de Strength II + Regeneration",
-      "Manzanas doradas y un escudo",
-      "Cubos de leche para quitarte el efecto Wither"
+      "Leche para curar el efecto Wither",
+      "Un arma cuerpo a cuerpo (las flechas dejan de funcionar a media vida)"
     ],
-    "editionNote": "Java: 300 de HP, el Wither flota y dispara calaveras azules que rompen bloques tan duros como la obsidiana lentamente. Bedrock: 600 de HP en Difícil (450 Normal, 300 Fácil), más agresivo, embiste contra los objetivos e invoca 3-4 wither skeletons a media salud: la pelea de Bedrock es mucho más dura. La trampa del techo de bedrock funciona en Java; los jugadores de Bedrock suelen luchar en un túnel de deepslate.",
-    "versions": "El Wither no ha cambiado desde la 1.4.2 salvo ajustes de comportamiento en Bedrock. Vigente en la 26.3.",
+    "editionNote": "Vida: Java 300 HP en todas las dificultades; Bedrock 300 / 450 / 600 HP en Easy / Normal / Hard. Solo en Bedrock: ataques de embestida, y el cráneo azul se puede desviar golpeándolo. Java: la nether star desaparece a los 10 minutos; Bedrock: nunca desaparece.",
+    "versions": "Basado en la página Wither de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cuál es la forma más fácil de matar al Wither?",
-        "a": "Atrapándolo: invócalo bajo el techo de bedrock del Nether en Java para que su cabeza se atasque y no pueda moverse, y golpéalo a salvo. En Bedrock, lucha al fondo de un túnel largo de deepslate para que no pueda volar lejos."
+        "q": "¿Cuándo es inmune a las flechas el Wither?",
+        "a": "Por debajo de la mitad de su vida, cuando gana wither armor. La wiki indica que conserva la armadura si se regenera por encima de la mitad."
       },
       {
-        "q": "¿Funciona mejor Smite o Sharpness contra el Wither?",
-        "a": "Smite. El Wither es no-muerto, así que Smite V suma +12,5 de daño por golpe contra él, más que los +3 de Sharpness V."
+        "q": "¿Qué suelta el Wither?",
+        "a": "Una nether star siempre (100%), más 50 de XP. En Java la XP solo cae si lo mata un jugador o un lobo domado; en Bedrock siempre."
       },
       {
-        "q": "¿Puede el Wither romper obsidiana?",
-        "a": "Sus calaveras azules (Java) pueden romper obsidiana con tiempo, y sus embestidas rompen casi cualquier bloque, pero nunca puede romper bedrock, marcos de end portal ni barreras: por eso funcionan las trampas de techo."
+        "q": "¿Cómo curo el efecto Wither?",
+        "a": "Bebe leche. En dificultad Easy el Wither ni siquiera causa el efecto."
+      },
+      {
+        "q": "¿Puedo invocarlo en un espacio cerrado?",
+        "a": "Necesita bloques de aire a ambos lados de la soul sand/soil base. Recuerda que su explosión de aparición y su embestida a media vida pueden destruir los bloques de alrededor."
       }
     ],
     "relatedLinks": [
@@ -12966,7 +12967,8 @@
         "url": "/es/enchantments/sharpness/",
         "label": "Encantamiento Sharpness"
       }
-    ]
+    ],
+    "keywords": "derrotar wither jefe nether star wither skeleton skull soul sand forma de T wither armor"
   },
   "how-to-make-an-end-portal": {
     "name": "Cómo hacer un End portal",

@@ -383,39 +383,40 @@
     "slug": "how-to-beat-the-wither",
     "name": "How to Beat the Wither in Minecraft",
     "shortTitle": "Beat the Wither",
-    "quickAnswer": "Summon the Wither with 4 soul sand (or soul soil) in a T shape and 3 wither skeleton skulls on top, then fight it with Smite V, Strength II and golden apples - ideally trapped under the Nether or End bedrock ceiling. It has 300 HP in Java and 300-600 HP in Bedrock depending on difficulty, and it drops one nether star.",
+    "quickAnswer": "Build the Wither with 4 soul sand or soul soil in a T shape and 3 wither skeleton skulls on top (place a skull last). After its charge-up it explodes, then fights. It has 300 HP in Java (Bedrock: 300 Easy, 450 Normal, 600 Hard), becomes immune to arrows at half health, and always drops one nether star.",
     "steps": [
-      "Collect 3 wither skeleton skulls (rare drop from wither skeletons in Nether fortresses; Looting III helps a lot) and 4 soul sand or soul soil from Soul Sand Valleys.",
-      "Choose the arena: the classic trick is summoning it under the Nether's bedrock ceiling (around Y=127) or at an End gateway so its head gets stuck, or dig a long tunnel at deepslate level and fight it there.",
-      "Gear up: full Protection IV diamond or netherite armor, a Smite V sword (Smite beats Sharpness against the undead Wither), Strength II potions, Regeneration, golden apples and a shield for its skulls. A Power V bow handles phase one.",
-      "Build the T shape with the soul sand, place the three skulls last - the Wither spawns, charges up (invulnerable) and explodes. Back off.",
-      "Phase one (above half health): it flies and shoots skulls - shoot it with a bow. The black skulls damage you, the blue ones (Java) break harder blocks.",
-      "Phase two (below half health): it gains Wither armor (immune to arrows), charges and breaks blocks. Switch to the sword, eat golden apples when the Wither effect drains your health, and finish it. In Bedrock at half health it also spawns wither skeletons - kill them or they overwhelm you.",
-      "Collect the nether star (never destroyed by its own explosions) - it is the beacon ingredient."
+      "Get 3 wither skeleton skulls and 4 blocks of soul sand or soul soil. Soul soil can be used interchangeably with soul sand.",
+      "Choose an arena with air on both sides of the base block. The structure can be built upright, lying down or upside-down, and the skull orientation does not matter.",
+      "Build the T of 4 soul sand/soil blocks, then place the 3 skulls on the three upper blocks. The last block placed must be a skull.",
+      "The Wither is invulnerable and does not move or attack during its charge-up (about 11 seconds), then makes a large explosion centered on itself. Stay far away until it ends.",
+      "It flies about 5 blocks above its target and fires black skulls, and sometimes blue ones. Skulls deal 5 HP on Easy, 8 on Normal and 12 on Hard, and cause the Wither effect on Normal and Hard. Milk cures the Wither effect.",
+      "At half health it crashes into the ground in a large explosion, spawns 3 wither skeletons (not on Easy), and gains wither armor that makes it immune to arrows. Use melee from then on.",
+      "Kill it to get 1 nether star, needed to craft beacons. The Wither also drops 50 XP (Java: only when killed by a player or tamed wolf)."
     ],
     "materials": [
       "4 soul sand or soul soil",
       "3 wither skeleton skulls",
-      "Protection IV armor",
-      "Smite V sword and Power V bow",
-      "Strength II + Regeneration potions",
-      "Golden apples and a shield",
-      "Milk buckets to clear the Wither effect"
+      "Milk to cure the Wither effect",
+      "A melee weapon (arrows stop working at half health)"
     ],
-    "editionNote": "Java: 300 HP, the Wither hovers and shoots blue skulls that break obsidian-hard blocks slowly. Bedrock: 600 HP on Hard (450 Normal, 300 Easy), more aggressive, dashes at targets, and spawns 3-4 wither skeletons at half health - the Bedrock fight is much harder. The bedrock-ceiling trap works in Java; Bedrock players usually fight in a deepslate tunnel.",
-    "versions": "The Wither is unchanged since 1.4.2 apart from Bedrock behavior tweaks. Current as of 26.3.",
+    "editionNote": "Health: Java 300 HP at all difficulties; Bedrock 300 / 450 / 600 HP on Easy / Normal / Hard. Bedrock only: dash attacks, and the blue skull can be deflected by hitting it. Java: nether star despawns after 10 minutes; Bedrock: it never despawns.",
+    "versions": "Based on the Wither page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "What is the easiest way to kill the Wither?",
-        "a": "Trapping it: summon it under the Nether bedrock ceiling in Java so its head gets stuck and it cannot move, then hit it safely. In Bedrock, fight it at the bottom of a long deepslate tunnel so it cannot fly away."
+        "q": "When is the Wither immune to arrows?",
+        "a": "Below half health, when it gains wither armor. The wiki notes it keeps this armor if it regenerates above half health."
       },
       {
-        "q": "Does Smite or Sharpness work better on the Wither?",
-        "a": "Smite. The Wither is undead, so Smite V adds +12.5 damage per hit against it, more than Sharpness V's +3."
+        "q": "What does the Wither drop?",
+        "a": "One nether star every time (100%), plus 50 XP. In Java the XP only drops when a player or tamed wolf kills it; in Bedrock it always drops."
       },
       {
-        "q": "Can the Wither break obsidian?",
-        "a": "Its blue skulls (Java) can break obsidian given time, and its dash attacks break most blocks - but it can never break bedrock, end portal frames or barriers, which is why ceiling traps work."
+        "q": "How do I cure the Wither effect?",
+        "a": "Drink milk. On Easy difficulty the Wither does not inflict the effect at all."
+      },
+      {
+        "q": "Can I spawn it in an enclosed space?",
+        "a": "It needs air blocks on either side of the base soul sand/soil. Remember its spawn explosion and its half-health dash can destroy the blocks around it."
       }
     ],
     "relatedGuides": [
@@ -436,7 +437,7 @@
         "label": "Sharpness enchantment"
       }
     ],
-    "keywords": "beat wither boss fight nether star wither skeleton skull bedrock ceiling trap"
+    "keywords": "beat wither boss fight nether star wither skeleton skull soul sand T shape wither armor"
   },
   {
     "slug": "how-to-find-end-city",
