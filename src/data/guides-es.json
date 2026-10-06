@@ -3147,41 +3147,40 @@
   "how-to-find-ancient-debris": {
     "name": "Cómo encontrar Ancient Debris en Minecraft",
     "shortTitle": "Encontrar Ancient Debris",
-    "quickAnswer": "El ancient debris se esconde en el Nether alrededor de Y=15-16, generado lejos del aire. Lleva un diamond pickaxe o mejor y mínalo con camas o TNT: su enorme resistencia a explosiones hace que la explosión limpie el netherrack pero deje el debris intacto.",
+    "quickAnswer": "El ancient debris se genera en el Nether, más habitualmente alrededor de Y=16, nunca expuesto al aire de forma natural. Minalo con pico de diamante o netherita: cualquier otra herramienta no suelta nada. Su resistencia a explosiones de 1.200 lo hace inmune a explosiones normales.",
     "steps": [
-      "Prepárate: necesitas un diamond pickaxe o netherite pickaxe; cualquier herramienta más débil destruye el ancient debris sin soltar nada. Lleva pociones de fire resistance, comida y muchas camas o TNT.",
-      "Ve al Nether y baja hasta Y=15 (la mena alcanza su pico en Y=16, así que minar a Y=15 expone las capas más ricas). Cualquier bioma del Nether vale.",
-      "Mina en ramal: cava un túnel principal y túneles laterales cada 3 bloques, o usa explosivos: el ancient debris casi nunca se ve, se genera totalmente encerrado en netherrack, basalt o blackstone.",
-      "Minería con camas: coloca una bed al final de un túnel, retrocede detrás de un bloque e intenta dormir: la cama explota y limpia un enorme hueco de netherrack. El ancient debris sobrevive a la explosión.",
-      "La TNT también vale: una fila de TNT cada pocos bloques excava largos corredores, y el debris queda flotando.",
-      "Vigila los bordes de chunk: en Java solo se generan 1-2 vetas por chunk (hasta 5 bloques), así que sigue avanzando a chunks nuevos en vez de reminjar la misma zona.",
-      "Fúndelo: cada ancient debris se funde en 1 netherite scrap en un furnace o blast furnace.",
-      "Craftea el ingot: 4 netherite scraps + 4 gold ingots = 1 netherite ingot. Necesitas 4 ingots (16 debris) para mejorar un set de armadura completo, más uno por herramienta.",
-      "Alternativa con botín: los cofres de los bastion remnants pueden contener ancient debris, netherite scraps e incluso netherite ingots: saquea bastions mientras buscas."
+      "Lleva un pico de diamante o netherita: el ancient debris solo se suelta a sí mismo con ellos, y nada con cualquier otra herramienta.",
+      "Ve al Nether y busca alrededor de Y=16, donde hay más ancient debris de media.",
+      "En Java se generan hasta dos cúmulos por chunk: 0-3 debris con distribución triangular de Y=8 a Y=24, y 0-2 repartidos uniformemente de Y=8 a Y=119.",
+      "En Bedrock se generan hasta cinco cúmulos por chunk: dos de 0-3 uniformes de Y=8 a Y=23, y tres de 0-2 uniformes de Y=8 a Y=119.",
+      "El debris nunca está expuesto al aire de forma natural. Sustituye netherrack, y en Java también basalto y blackstone.",
+      "Por su resistencia a explosiones (1.200), las explosiones normales no lo destruyen.",
+      "Fúndelo en un horno o alto horno para obtener netherite scrap, más 2 XP al sacarlo.",
+      "O saquea cofres de bastion remnant: un cofre de establo de hoglins tiene 1 debris al 12% y 2 al 5%, un treasure chest 1 al 24,5% y 2 al 10,3%, y un cofre genérico 1 al 13,5% (cifras de Java)."
     ],
     "materials": [
       "Diamond pickaxe o mejor",
       "Camas o TNT para minería explosiva",
       "Pociones de fire resistance (recomendado)"
     ],
-    "editionNote": "La generación difiere: Java intenta hasta 2 vetas por chunk (una triangular en Y=8-24 y otra uniforme en Y=8-119), mientras Bedrock intenta hasta 5 (dos vetas en Y=8-23 y tres en Y=8-119), así que Bedrock da algo más de debris por chunk de media. El ítem flota en la lava en ambas ediciones.",
-    "versions": "El ancient debris se añadió en Java 1.16, la Nether Update, el 23 de junio de 2020: la misma actualización que introdujo el netherite. Bedrock lo recibió en 1.16.0 al mismo tiempo.",
+    "editionNote": "En Bedrock las probabilidades de los cofres de bastion cambian: establo de hoglins 1 debris al 5,7%, cofre genérico 1 al 13,5%, treasure chest 2 al 11,3%. El objeto flota en lava y es inmune al fuego en ambas ediciones.",
+    "versions": "Según la página Ancient Debris de Minecraft Wiki.",
     "faq": [
       {
         "q": "¿Cuál es la mejor altura Y para ancient debris?",
-        "a": "Y=15-16. La capa más rica es Y=16 de media, así que cava tus túneles a Y=15 y expondrás la capa pico y las de alrededor."
+        "a": "Alrededor de Y=16, donde hay más de media. Los cúmulos generan entre Y=8 y Y=24, más una probabilidad menor hasta Y=119."
       },
       {
-        "q": "¿Se puede volar el ancient debris con explosivos?",
-        "a": "No: su resistencia a explosiones (1.200) lo hace inmune a las explosiones normales de camas y TNT, que es exactamente por lo que funciona la minería explosiva: todo lo de alrededor desaparece y el debris se queda."
+        "q": "¿Se puede volar el ancient debris?",
+        "a": "No. Su resistencia a explosiones de 1.200 lo hace inmune a explosiones normales."
       },
       {
-        "q": "¿Funciona Fortune con el ancient debris?",
-        "a": "No. El ancient debris siempre suelta un bloque, tenga el encantamiento que tenga. La única forma de multiplicar el netherite es encontrar más debris o saquear bastions."
+        "q": "¿Qué herramienta necesito?",
+        "a": "Un pico de diamante o netherita. Cualquier otra no suelta nada."
       },
       {
-        "q": "¿Cuánto ancient debris necesito para un set completo de netherite?",
-        "a": "16 bloques para los 4 ingots que mejoran un set de armadura completo (4 scraps + 4 de oro por ingot), más 4 debris adicionales por cada herramienta o arma que quieras mejorar."
+        "q": "¿Puedo encontrarlo sin minar?",
+        "a": "Sí, en cofres de bastion remnant, como 1 o 2 debris."
       }
     ],
     "relatedGuides": [
