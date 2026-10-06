@@ -2575,34 +2575,38 @@
     "slug": "how-to-make-hopper",
     "name": "How to Make a Hopper in Minecraft",
     "shortTitle": "Make a Hopper",
-    "quickAnswer": "Craft a hopper with 5 iron ingots in a V around 1 chest: ingots in the top-left and top-right, the middle-left and middle-right, and one ingot under the chest in the bottom center. It moves items at 2.5 per second and locks when powered by redstone.",
+    "quickAnswer": "Craft a hopper from a chest and 5 iron ingots. It has 5 slots. Unless powered by redstone, it pushes one item into the container it faces, pulls one item from a container above it, and collects dropped items above it. A redstone signal locks all three functions.",
     "steps": [
-      "Smelt 5 iron ingots and craft 1 chest (8 planks of any wood).",
-      "Craft the hopper: iron ingot top-left, iron ingot top-right, ingot middle-left - chest middle - ingot middle-right, and one ingot below the chest in the bottom center.",
-      "Aim it on placement: the little tube at the bottom points where items go. Sneak while placing to attach it to the face of a chest, furnace or other container - the tube faces whatever face you clicked.",
-      "Let it work: a hopper pushes items into the container it faces, pulls from the container above, and collects loose item drops floating over it - 1 item every 0.4 seconds, so 2.5 items per second.",
-      "Automate furnaces: hopper on top feeds fuel or input, hopper on the side feeds the other slot, hopper underneath extracts the result. Same trick for brewing stands and composters.",
-      "Lock it with redstone: any powered signal (lever, redstone torch, powered block) freezes the hopper completely until the power turns off - the standard way to pause item flow in farms.",
-      "Build hopper chains: hoppers pointing into hoppers move items horizontally over long distances; lock one hopper to stop a horizontal chain, two adjacent ones for a vertical chain."
+      "Craft a chest and 5 iron ingots into a hopper. The wiki gives the recipe as a chest plus 5 iron ingots.",
+      "Place it so its output points at the container you want to fill. Its facing is the direction its output points, and it pushes items only into containers in that direction.",
+      "It then works on its own: it pushes a single item from its inventory into the container it faces, pulls a single item from a container above it, and collects item entities from the space above it. It first tries to push, then to pull, and if there is no container above, it collects items.",
+      "After collecting an item (or stack), a hopper has an 8-game-tick cooldown (0.4 seconds).",
+      "Lock it with redstone: while powered, the hopper does not push, pull or collect. A locked hopper can still receive items from droppers, crafters and other hoppers.",
+      "Chain hoppers into pipes to move items over distance. Locking one hopper stops a horizontal pipe, but a vertical pipe needs two adjacent hoppers locked.",
+      "Read how full a hopper is with a redstone comparator. Hoppers also work with furnaces and brewing stands: a hopper on top of a brewing stand only deposits into the ingredient slot."
     ],
     "materials": [
       "5 iron ingots",
-      "1 chest (8 planks)"
+      "1 chest"
     ],
-    "editionNote": "Core behavior is the same in both editions. Technical differences: in Bedrock a hopper can only be locked on the input redstone tick, and hopper performance tuning differs (composters on top help in Java, hurt in Bedrock).",
-    "versions": "Hoppers were added in Java 1.5 (13w01a) and Bedrock 0.14.0.",
+    "editionNote": "In Java, pistons cannot move hoppers. In Bedrock, a hopper can only be locked on the input redstone tick. Hoppers also generate above barrels in trial chambers.",
+    "versions": "Based on the Hopper page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "How fast is a hopper?",
-        "a": "One item every 8 game ticks: 0.4 seconds per item, or 2.5 items per second (9,000 per hour). A single hopper line can bottleneck big farms - split the flow across several hoppers."
+        "a": "After moving or collecting an item it waits 8 game ticks (0.4 seconds). Hoppers collect groups of dropped items all at once, so they collect item entities much faster than they pull from containers."
       },
       {
-        "q": "Why won't my hopper feed the chest next to it?",
-        "a": "The hopper only pushes into the block its tube points at. If you placed it without sneaking, it probably points down instead of sideways - break it, then sneak-click the side face of the chest."
+        "q": "Why won't my hopper fill the chest next to it?",
+        "a": "A hopper pushes only into the container in the direction its output faces. Check which way it points."
       },
       {
-        "q": "How do I stop a hopper from moving items?",
-        "a": "Power it with redstone. A locked hopper stops pushing, pulling and collecting, though other hoppers can still push into it or pull out of it - so vertical chains need two adjacent hoppers locked at once."
+        "q": "How do I stop a hopper?",
+        "a": "Give it a redstone signal. All three functions stop. A locked hopper can still receive items from droppers, crafters and other hoppers."
+      },
+      {
+        "q": "How many items does a hopper hold?",
+        "a": "It has 5 slots of inventory."
       }
     ],
     "relatedGuides": [
@@ -2615,7 +2619,7 @@
         "href": "/items/iron-ingot/"
       }
     ],
-    "keywords": "hopper minecraft craft 5 iron chest automation item transfer 2.5 items per second redstone lock furnace farm"
+    "keywords": "hopper minecraft craft 5 iron ingots chest item transfer redstone lock furnace brewing stand"
   },
   {
     "slug": "how-to-make-compass",

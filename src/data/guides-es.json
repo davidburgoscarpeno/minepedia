@@ -2204,34 +2204,38 @@
   "how-to-make-hopper": {
     "name": "Cómo hacer un Hopper en Minecraft",
     "shortTitle": "Hacer un Hopper",
-    "quickAnswer": "Craftea un hopper con 5 iron ingots en forma de V alrededor de 1 chest: ingots arriba a los lados, en los laterales centrales y uno bajo el chest en el centro inferior. Mueve objetos a 2,5 por segundo y se bloquea al recibir redstone.",
+    "quickAnswer": "Fabrica una tolva (hopper) con un cofre y 5 lingotes de hierro. Tiene 5 ranuras. Si no recibe señal de redstone, empuja un objeto al contenedor al que apunta, extrae un objeto de un contenedor que tenga encima y recoge objetos caídos encima. Una señal de redstone bloquea las tres funciones.",
     "steps": [
-      "Funde 5 iron ingots y craftea 1 chest (8 planks de cualquier madera).",
-      "Craftea el hopper: iron ingot arriba a la izquierda, iron ingot arriba a la derecha, ingot en el centro-izquierda - chest en el centro - ingot en el centro-derecha, y un ingot bajo el chest en el centro inferior.",
-      "Apúntalo al colocarlo: el tubito de abajo indica a dónde van los objetos. Agáchate al colocarlo para engancharlo a la cara de un chest, furnace u otro contenedor: el tubo apunta a la cara que pulsaste.",
-      "Déjalo trabajar: un hopper empuja objetos al contenedor al que apunta, saca del contenedor que tiene encima y recoge los drops sueltos que caigan sobre él: 1 objeto cada 0,4 segundos, o sea 2,5 objetos por segundo.",
-      "Automatiza furnaces: un hopper arriba mete combustible o material, un hopper al lado mete la otra ranura y un hopper debajo extrae el resultado. El mismo truco vale para brewing stands y composters.",
-      "Bloqúealo con redstone: cualquier señal activa (lever, redstone torch, bloque cargado) congela el hopper por completo hasta que se apaga: la forma estándar de pausar el flujo de objetos en las granjas.",
-      "Monta cadenas de hoppers: hoppers apuntando a hoppers mueven objetos en horizontal a larga distancia; bloquea un hopper para parar una cadena horizontal y dos adyacentes para una vertical."
+      "Fabrica un hopper con un cofre y 5 lingotes de hierro. La wiki da la receta como un cofre más 5 lingotes de hierro.",
+      "Colócalo de modo que su salida apunte al contenedor que quieres llenar. Su orientación es la dirección a la que apunta su salida, y solo empuja objetos a contenedores en esa dirección.",
+      "Luego funciona solo: empuja un único objeto de su inventario al contenedor al que apunta, extrae un único objeto de un contenedor que tenga encima y recoge entidades de objeto del espacio de arriba. Primero intenta empujar, luego extraer, y si no hay contenedor encima, recoge objetos.",
+      "Tras recoger un objeto (o pila), el hopper tiene un enfriamiento de 8 game ticks (0,4 segundos).",
+      "Bloquéalo con redstone: mientras recibe señal, el hopper no empuja, extrae ni recoge. Un hopper bloqueado aún puede recibir objetos de droppers, crafters y otros hoppers.",
+      "Encadena hoppers en tuberías para mover objetos a distancia. Bloquear un hopper detiene una tubería horizontal, pero una vertical necesita dos hoppers adyacentes bloqueados.",
+      "Lee cuánto contiene con un comparador de redstone. Los hoppers también funcionan con hornos y soportes de pociones: uno encima de un soporte de pociones solo deposita en la ranura de ingrediente."
     ],
     "materials": [
-      "5 iron ingots",
-      "1 chest (8 planks)"
+      "5 lingotes de hierro",
+      "1 cofre"
     ],
-    "editionNote": "El comportamiento básico es el mismo en ambas ediciones. Diferencias técnicas: en Bedrock un hopper solo puede bloquearse en el tick de entrada de redstone, y el ajuste de rendimiento difiere (los composters encima ayudan en Java y perjudican en Bedrock).",
-    "versions": "Los hoppers se añadieron en Java 1.5 (13w01a) y en Bedrock 0.14.0.",
+    "editionNote": "En Java, los pistones no pueden mover hoppers. En Bedrock, un hopper solo se puede bloquear en el tick de entrada de redstone. Los hoppers también generan sobre barriles en las trial chambers.",
+    "versions": "Basado en la página Hopper de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Qué velocidad tiene un hopper?",
-        "a": "Un objeto cada 8 game ticks: 0,4 segundos por objeto, o 2,5 objetos por segundo (9.000 por hora). Una sola línea de hoppers puede atascar una granja grande: reparte el flujo entre varios hoppers."
+        "q": "¿Qué tan rápido es un hopper?",
+        "a": "Tras mover o recoger un objeto espera 8 game ticks (0,4 segundos). Los hoppers recogen grupos de objetos caídos de golpe, así que recogen entidades de objeto mucho más rápido de lo que extraen de contenedores."
       },
       {
-        "q": "¿Por qué mi hopper no llena el chest de al lado?",
-        "a": "El hopper solo empuja hacia el bloque al que apunta su tubo. Si lo colocaste sin agacharte, probablemente apunta hacia abajo en vez de hacia el lado: rómpelo y colócalo agachándote y pulsando la cara lateral del chest."
+        "q": "¿Por qué mi hopper no llena el cofre de al lado?",
+        "a": "Un hopper solo empuja al contenedor en la dirección a la que apunta su salida. Comprueba hacia dónde apunta."
       },
       {
-        "q": "¿Cómo paro un hopper?",
-        "a": "Dándole redstone. Un hopper bloqueado deja de empujar, sacar y recoger, aunque otros hoppers sí pueden meterle objetos o sacárselos: por eso las cadenas verticales necesitan dos hoppers adyacentes bloqueados a la vez."
+        "q": "¿Cómo detengo un hopper?",
+        "a": "Dale una señal de redstone. Se detienen las tres funciones. Un hopper bloqueado aún puede recibir objetos de droppers, crafters y otros hoppers."
+      },
+      {
+        "q": "¿Cuántos objetos guarda un hopper?",
+        "a": "Tiene 5 ranuras de inventario."
       }
     ],
     "relatedGuides": [
@@ -2244,7 +2248,7 @@
         "href": "/es/items/iron-ingot/"
       }
     ],
-    "keywords": "hopper minecraft craft 5 iron chest automatización transferir objetos 2.5 por segundo bloqueo redstone furnace granja"
+    "keywords": "hopper tolva minecraft fabricar 5 lingotes de hierro cofre transferir objetos redstone bloquear horno soporte de pociones"
   },
   "how-to-make-compass": {
     "name": "Cómo hacer un Compass en Minecraft",
