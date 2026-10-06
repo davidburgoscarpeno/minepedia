@@ -2982,36 +2982,39 @@
   "how-to-find-gold": {
     "name": "Cómo encontrar Gold en Minecraft",
     "shortTitle": "Encontrar Gold",
-    "quickAnswer": "La gold ore se genera por debajo de Y=32 en todas partes, con máximo en Y=-16, pero la verdadera fiebre del oro está en las badlands: mena extra de Y=32 a Y=256, incluso expuesta a la vista. La gold ore del Nether y los zombified piglins son la fuente infinita del late game.",
+    "quickAnswer": "El gold ore se genera de Y=-64 a Y=32, con más probabilidad alrededor de Y=-16, más una tanda extra en badlands de Y=32 a Y=256. Minalo con pico de hierro o mejor para obtener raw gold. El nether gold ore suelta 2-6 pepitas de oro.",
     "steps": [
-      "Conoce las capas: la gold ore se genera de Y=-64 a Y=32, más común alrededor de Y=-16, con una tanda extra rara por debajo de Y=-48. Mínala con un iron pickaxe o mejor.",
-      "Ve a las badlands: los biomas de mesa reciben una tanda extra de oro de Y=32 hasta Y=256, uniforme: el oro se ve muchas veces en las paredes de los acantilados.",
-      "Ojo con la penalización: fuera de las badlands, la mitad de la gold ore que se generaría expuesta al aire se cancela, así que las cuevas dan menos oro que el branch mining en Y=-16.",
-      "Funde el raw gold en lingotes, o mina con Fortune para hasta 4x raw gold por mena. Silk Touch y fundir después también funciona.",
-      "Granjea en el Nether: la nether gold ore está por todas partes y suelta 2-6 nuggets (va genial con Fortune); los zombified piglins sueltan nuggets y a veces lingotes: una granja de oro sobre un lago de lava del Nether es la clásica fuente infinita.",
-      "Saquea estructuras: los bastion remnants están repletos de bloques y lingotes de oro, los ruined portals y shipwrecks guardan oro, y los desert temples lo esconden bajo el TNT.",
-      "Haz bartering: tira gold ingots a los piglins por ender pearls, pociones de fire resistance, obsidian, quartz y más: el oro es la moneda del Nether.",
-      "Gástalo con cabeza: powered rails, clocks, golden apples, netherite... no, espera, el netherite necesita ancient debris, no oro; pero las herramientas de oro son las que minan más rápido del juego, aunque las más frágiles."
+      "Conoce la generación: la tanda principal intenta 4 veces por chunk (vetas de 0-13) de Y=-64 a Y=32, con más probabilidad alrededor de Y=-16, y una segunda tanda tiene 1/2 de probabilidad por chunk entre Y=-64 y Y=-48.",
+      "Ve a badlands: una tanda extra intenta 50 veces por chunk (vetas de 0-13), uniformemente de Y=32 a Y=256.",
+      "Mina con pico de hierro o mejor; otras herramientas no sueltan nada. Fortune I, II y III sueltan 1-2, 1-3 y 1-4 raw gold, y Silk Touch suelta el bloque de mena.",
+      "Espera menos oro en cuevas: el gold ore tiene menos probabilidad de estar expuesto al aire, y el 50% de los bloques de la tanda principal junto al aire no se genera.",
+      "Funde el raw gold o el bloque de mena en un lingote de oro.",
+      "En el Nether, el nether gold ore suelta 2-6 pepitas de oro con cualquier pico. Romperlo enfurece a los piglins cercanos.",
+      "El oro que sustituye tuff bajo Y=0 o deepslate pasa a ser deepslate gold ore (dureza 4,5, frente a 3 del gold ore)."
     ],
     "materials": [
       "Iron pickaxe o mejor",
       "Pickaxe con Fortune III recomendado",
       "Una pieza de armadura de oro para el Nether (mantiene amigables a los piglins)"
     ],
-    "editionNote": "Una gran diferencia de edición para las granjas: los drowned soltaban gold ingots en ambas ediciones, pero Java 1.17 cambió su drop raro a copper ingots; en Bedrock los drowned siguen soltando oro.",
-    "versions": "Los gold ingots se añadieron a Java en Indev 0.31 el 28 de enero de 2010 y a Pocket Edition 0.2.0; el bonus de oro de las badlands llegó con la reforma de generación de mundo de 1.18.",
+    "editionNote": "Según la wiki, las vetas de gold ore tienen 0-13 bloques. Con Fortune III el nether gold ore da de media 8,8 pepitas, algo menos que un lingote, así que Silk Touch más fundición es algo más eficiente.",
+    "versions": "Según las páginas Gold Ore y Nether Gold Ore de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Cuál es el mejor nivel Y para el oro en Minecraft?",
-        "a": "Y=-16 para minar en el Overworld, donde la gold ore es más común. Pero las badlands superan todo: el oro extra se genera de Y=32 a Y=256 así que pasea por los acantilados y busca oro en las paredes."
+        "q": "¿Cuál es la mejor altura Y para oro?",
+        "a": "Alrededor de Y=-16 en la tanda principal. Los badlands tienen además una tanda extra de Y=32 a Y=256."
       },
       {
-        "q": "¿Cómo se consigue oro sin minar?",
-        "a": "Los zombified piglins sueltan gold nuggets y a veces lingotes, y los bastion remnants, ruined portals, shipwrecks y desert temples contienen botín de oro. (El bartering con piglins consume lingotes, no los produce.)"
+        "q": "¿Qué herramienta necesito?",
+        "a": "Pico de hierro o mejor para el gold ore. Cualquier pico vale para el nether gold ore."
       },
       {
-        "q": "¿Para qué sirve el oro si las herramientas de oro se rompen tan rápido?",
-        "a": "Powered rails, golden apples, clocks y bartering con piglins; y las herramientas de oro son en realidad las que minan más rápido del juego, solo que con una durabilidad terrible. Un pickaxe de oro con Efficiency V es un cañón de cristal."
+        "q": "¿Cuánto da Fortune?",
+        "a": "Gold ore: Fortune I, II y III sueltan 1-2, 1-3 y 1-4 raw gold."
+      },
+      {
+        "q": "¿Por qué evitar romper nether gold ore cerca de piglins?",
+        "a": "Romperlo enfurece a los piglins cercanos, como otros bloques de oro."
       }
     ],
     "relatedGuides": [

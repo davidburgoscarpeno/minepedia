@@ -3385,36 +3385,39 @@
     "slug": "how-to-find-gold",
     "name": "How to Find Gold in Minecraft",
     "shortTitle": "Find Gold",
-    "quickAnswer": "Gold ore generates everywhere below Y=32, peaking at Y=-16, but the real gold rush is in the badlands - extra ore from Y=32 to 256, even exposed in the open. The Nether's gold ore and zombified piglins are the infinite late-game source.",
+    "quickAnswer": "Gold ore generates from Y=-64 to Y=32, most likely around Y=-16, plus an extra batch in badlands from Y=32 to Y=256. Mine it with an iron pickaxe or better to get raw gold. Nether gold ore drops 2-6 gold nuggets.",
     "steps": [
-      "Know the layers: gold ore generates from Y=-64 to Y=32, most common around Y=-16, with a rare extra batch below Y=-48. Mine it with an iron pickaxe or better.",
-      "Head to the badlands: mesa biomes get a bonus gold batch from Y=32 all the way to Y=256, uniformly - gold often shows on cliff faces.",
-      "Watch for the penalty: outside the badlands, half of the gold ore that would generate exposed to air is cancelled - so caving finds less gold than branch mining at Y=-16.",
-      "Smelt raw gold into ingots, or mine with Fortune for up to 4x raw gold per ore. Silk Touch plus smelting later works too.",
-      "Farm the Nether: nether gold ore is everywhere and drops 2-6 nuggets (Fortune-friendly); zombified piglins drop nuggets and occasionally ingots - a gold farm over a Nether lava lake is the classic infinite source.",
-      "Loot structures: bastion remnants are stuffed with gold blocks and ingots, ruined portals and shipwrecks carry gold, and desert temples hide it under the TNT.",
-      "Barter with it: throw gold ingots at piglins for ender pearls, fire resistance potions, obsidian, quartz and more - gold is Nether currency.",
-      "Spend it wisely: powered rails, clocks, golden apples, netherite... no wait, netherite needs ancient debris, not gold - but gold tools are the fastest miners in the game, if the most fragile."
+      "Know the generation: the main batch tries 4 times per chunk (blobs of 0-13) from Y=-64 to Y=32, most likely around Y=-16, and a second batch has a 1/2 chance per chunk between Y=-64 and Y=-48.",
+      "Go to badlands: an extra batch tries 50 times per chunk (blobs of 0-13), uniformly from Y=32 to Y=256.",
+      "Mine with an iron pickaxe or better; other tools drop nothing. Fortune I, II and III drop 1-2, 1-3 and 1-4 raw gold, and Silk Touch drops the ore block.",
+      "Expect less gold in caves: gold ore is less likely to be exposed to air, with 50% of ore blocks next to air not generating in the main batch.",
+      "Smelt raw gold or the ore block into a gold ingot.",
+      "In the Nether, nether gold ore drops 2-6 gold nuggets with any pickaxe. Breaking it angers nearby piglins.",
+      "Gold that replaces tuff below Y=0 or deepslate becomes deepslate gold ore (hardness 4.5, against 3 for gold ore)."
     ],
     "materials": [
       "Iron pickaxe or better",
       "Fortune III pickaxe recommended",
       "Gold armor piece for the Nether (keeps piglins friendly)"
     ],
-    "editionNote": "One big edition difference for farming: drowned dropped gold ingots in both editions, but Java 1.17 switched their rare drop to copper ingots - in Bedrock, drowned still drop gold.",
-    "versions": "Gold ingots were added to Java in Indev 0.31 on January 28, 2010, and to Pocket Edition 0.2.0; the badlands gold bonus arrived with the world-generation overhaul of 1.18.",
+    "editionNote": "Per the wiki, gold ore blobs have 0-13 blocks. Nether gold ore Fortune III averages 8.8 nuggets, slightly less than an ingot, so Silk Touch plus smelting is slightly more efficient.",
+    "versions": "Per the Minecraft Wiki Gold Ore and Nether Gold Ore pages.",
     "faq": [
       {
         "q": "What is the best Y level for gold in Minecraft?",
-        "a": "Y=-16 for overworld mining, where gold ore is most common. But the badlands beat everything: bonus gold generates from Y=32 to Y=256 so walk the cliffs and look for gold in the walls."
+        "a": "Around Y=-16 in the main batch. Badlands also have an extra batch from Y=32 to Y=256."
       },
       {
-        "q": "How do you get gold without mining?",
-        "a": "Zombified piglins drop gold nuggets and occasionally ingots, piglin bartering consumes ingots (not produces), and bastion remnants, ruined portals, shipwrecks and desert temples all contain gold loot."
+        "q": "What tool do I need?",
+        "a": "An iron pickaxe or better for gold ore. Any pickaxe works for nether gold ore."
       },
       {
-        "q": "Why is gold useful if gold tools break so fast?",
-        "a": "Powered rails, golden apples, clocks and bartering with piglins - and gold tools are actually the fastest mining tools in the game, just with terrible durability. Efficiency V on a gold pick is a glass cannon."
+        "q": "How much does Fortune give?",
+        "a": "Gold ore: Fortune I, II and III drop 1-2, 1-3 and 1-4 raw gold."
+      },
+      {
+        "q": "Why avoid breaking nether gold ore near piglins?",
+        "a": "Breaking nether gold ore angers nearby piglins, like other gold blocks."
       }
     ],
     "relatedGuides": [
