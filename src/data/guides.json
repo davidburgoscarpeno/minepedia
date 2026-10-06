@@ -3119,34 +3119,37 @@
     "slug": "how-to-make-chest",
     "name": "How to Make a Chest in Minecraft",
     "shortTitle": "Make a Chest",
-    "quickAnswer": "Craft a chest with 8 planks of any wood in a ring. It stores 27 stacks; place two side by side for a large chest with 54. The foundation of every storage system ever built.",
+    "quickAnswer": "Craft a chest from planks. A chest has 27 slots, and two adjacent chests join into a large chest with 54. Chests always drop themselves when mined, and an axe is fastest. A conductive block above a chest, or a sitting cat, stops it from opening.",
     "steps": [
-      "Chop any tree and craft 8 planks - mixing wood types is fine.",
-      "Craft the chest: planks filling every slot except the center - a ring, like the furnace recipe but with wood.",
-      "Place it and open it: 27 inventory slots, each holding a full stack. Items inside survive forever, even if you die.",
-      "Double it: place a second chest directly beside it and they merge into a large chest with 54 slots. Sneak-place to keep two chests separate when you do not want them to merge.",
-      "Move loot around it: hoppers feed into chests from above or the side and pull from below - chests are the end point of every farm and sorting system.",
-      "Lock it down: chests cannot be opened if a solid block sits directly on top (cats sitting on them block them too - in Java). Slabs, stairs and glass on top are fine.",
-      "Know the family: trapped chests emit redstone when opened (redstone torch + chest), ender chests share one inventory across the world, barrels open under any block, and shulker boxes carry their contents when broken.",
-      "Find them everywhere: dungeons, mineshafts, strongholds, villages, shipwrecks, temples, bastions - chests full of loot generate in nearly every structure in the game."
+      "Craft a chest from planks. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Place it and use it to open it: it has 27 slots. Drag or shift-click items in and out.",
+      "Place a second chest next to it to form a large chest with 54 slots. To keep them separate, sneak while placing the second one (Java), face the second chest a different direction, or use a trapped chest, which does not combine with normal chests.",
+      "A chest cannot be opened if a conductive block is above it (in Bedrock, bottom slabs also block it). Slabs, stairs, glass and ice do not block it in Java. A cat sitting on it also stops it opening.",
+      "Chests always drop themselves when mined, and their items drop too.",
+      "In Java, you can lock a chest with a lock tag through the data command, so it opens only with a matching item.",
+      "Find them: monster rooms, bastion remnants and the bonus chest option at world creation all have chests. Donkeys and mules carry 15 slots, and llamas 3 to 15."
     ],
     "materials": [
-      "8 planks of any wood"
+      "Planks"
     ],
-    "editionNote": "Identical in both editions, with two Java-only quirks: cats sitting on chests block them, and chests turn into festive Christmas textures from December 24-26.",
-    "versions": "Chests (and large chests) were added to Java in Indev 0.31 on January 24, 2010, and to Pocket Edition 0.3.2.",
+    "editionNote": "In Bedrock, pistons can move chests and bottom slabs stop a chest opening. In Java, sneaking while placing keeps chests from joining.",
+    "versions": "Based on the Chest page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "How many slots does a chest have in Minecraft?",
-        "a": "27 slots in a single chest, 54 in a large (double) chest. Each slot holds a full stack - 64 of most items - so a double chest holds up to 3,456 items."
+        "q": "How many slots does a chest have?",
+        "a": "27, and 54 for a large chest."
+      },
+      {
+        "q": "How do I stop two chests merging?",
+        "a": "In Java, sneak while placing the second. In both editions, face it a different direction, or use a trapped chest."
       },
       {
         "q": "Why can't I open my chest?",
-        "a": "A solid block is sitting directly on top of it (or, in Java, a cat is sitting on it). Replace the block above with a slab, stairs or glass, or move the cat."
+        "a": "A conductive block above it, or a cat sitting on it, blocks it. In Bedrock, a bottom slab also blocks it."
       },
       {
-        "q": "Chest, barrel or shulker box - which should I use?",
-        "a": "Chests are cheapest and merge into doubles. Barrels open even with a block on top, great for tight storage walls. Shulker boxes keep their items when broken - the endgame backpack."
+        "q": "Does a chest drop itself?",
+        "a": "Yes, always, with its items. An axe is fastest."
       }
     ],
     "relatedGuides": [
@@ -3160,7 +3163,7 @@
         "href": "/structures/mineshaft/"
       }
     ],
-    "keywords": "chest minecraft craft 8 planks 27 slots double chest 54 storage hopper trapped chest barrel shulker box"
+    "keywords": "chest minecraft how to make planks large chest 27 slots 54 slots storage"
   },
   {
     "slug": "how-to-make-crafting-table",

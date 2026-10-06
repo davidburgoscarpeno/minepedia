@@ -2742,34 +2742,37 @@
   "how-to-make-chest": {
     "name": "Cómo hacer un Chest en Minecraft",
     "shortTitle": "Hacer un Chest",
-    "quickAnswer": "Craftea un chest con 8 planks de cualquier madera en anillo. Guarda 27 stacks; pon dos juntos para un large chest de 54. La base de todo sistema de almacenamiento jamás construido.",
+    "quickAnswer": "Fabrica un cofre con tablones. Un cofre tiene 27 ranuras, y dos cofres adyacentes se unen en un cofre grande de 54. Los cofres siempre se sueltan a sí mismos al minarlos, y el hacha es lo más rápido. Un bloque conductor encima, o un gato sentado, impide abrirlo.",
     "steps": [
-      "Tala cualquier árbol y craftea 8 planks: puedes mezclar tipos de madera.",
-      "Craftea el chest: planks llenando todos los huecos menos el central, en anillo, como la receta del furnace pero con madera.",
-      "Colócalo y ábrelo: 27 huecos de inventario, cada uno con un stack completo. Los objetos de dentro sobreviven para siempre, aunque mueras.",
-      "Dóblalo: coloca un segundo chest justo al lado y se fusionan en un large chest de 54 huecos. Colócalo con sneak para mantener dos chests separados cuando no quieras que se fusionen.",
-      "Mueve el botín a su alrededor: los hoppers alimentan chests desde arriba o el lado y extraen por abajo: los chests son el destino final de toda granja y sistema de ordenación.",
-      "Protégelo: los chests no se abren si un bloque sólido está justo encima (los cats sentados encima también los bloquean, en Java). Slabs, stairs y glass encima no molestan.",
-      "Conoce la familia: los trapped chests emiten redstone al abrirse (redstone torch + chest), los ender chests comparten un inventario por todo el mundo, los barrels se abren bajo cualquier bloque y las shulker boxes conservan su contenido al romperse.",
-      "Encuéntralos por todas partes: dungeons, mineshafts, strongholds, villages, shipwrecks, temples, bastions: cofres llenos de botín se generan en casi todas las estructuras del juego."
+      "Fabrica un cofre con tablones. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Colócalo y úsalo para abrirlo: tiene 27 ranuras. Arrastra o haz shift-clic para mover objetos.",
+      "Coloca un segundo cofre al lado para formar un cofre grande de 54 ranuras. Para mantenerlos separados, agáchate al colocar el segundo (Java), oriéntalo en otra dirección, o usa un cofre trampa, que no se une con los cofres normales.",
+      "Un cofre no se abre si hay un bloque conductor encima (en Bedrock, las losas inferiores también lo bloquean). Losas, escaleras, cristal y hielo no lo bloquean en Java. Un gato sentado encima también impide abrirlo.",
+      "Los cofres siempre se sueltan a sí mismos al minarlos, y sus objetos también caen.",
+      "En Java, puedes bloquear un cofre con una etiqueta lock mediante el comando data, de modo que solo abra con un objeto coincidente.",
+      "Encuéntralos: monster rooms, restos de bastión y la opción de cofre de bonificación al crear el mundo tienen cofres. Burros y mulas llevan 15 ranuras, y las llamas de 3 a 15."
     ],
     "materials": [
-      "8 planks de cualquier madera"
+      "Tablones"
     ],
-    "editionNote": "Idéntico en ambas ediciones, con dos rarezas solo de Java: los cats sentados en los chests los bloquean, y los chests se ponen texturas navideñas del 24 al 26 de diciembre.",
-    "versions": "Los chests (y los large chests) se añadieron a Java en Indev 0.31 el 24 de enero de 2010 y a Pocket Edition 0.3.2.",
+    "editionNote": "En Bedrock, los pistones pueden mover cofres y las losas inferiores impiden abrirlos. En Java, agacharse al colocar evita que los cofres se unan.",
+    "versions": "Basado en la página Chest de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cuántos huecos tiene un chest en Minecraft?",
-        "a": "27 huecos en un chest simple, 54 en un large chest (doble). Cada hueco admite un stack completo (64 de la mayoría de objetos), así que un chest doble guarda hasta 3.456 objetos."
+        "q": "¿Cuántas ranuras tiene un cofre?",
+        "a": "27, y 54 en un cofre grande."
       },
       {
-        "q": "¿Por qué no puedo abrir mi chest?",
-        "a": "Hay un bloque sólido justo encima (o, en Java, un cat sentado encima). Sustituye el bloque de arriba por una slab, stairs o glass, o mueve al cat."
+        "q": "¿Cómo evito que dos cofres se unan?",
+        "a": "En Java, agáchate al colocar el segundo. En ambas ediciones, oriéntalo en otra dirección o usa un cofre trampa."
       },
       {
-        "q": "¿Chest, barrel o shulker box? ¿Cuál uso?",
-        "a": "Los chests son los más baratos y se fusionan en dobles. Los barrels se abren aun con un bloque encima, geniales para paredes de almacenaje estrechas. Las shulker boxes conservan sus objetos al romperse: la mochila del endgame."
+        "q": "¿Por qué no puedo abrir mi cofre?",
+        "a": "Lo bloquea un bloque conductor encima o un gato sentado. En Bedrock, también una losa inferior."
+      },
+      {
+        "q": "¿El cofre se suelta a sí mismo?",
+        "a": "Sí, siempre, con sus objetos. El hacha es lo más rápido."
       }
     ],
     "relatedGuides": [
@@ -2783,7 +2786,7 @@
         "href": "/es/structures/mineshaft/"
       }
     ],
-    "keywords": "chest minecraft craft 8 planks 27 huecos chest doble 54 almacenamiento hopper trapped chest barrel shulker box"
+    "keywords": "cofre chest minecraft cómo hacer tablones cofre grande 27 ranuras 54 ranuras almacenamiento"
   },
   "how-to-make-crafting-table": {
     "name": "Cómo hacer un Crafting Table en Minecraft",
