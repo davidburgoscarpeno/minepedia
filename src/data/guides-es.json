@@ -2530,36 +2530,39 @@
   "how-to-make-dispenser": {
     "name": "Cómo hacer un Dispenser en Minecraft",
     "shortTitle": "Hacer un Dispenser",
-    "quickAnswer": "Craftea un dispenser con 7 cobblestone, 1 bow y 1 redstone dust. Aliméntalo con redstone y dispara o usa un objeto aleatorio de sus 9 huecos: arrows, water buckets, shears, bonemeal. Es el corazón de toda granja automática.",
+    "quickAnswer": "Fabrica un dispensador con cobblestone, un arco y polvo de redstone. Tiene 9 ranuras. Al recibir señal de redstone espera 4 game ticks y expulsa o usa un objeto elegido al azar. A diferencia de un soltador (dropper), no puede empujar objetos a otro contenedor.",
     "steps": [
-      "Mina 7 cobblestone, consigue 1 redstone dust (mena profunda, iron pickaxe o mejor) y craftea o saquea 1 bow (3 sticks + 3 string; vale un bow dañado).",
-      "Craftéalo: cobblestone llenándolo todo menos el centro, donde va el bow, y el centro inferior, donde va el redstone dust.",
-      "Llena sus 9 huecos y dale corriente: cada pulso de redstone dispensa UN objeto elegido al azar. No sigue ningún orden, así que separa los tipos de objetos.",
-      "Conviértelo en arma: arrows, fire charges, splash potions, tridents y fireworks salen disparados como proyectiles: trampas y defensas instantáneas.",
-      "Automatiza fluidos: un dispenser con un water bucket o lava bucket coloca el fluido en el primer pulso y lo recoge en el siguiente: descargas perfectas para granjas de cultivos y de mobs.",
-      "Automatiza herramientas: las shears esquilan ovejas y cosechan honeycomb, el flint and steel enciende TNT y campfires, el bonemeal hace crecer cultivos y las bottles vacías recogen honey: casi cualquier acción de 'usar objeto' funciona.",
-      "Equipa y coloca: los dispensers ponen armadura y carved pumpkins a jugadores y mobs, colocan shulker boxes, boats y minecarts, y generan mobs desde spawn eggs.",
-      "Aliméntalo con inteligencia: un dispenser necesita un flanco de pulso (button, reloj de observers, pressure plate). Un observer mirando a otro observer o un bucle de repeaters es el reloj clásico de granjas."
+      "Fabrica un dispensador con cobblestone, un arco y polvo de redstone. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Colócalo usándolo sobre una superficie junto a su sitio. Siempre mira hacia donde miras al colocarlo.",
+      "Llena sus 9 ranuras. Cada activación elige una ranura ocupada al azar, en el momento de expulsar el objeto.",
+      "Dale señal. Solo se activa con el flanco de subida de la señal, espera 4 game ticks (0,2 segundos) y expulsa un objeto. Para más objetos, usa un circuito de reloj. En Bedrock solo se activa en el tick de entrada de redstone.",
+      "Proyectiles y drops: flechas, bolas de fuego y cohetes salen en la dirección a la que mira. Los objetos sin función especial se expulsan como en un dropper.",
+      "Herramientas y fluidos: un cubo de agua o lava coloca el fluido, y un cubo vacío recoge una fuente de agua, lava o nieve en polvo. Las tijeras esquilan bogged, ovejas, golems de nieve y mooshrooms y recogen una colmena llena. El pedernal y acero enciende TNT y fogatas apagadas. El polvo de hueso fertiliza el bloque al que apunta.",
+      "Equipo y entidades: armaduras y élitros se equipan a jugadores, soportes de armadura y muchos mobs, los barcos y huevos de aparición colocan entidades, y las cajas de shulker se colocan como bloques. El TNT crea una entidad de TNT encendida."
     ],
     "materials": [
-      "7 cobblestone",
-      "1 bow (cualquier durabilidad)",
-      "1 redstone dust"
+      "Cobblestone",
+      "Arco",
+      "Polvo de redstone"
     ],
-    "editionNote": "Casi idéntico en ambas ediciones; algunos comportamientos límite difieren (los dispensers de Bedrock recogen honey en bottles de los hives con un timing ligeramente distinto). La elección aleatoria de hueco es igual en todas partes: diseña pensando en ella.",
-    "versions": "Los dispensers se añadieron en Java Beta 1.2 y en Pocket Edition 0.14.0, la gran actualización de redstone para móviles.",
+    "editionNote": "En Java, los dispensadores no pueden moverse con pistones y se aplica la cuasi-conectividad. En Bedrock, se activa solo en el tick de entrada de redstone. También se generan en las trial chambers.",
+    "versions": "Basado en la página Dispenser de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Qué diferencia hay entre un dropper y un dispenser?",
-        "a": "Un dropper solo escupe el objeto como objeto (o lo mete en un contenedor). Un dispenser USA el objeto: dispara arrows, coloca agua, esquila ovejas, equipa armadura. Para sistemas de almacenamiento quieres droppers; para granjas y trampas, dispensers."
+        "q": "¿Cuántas ranuras tiene un dispensador?",
+        "a": "9."
       },
       {
-        "q": "¿Cómo se alimenta un dispenser automáticamente?",
-        "a": "Dale pulsos repetidos de redstone: un observer mirando a otro observer hace un reloj rápido, un reloj de hoppers es más lento y barato, y una lever o un button sirven para disparos únicos."
+        "q": "¿Elige los objetos en orden?",
+        "a": "No. Elige una ranura ocupada al azar cada vez."
       },
       {
-        "q": "¿Puede un dispenser colocar bloques?",
-        "a": "Solo algunos concretos: shulker boxes, boats, minecarts, armor stands, y carved pumpkins y heads sobre armor stands o mobs. Para bloques normales hace falta otro truco: pistons o el jugador."
+        "q": "¿Qué diferencia hay entre dispensador y dropper?",
+        "a": "El dispensador usa o dispara objetos, y el dropper solo los expulsa. El dropper además puede empujar objetos a un contenedor adyacente, y el dispensador no."
+      },
+      {
+        "q": "¿Cuánto tarda en responder?",
+        "a": "4 game ticks (0,2 segundos) tras activarse."
       }
     ],
     "relatedGuides": [
@@ -2573,7 +2576,7 @@
         "href": "/es/items/redstone-dust/"
       }
     ],
-    "keywords": "dispenser minecraft craft 7 cobblestone bow redstone granja automática arrows water bucket esquilar ovejas dropper vs dispenser"
+    "keywords": "dispensador dispenser minecraft cómo hacer cobblestone arco redstone ranura aleatoria flechas cubo tijeras automático"
   },
   "how-to-make-flint-and-steel": {
     "name": "Cómo hacer un Flint and Steel en Minecraft",

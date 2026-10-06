@@ -2903,36 +2903,39 @@
     "slug": "how-to-make-dispenser",
     "name": "How to Make a Dispenser in Minecraft",
     "shortTitle": "Make a Dispenser",
-    "quickAnswer": "Craft a dispenser with 7 cobblestone, 1 bow and 1 redstone dust. Power it with redstone and it fires or uses a random item from its 9 slots - arrows, water buckets, shears, bonemeal - the heart of every automatic farm.",
+    "quickAnswer": "Craft a dispenser from cobblestone, a bow and redstone dust. It has 9 slots. When it gets a redstone signal it waits 4 game ticks and ejects or uses one randomly chosen item. Unlike a dropper it cannot push items into another container.",
     "steps": [
-      "Mine 7 cobblestone, get 1 redstone dust (deep ore, iron pickaxe+) and craft or loot 1 bow (3 sticks + 3 string - a damaged bow works too).",
-      "Craft it: cobblestone filling everything except the center, where the bow goes, and the bottom-center, where the redstone dust goes.",
-      "Fill its 9 slots and power it: every redstone pulse dispenses ONE randomly chosen item. It does not pick in order, so keep item types separated.",
-      "Weaponize it: arrows, fire charges, splash potions, tridents and fireworks shoot out as projectiles - instant traps and defenses.",
-      "Automate fluids: a dispenser with a water or lava bucket places the fluid on the first pulse and sucks it back up on the next - perfect flushers for crop farms and mob farms.",
-      "Automate tools: shears shear sheep and harvest honeycomb, flint and steel lights TNT and campfires, bonemeal grows crops, and empty bottles scoop honey - almost every use-item action works.",
-      "Equip and place: dispensers put armor and carved pumpkins on players and mobs, place shulker boxes, boats and minecarts, and spawn mobs from spawn eggs.",
-      "Power it smartly: a dispenser needs a pulse edge (button, observer clock, pressure plate). An observer watching a comparator or a simple repeater loop is the classic farm clock."
+      "Craft a dispenser from cobblestone, a bow and redstone dust. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Place it by using it on a surface next to its spot. It always faces the direction you face when placing it.",
+      "Fill its 9 slots. Each activation picks a random occupied slot, chosen when the item is ejected.",
+      "Power it. It activates only on the rising edge of a signal, waits 4 game ticks (0.2 seconds), then ejects one item. For more items, use a clock circuit. In Bedrock it activates only on the input redstone tick.",
+      "Projectiles and drops: arrows, fire charges and firework rockets launch in the direction it faces. Items with no special function are ejected like a dropper.",
+      "Tools and fluids: a water or lava bucket places the fluid, and an empty bucket collects a water source, lava or powder snow. Shears shear bogged, sheep, snow golems and mooshrooms and harvest a full beehive. Flint and steel ignites TNT and extinguished campfires. Bone meal fertilizes the block it faces.",
+      "Equipment and entities: armor and elytra equip onto players, armor stands and many mobs, boats and spawn eggs place entities, and shulker boxes are placed as blocks. TNT summons a lit TNT entity."
     ],
     "materials": [
-      "7 cobblestone",
-      "1 bow (any durability)",
-      "1 redstone dust"
+      "Cobblestone",
+      "Bow",
+      "Redstone dust"
     ],
-    "editionNote": "Nearly identical in both editions; some edge behaviors differ (Bedrock dispensers can suck honey into bottles from hives with slightly different timing). The random slot choice is the same everywhere - design around it.",
-    "versions": "Dispensers were added in Java Beta 1.2 and Pocket Edition 0.14.0, the big redstone update for mobile.",
+    "editionNote": "In Java, dispensers cannot be moved by pistons and quasi-connectivity applies to them. In Bedrock, a dispenser activates only on the input redstone tick. Dispensers also generate in trial chambers.",
+    "versions": "Based on the Dispenser page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "What is the difference between a dropper and a dispenser?",
-        "a": "A dropper just ejects the item as an item (or pushes it into a container). A dispenser USES the item: shoots arrows, places water, shears sheep, equips armor. For storage systems you want droppers; for farms and traps, dispensers."
+        "q": "How many slots does a dispenser have?",
+        "a": "9."
       },
       {
-        "q": "How do you power a dispenser automatically?",
-        "a": "Give it repeated redstone pulses: an observer facing another observer makes a fast clock, a hopper clock is slower and cheaper, and a lever or button works for single shots."
+        "q": "Does a dispenser pick items in order?",
+        "a": "No. It picks a random occupied slot each time."
       },
       {
-        "q": "Can a dispenser place blocks?",
-        "a": "Only specific ones: shulker boxes, boats, minecarts, armor stands, carved pumpkins and heads on armor stands/mobs. For normal blocks you need a different trick - pistons or the player."
+        "q": "What is the difference between a dispenser and a dropper?",
+        "a": "A dispenser uses or fires items, and a dropper just ejects them. A dropper can also push items into an adjacent container, and a dispenser cannot."
+      },
+      {
+        "q": "How fast does it respond?",
+        "a": "4 game ticks (0.2 seconds) after activation."
       }
     ],
     "relatedGuides": [
@@ -2946,7 +2949,7 @@
         "href": "/items/redstone-dust/"
       }
     ],
-    "keywords": "dispenser minecraft craft 7 cobblestone bow redstone automatic farm arrows water bucket shear sheep dropper vs dispenser"
+    "keywords": "dispenser minecraft how to make cobblestone bow redstone random slot arrows bucket shears automatic"
   },
   {
     "slug": "how-to-make-flint-and-steel",
