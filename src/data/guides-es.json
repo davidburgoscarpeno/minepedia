@@ -1509,36 +1509,40 @@
   "how-to-breed-horses": {
     "name": "Cómo criar Horses en Minecraft",
     "shortTitle": "Criar Horses",
-    "quickAnswer": "Tamea dos horses y dale a cada uno una golden apple o golden carrot: entran en modo amor y sueltan un foal. La velocidad, salto y vida del foal promedian las stats de ambos padres más una tirada aleatoria, así que criar dos buenos horses mejora poco a poco la sangre. Los foals tardan 20 minutos en crecer (aliméntalos para acelerar).",
+    "quickAnswer": "Doma dos caballos y dale a cada uno una manzana dorada o una zanahoria dorada para activar el modo amor. Se aparean y nace un potro. La vida, velocidad y salto del potro se calculan con una fórmula a partir de las estadísticas de ambos padres, así que criar buenos caballos puede mejorar la línea. Los potros tardan 20 minutos en crecer, y alimentarlos lo acelera.",
     "steps": [
-      "Tamea a ambos padres: monta cada horse una y otra vez hasta que salgan corazones. Los de temperamento alto piden más intentos: dales apples, wheat o hay bales para tamear antes.",
-      "Craftea la comida de cría: golden apple (apple + 8 gold ingots) o golden carrot (carrot + 8 gold nuggets), una para cada padre.",
-      "Alimenta a los dos horses: entran en modo amor, se besan y aparece un foal con una mezcla aleatoria del pelaje y las marcas de los padres (existen 35 combinaciones).",
-      "Entiende las stats: velocidad, salto y vida del foal son la media de ambos padres más una tirada aleatoria - dos padres rápidos suelen dar un foal rápido, pero el RNG puede morder.",
-      "Cría al foal: tarda 20 minutos de forma natural; dale apples, wheat, sugar, hay bales o golden carrots para recortar el tiempo (los hay bales recortan más).",
-      "Selecciona y repite: quédate con el mejor foal y críalo con el mejor adulto - unas generaciones de selección te acercan a la velocidad casi máxima y saltos de 5 bloques.",
-      "Bonus: cruza un horse con un donkey para conseguir una mule: lleva chest y se puede montar, pero es estéril."
+      "Doma a ambos padres: hay que domar un caballo para criarlo. Montarlo repetidamente acaba haciendo aparecer corazones sobre él.",
+      "Dale a cada caballo domado una zanahoria dorada o una manzana dorada. Esas activan el modo amor en caballos domados. Las manzanas normales, el trigo y el azúcar no.",
+      "Los caballos se aparean y aparece un potro, y la cría da 1-7 de XP. El potro suele tener el color y las marcas de uno de los padres, con 13/45 de probabilidad de colores y marcas aleatorios.",
+      "Estadísticas: la vida, la velocidad de movimiento y la altura de salto se fijan al nacer y no les afecta la comida. En la cría, la wiki indica que cada estadística se calcula con una fórmula a partir de las de los padres.",
+      "Haz crecer al potro: los potros tardan 20 minutos en madurar si no se les alimenta. El azúcar acelera el crecimiento 30 segundos, el trigo 20 segundos, la manzana y la zanahoria dorada 1 minuto, el fardo de heno 3 minutos y la manzana dorada 4 minutos.",
+      "Quédate con el mejor potro y críalo de nuevo para mejorar la línea a lo largo de las generaciones.",
+      "Criar un caballo con un burro da una mula, que no puede criar."
     ],
     "materials": [
-      "2 horses tameados (no hace falta saddle para criar)",
-      "2 golden apples o golden carrots",
-      "Fences o leads para tener a los padres quietos",
-      "Opcional: hay bales para que el foal crezca antes"
+      "2 caballos domados",
+      "2 zanahorias doradas o manzanas doradas",
+      "Vallas o correas para mantener juntos a los padres",
+      "Opcional: fardos de heno, manzanas o azúcar para que el potro crezca más rápido"
     ],
-    "editionNote": "La cría funciona igual en Java y Bedrock: mismas comidas, misma herencia de stats, mismos 20 minutos de crecimiento.",
-    "versions": "Horse desde 1.6.1 (Horse Update); cría desde la misma actualización.",
+    "editionNote": "Las comidas y los 20 minutos de crecimiento del potro son iguales en ambas ediciones. Solo en Bedrock: criar un caballo con un burro desbloquea el logro Artificial Selection, y un caballo adulto sin domar con la vida completa no puede comer heno.",
+    "versions": "Basado en la página Horse de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Qué comen los horses para criar?",
-        "a": "Solo golden apples o golden carrots: el wheat y las apples tamean y curan, pero no activan el modo amor."
+        "q": "¿Qué comen los caballos para criar?",
+        "a": "Las zanahorias doradas o manzanas doradas activan el modo amor en caballos domados. Las manzanas, el trigo, el azúcar y los fardos de heno los curan y aceleran el crecimiento del potro, pero no inician la cría."
       },
       {
-        "q": "¿Cómo consigo un horse más rápido?",
-        "a": "Cría tus dos horses más rápidos: el foal promedia la velocidad de ambos más una tirada aleatoria. Repite durante generaciones quedándote con los ganadores y te acercarás al tope de 14,5 bloques/segundo."
+        "q": "¿Cómo consigo un caballo más rápido?",
+        "a": "Las estadísticas se fijan al nacer y la comida no las cambia. En la cría, cada estadística del potro se calcula con una fórmula a partir de los dos padres, así que cruza a tus mejores caballos y quédate con los mejores potros."
       },
       {
-        "q": "¿Se puede cruzar un horse con un donkey?",
-        "a": "Sí: el resultado es una mule, que puede llevar chest y montarse, pero no puede criar."
+        "q": "¿Se puede criar un caballo con un burro?",
+        "a": "Sí. El resultado es una mula. Las mulas no pueden criar."
+      },
+      {
+        "q": "¿Cuánto tarda un potro en crecer?",
+        "a": "20 minutos si no se alimenta. Alimentarlo lo reduce: azúcar 30 segundos, trigo 20 segundos, manzana o zanahoria dorada 1 minuto, fardo de heno 3 minutos, manzana dorada 4 minutos."
       }
     ],
     "relatedLinks": [
@@ -1550,7 +1554,8 @@
         "url": "/es/mobs/donkey/",
         "label": "Donkey"
       }
-    ]
+    ],
+    "keywords": "criar caballos minecraft manzana dorada zanahoria dorada potro estadísticas mula burro crecer"
   },
   "how-to-make-concrete": {
     "name": "Cómo hacer Concrete en Minecraft",

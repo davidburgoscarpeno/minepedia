@@ -1771,36 +1771,40 @@
     "slug": "how-to-breed-horses",
     "name": "How to Breed Horses in Minecraft",
     "shortTitle": "Breed Horses",
-    "quickAnswer": "Tame two horses, then feed each a golden apple or golden carrot - they enter love mode and drop a foal. The foal's speed, jump and health average both parents' stats plus a random roll, so breeding two good horses slowly improves the bloodline. Foals take 20 minutes to grow (feed them to speed it up).",
+    "quickAnswer": "Tame two horses, then feed each a golden apple or golden carrot to activate love mode. They mate and produce a foal. The foal's health, speed and jump are worked out from both parents' stats by a formula, so breeding good horses can improve the line. Foals take 20 minutes to grow, and feeding them speeds that up.",
     "steps": [
-      "Tame both parents: mount each horse repeatedly until hearts appear. Horses with higher temper take more attempts - feed apples, wheat or hay bales to speed taming.",
-      "Craft the breeding food: golden apple (apple + 8 gold ingots) or golden carrot (carrot + 8 gold nuggets) - one for each parent.",
-      "Feed both horses: they enter love mode, kiss, and a foal spawns with a random mix of the parents' coat and markings (35 combinations exist).",
-      "Understand the stats: foal speed, jump height and health are the average of both parents plus a random roll - two fast parents usually give a fast foal, but RNG can bite.",
-      "Grow the foal: it takes 20 minutes naturally; feed it apples, wheat, sugar, hay bales or golden carrots to cut the time (hay bales cut the most).",
-      "Select and repeat: keep the best foal, breed it back with the best adult - a few generations of selective breeding gets you near-max speed and 5-block jumps.",
-      "Bonus: breed a horse with a donkey to get a mule - chest-carrying and rideable, but sterile."
+      "Tame both parents: taming is required to breed a horse. Repeated mounting eventually makes hearts appear above the horse.",
+      "Feed each tamed horse a golden carrot or golden apple. Those activate love mode in tamed horses. Plain apples, wheat and sugar do not.",
+      "The horses mate and a foal appears, and breeding gives 1-7 XP. The foal usually has the color and markings of one parent, with a 13/45 chance of random ones.",
+      "Stats: health, movement speed and jump height are set at birth, not affected by food. For breeding, the wiki says each stat is calculated by a formula from the parents' stats.",
+      "Grow the foal: foals take 20 minutes to mature unless fed. Sugar speeds growth by 30 seconds, wheat 20 seconds, apple and golden carrot by 1 minute, hay bale by 3 minutes and golden apple by 4 minutes.",
+      "Keep the best foal and breed it again to improve the line over generations.",
+      "Breeding a horse with a donkey gives a mule, which cannot breed."
     ],
     "materials": [
-      "2 tamed horses (saddle not needed for breeding)",
-      "2 golden apples or golden carrots",
-      "Fences or leads to keep the parents put",
-      "Optional: hay bales for faster foal growth"
+      "2 tamed horses",
+      "2 golden carrots or golden apples",
+      "Fences or leads to keep the parents together",
+      "Optional: hay bales, apples or sugar to grow the foal faster"
     ],
-    "editionNote": "Breeding works identically in Java and Bedrock: same foods, same stat inheritance, same 20-minute growth.",
-    "versions": "Horse since 1.6.1 (Horse Update); breeding since the same update.",
+    "editionNote": "Foods and 20-minute foal growth are the same in both editions. Bedrock only: breeding a horse with a donkey unlocks the Artificial Selection achievement, and an untamed adult horse at full health cannot be fed hay.",
+    "versions": "Based on the Horse page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "What do horses eat to breed?",
-        "a": "Golden apples or golden carrots only - wheat and apples tame and heal, but they do not trigger love mode for breeding."
+        "a": "Golden carrots or golden apples activate love mode in tamed horses. Apples, wheat, sugar and hay bales heal them and speed foal growth, but do not start breeding."
       },
       {
         "q": "How do I get a faster horse?",
-        "a": "Breed your two fastest horses: the foal averages both parents' speed plus a random roll. Repeat over generations and keep the winners - you can approach the 14.5 blocks/second cap."
+        "a": "Stats are set when a horse is born and are not changed by food. When breeding, each foal stat is calculated by a formula from both parents, so breed your best horses together and keep the best foals."
       },
       {
         "q": "Can you breed a horse and a donkey?",
-        "a": "Yes - the result is a mule, which can carry a chest and be ridden, but cannot breed itself."
+        "a": "Yes. The result is a mule. Mules cannot breed."
+      },
+      {
+        "q": "How long until a foal grows up?",
+        "a": "20 minutes if not fed. Feeding reduces it: sugar 30 seconds, wheat 20 seconds, apple or golden carrot 1 minute, hay bale 3 minutes, golden apple 4 minutes."
       }
     ],
     "relatedGuides": [
@@ -1816,7 +1820,7 @@
         "label": "Donkey"
       }
     ],
-    "keywords": "breed horses minecraft golden apple carrot foal speed jump stats mule donkey"
+    "keywords": "breed horses minecraft golden apple golden carrot foal stats mule donkey grow"
   },
   {
     "slug": "how-to-make-concrete",
