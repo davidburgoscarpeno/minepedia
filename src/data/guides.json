@@ -1027,35 +1027,40 @@
     "slug": "how-to-find-trial-chambers",
     "name": "How to Find and Beat Trial Chambers in Minecraft",
     "shortTitle": "Trial Chambers",
-    "quickAnswer": "Trial chambers generate underground in the Overworld: the starting room sits between Y=-40 and Y=-20, and most rooms are between Y=-20 and Y=0. Buy a Trial Chamber map from a journeyman Cartographer villager, or explore caves below those depths. Inside, trial spawners scale the fight to your party size, vaults take trial keys, and ominous trials (drink an Ominous Bottle for Trial Omen) award ominous keys for the heavy core that crafts the mace.",
+    "quickAnswer": "Trial chambers generate underground in the Overworld in any biome except the deep dark. The starting room is between Y=-40 and -20. Buy a trial explorer map from a journeyman cartographer (12 emeralds and a compass). They are made of tuff bricks and copper blocks, and hold trial spawners, vaults and the only breezes.",
     "steps": [
-      "Get a map: journeyman-level Cartographers sell a Trial Explorer Map pointing to the nearest unexplored chambers. Exploring caves around Y=-40 to 0 and watching for tuff-and-copper walls works too, and /locate structure minecraft:trial_chambers does it instantly with cheats.",
-      "Gear up like for a raid: Protection armor, shield, a strong melee weapon, a bow, food, and blocks. Bring empty inventory space for loot.",
-      "Fight the trial spawners: each one detects nearby players and spawns waves of a themed mob (melee, small melee or ranged: zombies, slimes, silverfish, spiders, skeletons, strays...; breezes live in their own rooms). More players nearby means more mobs, so solo runs are very manageable.",
-      "Loot the decorated pots and chests in corridors for trial keys, then open the Vault blocks scattered through the chambers - each player can open each vault once.",
-      "For the real prize, go ominous: drink an Ominous Bottle (from raid captains or vaults) to gain Trial Omen inside the chambers. Spawners turn ominous, mobs spawn with gear and projectiles, and defeated ominous spawners can drop Ominous Trial Keys.",
-      "Ominous keys open Ominous Vaults, the high blocks with the red glow: these hold the best loot, including the Heavy Core - combine it with a Breeze Rod (from the Breeze, found only here) to craft the Mace."
+      "Get a trial explorer map: a journeyman-level cartographer sells it for 12 emeralds and a compass. It points to the nearest trial chamber that does not already have a map pointing to it. Maps from the same cartographer always point to the same structure.",
+      "Without a map, look for exposed caves with odd shapes and tuff bricks and copper blocks. The wiki says the starting room sits between Y=-40 and -20, and trial chambers only generate in chunks created in 1.21 or later.",
+      "Trial spawners activate when a Survival or Adventure player is within 14 blocks with line of sight. With 1 player the spawner spawns 1 mob every 2 seconds, keeps at most 2 alive, and spawns 6 in total. More players nearby means more mobs and more rewards.",
+      "After the mobs are defeated, the spawner ejects rewards, including trial keys, and goes on a 30-minute cooldown.",
+      "Use trial keys on vaults. Each player can unlock a given vault only once, and it ejects 2 to 5 stacks of loot.",
+      "For ominous trials, drink an ominous bottle (a raid captain outside a raid always drops one) to get Bad Omen, which becomes Trial Omen in the chamber and turns trial spawners ominous. Ominous trial spawners give ominous trial keys, which open ominous vaults.",
+      "The wiki lists heavy cores and breeze rods as obtainable only from trial chambers, which makes them the only place to get the mace."
     ],
     "materials": [
-      "Trial Explorer Map (cartographer) or cave exploration",
-      "Protection armor, shield, sword/axe and bow",
-      "Food, blocks, empty inventory slots",
-      "Ominous Bottle for ominous trials (optional, for heavy core)"
+      "Trial explorer map (12 emeralds and a compass at a journeyman cartographer)",
+      "Armor, a shield, a melee weapon and a bow",
+      "Food and blocks",
+      "An ominous bottle for an ominous trial (optional)"
     ],
-    "editionNote": "Trial chambers are the same structure on Java and Bedrock, including trial spawner scaling, vaults, ominous trials and the cartographer map trade. Ominous vault loot tables and the mace recipe (heavy core + breeze rod) match on both. Bedrock combat is a little easier on the mace's smash attack timing, but the mechanics are shared.",
-    "versions": "Added in 1.21 (Tricky Trials). Current as of 26.3.",
+    "editionNote": "The wiki treats trial chambers as the same structure in both editions. Generation follows a grid of 34x34 chunk regions with one chamber per region, unless a deep dark biome cancels it. In Java, a given villager always trades the same map, set when the trade unlocks.",
+    "versions": "Based on the Trial Chambers, Trial Spawner, Vault and Ominous Bottle pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "How do you get the mace in Minecraft?",
-        "a": "Craft it from a Heavy Core (ominous vault loot in trial chambers) plus a Breeze Rod dropped by the Breeze, a trial chambers mob. It is the only source of both items."
+        "q": "How do you get the mace?",
+        "a": "The wiki says heavy cores and breeze rods can only be obtained in trial chambers, so that is the only place to get a mace. Breezes spawn only in trial chambers."
       },
       {
         "q": "What is the difference between a vault and an ominous vault?",
-        "a": "Regular vaults open with trial keys and give mid-tier loot. Ominous vaults (taller, red-glowing) only open with ominous trial keys from ominous trial spawners and hold the top loot: heavy cores, enchanted golden apples, flow and bolt armor trims, and the best enchanted books."
+        "a": "Standard vaults open with a trial key. Ominous vaults open with an ominous trial key, which only comes from ominous trial spawners. Each player can unlock each vault only once."
       },
       {
-        "q": "Do trial spawners ever stop spawning?",
-        "a": "Each spawner has a per-player cooldown after you defeat it (about 30 minutes in real time), then it can be fought again. They cannot be mined or moved, so the chambers are a repeatable combat arena."
+        "q": "Do trial spawners ever reset?",
+        "a": "After the mobs are defeated, a trial spawner ejects its rewards and deactivates for 30 minutes."
+      },
+      {
+        "q": "Can a trial chamber generate in the deep dark?",
+        "a": "Its origin point cannot generate in a deep dark biome, and a deep dark can cancel the chamber in a region, but other parts can intersect a deep dark."
       }
     ],
     "relatedGuides": [
@@ -1076,7 +1081,7 @@
         "label": "Voluntary Exile advancement"
       }
     ],
-    "keywords": "trial chambers find map cartographer vault ominous key heavy core mace breeze"
+    "keywords": "trial chambers find map cartographer trial spawner vault ominous key heavy core mace breeze"
   },
   {
     "slug": "how-to-get-mending",

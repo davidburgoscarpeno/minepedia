@@ -819,35 +819,40 @@
   "how-to-find-trial-chambers": {
     "name": "Cómo encontrar y superar las trial chambers en Minecraft",
     "shortTitle": "Trial chambers",
-    "quickAnswer": "Las trial chambers se generan bajo tierra en el Overworld: la sala inicial está entre Y=-40 e Y=-20 y la mayoría de salas entre Y=-20 e Y=0. Compra un mapa de trial chamber a un aldeano cartógrafo de nivel oficial (journeyman), o explora cuevas por debajo de esas profundidades. Dentro, los trial spawners escalan el combate al tamaño de tu grupo, las vaults se abren con trial keys, y las pruebas ominosas (bebe una ominous bottle para Trial Omen) premian con ominous keys para el heavy core que fabrica la maza.",
+    "quickAnswer": "Las trial chambers generan bajo tierra en el Overworld, en cualquier bioma salvo el deep dark. La sala inicial está entre Y=-40 y -20. Compra un trial explorer map a un cartógrafo oficial (12 esmeraldas y una brújula). Están hechas de ladrillos de toba y bloques de cobre, y contienen trial spawners, vaults y los únicos breezes.",
     "steps": [
-      "Consigue un mapa: los cartógrafos de nivel journeyman venden un Trial Explorer Map que apunta a las cámaras sin explorar más cercanas. Explorar cuevas entre Y=-40 y 0 buscando muros de tuff y cobre también funciona, y /locate structure minecraft:trial_chambers lo hace al instante con trucos.",
-      "Equípate como para una raid: armadura con Protección, escudo, un buen arma cuerpo a cuerpo, arco, comida y bloques. Lleva el inventario con espacio para el botín.",
-      "Combate los trial spawners: cada uno detecta a los jugadores cercanos y genera oleadas de un mob temático (cuerpo a cuerpo, pequeño o a distancia: zombis, slimes, silverfish, spiders, skeletons, strays...; los breezes viven en salas propias). Cuantos más jugadores cerca, más mobs, así que en solitario es muy llevadero.",
-      "Saquea las decorated pots y los cofres de los pasillos para conseguir trial keys, y luego abre los bloques Vault repartidos por las cámaras: cada jugador puede abrir cada vault una vez.",
-      "Para el premio de verdad, ve a lo ominoso: bebe una ominous bottle (de capitanes de raid o de las propias vaults) para ganar Trial Omen dentro de las cámaras. Los spawners se vuelven ominosos, los mobs aparecen con equipo y proyectiles, y los spawners ominosos derrotados pueden soltar Ominous Trial Keys.",
-      "Las llaves ominosas abren las Ominous Vaults, los bloques altos con brillo rojo: guardan el mejor botín, incluido el Heavy Core, que combinado con una breeze rod (del breeze, que solo está aquí) fabrica la maza."
+      "Consigue un trial explorer map: un cartógrafo de nivel oficial lo vende por 12 esmeraldas y una brújula. Apunta a la trial chamber más cercana que no tenga ya un mapa apuntándola. Los mapas del mismo cartógrafo siempre apuntan a la misma estructura.",
+      "Sin mapa, busca cuevas expuestas de formas raras y ladrillos de toba y bloques de cobre. La wiki indica que la sala inicial está entre Y=-40 y -20, y que las trial chambers solo generan en chunks creados en 1.21 o posterior.",
+      "Los trial spawners se activan cuando un jugador en Survival o Adventure está a menos de 14 bloques con línea de visión. Con 1 jugador el spawner genera 1 mob cada 2 segundos, mantiene como máximo 2 vivos y genera 6 en total. Más jugadores cerca significa más mobs y más recompensas.",
+      "Al derrotar a los mobs, el spawner expulsa recompensas, incluidas trial keys, y entra en enfriamiento de 30 minutos.",
+      "Usa las trial keys en los vaults. Cada jugador puede abrir un vault concreto una sola vez, y expulsa de 2 a 5 pilas de botín.",
+      "Para las ominous trials, bebe una ominous bottle (un capitán de pillagers fuera de una raid siempre suelta una) para obtener Bad Omen, que se convierte en Trial Omen dentro de la cámara y vuelve ominosos a los trial spawners. Los spawners ominosos dan ominous trial keys, que abren ominous vaults.",
+      "La wiki indica que los heavy cores y los breeze rods solo se obtienen en trial chambers, así que es el único sitio para conseguir la mace."
     ],
     "materials": [
-      "Trial Explorer Map (cartógrafo) o exploración de cuevas",
-      "Armadura con Protección, escudo, espada/hacha y arco",
-      "Comida, bloques, huecos libres en el inventario",
-      "Ominous bottle para las pruebas ominosas (opcional, para el heavy core)"
+      "Trial explorer map (12 esmeraldas y una brújula con un cartógrafo oficial)",
+      "Armadura, escudo, arma cuerpo a cuerpo y arco",
+      "Comida y bloques",
+      "Una ominous bottle para una ominous trial (opcional)"
     ],
-    "editionNote": "Las trial chambers son la misma estructura en Java y Bedrock, incluido el escalado de los trial spawners, las vaults, las pruebas ominosas y el trueque del mapa del cartógrafo. Las tablas de botín de las ominous vaults y la receta de la maza (heavy core + breeze rod) coinciden en ambas. El combate de Bedrock es un poco más fácil en el timing del golpe aplastante de la maza, pero las mecánicas son compartidas.",
-    "versions": "Añadidas en la 1.21 (Tricky Trials). Vigente a fecha de 26.3.",
+    "editionNote": "La wiki trata las trial chambers como la misma estructura en ambas ediciones. La generación sigue una cuadrícula de regiones de 34x34 chunks con una cámara por región, salvo que un bioma deep dark la cancele. En Java, un aldeano siempre vende el mismo mapa, fijado al desbloquear el trueque.",
+    "versions": "Basado en las páginas Trial Chambers, Trial Spawner, Vault y Ominous Bottle de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cómo se consigue la maza en Minecraft?",
-        "a": "Se fabrica con un Heavy Core (botín de las ominous vaults de las trial chambers) más una breeze rod que suelta el breeze, un mob de las trial chambers. Es la única fuente de ambos objetos."
+        "q": "¿Cómo se consigue la mace?",
+        "a": "La wiki indica que los heavy cores y los breeze rods solo se obtienen en trial chambers, así que es el único lugar para conseguir una mace. Los breezes solo aparecen en trial chambers."
       },
       {
-        "q": "¿Qué diferencia hay entre una vault y una ominous vault?",
-        "a": "Las vaults normales se abren con trial keys y dan botín medio. Las ominous vaults (más altas, con brillo rojo) solo se abren con ominous trial keys de los trial spawners ominosos y guardan el mejor botín: heavy cores, manzanas doradas encantadas, armor trims flow y bolt, y los mejores libros encantados."
+        "q": "¿Qué diferencia hay entre un vault y un ominous vault?",
+        "a": "Los vaults normales se abren con una trial key. Los ominous vaults se abren con una ominous trial key, que solo viene de trial spawners ominosos. Cada jugador puede abrir cada vault una sola vez."
       },
       {
-        "q": "¿Los trial spawners dejan de generar mobs alguna vez?",
-        "a": "Cada spawner tiene un cooldown por jugador tras derrotarlo (unos 30 minutos de tiempo real) y luego se puede combatir otra vez. No se pueden minar ni mover, así que las cámaras son una arena de combate repetible."
+        "q": "¿Se reinician los trial spawners?",
+        "a": "Al derrotar a los mobs, un trial spawner expulsa sus recompensas y se desactiva durante 30 minutos."
+      },
+      {
+        "q": "¿Puede generar una trial chamber en el deep dark?",
+        "a": "Su punto de origen no puede generar en un bioma deep dark, y un deep dark puede cancelar la cámara de una región, pero otras partes sí pueden cruzarse con un deep dark."
       }
     ],
     "relatedLinks": [
@@ -867,7 +872,8 @@
     "relatedGuides": [
       "how-to-start-raid",
       "how-to-enchant"
-    ]
+    ],
+    "keywords": "encontrar trial chambers mapa cartógrafo trial spawner vault ominous key heavy core mace breeze"
   },
   "how-to-get-mending": {
     "name": "Cómo conseguir Mending en Minecraft",
