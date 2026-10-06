@@ -2847,37 +2847,40 @@
     "slug": "how-to-make-cake",
     "name": "How to Make a Cake in Minecraft",
     "shortTitle": "Make a Cake",
-    "quickAnswer": "Craft a cake with 3 milk buckets on top, sugar-egg-sugar in the middle and 3 wheat on the bottom. Place it down and eat 7 slices worth 14 hunger total - the most hunger of any single food item, and yes, the cake is a lie.",
+    "quickAnswer": "Craft a cake from milk buckets, sugar, any egg and wheat. Place it on a solid block and use it to eat its 7 slices: 2 hunger and 0.4 saturation each, 14 hunger and 2.8 saturation for the whole cake. Once placed it cannot be picked up, even with Silk Touch.",
     "steps": [
-      "Get 3 milk buckets: craft 3 buckets (9 iron) and right-click cows, mooshrooms or goats. The buckets come back after crafting.",
-      "Get 2 sugar: craft sugar cane (found on riverbanks and beaches) into sugar.",
-      "Get 1 egg: chickens lay one every 5-10 minutes, so pen a few up - any egg type works.",
-      "Get 3 wheat: grow it from seeds on farmland or steal it from village fields.",
-      "Craft the cake: milk buckets filling the top row, sugar-egg-sugar in the middle row, wheat filling the bottom row.",
-      "Place it to eat: cake is a block, not a snack - it does nothing from your hand. Put it down and use it; each use eats one of its 7 slices, 2 hunger each, 14 hunger for the whole cake.",
-      "Know the quirks: once placed, a cake can never be picked up again (not even with Silk Touch). Eating is instant - no eating animation - so it is great panic food mid-fight.",
-      "Party tricks: put a candle on it for a birthday cake (since 1.17), feed slices to pandas, or read the remaining slices with a comparator for redstone builds."
+      "Gather milk buckets, sugar, any egg and wheat. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Craft the cake. The empty buckets stay in the crafting grid in Java and go to your inventory in Bedrock.",
+      "Place the cake on a solid block (a slab also works). Unlike most food, you cannot eat it from your hotbar.",
+      "Use it to eat one slice at a time, from the west side. A slice restores 2 hunger and 0.4 saturation.",
+      "There is no eating animation, so you can eat a slice per tick, and several players can eat from one cake. In Java it makes no sound.",
+      "Put any candle on an uneaten cake to make a cake with candle, then light it with flint and steel. It always drops its candle when broken.",
+      "Redstone: a comparator reads a whole cake as signal strength 14, which drops by 2 for each slice eaten."
     ],
     "materials": [
-      "3 milk buckets (buckets returned)",
-      "2 sugar",
-      "1 egg (any type)",
-      "3 wheat"
+      "Milk buckets",
+      "Sugar",
+      "Any egg",
+      "Wheat"
     ],
-    "editionNote": "Identical in both editions, candles included. The whole-cake 14 hunger points is the highest of any food in the game - but the saturation is low, so you get hungry again fast.",
-    "versions": "Cake was added in Java Beta 1.2 after Minecraft won the 2010 Indie of the Year award, with the famous 'The Lie' achievement (a Portal reference) arriving in 1.5; Pocket Edition got it in 0.7.0.",
+    "editionNote": "Cake stacks to 64 in Bedrock but not in Java. Empty buckets stay in the crafting grid in Java and move to the first free inventory slot in Bedrock. A cake pushed by a piston breaks and drops nothing.",
+    "versions": "Based on the Cake page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "Why can't I eat my cake?",
-        "a": "Cake must be placed as a block first - you cannot eat it from your hand. Once placed, it cannot be picked back up, so choose the spot wisely."
+        "q": "How much hunger does a cake restore?",
+        "a": "2 hunger per slice, 14 for all 7 slices, but saturation is low (0.4 per slice, 2.8 total)."
       },
       {
-        "q": "How many slices does a Minecraft cake have?",
-        "a": "Seven. Each slice restores 2 hunger points, so a whole cake is 14 hunger - the most of any food item - but with very low saturation."
+        "q": "Can I pick a cake up after placing it?",
+        "a": "No. It cannot be recollected, even with Silk Touch."
       },
       {
-        "q": "How do you put a candle on a cake?",
-        "a": "Hold any candle and use it on a placed cake. Light it with flint and steel for a birthday cake. Breaking the cake drops nothing, so eat it first."
+        "q": "Can I eat cake from my hotbar?",
+        "a": "No. You must place it on a solid block first."
+      },
+      {
+        "q": "Does cake breed pandas?",
+        "a": "No. Some pandas move toward a dropped cake and eat it, but cake cannot be used to breed them."
       }
     ],
     "relatedGuides": [
@@ -2894,7 +2897,7 @@
         "href": "/mobs/chicken/"
       }
     ],
-    "keywords": "cake minecraft craft 3 milk buckets 2 sugar 1 egg 3 wheat 7 slices hunger candle the lie panda"
+    "keywords": "cake minecraft how to make milk bucket sugar egg wheat slices candle hunger"
   },
   {
     "slug": "how-to-make-dispenser",

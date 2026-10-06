@@ -2475,37 +2475,40 @@
   "how-to-make-cake": {
     "name": "Cómo hacer un Cake en Minecraft",
     "shortTitle": "Hacer un Cake",
-    "quickAnswer": "Craftea un cake con 3 milk buckets arriba, sugar-egg-sugar en el medio y 3 wheat abajo. Colócalo y come 7 porciones por 14 de hambre en total: la comida con más puntos de hambre del juego. Y sí, the cake is a lie.",
+    "quickAnswer": "Fabrica una tarta con cubos de leche, azúcar, cualquier huevo y trigo. Colócala sobre un bloque sólido y úsala para comer sus 7 porciones: 2 de hambre y 0,4 de saturación cada una, 14 de hambre y 2,8 de saturación la tarta entera. Una vez colocada no se puede recoger, ni con Toque de seda.",
     "steps": [
-      "Consigue 3 milk buckets: craftea 3 buckets (9 iron) y haz clic derecho en cows, mooshrooms o goats. Los buckets se devuelven tras el crafteo.",
-      "Consigue 2 sugar: craftea sugar cane (crece en riberas y playas) en sugar.",
-      "Consigue 1 egg: las chickens ponen uno cada 5-10 minutos, así que encierra unas cuantas; vale cualquier tipo de huevo.",
-      "Consigue 3 wheat: cultívalo a partir de seeds en farmland o róbalo de los campos de las villages.",
-      "Craftea el cake: milk buckets llenando la fila superior, sugar-egg-sugar en la fila central y wheat llenando la fila inferior.",
-      "Colócalo para comer: el cake es un bloque, no un tentempié: desde la mano no hace nada. Ponlo y úsalo; cada uso come una de sus 7 porciones, 2 de hambre cada una, 14 de hambre el cake entero.",
-      "Conoce sus rarezas: una vez colocado, un cake no se puede recoger jamás (ni con Silk Touch). Comer es instantáneo, sin animación, así que es comida de emergencia genial en plena pelea.",
-      "Trucos de fiesta: ponle una candle para un pastel de cumpleaños (desde 1.17), da de comer porciones a los pandas o lee las porciones restantes con un comparator para construcciones de redstone."
+      "Reúne cubos de leche, azúcar, cualquier huevo y trigo. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Fabrica la tarta. Los cubos vacíos se quedan en la cuadrícula en Java y van a tu inventario en Bedrock.",
+      "Coloca la tarta sobre un bloque sólido (una losa también vale). A diferencia de la mayoría de comidas, no se puede comer desde la barra rápida.",
+      "Úsala para comer una porción cada vez, empezando por el lado oeste. Una porción restaura 2 de hambre y 0,4 de saturación.",
+      "No hay animación de comer, así que puedes comer una porción por tick, y varios jugadores pueden comer de la misma tarta. En Java no hace sonido.",
+      "Pon cualquier vela sobre una tarta sin empezar para hacer una tarta con vela, y enciéndela con pedernal y acero. Siempre suelta su vela al romperse.",
+      "Redstone: un comparador lee una tarta entera como fuerza de señal 14, que baja 2 por cada porción comida."
     ],
     "materials": [
-      "3 milk buckets (los buckets se devuelven)",
-      "2 sugar",
-      "1 egg (cualquier tipo)",
-      "3 wheat"
+      "Cubos de leche",
+      "Azúcar",
+      "Cualquier huevo",
+      "Trigo"
     ],
-    "editionNote": "Idéntico en ambas ediciones, candles incluidas. Los 14 puntos de hambre del cake entero son el máximo de cualquier comida del juego, pero la saturación es baja, así que vuelves a tener hambre rápido.",
-    "versions": "El cake se añadió en Java Beta 1.2 tras ganar Minecraft el premio Indie of the Year 2010, y el famoso logro 'The Lie' (referencia a Portal) llegó en 1.5; Pocket Edition lo recibió en 0.7.0.",
+    "editionNote": "La tarta se apila hasta 64 en Bedrock pero no en Java. Los cubos vacíos se quedan en la cuadrícula en Java y van a la primera ranura libre en Bedrock. Una tarta empujada por un pistón se rompe y no suelta nada.",
+    "versions": "Basado en la página Cake de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué no puedo comerme mi cake?",
-        "a": "El cake hay que colocarlo como bloque primero: no se puede comer desde la mano. Una vez colocado no se puede recoger, así que elige bien el sitio."
+        "q": "¿Cuánta hambre restaura una tarta?",
+        "a": "2 de hambre por porción, 14 las 7 porciones, pero la saturación es baja (0,4 por porción, 2,8 en total)."
       },
       {
-        "q": "¿Cuántas porciones tiene un cake de Minecraft?",
-        "a": "Siete. Cada porción restaura 2 puntos de hambre, así que un cake entero son 14 de hambre, el máximo de cualquier comida, pero con muy poca saturación."
+        "q": "¿Puedo recoger una tarta después de colocarla?",
+        "a": "No. No se puede recuperar, ni con Toque de seda."
       },
       {
-        "q": "¿Cómo se pone una candle en un cake?",
-        "a": "Lleva cualquier candle en la mano y úsala sobre un cake colocado. Enciéndela con flint and steel para un pastel de cumpleaños. Romper el cake no suelta nada, así que cómelo primero."
+        "q": "¿Puedo comer tarta desde la barra rápida?",
+        "a": "No. Primero hay que colocarla sobre un bloque sólido."
+      },
+      {
+        "q": "¿La tarta sirve para criar pandas?",
+        "a": "No. Algunos pandas van hacia una tarta caída y se la comen, pero no se puede usar para criarlos."
       }
     ],
     "relatedGuides": [
@@ -2522,7 +2525,7 @@
         "href": "/es/mobs/chicken/"
       }
     ],
-    "keywords": "cake minecraft craft 3 milk buckets 2 sugar 1 egg 3 wheat 7 porciones hambre candle the lie panda"
+    "keywords": "tarta pastel cake minecraft cómo hacer cubo de leche azúcar huevo trigo porciones vela hambre"
   },
   "how-to-make-dispenser": {
     "name": "Cómo hacer un Dispenser en Minecraft",
