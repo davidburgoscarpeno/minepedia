@@ -1587,34 +1587,39 @@
     "slug": "how-to-make-lead",
     "name": "How to Make a Lead in Minecraft",
     "shortTitle": "Make a Lead",
-    "quickAnswer": "Craft a lead with 5 string: string in the top-left 2x2 corner and one in the bottom-center slot - the recipe gives 2 leads. Since 1.21.6 no slimeball is needed (the old recipe was 4 string + 1 slimeball). Leads leash most passive mobs and tie them to fences.",
+    "quickAnswer": "Craft leads from 5 string: one craft gives 2 leads. The old recipe (4 string + 1 slimeball) was replaced in 25w18a (Java) and Preview 1.21.90.21 (Bedrock). Use a lead on a mob to leash it, and use it on a fence to tie the mob there.",
     "steps": [
-      "Gather 5 string: kill spiders or cave spiders at night, break cobwebs with a sword or shears, or barter with piglins.",
-      "Open a crafting table: place string in the top-left, top-center, middle-left and center slots (a 2x2 block in the corner) plus one string in the bottom-center slot.",
-      "Take your 2 leads - each craft produces two.",
-      "Leash a mob: hold the lead and right-click (use) on a cow, horse, sheep, camel or most other passive mobs. Each mob needs its own lead.",
-      "Tie to a fence: with a mob leashed, use the lead on a fence post to hitch it - it will stay within 5 blocks (the lead drops if stretched past 10).",
-      "No lead? Leads also generate in woodland mansion chests, buried treasure (Bedrock) and trail ruins suspicious gravel."
+      "Gather 5 string for each craft, which gives 2 leads.",
+      "Craft the lead in a crafting table.",
+      "Use a lead on a leashable mob to leash it. Each leashed mob needs its own lead. Hostile mobs usually cannot be leashed, and wolves cannot be leashed once angry.",
+      "To tie a mob, use the lead on any type of fence: it attaches with a visible knot. A mob tied to a fence tends to stay within 5 blocks of the post.",
+      "A lead can stretch a maximum of 12 blocks (16 if the mob is a happy ghast). Past that, or if the mob moves quickly away, the lead breaks and drops as an item.",
+      "Remove a lead by using it on the mob again, hitting the knot, or using shears. The lead drops as an item (not in Creative on Java).",
+      "No string? Leads can also come from the wandering trader's trader llamas (dropped when a llama is detached), or from chests in woodland mansions, ancient cities and abandoned camps."
     ],
     "materials": [
-      "5 string (spiders, cobwebs, piglin bartering)",
+      "5 string",
       "Crafting table",
-      "A fence post for hitching"
+      "A fence (to tie the mob)"
     ],
-    "editionNote": "The recipe is identical in Java and Bedrock since 1.21.6: 5 string, 2 leads, no slimeball. On older versions you need 4 string + 1 slimeball.",
-    "versions": "Lead since 1.6.1; current string-only recipe since 1.21.6.",
+    "editionNote": "Both editions use 5 string for 2 leads now. Bedrock: when a chunk unloads with a leashed mob inside, the lead sometimes breaks and drops. The wiki lists the balloon recipe (with lead) for Bedrock and Education only.",
+    "versions": "Based on the Lead page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "How do you make a lead in Minecraft?",
-        "a": "5 string in a crafting table: a 2x2 block of string in one corner plus one string in the opposite corner slot. The recipe yields 2 leads."
+        "q": "How do you make a lead?",
+        "a": "With 5 string in a crafting table. One craft gives 2 leads. The old recipe was 4 string and 1 slimeball."
       },
       {
-        "q": "Do you need a slimeball for a lead?",
-        "a": "Not since 1.21.6 - the recipe changed from 4 string + 1 slimeball to just 5 string. On older versions you still need the slimeball."
+        "q": "Do you still need a slimeball?",
+        "a": "No. The wiki says leads are now crafted with 5 string instead of 4 string and 1 slimeball (Java 25w18a, Bedrock Preview 1.21.90.21)."
       },
       {
-        "q": "Why does my lead keep breaking?",
-        "a": "Leads snap when stretched more than 10 blocks from the hitching fence or the mob. Walk mobs carefully through doors and terrain, or carry them by boat instead."
+        "q": "Why did my lead break?",
+        "a": "A lead stretches at most 12 blocks (16 for a happy ghast) and breaks if the mob cannot follow or moves quickly away. It also breaks when hit by a projectile or when the fence post is removed or pushed."
+      },
+      {
+        "q": "Does a lead break if the mob dies?",
+        "a": "No. A lead does not break if the attached animal dies."
       }
     ],
     "relatedGuides": [
@@ -1630,7 +1635,7 @@
         "label": "Horse"
       }
     ],
-    "keywords": "lead leash minecraft recipe string slimeball 1.21.6 how to make fence hitch mob"
+    "keywords": "lead leash minecraft recipe string how to make fence tie mob"
   },
   {
     "slug": "how-to-make-smooth-stone",
