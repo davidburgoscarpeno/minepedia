@@ -1131,14 +1131,14 @@
   "how-to-find-slimes": {
     "name": "Cómo encontrar Slimes en Minecraft",
     "shortTitle": "Encontrar Slimes",
-    "quickAnswer": "Los slimes aparecen en dos sitios: swamps y mangrove swamps entre Y=51 e Y=69 de noche (mejor cerca de luna llena, nunca en luna nueva), o en slime chunks por debajo de Y=40 con cualquier luz. Aproximadamente 1 de cada 10 chunks es un slime chunk: depende de la seed en Java y son coordenadas fijas en todos los mundos de Bedrock.",
+    "quickAnswer": "Los slimes aparecen en swamps y mangrove swamps entre Y=51 y Y=69 con luz de nivel 7 o menos (más a menudo con luna llena, nunca con luna nueva), o en slime chunks bajo Y=40 sin importar luz ni clima. Aproximadamente 1 de cada 10 chunks es un slime chunk.",
     "steps": [
-      "Método fácil - swamps: ve a un swamp o mangrove swamp de noche. Los slimes aparecen entre Y=51 e Y=69 con nivel de luz 7 o menos.",
-      "Mira la luna: aparecen sobre todo en luna llena y nunca en luna nueva. Espera a las fases más llenas para sacar slimeballs de verdad.",
-      "Método de cuevas: explora cuevas por debajo de Y=40 y escucha slimes: si ves uno bajo tierra, has encontrado un slime chunk.",
-      "Confirma el slime chunk: en Java depende de la seed del mundo (usa un buscador de slime chunks tipo Chunkbase); en Bedrock están en las mismas coordenadas en todos los mundos.",
-      "Ilumina igualmente: los spawns de slime chunk ignoran la luz, así que las torches no los frenan - y bajo Y=40 aparecen con cualquier clima.",
-      "Construye una granja: vacía un slime chunk bajo Y=40 en plataformas de spawn con un iron golem de cebo - los slimes se dividen y solo los pequeños sueltan slimeballs (0-2, más con Saqueo)."
+      "Swamps: ve a un swamp o mangrove swamp. Los slimes aparecen entre Y=51 y Y=69 (inclusive) con luz de nivel 7 o menos, lo que también les deja aparecer en zonas poco iluminadas donde casi ningún mob hostil puede.",
+      "Vigila la luna: los slimes de swamp aparecen más con luna llena y nunca con luna nueva.",
+      "Slime chunks: bajo Y=40 en el Overworld, los slimes aparecen en grupos de cuatro en Java o de uno en uno en Bedrock, sin importar luz ni clima.",
+      "Aproximadamente 1 de cada 10 chunks es un slime chunk, determinado por un algoritmo. En Java depende de la semilla del mundo; en Bedrock están en las mismas coordenadas en todos los mundos.",
+      "Dales espacio: un slime necesita un espacio libre de unos 2,04x2,04x2,04 bloques para aparecer y cualquier bloque en ese espacio, incluso un panel de cristal, puede impedirlo.",
+      "Los slimes se dividen en slimes más pequeños al morir, y son una fuente importante de slimeballs."
     ],
     "materials": [
       "Torches (no frenan slimes, pero sí todo lo demás)",
@@ -1147,19 +1147,23 @@
       "Opcional: buscador de slime chunks Chunkbase (Java)"
     ],
     "editionNote": "En Java los slimes aparecen en grupos de cuatro en slime chunks; en Bedrock aparecen de uno en uno, y los slime chunks están en las mismas coordenadas en todos los mundos. El spawn de swamp funciona en ambas.",
-    "versions": "Slimes desde Java Alpha 1.0.11; spawn en mangrove swamps desde 1.19 (The Wild Update).",
+    "versions": "Según la página Slime de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿A qué altura aparecen los slimes?",
-        "a": "En swamps: de Y=51 a Y=69, con luz 7 o menos. En slime chunks: en cualquier punto bajo Y=40, con cualquier luz."
+        "q": "¿A qué altura Y aparecen los slimes?",
+        "a": "En swamps y mangrove swamps: Y=51 a Y=69 con luz de nivel 7 o menos. En slime chunks: bajo Y=40, sin importar luz ni clima."
       },
       {
-        "q": "¿Cómo encuentro un slime chunk sin mods?",
-        "a": "Explora cuevas bajo Y=40 hasta ver u oír slimes: ese chunk es un slime chunk. Lo es ~1 de cada 10. En Java también puedes pegar tu seed en un buscador de slime chunks."
+        "q": "¿Cuánto espacio necesita un slime?",
+        "a": "Unos 2,04x2,04x2,04 bloques libres de bloques sólidos y líquidos."
       },
       {
-        "q": "¿Aparecen slimes en luna nueva?",
-        "a": "No. El spawn de swamp escala con la fase lunar: máximo en luna llena, cero en luna nueva. Los slime chunks no se ven afectados por la luna."
+        "q": "¿Aparecen slimes con luna nueva?",
+        "a": "En swamps no: nunca con luna nueva y más con luna llena. Los slime chunks ignoran luz y clima."
+      },
+      {
+        "q": "¿Qué tan comunes son los slime chunks?",
+        "a": "Aproximadamente 1 de cada 10 chunks. En Java depende de la semilla; en Bedrock es igual en todos los mundos."
       }
     ],
     "relatedLinks": [

@@ -1371,14 +1371,14 @@
     "slug": "how-to-find-slimes",
     "name": "How to Find Slimes in Minecraft",
     "shortTitle": "Find Slimes",
-    "quickAnswer": "Slimes spawn in two places: swamps and mangrove swamps between Y=51 and Y=69 at night (best near a full moon, never on a new moon), or in slime chunks below Y=40 at any light level. About 1 in 10 chunks is a slime chunk - seed-based in Java, fixed coordinates in every Bedrock world.",
+    "quickAnswer": "Slimes spawn in swamps and mangrove swamps between Y=51 and Y=69 at light level 7 or less (most often on a full moon, never on a new moon), or in slime chunks below Y=40 regardless of light or weather. About 1 in 10 chunks is a slime chunk.",
     "steps": [
-      "Easiest method - swamps: go to a swamp or mangrove swamp at night. Slimes spawn between Y=51 and Y=69 when the light level is 7 or less.",
-      "Watch the moon: slimes spawn most often on a full moon and never on a new moon. Wait for fuller phases for real slimeball income.",
-      "Cave method: explore caves below Y=40 and listen for slimes - when you find one underground, you have found a slime chunk.",
-      "Confirm slime chunks: in Java they are determined by the world seed (use a seed-based slime chunk finder like Chunkbase); in Bedrock they sit at the same coordinates in every world.",
-      "Light it up anyway: slime chunk spawns ignore light level, so torching the area does not stop them - and below Y=40 slimes spawn regardless of weather.",
-      "Farm it: dig out a slime chunk below Y=40 into spawning platforms with iron golem bait - slimes split into smaller ones, and only the smallest drop slimeballs (0-2 each, more with Looting)."
+      "Swamps: go to a swamp or mangrove swamp. Slimes spawn there between Y=51 and Y=69 (inclusive) when the light level is 7 or less, which also lets them spawn in dim areas where most hostile mobs cannot.",
+      "Watch the moon: swamp slimes spawn most often on a full moon and never on a new moon.",
+      "Slime chunks: below Y=40 in the Overworld, slimes spawn in groups of four in Java Edition or individually in Bedrock Edition, regardless of lighting or weather.",
+      "About 1 in 10 chunks is a slime chunk, determined by an algorithm. In Java Edition it depends on the world seed; in Bedrock Edition they are at the same coordinates in every world.",
+      "Give them room: a slime needs a clear space of about 2.04x2.04x2.04 blocks to spawn, and any block in that space, even a glass pane, can stop a spawn.",
+      "Slimes split into smaller slimes on death, and slimes are a major source of slimeballs."
     ],
     "materials": [
       "Torches (they do not stop slimes, but stop everything else)",
@@ -1387,19 +1387,23 @@
       "Optional: Chunkbase slime chunk finder (Java)"
     ],
     "editionNote": "In Java slimes spawn in groups of four in slime chunks; in Bedrock they spawn individually, and slime chunks are at the same coordinates in every world. Swamp spawning works in both.",
-    "versions": "Slimes since Java Alpha 1.0.11; mangrove swamp spawning since 1.19 (The Wild Update).",
+    "versions": "Per the Minecraft Wiki Slime page.",
     "faq": [
       {
         "q": "What Y level do slimes spawn at?",
-        "a": "In swamps: Y=51 to Y=69, at light level 7 or less. In slime chunks: anywhere below Y=40, at any light level."
+        "a": "In swamps and mangrove swamps: Y=51 to Y=69 at light level 7 or less. In slime chunks: below Y=40, regardless of light or weather."
       },
       {
-        "q": "How do I find a slime chunk without mods?",
-        "a": "Explore caves below Y=40 until you see or hear slimes - that chunk is a slime chunk. About 1 in 10 chunks qualifies. In Java you can also paste your seed into a slime chunk finder."
+        "q": "How big a space does a slime need?",
+        "a": "About 2.04x2.04x2.04 blocks, clear of solid and liquid blocks."
       },
       {
         "q": "Do slimes spawn on a new moon?",
-        "a": "No. Swamp slime spawns scale with the moon phase: most on a full moon, zero on a new moon. Slime chunks are unaffected by the moon."
+        "a": "Not in swamps: they never spawn on a new moon and spawn most on a full moon. Slime chunks ignore light and weather."
+      },
+      {
+        "q": "How common are slime chunks?",
+        "a": "About 1 in 10 chunks. In Java Edition it depends on the world seed; in Bedrock Edition it is the same for every world."
       }
     ],
     "relatedGuides": [
