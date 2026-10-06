@@ -3066,35 +3066,40 @@
     "slug": "how-to-make-furnace",
     "name": "How to Make a Furnace in Minecraft",
     "shortTitle": "Make a Furnace",
-    "quickAnswer": "Craft a furnace with 8 cobblestone filling every slot except the center. It smelts ores, cooks food and fires clay - fuel it with coal, charcoal, logs or a lava bucket and it does 8 items per coal.",
+    "quickAnswer": "Craft a furnace from cobblestone or any other stone-tier block. Put fuel in the bottom slot and the item to process in the top slot. It smelts one item every 10 seconds (200 game ticks) and gives off light level 13 while active.",
     "steps": [
-      "Mine 8 cobblestone with any pickaxe - your first wooden one will do. Blackstone and cobbled deepslate work in the exact same recipe.",
-      "Craft it: cobblestone in every slot except the center - a ring.",
-      "Add fuel in the bottom slot: coal or charcoal smelt 8 items each, planks smelt 1.5, lava buckets smelt 100, dried kelp blocks smelt 20.",
-      "Add what you want to smelt in the top slot: iron and gold ore, raw food, sand (glass), cobblestone (stone), clay (bricks), logs (charcoal).",
-      "Wait 10 seconds per item - the arrow fills, the fire burns down, the product lands in the right slot and gives XP when collected.",
-      "Upgrade later: a smoker cooks food twice as fast, a blast furnace smelts ores twice as fast - both burn fuel at double rate, so fuel-per-item stays the same.",
-      "Automate it: hoppers on top load items, on the side load fuel, and underneath pull the result - a row of hoppers plus furnaces is the classic super-smelter.",
-      "Steal one instead: furnaces generate in village houses and igloo basements - any pickaxe breaks them and they drop themselves."
+      "Craft a furnace from cobblestone. The wiki shows the grid only as an image, so use the in-game recipe book. Any stone-tier block works, and cobblestone variants can be mixed.",
+      "Open it and put fuel in the bottom slot (up to one stack) and the items to process in the top slot (up to one stack).",
+      "It processes one item every 200 game ticks (10 seconds), or six items a minute.",
+      "Fuel is used up one unit at a time and keeps burning until fully used even if the top slot empties. For example, a piece of coal burns for 80 seconds and processes eight items.",
+      "Collect the result from the output slot.",
+      "Upgrade later: a blast furnace is crafted from an iron ingot, a furnace and smooth stone.",
+      "Find one: furnaces generate in plains and desert village weaponsmiths, some snowy village houses, ancient cities, trail ruins, and one in every igloo.",
+      "Pick it up with any pickaxe. Without a pickaxe it does not drop itself. Breaking it drops its contents."
     ],
     "materials": [
-      "8 cobblestone (or blackstone / cobbled deepslate)",
-      "Fuel: coal, charcoal, logs, planks, lava bucket..."
+      "Cobblestone or another stone-tier block",
+      "Fuel (for example coal)",
+      "Items to smelt or cook"
     ],
-    "editionNote": "Identical in both editions, including the 10-second smelt time and light level 13 while lit. Only a few esoteric fuel timings differ.",
-    "versions": "Furnaces were added to Java in Indev on February 19, 2010, and to Pocket Edition 0.3.2.",
+    "editionNote": "In Java, pistons cannot push furnaces. Some structure generation (such as one taiga village house) differs by edition.",
+    "versions": "Based on the Furnace page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "What is the best fuel for a furnace in Minecraft?",
-        "a": "Lava buckets (100 items per bucket) for bulk smelting, blocks of coal (80 items per block) for efficiency, and charcoal for unlimited renewable fuel from tree farms. Kelp blocks (20 items) are fully automatic with a kelp farm."
+        "q": "How fast does a furnace smelt?",
+        "a": "One item every 10 seconds (200 game ticks), or six items per minute."
       },
       {
-        "q": "Why is my furnace not smelting?",
-        "a": "Three usual suspects: no fuel in the bottom slot, the item in the top slot is not smeltable (a smoker/blast furnace job), or the output slot is full of something different."
+        "q": "How many items does one coal smelt?",
+        "a": "Eight. A piece of coal burns for 80 seconds."
       },
       {
-        "q": "Furnace, smoker or blast furnace - which one?",
-        "a": "Keep all three: the furnace smelts everything at normal speed, the smoker cooks only food at double speed, the blast furnace smelts only ores and metal gear at double speed. Same fuel efficiency per item in all three."
+        "q": "Can I use blackstone or deepslate?",
+        "a": "Yes. Any stone-tier block works and variants can be mixed."
+      },
+      {
+        "q": "What light does a furnace give?",
+        "a": "Light level 13 while active."
       }
     ],
     "relatedGuides": [
@@ -3108,7 +3113,7 @@
         "href": "/items/coal/"
       }
     ],
-    "keywords": "furnace minecraft craft 8 cobblestone smelt iron ore cook food fuel coal charcoal lava bucket 10 seconds smoker blast furnace"
+    "keywords": "furnace minecraft how to make cobblestone smelting fuel coal blast furnace smelt time"
   },
   {
     "slug": "how-to-make-chest",

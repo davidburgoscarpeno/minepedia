@@ -2690,35 +2690,40 @@
   "how-to-make-furnace": {
     "name": "Cómo hacer un Furnace en Minecraft",
     "shortTitle": "Hacer un Furnace",
-    "quickAnswer": "Craftea un furnace con 8 cobblestone llenando todos los huecos menos el central. Funde menas, cocina comida y tuesta clay: aliméntalo con coal, charcoal, logs o un lava bucket y rinde 8 objetos por coal.",
+    "quickAnswer": "Fabrica un horno con cobblestone o cualquier otro bloque de nivel piedra. Pon el combustible en la ranura de abajo y el objeto a procesar en la de arriba. Procesa un objeto cada 10 segundos (200 game ticks) y da luz de nivel 13 mientras funciona.",
     "steps": [
-      "Mina 8 cobblestone con cualquier pickaxe: vale tu primera wooden pickaxe. El blackstone y el cobbled deepslate funcionan exactamente en la misma receta.",
-      "Craftéalo: cobblestone en todos los huecos menos el central, en anillo.",
-      "Pon combustible en el hueco inferior: coal o charcoal funden 8 objetos cada uno, las planks funden 1,5, los lava buckets funden 100, los bloques de dried kelp funden 20.",
-      "Pon lo que quieras fundir en el hueco superior: iron y gold ore, comida cruda, sand (glass), cobblestone (stone), clay (bricks), logs (charcoal).",
-      "Espera 10 segundos por objeto: la flecha se llena, el fuego se consume, el producto cae en el hueco de la derecha y da XP al recogerlo.",
-      "Mejora después: un smoker cocina comida al doble de rápido y un blast furnace funde menas al doble; ambos queman combustible al doble, así que el rendimiento por combustible es el mismo.",
-      "Automatízalo: los hoppers cargan objetos por arriba, combustible por el lado y sacan el resultado por abajo: una fila de hoppers más furnaces es el clásico super-smelter.",
-      "Roba uno: los furnaces se generan en casas de villages y sótanos de igloos: cualquier pickaxe los rompe y se sueltan."
+      "Fabrica un horno con cobblestone. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego. Vale cualquier bloque de nivel piedra, y se pueden mezclar variantes de cobblestone.",
+      "Ábrelo y pon el combustible en la ranura de abajo (hasta una pila) y los objetos a procesar en la de arriba (hasta una pila).",
+      "Procesa un objeto cada 200 game ticks (10 segundos), o seis objetos por minuto.",
+      "El combustible se consume de uno en uno y sigue ardiendo hasta agotarse aunque la ranura de arriba se vacíe. Por ejemplo, un carbón arde 80 segundos y procesa ocho objetos.",
+      "Recoge el resultado de la ranura de salida.",
+      "Mejora más adelante: un alto horno se fabrica con un lingote de hierro, un horno y piedra lisa.",
+      "Encuentra uno: los hornos se generan en armerías de aldeas de llanura y desierto, algunas casas de aldeas nevadas, ciudades ancestrales, trail ruins y uno en cada iglú.",
+      "Recógelo con cualquier pico. Sin pico no se suelta a sí mismo. Al romperlo suelta su contenido."
     ],
     "materials": [
-      "8 cobblestone (o blackstone / cobbled deepslate)",
-      "Combustible: coal, charcoal, logs, planks, lava bucket..."
+      "Cobblestone u otro bloque de nivel piedra",
+      "Combustible (por ejemplo carbón)",
+      "Objetos a fundir o cocinar"
     ],
-    "editionNote": "Idéntico en ambas ediciones, incluidos los 10 segundos por fundición y el nivel de luz 13 al estar encendido. Solo difieren algunos tiempos de combustible esotéricos.",
-    "versions": "Los furnaces se añadieron a Java en Indev el 19 de febrero de 2010 y a Pocket Edition 0.3.2.",
+    "editionNote": "En Java, los pistones no pueden empujar hornos. Parte de la generación en estructuras (como una casa de aldea taiga) varía según la edición.",
+    "versions": "Basado en la página Furnace de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cuál es el mejor combustible para un furnace en Minecraft?",
-        "a": "Lava buckets (100 objetos por bucket) para fundir a granel, bloques de carbón (80 objetos por bloque) para eficiencia, y charcoal para combustible renovable infinito de granjas de árboles. Los bloques de kelp (20 objetos) son totalmente automáticos con una granja de kelp."
+        "q": "¿Qué tan rápido funde un horno?",
+        "a": "Un objeto cada 10 segundos (200 game ticks), o seis por minuto."
       },
       {
-        "q": "¿Por qué mi furnace no funde?",
-        "a": "Tres sospechosos habituales: no hay combustible en el hueco inferior, el objeto de arriba no es fundible (trabajo del smoker o blast furnace), o el hueco de salida está lleno de otra cosa."
+        "q": "¿Cuántos objetos funde un carbón?",
+        "a": "Ocho. Un carbón arde 80 segundos."
       },
       {
-        "q": "¿Furnace, smoker o blast furnace? ¿Cuál?",
-        "a": "Quédate los tres: el furnace lo funde todo a velocidad normal, el smoker solo cocina comida al doble, el blast furnace solo funde menas y equipo de metal al doble. Misma eficiencia de combustible por objeto en los tres."
+        "q": "¿Puedo usar blackstone o deepslate?",
+        "a": "Sí. Vale cualquier bloque de nivel piedra y se pueden mezclar variantes."
+      },
+      {
+        "q": "¿Qué luz da un horno?",
+        "a": "Luz de nivel 13 mientras funciona."
       }
     ],
     "relatedGuides": [
@@ -2732,7 +2737,7 @@
         "href": "/es/items/coal/"
       }
     ],
-    "keywords": "furnace minecraft craft 8 cobblestone fundir iron ore cocinar comida combustible coal charcoal lava bucket 10 segundos smoker blast furnace"
+    "keywords": "horno furnace minecraft cómo hacer cobblestone fundir combustible carbón alto horno tiempo de fundición"
   },
   "how-to-make-chest": {
     "name": "Cómo hacer un Chest en Minecraft",
