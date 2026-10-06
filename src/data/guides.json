@@ -3497,37 +3497,36 @@
     "shortTitle": "Find Iron",
     "quickAnswer": "Iron ore generates everywhere from Y=-64 to Y=384. Underground it peaks around Y=16, and in mountains it peaks around Y=232. Mine it with a stone pickaxe or better and smelt the raw iron in a furnace.",
     "steps": [
-      "Know the generation: iron ore appears in three batches - a huge mountain batch from Y=80 to Y=384 peaking around Y=232, an underground batch from Y=-24 to Y=56 peaking around Y=16, and a small even batch from Y=-64 to Y=72.",
-      "Easiest early method: explore caves. Exposed stone and deepslate walls around Y=16 are full of iron ore, no branch mining needed.",
-      "Mountain method: climb any tall mountain (jagged peaks, stony peaks) and strip the surface stone around Y=232 - iron shows up in the open air.",
-      "Use the right tool: a stone pickaxe or better. A wooden pickaxe breaks the block without dropping anything.",
-      "Smelt it: iron ore drops raw iron (Fortune multiplies the drops). Smelt raw iron in a furnace or blast furnace - a blast furnace is twice as fast.",
-      "Below Y=0 the ore turns into deepslate iron ore: same drop, but it takes longer to mine.",
-      "Hunt ore veins: the deepslate layer can hide enormous iron veins made of iron ore, tuff and blocks of raw iron - one vein can be thousands of ingots.",
-      "Late game: build an iron farm. Iron golems drop 3-5 iron ingots when killed, and village chests, mineshafts and buried treasure often hold ingots too."
+      "Know the generation: iron ore generates in three batches. A mountain batch (90 attempts per chunk) from Y=80 to Y=384 peaking around Y=232; an underground batch (10 attempts per chunk) from Y=-24 to Y=56 peaking around Y=16; and a small batch of blobs of 0-5 spread evenly from Y=-64 to Y=72.",
+      "Easiest early method: explore caves around Y=16, where the underground batch is most common.",
+      "Mountain method: climb a tall mountain and look for iron around Y=232.",
+      "Use a stone pickaxe or better. Fortune I, II and III drop 1-2, 1-3 and 1-4 raw iron instead of 1.",
+      "Smelt raw iron in a furnace to get iron ingots.",
+      "Iron ore that replaces tuff or deepslate becomes deepslate iron ore (hardness 4.5, against 3 for iron ore).",
+      "Look for large ore veins in the deepslate layer: they consist of iron ore, blocks of raw iron and tuff."
     ],
     "materials": [
       "Stone pickaxe or better",
       "Furnace and fuel (blast furnace optional)"
     ],
-    "editionNote": "In Java, iron blobs contain 0-13 blocks; in Bedrock they can reach 0-16, so Bedrock caves average slightly richer veins. Generation heights and peaks are otherwise the same.",
-    "versions": "Iron ore is one of the oldest blocks in the game: added to Java in Classic 0.0.14a in May 2009, and present in Pocket Edition since alpha v0.1.0.",
+    "editionNote": "In Java Edition the mountain and underground batches generate blobs of 0-13 ores; in Bedrock Edition blobs are 0-16.",
+    "versions": "Per the Minecraft Wiki Iron Ore page.",
     "faq": [
       {
         "q": "What Y level is best for iron in Minecraft?",
-        "a": "Underground, around Y=16. In mountains, around Y=232 - the higher the better within the Y=80 to 384 range. Both peaks are real generation maxima, so pick whichever fits your base."
+        "a": "Around Y=16 underground or around Y=232 in mountains. Both are the peaks of their generation batches."
       },
       {
         "q": "Why won't my iron ore drop anything?",
-        "a": "You are mining it with a wooden pickaxe. Iron ore needs a stone pickaxe or better - anything weaker destroys the block with no drop."
+        "a": "You need a stone pickaxe or better. With a weaker tool the block breaks without dropping raw iron."
       },
       {
         "q": "What is the difference between iron ore and raw iron?",
-        "a": "Since 1.17, mining iron ore drops raw iron items (Fortune can multiply them), and you smelt raw iron into ingots. Mining with Silk Touch drops the ore block itself instead."
+        "a": "Iron ore drops raw iron, which you smelt into ingots. Silk Touch drops the ore block itself."
       },
       {
-        "q": "Can you get iron without mining?",
-        "a": "Yes - iron golems drop 3-5 ingots, and ingots are common loot in village, mineshaft, shipwreck and buried treasure chests. Zombies also drop iron ingots rarely."
+        "q": "How much does Fortune give?",
+        "a": "Fortune I, II and III drop 1-2, 1-3 and 1-4 raw iron."
       }
     ],
     "relatedGuides": [

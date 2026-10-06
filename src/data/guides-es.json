@@ -3092,37 +3092,36 @@
     "shortTitle": "Encontrar Iron",
     "quickAnswer": "La iron ore se genera en todas partes de Y=-64 a Y=384. Bajo tierra alcanza su pico alrededor de Y=16 y en las montañas alrededor de Y=232. Mínala con un stone pickaxe o mejor y funde el raw iron en un furnace.",
     "steps": [
-      "Conoce la generación: la iron ore aparece en tres tandas: una enorme tanda de montaña de Y=80 a Y=384 con pico alrededor de Y=232, una tanda subterránea de Y=-24 a Y=56 con pico alrededor de Y=16, y una tanda pequeña y uniforme de Y=-64 a Y=72.",
-      "Método más fácil al principio: explora cuevas. Las paredes expuestas de stone y deepslate alrededor de Y=16 están llenas de iron ore, sin necesidad de hacer minas en ramal.",
-      "Método de montaña: sube a cualquier montaña alta (jagged peaks, stony peaks) y pica la stone superficial alrededor de Y=232: el iron aparece a la vista.",
-      "Usa la herramienta adecuada: un stone pickaxe o mejor. Un wooden pickaxe rompe el bloque sin soltar nada.",
-      "Fúndelo: la iron ore suelta raw iron (Fortune multiplica las gotas). Funde el raw iron en un furnace o un blast furnace: el blast furnace es el doble de rápido.",
-      "Por debajo de Y=0 la mena pasa a ser deepslate iron ore: misma gota, pero tarda más en minarse.",
-      "Busca vetas de mineral: la capa de deepslate puede esconder enormes vetas de iron formadas por iron ore, tuff y bloques de raw iron: una sola veta puede dar miles de ingots.",
-      "Late game: construye una iron farm. Los iron golems sueltan de 3 a 5 iron ingots al morir, y los cofres de aldeas, mineshafts y tesoros enterrados suelen contener ingots."
+      "Conoce la generación: el iron ore se genera en tres tandas. Una de montaña (90 intentos por chunk) de Y=80 a Y=384 con pico en Y=232; una subterránea (10 intentos por chunk) de Y=-24 a Y=56 con pico en Y=16; y una pequeña de vetas de 0-5 repartida uniformemente de Y=-64 a Y=72.",
+      "Método fácil al principio: explora cuevas alrededor de Y=16, donde la tanda subterránea es más común.",
+      "Método de montaña: sube a una montaña alta y busca hierro alrededor de Y=232.",
+      "Usa pico de piedra o mejor. Fortune I, II y III sueltan 1-2, 1-3 y 1-4 raw iron en vez de 1.",
+      "Funde el raw iron en un horno para obtener lingotes de hierro.",
+      "El iron ore que sustituye tuff o deepslate pasa a ser deepslate iron ore (dureza 4,5, frente a 3 del iron ore).",
+      "Busca grandes vetas de mena en la capa de deepslate: se componen de iron ore, bloques de raw iron y tuff."
     ],
     "materials": [
       "Stone pickaxe o mejor",
       "Furnace y combustible (blast furnace opcional)"
     ],
-    "editionNote": "En Java, las vetas de iron contienen de 0 a 13 bloques; en Bedrock pueden llegar de 0 a 16, así que las cuevas de Bedrock tienen vetas algo más ricas de media. Las alturas y los picos de generación son los mismos.",
-    "versions": "La iron ore es uno de los bloques más antiguos del juego: se añadió a Java en Classic 0.0.14a en mayo de 2009, y está en Pocket Edition desde la alpha v0.1.0.",
+    "editionNote": "En Java las tandas de montaña y subterránea generan vetas de 0-13 menas; en Bedrock, de 0-16.",
+    "versions": "Según la página Iron Ore de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Cuál es la mejor altura Y para encontrar iron en Minecraft?",
-        "a": "Bajo tierra, alrededor de Y=16. En montañas, alrededor de Y=232: cuanto más alto mejor dentro del rango de Y=80 a 384. Ambos picos son máximos reales de generación, así que elige el que mejor te venga."
+        "q": "¿Cuál es la mejor altura Y para hierro?",
+        "a": "Alrededor de Y=16 bajo tierra o de Y=232 en montañas. Ambas son los picos de sus tandas de generación."
       },
       {
         "q": "¿Por qué mi iron ore no suelta nada?",
-        "a": "La estás minando con un wooden pickaxe. La iron ore necesita un stone pickaxe o mejor: cualquier pico más débil destruye el bloque sin gota."
+        "a": "Necesitas pico de piedra o mejor. Con una herramienta inferior el bloque se rompe sin soltar raw iron."
       },
       {
         "q": "¿Qué diferencia hay entre iron ore y raw iron?",
-        "a": "Desde la 1.17, al minar iron ore suelta ítems de raw iron (Fortune puede multiplicarlos), y el raw iron se funde en ingots. Si minas con Silk Touch, suelta el bloque de mena en sí."
+        "a": "El iron ore suelta raw iron, que se funde en lingotes. Silk Touch suelta el propio bloque de mena."
       },
       {
-        "q": "¿Se puede conseguir iron sin minar?",
-        "a": "Sí: los iron golems sueltan de 3 a 5 ingots, y los ingots son botín común en cofres de aldeas, mineshafts, shipwrecks y tesoros enterrados. Los zombies también sueltan iron ingots en raras ocasiones."
+        "q": "¿Cuánto da Fortune?",
+        "a": "Fortune I, II y III sueltan 1-2, 1-3 y 1-4 raw iron."
       }
     ],
     "relatedGuides": [
