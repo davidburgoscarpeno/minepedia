@@ -2798,34 +2798,36 @@
     "slug": "how-to-make-bread",
     "name": "How to Make Bread in Minecraft",
     "shortTitle": "Make Bread",
-    "quickAnswer": "Craft bread with 3 wheat in a row. It restores 5 hunger points, stacks to 64, and doubles as villager currency - farmers buy wheat, and bread makes villagers willing to breed.",
+    "quickAnswer": "Craft bread from wheat. It restores 5 hunger and 6 saturation, takes 1.6 seconds to eat, stacks to 64 and is renewable. Villagers need 3 bread to become willing to breed.",
     "steps": [
-      "Get wheat: break tall grass for seeds, hoe dirt near water, plant them and wait through 8 growth stages - or raid village farms, which are full of ready wheat.",
-      "Speed it up: bone meal (from skeleton bones) grows wheat instantly; hydrated farmland within 4 blocks of water grows fastest.",
-      "Craft bread: 3 wheat in a horizontal row. One craft, one bread.",
-      "Eat it: restores 5 hunger points (2.5 shanks) with modest saturation. Not the best food late game, but the first reliable one most players ever get.",
-      "Loot it too: bread shows up in village, dungeon, mineshaft, stronghold and woodland mansion chests, and farmer villagers throw it at you if you have Hero of the Village.",
-      "Breed villagers with it: toss 3 bread at a villager (12 for full willingness) and they become willing to breed - bread is the engine of every villager breeder.",
-      "Trade the wheat instead: farmer villagers buy 20 wheat for an emerald, so a wheat farm feeds both you and your emerald supply.",
-      "Automate it: farmers harvest and craft bread themselves, then share it - an automatic potato/carrot-free bread factory is just two farmers and some farmland."
+      "Grow or find wheat, then craft it into bread. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Eat it: bread restores 5 hunger and 6 saturation, and eating takes 32 game ticks (1.6 seconds).",
+      "Loot it: bread is in monster room chests (34.1%), mineshaft chests (38.7%), stronghold storeroom chests (47.5%) and many village chests (for example plains house 74.2%, desert house 80.6%, temple 89.3%).",
+      "Breed villagers: a villager picks up bread to become willing to breed, and needs 3 bread.",
+      "Farmer villagers can craft bread from wheat they harvest and trade it. In Java they may throw bread at you under Hero of the Village.",
+      "Do not compost bread if you can compost wheat: bread has an 85% chance to raise the compost level, and wheat is more efficient."
     ],
     "materials": [
-      "3 wheat"
+      "Wheat"
     ],
-    "editionNote": "Identical in both editions. The hunger and saturation values match exactly; the only difference is how fast crops tick in each edition's random tick system.",
-    "versions": "Bread was added in Java Indev on February 6, 2010 - one of the game's first foods - and in Pocket Edition 0.4.0.",
+    "editionNote": "Eating bread also gives a Java-only saturation boost (heals 4HP, duration 2 seconds in the wiki infobox). Farmers throwing bread under Hero of the Village is Java only.",
+    "versions": "Based on the Bread page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "How do you get wheat in Minecraft?",
-        "a": "Plant seeds (from breaking tall grass) on hoed farmland and wait, or harvest the wheat fields that generate in villages. Bone meal ripens crops instantly."
-      },
-      {
         "q": "How much hunger does bread restore?",
-        "a": "5 hunger points (2.5 drumsticks) per loaf. Steak and cooked porkchops beat it at 8, but bread is far easier to mass-produce early on."
+        "a": "5 hunger and 6 saturation."
       },
       {
-        "q": "Why do I need bread for villagers?",
-        "a": "Villagers only breed when willing, and food creates willingness: 3 bread (or 12 carrots/potatoes/beetroots) per villager. Throw it at them and let the farmer do the farming."
+        "q": "Where can I find bread?",
+        "a": "In chests in villages, monster rooms, mineshafts, strongholds and more, or craft it from wheat."
+      },
+      {
+        "q": "How many bread does a villager need to breed?",
+        "a": "3 bread to become willing."
+      },
+      {
+        "q": "Is bread renewable?",
+        "a": "Yes."
       }
     ],
     "relatedGuides": [
@@ -2839,7 +2841,7 @@
         "href": "/villagers/farmer/"
       }
     ],
-    "keywords": "bread minecraft craft 3 wheat hunger 5 villager breeding food farm seeds bone meal"
+    "keywords": "bread minecraft how to make wheat hunger saturation villagers breed loot"
   },
   {
     "slug": "how-to-make-cake",

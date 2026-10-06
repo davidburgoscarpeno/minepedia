@@ -2427,34 +2427,36 @@
   "how-to-make-bread": {
     "name": "Cómo hacer Bread en Minecraft",
     "shortTitle": "Hacer Bread",
-    "quickAnswer": "Craftea bread con 3 wheat en una fila. Restaura 5 puntos de hambre, se apila hasta 64 y hace las veces de moneda para los villagers: los farmers compran wheat y el bread los pone dispuestos a criar.",
+    "quickAnswer": "Fabrica pan con trigo. Restaura 5 de hambre y 6 de saturación, se come en 1,6 segundos, se apila hasta 64 y es renovable. Los aldeanos necesitan 3 panes para estar dispuestos a reproducirse.",
     "steps": [
-      "Consigue wheat: rompe tall grass para conseguir seeds, ara tierra cerca del agua con una hoe, plántalas y espera las 8 fases de crecimiento, o saquea las granjas de las villages, que están llenas de wheat listo.",
-      "Acelera: el bone meal (de huesos de skeletons) hace crecer el wheat al instante; el farmland hidratado a menos de 4 bloques de agua crece más rápido.",
-      "Craftea bread: 3 wheat en una fila horizontal. Un crafteo, un bread.",
-      "Cómelo: restaura 5 puntos de hambre (2,5 muslos) con saturación modesta. No es la mejor comida del late game, pero sí la primera fiable para casi todos los jugadores.",
-      "Saquea también: el bread aparece en cofres de villages, dungeons, mineshafts, strongholds y woodland mansions, y los villagers farmers te lo tiran si tienes Hero of the Village.",
-      "Cria villagers con él: tira 3 bread a un villager (12 para disposición completa) y se pondrá dispuesto a criar: el bread es el motor de todo criadero de villagers.",
-      "Comercia con el wheat: los villagers farmers compran 20 wheat por una emerald, así que una granja de trigo te alimenta a ti y a tu suministro de emeralds.",
-      "Automatízalo: los farmers cosechan y craftean bread por sí mismos y luego lo comparten: una fábrica automática de bread son solo dos farmers y algo de farmland."
+      "Cultiva o encuentra trigo y fabrícalo en pan. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Cómelo: el pan restaura 5 de hambre y 6 de saturación, y comerlo tarda 32 game ticks (1,6 segundos).",
+      "Encuéntralo: hay pan en cofres de monster rooms (34,1 %), minas abandonadas (38,7 %), almacenes de fortalezas (47,5 %) y muchos cofres de aldeas (por ejemplo casa de llanura 74,2 %, casa de desierto 80,6 %, templo 89,3 %).",
+      "Reproduce aldeanos: un aldeano recoge pan para estar dispuesto a reproducirse, y necesita 3 panes.",
+      "Los aldeanos granjeros pueden fabricar pan con el trigo que cosechan y comerciarlo. En Java pueden lanzarte pan bajo Héroe de la aldea.",
+      "No compostes pan si puedes compostar trigo: el pan tiene un 85 % de probabilidad de subir el nivel del compostador, y el trigo es más eficiente."
     ],
     "materials": [
-      "3 wheat"
+      "Trigo"
     ],
-    "editionNote": "Idéntico en ambas ediciones. Los valores de hambre y saturación coinciden exactamente; la única diferencia es la velocidad de los ticks de cultivo en el sistema de ticks aleatorios de cada edición.",
-    "versions": "El bread se añadió en Java Indev el 6 de febrero de 2010, una de las primeras comidas del juego, y en Pocket Edition 0.4.0.",
+    "editionNote": "Comer pan da además un impulso de saturación solo en Java (cura 4 HP, duración 2 segundos según la ficha de la wiki). Que los granjeros lancen pan bajo Héroe de la aldea es solo de Java.",
+    "versions": "Basado en la página Bread de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cómo se consigue wheat en Minecraft?",
-        "a": "Planta seeds (de romper tall grass) en farmland arado y espera, o cosecha los campos de trigo que se generan en las villages. El bone meal madura los cultivos al instante."
+        "q": "¿Cuánta hambre restaura el pan?",
+        "a": "5 de hambre y 6 de saturación."
       },
       {
-        "q": "¿Cuánta hambre restaura el bread?",
-        "a": "5 puntos de hambre (2,5 muslos) por hogaza. El steak y las cooked porkchops lo superan con 8, pero el bread es mucho más fácil de producir en masa al principio."
+        "q": "¿Dónde encuentro pan?",
+        "a": "En cofres de aldeas, monster rooms, minas, fortalezas y más, o fabrícalo con trigo."
       },
       {
-        "q": "¿Por qué necesito bread para los villagers?",
-        "a": "Los villagers solo crían cuando están dispuestos, y la comida crea disposición: 3 bread (o 12 carrots/potatoes/beetroots) por villager. Tíraselo y deja que el farmer se ocupe del campo."
+        "q": "¿Cuántos panes necesita un aldeano para reproducirse?",
+        "a": "3 panes para estar dispuesto."
+      },
+      {
+        "q": "¿El pan es renovable?",
+        "a": "Sí."
       }
     ],
     "relatedGuides": [
@@ -2468,7 +2470,7 @@
         "href": "/es/villagers/farmer/"
       }
     ],
-    "keywords": "bread minecraft craft 3 wheat hambre 5 comida criar villagers granja seeds bone meal"
+    "keywords": "pan bread minecraft cómo hacer trigo hambre saturación aldeanos reproducir botín"
   },
   "how-to-make-cake": {
     "name": "Cómo hacer un Cake en Minecraft",
