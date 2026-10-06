@@ -1425,35 +1425,40 @@
   "how-to-get-honeycomb": {
     "name": "Cómo conseguir Honeycomb en Minecraft",
     "shortTitle": "Conseguir Honeycomb",
-    "quickAnswer": "Esquila un bee nest o beehive cuando llegue a honey level 5: suelta 3 honeycombs. Pon primero un campfire encendido (o soul campfire) debajo del nest o las bees atacarán; un dispenser cargado con shears cosecha sin enfadarlas. Los honeycombs craftean beehives, candles, honeycomb blocks y enceran copper y signs.",
+    "quickAnswer": "Esquila un bee nest o beehive lleno (nivel de miel 5) para obtener 3 panales. Esquilar enfada a las abejas de dentro, salvo que haya una hoguera encendida o de almas (o un fuego) debajo, o uses un dispensador con tijeras. El panal sirve para beehives, velas, bloques de panal y encerar cobre o carteles.",
     "steps": [
-      "Encuentra un bee nest: se generan en árboles oak y birch de flower forests, plains y sunflower plains - o cultiva el tuyo: los saplings de oak/birch plantados a 2 bloques de una flower pueden crecer con nest.",
-      "Espera a honey level 5: el nest gotea miel visiblemente y rezuma por los agujeros cuando está lleno. Las bees lo llenan un nivel por viaje de polen.",
-      "Pon un campfire encendido justo debajo del nest (o un soul campfire, o prende fuego debajo): el humo pacifica a las bees.",
-      "Esquila el nest lleno: usa shears sobre él para sacar 3 honeycombs. Sin el campfire, todas las bees de dentro se vuelven hostiles.",
-      "Automatízalo: un dispenser mirando al nest con shears dentro cosecha honeycomb sin enfadar a las bees en absoluto - conéctalo a un observer para una granja.",
-      "Usa los honeycombs: beehives (6 planks + 3 honeycomb), candles, honeycomb blocks (4 honeycomb), y encerado de bloques de copper para frenar la oxidación o de signs para bloquear su texto."
+      "Encuentra un bee nest. Los nidos generados naturalmente tienen 2-3 abejas: el 100% de los árboles de los meadows tiene uno, 5% en plains, sunflower plains y cherry groves, 2% en flower forests (Java), 1% en mangrove swamps y 0,2% en forests y birch forests (Java).",
+      "O cultiva uno: los robles, abedules y cerezos que crecen de sapling a 2 bloques o menos de una flor al mismo nivel Y tienen un 5% de crecer con un nido de 2-3 abejas. Los manglares tienen un 1% sin necesidad de flor.",
+      "Espera a que esté lleno (nivel de miel 5). Un comparador lee el nivel de miel, con 5 como máximo.",
+      "Pon una hoguera encendida, hoguera de almas o fuego debajo del nido para que las abejas no se vuelvan hostiles.",
+      "Usa unas tijeras en el nido lleno: suelta 3 panales y vuelve a nivel de miel 0.",
+      "Un dispensador con tijeras dentro puede recolectarlo sin enfadar a las abejas. El panal sale como objeto suelto.",
+      "Usa el panal en cualquier bloque de cobre (o un copper golem) para encerarlo y evitar la oxidación, o en carteles para que no se puedan editar. También sirve para fabricar beehives, velas y bloques de panal."
     ],
     "materials": [
-      "Shears (2 iron)",
-      "Un campfire o soul campfire encendido",
-      "Opcional: dispenser + observer para automatizar",
-      "Flowers y saplings para criar tus propios nests"
+      "Tijeras",
+      "Una hoguera encendida o hoguera de almas",
+      "Opcional: un dispensador para recolectar automáticamente",
+      "Flores y saplings para crear tus propios nidos"
     ],
-    "editionNote": "La cosecha funciona igual en Java y Bedrock: nivel 5, 3 honeycombs por esquilada, pacificación con campfire. Los dispensers con shears funcionan en ambas ediciones.",
-    "versions": "Bee nest y honeycomb desde 1.15 (Buzzy Bees); encerado de copper desde 1.17.",
+    "editionNote": "Ambas ediciones dan 3 panales de un nido o colmena lleno. Las probabilidades por bioma difieren: flower forest es 2% en Java y 3% en Bedrock, y forest es 0,2% en Java y 0,035% en Bedrock. En Bedrock, los robles que crecen en plains pueden tener nido sin importar las flores cercanas.",
+    "versions": "Basado en las páginas Honeycomb y Bee Nest de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué me atacan las bees al recoger honeycomb?",
-        "a": "Esquilaste sin humo. Pon antes un campfire o soul campfire encendido bajo el nest, o usa un dispenser con shears: ambos mantienen a las bees tranquilas."
+        "q": "¿Por qué me atacan las abejas al recoger panal?",
+        "a": "Esquilar un nido lleno enfada a las abejas de dentro. Una hoguera encendida o de almas (o un fuego) debajo evita que se vuelvan hostiles, y un dispensador con tijeras no las enfada en absoluto."
       },
       {
-        "q": "¿Cómo sé cuándo está lleno un bee nest?",
-        "a": "A honey level 5 el nest gotea partículas de miel y rezuma visiblemente. Solo un nest lleno suelta honeycomb al esquilarlo."
+        "q": "¿Cómo sé que un nido está lleno?",
+        "a": "Un nido o colmena lleno está en nivel de miel 5. Un comparador de redstone da una señal igual al nivel de miel, hasta 5."
       },
       {
-        "q": "¿Qué se puede hacer con honeycomb?",
-        "a": "Craftear beehives, candles y honeycomb blocks, y encerar bloques de copper para congelar su oxidación o signs para que su texto no se pueda editar."
+        "q": "¿Qué pasa si rompo un nido sin Silk Touch?",
+        "a": "No suelta nada y las abejas de dentro salen enfadadas. Con Silk Touch el nido se suelta a sí mismo con las abejas dentro, y las abejas cercanas no se enfadan."
+      },
+      {
+        "q": "¿Qué puedo hacer con el panal?",
+        "a": "Fabricar beehives, velas y bloques de panal, y encerar bloques de cobre, copper golems y carteles."
       }
     ],
     "relatedLinks": [
@@ -1461,7 +1466,8 @@
         "url": "/es/mobs/bee/",
         "label": "Bee"
       }
-    ]
+    ],
+    "keywords": "panal minecraft cómo conseguir esquilar bee nest nivel de miel 5 hoguera dispensador encerar cobre"
   },
   "how-to-make-campfire": {
     "name": "Cómo hacer un Campfire en Minecraft",
