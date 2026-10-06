@@ -147,35 +147,34 @@
   "how-to-breed-villagers": {
     "name": "Cómo criar aldeanos en Minecraft",
     "shortTitle": "Criar aldeanos",
-    "quickAnswer": "Los aldeanos crían por su cuenta cuando tienen comida suficiente (3 panes, 12 zanahorias, 12 patatas o 12 remolachas cada uno) y hay más camas válidas que aldeanos: cada cama necesita 2 bloques de aire encima. Da de comer a dos aldeanos o tírales comida y espera.",
+    "quickAnswer": "Los aldeanos se reproducen cuando están dispuestos y hay una cama libre con al menos 2 bloques vacíos encima al alcance. Un aldeano se vuelve dispuesto con 3 panes, 12 zanahorias, 12 patatas o 12 remolachas en una ranura de su inventario. Lanza comida a dos aldeanos y espera.",
     "steps": [
-      "Construye una zona cerrada y segura para que los aldeanos no se escapen ni mueran por zombis.",
-      "Coloca camas: al menos una cama por aldeano adulto más una cama extra por cada bebé que quieras. Cada cama necesita 2 bloques vacíos encima o no cuenta.",
-      "Haz que estén dispuestos: tírale comida a dos aldeanos: 3 panes, o 12 zanahorias / patatas / remolachas cada uno. Los farmers también comparten y cosechan cultivos automáticamente.",
-      "Espera: aparecen partículas de corazones y nace un bebé aldeano a los pocos minutos. Crece en 20 minutos.",
-      "Alternativa: construye una granja de cultivos dentro del recinto con un composter; un aldeano farmer cosechará y compartirá comida sin parar, criando indefinidamente mientras haya camas disponibles.",
-      "Los bebés no heredan profesión: la eligen de adultos reclamando un puesto de trabajo libre (lectern = librarian, blast furnace = armorer...)."
+      "Cierra la zona para que los aldeanos no se alejen ni mueran. No hacen falta bloques de trabajo para reproducirse.",
+      "Coloca camas con al menos 2 bloques vacíos encima de cada una. Losas, trampillas y bloques similares encima invalidan la cama, porque los mobs los tratan como bloques completos al buscar camino. Cada bebé necesita una cama libre a la que el aldeano pueda llegar.",
+      "Hazlos dispuestos: lanza pan, zanahorias, patatas o remolachas a los aldeanos. Necesitan 3 panes o 12 de lo demás en una ranura. Los aldeanos con comida de sobra, normalmente los granjeros, también la lanzan a otros.",
+      "Espera. Dos aldeanos dispuestos cerca se reproducen y aparece un bebé. Volverse dispuesto gasta la comida aunque no nazca ningún bebé.",
+      "Tras reproducirse, los aldeanos dejan de estar dispuestos durante 5 minutos hasta reunir otra vez suficiente comida.",
+      "Un bebé aldeano se hace adulto 20 minutos después de nacer."
     ],
     "materials": [
-      "Camas (1 por aldeano + de repuesto)",
-      "Comida: pan, zanahorias, patatas o remolachas",
-      "Puestos de trabajo para las profesiones",
-      "Composter (opcional, para un criadero automático)"
+      "Camas, con 2 bloques vacíos encima de cada una",
+      "Pan, zanahorias, patatas o remolachas",
+      "Una zona cerrada"
     ],
-    "editionNote": "Las reglas de cría coinciden en Java y Bedrock. En Bedrock los aldeanos necesitan que las camas estén vinculadas a la aldea y poder llegar a ellas.",
-    "versions": "Mecánica vigente desde la 1.14 (Village & Pillage).",
+    "editionNote": "Java: la reproducción falla si no hay una cama libre accesible por pathfinding en 48 bloques, y las camas deben estar dentro de los límites de la aldea. Bedrock: un censo periódico de la población de la aldea decide si continúa el apareamiento, y la apariencia del hijo depende del bioma donde ocurre la reproducción.",
+    "versions": "Basado en la página Villager de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué no crían mis aldeanos?",
-        "a": "Casi siempre: no hay camas válidas suficientes (cada una necesita 2 bloques de aire encima), no hay comida suficiente, el mob griefing está desactivado (no pueden recoger comida), o no pueden llegar a las camas."
+        "q": "¿Por qué no se reproducen mis aldeanos?",
+        "a": "Las causas habituales según la wiki: no hay cama libre a la que lleguen, una cama con un bloque (como una losa o trampilla) a menos de 2 bloques encima, falta de comida, o la regla mobGriefing en false, que impide que recojan comida."
       },
       {
-        "q": "¿Qué comida hace criar a los aldeanos?",
-        "a": "Pan (3), zanahorias (12), patatas (12) o remolachas (12) por aldeano. Tienen que recogerla: tírala al suelo junto a ellos."
+        "q": "¿Qué comida hace que los aldeanos quieran reproducirse?",
+        "a": "3 panes, 12 zanahorias, 12 patatas o 12 remolachas en una ranura del inventario del aldeano. Lánzasela para que la recoja. La comida se gasta cuando se vuelven dispuestos."
       },
       {
-        "q": "¿Pueden criar aldeanos infinitamente?",
-        "a": "Sí, mientras sigas añadiendo camas válidas y comida. Los criaderos automáticos usan un farmer con un campo de zanahorias o patatas de 9x9 y una fila de camas."
+        "q": "¿Cada cuánto pueden reproducirse?",
+        "a": "Tras una reproducción exitosa dejan de estar dispuestos durante 5 minutos, hasta reunir suficiente comida otra vez."
       }
     ],
     "relatedLinks": [
@@ -187,7 +186,8 @@
         "url": "/es/recipes/bed/",
         "label": "Receta de la cama"
       }
-    ]
+    ],
+    "keywords": "cómo reproducir aldeanos camas comida dispuestos pan zanahorias patatas remolachas"
   },
   "how-to-get-elytra": {
     "name": "Cómo conseguir elytra en Minecraft",

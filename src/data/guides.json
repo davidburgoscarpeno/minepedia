@@ -164,35 +164,34 @@
     "slug": "how-to-breed-villagers",
     "name": "How to Breed Villagers in Minecraft",
     "shortTitle": "Breed Villagers",
-    "quickAnswer": "Villagers breed on their own when they have enough food (3 bread, 12 carrots, 12 potatoes or 12 beetroots each) and there are more valid beds than villagers - every bed needs 2 air blocks above it. Feed two villagers or toss them food and wait.",
+    "quickAnswer": "Villagers breed when they are willing and an unclaimed bed with at least 2 empty blocks above it is reachable. A villager becomes willing with 3 bread, 12 carrots, 12 potatoes or 12 beetroots in one inventory slot. Throw food at two villagers and wait.",
     "steps": [
-      "Build a safe, enclosed area so villagers cannot wander off or die to zombies.",
-      "Place beds: at least one bed per adult villager plus one extra bed per baby you want. Each bed needs 2 empty blocks above it or it does not count.",
-      "Make them willing: throw food at two villagers - 3 bread, or 12 carrots / potatoes / beetroots each. Farmers also share and harvest crops automatically.",
-      "Wait: heart particles appear and a baby villager spawns after a few minutes. It grows up in 20 minutes.",
-      "Alternative: build a crop farm inside the enclosure with one composter; a farmer villager will harvest and share food nonstop, breeding indefinitely while beds are available.",
-      "Babies inherit no profession: they pick one as adults by claiming a free job site block (lectern = librarian, blast furnace = armorer...)."
+      "Enclose the area so villagers cannot wander off or be killed. Job sites are not required for breeding.",
+      "Place beds with at least 2 empty blocks above each. Slabs, trapdoors and similar blocks above a bed invalidate it, because mobs treat them as full blocks for pathfinding. Each baby needs a free bed the villager can reach.",
+      "Make them willing: throw bread, carrots, potatoes or beetroots at the villagers. They need 3 bread or 12 of the others in one slot. Villagers with spare food, usually farmers, also throw food to others.",
+      "Wait. Two willing villagers nearby breed and a baby appears. Becoming willing uses up the food even if no baby is born.",
+      "After breeding, villagers stop being willing for 5 minutes until they gather enough food again.",
+      "A baby villager becomes an adult 20 minutes after birth."
     ],
     "materials": [
-      "Beds (1 per villager + spares)",
-      "Food: bread, carrots, potatoes or beetroots",
-      "Job site blocks for professions",
-      "Composter (optional, for an automatic breeder)"
+      "Beds, with 2 empty blocks above each",
+      "Bread, carrots, potatoes or beetroots",
+      "An enclosed area"
     ],
-    "editionNote": "Breeding rules match in Java and Bedrock. Bedrock villagers need the beds to be linked to the village and villagers need to be able to pathfind to them.",
-    "versions": "Current mechanics since 1.14 (Village & Pillage).",
+    "editionNote": "Java: breeding fails if no unclaimed bed can be reached by pathfinding within 48 blocks, and beds must be within village bounds. Bedrock: a periodic census of the village population decides whether mating continues, and the child's appearance depends on the biome where breeding happens.",
+    "versions": "Based on the Villager page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "Why won't my villagers breed?",
-        "a": "Most often: not enough valid beds (each needs 2 air blocks above), not enough food, mob griefing is off (they cannot pick up food), or they cannot pathfind to the beds."
+        "a": "The usual causes on the wiki: no unclaimed bed they can pathfind to, a bed with a block (like a slab or trapdoor) less than 2 blocks above, not enough food, or the mobGriefing gamerule set to false, which stops villagers picking up food."
       },
       {
-        "q": "What food makes villagers breed?",
-        "a": "Bread (3), carrots (12), potatoes (12) or beetroots (12) per villager. They must pick it up - toss it on the ground next to them."
+        "q": "What food makes villagers willing to breed?",
+        "a": "3 bread, 12 carrots, 12 potatoes or 12 beetroots in one slot of the villager's inventory. Throw it at them so they pick it up. The food is used up when they become willing."
       },
       {
-        "q": "Can villagers breed infinitely?",
-        "a": "Yes, as long as you keep adding valid beds and food. Automatic breeders use a farmer with a 9x9 carrot or potato field and a row of beds."
+        "q": "How often can villagers breed?",
+        "a": "After a successful breeding, they stop being willing for 5 minutes, until they gather enough food again."
       }
     ],
     "relatedGuides": [
@@ -208,7 +207,7 @@
         "label": "Bed recipe"
       }
     ],
-    "keywords": "how to breed villagers beds food breeder"
+    "keywords": "how to breed villagers beds food willing bread carrots potatoes beetroots"
   },
   {
     "slug": "how-to-get-elytra",
