@@ -1435,35 +1435,39 @@
     "slug": "how-to-get-wither-skulls",
     "name": "How to Get Wither Skeleton Skulls in Minecraft",
     "shortTitle": "Get Wither Skulls",
-    "quickAnswer": "Kill wither skeletons in nether fortresses with a Looting III sword: 2.5% base drop, +1% per Looting level in Java (5.5% max). You need 3 skulls to summon the Wither - expect about 40 kills per skull without Looting (around 120 for three).",
+    "quickAnswer": "Wither skeleton skulls only drop from wither skeletons, which are found exclusively in nether fortresses. The drop chance is 2.5% per kill, rising 1% per Looting level to 5.5% at Looting III. You need 3 skulls to summon the Wither.",
     "steps": [
-      "Find a nether fortress - wither skeletons spawn nowhere else. Look for long nether brick structures with bridges and corridors.",
-      "Hunt at the right spots: inside a fortress piece bounding box they spawn on any block; in the wider fortress area they spawn only on nether bricks. Light level must be 0-7.",
-      "Use Looting III: it lifts the skull drop from 2.5% to 5.5% in Java - roughly halving the grind.",
-      "Kill them yourself: skulls only drop when a player (or tamed wolf) gets the kill, never from lava, fall damage or other mobs.",
-      "Build a farm for volume: slab or spawn-proof the fortress bounding boxes and funnel wither skeletons into a killing chamber over nether bricks.",
-      "Alternative: a wither skeleton killed by a charged creeper always drops its skull - spectacular but impractical for three skulls."
+      "Find a nether fortress: wither skeletons spawn only there, at light level 0 to 7. In Java they spawn in groups of 5, in Bedrock in groups of 2-3.",
+      "Know where they spawn: inside the bounding box of any single fortress piece they spawn on any block; in the wider fortress area only on nether bricks.",
+      "Use a sword with Looting: the skull chance is 2.5% by default and 3.5%, 4.5% and 5.5% with Looting I, II and III.",
+      "Kill them yourself. The wiki says the skull drops only when a player kills the wither skeleton (in Java a tamed wolf also counts).",
+      "A wither skeleton killed by a charged creeper always drops its skull.",
+      "Expect a grind: at 2.5% the average is 40 kills per skull, and at 5.5% about 18. Wither skeletons inflict the Wither effect, and drink milk to cure it.",
+      "Wither skeletons also drop coal and bones, and they are the only renewable source of coal."
     ],
     "materials": [
-      "Sword with Looting III (essential)",
-      "Fire Resistance potions for blaze and lava accidents",
-      "Food and a shield - wither skeletons inflict the Wither effect",
-      "Optional: slabs and torches to spawn-proof a farm"
+      "A sword with Looting III",
+      "Food and milk (wither skeletons inflict the Wither effect)",
+      "A shield and armor"
     ],
-    "editionNote": "In Java, Looting adds +1% per level to the skull drop (5.5% at Looting III).",
-    "versions": "Wither skeleton since 1.4.2 (Pretty Scary Update).",
+    "editionNote": "Java wither skeletons spawn in groups of 5, Bedrock in groups of 2-3. In Java a tamed wolf's kill also drops a skull; the Bedrock table lists only player kills. The Wither itself spawns 3-4 wither skeletons below half health on Normal and Hard.",
+    "versions": "Based on the Wither Skeleton page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "What is the drop rate for wither skeleton skulls?",
-        "a": "2.5% on a player kill. In Java, Looting raises it by 1% per level (5.5% at Looting III)."
+        "a": "2.5% with no Looting, 3.5% with Looting I, 4.5% with Looting II and 5.5% with Looting III."
       },
       {
         "q": "Where do wither skeletons spawn?",
-        "a": "Only in nether fortresses, at light level 0-7. Inside a structure piece they spawn on any block; elsewhere in the fortress area only on nether bricks."
+        "a": "Only in nether fortresses, at light level 0 to 7. Inside a fortress piece's bounding box they spawn on any block; elsewhere in the fortress area only on nether bricks."
       },
       {
-        "q": "How many wither skeletons do I need to kill for 3 skulls?",
-        "a": "On average about 40 kills per skull at the base 2.5% rate, so roughly 120 for three. With Looting III (5.5%) it is about 18 per skull, around 55 for three. RNG being RNG, bring patience."
+        "q": "How many kills do I need for 3 skulls?",
+        "a": "On average 40 kills per skull at 2.5% (about 120 for three) or about 18 per skull at 5.5% (about 55 for three). It is chance, so it can take more or fewer."
+      },
+      {
+        "q": "Can a charged creeper get me a skull?",
+        "a": "Yes. A wither skeleton killed by a charged creeper always drops its skull."
       }
     ],
     "relatedGuides": [
@@ -1480,7 +1484,7 @@
         "label": "Wither Skeleton Skull"
       }
     ],
-    "keywords": "wither skeleton skull how to get drop chance looting nether fortress farm summon wither"
+    "keywords": "wither skeleton skull how to get drop chance looting nether fortress summon wither charged creeper"
   },
   {
     "slug": "how-to-get-blue-axolotl",

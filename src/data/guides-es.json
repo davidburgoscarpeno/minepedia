@@ -1198,35 +1198,39 @@
   "how-to-get-wither-skulls": {
     "name": "Cómo conseguir Wither Skeleton Skulls en Minecraft",
     "shortTitle": "Conseguir Wither Skulls",
-    "quickAnswer": "Mata wither skeletons en nether fortresses con una espada de Saqueo III: 2,5% de drop base, +1% por nivel de Saqueo en Java (5,5% máx.). Necesitas 3 skulls para invocar al Wither: cuenta con unas 40 bajas por skull sin Saqueo (unas 120 para tres).",
+    "quickAnswer": "Los cráneos de wither skeleton solo caen de los wither skeletons, que se encuentran exclusivamente en nether fortresses. La probabilidad es de un 2,5% por muerte, y sube 1% por nivel de Looting hasta 5,5% con Looting III. Necesitas 3 cráneos para invocar al Wither.",
     "steps": [
-      "Encuentra una nether fortress: los wither skeletons no aparecen en ningún otro sitio. Busca estructuras largas de nether bricks con puentes y corredores.",
-      "Caza en los sitios correctos: dentro del bounding box de una pieza de la fortress aparecen en cualquier bloque; en el área amplia de la fortress solo sobre nether bricks. La luz debe estar entre 0 y 7.",
-      "Usa Saqueo III: sube el drop de skull del 2,5% al 5,5% en Java - casi reduce el grind a la mitad.",
-      "Mátalos tú: las skulls solo caen si la baja es de un jugador (o un wolf amaestrado), nunca por lava, caídas u otros mobs.",
-      "Monta una granja para volumen: pon slabs o bloquea spawns en los bounding boxes de la fortress y canaliza los wither skeletons a una cámara de matanza sobre nether bricks.",
-      "Alternativa: un wither skeleton muerto por un charged creeper siempre suelta su skull - espectacular pero poco práctico para tres skulls."
+      "Encuentra una nether fortress: los wither skeletons aparecen solo allí, con nivel de luz de 0 a 7. En Java aparecen en grupos de 5, en Bedrock en grupos de 2-3.",
+      "Sabe dónde aparecen: dentro de la caja de cualquier pieza de la fortaleza aparecen sobre cualquier bloque; en el área más amplia de la fortaleza solo sobre nether bricks.",
+      "Usa una espada con Looting: la probabilidad del cráneo es 2,5% por defecto y 3,5%, 4,5% y 5,5% con Looting I, II y III.",
+      "Mátalos tú mismo. La wiki indica que el cráneo solo cae si un jugador mata al wither skeleton (en Java también cuenta un lobo domado).",
+      "Un wither skeleton muerto por un charged creeper siempre suelta su cráneo.",
+      "Prepárate para repetir: al 2,5% el promedio es 40 muertes por cráneo, y al 5,5% unas 18. Los wither skeletons causan el efecto Wither; la leche lo cura.",
+      "Los wither skeletons también sueltan carbón y huesos, y son la única fuente renovable de carbón."
     ],
     "materials": [
-      "Espada con Saqueo III (imprescindible)",
-      "Pociones de Fire Resistance por blazes y lava",
-      "Comida y un shield: los wither skeletons infligen el efecto Wither",
-      "Opcional: slabs y torches para bloquear spawns en la granja"
+      "Una espada con Looting III",
+      "Comida y leche (los wither skeletons causan el efecto Wither)",
+      "Escudo y armadura"
     ],
-    "editionNote": "En Java, Saqueo suma +1% por nivel al drop del skull (5,5% con Saqueo III).",
-    "versions": "Wither skeleton desde 1.4.2 (Pretty Scary Update).",
+    "editionNote": "En Java los wither skeletons aparecen en grupos de 5, en Bedrock en grupos de 2-3. En Java la muerte por un lobo domado también suelta cráneo; la tabla de Bedrock solo lista muertes por jugador. El propio Wither invoca 3-4 wither skeletons por debajo de media vida en Normal y Hard.",
+    "versions": "Basado en la página Wither Skeleton de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cuál es la probabilidad de drop de las wither skeleton skulls?",
-        "a": "2,5% si la baja es de un jugador. En Java, Saqueo la sube 1% por nivel (5,5% con Saqueo III)."
+        "q": "¿Cuál es la probabilidad de soltar cráneo?",
+        "a": "2,5% sin Looting, 3,5% con Looting I, 4,5% con Looting II y 5,5% con Looting III."
       },
       {
         "q": "¿Dónde aparecen los wither skeletons?",
-        "a": "Solo en nether fortresses, con luz de 0 a 7. Dentro de una pieza de la estructura aparecen en cualquier bloque; en el resto del área de la fortress solo sobre nether bricks."
+        "a": "Solo en nether fortresses, con nivel de luz de 0 a 7. Dentro de la caja de una pieza de la fortaleza aparecen sobre cualquier bloque; en el resto del área de la fortaleza solo sobre nether bricks."
       },
       {
-        "q": "¿Cuántos wither skeletons hacen falta para 3 skulls?",
-        "a": "De media unas 40 bajas por skull al 2,5% base, así que unas 120 para tres. Con Saqueo III (5,5%) son unas 18 por skull, unas 55 para tres. El RNG es el RNG: lleva paciencia."
+        "q": "¿Cuántas muertes necesito para 3 cráneos?",
+        "a": "De media 40 muertes por cráneo al 2,5% (unas 120 para tres) o unas 18 por cráneo al 5,5% (unas 55 para tres). Es cuestión de suerte, puede ser más o menos."
+      },
+      {
+        "q": "¿Me sirve un charged creeper?",
+        "a": "Sí. Un wither skeleton muerto por un charged creeper siempre suelta su cráneo."
       }
     ],
     "relatedLinks": [
@@ -1238,7 +1242,8 @@
         "url": "/es/items/wither-skeleton-skull/",
         "label": "Wither Skeleton Skull"
       }
-    ]
+    ],
+    "keywords": "cráneo wither skeleton cómo conseguir probabilidad looting nether fortress invocar wither charged creeper"
   },
   "how-to-get-blue-axolotl": {
     "name": "Cómo conseguir un Axolotl azul en Minecraft",
