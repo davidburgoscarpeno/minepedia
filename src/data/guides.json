@@ -1982,36 +1982,39 @@
     "slug": "how-to-find-buried-treasure",
     "name": "How to Find Buried Treasure in Minecraft",
     "shortTitle": "Find Buried Treasure",
-    "quickAnswer": "Loot a buried treasure map from a shipwreck's map chest (every wreck with 2+ chests has one) or an ocean ruins chest, travel to the red X and dig: the chest sits at chunk-relative coordinates 9,9 in Java (8,8 in Bedrock), a few blocks down. Every chest contains a heart of the sea.",
+    "quickAnswer": "Buried treasure is a chest buried mainly in beaches, and it always holds a heart of the sea, the only source of one. Find it with a buried treasure map from a shipwreck, then dig where the map leads. In Java the chest is at chunk-relative 9,9 and faces east; in Bedrock it is at 8,8.",
     "steps": [
-      "Find a shipwreck - floating on the surface or sunken on the ocean floor - and loot the map chest in the lower stern: it always contains one buried treasure map. Ocean ruins chests can hold maps too.",
-      "Open the map: the red X marks the treasure. Your player arrow grows as you get close.",
-      "Stand on the X, then align precisely: in Java press F3 and move until the chunk-relative coordinates read 9, 9; in Bedrock they read 8, 8. In Java the chest always faces east.",
-      "Dig down through sand or gravel (sometimes stone if it generated on an underwater hillside) - the chest is usually only a few blocks deep and may be underwater and waterlogged.",
-      "Loot it: every buried treasure contains a heart of the sea - the only way to get one - plus iron, gold, diamonds, emeralds, TNT and cooked fish.",
-      "Craft a conduit with the heart of the sea and 8 nautilus shells for underwater breathing and vision.",
-      "Keep hunting: each map leads to one treasure, but different shipwrecks hand out maps to different treasures. In Bedrock, buried treasures generate far more often than in Java."
+      "Get a map: shipwrecks have up to 3 chests (supply, treasure and map chests), and the wiki says they can contain buried treasure maps. Map chests are in the lower section of the ship.",
+      "Follow the map to the treasure. Buried treasure generates in beach biomes (Java and Bedrock) and can also generate underwater.",
+      "Find the exact spot: in Java the chest is always at chunk-relative 9 on both X and Z, and faces east. In Bedrock it is at 8 on X and Z.",
+      "Dig down. The chest is usually under sand or gravel on beaches, under stone if it generated on an underwater hillside, and sometimes under other terrain blocks like coal ore or diorite.",
+      "If the chest is exposed to water it is waterlogged.",
+      "Loot: every buried treasure has a heart of the sea. Java pools can also give iron ingots, gold ingots, cooked cod and salmon, Water Breathing potions, TNT, emeralds, prismarine crystals and diamonds.",
+      "Use the heart of the sea to craft a conduit."
     ],
     "materials": [
-      "A buried treasure map (shipwreck map chest or ocean ruins chest)",
-      "Shovel (digging sand and gravel is faster)",
-      "Optional: door or water breathing for underwater digs",
-      "8 nautilus shells for the conduit"
+      "A buried treasure map (shipwreck map chest)",
+      "A shovel",
+      "Something for breathing underwater, if the chest is underwater"
     ],
-    "editionNote": "Treasures generate in beach and snowy beach biomes in both editions; Bedrock also gets them in stony shore and mushroom field shore, and generates them far more often. Dig spot: chunk-relative 9,9 in Java (chest always faces east), 8,8 in Bedrock.",
-    "versions": "Since Java 1.13 / Bedrock 1.4.0 (Update Aquatic).",
+    "editionNote": "Java: chunk-relative 9,9 and the chest faces east. Bedrock: chunk-relative 8,8. Bedrock also generates buried treasure in stony shore and mushroom field shore biomes, in addition to beaches and snowy beaches.",
+    "versions": "Based on the Buried Treasure and Shipwreck pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "Is buried treasure the only source of the heart of the sea?",
-        "a": "Yes. Every buried treasure chest contains exactly one heart of the sea, and it cannot be obtained anywhere else - you need it to craft a conduit."
+        "a": "Yes. The wiki says buried treasures are the only source, and every one contains a heart of the sea."
       },
       {
-        "q": "I am standing on the X but cannot find the chest. What now?",
-        "a": "Center yourself on the X and check the chunk coordinates: 9,9 in Java (F3), 8,8 in Bedrock. Dig a 3x3 hole down around that spot - the chest can be buried under sand, gravel or stone, sometimes below the waterline."
+        "q": "I am on the X but cannot find the chest. What now?",
+        "a": "Check the chunk-relative coordinates: the chest is at 9,9 in Java and 8,8 in Bedrock. It can be under sand, gravel, stone or other terrain blocks, so dig around that spot."
       },
       {
-        "q": "Do treasure maps ever point to the same chest?",
-        "a": "Maps found as loot never repeat a structure you already have a map for, so each new map from a shipwreck or ruin leads to fresh treasure."
+        "q": "Where do I find buried treasure maps?",
+        "a": "Shipwrecks can contain them, and the wiki also lists cartographer villagers as a map source (the Treasure Hunter advancement is for a purchased map)."
+      },
+      {
+        "q": "What biomes does buried treasure generate in?",
+        "a": "Beach and snowy beach in both editions, plus stony shore and mushroom field shore in Bedrock."
       }
     ],
     "relatedGuides": [
@@ -2032,7 +2035,7 @@
         "label": "Heart of the Sea"
       }
     ],
-    "keywords": "buried treasure minecraft map shipwreck heart of the sea dig x marks chunk coordinates conduit"
+    "keywords": "buried treasure minecraft map shipwreck heart of the sea dig chunk coordinates conduit"
   },
   {
     "slug": "how-to-make-fireworks",
