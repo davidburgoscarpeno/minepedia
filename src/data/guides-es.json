@@ -2,14 +2,14 @@
   "how-to-find-diamonds": {
     "name": "Cómo encontrar diamantes en Minecraft",
     "shortTitle": "Encontrar diamantes",
-    "quickAnswer": "Mina a Y=-59 (justo encima de la bedrock) en el Overworld. La diamond ore se genera con más frecuencia en los niveles más profundos, desde Y=16 hasta la bedrock, con máximo cerca de Y=-59. Usa un pico de iron o mejor; Fortune III multiplica tus diamantes.",
+    "quickAnswer": "El diamond ore se genera en el Overworld desde Y=16 hasta Y=-63 y es más común cuanto más bajo. El deepslate diamond ore es más común en Y=-58 y Y=-59. Minalo con pico de hierro o mejor: suelta 1 diamante y 3-7 XP.",
     "steps": [
-      "Craftea un pico de iron (3 iron ingots + 2 sticks). Los picos de piedra o madera destruyen la diamond ore sin soltar nada.",
-      "Baja hasta Y=-59. Pulsa F3 (Java) o activa las coordenadas en los ajustes del mundo (Bedrock) para ver tu nivel Y. Cava una escalera, nunca en vertical.",
-      "Haz branch mining: cava un túnel principal y túneles laterales cada 2 bloques para exponer el máximo de bloques por golpe de pico.",
-      "Busca diamond ore (puntos azul claro) en piedra o deepslate. La mayoría de las vetas tiene 1-10 menas; las vetas cerca de lagos de lava son más fáciles de ver en cuevas.",
-      "Mina la mena con tu pico de iron o superior. Cada mena suelta 1 diamante (hasta 4 con Fortune III).",
-      "Alternativa: explora cuevas entre Y=-50 e Y=-64, y saquea cofres de shipwrecks, tesoros enterrados, mineshafts, bastions y end cities."
+      "Craftea un pico de hierro o mejor: el diamond ore lo necesita para soltar algo útil.",
+      "Baja hasta Y=-58 o Y=-59, donde el deepslate diamond ore es más común. Comprueba tu altura Y con las coordenadas (F3 en Java).",
+      "Haz minería en ramas por piedra y deepslate para exponer cuantos más bloques mejor.",
+      "Mira cerca de aquíferos y lava: la mena no tiene menos probabilidad de generarse al estar expuesta a agua o lava, así que aparece más en las paredes de aquíferos. Algunos bloques de mena tienen probabilidad de no generarse junto al aire.",
+      "Mina la mena: suelta 1 diamante y 3-7 XP. Fortune I da 1/3 de probabilidad de 2 diamantes (media 1,33), Fortune II promedia 1,75 y Fortune III promedia 2,2.",
+      "Silk Touch suelta el propio bloque de mena en vez de un diamante."
     ],
     "materials": [
       "Pico de iron o mejor (diamante, netherite)",
@@ -18,20 +18,24 @@
       "Cubo de agua para la lava",
       "Pico con Fortune III para el mejor rendimiento (opcional)"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: la diamond ore se genera de Y=16 a la bedrock con tasas máximas en Y=-59, y con exposición reducida al aire desde la 1.18. Las coordenadas se ven con F3 en Java y con el ajuste Mostrar coordenadas del mundo en Bedrock.",
-    "versions": "La distribución de menas aplica a 1.18+ (Caves & Cliffs Parte 2). Antes de la 1.18, mina a Y=11-12.",
+    "editionNote": "Según la wiki, el diamond ore sustituye stone, andesite, diorite, granite, tuff y deepslate, y la variante que sustituye deepslate o tuff pasa a ser deepslate diamond ore. También aparece en fósiles bajo Y=0 como deepslate diamond ore sustituyendo algunos bone blocks.",
+    "versions": "Según la página Diamond Ore de Minecraft Wiki: las características actuales de generación van de Y=16 a Y=-63, con una extra de Y=-4 a Y=-63.",
     "faq": [
       {
-        "q": "¿Cuál es el mejor nivel Y para diamantes?",
-        "a": "Y=-59, justo encima de la capa de bedrock. La diamond ore es más común en el fondo del mundo, pero la bedrock empieza a aparecer en Y=-60, así que -59 te mantiene a salvo de ella."
+        "q": "¿Cuál es la mejor altura Y para diamantes?",
+        "a": "Alrededor de Y=-58 a Y=-59, donde el deepslate diamond ore es más común."
       },
       {
         "q": "¿Aparecen más diamantes cerca de la lava?",
-        "a": "No, pero las vetas de diamante cerca de lagos de lava en cuevas profundas son más fáciles de ver porque menos bloques las ocultan. La exposición al aire reduce la generación de diamantes desde la 1.18, así que el strip mining supera a la caza en cuevas."
+        "a": "La mena no tiene menos probabilidad de generarse expuesta a agua o lava, así que se ve más en paredes de aquíferos. La mena en contacto con aire puede no generarse."
       },
       {
-        "q": "¿Se pueden encontrar diamantes sin minar?",
-        "a": "Sí: los cofres de tesoros enterrados, shipwrecks, mineshafts, bastion remnants, end cities y ruined portals pueden contener diamantes o equipo de diamante."
+        "q": "¿Cuánto da Fortune?",
+        "a": "Fortune I promedia 1,33 diamantes, Fortune II 1,75 y Fortune III 2,2."
+      },
+      {
+        "q": "¿Qué herramienta necesito?",
+        "a": "Un pico de hierro o mejor."
       }
     ],
     "relatedLinks": [

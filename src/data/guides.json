@@ -3,14 +3,14 @@
     "slug": "how-to-find-diamonds",
     "name": "How to Find Diamonds in Minecraft",
     "shortTitle": "Find Diamonds",
-    "quickAnswer": "Mine at Y=-59 (just above bedrock) in the Overworld. Diamond ore generates most often at the deepest levels, from Y=16 down to bedrock, peaking near Y=-59. Use an iron pickaxe or better; Fortune III multiplies your diamonds.",
+    "quickAnswer": "Diamond ore generates in the Overworld from Y=16 down to Y=-63 and gets more common the lower you go. Deepslate diamond ore is most common at Y=-58 and Y=-59. Mine it with an iron pickaxe or better; it drops 1 diamond and 3-7 XP.",
     "steps": [
-      "Craft an iron pickaxe (3 iron ingots + 2 sticks). Stone or wood pickaxes destroy diamond ore without dropping anything.",
-      "Dig down to Y=-59. Press F3 (Java) or enable coordinates in world settings (Bedrock) to see your Y level. Dig a staircase, never straight down.",
-      "Branch mine: dig a main tunnel and side tunnels every 2 blocks so you expose the most blocks per pickaxe swing.",
-      "Look for diamond ore (light blue specks) in stone or deepslate. Most veins have 1-10 ores; veins near lava pools are easier to spot in caves.",
-      "Mine the ore with your iron+ pickaxe. Each ore drops 1 diamond (up to 4 with Fortune III).",
-      "Alternative: search caves between Y=-50 and -64, loot shipwrecks, buried treasure, mineshafts, bastions and end city chests."
+      "Craft an iron pickaxe or better: diamond ore needs it to drop anything useful.",
+      "Dig down to around Y=-58 or Y=-59, where deepslate diamond ore is most common. Check your Y level with coordinates (F3 in Java).",
+      "Branch mine through stone and deepslate to expose as many blocks as you can.",
+      "Look near aquifers and lava: ore does not get a reduced chance to generate when exposed to water or lava, so it appears more often on aquifer walls. Some ore blocks have a chance not to generate when next to air.",
+      "Mine the ore: it drops 1 diamond and 3-7 XP. Fortune I gives a 1/3 chance of 2 diamonds (average 1.33), Fortune II averages 1.75 and Fortune III averages 2.2.",
+      "Silk Touch drops the ore block itself instead of a diamond."
     ],
     "materials": [
       "Iron pickaxe or better (diamond, netherite)",
@@ -19,20 +19,24 @@
       "Water bucket for lava",
       "Fortune III pickaxe for best yield (optional)"
     ],
-    "editionNote": "Identical in Java and Bedrock: diamond ore generates from Y=16 to bedrock with peak rates at Y=-59, and reduced exposure to air since 1.18. Coordinates are shown with F3 in Java and the Show Coordinates world toggle in Bedrock.",
-    "versions": "Ore distribution applies to 1.18+ (Caves & Cliffs Part 2). Before 1.18, mine at Y=11-12.",
+    "editionNote": "Per the wiki, diamond ore replaces stone, andesite, diorite, granite, tuff and deepslate, and the version that replaces deepslate or tuff becomes deepslate diamond ore. It also appears in fossils below Y=0 as deepslate diamond ore replacing some bone blocks.",
+    "versions": "Per the Minecraft Wiki Diamond Ore page: current generation features run from Y=16 to Y=-63, with an extra feature from Y=-4 to Y=-63.",
     "faq": [
       {
         "q": "What is the best Y level for diamonds?",
-        "a": "Y=-59, just above the bedrock layer. Diamond ore is most common at the bottom of the world, but bedrock starts appearing at Y=-60, so -59 keeps you clear of it."
+        "a": "Around Y=-58 to Y=-59, where deepslate diamond ore is most common."
       },
       {
         "q": "Do diamonds spawn more near lava?",
-        "a": "No, but diamond veins near lava lakes in deep caves are easier to see because fewer blocks hide them. Air exposure reduces diamond generation since 1.18, so strip mining beats cave hunting."
+        "a": "Ore is not less likely to generate when exposed to water or lava, so it shows more on the walls of aquifers. Ore touching air has a chance not to generate."
       },
       {
-        "q": "Can you find diamonds without mining?",
-        "a": "Yes: buried treasure chests, shipwrecks, mineshafts, bastion remnants, end cities and ruined portals can all contain diamonds or diamond gear."
+        "q": "How much does Fortune give?",
+        "a": "Fortune I averages 1.33 diamonds, Fortune II 1.75 and Fortune III 2.2."
+      },
+      {
+        "q": "What tool do I need?",
+        "a": "An iron pickaxe or better."
       }
     ],
     "relatedGuides": [
