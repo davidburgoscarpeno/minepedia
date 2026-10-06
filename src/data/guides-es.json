@@ -1038,36 +1038,39 @@
   "how-to-make-mace": {
     "name": "Cómo hacer un Mace en Minecraft",
     "shortTitle": "Hacer un Mace",
-    "quickAnswer": "Craftea un mace con 1 heavy core + 1 breeze rod (en vertical). Las breeze rods las sueltan los breezes de las trial chambers; el heavy core es botín raro (7,5%) de los ominous vaults, que necesitan ominous trial keys de los trial spawners ominous: activa una trial ominous entrando a unas trial chambers con Bad Omen de la ominous bottle de un raid captain.",
+    "quickAnswer": "Fabrica una mace con 1 heavy core y 1 breeze rod. Los heavy cores solo caen de ominous vaults (7,5% de probabilidad) y los breeze rods de los breezes. Tras caer 1,5 bloques o más, un golpe se convierte en smash attack: hace daño extra según la distancia caída y anula tu daño por caída.",
     "steps": [
-      "Consigue Bad Omen: mata a un pillager raid captain (pillager outposts o patrullas) y bébete la ominous bottle que suelta.",
-      "Entra a unas trial chambers con el Bad Omen activo: los trial spawners se vuelven ominous y generan oleadas más duras con mejor botín.",
-      "Completa trial spawners ominous para ganar ominous trial keys.",
-      "Abre ominous vaults con esas llaves: cada una tiene un 7,5% de probabilidad de contener un heavy core. Espera abrir varias vaults.",
-      "Mata breezes en las trial chambers para conseguir breeze rods: el mismo mob que te dispara wind charges.",
-      "Craftea el mace: heavy core encima de breeze rod en la cuadrícula.",
-      "Pelea con smash attacks: cae al menos 1,5 bloques antes de golpear. El daño escala con la distancia de caída y un smash acertado anula tu daño por caída. Añade encantamientos Density (más daño de smash), Breach (perfora armadura) o Wind Burst (rebote tras el smash)."
+      "Consigue un breeze rod: los breezes están en trial chambers (mira la guía de trial chambers).",
+      "Consigue un heavy core: solo cae de ominous vaults, con un 7,5% de probabilidad. Los ominous vaults requieren ominous trial keys de ominous trial spawners.",
+      "Fabrica la mace: heavy core más breeze rod en la mesa de crafteo.",
+      "Smash attack: cae 1,5 bloques o más y golpea a una entidad sin estar en el suelo. El daño extra es 4 por bloque en los primeros 3 bloques caídos, 2 por bloque en los siguientes 5 y 1 por bloque después. Los smash attacks suelen ser golpes críticos.",
+      "Un smash attack exitoso te deja aterrizar sin el daño por caída acumulado y empuja a todo lo que esté a menos de 2,5 bloques (a ti no). No funciona con el efecto Slow Falling.",
+      "Un ataque normal en el suelo hace 6 de daño y cada ataque gasta 1 de durabilidad (500 en Java, 501 en Bedrock).",
+      "Encantamientos: Density suma 0,5 de daño por nivel por cada bloque caído. Breach y Wind Burst también funcionan en la mace; Wind Burst puede lanzarte tras un smash."
     ],
     "materials": [
       "1 heavy core (ominous vaults, 7,5%)",
-      "1 breeze rod (breezes en trial chambers)",
-      "Ominous bottles de raid captains (para las trials ominous)",
-      "Equipo para las trial chambers: shield, comida, y las pociones de Slow Falling ayudan"
+      "1 breeze rod (breezes de las trial chambers)",
+      "Equipo y llaves para las trial chambers"
     ],
-    "editionNote": "Idéntico en ambas ediciones. En Bedrock el mace no tiene cooldown de ataque, así que un mace con Breach IV tiene el mayor DPS de cualquier arma contra objetivos con armadura; en Java tiene la velocidad de ataque más lenta del juego (0,6).",
-    "versions": "Mace, heavy core, breeze rod, breezes y trial chambers, todos desde 1.21 (Tricky Trials).",
+    "editionNote": "Java: velocidad de ataque 0,6, la más lenta del juego, y un golpe de mace a un bote o vagoneta lo destruye. Bedrock: sin enfriamiento de ataque, así que una mace con Breach IV tiene el mayor daño por golpe y el mayor DPS contra armadura de diamante o netherite. En Java hay que quitarse las elytra para hacer un smash attack; en Bedrock funciona incluso durante el vuelo con elytra.",
+    "versions": "Basado en la página Mace de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
         "q": "¿Qué tan raro es el heavy core?",
-        "a": "7,5% por ominous vault. Cada jugador puede abrir cada vault una vez por estructura, así que visitar varias trial chambers - o traer amigos - multiplica tus probabilidades."
+        "a": "7,5% en ominous vaults. Cada jugador solo puede abrir un vault concreto una vez."
       },
       {
         "q": "¿Cómo funciona el smash attack?",
-        "a": "Cae 1,5+ bloques y golpea a una entidad antes de aterrizar: el daño extra escala con la distancia caída, un golpe acertado anula tu daño por caída y todo lo que haya a 2,5 bloques sale volando."
+        "a": "Golpea tras caer 1,5 bloques o más y sin estar en el suelo (y sin Slow Falling). El daño extra crece con la distancia caída, aterrizas sin daño por caída y las entidades a menos de 2,5 bloques salen empujadas."
       },
       {
-        "q": "¿Cuáles son los mejores encantamientos para el mace?",
-        "a": "Density (hasta V) añade daño por bloque caído, Breach (hasta IV) perfora armadura, Wind Burst (III, exclusivo de vaults) te lanza tras un smash para encadenar ataques. Density y Breach son mutuamente excluyentes."
+        "q": "¿Cuánto ayuda Density?",
+        "a": "Cada nivel suma 0,5 de daño por cada bloque caído. La wiki compara matar a un jugador con armadura de netherite Protection IV completa: una mace sin encantar necesita un crítico tras caer 30 bloques, con Density V basta con 10."
+      },
+      {
+        "q": "¿Cuántas veces puedo usar una mace?",
+        "a": "Tiene 500 de durabilidad en Java y 501 en Bedrock, y cada ataque gasta 1."
       }
     ],
     "relatedLinks": [
@@ -1083,7 +1086,8 @@
         "url": "/es/items/breeze-rod/",
         "label": "Breeze Rod"
       }
-    ]
+    ],
+    "keywords": "mace cómo fabricar heavy core breeze rod ominous vault smash attack density breach wind burst"
   },
   "how-to-find-woodland-mansion": {
     "name": "Cómo encontrar una Woodland Mansion en Minecraft",

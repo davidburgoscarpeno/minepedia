@@ -1260,36 +1260,39 @@
     "slug": "how-to-make-mace",
     "name": "How to Make a Mace in Minecraft",
     "shortTitle": "Make a Mace",
-    "quickAnswer": "Craft a mace from 1 heavy core + 1 breeze rod (stacked vertically). Breeze rods drop from breezes in trial chambers; the heavy core is rare loot (7.5%) from ominous vaults, which need ominous trial keys from ominous trial spawners - start an ominous trial by entering trial chambers with Bad Omen from a raid captain's ominous bottle.",
+    "quickAnswer": "Craft a mace with 1 heavy core and 1 breeze rod. Heavy cores only drop from ominous vaults (7.5% chance), and breeze rods come from breezes. After falling 1.5 blocks or more, a hit becomes a smash attack that deals extra damage by distance fallen and cancels your fall damage.",
     "steps": [
-      "Get Bad Omen: kill a pillager raid captain (pillager outposts or patrols) and drink the ominous bottle it drops.",
-      "Enter trial chambers with Bad Omen active - the trial spawners turn ominous and spawn harder waves with better loot.",
-      "Complete ominous trial spawners to earn ominous trial keys.",
-      "Open ominous vaults with those keys: each has a 7.5% chance of containing a heavy core. Expect to open several vaults.",
-      "Kill breezes in the trial chambers for breeze rods - the same mob that shoots wind charges at you.",
-      "Craft the mace: heavy core above breeze rod in the crafting grid.",
-      "Fight with smash attacks: fall at least 1.5 blocks before hitting. Damage scales with fall distance and a successful smash negates your fall damage. Add Density (more smash damage), Breach (armor pierce) or Wind Burst (bounce after smash) enchantments."
+      "Get a breeze rod: breezes are found in trial chambers (see the trial chambers guide).",
+      "Get a heavy core: it only drops from ominous vaults, with a 7.5% chance. Ominous vaults need ominous trial keys from ominous trial spawners.",
+      "Craft the mace: heavy core plus breeze rod in the crafting grid.",
+      "Smash attack: fall 1.5 blocks or more and hit an entity while not on the ground. Extra damage is 4 per block for the first 3 blocks fallen, 2 per block for the next 5, and 1 per block after that. Smash attacks are usually critical hits.",
+      "A successful smash attack lets you land without the fall damage you built up, and knocks back everything within 2.5 blocks (not you). It does not work while you have Slow Falling.",
+      "A normal attack on the ground deals 6 damage, and every attack costs 1 durability (500 in Java, 501 in Bedrock).",
+      "Enchantments: Density adds 0.5 damage per level for each block fallen. Breach and Wind Burst also work on the mace; Wind Burst can launch you after a smash."
     ],
     "materials": [
       "1 heavy core (ominous vaults, 7.5%)",
       "1 breeze rod (breezes in trial chambers)",
-      "Ominous bottles from raid captains (for ominous trials)",
-      "Gear for trial chambers: shield, food, and Slow Falling potions help"
+      "Gear and keys for trial chambers"
     ],
-    "editionNote": "Identical in both editions. In Bedrock the mace has no attack cooldown, so a Breach IV mace has the highest DPS of any weapon against armored targets; in Java it has the slowest attack speed in the game (0.6).",
-    "versions": "Mace, heavy core, breeze rod, breezes and trial chambers all since 1.21 (Tricky Trials).",
+    "editionNote": "Java: attack speed is 0.6, the slowest in the game, and a mace hit on a boat or minecart destroys it. Bedrock: no attack cooldown, so a Breach IV mace has the highest damage per hit and the highest DPS against diamond or netherite armor. In Java, elytra must be unequipped for a smash attack; in Bedrock a smash works even during elytra flight.",
+    "versions": "Based on the Mace page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "How rare is the heavy core?",
-        "a": "7.5% per ominous vault. Each player can open each vault once per structure, so visiting several trial chambers - or bringing friends - multiplies your chances."
+        "a": "7.5% from ominous vaults. Each player can unlock a given vault only once."
       },
       {
         "q": "How does the smash attack work?",
-        "a": "Fall 1.5+ blocks and hit an entity before landing: bonus damage scales with distance fallen, a successful hit nullifies your fall damage, and everything within 2.5 blocks gets knocked back."
+        "a": "Hit while falling 1.5 blocks or more and not on the ground (and without Slow Falling). Extra damage grows with the distance fallen, the attack lands without fall damage, and entities within 2.5 blocks are knocked back."
       },
       {
-        "q": "What are the best mace enchantments?",
-        "a": "Density (up to V) adds damage per fallen block, Breach (up to IV) pierces armor, Wind Burst (III, vault-exclusive) launches you after a smash for chained attacks. Density and Breach are mutually exclusive."
+        "q": "How much does Density help?",
+        "a": "Each level adds 0.5 damage for each block fallen. The wiki compares kills on a player in full Protection IV netherite armor: an unenchanted mace needs a critical hit after falling 30 blocks, Density V needs 10."
+      },
+      {
+        "q": "How many times can I use a mace?",
+        "a": "It has 500 durability in Java and 501 in Bedrock, and every attack uses 1."
       }
     ],
     "relatedGuides": [
@@ -1310,7 +1313,7 @@
         "label": "Breeze Rod"
       }
     ],
-    "keywords": "mace how to craft heavy core breeze rod ominous vault trial chambers smash attack density breach wind burst"
+    "keywords": "mace how to craft heavy core breeze rod ominous vault smash attack density breach wind burst"
   },
   {
     "slug": "how-to-find-woodland-mansion",
