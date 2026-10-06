@@ -282,37 +282,41 @@
     "slug": "how-to-enchant",
     "name": "How to Enchant in Minecraft",
     "shortTitle": "Enchant Items",
-    "quickAnswer": "Craft an enchanting table (4 obsidian + 2 diamonds + 1 book), surround it with up to 15 bookshelves leaving a one-block gap, place the item inside with 1-3 lapis lazuli, and pick one of three random enchantments requiring up to level 30 (you only spend 3 levels and 3 lapis).",
+    "quickAnswer": "Craft an enchanting table (book + diamonds + obsidian), put an item that is not already enchanted in it with lapis lazuli, and pick one of three offers. Surround the table with 15 bookshelves, each with one block of air or a replaceable block between it and the table, to unlock level 30 offers. A level 30 offer charges only 3 levels and 3 lapis.",
     "steps": [
-      "Craft an enchanting table: 4 obsidian, 2 diamonds, 1 book.",
-      "Build a library: 15 bookshelves (6 planks + 3 books each) arranged around the table with exactly one block of air between - a 5x5 ring with the table in the center is the standard layout.",
-      "Get lapis lazuli: mine lapis ore (most common around Y=-2) or trade with cleric villagers.",
-      "Get XP levels: kill mobs, smelt, mine, breed animals or fish. Level 30 unlocks the top enchantment offer.",
-      "Open the table: put the item in the left slot, 1-3 lapis in the right. Three offers appear; the bottom one needs level 30 but only costs 3 lapis and 3 levels.",
-      "The offers reset only after you enchant something - enchant a cheap item (book or wooden tool) to reroll if you dislike the options.",
-      "Go further with anvils: combine two enchanted items, or apply enchanted books (from loot, fishing or librarian villagers) for exact enchants like Mending."
+      "Craft an enchanting table from a book, diamonds and obsidian.",
+      "Build the library: bookshelves go next to the table with one block of air (or a replaceable block like snow or grass) between them. Most other blocks, even torches, stop a bookshelf from connecting. A 1-block-high square of bookshelves with an empty space on the perimeter is the simple layout. 15 bookshelves are needed for level 30 enchantments.",
+      "Get lapis lazuli and experience levels. You need at least the level requirement of the offer.",
+      "Open the table, put the item in the item slot and lapis in the lapis slot. Three offers appear. Hover over one to see one of its enchantments.",
+      "Pick an offer. You are charged levels and lapis equal to its lapis requirement: a level 30 offer needs 30 levels but costs only 3 levels and 3 lapis.",
+      "To refresh the offers, enchant anything: it changes your enchantment seed, so the possible enchantments change. The wiki suggests spending 1 lapis and 1 level on a book or another item.",
+      "Treasure enchantments (such as Mending) are not available at the table. Use an anvil and enchanted books for exact enchantments."
     ],
     "materials": [
       "Enchanting table",
-      "15 bookshelves for max level",
-      "Lapis lazuli",
-      "XP levels (30 for the top offer)",
-      "Anvil + enchanted books for targeted enchants"
+      "15 bookshelves for level 30 offers",
+      "Lapis lazuli (3 at most per enchantment)",
+      "Experience levels (up to 30)",
+      "Anvil and enchanted books for targeted enchantments"
     ],
-    "editionNote": "Mechanics match in Java and Bedrock: 15 bookshelves max, 30-level cap, treasure enchantments (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) never appear on the table.",
-    "versions": "Current system since 1.8 (lapis cost added).",
+    "editionNote": "The wiki's enchanting pages describe the same table, bookshelf limit and 3-offer system for both editions. Naming the table in an anvil changes the GUI title; the /data CustomName route is Java only.",
+    "versions": "Based on the Enchanting Table and Enchanting mechanics pages on minecraft.wiki (the mechanics are from 1.8 and still match 1.21), checked October 2026.",
     "faq": [
       {
-        "q": "How many bookshelves for level 30 enchants?",
-        "a": "15 bookshelves, placed one block away from the enchanting table (5x5 ring, table in the middle, nothing - not even torches or carpet - in the gap)."
+        "q": "How many bookshelves do I need for level 30 enchantments?",
+        "a": "15 bookshelves, each with one block of air or a replaceable block between it and the table. Most other blocks, even torches, break the connection."
       },
       {
         "q": "Why can't I get Mending from the enchanting table?",
-        "a": "Mending is a treasure enchantment: it only comes from loot chests, fishing, raids (Bedrock) or librarian villager trades."
+        "a": "Mending is a treasure enchantment, and treasure enchantments cannot be obtained through an enchanting table."
       },
       {
-        "q": "How do you reroll enchantment options?",
-        "a": "Enchant any cheap item - a book or wooden shovel - and the three offers regenerate. Your item type also filters which enchants can appear."
+        "q": "How do I reroll the offers?",
+        "a": "Enchanting any item changes your enchantment seed and the possible enchantments. The wiki suggests spending 1 lapis and 1 level on a book or another item to refresh the list."
+      },
+      {
+        "q": "Can I enchant an item that is already enchanted?",
+        "a": "No. The table only enchants items that are not already enchanted."
       }
     ],
     "relatedGuides": [
@@ -332,7 +336,7 @@
         "label": "Anvil recipe"
       }
     ],
-    "keywords": "how to enchant minecraft bookshelves level 30 lapis"
+    "keywords": "how to enchant minecraft enchanting table bookshelves level 30 lapis lazuli reroll"
   },
   {
     "slug": "how-to-make-iron-golem",

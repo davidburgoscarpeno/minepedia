@@ -248,37 +248,41 @@
   "how-to-enchant": {
     "name": "Cómo encantar en Minecraft",
     "shortTitle": "Encantar objetos",
-    "quickAnswer": "Craftea una enchanting table (4 obsidiana + 2 diamantes + 1 libro), rodéala con hasta 15 librerías dejando un bloque de separación, mete el objeto con 1-3 lapis lazuli y elige uno de tres encantamientos aleatorios que exigen hasta el nivel 30 (solo gastas 3 niveles y 3 lapis).",
+    "quickAnswer": "Fabrica una mesa de encantamientos (libro + diamantes + obsidiana), coloca un objeto sin encantar con lapislázuli y elige una de las tres ofertas. Rodea la mesa con 15 estanterías, cada una con un bloque de aire o reemplazable entre ella y la mesa, para desbloquear ofertas de nivel 30. Una oferta de nivel 30 cuesta solo 3 niveles y 3 de lapislázuli.",
     "steps": [
-      "Craftea una enchanting table: 4 obsidiana, 2 diamantes, 1 libro.",
-      "Construye una biblioteca: 15 librerías (6 tablones + 3 libros cada una) alrededor de la mesa con exactamente un bloque de aire de separación: un anillo de 5x5 con la mesa en el centro es el diseño estándar.",
-      "Consigue lapis lazuli: mina lapis ore (más común alrededor de Y=-2) o comercia con aldeanos clerics.",
-      "Consigue niveles de XP: mata mobs, funde, mina, cría animales o pesca. El nivel 30 desbloquea la mejor oferta de encantamiento.",
-      "Abre la mesa: pon el objeto en el hueco izquierdo y 1-3 de lapis en el derecho. Aparecen tres ofertas; la de abajo exige nivel 30 pero solo cuesta 3 de lapis y 3 niveles.",
-      "Las ofertas solo se reinician después de encantar algo: encanta un objeto barato (libro o herramienta de madera) para rebarajar si no te gustan las opciones.",
-      "Ve más lejos con yunques: combina dos objetos encantados, o aplica libros encantados (de botín, pesca o aldeanos librarians) para encantamientos exactos como Mending."
+      "Fabrica una mesa de encantamientos con un libro, diamantes y obsidiana.",
+      "Construye la biblioteca: las estanterías van junto a la mesa con un bloque de aire (o reemplazable, como nieve o hierba) en medio. La mayoría de los demás bloques, incluso antorchas, impiden que una estantería se conecte. Un cuadrado de estanterías de 1 bloque de alto con un hueco en el perímetro es la disposición sencilla. Hacen falta 15 estanterías para encantamientos de nivel 30.",
+      "Consigue lapislázuli y niveles de experiencia. Necesitas al menos el nivel que pide la oferta.",
+      "Abre la mesa, pon el objeto en su ranura y el lapislázuli en la suya. Aparecen tres ofertas. Pasa el cursor por una para ver uno de sus encantamientos.",
+      "Elige una oferta. Te cobra niveles y lapislázuli iguales a su requisito de lapislázuli: una oferta de nivel 30 pide 30 niveles pero cuesta solo 3 niveles y 3 de lapislázuli.",
+      "Para renovar las ofertas, encanta cualquier cosa: cambia tu semilla de encantamiento y, con ella, los encantamientos posibles. La wiki sugiere gastar 1 de lapislázuli y 1 nivel en un libro u otro objeto.",
+      "Los encantamientos de tesoro (como Mending) no están disponibles en la mesa. Usa un yunque y libros encantados para encantamientos concretos."
     ],
     "materials": [
-      "Enchanting table",
-      "15 librerías para el nivel máximo",
-      "Lapis lazuli",
-      "Niveles de XP (30 para la mejor oferta)",
-      "Yunque + libros encantados para encantamientos concretos"
+      "Mesa de encantamientos",
+      "15 estanterías para ofertas de nivel 30",
+      "Lapislázuli (3 como máximo por encantamiento)",
+      "Niveles de experiencia (hasta 30)",
+      "Yunque y libros encantados para encantamientos concretos"
     ],
-    "editionNote": "La mecánica coincide en Java y Bedrock: máximo de 15 librerías, tope de 30 niveles, y los encantamientos tesoro (Mending, Frost Walker, Curses, Soul Speed, Swift Sneak, Wind Burst) nunca aparecen en la mesa.",
-    "versions": "Sistema vigente desde la 1.8 (se añadió el coste de lapis).",
+    "editionNote": "Las páginas de encantamiento de la wiki describen la misma mesa, el mismo límite de estanterías y el mismo sistema de 3 ofertas en ambas ediciones. Poner nombre a la mesa en un yunque cambia el título de la interfaz; la vía de /data CustomName es solo de Java.",
+    "versions": "Basado en las páginas Enchanting Table y Enchanting mechanics de minecraft.wiki (la mecánica viene de 1.8 y sigue coincidiendo con 1.21), revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cuántas librerías hacen falta para encantamientos de nivel 30?",
-        "a": "15 librerías, colocadas a un bloque de la enchanting table (anillo de 5x5, mesa en medio, sin nada, ni antorchas ni alfombras, en el hueco)."
+        "q": "¿Cuántas estanterías necesito para encantamientos de nivel 30?",
+        "a": "15 estanterías, cada una con un bloque de aire o reemplazable entre ella y la mesa. La mayoría de los demás bloques, incluso antorchas, cortan la conexión."
       },
       {
-        "q": "¿Por qué no puedo conseguir Mending en la enchanting table?",
-        "a": "Mending es un encantamiento tesoro: solo sale de cofres de botín, pesca, raids (Bedrock) o tradeos de aldeanos librarians."
+        "q": "¿Por qué no puedo conseguir Mending en la mesa de encantamientos?",
+        "a": "Mending es un encantamiento de tesoro, y los encantamientos de tesoro no se pueden obtener en la mesa de encantamientos."
       },
       {
-        "q": "¿Cómo se rebarajan las opciones de encantamiento?",
-        "a": "Encanta cualquier objeto barato, un libro o una pala de madera, y las tres ofertas se regeneran. El tipo de objeto también filtra qué encantamientos pueden aparecer."
+        "q": "¿Cómo renuevo las ofertas?",
+        "a": "Encantar cualquier objeto cambia tu semilla de encantamiento y los encantamientos posibles. La wiki sugiere gastar 1 de lapislázuli y 1 nivel en un libro u otro objeto para refrescar la lista."
+      },
+      {
+        "q": "¿Puedo encantar un objeto ya encantado?",
+        "a": "No. La mesa solo encanta objetos que no estén ya encantados."
       }
     ],
     "relatedLinks": [
@@ -294,7 +298,8 @@
         "url": "/es/recipes/anvil/",
         "label": "Receta del yunque"
       }
-    ]
+    ],
+    "keywords": "cómo encantar minecraft mesa de encantamientos estanterías nivel 30 lapislázuli renovar"
   },
   "how-to-make-iron-golem": {
     "name": "Cómo hacer un iron golem en Minecraft",
