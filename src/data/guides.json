@@ -109,37 +109,40 @@
     "slug": "how-to-find-ancient-city",
     "name": "How to Find an Ancient City in Minecraft",
     "shortTitle": "Find an Ancient City",
-    "quickAnswer": "Ancient cities generate in the Deep Dark biome deep underground, around Y=-51, often under mountains and other low-erosion areas. Go below Y=0 and look for sculk blocks - or run /locate structure minecraft:ancient_city with cheats.",
+    "quickAnswer": "Ancient cities only generate in the deep dark biome, with the city floor at Y=-51. The deep dark forms deep underground beneath low-erosion areas such as mountains. Look for sculk, or use a \"buried ancient city\" explorer map from a secret chest in an abandoned camp.",
     "steps": [
-      "Prepare: bring wool blocks and a hoe (sculk breaks fastest with a hoe), night vision potions, food, and full enchanted gear if you plan to fight.",
-      "Head deep: ancient cities appear around Y=-51 in the Deep Dark. Ancient cities often sit under mountains and other low-erosion areas.",
-      "Identify the Deep Dark: sculk blocks, sculk veins, sensors and shriekers mark the biome. No hostile mobs spawn naturally here.",
-      "Move slowly: crouch (sneak) everywhere - sneaking creates no vibrations. Place wool to walk on, since wool blocks and carpets absorb vibrations.",
-      "Break or block sculk shriekers before triggering them 4 times: the fourth shriek summons the Warden.",
-      "Loot the chests: Swift Sneak enchanted books, echo shards, disc fragments and enchanted golden apples are exclusive or rare finds here.",
-      "Cheat alternative: /locate structure minecraft:ancient_city gives you the exact coordinates."
+      "Prepare: bring lots of wool, food, light and good gear. The deep dark has no regular mob spawning, but the warden can appear.",
+      "Go deep: the city floor is always at Y=-51. Because ancient cities only generate in the deep dark, they are often found under mountains and other low-erosion areas.",
+      "Recognize the biome: it is covered in sculk, and the only natural light comes from sculk catalysts and lava.",
+      "Move quietly: sneaking prevents vibrations while you move, and wool or carpet placed between a sculk sensor and a vibration source blocks it. The city corridors have wool floors for this reason.",
+      "Avoid sculk shriekers: each one you trigger raises your warning level, and at level 4 the shrieker tries to summon a warden. Naturally generated shriekers are much more common in ancient cities. Each shrieker has a 10-second cooldown per player.",
+      "Loot the chests: the wiki says ancient cities hold disc fragments, armor trims and echo shards that cannot be found anywhere else.",
+      "Alternative: a \"buried ancient city\" explorer map, found in secret chests in abandoned camps, can lead you to one."
     ],
     "materials": [
-      "Wool blocks or carpets (lots)",
-      "Hoe for sculk",
-      "Night vision potions",
-      "Food and torches",
-      "No noise-making gear"
+      "Lots of wool blocks or carpets",
+      "Food and light",
+      "Good armor and weapons (in case a warden appears)",
+      "Optional: a buried ancient city explorer map"
     ],
-    "editionNote": "Identical structure in Java and Bedrock since 1.19. Warden spawning rules (4 shrieker activations) match across editions.",
-    "versions": "Added in 1.19 (The Wild Update).",
+    "editionNote": "Both editions generate ancient cities only in the deep dark at Y=-51. In Bedrock Edition a warden summoned by a shrieker gets the emerging spawn event so it plays its emerging animation.",
+    "versions": "Based on the Ancient City, Deep Dark and Sculk Shrieker pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "What Y level are ancient cities at?",
-        "a": "Ancient city centers sit around Y=-51, always in the Deep Dark biome far below Y=0."
+        "a": "The city floor always generates at Y=-51 and the structure is about 20 blocks high, with a footprint of around 220 blocks on each horizontal axis."
       },
       {
         "q": "How many shrieks summon the Warden?",
-        "a": "Four activations of a natural sculk shrieker within range summon one Warden from the ground - as long as no other Warden is nearby."
+        "a": "When a player's warning level reaches 4, the shrieker tries to summon a warden after it finishes shrieking, up to 20 attempts within an 11x13x11 box. If no other warden is within 24 blocks, one emerges from the ground."
       },
       {
         "q": "Is it worth looting an ancient city?",
-        "a": "Yes: Swift Sneak leggings enchantment and echo shards (for the recovery compass) are only found there, plus disc 5 fragments and high-tier enchanted loot."
+        "a": "The wiki lists disc fragments, armor trims and echo shards as items that cannot be found anywhere else. Ancient cities are also one of only two places where sculk generates."
+      },
+      {
+        "q": "Do shriekers I place summon wardens?",
+        "a": "No. Only naturally generated shriekers can summon wardens. Shriekers placed by players or made by sculk catalysts are inert."
       }
     ],
     "relatedGuides": [
@@ -155,7 +158,7 @@
         "label": "/locate command"
       }
     ],
-    "keywords": "ancient city deep dark how to find warden sculk"
+    "keywords": "ancient city deep dark how to find Y=-51 warden sculk shrieker echo shard"
   },
   {
     "slug": "how-to-breed-villagers",

@@ -96,37 +96,40 @@
   "how-to-find-ancient-city": {
     "name": "Cómo encontrar una Ancient City en Minecraft",
     "shortTitle": "Encontrar una Ancient City",
-    "quickAnswer": "Las ancient cities se generan en el bioma Deep Dark muy bajo tierra, alrededor de Y=-51, a menudo bajo montañas y otras zonas de baja erosión. Baja de Y=0 y busca bloques de sculk, o usa /locate structure minecraft:ancient_city con trucos.",
+    "quickAnswer": "Las ancient cities solo generan en el bioma deep dark, con el suelo de la ciudad en Y=-51. El deep dark se forma bajo tierra, debajo de zonas de poca erosión como las montañas. Busca sculk, o usa un mapa de exploración de \"buried ancient city\" de un cofre secreto de un campamento abandonado.",
     "steps": [
-      "Prepárate: lleva bloques de lana y una azada (el sculk se rompe más rápido con azada), pociones de visión nocturna, comida, y equipo encantado completo si piensas luchar.",
-      "Baja hondo: las ancient cities aparecen alrededor de Y=-51 en el Deep Dark. Las ancient cities suelen estar bajo montañas y otras zonas de baja erosión.",
-      "Identifica el Deep Dark: bloques de sculk, sculk veins, sensors y shriekers marcan el bioma. Aquí no aparecen mobs hostiles de forma natural.",
-      "Muévete despacio: agáchate (sneak) en todas partes; al agacharte no creas vibraciones. Coloca lana para caminar sobre ella, porque la lana y las alfombras absorben vibraciones.",
-      "Rompe o bloquea los sculk shriekers antes de activarlos 4 veces: el cuarto alarido invoca al Warden.",
-      "Saquea los cofres: libros encantados de Swift Sneak, echo shards, fragmentos de disco y manzanas doradas encantadas son hallazgos exclusivos o raros de aquí.",
-      "Alternativa con trucos: /locate structure minecraft:ancient_city te da las coordenadas exactas."
+      "Prepárate: lleva mucha lana, comida, luz y buen equipo. En el deep dark no hay aparición normal de mobs, pero puede aparecer el warden.",
+      "Baja: el suelo de la ciudad está siempre en Y=-51. Como las ancient cities solo generan en el deep dark, suelen estar bajo montañas y otras zonas de poca erosión.",
+      "Reconoce el bioma: está cubierto de sculk y la única luz natural viene de sculk catalysts y lava.",
+      "Muévete en silencio: agacharte evita las vibraciones al moverte, y la lana o alfombra colocada entre un sculk sensor y una fuente de vibración la bloquea. Los pasillos de la ciudad tienen suelo de lana por eso.",
+      "Evita los sculk shriekers: cada uno que activas sube tu nivel de aviso, y en el nivel 4 el shrieker intenta invocar un warden. Los shriekers naturales son mucho más comunes en las ancient cities. Cada shrieker tiene 10 segundos de enfriamiento por jugador.",
+      "Saquea los cofres: según la wiki, las ancient cities tienen disc fragments, armor trims y echo shards que no se encuentran en ningún otro sitio.",
+      "Alternativa: un mapa de exploración de \"buried ancient city\", hallado en cofres secretos de campamentos abandonados, puede llevarte a una."
     ],
     "materials": [
-      "Bloques de lana o alfombras (muchos)",
-      "Azada para el sculk",
-      "Pociones de visión nocturna",
-      "Comida y antorchas",
-      "Nada de equipo ruidoso"
+      "Mucha lana o alfombras",
+      "Comida y luz",
+      "Buena armadura y armas (por si aparece un warden)",
+      "Opcional: un mapa de buried ancient city"
     ],
-    "editionNote": "Estructura idéntica en Java y Bedrock desde la 1.19. Las reglas de aparición del Warden (4 activaciones de shrieker) coinciden entre ediciones.",
-    "versions": "Añadida en la 1.19 (The Wild Update).",
+    "editionNote": "En ambas ediciones las ancient cities solo generan en el deep dark a Y=-51. En Bedrock, un warden invocado por un shrieker recibe el evento de aparición emerging para reproducir su animación de salida.",
+    "versions": "Basado en las páginas Ancient City, Deep Dark y Sculk Shrieker de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿A qué nivel Y están las ancient cities?",
-        "a": "Los centros de las ancient cities están alrededor de Y=-51, siempre en el bioma Deep Dark muy por debajo de Y=0."
+        "q": "¿A qué altura Y están las ancient cities?",
+        "a": "El suelo de la ciudad siempre genera en Y=-51 y la estructura mide unos 20 bloques de alto, con una huella de unos 220 bloques en cada eje horizontal."
       },
       {
-        "q": "¿Cuántos alaridos invocan al Warden?",
-        "a": "Cuatro activaciones de un sculk shrieker natural dentro de rango invocan un Warden desde el suelo, siempre que no haya otro Warden cerca."
+        "q": "¿Cuántos gritos invocan al Warden?",
+        "a": "Cuando el nivel de aviso de un jugador llega a 4, el shrieker intenta invocar un warden al terminar de gritar, con hasta 20 intentos en una caja de 11x13x11. Si no hay otro warden a menos de 24 bloques, sale uno del suelo."
       },
       {
-        "q": "¿Merece la pena saquear una ancient city?",
-        "a": "Sí: el encantamiento de leggings Swift Sneak y los echo shards (para la recovery compass) solo se encuentran allí, además de fragmentos del disco 5 y botín encantado de alto nivel."
+        "q": "¿Vale la pena saquear una ancient city?",
+        "a": "La wiki indica que disc fragments, armor trims y echo shards no se encuentran en ningún otro sitio. Además, las ancient cities son uno de los dos únicos lugares donde hay sculk."
+      },
+      {
+        "q": "¿Los shriekers que yo coloque invocan wardens?",
+        "a": "No. Solo los shriekers generados de forma natural pueden invocar wardens. Los colocados por jugadores o creados por sculk catalysts son inertes."
       }
     ],
     "relatedLinks": [
@@ -138,7 +141,8 @@
         "url": "/es/commands/locate/",
         "label": "Comando /locate"
       }
-    ]
+    ],
+    "keywords": "encontrar ancient city deep dark Y=-51 warden sculk shrieker echo shard"
   },
   "how-to-breed-villagers": {
     "name": "Cómo criar aldeanos en Minecraft",
