@@ -2150,36 +2150,39 @@
   "how-to-make-ender-chest": {
     "name": "Cómo hacer un Ender Chest en Minecraft",
     "shortTitle": "Hacer un Ender Chest",
-    "quickAnswer": "Craftea un ender chest con 8 obsidian en anillo alrededor de 1 eye of ender. Sus 27 slots te siguen por todos los ender chests del mundo y entre dimensiones: cada jugador ve su propio inventario, incluso en servidores.",
+    "quickAnswer": "Fabrica un cofre de ender con obsidiana y un ojo de ender. Tiene 27 ranuras, todos los cofres de ender del mundo están conectados (incluso entre dimensiones) y cada jugador tiene su propio contenido. Rómpelo con un pico con Silk Touch para recuperar el cofre, si no suelta 8 de obsidiana.",
     "steps": [
-      "Mina 8 obsidian con un diamond pickaxe o netherite pickaxe: vierte agua sobre bloques de lava para crearla, o saquea ruined portals.",
-      "Craftea un eye of ender: blaze powder (de blaze rods) más una ender pearl (de endermen o del bartering con piglins).",
-      "Craftea el cofre: llena todas las casillas con obsidian menos el centro, que lleva el eye of ender.",
-      "Úsalo como un cofre normal con un truco: el contenido se guarda por jugador y se comparte entre todos los ender chests de todas las dimensiones, así que lo que guardas en casa te espera en el End.",
-      "Mete tu kit de emergencia dentro: lo que guardes en un ender chest sobrevive a tu muerte por completo y nadie más puede verlo ni robarlo, ni siquiera en multijugador.",
-      "Recógelo con Silk Touch: sin Silk Touch un ender chest solo suelta 8 obsidian y el eye of ender se pierde. Un pickaxe con Silk Touch suelta el cofre entero.",
-      "Combínalo con un shulker box para el equipo clásico de explorador: la shulker box se guarda en el ender chest, así que todo tu campamento cabe en un slot de tu almacenamiento siempre disponible."
+      "Consigue obsidiana y un ojo de ender. La wiki muestra la receta como obsidiana más un ojo de ender en la cuadrícula de crafteo.",
+      "Coloca el cofre de ender y ábrelo con el control de usar. Un bloque sólido encima impide abrirlo.",
+      "Úsalo como un cofre normal, pero todos los cofres de ender del mundo, en cualquier dimensión, comparten el mismo contenido para ti. Los demás jugadores ven el suyo, nunca el tuyo.",
+      "Los objetos dentro se conservan aunque mueras. Si el cofre de ender se destruye, sus objetos no caen y se pueden recuperar accediendo o colocando otro cofre de ender.",
+      "Para moverlo, mínalo con un pico con Silk Touch: se suelta a sí mismo. Sin Silk Touch suelta 8 de obsidiana.",
+      "Para más espacio, mete shulker boxes dentro: 27 shulker boxes elevan el almacenamiento a 729 ranuras.",
+      "Los piglins se vuelven hostiles con los jugadores que abren o rompen un cofre de ender."
     ],
     "materials": [
-      "8 obsidian",
-      "1 eye of ender (blaze powder + ender pearl)",
-      "Diamond pickaxe o netherite pickaxe para minar la obsidian",
-      "Pickaxe con Silk Touch para mover el cofre después"
+      "Obsidiana",
+      "1 ojo de ender",
+      "Un pico con Silk Touch para recoger el cofre"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: el inventario es por jugador y se sincroniza entre dimensiones en ambas, y las dos necesitan Silk Touch para soltar el cofre entero.",
-    "versions": "Los ender chests se añadieron en Java 1.3.1 (12w21a) y en Bedrock 1.0.0.",
+    "editionNote": "Los cofres de ender tienen 27 ranuras, contenido por jugador y enlace entre todas las dimensiones. No se combinan en cofres dobles y no interactúan con embudos, droppers ni comparadores. Los burros, mulas y llamas no pueden llevarlos, y el ender dragon aún puede destruirlos.",
+    "versions": "Basado en la página Ender Chest de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Pueden otros jugadores abrir mi ender chest?",
-        "a": "Pueden abrir el bloque, pero ven su propio inventario, nunca el tuyo. Cada jugador tiene un inventario de ender chest separado y ligado a su cuenta, así que nada de lo que haya dentro puede ser robado."
+        "q": "¿Pueden abrir otros jugadores mi cofre de ender?",
+        "a": "Pueden abrir el bloque, pero ven su propio contenido. Los objetos de tu cofre de ender no pueden verlos ni cogerlos otros jugadores."
       },
       {
-        "q": "¿Los ender chests funcionan entre el Overworld, el Nether y el End?",
-        "a": "Sí. Los mismos 27 slots están disponibles desde cualquier ender chest de cualquier dimensión: es la única forma vanilla de acceder a tus objetos entre dimensiones."
+        "q": "¿Funcionan los cofres de ender entre dimensiones?",
+        "a": "Sí. Todos los cofres de ender del mundo están interconectados, también entre dimensiones distintas."
       },
       {
-        "q": "¿Por qué mi ender chest ha soltado obsidian en vez del cofre?",
-        "a": "Sin Silk Touch, romper un ender chest devuelve los 8 obsidian pero destruye el eye of ender. Muévelo siempre con un pickaxe de Silk Touch."
+        "q": "¿Por qué mi cofre de ender soltó obsidiana?",
+        "a": "Sin Silk Touch suelta 8 de obsidiana. Con Silk Touch se suelta a sí mismo."
+      },
+      {
+        "q": "¿Qué pasa con mis objetos si se rompe el cofre de ender?",
+        "a": "No caen. Puedes recuperarlos accediendo o colocando otro cofre de ender."
       }
     ],
     "relatedGuides": [
@@ -2196,7 +2199,7 @@
         "href": "/es/items/obsidian/"
       }
     ],
-    "keywords": "ender chest minecraft craft obsidian eye of ender almacenamiento entre dimensiones silk touch inventario por jugador"
+    "keywords": "cofre de ender minecraft fabricar obsidiana ojo de ender almacenamiento entre dimensiones silk touch inventario por jugador shulker box"
   },
   "how-to-make-hopper": {
     "name": "Cómo hacer un Hopper en Minecraft",

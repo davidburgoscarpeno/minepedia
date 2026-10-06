@@ -2520,36 +2520,39 @@
     "slug": "how-to-make-ender-chest",
     "name": "How to Make an Ender Chest in Minecraft",
     "shortTitle": "Make an Ender Chest",
-    "quickAnswer": "Craft an ender chest with 8 obsidian in a ring around 1 eye of ender. Its 27 slots follow you across every ender chest in the world and between dimensions - each player sees their own inventory, even on servers.",
+    "quickAnswer": "Craft an ender chest from obsidian and an eye of ender. It has 27 slots, all ender chests in the world are linked (even across dimensions), and each player has their own separate contents. Break it with a Silk Touch pickaxe to get the chest back, otherwise it drops 8 obsidian.",
     "steps": [
-      "Mine 8 obsidian with a diamond or netherite pickaxe - pour water over lava source blocks to make it, or loot ruined portals.",
-      "Craft an eye of ender: blaze powder (from blaze rods) plus an ender pearl (from endermen or bartering with piglins).",
-      "Craft the chest: fill every slot with obsidian except the center, which takes the eye of ender.",
-      "Use it like a normal chest with a twist: the contents are stored per player and shared across every ender chest in every dimension, so what you put in at home is waiting for you in the End.",
-      "Put your backup kit inside: valuables stored in an ender chest survive your death completely - nobody else can see or steal them, even in multiplayer.",
-      "Mine it back with Silk Touch: without Silk Touch an ender chest drops only 8 obsidian and the eye of ender is lost. A Silk Touch pickaxe drops the chest itself.",
-      "Pair it with a shulker box for the classic explorer loadout: the shulker box stays in the ender chest, so your whole camp fits in one slot of your always-available storage."
+      "Get obsidian and an eye of ender. The wiki shows the recipe as obsidian plus an eye of ender in the crafting grid.",
+      "Place the ender chest and open it with the use control. A solid block above it stops it from opening.",
+      "Use it like a normal chest, but every ender chest in the world, in any dimension, shares the same contents for you. Other players see their own contents, never yours.",
+      "Items inside stay even if you die. If the ender chest is destroyed, its items are not dropped and can be retrieved by accessing or placing another ender chest.",
+      "To move it, mine it with a Silk Touch pickaxe: it drops itself. Without Silk Touch it drops 8 obsidian.",
+      "For more space, put shulker boxes inside it: 27 shulker boxes raise the storage to 729 slots.",
+      "Piglins become hostile toward players who open or break an ender chest."
     ],
     "materials": [
-      "8 obsidian",
-      "1 eye of ender (blaze powder + ender pearl)",
-      "Diamond or netherite pickaxe to mine the obsidian",
-      "Silk Touch pickaxe to move the chest afterwards"
+      "Obsidian",
+      "1 eye of ender",
+      "A Silk Touch pickaxe to pick the chest back up"
     ],
-    "editionNote": "Identical in Java and Bedrock: the inventory is per player and synced across dimensions in both, and both need Silk Touch to drop the chest itself.",
-    "versions": "Ender chests were added in Java 1.3.1 (12w21a) and Bedrock 1.0.0.",
+    "editionNote": "Ender chests have 27 slots, per-player contents and a link across all dimensions. They do not combine into double chests and do not interact with hoppers, droppers or comparators. Donkeys, mules and llamas cannot carry them, and the ender dragon can still destroy them.",
+    "versions": "Based on the Ender Chest page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
         "q": "Can other players open my ender chest?",
-        "a": "They can open the block, but they see their own inventory, never yours. Every player has a separate ender chest inventory linked to their account, so nothing inside can be stolen."
+        "a": "They can open the block, but they see their own contents. Items in your ender chest cannot be seen or taken by other players."
       },
       {
-        "q": "Do ender chests work between the Overworld, Nether and End?",
-        "a": "Yes. The same 27 slots are available from every ender chest in every dimension - it is the only vanilla way to access your items across dimensions."
+        "q": "Do ender chests work across dimensions?",
+        "a": "Yes. All ender chests in the world are interconnected, including in different dimensions."
       },
       {
-        "q": "Why did my ender chest drop obsidian instead of the chest?",
-        "a": "Without Silk Touch, breaking an ender chest returns the 8 obsidian but destroys the eye of ender. Always move it with a Silk Touch pickaxe."
+        "q": "Why did my ender chest drop obsidian?",
+        "a": "Without Silk Touch it drops 8 obsidian. With Silk Touch it drops itself."
+      },
+      {
+        "q": "What happens to my items if the ender chest breaks?",
+        "a": "They are not dropped. You can get them back by accessing or placing another ender chest."
       }
     ],
     "relatedGuides": [
@@ -2566,7 +2569,7 @@
         "href": "/items/obsidian/"
       }
     ],
-    "keywords": "ender chest minecraft craft obsidian eye of ender cross dimension storage silk touch per player inventory"
+    "keywords": "ender chest minecraft craft obsidian eye of ender cross dimension storage silk touch per player inventory shulker box"
   },
   {
     "slug": "how-to-make-hopper",
