@@ -3375,40 +3375,38 @@
   "how-to-get-totem-of-undying": {
     "name": "Cómo conseguir un Totem of Undying en Minecraft",
     "shortTitle": "Conseguir un Totem of Undying",
-    "quickAnswer": "Cada evoker suelta exactamente un totem of undying al morir: Looting no lo cambia. Encuentra evokers en las woodland mansions o invócalos en raids (bad omen + aldea), y lleva el totem en la mano o en la off-hand para sobrevivir a un golpe mortal.",
+    "quickAnswer": "Los evokers siempre sueltan 1 tótem de la inmortalidad al morir, y Looting no lo cambia. Aparecen en woodland mansions y raids. Sostén el tótem en la mano principal o secundaria para sobrevivir a un daño que sería mortal.",
     "steps": [
-      "Conoce la fuente: solo los evokers sueltan totems of undying, y siempre sueltan exactamente uno, tengas el Looting que tengas.",
-      "Opción 1 - woodland mansion: encuentra una mansión (explorer map del cartographer o /locate) y límpiala planta por planta: cada mansión alberga varios evokers en sus salas. Cada uno es un totem.",
-      "Opción 2 - raids: consigue Bad Omen de un pillager captain (raid omen en 1.21+), entra en una aldea y pelea en la raid. Los evokers se unen a partir de la wave 5: una raid completa da varios totems.",
-      "Construye una raid farm: una vez que tienes el montaje con aldea, una raid farm produce totems, emeralds y libros encantados ilimitados de forma automática.",
-      "Llévalo en la mano: el totem solo funciona en la main hand o en la off-hand. Llévalo en la off-hand: no hace nada guardado en el inventario.",
-      "Sabe qué hace: ante un golpe mortal cancela la muerte, restaura 1 de salud, limpia tus efectos de estado y da 45 s de Regeneration II, 40 s de Fire Resistance y 5 s de Absorption II.",
-      "Conoce sus límites: un totem, un salvamento: desaparece al activarse. No puede salvarte del vacío ni de /kill, y en Java una flecha de Harming puede matarte atravesando la activación del totem.",
-      "Jugadores de Hardcore: el totem evita un game over en Hardcore exactamente igual que una muerte normal: lleva siempre uno en la off-hand.",
-      "Extra curioso: cualquier mob que pueda sujetar un totem (como un fox que lo lleva en la boca) también revive al morir: los foxes pueden usar tus totems de repuesto."
+      "Mata a un evoker: es la única fuente de tótems de la inmortalidad y siempre suelta exactamente 1, sin afectarle Looting.",
+      "Encuentra evokers en woodland mansions o en raids.",
+      "Sostén el tótem en la mano principal o secundaria. No funciona en la hotbar a menos que esté seleccionado.",
+      "Al activarse, evita la muerte y recibes Absorption II (5 segundos), Regeneration II (45 segundos) y Fire Resistance I (40 segundos).",
+      "Un tótem funciona una vez y desaparece al activarse.",
+      "No evita la muerte por daño del vacío ni por el comando /kill.",
+      "Evita el game over en Hardcore igual que una muerte normal en otras dificultades."
     ],
     "materials": [
       "Sword y armadura para la pelea",
       "Leche o totems para las waves de la raid (opcional)"
     ],
-    "editionNote": "La mecánica es igual en ambas ediciones, pero las raid farms de Bedrock son mucho más fáciles de construir, así que allí los totems se farmean mucho mejor. Solo en Java, una flecha de Harming puede atravesar un totem matándote dos veces en un solo golpe.",
-    "versions": "El totem of undying se añadió en Java 1.11, la Exploration Update, el 14 de noviembre de 2016, junto con los evokers y las woodland mansions. Pocket Edition lo recibió en la 1.1.0.",
+    "editionNote": "En Java, un tótem no detiene una flecha de harming que mata al portador solo con su daño físico, porque el efecto de daño instantáneo se aplica después de activarse el tótem. En Bedrock, la duración de Regeneration II subió de 40 a 45 segundos en 1.21.80 para igualar a Java.",
+    "versions": "Según las páginas Totem of Undying y Evoker de Minecraft Wiki.",
     "faq": [
       {
-        "q": "¿Cómo se consigue un totem of undying en Minecraft?",
-        "a": "Matando a un evoker. Los evokers aparecen en las woodland mansions y durante las raids de aldeas (a partir de la wave 5). Cada evoker suelta exactamente un totem: Looting no lo aumenta."
+        "q": "¿Cómo consigo un tótem de la inmortalidad?",
+        "a": "Mata a un evoker. Aparecen en woodland mansions y raids y siempre sueltan exactamente 1 tótem, sin afectarle Looting."
       },
       {
-        "q": "¿Funciona el totem of undying en el inventario?",
-        "a": "No. Tiene que estar en la main hand o en la off-hand cuando recibes el golpe mortal. La mayoría de jugadores lo lleva permanentemente en la off-hand."
+        "q": "¿El tótem funciona en el inventario?",
+        "a": "No. Debe estar en la mano principal o secundaria; en la hotbar solo funciona si está seleccionado."
       },
       {
-        "q": "¿Puede un totem salvarte de la lava o del vacío?",
-        "a": "De la lava, sí: el totem se activa y sus 40 segundos de Fire Resistance te dejan salir. Del vacío o de /kill, no: nada sobrevive a eso."
+        "q": "¿Un tótem salva del vacío?",
+        "a": "No. No evita la muerte por daño del vacío ni por el comando /kill."
       },
       {
-        "q": "¿Es reutilizable el totem of undying?",
-        "a": "No: cada totem funciona exactamente una vez y desaparece. Abastécete con raids o una raid farm para llevar siempre uno de repuesto."
+        "q": "¿El tótem es reutilizable?",
+        "a": "No. Funciona una vez y desaparece al activarse."
       }
     ],
     "relatedGuides": [
