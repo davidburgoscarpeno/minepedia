@@ -2635,35 +2635,39 @@
     "slug": "how-to-make-compass",
     "name": "How to Make a Compass in Minecraft",
     "shortTitle": "Make a Compass",
-    "quickAnswer": "Craft a compass with 4 iron ingots around 1 redstone dust in a plus shape. It always points to your world spawn point; use it on a lodestone to make it point to that lodestone instead, even in the Nether or the End.",
+    "quickAnswer": "Craft a compass from iron ingots and redstone dust. It points horizontally toward the Overworld's spawn point. Use it on a lodestone to get a lodestone compass that points to that lodestone, even in the Nether or the End.",
     "steps": [
-      "Smelt 4 iron ingots and mine 1 redstone dust (redstone ore below Y 16, iron pickaxe or better).",
-      "Craft it: redstone dust in the center, iron ingots above, below, left and right - a plus shape.",
-      "Read it: the red needle always points to your world spawn point - the place you first appeared, not your bed. Hold it in your hand or watch it in the inventory; it works from anywhere in the Overworld.",
-      "In the Nether and the End a normal compass spins randomly and is useless - this is where the lodestone comes in.",
-      "Make a lodestone compass: craft or find a lodestone (1 netherite ingot + 8 chiseled stone bricks, or loot one in bastion remnants), place it, and use your compass on it. The compass now points to that lodestone forever, in any dimension.",
-      "Recover it if the lodestone breaks: a lodestone compass whose lodestone is destroyed spins randomly again until re-linked.",
-      "Know the variants: the recovery compass (compass + 8 echo shards from ancient cities) points to your last death location instead - a different item, crafted, not linked."
+      "Craft a compass from iron ingots and redstone dust. The wiki shows the grid only as an image, so use the in-game recipe book.",
+      "Read it: it points in the horizontal direction of the Overworld's spawn point. It does so in the inventory, in your hand or in an item frame.",
+      "If its target is in a different dimension, or is a broken lodestone, it spins in random directions. That is why a plain compass is useless in the Nether and the End.",
+      "Craft a lodestone from chiseled stone bricks and an iron ingot, or find one: bastion remnant bridge chests (100%) and ruined portal chests (66.7%, 1 to 2).",
+      "Use the compass on the lodestone. It now points to that lodestone, shown by an enchantment glint, and this works in the End and the Nether too.",
+      "If the lodestone breaks, or you are in another dimension, the compass spins randomly again.",
+      "You can also loot compasses: village cartographer's chests (26.3%), ancient city chests (16.5%), stronghold library chests (10.9% Java, 10.5% Bedrock), shipwreck map chests (7.7%) and trial chambers intersection barrels (5.9%)."
     ],
     "materials": [
-      "4 iron ingots",
-      "1 redstone dust",
-      "For a lodestone compass: + 1 lodestone (1 netherite ingot + 8 chiseled stone bricks)"
+      "Iron ingots",
+      "Redstone dust",
+      "For a lodestone compass: a lodestone (chiseled stone bricks + iron ingot)"
     ],
-    "editionNote": "Identical in both editions, lodestone linking included. The needle animation differs slightly (104 frames in Java, 28 in Bedrock) - purely cosmetic.",
-    "versions": "Compasses were added in Java Alpha 1.1.0 and became functional in Pocket Edition 0.8.0; lodestone compasses arrived with lodestones in 1.16.",
+    "editionNote": "Both editions use the same compass and lodestone behavior. In Bedrock, the compass also points at its target in the crafting table preview. The stronghold chest chance differs slightly (10.9% Java, 10.5% Bedrock).",
+    "versions": "Based on the Compass and Lodestone pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "Why does my compass not point to my bed?",
-        "a": "It never does - a compass points to world spawn, the fixed point where the world started. For a personal waypoint, link the compass to a lodestone placed at your base."
+        "q": "What does a compass point to?",
+        "a": "The horizontal direction of the Overworld's spawn point."
       },
       {
-        "q": "Why does my compass spin in circles?",
-        "a": "Either you are in the Nether or the End, where normal compasses do not work, or your lodestone compass lost its lodestone. Link it to a lodestone in the dimension you are exploring."
+        "q": "Why does my compass spin in the Nether?",
+        "a": "Its target is in a different dimension, so it spins randomly. Link it to a lodestone in that dimension."
       },
       {
-        "q": "What is the difference between a compass and a recovery compass?",
-        "a": "The normal compass points to world spawn (or its lodestone). The recovery compass - compass plus 8 echo shards - points to where you last died, and only works for the player who died, in the same dimension."
+        "q": "How do I make a lodestone?",
+        "a": "Craft it from chiseled stone bricks and an iron ingot, or loot it in bastion remnants and ruined portals."
+      },
+      {
+        "q": "Where can I find a compass?",
+        "a": "In village cartographer's chests, ancient cities, strongholds, shipwrecks and trial chambers, among others."
       }
     ],
     "relatedGuides": [
@@ -2680,7 +2684,7 @@
         "href": "/items/redstone-dust/"
       }
     ],
-    "keywords": "compass minecraft craft 4 iron redstone world spawn lodestone compass nether recovery compass waypoint"
+    "keywords": "compass minecraft how to make iron redstone spawn point lodestone compass nether"
   },
   {
     "slug": "how-to-make-fishing-rod",

@@ -2267,35 +2267,39 @@
   "how-to-make-compass": {
     "name": "Cómo hacer un Compass en Minecraft",
     "shortTitle": "Hacer un Compass",
-    "quickAnswer": "Craftea un compass con 4 iron ingots alrededor de 1 redstone dust en forma de cruz. Siempre apunta al spawn del mundo; úsalo sobre un lodestone para que apunte a ese lodestone en su lugar, incluso en el Nether o en el End.",
+    "quickAnswer": "Fabrica una brújula con lingotes de hierro y polvo de redstone. Apunta en horizontal al punto de aparición del Overworld. Úsala en un lodestone (magnetita) para obtener una brújula magnetizada que apunta a ese lodestone, incluso en el Nether o el End.",
     "steps": [
-      "Funde 4 iron ingots y mina 1 redstone dust (redstone ore por debajo de Y 16, con iron pickaxe o mejor).",
-      "Craftéalo: redstone dust en el centro y iron ingots arriba, abajo, a la izquierda y a la derecha, en forma de cruz.",
-      "Léelo: la aguja roja siempre apunta al spawn del mundo, el lugar donde apareciste la primera vez, no a tu cama. Llévalo en la mano o míralo en el inventario; funciona desde cualquier punto del Overworld.",
-      "En el Nether y en el End un compass normal gira sin sentido y no sirve: aquí es donde entra el lodestone.",
-      "Haz un lodestone compass: craftea o encuentra un lodestone (1 netherite ingot + 8 chiseled stone bricks, o saquéalo en bastion remnants), colócalo y usa tu compass sobre él. El compass apuntará a ese lodestone para siempre, en cualquier dimensión.",
-      "Recupéralo si el lodestone se rompe: un lodestone compass cuyo lodestone se destruye vuelve a girar sin sentido hasta que lo vincules de nuevo.",
-      "Conoce las variantes: el recovery compass (compass + 8 echo shards de las ancient cities) apunta a tu última muerte; es un objeto distinto, crafteado, no vinculado."
+      "Fabrica una brújula con lingotes de hierro y polvo de redstone. La wiki muestra la cuadrícula solo como imagen, así que usa el libro de recetas del juego.",
+      "Léela: apunta en la dirección horizontal del punto de aparición del Overworld. Lo hace en el inventario, en tu mano o en un marco.",
+      "Si su objetivo está en otra dimensión, o es un lodestone roto, gira en direcciones aleatorias. Por eso una brújula normal no sirve en el Nether ni en el End.",
+      "Fabrica un lodestone con ladrillos de piedra cincelados y un lingote de hierro, o encuéntralo: cofres del puente de restos de bastión (100 %) y cofres de portales en ruinas (66,7 %, 1 a 2).",
+      "Usa la brújula en el lodestone. Ahora apunta a ese lodestone, con brillo de encantamiento, y funciona también en el End y el Nether.",
+      "Si el lodestone se rompe, o estás en otra dimensión, la brújula vuelve a girar al azar.",
+      "También puedes encontrar brújulas: cofres del cartógrafo de aldeas (26,3 %), cofres de ciudades ancestrales (16,5 %), cofres de biblioteca de fortalezas (10,9 % Java, 10,5 % Bedrock), cofres de mapas de naufragios (7,7 %) y barriles de intersección de cámaras de prueba (5,9 %)."
     ],
     "materials": [
-      "4 iron ingots",
-      "1 redstone dust",
-      "Para un lodestone compass: + 1 lodestone (1 netherite ingot + 8 chiseled stone bricks)"
+      "Lingotes de hierro",
+      "Polvo de redstone",
+      "Para una brújula magnetizada: un lodestone (ladrillos de piedra cincelados + lingote de hierro)"
     ],
-    "editionNote": "Idéntico en ambas ediciones, incluida la vinculación con lodestone. La animación de la aguja cambia un poco (104 fotogramas en Java, 28 en Bedrock), puramente cosmético.",
-    "versions": "Los compasses se añadieron en Java Alpha 1.1.0 y se volvieron funcionales en Pocket Edition 0.8.0; los lodestone compasses llegaron con los lodestones en 1.16.",
+    "editionNote": "Ambas ediciones tienen el mismo comportamiento de brújula y lodestone. En Bedrock, la brújula también apunta a su objetivo en la vista previa de la mesa de crafteo. La probabilidad en fortalezas varía un poco (10,9 % Java, 10,5 % Bedrock).",
+    "versions": "Basado en las páginas Compass y Lodestone de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué mi compass no apunta a mi cama?",
-        "a": "Nunca lo hace: un compass apunta al spawn del mundo, el punto fijo donde empezó el mundo. Para un punto de referencia personal, vincula el compass a un lodestone colocado en tu base."
+        "q": "¿A qué apunta una brújula?",
+        "a": "A la dirección horizontal del punto de aparición del Overworld."
       },
       {
-        "q": "¿Por qué mi compass gira en círculos?",
-        "a": "O estás en el Nether o en el End, donde los compasses normales no funcionan, o tu lodestone compass ha perdido su lodestone. Vincúlalo a un lodestone en la dimensión que estés explorando."
+        "q": "¿Por qué gira mi brújula en el Nether?",
+        "a": "Su objetivo está en otra dimensión, así que gira al azar. Vincúlala a un lodestone de esa dimensión."
       },
       {
-        "q": "¿Qué diferencia hay entre un compass y un recovery compass?",
-        "a": "El compass normal apunta al spawn del mundo (o a su lodestone). El recovery compass, compass más 8 echo shards, apunta a donde moriste por última vez, y solo funciona para el jugador que murió, en la misma dimensión."
+        "q": "¿Cómo se hace un lodestone?",
+        "a": "Con ladrillos de piedra cincelados y un lingote de hierro, o encontrándolo en restos de bastión y portales en ruinas."
+      },
+      {
+        "q": "¿Dónde encuentro una brújula?",
+        "a": "En cofres del cartógrafo de aldeas, ciudades ancestrales, fortalezas, naufragios y cámaras de prueba, entre otros."
       }
     ],
     "relatedGuides": [
@@ -2312,7 +2316,7 @@
         "href": "/es/items/redstone-dust/"
       }
     ],
-    "keywords": "compass minecraft craft 4 iron redstone spawn del mundo lodestone compass nether recovery compass waypoint"
+    "keywords": "brújula compass minecraft cómo hacer hierro redstone punto de aparición lodestone magnetita nether"
   },
   "how-to-make-fishing-rod": {
     "name": "Cómo hacer un Fishing Rod en Minecraft",
