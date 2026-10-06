@@ -3273,35 +3273,39 @@
     "slug": "how-to-make-sticky-piston",
     "name": "How to Make a Sticky Piston in Minecraft",
     "shortTitle": "Make a Sticky Piston",
-    "quickAnswer": "Craft a sticky piston with 1 slimeball on top of a piston. It pushes blocks like a normal piston but also pulls one block back when it retracts - the muscle behind every hidden door, elevator and flying machine.",
+    "quickAnswer": "Craft a sticky piston with 1 slimeball above 1 piston. It behaves like a normal piston, except that when it retracts it also pulls the block attached to its head. A sticky piston pulls when it is unpowered.",
     "steps": [
-      "Craft a piston first: 3 planks on top, cobblestone on the sides and bottom corners, an iron ingot in the center and redstone dust below it.",
-      "Get a slimeball: kill slimes - they spawn in swamps at night (more during full moons) and below Y=40 in slime chunks. Baby slimes drop 0-2 slimeballs.",
-      "Combine them: slimeball directly above the piston anywhere in the grid. One slimeball, one sticky piston.",
-      "Push AND pull: powered, it extends and shoves up to 12 blocks; unpowered, it retracts and drags the block in front of its face back with it. That pull is the whole point.",
-      "Learn the spit: in Java, a 1-tick pulse makes a sticky piston extend and retract so fast it LEAVES the block behind - the famous 'block dropping' used in flying machines and TNT dupers.",
-      "Team it with slime blocks: slime blocks stick to each other and to most blocks (not to honey blocks), so a sticky piston plus slime blocks moves whole structures. Honey blocks do the same without sticking to slime.",
-      "Build the classics: 2x2 and 3x3 hidden piston doors, retractable floors, flush staircases, item elevators and instant walls all start with a row of sticky pistons.",
-      "Find them for free: jungle temples contain 3 sticky pistons in their trap mechanism - disarm the tripwire and take them."
+      "Craft a piston first: 3 planks across the top, cobblestone on the left and right of the middle and bottom rows, an iron ingot in the center and redstone dust below it.",
+      "Craft the sticky piston: 1 slimeball directly above the piston.",
+      "Power it to extend like a normal piston. When it loses power it retracts and pulls the block attached to its head. It also pulls blocks attached through slime blocks or honey blocks, but not other blocks it pushed.",
+      "It has the same push limits as a normal piston. If it cannot pull a block, it retracts without it. It cannot pull a falling block.",
+      "Java only: if it loses power before finishing its extension while pushing blocks, the first block ends up in its final position and the piston starts retracting. The wiki calls this block dropping or block spitting.",
+      "Bedrock: the start delay is fixed at 1 redstone tick (2 game ticks, 0.1 seconds), and it only activates on the input redstone tick.",
+      "Break it with any tool. It always drops itself, and a pickaxe is faster in Java.",
+      "Find them: 3 generate in each jungle pyramid and 5 in each ancient city."
     ],
     "materials": [
       "1 piston",
-      "1 slimeball (slimes in swamps or slime chunks below Y=40)"
+      "1 slimeball"
     ],
-    "editionNote": "The famous 1-tick block-spitting behavior is Java-only - Bedrock sticky pistons always pull their block back, which breaks some Java flying machine designs but makes others possible, like movable tile entities (Bedrock pistons can push chests and furnaces).",
-    "versions": "Sticky pistons were added alongside pistons in Java Beta 1.7 and Pocket Edition 0.15.0 - the 'Friendly Update'.",
+    "editionNote": "Block dropping works only in Java. In Bedrock the start delay is fixed at 1 redstone tick and the piston activates only on the input redstone tick.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
-        "q": "How do you get slimeballs in Minecraft?",
-        "a": "Kill slimes: they spawn in swamp biomes at night (best during a full moon) and below Y=40 in special slime chunks. Panda sneezes can also drop slimeballs, and wandering traders sometimes sell them."
+        "q": "What is the difference between a piston and a sticky piston?",
+        "a": "A sticky piston also pulls the block attached to its head when it retracts."
       },
       {
-        "q": "Sticky piston vs piston - what is the difference?",
-        "a": "A normal piston pushes blocks but leaves them there when it retracts. A sticky piston also pulls the block touching its face back one space. You need stickiness for anything that must open AND close."
+        "q": "What is block dropping?",
+        "a": "In Java, a sticky piston that loses power before finishing its extension leaves the first pushed block in place. The wiki also calls it block spitting."
       },
       {
-        "q": "Why did my sticky piston leave its block behind?",
-        "a": "In Java, a pulse of exactly 1 tick makes the piston extend and retract instantly, spitting the block out instead of pulling it. It is a feature used on purpose in flying machines - give it a longer pulse if you want the block back."
+        "q": "Where can I find sticky pistons?",
+        "a": "3 generate in each jungle pyramid and 5 in each ancient city."
+      },
+      {
+        "q": "Can a sticky piston pull a falling block?",
+        "a": "No."
       }
     ],
     "relatedGuides": [
@@ -3319,7 +3323,7 @@
         "href": "/items/slimeball/"
       }
     ],
-    "keywords": "sticky piston minecraft craft slimeball piston redstone hidden door flying machine 1 tick slime blocks jungle temple"
+    "keywords": "sticky piston minecraft how to make piston slimeball pull block dropping jungle pyramid"
   },
   {
     "slug": "how-to-make-diamond-pickaxe",
