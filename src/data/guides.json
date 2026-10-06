@@ -899,34 +899,34 @@
     "slug": "how-to-find-stronghold",
     "name": "How to Find a Stronghold in Minecraft",
     "shortTitle": "Find a Stronghold",
-    "quickAnswer": "Craft Eyes of Ender (blaze powder + ender pearls) and throw them: they fly toward the nearest stronghold. Follow the throws, re-throwing every few hundred blocks, until the eye dives into the ground - then dig down with a staircase. The End portal room contains a silverfish spawner and a frame that takes up to 12 eyes.",
+    "quickAnswer": "Craft Eyes of Ender (blaze powder + ender pearls) and throw them: each flies about 12 blocks toward the nearest stronghold. Follow the throws until the eye travels downward instead of up - then you are above the stronghold, so dig down. The End portal room has a silverfish spawner and a ring of 12 frames that all need an eye.",
     "steps": [
-      "Craft at least 12-15 Eyes of Ender: Ender Pearls (Endermen, Piglin bartering, cleric trades) combined with Blaze Powder from Blaze Rods farmed at a Nether fortress.",
-      "Throw an eye (right-click) and note the direction it floats. Each throw has a 20% chance to shatter the eye, so stretch every throw.",
-      "Travel several hundred blocks in that direction and throw again. Keep going until the eye hovers downward and buries itself - the stronghold is right below.",
-      "For precision, triangulate: throw from two far-apart spots, note each F3 position and the eye's angle, and dig where the two lines cross.",
-      "Dig a staircase down (never straight down): strongholds generate anywhere between the surface and the deepslate layers, often around Y=0 or lower.",
-      "Explore the corridors to find the portal room - it has a silverfish spawner and a lava pool under the frame. Fill any empty frame slots with Eyes of Ender (up to 12; each slot has a 10% chance to be pre-filled)."
+      "Craft Eyes of Ender from Ender Pearls (dropped by Endermen) and Blaze Powder (from Blaze Rods). Bring plenty: you need 12 for the frame minus any that are pre-filled, plus spares for the search.",
+      "Throw an eye (use). It flies about 12 blocks toward the nearest stronghold, then either falls to be picked up again (80%) or shatters (20%).",
+      "Walk in that direction and throw again. While you are more than 12 blocks from the stronghold's start chunk corner the eye rises; when you are closer than that it travels downward.",
+      "To triangulate, throw from two far-apart spots, note the direction each time, and head to where the two lines cross.",
+      "When the eye goes down, you are above a stronghold. Dig down carefully with a staircase and light your way - strongholds generate at any Y level and can be cut into by caves or other structures.",
+      "Find the End portal room: the frames sit in a 5x5 ring (3 per side, no corners) over a lava pool, with a staircase holding a silverfish monster spawner. Each frame has a 10% chance of already holding an eye; use eyes on the empty ones until all 12 are filled."
     ],
     "materials": [
       "12-15 Eyes of Ender (pearls + blaze powder), plus spares for the portal",
       "Pickaxe and torches for the dig",
       "Weapon and shield for silverfish"
     ],
-    "editionNote": "Java generates exactly 128 strongholds per world in 8 rings around the origin (the first 3 within 1,408-2,688 blocks of spawn). Bedrock has no fixed count - strongholds keep generating as you travel and are noticeably more common under villages. Eyes of Ender point to the nearest one on both editions.",
-    "versions": "Stronghold rings and eye mechanics are unchanged in current versions. Current as of 26.3.",
+    "editionNote": "Java Edition: every world has exactly 128 strongholds in 8 rings around the origin; the first ring has 3 strongholds between 1,280 and 2,816 blocks from the origin. Bedrock Edition: strongholds generate at least 160 blocks from the origin with no fixed limit, plus 3 extra ones at least 453 blocks away.",
+    "versions": "Based on the Stronghold, Eye of Ender and End Portal Frame pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "Why did my Eye of Ender dive into the ground and then lead me to nothing?",
-        "a": "The eye targets the stronghold's rough starting point, not the portal room. Dig down at the dive spot and explore: the structure spreads out in corridors, and the portal room can be a few dozen blocks from the entry point."
+        "q": "Why did my Eye of Ender go down into the ground?",
+        "a": "Within about 12 blocks of the corner of the stronghold's starting chunk, the eye travels downward instead of up. That means you are above the stronghold: dig down and explore, since the portal room can be several rooms away from the start."
       },
       {
-        "q": "Can a stronghold have no End portal?",
-        "a": "The portal room is the one room every stronghold is guaranteed to have, but caves, mineshafts and other structures can rarely overwrite part of it. If yours is broken or missing, eyes will lead you to the next stronghold."
+        "q": "Can a stronghold lack a working End portal?",
+        "a": "Most of a stronghold can be overwritten by caves, mineshafts, ancient cities, trial chambers and other features. It is rare for the End portal to be replaced, but if it happens you need to find another stronghold, because a portal only works with all 12 frames present."
       },
       {
-        "q": "How many Eyes of Ender do I need in total?",
-        "a": "Plan for about 12-15 for the trip plus up to 12 for the frame (average needed is around 8-9, since some slots come pre-filled). 24 pearls and 12 blaze powder is a comfortable supply."
+        "q": "How many Eyes of Ender do I need?",
+        "a": "The portal needs 12 eyes in total, and each frame has a 10% chance of coming pre-filled, so expect to supply about 11. Each throw has a 20% chance to shatter the eye, so carry extras for the search."
       }
     ],
     "relatedGuides": [
@@ -947,7 +947,7 @@
         "label": "Enderman"
       }
     ],
-    "keywords": "find stronghold eye of ender end portal triangulate silverfish spawner 128"
+    "keywords": "find stronghold eye of ender end portal frame triangulate silverfish spawner 128 strongholds"
   },
   {
     "slug": "how-to-fly-elytra",

@@ -693,34 +693,34 @@
   "how-to-find-stronghold": {
     "name": "Cómo encontrar una stronghold en Minecraft",
     "shortTitle": "Encontrar una stronghold",
-    "quickAnswer": "Fabrica ojos de ender (blaze powder + ender pearls) y lánzalos: vuelan hacia la stronghold más cercana. Sigue los lanzamientos, repitiendo cada pocos cientos de bloques, hasta que el ojo se clave en el suelo: entonces excava en escalera. La sala del portal del End contiene un spawner de silverfish y un marco que admite hasta 12 ojos.",
+    "quickAnswer": "Fabrica ojos de ender (blaze powder + ender pearls) y lánzalos: cada uno vuela unos 12 bloques hacia la stronghold más cercana. Sigue los lanzamientos hasta que el ojo se mueva hacia abajo en lugar de hacia arriba: entonces estás sobre la stronghold, así que excava. La sala del portal del End tiene un spawner de silverfish y un anillo de 12 marcos que necesitan un ojo cada uno.",
     "steps": [
-      "Fabrica al menos 12-15 ojos de ender: ender pearls (de endermen, trueques con piglins o de clérigos) combinadas con blaze powder de las blaze rods farmeadas en una nether fortress.",
-      "Lanza un ojo (clic derecho) y fíjate en la dirección en la que flota. Cada lanzamiento tiene un 20% de probabilidad de romper el ojo, así que estira cada uno.",
-      "Viaja varios cientos de bloques en esa dirección y lanza de nuevo. Sigue hasta que el ojo flote hacia abajo y se entierre: la stronghold está justo debajo.",
-      "Para precisión, triangula: lanza desde dos puntos alejados, apunta cada posición F3 y el ángulo del ojo, y excava donde se cruzan las dos líneas.",
-      "Excava en escalera (nunca en vertical): las strongholds se generan entre la superficie y las capas de deepslate, a menudo alrededor de Y=0 o más abajo.",
-      "Explora los pasillos hasta encontrar la sala del portal: tiene un spawner de silverfish y una piscina de lava bajo el marco. Rellena los huecos vacíos del marco con ojos de ender (hasta 12; cada hueco tiene un 10% de probabilidad de venir ya relleno)."
+      "Fabrica ojos de ender con ender pearls (las sueltan los endermen) y blaze powder (de blaze rods). Lleva muchos: necesitas 12 para el marco menos los que ya vengan puestos, más repuestos para la búsqueda.",
+      "Lanza un ojo (usar). Vuela unos 12 bloques hacia la stronghold más cercana y luego cae para recogerlo (80%) o se rompe (20%).",
+      "Camina en esa dirección y lanza otra vez. Mientras estés a más de 12 bloques de la esquina del chunk inicial de la stronghold, el ojo sube; cuando estés más cerca, viaja hacia abajo.",
+      "Para triangular, lanza desde dos puntos lejanos, anota la dirección en cada uno y ve a donde se cruzan las dos líneas.",
+      "Cuando el ojo baje, estás sobre una stronghold. Excava con cuidado en escalera e ilumina el camino: las strongholds generan a cualquier altura Y y pueden quedar cortadas por cuevas u otras estructuras.",
+      "Busca la sala del portal del End: los marcos forman un anillo de 5x5 (3 por lado, sin esquinas) sobre un charco de lava, con una escalera que lleva a un monster spawner de silverfish. Cada marco tiene un 10% de traer ya un ojo; coloca ojos en los vacíos hasta completar los 12."
     ],
     "materials": [
       "12-15 ojos de ender (perlas + blaze powder), más repuestos para el portal",
       "Pico y antorchas para la excavación",
       "Arma y escudo para los silverfish"
     ],
-    "editionNote": "Java genera exactamente 128 strongholds por mundo en 8 anillos alrededor del origen (las primeras 3 a entre 1.408-2.688 bloques del spawn). Bedrock no tiene un número fijo: siguen generándose a medida que viajas y son notablemente más comunes bajo las aldeas. Los ojos de ender apuntan a la más cercana en ambas ediciones.",
-    "versions": "Los anillos de strongholds y la mecánica de los ojos no han cambiado en las versiones actuales. Vigente a fecha de 26.3.",
+    "editionNote": "Java Edition: cada mundo tiene exactamente 128 strongholds en 8 anillos alrededor del origen; el primer anillo tiene 3 strongholds entre 1.280 y 2.816 bloques del origen. Bedrock Edition: las strongholds generan al menos a 160 bloques del origen sin límite fijo, más 3 extra a al menos 453 bloques.",
+    "versions": "Basado en las páginas Stronghold, Eye of Ender y End Portal Frame de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué mi ojo de ender se clavó en el suelo y no me llevó a nada?",
-        "a": "El ojo apunta al punto de inicio aproximado de la stronghold, no a la sala del portal. Excava en el punto de clavado y explora: la estructura se extiende en pasillos y la sala del portal puede estar a unas decenas de bloques de la entrada."
+        "q": "¿Por qué mi ojo de ender se hundió en el suelo?",
+        "a": "A menos de unos 12 bloques de la esquina del chunk inicial de la stronghold, el ojo viaja hacia abajo en vez de hacia arriba. Significa que estás sobre la stronghold: excava y explora, ya que la sala del portal puede estar a varias salas del inicio."
       },
       {
-        "q": "¿Puede una stronghold no tener portal del End?",
-        "a": "La sala del portal es la única sala que toda stronghold tiene garantizada, pero cuevas, mineshafts y otras estructuras pueden sobrescribir parte de ella, aunque es raro. Si el tuyo está roto o no existe, los ojos te llevarán a la siguiente stronghold."
+        "q": "¿Puede una stronghold no tener portal del End funcional?",
+        "a": "Gran parte de una stronghold puede ser sobrescrita por cuevas, minas abandonadas, ancient cities, trial chambers y otras estructuras. Es raro que se reemplace el portal del End, pero si pasa debes buscar otra stronghold, porque el portal solo funciona con los 12 marcos presentes."
       },
       {
-        "q": "¿Cuántos ojos de ender necesito en total?",
-        "a": "Cuenta con unos 12-15 para el viaje más hasta 12 para el marco (la media real es de 8-9, porque algunos huecos vienen ya rellenos). 24 perlas y 12 de blaze powder es una reserva cómoda."
+        "q": "¿Cuántos ojos de ender necesito?",
+        "a": "El portal necesita 12 ojos en total y cada marco tiene un 10% de venir ya con uno, así que calcula unos 11. Cada lanzamiento tiene un 20% de romper el ojo, así que lleva de sobra para la búsqueda."
       }
     ],
     "relatedLinks": [
@@ -740,7 +740,8 @@
     "relatedGuides": [
       "how-to-beat-ender-dragon",
       "how-to-make-nether-portal"
-    ]
+    ],
+    "keywords": "encontrar stronghold ojo de ender portal del end marco triangular spawner silverfish 128 strongholds"
   },
   "how-to-fly-elytra": {
     "name": "Cómo volar con elytra en Minecraft",
