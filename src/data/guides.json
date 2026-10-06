@@ -951,53 +951,44 @@
     "slug": "how-to-fly-elytra",
     "name": "How to Fly with Elytra in Minecraft",
     "shortTitle": "Fly with Elytra",
-    "quickAnswer": "Equip the Elytra in your chestplate slot, jump off a height and press jump again mid-air to deploy the wings. Pitch down to gain speed and up to trade speed for height, and use firework rockets while gliding to boost. Repair with phantom membranes or Mending - the wings last 432 seconds of flight (about 7 minutes) per durability bar.",
+    "quickAnswer": "Wear the Elytra in the chestplate slot, then press jump while in mid-air to spread the wings. Aim down to gain speed and up to lose it, and use firework rockets while gliding to boost. Each second of gliding costs 1 durability, and a pair has 432 (7 minutes 12 seconds).",
     "steps": [
-      "Get an Elytra from an End Ship (see the End city guide) and equip it in the chestplate slot. You lose your chest armor, so plan around that.",
-      "Deploy: jump from at least 4 blocks up and press jump again while falling. The wings open and you start gliding.",
-      "Steer by looking: pitch down to dive and build speed, pitch up to climb and bleed speed. Speed is everything - a fast dive converts into a long, high climb.",
-      "Cruise at the horizon. Aiming level gives the best no-boost glide ratio, roughly 10 blocks traveled per block of height - from a mountain you cross a kilometer with altitude to spare.",
-      "Boost with fireworks: hold firework rockets and right-click while gliding. Each rocket adds a strong push. Use rockets WITHOUT a firework star - crafted from 3 paper + 1-3 gunpowder only - because starred rockets explode in your face.",
-      "Land by pitching up gently to stall just above the ground, or flare into water. Horizontal speed at ground level is what kills you, and elytra damage is fall damage, so Slow Falling potions make practice painless.",
-      "Maintain the wings: at 0 durability they become Broken Elytra and stop working. Repair with phantom membranes at an anvil, or enchant with Mending + Unbreaking III so XP keeps them alive forever.",
-      "Mind the durability. Elytra lose 1 durability per second of flight: 432 points, about 7 minutes of gliding. Unbreaking III stretches it to around 28 minutes, and Mending repairs it from XP while you wear it."
+      "Get an Elytra: it is found in an End ship's item frame, in an End city in the outer End islands, guarded by a shulker. Equip it in the chestplate slot (you give up chest armor).",
+      "Jump off a height and press jump again while in mid-air. The wings open and you glide. You steer by turning; moving your aim up and down changes pitch.",
+      "Losing altitude increases speed and gaining altitude decreases it. Sharp turns lose speed quickly.",
+      "For the longest cruise without rockets, aim straight at the horizon: the wiki gives about 10.06 blocks traveled horizontally per block of starting altitude.",
+      "Use a firework rocket while gliding to be pushed in the direction you face. Rockets with firework stars explode at the end of their flight and can damage you, so use rockets without stars for flying. Rockets do not use up elytra durability.",
+      "Land carefully: hitting a wall at high speed deals kinetic damage (\"experienced kinetic energy\"), while hitting a ceiling does not. Landing at an angle steeper than about 50 degrees can cause fall damage.",
+      "Repair in an anvil with phantom membranes (each restores 25% of durability, 108 points) or combine two pairs. You cannot enchant elytra at an enchanting table, but an anvil can add Unbreaking or Mending."
     ],
     "materials": [
-      "Elytra (End Ship item frame)",
-      "Firework rockets: 3 paper + 3 gunpowder each, no star",
-      "Phantom membranes for repairs (or Mending)",
-      "Optional: Slow Falling potions while learning",
-      "Elytra (End ship, outer End islands)",
-      "Firework rockets without firework stars (paper + 1-3 gunpowder)",
-      "Totem of undying in the off-hand (recommended)",
-      "Phantom membranes + anvil for repairs, Mending/Unbreaking books"
+      "Elytra (from an End ship)",
+      "Firework rockets without firework stars",
+      "Phantom membranes and an anvil for repairs",
+      "Optional: Unbreaking or Mending books (applied at an anvil)"
     ],
-    "editionNote": "Gliding, pitch control and firework boosting work the same on Java and Bedrock. On Bedrock, momentum is a little more forgiving in climbs and you can also deploy the wings by double-tapping jump in creative-style flight transitions; the rocket-boost mechanic is identical. Repair rules (phantom membranes, Mending, anvil) match on both.",
-    "versions": "Elytra flight has been stable since 1.11.1 added firework boosting. Current as of 26.3.",
+    "editionNote": "Gliding, pitch and rockets work in both editions. Bedrock differences on the wiki: touching water or vines stops flight, pressing jump mid-flight cancels it, and in Creative (or with the mayfly ability) you can hold jump to fly up while gliding.",
+    "versions": "Based on the Elytra page on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "Why do my fireworks hurt me when I boost?",
-        "a": "Your rockets have a firework star in them. Craft boost rockets from paper and gunpowder only - never add a star. Three gunpowder per rocket gives the longest boost."
+        "q": "Why do fireworks hurt me while I fly?",
+        "a": "A rocket with firework stars explodes at the end of its flight and damages you based on the number of stars. Use rockets without stars for boosting."
       },
       {
-        "q": "How do you take off from flat ground?",
-        "a": "Jump, deploy at the top of the hop and fire a rocket immediately - you need a 2-block pillar, a small ledge or a Riptide trident in rain for a clean flat-ground launch."
+        "q": "Can elytra break permanently?",
+        "a": "No. When durability reaches 1 they stop working (tattered texture) until repaired, but they never fully break. Repair with phantom membranes in an anvil or combine two pairs."
       },
       {
-        "q": "Can Elytra break permanently?",
-        "a": "No. At 0 durability they turn into Broken Elytra but stay in your inventory; repair them at an anvil with phantom membranes or combine two worn pairs."
+        "q": "How long do elytra last?",
+        "a": "432 durability, lost at 1 per second of gliding: 7 minutes 12 seconds. Unbreaking III raises that to about 28 minutes 48 seconds. Rockets do not reduce durability."
       },
       {
-        "q": "Why do my fireworks hurt me while flying?",
-        "a": "Your rockets have firework stars in them - starred rockets explode on use and the explosion damages you mid-flight. Craft elytra rockets from paper and gunpowder only, no star. Save the starred ones for crossbows and celebrations."
-      },
-      {
-        "q": "How do I fly upward with elytra?",
-        "a": "Wings alone cannot climb - you can only trade altitude for speed and back. Climbing is done with firework rockets, or with the pitch-pump technique (dive to 32-33 degrees, pull up to -50, ease back) that gains a few blocks per cycle if timed perfectly."
+        "q": "How do I gain altitude without rockets?",
+        "a": "The wiki describes a pitch cycle: from at least 50 blocks up (about 80 is ideal), dive at a pitch of 32-33 degrees until you lose about 60-70 blocks, pitch up to about -50 degrees, then slowly ease back down to 32 degrees and repeat. Done right it gains about 3 blocks per cycle."
       },
       {
         "q": "What does \"experienced kinetic energy\" mean?",
-        "a": "You hit a block too fast and died to kinetic damage - the elytra version of a crash landing. It comes from slamming into walls or steep ground at speed; ceilings are safe, and slowing down with a sharp turn before impact prevents it."
+        "a": "You died from kinetic damage by hitting a block at high speed. Horizontal surfaces such as ceilings do not cause it."
       }
     ],
     "relatedGuides": [
@@ -1022,7 +1013,7 @@
       }
     ],
     "keywords": [
-      "elytra fly glide fireworks boost rocket mending phantom membrane takeoff",
+      "elytra fly glide fireworks boost rocket mending phantom membrane",
       "how to use elytra",
       "elytra flying minecraft",
       "elytra fireworks",

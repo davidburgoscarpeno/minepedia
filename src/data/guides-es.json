@@ -745,53 +745,44 @@
   "how-to-fly-elytra": {
     "name": "Cómo volar con elytra en Minecraft",
     "shortTitle": "Volar con elytra",
-    "quickAnswer": "Equipa las elytra en el hueco de la coraza, salta desde una altura y pulsa salto otra vez en el aire para desplegar las alas. Inclina hacia abajo para ganar velocidad y hacia arriba para cambiar velocidad por altura, y usa cohetes de fuegos artificiales mientras planeas para impulsarte. Repara con phantom membranes o Mending: las alas duran 432 segundos de vuelo (unos 7 minutos) por barra de durabilidad.",
+    "quickAnswer": "Ponte las Elytra en la ranura de pechera y pulsa saltar en el aire para abrir las alas. Apunta hacia abajo para ganar velocidad y hacia arriba para perderla, y usa cohetes de fuegos artificiales mientras planeas para impulsarte. Cada segundo de planeo gasta 1 de durabilidad y un par tiene 432 (7 minutos 12 segundos).",
     "steps": [
-      "Consigue unas elytra de un end ship (mira la guía de end cities) y equípalas en el hueco de la coraza. Pierdes la coraza, así que planea en consecuencia.",
-      "Despliegue: salta desde al menos 4 bloques y pulsa salto otra vez mientras caes. Las alas se abren y empiezas a planear.",
-      "Dirige con la mirada: inclina hacia abajo para picar y ganar velocidad, y hacia arriba para trepar y perder velocidad. La velocidad lo es todo: un picado rápido se convierte en un ascenso largo y alto.",
-      "Navega en el horizonte. Apuntar nivelado da la mejor ratio de planeo sin impulso, unos 10 bloques recorridos por bloque de altura: desde una montaña cruzas un kilómetro con altura de sobra.",
-      "Impúlsate con fuegos artificiales: sostén cohetes y haz clic derecho mientras planeas. Cada cohete da un empujón fuerte. Usa cohetes SIN estrella de fuegos artificiales (solo 3 de papel + 1-3 de pólvora), porque los cohetes con estrella te explotan en la cara.",
-      "Aterriza inclinando suavemente hacia arriba para frenar justo sobre el suelo, o cayendo en agua. La velocidad horizontal al tocar el suelo es lo que te mata, y el daño con elytra es daño por caída, así que las pociones de Slow Falling hacen la práctica indolora.",
-      "Mantenimiento: a 0 de durabilidad se convierten en elytra rotas y dejan de funcionar. Repáralas con phantom membranes en un yunque, o encántalas con Mending + Unbreaking III para que la XP las mantenga vivas para siempre.",
-      "Ojo a la durabilidad. La elytra pierde 1 de durabilidad por segundo de vuelo: 432 puntos, unos 7 minutos de planeo. Unbreaking III lo estira a unos 28 minutos, y Mending la repara con XP mientras la llevas puesta."
+      "Consigue unas Elytra: están en el marco de un End ship, en una End city de las islas exteriores del End, vigiladas por un shulker. Equípalas en la ranura de pechera (renuncias a la armadura de pecho).",
+      "Salta desde una altura y pulsa saltar otra vez en el aire. Las alas se abren y planeas. Te diriges girando; mover la mirada arriba y abajo cambia la inclinación.",
+      "Perder altura aumenta la velocidad y ganarla la reduce. Los giros bruscos pierden velocidad rápidamente.",
+      "Para el crucero más largo sin cohetes, apunta recto al horizonte: la wiki da unos 10,06 bloques recorridos en horizontal por cada bloque de altura inicial.",
+      "Usa un cohete mientras planeas para que te empuje en la dirección en que miras. Los cohetes con estrellas de fuegos artificiales explotan al final de su vuelo y pueden dañarte, así que usa cohetes sin estrellas para volar. Los cohetes no gastan durabilidad de las elytra.",
+      "Aterriza con cuidado: chocar contra una pared a gran velocidad causa daño cinético (\"experienced kinetic energy\"), pero chocar contra un techo no. Aterrizar con un ángulo de más de unos 50 grados puede causar daño por caída.",
+      "Repáralas en un yunque con phantom membranes (cada una restaura el 25% de durabilidad, 108 puntos) o combina dos pares. No se pueden encantar en la mesa de encantamientos, pero en un yunque puedes añadir Unbreaking o Mending."
     ],
     "materials": [
-      "Elytra (item frame de un end ship)",
-      "Cohetes: 3 de papel + 3 de pólvora cada uno, sin estrella",
-      "Phantom membranes para reparar (o Mending)",
-      "Opcional: pociones de Slow Falling mientras aprendes",
-      "Elytra (End ship, islas exteriores del End)",
-      "Firework rockets sin firework stars (paper + 1-3 gunpowder)",
-      "Totem of undying en la off-hand (recomendado)",
-      "Phantom membranes + anvil para reparar, libros de Mending/Unbreaking"
+      "Elytra (de un End ship)",
+      "Cohetes sin estrellas de fuegos artificiales",
+      "Phantom membranes y un yunque para reparar",
+      "Opcional: libros de Unbreaking o Mending (se aplican en un yunque)"
     ],
-    "editionNote": "El planeo, el control de inclinación y el impulso con cohetes funcionan igual en Java y Bedrock. En Bedrock el momento es algo más generoso en los ascensos y también puedes desplegar las alas con doble toque de salto en transiciones de vuelo estilo creativo; la mecánica del cohete es idéntica. Las reglas de reparación (phantom membranes, Mending, yunque) coinciden en ambas.",
-    "versions": "El vuelo con elytra es estable desde que la 1.11.1 añadió el impulso con cohetes. Vigente a fecha de 26.3.",
+    "editionNote": "El planeo, la inclinación y los cohetes funcionan en ambas ediciones. Diferencias en Bedrock según la wiki: tocar agua o enredaderas detiene el vuelo, pulsar saltar en pleno vuelo lo cancela, y en Creativo (o con la habilidad mayfly) puedes mantener saltar para subir mientras planeas.",
+    "versions": "Basado en la página Elytra de minecraft.wiki, revisada en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Por qué me hacen daño los fuegos artificiales al impulsarme?",
-        "a": "Tus cohetes llevan una estrella de fuegos artificiales. Fabrica los cohetes de impulso solo con papel y pólvora, nunca con estrella. Tres de pólvora por cohete dan el impulso más largo."
-      },
-      {
-        "q": "¿Cómo se despega desde suelo llano?",
-        "a": "Salta, despliega en lo alto del brinco y dispara un cohete enseguida: necesitas un pilar de 2 bloques, un pequeño saliente o un tridente con Riptide bajo la lluvia para un despegue limpio en llano."
+        "q": "¿Por qué me hacen daño los cohetes mientras vuelo?",
+        "a": "Un cohete con estrellas de fuegos artificiales explota al final de su vuelo y te daña según el número de estrellas. Usa cohetes sin estrellas para impulsarte."
       },
       {
         "q": "¿Pueden romperse las elytra para siempre?",
-        "a": "No. A 0 de durabilidad se convierten en elytra rotas pero se quedan en tu inventario; repáralas en un yunque con phantom membranes o combina dos pares gastados."
+        "a": "No. Al llegar a 1 de durabilidad dejan de funcionar (textura raída) hasta que las repares, pero nunca se rompen del todo. Repáralas con phantom membranes en un yunque o combina dos pares."
       },
       {
-        "q": "¿Por qué me hacen daño mis fireworks al volar?",
-        "a": "Tus rockets llevan firework stars: los rockets con star explotan al usarse y la explosión te daña en pleno vuelo. Fabrica los rockets para elytra solo con paper y gunpowder, sin star. Guarda los de stars para crossbows y celebraciones."
+        "q": "¿Cuánto duran las elytra?",
+        "a": "432 de durabilidad, que baja 1 por segundo de planeo: 7 minutos 12 segundos. Unbreaking III lo sube a unos 28 minutos 48 segundos. Los cohetes no reducen la durabilidad."
       },
       {
-        "q": "¿Cómo subo con la elytra?",
-        "a": "Las alas solas no pueden ascender: solo puedes cambiar altura por velocidad y al revés. Se asciende con firework rockets, o con la técnica del cabeceo bombeado (pica a 32-33 grados, tira hasta -50, suaviza de vuelta) que gana unos bloques por ciclo si el timing es perfecto."
+        "q": "¿Cómo gano altura sin cohetes?",
+        "a": "La wiki describe un ciclo de inclinación: desde al menos 50 bloques de altura (unos 80 es ideal), baja con una inclinación de 32-33 grados hasta perder unos 60-70 bloques, sube a unos -50 grados y vuelve despacio a 32 grados, y repite. Bien hecho gana unos 3 bloques por ciclo."
       },
       {
         "q": "¿Qué significa \"experienced kinetic energy\"?",
-        "a": "Chocaste contra un bloque demasiado rápido y moriste por daño cinético: la versión elytra de un aterrizaje forzoso. Viene de estamparse contra paredes o suelo empinado a velocidad; los techos son seguros, y frenar con un giro brusco antes del impacto lo evita."
+        "a": "Moriste por daño cinético al chocar contra un bloque a gran velocidad. Las superficies horizontales, como los techos, no lo causan."
       }
     ],
     "relatedLinks": [
@@ -814,9 +805,10 @@
       "how-to-beat-ender-dragon"
     ],
     "keywords": [
-      "cómo usar la elytra",
+      "elytra volar planear cohetes fuegos artificiales mending phantom membrane",
+      "cómo usar elytra",
       "volar con elytra minecraft",
-      "elytra fireworks",
+      "elytra cohetes",
       "cómo volar en minecraft"
     ]
   },
