@@ -1565,35 +1565,39 @@
   "how-to-make-concrete": {
     "name": "Cómo hacer Concrete en Minecraft",
     "shortTitle": "Hacer Concrete",
-    "quickAnswer": "Craftea concrete powder (4 sand + 4 gravel + 1 dye = 8 powder) y luego tócalo con agua: se solidifica al instante en concrete. Truco de farmeo: monta una torre de powder sobre una corriente de agua y déjalo caer, convirtiendo stacks en segundos. El concrete es el bloque de color sólido más fuerte para construir.",
+    "quickAnswer": "Fabrica cemento en polvo (concrete powder) con arena, grava y un tinte, y deja que toque agua. Se convierte en cemento al contacto. Hay dieciséis colores. Mina el cemento con un pico o no suelta nada.",
     "steps": [
-      "Craftea concrete powder: 4 sand, 4 gravel y 1 dye de cualquiera de los 16 colores dan 8 bloques de powder.",
-      "Conviértelo: el powder que toca agua (source, corriente, o bloques waterlogged en Java) se vuelve concrete sólido al instante.",
-      "Método rápido - gravedad: el concrete powder cae como la sand. Déjalo caer desde arriba a través de una columna de agua y se solidifica en plena caída.",
-      "Montaje para producir en masa: una corriente de agua en el suelo con una torre de powder encima - mantén clic derecho con powder y mira cómo los stacks se convierten solos.",
-      "Mina el concrete con un pickaxe (de cualquier tier): se suelta entero; sin pickaxe no suelta nada.",
-      "Úsalo: bloques de color puro y vibrante para pixel art, construcciones modernas y carreteras - la paleta más limpia del juego."
+      "Fabrica cemento en polvo con arena, grava y un tinte del color que quieras. La wiki muestra las cantidades exactas solo como imagen, así que mira el libro de recetas del juego.",
+      "El cemento en polvo es un bloque afectado por la gravedad: cae cuando el bloque de abajo no es sólido.",
+      "Haz que toque agua: colócalo dentro de agua corriente o una fuente, junto a ellas, o deja que caiga en ellas, o (solo Java) en un bloque anegado. Se vuelve cemento al contacto.",
+      "Junto a un bloque anegado debe tocar un lado por donde pueda salir el agua, como los lados abiertos de las escaleras, no la parte de atrás de las escaleras ni ningún lado de hojas anegadas.",
+      "Mina el cemento con un pico. Sin pico no suelta nada."
     ],
     "materials": [
-      "Sand y gravel (shovel en una beach y una montaña de gravel)",
-      "Dye del color elegido (flowers, fundición, trades)",
-      "Una fuente de agua para la conversión",
-      "Cualquier pickaxe para recolectarlo"
+      "Arena",
+      "Grava",
+      "Tinte del color deseado",
+      "Agua",
+      "Pico"
     ],
-    "editionNote": "En Java, los bloques waterlogged también convierten powder; en Bedrock debe tocar agua de verdad. Ambas ediciones convierten al instante al contacto.",
-    "versions": "Concrete y concrete powder desde 1.12 (World of Color Update).",
+    "editionNote": "Los bloques anegados convierten el cemento en polvo solo en Java. Bedrock necesita agua real.",
+    "versions": "Basado en las páginas Concrete y Concrete Powder de minecraft.wiki, revisadas en octubre de 2026.",
     "faq": [
       {
-        "q": "¿Cómo se convierte el concrete powder en concrete?",
-        "a": "Tocando agua: cualquier contacto con un bloque source, corriente o (en Java) bloques waterlogged lo solidifica al instante. La lluvia no cuenta."
+        "q": "¿Cómo se convierte el cemento en polvo en cemento?",
+        "a": "Haciendo que toque agua: una fuente, agua corriente o un bloque anegado (solo Java)."
       },
       {
-        "q": "¿Cuál es la forma más rápida de hacer concrete?",
-        "a": "Usa la gravedad: deja caer el powder a través de una corriente de agua. La entidad en caída se convierte al contacto, así que conviertes stacks enteros en segundos sin colocar cada bloque."
+        "q": "¿El cemento es renovable?",
+        "a": "Sí, según la wiki, pero sin glitches la arena solo es renovable con el vendedor ambulante, así que es más fácil recoger arena natural."
       },
       {
-        "q": "¿Se puede reblandecer el concrete?",
-        "a": "No: el concrete nunca vuelve a ser powder. Colócalo con cuidado o guárdalo como powder hasta tener claro el sitio."
+        "q": "¿Cuántos colores hay?",
+        "a": "Dieciséis, uno por color de tinte."
+      },
+      {
+        "q": "¿El cemento necesita pico?",
+        "a": "Sí. Minado sin pico no suelta nada."
       }
     ],
     "relatedLinks": [
@@ -1605,7 +1609,8 @@
         "url": "/es/items/concrete-slab/",
         "label": "Concrete Slab"
       }
-    ]
+    ],
+    "keywords": "cemento concrete minecraft cómo hacer cemento en polvo agua arena grava tinte 16 colores"
   },
   "how-to-make-copper-golem": {
     "name": "Cómo hacer un Copper Golem en Minecraft",
