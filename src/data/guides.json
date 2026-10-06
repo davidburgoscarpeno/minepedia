@@ -2048,35 +2048,38 @@
     "slug": "how-to-make-fireworks",
     "name": "How to Make Fireworks in Minecraft",
     "shortTitle": "Make Fireworks",
-    "quickAnswer": "Craft 3 firework rockets with 1 paper and 1-3 gunpowder - more gunpowder means longer flight. Leave out the firework star for elytra boosting (star-equipped rockets explode and hurt you); add one for shows or crossbow ammo.",
+    "quickAnswer": "Craft a firework rocket from paper and gunpowder: it makes 3 rockets, and up to three gunpowder raise the flight duration. Add firework stars for explosions. For elytra boosting use rockets with no star, since a star makes you take explosion damage.",
     "steps": [
-      "Gather paper (3 sugar cane in a row makes 3 paper) and gunpowder (creepers, ghasts, witches).",
-      "Craft rockets: 1 paper + 1, 2 or 3 gunpowder gives 3 firework rockets. Each extra gunpowder raises the flight duration (shown on the tooltip), up to duration 3.",
-      "For elytra boosting keep them star-free: a rocket with no firework star has no explosion, so it never damages you when it ends.",
-      "Boost while gliding: use a rocket mid-flight to propel yourself at 33.5 blocks per second; the boost length scales with flight duration. You can also take off from the ground this way.",
-      "For a show or a weapon, make a firework star first: gunpowder + any dye (add extras like glowstone dust for twinkle or a diamond for trail), then craft paper + gunpowder + the star.",
-      "Use them as ammo: load a rocket into a crossbow - it only deals damage if it has a firework star, and each extra star adds damage. Dispensers launch rockets in the direction they face."
+      "Craft paper + gunpowder to get 3 firework rockets. Up to three gunpowder can be used, and more gunpowder means a longer flight duration (maximum 3).",
+      "For elytra boosting, keep the rocket star-free. A rocket with any firework star hurts you when it explodes.",
+      "Boost while gliding: using a rocket on elytra pushes you in the direction you face at 33.5 blocks per second. Boost time is about 1.5, 2.0 and 2.5 seconds for flight durations 1, 2 and 3 (the wiki says it is somewhat random).",
+      "For a show, craft a firework star first: gunpowder + a matching dye, plus optional extras. Fire charge gives a large ball, gold nugget a star shape, any head a creeper face, feather a burst, glowstone dust a twinkle and diamond a trail.",
+      "Craft paper + gunpowder + firework stars to make the rocket. Any remaining spaces can hold more firework stars (up to seven), and all of them explode almost together. Damage grows with each star.",
+      "Launch it by using it on a block, from a dispenser (it flies the way the dispenser faces) or from a crossbow. A crossbow rocket only deals damage if it has an explosion effect."
     ],
     "materials": [
-      "1 paper per craft (3 sugar cane = 3 paper)",
-      "1-3 gunpowder per craft (creepers, ghasts, witches)",
-      "Optional: firework star (gunpowder + dye + effects)",
-      "Optional: crossbow or dispenser"
+      "Paper",
+      "Gunpowder (1 to 3)",
+      "Optional: firework stars (gunpowder, dye, extras)"
     ],
-    "editionNote": "Identical crafting and boosting in Java and Bedrock. In Java, a rocket shot from a crossbow explodes instantly when it hits an entity.",
-    "versions": "Rockets since Java 1.4.6 / Bedrock 1.2.0; elytra boosting since Java 1.11.1 / Bedrock 1.10.0.",
+    "editionNote": "In Java, a crossbow rocket that hits an entity explodes instantly. In Bedrock it passes through the entity, so aim where it will explode.",
+    "versions": "Based on the Firework Rocket and Firework Star pages on minecraft.wiki, checked October 2026.",
     "faq": [
       {
-        "q": "Do fireworks damage you when boosting elytra?",
-        "a": "Only if the rocket contains a firework star. Star-free rockets have no explosion and are always safe - that is why elytra pilots craft plain paper + gunpowder rockets."
+        "q": "How many rockets does one craft give?",
+        "a": "3, with paper and gunpowder."
       },
       {
-        "q": "How high do fireworks fly?",
-        "a": "Between 8-20 blocks with 1 gunpowder, 18-34 with 2 and 32-52 with 3, plus small random variation. The tooltip shows the flight duration as 1, 2 or 3."
+        "q": "Do fireworks hurt when I fly with elytra?",
+        "a": "Only if the rocket has a firework star. Without one it has no explosion."
       },
       {
-        "q": "How do I make colored explosions?",
-        "a": "Craft a firework star first: gunpowder plus one or more dyes sets the colors. Add a diamond for a trail, glowstone dust for twinkle, or a head/gold nugget/feather/fire charge to change the explosion shape, then combine the star with paper and gunpowder."
+        "q": "How do I add a trail or twinkle?",
+        "a": "Add a diamond (trail) or glowstone dust (twinkle) to the firework star."
+      },
+      {
+        "q": "Do crossbow fireworks do damage?",
+        "a": "Only with an explosion effect. Higher flight duration gives more range, and each star adds damage."
       }
     ],
     "relatedGuides": [
@@ -2093,7 +2096,7 @@
         "label": "Elytra"
       }
     ],
-    "keywords": "firework rocket minecraft craft paper gunpowder elytra boost flight duration firework star crossbow"
+    "keywords": "firework rocket minecraft how to make paper gunpowder firework star elytra boost crossbow"
   },
   {
     "slug": "how-to-get-silk-touch",
