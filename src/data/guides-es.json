@@ -2635,38 +2635,41 @@
   "how-to-make-enchanting-table": {
     "name": "Cómo hacer un Enchanting Table en Minecraft",
     "shortTitle": "Hacer un Enchanting Table",
-    "quickAnswer": "Craftea un enchanting table con 1 book, 2 diamonds y 4 obsidian. Rodéalo de 15 bookshelves para desbloquear encantamientos de nivel 30, y aliméntalo con lapis lazuli y niveles de XP para encantar herramientas, armadura y libros.",
+    "quickAnswer": "Fabrica una mesa de encantamientos con 1 libro, 2 diamantes y 4 obsidiana. Rodéala con hasta 15 estanterías, cada una con un bloque de aire entre ella y la mesa, para desbloquear encantamientos de nivel 30. Cada encantamiento cuesta de 1 a 3 lapislázuli y esa misma cantidad de niveles.",
     "steps": [
-      "Consigue 1 book: 3 paper (sugar cane) + 1 leather (cows).",
-      "Mina 2 diamonds: diamond ore por debajo de Y=16, mejor alrededor de Y=-59, con iron pickaxe o mejor.",
-      "Mina 4 obsidian: vierte agua sobre bloques de fuente de lava (o busca lagos de lava) y mina con un diamond pickaxe.",
-      "Craftéalo: book arriba en el centro, diamond-obsidian-diamond en la fila central y 3 obsidian en la fila inferior.",
-      "Monta la biblioteca: coloca 15 bookshelves alrededor de la mesa con exactamente un bloque de aire entre ellas y ella: el clásico anillo de 5x5 con la mesa en medio. Hasta un torch en el hueco anula el bonus.",
-      "Encanta: abre la mesa, mete una herramienta, arma, pieza de armadura o book, más 1-3 lapis lazuli, y elige una de las tres ofertas. El coste es de 1-3 niveles de XP según el nivel.",
-      "Rebaraja las ofertas: las tres opciones de encantamiento solo cambian tras encantar algo; encanta un book barato o una shovel de madera por 1 nivel para refrescar la lista.",
-      "Ve más lejos: combina enchanted books y equipo en un anvil para equipo de dios, y añade Mending (solo de botín, comercio o pesca; nunca de la mesa)."
+      "Fabrica un libro (papel y cuero), mina 2 diamantes y consigue 4 obsidiana. Minar obsidiana requiere un pico de diamante o netherita.",
+      "Fabrica la mesa: el libro en el centro de arriba, un diamante a cada lado de una obsidiana en la fila del medio, y 3 obsidiana en la fila de abajo.",
+      "Coloca estanterías alrededor. Deja un bloque de aire, o un bloque reemplazable, entre cada estantería y la mesa. La mayoría de los demás bloques en medio, incluso una antorcha, impiden que la estantería se conecte.",
+      "Hasta 15 estanterías dan acceso a encantamientos de nivel 30.",
+      "Abre la mesa, pon un objeto que no esté ya encantado y lapislázuli. Aparecen tres opciones aleatorias. Necesitas al menos el nivel mostrado, pero solo pagas en niveles la cantidad de lapislázuli (1 a 3) y el lapislázuli.",
+      "El requisito de nivel influye en el número, tipo y nivel de los encantamientos, con un gran factor aleatorio. Una opción de nivel 30 no garantiza más de un encantamiento.",
+      "Mínala con un pico para recuperarla. Sin pico no suelta nada. El dragón del End puede destruirla igualmente."
     ],
     "materials": [
-      "1 book",
-      "2 diamonds",
-      "4 obsidian",
-      "Más 15 bookshelves (45 leather + 135 paper) para nivel 30",
-      "Lapis lazuli para cada encantamiento"
+      "1 libro",
+      "2 diamantes",
+      "4 obsidiana",
+      "Hasta 15 estanterías",
+      "Lapislázuli para cada encantamiento"
     ],
-    "editionNote": "Idéntica en ambas ediciones: misma receta, misma regla de las 15 bookshelves, mismo coste de lapis. La mesa emite nivel de luz 12 en todas partes: hace las veces de lámpara elegante.",
-    "versions": "El enchanting table se añadió en Java Beta 1.9 Prerelease 3 (versión 1.0.0) y en Pocket Edition 0.12.1; el coste de lapis lazuli llegó en Java 1.8.",
+    "editionNote": "La interfaz de encantamiento difiere entre Java y Bedrock, pero la receta, la regla de las 15 estanterías y el coste de lapislázuli son iguales.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
-        "q": "¿Cuántas bookshelves hacen falta para encantamientos de nivel 30?",
-        "a": "Exactamente 15, colocadas con un bloque de aire entre ellas y la mesa, normalmente un anillo a la altura de la mesa o un bloque más arriba. Cualquier cosa en el hueco, incluso un torch o una alfombra, desactiva esa estantería."
+        "q": "¿Cuántas estanterías necesito para nivel 30?",
+        "a": "15, cada una con un bloque de aire o reemplazable entre ella y la mesa."
       },
       {
-        "q": "¿Por qué necesito lapis lazuli para encantar?",
-        "a": "Desde Java 1.8 cada encantamiento cuesta lapis (1-3 piezas) más niveles de XP. Necesitas lapis en el segundo hueco de la mesa; minar una veta de lapis suele dar para varios encantamientos."
+        "q": "¿Cuánto cuesta un encantamiento?",
+        "a": "De 1 a 3 lapislázuli y esa misma cantidad de niveles, pero necesitas al menos el nivel que muestra la opción."
       },
       {
-        "q": "¿Se puede conseguir Mending en un enchanting table?",
-        "a": "No. Mending, Soul Speed, Swift Sneak y Wind Burst son encantamientos de tesoro: solo de cofres de botín, comercio con villagers, pesca o drops de raids, nunca de la mesa."
+        "q": "¿Por qué no funcionan mis estanterías?",
+        "a": "La mayoría de bloques entre la estantería y la mesa, incluso una antorcha, cortan la conexión."
+      },
+      {
+        "q": "¿Puedo encantar un objeto dos veces?",
+        "a": "La mesa solo encanta objetos que no estén ya encantados."
       }
     ],
     "relatedGuides": [
@@ -2684,7 +2687,7 @@
         "href": "/es/items/obsidian/"
       }
     ],
-    "keywords": "enchanting table minecraft craft book 2 diamonds 4 obsidian 15 bookshelves nivel 30 lapis lazuli xp"
+    "keywords": "mesa de encantamientos enchanting table minecraft cómo hacer libro diamantes obsidiana estanterías nivel 30 lapislázuli"
   },
   "how-to-make-furnace": {
     "name": "Cómo hacer un Furnace en Minecraft",
