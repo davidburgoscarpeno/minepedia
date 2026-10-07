@@ -2480,18 +2480,18 @@
     "slug": "how-to-make-snow-golem",
     "name": "How to Make a Snow Golem in Minecraft",
     "shortTitle": "Make a Snow Golem",
-    "quickAnswer": "Stack 2 snow blocks vertically and place a carved pumpkin or jack o'lantern on top, last. A snow golem appears. It throws snowballs at monsters (they only damage blazes, but knock mobs back), leaves a snow trail, and takes damage in rain, water and hot biomes unless it has Fire Resistance.",
+    "quickAnswer": "Stack 2 snow blocks vertically and place a carved pumpkin or jack o'lantern on top last. The snow golem throws snowballs at monsters and leaves a snow trail where conditions allow. Keep it away from rain, water and hot biomes.",
     "steps": [
-      "Get 2 snow blocks and a carved pumpkin or jack o'lantern.",
+      "Craft 2 snow blocks from 8 snowballs: each block uses 4 snowballs filling a 2×2 square. Get a carved pumpkin by using shears on a pumpkin, or use a jack o'lantern.",
       "Stack the 2 snow blocks vertically, then place the pumpkin on top. A player, dispenser, enderman or command can place it, but not a piston. The pattern also works sideways or upside-down, as long as the pumpkin goes last.",
       "The snow golem moves toward monsters (except ghasts and undead mounts) and throws one snowball per second from up to 10 blocks away, or 16 if it was captured. Snowballs do damage only to blazes, but knock back anything they hit, and they provoke mobs to attack the golem. It never intentionally attacks you.",
       "It leaves a trail of snow where blocks can support it. In Java this happens in any biome; in Bedrock the trail is not generated in hot biomes. If mobGriefing is false, no trail appears.",
-      "It takes 1 HP of damage per tick in rain, water and biomes with temperature above 1.0 (such as badlands, deserts and Nether biomes). The Fire Resistance effect lets it survive there. It has 4 HP.",
+      "It has 4 HP and takes damage from rain, water and biomes with temperature above 1.0, such as deserts, badlands and Nether biomes. Give it a roof and keep water away. Fire Resistance protects against hot-biome damage; do not treat it as shelter from rain or water.",
       "Shear it to remove the pumpkin, which drops as an item. In Java you can only give it a pumpkin again with a command such as /data.",
       "When it dies it drops 0-15 snowballs."
     ],
     "materials": [
-      "2 snow blocks",
+      "2 snow blocks (8 snowballs, 4 per block in a 2×2 square)",
       "1 carved pumpkin or jack o'lantern",
       "Optional: shears and a lead"
     ],
@@ -2500,7 +2500,7 @@
     "faq": [
       {
         "q": "Why did my snow golem die in the desert or the Nether?",
-        "a": "Snow golems take damage in rain, water and in biomes with a temperature above 1.0, such as badlands, deserts and Nether biomes. Fire Resistance lets them survive in those biomes."
+        "a": "Snow golems take damage in hot biomes such as deserts, badlands and Nether biomes. Fire Resistance protects against hot-biome damage. Rain and water also damage them, so use a roof and keep water away."
       },
       {
         "q": "Do snow golem snowballs deal damage?",
@@ -2513,6 +2513,10 @@
       {
         "q": "What do snow golems drop?",
         "a": "0 to 15 snowballs when killed, and 1 carved pumpkin when sheared."
+      },
+      {
+        "q": "Why will my snow golem not spawn?",
+        "a": "Use 2 snow blocks, not snow layers or powder snow, and place a carved pumpkin or jack o'lantern last. An ordinary uncarved pumpkin placed on top is not the required head."
       }
     ],
     "relatedGuides": [

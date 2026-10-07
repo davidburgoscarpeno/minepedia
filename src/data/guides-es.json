@@ -2118,18 +2118,18 @@
   "how-to-make-snow-golem": {
     "name": "Cómo hacer un Snow Golem en Minecraft",
     "shortTitle": "Hacer un Snow Golem",
-    "quickAnswer": "Apila 2 bloques de nieve en vertical y coloca una calabaza tallada o jack o'lantern encima, al final. Aparece un snow golem. Lanza bolas de nieve a los monstruos (solo dañan a los blazes, pero empujan a los mobs), deja un rastro de nieve y recibe daño con lluvia, agua y biomas calurosos salvo que tenga Fire Resistance.",
+    "quickAnswer": "Apila 2 bloques de nieve en vertical y coloca al final una calabaza tallada o iluminada encima. El golem de nieve lanza bolas de nieve a los monstruos y deja un rastro de nieve cuando las condiciones lo permiten. Protégelo de la lluvia, el agua y los biomas calurosos.",
     "steps": [
-      "Consigue 2 bloques de nieve y una calabaza tallada o jack o'lantern.",
+      "Fabrica 2 bloques de nieve con 8 bolas de nieve: cada bloque usa 4 bolas ocupando un cuadrado de 2×2. Consigue una calabaza tallada usando tijeras sobre una calabaza, o usa una calabaza iluminada.",
       "Apila los 2 bloques de nieve en vertical y coloca la calabaza encima. Puede colocarla un jugador, un dispensador, un enderman o un comando, pero no un pistón. El patrón también funciona de lado o boca abajo, siempre que la calabaza vaya la última.",
       "El snow golem va hacia los monstruos (salvo ghasts y monturas no-muertas) y lanza una bola de nieve por segundo desde hasta 10 bloques, o 16 si fue capturado. Las bolas de nieve solo dañan a los blazes, pero empujan a todo lo que golpean, y provocan a los mobs para que ataquen al golem. Nunca te ataca a propósito.",
       "Deja un rastro de nieve donde los bloques pueden sostenerla. En Java ocurre en cualquier bioma; en Bedrock el rastro no se genera en biomas calurosos. Si mobGriefing es false, no aparece rastro.",
-      "Recibe 1 HP de daño por tick con lluvia, agua y en biomas con temperatura superior a 1,0 (como badlands, desiertos y biomas del Nether). El efecto Fire Resistance le permite sobrevivir allí. Tiene 4 HP.",
+      "Tiene 4 HP y recibe daño de la lluvia, el agua y los biomas con temperatura superior a 1,0, como desiertos, badlands y biomas del Nether. Ponle un techo y evita el agua. Resistencia al fuego lo protege del daño por biomas calurosos; no la confundas con protección frente a la lluvia o el agua.",
       "Esquílalo para quitarle la calabaza, que cae como objeto. En Java solo puedes ponerle otra calabaza con un comando como /data.",
       "Al morir suelta 0-15 bolas de nieve."
     ],
     "materials": [
-      "2 bloques de nieve",
+      "2 bloques de nieve (8 bolas de nieve, 4 por bloque en un cuadrado de 2×2)",
       "1 calabaza tallada o jack o'lantern",
       "Opcional: tijeras y una correa"
     ],
@@ -2138,7 +2138,7 @@
     "faq": [
       {
         "q": "¿Por qué murió mi snow golem en el desierto o el Nether?",
-        "a": "Los snow golems reciben daño con lluvia, agua y en biomas con temperatura superior a 1,0, como badlands, desiertos y biomas del Nether. Fire Resistance les permite sobrevivir en esos biomas."
+        "a": "Los golems de nieve reciben daño en biomas calurosos como desiertos, badlands y biomas del Nether. Resistencia al fuego protege del daño por biomas calurosos. La lluvia y el agua también los dañan: usa un techo y evita el agua."
       },
       {
         "q": "¿Hacen daño las bolas de nieve del snow golem?",
@@ -2151,6 +2151,10 @@
       {
         "q": "¿Qué suelta un snow golem?",
         "a": "De 0 a 15 bolas de nieve al morir, y 1 calabaza tallada al esquilarlo."
+      },
+      {
+        "q": "¿Por qué no aparece mi golem de nieve?",
+        "a": "Usa 2 bloques de nieve, no capas de nieve ni nieve en polvo, y coloca al final una calabaza tallada o iluminada. Una calabaza normal sin tallar colocada encima no es la cabeza necesaria."
       }
     ],
     "relatedGuides": [
