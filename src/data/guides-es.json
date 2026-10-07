@@ -55,9 +55,9 @@
     "quickAnswer": "Construye un marco vertical de obsidiana de al menos 4 bloques de ancho y 5 de alto (10 de obsidiana como mínimo, esquinas opcionales) y enciende el interior con un mechero. Un marco completo con esquinas usa 14 de obsidiana.",
     "steps": [
       "Consigue obsidiana: vierte agua sobre bloques de lava fuente y mínala con un pico de diamante o netherite. Necesitas 10 (marco económico) o 14 (marco completo).",
-      "Construye el marco en vertical: dos columnas de obsidiana de 3 bloques de alto, unidas por 2 de obsidiana arriba y 2 abajo. Espacio interior: 2x3.",
+      "Construye un marco vertical con un hueco vacío de 2 bloques de ancho y 3 de alto. Coloca 2 obsidian debajo del hueco, 3 a cada lado y 2 encima. Las dimensiones exteriores son de 4 por 5 bloques, incluso sin las esquinas.",
       "Las esquinas son opcionales: déjalas vacías para ahorrar 4 de obsidiana.",
-      "Enciéndelo: el fuego colocado dentro del marco lo activa, por ejemplo con flint and steel o un fire charge. Una bola de fuego, un rayo o fuego que se propaga a material inflamable junto al portal también funciona. Los portales no se pueden activar en el End.",
+      "Craftea flint and steel con 1 iron ingot y 1 flint en cualquier disposición. Úsalo para colocar fuego dentro del marco de obsidian y activar el portal. Un fire charge también sirve. Los portales no se pueden activar en el End.",
       "El interior se llena de bloques de portal. Quédate dentro 80 game ticks (4 segundos) en Survival, o 1 tick en Creative, para teletransportarte.",
       "¿Sin pico de diamante? Funde el portal in situ: haz un molde, coloca bloques de lava fuente donde va el marco y vierte agua sobre cada uno para convertirlos en obsidiana uno a uno."
     ],
@@ -66,8 +66,8 @@
       "Mechero (1 iron + 1 flint)",
       "Pico de diamante/netherite O cubo de agua + lava para fundirlo in situ"
     ],
-    "editionNote": "La wiki da un marco mínimo de 4x5 y máximo de 23x23, y las cuatro esquinas no son necesarias. Los portales que crea el juego siempre incluyen las esquinas. En Java el retardo de teletransporte se puede cambiar con las gamerules playersNetherPortalDefaultDelay y playersNetherPortalCreativeDelay.",
-    "versions": "Según la página Nether Portal de Minecraft Wiki: los límites de marco de 4x5 mínimo y 23x23 máximo se introdujeron en una actualización anterior, y las gamerules del retardo llegaron en 1.20.3 (23w42a).",
+    "editionNote": "Los límites del marco son de 4 por 5 bloques como mínimo y 23 por 23 como máximo en ambas ediciones. La búsqueda de portales difiere: Java busca a 16 bloques en horizontal de las coordenadas convertidas en el Nether o a 128 en el Overworld; Bedrock busca a 128 bloques en cualquiera de las dimensiones de destino.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuánta obsidiana hace falta para un portal al Nether?",
@@ -75,11 +75,11 @@
       },
       {
         "q": "¿Por qué no se enciende mi portal al Nether?",
-        "a": "Comprueba que el marco sea de obsidiana completa con interior vacío de 2x3, que no estés en el End (allí no se pueden activar) y que el fuego esté dentro del marco."
+        "a": "Usa obsidian, con un hueco rectangular vacío de al menos 2 bloques de ancho y 3 de alto. El hueco máximo es de 21 por 21 bloques. Coloca fuego dentro del marco y comprueba que no estés en el End."
       },
       {
         "q": "¿Cómo se enlazan los portales entre dimensiones?",
-        "a": "Cada bloque del Overworld equivale a 8 bloques del Nether en X y Z. Un portal en Overworld 800, 64, 800 enlaza cerca de Nether 100, ~64, 100. La Y no se escala."
+        "a": "Un bloque de viaje horizontal en el Nether equivale a 8 en el Overworld. Divide X y Z del Overworld entre 8 para obtener las coordenadas correspondientes del Nether; multiplica X y Z del Nether por 8 para el viaje inverso. La Y no se escala. Por ejemplo, calculado con esta proporción, X=800, Z=800 del Overworld corresponde a X=100, Z=100 del Nether; los portales existentes y el terreno pueden cambiar el punto de llegada."
       }
     ],
     "relatedLinks": [
