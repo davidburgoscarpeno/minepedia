@@ -402,12 +402,12 @@
     "shortTitle": "Hacer un beacon",
     "quickAnswer": "Craftea un beacon con cristal, una nether star y obsidiana. Colócalo sobre una pirámide de 1 a 4 capas de bloques de hierro, oro, esmeralda, diamante o netherita (9 a 164 bloques) y dale un lingote de hierro, oro, esmeralda, diamante o netherita para elegir sus poderes.",
     "steps": [
-      "Consigue una nether star y craftea el beacon con cristal, una nether star y obsidiana.",
-      "Construye la pirámide: la capa 1 es de 3x3 (9 bloques), una de 3 capas es 7x7, 5x5, 3x3 (83 bloques) y una de 4 capas es 9x9, 7x7, 5x5, 3x3 (164 bloques, 1.476 lingotes o gemas). El beacon va encima.",
+      "Consigue 1 nether star del Wither. Craftea 1 beacon con 3 glass en la fila superior, glass + nether star + glass en la fila central y 3 obsidian en la fila inferior.",
+      "Construye capas cuadradas completas bajo el beacon: 3 por 3 para 1 nivel (9 bloques); 5 por 5 y 3 por 3 para 2 (34); 7 por 7, 5 por 5 y 3 por 3 para 3 (83); o 9 por 9, 7 por 7, 5 por 5 y 3 por 3 para 4 (164). La capa más ancha va abajo.",
       "Usa bloques de hierro, oro, esmeralda, diamante o netherita, solos o mezclados. El tipo de bloque es solo estético.",
       "Mantén el haz despejado: se desactiva si cruza cualquier bloque totalmente opaco, salvo bedrock. El cristal tintado sobre el beacon colorea el haz.",
-      "Haz clic derecho en el beacon, pon un lingote de hierro, oro, esmeralda, diamante o netherita, elige un Primary Power y confirma. Da igual cuál ofrezcas.",
-      "Poderes: Resistance y Jump Boost piden pirámide de 2 capas y Strength de 3. Con 4 capas también puedes elegir un Secondary Power: Regeneration, o subir el poder primario al nivel II.",
+      "Usa el beacon, introduce 1 iron ingot, gold ingot, emerald, diamond o netherite ingot, elige los poderes y confirma. El objeto se consume. Cambiar los poderes después requiere otro objeto de pago.",
+      "Speed y Haste están disponibles con 1 nivel; Resistance y Jump Boost necesitan 2; Strength necesita 3. Con 4 niveles, elige Regeneration como poder secundario o aumenta el poder primario elegido al nivel II. Ampliar la pirámide no sube automáticamente el nivel del poder.",
       "Si la pirámide se rompe, el poder elegido vuelve al reconstruirla, sin gastar otro objeto."
     ],
     "materials": [
@@ -416,12 +416,12 @@
       "164 bloques minerales para la pirámide máxima (hierro recomendado)",
       "1 lingote/gema para activarlo"
     ],
-    "editionNote": "Según la wiki, el haz de un beacon se ve desde cualquier chunk cargado: hasta 512 bloques en Java y 2048 en Bedrock. En Bedrock el haz se actualiza cada 80 ticks (4 segundos). En Java otro beacon encima puede cambiar el color del haz.",
-    "versions": "Según la página Beacon de Minecraft Wiki.",
+    "editionNote": "La visibilidad del haz no es lo mismo que el alcance del efecto. Java y Bedrock permiten mezclar bloques minerales en la pirámide. En Bedrock, el haz se actualiza cada 80 ticks (4 segundos).",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuántos bloques necesito para un beacon completo?",
-        "a": "164 bloques para una pirámide de 4 capas, es decir 1.476 lingotes o gemas."
+        "a": "Una pirámide completa de 4 niveles usa 164 bloques minerales. Si la haces solo de iron blocks, son 1.476 iron ingots, calculado como 164 por 9. Eso no incluye el beacon ni el objeto usado para seleccionar sus poderes."
       },
       {
         "q": "¿Los materiales dan mejores efectos?",

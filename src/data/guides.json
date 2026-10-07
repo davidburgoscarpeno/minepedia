@@ -510,12 +510,12 @@
     "shortTitle": "Make a Beacon",
     "quickAnswer": "Craft a beacon from glass, a nether star and obsidian. Place it on a pyramid of 1 to 4 layers of iron, gold, emerald, diamond or netherite blocks (9 to 164 blocks), then feed it one iron ingot, gold ingot, emerald, diamond or netherite ingot to pick its powers.",
     "steps": [
-      "Get a nether star and craft the beacon with glass, a nether star and obsidian.",
-      "Build the pyramid: layer 1 is 3x3 (9 blocks), a 3-layer pyramid is 7x7, 5x5, 3x3 (83 blocks), and a 4-layer pyramid is 9x9, 7x7, 5x5, 3x3 (164 blocks, 1,476 ingots or gems). The beacon sits on top.",
+      "Get 1 nether star from the Wither. Craft 1 beacon with 3 glass across the top row, glass + nether star + glass across the middle row and 3 obsidian across the bottom row.",
+      "Build solid square layers under the beacon: 3 by 3 for 1 level (9 blocks); 5 by 5 and 3 by 3 for 2 (34); 7 by 7, 5 by 5 and 3 by 3 for 3 (83); or 9 by 9, 7 by 7, 5 by 5 and 3 by 3 for 4 (164). The widest layer goes at the bottom.",
       "Use iron, gold, emerald, diamond or netherite blocks, alone or mixed. The block type is purely cosmetic.",
       "Keep the beam clear: it deactivates if it intersects any fully opaque block, except bedrock. Stained glass above the beacon colors the beam.",
-      "Right-click the beacon, place one iron ingot, gold ingot, emerald, diamond or netherite ingot, pick a Primary Power and confirm. Which item you feed does not matter.",
-      "Powers: Resistance and Jump Boost need a 2-layer pyramid, Strength needs 3 layers. On a 4-layer pyramid you can also pick a Secondary Power: Regeneration, or raise the primary power to level II.",
+      "Use the beacon, insert 1 iron ingot, gold ingot, emerald, diamond or netherite ingot, choose the powers and confirm. The item is consumed. Changing powers later requires another payment item.",
+      "Speed and Haste are available with 1 level; Resistance and Jump Boost need 2; Strength needs 3. With 4 levels, choose Regeneration as a secondary power or increase your chosen primary power to level II. Expanding the pyramid alone does not automatically upgrade the power level.",
       "If the pyramid breaks, the chosen power returns when you rebuild it, with no new item needed."
     ],
     "materials": [
@@ -524,12 +524,12 @@
       "164 mineral blocks for a max pyramid (iron recommended)",
       "1 ingot/gem to activate"
     ],
-    "editionNote": "Per the wiki, a beacon beam is visible from any loaded chunk: up to 512 blocks in Java Edition and 2048 blocks in Bedrock Edition. In Bedrock Edition the beam updates every 80 ticks (4 seconds). In Java Edition another beacon above can change the beam color.",
-    "versions": "Per the Minecraft Wiki Beacon page.",
+    "editionNote": "Beam visibility is not the same as effect range. Java and Bedrock both allow mixed mineral blocks in the pyramid. In Bedrock, the beam updates every 80 game ticks (4 seconds).",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How many blocks do you need for a full beacon?",
-        "a": "164 blocks for a 4-layer pyramid, which is 1,476 ingots or gems."
+        "a": "A solid 4-level pyramid uses 164 mineral blocks. If built entirely from iron blocks, that is 1,476 iron ingots, calculated as 164 times 9. This excludes the beacon itself and the item used to select its powers."
       },
       {
         "q": "Do different pyramid materials give better effects?",
