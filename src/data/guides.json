@@ -782,35 +782,35 @@
     "shortTitle": "Archaeology",
     "quickAnswer": "Craft a brush (feather + copper ingot + stick) and use it on suspicious sand (desert temples, wells, warm ocean ruins) or suspicious gravel (trail ruins, cold ocean ruins) - brushing slowly reveals pottery sherds, armor trims, sniffer eggs and loot instead of breaking the block.",
     "steps": [
-      "Craft a brush: 1 feather + 1 copper ingot + 1 stick, in a vertical line.",
-      "Learn the sites: suspicious sand generates in desert temples, desert wells and warm ocean ruins; suspicious gravel in trail ruins and cold ocean ruins (plus trial chambers corridors in 1.21+).",
-      "Spot the suspicious blocks: they look nearly identical to normal sand/gravel - suspicious sand has a slightly rougher texture. Digging or exploding them destroys the loot forever.",
-      "Hold right-click with the brush on a suspicious block. It takes ~5 seconds of continuous brushing; the item slowly rises out of the block.",
-      "Warm ocean ruins: brush suspicious sand for sniffer eggs (about 1 in 15 blocks) - hatch them on moss for sniffers, which dig up torchflower seeds and pitcher pods.",
+      "Craft 1 brush: put 1 feather at the top, 1 copper ingot in the middle and 1 stick at the bottom of one vertical column in a crafting table.",
+      "Learn the sites: suspicious sand generates in desert pyramids, desert wells and warm ocean ruins; suspicious gravel generates in trail ruins and cold ocean ruins. Trial chambers contain decorated pots with some sherd patterns, not a suspicious-gravel excavation site.",
+      "Excavate carefully around suspicious blocks: mining, explosions or a fall can destroy their loot. Keep a supporting block below them and use the brush rather than a shovel on the suspicious block itself.",
+      "Hold the use button with the brush on a suspicious block for 4.8 seconds (96 game ticks). The item emerges and the block becomes normal sand or gravel. Stopping too soon lets the excavation progress fade.",
+      "Warm ocean ruins: brush suspicious sand for a 1 in 15 chance of a sniffer egg per block. Place the egg on a moss block for a 10-minute hatch time; other blocks take 20 minutes.",
       "Trail ruins: brush suspicious gravel for exclusive pottery sherds and 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
       "Cold ocean ruins: suspicious gravel gives sherds and loot; watch for drowned.",
-      "Collect all 20 pottery sherd patterns and assemble decorated pots (4 sherds or bricks in a diamond at the crafting table)."
+      "Collect pottery sherds: there are 23 patterns, including 3 from decorated pots in trial chambers. Craft a decorated pot from any combination of 4 sherds or bricks, arranged in a diamond in a crafting table."
     ],
     "materials": [
-      "Brush (feather + copper ingot + stick)",
-      "Shovel for clearing normal blocks AROUND the suspicious ones",
-      "Water breathing or a door for underwater ruins",
-      "Spare brushes - they wear out"
+      "Brush (1 feather, 1 copper ingot, 1 stick)",
+      "Shovel for normal blocks around the suspicious ones",
+      "Water Breathing for underwater exploration",
+      "Spare brushes"
     ],
-    "editionNote": "Identical in Java and Bedrock: same sites, same brush mechanics. Both editions destroy suspicious block loot if you mine the block instead of brushing. Decorated pot patterns display identically.",
-    "versions": "Archaeology added in 1.20 (Trails & Tales); suspicious gravel in trial chambers added in 1.21. Current as of 26.3.",
+    "editionNote": "Archaeology sites and the 4.8-second brushing time apply in both editions. Brush durability differs: 64 in Java and 65 in Bedrock. Mining a suspicious block destroys its loot in either edition.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How do you get a sniffer egg?",
-        "a": "Brush suspicious sand in warm ocean ruins - roughly 1 in 15 blocks contains an egg. It hatches in about 20 minutes on moss (double time off moss), growing into a sniffer that digs up ancient seeds."
+        "a": "Brush suspicious sand in warm ocean ruins: each block has a 1 in 15 chance of containing a sniffer egg. An egg hatches in 10 minutes on a moss block or 20 minutes on other blocks, including pale moss."
       },
       {
         "q": "What happens if you mine suspicious sand?",
-        "a": "The block and its loot vanish forever - nothing drops. Always brush suspicious blocks, and never let TNT or pistons touch them."
+        "a": "Mining destroys the loot, even with Silk Touch. Brush the block instead, and keep it supported so it does not fall."
       },
       {
         "q": "How many pottery sherds are there?",
-        "a": "20 different sherd patterns (1.20-1.21), each themed to its site: arms up, prize, skull, burn and more. Mix any 4 sherds or bricks into a decorated pot."
+        "a": "There are 23 pottery sherd patterns. Archaeology provides 20; the Flow, Guster and Scrape patterns come from decorated pots in trial chambers. Any combination of 4 sherds or bricks makes a decorated pot."
       }
     ],
     "relatedGuides": [

@@ -645,35 +645,35 @@
     "shortTitle": "Arqueología",
     "quickAnswer": "Craftea un brush (pluma + copper ingot + stick) y úsalo sobre suspicious sand (desert temples, pozos, warm ocean ruins) o suspicious gravel (trail ruins, cold ocean ruins): cepillar despacio revela pottery sherds, armor trims, huevos de sniffer y botín en lugar de romper el bloque.",
     "steps": [
-      "Craftea un brush: 1 pluma + 1 copper ingot + 1 stick, en línea vertical.",
-      "Aprende los sitios: la suspicious sand se genera en desert temples, desert wells y warm ocean ruins; la suspicious gravel en trail ruins y cold ocean ruins (además de los pasillos de las trial chambers en 1.21+).",
-      "Reconoce los bloques sospechosos: parecen casi idénticos a la arena/grava normales; la suspicious sand tiene una textura ligeramente más rugosa. Cavarlos o explotarlos destruye el botín para siempre.",
-      "Mantén clic derecho con el brush sobre un bloque sospechoso. Lleva ~5 segundos de cepillado continuo; el objeto sale lentamente del bloque.",
-      "Warm ocean ruins: cepilla suspicious sand para huevos de sniffer (aproximadamente 1 de cada 15 bloques): incúbalos sobre musgo para conseguir sniffers, que desentierran torchflower seeds y pitcher pods.",
+      "Craftea 1 brush: coloca 1 feather arriba, 1 copper ingot en el centro y 1 stick abajo de una columna vertical en una crafting table.",
+      "Aprende los sitios: la suspicious sand se genera en desert pyramids, desert wells y warm ocean ruins; la suspicious gravel se genera en trail ruins y cold ocean ruins. Las trial chambers contienen decorated pots con algunos patrones de sherds, no una zona de excavación de suspicious gravel.",
+      "Excava con cuidado alrededor de los bloques sospechosos: minarlos, las explosiones o una caída pueden destruir su botín. Mantén un bloque de soporte debajo y usa el brush, no una pala, sobre el bloque sospechoso.",
+      "Mantén el botón de uso con el brush sobre un bloque sospechoso durante 4,8 segundos (96 ticks). El objeto sale y el bloque se convierte en sand o gravel normal. Si paras demasiado pronto, el progreso de excavación empieza a perderse.",
+      "Warm ocean ruins: cepilla suspicious sand para tener 1 probabilidad entre 15 de obtener un sniffer egg por bloque. Coloca el huevo sobre un moss block para que eclosione en 10 minutos; otros bloques tardan 20 minutos.",
       "Trail ruins: cepilla suspicious gravel para pottery sherds exclusivos y 4 armor trims (Host, Raiser, Shaper, Wayfinder).",
       "Cold ocean ruins: la suspicious gravel da sherds y botín; ojo con los drowned.",
-      "Colecciona los 20 patrones de pottery sherds y monta decorated pots (4 sherds o ladrillos en rombo en la mesa de crafteo)."
+      "Colecciona pottery sherds: hay 23 patrones, incluidos 3 de decorated pots en trial chambers. Craftea un decorated pot con cualquier combinación de 4 sherds o bricks, dispuestos en rombo en una crafting table."
     ],
     "materials": [
-      "Brush (pluma + copper ingot + stick)",
-      "Pala para limpiar los bloques normales ALREDEDOR de los sospechosos",
-      "Respiración acuática o una puerta para las ruinas submarinas",
-      "Brushes de repuesto: se desgastan"
+      "Brush (1 feather, 1 copper ingot, 1 stick)",
+      "Pala para los bloques normales alrededor de los sospechosos",
+      "Water Breathing para explorar bajo el agua",
+      "Brushes de repuesto"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: mismos sitios, misma mecánica del brush. Ambas ediciones destruyen el botín del bloque sospechoso si lo minas en lugar de cepillarlo. Los patrones de los decorated pots se muestran igual.",
-    "versions": "Arqueología añadida en la 1.20 (Trails & Tales); suspicious gravel en trial chambers añadida en la 1.21. Vigente en la 26.3.",
+    "editionNote": "Los sitios de arqueología y los 4,8 segundos de cepillado se aplican en ambas ediciones. La durabilidad del brush difiere: 64 en Java y 65 en Bedrock. Minar un bloque sospechoso destruye su botín en ambas ediciones.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se consigue un huevo de sniffer?",
-        "a": "Cepillando suspicious sand en warm ocean ruins: aproximadamente 1 de cada 15 bloques contiene un huevo. Eclosiona en unos 20 minutos sobre musgo (el doble fuera del musgo) y crece hasta ser un sniffer que desentierra semillas antiguas."
+        "a": "Cepilla suspicious sand en warm ocean ruins: cada bloque tiene 1 probabilidad entre 15 de contener un sniffer egg. El huevo eclosiona en 10 minutos sobre un moss block o en 20 minutos sobre otros bloques, incluido pale moss."
       },
       {
         "q": "¿Qué pasa si minas suspicious sand?",
-        "a": "El bloque y su botín desaparecen para siempre: no suelta nada. Cepilla siempre los bloques sospechosos y nunca dejes que TNT o pistones los toquen."
+        "a": "Minarlo destruye el botín, incluso con Silk Touch. Usa el brush y mantén el bloque sujeto para que no caiga."
       },
       {
         "q": "¿Cuántos pottery sherds hay?",
-        "a": "20 patrones distintos de sherd (1.20-1.21), cada uno temático de su sitio: arms up, prize, skull, burn y más. Mezcla 4 sherds o ladrillos cualesquiera en un decorated pot."
+        "a": "Hay 23 patrones de pottery sherds. La arqueología proporciona 20; los patrones Flow, Guster y Scrape se obtienen de decorated pots en trial chambers. Cualquier combinación de 4 sherds o bricks sirve para hacer un decorated pot."
       }
     ],
     "relatedLinks": [
