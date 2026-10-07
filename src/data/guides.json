@@ -166,24 +166,25 @@
     "shortTitle": "Breed Villagers",
     "quickAnswer": "Villagers breed when they are willing and an unclaimed bed with at least 2 empty blocks above it is reachable. A villager becomes willing with 3 bread, 12 carrots, 12 potatoes or 12 beetroots in one inventory slot. Throw food at two villagers and wait.",
     "steps": [
-      "Enclose the area so villagers cannot wander off or be killed. Job sites are not required for breeding.",
+      "Bring 2 adult villagers into a safe enclosed area. Start with at least 3 valid beds: one for each adult and one unclaimed bed for a baby. Job sites are not required for breeding.",
       "Place beds with at least 2 empty blocks above each. Slabs, trapdoors and similar blocks above a bed invalidate it, because mobs treat them as full blocks for pathfinding. Each baby needs a free bed the villager can reach.",
-      "Make them willing: throw bread, carrots, potatoes or beetroots at the villagers. They need 3 bread or 12 of the others in one slot. Villagers with spare food, usually farmers, also throw food to others.",
+      "Give each adult at least 3 bread, 12 carrots, 12 potatoes or 12 beetroots. Throw the food close enough for them to pick it up, then step away so you do not collect it first. Check that both adults receive food rather than one taking it all.",
       "Wait. Two willing villagers nearby breed and a baby appears. Becoming willing uses up the food even if no baby is born.",
       "After breeding, villagers stop being willing for 5 minutes until they gather enough food again.",
       "A baby villager becomes an adult 20 minutes after birth."
     ],
     "materials": [
-      "Beds, with 2 empty blocks above each",
-      "Bread, carrots, potatoes or beetroots",
-      "An enclosed area"
+      "2 adult villagers",
+      "At least 3 valid beds for 2 adults and 1 baby, with 2 empty blocks above each",
+      "At least 6 bread total, or 24 carrots, potatoes or beetroots of one kind, shared between both adults",
+      "A safe enclosed area"
     ],
     "editionNote": "Java: breeding fails if no unclaimed bed can be reached by pathfinding within 48 blocks, and beds must be within village bounds. Bedrock: a periodic census of the village population decides whether mating continues, and the child's appearance depends on the biome where breeding happens.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Why won't my villagers breed?",
-        "a": "The usual causes on the wiki: no unclaimed bed they can pathfind to, a bed with a block (like a slab or trapdoor) less than 2 blocks above, not enough food, or the mobGriefing gamerule set to false, which stops villagers picking up food."
+        "a": "Check for an unclaimed reachable bed, at least 2 empty blocks above the beds, enough food in both adults, and the mobGriefing gamerule. When mobGriefing is false, villagers cannot pick up thrown food. Employed villagers also do not breed during their work schedule, so allow time outside working hours."
       },
       {
         "q": "What food makes villagers willing to breed?",
@@ -195,7 +196,7 @@
       }
     ],
     "relatedGuides": [
-      "how-to-tame-a-horse"
+      "how-to-build-trading-hall"
     ],
     "relatedLinks": [
       {

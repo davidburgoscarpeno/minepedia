@@ -149,24 +149,25 @@
     "shortTitle": "Criar aldeanos",
     "quickAnswer": "Los aldeanos se reproducen cuando están dispuestos y hay una cama libre con al menos 2 bloques vacíos encima al alcance. Un aldeano se vuelve dispuesto con 3 panes, 12 zanahorias, 12 patatas o 12 remolachas en una ranura de su inventario. Lanza comida a dos aldeanos y espera.",
     "steps": [
-      "Cierra la zona para que los aldeanos no se alejen ni mueran. No hacen falta bloques de trabajo para reproducirse.",
+      "Lleva 2 aldeanos adultos a una zona cerrada y segura. Empieza con al menos 3 camas válidas: una para cada adulto y una libre para un bebé. No hacen falta bloques de trabajo para reproducirse.",
       "Coloca camas con al menos 2 bloques vacíos encima de cada una. Losas, trampillas y bloques similares encima invalidan la cama, porque los mobs los tratan como bloques completos al buscar camino. Cada bebé necesita una cama libre a la que el aldeano pueda llegar.",
-      "Hazlos dispuestos: lanza pan, zanahorias, patatas o remolachas a los aldeanos. Necesitan 3 panes o 12 de lo demás en una ranura. Los aldeanos con comida de sobra, normalmente los granjeros, también la lanzan a otros.",
+      "Da a cada adulto al menos 3 panes, 12 zanahorias, 12 patatas o 12 remolachas. Lanza la comida lo bastante cerca para que la recojan y apártate para no recogerla tú primero. Comprueba que ambos reciben comida, en vez de que uno se quede con toda.",
       "Espera. Dos aldeanos dispuestos cerca se reproducen y aparece un bebé. Volverse dispuesto gasta la comida aunque no nazca ningún bebé.",
       "Tras reproducirse, los aldeanos dejan de estar dispuestos durante 5 minutos hasta reunir otra vez suficiente comida.",
       "Un bebé aldeano se hace adulto 20 minutos después de nacer."
     ],
     "materials": [
-      "Camas, con 2 bloques vacíos encima de cada una",
-      "Pan, zanahorias, patatas o remolachas",
-      "Una zona cerrada"
+      "2 aldeanos adultos",
+      "Al menos 3 camas válidas para 2 adultos y 1 bebé, con 2 bloques vacíos encima de cada una",
+      "Al menos 6 panes en total, o 24 zanahorias, patatas o remolachas de un mismo tipo, repartidos entre ambos adultos",
+      "Una zona cerrada y segura"
     ],
     "editionNote": "Java: la reproducción falla si no hay una cama libre accesible por pathfinding en 48 bloques, y las camas deben estar dentro de los límites de la aldea. Bedrock: un censo periódico de la población de la aldea decide si continúa el apareamiento, y la apariencia del hijo depende del bioma donde ocurre la reproducción.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué no se reproducen mis aldeanos?",
-        "a": "Las causas habituales según la wiki: no hay cama libre a la que lleguen, una cama con un bloque (como una losa o trampilla) a menos de 2 bloques encima, falta de comida, o la regla mobGriefing en false, que impide que recojan comida."
+        "a": "Comprueba que hay una cama libre accesible, al menos 2 bloques vacíos sobre las camas y comida suficiente en ambos adultos. Revisa también la regla mobGriefing: si está en false, no pueden recoger la comida lanzada. Los aldeanos con trabajo tampoco crían durante su horario laboral, así que dales tiempo fuera de él."
       },
       {
         "q": "¿Qué comida hace que los aldeanos quieran reproducirse?",
@@ -187,7 +188,10 @@
         "label": "Receta de la cama"
       }
     ],
-    "keywords": "cómo reproducir aldeanos camas comida dispuestos pan zanahorias patatas remolachas"
+    "keywords": "cómo reproducir aldeanos camas comida dispuestos pan zanahorias patatas remolachas",
+    "relatedGuides": [
+      "how-to-build-trading-hall"
+    ]
   },
   "how-to-get-elytra": {
     "name": "Cómo conseguir elytra en Minecraft",
