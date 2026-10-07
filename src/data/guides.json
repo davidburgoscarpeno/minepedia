@@ -3551,16 +3551,16 @@
       "Chestplate (8 diamonds): fill every slot except the top-center.",
       "Leggings (7 diamonds): fill the top row, then both outer columns of the middle and bottom rows.",
       "Boots (4 diamonds): fill the middle-left and middle-right, and bottom-left and bottom-right slots.",
-      "Check the stats: full diamond gives 20 armor points and 8 toughness. Per piece - helmet 3 armor / 363 durability, chestplate 8 / 528, leggings 6 / 495, boots 3 / 429.",
+      "Check the stats: full diamond gives 20 armor points and 8 armor toughness. Per piece (Java durability) - helmet 3 armor / 363, chestplate 8 / 528, leggings 6 / 495, boots 3 / 429. Each piece has 2 toughness.",
       "Enchant it: Protection IV on every piece is the classic setup; add Mending and Unbreaking III on an anvil so the set lasts forever.",
-      "Upgrade to netherite: smithing table + netherite upgrade template + 1 netherite ingot per piece keeps every enchantment and adds toughness and knockback resistance.",
+      "Upgrade to netherite: smithing table + netherite upgrade template + 1 netherite ingot per piece keeps every enchantment and raises armor toughness from 2 to 3 per piece, plus 1 knockback resistance.",
       "No diamonds? Armorer villagers sell diamond armor pieces for emeralds at expert and master level, and end city chests can hold enchanted diamond armor."
     ],
     "materials": [
       "24 diamonds (full set): helmet 5, chestplate 8, leggings 7, boots 4"
     ],
-    "editionNote": "The recipes and stats are identical in Java and Bedrock. Diamond armor has enchantability 10, same as iron, so enchanting odds are the same on both editions.",
-    "versions": "Diamond armor was added to Java in Indev on February 12, 2010, together with golden armor. Pocket Edition got the full armor system in alpha v0.6.0.",
+    "editionNote": "Recipes and armor points are the same in Java and Bedrock. Durability is one point higher in Bedrock on every piece (for example the chestplate has 528 in Java and 529 in Bedrock). Diamond armor has enchantability 10, against 9 for iron.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How many diamonds do you need for a full set of diamond armor?",
@@ -3572,11 +3572,11 @@
       },
       {
         "q": "Is diamond armor better than iron armor?",
-        "a": "Yes: diamond gives 20 armor points and 8 toughness versus iron's 15 armor points and no toughness, and it lasts far longer - the chestplate alone has 528 durability against iron's 240."
+        "a": "Yes: diamond gives 20 armor points and 8 armor toughness versus iron's 15 armor points and no toughness, and it lasts longer - the chestplate has 528 durability in Java against iron's 240."
       },
       {
         "q": "Can villagers sell diamond armor?",
-        "a": "Yes. Expert and master armorers sell enchanted diamond pieces for emeralds, which makes a trading hall a real alternative to mining 24 diamonds."
+        "a": "Yes. Armorers sell enchanted diamond armor for emeralds: boots and leggings at Expert level, helmet and chestplate at Master level. That makes a trading hall a real alternative to mining 24 diamonds."
       }
     ],
     "relatedGuides": [

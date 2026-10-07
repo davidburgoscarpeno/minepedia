@@ -3166,16 +3166,16 @@
       "Chestplate (8 diamonds): rellena todas las casillas menos la superior central.",
       "Leggings (7 diamonds): rellena la fila superior y las dos columnas exteriores de las filas central e inferior.",
       "Boots (4 diamonds): rellena las casillas central izquierda, central derecha, inferior izquierda e inferior derecha.",
-      "Revisa las estadísticas: el set completo da 20 puntos de armadura y 8 de dureza. Por pieza: helmet 3 de armadura / 363 de durabilidad, chestplate 8 / 528, leggings 6 / 495, boots 3 / 429.",
+      "Revisa las stats: el set diamond completo da 20 puntos de armadura y 8 de armor toughness. Por pieza (durabilidad en Java): helmet 3 de armadura / 363, chestplate 8 / 528, leggings 6 / 495, boots 3 / 429. Cada pieza tiene 2 de toughness.",
       "Encántala: Protection IV en cada pieza es el setup clásico; añade Mending y Unbreaking III con un anvil para que el set dure para siempre.",
-      "Mejórala a netherite: smithing table + netherite upgrade template + 1 netherite ingot por pieza conserva todos los encantamientos y suma dureza y resistencia al empuje.",
+      "Mejora a netherite: smithing table + netherite upgrade template + 1 netherite ingot por pieza conserva cada encantamiento y sube el armor toughness de 2 a 3 por pieza, además de 1 de resistencia al knockback.",
       "¿Sin diamonds? Los aldeanos armorer venden piezas de diamond armor por emeralds en nivel expert y master, y los cofres de las end cities pueden contener piezas encantadas."
     ],
     "materials": [
       "24 diamonds (set completo): helmet 5, chestplate 8, leggings 7, boots 4"
     ],
-    "editionNote": "Las recetas y estadísticas son idénticas en Java y Bedrock. La diamond armor tiene encantabilidad 10, igual que la de iron, así que las probabilidades al encantar son las mismas en ambas ediciones.",
-    "versions": "La diamond armor se añadió a Java en Indev el 12 de febrero de 2010, junto con la golden armor. Pocket Edition recibió el sistema de armaduras completo en la alpha v0.6.0.",
+    "editionNote": "Las recetas y los puntos de armadura son iguales en Java y Bedrock. La durabilidad es un punto mayor en Bedrock en cada pieza (por ejemplo, el chestplate tiene 528 en Java y 529 en Bedrock). La diamond armor tiene enchantability 10, frente a 9 de la de iron.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuántos diamonds hacen falta para un set completo de diamond armor?",
@@ -3187,11 +3187,11 @@
       },
       {
         "q": "¿Es mejor la diamond armor que la iron armor?",
-        "a": "Sí: la de diamond da 20 puntos de armadura y 8 de dureza frente a los 15 puntos sin dureza de la de iron, y dura mucho más: solo la chestplate tiene 528 de durabilidad frente a 240."
+        "a": "Sí: diamond da 20 puntos de armadura y 8 de armor toughness frente a los 15 puntos y sin toughness de iron, y dura más: el chestplate tiene 528 de durabilidad en Java frente a los 240 de iron."
       },
       {
         "q": "¿Pueden los aldeanos vender diamond armor?",
-        "a": "Sí. Los armorers de nivel expert y master venden piezas de diamond encantadas por emeralds, así que un trading hall es una alternativa real a minar 24 diamonds."
+        "a": "Sí. Los armorers venden diamond armor encantada por emeralds: boots y leggings en nivel Expert, helmet y chestplate en nivel Master. Una trading hall es una alternativa real a minar 24 diamonds."
       }
     ],
     "relatedGuides": [
