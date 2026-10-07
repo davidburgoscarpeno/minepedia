@@ -1041,10 +1041,10 @@
     "steps": [
       "Consigue un breeze rod: los breezes están en trial chambers (mira la guía de trial chambers).",
       "Consigue un heavy core: solo cae de ominous vaults, con un 7,5% de probabilidad. Los ominous vaults requieren ominous trial keys de ominous trial spawners.",
-      "Fabrica la mace: heavy core más breeze rod en la mesa de crafteo.",
+      "Fabrica 1 mace con 1 heavy core directamente encima de 1 breeze rod, en la misma columna. Deja vacías las demás casillas. Esta receta vertical de dos casillas cabe en la cuadrícula del inventario o en una mesa de crafteo.",
       "Smash attack: cae 1,5 bloques o más y golpea a una entidad sin estar en el suelo. El daño extra es 4 por bloque en los primeros 3 bloques caídos, 2 por bloque en los siguientes 5 y 1 por bloque después. Los smash attacks suelen ser golpes críticos.",
-      "Un smash attack exitoso te deja aterrizar sin el daño por caída acumulado y empuja a todo lo que esté a menos de 2,5 bloques (a ti no). No funciona con el efecto Slow Falling.",
-      "Un ataque normal en el suelo hace 6 de daño y cada ataque gasta 1 de durabilidad (500 en Java, 501 en Bedrock).",
+      "Un smash attack exitoso reinicia la distancia de caída acumulada antes del golpe. Si sigues cayendo después, el daño por caída empieza a acumularse otra vez. Un smash puede empujar a entidades cercanas, pero no funciona con Slow Falling. Wind Burst puede lanzarte tras un smash exitoso.",
+      "Un ataque normal completamente cargado hace 6 de daño. Los ataques cuerpo a cuerpo normales y los smash gastan 1 de durabilidad; la mace tiene 500 en Java y 501 en Bedrock. En Java, golpear un bote o vagoneta lo destruye sin gastar durabilidad.",
       "Encantamientos: Density suma 0,5 de daño por nivel por cada bloque caído. Breach y Wind Burst también funcionan en la mace; Wind Burst puede lanzarte tras un smash."
     ],
     "materials": [
@@ -1052,7 +1052,7 @@
       "1 breeze rod (breezes de las trial chambers)",
       "Equipo y llaves para las trial chambers"
     ],
-    "editionNote": "Java: velocidad de ataque 0,6, la más lenta del juego, y un golpe de mace a un bote o vagoneta lo destruye. Bedrock: sin enfriamiento de ataque, así que una mace con Breach IV tiene el mayor daño por golpe y el mayor DPS contra armadura de diamante o netherite. En Java hay que quitarse las elytra para hacer un smash attack; en Bedrock funciona incluso durante el vuelo con elytra.",
+    "editionNote": "Java tiene una velocidad de ataque de 0,6. No se activa un smash mientras vuelas con elytra; deja de planear antes del golpe. En Bedrock no hay cooldown de ataque y un smash puede activarse durante el vuelo con elytra.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
@@ -1061,15 +1061,15 @@
       },
       {
         "q": "¿Cómo funciona el smash attack?",
-        "a": "Golpea tras caer 1,5 bloques o más y sin estar en el suelo (y sin Slow Falling). El daño extra crece con la distancia caída, aterrizas sin daño por caída y las entidades a menos de 2,5 bloques salen empujadas."
+        "a": "Golpea tras caer al menos 1,5 bloques, antes de tocar el suelo y sin Slow Falling. El daño extra crece con la distancia caída. Un smash exitoso reinicia la distancia de caída acumulada antes del golpe, pero una caída posterior todavía puede causar daño."
       },
       {
         "q": "¿Cuánto ayuda Density?",
-        "a": "Cada nivel suma 0,5 de daño por cada bloque caído. La wiki compara matar a un jugador con armadura de netherite Protection IV completa: una mace sin encantar necesita un crítico tras caer 30 bloques, con Density V basta con 10."
+        "a": "Density añade 0,5 de daño por nivel por cada bloque caído. Con Density V son 2,5 de daño extra por bloque, calculado como 5 por 0,5. Mejora los smash attacks, no los ataques normales desde el suelo."
       },
       {
         "q": "¿Cuántas veces puedo usar una mace?",
-        "a": "Tiene 500 de durabilidad en Java y 501 en Bedrock, y cada ataque gasta 1."
+        "a": "Tiene 500 de durabilidad en Java y 501 en Bedrock. Los ataques cuerpo a cuerpo normales y los smash gastan 1 de durabilidad. Los golpes que destruyen botes o vagonetas en Java no gastan durabilidad."
       }
     ],
     "relatedLinks": [

@@ -1262,10 +1262,10 @@
     "steps": [
       "Get a breeze rod: breezes are found in trial chambers (see the trial chambers guide).",
       "Get a heavy core: it only drops from ominous vaults, with a 7.5% chance. Ominous vaults need ominous trial keys from ominous trial spawners.",
-      "Craft the mace: heavy core plus breeze rod in the crafting grid.",
+      "Craft 1 mace with 1 heavy core directly above 1 breeze rod in the same column. Leave all other slots empty. This vertical two-slot recipe fits in the inventory crafting grid or a crafting table.",
       "Smash attack: fall 1.5 blocks or more and hit an entity while not on the ground. Extra damage is 4 per block for the first 3 blocks fallen, 2 per block for the next 5, and 1 per block after that. Smash attacks are usually critical hits.",
-      "A successful smash attack lets you land without the fall damage you built up, and knocks back everything within 2.5 blocks (not you). It does not work while you have Slow Falling.",
-      "A normal attack on the ground deals 6 damage, and every attack costs 1 durability (500 in Java, 501 in Bedrock).",
+      "A successful smash attack resets the fall distance accumulated before the hit. If you keep falling afterward, fall damage starts accumulating again. A smash can knock nearby entities back, but it does not work with Slow Falling. Wind Burst can launch you after a successful smash.",
+      "A fully charged normal attack deals 6 damage. Standard melee and smash attacks use 1 durability; the mace has 500 durability in Java and 501 in Bedrock. In Java, hitting a boat or minecart destroys it without using durability.",
       "Enchantments: Density adds 0.5 damage per level for each block fallen. Breach and Wind Burst also work on the mace; Wind Burst can launch you after a smash."
     ],
     "materials": [
@@ -1273,7 +1273,7 @@
       "1 breeze rod (breezes in trial chambers)",
       "Gear and keys for trial chambers"
     ],
-    "editionNote": "Java: attack speed is 0.6, the slowest in the game, and a mace hit on a boat or minecart destroys it. Bedrock: no attack cooldown, so a Breach IV mace has the highest damage per hit and the highest DPS against diamond or netherite armor. In Java, elytra must be unequipped for a smash attack; in Bedrock a smash works even during elytra flight.",
+    "editionNote": "Java has an attack speed of 0.6. A smash cannot activate while you are in elytra flight; stop gliding before the hit. In Bedrock, there is no attack cooldown and a smash can activate during elytra flight.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
@@ -1282,15 +1282,15 @@
       },
       {
         "q": "How does the smash attack work?",
-        "a": "Hit while falling 1.5 blocks or more and not on the ground (and without Slow Falling). Extra damage grows with the distance fallen, the attack lands without fall damage, and entities within 2.5 blocks are knocked back."
+        "a": "Hit while falling at least 1.5 blocks, before touching the ground and without Slow Falling. Extra damage grows with the distance fallen. A successful smash resets the fall distance accumulated before the hit, but further falling can still cause damage."
       },
       {
         "q": "How much does Density help?",
-        "a": "Each level adds 0.5 damage for each block fallen. The wiki compares kills on a player in full Protection IV netherite armor: an unenchanted mace needs a critical hit after falling 30 blocks, Density V needs 10."
+        "a": "Density adds 0.5 damage per level for each block fallen. At Density V, that is 2.5 extra damage per block, calculated as 5 times 0.5. It boosts smash attacks rather than normal ground attacks."
       },
       {
         "q": "How many times can I use a mace?",
-        "a": "It has 500 durability in Java and 501 in Bedrock, and every attack uses 1."
+        "a": "It has 500 durability in Java and 501 in Bedrock. Standard melee and smash attacks use 1 durability. Java hits that destroy boats or minecarts do not use durability."
       }
     ],
     "relatedGuides": [
