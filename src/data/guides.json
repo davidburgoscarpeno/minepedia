@@ -629,41 +629,34 @@
     "slug": "how-to-build-trading-hall",
     "name": "How to Build a Villager Trading Hall",
     "shortTitle": "Trading Hall",
-    "quickAnswer": "Cure zombie villagers (splash Weakness + golden apple) for 1-emerald trades, assign each villager a profession with a workstation (lectern = librarian), and lock in their trades by trading once - then line them up in cells with their workstations. Cured librarians sell any enchanted book, including Mending, for 1 emerald.",
+    "quickAnswer": "Give each adult unemployed villager a job site block, check its offers before trading, and trade once to lock its profession and offers. Keep access to the claimed workstation for restocking. Curing can reduce prices, but does not guarantee 1-emerald trades, and repeated cures do not add discounts.",
     "steps": [
-      "Start with a villager breeder. A hall needs a steady supply of fresh villagers, and kidnapping them from villages one by one gets old fast. Build the breeder first, next to the hall site.",
-      "Gather supplies: brewing stand, fermented spider eyes (sugar + brown mushroom + spider eye), splash Weakness potions, golden apples (8 gold ingots + apple each), boats or minecarts for transport, beds and workstations.",
-      "Find zombie villagers at night (5% of zombies) or in an igloo basement, or let a zombie convert your own villager on purpose (100% conversion on Hard difficulty, 50% on Normal, 0% on Easy).",
-      "Cure them: throw the splash Potion of Weakness at the zombie villager, right-click it with a golden apple, and wait 3-5 minutes (Java) as it shakes and converts.",
-      "Plan the three parts. Input: a rail or water channel that delivers new villagers into empty cells and closes behind them. Storage: one cell per villager with its job site block in reach. Output: a disposal route for rejects.",
-      "Build the cells. One-block-wide cells with a work station at the back and a slab or trapdoor at the front keep villagers in place and let you reach the trade button. Tile them in rows with a walkway in front.",
-      "Transport each cured villager to its cell (1-wide space with its workstation in front). Boats on land, minecarts on rails, or nether portals for long hauls.",
-      "Assign professions with the workstation: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
-      "For librarians: check the first trade BEFORE trading. If the book is wrong (not Mending etc.), break and replace the lectern to reroll - trades lock permanently after your first trade with that villager.",
-      "Trade once to lock, then name-tag villagers you want to keep. Light everything, wall it in, and add beds + a bell if you want them to survive raids.",
-      "Optional (Java): zombify and re-cure villagers to stack discounts - after 1-2 cure cycles, most trades cost 1 emerald.",
-      "Discard without reputation damage. Never kill villagers by hand: it drops your reputation, raises prices and can turn iron golems hostile. Route rejects with water or rails to lava or fire, which does not credit you with the kill - or better, recycle them into an iron farm or crop farm."
+      "Choose a secure site and bring adult unemployed villagers. A breeder is optional; protect the hall from zombies and leave room to expand.",
+      "Build separate trading spaces with a walkway for the player. Each villager must be able to work at its claimed job site block. Test the first cell before repeating the design.",
+      "Assign professions: lectern for librarian, composter for farmer, blast furnace for armorer, smithing table for toolsmith, grindstone for weaponsmith, fletching table for fletcher, cartography table for cartographer or stonecutter for mason.",
+      "Check offers before trading. For an untraded novice, remove and replace its claimed job site block to change the offers. Nitwits and baby villagers cannot take jobs.",
+      "Trade once when you want to keep the offers. That villager keeps its profession and offers even if you remove the workstation later, but needs its workstation to restock.",
+      "Check restocking: villagers can replenish trades up to twice per day while working. In Bedrock, keep the villagers linked to beds as well; they do not need to sleep to restock.",
+      "Optional curing supplies: a splash Potion of Weakness and 1 golden apple. Craft 1 golden apple with 1 apple in the center of a crafting table and 8 gold ingots in the surrounding slots. A fermented spider eye uses 1 spider eye, 1 brown mushroom and 1 sugar in any arrangement.",
+      "If converting your own villager, check difficulty first: death from a zombie converts it on Hard (100%) or sometimes on Normal (50%); on Easy it dies instead. Keep the zombie isolated from the rest of the hall.",
+      "Cure a zombie villager by giving it Weakness, then using a golden apple on it. Protect it from sunlight and other threats while it converts. Keep the curing setup separate from other villagers.",
+      "Do not repeat zombification to stack discounts. Current curing gives no extra discount for curing the same villager again, and prices can still vary with demand and reputation.",
+      "Keep the hall lit and enclosed. Move unwanted traders elsewhere rather than building a killing route; attacking villagers harms your reputation."
     ],
     "materials": [
-      "Brewing stand + blaze powder",
-      "Splash Potions of Weakness",
-      "Golden apples",
-      "Workstations (lecterns, composters...)",
-      "Boats/minecarts + rails",
-      "Name tags",
-      "Building blocks, torches, fences",
-      "Villager breeder next door (beds + food + 2 starter villagers)",
-      "Job site blocks: lecterns, blast furnaces, composters...",
-      "Rails and minecarts or water channels for transport",
-      "Building blocks, slabs, lighting and a roof",
-      "Lava or fire for the disposal system"
+      "Adult unemployed villagers",
+      "Job site blocks for the professions you want",
+      "Building blocks, lighting and barriers",
+      "Boats or minecarts for transport",
+      "Beds for Bedrock restocking",
+      "Optional: splash Potions of Weakness and golden apples"
     ],
-    "editionNote": "Java: discounts from curing stack with multiple cures (up to 5x), and villagers need no bed - just a workstation. Bedrock: curing discounts apply once, villagers need beds to keep professions, and workstations must be reachable. Igloo basements always contain one zombie villager with a brewing setup nearby.",
-    "versions": "Curing mechanics stable since 1.14 (Village & Pillage). The 1.20.2 experimental librarian rebalance (biome-locked books) is optional and off by default - normal worlds keep the classic lectern reroll. Current as of 26.3.",
+    "editionNote": "Villagers need access to their claimed job site blocks to restock in both editions. Bedrock also requires a bed link, not sleep; Java does not require beds for trading and restocking. Repeated cures do not add discounts in current releases.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How do you get Mending from villagers?",
-        "a": "Cure a zombie villager, give it a lectern, and check its first book trade. Break and replace the lectern to reroll until Mending appears (any price), then trade once to lock it. Cured librarians sell Mending for 1 emerald."
+        "a": "Check librarian book offers before trading. In standard trading, you can reroll an untraded librarian by removing and replacing its lectern until it offers Mending, then trade once to keep the offers. Curing does not guarantee a 1-emerald price. Experimental trade-rebalance worlds use different book rules."
       },
       {
         "q": "Why won't my villager take a profession?",
@@ -671,7 +664,7 @@
       },
       {
         "q": "Do villagers need beds to trade?",
-        "a": "In Java, no - only a workstation and access to it. In Bedrock they need to be linked to a bed to keep their profession over time. Beds are also required for breeding and iron farms."
+        "a": "Java villagers do not need beds to trade or restock. In Bedrock, villagers need a bed link to restock, though they do not need to sleep. Both editions require access to the claimed workstation for restocking."
       },
       {
         "q": "How do I reroll a villager's trades?",
@@ -683,7 +676,7 @@
       },
       {
         "q": "Is killing bad traders bad for me?",
-        "a": "Yes if you do it by hand: player kills hurt your village reputation, which raises prices and eventually turns iron golems hostile. Lava, fire or fall damage do not count against you - or skip killing entirely and move rejects to an iron farm."
+        "a": "Attacking or killing villagers harms your reputation. Move traders you do not want to another safe area instead. Do not assume a low price will stay fixed: demand and reputation affect prices."
       }
     ],
     "relatedGuides": [

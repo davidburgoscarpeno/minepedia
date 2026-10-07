@@ -509,41 +509,34 @@
   "how-to-build-trading-hall": {
     "name": "Cómo construir un trading hall de aldeanos",
     "shortTitle": "Trading hall",
-    "quickAnswer": "Cura aldeanos zombi (poción splash de Weakness + manzana dorada) para tradeos de 1 esmeralda, asigna a cada aldeano una profesión con un puesto de trabajo (lectern = librarian) y fija sus tradeos comerciando una vez; luego alinéalos en celdas con sus puestos. Los librarians curados venden cualquier libro encantado, incluido Mending, por 1 esmeralda.",
+    "quickAnswer": "Da a cada villager adulto sin empleo un job site block, revisa sus ofertas antes de comerciar y comercia una vez para fijar profesión y ofertas. Mantén el acceso al puesto reclamado para reabastecer. Curar puede bajar precios, pero no garantiza trades de 1 esmeralda, y las curas repetidas no añaden descuentos.",
     "steps": [
-      "Empieza con un villager breeder. Una hall necesita suministro constante de villagers nuevos, y secuestrarlos de villages uno a uno cansa rápido. Construye primero el breeder, junto al sitio de la hall.",
-      "Reúne materiales: brewing stand, fermented spider eyes (azúcar + champiñón marrón + ojo de araña), pociones splash de Weakness, manzanas doradas (8 gold ingots + manzana cada una), barcas o minecarts para el transporte, camas y puestos de trabajo.",
-      "Encuentra aldeanos zombi por la noche (5% de los zombis) o en el sótano de un iglú, o deja que un zombi convierta a tu propio aldeano a propósito (100% de conversión en Difícil, 50% en Normal, 0% en Fácil).",
-      "Cúralos: lanza la poción splash de Weakness al aldeano zombi, haz clic derecho con una manzana dorada y espera 3-5 minutos (Java) mientras tiembla y se convierte.",
-      "Planifica las tres partes. Entrada: una vía o canal de agua que entrega villagers nuevos a celdas vacías y se cierra detrás. Almacenamiento: una celda por villager con su job site block al alcance. Salida: una ruta de descarte para los rechazados.",
-      "Construye las celdas. Celdas de un bloque de ancho con la work station al fondo y una slab o trapdoor delante mantienen a los villagers en su sitio y te dejan pulsar el botón de trade. Enlóscalas en filas con un pasillo delante.",
-      "Transporta cada aldeano curado a su celda (hueco de 1 de ancho con su puesto de trabajo delante). Barcas en tierra, minecarts sobre raíles, o portales al Nether para largas distancias.",
-      "Asigna profesiones con el puesto de trabajo: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, fletching table = fletcher, cartography table = cartographer, stonecutter = mason.",
-      "Para librarians: revisa el primer tradeo ANTES de comerciar. Si el libro no es el que quieres (Mending etc.), rompe y recoloca el lectern para rebarajar: los tradeos se fijan para siempre tras tu primer comercio con ese aldeano.",
-      "Comercia una vez para fijar, y pon name tags a los aldeanos que quieras conservar. Ilumínalo todo, rodéalo de muros y añade camas + una campana si quieres que sobrevivan a las raids.",
-      "Opcional (Java): zombifica y vuelve a curar aldeanos para apilar descuentos: tras 1-2 ciclos de cura, casi todos los tradeos cuestan 1 esmeralda.",
-      "Descarta sin dañar tu reputación. Nunca mates villagers a mano: baja tu reputación, sube los precios y puede volver hostiles a los iron golems. Encamina los rechazados con agua o vías a lava o fuego, que no te atribuye la muerte - o mejor, recíclalos en una iron farm o granja de cultivos."
+      "Elige un sitio protegido y lleva villagers adultos sin empleo. Un breeder es opcional; protege la hall de los zombies y deja espacio para ampliarla.",
+      "Construye espacios de comercio separados con un pasillo para el jugador. Cada villager debe poder trabajar en su job site block reclamado. Prueba la primera celda antes de repetir el diseño.",
+      "Asigna profesiones: lectern para librarian, composter para farmer, blast furnace para armorer, smithing table para toolsmith, grindstone para weaponsmith, fletching table para fletcher, cartography table para cartographer o stonecutter para mason.",
+      "Revisa las ofertas antes de comerciar. Para un novice con el que no hayas comerciado, retira y recoloca su job site block reclamado para cambiar las ofertas. Los nitwits y los baby villagers no pueden coger trabajo.",
+      "Comercia una vez cuando quieras conservar las ofertas. Ese villager mantiene profesión y ofertas aunque retires el puesto después, pero necesita su puesto para reabastecer.",
+      "Comprueba el reabastecimiento: los villagers pueden reponer trades hasta dos veces al día mientras trabajan. En Bedrock, mantenlos también vinculados a camas; no necesitan dormir para reabastecer.",
+      "Materiales opcionales para curar: una splash Potion of Weakness y 1 golden apple. Craftea 1 golden apple con 1 apple en el centro de una crafting table y 8 gold ingots en las casillas alrededor. Un fermented spider eye usa 1 spider eye, 1 brown mushroom y 1 sugar en cualquier disposición.",
+      "Si conviertes a tu propio villager, revisa primero la dificultad: morir por un zombie lo convierte en Difícil (100%) o a veces en Normal (50%); en Fácil muere sin convertirse. Mantén al zombie aislado del resto de la hall.",
+      "Cura un zombie villager dándole Weakness y usando después una golden apple sobre él. Protégelo del sol y otros peligros mientras se convierte. Mantén la zona de curación separada de los demás villagers.",
+      "No repitas la zombificación para acumular descuentos. Curar otra vez al mismo villager no da descuentos adicionales en las versiones actuales, y los precios pueden variar con la demanda y la reputación.",
+      "Mantén la hall iluminada y cerrada. Traslada los traders que no quieras en lugar de construir una ruta para matarlos; atacar villagers perjudica tu reputación."
     ],
     "materials": [
-      "Brewing stand + blaze powder",
-      "Pociones splash de Weakness",
-      "Manzanas doradas",
-      "Puestos de trabajo (lecterns, composters...)",
-      "Barcas/minecarts + raíles",
-      "Name tags",
-      "Bloques de construcción, antorchas, vallas",
-      "Villager breeder al lado (beds + comida + 2 villagers iniciales)",
-      "Job site blocks: lecterns, blast furnaces, composters...",
-      "Rails y minecarts o canales de agua para el transporte",
-      "Bloques de construcción, slabs, iluminación y techo",
-      "Lava o fuego para el sistema de descarte"
+      "Villagers adultos sin empleo",
+      "Job site blocks para las profesiones que quieras",
+      "Bloques de construcción, iluminación y barreras",
+      "Barcas o minecarts para el transporte",
+      "Camas para reabastecer en Bedrock",
+      "Opcional: splash Potions of Weakness y golden apples"
     ],
-    "editionNote": "Java: los descuentos de curar se apilan con varias curas (hasta 5x), y los aldeanos no necesitan cama, solo un puesto de trabajo. Bedrock: los descuentos de cura se aplican una vez, los aldeanos necesitan camas para mantener la profesión y los puestos deben estar a su alcance. Los sótanos de iglú siempre contienen un aldeano zombi con equipo de alquimia cerca.",
-    "versions": "Mecánica de curas estable desde la 1.14 (Village & Pillage). El rebalanceo experimental de librarians de la 1.20.2 (libros bloqueados por bioma) es opcional y viene desactivado: los mundos normales conservan el rebarajado clásico de lectern. Vigente en la 26.3.",
+    "editionNote": "Los villagers necesitan acceso a sus job site blocks reclamados para reabastecer en ambas ediciones. Bedrock también exige vinculación a una cama, no dormir; Java no necesita camas para comerciar y reabastecer. Las curas repetidas no añaden descuentos en las versiones actuales.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se consigue Mending de los aldeanos?",
-        "a": "Cura un aldeano zombi, dale un lectern y revisa su primer tradeo de libro. Rompe y recoloca el lectern para rebarajar hasta que aparezca Mending (a cualquier precio), y comercia una vez para fijarlo. Los librarians curados venden Mending por 1 esmeralda."
+        "a": "Revisa las ofertas de libros del librarian antes de comerciar. En el comercio estándar, puedes cambiar las ofertas de un librarian sin trades retirando y recolocando su lectern hasta que ofrezca Mending; comercia una vez para conservarlas. Curar no garantiza un precio de 1 esmeralda. Los mundos con rebalanceo experimental usan otras reglas de libros."
       },
       {
         "q": "¿Por qué mi aldeano no coge profesión?",
@@ -551,7 +544,7 @@
       },
       {
         "q": "¿Necesitan camas los aldeanos para comerciar?",
-        "a": "En Java, no: solo un puesto de trabajo y acceso a él. En Bedrock necesitan estar vinculados a una cama para mantener la profesión con el tiempo. Las camas también son necesarias para criar y para las granjas de hierro."
+        "a": "Los villagers de Java no necesitan camas para comerciar ni reabastecer. En Bedrock necesitan estar vinculados a una cama para reabastecer, pero no necesitan dormir. Ambas ediciones requieren acceso al puesto reclamado para reabastecer."
       },
       {
         "q": "¿Cómo rehago los trades de un villager?",
@@ -563,7 +556,7 @@
       },
       {
         "q": "¿Es malo matar a los malos traders?",
-        "a": "Sí si lo haces a mano: las muertes por jugador dañan tu reputación en la village, lo que sube precios y acaba volviendo hostiles a los iron golems. La lava, el fuego o el daño por caída no cuentan contra ti - o no mates y mueve los rechazados a una iron farm."
+        "a": "Atacar o matar villagers perjudica tu reputación. Traslada los traders que no quieras a otro sitio seguro. No asumas que un precio bajo será fijo: la demanda y la reputación afectan a los precios."
       }
     ],
     "relatedLinks": [
