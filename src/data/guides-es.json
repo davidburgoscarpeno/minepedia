@@ -3324,39 +3324,39 @@
   "how-to-find-village": {
     "name": "Cómo encontrar una aldea en Minecraft",
     "shortTitle": "Encontrar una aldea",
-    "quickAnswer": "Las aldeas se generan en los biomas plains, meadow, desert, savanna, taiga y snowy plains. Camina o cabalga en una dirección escaneando el horizonte, compra un explorer map a un cartographer, o usa /locate structure: las aldeas son mucho más comunes que cualquier otra estructura.",
+    "quickAnswer": "Los villages se generan en los biomas plains, meadow, desert, savanna, taiga y snowy plains. Camina o cabalga en una dirección escaneando el horizonte, compra un explorer map a un cartographer, o usa /locate si tienes cheats.",
     "steps": [
-      "Sabe dónde aparecen: las aldeas solo se generan en plains, desert, savanna, taiga y snowy plains (además de snowy taiga en Bedrock). Nunca encontrarás una en bosques, junglas, océanos o montañas.",
-      "Revisa el spawn: los mundos se generan con una clara tendencia a tener un bioma de plains o similar cerca del spawn; si empiezas en un bosque, sal de él y escanea primero los biomas llanos.",
+      "Sabe dónde se generan: los villages se generan en los biomas plains, meadow, desert, savanna, taiga y snowy plains. Bedrock Edition añade snowy taiga y sunflower plains. No se generan en forests, jungles ni océanos.",
+      "Revisa el spawn: los villages son bastante comunes cerca del spawn. Hay cerca de 1 posibilidad entre 2 de que haya al menos uno a menos de 500 bloques del spawn del mundo en Java y cerca de 2 entre 3 en Bedrock. Si empiezas en un forest, sal de él y escanea primero los biomas planos.",
       "Viaja con cabeza: elige una dirección y no te desvíes. Una boat por la costa, un horse por las llanuras o una elytra más adelante: todo mejor que dar vueltas en círculo.",
       "Sube y escanea: al amanecer o al atardecer, sube a la colina más alta y busca la cuadrícula ordenada de casas, ventanas iluminadas y caminos: las aldeas se ven fácil desde lo alto.",
       "Usa un cartographer: cualquier aldeano cartographer vende explorer maps que llevan a una aldea de un tipo concreto (plains, desert, savanna, taiga o snowy), según el bioma donde apareció.",
-      "Usa comandos si los cheats están activos: /locate structure minecraft:village_plains (o village_desert, village_savanna, village_taiga, village_snowy) muestra las coordenadas de la aldea más cercana.",
+      "Usa comandos si tienes cheats: en Java, /locate structure #village muestra el village más cercano de cualquier tipo. En Bedrock, usa /locate structure village.",
       "¿La has encontrado? Asegúrala: valla o ilumina la aldea, toca la bell para reunir a los aldeanos y considera construir allí tu trading hall y tu iron farm.",
-      "Extra: aproximadamente 1 de cada 50 aldeas se genera como una aldea abandonada de zombies: da miedo, pero sus zombie villagers pueden curarse en aldeanos normales con grandes descuentos."
+      "Extra: el 2% de los villages se generan como abandoned villages. Sus aldeanos son zombie villagers, que puedes curar para convertirlos en aldeanos normales."
     ],
     "materials": [
       "Un horse o una boat (recomendado)",
       "Emeralds para el mapa del cartographer (opcional)"
     ],
-    "editionNote": "Las aldeas de snowy taiga solo existen en Bedrock. Java y Bedrock usan nombres distintos por tipo de aldea en /locate (village_plains, village_desert, village_savanna, village_taiga, village_snowy), pero la lista de biomas es por lo demás la misma.",
-    "versions": "Las aldeas existen desde Java Beta 1.8, en septiembre de 2011, y los aldeanos llegaron en la 1.0.0. La actualización Village and Pillage (1.14, abril de 2019) las reconstruyó con arquitectura por bioma y bloques de trabajo.",
+    "editionNote": "Bedrock Edition también genera villages en snowy taiga y sunflower plains. El comando /locate cambia: Java usa /locate structure #village y Bedrock usa /locate structure village. Los villages son algo más comunes en Bedrock.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿En qué biomas hay aldeas en Minecraft?",
-        "a": "Plains, desert, savanna, taiga y snowy plains, y snowy taiga solo en Bedrock. Cada bioma tiene su propia arquitectura de aldea y vestimenta de aldeanos."
+        "a": "Plains, meadow, desert, savanna, taiga y snowy plains, además de snowy taiga y sunflower plains en Bedrock Edition. Cada bioma tiene su propia arquitectura de village."
       },
       {
         "q": "¿Cuál es la forma más rápida de encontrar una aldea?",
-        "a": "Con cheats, /locate structure minecraft:village_plains. Sin cheats, compra un explorer map a un aldeano cartographer: marca la aldea más cercana de ese tipo. Si no, viaja en línea recta por biomas llanos y escanea desde lo alto."
+        "a": "Con cheats, /locate structure #village en Java o /locate structure village en Bedrock. Sin cheats, compra un explorer map a un aldeano cartographer. Si no, viaja en línea recta por biomas planos y escanea desde un punto alto."
       },
       {
         "q": "¿Puede aparecer una aldea sin aldeanos?",
-        "a": "Sí: las aldeas abandonadas (alrededor del 2% de las aldeas) están llenas de telarañas y zombie villagers. Siguen teniendo botín y bloques de trabajo, y puedes curar a los zombie villagers para repoblarlas."
+        "a": "Sí: cerca del 2% de los villages se generan como abandoned villages, donde todos los aldeanos generados son zombie villagers y faltan puertas y antorchas. Puedes curar a los zombie villagers."
       },
       {
         "q": "¿Las aldeas aparecen cerca del spawn?",
-        "a": "La generación del mundo favorece biomas llanos cerca del spawn, así que las probabilidades son buenas. No hay garantía, pero la mayoría de jugadores encuentra su primera aldea a pocos cientos de bloques del spawn caminando en una dirección."
+        "a": "A menudo. Hay cerca de 1 posibilidad entre 2 de que haya al menos un village a menos de 500 bloques del spawn del mundo en Java Edition y cerca de 2 entre 3 en Bedrock Edition. No hay garantía."
       }
     ],
     "relatedGuides": [

@@ -3712,39 +3712,39 @@
     "slug": "how-to-find-village",
     "name": "How to Find a Village in Minecraft",
     "shortTitle": "Find a Village",
-    "quickAnswer": "Villages generate in plains, meadow, desert, savanna, taiga and snowy plains biomes. Walk or ride in one direction scanning the horizon, buy an explorer map from a cartographer, or use /locate structure - villages are far more common than any other structure.",
+    "quickAnswer": "Villages generate in plains, meadow, desert, savanna, taiga and snowy plains biomes. Walk or ride in one direction scanning the horizon, buy an explorer map from a cartographer, or use /locate if cheats are on.",
     "steps": [
-      "Know where they spawn: villages only generate in plains, desert, savanna, taiga and snowy plains (plus snowy taiga in Bedrock). You will never find one in forests, jungles, oceans or mountains.",
-      "Spawn check: worlds generate with a strong bias toward a plains or similar biome near spawn - if you start in a forest, walk out of it and scan the flat biomes first.",
+      "Know where they generate: villages generate in plains, meadow, desert, savanna, taiga and snowy plains biomes. Bedrock Edition adds snowy taiga and sunflower plains. They do not generate in forests, jungles or oceans.",
+      "Spawn check: villages are fairly common near spawn. There is about a 1 in 2 chance of at least one within 500 blocks of the world spawn point in Java and about 2 in 3 in Bedrock. If you start in a forest, walk out of it and scan the flat biomes first.",
       "Travel smart: pick one direction and keep going. A boat along a coast, a horse across plains, or an elytra later on all beat wandering in circles.",
       "Climb and scan: at dawn or dusk, get on the highest hill around and look for the regular grid of houses, lit windows and paths - villages are easy to spot from height.",
       "Use a cartographer: any cartographer villager sells explorer maps that lead to a village of a specific type (plains, desert, savanna, taiga or snowy), depending on where he spawned.",
-      "Use commands if cheats are on: /locate structure minecraft:village_plains (or village_desert, village_savanna, village_taiga, village_snowy) prints the nearest village coordinates.",
+      "Use commands if cheats are on: in Java, /locate structure #village prints the nearest village of any type. In Bedrock, use /locate structure village.",
       "Found one? Secure it: wall or light the village, ring the bell to gather villagers, and consider building your trading hall and iron farm there.",
-      "Bonus: about 1 in 50 villages generates as an abandoned zombie village - spooky, but the zombie villagers there can be cured into normal villagers with big discounts."
+      "Bonus: 2% of villages generate as abandoned villages. Their villagers are zombie villagers, which you can cure into normal villagers."
     ],
     "materials": [
       "A horse or boat (recommended)",
       "Emeralds for the cartographer map (optional)"
     ],
-    "editionNote": "Snowy taiga villages exist only in Bedrock. Java and Bedrock use different village type names for /locate (village_plains, village_desert, village_savanna, village_taiga, village_snowy) but the biome list is otherwise the same.",
-    "versions": "Villages have existed since Java Beta 1.8 in September 2011, with villagers arriving in 1.0.0. The Village and Pillage update (1.14, April 2019) rebuilt them with biome-specific architecture and jobsite blocks.",
+    "editionNote": "Bedrock Edition also generates villages in snowy taiga and sunflower plains. The /locate command differs: Java uses /locate structure #village, Bedrock uses /locate structure village. Villages are slightly more common in Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Which biomes have villages in Minecraft?",
-        "a": "Plains, desert, savanna, taiga and snowy plains - and snowy taiga in Bedrock only. Each biome has its own village architecture and villager outfits."
+        "a": "Plains, meadow, desert, savanna, taiga and snowy plains - plus snowy taiga and sunflower plains in Bedrock Edition. Each biome has its own village architecture."
       },
       {
         "q": "What is the fastest way to find a village?",
-        "a": "With cheats, /locate structure minecraft:village_plains. Without cheats, buy an explorer map from a cartographer villager - it marks the nearest village of that type. Otherwise, travel in a straight line through flat biomes and scan from high ground."
+        "a": "With cheats, /locate structure #village in Java or /locate structure village in Bedrock. Without cheats, buy an explorer map from a cartographer villager. Otherwise, travel in a straight line through flat biomes and scan from high ground."
       },
       {
         "q": "Can a village spawn without villagers?",
-        "a": "Yes - abandoned villages (about 2% of villages) are overrun with cobwebs and zombie villagers. They still have loot and jobsite blocks, and you can cure the zombie villagers to repopulate them."
+        "a": "Yes - about 2% of villages generate as abandoned villages, where every generated villager is a zombie villager and doors and torches are missing. You can cure the zombie villagers."
       },
       {
         "q": "Do villages spawn near spawn?",
-        "a": "World generation favors flat biomes near spawn, so the odds are decent. There is no guarantee, but most players find their first village within a few hundred blocks of spawn by walking in one direction."
+        "a": "Often. There is about a 1 in 2 chance of at least one village within 500 blocks of the world spawn point in Java Edition and about 2 in 3 in Bedrock Edition. There is no guarantee."
       }
     ],
     "relatedGuides": [
