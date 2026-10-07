@@ -394,8 +394,8 @@
       "Choose an arena with air on both sides of the base block. The structure can be built upright, lying down or upside-down, and the skull orientation does not matter.",
       "Build the T of 4 soul sand/soil blocks, then place the 3 skulls on the three upper blocks. The last block placed must be a skull.",
       "The Wither is invulnerable and does not move or attack during its charge-up (about 11 seconds), then makes a large explosion centered on itself. Stay far away until it ends.",
-      "It flies about 5 blocks above its target and fires black skulls, and sometimes blue ones. Skulls deal 5 HP on Easy, 8 on Normal and 12 on Hard, and cause the Wither effect on Normal and Hard. Milk cures the Wither effect.",
-      "At half health it crashes into the ground in a large explosion, spawns 3 wither skeletons (not on Easy), and gains wither armor that makes it immune to arrows. Use melee from then on.",
+      "The Wither fires explosive black and blue skulls. Hits can inflict the Wither effect on Normal and Hard; milk cures it. Keep your distance during the ranged phase and prepare a melee weapon with Smite, which works against this undead boss.",
+      "Below half health, the Wither gains armor that makes arrows ineffective, so switch to melee. In Bedrock only, the half-health transition also causes a crash and explosion, spawns 3 wither skeletons on Normal or Hard, and introduces destructive dash attacks. Do not expect this same phase transition in Java.",
       "Kill it to get 1 nether star, needed to craft beacons. The Wither also drops 50 XP (Java: only when killed by a player or tamed wolf)."
     ],
     "materials": [
@@ -409,7 +409,7 @@
     "faq": [
       {
         "q": "When is the Wither immune to arrows?",
-        "a": "Below half health, when it gains wither armor. The wiki notes it keeps this armor if it regenerates above half health."
+        "a": "Below half health, it gains wither armor and arrows no longer work. In Bedrock it retains the armor if it regenerates above half health, although restarting the game removes that retained armor."
       },
       {
         "q": "What does the Wither drop?",
@@ -421,7 +421,7 @@
       },
       {
         "q": "Can I spawn it in an enclosed space?",
-        "a": "It needs air blocks on either side of the base soul sand/soil. Remember its spawn explosion and its half-health dash can destroy the blocks around it."
+        "a": "The summoning structure needs air on both sides of the base soul sand or soul soil block. Choose a location far from builds you want to keep: the spawn explosion and the boss can destroy nearby terrain. Bedrock adds destructive dash attacks during its later phase."
       }
     ],
     "relatedGuides": [
@@ -438,8 +438,8 @@
         "label": "Nether Star"
       },
       {
-        "url": "/enchantments/sharpness/",
-        "label": "Sharpness enchantment"
+        "url": "/enchantments/smite/",
+        "label": "Smite enchantment"
       }
     ],
     "keywords": "beat wither boss fight nether star wither skeleton skull soul sand T shape wither armor"
