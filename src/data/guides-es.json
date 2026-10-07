@@ -3556,38 +3556,38 @@
   "how-to-find-bastion": {
     "name": "Cómo encontrar un Bastion Remnant en Minecraft",
     "shortTitle": "Encontrar un Bastion",
-    "quickAnswer": "Los bastion remnants son enormes castillos de blackstone que se generan en todos los biomas del Nether excepto los basalt deltas. El Nether se divide en regiones que contienen o una fortress o un bastion (60% bastion en Java, 66% en Bedrock), así que si solo encuentras fortresses, cruza a la siguiente región.",
+    "quickAnswer": "Los bastion remnants se generan en todos los biomas del Nether excepto basalt deltas, aunque algunas partes pueden extenderse hasta ellos. Busca grandes estructuras de blackstone. Las regiones de estructuras del Nether miden 432 por 432 bloques en Java y 480 por 480 en Bedrock; cada región puede generar un bastion o una fortress, no ambos.",
     "steps": [
-      "Equípate primero: armadura completa de iron o mejor, shield, comida, pociones de fire resistance y una pieza de armadura de oro: un jugador sin armadura es comida para piglins, y los piglin brutes del bastion hacen uno de los mayores daños cuerpo a cuerpo del juego.",
-      "Lleva oro: una sola pieza de armadura de oro (las boots son las más baratas) mantiene neutrales a los piglins normales. A los piglin brutes les da igual el oro: atacan siempre.",
-      "Sabe dónde se generan: en todos los biomas del Nether excepto los basalt deltas. Cada región de 432x432 (480 en Bedrock) contiene o un bastion o una fortress, nunca ambos.",
-      "Busca a la altura adecuada: viaja a altura media (alrededor de Y=40-70) por nether wastes o bosques y escanea en busca de la enorme silueta oscura de blackstone: los bastions son mucho más grandes que las fortresses.",
-      "Usa las probabilidades: en Java una región tiene un 60% de probabilidad de contener un bastion en lugar de una fortress (66% en Bedrock). Si solo te salen fortresses, avanza más de 400 bloques en una dirección hasta la siguiente región.",
-      "Usa comandos si los cheats están activos: /locate structure minecraft:bastion_remnant muestra el más cercano.",
-      "Identifica la variante: hay cuatro: bridge, hoglin stables, housing units y treasure room. La treasure room (un cubo con una piscina de lava abajo y una rampa central) tiene el mejor botín, incluido un spawner de magma cubes.",
-      "Saquea con cabeza: los cofres del bastion guardan la netherite upgrade smithing template (10% en cofres normales, y los cofres de la treasure room son la fuente más fiable), el disco Pigstep, el snout armor trim, gilded blackstone, bloques de oro, ancient debris y a veces netherite ingots.",
-      "Ojo con los brutes: los piglin brutes aparecen una vez con la estructura y nunca reaparecen: mátalos y el bastion se vuelve mucho más seguro. No abras cofres ni mines oro cerca de los piglins sin encerrarte primero.",
-      "Planifica la vuelta: anota las coordenadas de tu portal: morir en un bastion sin armadura de oro significa que tus objetos quedan vigilados por piglins muy enfadados."
+      "Prepárate para el Nether: lleva armadura, shield, comida, bloques para construir y pociones de fire resistance. Anota las coordenadas del portal antes de explorar.",
+      "Lleva una pieza de armadura de oro para no provocar a los piglins normales solo por acercarte. El oro no te protege de los piglin brutes ni de los piglins enfadados por abrir contenedores, minar oro o atacar piglins.",
+      "Busca en biomas del Nether distintos de basalt deltas. Un bastion puede extenderse hasta basalt deltas, pero no puede empezar a generarse allí.",
+      "Busca grandes edificios de blackstone con murallas y pasadizos. Explora con cuidado en lugar de depender de una altura fija, y vigila la lava y las caídas.",
+      "Amplía la búsqueda más allá de la región donde haya una fortress. Las regiones miden 432 por 432 bloques en Java y 480 por 480 en Bedrock; avanzar una distancia fija no garantiza otra región ni un bastion.",
+      "Con cheats activos, ejecuta /locate structure minecraft:bastion_remnant en Java o /locate structure bastion_remnant en Bedrock, estando en el Nether, para encontrar coordenadas de un bastion.",
+      "Identifica la variante: bridge, hoglin stables, housing units o treasure room. Las treasure rooms tienen puentes sobre un suelo de lava, un spawner de magma cubes y una zona central de oro y botín.",
+      "Para conseguir una netherite upgrade smithing template, busca los treasure chests de la variante treasure room: garantizan 1 template. Los bridge chests, hoglin stable chests y generic chests tienen un 10% de probabilidad cada uno. No todos los cofres de un bastion de tipo treasure room usan el botín de treasure chest.",
+      "Ten cuidado con los piglin brutes: aparecen con la estructura y no reaparecen después de morir. Los mobs normales del bioma pueden seguir apareciendo, así que eliminar a los guardias originales no hace que el bastion sea seguro para siempre.",
+      "Mantén una ruta de escape y vuelve al portal que anotaste. La armadura de oro por sí sola no evita todos los ataques de piglins."
     ],
     "materials": [
       "Una pieza de armadura de oro (las boots son las más baratas)",
       "Armadura de iron o mejor, shield, comida",
       "Pociones de fire resistance (recomendado)"
     ],
-    "editionNote": "El tamaño de región difiere: 432x432 bloques en Java frente a 480x480 en Bedrock, y la probabilidad de bastion frente a fortress es del 60% en Java y del 66,6% en Bedrock. En Bedrock, los piglins furiosos terminan el barter al instante, lo que cambia las tácticas de saqueo seguro.",
-    "versions": "Los bastion remnants se añadieron en Java 1.16, la Nether Update, el 23 de junio de 2020, junto con los piglins y los piglin brutes. La netherite upgrade smithing template pasó a los cofres de bastions en la 1.20 (Trails and Tales, 2023).",
+    "editionNote": "Las regiones de estructuras del Nether miden 432 por 432 bloques en Java y 480 por 480 en Bedrock. La probabilidad de seleccionar bastion frente a fortress es de 3/5 (60%) en Java y 2/3 (aproximadamente 66,7%) en Bedrock, pero basalt deltas impide generar bastions.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Dónde aparecen los bastion remnants en Minecraft?",
-        "a": "En todos los biomas del Nether excepto los basalt deltas. El Nether se divide en regiones de 432x432 bloques (480 en Bedrock), cada una con un bastion o una nether fortress: 60% bastion en Java, 66% en Bedrock."
+        "a": "En todos los biomas del Nether excepto basalt deltas, aunque partes de un bastion pueden extenderse hasta ellos. Las regiones de estructuras miden 432 por 432 bloques en Java y 480 por 480 en Bedrock; una región puede generar un bastion o una fortress, no ambos."
       },
       {
         "q": "¿Qué bastion tiene la netherite upgrade template?",
-        "a": "Las cuatro variantes pueden tenerla en sus cofres (10% de probabilidad por cofre normal), pero la variante treasure room es la fuente más fiable: sus cofres son los más ricos de la estructura."
+        "a": "Los treasure chests de la variante treasure room garantizan 1 netherite upgrade smithing template. Los bridge chests, hoglin stable chests y generic chests tienen un 10% de probabilidad cada uno. Otros cofres de un bastion de tipo treasure room pueden usar el botín genérico."
       },
       {
         "q": "¿Reaparecen los piglin brutes en los bastions?",
-        "a": "No. Los piglin brutes (y los piglins y hoglins de la generación) aparecen una vez cuando se genera la estructura y nunca vuelven. Límpialos una vez y el bastion se queda limpio: solo continúan los spawns normales del bioma."
+        "a": "No. Los piglin brutes aparecen al generarse el bastion y no reaparecen después de morir. Los mobs normales pueden seguir apareciendo según el bioma."
       },
       {
         "q": "¿Por qué me atacan los piglins en el bastion?",
