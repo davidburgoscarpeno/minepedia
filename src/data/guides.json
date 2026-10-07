@@ -1674,13 +1674,14 @@
     "shortTitle": "Get Honeycomb",
     "quickAnswer": "Shear a full bee nest or beehive (honey level 5) to get 3 honeycombs. Shearing angers the bees inside, unless there is a lit campfire or soul campfire (or a fire) under it, or you use a dispenser with shears. Honeycomb is used for beehives, candles, honeycomb blocks and waxing copper or signs.",
     "steps": [
-      "Find a bee nest. Naturally generated nests hold 2-3 bees: 100% of trees in meadows have one, 5% in plains, sunflower plains and cherry groves, 2% in flower forests (Java), 1% in mangrove swamps and 0.2% in forests and birch forests (Java).",
+      "Find a naturally generated bee nest with bees, or use an occupied beehive. Keep flowers nearby so the bees can gather nectar and return home.",
       "Or grow one: oak, birch and cherry trees grown from saplings within 2 blocks of a flower at the same Y level have a 5% chance to grow with a nest of 2-3 bees. Mangroves have a 1% chance with no flower needed.",
       "Wait until it is full (honey level 5). A comparator reads the honey level, with 5 as the maximum.",
-      "Put a lit campfire, soul campfire or fire under the nest so the bees do not turn hostile.",
+      "Place a lit campfire or soul campfire directly below the nest, within 5 blocks, with a clear smoke path. Keep bees away from the flames. Do not assume a carpet over the campfire is safe in both editions: it blocks the calming effect in Bedrock.",
       "Use shears on the full nest: it drops 3 honeycombs and resets to honey level 0.",
       "A dispenser with shears inside can harvest it without angering the bees. The honeycomb pops out as a dropped item.",
-      "Use honeycomb on any copper block (or a copper golem) to wax it and stop oxidation, or on signs to stop them being edited. It also crafts beehives, candles and honeycomb blocks."
+      "Use honeycomb on any copper block (or a copper golem) to wax it and stop oxidation, or on signs to stop them being edited. It also crafts beehives, candles and honeycomb blocks.",
+      "Craft 1 beehive from 6 planks and 3 honeycombs: a full plank row on top, a full honeycomb row in the middle and a full plank row on the bottom. Craft 1 candle with 1 string directly above 1 honeycomb. Craft 1 honeycomb block with 4 honeycombs in a 2x2 square."
     ],
     "materials": [
       "Shears",
@@ -1688,12 +1689,12 @@
       "Optional: a dispenser for automatic harvesting",
       "Flowers and saplings to grow your own nests"
     ],
-    "editionNote": "Both editions give 3 honeycombs from a full nest or hive. Biome chances differ: flower forests are 2% in Java and 3% in Bedrock, and forests are 0.2% in Java and 0.035% in Bedrock. In Bedrock, oak trees grown in plains can grow a nest regardless of nearby flowers.",
+    "editionNote": "Both editions give 3 honeycombs from a full nest or hive. A carpet over a campfire lets the smoke calm bees in Java, but blocks that effect in Bedrock. For a simple setup, keep the smoke path clear; a dispenser containing shears harvests without angering bees in either edition.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Why do bees attack me when I collect honeycomb?",
-        "a": "Shearing a full nest angers the bees inside. A lit campfire or soul campfire (or a fire) under it keeps them from becoming hostile, and a dispenser with shears does not anger them at all."
+        "a": "Harvesting by hand angers the bees inside unless they are calmed. Use a lit campfire directly below and within 5 blocks, keeping the smoke path clear. A carpet blocks this calming effect in Bedrock. A dispenser with shears is another way to harvest without angering bees."
       },
       {
         "q": "How do I know a nest is full?",
