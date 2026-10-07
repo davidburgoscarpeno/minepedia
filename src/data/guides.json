@@ -2374,12 +2374,13 @@
     "quickAnswer": "Craft TNT with gunpowder and sand (or red sand), in a checkerboard. Light it with flint and steel, a fire charge, redstone, fire, a flaming projectile or an explosion. Lit by fire or redstone it explodes after 4 seconds with power 4.",
     "steps": [
       "Get gunpowder and sand (or red sand, any mix works).",
-      "Craft in a checkerboard: gunpowder in the four corners and the center, sand on the four edges.",
+      "Craft in a 3×3 grid: gunpowder in the four corners and the center (5 total), sand or red sand on the four edges (4 total). Sand types can be mixed.",
       "Light it: flint and steel, fire charge, a dispenser, a redstone signal, stray fire, a flaming projectile or an explosion.",
       "Wait: primed TNT explodes after 80 game ticks (4 seconds) when lit by fire or redstone, or after 10-30 ticks (0.5-1.5 seconds) when set off by another explosion.",
       "Use physics: primed TNT is affected by gravity and can be pushed by flowing water, lava, pistons and explosions.",
       "Find free TNT: 9 TNT generate in each desert pyramid, and buried treasure chests hold 1-2 TNT (~62.7%).",
-      "Underwater, TNT usually cannot destroy blocks."
+      "Underwater, TNT usually cannot destroy blocks.",
+      "Stay clear: the explosion deals up to 56 HP of damage on Normal difficulty and 84.5 HP on Hard, with high knockback, and does not damage players in Peaceful. Blocks it destroys drop as items."
     ],
     "materials": [
       "5 gunpowder",
