@@ -9,8 +9,8 @@
       "Dig down to around Y=-58 or Y=-59, where deepslate diamond ore is most common. Check your Y level with coordinates (F3 in Java).",
       "Branch mine through stone and deepslate to expose as many blocks as you can.",
       "Look near aquifers and lava: ore does not get a reduced chance to generate when exposed to water or lava, so it appears more often on aquifer walls. Some ore blocks have a chance not to generate when next to air.",
-      "Mine the ore: it drops 1 diamond and 3-7 XP. Fortune I gives a 1/3 chance of 2 diamonds (average 1.33), Fortune II averages 1.75 and Fortune III averages 2.2.",
-      "Silk Touch drops the ore block itself instead of a diamond."
+      "Mine with an iron, diamond or netherite pickaxe. Without Silk Touch or Fortune, an ore block drops 1 diamond and 3-7 XP. Fortune I averages 1.33 diamonds, Fortune II 1.75 and Fortune III 2.2; these are averages, not guaranteed drops from each block.",
+      "Silk Touch on an iron, diamond or netherite pickaxe drops the ore block instead of diamonds and XP. Save the ore to mine later with Fortune if you want more diamonds."
     ],
     "materials": [
       "Iron pickaxe or better (diamond, netherite)",
@@ -19,8 +19,8 @@
       "Water bucket for lava",
       "Fortune III pickaxe for best yield (optional)"
     ],
-    "editionNote": "Per the wiki, diamond ore replaces stone, andesite, diorite, granite, tuff and deepslate, and the version that replaces deepslate or tuff becomes deepslate diamond ore. It also appears in fossils below Y=0 as deepslate diamond ore replacing some bone blocks.",
-    "versions": "Per the Minecraft Wiki Diamond Ore page: current generation features run from Y=16 to Y=-63, with an extra feature from Y=-4 to Y=-63.",
+    "editionNote": "Both editions require an iron, diamond or netherite pickaxe to collect diamond ore or its drops. Silk Touch collects the ore block; Fortune increases diamond drops when mining without Silk Touch.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "What is the best Y level for diamonds?",
@@ -36,7 +36,7 @@
       },
       {
         "q": "What tool do I need?",
-        "a": "An iron pickaxe or better."
+        "a": "An iron, diamond or netherite pickaxe. A wooden, stone, copper or golden pickaxe does not drop diamonds or the ore block."
       }
     ],
     "relatedGuides": [
