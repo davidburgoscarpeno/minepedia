@@ -934,12 +934,12 @@
     "quickAnswer": "Haz waterlogging a un bloque de dried ghast durante unos 20 minutos: eclosiona en un ghastling, que necesita otros 20 minutos (o snowballs) para crecer hasta happy ghast. Los dried ghasts se generan junto a Nether fossils en los soul sand valleys (1 de cada 3), se craftean con 8 ghast tears más soul sand, o se consiguen por bartering con piglins (~2,13%). Equipa al adulto con un harness para volar con hasta cuatro jugadores.",
     "steps": [
       "Consigue un dried ghast: lutea uno junto a un Nether fossil en un soul sand valley (1/3 de los fossils), craftéalo con 8 ghast tears alrededor de 1 soul sand, o haz bartering con gold ingots a piglins (~2,13% cada uno).",
-      "Coloca el dried ghast y hazle waterlogging: mételo bajo el agua o deja que el agua fluya por el bloque.",
-      "Espera unos 20 minutos. Se hidrata por fases visibles (parcial a los ~5 min, casi total a los ~10, completo a los ~15) y después se transforma en un ghastling.",
-      "El ghastling tarda 20 minutos en crecer; darle snowballs lo acelera. Se convertirá en un happy ghast adulto.",
-      "Craftea un harness con 3 leather en la fila superior y glass + wool + glass en la del medio (la wool define el color; con dye se recolorea después).",
+      "Coloca el dried ghast en agua o usa una water bucket para anegarlo. Mantenlo anegado hasta que se transforme.",
+      "Espera unos 20 minutos mientras se hidrata por fases visibles y se convierte en un ghastling. El tiempo varía. Quitar el agua revierte la hidratación poco a poco; romper el bloque lo devuelve al estado seco.",
+      "El ghastling tarda normalmente 20 minutos en crecer. Dale snowballs para acelerarlo: cada snowball reduce el tiempo restante un 10% en Java, mientras que 10 snowballs convierten un ghastling recién aparecido en adulto en Bedrock.",
+      "Craftea 1 harness: coloca 3 leather en la fila superior y glass, wool, glass en la fila central; deja vacía la fila inferior. El color de la wool determina el color del harness.",
       "Usa el harness sobre el happy ghast adulto. Ya pueden montar hasta cuatro jugadores; el primer piloto controla con las teclas de movimiento.",
-      "Quita el harness con shears cuando quieras. Nunca mates a tu happy ghast: reemplazarlo cuesta todo el proceso otra vez."
+      "Usa shears sobre el adulto para quitar y recuperar su harness. Mantén al ghast protegido y usa leads cuando necesites retenerlo cerca."
     ],
     "materials": [
       "Dried ghast (fossil, crafting con ghast tears, o bartering con piglins)",
@@ -948,12 +948,12 @@
       "3 leather + 2 glass + 1 wool (harness)",
       "Shears (para quitar el harness)"
     ],
-    "editionNote": "Idéntico en Java y Bedrock. El dried ghast se mina al instante con cualquier herramienta y siempre se suelta a sí mismo: se puede reubicar sin riesgo antes de eclosionar.",
-    "versions": "Dried ghast, ghastling, happy ghast y harness, todos añadidos en 1.21.6 (Chase the Skies).",
+    "editionNote": "El crecimiento con snowballs difiere: Java reduce el tiempo restante un 10% por snowball; Bedrock necesita 10 snowballs para un ghastling recién aparecido. En ambas ediciones, romper un dried ghast que se está hidratando reinicia su hidratación.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Se pueden criar happy ghasts?",
-        "a": "No. Los happy ghasts no se pueden tamear ni criar: la única forma de tener más es eclosionar más dried ghasts."
+        "a": "No. Los happy ghasts no se pueden criar. Haz eclosionar más dried ghasts si quieres más happy ghasts."
       },
       {
         "q": "¿Cuántos jugadores pueden montar un happy ghast?",
@@ -961,7 +961,7 @@
       },
       {
         "q": "¿Puede un happy ghast transportar mobs o boats?",
-        "a": "Sí: ata hasta cuatro boats o mobs con lead en una configuración de 4 leads bajo el happy ghast y los transporta por aire - el mejor transporte de mobs del juego."
+        "a": "Sí. Usa leads para unir boats o mobs que admitan correa al happy ghast y transportarlos por aire. Algunos aparecen suspendidos por cuatro cuerdas, pero es un diseño visual, no una indicación de usar cuatro leads por entidad."
       }
     ],
     "relatedLinks": [

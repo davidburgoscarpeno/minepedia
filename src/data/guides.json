@@ -1143,12 +1143,12 @@
     "quickAnswer": "Waterlog a dried ghast block for about 20 minutes: it hatches into a ghastling, which needs another 20 minutes (or snowballs) to grow into a happy ghast. Dried ghasts generate next to Nether fossils in soul sand valleys (1 in 3 chance), can be crafted from 8 ghast tears plus soul sand, or bartered from piglins (~2.13%). Equip the adult with a harness to fly with up to four players.",
     "steps": [
       "Get a dried ghast: loot one next to a Nether fossil in a soul sand valley (1/3 of fossils), craft it with 8 ghast tears around 1 soul sand, or barter gold ingots with piglins (~2.13% each).",
-      "Place the dried ghast and waterlog it - put it underwater or let water flow through the block.",
-      "Wait about 20 minutes. It visibly hydrates in stages (partially at ~5 min, mostly at ~10, complete at ~15) and then transforms into a ghastling.",
-      "The ghastling takes 20 minutes to grow; feeding it snowballs speeds that up. It becomes an adult happy ghast.",
-      "Craft a harness with 3 leather across the top and glass + wool + glass in the middle row (the wool sets the color; dye recolors it later).",
+      "Place the dried ghast in water or use a water bucket to waterlog it. Keep it waterlogged until it transforms.",
+      "Wait about 20 minutes while it hydrates in visible stages and becomes a ghastling. The timing varies. Removing water makes hydration reverse gradually; breaking the block resets it to the dried state.",
+      "The ghastling normally takes 20 minutes to grow. Feed it snowballs to speed this up: each snowball cuts the remaining time by 10% in Java, while 10 snowballs grow a newly spawned ghastling into an adult in Bedrock.",
+      "Craft 1 harness: put 3 leather across the top row and glass, wool, glass across the middle row, leaving the bottom row empty. The wool color determines the harness color.",
       "Use the harness on the adult happy ghast. Up to four players can now mount; the first rider pilots with normal movement keys.",
-      "Remove the harness with shears any time. Never kill your happy ghast - replacing it costs the whole process again."
+      "Use shears on the adult to remove and retrieve its harness. Keep the ghast safe and use leads when you need to keep it nearby."
     ],
     "materials": [
       "Dried ghast (fossil loot, ghast tear crafting, or piglin bartering)",
@@ -1157,12 +1157,12 @@
       "3 leather + 2 glass + 1 wool (harness)",
       "Shears (to take the harness off)"
     ],
-    "editionNote": "Identical in Java and Bedrock. The dried ghast mines instantly with any tool and always drops itself - safe to relocate before hatching.",
-    "versions": "Dried ghast, ghastling, happy ghast and harness all added in 1.21.6 (Chase the Skies).",
+    "editionNote": "Snowball growth differs: Java reduces the remaining growth time by 10% per snowball; Bedrock needs 10 snowballs for a newly spawned ghastling. In both editions, breaking a hydrating dried ghast resets its hydration.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Can you breed happy ghasts?",
-        "a": "No. Happy ghasts cannot be tamed or bred - the only way to get more is hatching more dried ghasts."
+        "a": "No. Happy ghasts cannot be bred. Hatch more dried ghasts if you want more happy ghasts."
       },
       {
         "q": "How many players can ride a happy ghast?",
@@ -1170,7 +1170,7 @@
       },
       {
         "q": "Can a happy ghast carry mobs or boats?",
-        "a": "Yes: leash up to four boats or leashable mobs in a 4-leash configuration under the happy ghast and it airlifts them - the best mob transport in the game."
+        "a": "Yes. Use leads to attach boats or leashable mobs to the happy ghast for air transport. Some carried entities appear suspended by four ropes, but that is a visual design, not an instruction to use four leads per entity."
       }
     ],
     "relatedGuides": [
