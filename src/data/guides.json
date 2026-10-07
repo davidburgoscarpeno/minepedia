@@ -719,24 +719,25 @@
     "shortTitle": "Netherite Upgrade",
     "quickAnswer": "Mine ancient debris in the Nether (most common around Y=16) with a diamond or netherite pickaxe, smelt it into netherite scrap, craft 4 scrap + 4 gold ingots into a netherite ingot, then upgrade diamond gear at a smithing table with a Netherite Upgrade template. Enchantments, name and durability use are kept.",
     "steps": [
-      "Mine ancient debris with a diamond or netherite pickaxe: any other tool drops nothing. It generates in the Nether, never naturally exposed to air, replacing netherrack (and basalt and blackstone in Java Edition).",
-      "Look around Y=16, which has the most debris on average. One cluster of 0-3 generates between Y=8 and Y=24, and another of 0-2 generates evenly from Y=8 to Y=119.",
+      "Mine ancient debris with a diamond or netherite pickaxe: other tools drop nothing. It replaces netherrack, plus basalt and blackstone in Java. Generation avoids air exposure, although later generation can occasionally expose it.",
+      "Search around Y=16. Java attempts one cluster of 0-3 debris between Y=8 and Y=24 and another of 0-2 between Y=8 and Y=119. Bedrock attempts two clusters of 0-3 between Y=8 and Y=23 and three of 0-2 between Y=8 and Y=119.",
       "Smelt the ancient debris into netherite scrap.",
-      "Craft a netherite ingot: 4 netherite scrap + 4 gold ingots, shapeless.",
+      "Craft 1 netherite ingot from 4 netherite scrap and 4 gold ingots in a crafting table. This recipe is shapeless, so any arrangement works.",
       "Find a Netherite Upgrade smithing template in a bastion remnant: the treasure chest always holds one (100%), and bridge, hoglin stable and generic chests have a 10% chance.",
-      "Duplicate templates by crafting the template with seven diamonds and its corresponding material.",
-      "At a smithing table put the template on the left, diamond gear in the middle and a netherite ingot on the right. It costs no experience and keeps enchantments, custom names and durability use."
+      "Duplicate a template before using your last one: put 1 Netherite Upgrade template in the top-center slot, 1 netherrack in the center and 7 diamonds in all remaining slots. This produces 2 templates, consuming the original, for a net gain of 1.",
+      "At a smithing table put 1 Netherite Upgrade template on the left, 1 diamond item in the middle and 1 netherite ingot on the right. The upgrade consumes the template and ingot. It costs no experience and keeps enchantments, custom names and the number of durability points already lost."
     ],
     "materials": [
-      "Diamond pickaxe (or better)",
-      "Fire resistance potions",
-      "Beds or TNT for blast mining",
-      "36 ancient debris + 36 gold ingots for a full set",
-      "Netherite Upgrade template per item (duplicatable)",
-      "Smithing table"
+      "Diamond gear to upgrade",
+      "Diamond or netherite pickaxe",
+      "4 ancient debris + 4 gold ingots per netherite ingot",
+      "1 Netherite Upgrade template per item",
+      "For each duplication: 1 existing template, 7 diamonds and 1 netherrack",
+      "Smithing table and furnace or blast furnace",
+      "Fire resistance potions for Nether exploration"
     ],
-    "editionNote": "Basalt and blackstone can only be replaced by ancient debris in Java Edition.",
-    "versions": "Per the Minecraft Wiki Ancient Debris, Smithing Table, Smithing Template and Netherite Ingot pages.",
+    "editionNote": "Ancient debris cluster generation differs: Java attempts up to two clusters per chunk and Bedrock up to five. Only Java replaces basalt and blackstone as well as netherrack.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "What is the best Y level for ancient debris?",

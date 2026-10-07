@@ -589,24 +589,25 @@
     "shortTitle": "Mejora a netherite",
     "quickAnswer": "Mina ancient debris en el Nether (más frecuente alrededor de Y=16) con pico de diamante o netherita, fúndelo en netherite scrap, craftea 4 scrap + 4 lingotes de oro en un lingote de netherita y mejora equipo de diamante en una smithing table con una plantilla Netherite Upgrade. Mantiene encantamientos, nombre y desgaste.",
     "steps": [
-      "Mina ancient debris con pico de diamante o netherita: cualquier otra herramienta no suelta nada. Genera en el Nether, nunca expuesto al aire de forma natural, sustituyendo netherrack (y basalto y blackstone en Java).",
-      "Busca alrededor de Y=16, donde hay más de media. Un cúmulo de 0-3 genera entre Y=8 y Y=24, y otro de 0-2 genera uniformemente de Y=8 a Y=119.",
+      "Mina ancient debris con un diamond pickaxe o netherite pickaxe: otras herramientas no sueltan nada. Sustituye netherrack, además de basalt y blackstone en Java. La generación evita exponerlo al aire, aunque procesos posteriores pueden dejarlo expuesto ocasionalmente.",
+      "Busca alrededor de Y=16. Java intenta generar un cúmulo de 0-3 debris entre Y=8 e Y=24 y otro de 0-2 entre Y=8 e Y=119. Bedrock intenta generar dos cúmulos de 0-3 entre Y=8 e Y=23 y tres de 0-2 entre Y=8 e Y=119.",
       "Funde el ancient debris en netherite scrap.",
-      "Craftea un lingote de netherita: 4 netherite scrap + 4 lingotes de oro, sin forma.",
+      "Craftea 1 netherite ingot con 4 netherite scrap y 4 gold ingots en una crafting table. La receta no tiene forma, así que cualquier disposición sirve.",
       "Busca una plantilla Netherite Upgrade en un bastion remnant: el treasure chest siempre tiene una (100%) y los cofres de puente, establo de hoglins y genéricos tienen un 10%.",
-      "Duplica plantillas crafteándolas con siete diamantes y su material correspondiente.",
-      "En la smithing table pon la plantilla a la izquierda, el equipo de diamante en el centro y un lingote de netherita a la derecha. No cuesta experiencia y conserva encantamientos, nombres y desgaste."
+      "Duplica una template antes de usar la última: coloca 1 Netherite Upgrade template en la casilla superior central, 1 netherrack en el centro y 7 diamonds en las demás casillas. Produce 2 templates y consume la original, por lo que ganas 1.",
+      "En una smithing table coloca 1 Netherite Upgrade template a la izquierda, 1 objeto de diamond en el centro y 1 netherite ingot a la derecha. La mejora consume la template y el ingot. No cuesta experiencia y conserva encantamientos, nombres y el número de puntos de durabilidad ya gastados."
     ],
     "materials": [
-      "Pico de diamante (o mejor)",
-      "Pociones de fire resistance",
-      "Camas o TNT para minado explosivo",
-      "36 ancient debris + 36 gold ingots para un set completo",
-      "Netherite Upgrade template por objeto (duplicable)",
-      "Smithing table"
+      "Equipo de diamond que quieras mejorar",
+      "Diamond pickaxe o netherite pickaxe",
+      "4 ancient debris + 4 gold ingots por netherite ingot",
+      "1 Netherite Upgrade template por objeto",
+      "Por cada duplicación: 1 template existente, 7 diamonds y 1 netherrack",
+      "Smithing table y furnace o blast furnace",
+      "Pociones de fire resistance para explorar el Nether"
     ],
-    "editionNote": "El basalto y el blackstone solo pueden ser sustituidos por ancient debris en Java.",
-    "versions": "Según las páginas Ancient Debris, Smithing Table, Smithing Template y Netherite Ingot de Minecraft Wiki.",
+    "editionNote": "La generación de cúmulos de ancient debris difiere: Java intenta generar hasta dos por chunk y Bedrock hasta cinco. Solo Java sustituye basalt y blackstone además de netherrack.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuál es la mejor altura Y para ancient debris?",
