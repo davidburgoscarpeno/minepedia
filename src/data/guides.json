@@ -568,13 +568,13 @@
     "slug": "how-to-use-conduit",
     "name": "How to Make and Use a Conduit in Minecraft",
     "shortTitle": "Use a Conduit",
-    "quickAnswer": "Craft a conduit from 1 heart of the sea and nautilus shells, place it underwater in a 3x3x3 volume of water, and surround it with a frame of 16-42 prismarine, dark prismarine, prismarine bricks or sea lantern blocks. It gives Conduit Power within 32-96 blocks and attacks hostile mobs within 8 blocks.",
+    "quickAnswer": "Craft 1 conduit with 1 heart of the sea surrounded by 8 nautilus shells. Waterlog it at the center of a 3 by 3 by 3 water volume, then add 16-42 full prismarine-family blocks or sea lanterns in valid frame positions. Its player-effect radius is 32-96 blocks; only a complete 42-block frame attacks wet hostile mobs within 8 blocks.",
     "steps": [
       "Get a heart of the sea: it is found only in buried treasure chests, whose location is marked with a red X on a buried treasure map from ocean ruins and shipwrecks.",
       "Get nautilus shells: drowned holding one always drop it (3% in Java, 8% in Bedrock), nautiluses rarely drop it, and you can fish it up.",
-      "Craft the conduit from nautilus shells and the heart of the sea.",
+      "Craft 1 conduit: place 1 heart of the sea in the center of a crafting table and 1 nautilus shell in each of the 8 surrounding slots.",
       "Place the conduit in the center of a 3x3x3 volume of water (the conduit waterlogged too), enclosed by a frame of three 5x5 open squares, one around each axis.",
-      "Only prismarine, dark prismarine, prismarine bricks and sea lantern blocks count. It needs at least 16 to activate, and a complete frame has 42.",
+      "Use full prismarine, dark prismarine, prismarine bricks or sea lantern blocks in valid frame positions. Slabs, stairs and walls do not count. At least 16 blocks activate a 32-block radius; the complete frame has 42.",
       "Range grows 16 blocks for every 7 frame blocks: 48 at 21, 64 at 28, 80 at 35 and 96 with all 42. A lit orange iris shows when the frame is complete.",
       "Conduit Power works on players touching water or rain, with the benefits of Water Breathing, Night Vision and Haste (it does not stack with them).",
       "A complete frame attacks one hostile mob at a time within 8 blocks, such as drowned, guardians and elder guardians, for 4 HP magic damage every 2 seconds if the mob touches water or rain."
@@ -586,7 +586,7 @@
       "Everything underwater"
     ],
     "editionNote": "Drowned spawn holding a nautilus shell 3% of the time in Java Edition and 8% in Bedrock Edition. In Bedrock Edition zombies converted into drowned count too.",
-    "versions": "Per the Minecraft Wiki Conduit, Heart of the Sea and Nautilus Shell pages.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Where do you find a heart of the sea?",
@@ -594,7 +594,7 @@
       },
       {
         "q": "How big is the conduit range?",
-        "a": "16 blocks for every 7 frame blocks: 96 blocks with a complete 42-block frame. It needs at least 16 frame blocks to activate."
+        "a": "The effect has a spherical radius of 32 blocks with 16 frame blocks, 48 with 21, 64 with 28, 80 with 35 and 96 with all 42. Fewer than 16 valid frame blocks do not activate it."
       },
       {
         "q": "Do conduits work out of water?",
@@ -602,7 +602,7 @@
       },
       {
         "q": "Which blocks count for the frame?",
-        "a": "Prismarine, dark prismarine, prismarine bricks and sea lanterns."
+        "a": "Full prismarine, dark prismarine, prismarine bricks and sea lantern blocks in valid frame positions. Prismarine slabs, stairs and walls do not count, and blocks outside the frame positions do not increase its range."
       }
     ],
     "relatedGuides": [
