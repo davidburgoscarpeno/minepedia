@@ -27480,15 +27480,15 @@
     ],
     "steps": [
       "Build a 1x1 vertical shaft with walls, from the bottom floor to the top exit. Hold the water in with signs, trapdoors or a door at the entrance.",
-      "Fill the shaft with water so every block is a source block: the fast way is to place one water source at the bottom, then plant kelp and grow it to the top - growing kelp turns each flowing block into a source.",
+      "Fill the shaft from the top: place a water source at the upper end so water flows down to the bottom. Plant kelp on a suitable temporary floor block and grow or place it up through the water. Each kelp block converts the water in its space to a source block.",
       "Break the kelp from the bottom: the whole column stays as source water.",
       "Up elevator: replace the floor block of the shaft with soul sand. After a second, bubbles appear - step in and you shoot to the top.",
-      "Down elevator: use a magma block instead. The whirlpool pulls you down fast and you land safely on the magma block (it deals no damage while you stand still in the column).",
+      "Down elevator: replace the floor with a magma block. The bubble column pulls you down and supplies air, but the magma can still hurt you when you reach the floor. Sneak before touching it to avoid its damage, then step out onto a safe block.",
       "Combine both: two adjacent shafts, one soul sand for up, one magma for down, sharing walls.",
       "Add a water source at the top entrance so you can also swim in from the top, and light the shaft so drowned cannot spawn in it."
     ],
-    "versions": "Bubble columns were added in the Update Aquatic (Java 1.13 / Bedrock 1.5). The mechanic is identical in both editions.",
-    "editionNote": "Works the same in Java and Bedrock. In Bedrock, entering the top of an up-column is slightly smoother at high speeds.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "editionNote": "Both editions require source water blocks above soul sand or magma. Bubble-column speeds differ: approximately 11 blocks per second upward and 4.9 downward in Java, compared with 14 upward and 6 downward in Bedrock.",
     "faq": [
       {
         "q": "Why are there no bubbles?",
@@ -27496,11 +27496,11 @@
       },
       {
         "q": "Does the magma block hurt?",
-        "a": "Standing on magma deals 1 damage per tick - but sneaking negates it, and in a down elevator you only touch it for an instant. Use a hopper minecart or carpet under the exit if you want zero risk."
+        "a": "Yes. The bubble column provides air, not immunity to the magma block at its base. Sneaking prevents magma damage. Sneak before reaching the bottom and leave onto a safe adjacent block."
       },
       {
         "q": "Can I go up faster?",
-        "a": "Bubble columns are already the fastest vertical transport in vanilla. Dolphin's grace, Depth Strider or a swiftness potion add a small boost inside the column."
+        "a": "Keep the full shaft as source water with no gaps or obstructions so the upward bubble column reaches the top. Java and Bedrock have different bubble-column speeds."
       }
     ],
     "relatedGuides": [

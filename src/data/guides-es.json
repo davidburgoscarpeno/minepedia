@@ -24206,15 +24206,15 @@
     ],
     "steps": [
       "Construye un hueco vertical de 1x1 con paredes, desde el suelo hasta la salida superior. Contén el agua con signs, trapdoors o una door en la entrada.",
-      "Llena el hueco de agua para que cada bloque sea un source block: la forma rápida es poner una fuente abajo, plantar kelp y hacerlo crecer hasta arriba: el kelp al crecer convierte cada bloque de agua corriente en fuente.",
+      "Llena el hueco desde arriba: coloca una fuente de agua en el extremo superior para que el agua baje hasta el fondo. Planta kelp sobre un bloque de suelo temporal adecuado y hazlo crecer o colócalo hasta arriba. Cada bloque de kelp convierte el agua de su casilla en un bloque fuente.",
       "Rompe el kelp desde abajo: toda la columna queda como agua fuente.",
       "Elevador de subida: cambia el bloque del suelo del hueco por soul sand. Al segundo aparecen burbujas: entra y sales disparado arriba.",
-      "Elevador de bajada: usa un magma block en su lugar. El remolino te baja rápido y aterrizas a salvo sobre el magma block (no hace daño mientras estás quieto en la columna).",
+      "Elevador de bajada: cambia el suelo por un bloque de magma. La columna te arrastra hacia abajo y da aire, pero el magma todavía puede hacerte daño al llegar al suelo. Agáchate antes de tocarlo para evitar su daño y sal a un bloque seguro.",
       "Combina ambos: dos huecos adyacentes, uno con soul sand para subir y otro con magma para bajar, compartiendo paredes.",
       "Pon una fuente de agua en la entrada superior para poder entrar también desde arriba, e ilumina el hueco para que no aparezcan drowned."
     ],
-    "versions": "Las bubble columns se añadieron en la Update Aquatic (Java 1.13 / Bedrock 1.5). La mecánica es idéntica en ambas ediciones.",
-    "editionNote": "Funciona igual en Java y Bedrock. En Bedrock, entrar por arriba en una columna ascendente es un poco más suave a altas velocidades.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Ambas ediciones requieren bloques fuente de agua sobre soul sand o magma. La velocidad cambia: unos 11 bloques por segundo al subir y 4,9 al bajar en Java, frente a 14 al subir y 6 al bajar en Bedrock.",
     "faq": [
       {
         "q": "¿Por qué no salen burbujas?",
@@ -24222,11 +24222,11 @@
       },
       {
         "q": "¿El magma block hace daño?",
-        "a": "Estar sobre magma quita 1 de daño por tick, pero agacharse lo anula, y en un elevador de bajada solo lo tocas un instante. Usa una hopper minecart o carpet bajo la salida si quieres riesgo cero."
+        "a": "Sí. La columna da aire, no inmunidad al bloque de magma de su base. Agacharse evita el daño del magma. Agáchate antes de llegar al fondo y sal a un bloque seguro al lado."
       },
       {
         "q": "¿Puedo subir más rápido?",
-        "a": "Las bubble columns ya son el transporte vertical más rápido del vanilla. Dolphin's grace, Depth Strider o una poción de swiftness dan un pequeño extra dentro de la columna."
+        "a": "Mantén todo el hueco con agua fuente, sin huecos ni obstáculos, para que la columna ascendente llegue hasta arriba. Java y Bedrock tienen velocidades distintas en las columnas de burbujas."
       }
     ],
     "relatedLinks": [
