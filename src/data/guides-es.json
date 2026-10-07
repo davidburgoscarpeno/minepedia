@@ -1958,9 +1958,9 @@
     "steps": [
       "Haz primero los libros: cada libro necesita 3 papeles y 1 cuero.",
       "Consigue 6 tablones de cualquier madera por estantería.",
-      "Craftea la estantería: 6 tablones y 3 libros. Los tablones llenan la fila superior e inferior y los libros la central.",
+      "Fabrica la estantería en una cuadrícula de 3×3: 6 tablones de cualquier madera (se pueden mezclar) en las filas superior e inferior y 3 libros en la fila central.",
       "Para encantar hasta nivel 30 hacen falta hasta 15 estanterías alrededor de la mesa de encantamientos, así que prepara 45 libros y 90 tablones.",
-      "Al romper una estantería suelta 3 libros; usa una herramienta con Silk Touch para obtener la estantería. Un hacha la rompe más rápido.",
+      "Al romper una estantería suelta 3 libros, con los que puedes reconstruirla añadiendo 6 tablones. Usa una herramienta con Silk Touch para obtener la estantería. Un hacha la rompe más rápido.",
       "Cómprala: un bibliotecario novato vende una estantería por 9 esmeraldas (67% de probabilidad, 50% de aparecer).",
       "Saquea o copia estanterías gratis: bibliotecas de aldeas, bibliotecas de stronghold (161 estanterías, o 233 con balcón) y woodland mansions (1-24 en distintas salas, 180 en la gran biblioteca)."
     ],
@@ -1971,7 +1971,7 @@
       "Opcional: herramienta de Silk Touch para moverlas enteras"
     ],
     "editionNote": "Las estanterías se craftean igual en todas las ediciones. La wiki indica que un máximo de quince estanterías mejora los encantamientos de la mesa, a costa de un requisito de nivel mayor.",
-    "versions": "Según la página Bookshelf de Minecraft Wiki.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuántas estanterías necesito para encantamientos de nivel 30?",
@@ -11102,11 +11102,12 @@
     "quickAnswer": "Fabrica 6 planks + 3 wooden slabs: planks en las filas superior e inferior y slabs en la del medio. Un chiseled bookshelf guarda 6 libros reales que puedes meter y sacar, y un comparator lee el último hueco tocado, convirtiéndolo en una cerradura de combinación de redstone.",
     "steps": [
       "Consigue 6 planks y 3 wooden slabs de cualquier madera (se pueden mezclar).",
-      "Fabrícalo: planks en las filas de arriba y abajo, y las 3 slabs en la fila central.",
+      "Fabrícalo en una cuadrícula de 3×3: 6 planks de cualquier madera en las filas de arriba y abajo y las 3 slabs en la fila central.",
       "Haz clic derecho con cualquier libro (normal, encantado, written book o book and quill) para guardarlo en uno de los 6 huecos; haz clic en un hueco para recuperarlo.",
       "Automatízalo: los hoppers y droppers meten y sacan libros, llenando primero el primer hueco vacío.",
       "Léelo con redstone: un comparator contra el bloque emite una señal de 1 a 6 igual al ÚLTIMO hueco con el que se interactuó (0 antes del primer toque).",
-      "Monta una cerradura de combinación: solo tocar los huecos correctos en el orden correcto produce el patrón de señal que abre la puerta."
+      "Monta una cerradura de combinación: solo tocar los huecos correctos en el orden correcto produce el patrón de señal que abre la puerta.",
+      "Al romperlo, todos los libros guardados caen como objetos. El bloque solo se obtiene con una herramienta con Silk Touch, así que saca los libros antes o espera que se esparzan."
     ],
     "materials": [
       "6 planks de cualquier madera",

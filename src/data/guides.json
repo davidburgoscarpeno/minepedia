@@ -2263,9 +2263,9 @@
     "steps": [
       "Make books first: each book needs 3 paper and 1 leather.",
       "Get 6 planks of any wood per shelf.",
-      "Craft the shelf: 6 planks and 3 books. Planks fill the top and bottom rows, books fill the middle row.",
+      "Craft the shelf in a 3×3 grid: 6 planks of any wood (types can be mixed) in the top and bottom rows, and 3 books across the middle row.",
       "Enchanting needs up to 15 bookshelves around an enchanting table to reach level 30 enchantments, so plan 45 books and 90 planks.",
-      "Breaking a bookshelf drops 3 books; use a Silk Touch tool to get the shelf itself. An axe breaks it faster.",
+      "Breaking a bookshelf drops 3 books, which you can use to rebuild it with 6 planks. Use a Silk Touch tool to get the shelf itself. An axe breaks it faster.",
       "Buy one: a novice librarian villager sells a bookshelf for 9 emeralds (67% probability, 50% to appear).",
       "Loot or copy free ones: village libraries, stronghold libraries (161 bookshelves, or 233 with a balcony) and woodland mansions (1-24 in various rooms, 180 in the large library)."
     ],
@@ -2276,7 +2276,7 @@
       "Optional: Silk Touch tool to move shelves whole"
     ],
     "editionNote": "Bookshelves are crafted the same way in all editions. The wiki states that a maximum of fifteen bookshelves improves enchantments from an enchanting table, at the cost of a higher level requirement.",
-    "versions": "Per the Minecraft Wiki Bookshelf page.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How many bookshelves do I need for level 30 enchantments?",
@@ -12251,11 +12251,12 @@
     "quickAnswer": "Craft 6 planks + 3 wooden slabs: planks on the top and bottom rows, slabs across the middle. A chiseled bookshelf stores 6 real books you can insert and remove - and a comparator reads the last slot you touched, making it a redstone combination lock.",
     "steps": [
       "Gather 6 planks and 3 wooden slabs of any wood (they can be mixed).",
-      "Craft: planks filling the top and bottom rows, the 3 slabs across the middle row.",
+      "Craft in a 3×3 grid: 6 planks of any wood in the top and bottom rows and the 3 wooden slabs across the middle row.",
       "Right-click with any book - normal, enchanted, written or book and quill - to shelve it in one of the 6 slots; click a slot to take the book back.",
       "Automate it: hoppers and droppers insert and remove books, filling the first empty slot first.",
       "Read it with redstone: a comparator against the block outputs a signal 1-6 equal to the LAST slot interacted with (0 before the first touch).",
-      "Build a combination lock: only touching the right slots in the right order produces the signal pattern that opens the door."
+      "Build a combination lock: only touching the right slots in the right order produces the signal pattern that opens the door.",
+      "Breaking it drops every stored book as items. The shelf itself drops only if you use a Silk Touch tool, so take the books out or expect them to spill."
     ],
     "materials": [
       "6 planks of any wood",
