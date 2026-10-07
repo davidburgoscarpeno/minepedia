@@ -3441,31 +3441,33 @@
   "how-to-find-amethyst": {
     "name": "Cómo encontrar Amethyst en Minecraft",
     "shortTitle": "Encontrar Amethyst",
-    "quickAnswer": "La amethyst solo crece dentro de los amethyst geodes: estructuras redondas enterradas entre Y=-58 e Y=30, con una cáscara de smooth basalt y un anillo blanco de calcite. Cada chunk tiene 1 probabilidad entre 24 de tener uno, y el 95% tiene una grieta visible mientras exploras cuevas.",
+    "quickAnswer": "Encuentra amethyst geodes entre Y=-58 e Y=30 en el Overworld. Busca su capa exterior de smooth basalt y su capa blanca de calcite en cuevas o bajo el agua. Cada chunk tiene 1 probabilidad entre 24 de intentar generar un geode, y los geodes tienen un 95% de probabilidad de generarse con una grieta.",
     "steps": [
-      "Conoce el objetivo: los geodes se generan entre Y=-58 e Y=30, en cualquier bioma del Overworld, bajo tierra o bajo el agua. Los fondos oceánicos y las paredes de cuevas son donde la mayoría de jugadores ve el primero.",
-      "Explora cuevas por debajo de Y=30: el 95% de los geodes se genera con una grieta que deja el interior hueco al descubierto, así que explorar cuevas y acuíferos es más rápido que cavar a ciegas.",
+      "Conoce el objetivo: los amethyst geodes se generan entre Y=-58 e Y=30 en el Overworld. Busca su capa exterior bajo tierra o bajo el agua.",
+      "Explora cuevas en ese rango de altura: los geodes tienen un 95% de probabilidad de generarse con una grieta que deja al descubierto su interior hueco.",
       "Reconoce la cáscara: la capa exterior es smooth basalt (gris oscuro) y el anillo intermedio es calcite (blanca): cualquiera de los dos bloques asomando en una pared de cueva significa que hay un geode detrás.",
       "Entra: el interior está forrado de bloques de amethyst y budding amethyst. Los buds y clusters de amethyst solo crecen sobre bloques de budding amethyst.",
       "Recolecta clusters, no buds: solo el amethyst cluster completamente crecido suelta shards. Rómpelo con un pickaxe para 4 shards; a mano o con piston solo obtienes 2.",
       "Usa Fortune: Fortune III sube la media a 8,8 shards por cluster. Usa Silk Touch solo si quieres llevarte el bloque de cluster para decoración.",
-      "Nunca mines la budding amethyst: no suelta nada, ni con Silk Touch, y los pistons no pueden moverla. Déjala en su sitio para que siga generando nuevos clusters: un geode es una granja renovable.",
-      "Craftea con los shards: 4 amethyst shards + 1 glass = tinted glass; 2 shards + un copper ingot y un stick = spyglass; 4 shards = un bloque de amethyst; y los shards duplican allays cuando bailan junto a un jukebox."
+      "Protege la budding amethyst: no suelta nada, ni con Silk Touch. Un piston la destruye en lugar de moverla. Déjala en su sitio para que crezcan más buds y clusters.",
+      "Craftea tinted glass: coloca 1 glass en el centro de una crafting table y 1 amethyst shard justo encima, debajo, a la izquierda y a la derecha. Los 4 shards y 1 glass producen 2 tinted glass.",
+      "Craftea un spyglass: llena una columna vertical de la crafting table con 1 amethyst shard arriba y 1 copper ingot en cada una de las dos casillas inferiores. Produce 1 spyglass; no necesita stick.",
+      "Craftea un bloque de amethyst: coloca 4 amethyst shards en un cuadrado de 2 por 2 para obtener 1 bloque de amethyst."
     ],
     "materials": [
       "Cualquier pickaxe (Fortune III recomendado)",
       "Comida y torches para explorar cuevas"
     ],
-    "editionNote": "La generación de geodes y las gotas de shards son iguales en Java y Bedrock. En ambas ediciones la budding amethyst no se puede mover ni obtener, lo que convierte cada geode en una fuente renovable permanente.",
-    "versions": "Los amethyst geodes se añadieron en Java 1.17, Caves and Cliffs Parte I, el 8 de junio de 2021: el primer recurso de cristal renovable del juego. Bedrock los recibió en 1.17.0 el mismo día.",
+    "editionNote": "En ambas ediciones, la budding amethyst no se puede obtener en Survival ni mover. En Bedrock, un nuevo amethyst bud también puede formarse en agua en movimiento y sustituir el bloque de agua.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Dónde aparecen los amethyst geodes en Minecraft?",
-        "a": "En cualquier punto subterráneo entre Y=-58 e Y=30, en cualquier bioma, con 1 probabilidad entre 24 por chunk. Lo más fácil es encontrarlos explorando cuevas grandes, acuíferos y fondos oceánicos por debajo de Y=30, buscando smooth basalt o calcite blanca."
+        "a": "Los amethyst geodes se generan entre Y=-58 e Y=30 en el Overworld. Cada chunk tiene 1 probabilidad entre 24 de intentar generarlos. Busca smooth basalt y calcite blanca en cuevas o bajo el agua."
       },
       {
         "q": "¿Se puede mover la budding amethyst?",
-        "a": "No. La budding amethyst no suelta nada al minarla (Silk Touch no ayuda) y los pistons no pueden empujarla. La amethyst solo se puede farmear donde se generó el geode."
+        "a": "No. La budding amethyst no suelta nada, ni con Silk Touch, y se destruye cuando un piston la empuja. Déjala donde se generó para que crezca más amethyst."
       },
       {
         "q": "¿Cuántos amethyst shards suelta un cluster?",
@@ -3473,7 +3475,7 @@
       },
       {
         "q": "¿Para qué sirven los amethyst shards?",
-        "a": "Para el spyglass (zoom), el tinted glass (cristal que bloquea la luz), bloques de amethyst para decoración y calibración de sculk sensors, y para duplicar allays poniendo un jukebox junto a ellos."
+        "a": "Puedes craftear un spyglass, tinted glass y bloques de amethyst. Un spyglass usa 1 shard y 2 copper ingots; el tinted glass usa 4 shards y 1 glass para producir 2 bloques; y un bloque de amethyst usa 4 shards."
       }
     ],
     "relatedGuides": [
