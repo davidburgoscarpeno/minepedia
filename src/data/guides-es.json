@@ -310,24 +310,26 @@
     "shortTitle": "Hacer un iron golem",
     "quickAnswer": "Coloca 4 bloques de hierro en forma de T (3 en fila arriba y 1 debajo del central) y pon una calabaza tallada o jack o'lantern encima del bloque central superior, al final. Aparece un golem de hierro con 100 HP. Un golem construido por el jugador es pasivo con los jugadores y ataca a mobs hostiles.",
     "steps": [
-      "Fabrica 4 bloques de hierro (36 lingotes de hierro) y consigue una calabaza tallada (esquila una calabaza) o una jack o'lantern.",
-      "Coloca 3 bloques de hierro en fila y 1 más debajo del bloque central, formando una T.",
-      "Coloca la calabaza tallada o la jack o'lantern sobre el bloque central superior. Debe ir la última (también pueden colocarla un dispensador o un enderman). Otra opción: coloca una calabaza sin tallar y esquílala para generar el golem.",
-      "Aparece el golem de hierro: 100 HP con la vida completa. Ataca a mobs hostiles y los lanza por los aires, y nunca te ataca directamente.",
-      "Para curarlo, usa un lingote de hierro sobre él: cada lingote restaura 25 HP. Las grietas muestran su salud: ninguna con 75% o más, y más grietas por debajo del 75%, 50% y 25%.",
-      "Puedes ponerle una correa (lead) para moverlo. Al morir suelta 3-5 lingotes de hierro y 0-2 amapolas."
+      "Fabrica 4 bloques de hierro: cada bloque usa 9 lingotes ocupando las 9 casillas de una mesa de trabajo, así que el cuerpo necesita 36 lingotes.",
+      "Consigue una calabaza tallada usando tijeras sobre una calabaza. Para fabricar tijeras, coloca 2 lingotes de hierro en diagonal en un área de 2×2 (uno arriba a la derecha y otro abajo a la izquierda). También puedes fabricar 1 calabaza iluminada (jack o'lantern): coloca 1 calabaza tallada justo encima de 1 antorcha.",
+      "Construye el cuerpo de pie: coloca 1 bloque de hierro como base y encima una fila de 3 bloques de hierro, con el central justo sobre la base.",
+      "Deja libres las cuatro esquinas: encima y debajo de cada bloque exterior de hierro debe haber aire. Retira hierba, flores, capas de nieve, agua y cualquier otro bloque de esos espacios.",
+      "Coloca al final la calabaza tallada o iluminada sobre el bloque central superior. También puede colocarla un dispensador. Otra opción es montar la estructura con una calabaza sin tallar y usar tijeras sobre ella para crear el golem.",
+      "El golem aparece con 100 HP. Un golem construido por el jugador nunca ataca directamente a los jugadores. Ataca a muchos mobs hostiles, pero no a los creepers; no confíes en él para protegerte de ellos.",
+      "Para curar un golem herido, usa un lingote de hierro sobre él: cada lingote restaura 25 HP y se consume. Las grietas aumentan por debajo del 75%, 50% y 25% de vida. Puedes ponerle una correa para moverlo."
     ],
     "materials": [
-      "4 bloques de hierro (36 iron ingots)",
-      "1 carved pumpkin o jack o'lantern",
-      "Tijeras (para tallar la calabaza)"
+      "4 bloques de hierro (36 lingotes de hierro)",
+      "1 calabaza tallada o iluminada",
+      "Tijeras si vas a tallar la calabaza (2 lingotes de hierro adicionales)",
+      "1 antorcha si fabricas una calabaza iluminada"
     ],
-    "editionNote": "Misma construcción en T en Java y Bedrock. Diferencias según la wiki: las aldeas generan golems con reglas distintas (Java: los aldeanos los invocan al conversar o entrar en pánico; Bedrock: aldeas con al menos 20 camas y 10 aldeanos), y el hitbox mide 2,7 bloques de alto en Java y 2,9 en Bedrock.",
+    "editionNote": "La misma T de 4 bloques y una calabaza tallada o iluminada funcionan en Java y Bedrock. Las cuatro esquinas deben ser aire. Los golems generados por aldeanos siguen reglas distintas según la edición; construir uno a mano no requiere aldeanos, camas ni puestos de trabajo.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué no aparece mi golem de hierro?",
-        "a": "Comprueba que hiciste una T con exactamente 4 bloques de hierro y que la calabaza tallada o jack o'lantern es el último bloque colocado, sobre el bloque central superior."
+        "a": "Usa exactamente 4 bloques de hierro en T y coloca al final una calabaza tallada o iluminada sobre el bloque central superior. Encima y debajo de cada brazo debe haber aire: incluso hierba, flores, capas de nieve o agua impiden la creación. Si usas una calabaza sin tallar, usa tijeras sobre ella después de montar la estructura."
       },
       {
         "q": "¿Me atacará un golem que yo construya?",
@@ -336,6 +338,10 @@
       {
         "q": "¿Cómo curo a un golem de hierro?",
         "a": "Usa un lingote de hierro sobre él. Cada lingote cura 25 HP y se consume."
+      },
+      {
+        "q": "¿Cuánto hierro cuesta un golem de hierro?",
+        "a": "El cuerpo necesita 36 lingotes, convertidos en 4 bloques de hierro. Si también necesitas fabricar tijeras, añade 2 lingotes más: 38 en total. La calabaza es un objeto adicional."
       }
     ],
     "relatedLinks": [

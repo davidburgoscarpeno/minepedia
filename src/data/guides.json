@@ -345,24 +345,26 @@
     "shortTitle": "Make an Iron Golem",
     "quickAnswer": "Place 4 blocks of iron in a T shape (3 across the top, 1 below the middle one) and put a carved pumpkin or jack o'lantern on top of the center upper block, last. An iron golem with 100 HP appears. A player-built golem is passive toward players and attacks hostile mobs.",
     "steps": [
-      "Craft 4 blocks of iron (36 iron ingots) and get a carved pumpkin (shear a pumpkin) or a jack o'lantern.",
-      "Place 3 iron blocks in a row, then 1 more below the middle block, forming a T.",
-      "Place the carved pumpkin or jack o'lantern on the center upper block. It must go last (a dispenser or an enderman can place it too). Alternatively, place an uncarved pumpkin and shear it to spawn the golem.",
-      "The iron golem appears: 100 HP at full health. It attacks hostile mobs and knocks them into the air, and never directly attacks you.",
-      "To heal it, use an iron ingot on it: each ingot restores 25 HP. Cracks show its health: none at 75% or more, then more cracks below 75%, 50% and 25%.",
-      "You can put a lead on it to move it. It drops 3-5 iron ingots and 0-2 poppies when killed."
+      "Craft 4 blocks of iron: each block uses 9 iron ingots filling all 9 slots of a crafting table, so you need 36 ingots for the body.",
+      "Get a carved pumpkin by using shears on a pumpkin. To craft shears, place 2 iron ingots diagonally in a 2×2 area (one top-right and one bottom-left). Alternatively, craft 1 jack o'lantern by placing 1 carved pumpkin directly above 1 torch.",
+      "Build the body upright: place 1 iron block as the stem, then 3 iron blocks in a row above it, with the middle block directly over the stem.",
+      "Leave the four corner spaces empty: above and below each outer iron block must be air. Remove grass, flowers, snow layers, water and any other blocks from those spaces.",
+      "Place the carved pumpkin or jack o'lantern on top of the middle upper iron block last. A dispenser can also place it. Alternatively, build with an uncarved pumpkin and use shears on that pumpkin to create the golem.",
+      "The golem appears with 100 HP. A player-built golem never directly attacks players. It attacks many hostile mobs, but not creepers; do not rely on it for creeper protection.",
+      "To heal a damaged golem, use an iron ingot on it: each ingot restores 25 HP and is consumed. Cracks become more severe below 75%, 50% and 25% health. You can attach a lead to move the golem."
     ],
     "materials": [
       "4 blocks of iron (36 iron ingots)",
       "1 carved pumpkin or jack o'lantern",
-      "Shears (to carve the pumpkin)"
+      "Shears if carving a pumpkin (2 extra iron ingots)",
+      "1 torch if crafting a jack o'lantern"
     ],
-    "editionNote": "Same T-shaped build in Java and Bedrock. Differences on the wiki: villages spawn golems by different rules (Java: villagers summon them when gossiping or panicking; Bedrock: villages with at least 20 beds and 10 villagers), and the hitbox is 2.7 blocks tall in Java and 2.9 in Bedrock.",
+    "editionNote": "The same 4-block T and carved pumpkin or jack o'lantern work in Java and Bedrock. The four corner spaces must be air. Villager-generated golems use different spawning rules by edition; manually building a golem does not require villagers, beds or workstations.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Why won't my iron golem spawn?",
-        "a": "Check that you built a T of exactly 4 iron blocks and that the carved pumpkin or jack o'lantern is the last block placed, on top of the center upper block."
+        "a": "Use exactly 4 iron blocks in a T and place a carved pumpkin or jack o'lantern last, above the middle upper block. The spaces above and below each arm must be air: even grass, flowers, snow layers or water stop the build from working. If using an uncarved pumpkin, use shears on it after assembling the structure."
       },
       {
         "q": "Will a golem I build attack me?",
@@ -371,6 +373,10 @@
       {
         "q": "How do I heal an iron golem?",
         "a": "Use an iron ingot on it. Each ingot heals 25 HP and is consumed."
+      },
+      {
+        "q": "How much iron does an iron golem cost?",
+        "a": "The body needs 36 iron ingots, crafted into 4 blocks of iron. If you also need to craft shears, budget 2 more ingots, for 38 total. The pumpkin is an additional item."
       }
     ],
     "relatedGuides": [
