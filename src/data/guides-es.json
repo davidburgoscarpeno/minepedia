@@ -983,13 +983,13 @@
   "how-to-find-nether-fortress": {
     "name": "Cómo encontrar una Nether Fortress en Minecraft",
     "shortTitle": "Encontrar una Nether Fortress",
-    "quickAnswer": "Las Nether fortresses se generan en todos los biomas del Nether, alternando con bastion remnants en regiones de 432x432 bloques (Java) o 480x480 (Bedrock). Una fortress tiene un 40% por región en Java y un 33,3% en Bedrock, y en los basalt deltas se genera una fortress en lugar de un bastion. Busca puentes y pilares oscuros de nether brick sobre los mares de lava.",
+    "quickAnswer": "Las Nether fortresses pueden generarse en cualquier bioma del Nether. Busca puentes, pasillos y torres de nether brick, incluidas estructuras parcialmente enterradas en netherrack. Las regiones de estructuras del Nether miden 432 por 432 bloques en Java y 480 por 480 en Bedrock; una región puede generar una fortress o un bastion, no ambos.",
     "steps": [
       "Entra al Nether con armadura, un arma, comida y bloques para hacer puentes.",
-      "Viaja en línea recta: cada región tiene una fortress o un bastion remnant, nunca ambos, así que un viaje largo cruza muchas regiones.",
+      "Explora varias regiones de estructuras: cada una puede generar una fortress o un bastion remnant, no ambos. No se alternan en una secuencia fija. Mantén una ruta segura de vuelta al portal.",
       "Recuerda el área de generación: cada región tiene una separación de cuatro chunks en sus bordes sur y este, dejando un área de 368x368 (Java) o 416x416 (Bedrock) donde puede generarse una estructura.",
       "Busca grandes complejos de nether brick con puentes, pasillos y torres sobre pilares sobre los mares de lava. También pueden estar enterradas en netherrack, pero los pasillos quedan despejados.",
-      "Si encuentras un bastion remnant, sigue: la siguiente región vuelve a tirar, 40% de fortress en Java y 33,3% en Bedrock.",
+      "Si encuentras un bastion remnant, amplía la búsqueda a otras regiones. La probabilidad de seleccionar fortress frente a bastion es de 2/5 (40%) en Java y 1/3 (aproximadamente 33,3%) en Bedrock. En basalt deltas, un bastion seleccionado se sustituye por una fortress.",
       "Dentro, busca nether wart junto a las escaleras y hasta 2 plataformas de blaze spawner: tres escaleras de bloque completo llevan a una plataforma con nether brick fence y el spawner de blaze en el centro.",
       "Las fortresses son el único sitio donde aparecen wither skeletons y blazes."
     ],
@@ -999,12 +999,12 @@
       "Comida, bloques de construcción e idealmente pociones de Fire Resistance",
       "Un flint and steel de repuesto, por si un ghast desactiva tu portal"
     ],
-    "editionNote": "Las regiones de Java son de 432x432 bloques con un 40% de probabilidad de fortress; las de Bedrock son de 480x480 con un 33,3%. En los basalt deltas siempre se generan fortresses, no bastions, en ambas ediciones.",
-    "versions": "Según la página Nether Fortress de Minecraft Wiki.",
+    "editionNote": "Las regiones de estructuras miden 432 por 432 bloques en Java y 480 por 480 en Bedrock. La selección de fortress es de 2/5 en Java y 1/3 en Bedrock antes de aplicar la sustitución en basalt deltas. Eso no significa que cada lugar de basalt deltas contenga una fortress.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿En qué dirección debo viajar para encontrar una fortress?",
-        "a": "En cualquiera. Cada región tiene de forma independiente una fortress o un bastion remnant, así que una línea recta cruza muchas regiones."
+        "a": "No hay una dirección obligatoria. Amplía la búsqueda a varias regiones de estructuras y busca puentes y torres de nether brick. Un bastion en una región no garantiza una fortress en la siguiente."
       },
       {
         "q": "¿Pueden las fortresses generarse enterradas en netherrack?",
@@ -1012,7 +1012,7 @@
       },
       {
         "q": "¿Qué probabilidad hay de fortress en una región?",
-        "a": "40% en Java y 33,3% en Bedrock. En los basalt deltas un intento de bastion pasa a ser una fortress."
+        "a": "La probabilidad de selección es de 2/5 (40%) en Java y 1/3 (aproximadamente 33,3%) en Bedrock. Si se selecciona un bastion en basalt deltas, se genera una fortress en su lugar. Son reglas de selección de estructuras, no una garantía de fortress en cada punto de búsqueda."
       },
       {
         "q": "¿Qué mobs solo aparecen en fortresses?",

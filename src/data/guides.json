@@ -1198,13 +1198,13 @@
     "slug": "how-to-find-nether-fortress",
     "name": "How to Find a Nether Fortress in Minecraft",
     "shortTitle": "Find a Nether Fortress",
-    "quickAnswer": "Nether fortresses generate in all Nether biomes, alternating with bastion remnants in regions of 432x432 blocks (Java) or 480x480 (Bedrock). A fortress has a 40% chance per region in Java and 33.3% in Bedrock, and in basalt deltas a fortress generates instead of a bastion. Look for dark nether brick bridges and pillars over the lava seas.",
+    "quickAnswer": "Nether fortresses can generate in every Nether biome. Search for nether brick bridges, corridors and towers, including structures partly buried in netherrack. Nether structure regions are 432 by 432 blocks in Java and 480 by 480 in Bedrock; a region can generate a fortress or a bastion, not both.",
     "steps": [
       "Enter the Nether with armor, a weapon, food and blocks for bridging.",
-      "Travel in a straight line: each region holds either a fortress or a bastion remnant, never both, so a long trip crosses many regions.",
+      "Explore across multiple structure regions: each can generate a fortress or a bastion remnant, not both. They do not alternate in a fixed sequence. Keep a safe route back to your portal.",
       "Remember the generation area: each region has a four-chunk separation on its south and east borders, leaving a 368x368 (Java) or 416x416 (Bedrock) area where a structure can generate.",
       "Scan for large nether brick complexes of bridges, corridors and towers on pillars above the lava seas. They can also be buried in netherrack, but hallways and passages stay clear.",
-      "If you find a bastion remnant instead, keep moving: the next region rolls again, 40% fortress in Java and 33.3% in Bedrock.",
+      "If you find a bastion remnant, expand your search to other regions. The fortress-versus-bastion selection chance is 2/5 (40%) in Java and 1/3 (about 33.3%) in Bedrock. In basalt deltas, a selected bastion is replaced by a fortress.",
       "Inside, look for nether wart growing next to the stairs, and for up to 2 blaze spawner platforms: three full-block stairs lead to a small platform fenced with nether brick fence, with the blaze spawner in the center.",
       "Fortresses are the only place where wither skeletons and blazes spawn."
     ],
@@ -1214,12 +1214,12 @@
       "Food, building blocks, and ideally Fire Resistance potions",
       "A flint and steel spare, in case a ghast deactivates your portal"
     ],
-    "editionNote": "Java regions are 432x432 blocks with a 40% fortress chance; Bedrock regions are 480x480 with a 33.3% chance. Basalt deltas always produce fortresses, not bastions, in both editions.",
-    "versions": "Per the Minecraft Wiki Nether Fortress page.",
+    "editionNote": "Structure regions are 432 by 432 blocks in Java and 480 by 480 in Bedrock. Fortress selection is 2/5 in Java and 1/3 in Bedrock before the basalt-deltas replacement rule. This does not mean every location in basalt deltas contains a fortress.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Which direction should I travel to find a fortress?",
-        "a": "Any direction. Each region independently holds a fortress or a bastion remnant, so a straight line crosses many regions."
+        "a": "There is no required compass direction. Expand your search across structure regions and scan for nether brick bridges and towers. A bastion in one region does not guarantee a fortress in the next."
       },
       {
         "q": "Can fortresses generate buried in netherrack?",
@@ -1227,7 +1227,7 @@
       },
       {
         "q": "What is the chance of a fortress in a region?",
-        "a": "40% in Java Edition and 33.3% in Bedrock Edition. In basalt deltas, a bastion attempt becomes a fortress."
+        "a": "The selection chance is 2/5 (40%) in Java and 1/3 (about 33.3%) in Bedrock. If a bastion is selected in basalt deltas, a fortress generates instead. These are structure-selection rules, not a guarantee of a fortress at every search location."
       },
       {
         "q": "What mobs spawn only in fortresses?",
