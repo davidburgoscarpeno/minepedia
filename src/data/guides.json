@@ -14657,13 +14657,13 @@
     "slug": "how-to-make-a-mob-farm",
     "name": "How to Make a Mob Farm",
     "shortTitle": "Mob Farm",
-    "quickAnswer": "Build a dark room high in the air (or over the ocean) with spawning platforms and water channels that flush mobs into a central drop chute. Hostile mobs spawn at light level 0 within 128 blocks of you (Java), stay outside the 24-block no-spawn zone, and a 22-block drop leaves zombies and skeletons at one hit for easy XP.",
+    "quickAnswer": "Build a dark room high in the air (or over the ocean) with spawning platforms and water channels that flush mobs into a central drop chute. Hostile mobs spawn in dark spaces within 128 blocks of you in Java, and a 22-block drop leaves most 20-HP mobs on half a heart, so one hit finishes them for full XP.",
     "steps": [
-      "Pick the spot. Hostile mobs spawn at light level 0 within a 128-block sphere around you (about 96 in Bedrock), but never within 24 blocks of you. Build the farm over deep ocean or 100+ blocks in the sky so you don't have to light up caves.",
-      "Build spawning platforms. Make 2-4 dark platforms (8x8 or larger, 2 blocks tall inside) with trapdoors on the edges - mobs think trapdoors are solid and walk off. Space platforms 3 blocks apart vertically.",
-      "Add water flushing. Water channels on each platform push mobs toward a central 2x2 hole. Signs or trapdoors hold the water at the chute edge. Button or slab any spots spiders could clog (they need a 3x3 space, so a 2-wide channel blocks them).",
-      "Build the kill chute. A 22-block drop leaves zombies, skeletons and creepers at half a heart - one punch kills for full XP. Add hoppers and chests at the bottom to collect drops automatically.",
-      "Light up everything else. The farm only works fast if it is the only dark spawnable space: slab or torch every cave and surface within your 128-block sphere, or AFK high above so caves are out of range."
+      "Pick the spot. Hostile mobs can only spawn within a 128-block sphere around you in Java (roughly 96 blocks horizontally in Bedrock at simulation distance 6 or higher). Build over deep ocean or high in the sky so you don't have to light up caves.",
+      "Build spawning platforms. Make dark platforms with a roof tall enough for the mobs you want: a 3-block roof lets Endermen spawn, a 1-block roof limits the farm to spiders. Line the edges of the central holes with open trapdoors or fence gates, so mobs think the ground is solid and walk in.",
+      "Add water flushing. Channels of flowing water on each platform carry mobs to a central hole. Lining the channels with open trapdoors tricks mobs into walking off. Spiders can clog the hole, so keep an eye on it.",
+      "Build the kill chute. A drop of 22 blocks deals 19 fall damage (own calculation: distance minus 3), which leaves 20-HP mobs such as zombies, skeletons and creepers on half a heart, so one punch kills them and you get the XP. Put hoppers and a chest at the bottom to collect the drops.",
+      "Light up everything else. The farm only works fast if it is the only dark spawnable space in range: light every cave and surface inside your sphere, or stay high above them so they are out of range."
     ],
     "materials": [
       "Stacks of building blocks (cobblestone)",
@@ -14671,20 +14671,20 @@
       "Hoppers and chests",
       "Torches/slabs for spawn-proofing"
     ],
-    "editionNote": "Java: mobs spawn in a 128-block sphere and instantly despawn past 128 blocks, with a 24-block no-spawn bubble. Bedrock: the sphere is about 96 blocks at simulation distance 6+, despawning works differently, and rates are lower - Bedrock farms are usually built smaller.",
+    "editionNote": "Java: mobs spawn only inside a 128-block radius sphere around you, and hostile mobs farther than 128 blocks from every player despawn instantly. Bedrock: spawning happens in a shell 24-128 blocks away, limited to roughly 96 blocks horizontally at simulation distance 6 or higher and to 44 blocks at simulation distance 4. Bedrock also has caps on mob density, so farms there give lower rates.",
     "versions": "Dark-room mob farms have worked since Classic. The 1.18 Caves & Cliffs update changed spawning to light level 0 (was 7), which made spawn-proofing far easier and dark-room farms more efficient.",
     "faq": [
       {
         "q": "Why is my mob farm so slow?",
-        "a": "Almost always unlit caves below you absorbing the mob cap. AFK about 120 blocks above the farm floor, or spawn-proof every cave in range. Also check the difficulty is not Peaceful."
+        "a": "Usually other dark spaces in range are using up the mob cap, such as unlit caves below you. Light them up or move the farm so they are out of range. Also check that the difficulty is not Peaceful."
       },
       {
         "q": "How high should the drop be?",
-        "a": "22 blocks to one-punch zombies, skeletons and creepers (they have 20 HP). Witches have 26 HP and spiders 16, so a few survive - or use 24+ blocks for a pure loot farm."
+        "a": "22 blocks takes off 19 HP (own calculation), which leaves zombies, skeletons and creepers (20 HP) on half a heart. Spiders (16 HP) die from it and witches (26 HP) survive, so use a longer drop if you want a pure loot farm."
       },
       {
         "q": "Do mob farms work in Bedrock?",
-        "a": "Yes, but rates are much lower. Build over an ocean, keep the simulation distance in mind, and consider a spawner-based farm instead - dungeons are far better in Bedrock."
+        "a": "Yes, but Bedrock limits mob density with caps, so rates are lower than in Java. Build over an ocean and mind your simulation distance."
       }
     ],
     "relatedGuides": [

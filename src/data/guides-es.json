@@ -13318,13 +13318,13 @@
   "how-to-make-a-mob-farm": {
     "name": "Cómo hacer una granja de mobs",
     "shortTitle": "Granja de Mobs",
-    "quickAnswer": "Construye una sala oscura en el aire (o sobre el océano) con plataformas de aparición y canales de agua que empujen a los mobs a un hueco central. Los mobs hostiles aparecen a nivel de luz 0 en un radio de 128 bloques (Java), quédate fuera de la zona de 24 bloques sin apariciones, y una caída de 22 bloques deja a zombies y esqueletos a un golpe para XP fácil.",
+    "quickAnswer": "Construye una sala oscura en el aire (o sobre el océano) con plataformas de aparición y canales de agua que empujen a los mobs a un hueco central. En Java los mobs hostiles aparecen en espacios oscuros a menos de 128 bloques de ti, y una caída de 22 bloques deja a la mayoría de mobs de 20 HP a medio corazón, así que un golpe los remata y da XP completa.",
     "steps": [
-      "Elige el lugar. Los mobs hostiles aparecen a nivel de luz 0 dentro de una esfera de 128 bloques a tu alrededor (~96 en Bedrock), pero nunca a menos de 24 bloques de ti. Construye sobre océano profundo o a más de 100 bloques de altura para no tener que iluminar cuevas.",
-      "Construye plataformas de aparición. Haz 2-4 plataformas oscuras (8x8 o más, 2 bloques de alto interior) con trampillas en los bordes: los mobs creen que son sólidas y se tiran. Separa las plataformas 3 bloques en vertical.",
-      "Añade canales de agua. El agua de cada plataforma empuja a los mobs hacia un hueco central de 2x2. Carteles o trampillas frenan el agua en el borde. Tapa con botones o slabs los huecos donde quepan spiders (necesitan 3x3, así que un canal de 2 las bloquea).",
-      "Construye el conducto de muerte. Una caída de 22 bloques deja a zombies, esqueletos y creepers a medio corazón: un puñetazo mata y da XP completa. Pon hoppers y chests abajo para recoger los drops automáticamente.",
-      "Ilumina todo lo demás. La granja solo rinde si es el único espacio oscuro disponible: pon slabs o antorchas en cada cueva y superficie dentro de tu esfera de 128 bloques, o haz AFK muy alto para que las cuevas queden fuera de rango."
+      "Elige el lugar. Los mobs hostiles solo pueden aparecer dentro de una esfera de 128 bloques a tu alrededor en Java (unos 96 bloques en horizontal en Bedrock con distancia de simulación 6 o más). Construye sobre océano profundo o muy alto en el cielo para no tener que iluminar cuevas.",
+      "Construye plataformas de aparición. Haz plataformas oscuras con un techo adecuado para los mobs que quieras: con 3 bloques de altura aparecen los Endermen, con 1 bloque solo arañas. Rodea los bordes de los huecos centrales con trampillas o puertas de valla abiertas: los mobs creen que el suelo es sólido y entran.",
+      "Añade canales de agua. Los canales de agua corriente de cada plataforma llevan a los mobs a un hueco central. Si los bordeas con trampillas abiertas, los mobs se caen al caminar. Las arañas pueden atascar el hueco, así que vigílalo.",
+      "Construye el conducto de muerte. Una caída de 22 bloques causa 19 de daño (cálculo propio: distancia menos 3), lo que deja a mobs de 20 HP como zombies, esqueletos y creepers a medio corazón: un puñetazo los mata y te llevas la XP. Pon hoppers y un chest abajo para recoger los drops.",
+      "Ilumina todo lo demás. La granja solo rinde si es el único espacio oscuro disponible en rango: ilumina cada cueva y superficie dentro de tu esfera, o quédate muy alto para que queden fuera de rango."
     ],
     "materials": [
       "Stacks de bloques de construcción (cobblestone)",
@@ -13332,20 +13332,20 @@
       "Hoppers y chests",
       "Antorchas/slabs para evitar apariciones"
     ],
-    "editionNote": "Java: los mobs aparecen en una esfera de 128 bloques y desaparecen al instante más allá, con una burbuja de 24 bloques sin apariciones. Bedrock: la esfera es de ~96 bloques con distancia de simulación 6+, el despawn funciona distinto y las tasas son menores: las granjas de Bedrock suelen ser más pequeñas.",
+    "editionNote": "Java: los mobs solo aparecen dentro de una esfera de 128 bloques de radio a tu alrededor, y los mobs hostiles a más de 128 bloques de todos los jugadores desaparecen al instante. Bedrock: la aparición ocurre en una capa a 24-128 bloques, limitada a unos 96 bloques en horizontal con distancia de simulación 6 o más y a 44 bloques con distancia de simulación 4. Bedrock también limita la densidad de mobs, así que las tasas son menores.",
     "versions": "Las granjas de sala oscura funcionan desde Classic. La 1.18 Caves & Cliffs cambió la aparición a nivel de luz 0 (antes 7), lo que facilitó mucho el spawn-proofing e hizo estas granjas más eficientes.",
     "faq": [
       {
         "q": "¿Por qué va tan lenta mi granja?",
-        "a": "Casi siempre son cuevas sin iluminar debajo absorbiendo el límite de mobs. Haz AFK a unos 120 bloques sobre el suelo de la granja o inutiliza cada cueva en rango. Y comprueba que la dificultad no sea Peaceful."
+        "a": "Normalmente otros espacios oscuros en rango agotan el límite de mobs, como cuevas sin iluminar debajo de ti. Ilumínalos o mueve la granja para que queden fuera de rango. Y comprueba que la dificultad no sea Peaceful."
       },
       {
         "q": "¿Qué altura de caída?",
-        "a": "22 bloques para matar de un golpe a zombies, esqueletos y creepers (tienen 20 HP). Las witches tienen 26 HP y las spiders 16, así que algunas sobreviven; usa 24+ para una granja de solo loot."
+        "a": "22 bloques quitan 19 HP (cálculo propio), lo que deja a zombies, esqueletos y creepers (20 HP) a medio corazón. Las spiders (16 HP) mueren y las witches (26 HP) sobreviven, así que usa una caída mayor si quieres una granja de solo loot."
       },
       {
         "q": "¿Funciona en Bedrock?",
-        "a": "Sí, pero las tasas son mucho menores. Construye sobre un océano, ten en cuenta la distancia de simulación, y valora una granja de spawner: en Bedrock las dungeons rinden mucho mejor."
+        "a": "Sí, pero Bedrock limita la densidad de mobs, así que las tasas son menores que en Java. Construye sobre un océano y ten en cuenta la distancia de simulación."
       }
     ],
     "relatedLinks": [
