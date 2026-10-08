@@ -32612,7 +32612,7 @@
     "slug": "minecraft-light-levels",
     "name": "Minecraft Light Levels Explained (Mob Spawns, Crops and Every Light Source)",
     "shortTitle": "Light Levels Explained",
-    "quickAnswer": "Light runs from 0 to 15. Hostile mobs spawn only at block light 0 (since 1.18), crops need light 9 or higher to grow, and ice melts at light 12+. Torches give 14, lanterns and glowstone 15, soul torches 10, redstone torches 7 - press F3 (Java) to see the light level at your feet.",
+    "quickAnswer": "Light runs from 0 to 15. Overworld hostile mobs spawn only at block light 0, crops need light 9 or higher to grow, and ice melts at light 12+. Torches give 14, lanterns and glowstone 15, soul torches 10, redstone torches 7 - press F3 (Java) to see the light level at your feet.",
     "keywords": "minecraft light levels mob spawning light level 0 torch lantern glowstone crops f3 debug",
     "materials": [
       "Torches or better for spawn-proofing",
@@ -32620,8 +32620,8 @@
       "Any 15-light source for max brightness"
     ],
     "steps": [
-      "The spawn rule: since 1.18, hostile mobs spawn only where block light is exactly 0 - a single torch every few blocks makes an area permanently safe.",
-      "Light falls by 1 per block from the source - a torch (14) lights 0-level darkness about 12 blocks away diagonally; grid torches every 10-12 blocks to spawn-proof caves.",
+      "The spawn rule: hostile mobs in the Overworld need a block light of exactly 0 (and a sky light of 7 or less), so any light source nearby stops spawns on the blocks it reaches.",
+      "Light falls by 1 for every block of distance from the source, counting steps along each axis. A torch (14) still gives some light 13 blocks away in a straight line; space torches so no dark gaps remain between them.",
       "Level 15 sources: glowstone, sea lantern, shroomlight, lantern, campfire, jack o'lantern, lava, beacon, conduit, froglights, crying obsidian is 10 (not 15) - check before you build with it.",
       "Torch 14, end rod 14; soul torch and soul lantern 10; redstone torch 7; candles 3 per candle up to 12; magma 3.",
       "Crops: farmland crops need light 9+ to grow - torches over the rows double as decoration and night farming.",
@@ -32629,12 +32629,12 @@
       "Reading light: on Java press F3 and look for 'Client Light' (block + sky). On Bedrock, enable the light level overlay in video settings or count torch distance.",
       "Skylight vs block light: mobs care about internal light combining both - underground, only your placed block light matters, which is why caves need torches even at noon."
     ],
-    "versions": "The light level 0 spawn rule has applied on Java and Bedrock since 1.18. Light source values are the same on both editions.",
-    "editionNote": "The single most useful fact in this guide: light level 1 anywhere stops all hostile spawns - you do not need brightness, you need coverage.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "editionNote": "Light source values are the same on both editions. Block-light rules for mob spawning are described for Java in this guide; Bedrock differs in details such as light-filtering blocks and passive mob spawning, so check in-game before relying on exact spacing.",
     "faq": [
       {
         "q": "What light level do mobs spawn at?",
-        "a": "Block light 0 only, since the 1.18 update. Before that it was 7 or below, which is why old guides talk about torch grids every 6 blocks - today any light at all prevents spawns."
+        "a": "Overworld hostile mobs need block light 0 and sky light 7 or less. Any light source that reaches a block stops them from spawning there."
       },
       {
         "q": "How do I see light levels?",

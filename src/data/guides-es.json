@@ -29249,7 +29249,7 @@
   "minecraft-light-levels": {
     "name": "Los niveles de luz en Minecraft explicados (spawns de mobs, cosechas y cada fuente de luz)",
     "shortTitle": "Niveles de luz explicados",
-    "quickAnswer": "La luz va de 0 a 15. Los mobs hostiles solo aparecen con luz de bloque 0 (desde la 1.18), las cosechas necesitan luz 9 o más para crecer, y el hielo se derrite con luz 12+. Las torches dan 14, las lanterns y el glowstone 15, las soul torches 10, las redstone torches 7: pulsa F3 (Java) para ver el nivel de luz bajo tus pies.",
+    "quickAnswer": "La luz va de 0 a 15. Los mobs hostiles del Overworld solo aparecen con luz de bloque 0, las cosechas necesitan luz 9 o más para crecer, y el hielo se derrite con luz 12+. Las torches dan 14, las lanterns y el glowstone 15, las soul torches 10, las redstone torches 7: pulsa F3 (Java) para ver el nivel de luz bajo tus pies.",
     "keywords": "minecraft niveles de luz spawn mobs nivel de luz 0 torch lantern glowstone cosechas f3 debug",
     "materials": [
       "Torches o mejor para blindar zonas contra spawns",
@@ -29257,8 +29257,8 @@
       "Cualquier fuente de luz 15 para el brillo máximo"
     ],
     "steps": [
-      "La regla del spawn: desde la 1.18, los mobs hostiles solo aparecen donde la luz de bloque es exactamente 0: una sola torch cada pocos bloques hace una zona segura para siempre.",
-      "La luz cae 1 por bloque desde la fuente: una torch (14) ilumina la oscuridad de nivel 0 a unos 12 bloques en diagonal; pon torches en rejilla cada 10-12 bloques para blindar cuevas.",
+      "La regla de aparición: los mobs hostiles del Overworld necesitan luz de bloque exactamente 0 (y luz de cielo de 7 o menos), así que cualquier fuente de luz cercana impide que aparezcan en los bloques que alcanza.",
+      "La luz baja 1 por cada bloque de distancia desde la fuente, contando los pasos en cada eje. Una torch (14) aún da algo de luz a 13 bloques en línea recta; sepáralas de modo que no queden huecos oscuros entre ellas.",
       "Fuentes de nivel 15: glowstone, sea lantern, shroomlight, lantern, campfire, jack o'lantern, lava, beacon, conduit, froglights; la crying obsidian da 10 (no 15): comprueba antes de construir con ella.",
       "Torch 14, end rod 14; soul torch y soul lantern 10; redstone torch 7; candles 3 por vela hasta 12; magma 3.",
       "Cosechas: los cultivos de farmland necesitan luz 9+ para crecer: las torches sobre los surcos sirven de decoración y de granja nocturna a la vez.",
@@ -29266,12 +29266,12 @@
       "Leer la luz: en Java pulsa F3 y busca 'Client Light' (block + sky). En Bedrock, activa la superposición de nivel de luz en los ajustes de vídeo o cuenta la distancia de las torches.",
       "Luz de cielo frente a luz de bloque: a los mobs les importa la luz interna que combina ambas: bajo tierra solo cuenta la luz de bloque que colocas, por eso las cuevas necesitan torches incluso al mediodía."
     ],
-    "versions": "La regla de spawn a nivel de luz 0 se aplica en Java y Bedrock desde la 1.18. Los valores de las fuentes de luz son iguales en ambas ediciones.",
-    "editionNote": "El dato más útil de esta guía: un nivel de luz 1 en cualquier sitio detiene todos los spawns hostiles: no necesitas brillo, necesitas cobertura.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Los valores de las fuentes de luz son iguales en ambas ediciones. Las reglas de luz de bloque para la aparición de mobs se describen aquí para Java; Bedrock difiere en detalles como los bloques que filtran luz y la aparición de mobs pasivos, así que comprueba en el juego antes de fiarte de espaciados exactos.",
     "faq": [
       {
         "q": "¿A qué nivel de luz aparecen los mobs?",
-        "a": "Solo con luz de bloque 0, desde la actualización 1.18. Antes era 7 o menos, por eso las guías antiguas hablan de rejillas de torches cada 6 bloques: hoy cualquier luz impide los spawns."
+        "a": "Los mobs hostiles del Overworld necesitan luz de bloque 0 y luz de cielo de 7 o menos. Cualquier fuente de luz que llegue a un bloque impide que aparezcan allí."
       },
       {
         "q": "¿Cómo veo los niveles de luz?",
