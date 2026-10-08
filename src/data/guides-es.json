@@ -25620,7 +25620,7 @@
   "how-to-change-the-time": {
     "name": "Cómo cambiar la hora en Minecraft",
     "shortTitle": "Cambiar la hora",
-    "quickAnswer": "Ejecuta /time set day (o noon, night, midnight) con cheats activados. /time set 1000 usa ticks exactos. Para el ciclo día-noche del todo con /gamerule advance_time false.",
+    "quickAnswer": "Ejecuta /time set day (o noon, night, midnight) con cheats activados. /time set 1000 usa ticks exactos. En Java, detén el ciclo día-noche con /gamerule advance_time false.",
     "keywords": "cómo cambiar la hora minecraft time set day night comando ticks advance_time siempre de día",
     "materials": [
       "Cheats activados (en Java vale el truco de Open to LAN)",
@@ -25628,18 +25628,18 @@
     ],
     "steps": [
       "Abre el chat (T) y ejecuta /time set day: el sol salta a la mañana.",
-      "Otros presets: /time set noon (sol en lo alto), /time set sunset, /time set night (salen monstruos), /time set midnight.",
-      "Control exacto: /time set 1000 fija el tick 1000. Un día de Minecraft completo son 24000 ticks (20 minutos reales); el día empieza sobre el tick 0-1000 y la noche cae cerca del tick 13000.",
+      "Otros presets: /time set noon (tick 6000, sol en lo alto), /time set night (tick 13000, salen monstruos) y /time set midnight (tick 18000). En Bedrock también puedes usar sunrise (23000) y sunset (12000).",
+      "Control exacto: /time set 1000 fija el tick 1000, igual que day. Un día de Minecraft completo son 24000 ticks (20 minutos reales).",
       "Avanza el tiempo sin saltos: /time add 6000 suma esos ticks.",
-      "Congela el tiempo para siempre: /gamerule advance_time false: el sol se detiene hasta que lo vuelvas a poner en true. Combinado con /time set day tienes día permanente.",
+      "Congela el tiempo: /gamerule advance_time false (Java) detiene el ciclo de día hasta que lo vuelvas a poner en true. Combinado con /time set day tienes día permanente.",
       "Consulta la hora actual con /time query daytime."
     ],
     "versions": "Los comandos de tiempo y advance_time funcionan igual en todas las versiones actuales de Java y Bedrock.",
-    "editionNote": "Comandos idénticos en ambas ediciones. Bedrock también muestra el ciclo de día en los ajustes del mundo bajo cheats, lo que desactiva los logros.",
+    "editionNote": "Ambas ediciones usan /time set, /time add y /time query. Los presets cambian: sunrise y sunset solo existen en Bedrock, y en Java /time set siempre fija directamente la hora del ciclo de día.",
     "faq": [
       {
         "q": "¿Cuánto dura un día de Minecraft?",
-        "a": "20 minutos reales: 10 de día y 10 de noche. Eso son 24000 ticks de juego."
+        "a": "20 minutos reales, que son 24000 ticks de juego. Unos 10 minutos son de día y unos 7 de noche, con el atardecer y el amanecer entre medias."
       },
       {
         "q": "¿Puedo saltarme la noche sin cheats?",

@@ -28983,7 +28983,7 @@
     "slug": "how-to-change-the-time",
     "name": "How to Change the Time in Minecraft",
     "shortTitle": "Change the Time",
-    "quickAnswer": "Run /time set day (or noon, night, midnight) with cheats on. /time set 1000 uses exact ticks. Stop the day-night cycle completely with /gamerule advance_time false.",
+    "quickAnswer": "Run /time set day (or noon, night, midnight) with cheats on. /time set 1000 uses exact ticks. In Java, stop the day-night cycle with /gamerule advance_time false.",
     "keywords": "how to change time minecraft time set day night command ticks advance_time always day",
     "materials": [
       "Cheats enabled (Java: Open to LAN trick works)",
@@ -28991,18 +28991,18 @@
     ],
     "steps": [
       "Open chat (T) and run /time set day - the sun jumps to morning.",
-      "Other presets: /time set noon (sun overhead), /time set sunset, /time set night (monsters spawn), /time set midnight.",
-      "Exact control: /time set 1000 sets tick 1000. A full Minecraft day is 24000 ticks (20 real minutes); day starts around tick 0-1000 and night falls near tick 13000.",
+      "Other presets: /time set noon (tick 6000, sun overhead), /time set night (tick 13000, monsters spawn) and /time set midnight (tick 18000). In Bedrock you can also use sunrise (23000) and sunset (12000).",
+      "Exact control: /time set 1000 sets tick 1000, which is the same as day. A full Minecraft day is 24000 ticks (20 real minutes).",
       "Move time forward without jumping: /time add 6000 adds that many ticks.",
-      "Freeze time forever: /gamerule advance_time false - the sun stops moving until you set it back to true. Combined with /time set day you get permanent daylight.",
+      "Freeze time: /gamerule advance_time false (Java) stops the daylight cycle until you set it back to true. Combined with /time set day you get permanent daylight.",
       "Check the current time with /time query daytime."
     ],
     "versions": "Time commands and advance_time work the same in all current Java and Bedrock versions.",
-    "editionNote": "Identical commands on both editions. Bedrock also exposes the daylight cycle in the world settings under cheats - which disables achievements.",
+    "editionNote": "Both editions use /time set, /time add and /time query. The presets differ: sunrise and sunset exist only in Bedrock, and in Java /time set always sets the daylight cycle time directly.",
     "faq": [
       {
         "q": "How long is a Minecraft day?",
-        "a": "20 real minutes: 10 of daylight, 10 of night. That is 24000 game ticks."
+        "a": "20 real minutes, which is 24000 game ticks. Roughly 10 minutes of that is daytime and about 7 minutes is night, with dusk and dawn in between."
       },
       {
         "q": "Can I skip the night without cheats?",
