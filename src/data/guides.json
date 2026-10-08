@@ -23067,7 +23067,7 @@
     "slug": "how-to-make-a-torch",
     "name": "How to Make a Torch in Minecraft",
     "shortTitle": "Make a Torch",
-    "quickAnswer": "Craft 4 torches with 1 coal (or charcoal) on top of 1 stick anywhere in the crafting grid. Torches give off light level 14, stop hostile mobs from spawning around your base and melt snow and ice nearby.",
+    "quickAnswer": "Craft 4 torches with 1 coal (or charcoal) on top of 1 stick anywhere in the crafting grid. Torches give off light level 14, which keeps hostile mobs from spawning on nearby blocks, and they melt snow and ice right next to them.",
     "steps": [
       "Get coal by mining coal ore (common in mountains and caves), or make charcoal by smelting a log.",
       "Craft sticks from 2 planks.",
@@ -23080,7 +23080,7 @@
       "1 coal or charcoal",
       "1 stick (makes 4 torches)"
     ],
-    "editionNote": "The torch recipe is identical in Java and Bedrock, and torches can be placed on the top or sides of most solid blocks in both. A regular torch gives light level 14; hostile mobs spawn only at light level 0, so spacing torches every few blocks keeps an area safe. Underwater torches do not work, but torches instantly break gravity blocks like sand and gravel that fall on them, which is the fastest way to mine a gravel pillar. For a dimmer blue light, craft a soul torch with soul soil or soul sand added.",
+    "editionNote": "The torch recipe is identical in Java and Bedrock, and torches can be placed on the top or sides of most solid blocks in both. A regular torch gives light level 14; hostile mobs in the Overworld need a block light of 0 to spawn, so any torch that reaches a block keeps mobs off it. Underwater torches do not work, but torches instantly break gravity blocks like sand and gravel that fall on them, which is the fastest way to mine a gravel pillar. For a dimmer blue light, craft a soul torch with soul soil or soul sand added.",
     "versions": [
       "java",
       "bedrock"
@@ -23092,11 +23092,11 @@
       },
       {
         "q": "How far apart should you place torches to stop mobs spawning?",
-        "a": "Hostile mobs need light level 0 to spawn, and torch light drops one level per block. Leaving about 10-12 blocks between torches on flat ground keeps every spot at level 1 or above."
+        "a": "Hostile mobs in the Overworld need a block light of 0 to spawn, and torch light drops by 1 for each block of distance. A torch reaches 13 blocks, but light spreads by steps along each axis, so diagonal corners are reached sooner than that. Place torches close enough that no dark gaps remain between them."
       },
       {
         "q": "Can torches melt snow and ice?",
-        "a": "Yes. Snow layers and ice within a few blocks of a torch melt because of its light. Use soul torches, lanterns or hidden lighting if you want to keep ice or snow intact."
+        "a": "Yes. Ice melts and snow layers disappear next to a light source of level 12 or more that is not the sun, which for a torch means within about 2 blocks. Use soul torches, lanterns at a distance or hidden lighting if you want to keep ice or snow intact."
       }
     ],
     "relatedGuides": [

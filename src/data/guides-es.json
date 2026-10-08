@@ -20535,7 +20535,7 @@
   "how-to-make-a-torch": {
     "name": "Cómo hacer una torch en Minecraft",
     "shortTitle": "Hacer una torch",
-    "quickAnswer": "Fabrica 4 torches con 1 coal (o charcoal) encima de 1 stick en cualquier parte de la crafting grid. Las torches dan light level 14, impiden que los mobs hostiles aparezcan alrededor de tu base y derriten la snow y el ice cercanos.",
+    "quickAnswer": "Fabrica 4 torches con 1 coal (o charcoal) encima de 1 stick en cualquier parte de la crafting grid. Las torches dan light level 14, lo que impide que aparezcan mobs hostiles en los bloques cercanos, y derriten la snow y el ice pegados a ellas.",
     "steps": [
       "Consigue coal minando coal ore (común en montañas y cuevas), o haz charcoal fundiendo un log.",
       "Fabrica sticks con 2 planks.",
@@ -20548,7 +20548,7 @@
       "1 coal o charcoal",
       "1 stick (hace 4 torches)"
     ],
-    "editionNote": "La receta de la torch es idéntica en Java y Bedrock, y las torches se pueden colocar encima o en los laterales de la mayoría de bloques sólidos en ambas. Una torch normal da light level 14; los mobs hostiles solo aparecen con light level 0, así que espaciar torches cada pocos bloques mantiene una zona segura. Bajo el agua no funcionan, pero las torches rompen al instante bloques con gravedad como sand y gravel que caen sobre ellas, la forma más rápida de minar un pilar de gravel. Para una luz azul más tenue, fabrica una soul torch añadiendo soul soil o soul sand.",
+    "editionNote": "La receta de la torch es idéntica en Java y Bedrock, y las torches se pueden colocar encima o en los laterales de la mayoría de bloques sólidos en ambas. Una torch normal da light level 14; los mobs hostiles del Overworld necesitan luz de bloque 0 para aparecer, así que cualquier torch que alcance un bloque impide que aparezcan en él. Bajo el agua no funcionan, pero las torches rompen al instante bloques con gravedad como sand y gravel que caen sobre ellas, la forma más rápida de minar un pilar de gravel. Para una luz azul más tenue, fabrica una soul torch añadiendo soul soil o soul sand.",
     "versions": [
       "java",
       "bedrock"
@@ -20560,11 +20560,11 @@
       },
       {
         "q": "¿A qué distancia hay que poner las torches para que no aparezcan mobs?",
-        "a": "Los mobs hostiles necesitan light level 0 para aparecer, y la luz de una torch baja un nivel por bloque. Dejar unos 10-12 bloques entre torches en terreno llano mantiene todo a nivel 1 o más."
+        "a": "Los mobs hostiles del Overworld necesitan luz de bloque 0 para aparecer, y la luz de una torch baja 1 por cada bloque de distancia. Una torch llega a 13 bloques, pero la luz se propaga paso a paso por cada eje, así que las esquinas en diagonal quedan antes sin cubrir. Coloca las torches lo bastante cerca para que no queden huecos oscuros entre ellas."
       },
       {
         "q": "¿Las torches derriten snow e ice?",
-        "a": "Sí. Las capas de snow y el ice a pocos bloques de una torch se derriten por su luz. Usa soul torches, lanterns o iluminación oculta si quieres conservar el ice o la snow."
+        "a": "Sí. El ice se derrite y las capas de snow desaparecen junto a una fuente de luz de nivel 12 o más que no sea el sol, lo que en una torch significa a unos 2 bloques. Usa soul torches, lanterns a distancia o iluminación oculta si quieres conservar el ice o la snow."
       }
     ],
     "relatedLinks": [
