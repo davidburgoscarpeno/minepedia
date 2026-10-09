@@ -1996,12 +1996,12 @@
     "shortTitle": "Find Buried Treasure",
     "quickAnswer": "Buried treasure is a chest buried mainly in beaches, and it always holds a heart of the sea, the only source of one. Find it with a buried treasure map from a shipwreck, then dig where the map leads. In Java the chest is at chunk-relative 9,9 and faces east; in Bedrock it is at 8,8.",
     "steps": [
-      "Get a map: shipwrecks have up to 3 chests (supply, treasure and map chests), and the wiki says they can contain buried treasure maps. Map chests are in the lower section of the ship.",
+      "Get a map: shipwrecks have up to 3 chests (supply, treasure and map chests), and they can contain buried treasure maps. Map chests are in the lower section of the ship. A cartographer villager can also sell one.",
       "Follow the map to the treasure. Buried treasure generates in beach biomes (Java and Bedrock) and can also generate underwater.",
       "Find the exact spot: in Java the chest is always at chunk-relative 9 on both X and Z, and faces east. In Bedrock it is at 8 on X and Z.",
       "Dig down. The chest is usually under sand or gravel on beaches, under stone if it generated on an underwater hillside, and sometimes under other terrain blocks like coal ore or diorite.",
       "If the chest is exposed to water it is waterlogged.",
-      "Loot: every buried treasure has a heart of the sea. Java pools can also give iron ingots, gold ingots, cooked cod and salmon, Water Breathing potions, TNT, emeralds, prismarine crystals and diamonds.",
+      "Loot: every buried treasure has a heart of the sea. Other possible items are iron and gold ingots, cooked cod and salmon, Water Breathing potions, TNT, emeralds, prismarine crystals, diamonds, a leather tunic, an iron sword, an iron spear and copper, iron, golden or diamond nautilus armor. Java has had this loot since 1.21.11 and Bedrock since 1.21.130.",
       "Use the heart of the sea to craft a conduit."
     ],
     "materials": [
@@ -2009,12 +2009,12 @@
       "A shovel",
       "Something for breathing underwater, if the chest is underwater"
     ],
-    "editionNote": "Java: chunk-relative 9,9 and the chest faces east. Bedrock: chunk-relative 8,8. Bedrock also generates buried treasure in stony shore and mushroom field shore biomes, in addition to beaches and snowy beaches.",
+    "editionNote": "Java: chunk-relative 9,9 and the chest faces east. Bedrock: chunk-relative 8,8. Bedrock also generates buried treasure in stony shore and mushroom field shore biomes, in addition to beaches and snowy beaches. Older Bedrock versions (before 1.21.130) had a different loot table.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Is buried treasure the only source of the heart of the sea?",
-        "a": "Yes. The wiki says buried treasures are the only source, and every one contains a heart of the sea."
+        "a": "Yes. Buried treasures are the only source, and every one contains a heart of the sea."
       },
       {
         "q": "I am on the X but cannot find the chest. What now?",
@@ -2022,7 +2022,7 @@
       },
       {
         "q": "Where do I find buried treasure maps?",
-        "a": "Shipwrecks can contain them, and the wiki also lists cartographer villagers as a map source (the Treasure Hunter advancement is for a purchased map)."
+        "a": "Shipwreck map chests can contain them, and cartographer villagers can sell one. The Treasure Hunter advancement is for visiting the structure shown on a map bought from a cartographer."
       },
       {
         "q": "What biomes does buried treasure generate in?",

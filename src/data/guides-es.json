@@ -1720,12 +1720,12 @@
     "shortTitle": "Encontrar Buried Treasure",
     "quickAnswer": "El tesoro enterrado es un cofre enterrado sobre todo en playas, y siempre contiene un corazón del mar, la única fuente de uno. Encuéntralo con un mapa del tesoro enterrado de un naufragio y cava donde te lleve el mapa. En Java el cofre está en 9,9 relativo al chunk y mira al este; en Bedrock está en 8,8.",
     "steps": [
-      "Consigue un mapa: los naufragios tienen hasta 3 cofres (suministros, tesoro y mapa), y la wiki indica que pueden contener mapas de tesoro enterrado. Los cofres de mapa están en la parte baja del barco.",
+      "Consigue un mapa: los naufragios tienen hasta 3 cofres (suministros, tesoro y mapa), y pueden contener mapas de tesoro enterrado. Los cofres de mapa están en la parte baja del barco. Un aldeano cartógrafo también puede venderte uno.",
       "Sigue el mapa hasta el tesoro. El tesoro enterrado genera en biomas de playa (Java y Bedrock) y también puede generar bajo el agua.",
       "Encuentra el punto exacto: en Java el cofre está siempre en 9 relativo al chunk en X y Z, y mira al este. En Bedrock está en 8 en X y Z.",
       "Cava hacia abajo. El cofre suele estar bajo arena o grava en las playas, bajo piedra si generó en una ladera submarina, y a veces bajo otros bloques del terreno como mineral de carbón o diorita.",
       "Si el cofre está expuesto al agua, aparece con agua (waterlogged).",
-      "Botín: todo tesoro enterrado tiene un corazón del mar. Las tablas de Java también pueden dar lingotes de hierro y oro, bacalao y salmón cocinados, pociones de respiración acuática, TNT, esmeraldas, cristales de prismarina y diamantes.",
+      "Botín: todo tesoro enterrado tiene un corazón del mar. Otros objetos posibles son lingotes de hierro y oro, bacalao y salmón cocinados, pociones de respiración acuática, TNT, esmeraldas, cristales de prismarina, diamantes, una túnica de cuero, una espada de hierro, una lanza de hierro y armadura de nautilo de cobre, hierro, oro o diamante. Java tiene este botín desde la 1.21.11 y Bedrock desde la 1.21.130.",
       "Usa el corazón del mar para fabricar un conduit."
     ],
     "materials": [
@@ -1733,12 +1733,12 @@
       "Una pala",
       "Algo para respirar bajo el agua, si el cofre está bajo el agua"
     ],
-    "editionNote": "Java: 9,9 relativo al chunk y el cofre mira al este. Bedrock: 8,8 relativo al chunk. Bedrock también genera tesoros enterrados en stony shore y mushroom field shore, además de playas y playas nevadas.",
+    "editionNote": "Java: 9,9 relativo al chunk y el cofre mira al este. Bedrock: 8,8 relativo al chunk. Bedrock también genera tesoros enterrados en stony shore y mushroom field shore, además de playas y playas nevadas. Las versiones anteriores de Bedrock (antes de la 1.21.130) tenían otra tabla de botín.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Es el tesoro enterrado la única fuente del corazón del mar?",
-        "a": "Sí. La wiki indica que los tesoros enterrados son la única fuente, y cada uno contiene un corazón del mar."
+        "a": "Sí. Los tesoros enterrados son la única fuente, y cada uno contiene un corazón del mar."
       },
       {
         "q": "Estoy sobre la X pero no encuentro el cofre. ¿Qué hago?",
@@ -1746,7 +1746,7 @@
       },
       {
         "q": "¿Dónde encuentro mapas de tesoro enterrado?",
-        "a": "Los naufragios pueden contenerlos, y la wiki también cita a los aldeanos cartógrafos como fuente de mapas (el logro Treasure Hunter es para un mapa comprado)."
+        "a": "Los cofres de mapa de los naufragios pueden contenerlos, y los aldeanos cartógrafos pueden vender uno. El logro Treasure Hunter es por visitar la estructura que indica un mapa comprado a un cartógrafo."
       },
       {
         "q": "¿En qué biomas genera el tesoro enterrado?",
