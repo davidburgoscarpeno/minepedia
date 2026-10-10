@@ -13368,7 +13368,7 @@
   "how-to-make-an-iron-farm": {
     "name": "Cómo hacer una granja de hierro",
     "shortTitle": "Granja de Hierro",
-    "quickAnswer": "Encierra 3 aldeanos con camas y workstations, coloca un zombie donde lo vean pero no pueda alcanzarlos, y los aldeanos en pánico invocarán iron golems. Plataformas con agua llevan a los golems a lava o a una cámara de muerte con hoppers, produciendo stacks de hierro por hora. Los diseños de Java y Bedrock difieren: sigue uno de tu edición.",
+    "quickAnswer": "Encierra 3 aldeanos con camas y workstations, coloca un zombie donde lo vean pero no pueda alcanzarlos, y los aldeanos en pánico invocarán iron golems. Plataformas con agua llevan a los golems a lava o a una cámara de muerte con hoppers, produciendo hierro automáticamente. Los diseños de Java y Bedrock difieren: sigue uno de tu edición.",
     "steps": [
       "Entiende la mecánica. En Java, los aldeanos que entran en pánico al ver un mob hostil (o cotillean en grupos de 5) invocan iron golems a su alrededor, siempre que hayan dormido y trabajado recientemente. El golem aparece en bloques sólidos cerca de los aldeanos.",
       "Construye el módulo de aldeanos. Coloca 3 camas, 3 aldeanos y 3 workstations (las fletching tables son baratas) en una sala pequeña sellada. Deben poder dormir de noche y trabajar de día: eso mantiene las apariciones.",
@@ -13391,7 +13391,7 @@
       },
       {
         "q": "¿Cuánto hierro produce?",
-        "a": "Una granja Java sencilla de 3 aldeanos da unos 300-400 de hierro por hora; los módulos apilados escalan. Suficiente para beacons, anvils y hoppers para siempre."
+        "a": "Una granja Java sencilla de 3 aldeanos da hierro de forma constante, y apilar más módulos la escala. Suficiente para beacons, anvils y hoppers."
       },
       {
         "q": "¿Puedo construirla en los spawn chunks?",
@@ -13889,7 +13889,7 @@
   "how-to-make-a-creeper-farm": {
     "name": "Cómo hacer una granja de creepers en Minecraft",
     "shortTitle": "Granja de Creepers",
-    "quickAnswer": "Una granja de creepers los genera en una sala oscura con techo de trapdoors: justo lo bastante bajo para que zombies y skeletons no puedan aparecer pero los creepers sí, y luego los empuja con agua a una zona de muerte. Incluso una pequeña produce unos 700 de gunpowder por hora: suficiente para todo el TNT y los firework rockets que necesitarás.",
+    "quickAnswer": "Una granja de creepers los genera en una sala oscura con techo de trapdoors: justo lo bastante bajo para que zombies y skeletons no puedan aparecer pero los creepers sí, y luego los empuja con agua a una zona de muerte. Incluso una pequeña da un suministro constante de gunpowder para TNT y firework rockets.",
     "steps": [
       "Elige el lugar. Sobre un ocean es ideal: menos cuevas debajo significa que casi todos los spawns ocurren dentro de tu granja. En tierra, ilumina o cubre con slabs todas las cuevas del alcance primero, o las tasas se hunden.",
       "Construye una plataforma de spawn oscura. Cualquier bloque sólido, completamente a oscuras, con interior de 2 bloques de alto. Empieza con una capa de unos 8x8 y amplía después: las capas se apilan con 3 bloques de espacio vertical.",
@@ -13907,7 +13907,7 @@
       "Chests y hoppers para la recolección"
     ],
     "editionNote": "El truco de la altura con trapdoors es solo de Java: en Bedrock los creepers no aparecen bajo un techo de trapdoors de 2 bloques de la misma forma, así que las granjas de Bedrock usan otros diseños solo-creepers o aceptan mobs mixtos con huida por cats. La huida de cats y la muerte por campfires funcionan en ambas.",
-    "versions": "Las granjas de creepers crecieron con el truco del techo de trapdoors en las versiones tempranas, y el almacenamiento de mobs en boats y minecarts (1.16) permitió después las fábricas de charged creepers para mob heads. El diseño clásico pequeño sigue rindiendo unos 700 de gunpowder por hora hoy.",
+    "versions": "Las granjas de creepers crecieron con el truco del techo de trapdoors en las versiones tempranas, y el almacenamiento de mobs en boats y minecarts (1.16) permitió después las fábricas de charged creepers para mob heads.",
     "faq": [
       {
         "q": "¿Por qué mi granja de creepers es tan lenta?",
@@ -13946,7 +13946,7 @@
       "Mata con Looting III. Las muertes manuales con una espada de Looting III multiplican el oro varias veces y dan XP cuando los piglins están enfadados contigo. Golpea a uno y todo el grupo se enfada: la ira compartida es lo que hace funcionar los modos de XP.",
       "Escala al techo del Nether. Por encima del techo de bedrock en Y 128+, construye plataformas de magma blocks (los piglins aparecen en magma, la mayoría de mobs no pueden) con un huevo en el centro y tolvas de caída a una cámara de muerte. Ahí viven los diseños famosos de altas tasas.",
       "Recógelo todo. Hoppers bajo la zona de muerte alimentan chests; añade un sorter simple después para que los nuggets se fabriquen en ingots y la rotten flesh tenga su propio chest.",
-      "Conoce las tasas. Una granja de portals básica es lenta pero gratis; los diseños medios alcanzan decenas de bloques de oro por hora; los mejores diseños de techo de Java citan 130-600 bloques de oro por hora con Looting III. Elige el tamaño que tu paciencia permita."
+      "Conoce las tasas. Una granja de portals básica es lenta pero gratis; los diseños grandes en el techo del Nether son mucho más rápidos, sobre todo con Looting III. Elige el tamaño que tu paciencia permita."
     ],
     "materials": [
       "Obsidian para los marcos de portal + flint and steel",
