@@ -2915,7 +2915,7 @@
       "Fabrica el pistón adhesivo: 1 bola de slime justo encima del pistón.",
       "Dale energía para que se extienda como un pistón normal. Al perderla se retrae y tira del bloque pegado a su cabeza. También tira de bloques unidos por bloques de slime o de miel, pero no de otros bloques que empujó.",
       "Tiene los mismos límites de empuje que un pistón normal. Si no puede tirar de un bloque, se retrae sin él. No puede tirar de un bloque en caída.",
-      "Solo Java: si pierde la energía antes de terminar de extenderse mientras empuja bloques, el primer bloque queda en su posición final y el pistón empieza a retraerse. La wiki lo llama block dropping o block spitting.",
+      "Solo Java: si pierde la energía antes de terminar de extenderse mientras empuja bloques, el primer bloque queda en su posición final y el pistón empieza a retraerse. También se le llama block dropping o block spitting.",
       "Bedrock: el retraso de inicio es fijo de 1 tick de redstone (2 game ticks, 0,1 segundos), y solo se activa en el tick de entrada de redstone.",
       "Rómpelo con cualquier herramienta. Siempre se suelta a sí mismo, y el pico es más rápido en Java.",
       "Encuéntralos: 3 se generan en cada templo de la jungla y 5 en cada ciudad ancestral."
@@ -3020,7 +3020,7 @@
       "Mina 2 diamantes y consigue 1 palo.",
       "Fabrica la espada: 1 diamante en el centro de arriba, 1 diamante en el centro del medio y 1 palo en el centro de abajo.",
       "Lucha: el daño base es 7 en Java y 8 en Bedrock. En Java la velocidad de ataque es 1,6 (0,625 segundos por golpe), y los ataques de barrido hacen 1 de daño a los objetivos cercanos antes de Filo barredor.",
-      "Encántala: Filo suma daño, y el daño extra aparece en las tablas de la wiki. La encantabilidad es 10.",
+      "Encántala: Filo suma daño, y su daño extra depende del nivel. La encantabilidad es 10.",
       "Una espada rompe algunos bloques más rápido, como telarañas y bambú, pero cada bloque así cuesta 2 de durabilidad.",
       "Encuéntrala: cofres del tesoro de restos de bastión (15,2 % en Java), encantadas en cofres de ciudades del End (12,7 %), o un armero maestro vende una encantada por 13 a 27 esmeraldas.",
       "Mejórala en una mesa de herrería con una plantilla de mejora de netherita y un lingote de netherita para obtener una espada de netherita."
@@ -4026,7 +4026,7 @@
     "quickAnswer": "Las blaze rods solo las sueltan los blazes, que viven en nether fortresses. Un blaze suelta 0-1 varas (50%) si lo mata un jugador o un lobo domesticado, hasta 0-4 con Looting III. Los blazes necesitan nivel de luz 11 o menos para aparecer, y las fortalezas pueden tener hasta dos plataformas de spawner de blaze.",
     "steps": [
       "Entra al Nether equipado: armadura, escudo, arco y comida. Los blazes atacan con ráfagas de tres bolas de fuego pequeñas y te prenden fuego.",
-      "Busca una nether fortress: los blazes están ahí y en ningún otro sitio, y la wiki los indica como única fuente de blaze rods.",
+      "Busca una nether fortress: los blazes están ahí y en ningún otro sitio, y son la única fuente de blaze rods.",
       "Localiza un spawner de blaze: una fortaleza puede generar hasta dos plataformas de spawner de blaze, rodeadas de vallas de nether brick y con una escalera de tres bloques.",
       "Mata blazes: sueltan 0-1 blaze rods por defecto (50%), 0-2 con Looting I, 0-3 con II y 0-4 con III. Solo sueltan si los mata un jugador o un lobo domesticado.",
       "Farmea el spawner: los blazes siempre necesitan nivel de luz 11 o menos para aparecer, así que el spawner sigue produciéndolos en la oscuridad. Construye una zona de muerte segura.",
@@ -4274,7 +4274,7 @@
       "Poción de fire resistance (viajes al Nether, recomendado)"
     ],
     "editionNote": "En Java, un nether portal generado en el aire crea 4 bloques extra de obsidiana en la base. Las wither skulls azules pueden destruir obsidiana porque ignoran la resistencia a explosiones.",
-    "versions": "En 1.16 (20w07a) los piglins ofrecían obsidiana con ~0,92%; en 20w09a subió a ~8,85% en pilas de 1-5. Hoy es ~8,53% (40/469) por un solo bloque, según la página Obsidian de Minecraft Wiki.",
+    "versions": "En 1.16 (20w07a) los piglins ofrecían obsidiana con ~0,92%; en 20w09a subió a ~8,85% en pilas de 1-5. Hoy es ~8,53% (40/469) por un solo bloque.",
     "faq": [
       {
         "q": "¿Qué pickaxe se necesita para minar obsidian?",
@@ -28522,7 +28522,7 @@
       "Baked potato y bread: las mejores comidas de granja del inicio (5 de hambre, 6 de saturación).",
       "Honey bottle: comida modesta pero cura el veneno: el contraataque de las cave spiders."
     ],
-    "versions": "Los valores de hambre y saturación son iguales en Java y Bedrock. La saturación está oculta en el juego; los mods de Java y los valores de la wiki son la forma de comparar comidas.",
+    "versions": "Los valores de hambre y saturación son iguales en Java y Bedrock. La saturación está oculta en el juego; los mods de Java y los valores publicados son la forma de comparar comidas.",
     "editionNote": "La saturación decide cuánto tardas en volver a tener hambre: por eso las golden carrots ganan al steak para explorar, mientras el steak restaura más hambre bruta tras una pelea.",
     "faq": [
       {
