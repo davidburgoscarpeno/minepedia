@@ -13274,7 +13274,7 @@
       "Fabrica 3 bloques de iron. Rellena la cuadrícula 3x3 con iron ingots tres veces.",
       "Fabrica el anvil. Coloca los 3 bloques de iron en la fila superior, 1 iron ingot en el centro y 3 iron ingots en la fila inferior.",
       "Úsalo. El hueco izquierdo recibe el objeto y el del medio el material: otro objeto para combinar, un enchanted book para aplicar o material de reparación (diamonds para equipo de diamante, iron ingots para el de hierro, etc.). El renombrado va en el campo de texto.",
-      "Ojo con los costes. Cada operación cuesta niveles de XP, y el trabajo repetido sobre el mismo objeto encarece cada vez: pasados los 39 niveles, Survival muestra 'Too Expensive!'. Combina libros entre sí primero para abaratar."
+      "Vigila los costes: las reparaciones y combinaciones normales en supervivencia deben costar menos de 40 niveles. Reparar o encantar aumenta la penalización previa, pero solo renombrar no la aumenta. Compara combinaciones equilibradas en lugar de juntar siempre todos los libros en uno."
     ],
     "materials": [
       "3 bloques de iron (27 lingotes)",
@@ -13282,7 +13282,7 @@
       "Niveles de XP para reparar y combinar"
     ],
     "editionNote": "Idéntico en Java y Bedrock. Los anvils se degradan con el uso (12% por uso: anvil, chipped, damaged y se rompe) y aparecen dañados en las salas de forja de las woodland mansions. Un anvil al caer daña lo que tenga debajo.",
-    "versions": "El anvil se añadió en la 1.4.2 (12w41a, Pretty Scary Update) con funciones de reparar, renombrar y combinar. Su tope de 39 niveles en Survival y su degradación no han cambiado desde entonces.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Vale la pena 31 de iron?",
@@ -13290,7 +13290,7 @@
       },
       {
         "q": "¿Por qué dice 'Too Expensive!'?",
-        "a": "El trabajo costaría 40+ niveles. Trabaja menos el objeto: combina libros entre sí antes de aplicarlos y evita renombrar de más: cada trabajo sube la penalización acumulada."
+        "a": "La reparación o combinación normal costaría 40 niveles o más. Compara combinaciones equilibradas y evita reparaciones repetidas. Renombrar por sí solo no aumenta la penalización previa, y Java limita su coste de solo renombrar a 39."
       },
       {
         "q": "¿Los anvils se rompen?",
@@ -18768,7 +18768,7 @@
   "how-to-use-an-anvil": {
     "name": "Cómo usar un anvil en Minecraft",
     "shortTitle": "Usar un anvil",
-    "quickAnswer": "Usa un anvil colocando un objeto en la ranura izquierda y un material de reparación, enchanted book u segundo objeto en la derecha, y paga el coste de experiencia. Repara, renombra y combina encantamientos, pero cada operación cuesta más cuanto más se ha trabajado un objeto, con tope de 39 niveles.",
+    "quickAnswer": "Pon el objeto principal a la izquierda del yunque y un material de reparación válido, libro encantado u objeto del mismo tipo en la segunda ranura. Revisa el resultado y el coste de XP antes de recogerlo. Los trabajos normales en supervivencia deben costar menos de 40 niveles; renombrar solo no aumenta la penalización previa.",
     "steps": [
       "Fabrica un anvil con 3 bloques de iron en la fila superior, 1 iron ingot en el centro y 3 iron ingots en la fila inferior (31 iron ingots en total).",
       "Coloca el anvil y haz clic derecho para abrir la interfaz de dos ranuras.",
@@ -18783,15 +18783,12 @@
       "Materiales de reparación o enchanted books",
       "Niveles de experiencia (hasta 39 por operación)"
     ],
-    "editionNote": "Los anvils funcionan igual en Java y Bedrock. La penalización por trabajo previo se duplica cada vez que un objeto pasa por el anvil, por eso el equipo trabajado demasiadas veces choca con el muro de 39 niveles del 'Too Expensive!'. Los grindstones reinician esa penalización quitando encantamientos, y el equipo con Mending se salta las reparaciones por completo.",
-    "versions": [
-      "java",
-      "bedrock"
-    ],
+    "editionNote": "Reparar y encantar aumentan la penalización del resultado a partir de la mayor de los dos objetos: 0, 1, 3, 7, 15, 31. Renombrar solo no la aumenta. Los costes exactos de encantamientos varían por edición, y Java limita el coste de solo renombrar a 39 niveles.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué mi anvil dice Too Expensive?",
-        "a": "Cada operación de anvil sobre un objeto aumenta su penalización por trabajo previo, duplicando el coste la próxima vez. Cuando el total supera los 39 niveles de experiencia, el modo supervivencia rechaza la operación. Combina los books en el orden más barato, o reinicia el objeto con un grindstone."
+        "a": "El total de un trabajo normal en supervivencia alcanza 40 niveles o más. Contribuyen las penalizaciones previas de ambos objetos y el coste de reparación o encantamientos; el total no se duplica sin más. Una grindstone reinicia la penalización, pero quita los encantamientos que no sean maldiciones."
       },
       {
         "q": "¿Cómo se repara un anvil?",
@@ -18799,7 +18796,7 @@
       },
       {
         "q": "¿Es mejor reparar con un anvil o con materiales?",
-        "a": "Reparar con materiales (lingotes, diamonds) aumenta menos la penalización que fusionar dos objetos, pero combinar dos objetos dañados suma sus durabilidades. Para equipo encantado, Mending más granjas de XP gana a ambas."
+        "a": "Tanto reparar con materiales como combinar objetos iguales aumenta la penalización previa. Compara los costes: en objetos compatibles cada unidad restaura un 25%; combinar suma la durabilidad restante más un 12% adicional, sin superar el máximo. Mending evita reparaciones repetidas con yunque."
       }
     ],
     "relatedLinks": [
@@ -22028,8 +22025,8 @@
       "Craftea o encuentra un anvil: 3 iron blocks + 4 iron ingots (31 de iron en total). Los enchanted books salen de fishing, cofres, raids, bartering con piglins (Soul Speed) o trades de librarians.",
       "Coloca el anvil y haz clic derecho. Pon el ítem que quieres encantar en el hueco izquierdo.",
       "Pon el enchanted book en el hueco central. El hueco derecho muestra el resultado y su coste en niveles de XP; en survival el tope es 39 niveles ('Too Expensive!' a partir de ahí).",
-      "Coge el ítem encantado. Cada uso del anvil encarece la siguiente operación sobre ese ítem, así que combina primero los books y aplícalos en el menor número de operaciones posible.",
-      "Combina books con books: dos Protection I hacen un Protection II. Dos enchantments iguales del mismo nivel siempre se combinan subiendo un nivel, y puedes juntar enchantments distintos compatibles.",
+      "Combina libros y equipo de forma equilibrada, emparejando objetos con penalizaciones de trabajos previos parecidas cuando sea posible. Compara los costes mostrados, también intercambiando las ranuras si ambos órdenes son válidos. Un único libro con todo no siempre sale más barato.",
+      "Combina libros: dos Protection I dan Protection II. Los encantamientos iguales del mismo nivel suben uno solo si no han alcanzado su máximo normal; dos Protection IV no dan Protection V. Los encantamientos distintos compatibles pueden fusionarse.",
       "Respeta las incompatibilidades: Sharpness, Smite y Bane of Arthropods se excluyen entre sí; los cuatro tipos de Protection se excluyen entre sí; Fortune y Silk Touch se excluyen; Mending e Infinity se excluyen."
     ],
     "materials": [
@@ -22038,14 +22035,12 @@
       "La herramienta, arma o armor a encantar",
       "Niveles de XP (el coste lo marca el anvil)"
     ],
-    "editionNote": "La mecánica del anvil funciona igual en Java y Bedrock, incluido el tope de 39 niveles en survival. Los treasure enchantments como Mending nunca salen en la enchanting table en ninguna edición; los books son la vía.",
-    "versions": [
-      "1.4.6 (enchanted books añadidos)"
-    ],
+    "editionNote": "Ambas ediciones limitan los trabajos normales del yunque en supervivencia a 39 niveles, pero los costes de encantamientos pueden variar. Renombrar por sí solo no aumenta la penalización de trabajos previos. Los encantamientos de tesoro como Mending no salen en la mesa.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué mi anvil dice Too Expensive?",
-        "a": "El survival limita las operaciones del anvil a 39 niveles de XP. El coste crece con cada uso previo del anvil sobre ese ítem, así que combina los books antes de aplicarlos y encanta equipo nuevo en vez de rehacer piezas viejas."
+        "a": "El total mostrado sería de 40 niveles o más para un trabajo normal del yunque en supervivencia. Ambos objetos pueden aportar penalizaciones previas, más costes de reparación o encantamientos. Combina de forma equilibrada y compara los costes antes de recoger el resultado."
       },
       {
         "q": "¿Cómo se consigue Mending en un ítem?",
@@ -22053,7 +22048,7 @@
       },
       {
         "q": "¿Se pueden combinar dos enchanted books distintos?",
-        "a": "Sí. Los enchantments distintos compatibles se juntan en un solo book, y dos books con el mismo enchantment y nivel se combinan al nivel siguiente (dos Unbreaking II hacen Unbreaking III)."
+        "a": "Sí. Los encantamientos compatibles pueden fusionarse, y los niveles iguales suben uno solo por debajo del máximo: dos Unbreaking II dan III, pero dos III siguen en III."
       },
       {
         "q": "¿Funcionan los enchanted books en cualquier ítem?",
@@ -22280,9 +22275,9 @@
     "slug": "how-to-repair-tools",
     "name": "Cómo reparar herramientas en Minecraft",
     "shortTitle": "Reparar herramientas",
-    "quickAnswer": "Tres formas: combina dos herramientas dañadas del mismo tipo en la cuadrícula de crafteo (gratis, pero pierde los enchantments), repara en un anvil con el material de la herramienta u otra herramienta igual (conserva enchantments, cuesta XP), o usa el enchantment Mending para que los orbes de XP reparen el ítem automáticamente.",
+    "quickAnswer": "Combina herramientas dañadas iguales en la cuadrícula o una grindstone para repararlas gratis, perdiendo los encantamientos que no sean maldiciones. Un yunque conserva los compatibles y cuesta XP. Mending repara objetos dañados en la mano o equipados cuando recoges XP.",
     "steps": [
-      "Reparación en la cuadrícula: coloca dos herramientas dañadas del mismo tipo y material en cualquier posición. El resultado suma su durabilidad restante más un 5% de bonus, pero pierde todos los enchantments. Solo vale para herramientas sin encantar.",
+      "Cuadrícula: combina dos herramientas dañadas del mismo tipo y material. Se suma su durabilidad restante con un 5% adicional, sin superar el máximo. Se eliminan los encantamientos que no sean maldiciones; las maldiciones permanecen.",
       "Reparación en grindstone: combina dos herramientas dañadas del mismo tipo en un grindstone. Misma reparación gratis, y elimina los enchantments que no sean curses, devolviendo algo de XP. Útil para limpiar enchantments malos.",
       "Reparación en anvil con material: pon la herramienta en el hueco izquierdo y su material en el central (diamonds para herramientas de diamond, iron ingots para las de iron, etc.). Cada material restaura un 25% de durabilidad y los enchantments se conservan, pero cuesta niveles de XP.",
       "Combinar en anvil: funde dos herramientas encantadas del mismo tipo para sumar sus durabilidades y combinar o conservar enchantments. El prior-work penalty hace que cada reparación sucesiva cueste más.",
@@ -22296,14 +22291,11 @@
       "Niveles de XP para el anvil"
     ],
     "editionNote": "La mecánica de reparación es igual en Java y Bedrock: combinar en la cuadrícula da un 5% de bonus de durabilidad, el material en anvil restaura un 25% por ítem, y el prior-work penalty del anvil aplica en ambas. Mending funciona idéntico en las dos ediciones.",
-    "versions": [
-      "1.14 (grindstone añadido)",
-      "1.9 (Mending añadido)"
-    ],
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué desaparecen mis enchantments al reparar?",
-        "a": "Has usado la cuadrícula de crafteo: la reparación en cuadrícula siempre elimina los enchantments. Usa un anvil para conservarlos, o un grindstone si precisamente quieres quitarlos (devuelve algo de XP)."
+        "a": "La cuadrícula y la grindstone eliminan los encantamientos que no sean maldiciones, pero conservan las maldiciones. El yunque mantiene los compatibles; Mending repara sin quitar encantamientos."
       },
       {
         "q": "¿Cuál es la forma más barata de reparar un pickaxe de diamond?",
@@ -22311,11 +22303,11 @@
       },
       {
         "q": "¿Se pueden reparar herramientas infinitamente?",
-        "a": "Solo con Mending. Las reparaciones en anvil dejan de funcionar cuando el coste de la operación supera los 39 niveles (Too Expensive), y cada reparación sube ese coste."
+        "a": "Mending puede seguir reparando herramientas dañadas en la mano o equipadas si recoges suficiente XP. Reparar repetidamente con yunque acumula penalización y acaba siendo demasiado caro en supervivencia. Las herramientas sin encantar también pueden combinarse repetidamente, consumiendo otra igual cada vez."
       },
       {
         "q": "¿Qué material repara cada herramienta?",
-        "a": "El propio material de la herramienta: wooden planks para las de madera, cobblestone para las de stone, iron ingots para las de iron, diamonds para las de diamond, gold ingots para las de oro, netherite ingots para las de netherite. Las elytra se reparan con phantom membranes, y las shears con iron ingots."
+        "a": "Las herramientas compatibles usan su material de reparación: tablones para madera; cobblestone, blackstone o cobbled deepslate para piedra; lingotes de cobre, hierro, oro o netherite para sus herramientas; diamantes para diamante. Las elytra usan phantom membranes. Las tijeras no se reparan con lingotes de hierro: combínalas con otras o usa Mending."
       }
     ],
     "relatedLinks": [
@@ -27744,8 +27736,8 @@
       "Knockback II: opcional. Genial contra creepers, molesto al perseguir mobs: muchos lo dejan fuera.",
       "Cómo conseguirlos: encanta libros en la mesa, combina en un anvil, o compra los libros exactos a villagers librarians."
     ],
-    "versions": "Estos encantamientos son estables en todas las versiones actuales. Sweeping Edge es solo de Java; las espadas de Bedrock no tienen ataque de barrido que potenciar.",
-    "editionNote": "Bedrock: omite Sweeping Edge. Todo lo demás funciona igual en ambas ediciones.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Sweeping Edge y el ataque de barrido de espada son exclusivos de Java. Sharpness también varía: Java usa 0,5 × nivel + 0,5; Bedrock usa 1,25 × nivel, redondeado hacia abajo. No supongas el mismo daño en ambas ediciones.",
     "faq": [
       {
         "q": "¿Sharpness o Smite?",
@@ -29308,15 +29300,15 @@
     "steps": [
       "Hoe: Fortune III convierte romper leaves en una fábrica de saplings y sticks y aumenta los drops de cosechas; Silk Touch es la alternativa para bloques de leaves. Añade Efficiency V, Unbreaking III y Mending para la súper herramienta de sculk y leaves.",
       "Nota de la hoe: es la herramienta más rápida para leaves, hay bales, sponges, moss y bloques de la familia sculk: encantar una vale la pena en el deep dark.",
-      "Shears: Unbreaking III y Mending las mantienen vivas en las granjas de wool; Efficiency V esquila wool y leaves más rápido. Efficiency entra en la mesa, el resto por anvil.",
-      "Shield: solo Unbreaking III y Mending, ambos por anvil: un shield con Mending se repara solo con XP mientras te salva la vida.",
+      "Tijeras: aplica Unbreaking III, Mending y Efficiency V con libros en un yunque, no en la mesa. Efficiency acelera minar bloques adecuados como lana, hojas y telarañas; no acelera esquilar ovejas. Bedrock también permite Silk Touch en tijeras.",
+      "Escudo: Unbreaking III y Mending son buenas opciones mediante libro y yunque. También admite Curse of Vanishing, que conviene evitar. Mending lo repara al recoger XP mientras sostienes el escudo dañado.",
       "Flint and steel: Unbreaking III y Mending por anvil: sí, se puede, y un mechero de nivel netherite es curiosamente satisfactorio.",
       "Brush: Unbreaking III y Mending por anvil: los brushes de arqueología se rompen rápido, así que encanta antes de la gran excavación.",
       "Carrot on a stick y warped fungus on a stick: Unbreaking y Mending para montar pigs y striders: puro lujo.",
       "Regla general: si una herramienta no acepta encantamientos de mesa, la vía del anvil con books sigue aplicando Unbreaking y Mending: nada duradero debería salir de tu base sin encantar."
     ],
-    "versions": "Estas opciones de encantamiento son iguales en Java y Bedrock. La disponibilidad en mesa varía ligeramente por objeto; la vía del anvil funciona en todas partes.",
-    "editionNote": "La hoe es la joya oculta: es la herramienta más rápida para leaves y sculk del juego, y Fortune III en una hoe multiplica las cosechas de sweet berries y cultivos.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Las tijeras usan libros y yunque en ambas ediciones, no la mesa. Bedrock permite Silk Touch en tijeras; Java no en supervivencia normal. Efficiency afecta al minado de bloques, no a esquilar ovejas.",
     "faq": [
       {
         "q": "¿Se puede encantar un shield?",
@@ -29397,38 +29389,38 @@
   "minecraft-anvil-too-expensive": {
     "name": "Por qué tu anvil dice 'Too Expensive' en Minecraft (y cómo arreglarlo)",
     "shortTitle": "Arregla el 'Too Expensive' del anvil",
-    "quickAnswer": "Cada vez que un objeto pasa por un anvil, su penalización de trabajo previo se duplica aproximadamente: 1, 3, 7, 15, 31 niveles extra. Cuando el coste total supera los 39 niveles, el anvil de survival se niega con un 'Too Expensive'. Arréglalo combinando books primero, aplicando los books más caros antes, o limpiando el objeto en un grindstone y empezando de nuevo.",
+    "quickAnswer": "El yunque rechaza los trabajos normales en supervivencia de 40 niveles o más. Reparar y encantar eleva la penalización previa: 0, 1, 3, 7, 15, 31; solo renombrar no. Combina de forma equilibrada y compara costes; una grindstone reinicia la penalización a cambio de los encantamientos que no sean maldiciones.",
     "keywords": "too expensive minecraft anvil arreglar penalización trabajo previo 39 niveles combinar books orden grindstone yunque demasiado caro",
     "materials": [
       "Un anvil y un grindstone",
       "Enchanted books, idealmente combinados antes de tocar la herramienta",
-      "40 niveles de XP para el máximo legal"
+      "XP suficiente para el coste mostrado, hasta 39 niveles para trabajos normales en supervivencia"
     ],
     "steps": [
-      "La causa: cada operación de anvil añade una penalización oculta de 'trabajo previo' al objeto: se duplica aproximadamente cada vez (1, 3, 7, 15, 31 niveles), así que cinco pasos por el anvil ya cuestan +31 en cada trabajo posterior.",
-      "El tope: los anvils de survival rechazan cualquier operación que cueste 40 niveles o más y muestran 'Too Expensive'. El modo creativo ignora el tope.",
-      "Prevención 1 - combina books con books primero: fusiona enchanted books entre sí (llevan su propia penalización, más barata) y luego aplica el book combinado a una herramienta nueva en el menor número de operaciones posible.",
-      "Prevención 2 - lo caro primero: aplica los books de mayor nivel y valor al principio, cuando las penalizaciones son bajas; deja los books baratos y el renombrado para el final.",
-      "Prevención 3 - nunca renombres pronto: renombrar cuenta como uso de anvil y suma a la penalización: pon nombre a tu equipo después de los encantamientos, o no lo renombres.",
+      "La causa: reparar o encantar aumenta la penalización a partir de la mayor de los dos objetos. Ambos aportan sus penalizaciones al próximo trabajo, junto al coste de reparación o encantamientos. Solo renombrar no la aumenta.",
+      "El límite: los trabajos normales de reparación y encantamientos de 40 niveles o más muestran Too Expensive en supervivencia. Creativo ignora ese límite. En Java, solo renombrar se limita a 39 niveles en vez de rechazarse al superar ese umbral.",
+      "Combina libros y equipo de forma equilibrada, emparejando objetos con penalizaciones de trabajos previos parecidas cuando sea posible. Compara los costes mostrados, también intercambiando las ranuras si ambos órdenes son válidos. Un único libro con todo no siempre sale más barato.",
+      "Compara el orden: en combinaciones válidas, intercambiar los objetos puede cambiar qué encantamientos se cobran. Comprueba el resultado y el coste en vez de aplicar siempre una regla de caros primero.",
+      "Renombrar: cuesta XP, pero no aumenta la penalización si se hace solo. Poner el nombre al reparar o encantar evita un trabajo aparte; no hace falta renombrar siempre al final.",
       "Prevención 4 - la enchanting table primero: consigue todos los encantamientos posibles de la propia mesa, y añade por anvil solo lo que falte.",
-      "El arreglo para un objeto bloqueado: pásalo por el grindstone para borrar todos los encantamientos (recuperas algo de XP), reencanta desde cero en el orden correcto: duele, pero es más barato que un pico perfecto muerto.",
+      "Reinicio con grindstone: quita la penalización previa y los encantamientos que no sean maldiciones, devolviendo algo de XP. Las maldiciones permanecen. Reconstruye los encantamientos con un plan equilibrado.",
       "Mending salva el día: una herramienta con Mending nunca necesita reemplazo, así que planifica el orden de encantado una vez, págalo una vez y repara con XP para siempre.",
-      "Nota de crossbow y bow: los encantamientos incompatibles (Multishot/Piercing, Infinity/Mending) también bloquean el anvil, pero con 'no se puede combinar', no con 'Too Expensive'."
+      "Los encantamientos incompatibles no pueden aplicarse juntos al mismo objeto. Comprueba la vista previa: algunas combinaciones se rechazan y otras conservan el encantamiento principal sin transferir el incompatible."
     ],
-    "versions": "El tope de 39 niveles y la penalización de trabajo previo son iguales en Java y Bedrock. El coste mostrado exacto incluye costes de material además de la penalización.",
-    "editionNote": "Un plan perfecto para una herramienta al máximo: encanta el objeto base en la mesa, combina todos los books extra en uno, aplica en dos operaciones de anvil, renombra al final: la penalización total se queda mínima.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Las reparaciones y combinaciones normales en supervivencia deben costar menos de 40 niveles en ambas ediciones. Los costes exactos varían. Solo renombrar no aumenta la penalización previa; Java limita su coste de solo renombrar a 39 niveles.",
     "faq": [
       {
         "q": "¿Qué significa 'Too Expensive' en Minecraft?",
-        "a": "Que la operación de anvil costaría 40 niveles de XP o más, lo que el modo survival prohíbe. Ocurre porque la penalización de trabajo previo del objeto creció demasiado por uso repetido del anvil, no porque el encantamiento sea imposible."
+        "a": "Una reparación o combinación normal en supervivencia costaría 40 niveles o más. El total incluye las penalizaciones previas y el trabajo. En Java, solo renombrar se limita a 39 niveles."
       },
       {
         "q": "¿Puedo quitar la penalización de trabajo previo?",
-        "a": "Solo limpiando el objeto en un grindstone, lo que elimina todos los encantamientos (las maldiciones se quedan) y devuelve un poco de XP. Luego reconstruye los encantamientos en un orden eficiente."
+        "a": "Una grindstone quita la penalización y los encantamientos que no sean maldiciones, conservando las maldiciones. Reparar en la cuadrícula también reinicia la penalización y quita los encantamientos no malditos. Mending repara sin añadir penalización."
       },
       {
         "q": "¿Cuál es el orden más barato para combinar encantamientos?",
-        "a": "Combina books con books primero, pon el encantamiento más caro en la herramienta primero, y añade el resto en el menor número de pasos por el anvil posible. Renombrar siempre va el último."
+        "a": "Combina libros y equipo de forma equilibrada, emparejando objetos con penalizaciones de trabajos previos parecidas cuando sea posible. Compara los costes mostrados, también intercambiando las ranuras si ambos órdenes son válidos. Un único libro con todo no siempre sale más barato."
       }
     ],
     "relatedGuides": [
@@ -30183,9 +30175,9 @@
     "slug": "minecraft-day-length"
   },
   "all-enchantments-list": {
-    "name": "Los 43 encantamientos de Minecraft: lista completa con niveles máximos",
+    "name": "Encantamientos de Minecraft: lista completa con niveles máximos",
     "shortTitle": "Lista de todos los encantamientos",
-    "quickAnswer": "Minecraft tiene 43 encantamientos. Los cinco grandes para cualquier equipo son Protection IV, Unbreaking III, Mending, Efficiency V y Sharpness V. Incompatibilidades clave: Sharpness, Smite y Bane of Arthropods se excluyen entre sí; los cuatro tipos de Protection se excluyen entre sí; Fortune choca con Silk Touch; Infinity choca con Mending; Depth Strider con Frost Walker; Riptide con Loyalty y Channeling; Multishot con Piercing; Density con Breach.",
+    "quickAnswer": "Los cinco grandes para cualquier equipo son Protection IV, Unbreaking III, Mending, Efficiency V y Sharpness V. Incompatibilidades clave: Sharpness, Smite y Bane of Arthropods se excluyen entre sí; los cuatro tipos de Protection se excluyen entre sí; Fortune choca con Silk Touch; Infinity choca con Mending; Depth Strider con Frost Walker; Riptide con Loyalty y Channeling; Multishot con Piercing; Density con Breach.",
     "keywords": "todos los encantamientos minecraft lista nivel maximo cada encantamiento protection sharpness mending efficiency fortune silk touch",
     "materials": [
       "Una enchanting table con 15 bookshelves para encantamientos de nivel 30",
@@ -30193,11 +30185,11 @@
       "Niveles de XP y lapis lazuli"
     ],
     "steps": [
-      "Armadura, cualquier pieza (5): Protection IV (todo el daño), Fire Protection IV (fuego y tiempo de quemadura), Blast Protection IV (explosiones), Projectile Protection IV (flechas y proyectiles), Thorns III (refleja daño). Los cuatro tipos de Protection se excluyen entre sí.",
-      "Helmet (2): Aqua Affinity I (velocidad de minado normal bajo el agua), Respiration III (más tiempo de respiración bajo el agua).",
+      "Armadura: Protection IV, Fire Protection IV, Blast Protection IV, Projectile Protection IV y Thorns III. Protection no cubre todas las fuentes de daño. Los cuatro tipos de Protection chocan en la misma pieza, no en todo el conjunto.",
+      "Casco: Aqua Affinity I quita la penalización de minado por inmersión, pero no la adicional por flotar. Respiration III amplía el aire bajo el agua.",
       "Boots (4): Feather Falling IV (menos daño de caída), Depth Strider III (nado más rápido), Frost Walker II (caminar sobre el agua como hielo), Soul Speed III (más rápido en soul sand: encantamiento treasure). Depth Strider y Frost Walker se excluyen entre sí.",
       "Leggings (1): Swift Sneak III (agate más rápido: treasure, se encuentra en ancient cities).",
-      "Sword y spear (7): Sharpness V (daño general), Smite V (undead), Bane of Arthropods V (spiders y artrópodos), Fire Aspect II (prende al objetivo), Knockback II, Looting III (más drops de mobs), Sweeping Edge III (barridos más fuertes, solo Java). Sharpness, Smite y Bane se excluyen entre sí.",
+      "Espada y lanza: Sharpness V, Smite V, Bane of Arthropods V, Fire Aspect II, Knockback II y Looting III. Sharpness, Smite y Bane son incompatibles. Sweeping Edge III es solo para espadas y solo Java; no se aplica a lanzas.",
       "Solo spear (1): Lunge III: te lanza hacia delante con el ataque jab, a costa de hunger y durabilidad.",
       "Mace (3): Density V (más daño de smash), Breach IV (perfora armadura), Wind Burst III (rebote tras un smash: treasure, de ominous vaults). Density, Breach y los encantamientos de daño de espada se excluyen entre sí.",
       "Bow (4): Power V (daño), Punch II (knockback), Flame I (flechas de fuego), Infinity I (arrows normales gratis: choca con Mending).",
@@ -30208,12 +30200,12 @@
       "Universales (4): Unbreaking III (la durabilidad dura más), Mending I (la XP repara el objeto: encantamiento treasure), Curse of Binding I (no puedes quitarte el objeto), Curse of Vanishing I (el objeto desaparece al morir).",
       "Encantamientos treasure (sin enchanting table): Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst y las dos curses: consíguelos en books de loot, pesca, comercio o vaults."
     ],
-    "versions": "La lista está vigente a 26.x en Java y Bedrock, incluida la spear y su encantamiento Lunge. Sweeping Edge es solo de Java; Cleaving existe solo en los combat tests de Java y no se puede obtener en el juego normal.",
-    "editionNote": "Aprende primero las incompatibilidades: deciden todo tu plan de encantamientos: un tipo de Protection por set, un tipo de daño por sword, y Mending en todo menos en tu bow de Infinity.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Los tipos de Protection son incompatibles en cada pieza, no en todo el conjunto. Sharpness, Smite y Bane chocan en la misma arma. Sweeping Edge es solo Java y solo para espadas; comprueba qué objetos admiten cada libro.",
     "faq": [
       {
         "q": "¿Cuántos encantamientos hay en Minecraft?",
-        "a": "43 en el juego actual (26.x), contando Lunge de la spear y Density, Breach y Wind Burst de la mace. Cleaving existe solo en los combat tests de Java."
+        "a": "La lista de Java incluye Sweeping Edge, que no existe en Bedrock. Ambas incluyen Lunge para lanzas y Density, Breach y Wind Burst para mazas. Cleaving pertenece a las pruebas de combate de Java, no al juego normal."
       },
       {
         "q": "¿Qué encantamientos son incompatibles?",

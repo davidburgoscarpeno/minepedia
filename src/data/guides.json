@@ -14607,7 +14607,7 @@
       "Craft 3 blocks of iron. Fill the 3x3 grid with iron ingots three times.",
       "Craft the anvil. Place the 3 iron blocks across the top row, 1 iron ingot in the center slot, and 3 iron ingots along the bottom row.",
       "Use it. The left slot takes the item, the middle slot the material: another item to combine, an enchanted book to apply, or repair material (diamonds for diamond gear, iron ingots for iron gear, and so on). Renaming goes in the text field.",
-      "Mind the costs. Every operation costs XP levels, and repeated work on the same item gets more expensive each time - over 39 levels Survival shows 'Too Expensive!'. Combine books onto each other first to keep costs down."
+      "Mind the costs: ordinary Survival repairs and enchantment combinations must cost less than 40 levels. Prior work increases after repairs or enchanting, but renaming alone does not increase it. Compare balanced combinations rather than assuming all books should go into one."
     ],
     "materials": [
       "3 blocks of iron (27 ingots)",
@@ -14615,7 +14615,7 @@
       "XP levels for repairs and combining"
     ],
     "editionNote": "Identical in Java and Bedrock. Anvils degrade with use (12% chance per use: anvil, chipped, damaged, then breaks) and can be found damaged in woodland mansion forge rooms. Falling anvils hurt whatever they land on.",
-    "versions": "The anvil was added in 1.4.2 (12w41a, Pretty Scary Update) with repair, rename and combine functions. Its 39-level Survival cap and degradation mechanics are unchanged since.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Is an anvil worth 31 iron?",
@@ -14623,7 +14623,7 @@
       },
       {
         "q": "Why does it say 'Too Expensive!'?",
-        "a": "The job would cost 40+ levels. Work the item less: combine books with each other before applying them, and avoid unnecessary renames - each anvil job raises the item's prior-work penalty."
+        "a": "The ordinary repair or enchantment job would cost 40 or more levels. Compare balanced combinations and avoid repeated repairs on the same item. Renaming alone does not increase prior work, and Java caps its rename-only cost at 39."
       },
       {
         "q": "Can anvils break?",
@@ -20868,7 +20868,7 @@
     "slug": "how-to-use-an-anvil",
     "name": "How to Use an Anvil in Minecraft",
     "shortTitle": "Use an Anvil",
-    "quickAnswer": "Use an anvil by placing an item in the left slot and a repair material, enchanted book or second item in the right slot, then paying the experience cost. It repairs, renames and combines enchantments, but each operation costs more the more an item has been worked, capped at 39 levels.",
+    "quickAnswer": "Put the target item in the left anvil slot and a supported repair material, enchanted book or matching item in the second. Review the result and XP cost before taking it. Ordinary Survival work must cost less than 40 levels; renaming alone does not increase the prior-work penalty.",
     "steps": [
       "Craft an anvil with 3 blocks of iron across the top row, 1 iron ingot in the center and 3 iron ingots along the bottom (31 iron ingots total).",
       "Place the anvil and right-click it to open the two-slot interface.",
@@ -20883,15 +20883,12 @@
       "Repair materials or enchanted books",
       "Experience levels (up to 39 per operation)"
     ],
-    "editionNote": "Anvils work the same in Java and Bedrock. The prior work penalty doubles each time an item goes through the anvil, which is why gear worked too many times hits the 39-level 'Too Expensive!' wall. Grindstones reset that penalty by stripping enchantments, and Mending gear skips repairs entirely.",
-    "versions": [
-      "java",
-      "bedrock"
-    ],
+    "editionNote": "Repairing and enchanting increase the resulting item's prior-work penalty from the larger penalty of the two inputs: 0, 1, 3, 7, 15, 31. Renaming alone does not raise it. Exact enchantment costs differ by edition, and Java caps rename-only cost at 39 levels.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why does my anvil say Too Expensive?",
-        "a": "Every anvil operation on an item raises its prior work penalty, doubling the cost next time. Once the total exceeds 39 experience levels, survival mode refuses the operation. Combine books onto the item in the cheapest order, or reset the item with a grindstone."
+        "a": "The total for ordinary Survival work reaches 40 levels or more. Prior-work penalties from both inputs and the repair/enchantment cost contribute; the total does not simply double each time. A grindstone resets prior work but removes non-curse enchantments."
       },
       {
         "q": "How do you repair an anvil?",
@@ -20899,7 +20896,7 @@
       },
       {
         "q": "Is it better to repair with an anvil or materials?",
-        "a": "Repairing with materials (ingots, diamonds) costs less penalty growth than merging two items, but combining two damaged items adds their durabilities together. For enchanted gear, Mending plus XP farms beats both."
+        "a": "Both material repair and combining matching items increase prior work. Compare the displayed costs: materials restore 25% per unit on supported items; combining adds remaining durability plus a 12% bonus, capped at full durability. Mending avoids repeated anvil repair costs."
       }
     ],
     "relatedGuides": [
@@ -25025,8 +25022,8 @@
       "Craft or find an anvil: 3 iron blocks + 4 iron ingots (31 iron total). Enchanted books come from fishing, chest loot, raids, bartering with piglins (Soul Speed), or librarian villager trades.",
       "Place the anvil and right-click it. Put the item you want to enchant in the left slot.",
       "Put the enchanted book in the middle slot. The right slot shows the result and its XP level cost; survival mode caps costs at 39 levels ('Too Expensive!' beyond that).",
-      "Take the enchanted item. Each use of an anvil makes the next anvil operation on that item cost more, so combine books first and apply them in as few operations as possible.",
-      "Combine books with books: two Protection I books make one Protection II book. Two identical enchantments of the same level always combine up one level, or add together different compatible enchantments.",
+      "Combine books and gear in a balanced order, pairing items with similar prior-work penalties where possible. Compare the displayed costs, including swapping the two slots when both orders are valid. One giant combined book is not always cheapest.",
+      "Combine books: two Protection I books give Protection II. Matching enchantments at the same level rise by one only below their normal maximum; two Protection IV books do not give Protection V. Different compatible enchantments can merge.",
       "Respect incompatibilities: Sharpness, Smite and Bane of Arthropods exclude each other; the four Protection types exclude each other; Fortune and Silk Touch exclude each other; Mending and Infinity exclude each other."
     ],
     "materials": [
@@ -25035,14 +25032,12 @@
       "The tool, weapon or armor to enchant",
       "XP levels (cost shown on the anvil)"
     ],
-    "editionNote": "Anvil mechanics work the same in Java and Bedrock, including the 39-level survival cap. Treasure enchantments like Mending never appear on the enchanting table in either edition; books are the way to get them.",
-    "versions": [
-      "1.4.6 (enchanted books added)"
-    ],
+    "editionNote": "Both editions limit ordinary Survival anvil work to 39 levels, but enchantment costs can differ. Renaming alone does not increase the prior-work penalty. Treasure enchantments such as Mending cannot be obtained at the enchanting table.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why does my anvil say Too Expensive?",
-        "a": "Survival mode caps anvil operations at 39 XP levels. Costs grow with every prior anvil use on the item, so combine books before applying them and enchant fresh gear rather than reworking old pieces."
+        "a": "The displayed total would be 40 or more levels for ordinary Survival anvil work. Both inputs can contribute prior-work penalties, and repair/enchantment costs are added. Use balanced combinations and compare costs before taking the result."
       },
       {
         "q": "How do you get Mending on an item?",
@@ -25050,7 +25045,7 @@
       },
       {
         "q": "Can you combine two different enchanted books?",
-        "a": "Yes. Different compatible enchantments merge into one book, and two books with the same enchantment and level combine into the next level (two Unbreaking II books make Unbreaking III)."
+        "a": "Yes. Compatible enchantments can merge, and matching levels rise by one only below the enchantment's maximum: two Unbreaking II give III, but two III stay III."
       },
       {
         "q": "Do enchanted books work on any item?",
@@ -25344,9 +25339,9 @@
     "slug": "how-to-repair-tools",
     "name": "How to Repair Tools in Minecraft",
     "shortTitle": "Repair Tools",
-    "quickAnswer": "Three ways: combine two damaged tools of the same type in the crafting grid (free, but loses enchantments), repair on an anvil with the tool's material or a matching tool (keeps enchantments, costs XP), or use the Mending enchantment so XP orbs repair the item automatically.",
+    "quickAnswer": "Combine matching damaged tools in a crafting grid or grindstone for a free repair that removes non-curse enchantments. An anvil preserves compatible enchantments and costs XP. Mending repairs damaged items held or equipped when you collect XP.",
     "steps": [
-      "Crafting grid repair: place two damaged tools of the same type and material anywhere in the grid. The result adds their remaining durability plus a 5% bonus, but all enchantments are lost. Good for unenchanted tools only.",
+      "Crafting grid: combine two damaged tools of the same type and material. Their remaining durability is added with a 5% bonus, capped at full durability. Non-curse enchantments are removed; curses remain.",
       "Grindstone repair: combine two damaged tools of the same type in a grindstone. Same free repair, and it strips non-curse enchantments, refunding some XP. Useful for clearing bad enchantments.",
       "Anvil repair with material: put the tool in the left slot and its material in the middle (diamonds for diamond tools, iron ingots for iron tools, and so on). Each material item restores 25% durability and enchantments are kept, but it costs XP levels.",
       "Anvil combine: merge two enchanted tools of the same type to add their durabilities together and combine or keep enchantments. The prior-work penalty makes repeated repairs cost more each time.",
@@ -25360,14 +25355,11 @@
       "XP levels for anvil work"
     ],
     "editionNote": "Repair mechanics are the same in Java and Bedrock: grid combining gives a 5% durability bonus, anvil material repair restores 25% per item, and the anvil prior-work penalty applies in both. Mending works identically in both editions.",
-    "versions": [
-      "1.14 (grindstone added)",
-      "1.9 (Mending added)"
-    ],
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why do my enchantments disappear when I repair?",
-        "a": "You used the crafting grid: grid repair always strips enchantments. Use an anvil to keep them, or a grindstone if you actually want them removed (it refunds some XP)."
+        "a": "Crafting-grid and grindstone repairs remove non-curse enchantments, but preserve curses. Anvil repairs keep compatible enchantments; Mending repairs without removing enchantments."
       },
       {
         "q": "What is the cheapest way to repair a diamond pickaxe?",
@@ -25375,11 +25367,11 @@
       },
       {
         "q": "Can you repair tools infinitely?",
-        "a": "Only with Mending. Anvil repairs stop working once the operation cost passes 39 levels (Too Expensive), and every repair raises that cost."
+        "a": "Mending can keep repairing damaged held or equipped tools if you collect enough XP. Repeated anvil repairs accumulate prior work and eventually become too expensive in Survival. Unenchanted tools can also be combined repeatedly, consuming another matching tool each time."
       },
       {
         "q": "What material repairs what tool?",
-        "a": "The tool's own material: wooden planks for wood tools, cobblestone for stone tools, iron ingots for iron, diamonds for diamond, gold ingots for gold, netherite ingots for netherite. Elytra repairs with phantom membranes, and shears with iron ingots."
+        "a": "Supported tools use their repair material: planks for wood, cobblestone/blackstone/cobbled deepslate for stone, copper ingots for copper, iron ingots for iron, gold ingots for gold, diamonds for diamond and netherite ingots for netherite. Elytra use phantom membranes. Shears do not accept iron-ingot unit repair: combine another pair or use Mending."
       }
     ],
     "relatedGuides": [
@@ -31107,8 +31099,8 @@
       "Knockback II: optional. Great against creepers, annoying when chasing mobs - many players leave it off.",
       "Getting them: enchant books at the table, combine on an anvil, or buy the exact books from librarian villagers."
     ],
-    "versions": "These enchantments are stable across all current versions. Sweeping Edge is Java-only; Bedrock swords have no sweep attack to boost.",
-    "editionNote": "Bedrock: skip Sweeping Edge. Everything else works the same on both editions.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Sweeping Edge and the sword sweep attack are Java-only. Sharpness damage also differs: Java uses 0.5 × level + 0.5, while Bedrock uses 1.25 × level rounded down. Do not assume equal sword damage across editions.",
     "faq": [
       {
         "q": "Sharpness or Smite?",
@@ -32671,15 +32663,15 @@
     "steps": [
       "Hoe: Fortune III turns leaf-breaking into a sapling-and-stick factory and boosts crop drops; Silk Touch is the leaf-block alternative. Add Efficiency V, Unbreaking III and Mending for the sculk-and-leaves super-tool.",
       "Hoe note: the hoe is the fastest tool for leaves, hay bales, sponges, moss and sculk-family blocks - enchanting one is worth it in the deep dark.",
-      "Shears: Unbreaking III and Mending keep them alive through wool farms; Efficiency V shaves wool and leaves faster. Efficiency goes on at the table, the rest by anvil.",
-      "Shield: only Unbreaking III and Mending, both by anvil - a Mending shield repairs itself from XP while it saves your life.",
+      "Shears: apply Unbreaking III, Mending and Efficiency V through an anvil with books, not the enchanting table. Efficiency speeds up mining suitable blocks such as wool, leaves and cobwebs; it does not speed up shearing sheep. Bedrock also permits Silk Touch on shears.",
+      "Shield: Unbreaking III and Mending are useful anvil-book choices. Curse of Vanishing is also possible but is best avoided. Mending repairs it when you collect XP while holding the damaged shield.",
       "Flint and steel: Unbreaking III and Mending by anvil - yes, you can, and a netherite-grade lighter is oddly satisfying.",
       "Brush: Unbreaking III and Mending by anvil - archaeology brushes break fast, so enchant before the big dig.",
       "Carrot on a stick and warped fungus on a stick: Unbreaking and Mending for pig and strider riding - pure luxury.",
       "General rule: if a tool accepts no table enchantments, the anvil-plus-books route still applies Unbreaking and Mending - nothing durable should leave your base unenchanted."
     ],
-    "versions": "These enchantment options are the same on Java and Bedrock. Table availability differs slightly by item; the anvil route works everywhere.",
-    "editionNote": "The hoe is the hidden gem: it is the fastest leaf and sculk tool in the game, and Fortune III on a hoe multiplies sweet berry and crop harvests.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Shears use an anvil and books in both editions, not the enchanting table. Bedrock permits Silk Touch on shears; Java does not in normal Survival. Efficiency affects block mining, not sheep shearing.",
     "faq": [
       {
         "q": "Can you enchant a shield?",
@@ -32760,38 +32752,38 @@
     "slug": "minecraft-anvil-too-expensive",
     "name": "Why Your Anvil Says 'Too Expensive' in Minecraft (And How to Fix It)",
     "shortTitle": "Fix 'Too Expensive' Anvil",
-    "quickAnswer": "Every time an item goes through an anvil, its prior work penalty roughly doubles - 1, 3, 7, 15, 31 extra levels. When the total cost passes 39 levels, survival anvils refuse with 'Too Expensive'. Fix it by combining books first, applying the priciest books earliest, or wiping the item on a grindstone and starting over.",
+    "quickAnswer": "Ordinary Survival anvil work is refused at 40 levels or more. Repairing and enchanting raise the prior-work penalty through 0, 1, 3, 7, 15, 31, but renaming alone does not. Use balanced combinations and compare costs; a grindstone resets prior work at the cost of non-curse enchantments.",
     "keywords": "too expensive minecraft anvil fix prior work penalty 39 levels combine books order grindstone",
     "materials": [
       "An anvil and a grindstone",
       "Enchanted books, ideally combined before touching the tool",
-      "40 levels of XP for the legal maximum"
+      "Enough XP for the displayed cost, up to 39 levels for ordinary Survival work"
     ],
     "steps": [
-      "The cause: every anvil operation adds a hidden 'prior work' penalty to the item - it roughly doubles each time (1, 3, 7, 15, 31 levels), so five trips through the anvil already cost +31 on every later job.",
-      "The cap: survival anvils refuse any operation costing 40 or more levels and show 'Too Expensive'. Creative mode ignores the cap.",
-      "Prevention 1 - combine books with books first: merge enchanted books together (they carry their own, cheaper penalty), then apply the combined book to a fresh tool in as few operations as possible.",
-      "Prevention 2 - expensive first: apply the highest-level, most valuable books earliest while penalties are low; save cheap books and renaming for last.",
-      "Prevention 3 - never rename early: renaming counts as an anvil use and adds to the penalty - name your gear after the enchantments, or skip renaming.",
+      "The cause: repair/enchantment jobs increase prior work based on the larger input penalty. Both input penalties contribute to the next job, along with its repair/enchantment cost. Renaming alone does not raise prior work.",
+      "The cap: ordinary Survival repair and enchantment jobs costing 40 levels or more show Too Expensive. Creative ignores this cap. Java rename-only work is capped at 39 levels rather than being refused at that threshold.",
+      "Combine books and gear in a balanced order, pairing items with similar prior-work penalties where possible. Compare the displayed costs, including swapping the two slots when both orders are valid. One giant combined book is not always cheapest.",
+      "Compare slot order: for valid combinations, swapping the inputs can change which enchantments are charged. Check the result and cost instead of following an expensive-first rule for every setup.",
+      "Renaming: it costs XP but does not increase prior work when done alone. Adding the name during a repair or enchantment job avoids a separate rename operation; there is no need to always rename last.",
       "Prevention 4 - enchanting table first: get as many enchantments as possible from the table itself, then only add what is missing by anvil.",
-      "The fix for a bricked item: grindstone the tool to wipe all enchantments (you get some XP back), re-enchant from scratch in the right order - painful but cheaper than a dead god-pickaxe.",
+      "Grindstone reset: removes prior-work penalty and non-curse enchantments, refunding some XP. Curses remain. Rebuild the enchantments with a balanced plan.",
       "Mending saves the day: a Mending tool never needs replacement, so plan the enchant order once, pay it once, and repair with XP forever.",
-      "Crossbow and bow note: incompatible enchantments (Multishot/Piercing, Infinity/Mending) also block the anvil - but with 'cannot combine', not 'Too Expensive'."
+      "Incompatible enchantments cannot both apply to the same item. Check the preview: some combinations are refused, while others keep the target enchantment and do not transfer the incompatible one."
     ],
-    "versions": "The 39-level cap and prior work penalty are the same on Java and Bedrock. The exact displayed cost includes material costs on top of the penalty.",
-    "editionNote": "A perfect plan for a max tool: table-enchant the base item, combine all extra books into one, apply in two anvil operations, rename last - total penalty stays minimal.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Ordinary Survival repair/enchantment work must cost less than 40 levels in both editions. Exact enchantment costs differ. Renaming alone does not raise prior work; Java limits rename-only cost to 39 levels.",
     "faq": [
       {
         "q": "What does 'Too Expensive' mean in Minecraft?",
-        "a": "The anvil operation would cost 40 or more XP levels, which survival mode forbids. It happens because the item's prior work penalty grew too large from repeated anvil use - not because the enchantment is impossible."
+        "a": "An ordinary Survival repair or enchantment job would cost 40 or more levels. The total includes prior-work penalties and the work itself. Java rename-only work is instead capped at 39 levels."
       },
       {
         "q": "Can I remove the prior work penalty?",
-        "a": "Only by wiping the item on a grindstone, which removes all enchantments (curses stay) and refunds a little XP. Then rebuild the enchantments in an efficient order."
+        "a": "A grindstone removes prior work and non-curse enchantments while keeping curses. Crafting-grid repair also resets prior work but removes non-curse enchantments. Mending repairs durability without adding prior work."
       },
       {
         "q": "What is the cheapest order to combine enchantments?",
-        "a": "Combine books with books first, put the most expensive enchantment on the tool first, and add the rest in as few anvil trips as possible. Renaming always goes last."
+        "a": "Combine books and gear in a balanced order, pairing items with similar prior-work penalties where possible. Compare the displayed costs, including swapping the two slots when both orders are valid. One giant combined book is not always cheapest."
       }
     ],
     "relatedGuides": [
@@ -33546,9 +33538,9 @@
   },
   {
     "slug": "all-enchantments-list",
-    "name": "All 43 Minecraft Enchantments: Complete List with Max Levels",
+    "name": "Minecraft Enchantments: Complete List with Max Levels",
     "shortTitle": "All Enchantments List",
-    "quickAnswer": "Minecraft has 43 enchantments. The big five for any gear set are Protection IV, Unbreaking III, Mending, Efficiency V and Sharpness V. Key incompatibilities: Sharpness, Smite and Bane of Arthropods exclude each other; the four Protection types exclude each other; Fortune conflicts with Silk Touch; Infinity conflicts with Mending; Depth Strider with Frost Walker; Riptide with Loyalty and Channeling; Multishot with Piercing; Density with Breach.",
+    "quickAnswer": "The big five for any gear set are Protection IV, Unbreaking III, Mending, Efficiency V and Sharpness V. Key incompatibilities: Sharpness, Smite and Bane of Arthropods exclude each other; the four Protection types exclude each other; Fortune conflicts with Silk Touch; Infinity conflicts with Mending; Depth Strider with Frost Walker; Riptide with Loyalty and Channeling; Multishot with Piercing; Density with Breach.",
     "keywords": "all minecraft enchantments list max level every enchantment protection sharpness mending efficiency fortune silk touch",
     "materials": [
       "An enchanting table with 15 bookshelves for level-30 enchants",
@@ -33556,11 +33548,11 @@
       "XP levels and lapis lazuli"
     ],
     "steps": [
-      "Armor, any piece (5): Protection IV (all damage), Fire Protection IV (fire and burn time), Blast Protection IV (explosions), Projectile Protection IV (arrows and projectiles), Thorns III (reflects damage). The four Protection types exclude each other.",
-      "Helmet (2): Aqua Affinity I (normal mining speed underwater), Respiration III (longer breath underwater).",
+      "Armor: Protection IV, Fire Protection IV, Blast Protection IV, Projectile Protection IV and Thorns III. Protection does not cover every damage source. The four Protection types conflict on the same armor piece, not across the whole set.",
+      "Helmet: Aqua Affinity I removes the submerged mining penalty, but not the separate penalty for floating. Respiration III extends underwater air.",
       "Boots (4): Feather Falling IV (less fall damage), Depth Strider III (faster swimming), Frost Walker II (walk on water as ice), Soul Speed III (faster on soul sand - treasure enchantment). Depth Strider and Frost Walker exclude each other.",
       "Leggings (1): Swift Sneak III (faster sneaking - treasure, found in ancient cities).",
-      "Sword and spear (7): Sharpness V (all-round damage), Smite V (undead), Bane of Arthropods V (spiders and arthropods), Fire Aspect II (sets targets on fire), Knockback II, Looting III (more mob drops), Sweeping Edge III (stronger sweeps, Java only). Sharpness, Smite and Bane exclude each other.",
+      "Sword and spear: Sharpness V, Smite V, Bane of Arthropods V, Fire Aspect II, Knockback II and Looting III. Sharpness, Smite and Bane conflict. Sweeping Edge III is for swords only, and Java-only; it is not a spear enchantment.",
       "Spear only (1): Lunge III - launches you forward on the jab attack, costing hunger and durability.",
       "Mace (3): Density V (more smash damage), Breach IV (pierces armor), Wind Burst III (bounce after a smash - treasure, from ominous vaults). Density, Breach and the sword damage enchants exclude each other.",
       "Bow (4): Power V (damage), Punch II (knockback), Flame I (fire arrows), Infinity I (free normal arrows - conflicts with Mending).",
@@ -33571,12 +33563,12 @@
       "Universal (4): Unbreaking III (durability lasts longer), Mending I (XP repairs the item - treasure enchantment), Curse of Binding I (cannot remove the item), Curse of Vanishing I (item disappears on death).",
       "Treasure enchantments (no enchanting table): Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst and the two curses - get them from books in loot, fishing, trading or vaults."
     ],
-    "versions": "The list is current as of 26.x on Java and Bedrock, including the spear and its Lunge enchantment. Sweeping Edge is Java-only; Cleaving exists only in Java combat tests and cannot be obtained in the normal game.",
-    "editionNote": "Learn the incompatibilities first - they decide your whole enchanting plan: one Protection type per set, one damage type per sword, and Mending on everything except your Infinity bow.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Protection types are incompatible on each armor piece, not across a set. Damage enchantments such as Sharpness, Smite and Bane conflict on the same weapon. Sweeping Edge is Java-only and sword-only; item eligibility matters when applying books.",
     "faq": [
       {
         "q": "How many enchantments are there in Minecraft?",
-        "a": "43 in the current game (26.x), counting the spear's Lunge and the mace's Density, Breach and Wind Burst. Cleaving exists only in Java combat tests."
+        "a": "The full Java list includes Sweeping Edge, which Bedrock does not have. Both include Lunge for spears and Density, Breach and Wind Burst for maces. Cleaving belongs to Java combat tests, not the standard game."
       },
       {
         "q": "Which enchantments are incompatible?",
