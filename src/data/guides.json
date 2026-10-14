@@ -7615,7 +7615,7 @@
       "Find ominous vaults: the skull-faced vaults hidden in the harder corners of trial chambers.",
       "Open unused ominous vaults: each opening has about a 5.5% chance for a Wind Burst I book. For normal play, each player opens each vault once; spawner cooldowns do not reset vault loot.",
       "Combine two Wind Burst I books for II, then two II books for III. Starting from I books needs four books for III, subject to anvil costs. Approximate launch heights are 8, 16 and 24 blocks, but defenses can reduce them.",
-      "Fight with it: land a smash attack (fall more than 1.5 blocks before hitting) and Wind Burst launches you upward to chain the next smash. Jump off a single block or use a wind charge to start the loop - and note it doesn't cancel fall damage like a wind charge does."
+      "Land a successful smash to launch upward and attempt another. Start from a ledge or with a wind charge. Wind Burst does not provide the player-thrown wind charge protection down to its burst-hit height; if you miss the next hit, the later fall can hurt."
     ],
     "materials": [
       "Mace (heavy core + breeze rod)",
@@ -7640,7 +7640,7 @@
       },
       {
         "q": "Does Wind Burst stop fall damage?",
-        "a": "No - unlike wind charges, Wind Burst doesn't cancel your fall damage. A successful mace smash negates the fall damage of that attack as usual, but the launch itself won't save you from a bad landing."
+        "a": "No. A successful smash resets prior fall distance, but the Wind Burst launch does not protect your later landing. Player-thrown wind charges have a different rule: damage accumulates below the height where their burst hit you."
       }
     ],
     "relatedGuides": [
@@ -16751,7 +16751,7 @@
     "faq": [
       {
         "q": "Density or Breach on my mace?",
-        "a": "Density for PvE one-shots - its fall-distance bonus reaches absurd numbers fast. Breach only outperforms it against heavily armored targets (players in netherite, high-armor mobs) on flat ground. Most players run Density and keep a Breach mace for PvP."
+        "a": "Density adds damage to smashes, so it benefits higher falls. Breach helps against armor and also works on ground attacks. Which deals more damage depends on fall height and target defenses; they cannot coexist on one mace."
       },
       {
         "q": "Can Density go on a sword?",
