@@ -12064,7 +12064,7 @@
     ],
     "materials": [
       "1 fishing rod (3 sticks + 2 string from spiders or cobwebs)",
-      "Any body of water; an open-water pool (at least 2 deep, open sky) for treasure",
+      "Water for fishing; Java treasure requires the open-water volume described below, not direct sky",
       "Recommended enchantments: Luck of the Sea III, Lure III, Mending, Unbreaking III"
     ],
     "editionNote": "Java requires open water for treasure; Bedrock does not. Individual treasure weights also differ: enchanted books are slightly more likely within Bedrock's treasure category. The bite window is roughly 1-2 seconds in Java and half a second in Bedrock.",
@@ -16402,7 +16402,7 @@
       "Fishing rod (3 sticks + 2 string)",
       "Enchanting table, or anvil + Lure enchanted book",
       "XP levels",
-      "Open water (2+ blocks deep, open sky)"
+      "Water for fishing; Java treasure requires the open-water volume described below, not direct sky"
     ],
     "editionNote": "Lure shortens waits and does not improve treasure odds. Java has an open-water treasure check; Bedrock does not. Lure and Luck of the Sea can be used together. The normal maximum is III.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
@@ -16417,7 +16417,7 @@
       },
       {
         "q": "Why does nothing bite with my command-enchanted rod?",
-        "a": "Lure above level 5 (commands only) breaks the bite timer - fish never bite at all. Survival Lure III is the effective cap."
+        "a": "Command-only Lure levels above V can prevent bites in Java. Survival Lure III is the normal maximum."
       }
     ],
     "relatedGuides": [
@@ -33444,7 +33444,7 @@
     "materials": [
       "A fishing rod (3 sticks and 2 string)",
       "Luck of the Sea III and Lure III for the best results",
-      "On Java, an open-water spot: a 5x4x5 area around the bobber with only water, lily pads and air"
+      "In Java, a qualifying 5x4x5 open-water volume around the bobber; see the layer rules below"
     ],
     "steps": [
       "Category chances: 85% fish, 10% junk, 5% treasure unenchanted. Each level of Luck of the Sea shifts about 1-2% from junk and fish into treasure - with LotS III it is 84.5% fish, 4.1% junk, 11.3% treasure.",
