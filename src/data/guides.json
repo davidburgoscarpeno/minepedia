@@ -47471,14 +47471,14 @@
     "slug": "how-to-kill-an-elder-guardian",
     "name": "How to Kill an Elder Guardian in Minecraft",
     "shortTitle": "Kill an Elder Guardian",
-    "quickAnswer": "An elder guardian has 80 HP (40 hearts) and each ocean monument has three of them. Fight it in the water or in a drained room, move away while its laser charges (3 seconds, no damage while charging), and expect Mining Fatigue III from anywhere within 50 blocks. Each one always drops a wet sponge, and has a 20% chance for a tide armor trim.",
+    "quickAnswer": "An elder guardian has 80 HP (40 hearts), and each ocean monument has three. Break line of sight with solid blocks during its 3-second laser charge. Expect Mining Fatigue III within 50 blocks. Kill it yourself to get a wet sponge; it also has a 20% chance to drop a tide armor trim.",
     "steps": [
       "Find an ocean monument. Three elder guardians generate with each one and do not respawn.",
-      "Expect Mining Fatigue III first. In Java Edition, right after it spawns and then once each minute, an elder guardian afflicts any player within 50 blocks. It lasts 5 minutes, cuts attack speed by 30% and hits through blocks.",
+      "Expect Mining Fatigue III. In Java Edition, an elder guardian checks once per minute for Survival players within 50 blocks. The effect lasts 5 minutes and reaches through blocks. In Bedrock Edition, players without the effect are afflicted immediately when in range.",
       "Fight it in a place you control. It has 80 HP (40 hearts).",
-      "Watch its laser: it takes 3 seconds to charge and does no damage while charging. Once it flashes green and disappears, it deals 8 HP. Move out of its line of sight before it fires.",
-      "Kill it and collect the drops: a wet sponge (100%), 0-2 prismarine shards (more with Looting), 0-1 prismarine crystals (33.33%) and a tide armor trim (20%).",
-      "Dry the wet sponge in a furnace or on the ground, then use it to soak up water.",
+      "Watch its laser: it takes 3 seconds to charge and does no damage while charging. Break its line of sight with solid blocks before it fires. Do not rely on moving sideways in open water to dodge the beam.",
+      "Kill it yourself and collect the drops: 1 wet sponge, 0-2 prismarine shards, 0-1 prismarine crystals (33.33% chance) and a tide armor trim (20% chance). These shard and crystal counts are without Looting; Looting can increase their maximum counts, but not the sponge count or trim chance.",
+      "Dry the wet sponge in a furnace, or place it in the Nether to dry it instantly. Then use it to soak up water.",
       "Kill all three elder guardians if you want every drop from the monument. They do not respawn."
     ],
     "materials": [
@@ -47486,8 +47486,8 @@
       "Water breathing or a way to drain the room",
       "Looting enchantment (optional)"
     ],
-    "editionNote": "In Java Edition the elder guardian looks for players to afflict once per minute. In Bedrock Edition it afflicts any unafflicted player in range immediately, and a known bug (MCPE-57215) makes it not drop random fish.",
-    "versions": "The elder guardian is exclusive to ocean monuments, with three generated per monument.",
+    "editionNote": "In Java Edition, elder guardians check for players to afflict with Mining Fatigue once per minute; in Bedrock Edition, players without the effect are afflicted immediately in range. A player kill gives a wet sponge in both editions. A tamed wolf kill also qualifies in Java Edition, but not in Bedrock Edition.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How many elder guardians are in a monument?",
@@ -47499,7 +47499,7 @@
       },
       {
         "q": "What do elder guardians drop?",
-        "a": "A wet sponge every time, plus prismarine shards (0-2), prismarine crystals (0-1) and a tide armor trim at 20%."
+        "a": "When you kill one yourself, it drops 1 wet sponge. Without Looting it can also drop 0-2 prismarine shards, 0-1 prismarine crystals and a tide armor trim at a 20% chance."
       },
       {
         "q": "How far does Mining Fatigue reach?",
@@ -47507,7 +47507,7 @@
       },
       {
         "q": "Can the laser be dodged?",
-        "a": "Yes. It takes 3 seconds to charge and deals no damage until it fires, so break line of sight."
+        "a": "Do not try to dodge it by strafing in open water. Break line of sight with solid blocks during its 3-second charge so the attack stops before it deals damage."
       }
     ],
     "relatedGuides": [

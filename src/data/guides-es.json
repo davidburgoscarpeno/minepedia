@@ -42036,14 +42036,14 @@
   "how-to-kill-an-elder-guardian": {
     "name": "Cómo matar a un elder guardian en Minecraft",
     "shortTitle": "Matar a un elder guardian",
-    "quickAnswer": "Un elder guardian tiene 80 HP (40 corazones) y cada ocean monument tiene tres. Lucha en el agua o en una sala drenada, aléjate mientras carga su láser (3 segundos, sin daño mientras carga) y espera Mining Fatigue III desde hasta 50 bloques. Cada uno suelta siempre una wet sponge y tiene un 20% de soltar un tide armor trim.",
+    "quickAnswer": "Un elder guardian tiene 80 HP (40 corazones) y cada ocean monument tiene tres. Interpón bloques sólidos durante los 3 segundos de carga del láser para romper su línea de visión. Aplica Mining Fatigue III hasta 50 bloques. Mátalo tú para conseguir una wet sponge; también tiene un 20% de probabilidad de soltar un tide armor trim.",
     "steps": [
       "Encuentra un ocean monument. Con cada uno se generan tres elder guardians, y no reaparecen.",
-      "Espera primero el Mining Fatigue III. En Java Edition, nada más aparecer y luego una vez por minuto, un elder guardian afecta a cualquier jugador a menos de 50 bloques. Dura 5 minutos, reduce la velocidad de ataque un 30% y atraviesa bloques.",
+      "Cuenta con Mining Fatigue III. En Java Edition, un elder guardian busca una vez por minuto jugadores en Supervivencia hasta 50 bloques. El efecto dura 5 minutos y atraviesa bloques. En Bedrock Edition afecta de inmediato a los jugadores sin el efecto que estén dentro del rango.",
       "Pelea en un sitio que controles. Tiene 80 HP (40 corazones).",
-      "Vigila su láser: tarda 3 segundos en cargar y no hace daño mientras carga. Cuando destella en verde y desaparece, hace 8 HP. Sal de su línea de visión antes de que dispare.",
-      "Mátalo y recoge los drops: una wet sponge (100%), 0-2 prismarine shards (más con Looting), 0-1 prismarine crystals (33,33%) y un tide armor trim (20%).",
-      "Seca la wet sponge en un furnace o en el suelo, y luego úsala para absorber agua.",
+      "Vigila su láser: tarda 3 segundos en cargar y no hace daño mientras carga. Interpón bloques sólidos para romper la línea de visión antes de que dispare. No confíes en moverte de lado en agua abierta para esquivar el rayo.",
+      "Mátalo tú y recoge el botín: 1 wet sponge, 0-2 prismarine shards, 0-1 prismarine crystals (33,33% de probabilidad) y un tide armor trim (20%). Esas cantidades de shards y crystals son sin Looting; Looting puede aumentar sus cantidades máximas, pero no el número de esponjas ni la probabilidad del trim.",
+      "Seca la wet sponge en un horno o colócala en el Nether para secarla al instante. Después úsala para absorber agua.",
       "Mata a los tres elder guardians si quieres todos los drops del monument. No reaparecen."
     ],
     "materials": [
@@ -42051,8 +42051,8 @@
       "Water breathing o una forma de drenar la sala",
       "Encantamiento Looting (opcional)"
     ],
-    "editionNote": "En Java Edition el elder guardian busca jugadores a quienes afectar una vez por minuto. En Bedrock Edition afecta de inmediato a cualquier jugador sin el efecto dentro del rango, y un bug conocido (MCPE-57215) hace que no suelte pescado aleatorio.",
-    "versions": "El elder guardian es exclusivo de los ocean monuments, con tres generados por monument.",
+    "editionNote": "En Java Edition, los elder guardians buscan jugadores a quienes aplicar Mining Fatigue una vez por minuto; en Bedrock Edition afectan de inmediato a los jugadores sin el efecto que estén en rango. Una muerte causada por un jugador da una wet sponge en ambas ediciones. En Java Edition también cuenta una muerte causada por un lobo domesticado, pero en Bedrock Edition no.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuántos elder guardians hay en un monument?",
@@ -42064,7 +42064,7 @@
       },
       {
         "q": "¿Qué sueltan los elder guardians?",
-        "a": "Una wet sponge siempre, además de prismarine shards (0-2), prismarine crystals (0-1) y un tide armor trim al 20%."
+        "a": "Cuando lo matas tú, suelta 1 wet sponge. Sin Looting también puede soltar 0-2 prismarine shards, 0-1 prismarine crystals y un tide armor trim con un 20% de probabilidad."
       },
       {
         "q": "¿Hasta dónde llega el Mining Fatigue?",
@@ -42072,7 +42072,7 @@
       },
       {
         "q": "¿Se puede esquivar el láser?",
-        "a": "Sí. Tarda 3 segundos en cargar y no hace daño hasta que dispara, así que rompe la línea de visión."
+        "a": "No intentes esquivarlo moviéndote de lado en agua abierta. Interpón bloques sólidos durante sus 3 segundos de carga para cortar la línea de visión y detener el ataque antes de que cause daño."
       }
     ],
     "relatedGuides": [
