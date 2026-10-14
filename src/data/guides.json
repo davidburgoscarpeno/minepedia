@@ -8107,24 +8107,24 @@
     "slug": "how-to-get-looting",
     "name": "How to Get Looting in Minecraft (Looting III)",
     "shortTitle": "Get Looting",
-    "quickAnswer": "Looting goes on swords (and spears since 1.21.11) via the enchanting table, librarian trades, fishing, or monster room and structure chests. Looting III adds up to +3 items per common drop and +3 percentage points to rare drops like wither skeleton skulls.",
+    "quickAnswer": "Looting applies to swords and spears through the enchanting table or enchanted books. III is the normal maximum. It raises many common-drop limits by up to 3 items. Wither skeleton skulls reach 5.5% in Java or 8.5% in Bedrock at III, from 2.5% without Looting.",
     "steps": [
-      "Enchant a sword: Looting appears on the enchanting table for swords - level-30 enchants give the best shot at Looting III directly. Since 1.21.11, spears accept Looting too.",
+      "Enchant a sword or spear at an enchanting table. Level-30 offers can include Looting III, but the result is random.",
       "Trade for it: reroll a librarian's lectern until it offers a Looting book, then lock the trade. Combine I+I and II+II in an anvil to reach III.",
-      "Fish and loot: enchanted books from fishing, monster room chests and non-village structure loot can all carry Looting. Bedrock raid mobs drop books too.",
-      "Apply on an anvil: book + sword, done. Looting is compatible with Sharpness, Fire Aspect, Knockback and - since 1.21 - Silk Touch (it was blocked in 1.11.1 and re-allowed in 1.21).",
-      "Use it right: Looting counts any kill made while you HOLD the sword in your main hand - shoot an arrow, switch to the sword before it lands, and Looting still applies. Java's sweep attacks carry Looting across the whole group.",
-      "Farm the good stuff: common drops get +1 max item per level (3 extra at III), and rare drops like wither skeleton skulls gain +1 percentage point of chance per level - skull hunting is Looting's biggest payday.",
+      "Fish and loot: enchanted books from fishing, monster room chests and non-village structure loot can all carry Looting. Bedrock raid-spawned mobs can drop books too.",
+      "Apply a Looting book to a sword or spear on an anvil. Looting can coexist with Sharpness, Fire Aspect and Knockback; Silk Touch is not a normal sword enchantment to target for this build.",
+      "Hold the Looting item in your main hand when the mob dies. For projectile kills, switch before the arrow or thrown trident hits. Java sweep attacks apply Looting, but charge attacks with a spear in the offhand do not.",
+      "Common-drop limits often rise by 1 item per level, but individual drops have exceptions. Wither skeleton skulls have a 2.5% base chance: Looting III raises it to 5.5% in Java and 8.5% in Bedrock. This changes the chance of a skull, not the number dropped.",
       "Know what it can't do: no extra wool from sheep, no totems from evokers, no sponges or tide trims from elder guardians, no sculk catalysts from wardens, no extra fish from fish mobs, and no bamboo from pandas in Java. Kills made by Fire Aspect's burn don't apply Looting either."
     ],
     "materials": [
-      "Sword (diamond/netherite for the table) or a spear",
+      "Sword or spear",
       "Enchanting table + bookshelves, or a librarian with a lectern",
       "Lapis and XP",
       "Anvil for book combining"
     ],
-    "editionNote": "Core mechanics match: +1 max common drop per level, +1 percentage point rare-drop chance per level. Bedrock extras: raid-spawned mobs drop enchanted books, and off-hand tricks differ - in Java you can fire from the off-hand while holding a Looting sword in the main hand. Java-only: sweep attacks apply Looting, and pandas don't drop extra bamboo.",
-    "versions": "Added in Beta 1.9 Prerelease 4 for swords. The rare-drop bonus arrived in 1.8 (14w04a). Silk Touch compatibility was removed in 1.11.1 and restored in 1.21. Spears joined the Looting club in 1.21.11.",
+    "editionNote": "Java allows offhand projectiles while a Looting item is held in the main hand and applies Looting to sweep attacks. Offhand spear charge attacks do not apply it. Bedrock raid-spawned mobs can drop enchanted books. Wither skeleton skulls gain 1 percentage point per level in Java, 2 in Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How do you get Looting 3?",
@@ -8132,11 +8132,11 @@
       },
       {
         "q": "Does Looting work on wither skeleton skulls?",
-        "a": "Yes - skulls are rare drops, so each Looting level adds 1 percentage point to the drop chance (up to +3 at Looting III). It doesn't change the number of skulls, just the odds of one dropping."
+        "a": "Yes. The base chance is 2.5%. Looting adds 1 percentage point per level in Java (5.5% at III) and 2 in Bedrock (8.5% at III). It increases the chance, not the number of skulls."
       },
       {
         "q": "Does Looting work with bows or tridents?",
-        "a": "Indirectly, yes: Looting applies to any kill made while the enchanted sword is in your main hand. Shoot the arrow or throw the trident, switch to the Looting sword before the hit lands, and the bonus applies."
+        "a": "Yes, by holding a Looting item in the main hand when the projectile kills the mob. Fire the arrow or throw the trident, then switch before it hits. This does not mean survival bows or tridents can normally be enchanted with Looting."
       }
     ],
     "relatedGuides": [
@@ -8284,13 +8284,13 @@
     "shortTitle": "Get Efficiency",
     "quickAnswer": "Efficiency speeds up mining on pickaxes, shovels, axes and hoes. The enchanting table gives up to Efficiency V on most tools - but stone and diamond tools cap at IV, so combine two IVs in an anvil for V. Librarians, fishing and structure loot work too.",
     "steps": [
-      "Enchant your tool: pickaxes, shovels, axes and hoes (hoes since 1.16) all take Efficiency at the table. Wooden, iron, netherite, gold and copper tools can roll straight to Efficiency V.",
+      "Pickaxes, shovels, axes and hoes accept Efficiency at the enchanting table. Tools other than stone or diamond can receive V there. Shears can receive Efficiency through an enchanted book on an anvil, not directly from the table.",
       "Mind the stone and diamond cap: stone and diamond tools only get up to Efficiency IV from the table (a quirk Mojang confirmed as intended). Combine two Efficiency IV items or books in an anvil to reach V.",
       "Or skip the cap entirely: diamond tools with Efficiency V already applied spawn in end city, ancient city and bastion remnant chests - check every tools chest.",
       "Trade with librarians: reroll lecterns until an Efficiency book appears, then combine up to V. Villagers can also sell tools with random Efficiency levels.",
       "Feel the speed: Efficiency adds level² + 1 mining efficiency (26 at level V, on top of your tool's base). It only counts with the correct tool for the block - an Efficiency V pickaxe mines stone fast, but won't speed up dirt.",
-      "Stack the dream setup: Efficiency V + Haste II beacon + netherite pickaxe is the classic 'insta-mine' combination for stone-type blocks. That's the endgame quarry rig.",
-      "Since 1.21, the exact mining efficiency bonus shows in the tool's tooltip - hover to see the number go up."
+      "For ordinary stone, a diamond or netherite pickaxe with Efficiency V and Haste II can mine instantly under normal conditions. Harder blocks, Mining Fatigue, being airborne or underwater penalties can prevent that result.",
+      "Use the bonus for breaking blocks with the correct tool. It does not speed up an axe's use action to strip a log. Tooltip and mining-speed details differ by edition."
     ],
     "materials": [
       "Pickaxe, shovel, axe or hoe",
@@ -8299,8 +8299,8 @@
       "Librarian + lectern for targeted books",
       "Lapis and XP"
     ],
-    "editionNote": "Efficiency behaves identically in Java and Bedrock: same level² + 1 formula, same stone/diamond table cap, same anvil path to V. The usual Bedrock extras apply for sources - raid mobs can drop enchanted books.",
-    "versions": "Added in Beta 1.9 Prerelease 4. It briefly worked with wrong tools (Prerelease 6), was restricted to correct tools in 1.4.6, lost its axe shield-disable bonus in 1.11, extended to hoes in 1.16, and got its tooltip readout in 1.21.",
+    "editionNote": "The Efficiency bonus is level² + 1, with V adding 26. Stone and diamond tools need an anvil to reach V after table enchanting; shears also need an anvil. Haste and other mining-speed modifiers differ by edition, so do not assume every final breaking time is identical.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why can't I get Efficiency V on my diamond pickaxe?",
@@ -8312,7 +8312,7 @@
       },
       {
         "q": "Can you insta-mine with Efficiency?",
-        "a": "Yes: a netherite pickaxe with Efficiency V plus a Haste II beacon instantly breaks stone and similar blocks. That's the standard setup for quarries and perimeter digs."
+        "a": "Yes, for suitable blocks and conditions. A diamond or netherite pickaxe with Efficiency V and Haste II can instantly break ordinary stone. That does not guarantee instant breaking of deepslate or every other block, especially with mining penalties."
       }
     ],
     "relatedGuides": [
@@ -8341,16 +8341,16 @@
     "slug": "how-to-get-unbreaking",
     "name": "How to Get Unbreaking in Minecraft (Unbreaking III)",
     "shortTitle": "Get Unbreaking",
-    "quickAnswer": "Unbreaking slows durability loss on any tool, weapon or armor: enchanting tables, librarian trades, fishing and structure loot all give it. Unbreaking III makes tools last about 4 times longer on average (armor about 1.4 times), and it stacks perfectly with Mending.",
+    "quickAnswer": "Unbreaking reduces durability loss on compatible tools, weapons and armor. It comes from enchanting tables or enchanted books, with some items requiring an anvil. III gives about 4 times the normal tool lifespan on average, or about 1.43 times for armor, and can coexist with Mending.",
     "steps": [
-      "Enchant anything with durability: tools, weapons and armor can all roll Unbreaking at the enchanting table. Since 1.4.6, books can apply it to literally anything with a durability bar.",
-      "Trade with librarians: reroll lecterns for an Unbreaking book and lock it. It's one of the cheapest and most common book trades - combine two IIs for III.",
+      "Enchant eligible tools, weapons and armor at the enchanting table. Some durable items, including elytra, shears and shields, need an Unbreaking book applied on an anvil rather than the table.",
+      "For standard librarian trades, check enchanted books for Unbreaking and lock a useful trade. Combine two Unbreaking II books on an anvil to get III. Do not assume a fixed price.",
       "Fish, loot, raid: fishing books, non-village structure loot and (in Bedrock) raid mob drops all carry Unbreaking.",
-      "Apply on an anvil: book + item, low cost, done. Unbreaking is compatible with basically everything, including Mending - that combo is the endgame standard.",
+      "Apply the book to a compatible durable item on an anvil. Check the displayed XP cost. Unbreaking can coexist with Mending.",
       "Tools and weapons: each use has a 100/(level+1)% chance to consume durability - 50% at I, 33% at II, 25% at III. On average your tool lasts 2, 3 or 4 times as long.",
       "Armor works differently: a durability hit has a 60% + 40/(level+1)% chance to count, so armor only lasts 1.25/1.36/1.43 times longer. Unbreaking helps armor less than tools - one reason Mending matters so much on armor.",
       "Multi-point losses roll per point: when a fishing rod yank or a TNT blast costs several durability at once, Unbreaking rolls separately for each point.",
-      "Pair it with Mending: Unbreaking stretches each XP orb's repair further (fewer points to repair), so Mending + Unbreaking III is the 'never breaks again' setup."
+      "Pair it with Mending to reduce the durability points you need to repair. You must still collect XP and watch the item: damaged equipment can share repair orbs, and the item can still break."
     ],
     "materials": [
       "Any tool, weapon or armor piece",
@@ -8358,8 +8358,8 @@
       "Librarian + lectern for the targeted book",
       "Anvil and XP"
     ],
-    "editionNote": "Identical mechanics in Java and Bedrock: same durability math for tools (2/3/4× on average) and armor (1.25/1.36/1.43×). The only difference is the usual Bedrock bonus source - raid mobs dropping enchanted books.",
-    "versions": "Added in Beta 1.9 Prerelease 4. Books could apply it to any durability item from 1.4.6, and mob-dropped armor could carry it from 1.7.2. Bedrock added it in Pocket Edition v0.12.1.",
+    "editionNote": "Tools and weapons average 2/3/4 times their normal lifespan at I/II/III; armor averages about 1.25/1.36/1.43 times. Elytra use the tool-style rule, not the armor rule. Bedrock raid-spawned mobs are an extra source of enchanted books.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How much longer does Unbreaking III make tools last?",
@@ -8367,11 +8367,11 @@
       },
       {
         "q": "Does Unbreaking stack with Mending?",
-        "a": "Yes, and they're the classic combo: Mending repairs the item with XP, and Unbreaking means fewer durability points need repairing in the first place. Every endgame tool runs both."
+        "a": "Yes. Mending repairs with collected XP and Unbreaking reduces durability loss. They do not make an item unbreakable; keep collecting XP and check its condition."
       },
       {
         "q": "Is Unbreaking worth it on armor?",
-        "a": "It's weaker on armor (1.25-1.43× lifespan vs 2-4× on tools), but still free value - especially on elytra, where Unbreaking III roughly triples flight time before repairs."
+        "a": "Yes, but armor benefits less: about 1.25-1.43 times its usual lifespan, versus 2-4 times for tools. Elytra follow the tool rule, so Unbreaking III gives about four times the normal flight time before repairs on average."
       }
     ],
     "relatedGuides": [
@@ -31132,16 +31132,16 @@
       "A diamond or netherite pickaxe"
     ],
     "steps": [
-      "Efficiency V: mines stone almost instantly with a diamond/netherite pick - add Haste from a beacon for instant-mining.",
+      "Efficiency V speeds up breaking blocks with the correct tool. For ordinary stone, add Haste II to a diamond or netherite pickaxe for instant mining under normal conditions; harder blocks and mining penalties still matter.",
       "Fortune III: multiplies ore drops - up to 4x diamonds per ore. This is the pickaxe that pays for itself.",
-      "Mending: XP repairs the pick while you mine - with all the XP from ores, a Fortune pick repairs itself as it works.",
+      "Mending repairs the damaged pickaxe in your hand when you collect XP. Some ores give XP, but not every mined block does, and other damaged Mending equipment can receive an orb. Collect XP and check durability rather than assuming automatic repairs.",
       "Unbreaking III: quadruples average durability. Non-negotiable.",
       "Silk Touch (second pickaxe): picks up ore blocks, glass, ice, grass blocks and bookshelves. Conflicts with Fortune - that is why miners carry two picks.",
       "Skip Curse of Vanishing books when combining on the anvil - check before you pay the levels.",
-      "Enchanting route: table at level 30 for Efficiency/Unbreaking, then finish with anvil + books from librarian villagers."
+      "Use level-30 table offers for Efficiency and Unbreaking, then finish with anvil books. Diamond tools get at most Efficiency IV directly from the table, so combine IV books or tools for V."
     ],
-    "versions": "Stable across all current versions. Instant-mining with Efficiency V plus Haste II beacon works in current versions.",
-    "editionNote": "Identical on Java and Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "The main pickaxe enchantment choices work in both editions. Some Fortune drops and mining-speed modifiers differ, so identical enchantments do not guarantee identical breaking times for every block.",
     "faq": [
       {
         "q": "Fortune or Silk Touch?",
@@ -31149,7 +31149,7 @@
       },
       {
         "q": "Does Fortune work on iron and gold?",
-        "a": "No - iron and gold ore drop raw materials unaffected by Fortune. Fortune works on diamond, emerald, lapis, redstone, coal, amethyst, nether quartz and nether gold."
+        "a": "Yes. Fortune increases raw iron, raw gold and raw copper when their ores are mined with a suitable pickaxe, including deepslate variants. It does not multiply smelted ingots. Silk Touch collects the ore block instead."
       }
     ],
     "relatedGuides": [
@@ -31256,7 +31256,7 @@
     "slug": "best-axe-enchantments",
     "name": "Best Axe Enchantments in Minecraft",
     "shortTitle": "Best Axe Enchantments",
-    "quickAnswer": "The perfect axe: Sharpness V, Efficiency V, Unbreaking III, Mending - plus Fortune III or Silk Touch depending on use. On Java, axes out-damage swords per hit; on Bedrock they are tools first.",
+    "quickAnswer": "For a working axe, use Efficiency V, Unbreaking III and Mending, plus Fortune III or Silk Touch. Sharpness V is an option for combat. Java diamond and netherite axes hit harder per swing than matching swords, but attack more slowly; Bedrock combat differs.",
     "keywords": "best axe enchantments minecraft sharpness efficiency fortune silk touch java combat",
     "materials": [
       "An enchanting table with 15 bookshelves, or an anvil plus enchanted books",
@@ -31264,20 +31264,20 @@
       "A diamond or netherite axe"
     ],
     "steps": [
-      "Sharpness V: on Java an axe with Sharpness V hits harder per swing than a sword - the tradeoff is attack speed and no sweep.",
-      "Efficiency V: strips logs instantly - the axe is a tool first, and this makes it the fastest woodcutter in the game.",
-      "Mending + Unbreaking III: the immortality pair, same as every tool.",
+      "Sharpness V is an option for combat: Java diamond and netherite axes have higher damage per hit than matching swords, but lower attack speed and no sweep attack.",
+      "Efficiency V speeds up breaking wood with the axe. Stripping a log is a separate use action, not mining, so Efficiency does not make that action faster.",
+      "Mending + Unbreaking III reduce repair work. Collect XP while holding the damaged axe and watch its durability; neither enchantment makes it unbreakable.",
       "Fortune III: more drops from leaves (saplings, apples) and melons - worth it on a wood-farm axe.",
       "Silk Touch (alternative): harvests beehives with bees inside, bookshelves and glass - conflicts with Fortune, pick per axe.",
-      "Combat note (Java): axes disable shields on hit - the PvP reason axes rule melee.",
+      "Combat note (Java): an axe can disable a raised shield. This is different from sword sweeping; an axe has no sweep attack.",
       "Combat note (Bedrock): swords out-damage axes - enchant the axe as a pure tool there."
     ],
-    "versions": "Axe combat mechanics differ by edition: Java axes hit harder per hit with slower recharge; Bedrock axes are weaker than swords.",
-    "editionNote": "Sharpness V on an axe is a Java combat build. On Bedrock, skip Sharpness and take Fortune or Silk Touch instead.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Java axes have high damage per hit but slower attack speed than swords. Bedrock combat differs, and swords are normally the stronger dedicated melee choice. Choose the axe enchantments for your intended mining or combat use, rather than assuming one build fits both editions.",
     "faq": [
       {
         "q": "Axe or sword for combat?",
-        "a": "Java: axe for burst damage and shield-breaking, sword for attack speed and sweeping. Bedrock: sword, always."
+        "a": "Java: an axe offers high damage per hit and can disable raised shields; a sword attacks faster and can sweep. In Bedrock, a sword is normally the stronger dedicated melee choice."
       },
       {
         "q": "Does Fortune work on logs?",
