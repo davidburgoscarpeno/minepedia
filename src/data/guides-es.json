@@ -14821,7 +14821,7 @@
       "Fishing rod (3 sticks + 2 string)",
       "Enchanting table, o anvil + libro de Luck of the Sea",
       "Niveles de XP",
-      "Agua abierta (2+ bloques de profundidad, cielo abierto)"
+      "Agua para pescar; los tesoros Java requieren el volumen descrito abajo"
     ],
     "editionNote": "Ambas comparten las probabilidades normales por categoría, pero varían los pesos de tesoros individuales. Java requiere agua abierta; Bedrock no. Luck of the Sea y Lure son compatibles: mejoran botín y espera por separado.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
@@ -30085,10 +30085,10 @@
     ],
     "steps": [
       "Probabilidades por categoría: 85% fish, 10% junk, 5% treasure sin encantar. Cada nivel de Luck of the Sea mueve un 1-2% del junk y el fish al treasure: con LotS III queda 84,5% fish, 4,1% junk, 11,3% treasure.",
-      "Capturas de fish (Java): raw cod 60% de la categoría (51% por lance), raw salmon 25% (21,25%), pufferfish 13% (11,05%), tropical fish 2% (1,7%).",
-      "Capturas de treasure: enchanted book, bow encantada, fishing rod encantada, name tag, nautilus shell y saddle: 16,67% de la categoría treasure cada una en Java (0,83% por lance sin encantar, 1,89% con LotS III). En Bedrock el enchanted book es algo más común (19,35% del treasure).",
+      "Capturas de fish (Java): raw cod 60% de la categoría (51% por captura lograda), raw salmon 25% (21,25%), pufferfish 13% (11,05%), tropical fish 2% (1,7%).",
+      "Capturas de treasure: enchanted book, bow encantada, fishing rod encantada, name tag, nautilus shell y saddle: 16,67% de la categoría treasure cada una en Java (0,83% por captura lograda sin encantar, 1,89% con LotS III). En Bedrock el enchanted book es algo más común (19,35% del treasure).",
       "Las bows y rods pescadas vienen encantadas como de una enchanting table de nivel 30 con un 0-25% de durabilidad; los books pueden llevar cualquier encantamiento excepto Swift Sneak, Soul Speed y Wind Burst.",
-      "Capturas de junk: lily pads (1,7% por lance), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks y water bottles (1% cada una), sticks y string (0,5%), fishing rods sin encantar (0,2%) y 10 ink sacs (0,1%).",
+      "Capturas de junk: lily pads (1,7% por captura lograda), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks y water bottles (1% cada una), sticks y string (0,5%), fishing rods sin encantar (0,2%) y 10 ink sacs (0,1%).",
       "Regla de jungle: pescar en jungle, sparse jungle o bamboo jungle añade bamboo a la tabla de junk (Bedrock también añade cocoa beans y sube el peso del salmon); las probabilidades de fish y treasure no cambian.",
       "Los tesoros en Java requieren un volumen válido de 5×4×5 alrededor del flotador: capas de fuentes de agua o bloques anegados sin colisión debajo, y aire o nenúfares arriba. Sin agua fluyente ni sólidos que obstruyan ese volumen. Un estanque de tres bloques de profundidad ayuda al hundirse el flotador. El cielo directo afecta a la velocidad, no es otro requisito de tesoro. Bedrock no tiene esa comprobación de agua abierta.",
       "Velocidad: una captura tarda 5-30 segundos; cada nivel de Lure recorta 5 segundos, la lluvia acelera el temporizador un 20%, y un cielo cubierto sobre el bobber dobla la espera aproximadamente.",
@@ -30103,7 +30103,7 @@
       },
       {
         "q": "¿Cuál es la probabilidad de un enchanted book pescando?",
-        "a": "Sobre un 0,83% por lance sin encantar en Java, hasta un 1,89% con Luck of the Sea III: aproximadamente un libro cada 53 lances con la mejor rod. En Bedrock es algo mayor: del 0,97% al 2,19%."
+        "a": "Sobre un 0,83% por captura lograda sin encantar en Java, hasta un 1,89% con Luck of the Sea III: aproximadamente un libro cada 53 capturas logradas con la mejor rod. En Bedrock es algo mayor: del 0,97% al 2,19%."
       },
       {
         "q": "¿Por qué no pesco treasure?",
