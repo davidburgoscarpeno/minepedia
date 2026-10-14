@@ -3753,7 +3753,7 @@
       "Opción 2 - turtle shell: cría dos turtles alimentadas con seagrass, protege los huevos y recoge 5 scutes cuando las crías crezcan. Craftea los 5 scutes en un casco de turtle shell: da 10 segundos de respiración acuática cada vez que te sumerges.",
       "Opción 3 - conduit: la solución del endgame. Construye una estructura de conduit bajo el agua (anillo de prismarine, de 16 a 42 bloques) y el conduit power da respiración acuática ilimitada, night vision y minería más rápida en un radio enorme.",
       "Opción 4 - encantamiento Respiration: Respiration III en un casco ralentiza el consumo de aire hasta unos 60 segundos de inmersión: combínalo con un turtle shell para más de 70 segundos.",
-      "Aire de emergencia en Java: las doors, signs, ladders, trapdoors y fences colocadas bajo el agua crean bolsas de aire donde rellenar tus burbujas: un truco de supervivencia clásico solo de Java.",
+      "Aire de emergencia en Java: una puerta colocada bajo el agua crea un espacio respirable. No supongas que carteles, escaleras de mano, trampillas o vallas hacen lo mismo: esos bloques pueden inundarse. Las puertas también se inundan en Bedrock, así que usa pociones o columnas de burbujas allí.",
       "Bubble columns: las columnas de magma block te tiran hacia abajo rápido y restauran tu aire al pasar; las de soul sand te empujan hacia arriba. Rellenan burbujas, así que intégralas en tus bases submarinas.",
       "No olvides la luz: la visibilidad bajo el agua es escasa: water breathing más night vision (poción de golden carrot) es el verdadero combo para el ocean monument."
     ],
@@ -3762,8 +3762,8 @@
       "5 scutes (vía turtle shell)",
       "Prismarine + nautilus shells + heart of the sea (vía conduit)"
     ],
-    "editionNote": "Los bloques de bolsa de aire (doors, signs, ladders) solo funcionan en Java: en Bedrock se inundan. En Bedrock, las beds waterlogged pueden usarse bajo el agua con water breathing. Las pociones, los turtle shells y los conduits funcionan igual en ambas ediciones.",
-    "versions": "Las pociones de water breathing existen desde Java 1.7.2 (2013), y el turtle shell llegó con la Update Aquatic 1.13 (2018) junto con los conduits y las bubble columns.",
+    "editionNote": "Las puertas crean bolsas de aire bajo el agua en Java, pero se inundan en Bedrock. Carteles, escaleras de mano, trampillas y vallas pueden inundarse en ambas ediciones. Para inmersiones largas, usa pociones de Water Breathing, un turtle shell, Respiration o un conduit activo.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se hace una poción de water breathing en Minecraft?",
@@ -3778,8 +3778,8 @@
         "a": "Sí, con un conduit: dentro de su radio (hasta 96 bloques) el conduit power da water breathing permanente, night vision submarina y minería más rápida. Fuera de un conduit, encadena pociones de 8 minutos."
       },
       {
-        "q": "¿Las torches dan aire bajo el agua?",
-        "a": "En Java, colocar una torch, door o sign contra tu cara bajo el agua crea brevemente una bolsa de aire que rellena tus burbujas. Nada de esto funciona en Bedrock: usa bubble columns o pociones."
+        "q": "¿Puedes usar puertas para respirar bajo el agua?",
+        "a": "En Java Edition, una puerta colocada bajo el agua crea un espacio respirable. En Bedrock Edition, las puertas se inundan: usa una poción de Water Breathing, una columna de burbujas o un conduit activo."
       }
     ],
     "relatedGuides": [
@@ -5331,24 +5331,24 @@
   "how-to-get-prismarine": {
     "name": "Cómo conseguir Prismarine en Minecraft",
     "shortTitle": "Conseguir Prismarine",
-    "quickAnswer": "Farmea guardians en un ocean monument: sueltan 0-2 prismarine shards (hasta 5 con Looting III) y tienen un 40% de probabilidad de soltar prismarine crystals. Cuatro shards craftean un bloque de prismarine; 4 shards + 5 crystals craftean una sea lantern.",
+    "quickAnswer": "Farmea guardians en un ocean monument: sin Looting sueltan 0-2 prismarine shards y tienen un 40% de probabilidad de soltar un prismarine crystal. Looting III eleva el máximo de shards a 5. Cuatro shards fabrican un bloque de prismarine; 4 shards + 5 crystals fabrican una sea lantern.",
     "steps": [
-      "Encuentra un ocean monument en un bioma de deep ocean. Lleva pociones de water breathing, doors o sponges para bolsas de aire y buena armadura: los guardians disparan láseres y los elder guardians del monumento infligen Mining Fatigue III.",
-      "Mata primero a los tres elder guardians (uno en la sala superior, uno en cada ala): cada uno suelta loot similar y al morir limpian el Mining Fatigue para que puedas romper bloques.",
-      "Farmea guardians para shards y crystals: cada guardian suelta 0-2 prismarine shards (+1 por nivel de Looting, máx. 5) y tiene un 40% de probabilidad de soltar 1 prismarine crystal. También sueltan raw cod, así que los guardians son además fuente de comida.",
-      "Construye una granja de guardians para producción seria: drenar el monumento o canalizar los guardians a una cámara de muerte convierte la prismarine en un recurso totalmente automático.",
-      "Mina sea lanterns para crystals: una sea lantern rota sin Silk Touch suelta 2-3 prismarine crystals, hasta 5 con Fortune. El monumento está lleno de ellas.",
+      "Encuentra un ocean monument en un bioma de océano profundo. Lleva pociones de water breathing, buena armadura y comida. Una puerta puede crear una bolsa de aire solo en Java; las esponjas quitan agua en vez de proporcionar aire por sí solas.",
+      "Mata a los tres elder guardians (uno en la sala superior y uno en cada ala) para evitar nuevas aplicaciones de Mining Fatigue. Después bebe leche o espera a que termine el efecto activo antes de minar.",
+      "Farmea guardians para conseguir shards y crystals: sin Looting, cada uno suelta 0-2 shards y tiene un 40% de probabilidad de soltar 1 crystal. Looting aumenta las cantidades máximas: hasta 5 shards y 4 crystals con Looting III, mientras la probabilidad de crystals sigue en el 40%.",
+      "Para una producción constante, usa un diseño de granja de guardians para tu edición. En Bedrock usan 25 columnas de aparición fijas; los diseños de Java y Bedrock no son intercambiables.",
+      "Rompe sea lanterns para conseguir crystals: sin Silk Touch sueltan 2-3 prismarine crystals. En Java, Fortune puede aumentar el máximo a 5; en Bedrock, Fortune no aumenta ese botín. Usa Silk Touch si quieres el bloque de sea lantern.",
       "Revisa los cofres de buried treasure: desde la 1.13, las prismarine crystals pueden generar en buried treasure, una buena fuente en early game antes de poder con un monumento.",
       "Craftea los bloques: 4 shards en cuadrícula 2x2 hacen prismarine, 9 shards hacen prismarine bricks, 8 shards más black dye hacen dark prismarine, y 4 shards + 5 crystals hacen una sea lantern (nivel de luz 15)."
     ],
     "materials": [
       "Pociones de water breathing o un conduit",
       "Espada con Looting III",
-      "Armadura, comida y doors/sponges para aire",
+      "Armadura, comida y una forma fiable de respirar bajo el agua",
       "Pickaxe para las sea lanterns (sin Silk Touch si quieres crystals)"
     ],
-    "editionNote": "Los drops de los guardians son casi idénticos entre ediciones, con una rareza solo de Java: los guardians muertos por el jugador en Java tienen un 2.5% de probabilidad de soltar un pez aleatorio (salmon, cod, pufferfish o tropical fish), algo que los guardians de Bedrock no hacen por un bug. Las crystals de las sea lanterns y el loot de buried treasure funcionan igual en ambas.",
-    "versions": "Las prismarine shards y crystals se añadieron en Java Edition 1.8 (snapshot 14w25a, la Bountiful Update) y en Pocket Edition v0.16.0. El loot de buried treasure se añadió en la 1.13 (Update Aquatic).",
+    "editionNote": "Las sea lanterns sueltan 2-3 crystals sin Silk Touch. Fortune puede aumentar el máximo a 5 en Java, pero no aumenta el botín en Bedrock. Los diseños de granjas de guardians también cambian: Bedrock usa 25 columnas de aparición fijas. Matar a los elders evita nuevas aplicaciones de Mining Fatigue, pero no elimina un efecto activo.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Qué suelta prismarine shards?",
@@ -5356,7 +5356,7 @@
       },
       {
         "q": "¿Cómo se consiguen prismarine crystals?",
-        "a": "Los guardians tienen un 40% de probabilidad de soltar una crystal, y minar una sea lantern sin Silk Touch suelta 2-3 crystals (hasta 5 con Fortune). También aparecen en cofres de buried treasure."
+        "a": "Sin Looting, los guardians tienen un 40% de probabilidad de soltar 1 crystal. Las sea lanterns rotas sin Silk Touch sueltan 2-3; Fortune puede elevar el máximo a 5 en Java, pero no en Bedrock. También pueden aparecer crystals en cofres de tesoro enterrado."
       },
       {
         "q": "¿La prismarine es renovable?",
