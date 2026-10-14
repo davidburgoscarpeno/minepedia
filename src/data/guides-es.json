@@ -895,14 +895,14 @@
       "Los encantamientos de tesoro no se pueden obtener en la mesa de encantamientos. La mayoría, incluido Mending, pueden aparecer en libros encantados vendidos por bibliotecarios.",
       "Coloca un atril sin reclamar cerca de un aldeano sin trabajo. Lo reclama y se vuelve bibliotecario. Los aldeanos novatos que aún no han comerciado pueden perder la profesión.",
       "Abre sus tratos y mira el libro encantado. Si no es Mending, rompe el atril; el aldeano pierde la profesión. Vuelve a colocar el atril para obtener nuevos tratos. No comercies antes de tener el libro que quieres: comerciar fija la profesión y los tratos del aldeano.",
-      "Cuando el libro sea Mending, cómpralo. Mending solo tiene nivel I. El precio es de 5 a 64 esmeraldas más un libro, y los encantamientos de tesoro cuestan el doble antes del tope de 64.",
+      "En trades estándar, Mending solo tiene nivel I y un precio base de 10-38 emeralds más un libro, antes de demanda, reputación y descuentos. Compra la oferta que quieras para fijar los trades; curar no garantiza un precio de 1 emerald.",
       "Aplica el libro a una herramienta, arma o pieza de armadura en un yunque. Mending es incompatible con Infinity.",
       "Con Mending, cada orbe de experiencia que recojas repara los objetos dañados en tu mano principal, mano secundaria o ranuras de armadura, a 2 de durabilidad por punto de XP. Si hay varios, se elige uno al azar por orbe. Los objetos del resto del inventario no se reparan."
     ],
     "materials": [
       "Un atril",
       "Un aldeano sin trabajo",
-      "Esmeraldas y un libro para el trueque (5-64 esmeraldas)",
+      "Emeralds y un libro (precio base de Mending: 10-38 antes de modificadores)",
       "Un yunque y el objeto a encantar"
     ],
     "editionNote": "Mending solo repara objetos dañados en las manos y ranuras de armadura en ambas ediciones. En el experimento Villager Trade Rebalance (experimento de Java 1.20.2, de Bedrock 1.20.30), los libros de Mending solo vienen de bibliotecarios de nivel maestro con atuendo de pantano, y los cofres de ancient city tienen más probabilidad de dar libros de Mending. Ese experimento no forma parte de los tratos por defecto.",
@@ -7589,14 +7589,14 @@
     "slug": "how-to-get-fortune",
     "name": "Cómo conseguir Fortune en Minecraft (Fortune III)",
     "shortTitle": "Conseguir Fortune",
-    "quickAnswer": "Fortune sale de la enchanting table en picos y otras herramientas de minería (nivel 30 para las mejores probabilidades), de librarians, de la pesca y de cofres de estructuras. Fortune III es el máximo: multiplica los drops de diamantes, coal, lapis, redstone y más, y no puede coexistir con Silk Touch.",
+    "quickAnswer": "Fortune sale al encantar herramientas o libros en la mesa, trades de librarian, tesoros de pesca y botín de estructuras. Fortune III es el máximo normal. Aumenta drops de muchas menas, incluido hierro, oro y cobre en bruto, y no puede coexistir con Silk Touch.",
     "steps": [
-      "Monta una enchanting table completa: 15 bookshelves alrededor desbloquean los encantamientos de nivel 30, donde Fortune tiene sus mejores probabilidades en un pico de diamante o netherite.",
-      "Tira los dados con cabeza: mira primero la vista previa de la tabla con un objeto barato. Si no sale Fortune, encanta cualquier cosa (un libro o una pala de madera) para reiniciar la semilla y vuelve a mirar.",
+      "Usa una mesa con 15 estanterías activas para ofertas de nivel 30. Comprueba la vista previa en la herramienta que quieras encantar; un objeto barato no muestra necesariamente el mismo encantamiento.",
+      "Si no sale Fortune, encanta un objeto prescindible a bajo coste para cambiar la semilla de encantamientos y vuelve a comprobar la herramienta. Abrir la mesa o mirar otro objeto no cambia la semilla.",
       "Monta la cadena de librarians: pon y rompe un lectern delante de un aldeano sin empleo hasta que un librarian ofrezca un libro de Fortune, y fija el trade. Es el método dirigido más fiable.",
-      "Pesca libros: una granja AFK de pesca produce enchanted books con el tiempo, incluido Fortune. Lento, pero totalmente pasivo.",
+      "Pesca libros de tesoro, que pueden incluir Fortune. En Java, el flotador debe estar en agua abierta válida; los diseños compactos de granja AFK pueden no dar tesoros. No supongas que cualquier instalación pequeña produce libros encantados.",
       "Lutea estructuras: los libros de Fortune aparecen en desert pyramids, strongholds, ocean ruins, mansions, pillager outposts, ancient cities, End cities, mineshafts, monster rooms y jungle pyramids, además de los vaults de las trial chambers.",
-      "Aplícalo con un anvil: combina el libro con tu pico. Fortune III cuesta muchos niveles, así que fusiona libros primero (Fortune I + I = II, II + II = III) y mantén bajo el contador de trabajos.",
+      "Aplica el libro a una herramienta compatible en un yunque. Dos Fortune I dan II y dos II dan III. Compara combinaciones equilibradas y sus costes en vez de unir siempre todos los libros en uno.",
       "Extra de Bedrock: los mobs generados en una raid pueden soltar enchanted books, incluido Fortune: las raid farms hacen doble función como granjas de libros.",
       "Aprende la regla: Fortune y Silk Touch se excluyen mutuamente. Ten un pico de Fortune y otro de Silk Touch: hacen trabajos opuestos."
     ],
@@ -7608,7 +7608,7 @@
       "Lectern + aldeano para trades dirigidos (opcional)"
     ],
     "editionNote": "Fortune funciona igual en ambas ediciones para los minerales. Dos ventajas de Bedrock: los mobs de raids pueden soltar enchanted books, y las sea lanterns no se ven afectadas por Fortune (en Java, Fortune sube los prismarine crystals hasta el tope de 5). Las cuentas de cultivos también cambian un poco: Java garantiza 2 carrots/potatoes más una tirada binomial, Bedrock tira primero de 1 a nivel+1.",
-    "versions": "Añadido en Beta 1.9 Prerelease 4 (octubre de 2011) e incompatible con Silk Touch una prerelease después. La redstone ore se sumó en la Prerelease 6 y las esmeraldas en la 1.3.1: desde entonces, cada mineral nuevo sale con soporte para Fortune.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuál es la forma más fácil de conseguir Fortune III?",
@@ -7616,7 +7616,7 @@
       },
       {
         "q": "¿Fortune funciona con la iron y gold ore?",
-        "a": "No. Fortune funciona con minerales que sueltan objetos directamente (diamond, emerald, coal, lapis, redstone, nether quartz y amethyst), además de glowstone, melons, nether wart y cultivos. La iron, gold y copper ore sueltan bloques raw, así que Fortune no hace nada."
+        "a": "Sí. Fortune aumenta raw iron, raw gold y raw copper al minar sus menas con un pico adecuado, incluidas las variantes de deepslate. Silk Touch recoge el bloque de mena. Fortune no multiplica los lingotes que produce la fundición."
       },
       {
         "q": "¿Pueden estar Fortune y Silk Touch en el mismo pico?",
@@ -10887,8 +10887,8 @@
     "steps": [
       "Encuentra o cría villagers y coloca un job site block junto a uno sin oficio: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, etc.",
       "Mira las ofertas (clic derecho). ¿No te gustan? Rompe el bloque de trabajo y vuelve a colocarlo: las ofertas cambian, pero SOLO si nunca has comerciado con ese villager.",
-      "Comercia con emeralds y mercancías. Cada trato te da 3-6 de XP y llena la barra del villager; al llenarse sube de nivel: novice (insignia de stone), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
-      "Al subir de nivel se desbloquean tratos nuevos: los librarians master venden candles, los armorers venden equipo de diamond y los mejores libros encantados están en los niveles altos.",
+      "Comerciar da XP al jugador y experiencia al villager, con cantidades que varían por oferta. Al reunir suficiente experiencia sube de rango: novice, apprentice, journeyman, expert y master. No supongas 3-6 XP fijos por trade.",
+      "Los rangos desbloquean ofertas, pero un librarian novice estándar ya puede vender Mending o libros de nivel máximo. Subirlo no garantiza un libro mejor. El experimento de rebalance usa listas por bioma y ofertas especiales de master.",
       "Los villagers reponen existencias hasta dos veces al día si pueden llegar a su job site block (en Bedrock además necesitan estar vinculados a una bed).",
       "Para descuentos permanentes, cura a un zombie villager junto a tu sala de comercio; desde la 1.20.2 el gran descuento solo aplica a la primera cura. El efecto Hero of the Village de una raid también baja los precios."
     ],
@@ -10898,11 +10898,11 @@
       "Emeralds (la moneda universal) y mercancías vendibles como wheat, paper, coal o rotten flesh"
     ],
     "editionNote": "Java y Bedrock difieren en detalles: en Java los villagers tienen un máximo de 10 tratos con 2 nuevos por nivel; en Bedrock se desbloquean hasta 3 huecos por nivel (7-10 en total). En Bedrock la reposición exige una bed vinculada; en Java basta con acceso al job site block. Abusar de un trato sube su precio por demanda en ambas ediciones.",
-    "versions": "El comercio actual nació en la 1.8 (14w02a) y se reequilibró por completo en la 1.14 (Village & Pillage), que añadió los job site blocks, los niveles y la reposición. Desde la 1.20.2 el descuento por curar zombies ya no se acumula: solo la primera cura da el grande.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué mi villager no repone sus ofertas?",
-        "a": "Necesita llegar físicamente a su job site block en horario de trabajo y repone como máximo dos veces al día. En Bedrock además debe estar vinculado a una bed. Si lo encierras en una celda de 1x1 puede que no vuelva a trabajar."
+        "a": "Necesita acceso al puesto que ha reclamado durante su horario de trabajo y puede reponer hasta dos veces al día. Bedrock también requiere vínculo con una cama. Una celda pequeña puede funcionar si el acceso y vínculos son correctos; prueba una antes de repetir el diseño."
       },
       {
         "q": "¿Cómo bloqueo las ofertas de un villager?",
@@ -14182,7 +14182,7 @@
   "how-to-cure-a-zombie-villager": {
     "name": "Cómo curar un zombie villager en Minecraft",
     "shortTitle": "Curar un Zombie Villager",
-    "quickAnswer": "Golpea a un zombie villager con una splash potion of Weakness y luego haz clic derecho con una golden apple normal (no encantada). Se estremece, gana Strength y vuelve a ser villager tras 3-5 minutos. Los villagers curados te dan descuentos permanentes: así consiguen los jugadores trades de una emerald.",
+    "quickAnswer": "Aplica Weakness a un zombie villager y usa una golden apple normal. Protégelo mientras se convierte, normalmente durante varios minutos. Curar puede dar descuentos permanentes al jugador que cura, pero no garantiza ofertas de 1 emerald; repetir la cura no añade más descuento.",
     "steps": [
       "Encuentra un zombie villager. El 5% de los spawns naturales de zombies son zombie villagers (en Bedrock aparecen en grupos de 2-4), y cualquier zombie que mate a un villager puede convertirlo: 100% en Hard, 50% en Normal, 0% en Easy.",
       "Atrápalo a salvo. Atráelo a un boat, minecart o una celda pequeña oscura antes de empezar. La cura tarda minutos y el mob sigue atacándote todo el rato - además de quemarse con la luz del día como cualquier zombie.",
@@ -14191,7 +14191,7 @@
       "Aplica ambas. Lanza la Weakness (partículas grises) y luego usa la golden apple en él. Empieza a estremecerse y gana Strength: pega MÁS FUERTE mientras se cura, así que mantén distancia o déjalo encerrado.",
       "Espera 3-5 minutos. El temporizador de cura es de 3 a 5 minutos al azar. Rodearlo de iron bars y beds (en un cubo de 9x9x9) lo acelera ligeramente: un 4% más rápido con 14 o más.",
       "Recoge tu villager. Se transforma con un breve efecto de Nausea. Si tenía profesión antes de zombificarse, la mantiene; si había comerciado alguna vez, mantiene también sus trades exactos.",
-      "Comercia con descuento. Tu villager curado te da grandes descuentos permanentes; los villagers cercanos dan otros menores. Volver a curar al mismo villager no acumula más descuentos: una cura cada uno."
+      "Comprueba los precios del villager curado. Quien cura puede recibir un descuento permanente, pero el precio depende de oferta, demanda y reputación. Repetir la cura no acumula otro descuento; no supongas el mismo beneficio para todos los vecinos."
     ],
     "materials": [
       "Splash potion of Weakness (fermented spider eye + water bottle + gunpowder)",
@@ -14199,8 +14199,8 @@
       "Boat, minecart o una celda segura",
       "Opcional: iron bars y beds para acelerar la cura"
     ],
-    "editionNote": "La cura funciona igual en Java y Bedrock, con pequeñas diferencias: los nitwits curados de Bedrock pueden tener empleo (los de Java siguen siendo nitwits), y en Bedrock los villagers cercanos en 16 bloques también dan pequeños descuentos que escalan hasta 10 villagers curados. Ambas ediciones conceden el descuento personal permanente. En Java, los villagers curados dan grandes descuentos por chismes que se acumulan al curar al mismo villager otra vez (hasta 5 veces) y se extienden a los villagers cercanos.",
-    "versions": "La cura existe desde que llegaron los zombie villagers en la 1.4.2 (2012), con la receta de Weakness más golden apple sin cambios desde entonces. La aceleración con iron bars y beds es un guiño intencionado al clásico montaje del \"zombie doctor\", y el sistema de descuento permanente llegó con la mecánica de gossip de la 1.14.",
+    "editionNote": "Las versiones actuales no acumulan descuentos extra al curar repetidamente al mismo villager. Los precios siguen dependiendo de la oferta y otros modificadores. En Bedrock, un nitwit curado queda desempleado y puede trabajar; en Java sigue siendo nitwit. Los descuentos cercanos varían: comprueba las ofertas en vez de prometer uno permanente a cada vecino.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué no funciona la golden apple en el zombie villager?",
@@ -14208,7 +14208,7 @@
       },
       {
         "q": "¿La cura da descuentos en ambas ediciones?",
-        "a": "Sí. El jugador que cura recibe un gran descuento permanente en Java y Bedrock. Bedrock además reparte pequeños descuentos a villagers cercanos (escalando hasta 10 villagers curados), mientras Java comparte reputación por gossip. Recurar al mismo villager no añade nada."
+        "a": "Sí, quien cura puede recibir descuentos duraderos. Una segunda cura del mismo villager no añade descuento en versiones actuales. Demanda y reputación pueden cambiar los precios, y una oferta de 1 emerald no está garantizada."
       },
       {
         "q": "¿Cómo hago que un zombie villager convierta a mi librarian?",
@@ -28300,7 +28300,7 @@
   "best-villager-trades": {
     "name": "Los mejores intercambios de villagers en Minecraft",
     "shortTitle": "Mejores intercambios de villagers",
-    "quickAnswer": "Los mejores intercambios: librarians que venden Mending y otros enchanted books al máximo, fletchers que compran 32 sticks por una emerald, farmers que compran cosechas y venden golden carrots, y equipo de diamond de armorers, toolsmiths y weaponsmiths. Cura a un zombie villager para rebajar los precios a 1 emerald.",
+    "quickAnswer": "Entre los trades estándar útiles están libros de librarian, palos por emeralds de fletcher, cultivos y golden carrots de farmer, y equipo de diamante de herreros. Curar puede bajar precios, pero no garantiza equipo a 1 emerald. Los trades normales y el experimento de rebalance siguen reglas distintas.",
     "keywords": "mejores intercambios villagers minecraft mending librarian sticks emeralds golden carrots equipo diamond",
     "materials": [
       "Una lectern y un candidato a librarian",
@@ -28314,11 +28314,11 @@
       "Armorers, toolsmiths y weaponsmiths: armadura, herramientas y swords de diamond por emeralds en nivel experto y maestro: equipo completo de diamond sin minar diamonds.",
       "Ender pearls y bottles o' enchanting del cleric: pearls fiables sin cazar endermen, y almacén de XP.",
       "Explorer maps del cartographer: mapas de ocean monuments y woodland mansions: la forma prevista de encontrar ambos.",
-      "Descuentos por curación: cura a un zombie villager con weakness más una golden apple y ese villager rebaja los precios para siempre: es posible equipo de nivel maestro por 1 emerald.",
+      "Cura un zombie villager con Weakness y una golden apple normal para obtener un posible descuento duradero. La cantidad depende de la oferta; no se garantiza equipo a 1 emerald y repetir la cura no añade descuento.",
       "Regla de reposición: los villagers reponen sus intercambios dos veces al día en su puesto de trabajo: mantén el bloque alcanzable."
     ],
-    "versions": "Los intercambios principales coinciden entre ediciones. En Java, la curación acumula hasta un precio mínimo de 1; el rebalanceo experimental de intercambios cambia las ofertas de librarians según el bioma.",
-    "editionNote": "El rebalanceo de intercambios (books de librarians fijos por bioma) sigue siendo un ajuste experimental, no el predeterminado: los mundos normales mantienen books de librarian aleatorios.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Los mundos estándar permiten libros aleatorios de librarian, incluidos niveles altos desde novice. En el experimento Villager Trade Rebalance dependen del bioma y trades especiales de master; Mending sale de librarians master de pantano. Bedrock además necesita vínculo con cama para reponer.",
     "faq": [
       {
         "q": "¿Cómo consigo un intercambio de Mending?",
@@ -29336,7 +29336,7 @@
   "librarian-trades": {
     "name": "Intercambios del librarian en Minecraft: cada trato por nivel",
     "shortTitle": "Lista de tratos del librarian",
-    "quickAnswer": "Los librarians compran paper, books, ink sacs y book and quills, y venden bookshelves, lanterns, glass, compasses, clocks, candles y -la razón por la que todos quieren uno- enchanted books en todos los niveles. Mending cuesta 10-38 emeralds; los librarians master venden candles desde la actualización 26.1, que eliminó el viejo trato de name tags.",
+    "quickAnswer": "En trades estándar, los librarians ofrecen libros encantados y objetos como estanterías, faroles y vidrio. Mending I cuesta de base 10-38 emeralds más un libro antes de modificadores. Los libros pueden salir desde novice, pero no todos generan esa oferta. Soul Speed, Swift Sneak y Wind Burst están excluidos.",
     "keywords": "intercambios librarian minecraft lista cada trato mending enchanted book precio candle master novice apprentice bibliotecario",
     "materials": [
       "Una lectern y un villager desempleado",
@@ -29344,22 +29344,22 @@
       "Un montaje de curación de zombie villager para los descuentos"
     ],
     "steps": [
-      "Novice: compra 24 paper por 1 emerald; vende una bookshelf por 9 emeralds, y ofrece un enchanted book por 5-64 emeralds más un book: este primer book es el que rebarajas rompiendo la lectern.",
-      "Apprentice: compra 4 books por 1 emerald; vende una lantern por 1 emerald; segunda oferta de enchanted book.",
-      "Journeyman: compra 5 ink sacs por 1 emerald; vende 4 glass por 1 emerald; tercera oferta de enchanted book.",
-      "Expert: compra book and quills por emeralds; vende un compass por 4 emeralds y un clock por 5 emeralds; cuarta oferta de enchanted book.",
+      "Las ofertas estándar de novice pueden incluir 24 papeles por 1 emerald, una estantería por 9 emeralds o un libro encantado. El libro no está garantizado; cambia ofertas de un librarian sin trades quitando y reponiendo su atril.",
+      "Apprentice puede comprar 4 libros por 1 emerald, vender un farol por 1 emerald u ofrecer otro libro encantado. La selección exacta varía por edición.",
+      "Journeyman puede comprar 5 ink sacs por 1 emerald, vender 4 vidrios por 1 emerald u ofrecer otro libro. Subir de nivel no garantiza un encantamiento concreto.",
+      "Expert puede comprar books and quills o vender una brújula por 4 emeralds, un reloj por 5 emeralds o un libro encantado. No supongas que cada librarian tiene todos los trades listados.",
       "Master: vende candles de colores por 3 emeralds: la actualización 26.1 sustituyó el viejo trato de name tags por candles.",
-      "Precios de enchanted books: los books de nivel I cuestan 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64; los encantamientos tesoro (Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst) cuestan el doble, con tope en 64: así que Mending cae entre 10 y 38.",
+      "Precios base antes de modificadores: I 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64, más un libro. Los tesoros duplican el precio antes del límite de 64; Mending I parte de 10-38. No venden Soul Speed, Swift Sneak ni Wind Burst.",
       "Disciplina de rebarajado: nunca comercies antes de que aparezca el book que quieres: el primer intercambio fija las ofertas del librarian para siempre.",
-      "Descuentos por curación: un librarian zombi curado rebaja los precios, hasta 1 emerald incluso por books tesoro: el Mending más barato del juego.",
+      "Curar puede descontar trades, pero no garantiza Mending a 1 emerald. Repetir la cura del mismo villager no añade descuento. Comprueba el precio real: demanda y reputación pueden cambiarlo.",
       "Reposición: los librarians reabastecen dos veces al día en su lectern: mantenla colocada y alcanzable o los intercambios quedan bloqueados."
     ],
-    "versions": "La lista de tratos coincide en Java y Bedrock con pequeñas diferencias de probabilidad por oferta. El trato master de candles y la eliminación de las name tags llegaron en la 26.1 en ambas ediciones.",
-    "editionNote": "En versiones anteriores a la 26.1, los librarians master vendían name tags por 20 emeralds; ahora las name tags salen de crafteo (1 paper + 1 nugget), loot, pesca y wandering traders.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Estas son las reglas estándar. El experimento Villager Trade Rebalance cambia los libros aleatorios por listas por bioma y libros especiales de master: allí Mending requiere un librarian de pantano master. Las probabilidades y algunas cantidades varían entre Java y Bedrock.",
     "faq": [
       {
         "q": "¿Cuánto cuesta Mending en un librarian?",
-        "a": "Mending es un book tesoro, así que su precio se duplica: entre 10 y 38 emeralds más un book. Cura al librarian y puede bajar a 1 emerald."
+        "a": "El precio base estándar es de 10-38 emeralds más un libro antes de demanda, reputación y descuentos. Curar puede bajarlo, pero no garantiza 1 emerald. El experimento requiere un librarian master de pantano."
       },
       {
         "q": "¿Los librarians siguen vendiendo name tags?",

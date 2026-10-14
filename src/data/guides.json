@@ -1100,18 +1100,18 @@
       "Treasure enchantments cannot be obtained through an enchanting table. Most of them, including Mending, can appear on enchanted books sold by librarians.",
       "Place an unclaimed lectern near an unemployed villager. It claims the lectern and becomes a librarian. Novice villagers who have not traded can lose their profession again.",
       "Open its trades and look at the enchanted book. If it is not Mending, break the lectern; the villager loses the profession. Place the lectern again to get new trades. Do not trade before you have the book you want: trading locks in the villager's profession and trades.",
-      "When the book is Mending, buy it. Mending has only level I. The price is 5 to 64 emeralds plus a book, and treasure enchantments cost double before the 64-emerald cap.",
+      "In standard trades, Mending has only level I and a base price of 10-38 emeralds plus a book, before demand, reputation and discounts. Buy the offer you want to lock that villager's trades; curing does not guarantee a 1-emerald price.",
       "Apply the book to a tool, weapon or armor piece at an anvil. Mending is incompatible with Infinity.",
       "With Mending, any experience orb you collect repairs items in your main hand, offhand or armor slots that are damaged, at 2 durability per XP point. If several qualify, one is chosen at random per orb. Items in the rest of your inventory are not repaired."
     ],
     "materials": [
       "A lectern",
       "An unemployed villager",
-      "Emeralds and a book for the trade (5-64 emeralds)",
+      "Emeralds and a book (Mending base trade: 10-38 emeralds before modifiers)",
       "An anvil and the item to enchant"
     ],
     "editionNote": "Mending repairs only damaged items in the hands and armor slots in both editions. In the Villager Trade Rebalance experiment (Java 1.20.2 experiment, Bedrock 1.20.30 experiment), Mending books come only from master-level librarians in the swamp outfit, and ancient city chests have a higher chance of Mending books. That experiment is not part of the default trades.",
-    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why won't the enchanting table give me Mending?",
@@ -8047,14 +8047,14 @@
     "slug": "how-to-get-fortune",
     "name": "How to Get Fortune in Minecraft (Fortune III)",
     "shortTitle": "Get Fortune",
-    "quickAnswer": "Fortune comes from the enchanting table on pickaxes and other mining tools (level 30 for the best odds), librarian villager trades, fishing, and structure loot chests. Fortune III is the max - it multiplies drops from diamonds, coal, lapis, redstone and more, and it can't coexist with Silk Touch.",
+    "quickAnswer": "Fortune comes from enchanting tools or books at the enchanting table, librarian trades, fishing treasure and structure loot. Fortune III is the normal maximum. It increases drops from many ores, including raw iron, gold and copper, and cannot coexist with Silk Touch.",
     "steps": [
-      "Set up a full enchanting table: 15 bookshelves around the table unlock level-30 enchants, where Fortune has its best odds on a diamond or netherite pickaxe.",
-      "Roll enchants smart: check the table's preview on a cheap item first. If Fortune doesn't show, enchant something junk (a book or wooden shovel) to reset the seed, then check again.",
+      "Use an enchanting table with 15 active bookshelves to access level-30 offers. Check the preview on the actual tool you want to enchant; a cheap item does not necessarily show the same offered enchantment.",
+      "If Fortune is not offered, enchant an expendable item at low cost to change your enchantment seed, then check the intended tool again. Simply opening the table or checking another item does not reroll the seed.",
       "Build a librarian pipeline: place and break a lectern in front of an unemployed villager until a librarian offers a Fortune book - then lock the trade. This is the most reliable targeted method.",
-      "Fish for books: an AFK fish farm produces enchanted books over time, including Fortune. Slow, but fully passive.",
+      "Fish for treasure books, which can include Fortune. In Java the bobber must be in qualifying open water; compact AFK fish-farm designs may not catch treasure. Do not assume any small automatic fishing setup produces enchanted books.",
       "Loot structures: Fortune books appear in desert pyramids, strongholds, ocean ruins, mansions, pillager outposts, ancient cities, End cities, mineshafts, monster rooms and jungle pyramids - plus vaults in trial chambers.",
-      "Apply with an anvil: combine the book with your pickaxe. Fortune III costs a lot of levels, so merge books first (Fortune I + I = II, II + II = III) and keep the work count low.",
+      "Apply the book to a compatible tool on an anvil. Two Fortune I books give II and two II give III. Compare balanced combinations and displayed costs rather than merging every book into one automatically.",
       "Bedrock bonus: mobs spawned in a raid can drop enchanted books, including Fortune - raid farms double as book farms.",
       "Know the rule: Fortune and Silk Touch are mutually exclusive. Keep one Fortune pick and one Silk Touch pick - they do opposite jobs."
     ],
@@ -8066,7 +8066,7 @@
       "Lectern + villager for targeted trades (optional)"
     ],
     "editionNote": "Fortune works the same in both editions for ores. Two Bedrock perks: raid-spawned mobs can drop enchanted books, and sea lantern drops aren't Fortune-affected (in Java, Fortune raises prismarine crystal drops up to the 5 cap). Crop math also differs slightly - Java guarantees 2 carrots/potatoes plus a binomial roll, Bedrock rolls 1 to level+1 first.",
-    "versions": "Added in Beta 1.9 Prerelease 4 (October 2011) and made incompatible with Silk Touch one prerelease later. Redstone ore joined in Prerelease 6, emeralds in 1.3.1 - every new ore since has shipped with Fortune support.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "What is the easiest way to get Fortune III?",
@@ -8074,7 +8074,7 @@
       },
       {
         "q": "Does Fortune work on iron and gold ore?",
-        "a": "No. Fortune works on ores that drop items directly - diamond, emerald, coal, lapis, redstone, nether quartz and amethyst - plus glowstone, melons, nether wart and crops. Iron, gold and copper ore drop raw blocks, so Fortune does nothing... unless you smelt nothing: use Fortune on the deepslate/stone drops that count, Silk Touch for the rest."
+        "a": "Yes. Fortune increases raw iron, raw gold and raw copper drops when you mine their ores with a suitable pickaxe, including deepslate variants. Silk Touch collects the ore block instead. Fortune does not multiply ingots produced by smelting."
       },
       {
         "q": "Can Fortune and Silk Touch be on the same pickaxe?",
@@ -12006,8 +12006,8 @@
     "steps": [
       "Find or breed villagers, then place a job site block next to an unemployed one: lectern = librarian, composter = farmer, blast furnace = armorer, smithing table = toolsmith, grindstone = weaponsmith, cauldron = leatherworker, and so on.",
       "Check the offered trades (right-click). Don't like them? Break the job block and place it again - the trades reroll, but ONLY if you have never traded with that villager.",
-      "Trade with emeralds and goods. Each trade gives you 3-6 XP and fills the villager's experience bar; a full bar levels it up: novice (stone badge), apprentice (iron), journeyman (gold), expert (emerald), master (diamond).",
-      "Leveling unlocks new trades - master librarians sell candles, armorers sell diamond gear, and the best enchanted books sit at the top levels.",
+      "Trading gives player XP and villager experience, with amounts varying by offer. Enough villager experience unlocks the next rank: novice, apprentice, journeyman, expert and master. Do not assume a fixed 3-6 player XP per trade.",
+      "Ranks unlock more offers, but in standard librarian trading a novice can already sell Mending or maximum-level books. Ranking up does not guarantee a better book. Experimental trade rebalance uses biome-specific book lists and special master trades instead.",
       "Villagers restock up to twice per day while they can reach their job site block (in Bedrock they also need to be linked to a bed).",
       "For permanent discounts, cure a zombie villager next to your trading hall; since 1.20.2 the big discount applies only to the first cure. The Hero of the Village effect from a raid also drops prices."
     ],
@@ -12017,11 +12017,11 @@
       "Emeralds (the universal currency) and sellable goods like wheat, paper, coal or rotten flesh"
     ],
     "editionNote": "Java and Bedrock differ in the details: Java villagers cap at 10 trades with 2 new ones per level, Bedrock unlocks up to 3 slots per level (7-10 total). Restocking in Bedrock requires a linked bed; in Java only access to the job site. Overusing one trade raises its price through demand in both editions.",
-    "versions": "Trading as we know it dates to 1.8 (14w02a) and was completely rebalanced in 1.14 (Village & Pillage), which added job site blocks, levels and restocking. Since 1.20.2 the zombie-cure discount no longer stacks - only the first cure gives the big one.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why won't my villager restock its trades?",
-        "a": "It needs to physically reach its job site block during work hours, and it restocks at most twice per day. In Bedrock it must also be linked to a bed. Trap it in a 1x1 cell and it may never work again."
+        "a": "It needs access to its claimed workstation during work time and can restock up to twice per day. Bedrock also requires a bed link. A small cell can work if workstation access and linking are correct; test one cell before repeating the design."
       },
       {
         "q": "How do I lock in a villager's trades?",
@@ -15631,7 +15631,7 @@
     "slug": "how-to-cure-a-zombie-villager",
     "name": "How to Cure a Zombie Villager in Minecraft",
     "shortTitle": "Cure a Zombie Villager",
-    "quickAnswer": "Hit a zombie villager with a splash potion of Weakness, then right-click it with a regular golden apple (not enchanted). It shudders, gains Strength, and turns back into a villager after 3-5 minutes. Cured villagers give you permanent trading discounts - this is how players get one-emerald trades.",
+    "quickAnswer": "Give a zombie villager Weakness, then use a regular golden apple on it. Keep it safe while it converts, usually over several minutes. Curing can give permanent trade discounts to the curing player, but does not guarantee 1-emerald offers, and curing the same villager again adds no extra discount.",
     "steps": [
       "Find a zombie villager. 5% of natural zombie spawns are zombie villagers (in Bedrock they appear in groups of 2-4), and any zombie that kills a villager can convert it - 100% on Hard, 50% on Normal, 0% on Easy.",
       "Trap it safely. Lure it into a boat, minecart or a small dark cell before starting. Curing takes minutes and the mob keeps attacking you the whole time - plus it burns in daylight like any zombie.",
@@ -15640,7 +15640,7 @@
       "Apply both. Splash the Weakness (gray particles), then use the golden apple on it. It starts shuddering and gains Strength - it hits HARDER while curing, so keep your distance or keep it boxed in.",
       "Wait 3-5 minutes. The cure timer is 3 to 5 minutes at random. Surrounding it with iron bars and beds (within a 9x9x9 cube) speeds it up slightly - about 4% faster with 14 or more.",
       "Collect your villager. It transforms with a brief Nausea effect. If it had a profession before zombification, it keeps it; if it had ever traded, it keeps its exact trades too.",
-      "Trade at a discount. Your cured villager gives you permanent major discounts; nearby villagers give smaller ones. Re-curing the same villager does not stack further discounts - one cure each."
+      "Check the cured villager's prices. The curing player can receive a permanent discount, but prices depend on the offer, demand and reputation. Re-curing that same villager does not stack another discount; do not assume all neighboring traders receive the same benefit."
     ],
     "materials": [
       "Splash potion of Weakness (fermented spider eye + water bottle + gunpowder)",
@@ -15648,8 +15648,8 @@
       "Boat, minecart or a secure cell",
       "Optional: iron bars and beds to speed up the cure"
     ],
-    "editionNote": "Curing works the same in Java and Bedrock, with small differences: Bedrock cured nitwits become employable (Java nitwits stay nitwits), and in Bedrock nearby villagers within 16 blocks also give small discounts scaling with up to 10 cured villagers. Both editions grant the permanent personal discount. On Java, cured villagers give deep gossip-based discounts that stack when you cure the same villager again (up to 5 times) and spread to nearby villagers.",
-    "versions": "Curing has existed since zombie villagers arrived in 1.4.2 (2012), with the Weakness-plus-golden-apple recipe unchanged since. The iron bars and bed speed boost is an intentional nod to the classic \"zombie doctor\" setup, and the permanent discount system arrived with 1.14's gossip mechanics.",
+    "editionNote": "Current releases do not stack extra discounts from curing the same villager repeatedly. Prices still depend on the offer and other modifiers. In Bedrock a cured nitwit becomes unemployed and can take a job; Java nitwits remain nitwits. Nearby discount behavior differs, so verify actual offers rather than promising every neighbor a permanent discount.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why is the golden apple not working on the zombie villager?",
@@ -15657,7 +15657,7 @@
       },
       {
         "q": "Does curing give discounts in both editions?",
-        "a": "Yes. The curing player gets a permanent major discount in Java and Bedrock. Bedrock additionally spreads small discounts to nearby villagers (scaling up to 10 cured villagers), while Java shares reputation through gossip. Re-curing the same villager adds nothing."
+        "a": "Yes, the curing player can receive lasting discounts. A second cure of the same villager adds no extra discount in current releases. Demand and reputation can still change prices, and a 1-emerald offer is not guaranteed."
       },
       {
         "q": "How do I get a zombie villager to convert my librarian?",
@@ -31663,7 +31663,7 @@
     "slug": "best-villager-trades",
     "name": "Best Villager Trades in Minecraft",
     "shortTitle": "Best Villager Trades",
-    "quickAnswer": "The best trades: librarians selling Mending and other max-level enchanted books, fletchers buying 32 sticks for an emerald, farmers buying crops and selling golden carrots, and armorer/toolsmith/weaponsmith diamond gear. Cure a zombie villager to slash prices to 1 emerald.",
+    "quickAnswer": "Useful standard trades include librarian books, fletcher sticks-for-emeralds, farmer crops and golden carrots, and diamond equipment from smith professions. Curing can lower prices but does not guarantee 1-emerald gear. Default trades and the Villager Trade Rebalance experiment use different rules.",
     "keywords": "best villager trades minecraft mending librarian sticks emeralds golden carrots diamond gear",
     "materials": [
       "A lectern and a librarian candidate",
@@ -31677,11 +31677,11 @@
       "Armorers, toolsmiths and weaponsmiths: diamond armor, tools and swords for emeralds at expert and master level - full diamond gear without mining diamonds.",
       "Cleric ender pearls and bottles o' enchanting: reliable pearls without hunting endermen, and XP storage.",
       "Cartographer explorer maps: ocean monument and woodland mansion maps - the intended way to find both.",
-      "Cure discounts: cure a zombie villager with weakness plus a golden apple and that villager permanently cuts prices - master-level gear for 1 emerald is possible.",
+      "Cure a zombie villager with Weakness and a regular golden apple for a possible lasting discount. The amount depends on the offer; 1-emerald equipment is not guaranteed, and re-curing the same villager adds no discount.",
       "Restock rule: villagers resupply trades twice a day at their workstation - keep the job site block reachable."
     ],
-    "versions": "Core trades match across editions. On Java, curing stacks to a minimum price of 1; the optional villager trade rebalance experiment changes librarian offers by biome.",
-    "editionNote": "The trade rebalance (librarian books fixed by biome) is still an experimental toggle, not the default - standard worlds keep random librarian books.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Standard worlds allow random librarian books, including high levels from novice offers. In the Villager Trade Rebalance experiment, librarian books depend on biome and special master trades; Mending comes from master swamp librarians. Bedrock also needs a bed link for restocking.",
     "faq": [
       {
         "q": "How do I get a Mending trade?",
@@ -32699,7 +32699,7 @@
     "slug": "librarian-trades",
     "name": "Librarian Trades in Minecraft: Every Trade by Level",
     "shortTitle": "Librarian Trades List",
-    "quickAnswer": "Librarians buy paper, books, ink sacs and book and quills, and sell bookshelves, lanterns, glass, compasses, clocks, candles and - the reason everyone wants one - enchanted books at every level. Mending costs 10-38 emeralds; master librarians sell candles since the 26.1 update, which removed the old name tag trade.",
+    "quickAnswer": "In standard trading, librarians offer enchanted books and useful goods such as bookshelves, lanterns and glass. Mending I has a base price of 10-38 emeralds plus a book before modifiers. Books can appear from novice rank, but not every librarian rolls a book offer. Soul Speed, Swift Sneak and Wind Burst are excluded.",
     "keywords": "librarian trades minecraft list every trade mending enchanted book price candle master novice apprentice",
     "materials": [
       "A lectern and an unemployed villager",
@@ -32707,22 +32707,22 @@
       "A zombie villager cure setup for discounts"
     ],
     "steps": [
-      "Novice: buys 24 paper for 1 emerald; sells a bookshelf for 9 emeralds, and offers an enchanted book for 5-64 emeralds plus a book - this first book is the one you reroll by breaking the lectern.",
-      "Apprentice: buys 4 books for 1 emerald; sells a lantern for 1 emerald; second enchanted book offer.",
-      "Journeyman: buys 5 ink sacs for 1 emerald; sells 4 glass for 1 emerald; third enchanted book offer.",
-      "Expert: buys book and quills for emeralds; sells a compass for 4 emeralds and a clock for 5 emeralds; fourth enchanted book offer.",
+      "Novice standard offers can include 24 paper for 1 emerald, a bookshelf for 9 emeralds or an enchanted book. A book offer is not guaranteed; reroll an untraded librarian by removing and replacing its claimed lectern.",
+      "Apprentice offers can include buying 4 books for 1 emerald, a lantern for 1 emerald or another enchanted book offer. Exact selection differs by edition.",
+      "Journeyman offers can include buying 5 ink sacs for 1 emerald, selling 4 glass for 1 emerald or another book offer. Leveling does not guarantee a specific enchantment.",
+      "Expert offers can include buying books and quills, or selling a compass for 4 emeralds, a clock for 5 emeralds or an enchanted book. Do not assume every librarian has every listed trade.",
       "Master: sells colored candles for 3 emeralds - the 26.1 update replaced the old master name tag trade with candles.",
-      "Enchanted book pricing: level I books run 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64; treasure enchantments (Mending, Frost Walker, Soul Speed, Swift Sneak, Wind Burst) cost double, capped at 64 - so Mending lands between 10 and 38.",
+      "Base book prices before modifiers: I 5-19 emeralds, II 8-32, III 11-45, IV 14-58, V 17-64, plus a book. Treasure pricing is doubled before the 64 cap; Mending I starts at 10-38. Librarians do not sell Soul Speed, Swift Sneak or Wind Burst.",
       "Reroll discipline: never trade before the book you want appears - the first trade locks the librarian's offers permanently.",
-      "Cure discounts: a cured zombie librarian cuts prices, down to 1 emerald even for treasure books - the cheapest Mending in the game.",
+      "Curing can discount trades, but does not guarantee a 1-emerald Mending book. Repeated cures of the same villager do not add discounts. Check the actual price, since demand and reputation can change it.",
       "Restocks: librarians resupply twice a day at their lectern - keep it placed and reachable or trades stay locked out."
     ],
-    "versions": "The trade list matches Java and Bedrock with small probability differences per offer. The candle master trade and the removal of name tags arrived in 26.1 on both editions.",
-    "editionNote": "On versions before 26.1, master librarians sold name tags for 20 emeralds - now name tags come from crafting (1 paper + 1 nugget), loot, fishing and wandering traders.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "These are standard trade rules. The Villager Trade Rebalance experiment replaces random book offers with biome-dependent lists and special master books: Mending requires a swamp librarian at master rank there. Offer probabilities and some quantities differ between Java and Bedrock.",
     "faq": [
       {
         "q": "How much does Mending cost from a librarian?",
-        "a": "Mending is a treasure book, so its price is doubled: between 10 and 38 emeralds plus a book. Cure the librarian and it can drop to 1 emerald."
+        "a": "Its standard base trade is 10-38 emeralds plus a book, before demand, reputation and discounts. Curing may lower the price but does not guarantee 1 emerald. The trade-rebalance experiment requires a master swamp librarian."
       },
       {
         "q": "Do librarians still sell name tags?",
