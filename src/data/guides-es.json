@@ -835,9 +835,9 @@
     "steps": [
       "Consigue un trial explorer map: un cartógrafo de nivel oficial lo vende por 12 esmeraldas y una brújula. Apunta a la trial chamber más cercana que no tenga ya un mapa apuntándola. Los mapas del mismo cartógrafo siempre apuntan a la misma estructura.",
       "Sin mapa, busca cuevas expuestas de formas raras y ladrillos de toba y bloques de cobre. La sala inicial está entre Y=-40 y -20, y las trial chambers solo generan en chunks creados en 1.21 o posterior.",
-      "Los trial spawners se activan cuando un jugador en Survival o Adventure está a menos de 14 bloques con línea de visión. Con 1 jugador el spawner genera 1 mob cada 2 segundos, mantiene como máximo 2 vivos y genera 6 en total. Más jugadores cerca significa más mobs y más recompensas.",
+      "Los trial spawners se activan para jugadores en supervivencia o aventura a menos de 14 bloques y con línea de visión. El número de mobs y los intervalos varían según el tipo de spawner y los jugadores; los de breeze naturales no usan las mismas oleadas que los de combate comunes.",
       "Al derrotar a los mobs, el spawner expulsa recompensas, incluidas trial keys, y entra en enfriamiento de 30 minutos.",
-      "Usa las trial keys en los vaults. Cada jugador puede abrir un vault concreto una sola vez, y expulsa de 2 a 5 pilas de botín.",
+      "Usa trial keys en vaults normales y ominous trial keys en los ominosos. En uso normal, cada jugador abre cada vault una vez; completar otro spawner no reinicia un vault usado.",
       "Para las ominous trials, bebe una ominous bottle (un capitán de pillagers fuera de una raid siempre suelta una) para obtener Bad Omen, que se convierte en Trial Omen dentro de la cámara y vuelve ominosos a los trial spawners. Los spawners ominosos dan ominous trial keys, que abren ominous vaults.",
       "los heavy cores y los breeze rods solo se obtienen en trial chambers, así que es el único sitio para conseguir la mace."
     ],
@@ -6067,9 +6067,9 @@
     "steps": [
       "Encuentra una trial chamber bajo tierra (capas de deepslate, más común entre Y=-20 e Y=-40) y localiza un breeze trial spawner: los de chiseled tuff con icono de breeze.",
       "Activa el spawner: acércate y aparece el breeze, un mob flotante que salta por todas partes disparando wind charges que te empujan y activan buttons, levers y doors.",
-      "Mátalo tú: las breeze rods solo caen en muertes por jugador (o pet). Cada breeze suelta 1-2 rods, más 1-2 por nivel de Looting: Looting III lo sube a 4-8 por breeze.",
+      "Los breeze rods solo caen si mata al breeze un jugador o un lobo domesticado. El botín base es de 1-2 rods; Looting III eleva el intervalo a 4-8.",
       "Usa ominous trials para más: beber una Ominous Bottle convierte los spawners en modo ominous: peleas más duras, mejor loot y más rods por sesión.",
-      "Craftea wind charges: 1 breeze rod hace 4 wind charges: proyectiles de knockback lanzables que además impulsan tus saltos y anulan el daño de caída si los usas en el aire.",
+      "Fabrica wind charges: 1 breeze rod da 4 cargas. Una carga lanzada por un jugador puede impulsarte; después solo acumulas daño de caída por debajo de la altura donde te golpeó su explosión. No cancela cualquier caída.",
       "Craftea el mace: 1 breeze rod + 1 heavy core (de ominous vaults): el smash attack del mace escala el daño con la distancia de caída, y las breeze rods lo reparan en un anvil.",
       "Haz brewing de Wind Charged: breeze rod + awkward potion hace una Potion of Wind Charging, que hace que los mobs muertos liberen una ráfaga de viento como el ataque del propio breeze."
     ],
@@ -6080,7 +6080,7 @@
       "Ominous Bottles para ominous trials (opcional)"
     ],
     "editionNote": "Los drops del breeze y todas las recetas de breeze rod son idénticos en Java y Bedrock. Las rods fueron contenido experimental en la 1.20.5/1.20.80 y se hicieron totalmente disponibles con la 1.21 (Tricky Trials).",
-    "versions": "Las breeze rods se añadieron como contenido experimental en Java 1.20.5 (24w11a) y Bedrock 1.20.80, y se lanzaron por completo con la 1.21 (Tricky Trials, junio de 2024).",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Qué suelta breeze rods?",
@@ -6179,12 +6179,12 @@
   "how-to-get-trial-key": {
     "name": "Cómo conseguir Trial Keys en Minecraft",
     "shortTitle": "Conseguir Trial Keys",
-    "quickAnswer": "Completa trial spawners en las trial chambers: un spawner terminado tiene un 50% de probabilidad de expulsar una trial key para cada jugador cercano. Las keys también aparecen en cofres, barrels y decorated pots de la cámara. Úsalas para abrir vaults; las ominous keys salen de spawners ominous (30%) y abren ominous vaults.",
+    "quickAnswer": "Completa trial spawners normales: una tirada de recompensa del 50% da una trial key por participante detectado. También aparecen en cofres de entrada y vasijas de pasillo. Las llaves normales abren vaults normales; los spawners ominosos tienen un 30% de recompensa de llaves ominosas para sus vaults.",
     "steps": [
       "Encuentra una trial chamber bajo tierra (capas de deepslate, entre Y=-20 e Y=-40 aprox.): explora cuevas o cava por terreno montañoso. Las trial chambers son grandes estructuras de copper y tuff; las copper bulbs no pasan desapercibidas.",
       "Activa un trial spawner: entra en su rango y empezará a generar su tipo de mob (breezes, strays, slimes, spiders, silverfish...). Genera una oleada de mobs: mátalos todos.",
       "Recoge la recompensa: al morir el último mob, el spawner expulsa loot para cada jugador cercano. Hay un 50% de probabilidad de que incluya una trial key, y cuando sale la key, cada jugador detectado recibe una.",
-      "Lootea también la estructura: las trial keys también generan en cofres, barrels y decorated pots de las trial chambers, así que revisa cada pasillo mientras los spawners están en su cooldown de 30 minutos.",
+      "Revisa también los cofres de entrada y vasijas de pasillo: pueden contener trial keys. Los spawners normales pueden repetirse tras 30 minutos, pero eso no reinicia los vaults.",
       "Abre un vault: usa la trial key en un vault estándar (el bloque con cara de calavera) para expulsar loot: cada jugador puede abrir cada vault una vez, así que las chambers rinden muy bien en multijugador.",
       "Ve a ominous para mejor loot: bebe una Ominous Bottle (de raid captains o de vaults) para volver ominous los spawners. Los spawners ominous sueltan ominous trial keys (30% de probabilidad), que abren ominous vaults: la única fuente de heavy cores, flow armor trim y el mejor loot.",
       "Rareza de Java: una trial key renombrada o modificada no puede abrir un vault estándar por un bug: mantén tus keys sin tocar."
@@ -6196,15 +6196,15 @@
       "Huecos libres en el inventario para el loot de los vaults"
     ],
     "editionNote": "Los drops de trial keys (50% de spawners completados) y la mecánica de vaults son idénticos en Java y Bedrock. Dos notas solo de Java: las keys renombradas no abren vaults estándar (un bug) y los detalles de las loot tables difieren ligeramente por edición.",
-    "versions": "Las trial keys se añadieron como contenido experimental en Java 1.20.3 (23w45a) y Bedrock, y se lanzaron por completo con la 1.21 (Tricky Trials, junio de 2024).",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se consiguen trial keys?",
-        "a": "Termina una pelea de trial spawner en las trial chambers: hay un 50% de probabilidad de que la recompensa incluya una trial key para cada jugador cercano. Las keys también aparecen en cofres, barrels y decorated pots de la cámara."
+        "a": "Completa un trial spawner normal: tiene un 50% de elegir la recompensa de llave, dando una a cada participante detectado. También pueden aparecer en cofres de entrada y vasijas de pasillo."
       },
       {
         "q": "¿Qué abre una trial key?",
-        "a": "Los vaults estándar de las trial chambers. Cada vault se puede abrir una vez por jugador, así que trae amigos: hasta 128 jugadores por vault. Los ominous vaults necesitan ominous trial keys."
+        "a": "Una trial key abre un vault normal y se consume. Cada jugador normalmente abre cada vault una vez. El vault guarda un historial de 128 jugadores, pero no es un máximo de participantes. Los vaults ominosos requieren ominous trial keys."
       },
       {
         "q": "¿Cómo se consiguen ominous trial keys?",
@@ -6422,7 +6422,7 @@
     "quickAnswer": "Craftéalas: 1 breeze rod produce 4 wind charges. Las breeze rods las sueltan los breezes, los mobs saltarines de los spawners de las trial chambers (1-2 rods por baja, más con Looting). Las wind charges también salen de los vaults y ominous vaults de las trial chambers.",
     "steps": [
       "Encuentra una trial chamber: estas estructuras de cobre y tuff se generan bajo tierra en el Overworld: nuestra guía de búsqueda cubre las formas más rápidas de localizar una.",
-      "Localiza un spawner de breezes: los breezes solo aparecen en trial spawners rodeados de chiseled tuff en las salas de combate (nunca en los pasillos), uno por sala.",
+      "Localiza un trial spawner de breeze en la cámara. Sus oleadas dan los rods para fabricar cargas; no supongas que cada sala de combate tiene exactamente uno.",
       "Farmea breeze rods: cada breeze suelta 1-2 breeze rods al morir a manos de un jugador, y Looting sube la cantidad. Los breezes desvían todos los proyectiles excepto las wind charges, así que ve a melee.",
       "Craftea las charges: pon 1 breeze rod en la cuadrícula de crafteo y obtén 4 wind charges. Sin forma fija, no hace falta mesa.",
       "También por loot: los vaults y ominous vaults de las trial chambers pueden expulsar wind charges directamente: munición gratis mientras farmeas rods.",
@@ -6439,7 +6439,7 @@
       "Acceso a las trial chambers"
     ],
     "editionNote": "Los disparos de jugadores y dispensers empujan un 22% más fuerte que los de los breezes, pero explotan en una esfera menor de 2.4 bloques (los de breeze: 6 bloques). En Bedrock, una wind charge que atraviesa fuego o lava prende a las entidades que golpea, y el proyectil lanzado tiene un ligero desplazamiento. Ambas ediciones comparten el mismo cooldown de 0.5 segundos.",
-    "versions": "Las wind charges llegaron como contenido experimental en Java 1.20.3 / Bedrock 1.20.60 y se hicieron oficiales con la 1.21 (Tricky Trials, junio de 2024). En los primeros snapshots los breezes las soltaban directamente; la receta de crafteo con breeze rod lo sustituyó antes del lanzamiento.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se craftean las wind charges?",
@@ -6459,11 +6459,11 @@
       },
       {
         "q": "¿Qué hacen las wind charges en Minecraft?",
-        "a": "Crean una ráfaga de viento al impactar: las entidades salen empujadas y reciben 1 de daño en impactos directos, y bloques débiles de redstone como buttons, levers, fence gates y doors no metálicas cambian de estado. Los jugadores las usan para moverse: una explosión a tus pies te lanza hacia arriba y reinicia el daño de caída."
+        "a": "Crean una explosión de viento al impactar. El golpe directo hace 1 de daño; la explosión empuja entidades cercanas sin dañarlas directamente. Activan botones, palancas, puertas de valla y puertas no metálicas. Las cargas de jugador pueden impulsarte, con daño de caída por debajo de la altura del impacto de la explosión."
       },
       {
         "q": "¿Las wind charges hacen daño al jugador?",
-        "a": "El empuje te afecta, pero el daño de caída solo se aplica tras reiniciar la ráfaga tu distancia de caída. Acertando el timing no recibes daño de caída de grandes alturas, la base de la técnica de movimiento con wind charges."
+        "a": "Un impacto directo puede hacer daño y el empuje puede lanzarte. Tras una explosión disparada por jugador o dispensador, el daño de caída se acumula solo por debajo de la altura de su impacto. Aterrizar más abajo aún puede dañarte o matarte; no es protección total frente a grandes caídas."
       },
       {
         "q": "¿Cuántas wind charges hace una breeze rod?",
@@ -7210,15 +7210,15 @@
     "slug": "how-to-get-ominous-trial-key",
     "name": "Cómo conseguir Ominous Trial Keys en Minecraft",
     "shortTitle": "Conseguir Ominous Trial Keys",
-    "quickAnswer": "Bebe una Ominous Bottle para tener Bad Omen y pelea contra trial spawners en las trial chambers: el efecto los convierte en ominous trial spawners, y cada uno completado tiene un 30% de probabilidad de soltar una ominous trial key. Usa la llave en un ominous vault con el Trial Omen activo para conseguir el mejor loot.",
+    "quickAnswer": "Bebe una ominous bottle para obtener Bad Omen y acércate a un trial spawner para recibir Trial Omen e iniciar una prueba ominosa. Los spawners ominosos completados tienen un 30% de probabilidad de dar llaves. Una ominous trial key abre un vault ominoso; no hace falta Trial Omen al abrirlo.",
     "steps": [
-      "Consigue Bad Omen: mata a un raid captain (pillagers con un ominous banner en la cabeza, en los outposts y las patrullas): suelta una Ominous Bottle el 100% de las veces. También salen en los vaults de las trial chambers. Bébete la botella.",
+      "Consigue una ominous bottle matando a un capitán fuera de una raid o como botín de vault, y bébela para obtener Bad Omen. Los capitanes muertos durante una raid activa no dan la botella.",
       "Ve a una trial chamber: se generan bajo tierra en las capas de deepslate. Explora cuevas o excava: busca bloques de cobre y tuff.",
-      "Acércate a un trial spawner con Bad Omen activo: se convierte en ominous trial spawner y tu efecto pasa a ser Trial Omen. Los spawners ya limpiados también se convierten cuando termina su cooldown.",
+      "Acércate a un spawner no ominoso con Bad Omen para recibir Trial Omen. Los spawners cercanos aptos se vuelven ominosos. Uno normal en espera puede saltarse ese tiempo al volverse ominoso por primera vez; sus mobs anteriores desaparecen.",
       "Gana el combate más duro: las ominous trials generan mobs con armadura y armas encantadas, y el spawner lanza pociones y proyectiles desde arriba. Lleva tu mejor equipo, comida y un escudo.",
       "Recoge la llave: al morir el último mob, el spawner suelta recompensas con un 30% de probabilidad de incluir una ominous trial key para cada jugador cercano.",
-      "Gástala en un ominous vault: estos vaults más oscuros están en las partes altas de las chambers, a menudo escondidos en paredes y techos. Debes seguir teniendo Trial Omen activo al usar la llave, así que no dejes que se acabe el efecto.",
-      "Repite: los ominous vaults son la única fuente del heavy core (para la mace), el armor trim flow y los libros de Wind Burst, además de loot top como enchanted golden apples.",
+      "Usa la ominous trial key en un vault ominoso. No necesitas Trial Omen activo para abrirlo. La llave se consume y, en uso normal, cada jugador puede abrir ese vault una vez.",
+      "Explora vaults ominosos sin usar para conseguir heavy cores, flow armor trim, libros de Wind Burst y manzanas encantadas. Farmear nuevas llaves no permite volver a abrir un vault usado en condiciones normales.",
       "Peculiaridad de Java: una ominous trial key renombrada no puede abrir un ominous vault normal por un bug: conserva tus llaves sin modificar."
     ],
     "materials": [
@@ -7228,7 +7228,7 @@
       "Efecto Bad Omen / Trial Omen activo"
     ],
     "editionNote": "Las ominous trial keys funcionan igual en Java y Bedrock: 30% de los ominous trial spawners completados, un uso por vault y jugador. Bug solo de Java: las llaves renombradas no abren los ominous vaults normales.",
-    "versions": "Añadidas como contenido experimental en Java 1.20.5 (24w13a) y Bedrock 1.21.0 (Preview 1.21.0.20), y lanzadas definitivamente con la 1.21 (Tricky Trials, junio de 2024).",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo se consiguen las ominous trial keys?",
@@ -7236,7 +7236,7 @@
       },
       {
         "q": "¿Qué abren las ominous trial keys?",
-        "a": "Los ominous vaults, los vaults oscuros de las trial chambers. Necesitas el efecto Trial Omen activo al usar la llave. Contienen el mejor loot: heavy cores, el armor trim flow, libros de Wind Burst y enchanted golden apples."
+        "a": "Vaults ominosos, usando una ominous trial key. Trial Omen sirve para convertir spawners, no para gastar una llave en el vault. El botín puede incluir heavy cores, flow armor trim, libros de Wind Burst y manzanas encantadas."
       },
       {
         "q": "¿Se puede reutilizar una ominous trial key?",
@@ -7412,18 +7412,18 @@
       "Ruined portals: cada cofre de portal tiene su probabilidad, se comprueban rápido explorando, y los bloques de oro alrededor son un buen extra.",
       "Medio juego: las woodland mansions y los bastion remnants tienen enchanted golden apples en su loot. Los bastions combinan bien con una ruta de netherite templates.",
       "Ancient cities: sus cofres tienen de las mejores probabilidades de enchanted golden apples: lleva lana, agáchate en todas partes y lutea rápido.",
-      "La ruta renovable: los ominous vaults de las trial chambers pueden soltar enchanted golden apples. Como las ominous trials se reinician cada 30 minutos, es la única fuente farmeable: bebe Ominous Bottles y limpia spawners.",
+      "Los vaults ominosos pueden dar manzanas encantadas, pero no se reinician tras los 30 minutos del spawner. En juego normal en solitario, explora vaults nuevos. La excepción del historial de 128 jugadores en servidores grandes no es una ruta normal de farmeo repetible.",
       "Úsala bien: comer una restaura 4 de hambre y da Absorption IV (2 min), Regeneration II (20 s en Java / 30 s en Bedrock), Resistance I y Fire Resistance I (5 min cada una). Guárdalas para el Wither, el Ender Dragon o una raid complicada.",
       "Usos extra: mejoran un 10% el tameo de caballos, sirven para criarlos y atraerlos, y aceleran 4 minutos el crecimiento de los potros: pero es un tentempié carísimo."
     ],
     "materials": [
       "Equipo de luteo de estructuras (antorchas, comida, armas)",
       "Lana y disciplina al agacharte para las ancient cities",
-      "Ominous Bottles para la ruta farmeable de ominous vaults",
+      "Ominous bottles y ominous trial keys para vaults ominosos sin usar",
       "Paciencia: las probabilidades por cofre son de pocos puntos porcentuales"
     ],
     "editionNote": "Las ubicaciones del loot coinciden en ambas ediciones. Un efecto cambia: Regeneration II dura 20 segundos en Java (cura 16 PS) y 30 en Bedrock (cura 24 PS). Los piglins inspeccionan las manzanas tiradas 6 segundos en Java y 8 en Bedrock, y no, nunca se las comen.",
-    "versions": "Añadida en Java 1.3.1 (12w21a); dejó de craftearse en la 1.9 (15w44a). Las ubicaciones crecieron con el tiempo: woodland mansions (1.11), ruined portals (1.16), bastions (1.16.2), ancient cities (1.19) y ominous vaults (1.21 / Bedrock 1.21.0).",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Se puede craftear una enchanted golden apple?",
@@ -7431,7 +7431,7 @@
       },
       {
         "q": "¿Dónde aparecen las enchanted golden apples?",
-        "a": "En monster rooms, desert pyramids, mineshafts, woodland mansions, ruined portals, bastion remnants y ancient cities, además de los ominous vaults de las trial chambers, la única fuente repetible."
+        "a": "Pueden aparecer en monster rooms, pirámides del desierto, mineshafts, woodland mansions, ruined portals, bastion remnants y ancient cities. También en vaults ominosos, pero en uso normal cada jugador abre cada vault una vez; la espera del spawner no reinicia su botín."
       },
       {
         "q": "¿Qué hace una enchanted golden apple?",
@@ -16938,16 +16938,16 @@
   "how-to-raid-trial-chambers": {
     "name": "Cómo asaltar las trial chambers en Minecraft",
     "shortTitle": "Asaltar trial chambers",
-    "quickAnswer": "Encuentra las trial chambers bajo tierra, acércate a menos de 14 bloques de cada trial spawner para activar una oleada escalada a tu número de jugadores, derrota a todos los mobs y recoge la recompensa por jugador: trial keys, wind charges y loot. Las keys abren vaults; las ominous bottles mejoran la ronda a ominous trials con mejores vaults y el heavy core.",
+    "quickAnswer": "Encuentra trial chambers bajo tierra, activa spawners a menos de 14 bloques y con línea de visión, derrota sus oleadas y recoge comida, pociones o trial keys. Las llaves abren vaults normales; las pruebas ominosas dan llaves para vaults ominosos separados. La espera del spawner no reinicia las aperturas de vault.",
     "steps": [
-      "Localiza las trial chambers bajo tierra entre Y=-20 e Y=40, normalmente en capas de deepslate. Los cartographers pueden vender un mapa de trial chambers.",
+      "La sala inicial se genera entre Y=-40 y -20 en el Overworld; la estructura completa puede extenderse fuera de ese intervalo. Un trial explorer map de un cartógrafo journeyman ayuda a encontrarla.",
       "Equípate: iron completo o mejor, shield, comida y bloques. Pasillos de copper y tuff significan que estás dentro.",
       "Activa cada trial spawner entrando a 14 bloques con línea de visión; genera una oleada limitada escalada a los jugadores cercanos.",
-      "Derrota toda la oleada: el spawner expulsa una recompensa por jugador (trial keys ~la mitad de las veces, más pociones, flechas y wind charges) y entra en cooldown.",
+      "Derrota toda la oleada. El spawner da recompensas a los participantes detectados: una tirada del 50% da llaves a todos; si no, entrega consumibles como comida o pociones. Después espera 30 minutos. Las wind charges salen de rods o vaults, no de esta recompensa de spawner normal.",
       "Usa las trial keys en los vaults: cada vault se abre una vez por jugador, así que todo el grupo recibe su propio loot.",
       "Para el modo difícil: bebe una ominous bottle, acércate a un spawner con Trial Omen y se convierte en un ominous trial spawner que suelta ominous keys para ominous vaults, la única fuente del heavy core.",
       "Mata breezes para conseguir breeze rods: se craftean en wind charges y en la mace.",
-      "Prioriza la breeze. Las breezes disparan wind charges que no hacen daño directo pero te lanzan por los aires: la caída duele. Desvía el charge de vuelta con un golpe bien cronometrado y luego asáltala mientras se reposiciona. Las breeze rods se convierten en wind charges y, con un heavy core, en la mace.",
+      "Prioriza al breeze. Un impacto directo de wind charge hace daño; la explosión empuja y puede causar una caída peligrosa. Esquiva, devuelve cargas cuando sea posible y usa cuerpo a cuerpo o cargas de jugador contra breezes.",
       "Gestiona los spawners con cabeza. Los spawners tienen cooldown tras la derrota y no se pueden picar para nada útil, así que limpia, saquea y sigue. Las puertas estrechas y las esquinas con shield convierten salas malas en fáciles.",
       "Llévate los trofeos. Heavy core + breeze rod = mace, el arma demoledora. Flow y bolt armor trims, wind charges y ominous bottles para tu raid farm completan una limpieza total."
     ],
@@ -16961,12 +16961,12 @@
       "Bad Omen (ominous bottle) para la ronda ominous",
       "Filas de inventario vacías: las vaults pagan mucho"
     ],
-    "editionNote": "Los vaults se abren una vez por jugador en ambas ediciones, hasta 128 jugadores por vault. El escalado y las recompensas de los trial spawners funcionan igual en Java y Bedrock.",
-    "versions": "Las trial chambers existen desde 1.21 (Tricky Trials). Las ominous trials y el heavy core llegaron en la misma actualización.",
+    "editionNote": "En uso normal, cada jugador abre cada vault una vez; los 30 minutos de espera del spawner no reinician el vault. El vault guarda 128 identidades, no limita la participación a 128 personas. En servidores muy grandes, un jugador distinto número 129 desplaza la entrada más antigua, pero no es una ruta normal de farmeo en solitario.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cómo funcionan los trial spawners?",
-        "a": "Se activan cuando un jugador entra a 14 bloques con línea de visión, invocan una oleada limitada escalada al número de jugadores, y cuando todos los mobs mueren expulsan una recompensa por jugador y entran en cooldown. Las recompensas incluyen trial keys, wind charges, pociones y flechas."
+        "a": "Jugadores en supervivencia o aventura a menos de 14 bloques y con línea de visión activan los trial spawners. Las oleadas dependen del tipo de mob y los jugadores. Al terminar, un spawner normal tiene un 50% de dar llaves a todos los participantes detectados o consumibles a cada uno; después espera 30 minutos."
       },
       {
         "q": "¿Qué diferencia hay entre un vault y un ominous vault?",
@@ -16978,15 +16978,15 @@
       },
       {
         "q": "¿Cómo funcionan las trial keys?",
-        "a": "Derrota la oleada de un trial spawner y tiene un 50% de expulsar una trial key para cada jugador participante. Cada jugador usa su propia key en una vault, y la vault da loot separado a todos: sin peleas por los drops. Los spawners ominous dan ominous keys al 30% para las mejores ominous vaults."
+        "a": "Los spawners normales tienen una tirada del 50% para llaves; al salir, cada participante detectado recibe una trial key. Los ominosos tienen un 30% para llaves ominosas. Cada apertura expulsa botín al mundo: otros jugadores pueden recogerlo, así que repartidlo con cuidado."
       },
       {
         "q": "¿Merecen la pena las trial chambers?",
-        "a": "Sí: la mace (heavy core + breeze rod) no existe en ningún otro sitio, las ominous vaults tienen las mejores probabilidades de enchanted golden apple del juego con 22,5%, y los armor trims son exclusivos. Además es, sencillamente, el mejor contenido de combate estructurado del mid game."
+        "a": "Ofrecen breeze rods, adornos exclusivos y vaults ominosos con un 7,5% de heavy core y un 22,5% de manzana encantada por apertura. Los spawners pueden repetirse tras su espera, pero los vaults usados no se reinician normalmente para el mismo jugador."
       },
       {
         "q": "¿Cómo sobrevivo a la breeze?",
-        "a": "No aguantes la caída, no aguantes nada: esquiva de lado y golpea el wind charge para devolvérselo, lo que deja a la breeze abierta a un asalto con espada. Feather Falling IV y una water bucket eliminan la mayor parte del peligro mientras aprendes el ritmo."
+        "a": "Esquiva sus cargas y evita caídas peligrosas. Usa cuerpo a cuerpo o wind charges de jugador. Feather Falling reduce el daño de caída y aterrizar a tiempo en agua puede ayudar; nada de eso garantiza que cualquier pelea sea segura."
       }
     ],
     "relatedLinks": [
@@ -22801,17 +22801,14 @@
       "Consigue una trial key completando trial spawners: derrota a todos los mobs que invoque el spawner y puede soltar una trial key como recompensa.",
       "Sujeta la trial key y úsala sobre la vault. La vault se abre y suelta loot para ti.",
       "Cada jugador puede saquear la misma vault una vez, así que en un servidor todos reciben su propia recompensa de cada vault.",
-      "Para las ominous vaults (la variante de llamas azules cerca de los ominous trial spawners) necesitas una ominous trial key, que se consigue en los ominous trial spawners con el efecto Trial Omen activo."
+      "Para un vault ominoso, usa una ominous trial key obtenida de spawners ominosos. Trial Omen sirve para convertir spawners, no para abrir el vault. Los vaults ominosos son bloques generados aparte; uno normal no se transforma en ominoso."
     ],
     "materials": [
       "Trial key (de los trial spawners)",
       "Ominous trial key (de los ominous trial spawners, para las ominous vaults)"
     ],
     "editionNote": "Las vaults funcionan igual en Java y Bedrock desde la 1.21: una tirada de loot por jugador y vault, y las ominous vaults requieren ominous trial keys. Las vaults normales pueden dar el armor trim bolt, libros encantados de Density y Breach y wind charges; solo las ominous vaults dan el heavy core (para el mace), el armor trim flow y libros de Wind Burst.",
-    "versions": [
-      "Java 1.21+",
-      "Bedrock 1.21+"
-    ],
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Se puede minar o mover una vault?",
@@ -22819,7 +22816,7 @@
       },
       {
         "q": "¿Cuántas veces se puede abrir una vault?",
-        "a": "Una por jugador. La vault registra a cada jugador individualmente, así que en un servidor cada persona obtiene una tirada de cada vault y tú no puedes volver a saquearla."
+        "a": "En uso normal, cada jugador abre cada vault una vez; los 30 minutos de espera del spawner no reinician el vault. El vault guarda 128 identidades, no limita la participación a 128 personas. En servidores muy grandes, un jugador distinto número 129 desplaza la entrada más antigua, pero no es una ruta normal de farmeo en solitario."
       },
       {
         "q": "¿Qué loot dan las vaults?",
@@ -22827,7 +22824,7 @@
       },
       {
         "q": "¿Cómo se consigue una ominous trial key?",
-        "a": "Bebe una ominous bottle (o consigue Bad Omen de un capitán de raid) y entra en el área de una trial chamber para obtener Trial Omen; después completa ominous trial spawners, que pueden soltar ominous trial keys."
+        "a": "Bebe una ominous bottle para obtener Bad Omen, acércate a un spawner no ominoso para recibir Trial Omen y completa spawners ominosos. Los capitanes muertos fuera de raids sueltan botellas, no dan Bad Omen directamente."
       }
     ],
     "relatedLinks": [
