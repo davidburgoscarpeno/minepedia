@@ -8225,11 +8225,11 @@
     "shortTitle": "Get Sharpness",
     "quickAnswer": "Sharpness goes on swords, spears and axes (axes need an anvil): roll it at a level-30 enchanting table, trade with librarians, fish, or loot monster rooms and structures. Sharpness V is the max, and it can't mix with Smite or Bane of Arthropods.",
     "steps": [
-      "Enchant a sword at a full table: 15 bookshelves unlock level-30 rolls, where Sharpness IV or V can appear directly. Spears accept Sharpness the same way since 1.21.11.",
-      "Axes are the exception: they only receive Sharpness through an anvil (book + axe), not the enchanting table. It was accidentally table-available for two 1.20.5 snapshots, then reverted.",
+      "Enchant a sword at a full table: 15 bookshelves unlock level-30 rolls, where Sharpness can appear up to level IV on most weapon tiers. Only golden weapons can roll Sharpness V directly; other tiers reach V through an anvil or structure loot. Spears accept Sharpness the same way.",
+      "Axes are the exception: they only receive Sharpness through an anvil (book + axe), not the enchanting table.",
       "Trade with librarians: reroll a lectern until a Sharpness book appears and lock it - the reliable route to Sharpness V by combining books.",
       "Fish, loot, raid: enchanted books from fishing, monster room chests and non-village structure loot can carry Sharpness; Bedrock raid mobs drop books too.",
-      "Combine to V on an anvil: Sharpness III + III = IV, IV + IV = V. Build the book chain first, then apply it to your weapon to keep anvil costs down.",
+      "Combine to V on an anvil: Sharpness III + III = IV, IV + IV = V. Compare the preview costs of different book-and-weapon combination orders; no fixed order is always cheapest.",
       "Know the math: in Java, Sharpness adds 1 damage at level I and 0.5 per level after (Sharpness V = +3). In Bedrock it's 1.25 per level rounded down (Sharpness V = +6) - Bedrock sharp is nearly twice as strong.",
       "Respect the rivals: Sharpness is mutually exclusive with Smite and Bane of Arthropods. Pick Sharpness for general use; Smite only wins against undead, Bane only against arthropods.",
       "Java quirk: off-hand spear charge attacks don't apply Sharpness due to an unresolved bug - charge with the spear in your main hand."
@@ -8241,11 +8241,11 @@
       "Anvil and XP levels for combining"
     ],
     "editionNote": "The big edition split: Java Sharpness adds 0.5 × level + 0.5 damage (+3 at V), while Bedrock adds 1.25 × level rounded down (+6 at V). Sources match otherwise, plus the usual Bedrock extras of raid-dropped books. Java-only bug: off-hand spear charges ignore Sharpness.",
-    "versions": "Added in Beta 1.9 Prerelease 4 with a random bonus formula, rebalanced in 1.6.1 (1.25 per level) and again in 1.9 to today's Java formula. Axes briefly got table access in 1.20.5 snapshots before it was reverted to anvil-only. Spears joined in 1.21.11.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How do you get Sharpness 5?",
-        "a": "Two reliable ways: level-30 enchanting table rolls can give Sharpness IV or V directly, or lock a librarian's Sharpness trade and combine two Sharpness IV books in an anvil. Axes always need the anvil route."
+        "a": "Two reliable ways: a level-30 enchanting table can offer Sharpness up to IV on most tiers (only golden weapons roll V directly), then combine two IV books in an anvil; or lock a librarian's Sharpness trade and combine books up to V. Axes always need the anvil route."
       },
       {
         "q": "Is Sharpness better than Smite?",
@@ -8636,17 +8636,17 @@
     "slug": "how-to-get-fire-aspect",
     "name": "How to Get Fire Aspect in Minecraft (Fire Aspect II)",
     "shortTitle": "Get Fire Aspect",
-    "quickAnswer": "Fire Aspect ignites melee targets: 4 seconds of burning per level on swords, maces and spears. Get it from enchanting tables, librarian trades, fishing or structure loot. Fire Aspect II cooks meat drops automatically - but skip it against Nether mobs, the Ender Dragon, the Wither and the Warden.",
+    "quickAnswer": "Fire Aspect ignites melee targets: 4 seconds of burning per level on swords and spears (maces need an anvil). Get it from enchanting tables, librarian trades, fishing or structure loot. Fire Aspect II cooks meat drops automatically - but skip it against Nether mobs, the Ender Dragon, the Wither and the Warden.",
     "steps": [
-      "Enchant a sword: Fire Aspect appears on enchanting tables for swords - max level II, so even mid-level rolls can land it. Maces (since 1.21) and spears (since 1.21.11) accept it too.",
+      "Enchant a sword: Fire Aspect appears on enchanting tables for swords - max level II, so even mid-level rolls can land it. Spears accept it the same way; maces only receive it through an anvil.",
       "Trade with librarians: reroll lecterns for a Fire Aspect book - cheap and quick since it's only two levels. II is one anvil combine away from I.",
       "Fish and loot: fishing books and non-village structure chests carry it; Bedrock raid mobs drop books as well.",
       "Know the damage: each level adds 80 fire-ticks (4 seconds of burn). Because the first second isn't counted, total burn damage is 3 at level I and 7 at level II (level × 4 − 1).",
       "Free barbecue: any mob that drops raw meat drops it COOKED if it dies while burning - even if the killing blow lands underwater. Fire Aspect II on a hunting sword means never smelting steak again.",
-      "Bedrock bonus: use a Fire Aspect item on unlit candles and campfires to light them, or on TNT and TNT minecarts to prime them from a safe distance. (Java had candle lighting briefly in 1.21 pre-releases; it was pulled for refinement.)",
+      "Bedrock bonus: use a Fire Aspect weapon on unlit candles and campfires to light them, or on TNT and TNT minecarts to prime them from a safe distance. In current Bedrock, enchanted books alone no longer ignite these; use the enchanted weapon itself.",
       "Know the immune: Nether-native mobs (except piglins, piglin brutes and hoglins) ignore fire, and the Ender Dragon, Wither and Warden are immune. Fire Aspect is an overworld enchant.",
       "Java quirks: off-hand spear charge attacks don't apply Fire Aspect (unresolved bug), and since 1.21 the sword's sweep attack spreads the burn to grouped mobs.",
-      "26.2 twist: sulfur cubes that have absorbed TNT now ignite and explode when hit with a Fire Aspect item - careful where you swing."
+      "Sulfur cubes that have absorbed TNT ignite and explode when hit with a Fire Aspect item in current versions - careful where you swing."
     ],
     "materials": [
       "Sword, mace or spear",
@@ -8655,7 +8655,7 @@
       "Anvil for combining to II"
     ],
     "editionNote": "Burn mechanics match across editions (4 seconds per level, level × 4 − 1 damage). Bedrock extras: Fire Aspect items light candles, campfires, TNT and TNT minecarts with the use button. Java extras: sweep attacks spread the burn since 1.21; off-hand spear charges don't apply it (bug).",
-    "versions": "Added in Beta 1.9 Prerelease 4 for swords. Maces joined in the 1.21 update, sweep-attack ignition was fixed in 1.21, spears arrived in 1.21.11, and the 26.2 snapshot made Fire Aspect ignite TNT-loaded sulfur cubes.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Is Fire Aspect worth it?",
@@ -8936,7 +8936,7 @@
     "shortTitle": "Get Knockback",
     "quickAnswer": "Knockback makes swords and spears launch enemies: +2.586 blocks of horizontal knockback per level, about 6.7 blocks with Knockback II. Get it from enchanting tables, librarian trades, fishing, monster rooms or structure loot.",
     "steps": [
-      "Enchant a sword: Knockback rolls on enchanting tables for swords (weight 5 - fairly common) and maxes at level II, so a single table roll can finish it. Spears (1.21.11) accept it too.",
+      "Enchant a sword: Knockback rolls on enchanting tables for swords and maxes at level II, so a single table roll can finish it. Spears accept it too.",
       "Trade with librarians: reroll a lectern for a Knockback book, lock it, and combine to II on an anvil if needed.",
       "Fish and loot: fishing books, monster room chests and non-village structure loot carry it; Bedrock raid mobs drop books too.",
       "Know the numbers: each level adds 2.586 blocks of horizontal knockback on top of the base 1.552 - Knockback II sends mobs flying about 6.7 blocks. Vertical knockback also rises from 0.8125 to 1 block at any level.",
@@ -8954,7 +8954,7 @@
       "Anvil for combining to II"
     ],
     "editionNote": "Knockback numbers match across editions (+2.586 blocks per level). Two splits: shield-blocked hits keep their knockback in Bedrock but lose it in Java, and only Java lets you knock armor stands with it (plus the off-hand spear bug is Java-only).",
-    "versions": "Added in Beta 1.9 Prerelease 4 (Java) and Pocket Edition v0.12.1 (Bedrock). Knockback resistance started applying correctly in 1.9, and spears became valid targets in 1.21.11.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "What does Knockback do in Minecraft?",
@@ -15879,8 +15879,8 @@
     "shortTitle": "Smite",
     "quickAnswer": "Smite goes on swords, axes, spears and maces, and adds 2.5 HP of damage per level against undead mobs - up to +12.5 HP at Smite V. Get it from an enchanting table, enchanted books (librarian villagers, loot chests, fishing) or by combining items on an anvil. It cannot coexist with Sharpness, Bane of Arthropods, Density or Breach.",
     "steps": [
-      "Enchant directly at the table. Swords, axes, spears and maces can all roll Smite up to level V - put down 15 bookshelves for level 30 rolls and reset with cheap throwaway enchants until Smite appears.",
-      "Or use an anvil with a book. Enchanted books with Smite come from librarian trades (the reliable route), dungeon, mineshaft, stronghold and ruined portal chests, fishing treasure, and raid drops from vindicators and pillagers in Bedrock.",
+      "Enchant directly at the table. Swords and spears can roll Smite up to level V in both editions; axes and maces can too in Bedrock, but in Java they need an anvil and a book. Put down 15 bookshelves for level-30 rolls and reset with cheap throwaway enchants until Smite appears.",
+      "Or use an anvil with a book. Enchanted books with Smite come from librarian trades (the reliable route), dungeon, mineshaft, stronghold and ruined portal chests, fishing treasure, and enchanted-book drops from raid mobs in Bedrock.",
       "Combine on the anvil. Book plus weapon, or two Smite items of the same level to raise it - two Smite IVs make a Smite V. Watch the 'too expensive' cap at 40 levels in survival.",
       "Know what it hits. Undead only: zombies, drowned, husks, zombie villagers, zombified piglins, zoglins, skeletons, strays, bogged, wither skeletons, phantoms and the wither itself. Smite V adds 12.5 HP per hit - the wither melts.",
       "Pick your lane: Smite or Sharpness. They are mutually exclusive (along with Bane of Arthropods, Density and Breach). Sharpness is the generalist; Smite is the specialist for wither fights, zombie farms and Nether fortresses."
@@ -15891,8 +15891,8 @@
       "Anvil + Smite enchanted book (librarian trade, loot or fishing)",
       "XP levels (up to 30 per roll, more for anvil work)"
     ],
-    "editionNote": "Smite works the same in Java and Bedrock: +2.5 HP per level against undead. One Bedrock oddity: a tiny fraction (0.75%) of zombified piglins are not classed as undead and ignore Smite. Since 1.21, Smite is also mutually exclusive with the mace enchants Density and Breach.",
-    "versions": "Smite has been in the game since enchantments arrived in Beta 1.9 Prerelease 3 (2011). Its +2.5 HP per level bonus has never changed; 1.21 only added the Density and Breach incompatibilities alongside the mace.",
+    "editionNote": "Both editions add 2.5 HP per level against undead, but Bedrock rounds the bonus down, so Smite I, III and V are slightly weaker there (2, 7 and 12 HP). Java axes and maces need an anvil; in Bedrock they can roll Smite at the table. Since 1.21, Smite is also mutually exclusive with the mace enchantments Density and Breach.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Smite or Sharpness for the wither?",
@@ -16853,7 +16853,7 @@
       "Enchant a sword at the table. Any sword can roll Sweeping Edge up to III. Use 15 bookshelves for level 30 rolls.",
       "Or find the book. Librarian trades, fishing treasure, monster room chests, ocean ruins chests and other non-village structure loot all carry it.",
       "Learn the sweep. On Java, standing still on the ground and attacking with your cooldown at 84.8% or higher triggers a sweep: mobs in a small area around your target take the sweep damage and get knocked back.",
-      "Do the math. Sweep damage is 1 + sword damage x level/(level+1): III means 75% of your sword's damage splashes to nearby mobs. A Sharpness V diamond sword sweeps 8.5 hearts per swing into the crowd.",
+      "Do the math. Sweep damage is 1 + sword damage × level/(level+1), plus any Sharpness-type bonus that applies to each mob: at III, 75% of the sword's damage splashes to nearby mobs. A diamond sword with Sharpness V and Sweeping Edge III sweeps 9.25 HP (about 4.6 hearts) to each mob caught.",
       "Use it in crowds. Sweeping Edge shines in mob farms, zombie sieges and raid waves - anywhere enemies pack together. For single targets it adds zero damage."
     ],
     "materials": [
@@ -16863,7 +16863,7 @@
       "A crowd of zombies (optional)"
     ],
     "editionNote": "JAVA EDITION ONLY. Bedrock has no sweep attack mechanic and no Sweeping Edge enchantment. On Java, the bonus applies only to surrounding mobs, never to the mob you hit directly.",
-    "versions": "Sweeping Edge has existed since the Combat Update (Java 1.9, 2016), which introduced attack cooldowns and sweep attacks. It has been Java-exclusive ever since.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why can't I get Sweeping Edge on Bedrock?",
@@ -16901,11 +16901,11 @@
     "slug": "how-to-get-bane-of-arthropods",
     "name": "How to Get Bane of Arthropods in Minecraft",
     "shortTitle": "Bane of Arthropods",
-    "quickAnswer": "Bane of Arthropods is a weapon enchantment (max level V) that adds 2.5 hearts of damage per level against spiders, cave spiders, bees, silverfish and endermites, and slows them with Slowness IV for a few seconds. Get it from the enchanting table, librarian trades, fishing, or structure chests. It cannot combine with Sharpness, Smite, Density or Breach.",
+    "quickAnswer": "Bane of Arthropods is a weapon enchantment (max level V) that adds 2.5 HP of damage per level against spiders, cave spiders, bees, silverfish and endermites - up to 12.5 HP (6.25 hearts) at level V - and slows them with Slowness IV for a few seconds. Get it from the enchanting table, librarian trades, fishing, or structure chests. It cannot combine with Sharpness, Smite, Density or Breach.",
     "steps": [
       "Enchant at the table. Swords and spears can roll Bane of Arthropods up to V; in Bedrock, axes and maces too (in Java, axes and maces need an anvil + book). Use 15 bookshelves for level 30 rolls.",
       "Or find the book. Librarian trades, fishing treasure and non-village structure chests all carry it. In Bedrock, raid mobs can drop enchanted books as well.",
-      "Know your targets. It works against exactly five mobs: spiders, cave spiders, bees, silverfish and endermites. Each level adds 2.5 hearts against them - Bane V adds 12.5 hearts per hit.",
+      "Know your targets. It works against exactly five mobs: spiders, cave spiders, bees, silverfish and endermites. Each level adds 2.5 HP against them - Bane V adds 12.5 HP (6.25 hearts) per hit.",
       "Use the slow. Every hit also inflicts Slowness IV for a random 1 to 1.5 seconds at level I, growing by 0.5 seconds per level up to 3.5 seconds at V. Spiders barely crawl toward you.",
       "Decide where it fits. It is mutually exclusive with Sharpness, Smite, Density and Breach. Sharpness wins as the generalist, Smite for undead farms - Bane's real home is a cave spider XP farm sword, where cave spiders melt and stop in place."
     ],
@@ -16916,11 +16916,11 @@
       "A cave spider spawner to conquer"
     ],
     "editionNote": "Both editions add 2.5 hearts per level, but Bedrock rounds damage down, making levels I, III and V slightly weaker than Java. In Bedrock, axes and maces get it directly at the table; in Java they need an anvil. In Java, offhand spear charge attacks do not apply it (known bug MC-308270).",
-    "versions": "Bane of Arthropods has existed since enchantments launched in Beta 1.9 Prerelease 3 (2011). Spears joined its item list in the 26.x updates.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Bane of Arthropods or Sharpness?",
-        "a": "Sharpness for almost everything: +0.5 to 3 hearts against ALL mobs. Bane adds far more (+2.5 per level) but only against five arthropod mobs. Keep one Bane sword for spider and cave spider farms; put Sharpness on your everyday blade."
+        "a": "Sharpness for almost everything: up to +3 HP against ALL mobs in Java. Bane adds far more (+2.5 HP per level) but only against five arthropod mobs. Keep one Bane sword for spider and cave spider farms; put Sharpness on your everyday blade."
       },
       {
         "q": "Does Bane of Arthropods work on shulkers or the warden?",
@@ -16928,7 +16928,7 @@
       },
       {
         "q": "Is Bane of Arthropods good for cave spider farms?",
-        "a": "It is THE enchantment for them. The 2.5-hearts-per-level bonus plus Slowness IV means cave spiders die in one hit and never reach you through the farm gaps - much better than Smite or Sharpness there."
+        "a": "It is the specialist enchantment for them. The 2.5 HP-per-level bonus plus Slowness IV means a strong Bane sword kills cave spiders in one hit and slows any target that survives."
       }
     ],
     "relatedGuides": [
@@ -31084,9 +31084,9 @@
       "A diamond or netherite sword"
     ],
     "steps": [
-      "Sharpness V: the main damage enchant, +3 attack at max level in Java. Conflicts with Smite and Bane of Arthropods - keep those for specialist backup swords.",
+      "Sharpness V: the main damage enchant, +3 HP at max level in Java. Most weapon tiers only roll up to IV at the table - combine two IV books for V. Conflicts with Smite and Bane of Arthropods - keep those for specialist backup swords.",
       "Looting III: more drops from mobs - wither skulls, ender pearls and gunpowder farming all get faster. Always on the main sword.",
-      "Mending: XP repairs the sword as you hold it. Pair with Unbreaking III and it never dies.",
+      "Mending: collected XP repairs the sword while you hold it. With Unbreaking III it lasts a very long time, but it is not unbreakable - no XP means no repairs.",
       "Unbreaking III: quadruples effective durability on average.",
       "Fire Aspect II: sets targets on fire - free damage over time and cooked meat from animals. Some players skip it because burning mobs set you on fire in melee.",
       "Sweeping Edge III (Java only): boosts the sweep attack's damage - the best crowd-control option for mob farms.",
