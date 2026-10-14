@@ -13102,8 +13102,8 @@
       "Anvil",
       "Mending + Unbreaking books (recommended)"
     ],
-    "editionNote": "Same in Java and Bedrock: membranes restore 25% each in the anvil, and combining two elytra works the same way. Phantoms spawn after 3 unslept nights in both editions, so membranes are farmable anywhere.",
-    "versions": "Elytra were added in Java 1.9 (15w41a) and were originally repaired with leather; since 1.13 (18w14a) the repair material is phantom membrane. Mending has been the go-to fix since 1.9 too.",
+    "editionNote": "In both editions, phantom membranes restore 25% durability each in an anvil. Unbreaking III extends gliding time by about four times on average. Mending requires collecting XP while the damaged elytra are equipped or held.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Is Mending or phantom membrane better?",
@@ -13111,7 +13111,7 @@
       },
       {
         "q": "Do repairs remove enchantments?",
-        "a": "No. Anvil repairs and combining both keep enchantments (combining merges them). Only a grindstone strips enchantments - and that is permanent."
+        "a": "Anvil repairs preserve enchantments, and compatible enchantments can be combined. A grindstone removes non-curse enchantments; curses remain."
       },
       {
         "q": "How many membranes does a full repair take?",
@@ -14545,12 +14545,12 @@
     "slug": "how-to-get-level-30-enchantments",
     "name": "How to Get Level 30 Enchantments",
     "shortTitle": "Level 30 Enchants",
-    "quickAnswer": "Surround your enchanting table with exactly 15 bookshelves, each placed with one block of air between it and the table (at the table's height or one block higher). Nothing - not even a torch - can sit in the gap. With all 15 shelves and enough XP and lapis, the third slot offers level 30 enchantments.",
+    "quickAnswer": "Use 15 active bookshelves around an enchanting table, at table height or one block higher, with a one-block gap. Keep the gap as air for a reliable setup. With 30 XP levels and enough lapis, the third offer reaches level 30 and costs 3 levels and 3 lapis.",
     "steps": [
       "Craft 15 bookshelves. Each needs 6 planks and 3 books - so 90 planks, 45 books total (135 paper + 45 leather). A sugar cane and cow farm makes this painless.",
       "Place the table in the open. Put the enchanting table with at least one block of free space on all sides.",
       "Ring it with shelves. Place the 15 bookshelves in a 5x5 ring around the table, leaving exactly one block of air between the shelves and the table. Shelves at table height or one block above both count.",
-      "Keep the gap empty. Torches, carpet, snow layers or any block in the one-block gap disables the shelves behind it - the particles stop flowing from the shelf to the table.",
+      "Keep the gap as air for the simplest reliable setup. Most intervening blocks, including torches, block bookshelf bonuses. Current Java also allows replaceable blocks in the gap; leaving it empty avoids relying on that exception.",
       "Enchant at level 30. With all 15 shelves active and 30+ XP levels, the bottom offer shows level 30 enchantments. Each costs 3 lapis lazuli and 3 levels; combine results on an anvil for god gear."
     ],
     "materials": [
@@ -14558,12 +14558,12 @@
       "Enchanting table",
       "30 XP levels + lapis lazuli"
     ],
-    "editionNote": "Identical in Java and Bedrock. Only bookshelves count - chiseled bookshelves do not boost the table. The standard layout is a 5x5 square with the table in the middle and one corner open as a door.",
-    "versions": "The 15-bookshelf cap and the one-block gap rule date back to the 1.8 enchanting overhaul (14w02a), which also introduced the lapis cost and the 30-level maximum. It has been unchanged since.",
+    "editionNote": "Both editions need 15 active regular bookshelves for level 30 offers; chiseled bookshelves do not help. An air gap is the reliable cross-edition setup. Current Java also permits replaceable blocks in that gap.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Why aren't my bookshelves working?",
-        "a": "Check the one-block gap: a torch, carpet or any block between a shelf and the table disables that shelf. Glyph particles flying from the shelf to the table confirm it works."
+        "a": "Check shelf height, distance and the one-block gap. Remove intervening blocks such as torches. Air is the safest setup; current Java also permits replaceable blocks in the gap. You need 15 active regular bookshelves for level 30 offers."
       },
       {
         "q": "Is 15 really the maximum?",
@@ -18924,8 +18924,8 @@
       "Get enchanted books: Mending from librarian trading or loot, Unbreaking III from the enchanting table, trading or loot.",
       "Place the elytra in the anvil's first slot and the book in the second. Elytra cannot be enchanted on the enchanting table directly.",
       "Apply Unbreaking III first, then Mending. Anvil costs rise with each working, so combine books cheaply first if you can.",
-      "Result: Unbreaking III stretches flight time to about 4 seconds per durability point (roughly 29 minutes total), and Mending repairs with XP while you fly with XP gain.",
-      "Avoid the curses: Curse of Binding locks the elytra on until death, Curse of Vanishing deletes it on death. Never accept them outside hardcore jokes.",
+      "Unbreaking III gives about 4 seconds of gliding per durability point on average, roughly 29 minutes total. Mending repairs damaged elytra while you wear or hold them and collect XP; it does not repair them merely because you are flying.",
+      "Avoid the curses. In Survival, Curse of Binding prevents removing equipped elytra even when their durability reaches 1. Death normally removes them unless keep inventory is enabled; Curse of Vanishing normally deletes them on death.",
       "Maintain the wings: repair on an anvil with phantom membranes if Mending is not active, before durability hits 1 and they stop working."
     ],
     "materials": [
@@ -18936,7 +18936,7 @@
       "Phantom membranes for backup repairs"
     ],
     "editionNote": "Identical in Java and Bedrock: anvil-only enchanting, same four legal enchantments, same durability behavior.",
-    "versions": "Elytra enchanting rules have been stable since 1.9. Unbreaking III giving roughly 4 seconds of flight per durability point is the long-standing balance.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "What enchantments can elytra have?",
@@ -18948,7 +18948,7 @@
       },
       {
         "q": "How long do elytra last with Unbreaking III?",
-        "a": "About 4 seconds of flight per durability point, around 28 minutes and 48 seconds of continuous gliding, versus roughly 7 minutes unenchanted. Add Mending and XP from any source keeps them alive indefinitely."
+        "a": "Roughly 29 minutes of continuous gliding on average, compared with roughly 7 minutes without Unbreaking. Mending can extend their use if you collect enough XP while the damaged elytra are equipped or held."
       }
     ],
     "relatedGuides": [
@@ -31187,24 +31187,24 @@
       "Diamond or netherite armor, all four pieces"
     ],
     "steps": [
-      "Every piece: Protection IV, Unbreaking III, Mending. This core trio is the answer for 90% of damage in the game.",
-      "Helmet: add Respiration III (15s + 45s underwater) and Aqua Affinity (mine at full speed underwater) - mandatory for ocean monuments.",
+      "Every piece: Protection IV, Unbreaking III and Mending form a general-purpose setup. Unbreaking III extends armor durability by about 1.43 times on average, not the four-times multiplier for tools.",
+      "Helmet: add Respiration III for about a minute of underwater air and Aqua Affinity to remove the submerged mining penalty. Aqua Affinity does not remove the separate floating penalty.",
       "Boots: Feather Falling IV cuts fall damage by nearly half, and Depth Strider III for water speed. Frost Walker II conflicts with Depth Strider - it is the fun alternative, not the practical one.",
       "Leggings: Swift Sneak III (ancient city chests) for faster crouching - niche but free if you find it.",
       "Thorns III on all four pieces if you can: attackers take damage automatically. It eats durability - only worth it with Mending.",
       "Specialized sets: Projectile Protection for skeletons and the dragon fight, Blast Protection for the Nether and TNT, Fire Protection for lava work. Keep them as swap pieces.",
       "Enchantment order on the anvil matters for cost - combine books onto books first, then onto the armor, cheapest-first."
     ],
-    "versions": "Stable across all current versions. Protection caps at 80% damage reduction - full Protection IV on four pieces hits the cap.",
-    "editionNote": "Identical on Java and Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "editionNote": "The core armor setup works in Java and Bedrock. In Java, Thorns does not reflect the sonic boom attack of a warden. Other combat details can differ by edition.",
     "faq": [
       {
         "q": "Protection IV or specialized protection?",
-        "a": "General Protection IV on your main set - it reduces everything: melee, projectiles, explosions, fire. Specialized pieces (Projectile, Blast, Fire) only beat it in their one damage type."
+        "a": "Protection IV is a good general-purpose choice. Four pieces provide 64% enchantment damage reduction for covered damage, applied after armor. Specialized protection can give more reduction against its matching damage type, up to the 80% enchantment cap. Protection does not stop a warden's sonic boom, starvation or void damage."
       },
       {
         "q": "Is Thorns worth it?",
-        "a": "With Mending, yes - free damage on anything that touches you. Without Mending it destroys your armor durability. The Warden ignores it anyway."
+        "a": "Thorns is optional: it can damage attackers, but it consumes extra armor durability. Mending helps offset that cost. In Java, it does not reflect a warden's sonic boom; do not rely on it as protection against the Warden."
       }
     ],
     "relatedGuides": [
@@ -31311,7 +31311,7 @@
     "slug": "best-elytra-enchantments",
     "name": "Best Elytra Enchantments (And the Perfect Trident)",
     "shortTitle": "Best Elytra Enchantments",
-    "quickAnswer": "Elytra only take two enchantments: Unbreaking III and Mending - get both, always. Pair your flight with a Riptide III trident for rain takeoffs, or stock firework rockets for clear skies.",
+    "quickAnswer": "Use Unbreaking III and Mending on elytra, applied with an anvil and enchanted books. Elytra also accept Curse of Binding and Curse of Vanishing, which are best avoided. Pair flight with rockets or a Riptide trident for wet-weather launches.",
     "keywords": "best elytra enchantments minecraft unbreaking mending trident riptide loyalty channeling perfect",
     "materials": [
       "An anvil plus enchanted books (elytra never hits the table)",
@@ -31319,20 +31319,20 @@
       "An elytra from an End city ship"
     ],
     "steps": [
-      "Unbreaking III: elytra last about 28 minutes of flight at base - Unbreaking III multiplies that several times over.",
+      "Unbreaking III: unenchanted elytra provide roughly 7 minutes of continuous gliding. Unbreaking III extends that to about 29 minutes on average, or about 4 seconds per durability point.",
       "Mending: XP repairs the elytra while you wear it - an XP farm session refills it fully. With both enchantments it is effectively permanent.",
-      "That is the whole list: elytra accept no other enchantments. Protection enchants go on your chestplate slot - you trade armor for flight.",
+      "Elytra also accept Curse of Binding and Curse of Vanishing. They do not accept Protection: equipping elytra replaces your chestplate rather than providing chestplate armor.",
       "Trident partner build: Riptide III launches you in rain or water - with elytra equipped it throws you into the sky, no rockets needed.",
       "Trident combat build instead: Loyalty III + Impaling V + Channeling (thunderstorm lightning). Loyalty and Riptide conflict - choose per trident.",
       "Phantom membrane note: even without Mending, membranes repair elytra on an anvil - 4 membranes for a full repair.",
       "Break warning: at 1 durability the elytra stops working but does not break - repair it before it reaches that point."
     ],
-    "versions": "Elytra enchantment rules are stable across all current versions. Riptide launching works on both editions.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "editionNote": "Identical on Java and Bedrock.",
     "faq": [
       {
         "q": "Can elytra get Protection?",
-        "a": "No - elytra only take Unbreaking and Mending. That is the tradeoff: flying with an elytra means no chestplate armor at all."
+        "a": "No. Elytra accept Unbreaking, Mending, Curse of Binding and Curse of Vanishing, but not Protection. You give up the chestplate slot while wearing them."
       },
       {
         "q": "Loyalty or Riptide on a trident?",
@@ -31544,17 +31544,17 @@
     "steps": [
       "Protection IV: best general defense; Blast, Fire and Projectile Protection are alternatives but incompatible on the same piece.",
       "Respiration III: breathe underwater for about a minute total - helmet-only.",
-      "Aqua Affinity: mine at full speed underwater - helmet-only and essential for ocean monuments.",
-      "Mending + Unbreaking III: repair with XP, last five times longer.",
+      "Aqua Affinity removes the mining slowdown caused by having your head underwater. It does not remove the separate slowdown from floating, so stand on a block for normal mining speed.",
+      "Mending repairs damaged equipped armor with collected XP. Unbreaking III makes armor last about 1.43 times as long on average; the four-times multiplier for tools does not apply to armor.",
       "Thorns III (optional): hurts attackers, costs durability - apply last on an anvil.",
       "Respiration plus turtle shell: the shell adds 10 more seconds of water breathing and they stack."
     ],
-    "versions": "Helmet enchantments work the same on Java and Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "editionNote": "Respiration III + Aqua Affinity turns the helmet into your ocean-monument kit; with a conduit you can live underwater.",
     "faq": [
       {
         "q": "Is Aqua Affinity worth it?",
-        "a": "Yes if you ever build or mine underwater: without it, breaking blocks underwater takes five times longer. With it, normal speed."
+        "a": "Yes. It removes the fivefold mining slowdown from having your head underwater. The separate floating penalty still applies, so stand on a block if you want normal speed."
       },
       {
         "q": "Respiration or a turtle shell?",
@@ -31586,12 +31586,12 @@
     ],
     "steps": [
       "Efficiency V: insta-mines dirt, sand, gravel and snow - terraforming goes from chore to seconds.",
-      "Fortune III: every gravel block drops flint, and more clay balls per clay block - the flint-farmer's shovel.",
+      "Fortune III makes gravel drop flint every time when Silk Touch is not applied. It does not increase clay drops: a clay block still drops 4 clay balls.",
       "Silk Touch (alternative): pick up grass blocks, mycelium, gravel itself and snow layers - incompatible with Fortune, so many players carry one of each.",
       "Mending + Unbreaking III: shovels chew through durability on big digs; this pair makes it permanent.",
       "Netherite upgrade: keeps every enchantment when you smith diamond into netherite - never enchant a fresh netherite shovel, upgrade an enchanted diamond one."
     ],
-    "versions": "Shovel enchantments are identical on Java and Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "editionNote": "The classic setup is two shovels: Efficiency V + Fortune III for flint, Efficiency V + Silk Touch for block collecting.",
     "faq": [
       {

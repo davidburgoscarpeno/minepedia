@@ -11845,8 +11845,8 @@
       "Anvil",
       "Libros de Mending + Unbreaking (recomendado)"
     ],
-    "editionNote": "Igual en Java y Bedrock: las membranes restauran un 25% cada una en el anvil y combinar dos elytra funciona del mismo modo. Los phantoms aparecen tras 3 noches sin dormir en ambas ediciones, así que las membranes se farmean en cualquier parte.",
-    "versions": "Las elytra se añadieron en Java 1.9 (15w41a) y al principio se reparaban con leather; desde la 1.13 (18w14a) el material de reparación es la phantom membrane. Mending es la solución de referencia también desde la 1.9.",
+    "editionNote": "En ambas ediciones, cada phantom membrane restaura un 25% de durabilidad en un yunque. Unbreaking III multiplica el tiempo de planeo aproximadamente por cuatro de media. Mending requiere recoger XP con las elytra dañadas equipadas o en la mano.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Mending o phantom membrane?",
@@ -11854,7 +11854,7 @@
       },
       {
         "q": "¿Las reparaciones quitan los encantamientos?",
-        "a": "No. Las reparaciones con anvil y la combinación conservan los encantamientos (combinar los fusiona). Solo el grindstone los quita, y eso es permanente."
+        "a": "Las reparaciones con yunque conservan los encantamientos y permiten combinar los compatibles. Una grindstone elimina los encantamientos que no sean maldiciones; las maldiciones permanecen."
       },
       {
         "q": "¿Cuántas membranes hacen falta para una reparación completa?",
@@ -13218,12 +13218,12 @@
   "how-to-get-level-30-enchantments": {
     "name": "Cómo conseguir encantamientos de nivel 30",
     "shortTitle": "Encantamientos Nv. 30",
-    "quickAnswer": "Rodea tu enchanting table con exactamente 15 bookshelves, cada una con un bloque de aire entre ella y la mesa (a su altura o una por encima). Nada - ni una antorcha - puede ocupar ese hueco. Con las 15 estanterías y suficiente XP y lapis, el tercer hueco ofrece encantamientos de nivel 30.",
+    "quickAnswer": "Usa 15 estanterías activas alrededor de la mesa de encantamientos, a su altura o un bloque más arriba, dejando un bloque de separación. Mantén ese hueco con aire para una configuración fiable. Con 30 niveles y suficiente lapis, la tercera oferta llega a nivel 30 y cuesta 3 niveles y 3 lapis.",
     "steps": [
       "Fabrica 15 bookshelves. Cada una lleva 6 planks y 3 books: 90 planks y 45 books en total (135 paper + 45 leather). Una granja de sugar cane y vacas lo hace llevadero.",
       "Coloca la mesa al descubierto. Pon la enchanting table con al menos un bloque libre a cada lado.",
       "Rodea con estanterías. Coloca las 15 bookshelves en un anillo 5x5 alrededor de la mesa, dejando exactamente un bloque de aire entre ellas y la mesa. Las estanterías a la altura de la mesa o una por encima cuentan.",
-      "Mantén el hueco vacío. Antorchas, alfombras, capas de nieve o cualquier bloque en el hueco desactiva las estanterías de detrás: las partículas dejan de volar hacia la mesa.",
+      "Deja el hueco con aire para una configuración sencilla y fiable. La mayoría de los bloques intermedios, incluidas las antorchas, bloquean las estanterías. Java actual también permite bloques reemplazables en el hueco; dejarlo vacío evita depender de esa excepción.",
       "Encanta a nivel 30. Con las 15 estanterías activas y 30+ niveles de XP, la oferta inferior muestra encantamientos de nivel 30. Cuestan 3 lapis lazuli y 3 niveles; combina resultados en un anvil para equipamiento top."
     ],
     "materials": [
@@ -13231,12 +13231,12 @@
       "Enchanting table",
       "30 niveles de XP + lapis lazuli"
     ],
-    "editionNote": "Idéntico en Java y Bedrock. Solo cuentan las bookshelves normales: las chiseled bookshelves no potencian la mesa. La disposición clásica es un cuadrado 5x5 con la mesa en medio y una esquina abierta como puerta.",
-    "versions": "El tope de 15 bookshelves y la regla del bloque de aire vienen de la renovación de encantamientos de la 1.8 (14w02a), que también introdujo el coste de lapis y el máximo de nivel 30. No ha cambiado desde entonces.",
+    "editionNote": "Ambas ediciones necesitan 15 estanterías normales activas para ofertas de nivel 30; las chiseled bookshelves no sirven. Dejar aire en el hueco funciona en ambas. Java actual también permite bloques reemplazables en ese hueco.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Por qué no funcionan mis estanterías?",
-        "a": "Revisa el hueco de un bloque: una antorcha, alfombra o cualquier bloque entre una estantería y la mesa la desactiva. Las partículas de glifos volando hacia la mesa confirman que funciona."
+        "a": "Comprueba altura, distancia y el hueco de un bloque. Quita los bloques intermedios, como antorchas. El aire es la opción más fiable; Java actual también permite bloques reemplazables en el hueco. Necesitas 15 estanterías normales activas para ofertas de nivel 30."
       },
       {
         "q": "¿15 es el máximo?",
@@ -17118,8 +17118,8 @@
       "Consigue libros encantados: Mending del comercio con librarians o de loot, Unbreaking III de la enchanting table, comercio o loot.",
       "Coloca las elytra en el primer hueco del anvil y el libro en el segundo. Las elytra no se pueden encantar directamente en la enchanting table.",
       "Aplica primero Unbreaking III y luego Mending. Los costes del anvil suben con cada trabajo, así que combina libros baratos primero si puedes.",
-      "Resultado: Unbreaking III estira el vuelo a unos 4 segundos por punto de durabilidad (casi 29 minutos en total), y Mending las repara con XP mientras vuelas ganando experiencia.",
-      "Evita las maldiciones: Curse of Binding bloquea las elytra puestas hasta la muerte, Curse of Vanishing las borra al morir. Nunca las aceptes fuera de bromas en hardcore.",
+      "Unbreaking III da unos 4 segundos de planeo por punto de durabilidad de media, unos 29 minutos en total. Mending repara las elytra dañadas cuando las llevas puestas o en la mano y recoges XP; volar por sí solo no las repara.",
+      "Evita las maldiciones. En supervivencia, Curse of Binding impide quitarte las elytra equipadas incluso al llegar a 1 de durabilidad. Morir normalmente permite retirarlas, salvo con keep inventory; Curse of Vanishing normalmente las borra al morir.",
       "Mantén las alas: repáralas en un anvil con phantom membranes si Mending no está activo, antes de que la durabilidad llegue a 1 y dejen de funcionar."
     ],
     "materials": [
@@ -17130,7 +17130,7 @@
       "Phantom membranes para reparaciones de reserva"
     ],
     "editionNote": "Idéntico en Java y Bedrock: encantado solo por anvil, los mismos cuatro encantamientos legales, el mismo comportamiento de durabilidad.",
-    "versions": "Las reglas de encantado de las elytra son estables desde 1.9. Que Unbreaking III dé unos 4 segundos de vuelo por punto de durabilidad es el equilibrio de siempre.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Qué encantamientos pueden tener las elytra?",
@@ -17142,7 +17142,7 @@
       },
       {
         "q": "¿Cuánto duran las elytra con Unbreaking III?",
-        "a": "Unos 4 segundos de vuelo por punto de durabilidad, alrededor de 28 minutos y 48 segundos de planeo continuo, frente a unos 7 minutos sin encantar. Añade Mending y la XP de cualquier fuente las mantiene vivas indefinidamente."
+        "a": "Unos 29 minutos de planeo continuo de media, frente a unos 7 sin Unbreaking. Mending puede prolongar su uso si recoges suficiente XP con las elytra dañadas equipadas o en la mano."
       }
     ],
     "relatedLinks": [
@@ -27824,24 +27824,24 @@
       "Armadura de diamond o netherite, las cuatro piezas"
     ],
     "steps": [
-      "Cada pieza: Protection IV, Unbreaking III, Mending. Este trío base es la respuesta al 90% del daño del juego.",
-      "Helmet: añade Respiration III (15s + 45s bajo el agua) y Aqua Affinity (mina a velocidad normal bajo el agua): obligatorio para ocean monuments.",
+      "Cada pieza: Protection IV, Unbreaking III y Mending forman un conjunto de uso general. Unbreaking III multiplica la duración media de la armadura aproximadamente por 1,43, no por cuatro como las herramientas.",
+      "Casco: añade Respiration III para alrededor de un minuto de aire bajo el agua y Aqua Affinity para quitar la penalización de minado por inmersión. Aqua Affinity no elimina la penalización adicional por flotar.",
       "Boots: Feather Falling IV reduce el daño de caída casi a la mitad, y Depth Strider III para velocidad en el agua. Frost Walker II choca con Depth Strider: es la alternativa divertida, no la práctica.",
       "Leggings: Swift Sneak III (cofres de ancient cities) para agacharte más rápido: de nicho pero gratis si lo encuentras.",
       "Thorns III en las cuatro piezas si puedes: los atacantes reciben daño automáticamente. Devora durabilidad: solo vale la pena con Mending.",
       "Sets especializados: Projectile Protection para skeletons y la pelea del dragon, Blast Protection para el Nether y la TNT, Fire Protection para trabajar con lava. Tenlos como piezas de recambio.",
       "El orden de encantado en el anvil importa por el coste: combina libros con libros primero, luego con la armadura, de más barato a más caro."
     ],
-    "versions": "Estable en todas las versiones actuales. Protection tiene tope del 80% de reducción de daño: Protection IV completo en las cuatro piezas llega al tope.",
-    "editionNote": "Idéntico en Java y Bedrock.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "El conjunto básico funciona en Java y Bedrock. En Java, Thorns no refleja el sonic boom de un warden. Otros detalles de combate pueden variar entre ediciones.",
     "faq": [
       {
         "q": "¿Protection IV o protección especializada?",
-        "a": "Protection IV general en tu set principal: lo reduce todo: cuerpo a cuerpo, proyectiles, explosiones, fuego. Las piezas especializadas (Projectile, Blast, Fire) solo le ganan en su único tipo de daño."
+        "a": "Protection IV es una buena opción general. Cuatro piezas dan un 64% de reducción por encantamientos para el daño cubierto, después de la armadura. La protección especializada puede reducir más su tipo de daño, hasta el límite del 80% por encantamientos. Protection no detiene el sonic boom de un warden, la inanición ni el daño del vacío."
       },
       {
         "q": "¿Merece la pena Thorns?",
-        "a": "Con Mending, sí: daño gratis a todo lo que te toca. Sin Mending destruye la durabilidad de tu armadura. El Warden lo ignora de todos modos."
+        "a": "Thorns es opcional: puede dañar a los atacantes, pero consume durabilidad adicional. Mending ayuda a compensar ese coste. En Java no refleja el sonic boom de un warden; no lo uses como protección contra el Warden."
       }
     ],
     "relatedGuides": [
@@ -27948,7 +27948,7 @@
   "best-elytra-enchantments": {
     "name": "Los mejores encantamientos de elytra (y el trident perfecto)",
     "shortTitle": "Mejores encantos de elytra",
-    "quickAnswer": "Las elytra solo admiten dos encantamientos: Unbreaking III y Mending: pon ambos, siempre. Acompaña tu vuelo con un trident con Riptide III para despegar con lluvia, o abastécete de firework rockets para los días despejados.",
+    "quickAnswer": "Usa Unbreaking III y Mending en las elytra, aplicados con yunque y libros encantados. También admiten Curse of Binding y Curse of Vanishing, que conviene evitar. Combina el vuelo con cohetes o un trident con Riptide para despegar con lluvia.",
     "keywords": "mejores encantamientos elytra minecraft unbreaking mending trident riptide loyalty channeling perfecto",
     "materials": [
       "Un anvil más enchanted books (las elytra nunca pasan por la mesa)",
@@ -27956,20 +27956,20 @@
       "Unas elytra de un barco de una End city"
     ],
     "steps": [
-      "Unbreaking III: las elytra duran unos 28 minutos de vuelo de base: Unbreaking III lo multiplica varias veces.",
+      "Unbreaking III: unas elytra sin encantar permiten unos 7 minutos de planeo continuo. Unbreaking III eleva esa duración a unos 29 minutos de media, unos 4 segundos por punto de durabilidad.",
       "Mending: la XP repara las elytra mientras las llevas puestas: una sesión de granja de XP las rellena enteras. Con ambos encantamientos son efectivamente permanentes.",
-      "Esa es toda la lista: las elytra no aceptan más encantamientos. Los encantos de Protection van en tu hueco de chestplate: cambias armadura por vuelo.",
+      "Las elytra también admiten Curse of Binding y Curse of Vanishing. No admiten Protection: equiparlas sustituye la pechera, sin aportar su armadura.",
       "Build compañera de trident: Riptide III te lanza con lluvia o en agua: con las elytra equipadas te lanza al cielo, sin rockets.",
       "Build de combate de trident: Loyalty III + Impaling V + Channeling (rayos en tormentas). Loyalty y Riptide chocan: elige por trident.",
       "Nota de phantom membrane: incluso sin Mending, las membranes reparan elytra en un anvil: 4 membranes para una reparación completa.",
       "Aviso de rotura: a 1 de durabilidad las elytra dejan de funcionar pero no se rompen: repáralas antes de llegar a ese punto."
     ],
-    "versions": "Las reglas de encantamiento de elytra son estables en todas las versiones actuales. El lanzamiento con Riptide funciona en ambas ediciones.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "editionNote": "Idéntico en Java y Bedrock.",
     "faq": [
       {
         "q": "¿Pueden las elytra llevar Protection?",
-        "a": "No: las elytra solo admiten Unbreaking y Mending. Ese es el trato: volar con elytra significa no llevar nada de armadura en el pecho."
+        "a": "No. Las elytra admiten Unbreaking, Mending, Curse of Binding y Curse of Vanishing, pero no Protection. Al llevarlas renuncias a la ranura de la pechera."
       },
       {
         "q": "¿Loyalty o Riptide en un trident?",
@@ -28181,17 +28181,17 @@
     "steps": [
       "Protection IV: la mejor defensa general; Blast, Fire y Projectile Protection son alternativas pero incompatibles en la misma pieza.",
       "Respiration III: respira bajo el agua alrededor de un minuto en total: exclusivo de helmet.",
-      "Aqua Affinity: mina a velocidad completa bajo el agua: exclusivo de helmet y esencial para ocean monuments.",
-      "Mending + Unbreaking III: repara con XP y dura cinco veces más.",
+      "Aqua Affinity elimina la penalización de minado por tener la cabeza bajo el agua. No elimina la penalización adicional por flotar: apóyate en un bloque para minar a velocidad normal.",
+      "Mending repara armadura dañada equipada con la XP que recoges. Unbreaking III multiplica su duración media aproximadamente por 1,43; el multiplicador de cuatro de las herramientas no se aplica a la armadura.",
       "Thorns III (opcional): daña a los atacantes, cuesta durabilidad: aplícalo el último en un anvil.",
       "Respiration más turtle shell: el caparazón añade 10 segundos más de respiración acuática y se acumulan."
     ],
-    "versions": "Los encantamientos de helmet funcionan igual en Java y Bedrock.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "editionNote": "Respiration III + Aqua Affinity convierte el helmet en tu kit de ocean monument; con un conduit puedes vivir bajo el agua.",
     "faq": [
       {
         "q": "¿Vale la pena Aqua Affinity?",
-        "a": "Sí si alguna vez construyes o minas bajo el agua: sin él, romper bloques sumergido tarda cinco veces más. Con él, velocidad normal."
+        "a": "Sí. Elimina la penalización que hace el minado cinco veces más lento por tener la cabeza bajo el agua. La penalización adicional por flotar permanece: apóyate en un bloque para minar a velocidad normal."
       },
       {
         "q": "¿Respiration o un turtle shell?",
@@ -28223,12 +28223,12 @@
     ],
     "steps": [
       "Efficiency V: mina dirt, sand, gravel y snow al instante: el terraformado pasa de tarea a segundos.",
-      "Fortune III: cada bloque de gravel suelta flint, y más clay balls por bloque de clay: la pala del granjero de flint.",
+      "Fortune III hace que la grava suelte flint siempre que no se aplique Silk Touch. No aumenta el botín de arcilla: cada bloque sigue soltando 4 bolas de arcilla.",
       "Silk Touch (alternativa): recoge grass blocks, mycelium, la propia gravel y snow layers: incompatible con Fortune, así que muchos jugadores llevan una de cada.",
       "Mending + Unbreaking III: las shovels gastan durabilidad en las grandes excavaciones; esta pareja la hace permanente.",
       "Mejora a netherite: conserva todos los encantamientos al convertir diamond en netherite: nunca encantes una shovel de netherite nueva, mejora una de diamond ya encantada."
     ],
-    "versions": "Los encantamientos de shovel son idénticos en Java y Bedrock.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "editionNote": "El montaje clásico son dos shovels: Efficiency V + Fortune III para flint, Efficiency V + Silk Touch para coleccionar bloques.",
     "faq": [
       {
