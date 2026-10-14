@@ -2342,13 +2342,13 @@
       "Encántala: Lure acorta la espera (máx. III), Suerte del mar aumenta la suerte al pescar (máx. III), Irrompibilidad (máx. III) y Reparación (solo en yunque) ayudan a que dure.",
       "Engancha entidades: la caña puede enganchar mobs, jugadores y (solo Java) objetos, y al recoger los arrastra hacia ti sin daño. Recoger un mob cuesta 5 de durabilidad, un objeto 3. La distancia máxima del flotador es 33 bloques.",
       "Haz una zanahoria en un palo o un hongo deformado en un palo fabricando una caña con una zanahoria o un hongo deformado; la caña debe estar en diagonal encima. Con durabilidad cero vuelven a ser una caña.",
-      "Encuéntrala: pescando (0,2 % sin encantar, 0,8 % encantada por intento), drops de ahogados, cofres de campamentos abandonados y de ruinas oceánicas, o compra una encantada a un pescador oficial."
+      "Otras fuentes son botín de pesca, cofres de estructuras y el trade de caña encantada de un fisherman journeyman. Un drowned debe llevar caña para soltarla: las muertes válidas por jugador o lobo domesticado tienen un 8,5% en Java o 25% en Bedrock antes de Looting."
     ],
     "materials": [
       "3 palos",
       "2 hilos"
     ],
-    "editionNote": "La durabilidad es 64 en Java y 385 en Bedrock. Java puede enganchar objetos. En Bedrock un flotador lanzado con equipo en llamas puede prender fuego a lo enganchado. Los ahogados sueltan la caña el 8,5 % en Java y el 25 % en Bedrock.",
+    "editionNote": "La durabilidad es de 64 en Java y 385 en Bedrock. Java permite enganchar objetos. La probabilidad de caña de drowned solo se aplica si lleva una, no a cada drowned muerto; Looting añade 1 punto porcentual por nivel a esa probabilidad válida.",
     "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
@@ -10934,16 +10934,16 @@
       "Lánzala a cualquier agua: incluso un solo source block sirve, aunque una piscina en condiciones desbloquea los tesoros.",
       "Vigila el bobber: cuando una estela de burbujas se acerque y el bobber se hunda, recoge rápido (1-2 segundos en Java, medio segundo en Bedrock).",
       "Pesca a cielo abierto y bajo la lluvia: el agua cubierta duplica la espera y la lluvia la recorta un ~20%.",
-      "Para tesoros necesitas aguas abiertas: en Java, un volumen de 5x4x5 alrededor del bobber con solo agua, lily pads y aire, 2 bloques de profundidad. Nada de agua corriente.",
-      "Encanta la caña: Luck of the Sea III sube las probabilidades de tesoro, Lure III acorta la espera, y Mending la hace literalmente irrompible con la XP de pescar."
+      "Los tesoros en Java requieren un volumen válido de 5×4×5 alrededor del flotador: capas de fuentes de agua o bloques anegados sin colisión debajo, y aire o nenúfares arriba. Sin agua fluyente ni sólidos que obstruyan ese volumen. Un estanque de tres bloques de profundidad ayuda al hundirse el flotador. El cielo directo afecta a la velocidad, no es otro requisito de tesoro. Bedrock no tiene esa comprobación de agua abierta.",
+      "Usa Luck of the Sea III para más tesoros y Lure III para esperas menores. Mending repara la caña dañada en la mano al recoger XP, pero otro equipo dañado con Mending puede recibir el orbe. Vigila la durabilidad en vez de asumir que no puede romperse."
     ],
     "materials": [
       "1 fishing rod (3 sticks + 2 string de spiders o cobwebs)",
       "Cualquier masa de agua; una piscina de aguas abiertas (mínimo 2 de profundidad, cielo abierto) para tesoros",
       "Encantamientos recomendados: Luck of the Sea III, Lure III, Mending, Unbreaking III"
     ],
-    "editionNote": "Las tablas de botín coinciden entre ediciones, pero Java exige la regla de aguas abiertas 5x4x5 para los tesoros y Bedrock no, y la ventana de recogida es de 1-2 segundos en Java frente a medio segundo en Bedrock. Cada captura suelta un orbe de 1-6 de XP en ambas.",
-    "versions": "La pesca existe desde Alpha, pero el sistema de botín moderno (peces, trastos y tesoros) llegó en la 1.7.2. Lure y Luck of the Sea también llegaron con la 1.7.2, y la regla de aguas abiertas se añadió en la 1.16.",
+    "editionNote": "Java exige agua abierta para tesoros; Bedrock no. Las probabilidades individuales también varían: los libros encantados pesan algo más en la categoría de tesoros de Bedrock. La ventana de picada es de 1-2 segundos en Java y medio segundo en Bedrock.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Qué tesoros se pueden pescar?",
@@ -14809,13 +14809,13 @@
   "how-to-get-luck-of-the-sea": {
     "name": "Cómo conseguir Luck of the Sea en Minecraft",
     "shortTitle": "Luck of the Sea",
-    "quickAnswer": "Luck of the Sea es un encantamiento de fishing rod (nivel máximo III) que sube las capturas de tesoro del 5% al 11,3% y recorta la basura del 10% al 4,2%. Tesoro significa enchanted books (Mending incluido), name tags, saddles, nautilus shells, y bows y rods encantados. Consíguelo en la enchanting table, trades de librarians o pescando.",
+    "quickAnswer": "Luck of the Sea, hasta III, sube la categoría de tesoros del 5% a alrededor del 11,34% por captura lograda con tablas normales. No convierte todas las capturas en tesoro. Java requiere agua abierta válida; Bedrock no. Los libros pueden incluir Mending, pero no Soul Speed, Swift Sneak ni Wind Burst.",
     "steps": [
       "Fabrica una fishing rod. Tres sticks y dos string: las spiders de noche dan la string.",
       "Encántala. La enchanting table puede sacar Luck of the Sea directamente en la rod, o usa un anvil con un libro de un librarian, un cofre de loot o, apropiadamente, pescando tesoros con una rod normal.",
-      "Pesca en agua abierta. Para las tablas de tesoro necesitas open water: el bobber debe flotar en agua de al menos 2 bloques de profundidad en todas direcciones, con cielo o lily pads arriba. Un muelle sobre océano profundo o una piscina cavada de 5x5x2 funcionan.",
-      "Mira cómo cambia la tabla. Pescar sin encantar da 5% de tesoro y 10% de basura. Luck of the Sea III lo invierte a 11,3% de tesoro y 4,2% de basura, con los peces apenas afectados: unos 2,1% más de tesoro y 2% menos de basura por nivel.",
-      "Farmea lo bueno. Los tesoros incluyen enchanted books (cualquier encantamiento de tesoro, incluido Mending), name tags, saddles, nautilus shells, y bows y fishing rods encantados. Añade Lure III en la misma rod para doblar la velocidad de captura."
+      "Los tesoros en Java requieren un volumen válido de 5×4×5 alrededor del flotador: capas de fuentes de agua o bloques anegados sin colisión debajo, y aire o nenúfares arriba. Sin agua fluyente ni sólidos que obstruyan ese volumen. Un estanque de tres bloques de profundidad ayuda al hundirse el flotador. El cielo directo afecta a la velocidad, no es otro requisito de tesoro. Bedrock no tiene esa comprobación de agua abierta.",
+      "Las probabilidades normales en III son alrededor de 84,54% peces, 4,12% basura y 11,34% tesoros por captura lograda. Lure cambia la espera, no esas probabilidades.",
+      "Los tesoros incluyen libros, name tags, sillas, nautilus shells, arcos y cañas encantados. Los libros excluyen Soul Speed, Swift Sneak y Wind Burst. Lure acelera intentos, pero no garantiza duplicar exactamente la velocidad."
     ],
     "materials": [
       "Fishing rod (3 sticks + 2 string)",
@@ -14823,8 +14823,8 @@
       "Niveles de XP",
       "Agua abierta (2+ bloques de profundidad, cielo abierto)"
     ],
-    "editionNote": "Luck of the Sea funciona idéntico en Java y Bedrock con las loot tables por defecto: +2,1% de tesoro y -1,95% de basura por nivel. Combina con Lure en la misma rod: cubren partes distintas de la pesca y no son mutuamente excluyentes.",
-    "versions": "Luck of the Sea se añadió en 1.7.2 (2013) junto a Lure, cuando la pesca recibió su gran reforma de loot tables. Sus tasas por nivel se han mantenido iguales desde entonces.",
+    "editionNote": "Ambas comparten las probabilidades normales por categoría, pero varían los pesos de tesoros individuales. Java requiere agua abierta; Bedrock no. Luck of the Sea y Lure son compatibles: mejoran botín y espera por separado.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Luck of the Sea o Lure?",
@@ -14832,11 +14832,11 @@
       },
       {
         "q": "¿Puedo pescar Mending con esto?",
-        "a": "Sí: los enchanted books de la tabla de tesoro pueden sacar cualquier encantamiento de tesoro, Mending incluido. Es la vía lenta pero gratis si aún no tienes librarian."
+        "a": "Sí. Mending puede aparecer en libros de tesoro de pesca. Soul Speed, Swift Sneak y Wind Burst no. Es aleatorio y Java además necesita agua abierta válida para capturar tesoros."
       },
       {
         "q": "¿Por qué solo pesco peces y ningún tesoro?",
-        "a": "Probablemente no estás en open water. El juego exige un volumen libre de 2 bloques de profundidad alrededor del bobber y cielo directo (o lily pads) encima: pescar en una piscina de cueva o en un canal de 1 bloque desactiva la tabla de tesoro sin avisar."
+        "a": "En Java revisa el volumen de agua abierta alrededor del flotador; si falla, aún salen peces y basura, no tesoros. Bedrock no usa esa regla. Incluso con agua válida, el tesoro es aleatorio y puede tardar."
       }
     ],
     "relatedLinks": [
@@ -14864,9 +14864,9 @@
     "steps": [
       "Fabrica una fishing rod. Tres sticks más dos string de las spiders.",
       "Encántala con Lure. La enchanting table puede sacarlo directamente en la rod, o usa un anvil con un libro de Lure de un librarian, un cofre de loot o una captura de tesoro.",
-      "Nota las esperas más cortas. Una rod normal te hace esperar 5-30 segundos por picada. Cada nivel de Lure resta 5 segundos a esa ventana, así que Lure III reduce la espera a casi nada: el bobber apenas se asienta antes de la siguiente picada.",
+      "Cada nivel de Lure resta 5 segundos a la tirada inicial de espera de 5-30 segundos. Las tiradas negativas se repiten: Lure III no hace instantánea cada picada. También cuentan la fase de partículas que se acercan y el tiempo de recoger.",
       "Combínalo con Luck of the Sea. Son compatibles y cubren las dos mitades de la pesca: Lure hace que las picadas lleguen antes, Luck of the Sea hace que cada captura sea mejor. Lure III + Luck of the Sea III + Mending es la rod clásica de endgame.",
-      "Pesca en open water. La velocidad no sirve de nada sin la tabla de tesoro: el bobber necesita agua de al menos 2 bloques de profundidad alrededor y cielo abierto (o lily pads) encima, o solo pescarás peces."
+      "Los tesoros en Java requieren un volumen válido de 5×4×5 alrededor del flotador: capas de fuentes de agua o bloques anegados sin colisión debajo, y aire o nenúfares arriba. Sin agua fluyente ni sólidos que obstruyan ese volumen. Un estanque de tres bloques de profundidad ayuda al hundirse el flotador. El cielo directo afecta a la velocidad, no es otro requisito de tesoro. Bedrock no tiene esa comprobación de agua abierta."
     ],
     "materials": [
       "Fishing rod (3 sticks + 2 string)",
@@ -14874,8 +14874,8 @@
       "Niveles de XP",
       "Agua abierta (2+ bloques de profundidad, cielo abierto)"
     ],
-    "editionNote": "Lure se comporta idéntico en Java y Bedrock: -5 segundos de espera por nivel, compatible con Luck of the Sea. Curiosidad solo de comandos: por encima del nivel 5 el temporizador de picada nunca arranca y no pica nada.",
-    "versions": "Lure se añadió en 1.7.2 (2013) junto a Luck of the Sea, en la reforma del botín de pesca. Su efecto de 5 segundos por nivel se ha mantenido estable desde entonces.",
+    "editionNote": "Lure reduce esperas, no mejora la probabilidad de tesoros. Java comprueba el agua abierta para tesoros; Bedrock no. Se puede combinar con Luck of the Sea. El máximo normal es III.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Lure o Luck of the Sea?",
@@ -28084,12 +28084,12 @@
       "Luck of the Sea III: aumenta las capturas de tesoro (enchanted books, name tags, saddles, bows) y reduce la basura: la razón de encantar una caña.",
       "Lure III: cada nivel resta 5 segundos a la espera normal de 5-30 segundos entre picadas: más capturas por minuto, más XP.",
       "Se acumulan: Lure te da más intentos, Luck of the Sea hace que cada intento sea mejor.",
-      "Mending: pescar genera XP con cada captura, así que una caña con Mending se repara sola para siempre: literalmente nunca se rompe mientras pescas.",
+      "Mending repara la caña dañada en la mano al recoger XP. Pescar da XP, pero otro equipo dañado con Mending puede recibir un orbe; perder XP u otros usos de la caña también pueden dejarla dañada. No supongas que es irrompible.",
       "Unbreaking III: seguro para que la caña sobreviva lo suficiente como para empezar a autorrepararse.",
       "Evita las cañas con Curse of Vanishing del loot: combina dos cañas buenas en un anvil en su lugar."
     ],
-    "versions": "Las tablas de loot de pesca y los efectos de los encantamientos son iguales en Java y Bedrock.",
-    "editionNote": "Una caña con Luck of the Sea III + Lure III + Mending es el clásico montaje de pesca AFK y farmeo de tesoros en ambas ediciones.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Los mismos encantamientos básicos sirven en ambas ediciones, pero los tesoros Java requieren agua abierta válida y Bedrock no. Un diseño AFK debe cumplir las condiciones correspondientes; un estanque compacto no garantiza libros de tesoro.",
     "faq": [
       {
         "q": "¿Se puede conseguir Mending pescando?",
@@ -30076,7 +30076,7 @@
   "fishing-loot-table": {
     "name": "Tabla de loot de la pesca en Minecraft: cada captura con probabilidades",
     "shortTitle": "Tabla de loot de la pesca",
-    "quickAnswer": "Las capturas de la pesca caen en tres categorías: fish (85% sin encantar), junk (10%) y treasure (5%). El treasure incluye enchanted books, bows y fishing rods encantadas, name tags, nautilus shells y saddles: cada uno sobre un 0,83% por lance, hasta un 1,89% con Luck of the Sea III. El fish es mayoritariamente raw cod (51% por lance), más salmon, pufferfish y tropical fish. En Java, el treasure solo pica en open water.",
+    "quickAnswer": "Con tablas normales y sin Luck of the Sea, las capturas logradas son 85% peces, 10% basura y 5% tesoros. Con Luck of the Sea III, el tesoro ronda el 11,34%. Java requiere agua abierta válida; Bedrock no, y los pesos individuales varían. Son probabilidades por captura, no resultados garantizados por lanzamiento o minuto.",
     "keywords": "tabla loot pesca minecraft probabilidades treasure enchanted book name tag saddle nautilus shell luck of the sea junk fish",
     "materials": [
       "Una fishing rod (3 sticks y 2 string)",
@@ -30090,12 +30090,12 @@
       "Las bows y rods pescadas vienen encantadas como de una enchanting table de nivel 30 con un 0-25% de durabilidad; los books pueden llevar cualquier encantamiento excepto Swift Sneak, Soul Speed y Wind Burst.",
       "Capturas de junk: lily pads (1,7% por lance), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks y water bottles (1% cada una), sticks y string (0,5%), fishing rods sin encantar (0,2%) y 10 ink sacs (0,1%).",
       "Regla de jungle: pescar en jungle, sparse jungle o bamboo jungle añade bamboo a la tabla de junk (Bedrock también añade cocoa beans y sube el peso del salmon); las probabilidades de fish y treasure no cambian.",
-      "Open water (solo Java): el bobber necesita una zona 5x4x5 de water source blocks, bloques waterlogged, lily pads o aire: nada de agua corriente ni bloques sólidos encima. Sin eso, el treasure nunca pica.",
+      "Los tesoros en Java requieren un volumen válido de 5×4×5 alrededor del flotador: capas de fuentes de agua o bloques anegados sin colisión debajo, y aire o nenúfares arriba. Sin agua fluyente ni sólidos que obstruyan ese volumen. Un estanque de tres bloques de profundidad ayuda al hundirse el flotador. El cielo directo afecta a la velocidad, no es otro requisito de tesoro. Bedrock no tiene esa comprobación de agua abierta.",
       "Velocidad: una captura tarda 5-30 segundos; cada nivel de Lure recorta 5 segundos, la lluvia acelera el temporizador un 20%, y un cielo cubierto sobre el bobber dobla la espera aproximadamente.",
-      "Las cuentas del treasure: con LotS III, Lure III y lluvia, espera un objeto de treasure cada 11 lances aproximadamente: mending books, name tags y saddles de grifo."
+      "Con Luck of the Sea III, un 11,34% de tesoro equivale a una media a largo plazo de unas 8,8 capturas logradas por tesoro, sin garantía. Lure y lluvia pueden reducir el tiempo entre capturas, pero no suben ese porcentaje por captura."
     ],
-    "versions": "Las probabilidades por categoría son iguales en Java y Bedrock; Bedrock da algo más de peso al enchanted book en el treasure y añade cocoa beans al junk de jungle. La regla de open water es solo de Java. Vigente a 26.x.",
-    "editionNote": "Una granja AFK de pesca con una rod con LotS III sigue siendo la fuente más vaga de enchanted books, name tags y saddles del juego.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
+    "editionNote": "Java tiene seis tesoros de igual peso; Bedrock da algo más de peso a los libros encantados. Java también exige agua abierta. Por ello, granjas AFK pequeñas pueden dar peces y basura sin tesoros en Java.",
     "faq": [
       {
         "q": "¿Qué se puede pescar en Minecraft?",
@@ -30107,7 +30107,7 @@
       },
       {
         "q": "¿Por qué no pesco treasure?",
-        "a": "En Java, el treasure requiere open water: un área 5x4x5 alrededor del bobber con nada más que water sources, bloques waterlogged, lily pads y aire. Un bloque sobre el bobber o una piscina de 1 bloque bloquea el treasure por completo."
+        "a": "Java exige un volumen válido de agua abierta alrededor del flotador; si falla, solo salen peces y basura. Un techo dentro del volumen puede invalidarlo, pero el cielo directo no es otro requisito. Bedrock no comprueba agua abierta. Con condiciones válidas, el tesoro sigue siendo aleatorio."
       }
     ],
     "relatedGuides": [

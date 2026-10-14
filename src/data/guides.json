@@ -2708,14 +2708,14 @@
       "Enchant it: Lure shortens the wait (max III), Luck of the Sea increases fishing luck (max III), Unbreaking (max III) and Mending (anvil only) help it last.",
       "Hook entities: the rod can hook mobs, players and (Java only) items, and reeling in drags them toward you without damage. Reeling in a mob costs 5 durability, an item 3. The maximum bobber distance is 33 blocks.",
       "Make a carrot on a stick or warped fungus on a stick by crafting a fishing rod with a carrot or warped fungus; the rod must be diagonally above it. At zero durability they turn back into a fishing rod.",
-      "Find one instead: fishing (0.2% unenchanted, 0.8% enchanted per attempt), drowned drops, abandoned camp chests, ocean ruins chests, or buy an enchanted one from a journeyman fisherman."
+      "Other sources include fishing loot, structure chests and a journeyman fisherman's enchanted rod trade. A drowned must be holding a fishing rod to drop one: eligible player/tamed-wolf kills have an 8.5% drop chance in Java or 25% in Bedrock before Looting."
     ],
     "materials": [
       "3 sticks",
       "2 string"
     ],
-    "editionNote": "Durability is 64 in Java and 385 in Bedrock. Java can hook item entities. In Bedrock a bobber cast with flaming gear can set hooked entities on fire. Drowned drop the rod 8.5% of the time in Java and 25% in Bedrock.",
-    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "editionNote": "Rod durability is 64 in Java and 385 in Bedrock. Java can hook item entities. Drowned rod-drop rates apply only to drowned carrying one, not every drowned killed; Looting increases the eligible drop chance by 1 percentage point per level.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How many uses does a fishing rod have?",
@@ -12059,16 +12059,16 @@
       "Cast into any water - even a single source block works, though a proper pool unlocks treasure.",
       "Watch the bobber: when a trail of bubbles swims up and the bobber dips, reel in fast (about 1-2 seconds in Java, half a second in Bedrock).",
       "Fish under open sky and in the rain: covered water doubles the wait, rain cuts it ~20%.",
-      "For treasure you need open water - in Java, a 5x4x5 volume around the bobber with only water, lily pads and air, 2 blocks deep. No flowing water.",
-      "Enchant the rod: Luck of the Sea III raises treasure odds and Lure III shortens the wait; Mending makes the rod literally unbreakable through fishing XP."
+      "Java treasure requires a qualifying 5×4×5 volume around the bobber: layers of water sources or non-colliding waterlogged blocks below, and air/lily pads above. No flowing water or obstructing solids in that volume. A three-block-deep pool helps keep the check valid as the bobber dips. Direct sky affects speed, not a separate treasure requirement. Bedrock has no open-water treasure check.",
+      "Use Luck of the Sea III for better treasure odds and Lure III for shorter waits. Mending repairs a damaged held rod when you collect XP, but other damaged Mending equipment can receive an orb instead. Watch durability rather than assuming the rod cannot break."
     ],
     "materials": [
       "1 fishing rod (3 sticks + 2 string from spiders or cobwebs)",
       "Any body of water; an open-water pool (at least 2 deep, open sky) for treasure",
       "Recommended enchantments: Luck of the Sea III, Lure III, Mending, Unbreaking III"
     ],
-    "editionNote": "Loot tables match across editions, but Java gates treasure behind the 5x4x5 open-water rule while Bedrock does not, and the reel-in window is about 1-2 seconds in Java versus roughly half a second in Bedrock. Each catch also drops a 1-6 XP orb in both.",
-    "versions": "Fishing dates back to Alpha, but the modern loot system (fish, junk and treasure categories) arrived in 1.7.2. Lure and Luck of the Sea came with 1.7.2 as well, and the open-water treasure rule was added in 1.16.",
+    "editionNote": "Java requires open water for treasure; Bedrock does not. Individual treasure weights also differ: enchanted books are slightly more likely within Bedrock's treasure category. The bite window is roughly 1-2 seconds in Java and half a second in Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "What treasure can you get from fishing?",
@@ -16333,13 +16333,13 @@
     "slug": "how-to-get-luck-of-the-sea",
     "name": "How to Get Luck of the Sea in Minecraft",
     "shortTitle": "Luck of the Sea",
-    "quickAnswer": "Luck of the Sea is a fishing rod enchantment (max level III) that raises treasure catches from 5% to 11.3% and cuts junk from 10% to 4.2%. Treasure means enchanted books (Mending included), name tags, saddles, nautilus shells, enchanted bows and rods. Get it from an enchanting table, librarian trades or fishing itself.",
+    "quickAnswer": "Luck of the Sea, up to III, raises the treasure category from 5% to about 11.34% per successful catch with default loot tables. It does not make every catch treasure. In Java the bobber must meet open-water conditions; Bedrock has no such check. Fishing books can include Mending, but not Soul Speed, Swift Sneak or Wind Burst.",
     "steps": [
       "Craft a fishing rod. Three sticks and two string - spiders at night supply the string.",
       "Enchant it. An enchanting table can roll Luck of the Sea directly on the rod, or use an anvil with a book from a librarian, a loot chest, or - fittingly - from fishing up treasure with a plain rod.",
-      "Fish in open water. For treasure loot tables you need open water: the bobber must sit in water at least 2 blocks deep in every direction, with sky or lily pads above. A dock over deep ocean or a dug 5x5x2 pool both work.",
-      "Watch the table shift. Unenchanted fishing gives 5% treasure and 10% junk. Luck of the Sea III flips that to 11.3% treasure and 4.2% junk, with fish barely affected - about 2.1% more treasure and 2% less junk per level.",
-      "Farm the good stuff. Treasure rolls include enchanted books (any treasure enchant, including Mending), name tags, saddles, nautilus shells, and enchanted bows and fishing rods. Add Lure III on the same rod to double your catch speed."
+      "Java treasure requires a qualifying 5×4×5 volume around the bobber: layers of water sources or non-colliding waterlogged blocks below, and air/lily pads above. No flowing water or obstructing solids in that volume. A three-block-deep pool helps keep the check valid as the bobber dips. Direct sky affects speed, not a separate treasure requirement. Bedrock has no open-water treasure check.",
+      "Default category odds at III are about 84.54% fish, 4.12% junk and 11.34% treasure per successful catch. Lure changes waiting time, not these category odds.",
+      "Treasure includes books, name tags, saddles, nautilus shells, enchanted bows and rods. Fishing books exclude Soul Speed, Swift Sneak and Wind Burst. Lure speeds up attempts but does not guarantee a fixed doubling of catch speed."
     ],
     "materials": [
       "Fishing rod (3 sticks + 2 string)",
@@ -16347,8 +16347,8 @@
       "XP levels",
       "Open water (2+ blocks deep, open sky)"
     ],
-    "editionNote": "Luck of the Sea works identically in Java and Bedrock with the default loot tables: +2.1% treasure and -1.95% junk per level. It combines with Lure on the same rod - they cover different parts of the fishing game and are not mutually exclusive.",
-    "versions": "Luck of the Sea was added in 1.7.2 (2013) together with Lure, when fishing got its loot-table overhaul. Its per-level rates have stayed the same ever since.",
+    "editionNote": "Both editions share the default category chances, but individual treasure weights differ. Java requires open water; Bedrock does not. Luck of the Sea and Lure are compatible, improving loot odds and wait time separately.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Luck of the Sea or Lure?",
@@ -16356,11 +16356,11 @@
       },
       {
         "q": "Can I fish up Mending with it?",
-        "a": "Yes - enchanted books in the treasure table can roll any treasure enchantment, Mending included. It is the slow-but-free route if you have no librarian yet."
+        "a": "Yes. Mending can appear on fishing treasure books. Soul Speed, Swift Sneak and Wind Burst cannot. It is random, and Java also requires qualifying open water for a treasure catch."
       },
       {
         "q": "Why am I only catching fish, no treasure?",
-        "a": "You are probably not in open water. The game requires a clear 2-block-deep volume around the bobber and direct sky (or lily pads) above - fishing in a cave pool or a 1-block ditch silently disables the treasure table."
+        "a": "In Java, check the open-water volume around the bobber; invalid water still allows fish and junk, not treasure. Bedrock does not use that rule. Even in valid water, treasure is random and dry spells are possible."
       }
     ],
     "relatedGuides": [
@@ -16394,9 +16394,9 @@
     "steps": [
       "Craft a fishing rod. Three sticks plus two string from spiders.",
       "Enchant it with Lure. The enchanting table can roll it directly on the rod, or use an anvil with a Lure book from a librarian, a loot chest or a treasure catch.",
-      "Feel the shorter waits. A plain rod makes you wait 5-30 seconds per bite. Each Lure level subtracts 5 seconds from that window, so Lure III pulls the wait down to almost nothing - your bobber barely settles before the next bite.",
+      "Each Lure level subtracts 5 seconds from the initial 5-30 second waiting-time roll. Negative rolls are retried, so Lure III does not make every bite instant. The approaching-particle phase and your reel-in time also matter.",
       "Pair it with Luck of the Sea. They are compatible and cover both halves of fishing: Lure makes bites come faster, Luck of the Sea makes each catch better. Lure III + Luck of the Sea III + Mending is the classic endgame rod.",
-      "Fish in open water. Speed means nothing without the treasure table: the bobber needs water at least 2 blocks deep around it and open sky (or lily pads) above, or you will only ever catch fish."
+      "Java treasure requires a qualifying 5×4×5 volume around the bobber: layers of water sources or non-colliding waterlogged blocks below, and air/lily pads above. No flowing water or obstructing solids in that volume. A three-block-deep pool helps keep the check valid as the bobber dips. Direct sky affects speed, not a separate treasure requirement. Bedrock has no open-water treasure check."
     ],
     "materials": [
       "Fishing rod (3 sticks + 2 string)",
@@ -16404,8 +16404,8 @@
       "XP levels",
       "Open water (2+ blocks deep, open sky)"
     ],
-    "editionNote": "Lure behaves identically in Java and Bedrock: -5 seconds of wait per level, compatible with Luck of the Sea. A commands-only curiosity: beyond level 5 the bite timer never starts and nothing ever bites.",
-    "versions": "Lure was added in 1.7.2 (2013) together with Luck of the Sea, in the fishing loot overhaul. Its 5-seconds-per-level effect has been stable since.",
+    "editionNote": "Lure shortens waits and does not improve treasure odds. Java has an open-water treasure check; Bedrock does not. Lure and Luck of the Sea can be used together. The normal maximum is III.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Lure or Luck of the Sea?",
@@ -31447,12 +31447,12 @@
       "Luck of the Sea III: raises treasure catches (enchanted books, name tags, saddles, bows) and lowers junk - the reason to enchant a rod.",
       "Lure III: each level takes 5 seconds off the usual 5-30 second wait between bites - more catches per minute, more XP.",
       "They stack: Lure gets you more rolls, Luck of the Sea makes each roll better.",
-      "Mending: fishing generates XP with every catch, so a Mending rod repairs itself forever - it literally never breaks while you fish.",
+      "Mending repairs the damaged held rod when you collect XP. Fishing supplies XP, but other damaged Mending equipment can receive an orb instead; missed XP and other rod uses can also leave it damaged. Do not assume it is unbreakable.",
       "Unbreaking III: insurance so the rod survives long enough to start self-repairing.",
       "Skip Curse of Vanishing loot rods - combine two good rods on an anvil instead."
     ],
-    "versions": "Fishing loot tables and enchantment effects are the same on Java and Bedrock.",
-    "editionNote": "A Luck of the Sea III + Lure III + Mending rod is the classic AFK-fish and treasure-farming setup on both editions.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "The same core enchantment setup works in both editions, but Java treasure needs qualifying open water and Bedrock does not. An AFK design must actually meet the relevant conditions; a compact pool does not guarantee treasure books.",
     "faq": [
       {
         "q": "Can you get Mending from fishing?",
@@ -33439,7 +33439,7 @@
     "slug": "fishing-loot-table",
     "name": "Minecraft Fishing Loot Table: Every Catch with Chances",
     "shortTitle": "Fishing Loot Table",
-    "quickAnswer": "Fishing catches fall into three categories: fish (85% unenchanted), junk (10%) and treasure (5%). Treasure includes enchanted books, enchanted bows and fishing rods, name tags, nautilus shells and saddles - each about 0.83% per cast, rising to 1.89% with Luck of the Sea III. Fish is mostly raw cod (51% per cast), plus salmon, pufferfish and tropical fish. On Java, treasure only bites in open water.",
+    "quickAnswer": "With default loot tables and no Luck of the Sea, successful catches are 85% fish, 10% junk and 5% treasure. At Luck of the Sea III, treasure is about 11.34%. Java requires qualifying open water for treasure; Bedrock does not, and individual item weights differ. These are per-catch probabilities, not guaranteed results per cast or minute.",
     "keywords": "minecraft fishing loot table chances treasure enchanted book name tag saddle nautilus shell luck of the sea junk fish",
     "materials": [
       "A fishing rod (3 sticks and 2 string)",
@@ -33448,17 +33448,17 @@
     ],
     "steps": [
       "Category chances: 85% fish, 10% junk, 5% treasure unenchanted. Each level of Luck of the Sea shifts about 1-2% from junk and fish into treasure - with LotS III it is 84.5% fish, 4.1% junk, 11.3% treasure.",
-      "Fish catches (Java): raw cod 60% of the category (51% per cast), raw salmon 25% (21.25%), pufferfish 13% (11.05%), tropical fish 2% (1.7%).",
-      "Treasure catches: enchanted book, enchanted bow, enchanted fishing rod, name tag, nautilus shell and saddle - 16.67% of the treasure category each in Java (0.83% per cast unenchanted, 1.89% with LotS III). In Bedrock the enchanted book is slightly more common (19.35% of treasure).",
+      "Fish catches (Java): raw cod 60% of the category (51% per successful catch), raw salmon 25% (21.25%), pufferfish 13% (11.05%), tropical fish 2% (1.7%).",
+      "Treasure catches: enchanted book, enchanted bow, enchanted fishing rod, name tag, nautilus shell and saddle - 16.67% of the treasure category each in Java (0.83% per successful catch unenchanted, 1.89% with LotS III). In Bedrock the enchanted book is slightly more common (19.35% of treasure).",
       "Caught bows and rods come enchanted as if from a level-30 enchanting table with 0-25% durability left; books can hold any enchantment except Swift Sneak, Soul Speed and Wind Burst.",
-      "Junk catches: lily pads (1.7% per cast), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks and water bottles (1% each), sticks and string (0.5%), unenchanted fishing rods (0.2%) and 10 ink sacs (0.1%).",
+      "Junk catches: lily pads (1.7% per successful catch), bones, bowls, leather, leather boots, rotten flesh, tripwire hooks and water bottles (1% each), sticks and string (0.5%), unenchanted fishing rods (0.2%) and 10 ink sacs (0.1%).",
       "Jungle rule: fishing in jungle, sparse jungle or bamboo jungle adds bamboo to the junk table (Bedrock also adds cocoa beans and boosts salmon); fish and treasure chances stay the same.",
-      "Open water (Java only): the bobber needs a 5x4x5 zone of water source blocks, waterlogged blocks, lily pads or air - no flowing water, no solid blocks overhead. Without it, treasure never bites.",
+      "Java treasure requires a qualifying 5×4×5 volume around the bobber: layers of water sources or non-colliding waterlogged blocks below, and air/lily pads above. No flowing water or obstructing solids in that volume. A three-block-deep pool helps keep the check valid as the bobber dips. Direct sky affects speed, not a separate treasure requirement. Bedrock has no open-water treasure check.",
       "Speed: a catch takes 5-30 seconds; each Lure level cuts 5 seconds, rain speeds the timer by about 20%, and a covered sky above the bobber roughly doubles the wait.",
-      "Treasure math: with LotS III, Lure III and rain, expect a treasure item roughly every 11 casts - mending books, name tags and saddles on tap."
+      "With Luck of the Sea III, 11.34% treasure corresponds to a long-run average of about 8.8 successful catches per treasure, not a guarantee. Lure and rain can shorten time between catches; they do not increase that per-catch percentage."
     ],
-    "versions": "Category chances are the same on Java and Bedrock; Bedrock weights the enchanted book slightly higher in treasure and adds cocoa beans to jungle junk. The open-water treasure rule is Java-only. Current as of 26.x.",
-    "editionNote": "An AFK fish farm with a LotS III rod is still the laziest source of enchanted books, name tags and saddles in the game.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Java treasure has six equally weighted entries; Bedrock gives enchanted books slightly more weight than the other treasure entries. Java also requires open water. Small AFK farms may therefore produce fish and junk but no treasure in Java.",
     "faq": [
       {
         "q": "What can you catch fishing in Minecraft?",
@@ -33466,11 +33466,11 @@
       },
       {
         "q": "What is the chance of an enchanted book from fishing?",
-        "a": "About 0.83% per cast unenchanted in Java, rising to 1.89% with Luck of the Sea III - roughly one book every 53 casts with the best rod. In Bedrock it is slightly higher: 0.97% to 2.19%."
+        "a": "About 0.83% per successful catch unenchanted in Java, rising to 1.89% with Luck of the Sea III - roughly one book every 53 successful catches with the best rod. In Bedrock it is slightly higher: 0.97% to 2.19%."
       },
       {
         "q": "Why am I not catching treasure?",
-        "a": "On Java, treasure requires open water: a 5x4x5 area around the bobber with nothing but water sources, waterlogged blocks, lily pads and air. A block over the bobber or a 1-block pool blocks treasure completely."
+        "a": "Java requires the qualifying open-water volume around the bobber; invalid water allows fish and junk only. A roof inside the checked volume can invalidate it, but direct sky is not a separate treasure requirement. Bedrock has no open-water check. Treasure is still random when conditions are valid."
       }
     ],
     "relatedGuides": [
