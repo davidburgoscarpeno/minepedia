@@ -7610,11 +7610,11 @@
     "shortTitle": "Get Wind Burst",
     "quickAnswer": "Wind Burst only drops from ominous vaults in trial chambers: open them with ominous trial keys and each has a 5.5% chance to eject a Wind Burst I enchanted book. Combine books on an anvil for levels II and III, apply to a mace, and every smash attack launches you back into the air.",
     "steps": [
-      "Get a mace first: heavy core + breeze rod. Wind Burst only goes on maces, and our heavy core guide covers the same ominous vaults you'll be farming.",
+      "Get a mace: one heavy core above one breeze rod. Wind Burst applies only to maces in normal Survival. You will need unused ominous vaults for its books, not repeated openings of one used vault.",
       "Trigger ominous trials: drink an ominous bottle (raid captains drop them) near trial spawners so they turn ominous, then complete them for ominous trial keys.",
       "Find ominous vaults: the skull-faced vaults hidden in the harder corners of trial chambers.",
-      "Open and repeat: each ominous vault has a 5.5% chance to eject a Wind Burst I book - it's always level I, so expect many vaults before you see one.",
-      "Combine for higher levels: anvil two Wind Burst I books (or a book and your mace) for II, and again for III. Launch power grows from ~8 blocks at I to ~16 at II and ~24 at III.",
+      "Open unused ominous vaults: each opening has about a 5.5% chance for a Wind Burst I book. For normal play, each player opens each vault once; spawner cooldowns do not reset vault loot.",
+      "Combine two Wind Burst I books for II, then two II books for III. Starting from I books needs four books for III, subject to anvil costs. Approximate launch heights are 8, 16 and 24 blocks, but defenses can reduce them.",
       "Fight with it: land a smash attack (fall more than 1.5 blocks before hitting) and Wind Burst launches you upward to chain the next smash. Jump off a single block or use a wind charge to start the loop - and note it doesn't cancel fall damage like a wind charge does."
     ],
     "materials": [
@@ -7624,7 +7624,7 @@
       "Anvil for combining books"
     ],
     "editionNote": "Wind Burst is the same 5.5% ominous-vault book in both editions, but the counters differ: in Java, Blast Protection reduces the launch, while in Bedrock it's netherite armor that dampens it. Java's slower mace attack speed also makes chaining fully charged smashes at Wind Burst I impossible against a stationary target - higher levels fix the rhythm.",
-    "versions": "Added experimentally in Java 1.20.5 and officially with 1.21, and in Bedrock 1.21.0 (Tricky Trials, June 2024). Early snapshots let it trigger off ground attacks and briefly negate fall damage - both were changed before release.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Where do you get Wind Burst?",
@@ -7632,11 +7632,11 @@
       },
       {
         "q": "How do you get Wind Burst III?",
-        "a": "Books only drop at level I, so combine them on an anvil: two I books make II, and combining again makes III. Expect to open a lot of ominous vaults."
+        "a": "Combine two I books into one II, do the same with two more I books, then combine the two II books for III. That is four level-I books in total, plus anvil XP. Apply the result to a mace."
       },
       {
         "q": "What does Wind Burst do on a mace?",
-        "a": "Landing a smash attack (falling 1.5+ blocks before the hit) launches you upward - about 8 blocks at level I, 16 at II and 24 at III - so you can chain smash attacks continuously."
+        "a": "A successful smash launches you upward, approximately 8 blocks at I, 16 at II or 24 at III before knockback-reducing equipment. Ground attacks do not trigger it. Later fall damage can still occur if you miss the next smash or land badly."
       },
       {
         "q": "Does Wind Burst stop fall damage?",
@@ -8170,9 +8170,9 @@
       "Enchant armor pieces: at a level-30 enchanting table, diamond or netherite armor can roll Protection IV directly. Helmets, chestplates, leggings and boots all accept it.",
       "Trade with librarians: reroll lecterns until a Protection book appears - the reliable targeted route, especially for that fourth level.",
       "Fish, loot and raid: enchanted books from fishing, monster room chests and non-village structure loot can carry Protection; Bedrock raid mobs drop books; some mob-dropped armor comes pre-enchanted.",
-      "Combine on an anvil: Prot I+I=II, II+II=III, III+III=IV. Books are cheaper to merge than armor pieces, so build the book first, then apply.",
+      "Combine matching levels below the maximum on an anvil: I + I = II, II + II = III, III + III = IV. Compare book and gear combinations rather than assuming all books should be merged into one first.",
       "Understand the math: each level is 4% damage reduction per piece - Protection IV is 16% per piece, 64% on a full set, applied AFTER armor's own reduction. The game caps total enchantment reduction at 80%.",
-      "Know the exclusions: Protection, Blast Protection, Fire Protection and Projectile Protection are mutually exclusive - combining them in an anvil deletes the old one. Protection works on almost every damage type but is half as strong per level as the specialized ones for their damage type.",
+      "The four Protection types conflict on the same armor piece, not across the whole set. An incompatible book cannot replace the existing protection type automatically; inspect the anvil preview. Protection does not reduce starvation, void damage or a Warden's sonic boom.",
       "Pick your setup: generalists run full Protection IV. Bring a Fire Protection piece for Nether trips and a Blast Protection piece for the Ender Dragon fight - swap situationally instead of compromising."
     ],
     "materials": [
@@ -8182,7 +8182,7 @@
       "Anvil and plenty of XP levels"
     ],
     "editionNote": "Since Bedrock 1.18.30 both editions use the same formula: 4% per level, linear. Before that, Bedrock used 5% per level - old Bedrock worlds were noticeably tankier. Sources match too, except Bedrock raid mobs dropping enchanted books.",
-    "versions": "Added in Beta 1.9 Prerelease 4 with a quadratic formula (4 × level²%), nerfed to linear (4 × level)% in Java 1.9. The protection family was briefly stackable in 1.14 snapshots, then made mutually exclusive again in 1.14.3. Bedrock matched Java's formula in 1.18.30.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Is Protection IV the best armor enchantment?",
@@ -8190,7 +8190,7 @@
       },
       {
         "q": "Can you combine Protection and Fire Protection?",
-        "a": "No - Protection, Blast Protection, Fire Protection and Projectile Protection are mutually exclusive. An anvil combination deletes the existing enchantment. Only commands can stack them, and even then the reduction stops helping past the cap."
+        "a": "Not on the same piece in normal Survival. The anvil does not automatically delete Protection to replace it with Fire Protection. Different armor pieces may use different types; review the preview before spending XP."
       },
       {
         "q": "What is the fastest way to get Protection IV?",
@@ -16632,8 +16632,8 @@
       "XP levels",
       "A creeper to test on (optional)"
     ],
-    "editionNote": "Damage reduction is identical in Java and Bedrock (8% per level, 32% at IV). The 15%-per-level explosion knockback resistance is a Java side effect. Blast Protection also covers wind charge and Wind Burst damage since 1.21.",
-    "versions": "Blast Protection has existed since enchantments launched in Beta 1.9 Prerelease 3 (2011). The list of covered explosions has only grown - beds, respawn anchors, wind charges and Wind Burst joined over the years.",
+    "editionNote": "Explosion damage reduction is 8% per level, up to 32% on one Blast Protection IV piece. Java also grants 15% explosion knockback resistance per level, stacking across pieces. Do not confuse reduced knockback with protection from later fall damage.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Blast Protection or Protection?",
@@ -16641,11 +16641,11 @@
       },
       {
         "q": "Does Blast Protection stop ghast fireballs?",
-        "a": "Yes - ghast fireball damage is explosion damage, so it gets cut by 8% per level. The direct impact of the fireball is also covered because the whole hit is tagged as an explosion."
+        "a": "It reduces the explosion component of a ghast fireball. The direct impact is projectile damage, which Projectile Protection covers instead. Fire Protection does not reduce either component, though it can help with fire left by the explosion."
       },
       {
         "q": "Does it help against the warden's sonic boom?",
-        "a": "No - the sonic boom is not explosion damage. Only Resistance, wolf armor and witch-level resistance reduce it. Bring a Turtle Master potion instead."
+        "a": "No. The Warden's sonic boom bypasses armor and Protection enchantments, including Blast Protection. Do not treat this enchantment as protection against that attack."
       }
     ],
     "relatedGuides": [
@@ -16732,12 +16732,12 @@
     "slug": "how-to-get-density",
     "name": "How to Get Density in Minecraft",
     "shortTitle": "Density",
-    "quickAnswer": "Density is a mace-only enchantment (max level V) that adds half a heart of smash attack damage per block fallen, per level - so Density V adds 2.5 hearts per block of drop. Get it from the enchanting table, librarian trades, fishing loot, or ominous vaults in trial chambers. It cannot combine with Smite, Bane of Arthropods or Breach.",
+    "quickAnswer": "Density is a mace-only enchantment, up to V. It adds 0.5 HP (a quarter-heart) of smash damage per block fallen per level. Density V adds 2.5 HP (1.25 hearts) per block, not 2.5 hearts. Get it from the enchanting table, librarian books, fishing or vault loot; it conflicts with Breach, Smite and Bane of Arthropods.",
     "steps": [
       "Get a mace first. Density only goes on maces, so you need a heavy core from an ominous vault plus a breeze rod from a breeze in the trial chambers.",
       "Enchant at the table. Maces can roll Density up to V directly. Use 15 bookshelves for level 30 rolls.",
-      "Or find the book. Density books come from librarian trades of any level, fishing treasure, and ominous vaults - ominous vaults are the most reliable source of high levels.",
-      "Understand the math. Smash attacks scale with fall distance, and Density multiplies that scaling: +0.5 hearts per block fallen per level. At Density V, dropping 10 blocks adds 25 hearts on top of the base smash damage.",
+      "Density books can come from librarian trades, fishing treasure and vault loot. Regular and ominous vaults can both provide Density books; check the level before combining or applying one.",
+      "The bonus is additive: 0.5 HP × enchantment level × blocks fallen. Density V adds 25 HP (12.5 hearts) on a 10-block fall before other combat modifiers. Damage received also depends on critical hits, armor and protection effects.",
       "Pick your damage school. Density competes with Smite, Bane of Arthropods and Breach for the same slot. Density is the one-shot specialist: pair it with Wind Burst so every kill relaunches you for the next smash."
     ],
     "materials": [
@@ -16746,8 +16746,8 @@
       "XP levels",
       "Something tall to jump off"
     ],
-    "editionNote": "Identical in Java and Bedrock: +0.5 hearts per block fallen per level, up to level V. Technically also incompatible with Sharpness and Impaling, but no survival weapon can hold both, so you will never see that conflict.",
-    "versions": "Density arrived with the mace in Java 1.21 and Bedrock 1.21.0 (2024) as one of its three signature enchantments, alongside Breach and Wind Burst.",
+    "editionNote": "Both editions use a 0.5 HP (quarter-heart) smash bonus per block fallen per level, up to V. Do not confuse damage points with hearts: 2 HP equals 1 heart. Density does not add damage to ordinary ground attacks.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Density or Breach on my mace?",
@@ -16759,7 +16759,7 @@
       },
       {
         "q": "How much damage does Density V add?",
-        "a": "2.5 extra hearts per block fallen. A 5-block drop adds 12.5 hearts; a 10-block drop adds 25. Combined with the mace's own fall scaling, well-aimed smashes delete nearly any mob in one hit."
+        "a": "Density V adds 2.5 HP (1.25 hearts) per block fallen. Five blocks add 12.5 HP (6.25 hearts); ten add 25 HP (12.5 hearts), before critical-hit and defensive modifiers."
       }
     ],
     "relatedGuides": [
@@ -16789,12 +16789,12 @@
     "slug": "how-to-get-breach",
     "name": "How to Get Breach in Minecraft",
     "shortTitle": "Breach",
-    "quickAnswer": "Breach is a mace-only enchantment (max level IV) that ignores 15% of the target's armor effectiveness per level - Breach IV cuts 60% of their armor damage reduction, natural mob armor included. Get it from the enchanting table, librarian trades, fishing, or ominous vaults. It cannot combine with Smite, Bane of Arthropods or Density.",
+    "quickAnswer": "Breach is a mace-only enchantment, up to IV. Each level subtracts 15 percentage points from the target's armor damage reduction, with a floor of zero: IV subtracts 60 points, not 60% of the original reduction. Protection enchantments and Resistance still apply. Breach conflicts with Density, Smite and Bane of Arthropods.",
     "steps": [
       "Get a mace. Breach only enchants maces: craft one from a heavy core (ominous vault) and a breeze rod (breezes in trial chambers).",
       "Enchant at the table. Maces can roll Breach up to IV with a full bookshelf setup.",
       "Or find the book. Librarian trades, fishing treasure and ominous vaults all carry Breach books.",
-      "Know what it pierces. Each level ignores 15% of the target's armor damage reduction - leather to netherite, plus the natural armor points of mobs like zombies and shulkers. Breach IV treats full netherite like it is barely there.",
+      "Subtract percentage points, not a percentage of the original value. If armor would reduce a hit by 50%, Breach I lowers that to 35%; Breach IV lowers it to zero. The armor component cannot become negative.",
       "Know what it does NOT pierce. Breach ignores only raw armor. Protection enchantments on that armor and the Resistance effect still apply at full strength - a Protection IV opponent is far less vulnerable than a plain netherite one.",
       "Use it where armor matters. Breach shines in PvP and against armored mobs. Against unarmored targets it does nothing, which is why most players keep it as a second mace next to Density."
     ],
@@ -16804,16 +16804,16 @@
       "XP levels",
       "An armored friend to test on (consensually)"
     ],
-    "editionNote": "Works the same in Java and Bedrock: 15% armor-effectiveness reduction per level, max IV. Beyond level VI there is no practical effect. Remember: enchantment-based protection (Protection, Resistance) is unaffected - only armor points and armor toughness are pierced.",
-    "versions": "Breach arrived with the mace in Java 1.21 and Bedrock 1.21.0 (2024). It is the armor-counter counterpart to Density's raw damage.",
+    "editionNote": "In both editions, Breach subtracts 15 percentage points of armor damage reduction per level, with a floor of zero. Protection enchantments and Resistance are separate defenses and are not bypassed by Breach.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Breach or Density for PvP?",
-        "a": "Breach. Netherite armor turns Density's fall bonus into chip damage, while Breach IV strips 60% of that armor off every hit - including flat-ground hits where Density adds nothing. Keep Density for PvE farming."
+        "a": "Breach helps when armor reduces the hit, including ground attacks where Density adds no fall bonus. Density adds damage to smashes, so the better option depends on fall height and the target's defenses. They cannot coexist on one mace."
       },
       {
         "q": "Does Breach work on the warden?",
-        "a": "The warden has no armor points, so Breach gives no bonus against it - or against any unarmored mob. Bring Density or Smite instead."
+        "a": "No. The Warden has no armor points, so Breach provides no armor-piercing benefit. Density can add smash damage, but the Warden is not undead, so Smite is not a useful bonus against it either."
       },
       {
         "q": "Does Breach ignore Protection IV?",
@@ -17458,13 +17458,13 @@
     "slug": "how-to-use-mace",
     "name": "How to Use the Mace in Minecraft (Smash Attack Guide)",
     "shortTitle": "Use the Mace",
-    "quickAnswer": "The mace is slow on the ground but deadly from above: fall at least 1.5 blocks and hit a mob mid-fall for a smash attack - +4 damage per block for the first 3 blocks fallen, +2 for the next 5, then +1 per block, with NO upper cap. A successful smash also cancels your fall damage.",
+    "quickAnswer": "Fall at least 1.5 blocks and hit before landing to perform a mace smash. Extra damage is 4 HP per block for the first 3 blocks, 2 HP per block for the next 5, then 1 HP per block after that, before critical and defensive modifiers. A successful smash resets the fall distance accumulated before the hit; further falling can still hurt.",
     "steps": [
       "Get the mace first: craft it from a breeze rod and a heavy core (trial chambers loot). See our how-to-get-mace guide.",
       "On the ground it is mediocre: 6 damage per hit with the slowest attack speed in Java (0.6). Use it like an axe for panic swings, not as your main DPS.",
       "The real move is the smash attack: fall 1.5+ blocks and attack before landing. Any fall counts - jump off a ledge, pillar up and drop, or bounce in with a wind charge.",
-      "Damage scales with distance fallen: +4 per block for the first 3 blocks, +2 per block for the next 5, then +1 per block forever. A 10-block drop already hits like a netherite sword crit - and from a tall tower it one-shots almost anything.",
-      "Landing a smash resets your fall height, so you take zero fall damage. It also knocks back everything within 2.5 blocks (not you).",
+      "Damage scales with the fall: 4 HP per block for the first 3, 2 HP for the next 5 and 1 HP afterward. At 10 blocks, that adds 24 HP to the normal 6 HP base before other modifiers. Armor and protective effects can greatly change the damage received.",
+      "A successful smash resets prior fall distance and can knock nearby entities back. If you continue falling afterward, new fall damage accumulates. Neither a smash nor Wind Burst guarantees a safe later landing.",
       "Enchant it: Density adds +0.5 damage per level per block fallen (best for pure smash damage), Breach shreds armored targets, and Wind Burst bounces you back up after a smash so you can chain attacks. Repair with breeze rods in an anvil - one rod restores 25%."
     ],
     "materials": [
@@ -17474,11 +17474,11 @@
       "Density, Breach or Wind Burst enchanted books"
     ],
     "editionNote": "Bedrock smash attacks are even stronger: there is no attack cooldown, and smash attacks work during elytra flight. In Java you must unequip the elytra before the hit lands, and the slow 0.6 attack speed applies to normal swings. Neither edition can smash with Slow Falling active.",
-    "versions": "Added in Java 1.21 and Bedrock 1.21.0 (Tricky Trials, 2024) alongside the trial chambers, the breeze and the mace-exclusive enchantments Density, Breach and Wind Burst.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How much damage can a smash attack do?",
-        "a": "There is no cap. After the first 8 blocks (+22 damage), every extra block fallen adds +1 - a 100-block drop adds over 110 damage on top of the base 6, enough to one-shot nearly any mob in the game."
+        "a": "The fall-distance bonus has no fixed upper cap. A 100-block fall adds 114 HP before critical and defensive modifiers: 12 HP from the first three blocks, 10 from the next five and 92 from the remaining blocks. This does not guarantee a one-hit kill against every target."
       },
       {
         "q": "Does the smash attack work with elytra?",

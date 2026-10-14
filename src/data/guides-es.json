@@ -7152,11 +7152,11 @@
     "shortTitle": "Conseguir Wind Burst",
     "quickAnswer": "Wind Burst solo sale de los ominous vaults de las trial chambers: ábrelos con ominous trial keys y cada uno tiene un 5.5% de probabilidad de expulsar un enchanted book de Wind Burst I. Combina libros en un anvil para los niveles II y III, aplícalo a un mace, y cada smash attack te lanzará de nuevo al aire.",
     "steps": [
-      "Consigue primero un mace: heavy core + breeze rod. Wind Burst solo va en maces, y nuestra guía del heavy core cubre los mismos ominous vaults que vas a farmear.",
+      "Consigue una mace: un heavy core encima de un breeze rod. Wind Burst solo se aplica a mazas en supervivencia normal. Necesitas vaults ominosos sin usar para sus libros, no repetir aperturas de uno usado.",
       "Activa ominous trials: bebe una ominous bottle (la sueltan los raid captains) cerca de trial spawners para que se vuelvan ominous, y complétalos para conseguir ominous trial keys.",
       "Encuentra los ominous vaults: los vaults con cara de calavera escondidos en los rincones más difíciles de las trial chambers.",
-      "Abre y repite: cada ominous vault tiene un 5.5% de probabilidad de expulsar un libro de Wind Burst I: siempre es nivel I, así que espera abrir muchos vaults antes de ver uno.",
-      "Combina para niveles superiores: junta en un anvil dos libros de Wind Burst I (o un libro y tu mace) para el II, y otra vez para el III. La potencia de lanzamiento crece de ~8 bloques en I a ~16 en II y ~24 en III.",
+      "Abre vaults ominosos sin usar: cada apertura tiene alrededor de un 5,5% de dar un libro Wind Burst I. En uso normal, cada jugador abre cada vault una vez; el cooldown del spawner no reinicia su botín.",
+      "Combina dos libros Wind Burst I para II y después dos II para III. Partiendo de I necesitas cuatro libros para III, con los costes de yunque. Las alturas aproximadas son 8, 16 y 24 bloques, pero las defensas pueden reducirlas.",
       "Lucha con ello: acierta un smash attack (cae más de 1.5 bloques antes de golpear) y Wind Burst te lanza hacia arriba para encadenar el siguiente smash. Salta desde un solo bloque o usa una wind charge para empezar el ciclo, y recuerda que no cancela el daño de caída como hacen las wind charges."
     ],
     "materials": [
@@ -7166,7 +7166,7 @@
       "Anvil para combinar libros"
     ],
     "editionNote": "Wind Burst es el mismo libro del 5.5% de los ominous vaults en ambas ediciones, pero los contrarrestos difieren: en Java, Blast Protection reduce el lanzamiento, mientras que en Bedrock es la netherite armor la que lo amortigua. La menor velocidad de ataque del mace en Java también hace imposible encadenar smashes completamente cargados con Wind Burst I contra un objetivo quieto: los niveles superiores arreglan el ritmo.",
-    "versions": "Añadido de forma experimental en Java 1.20.5 y oficialmente con la 1.21, y en Bedrock 1.21.0 (Tricky Trials, junio de 2024). Los primeros snapshots dejaban activarlo con ataques en el suelo y negaba brevemente el daño de caída: ambas cosas cambiaron antes del lanzamiento.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Dónde se consigue Wind Burst?",
@@ -7174,11 +7174,11 @@
       },
       {
         "q": "¿Cómo se consigue Wind Burst III?",
-        "a": "Los libros solo salen a nivel I, así que combínalos en un anvil: dos libros I hacen II, y combinando de nuevo se hace III. Espera abrir un montón de ominous vaults."
+        "a": "Combina dos libros I para un II, repite con otros dos I y combina ambos II para III. Son cuatro libros I en total, más XP de yunque. Aplica el resultado a una mace."
       },
       {
         "q": "¿Qué hace Wind Burst en un mace?",
-        "a": "Acertar un smash attack (cayendo 1.5+ bloques antes del golpe) te lanza hacia arriba: unos 8 bloques en nivel I, 16 en II y 24 en III: así puedes encadenar smash attacks seguidos."
+        "a": "Un smash logrado te lanza hacia arriba, aproximadamente 8 bloques en I, 16 en II o 24 en III antes de equipo que reduzca empuje. Los ataques en suelo no lo activan. Si fallas el siguiente smash o aterrizas mal, aún puedes sufrir daño de caída."
       },
       {
         "q": "¿Wind Burst frena el daño de caída?",
@@ -7712,9 +7712,9 @@
       "Encanta piezas de armadura: en una enchanting table de nivel 30, la armadura de diamante o netherite puede sacar Protection IV directamente. Cascos, corazas, grevas y botas lo aceptan.",
       "Tradea con librarians: rehaz lecterns hasta que aparezca un libro de Protection: la ruta dirigida fiable, sobre todo para el cuarto nivel.",
       "Pesca, lutea y haz raids: los enchanted books de la pesca, los cofres de monster rooms y el loot de estructuras no aldeanas pueden llevar Protection; los mobs de raids de Bedrock sueltan libros; parte de la armadura que sueltan los mobs ya viene encantada.",
-      "Combina en un anvil: Prot I+I=II, II+II=III, III+III=IV. Los libros son más baratos de fusionar que las piezas de armadura, así que monta primero el libro y luego aplícalo.",
+      "Combina niveles iguales por debajo del máximo en un yunque: I + I = II, II + II = III, III + III = IV. Compara combinaciones de libros y equipo en vez de unir siempre todos los libros en uno primero.",
       "Entiende las cuentas: cada nivel es un 4% de reducción de daño por pieza: Protection IV es un 16% por pieza, 64% con el set completo, aplicado DESPUÉS de la reducción propia de la armadura. El juego limita la reducción total por encantamientos al 80%.",
-      "Conoce las exclusiones: Protection, Blast Protection, Fire Protection y Projectile Protection se excluyen mutuamente: combinarlos en un anvil borra el encantamiento antiguo. Protection sirve contra casi todo tipo de daño, pero es la mitad de fuerte por nivel que las especializadas en su tipo.",
+      "Los cuatro tipos de Protection chocan en la misma pieza, no en todo el conjunto. Un libro incompatible no sustituye automáticamente el tipo existente; revisa la vista previa del yunque. Protection no reduce inanición, daño del vacío ni el sonic boom de un Warden.",
       "Elige tu setup: los generalistas llevan Protection IV completo. Lleva una pieza de Fire Protection para el Nether y una de Blast Protection para la pelea del Ender Dragon: cambia según la situación en vez de conformarte."
     ],
     "materials": [
@@ -7724,7 +7724,7 @@
       "Anvil y muchos niveles de XP"
     ],
     "editionNote": "Desde Bedrock 1.18.30 ambas ediciones usan la misma fórmula: 4% por nivel, lineal. Antes Bedrock usaba un 5% por nivel: los mundos viejos de Bedrock aguantaban bastante más. Las fuentes también coinciden, salvo los mobs de raids de Bedrock que sueltan enchanted books.",
-    "versions": "Añadido en Beta 1.9 Prerelease 4 con fórmula cuadrática (4 × nivel²%), rebajado a lineal (4 × nivel)% en Java 1.9. La familia de protecciones pudo apilarse brevemente en snapshots de la 1.14 y volvió a ser excluyente en la 1.14.3. Bedrock igualó la fórmula de Java en la 1.18.30.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Es Protection IV el mejor encantamiento de armadura?",
@@ -7732,7 +7732,7 @@
       },
       {
         "q": "¿Se puede combinar Protection con Fire Protection?",
-        "a": "No: Protection, Blast Protection, Fire Protection y Projectile Protection se excluyen mutuamente. La combinación en un anvil borra el encantamiento existente. Solo los comandos pueden apilarlas, y aun así la reducción deja de ayudar pasado el tope."
+        "a": "No en la misma pieza en supervivencia normal. El yunque no borra automáticamente Protection para sustituirlo por Fire Protection. Otras piezas pueden usar tipos distintos; revisa la vista previa antes de gastar XP."
       },
       {
         "q": "¿Cuál es la forma más rápida de conseguir Protection IV?",
@@ -15078,8 +15078,8 @@
       "Niveles de XP",
       "Un creeper para probar (opcional)"
     ],
-    "editionNote": "La reducción de daño es idéntica en Java y Bedrock (8% por nivel, 32% en IV). La resistencia al knockback de explosiones del 15% por nivel es un efecto secundario de Java. Blast Protection también cubre el daño de wind charges y Wind Burst desde 1.21.",
-    "versions": "Blast Protection existe desde que llegaron los encantamientos en Beta 1.9 Prerelease 3 (2011). La lista de explosiones cubiertas no ha hecho más que crecer: beds, respawn anchors, wind charges y Wind Burst se sumaron con los años.",
+    "editionNote": "La reducción de daño de explosión es del 8% por nivel, hasta el 32% en una pieza con Blast Protection IV. Java también da un 15% de resistencia al empuje de explosiones por nivel, acumulable entre piezas. Reducir el empuje no equivale a proteger de una caída posterior.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Blast Protection o Protection?",
@@ -15087,11 +15087,11 @@
       },
       {
         "q": "¿Blast Protection frena los fireballs de ghast?",
-        "a": "Sí: el daño del fireball de ghast es daño de explosión, así que se recorta un 8% por nivel. El impacto directo también está cubierto porque todo el golpe está etiquetado como explosión."
+        "a": "Reduce la parte de explosión de una bola de ghast. El impacto directo es daño de proyectil, cubierto por Projectile Protection. Fire Protection no reduce ninguna de esas partes, aunque ayuda con el fuego que deje la explosión."
       },
       {
         "q": "¿Ayuda contra el sonic boom del warden?",
-        "a": "No: el sonic boom no es daño de explosión. Solo Resistance, la wolf armor y la resistencia de las witches lo reducen. Lleva mejor una poción Turtle Master."
+        "a": "No. El sonic boom del Warden atraviesa armadura y encantamientos de protección, incluido Blast Protection. No lo uses como defensa frente a ese ataque."
       }
     ],
     "relatedLinks": [
@@ -15166,12 +15166,12 @@
   "how-to-get-density": {
     "name": "Cómo conseguir Density en Minecraft",
     "shortTitle": "Density",
-    "quickAnswer": "Density es un encantamiento exclusivo del mace (nivel máximo V) que suma medio corazón de daño de smash attack por bloque caído, por nivel: Density V añade 2.5 corazones por bloque de caída. Consíguelo en la enchanting table, trades de librarians, pesca o ominous vaults de las trial chambers. No se combina con Smite, Bane of Arthropods ni Breach.",
+    "quickAnswer": "Density es exclusivo de la mace, hasta V. Añade 0,5 HP (un cuarto de corazón) de daño de smash por bloque caído y nivel. Density V añade 2,5 HP (1,25 corazones) por bloque, no 2,5 corazones. Sale en la mesa, libros de librarian, pesca o vaults; choca con Breach, Smite y Bane of Arthropods.",
     "steps": [
       "Consigue primero un mace. Density solo va en maces, así que necesitas un heavy core de una ominous vault más un breeze rod de un breeze en las trial chambers.",
       "Encanta en la mesa. Los maces pueden sacar Density hasta V directamente. Usa 15 bookshelves para tiradas de nivel 30.",
-      "O encuentra el libro. Los libros de Density salen de trades de librarians de cualquier nivel, tesoro de pesca y ominous vaults: las ominous vaults son la fuente más fiable de niveles altos.",
-      "Entiende las matemáticas. Los smash attacks escalan con la distancia de caída, y Density multiplica esa escala: +0.5 corazones por bloque caído por nivel. Con Density V, caer 10 bloques suma 25 corazones encima del daño base del smash.",
+      "Los libros de Density pueden salir de librarians, pesca de tesoros y vaults. Tanto los normales como los ominosos pueden dar libros de Density; comprueba el nivel antes de combinarlos o aplicarlos.",
+      "El extra se suma: 0,5 HP × nivel × bloques caídos. Density V añade 25 HP (12,5 corazones) en una caída de 10 bloques antes de otros modificadores. El daño recibido también depende de críticos, armadura y protecciones.",
       "Elige tu escuela de daño. Density compite con Smite, Bane of Arthropods y Breach por el mismo hueco. Density es el especialista del one-shot: combínalo con Wind Burst para que cada kill te relance al siguiente smash."
     ],
     "materials": [
@@ -15180,8 +15180,8 @@
       "Niveles de XP",
       "Algo alto de lo que saltar"
     ],
-    "editionNote": "Idéntico en Java y Bedrock: +0.5 corazones por bloque caído por nivel, hasta nivel V. Técnicamente también es incompatible con Sharpness e Impaling, pero ningún arma de supervivencia puede llevar ambos, así que nunca verás ese conflicto.",
-    "versions": "Density llegó con el mace en Java 1.21 y Bedrock 1.21.0 (2024) como uno de sus tres encantamientos insignia, junto a Breach y Wind Burst.",
+    "editionNote": "Ambas ediciones usan 0,5 HP (un cuarto de corazón) extra por bloque caído y nivel, hasta V. No confundas puntos con corazones: 2 HP equivalen a 1 corazón. Density no añade daño a ataques normales en el suelo.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Density o Breach en mi mace?",
@@ -15193,7 +15193,7 @@
       },
       {
         "q": "¿Cuánto daño suma Density V?",
-        "a": "2.5 corazones extra por bloque caído. Una caída de 5 bloques suma 12.5 corazones; una de 10 bloques, 25. Combinado con la escala propia del mace, los smashes bien apuntados eliminan a casi cualquier mob de un golpe."
+        "a": "Density V añade 2,5 HP (1,25 corazones) por bloque caído. Cinco bloques añaden 12,5 HP (6,25 corazones); diez, 25 HP (12,5 corazones), antes de modificadores de críticos y defensas."
       }
     ],
     "relatedLinks": [
@@ -15217,12 +15217,12 @@
   "how-to-get-breach": {
     "name": "Cómo conseguir Breach en Minecraft",
     "shortTitle": "Breach",
-    "quickAnswer": "Breach es un encantamiento exclusivo del mace (nivel máximo IV) que ignora un 15% de la efectividad de la armadura del objetivo por nivel: Breach IV recorta el 60% de su reducción de daño por armadura, incluida la armadura natural de los mobs. Consíguelo en la enchanting table, trades de librarians, pesca u ominous vaults. No se combina con Smite, Bane of Arthropods ni Density.",
+    "quickAnswer": "Breach es exclusivo de la mace, hasta IV. Cada nivel resta 15 puntos porcentuales a la reducción de daño de armadura, sin bajar de cero: IV resta 60 puntos, no el 60% de la reducción original. Protection y Resistance siguen aplicándose. Choca con Density, Smite y Bane of Arthropods.",
     "steps": [
       "Consigue un mace. Breach solo encanta maces: fabrica uno con un heavy core (ominous vault) y un breeze rod (breezes en las trial chambers).",
       "Encanta en la mesa. Los maces pueden sacar Breach hasta IV con el set completo de bookshelves.",
       "O encuentra el libro. Los trades de librarians, el tesoro de pesca y las ominous vaults traen libros de Breach.",
-      "Aprende qué perfora. Cada nivel ignora un 15% de la reducción de daño por armadura del objetivo, de leather a netherite, más los puntos de armadura natural de mobs como zombies y shulkers. Breach IV trata una netherite completa como si apenas estuviera ahí.",
+      "Resta puntos porcentuales, no un porcentaje del valor inicial. Si la armadura reduciría un golpe un 50%, Breach I lo baja al 35%; Breach IV lo baja a cero. La parte de armadura no puede volverse negativa.",
       "Aprende qué NO perfora. Breach ignora solo la armadura cruda. Los encantamientos Protection de esa armadura y el efecto Resistance siguen aplicando a plena potencia: un rival con Protection IV es mucho menos vulnerable que uno con netherite a secas.",
       "Úsalo donde importa la armadura. Breach brilla en PvP y contra mobs blindados. Contra objetivos sin armadura no hace nada, y por eso la mayoría lo lleva como segundo mace junto a Density."
     ],
@@ -15232,16 +15232,16 @@
       "Niveles de XP",
       "Un amigo blindado para probar (con consentimiento)"
     ],
-    "editionNote": "Funciona igual en Java y Bedrock: 15% de reducción de efectividad de armadura por nivel, máximo IV. Más allá del nivel VI no hay efecto práctico. Recuerda: la protección por encantamientos (Protection, Resistance) no se ve afectada; solo se perforan los armor points y el armor toughness.",
-    "versions": "Breach llegó con el mace en Java 1.21 y Bedrock 1.21.0 (2024). Es el contramedidas de armaduras frente al daño bruto de Density.",
+    "editionNote": "En ambas ediciones, Breach resta 15 puntos porcentuales de reducción por armadura por nivel, sin bajar de cero. Los encantamientos Protection y Resistance son defensas separadas que Breach no atraviesa.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Breach o Density para PvP?",
-        "a": "Breach. La armadura de netherite convierte el bonus de caída de Density en daño de cosquillas, mientras que Breach IV desmonta el 60% de esa armadura en cada golpe, incluso en golpes en llano donde Density no suma nada. Guarda Density para farmeo PvE."
+        "a": "Breach ayuda cuando la armadura reduce el golpe, incluso en suelo, donde Density no añade extra de caída. Density suma daño al smash: la mejor opción depende de la altura y las defensas. No pueden coexistir en la misma mace."
       },
       {
         "q": "¿Breach funciona contra el warden?",
-        "a": "El warden no tiene armor points, así que Breach no da bonus contra él, ni contra ningún mob sin armadura. Lleva mejor Density o Smite."
+        "a": "No. El Warden no tiene puntos de armadura: Breach no aporta penetración. Density puede añadir daño de smash, pero el Warden no es no-muerto, así que Smite tampoco da un extra útil contra él."
       },
       {
         "q": "¿Breach ignora Protection IV?",
@@ -15814,13 +15814,13 @@
   "how-to-use-mace": {
     "name": "Cómo usar la mace en Minecraft (guía del smash attack)",
     "shortTitle": "Usar la mace",
-    "quickAnswer": "La mace es lenta en el suelo pero letal desde arriba: cae al menos 1,5 bloques y golpea a un mob en plena caída para hacer un smash attack: +4 de daño por bloque en los primeros 3 bloques caídos, +2 en los siguientes 5 y luego +1 por bloque, SIN tope máximo. Un smash con éxito también anula tu daño de caída.",
+    "quickAnswer": "Cae al menos 1,5 bloques y golpea antes de aterrizar para hacer un smash con la mace. El extra es de 4 HP por bloque en los primeros 3, 2 HP en los siguientes 5 y 1 HP después, antes de críticos y defensas. Un smash logrado reinicia la caída acumulada antes del golpe; seguir cayendo aún puede hacer daño.",
     "steps": [
       "Consigue la mace primero: se fabrica con una breeze rod y un heavy core (loot de las trial chambers). Mira nuestra guía de cómo conseguir la mace.",
       "En el suelo es mediocre: 6 de daño por golpe con la velocidad de ataque más lenta de Java (0,6). Úsala como un axe para golpes de pánico, no como tu DPS principal.",
       "El movimiento real es el smash attack: cae 1,5+ bloques y ataca antes de aterrizar. Vale cualquier caída: salta desde una cornisa, haz un pilar y tírate, o entra rebotando con un wind charge.",
-      "El daño escala con la distancia caída: +4 por bloque en los primeros 3 bloques, +2 por bloque en los siguientes 5 y luego +1 por bloque para siempre. Una caída de 10 bloques ya pega como un crit de espada de netherite, y desde una torre alta mata de un golpe a casi todo.",
-      "Aterrizar un smash reinicia tu altura de caída, así que no recibes daño de caída. Además empuja a todo lo que esté a 2,5 bloques (a ti no).",
+      "El daño escala con la caída: 4 HP por bloque en los primeros 3, 2 HP en los siguientes 5 y 1 HP después. A 10 bloques añade 24 HP a los 6 HP básicos antes de otros modificadores. La armadura y las protecciones pueden cambiar mucho el daño recibido.",
+      "Un smash logrado reinicia la caída previa y puede empujar entidades cercanas. Si sigues cayendo después, acumulas nuevo daño. Ni el smash ni Wind Burst garantizan un aterrizaje posterior seguro.",
       "Encántala: Density añade +0,5 de daño por nivel por bloque caído (lo mejor para daño de smash puro), Breach destroza objetivos con armadura, y Wind Burst te relanza hacia arriba tras un smash para encadenar ataques. Repara con breeze rods en un anvil: una rod restaura el 25%."
     ],
     "materials": [
@@ -15830,11 +15830,11 @@
       "Libros encantados de Density, Breach o Wind Burst"
     ],
     "editionNote": "Los smash attacks de Bedrock son aún más fuertes: no hay cooldown de ataque, y funcionan durante el vuelo con elytra. En Java hay que desequipar el elytra antes de que el golpe conecte, y la lenta velocidad de ataque 0,6 se aplica a los golpes normales. En ninguna edición se puede hacer smash con Slow Falling activo.",
-    "versions": "Añadida en Java 1.21 y Bedrock 1.21.0 (Tricky Trials, 2024) junto con las trial chambers, el breeze y los encantamientos exclusivos de la mace: Density, Breach y Wind Burst.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuánto daño puede hacer un smash attack?",
-        "a": "No tiene tope. Tras los primeros 8 bloques (+22 de daño), cada bloque extra suma +1: una caída de 100 bloques añade más de 110 de daño sobre los 6 base, suficiente para matar de un golpe a casi cualquier mob del juego."
+        "a": "El extra por caída no tiene un límite superior fijo. Caer 100 bloques añade 114 HP antes de críticos y defensas: 12 HP de los tres primeros, 10 de los cinco siguientes y 92 de los restantes. Eso no garantiza matar de un golpe a cualquier objetivo."
       },
       {
         "q": "¿Funciona el smash attack con elytra?",
