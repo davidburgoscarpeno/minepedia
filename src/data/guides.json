@@ -4243,41 +4243,41 @@
     "slug": "how-to-find-ocean-monument",
     "name": "How to Find an Ocean Monument in Minecraft",
     "shortTitle": "Find an Ocean Monument",
-    "quickAnswer": "Ocean monuments generate in deep ocean biomes, at most one per 512x512 block area. The reliable way: buy an ocean explorer map from a journeyman cartographer villager (13 emeralds + compass) - it marks the nearest monument directly.",
+    "quickAnswer": "Ocean monuments generate in deep ocean biomes, at most one per 512x512 block area. Look for an ocean explorer map offered by a cartographer: its structure icon marks a monument, which is not necessarily the closest one to you.",
     "steps": [
-      "Get an ocean explorer map: journeyman-level cartographers sell them for 13 emeralds and a compass. This is the intended, guaranteed route - the map marks the monument with a red dot.",
+      "Check a cartographer for an ocean explorer map. If that villager does not offer one, try another cartographer. Follow the monument icon on the map; do not assume it points to the monument closest to your current location.",
       "Or sail the deep oceans: monuments only generate in deep ocean biome variants (deep ocean, deep lukewarm, deep cold, deep frozen). A boat, night vision potions and a high vantage point help you spot the prismarine silhouette glowing with sea lanterns.",
       "Or use commands: /locate structure minecraft:ocean_monument prints the nearest coordinates.",
       "Know the spacing: at most one monument generates per 512x512 block area, so if you find none in one ocean, keep sailing - every deep ocean region has its shot.",
       "Prepare for the dive: water breathing potions (8 minutes), night vision, good armor, a sword or trident, food, and doors or other air-pocket blocks if you play Java. Milk buckets cure Mining Fatigue.",
-      "Expect Mining Fatigue: each of the three elder guardians periodically inflicts Mining Fatigue III for 5 minutes, making blocks nearly unbreakable. Kill the elders first or bring milk.",
-      "Kill the three elder guardians: one in the top room, one in each wing. Each drops a wet sponge, plus prismarine shards and a tide armor trim chance.",
-      "Loot the monument: the treasure chamber in the central section hides 8 gold blocks inside dark prismarine, sponge rooms hold around 30 wet sponges each, and the whole structure is made of prismarine, prismarine bricks, dark prismarine and sea lanterns.",
-      "Plan a guardian farm: guardians spawn only inside the monument's bounding box - draining or flooding it with soul-sand currents turns it into the best XP and prismarine farm in the game."
+      "Expect Mining Fatigue III from elder guardians within 50 blocks. It lasts 5 minutes. Kill all three to prevent new applications; milk clears the current effect, but Bedrock elders can reapply it immediately while you remain in range.",
+      "Kill the three elder guardians: one in the top room and one in each wing. Killing one yourself gives a wet sponge, plus chances for prismarine loot and a tide armor trim.",
+      "Loot the monument: the central treasure chamber hides 8 gold blocks inside dark prismarine. If sponge rooms generated, each holds about 30 wet sponges. Some monuments have no sponge rooms.",
+      "For a guardian farm, choose a design for your edition. Bedrock guardians use 25 fixed spawning columns associated with the monument; a Java farm layout should not be assumed to work in Bedrock."
     ],
     "materials": [
       "Ocean explorer map (or a boat)",
       "Water breathing + night vision potions",
       "Milk buckets for Mining Fatigue"
     ],
-    "editionNote": "Monument generation and loot are the same in both editions, and milk clears Mining Fatigue in both. Guardian farms built by draining the monument work identically in Java and Bedrock.",
-    "versions": "Ocean monuments were added in Java 1.8, the Bountiful Update, on September 2, 2014, together with guardians and prismarine. Pocket Edition received them in 0.16.0.",
+    "editionNote": "Guardian spawning and farm layouts differ between editions: Bedrock uses 25 fixed spawning columns. Java elders check for Mining Fatigue once per minute; Bedrock elders afflict players without the effect immediately in range. Doors provide underwater air pockets in Java, but waterlog in Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "Where do ocean monuments spawn in Minecraft?",
-        "a": "In deep ocean biome variants only, at most one per 512x512 block area. Buy an ocean explorer map from a journeyman cartographer to mark the nearest one, or use /locate structure minecraft:ocean_monument."
+        "a": "In deep ocean biome variants, at most one per 512x512 block area. A cartographer may offer an ocean explorer map marking a monument, or you can use /locate structure minecraft:ocean_monument with commands enabled."
       },
       {
         "q": "How do you get rid of Mining Fatigue from an elder guardian?",
-        "a": "Drink a milk bucket - it clears Mining Fatigue III instantly. The elder guardians reapply it roughly every minute while you are nearby, so kill the three elders (top room and both wings) as fast as possible."
+        "a": "Milk clears the current effect. Kill all three elders to prevent reapplication, then drink milk or wait for the effect to expire. In Java they check once per minute; in Bedrock they can reapply it immediately while you are in range."
       },
       {
         "q": "What loot is in an ocean monument?",
-        "a": "8 gold blocks in the central treasure chamber, wet sponges (around 30 per sponge room, plus one from each elder guardian), prismarine blocks and sea lanterns everywhere, and tide armor trims from elder guardians."
+        "a": "8 gold blocks in the central treasure chamber, prismarine and sea lanterns, plus about 30 wet sponges per sponge room if any generated. Killing elders yourself gives wet sponges and a chance for tide armor trims."
       },
       {
-        "q": "Can guardians spawn outside the monument?",
-        "a": "No - guardians spawn only inside the ocean monument's bounding box, which is exactly why drained monuments make such efficient guardian farms."
+        "q": "Do guardian farms work the same in Java and Bedrock?",
+        "a": "No. Use an edition-specific design. In Bedrock, guardians spawn in 25 fixed columns associated with the monument, and removing the building does not remove those spawning locations."
       }
     ],
     "relatedGuides": [
@@ -4305,11 +4305,11 @@
     "slug": "how-to-get-sponge",
     "name": "How to Get a Sponge in Minecraft",
     "shortTitle": "Get a Sponge",
-    "quickAnswer": "Sponges can only be found in ocean monuments. Each elder guardian drops 1 wet sponge, and sponge rooms hold about 30 wet sponges each on average. Dry them in a furnace or in the Nether.",
+    "quickAnswer": "Get wet sponges from ocean monuments: kill elder guardians yourself, or search for optional sponge rooms with about 30 wet sponges each. Dry them in a furnace or place them in the Nether.",
     "steps": [
       "Find an ocean monument: they sit in deep ocean biomes and are the only place sponges are found.",
-      "Kill the elder guardians: a monument always has three (one at the top, one in each wing), and each drops 1 wet sponge.",
-      "Look for sponge rooms: monuments can have them, and each room contains an average of 30 wet sponges.",
+      "Kill the elder guardians yourself: a monument has three (one at the top and one in each wing), and each player kill gives 1 wet sponge.",
+      "Look for sponge rooms: some monuments have none, while others have one or more. Each contains about 30 wet sponges.",
       "Mine sponges by hand or with any tool: a hoe is the quickest.",
       "Dry a wet sponge in a furnace with any fuel. If a bucket is in the fuel slot when it finishes, the water drains into the bucket.",
       "Or place a wet sponge in the Nether: it dries instantly with a puff of steam.",
@@ -4320,7 +4320,7 @@
       "A hoe (fastest sponge tool)",
       "Furnace or Nether access for drying"
     ],
-    "editionNote": "In Bedrock Edition, a wet sponge placed in any dry Overworld biome dries after a few minutes. In a dry biome a normal sponge that absorbs water dries out immediately with a puff of steam.",
+    "editionNote": "Player kills give wet sponges in both editions; tamed wolf kills also qualify in Java, but not in Bedrock. In Bedrock, wet sponges placed in a dry Overworld biome dry after a few minutes. A furnace or placement in the Nether works in both editions.",
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
@@ -18481,14 +18481,14 @@
     "slug": "how-to-raid-ocean-monument",
     "name": "How to Raid an Ocean Monument in Minecraft",
     "shortTitle": "Raid an Ocean Monument",
-    "quickAnswer": "Bring water breathing potions, night vision, good armor and milk. Kill the 3 elder guardians first (top room and both wings) to end the Mining Fatigue III, then loot the treasure chamber (8 gold blocks in dark prismarine) and the sponge rooms (~30 wet sponges each).",
+    "quickAnswer": "Bring water breathing potions, night vision, good armor and milk. Kill the 3 elder guardians (top room and both wings) to stop new Mining Fatigue applications; then clear the remaining effect with milk or wait for it to expire. Loot 8 gold blocks in the treasure chamber and any sponge rooms that generated.",
     "steps": [
-      "Prepare: water breathing potions (8 min), night vision, depth strider boots, a door or conduit for air pockets, and milk buckets against Mining Fatigue.",
-      "Expect the curse: every elder guardian within 50 blocks applies Mining Fatigue III for 5 minutes, making mining nearly impossible. Milk clears it briefly.",
-      "Kill the elder guardian in the topmost room first, then the one in each wing. Use a bow in open water or a sword up close; thorns armor hurts, so watch your health.",
+      "Prepare water breathing potions (extended potions last 8 minutes), night vision, Depth Strider boots, armor, a weapon, food and milk. Doors provide underwater air pockets in Java only; do not rely on that trick in Bedrock.",
+      "Elder guardians within 50 blocks apply Mining Fatigue III for 5 minutes. Milk clears the effect, but Java elders check once per minute and Bedrock elders can reapply it immediately while you are in range.",
+      "Kill the elder guardian in the top room, then the one in each wing. Break line of sight with solid blocks while its laser charges. Its extended spikes hurt you when you hit it, so watch your health.",
       "Loot the treasure chamber in the central section: 8 blocks of gold encased in dark prismarine.",
-      "Find the sponge rooms (opening only in the floor): about 30 wet sponges per room, the only sponge source in the game.",
-      "Farm guardians afterward: they only spawn in and around the monument, dropping prismarine shards, prismarine crystals and fish."
+      "Look for sponge rooms, which have an opening in the floor and about 30 wet sponges on the ceiling. They are not guaranteed to generate. Killing each elder yourself is another source of wet sponges.",
+      "For a guardian farm afterward, use a design for your edition. Bedrock uses 25 fixed spawning columns, so Java and Bedrock layouts are not interchangeable."
     ],
     "materials": [
       "Water breathing potions",
@@ -18497,16 +18497,16 @@
       "Depth Strider boots and Respiration helmet",
       "Sword or bow, plus food"
     ],
-    "editionNote": "The raid works the same in Java and Bedrock. In Bedrock the Mining Fatigue particle comes from a separate elder guardian ghost entity, and guardians spawn slightly differently, but the 3 elder guardians and loot are identical.",
-    "versions": "Ocean monuments exist since 1.8 (Bountiful Update). They remain the only sponge source and the only guardian spawn location.",
+    "editionNote": "Both editions have three elder guardians per monument. Doors provide underwater air pockets only in Java. Bedrock guardians spawn in 25 fixed columns. Milk can give a brief break from Mining Fatigue in Java, but Bedrock elders can reapply it immediately in range.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "faq": [
       {
         "q": "How do you get rid of Mining Fatigue in an ocean monument?",
-        "a": "Kill all 3 elder guardians: one in the top room and one in each wing. Until then they reapply Mining Fatigue III every minute within 50 blocks. Milk buckets clear the effect for a few seconds of mining at a time."
+        "a": "Kill all 3 elders to prevent new applications, then drink milk or wait for the existing effect to expire. While elders remain alive within 50 blocks, Java checks once per minute and Bedrock can reapply the effect immediately."
       },
       {
         "q": "What loot is in an ocean monument?",
-        "a": "8 gold blocks in the central treasure chamber, around 30 wet sponges per sponge room, and unlimited prismarine shards and crystals from farming guardians. Elder guardians also drop wet sponges, tide armor trims (20%) and prismarine loot."
+        "a": "8 gold blocks in the central treasure chamber, prismarine and sea lanterns, and about 30 wet sponges per sponge room if any generated. Killing elders yourself gives wet sponges, a 20% chance for a tide armor trim, and prismarine loot."
       },
       {
         "q": "Can you drain an ocean monument?",
