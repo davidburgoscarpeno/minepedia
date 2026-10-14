@@ -8460,36 +8460,36 @@
     "shortTitle": "Get Infinity",
     "quickAnswer": "Infinity goes on bows: enchanting tables, librarian trades, fishing, monster rooms and structure loot all give it. One arrow in your inventory means unlimited shots - but it can't be combined with Mending, and tipped or spectral arrows are still consumed.",
     "steps": [
-      "Enchant a bow: Infinity is a level-I-only enchantment, so even modest enchanting table rolls can land it - no level-30 setup required.",
-      "Trade with librarians: reroll lecterns until an Infinity book appears and lock it. (If you play with the Villager Trade Rebalance experiment on, only DESERT librarians sell it.)",
+      "Enchant a bow and check for Infinity. Its maximum level is I, but that does not mean every enchanting-table offer can produce it. Higher-level offers can help; the result is still random.",
+      "With standard trades, look for an Infinity book from a librarian and lock a useful trade. If the Villager Trade Rebalance experiment is enabled, desert librarians supply it.",
       "Fish and loot: fishing, monster room chests and non-village structure loot carry Infinity books; Bedrock raid mobs drop enchanted books too.",
-      "Apply on an anvil: book + bow, cheap since it's only level I. Done - infinite arrows.",
+      "Apply an Infinity book to a bow on an anvil. Check the displayed XP cost; level I does not guarantee a cheap anvil operation.",
       "Keep one arrow: Infinity needs at least one arrow anywhere in your inventory to work. Fired infinity arrows can't be picked back up.",
-      "Know the exceptions: tipped arrows and spectral arrows are always consumed, Infinity or not - carry normal arrows for everyday shooting.",
-      "Choose your side: Infinity and Mending are mutually exclusive since 1.11.1. Infinity = never craft arrows again; Mending = a bow that never breaks. Most players pick Mending once they have a skeleton farm or fletcher trades, and Infinity before that.",
-      "Crossbow note: Infinity is bow-only in Survival. Commands can force it onto a crossbow (works for arrows, not firework rockets) - it does nothing on a trident."
+      "Tipped arrows and Java-only spectral arrows are consumed even with Infinity. Carry normal arrows if you want the ammunition-saving effect.",
+      "Infinity and Mending are incompatible. Infinity saves normal arrows; Mending repairs with collected XP but still needs ammunition and does not guarantee an unbreakable bow.",
+      "Infinity is bow-only through normal Survival enchanting. Command-forced crossbow behavior is outside a normal build."
     ],
     "materials": [
       "A bow",
-      "Enchanting table (any level works - it's level I)",
+      "Enchanting table and lapis, or an Infinity book",
       "Librarian + lectern for the targeted book",
       "At least one arrow in your inventory",
       "Anvil if applying a book"
     ],
-    "editionNote": "Same behavior in Java and Bedrock: one inventory arrow enables unlimited normal shots; tipped and spectral arrows always get consumed. The trade-rebalance note (desert librarians only) applies to both editions. Bedrock's extra source is raid-dropped books.",
-    "versions": "Added in Java 1.1. Infinity and Mending became mutually exclusive in 1.11.1 (16w50a). Since 1.20.5, tag manipulation can make it function on crossbows - still not Survival-legit.",
+    "editionNote": "Both editions save normal arrows, not tipped arrows. Spectral arrows are Java-only and are also consumed. With the Villager Trade Rebalance experiment, desert librarians supply Infinity; standard trades use different rules. Bedrock raid-spawned mobs can drop enchanted books.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Does Infinity need an arrow in the inventory?",
-        "a": "Yes - you must carry at least one normal arrow for Infinity to fire. It never gets consumed, but it has to be there. Tipped and spectral arrows are always consumed regardless."
+        "a": "Yes, carry at least one normal arrow for unlimited normal shots. Tipped arrows and Java-only spectral arrows are consumed normally."
       },
       {
         "q": "Can you have Infinity and Mending on the same bow?",
-        "a": "Not in Survival - they've been mutually exclusive since 1.11.1. Commands can force both, and then they work together, but legit play forces the choice: infinite ammo or infinite durability."
+        "a": "Not through normal Survival enchanting or anvil combinations. Commands can force both and they function together, but Mending still requires collected XP rather than guaranteeing infinite durability."
       },
       {
         "q": "Is Infinity better than Mending on a bow?",
-        "a": "Early game, Infinity wins - arrows are annoying to farm. Once you have a skeleton farm, a fletcher, or a gravel-to-flint routine, Mending usually wins because a stack of arrows plus self-repair beats re-crafting bows."
+        "a": "Infinity suits a limited normal-arrow supply. Mending suits a steady arrow supply and access to repair XP. Tipped arrows are consumed either way, so choose based on your ammunition and repair plans."
       }
     ],
     "relatedGuides": [
@@ -8578,15 +8578,15 @@
     "slug": "how-to-get-power",
     "name": "How to Get Power in Minecraft (Power V)",
     "shortTitle": "Get Power",
-    "quickAnswer": "Power boosts bow damage by 25% × (level + 1) - that's +150% at Power V. Get it from enchanting tables (Power V can roll directly since 1.8), librarian trades, fishing, monster rooms and structure loot, then combine books on an anvil.",
+    "quickAnswer": "Power boosts bow arrow damage by 25% × (level + 1), giving +150% at V. Enchanting tables, librarian trades, fishing and structure loot can supply it. Power V can appear directly in high-level table offers or be made by combining IV books or bows.",
     "steps": [
-      "Enchant a bow: Power is a common table enchant (weight 10), and since 1.8 the table can roll Power V directly at high levels - no anvil chain needed if you're lucky.",
+      "Enchant a bow at the table. High-level offers can give Power V directly, but the result is random. Two Power IV books or bows can be combined on an anvil for V.",
       "Trade with librarians: reroll a lectern until a Power book appears and lock it. Combine I+I, II+II and so on up to V.",
       "Fish and loot: fishing books, monster room chests and non-village structure loot carry Power; Bedrock raid mobs drop enchanted books too.",
       "Apply on an anvil: book + bow. Power stacks with every other bow enchant - it goes fine with Infinity OR Mending, Punch, Flame and Unbreaking.",
-      "Know the numbers: Power adds 25% × (level + 1) arrow damage, rounded up to the nearest half-heart. Power V is +150% - a fully charged critical shot can one-shot most common mobs.",
-      "Pair it: Power V + Infinity is the classic lazy sniper; Power V + Mending is the endgame one. Either way, Power is the first enchant your bow wants.",
-      "Crossbow note: Power is bow-only in Survival - commands and tag edits can make it work on crossbows since 1.20.5, but that's not legit play."
+      "Power adds 25% × (level + 1) to arrow damage, rounded up to the nearest half-heart: +150% at V. Actual hit damage still depends on charge, distance and the target, including armor.",
+      "Pair Power V with Infinity or Mending, then add Unbreaking, Punch and Flame if useful. Choose the ammunition and repair plan that fits your play.",
+      "Power is bow-only through normal Survival enchanting. Command-forced crossbow behavior is outside a normal build."
     ],
     "materials": [
       "A bow",
@@ -8594,16 +8594,16 @@
       "Librarian + lectern for targeted books",
       "Anvil and XP for combining"
     ],
-    "editionNote": "Identical formula and sources in Java and Bedrock: 25% × (level + 1), rounded to half-hearts. Bedrock's only extra is raid mobs dropping enchanted books.",
-    "versions": "Added in Java 1.1 and Pocket Edition v0.12.1. Power V became available straight from the enchanting table in 1.8 (14w02a). Since 1.20.5, tag manipulation can technically enable it on crossbows.",
+    "editionNote": "Power uses the 25% × (level + 1) damage increase. Actual arrow damage depends on the shot and target; the formula is not a guaranteed one-hit kill. Bedrock raid-spawned mobs are an extra source of enchanted books.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How much damage does Power V add?",
-        "a": "Power adds 25% × (level + 1) to arrow damage - 150% at Power V, rounded up to the nearest half-heart. A fully charged Power V shot turns the bow into a one-hit answer to most overworld mobs."
+        "a": "Power V adds 150% to arrow damage, rounded up to the nearest half-heart. The actual hit still depends on charge, distance and the target; it is not a guaranteed one-shot kill."
       },
       {
         "q": "Can Power go on a crossbow?",
-        "a": "Not in Survival - it's bow-only. Since 1.20.5 you can force it onto crossbows with commands or tag edits and it functions, but there's no legitimate way to enchant a crossbow with Power."
+        "a": "Not through normal Survival enchanting. Command-forced Power can affect crossbow arrows, but that is outside a normal crossbow build."
       },
       {
         "q": "What are the best bow enchantments?",
@@ -15741,15 +15741,15 @@
     "slug": "how-to-make-a-crossbow",
     "name": "How to Make a Crossbow in Minecraft",
     "shortTitle": "Crossbow",
-    "quickAnswer": "Craft a crossbow with 3 sticks, 2 string, 1 iron ingot and 1 tripwire hook. It loads arrows or firework rockets, stays loaded until you fire, and hits harder than a bow at the cost of a 1.25-second reload - or 0.5 seconds with Quick Charge III. Multishot and Piercing are its signature enchants.",
+    "quickAnswer": "Craft a crossbow with 3 sticks, 2 string, 1 iron ingot and 1 tripwire hook. It stays loaded until fired and uses arrows or firework rockets. Loading takes 1.25 seconds, or 0.5 seconds with Quick Charge III. Choose Multishot or Piercing, not both.",
     "steps": [
       "Gather the parts: 3 sticks, 2 string, 1 iron ingot and 1 tripwire hook (1 iron ingot + 1 stick + 1 plank makes 2 hooks).",
       "Craft it. Sticks in the top corners, iron between them, string on the middle sides, the tripwire hook in the center, and the last stick below it. Out comes the crossbow.",
       "Load and fire. Hold right-click to draw (1.25 seconds), and the crossbow stays loaded in your hotbar until you right-click again to fire - unlike a bow, you can keep it cocked forever and swap between nine loaded crossbows.",
-      "Try firework ammo. Load a firework rocket instead of an arrow and it explodes on impact: damage scales with the number of firework stars in the rocket, up to 11-18 damage with a 7-star rocket.",
-      "Enchant it. Quick Charge cuts reload to 1s / 0.75s / 0.5s at levels I-III. Multishot fires 3 projectiles in a spread for one arrow. Piercing makes arrows pass through up to 4 targets and ignore shields - and Piercing arrows can be picked back up, like a crossbow Infinity.",
+      "Use firework rockets with firework stars for explosive ammunition; rockets without stars deal no damage. In Java, crossbow rockets explode on contact with blocks or entities. Damage depends on the stars and distance from the explosion, not a guaranteed fixed hit.",
+      "Quick Charge reduces loading to 1 / 0.75 / 0.5 seconds at I/II/III. Multishot fires 3 projectiles for one ammunition item. Piercing IV arrows can pass through 4 entities and damage 5 in total, ignore blocking shields and be retrieved; Piercing does not affect rockets.",
       "Know the exclusivity. Multishot and Piercing are mutually exclusive - pick one per crossbow. Unbreaking and Mending work as usual.",
-      "Get one free. Pillagers and piglins drop crossbows 8.5% of the time (+1% per Looting level), sometimes already enchanted - an easy starter crossbow from your first patrol or bastion raid."
+      "Pillagers and crossbow-wielding piglins can drop a crossbow. The equipment drop chance starts at 8.5% and rises by 1 percentage point per Looting level. Do not expect every piglin to carry one."
     ],
     "materials": [
       "3 sticks, 2 string",
@@ -15757,20 +15757,20 @@
       "Arrows or firework rockets as ammo",
       "Optional: Quick Charge, Multishot or Piercing books"
     ],
-    "editionNote": "Identical recipe and enchants in Java and Bedrock. Damage differs slightly: Java arrows deal 7-11 damage while Bedrock deals a flat 9. The successful-hit \"ding\" sound when shooting another player is Java-only.",
-    "versions": "Crossbows were added in Java 1.14 (Village & Pillage, 18w43a) alongside pillagers, and in Bedrock 1.8.0 as experimental gameplay. Quick Charge, Multishot and Piercing launched with them and are unchanged.",
+    "editionNote": "The recipe and normal enchantment choices match in both editions. Arrow damage differs: Java crossbow arrows deal 7-11 HP and Bedrock arrows 9 HP before other effects. Java rockets explode on impact; do not assume identical rocket behavior in Bedrock. Damage numbers are HP, with 2 HP per heart.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Crossbow or bow?",
-        "a": "A bow with Power V shoots faster and can have Infinity; a crossbow hits harder per shot, stays loaded for instant first strikes, and is the only way to fire fireworks and Piercing arrows. Most players carry a bow for sustained fights and a crossbow for ambushes and Multishot bursts."
+        "a": "A bow can use Power and Infinity; a crossbow stays loaded and supports rockets and Piercing. An unenchanted crossbow is not always stronger than an enchanted bow. Pick based on sustained fire, loaded first shots and ammunition."
       },
       {
         "q": "How do I load a firework into a crossbow?",
-        "a": "Hold the firework rocket in your off-hand (or main hand with the crossbow in the other), then hold right-click as usual - the crossbow loads the rocket instead of an arrow. Rockets with more firework stars explode harder."
+        "a": "Hold a firework rocket in your offhand and load the crossbow in your main hand. The rocket takes priority over arrows. Explosive damage requires firework stars; rockets without stars do no damage."
       },
       {
         "q": "Is Multishot or Piercing better?",
-        "a": "Multishot for crowds and close range: three arrows (or three exploding fireworks) for the price of one. Piercing for lined-up mobs, shielded players in PvP, and reusable arrows. You cannot have both on one crossbow, so enchant two."
+        "a": "Multishot spreads three projectiles for one ammunition item; Piercing helps with lined-up targets, shields and retrieving arrows. In Java, only one arrow from the same Multishot shot can damage a given mob. The enchantments cannot coexist normally."
       }
     ],
     "relatedGuides": [
@@ -21321,24 +21321,21 @@
     "slug": "how-to-make-a-bow",
     "name": "How to Make a Bow in Minecraft",
     "shortTitle": "Make a Bow",
-    "quickAnswer": "Craft a bow with 3 sticks in a diagonal and 3 string down the right column. You need arrows to shoot it, and the best enchants are Power, Infinity or Mending (they are mutually exclusive), Flame, Punch, and Unbreaking.",
+    "quickAnswer": "Craft a bow with 3 sticks in a bent shape: top-center, middle-left and bottom-center, plus 3 string down the right column. It fires arrows. Choose Infinity or Mending, not both; Power, Flame, Punch and Unbreaking can complete the build.",
     "steps": [
       "Get 3 sticks from planks and 3 string from spiders or cobwebs.",
       "Open the crafting table.",
       "Place 1 stick in the top-center, 1 in the middle-left, and 1 in the bottom-center, forming a backward C.",
       "Fill the entire right column with 3 string.",
       "Take the bow.",
-      "Craft arrows (flint + stick + feather) or get an Infinity enchant so a single arrow never runs out."
+      "Craft arrows with flint + stick + feather, or use Infinity to save normal arrows while carrying at least one."
     ],
     "materials": [
       "3 sticks",
       "3 string"
     ],
-    "editionNote": "The bow recipe is the same in Java and Bedrock. Mending and Infinity cannot go on the same bow, so pick one: Infinity means one arrow lasts forever, Mending means the bow repairs itself with XP. You can also get bows from skeleton drops, fishing loot, or fletcher villagers, and a fully drawn shot deals up to 9-10 damage. Durability is 384 in Java and 385 in Bedrock.",
-    "versions": [
-      "java",
-      "bedrock"
-    ],
+    "editionNote": "The recipe is the same in Java and Bedrock. Durability is 384 in Java and 385 in Bedrock. Infinity saves normal arrows, not tipped arrows or Java-only spectral arrows. Mending repairs with collected XP, not automatically without XP. Skeletons, fishing and fletcher trades are other bow sources.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "What is the best enchantment for a bow in Minecraft?",
@@ -21346,15 +21343,15 @@
       },
       {
         "q": "Should I put Infinity or Mending on my bow?",
-        "a": "Infinity if you hate crafting arrows, Mending if you want the bow to last forever and have an arrow farm. They are mutually exclusive, so you must choose."
+        "a": "Infinity reduces normal-arrow use if you carry at least one. Mending lets collected XP repair the bow, but you still need ammunition and must watch durability. Choose based on your arrow supply and repair plans."
       },
       {
         "q": "How do you repair a bow in Minecraft?",
-        "a": "Combine two damaged bows in a crafting grid or on an anvil, or use a Mending-enchanted bow and hold it while collecting XP. Anvil repairs keep enchantments; grid repairs do not."
+        "a": "Combine two bows on an anvil to repair while keeping compatible enchantments, or hold a damaged Mending bow while collecting XP. Crafting-grid repair removes ordinary enchantments but keeps curses; inspect the result before taking it."
       },
       {
         "q": "Can you craft a crossbow instead?",
-        "a": "Yes, a crossbow uses 3 sticks, 2 string, 1 iron ingot, and 1 tripwire hook. It hits harder and can load fireworks, but draws slower than a bow."
+        "a": "Yes: 3 sticks, 2 string, 1 iron ingot and 1 tripwire hook. A crossbow can stay loaded and fire rockets. Damage depends on ammunition and enchantments; a Power V bow can deal more arrow damage than an unenchanted crossbow."
       }
     ],
     "relatedGuides": [
@@ -21368,7 +21365,7 @@
         "label": "How to Make a Crossbow"
       },
       {
-        "url": "/guides/how-to-make-a-fishing-rod/",
+        "url": "/guides/how-to-make-fishing-rod/",
         "label": "How to Make a Fishing Rod"
       },
       {
@@ -31212,7 +31209,7 @@
     "slug": "best-bow-enchantments",
     "name": "Best Bow Enchantments in Minecraft",
     "shortTitle": "Best Bow Enchantments",
-    "quickAnswer": "The perfect bow: Power V, Unbreaking III, Flame, Punch II, and your pick of Infinity or Mending - they conflict. Most players take Infinity plus an arrow farm; Mending bows need you to carry stacks of arrows.",
+    "quickAnswer": "Use Power V, Unbreaking III, Flame and Punch II, then choose Infinity or Mending: those two conflict. Infinity saves normal arrows; Mending repairs with collected XP. Neither choice removes the need to watch bow durability.",
     "keywords": "best bow enchantments minecraft power infinity mending flame punch perfect bow",
     "materials": [
       "An enchanting table with 15 bookshelves, or an anvil plus enchanted books",
@@ -31220,24 +31217,24 @@
       "A bow (and arrows)"
     ],
     "steps": [
-      "Power V: +150% damage at max level - one-shots most mobs with a full draw. The bow's Sharpness.",
-      "Infinity: shoot forever with a single arrow in your inventory. The classic choice - conflicts with Mending.",
-      "Mending: repairs the bow with XP, but then you carry arrows. Take it if you have a big arrow farm (or tipped arrows to spend).",
+      "Power V adds 150% to arrow damage before the shot result. Charge, distance, armor and the target affect actual damage, so do not expect every mob to die in one hit.",
+      "Infinity lets you fire normal arrows without consuming them while carrying at least one. Tipped arrows and Java-only spectral arrows are still consumed; it conflicts with Mending.",
+      "Mending repairs the damaged bow when you hold it and collect XP. Other damaged Mending equipment can receive an orb. Choose it if you can supply arrows and repair XP.",
       "Unbreaking III: quadruples average durability - essential whichever way you go on Infinity vs Mending.",
       "Flame: sets targets on fire - extra damage over time and it lights TNT and campfires at range.",
       "Punch II: massive knockback - knocks mobs off cliffs and keeps creepers at distance.",
       "Getting them: Power, Punch, Flame and Infinity all come from the table; finish with anvil combinations or librarian books."
     ],
-    "versions": "Stable across all current versions. Infinity never worked on tipped or spectral arrows - they are consumed normally.",
-    "editionNote": "Identical on Java and Bedrock.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "The normal enchantment choices work in both editions. Spectral arrows exist only in Java. Infinity does not save tipped arrows or spectral arrows. Mending and Infinity cannot coexist through normal Survival enchanting.",
     "faq": [
       {
         "q": "Infinity or Mending?",
-        "a": "Infinity for most players: one arrow in the inventory and you never count again. Mending only wins if you shoot tipped arrows constantly - those are consumed even with Infinity."
+        "a": "Infinity saves normal arrows but leaves repair to other methods. Mending repairs with collected XP, while ammunition is consumed. Your arrow supply, arrow type and repair plans decide which fits."
       },
       {
         "q": "Why can't my bow have both?",
-        "a": "Mojang made them mutually exclusive years ago - infinite arrows plus infinite durability was too strong. No way around it in vanilla."
+        "a": "The game makes Infinity and Mending incompatible through normal enchanting and anvil combinations. Commands can force them together, but that is outside a normal Survival build."
       }
     ],
     "relatedGuides": [
@@ -31392,7 +31389,7 @@
     "slug": "best-crossbow-enchantments",
     "name": "Best Crossbow Enchantments in Minecraft",
     "shortTitle": "Best Crossbow Enchantments",
-    "quickAnswer": "Quick Charge III plus either Multishot or Piercing IV - those two are incompatible. Add Unbreaking III and Mending. Power, Infinity and Flame do not exist for crossbows.",
+    "quickAnswer": "Use Quick Charge III and either Multishot or Piercing IV, which conflict. Add Unbreaking III and Mending. Power, Punch, Flame and Infinity are not normal Survival crossbow enchantments.",
     "keywords": "best crossbow enchantments minecraft quick charge multishot piercing fireworks",
     "materials": [
       "A crossbow (crafted or dropped by pillagers)",
@@ -31400,24 +31397,24 @@
       "Lapis and XP levels"
     ],
     "steps": [
-      "Quick Charge III: cuts reload time to about half a second - the single best crossbow enchantment.",
-      "Multishot: fires 3 projectiles in a spread for one arrow - devastating at close range, triples durability use.",
-      "Piercing IV (alternative): arrows pass through up to 5 entities and through shields - better at range and in PvP. Incompatible with Multishot.",
-      "Multishot plus firework rockets: three exploding rockets per shot - the highest burst damage a crossbow can do.",
-      "Unbreaking III: essential with Multishot, which drains 3 durability per shot.",
-      "Mending: repairs the crossbow with XP so your enchanted one never dies.",
-      "Note: Power, Flame, Punch and Infinity are bow-only - they cannot go on a crossbow."
+      "Quick Charge III reduces loading from 1.25 to 0.5 seconds.",
+      "Multishot fires 3 projectiles for one ammunition item. In Java, damage immunity means only one arrow from a shot can damage the same mob; it is a spread, not guaranteed triple damage.",
+      "Piercing IV arrows pass through up to 4 entities and can damage 5 in total, including targets blocking with shields. Arrows can be retrieved. Piercing does not work on firework rockets and conflicts with Multishot.",
+      "Multishot can launch three firework rockets for one rocket item. Add firework stars for damage. In Java they explode on impact; do not assume the same impact behavior or guaranteed burst damage in Bedrock.",
+      "Unbreaking reduces durability loss. A normal arrow shot costs 1 durability, a Multishot arrow shot 3; rocket shots cost 3, or 9 with Multishot, before Unbreaking checks.",
+      "Mending repairs the damaged crossbow when held while collecting XP. Other damaged Mending equipment can receive an orb, and the crossbow can still break without enough repair XP.",
+      "Power, Flame, Punch and Infinity cannot normally be applied to crossbows in Survival. Command-only behavior is separate from a normal build."
     ],
-    "versions": "Multishot fires three projectiles on both editions. On Java, Multishot uses 3 durability per shot.",
-    "editionNote": "Multishot plus fireworks is the strongest close-range option on both editions; Piercing IV is the ranged and shield-counter pick.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Multishot spreads three projectiles in both editions. Java arrows from one shot do not all damage the same mob, and Java rockets explode on impact. Piercing is for arrows, not rockets. Choose by ammunition and target layout rather than assuming one highest-damage build.",
     "faq": [
       {
         "q": "Multishot or Piercing?",
-        "a": "Multishot for close-range burst and firework rockets; Piercing for line-up shots, shields and saving arrows. You cannot have both on one crossbow - many players carry one of each."
+        "a": "Multishot is useful for a spread across several targets or rockets. Piercing helps with targets in a line, shields and retrievable arrows. They are incompatible. Java Multishot arrows do not guarantee triple damage against one target."
       },
       {
         "q": "Can you put Infinity on a crossbow?",
-        "a": "No. Infinity is bow-only. Multishot is the crossbow's ammo-saver: three shots for one arrow."
+        "a": "Not through normal Survival enchanting. Multishot produces three projectiles for one ammunition item, but Piercing is the option that lets arrows be retrieved after hitting targets."
       }
     ],
     "relatedGuides": [
