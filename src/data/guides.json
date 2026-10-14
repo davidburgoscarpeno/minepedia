@@ -14180,15 +14180,15 @@
       "Farm it: an ocean ruin or river farm that spawns natural drowned produces tridents over time - converted-zombie farms do not.",
       "Alternative: trial chamber vaults can rarely contain tridents.",
       "Enchant it: Loyalty returns the thrown trident, Riptide launches you in water or rain, Channeling summons lightning in thunderstorms, Impaling adds damage.",
-      "Keep it alive: tridents have low durability and cannot be crafted - repair with Mending or combine two on an anvil."
+      "Repair with Mending while holding the damaged trident and collecting XP, or combine two tridents on an anvil. Other damaged Mending equipment can receive an orb; keep watching durability."
     ],
     "materials": [
       "Weapon with Looting III (recommended)",
       "Ocean or river access",
-      "Mending (to keep it forever)"
+      "Mending and repair XP (recommended, not an unbreakable guarantee)"
     ],
     "editionNote": "The big edition gap is drop rate: 8.5% in Java versus 25% in Bedrock per trident-wielding drowned killed by a player or tamed wolf. Riptide and Channeling work in both, and neither edition lets you craft a trident.",
-    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Can you craft a trident?",
@@ -14200,7 +14200,7 @@
       },
       {
         "q": "Riptide or Loyalty?",
-        "a": "They are mutually exclusive, so most players carry two tridents: Loyalty for combat (it returns after every throw) and Riptide for travel, launching you through water and rain. Channeling pairs with Loyalty for thunderstorm lightning."
+        "a": "Choose Loyalty for a returning thrown weapon, or Riptide for movement in water or rain. They are incompatible. Loyalty needs a hit to start returning and does not save Java tridents thrown into the void. Channeling can coexist with Loyalty."
       }
     ],
     "relatedGuides": [
@@ -15936,11 +15936,11 @@
     "shortTitle": "Riptide",
     "quickAnswer": "Riptide is a trident enchantment that launches YOU when you throw the trident in water or rain - the trident never leaves your hand. Max level III. Get it from an enchanting table, librarian trades, loot chests or anvil combining, but it cannot be combined with Loyalty or Channeling.",
     "steps": [
-      "Get a trident first. Drowned spawn holding them in rivers and oceans; kill the holder for a chance at the drop - Looting III helps. It is the rarest mainstream weapon in the game.",
-      "Enchant the trident. Put it in an enchanting table (tridents are enchantable directly) or use an anvil with a Riptide book from a librarian, ocean ruin or shipwreck chest, or fishing treasure.",
-      "Level it to III. Riptide I launches you a short distance; III throws you far - combine two lower-level Riptide items or books on an anvil to climb. Higher level means longer, faster launches.",
-      "Use it to fly. Throw it while standing in water or exposed to rain and you launch with it. Throw straight up for height, or sprint-swim and throw forward for speed. Paired with elytra, Riptide III in rain is the fastest transport in the game.",
-      "Accept the trade-offs. A Riptide trident cannot be thrown as a normal projectile and never leaves your hand, so it cannot have Loyalty (nothing to return) or Channeling. Each throw costs 1 durability in Java - carry Mending."
+      "Get a trident from a naturally spawned drowned holding one or from a trial chamber vault. Looting helps the drowned drop chance; tridents cannot be crafted.",
+      "Enchant the trident at a table, or apply a Riptide book on an anvil. Librarian trades, fishing treasure and structure loot are book sources.",
+      "Combine two Riptide I books or tridents for II, then two II for III. Higher levels give a larger launch.",
+      "Use it while in water or exposed to rain to launch yourself. Snow and overcast skies do not count as rain. Combining it with elytra can help travel, but clear weather stops rain-powered launches.",
+      "Riptide replaces the thrown projectile and is incompatible with Loyalty and Channeling. A launch consumes 1 durability in Java. Colliding with a mob to damage it consumes another point in both editions, so a Java launch with a collision can cost 2."
     ],
     "materials": [
       "Trident (from drowned)",
@@ -15948,12 +15948,12 @@
       "XP levels",
       "Mending (recommended - throws cost durability)"
     ],
-    "editionNote": "Riptide works the same in Java and Bedrock: it only activates in water or rain, and it is mutually exclusive with Loyalty and Channeling. The durability cost per throw is a Java-only rule.",
-    "versions": "Riptide was added in 1.13 (Update Aquatic, 2018) together with the trident itself. Its behavior has stayed consistent since: launch-only, no projectile, incompatible with the other trident movement enchants.",
+    "editionNote": "Both editions need water or rain and exclude Loyalty and Channeling. Java launches cost 1 durability; damaging collisions cost 1 in either edition. Snow does not activate Riptide. Watch fall height and durability.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Riptide or Loyalty on my trident?",
-        "a": "Different jobs. Loyalty makes it a returning ranged weapon for fighting drowned and guardians; Riptide turns it into a movement tool for rain and oceans. Many players carry one of each. They can never be on the same trident."
+        "a": "Loyalty is for a returning thrown weapon; Riptide is for movement in water or rain. They cannot coexist normally. Choose by use, or keep separate tridents."
       },
       {
         "q": "Can I use Riptide in a cauldron or bubble column?",
@@ -15961,7 +15961,7 @@
       },
       {
         "q": "Is Riptide worth it without elytra?",
-        "a": "Yes for ocean travel - Riptide III beats any boat. But it truly shines with elytra: throw up, deploy, and you have rain-powered flight with no fireworks."
+        "a": "It can help with water and rainy-weather travel without elytra, but it is not an all-weather transport option. Watch where you land and the trident durability."
       }
     ],
     "relatedGuides": [
@@ -15991,13 +15991,13 @@
     "slug": "how-to-get-channeling",
     "name": "How to Get Channeling in Minecraft",
     "shortTitle": "Channeling",
-    "quickAnswer": "Channeling is a trident enchantment (max level I) that summons a lightning bolt when your thrown trident hits a mob or other entity during a thunderstorm. Get it from an enchanting table, librarian trades or loot chests. It cannot be combined with Riptide.",
+    "quickAnswer": "Channeling, maximum I, summons lightning when a thrown trident hits a qualifying target during a thunderstorm with unobstructed sky above it. Bedrock lightning rods also work in ordinary rain. It is incompatible with Riptide.",
     "steps": [
       "Get a trident. Kill drowned that spawn holding one in rivers and oceans - Looting III improves your odds.",
       "Enchant it with Channeling. Enchanting table roll, anvil plus book from a librarian or loot chest, or combine two tridents. Channeling is a single-level enchant: no II or III to chase.",
-      "Wait for a thunderstorm. Channeling only fires while it is thundering - rain alone is not enough in Java. Sleep through normal rain, keep an ear out for thunder, and keep the trident ready.",
-      "Throw at anything living. When the trident lands on a mob, player, armor stand, boat or even an item frame during the storm, lightning strikes that spot: 5 HP of damage plus fire, on top of the trident hit.",
-      "Farm the special effects. Lightning converts pigs into zombified piglins, villagers into witches, creepers into CHARGED creepers (which make zombies, skeletons and creepers drop their heads when they explode) and red mooshrooms into brown ones. In Bedrock, hitting a lightning rod summons a strike even in ordinary rain."
+      "Use a thunderstorm for entity targets. Ordinary rain is not enough for those targets. In Bedrock, a lightning rod hit by the trident can trigger lightning during ordinary rain.",
+      "Aim at a qualifying target with no opaque or partially transparent blocks above it. Java mobs in water, lava, powder snow or cobwebs, and some other positions, do not summon lightning when hit directly. A nearby valid target can summon lightning that reaches them. Lightning damage is not guaranteed after the trident hit.",
+      "Lightning can transform pigs into zombified piglins, villagers into witches, creepers into charged creepers and swap red/brown mooshrooms. Use a charged creeper explosion to get heads from eligible mobs. Bedrock lightning rods can be struck in ordinary rain."
     ],
     "materials": [
       "Trident (from drowned)",
@@ -16005,20 +16005,20 @@
       "XP levels",
       "A thunderstorm (the hard part)"
     ],
-    "editionNote": "Java: lightning only during thunderstorms, on entities or lightning rods. Bedrock: hitting a lightning rod summons lightning during ANY rain, not just thunderstorms - much easier to trigger. Channeling and Riptide are mutually exclusive in both.",
-    "versions": "Channeling was added in 1.13 (Update Aquatic, 2018) alongside the trident. Its thunderstorm requirement and Riptide incompatibility have been unchanged since release.",
+    "editionNote": "Entity targets need a thunderstorm and clear sky above them; Java also restricts targets in some blocks or positions. Java lightning rods need thunderstorms. Bedrock lightning rods can trigger in ordinary rain. Riptide is incompatible in both editions.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Channeling or Riptide?",
-        "a": "Channeling for mob farms and head collecting, Riptide for movement. They cannot share a trident, so most late-game players own two tridents. Loyalty pairs fine with Channeling, by the way."
+        "a": "Channeling is for lightning and mob transformations; Riptide is for movement. They cannot coexist normally. Loyalty can coexist with Channeling."
       },
       {
         "q": "Why won't my Channeling trident summon lightning?",
-        "a": "It must be actively thundering - not just raining. In Java even a lightning rod needs a thunderstorm; only Bedrock triggers rods in normal rain. Check for thunder sounds and lightning flashes in the sky."
+        "a": "Check the weather, sky above the target and target position. Entity targets need a thunderstorm; Java targets in water and some other blocks can fail. Java rods also need thunder, while Bedrock rods work in ordinary rain."
       },
       {
         "q": "How do I get mob heads with Channeling?",
-        "a": "Strike a creeper with the trident during a thunderstorm to charge it, then get it to blow up next to a zombie, skeleton or another creeper - the victim drops its head. One charged creeper, one head, so plan the blast."
+        "a": "Charge a creeper with lightning, then let its explosion kill an eligible zombie, skeleton, wither skeleton, piglin or another creeper. Java chooses one eligible victim to drop a head per explosion; Bedrock lets all eligible victims drop their heads."
       }
     ],
     "relatedGuides": [
@@ -16052,8 +16052,8 @@
     "steps": [
       "Get a trident. Kill drowned that spawn holding one in rivers and oceans - Looting III raises the drop odds.",
       "Enchant it with Loyalty. Enchanting table roll, or an anvil plus a Loyalty book from a librarian, loot chest or fishing treasure.",
-      "Raise it to III. Loyalty I leaves you waiting a beat after each throw; III snaps the trident back almost instantly. Combine two same-level Loyalty items or books on an anvil to climb.",
-      "Fight at range without losing it. Throw, let it hit, and it returns on its own - no chasing drops into lava, oceans or ravines. It returns to you wherever you have moved, even through walls.",
+      "Combine two Loyalty I books or tridents for II, then two II for III. Higher levels increase return speed, but the return is not instant and still needs an impact to start.",
+      "After hitting a block or entity, the trident returns through blocks toward you in the same dimension. A full inventory makes it circle until a slot opens. Changing dimensions pauses the return; dying while it returns can leave it as a dropped item.",
       "Respect its limits. In Java, a trident thrown into the void is gone forever - there is nothing for it to bounce off, so it never comes back. In Bedrock it returns after about 15 blocks of void. And Loyalty can never share a trident with Riptide."
     ],
     "materials": [
@@ -16063,19 +16063,19 @@
       "Mending (recommended - throws still cost durability)"
     ],
     "editionNote": "Java: throwing into the void destroys the trident even with Loyalty III - this is working as intended. Bedrock: it returns after traveling about 15 blocks into the void, and dispenser-fired tridents do not return at all.",
-    "versions": "Loyalty was added in 1.13 (Update Aquatic, 2018) with the trident itself. Its return behavior and Riptide incompatibility have been unchanged since.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Loyalty or Riptide?",
-        "a": "Loyalty for combat - a reliable ranged weapon that always comes back. Riptide for movement. They are mutually exclusive, so most players carry two tridents. Loyalty also pairs nicely with Channeling."
+        "a": "Loyalty is for throwing and return; Riptide is for water/rain movement. They are incompatible. Loyalty can combine with Channeling, but does not guarantee recovery from every throw."
       },
       {
         "q": "My Loyalty trident never came back - why?",
-        "a": "Most likely it fell into the void (Java) with nothing to hit. It can also get stuck if you log out or die in some edge cases. In the End, never throw it into the void below the islands."
+        "a": "Check whether it hit anything, whether your inventory is full and whether you changed dimensions. A Java trident thrown into the void is lost. If you died during return, it may be a dropped item and can despawn."
       },
       {
         "q": "Does Loyalty III make it return instantly?",
-        "a": "Nearly - higher levels shorten the wait after impact. III is fast enough for rapid-fire throwing in fights, which is why it is the standard combat build with Impaling."
+        "a": "No. III returns faster than I or II, but it still travels back after activation. Distance, inventory space and dimension changes matter."
       }
     ],
     "relatedGuides": [
@@ -16105,12 +16105,12 @@
     "slug": "how-to-get-impaling",
     "name": "How to Get Impaling in Minecraft",
     "shortTitle": "Impaling",
-    "quickAnswer": "Impaling is a trident enchantment (max level V) adding 2.5 HP of damage per level. In Java it only boosts damage against aquatic mobs - fish, guardians, squids, turtles, dolphins, axolotls - and NOT drowned. In Bedrock it boosts damage against any mob that is in water or rain.",
+    "quickAnswer": "Impaling, maximum V, adds 2.5 HP per level against qualifying targets: 12.5 HP at V in Java, 12 HP after rounding in Bedrock. Java targets aquatic mobs, not drowned; Bedrock targets mobs and players touching water or rain. 2 HP equals one heart.",
     "steps": [
       "Get a trident. Drowned with tridents spawn in rivers and oceans; Looting III improves the drop chance.",
       "Enchant it. Enchanting table roll, or an anvil plus an Impaling book from a librarian, loot chest or fishing treasure. Combine same-level books to reach Impaling V.",
       "Know your edition. Java: the bonus only applies to aquatic mobs - guardians, elder guardians, all fish, squids, glow squids, turtles, dolphins, axolotls, tadpoles and nautiluses. Drowned count as pure undead and take nothing extra. Bedrock: ANY mob touching water or rain takes the bonus - players included.",
-      "Raid a monument. Impaling V turns elder guardians into four-hit kills and one-shots most fish and squids. It is the enchant that makes ocean monuments, guardian farms and warm-ocean exploring comfortable.",
+      "Use it against qualifying targets. Bonus damage applies to melee and thrown hits. Armor, attack charge and target health affect the number of hits needed; do not assume every monument mob dies in a fixed number.",
       "Mind the incompatibilities. Impaling cannot combine with Sharpness, Smite, Bane of Arthropods, Density or Breach - though in survival you would never fit those on a trident anyway, since they belong to swords, axes and maces."
     ],
     "materials": [
@@ -16119,8 +16119,8 @@
       "XP levels",
       "Loyalty or Riptide partner enchant (separate slots - they stack with Impaling)"
     ],
-    "editionNote": "The huge edition split: Java limits Impaling to aquatic mobs (drowned excluded - marked 'works as intended' on the bug tracker), while Bedrock applies it to anything standing in water or rain. Bedrock also rounds the bonus down to whole numbers per level.",
-    "versions": "Impaling was added in 1.13 (Update Aquatic, 2018) with the trident. Its Java aquatic-only scope and Bedrock water-or-rain scope have stayed the same since release.",
+    "editionNote": "Java applies the bonus to aquatic mobs but not drowned. Bedrock applies it to wet mobs and players and rounds the 2.5 HP per-level bonus down, giving 2/5/7/10/12 HP at I/II/III/IV/V. HP are damage points, with 2 per heart.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Does Impaling work on drowned?",
@@ -31345,20 +31345,20 @@
     "keywords": "best trident enchantments minecraft loyalty channeling riptide impaling drowned",
     "materials": [
       "A trident (dropped by drowned holding one - it cannot be crafted)",
-      "An anvil plus enchanted books (tridents rarely get good rolls at the table)",
+      "Enchanting table and lapis, or an anvil plus enchanted books",
       "XP levels"
     ],
     "steps": [
       "Pick your build first: Loyalty and Channeling are a throwing build; Riptide replaces throwing with a launch - they are mutually exclusive.",
-      "Throwing build: Loyalty III makes the trident return to your hand after every throw, faster at higher levels.",
-      "Throwing build: Channeling summons a lightning bolt on hit during a thunderstorm - turns pigs into zombie piglins, villagers into witches and creepers charged.",
+      "Loyalty III returns the thrown trident after a hit, faster than lower levels. Keep an inventory slot free; it cannot return across dimensions, and throwing into the Java void can lose it.",
+      "Channeling summons lightning when a thrown trident hits a qualifying target during a thunderstorm with clear sky above it. Java has additional target restrictions, including mobs in water. Bedrock lightning rods also work in ordinary rain.",
       "Travel build: Riptide III launches you through water or rain - pair it with elytra for rain-day flight without rockets.",
-      "Impaling V: extra damage against aquatic mobs on Java; on Bedrock it boosts damage against anything in water or rain - far stronger there.",
-      "Mending + Unbreaking III: Mending repairs your trident with collected XP. Unbreaking III makes a weapon last four times as long on average.",
+      "Impaling V adds damage to qualifying targets: aquatic mobs in Java, or mobs and players in water or rain in Bedrock. V adds 12.5 HP in Java or 12 HP after rounding in Bedrock.",
+      "Mending repairs the damaged trident when held while collecting XP; other damaged equipment can receive an orb. Unbreaking III gives weapons about four times their usual lifespan on average, not an unbreakable guarantee.",
       "Skip Curse of Vanishing books from loot - the trident disappears on death."
     ],
-    "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
-    "editionNote": "On Bedrock, Impaling V makes the trident a top-tier melee weapon in the rain. On Java it is mostly a guardian-farm tool.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Java Impaling targets aquatic mobs, not drowned. Bedrock applies it to wet targets, including players. Channeling needs sky exposure and a valid target; Bedrock lightning rods can trigger it in ordinary rain. Loyalty has void and return limits.",
     "faq": [
       {
         "q": "Can a trident have both Loyalty and Riptide?",
@@ -31370,7 +31370,7 @@
       },
       {
         "q": "Is Channeling useful?",
-        "a": "Yes, but only during thunderstorms: lightning on hit converts mobs (charged creepers for farming mob heads) and triggers lightning-based mechanics."
+        "a": "Yes: lightning can charge creepers and transform some mobs. Target conditions and sky exposure matter. Most uses need a thunderstorm, but Bedrock lightning rods also work in ordinary rain."
       }
     ],
     "relatedGuides": [
