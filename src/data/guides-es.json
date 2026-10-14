@@ -12776,11 +12776,11 @@
   "how-to-get-a-trident": {
     "name": "Cómo conseguir un Trident en Minecraft",
     "shortTitle": "Conseguir un Trident",
-    "quickAnswer": "Los tridents no se pueden craftear. Mata drowned que aparezcan con uno: el 6,25% de los drowned naturales llevan trident, y lo sueltan con un 8,5% de probabilidad en Java o 25% en Bedrock. Los vaults de los trial chambers también pueden dar uno raramente.",
+    "quickAnswer": "Los tridents no se pueden fabricar. Busca drowned naturales que lleven uno: sin Looting, una muerte causada por un jugador o lobo domesticado tiene un 8,5% de probabilidad de soltar ese trident en Java y un 25% en Bedrock. Los vaults de trial chambers también pueden dar un trident raramente.",
     "steps": [
-      "Encuentra drowned: ríos, océanos y swamps de noche, o cualquier zombie que se ahogue bajo el agua, pero ojo: los zombies convertidos nunca llevan tridents.",
+      "Busca drowned que aparezcan de forma natural en océanos o ríos. Convertir zombies en drowned no les da tridents nuevos, así que las granjas de conversión no son una fuente de tridents.",
       "Caza los que lleven un trident: el 6,25% de los drowned generados naturalmente tienen uno.",
-      "Mátalo con Looting III si puedes: la probabilidad base de drop es 8,5% en Java y 25% en Bedrock, y el Looting la sube.",
+      "Mata tú o con un lobo domesticado a un drowned que lleve trident. Sin Looting, tiene un 8,5% de probabilidad de soltar ese trident en Java y un 25% en Bedrock. Cada nivel de Looting suma 1 punto porcentual: con Looting III llega al 11,5% en Java y al 28% en Bedrock.",
       "Farméalo: una granja de ocean ruins o de río que genere drowned naturales produce tridents con el tiempo; las granjas de conversión de zombies no.",
       "Alternativa: los vaults de los trial chambers pueden contener tridents raramente.",
       "Encántalo: Loyalty devuelve el trident lanzado, Riptide te lanza en agua o lluvia, Channeling invoca rayos en tormentas, Impaling añade daño.",
@@ -12792,7 +12792,7 @@
       "Mending (para tenerlo para siempre)"
     ],
     "editionNote": "La gran diferencia entre ediciones es la tasa de drop: 8,5% en Java frente a 25% en Bedrock por drowned con trident matado por un jugador o un wolf domesticado. Riptide y Channeling funcionan en ambas, y ninguna edición deja craftear un trident.",
-    "versions": "Los tridents se añadieron en la 1.13 (la Update Aquatic) junto a los drowned. Los trial chambers (1.21) añadieron los vaults como segunda fuente rara, acabando con ocho años de granjas solo de drowned.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Se puede craftear un trident?",
@@ -28005,10 +28005,10 @@
       "Build de lanzamiento: Channeling invoca un rayo al impactar durante una tormenta: convierte pigs en zombie piglins, villagers en witches y creepers en cargados.",
       "Build de viaje: Riptide III te lanza a través del agua o la lluvia: combínalo con elytra para volar en días de lluvia sin rockets.",
       "Impaling V: daño extra contra mobs acuáticos en Java; en Bedrock aumenta el daño contra cualquier cosa en agua o lluvia: mucho más fuerte ahí.",
-      "Mending + Unbreaking III: los tridents son drops raros, así que haz que el tuyo se repare con XP y dure cinco veces más.",
+      "Mending + Unbreaking III: Mending repara el trident con la XP que recoges. Unbreaking III hace que un arma tenga una duración media cuatro veces mayor.",
       "Evita los books con Curse of Vanishing del loot: el trident desaparece al morir."
     ],
-    "versions": "Impaling cambia según la edición: Java solo golpea a mobs acuáticos; Bedrock golpea a cualquier entidad que esté en agua o lluvia.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "editionNote": "En Bedrock, Impaling V convierte el trident en un arma cuerpo a cuerpo de primer nivel bajo la lluvia. En Java es sobre todo una herramienta para granjas de guardians.",
     "faq": [
       {
@@ -28017,7 +28017,7 @@
       },
       {
         "q": "¿Cómo consigo un trident?",
-        "a": "Solo de los drowned que aparecen sosteniendo uno: tienen una pequeña probabilidad de soltarlo (mayor con Looting). No se puede craftear."
+        "a": "Los tridents no se pueden fabricar. Los drowned naturales que llevan uno pueden soltarlo al morir a manos de un jugador o lobo domesticado; Looting aumenta la probabilidad. Los vaults de trial chambers son otra fuente rara."
       },
       {
         "q": "¿Sirve Channeling para algo?",
@@ -42096,14 +42096,14 @@
       "Mantén su cabeza sumergida de forma continua durante 30 segundos.",
       "Cuando empiece a temblar, la conversión ha empezado y no se puede detener.",
       "Espera 15 segundos más. Se convierte en drowned con la vida completa, aunque el zombie estuviera dañado.",
-      "Mata al drowned para conseguir rotten flesh y una pequeña probabilidad de copper ingot o del trident o caña de pescar que lleve."
+      "Un drowned convertido puede soltar rotten flesh y un copper ingot, pero la conversión no le da un trident nuevo. Si buscas un trident, usa drowned naturales que lleven uno o vaults de trial chambers."
     ],
     "materials": [
       "Un zombie",
       "Agua de al menos 2 bloques de profundidad"
     ],
     "editionNote": "En Bedrock Edition, un objeto que el zombie lleve en la mano o puesto al convertirse se suelta con un 100% de probabilidad y con la durabilidad completa. En Java Edition el drowned conserva su equipo.",
-    "versions": "Un husk primero se convierte en zombie normal y luego en drowned de la forma habitual, con la vida completa.",
+    "versions": "Describe las versiones actuales de Java y Bedrock. Consulta la nota de edición para ver las diferencias.",
     "faq": [
       {
         "q": "¿Cuánto tarda un zombie en convertirse en drowned?",
@@ -42115,7 +42115,7 @@
       },
       {
         "q": "¿Los drowned sueltan tridents?",
-        "a": "Un drowned que lleve un trident o caña de pescar tiene un 8,5% de soltarlo al morir a manos de un jugador o lobo domado, más un 1% por nivel de Looting, hasta un 11,5%."
+        "a": "Los drowned naturales que llevan trident pueden soltarlo al morir a manos de un jugador o lobo domesticado. Sin Looting, la probabilidad es del 8,5% en Java y del 25% en Bedrock; con Looting III es del 11,5% y del 28%. La conversión de zombies no genera tridents nuevos."
       },
       {
         "q": "¿Dónde aparecen los drowned de forma natural?",
