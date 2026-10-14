@@ -7251,7 +7251,7 @@
       "Find an ancient city in the deep dark: they generate under mountains around Y=-51. Our ancient city finder guide has the details.",
       "Prepare for the warden: chests sit among sculk sensors and shriekers - bring wool to muffle your steps, and Swift Sneak exists precisely to make this easier next time.",
       "Loot every chest: ancient city chests can contain Swift Sneak enchanted books at any level (I, II or III). It's the only source in the game - no table, no villagers, no fishing.",
-      "Raid several cities: the book is rare and cities are far apart - expect to clear more than one before you see level III.",
+      "Each eligible ancient-city chest has about a 23.7% chance to contain a Swift Sneak book, with a random level. That is not a guarantee of III in one city. Combine I books into II and II into III on an anvil if needed.",
       "Apply it to leggings: combine book and leggings on an anvil. Swift Sneak only goes on leggings.",
       "Move like a ghost: sneaking normally runs at 30% of walking speed; each Swift Sneak level adds 15%, so III reaches 75%. It also speeds up crawling and sneaking in water (still slower than walking)."
     ],
@@ -7262,7 +7262,7 @@
       "Leggings worth enchanting"
     ],
     "editionNote": "Swift Sneak works identically in Java and Bedrock - ancient city chest loot only, leggings only, same speed percentages. Levels IV and V exist only through commands (capped at 100% of walking speed), so survival caps at III's 75%.",
-    "versions": "Swift Sneak was added in Java 1.19 and Bedrock 1.19.0 (The Wild Update, June 2022), alongside the ancient cities that hold it. In early experiments it applied to boots; it moved to leggings before release.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Can you get Swift Sneak from an enchanting table?",
@@ -7278,7 +7278,7 @@
       },
       {
         "q": "How rare is Swift Sneak?",
-        "a": "It's one of the rarest enchantment books (the lowest enchantment weight), and ancient city chests are your only shot - bring wool, clear every chest, and expect to visit multiple cities for a level III book."
+        "a": "Eligible ancient-city chests have about a 23.7% chance to contain a Swift Sneak book at a random level. That is not the chance of III specifically and does not guarantee a book in any one city. Combine lower-level books if needed."
       }
     ],
     "relatedGuides": [
@@ -8400,28 +8400,28 @@
     "slug": "how-to-get-feather-falling",
     "name": "How to Get Feather Falling in Minecraft (Feather Falling IV)",
     "shortTitle": "Get Feather Falling",
-    "quickAnswer": "Feather Falling goes on boots and cuts fall damage by 12% per level (48% at IV). Counterintuitive trick: it's RAREST at a level-30 enchanting table - diamond boots roll Feather Falling most often around level 22. Librarians, fishing, anvil combining and structure loot all work too.",
+    "quickAnswer": "Feather Falling goes on boots and reduces fall damage by 12% per level, up to 48% at IV. It can coexist with Protection for a combined reduction capped at 80%. Get it from table offers, librarian books, fishing or structure loot; combine two III books for IV.",
     "steps": [
-      "Skip the level-30 trap: Feather Falling is one of the rarest table enchants at level 30 (about 2.7% for FF IV on diamond boots - confirmed 'works as intended' by Mojang). Enchant boots around level 22 instead, where it's most common; levels 24 and 26 are also far better than 30.",
-      "Limit the cost: enchanting at lower levels means fewer bookshelves. Temporarily block bookshelf corners with torches or use a partial setup to hit level 22-26 rolls.",
+      "Check the actual offer on your boots. Feather Falling IV can be uncommon in level-30 offers; lower offers can help. On diamond boots, level 22 offers have a higher chance than level 30; do not assume that comparison applies to every material or edition.",
+      "Use fewer active bookshelves if you want lower offers, and check the displayed level. Make sure only the intended shelves are active; changing the setup does not guarantee a specific enchantment.",
       "Trade with librarians: reroll a lectern until a Feather Falling book appears, lock it, and combine two III books on an anvil for IV - the reliable targeted route.",
       "Fish and loot: fishing books and non-village structure chests carry Feather Falling too; Bedrock raid mobs drop enchanted books as well.",
       "Know what it covers: 12% less fall damage per level, up to 48% at IV - and it also reduces ender pearl teleport damage and the damage of a mount falling with you. Elytra pilots: it softens ground crashes, but NOT wall crashes.",
-      "Stack toward the cap: fall damage reduction from Feather Falling stacks with Protection up to the 80% cap. Feather Falling IV + Protection IV on other pieces makes long drops survivable.",
-      "Combine on an anvil: FF III + III = IV. Books first, boots second - same as every expensive enchant."
+      "Feather Falling stacks with Protection up to an 80% fall-damage reduction cap. Even at that cap, a sufficiently long fall can kill you; it is not immunity.",
+      "Combine two Feather Falling III books or boots on an anvil to get IV. Compare displayed costs and prior work; combining every book first is not always the cheapest order."
     ],
     "materials": [
       "Boots (diamond or netherite)",
-      "Enchanting table with a partial bookshelf setup for level 22-26",
+      "Enchanting table with adjustable active bookshelves",
       "Librarian + lectern for targeted books",
       "Anvil and XP"
     ],
-    "editionNote": "Identical in Java and Bedrock: same 12%-per-level formula, same level-30 rarity quirk, same 80% stacking cap with Protection. Bedrock's only extra is raid mobs dropping enchanted books as an additional source.",
-    "versions": "Added in Beta 1.9 Prerelease 4 and in Pocket Edition v0.12.1. Horse armor could technically hold it from 1.14 (19w08a, Creative only). The level-30 rarity is a known, Mojang-confirmed 'works as intended' quirk of the enchantment table's weighting.",
+    "editionNote": "The fall-damage reduction is 12% per level and stacks with Protection up to 80%. Offer probabilities depend on the item and table setup; do not treat the diamond-boot level comparison as a universal rate. Bedrock raid-spawned mobs are an extra source of enchanted books.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why can't I get Feather Falling from my enchanting table?",
-        "a": "Because you're probably enchanting at level 30 - Feather Falling is weighted to be one of the rarest enchants there (2.7% for FF IV on diamond boots). Drop to around level 22, where the table offers it most often."
+        "a": "Table offers are random, and Feather Falling IV can be uncommon at level 30. Check lower-level offers on the actual boots or use a librarian book and an anvil. No table setup guarantees it."
       },
       {
         "q": "Does Feather Falling reduce ender pearl damage?",
@@ -8876,15 +8876,15 @@
     "shortTitle": "Get Depth Strider",
     "quickAnswer": "Depth Strider cuts the water movement-speed penalty on boots: each level adds 1/3 water movement efficiency, and level III lets you swim as fast as you walk on land. Get it from enchanting tables, librarian trades, fishing or structure loot - and choose, because it conflicts with Frost Walker.",
     "steps": [
-      "Enchant boots: Depth Strider rolls on enchanting tables for boots, max level III. Weight 2, so it may take a few rerolls.",
+      "Enchant boots at an enchanting table for Depth Strider, up to level III. Offers are random; a librarian book is an alternative if the offer you need does not appear.",
       "Trade with librarians: reroll a lectern for a Depth Strider book and lock it; combine on an anvil up to III. (Swamp librarian specialty under the Villager Trade Rebalance experiment.)",
       "Fish and loot: fishing books and non-village structure loot carry it; Bedrock raid mobs drop books too.",
       "Know the numbers: each level adds 1/3 water movement efficiency. Level III cancels the water drag completely - you move exactly as fast as walking on land, and higher levels (commands only) add nothing.",
-      "Current resistance included: Depth Strider also reduces how strongly flowing water pushes you - handy near magma blocks, bubble columns gone wrong and underwater ravines.",
+      "Depth Strider also reduces how strongly flowing water pushes you horizontally. It does not change vertical sinking or rising speed.",
       "Horizontal only: it speeds up swimming forward, not sinking or rising - vertical speed is unaffected (that's intended, not a bug).",
-      "Java speed demon: Depth Strider stacks with the Dolphin's Grace effect in Java - swim near dolphins and you'll outrun boats.",
-      "Choose your lane: Depth Strider and Frost Walker are mutually exclusive in Survival. Frost Walker freezes water under your feet to walk on it; Depth Strider makes you fast IN it. For ocean work, Depth Strider wins; for crossing rivers in style, Frost Walker. (Commands can force both - they function together.)",
-      "Complete the dive set: Depth Strider boots + Respiration/Aqua Affinity helmet is the standard ocean monument and underwater-build kit."
+      "In Java, Depth Strider combines with Dolphin's Grace for faster water travel. That effect is separate from Depth Strider alone; do not assume one fixed speed in every swimming condition.",
+      "Choose Depth Strider for movement in water or Frost Walker for crossing suitable surface water on foot. They are incompatible through normal Survival enchanting. Neither choice replaces checking the terrain and water conditions.",
+      "For underwater work, combine Depth Strider boots with a Respiration and Aqua Affinity helmet. The helmet enchantments handle breathing time and underwater mining, not horizontal swim speed."
     ],
     "materials": [
       "Boots",
@@ -8893,7 +8893,7 @@
       "Anvil and XP for combining to III"
     ],
     "editionNote": "Core mechanics match across editions: +1/3 water movement efficiency per level, III equals land-walking speed. One Java-only bonus: Depth Strider combines with Dolphin's Grace for extreme swim speed. Bedrock's extra source is raid-mob book drops.",
-    "versions": "Added in 1.8 (14w25a) for Java and Pocket Edition v0.12.1 for Bedrock. Frost Walker mutual exclusivity arrived in 1.9, sprint-swimming in shallow water was removed in 1.13, and since 1.21 the water movement efficiency bonus shows as a tooltip and only works in the feet slot.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "What does Depth Strider do?",
@@ -8901,11 +8901,11 @@
       },
       {
         "q": "Depth Strider or Frost Walker - which is better?",
-        "a": "They're mutually exclusive in Survival, so pick per pair of boots: Depth Strider for oceans, monuments and underwater bases; Frost Walker for crossing rivers and lakes on foot. Most endgame players keep one pair of each."
+        "a": "Depth Strider suits underwater work and travel; Frost Walker suits crossing suitable water on foot. They are incompatible normally, so choose per pair of boots or keep separate pairs."
       },
       {
         "q": "Does Depth Strider make you swim faster than a boat?",
-        "a": "In Java, Depth Strider III combined with the Dolphin's Grace effect (swim near dolphins) stacks into extreme speed that beats boats. On its own, Depth Strider III matches land-walking speed in water."
+        "a": "Depth Strider alone reduces horizontal water slowdown; III reaches normal land-walking speed under the comparison conditions. In Java, Dolphin's Grace can add a separate boost. Speed depends on effects and movement conditions, not a universal boat comparison."
       }
     ],
     "relatedGuides": [
@@ -9058,13 +9058,13 @@
     "quickAnswer": "Soul Speed turns soul sand and soul soil into highways: up to +61.5% speed at level III. It's a treasure enchantment - no enchanting table. Barter with piglins or loot bastion remnant chests for books and boots.",
     "steps": [
       "Skip the enchanting table: Soul Speed is a treasure enchantment. Tables, fishing, librarians and ordinary chest loot CANNOT give it.",
-      "Barter with piglins: throw gold ingots at piglins in the Nether - they can offer Soul Speed enchanted books and iron boots at a random level. This is the most farmable route: a gold farm plus a bartering hall prints books.",
+      "Barter gold ingots with adult piglins in the Nether. They may offer Soul Speed books or iron boots at a random level. Each offer is random, so bring spare gold and keep away from piglin brutes.",
       "Loot bastion remnants: 'generic' chests in bastions hold Soul Speed books and enchanted golden boots at random levels. It's the only structure loot that carries the enchantment.",
       "Kill geared piglins: piglins sometimes spawn wearing golden boots enchanted with Soul Speed, with a chance to drop them on death.",
       "Know the speed: the multiplier is (level × 0.105) + 1.3 - that's +40.5% at I, +51% at II and +61.5% at III, and soul sand's usual slowdown is fully cancelled (soul sand = soul soil for you).",
-      "Cover your paths: carpets or slabs (Java) placed on soul blocks don't block the boost, and since 1.16.2 you keep the speed while jumping.",
-      "Watch the durability: each soul block stepped on has a 4% chance to drain 1 durability. Add Unbreaking III (2.8%) and Mending - netherite boots with Unbreaking III survive roughly 17,000 soul-block steps.",
-      "Build with it: Soul Speed walkways don't need boats or minecarts, so they beat blue-ice tracks over rough terrain - and soul lanterns make them look the part."
+      "Carpets over soul sand or soul soil preserve the boost in both editions; slabs do so in Java. The boost can continue while jumping after running on soul blocks.",
+      "Soul Speed can cost boots durability on soul sand or soul soil. Add Unbreaking to reduce durability loss and Mending to repair with collected XP. Check the boots regularly; neither enchantment guarantees a fixed lifespan or prevents every break.",
+      "Soul Speed walkways work without a vehicle and suit uneven terrain. They are not universally faster than blue-ice boat tracks; choose by route, materials and maintenance."
     ],
     "materials": [
       "Gold ingots for bartering (lots of them)",
@@ -9072,8 +9072,8 @@
       "Unbreaking III + Mending strongly recommended",
       "Soul sand or soul soil for your walkway"
     ],
-    "editionNote": "Core mechanics match: same speed formula, same 4% durability drain. Two Bedrock notes: since 1.16.100, books there come ONLY from bastion chests and bartering (removed from raids, other loot and fishing), and the slab-covering trick is Java-only (carpets work in both).",
-    "versions": "Added in 1.16 (20w11a) for Java and 1.16.0 (beta 1.16.0.57) for Bedrock. Bartering drops became slightly more common in 20w13a, bastion chest books arrived in 20w16a, and 1.16.2 kept the boost while jumping or on slab-covered soul blocks.",
+    "editionNote": "Both editions use the soul-block speed boost. Java allows slabs over soul blocks without losing it; carpets work in both. Boots can lose durability, so check their condition. Mending only repairs when you collect XP with the damaged boots equipped.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "How do you get Soul Speed?",
@@ -9085,7 +9085,7 @@
       },
       {
         "q": "Does Soul Speed break your boots?",
-        "a": "Slowly, yes: every soul block you step on has a 4% chance to cost 1 durability. Unbreaking III drops that to 2.8%, and with Mending the boots effectively last forever - expect around 17,000 soul-block steps from netherite boots with Unbreaking III before they break."
+        "a": "Yes. Soul Speed can spend durability on soul blocks. Unbreaking reduces losses and Mending repairs with collected XP while the damaged boots are equipped, but neither guarantees boots that last forever or a fixed number of steps."
       }
     ],
     "relatedGuides": [
@@ -16450,10 +16450,10 @@
     "quickAnswer": "Frost Walker is a boot enchantment (max level II) that freezes water into frosted ice under your feet as you walk, and makes you immune to magma block and campfire damage. It is a treasure enchantment - the enchanting table never offers it, so get the book from librarians, loot chests or fishing. It cannot combine with Depth Strider.",
     "steps": [
       "Know it is treasure-only. Frost Walker never appears on the enchanting table. Your routes: librarian villagers (reroll the lectern until the book appears), structure chests, or fishing up enchanted books with Luck of the Sea.",
-      "Apply it on an anvil. Book plus boots, any tier - diamond or netherite for lava-lake duty. Combine two Frost Walker I books for level II.",
-      "Walk on water. Moving across water freezes a circle (Java) or square (Bedrock) of frosted ice around you with a radius of 2 + level: 3 blocks at I, 4 at II. The ice cracks behind you, so keep moving - standing still drops you in.",
+      "Apply a Frost Walker book to boots on an anvil. Combine two I books for II. Boot material does not make Frost Walker protect against lava.",
+      "Move on the ground to freeze source water with air above it into frosted ice. The area is circular in Java and square in Bedrock, with radius 2 + level. Jumping or flying does not activate it. Ice can melt with time and light, so watch your route.",
       "Use its hidden perk. Frost Walker boots also make you immune to magma block and campfire damage - handy for Nether floors and hidden-campfire traps.",
-      "Choose: Frost Walker or Depth Strider. They are mutually exclusive. Frost Walker turns oceans into roads; Depth Strider makes you fast UNDER water. For long ocean trips most players keep a Frost Walker pair in an ender chest."
+      "Choose Frost Walker or Depth Strider per pair of boots. Frost Walker helps on suitable surface water; Depth Strider helps you move in water. Frost Walker is not a way to cross lava."
     ],
     "materials": [
       "Boots (diamond or netherite recommended)",
@@ -16462,7 +16462,7 @@
       "Ender chest (optional - swap boots on long trips)"
     ],
     "editionNote": "The freeze shape differs: a circle in Java, a square in Bedrock, radius 2 + level in both. The water needs air above it to freeze, and you must be moving on the ground - jumping or flying does not trigger it.",
-    "versions": "Frost Walker was added in 1.9 (the Combat Update, 2016). It has been a treasure enchantment with the Depth Strider incompatibility since day one.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "faq": [
       {
         "q": "Why won't the enchanting table give me Frost Walker?",
@@ -16474,7 +16474,7 @@
       },
       {
         "q": "Frost Walker or Depth Strider for an ocean base?",
-        "a": "Frost Walker, usually: you can walk to shore over the water instead of swimming. Depth Strider is better if you build and fight underwater a lot, especially with Respiration and Aqua Affinity."
+        "a": "Depth Strider is useful for swimming, building and fighting underwater. Frost Walker helps reach shore over suitable water surfaces but can freeze water you want to use. Choose by task; they cannot coexist normally."
       }
     ],
     "relatedGuides": [
@@ -31487,13 +31487,13 @@
       "Feather Falling IV: cuts fall damage by nearly half - boots-only and the most important exclusive.",
       "Protection IV: the best all-round defense; the protection types are mutually exclusive per piece.",
       "Depth Strider III: swim at walking speed - the pick if you work in oceans.",
-      "Frost Walker II (alternative): freezes water under your feet into walkable ice - incompatible with Depth Strider, one pair each is ideal.",
+      "Frost Walker II is an alternative to Depth Strider for crossing suitable source water with air above it. It does not work on lava. Choose by task or keep separate pairs.",
       "Soul Speed III: run fast on soul sand and soul soil - boots-only, found by bartering with piglins or in bastion loot.",
-      "Mending + Unbreaking III: the immortality pair. Soul Speed drains durability on soul blocks, so Unbreaking matters.",
-      "Thorns III (optional): damages attackers but eats durability - add it last, on the anvil."
+      "Mending + Unbreaking III reduce repair work, but boots can still break. Soul Speed can drain durability on soul blocks; collect XP while wearing the damaged boots and check their condition.",
+      "Thorns III is optional: it damages attackers but can cost extra durability. Compare the anvil costs and book-combination order instead of assuming it must always be added last."
     ],
-    "versions": "Frost Walker ice melts differently by light level on both editions; Soul Speed is obtained the same way on Java and Bedrock.",
-    "editionNote": "Depth Strider vs Frost Walker is the one real choice: swimmers take Depth Strider, travelers take Frost Walker.",
+    "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
+    "editionNote": "Depth Strider and Frost Walker are incompatible through normal enchanting in both editions. Soul Speed can coexist with either. Frost Walker freezes a circular area in Java and a square area in Bedrock.",
     "faq": [
       {
         "q": "Does Feather Falling stack with Protection?",
@@ -31501,7 +31501,7 @@
       },
       {
         "q": "Can you have Depth Strider and Frost Walker together?",
-        "a": "No, they are incompatible. Most players keep one pair of each and swap."
+        "a": "Not through normal enchanting or anvil combinations. Choose Depth Strider for water movement or Frost Walker for suitable surface-water crossings; separate pairs are an option."
       }
     ],
     "relatedGuides": [
