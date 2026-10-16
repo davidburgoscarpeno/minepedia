@@ -16,6 +16,19 @@ const parentAdv = a.parent ? (advancements as any[]).find(x => x.name === a.pare
 const children = (advancements as any[]).filter(x => x.parent === a.name && x.howToGet);
 const siblings = (advancements as any[]).filter(x => x.tab === a.tab && x.howToGet && x.slug !== a.slug).slice(0, 6);
 
+// Full chain from tab root down to this advancement (derived from parent fields)
+const chain: any[] = [];
+{
+  let cur: any = a;
+  const seen = new Set<string>();
+  while (cur && !seen.has(cur.slug)) {
+    seen.add(cur.slug);
+    chain.unshift(cur);
+    cur = cur.parent ? (advancements as any[]).find(x => x.name === cur.parent) : null;
+  }
+}
+const chainUp = chain.slice(0, -1); // all ancestors, root first
+
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Advancements', crumbHref: '/es/advancements/',
   challenge: 'Desafío', goal: 'Objetivo', hidden: 'Advancement oculto: solo aparece en la pestaña después de conseguirlo',
@@ -23,6 +36,8 @@ const L = isES ? {
   howH: `Cómo conseguir ${a.name}`, tipsH: 'Consejos', difficultyL: 'Dificultad',
   parentL: 'Advancement previo', tabL: 'Pestaña', xpL: 'Recompensa',
   related: 'Más guías de la pestaña',
+  chainL: 'Cadena de prerrequisitos', nextH: 'Advancements que desbloquea',
+  editionNote: 'Los advancements son exclusivos de Java Edition. En Bedrock Edition el equivalente son los logros (achievements), con objetivos distintos.',
   title: `${a.name} (advancement de Minecraft): cómo conseguirlo`,
   metaDesc: `${a.name} en Minecraft Java: ${desc}. Guía paso a paso, dificultad y consejos para conseguir este advancement de la pestaña ${a.tab}.`,
   canonical: `/es/advancements/${a.slug}/`, alt: `/advancements/${a.slug}/`,
@@ -38,6 +53,8 @@ const L = isES ? {
   howH: `How to get ${a.name}`, tipsH: 'Tips', difficultyL: 'Difficulty',
   parentL: 'Previous advancement', tabL: 'Tab', xpL: 'Reward',
   related: 'More guides from this tab',
+  chainL: 'Prerequisite chain', nextH: 'Advancements this unlocks',
+  editionNote: 'Advancements are exclusive to Java Edition. The Bedrock Edition equivalent is achievements, which have different objectives.',
   title: `${a.name} (Minecraft advancement): how to get it`,
   metaDesc: `${a.name} in Minecraft Java: ${desc}. Step-by-step guide, difficulty and tips for this ${a.tab} tab advancement.`,
   canonical: `/advancements/${a.slug}/`, alt: `/es/advancements/${a.slug}/`,
@@ -76,11 +93,25 @@ const jsonLd = [
     </p>
     <div class="quick-answer"><strong>{L.quick}</strong> {desc}</div>
     {a.hidden && <p style="color:var(--text-dim);font-size:.9rem">{L.hidden}.</p>}
+    {chainUp.length >= 1 && (
+      <p><strong>{L.chainL}:</strong> {chainUp.map((c: any, idx: number) => (
+        <span>{idx > 0 && ' › '}{c.howToGet ? <a href={isES ? `/es/advancements/${c.slug}/` : `/advancements/${c.slug}/`}>{c.name}</a> : c.name}</span>
+      ))}{' › '}<strong>{a.name}</strong></p>
+    )}
     {parentAdv && <p><strong>{L.parentL}:</strong> {parentAdv.howToGet ? <a href={isES ? `/es/advancements/${parentAdv.slug}/` : `/advancements/${parentAdv.slug}/`}>{parentAdv.name}</a> : parentAdv.name}</p>}
+    <p style="color:var(--text-dim);font-size:.9rem">{L.editionNote}</p>
     <h2>{L.howH}</h2>
     <ol>{howToGet.map(h => <li>{h}</li>)}</ol>
     <h2>{L.tipsH}</h2>
     <p>{tips}</p>
+    {children.length > 0 && (
+      <>
+        <h2>{L.nextH}</h2>
+        <ul>{children.map((c: any) => (
+          <li><a href={isES ? `/es/advancements/${c.slug}/` : `/advancements/${c.slug}/`}>{c.name}</a>{c.xp ? ` (${c.xp} XP)` : ''}</li>
+        ))}</ul>
+      </>
+    )}
     {siblings.length > 0 && (
       <p><strong>{L.related} ({a.tab}):</strong> {siblings.map((s: any) => (
         <a href={isES ? `/es/advancements/${s.slug}/` : `/advancements/${s.slug}/`} style="margin-right:12px">{s.name}</a>

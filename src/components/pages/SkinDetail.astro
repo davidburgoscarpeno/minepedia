@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import skins1 from '../../data/gallery-skins.json';
 import skins2 from '../../data/gallery-skins-2.json';
 import skinsEs from '../../data/skins-es.json';
+import skinDetails from '../../data/skin-details.json';
 const skins = [...skins1, ...skins2];
 
 interface Props { s: any; lang: 'en' | 'es'; }
@@ -12,6 +13,8 @@ const CAT_ES: Record<string, string> = { 'Animals': 'Animales', 'Fantasy & Adven
 const desc = isES ? ((skinsEs as any)[s.slug] ?? s.desc) : s.desc;
 const category = isES ? (CAT_ES[s.category] ?? s.category) : s.category;
 const related = skins.filter(x => x.category === s.category && x.slug !== s.slug).slice(0, 4);
+const fileSlug = s.file.split('/').pop().replace('.png', '');
+const det: any = (skinDetails as any)[fileSlug] ?? null;
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Skins', crumbHref: '/es/skins/',
@@ -25,6 +28,13 @@ const L = isES ? {
   java: 'Minecraft Launcher → pestaña Skins → Nueva skin → selecciona el PNG descargado.',
   bedrock: 'importa desde el Vestidor donde tu plataforma permita archivos propios, o mete el PNG en un skin pack personalizado.',
   moreH: `Más skins de ${category.toLowerCase()}`,
+  detH: 'Detalles del diseño',
+  paletteL: 'Paleta principal',
+  overlayL: 'Segunda capa',
+  overlayNone: 'sin segunda capa (diseño plano)',
+  detNote: 'Extraído del PNG real de la skin.',
+  guidesL: 'Guías completas:',
+  PARTS: { hat: 'sombrero/casco', jacket: 'chaqueta', 'right-sleeve': 'manga derecha', 'left-sleeve': 'manga izquierda', 'right-pant-leg': 'pernera derecha', 'left-pant-leg': 'pernera izquierda' },
   metaDesc: `${desc} Descarga gratuita en PNG 64x64 para Java y Bedrock, o edítala online en el Skin Maker de Minepedia.`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Skins', crumbHref: '/skins/',
@@ -38,6 +48,13 @@ const L = isES ? {
   java: 'Minecraft Launcher → Skins tab → New skin → select the downloaded PNG.',
   bedrock: 'Dressing Room import where your platform allows custom files, or pack the PNG into a custom skin pack.',
   moreH: `More ${s.category.toLowerCase()} skins`,
+  detH: 'Design details',
+  paletteL: 'Main palette',
+  overlayL: 'Second layer',
+  overlayNone: 'no second layer (flat design)',
+  detNote: 'Extracted from the actual skin PNG.',
+  guidesL: 'Full guides:',
+  PARTS: { hat: 'hat/helmet', jacket: 'jacket', 'right-sleeve': 'right sleeve', 'left-sleeve': 'left sleeve', 'right-pant-leg': 'right pant leg', 'left-pant-leg': 'left pant leg' },
   metaDesc: `${desc} Free 64x64 PNG download for Java and Bedrock, or edit it online in the Minepedia Skin Maker.`
 };
 
@@ -70,11 +87,24 @@ const jsonLd = [
       <a class="sbtn primary" href={s.file} download={`minepedia-${s.slug}-skin.png`}>{L.dl}</a>
       <a class="sbtn" href={`${isES ? '/es/tools/skin-maker/' : '/tools/skin-maker/'}?skin=${s.file}`}>{L.edit}</a>
     </div>
+    {det && (
+      <section>
+        <h2>{L.detH}</h2>
+        <p><strong>{L.paletteL}:</strong> {det.palette.map((c: string) => (
+          <span style="display:inline-flex;align-items:center;gap:4px;margin-right:10px">
+            <span style={`display:inline-block;width:14px;height:14px;border-radius:3px;border:1px solid #000;background:${c}`}></span>
+            <code style="font-size:12px">{c}</code>
+          </span>
+        ))}</p>
+        <p><strong>{L.overlayL}:</strong> {det.overlay.length > 0 ? det.overlay.map((o: string) => L.PARTS[o] ?? o).join(', ') : L.overlayNone} <span class="note">({L.detNote})</span></p>
+      </section>
+    )}
     <h2>{L.applyH}</h2>
     <ol>
       <li><strong>Java Edition:</strong> {L.java}</li>
       <li><strong>Bedrock:</strong> {L.bedrock}</li>
     </ol>
+    <p>{L.guidesL} <a href={isES ? '/es/guides/how-to-change-your-skin/' : '/guides/how-to-change-your-skin/'}>{isES ? 'Cómo cambiar tu skin' : 'How to change your skin'}</a> · <a href={isES ? '/es/guides/how-to-make-a-skin/' : '/guides/how-to-make-a-skin/'}>{isES ? 'Cómo crear una skin' : 'How to make a skin'}</a></p>
     <p class="note">Original fan art by Minepedia. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
     {related.length > 0 && (
       <section>
