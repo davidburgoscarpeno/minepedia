@@ -1,5 +1,17 @@
 ---
 import Base from '../../layouts/Base.astro';
+import guides from '../../data/guides.json';
+import items from '../../data/items.json';
+import mobs from '../../data/mobs.json';
+import enchantments from '../../data/enchantments.json';
+import commands from '../../data/commands.json';
+import recipes from '../../data/recipes.json';
+import seeds from '../../data/seeds.json';
+import biomes from '../../data/biomes.json';
+import structures from '../../data/structures.json';
+import potions from '../../data/potions.json';
+import villagers from '../../data/villagers.json';
+import advancements from '../../data/advancements.json';
 
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
@@ -16,6 +28,8 @@ const S = isES ? {
   indieP: 'Minepedia es un recurso de fans. No está afiliado, respaldado ni patrocinado por Mojang Studios, Mojang Synergies AB o Microsoft. "Minecraft" es una marca registrada de Mojang Synergies AB. Toda la ilustración de este sitio es original y está hecha para Minepedia: no usamos assets, capturas ni logos del juego de Mojang.',
   contactH2: 'Contacto',
   contactP: '¿Has visto un error o tienes una sugerencia? Usa la <a href="/es/contact/">página de contacto</a>.',
+  covH2: 'Qué encontrarás en el sitio',
+  covP: 'Todo el contenido está organizado en secciones navegables, enlazadas entre sí y traducidas al español y al inglés:',
   canonical: '/es/about/', alt: '/about/'
 } : {
   title: 'About Minepedia',
@@ -28,14 +42,50 @@ const S = isES ? {
   indieP: 'Minepedia is a fan resource. It is not affiliated with, endorsed by, or sponsored by Mojang Studios, Mojang Synergies AB or Microsoft. "Minecraft" is a trademark of Mojang Synergies AB. All artwork on this site is original and made for Minepedia - we do not use Mojang\'s game assets, screenshots or logos.',
   contactH2: 'Contact',
   contactP: 'Spot an error or have a suggestion? Use the <a href="/contact/">contact page</a>.',
+  covH2: 'What you will find on the site',
+  covP: 'All content is organized into navigable, interlinked sections, each available in English and Spanish:',
   canonical: '/about/', alt: '/es/about/'
 };
+
+const itemCount = items.length;
+const COV = isES ? [
+  [String(guides.length), 'guías paso a paso (recetas, crafteos y mecánicas)'],
+  [String(itemCount), 'objetos del juego con obtención, usos y diferencias de edición'],
+  [String(enchantments.length), 'encantamientos'],
+  [String(mobs.length), 'mobs'],
+  [String(commands.length), 'comandos con sintaxis y ejemplos'],
+  [String(recipes.length), 'recetas completas con diseño de la cuadrícula'],
+  [String(biomes.length), 'biomas'],
+  [String(structures.length), 'estructuras'],
+  [String(potions.length), 'pociones'],
+  [String(villagers.length), 'oficios de aldeanos'],
+  [String(advancements.length), 'logros'],
+  [String(seeds.length), 'semillas'],
+  ['4', 'herramientas interactivas (calculadora del Nether, buscador de menas, editor de skins y calculadora de experiencia)']
+] : [
+  [String(guides.length), 'step-by-step guides (recipes, crafting and mechanics)'],
+  [String(itemCount), 'game items with how to get them, uses and edition differences'],
+  [String(enchantments.length), 'enchantments'],
+  [String(mobs.length), 'mobs'],
+  [String(commands.length), 'commands with syntax and examples'],
+  [String(recipes.length), 'full recipes with grid layout'],
+  [String(biomes.length), 'biomes'],
+  [String(structures.length), 'structures'],
+  [String(potions.length), 'potions'],
+  [String(villagers.length), 'villager professions'],
+  [String(advancements.length), 'advancements'],
+  [String(seeds.length), 'seeds'],
+  ['4', 'interactive tools (Nether calculator, ore finder, skin maker and XP calculator)']
+];
 ---
 <Base title={S.title} description={S.description} canonicalPath={S.canonical} lang={lang} altPath={S.alt}>
   <div class="container">
     <nav class="crumbs"><a href={isES ? '/es/' : '/'}>{S.home}</a> / {S.crumb}</nav>
     <h1>{S.h1}</h1>
     <p>{S.p1}</p>
+    <h2>{S.covH2}</h2>
+    <p>{S.covP}</p>
+    <ul>{COV.map(([n, label]) => <li><strong>{n}</strong> {label}</li>)}</ul>
     <h2>{S.howH2}</h2>
     <p>{S.howP}</p>
     <h2>{S.indieH2}</h2>

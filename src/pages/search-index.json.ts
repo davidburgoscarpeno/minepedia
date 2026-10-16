@@ -158,7 +158,7 @@ export async function GET() {
     { name: 'Is It a Balloon? advancement', kind: 'advancement', url: '/advancements/is-it-a-balloon/', keywords: 'spyglass ghast look zoom nether' },
     { name: 'Is It a Plane? advancement', kind: 'advancement', url: '/advancements/is-it-a-plane/', keywords: 'spyglass ender dragon look zoom end' },
     { name: 'How to Beat the Ender Dragon in Minecraft', kind: 'guide', url: '/guides/how-to-beat-ender-dragon/', keywords: 'ender dragon kill beat boss end crystals perch bed explode respawn' },
-    { name: 'How to Cure a Zombie Villager in Minecraft', kind: 'guide', url: '/guides/how-to-cure-zombie-villager/', keywords: 'cure zombie villager weakness splash potion golden apple discount trading' },
+    { name: 'How to Cure a Zombie Villager in Minecraft', kind: 'guide', url: '/guides/how-to-cure-a-zombie-villager/', keywords: 'cure zombie villager weakness splash potion golden apple discount trading' },
     { name: 'How to Find a Stronghold in Minecraft', kind: 'guide', url: '/guides/how-to-find-stronghold/', keywords: 'find stronghold eye of ender end portal triangulate silverfish spawner 128' },
     { name: 'How to Fly with Elytra in Minecraft', kind: 'guide', url: '/guides/how-to-fly-elytra/', keywords: 'elytra fly glide fireworks boost rocket mending phantom membrane takeoff' },
     { name: 'How to Find and Beat Trial Chambers in Minecraft', kind: 'guide', url: '/guides/how-to-find-trial-chambers/', keywords: 'trial chambers find map cartographer vault ominous key heavy core mace breeze' },

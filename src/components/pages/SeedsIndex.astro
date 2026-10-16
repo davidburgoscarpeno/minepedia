@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import seeds from '../../data/seeds.json';
+import { iconPath } from '../../utils/icon';
 
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
@@ -77,7 +78,7 @@ const jsonLd = {
     <div class="grid-cards">
       {seeds.map(s => (
         <a class="card" href={S.cardHref(s.slug)}>
-          <img class="pixel-icon" src={`/item-icons/${s.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <img class="pixel-icon" src={iconPath(s.slug, 'map')} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{s.name}</h3>
           <p>Seed: {s.seed}</p>
         </a>

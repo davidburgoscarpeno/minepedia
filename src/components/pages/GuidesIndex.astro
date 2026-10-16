@@ -4,6 +4,7 @@ import SearchBox from '../../components/SearchBox.astro';
 import guides from '../../data/guides.json';
 import guidesEs from '../../data/guides-es.json';
 import GameShot from '../../components/GameShot.astro';
+import { iconPath } from '../../utils/icon';
 
 interface Props { lang: 'en' | 'es'; }
 const { lang } = Astro.props;
@@ -60,7 +61,7 @@ const L = isES ? {
         const qa = ov?.quickAnswer ?? g.quickAnswer;
         return (
         <a class="card" href={`${L.base}${g.slug}/`}>
-          <img class="pixel-icon" src={`/item-icons/${g.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <img class="pixel-icon" src={iconPath(g.slug, 'book')} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{name}</h3>
           <p>{qa.split('.')[0]}.</p>
         </a>

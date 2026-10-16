@@ -159,7 +159,7 @@ export async function GET() {
     { name: 'Is It a Balloon? (advancement)', kind: 'advancement', url: '/es/advancements/is-it-a-balloon/', keywords: 'spyglass ghast mirar zoom nether' },
     { name: 'Is It a Plane? (advancement)', kind: 'advancement', url: '/es/advancements/is-it-a-plane/', keywords: 'spyglass ender dragon mirar zoom end' },
     { name: 'Cómo derrotar al ender dragon en Minecraft', kind: 'guía', url: '/es/guides/how-to-beat-ender-dragon/', keywords: 'ender dragon matar derrotar jefe end crystals posar cama explotar resucitar' },
-    { name: 'Cómo curar a un aldeano zombi en Minecraft', kind: 'guía', url: '/es/guides/how-to-cure-zombie-villager/', keywords: 'curar aldeano zombi debilidad poción arrojadiza manzana dorada descuento trueques' },
+    { name: 'Cómo curar a un aldeano zombi en Minecraft', kind: 'guía', url: '/es/guides/how-to-cure-a-zombie-villager/', keywords: 'curar aldeano zombi debilidad poción arrojadiza manzana dorada descuento trueques' },
     { name: 'Cómo encontrar una stronghold en Minecraft', kind: 'guía', url: '/es/guides/how-to-find-stronghold/', keywords: 'encontrar stronghold ojo de ender portal end triangular silverfish spawner' },
     { name: 'Cómo volar con elytra en Minecraft', kind: 'guía', url: '/es/guides/how-to-fly-elytra/', keywords: 'elytra volar planear fuegos artificiales cohetes impulso mending phantom membrane despegar' },
     { name: 'Cómo encontrar y superar las trial chambers en Minecraft', kind: 'guía', url: '/es/guides/how-to-find-trial-chambers/', keywords: 'trial chambers encontrar mapa cartógrafo vault ominosa llave heavy core maza breeze' },

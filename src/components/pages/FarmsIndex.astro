@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import farms from '../../data/farms.json';
 import farmsEs from '../../data/farms-es.json';
+import { iconPath } from '../../utils/icon';
 
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
@@ -40,7 +41,7 @@ const S = isES ? {
     <div class="grid-cards">
       {farms.map(f => (
         <a class="card" href={S.cardHref(f.slug)}>
-          <img class="pixel-icon" src={`/item-icons/${f.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" />
+          <img class="pixel-icon" src={iconPath(f.slug, 'how-to-grow-wheat')} alt="" width="34" height="34" style="margin-bottom:12px" />
           <h3>{f.name}</h3>
           <p>{prodOf(f)}</p>
         </a>

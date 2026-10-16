@@ -11,6 +11,7 @@ import guidesEs from '../../data/guides-es.json';
 import GameShot from '../../components/GameShot.astro';
 import shots from '../../data/screenshots.json';
 import Icon from '../../components/Icon.astro';
+import { iconPath } from '../../utils/icon';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
 const BIOME_SHOTS: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
@@ -204,7 +205,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {recipes.slice(0, 6).map(r => (
-          <a class="card" href={`${P}/recipes/${r.slug}/`}><img class="pixel-icon" src={`/item-icons/${r.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
+          <a class="card" href={`${P}/recipes/${r.slug}/`}><img class="pixel-icon" src={iconPath(r.slug, 'crafting-table')} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{r.name}</h3><p>{r.ingredients.map(i => `${i.qty}x ${i.name}`).join(' + ')}</p></a>
         ))}
       </div>
     </section>
@@ -222,7 +223,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {enchantments.slice(0, 6).map(e => (
-          <a class="card" href={`${P}/enchantments/${e.slug}/`}><img class="pixel-icon" src={`/item-icons/${e.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
+          <a class="card" href={`${P}/enchantments/${e.slug}/`}><img class="pixel-icon" src={iconPath(e.slug, 'enchant')} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{e.name}</h3><p>Max level {e.maxLevel}</p></a>
         ))}
       </div>
     </section>
@@ -240,7 +241,7 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {commands.slice(0, 6).map(c => (
-          <a class="card" href={`${P}/commands/${c.slug}/`}><img class="pixel-icon" src={`/item-icons/${c.slug}.svg`} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
+          <a class="card" href={`${P}/commands/${c.slug}/`}><img class="pixel-icon" src={iconPath(c.slug, 'book')} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
         ))}
       </div>
     </section>
