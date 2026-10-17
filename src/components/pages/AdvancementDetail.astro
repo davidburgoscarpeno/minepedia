@@ -34,9 +34,9 @@ const L = isES ? {
   challenge: 'Desafío', goal: 'Objetivo', hidden: 'Advancement oculto: solo aparece en la pestaña después de conseguirlo',
   hiddenBadge: 'Oculto', quick: 'Respuesta rápida:',
   howH: `Cómo conseguir ${a.name}`, tipsH: 'Consejos', difficultyL: 'Dificultad',
-  parentL: 'Advancement previo', tabL: 'Pestaña', xpL: 'Recompensa',
+  parentL: 'Padre en el árbol', tabL: 'Pestaña', xpL: 'Recompensa',
   related: 'Más guías de la pestaña',
-  chainL: 'Cadena de prerrequisitos', nextH: 'Advancements que desbloquea',
+  chainL: 'Ruta en el árbol', nextH: 'Advancements que desbloquea',
   editionNote: 'Los advancements son exclusivos de Java Edition. En Bedrock Edition el equivalente son los logros (achievements), con objetivos distintos.',
   title: `${a.name} (advancement de Minecraft): cómo conseguirlo`,
   metaDesc: `${a.name} en Minecraft Java: ${desc}. Guía paso a paso, dificultad y consejos para conseguir este advancement de la pestaña ${a.tab}.`,
@@ -51,9 +51,9 @@ const L = isES ? {
   challenge: 'Challenge', goal: 'Goal', hidden: 'Hidden advancement: it only appears in the tab after you earn it',
   hiddenBadge: 'Hidden', quick: 'Quick answer:',
   howH: `How to get ${a.name}`, tipsH: 'Tips', difficultyL: 'Difficulty',
-  parentL: 'Previous advancement', tabL: 'Tab', xpL: 'Reward',
+  parentL: 'Tree parent', tabL: 'Tab', xpL: 'Reward',
   related: 'More guides from this tab',
-  chainL: 'Prerequisite chain', nextH: 'Advancements this unlocks',
+  chainL: 'Tree path', nextH: 'Advancements this unlocks',
   editionNote: 'Advancements are exclusive to Java Edition. The Bedrock Edition equivalent is achievements, which have different objectives.',
   title: `${a.name} (Minecraft advancement): how to get it`,
   metaDesc: `${a.name} in Minecraft Java: ${desc}. Step-by-step guide, difficulty and tips for this ${a.tab} tab advancement.`,
@@ -96,7 +96,7 @@ const jsonLd = [
     {chainUp.length >= 1 && (
       <p><strong>{L.chainL}:</strong> {chainUp.map((c: any, idx: number) => (
         <span>{idx > 0 && ' › '}{c.howToGet ? <a href={isES ? `/es/advancements/${c.slug}/` : `/advancements/${c.slug}/`}>{c.name}</a> : c.name}</span>
-      ))}{' › '}<strong>{a.name}</strong></p>
+      ))}{' › '}<strong>{a.name}</strong> <span style="color:var(--text-dim);font-size:.85rem">{isES ? '(los advancements son independientes: se pueden completar en cualquier orden; el árbol solo guía la progresión)' : '(advancements are independent: they can be completed in any order; the tree only guides progression)'}</span></p>
     )}
     {parentAdv && <p><strong>{L.parentL}:</strong> {parentAdv.howToGet ? <a href={isES ? `/es/advancements/${parentAdv.slug}/` : `/advancements/${parentAdv.slug}/`}>{parentAdv.name}</a> : parentAdv.name}</p>}
     <p style="color:var(--text-dim);font-size:.9rem">{L.editionNote}</p>
