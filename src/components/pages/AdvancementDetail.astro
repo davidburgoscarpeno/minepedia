@@ -30,22 +30,22 @@ const chain: any[] = [];
 const chainUp = chain.slice(0, -1); // all ancestors, root first
 
 const L = isES ? {
-  home: 'Inicio', homeHref: '/es/', crumb: 'Advancements', crumbHref: '/es/advancements/',
-  challenge: 'Desafío', goal: 'Objetivo', hidden: 'Advancement oculto: solo aparece en la pestaña después de conseguirlo',
+  home: 'Inicio', homeHref: '/es/', crumb: 'Logros', crumbHref: '/es/advancements/',
+  challenge: 'Desafío', goal: 'Objetivo', hidden: 'Logro oculto: solo aparece en la pestaña después de conseguirlo',
   hiddenBadge: 'Oculto', quick: 'Respuesta rápida:',
   howH: `Cómo conseguir ${a.name}`, tipsH: 'Consejos', difficultyL: 'Dificultad',
   parentL: 'Padre en el árbol', tabL: 'Pestaña', xpL: 'Recompensa',
   related: 'Más guías de la pestaña',
-  chainL: 'Ruta en el árbol', nextH: 'Advancements que desbloquea',
-  editionNote: 'Los advancements son exclusivos de Java Edition. En Bedrock Edition el equivalente son los logros (achievements), con objetivos distintos.',
-  title: `${a.name} (advancement de Minecraft): cómo conseguirlo`,
-  metaDesc: `${a.name} en Minecraft Java: ${desc}. Guía paso a paso, dificultad y consejos para conseguir este advancement de la pestaña ${a.tab}.`,
+  chainL: 'Ruta en el árbol', nextH: 'Logros que desbloquea',
+  editionNote: 'Estos logros (advancements) son exclusivos de Java Edition. Bedrock Edition tiene su propio sistema, los achievements, con objetivos distintos.',
+  title: `${a.name} (logro de Minecraft): cómo conseguirlo`,
+  metaDesc: `${a.name} en Minecraft Java: ${desc}. Guía paso a paso, dificultad y consejos para conseguir este logro (advancement) de la pestaña ${a.tab}.`,
   canonical: `/es/advancements/${a.slug}/`, alt: `/advancements/${a.slug}/`,
   faq1q: `¿Cómo se consigue ${a.name} en Minecraft?`,
   faq1a: howToGet[0],
-  faq2q: `¿Qué tipo de advancement es ${a.name}?`,
-  faq2a: `${a.name} es un advancement de la pestaña ${a.tab} de Java Edition${a.type === 'challenge' ? `, de tipo desafío${a.xp ? `, y recompensa ${a.xp} de experiencia` : ''}` : a.type === 'goal' ? ', de tipo objetivo' : ''}.${a.hidden ? ' Está oculto hasta que lo consigues.' : ''}`,
-  headline: `${a.name}: cómo conseguir el advancement en Minecraft`
+  faq2q: `¿Qué tipo de logro es ${a.name}?`,
+  faq2a: `${a.name} es un logro (advancement) de la pestaña ${a.tab} de Java Edition${a.type === 'challenge' ? `, de tipo desafío${a.xp ? `, y recompensa ${a.xp} de experiencia` : ''}` : a.type === 'goal' ? ', de tipo objetivo' : ''}.${a.hidden ? ' Está oculto hasta que lo consigues.' : ''}`,
+  headline: `${a.name}: cómo conseguir el logro en Minecraft`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Advancements', crumbHref: '/advancements/',
   challenge: 'Challenge', goal: 'Goal', hidden: 'Hidden advancement: it only appears in the tab after you earn it',

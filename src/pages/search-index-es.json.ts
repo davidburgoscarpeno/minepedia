@@ -36,7 +36,7 @@ export async function GET() {
     { name: 'Los mejores mods de contenido', kind: 'guía', url: '/es/mods/best-content-mods/', keywords: 'create mod botania twilight forest farmers delight terralith mekanism mods contenido' },
     { name: 'Guía de shaders', kind: 'guía', url: '/es/mods/shaders/', keywords: 'shaders iris complementary bsl instalar vibrant visuals' },
     { name: 'Add-ons de Bedrock', kind: 'guía', url: '/es/mods/bedrock-addons/', keywords: 'bedrock addons mcaddon marketplace consola móvil' },
-    { name: 'Guía de advancements de Minecraft', kind: 'guía', url: '/es/advancements/', keywords: 'advancements logros lista todas las pestañas java guía' },
+    { name: 'Guía de logros de Minecraft (advancements)', kind: 'guía', url: '/es/advancements/', keywords: 'logros advancements lista todas las pestañas java guía' },
     { name: 'How Did We Get Here? (advancement)', kind: 'advancement', url: '/es/advancements/how-did-we-get-here/', keywords: 'how did we get here todos los efectos desafío oculto 27' },
     { name: 'Hidden in the Depths (advancement)', kind: 'advancement', url: '/es/advancements/hidden-in-the-depths/', keywords: 'ancient debris encontrar netherite minar y15' },
     { name: 'Hot Tourist Destinations (advancement)', kind: 'advancement', url: '/es/advancements/hot-tourist-destinations/', keywords: 'biomas nether explorar todos basalt deltas warped forest' },
