@@ -250,3 +250,7 @@ table.data tr:hover td { background: var(--bg-hover); }
 
 /* Own pixel-art icons */
 .pixel-icon { image-rendering: pixelated; border-radius: 10px; background: var(--bg-panel); border: 1px solid var(--border); padding: 2px; flex-shrink: 0; }
+
+@media (max-width: 560px) {
+  table.data th, table.data td { padding: 8px 10px; font-size: .85rem; }
+}
