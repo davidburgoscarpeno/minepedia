@@ -14,6 +14,7 @@ const quickAnswer = ov?.quickAnswer ?? g.quickAnswer;
 const steps = ov?.steps ?? g.steps;
 const materials = ov?.materials ?? g.materials;
 const editionNote = ov?.editionNote ?? g.editionNote;
+const table = ov?.table ?? g.table;
 const versions = ov?.versions ?? g.versions;
 const faq = ov?.faq ?? g.faq;
 const relatedLinks = ov?.relatedLinks ?? g.relatedLinks;
@@ -23,13 +24,13 @@ const shotId = SHOT_BY_SLUG[g.slug];
 
 const L = isES ? {
   home: 'Inicio', homeHref: '/es/', crumb: 'Guías', crumbHref: '/es/guides/',
-  guideBadge: 'Guía', quick: 'Respuesta rápida:', needH: 'Qué necesitas', stepsH: 'Paso a paso',
+  guideBadge: 'Guía', quick: 'Respuesta rápida:', needH: 'Qué necesitas', stepsH: 'Paso a paso', tableH: 'Comparativa rápida',
   editionsH: 'Java vs Bedrock', versionsL: 'Versiones:', faqH: 'Preguntas frecuentes', relatedL: 'Relacionados:',
   guideHref: (slug: string) => `/es/guides/${slug}/`,
   canonical: `/es/guides/${g.slug}/`, alt: `/guides/${g.slug}/`
 } : {
   home: 'Home', homeHref: '/', crumb: 'Guides', crumbHref: '/guides/',
-  guideBadge: 'Guide', quick: 'Quick answer:', needH: 'What you need', stepsH: 'Step by step',
+  guideBadge: 'Guide', quick: 'Quick answer:', needH: 'What you need', stepsH: 'Step by step', tableH: 'At a glance',
   editionsH: 'Java vs Bedrock', versionsL: 'Versions:', faqH: 'Frequently asked questions', relatedL: 'Related:',
   guideHref: (slug: string) => `/guides/${slug}/`,
   canonical: `/guides/${g.slug}/`, alt: `/es/guides/${g.slug}/`
@@ -70,6 +71,15 @@ const jsonLd = [
     <ul>{materials.map((m: string) => <li>{m}</li>)}</ul>
     <h2>{L.stepsH}</h2>
     <ol>{steps.map((s: string) => <li>{s}</li>)}</ol>
+    {table && (
+      <>
+        <h2>{table.heading ?? L.tableH}</h2>
+        <div class="table-scroll"><table class="data">
+          <thead><tr>{table.columns.map((c: string) => <th>{c}</th>)}</tr></thead>
+          <tbody>{table.rows.map((r: string[]) => <tr>{r.map((c: string) => <td>{c}</td>)}</tr>)}</tbody>
+        </table></div>
+      </>
+    )}
     <h2>{L.editionsH}</h2>
     <p>{editionNote}</p>
     <p style="color:var(--text-dim);font-size:.9rem"><strong>{L.versionsL}</strong> {versions}</p>

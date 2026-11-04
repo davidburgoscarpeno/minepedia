@@ -137,6 +137,7 @@ h1 + p .badge, h1 { margin-bottom: 6px; }
 .quick-answer strong { color: var(--accent-bright); }
 
 /* Tables */
+.table-scroll { overflow-x: auto; }
 table.data {
   width: 100%; border-collapse: separate; border-spacing: 0; margin: 18px 0; font-size: .94rem;
   background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;

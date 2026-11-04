@@ -18926,7 +18926,8 @@
       "Apply Unbreaking III first, then Mending. Anvil costs rise with each working, so combine books cheaply first if you can.",
       "Unbreaking III gives about 4 seconds of gliding per durability point on average, roughly 29 minutes total. Mending repairs damaged elytra while you wear or hold them and collect XP; it does not repair them merely because you are flying.",
       "Avoid the curses. In Survival, Curse of Binding prevents removing equipped elytra even when their durability reaches 1. Death normally removes them unless keep inventory is enabled; Curse of Vanishing normally deletes them on death.",
-      "Maintain the wings: repair on an anvil with phantom membranes if Mending is not active, before durability hits 1 and they stop working."
+      "Maintain the wings: repair on an anvil with phantom membranes if Mending is not active, before durability hits 1 and they stop working.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "materials": [
       "Elytra (end ship)",
@@ -18965,7 +18966,32 @@
         "label": "How to get Phantom Membranes"
       }
     ],
-    "keywords": "how to enchant elytra minecraft unbreaking mending elytra anvil best elytra enchantments"
+    "keywords": "how to enchant elytra minecraft unbreaking mending elytra anvil best elytra enchantments",
+    "table": {
+      "heading": "What elytra accept and how",
+      "columns": [
+        "Enchantment",
+        "How to apply",
+        "Cost note"
+      ],
+      "rows": [
+        [
+          "Unbreaking III",
+          "Anvil + book",
+          "Cheap - apply first"
+        ],
+        [
+          "Mending",
+          "Anvil + book",
+          "Treasure book: librarians, loot or fishing"
+        ],
+        [
+          "Curse of Binding / Vanishing",
+          "Anvil + book",
+          "Never add these on purpose"
+        ]
+      ]
+    }
   },
   {
     "slug": "how-to-get-ward-armor-trim",
@@ -31091,7 +31117,8 @@
       "Fire Aspect II: sets targets on fire - free damage over time and cooked meat from animals. Some players skip it because burning mobs set you on fire in melee.",
       "Sweeping Edge III (Java only): boosts the sweep attack's damage - the best crowd-control option for mob farms.",
       "Knockback II: optional. Great against creepers, annoying when chasing mobs - many players leave it off.",
-      "Getting them: enchant books at the table, combine on an anvil, or buy the exact books from librarian villagers."
+      "Getting them: enchant books at the table, combine on an anvil, or buy the exact books from librarian villagers.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "Sweeping Edge and the sword sweep attack are Java-only. Sharpness damage also differs: Java uses 0.5 × level + 0.5, while Bedrock uses 1.25 × level rounded down. Do not assume equal sword damage across editions.",
@@ -31115,7 +31142,60 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Sword enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Best source"
+      ],
+      "rows": [
+        [
+          "Sharpness",
+          "V",
+          "+3 damage in Java (+6 in Bedrock) against everything",
+          "Books at the table; combine two IV on an anvil (only gold swords roll V directly)"
+        ],
+        [
+          "Looting",
+          "III",
+          "+1 max common drop and +1% rare-drop chance per level",
+          "Table or librarian books"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability on weapons",
+          "Table"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP you collect repairs the sword",
+          "Treasure only: librarians, loot, fishing"
+        ],
+        [
+          "Fire Aspect",
+          "II",
+          "Burn damage over time; cooked meat drops",
+          "Table"
+        ],
+        [
+          "Sweeping Edge",
+          "III",
+          "Stronger sweep attacks for mob farms",
+          "Table (Java only)"
+        ],
+        [
+          "Knockback",
+          "II",
+          "Optional: keeps creepers at distance",
+          "Table"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-pickaxe-enchantments",
@@ -31135,7 +31215,8 @@
       "Unbreaking III: quadruples average durability. Non-negotiable.",
       "Silk Touch (second pickaxe): picks up ore blocks, glass, ice, grass blocks and bookshelves. Conflicts with Fortune - that is why miners carry two picks.",
       "Skip Curse of Vanishing books when combining on the anvil - check before you pay the levels.",
-      "Use level-30 table offers for Efficiency and Unbreaking, then finish with anvil books. Diamond tools get at most Efficiency IV directly from the table, so combine IV books or tools for V."
+      "Use level-30 table offers for Efficiency and Unbreaking, then finish with anvil books. Diamond tools get at most Efficiency IV directly from the table, so combine IV books or tools for V.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "The main pickaxe enchantment choices work in both editions. Some Fortune drops and mining-speed modifiers differ, so identical enchantments do not guarantee identical breaking times for every block.",
@@ -31159,7 +31240,48 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Pickaxe enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Best source"
+      ],
+      "rows": [
+        [
+          "Efficiency",
+          "V",
+          "Adds 1 + level² mining speed: +26 at V",
+          "Table or librarian books"
+        ],
+        [
+          "Fortune",
+          "III",
+          "Averages 2.2x drops from ores like diamond",
+          "Table (conflicts with Silk Touch)"
+        ],
+        [
+          "Silk Touch",
+          "I",
+          "Mines blocks as-is: ore blocks, glass, stone",
+          "Table (conflicts with Fortune)"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "Table"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the pickaxe",
+          "Treasure only"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-armor-enchantments",
@@ -31179,7 +31301,8 @@
       "Leggings: Swift Sneak III (ancient city chests only) for faster crouching - niche, but worth applying if you find it.",
       "Thorns III on all four pieces if you can: attackers take damage automatically. It eats durability - only worth it with Mending.",
       "Specialized sets: Projectile Protection for skeletons and shulker bullets, Blast Protection for end crystals and beds in the Nether, Fire Protection for lava work. Keep them as swap pieces.",
-      "Enchantment order on the anvil affects cost - compare the preview costs of different combination orders before spending XP."
+      "Enchantment order on the anvil affects cost - compare the preview costs of different combination orders before spending XP.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note above for differences.",
     "editionNote": "The core armor setup works in Java and Bedrock. In Java, Thorns does not reflect the sonic boom attack of a warden; in Bedrock it does. Other combat details can differ by edition.",
@@ -31203,7 +31326,72 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Armor enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Piece",
+        "Why it makes the list"
+      ],
+      "rows": [
+        [
+          "Protection",
+          "IV",
+          "All four",
+          "4% damage reduction per level and piece: 64% on a full set, 80% cap with a specific protection"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "All four",
+          "About 1.43x durability on armor"
+        ],
+        [
+          "Mending",
+          "I",
+          "All four",
+          "XP repairs the piece you wear"
+        ],
+        [
+          "Thorns",
+          "III",
+          "Optional",
+          "Level x 15% chance per piece to hurt attackers; eats extra durability"
+        ],
+        [
+          "Feather Falling",
+          "IV",
+          "Boots",
+          "-48% fall damage, also ender pearl landings"
+        ],
+        [
+          "Depth Strider",
+          "III",
+          "Boots",
+          "Full walking speed in water (conflicts with Frost Walker)"
+        ],
+        [
+          "Soul Speed",
+          "III",
+          "Boots",
+          "Fast movement on soul sand and soul soil"
+        ],
+        [
+          "Respiration",
+          "III",
+          "Helmet",
+          "Air lasts about 64 seconds instead of 16"
+        ],
+        [
+          "Aqua Affinity",
+          "I",
+          "Helmet",
+          "Normal mining speed underwater"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-bow-enchantments",
@@ -31223,7 +31411,8 @@
       "Unbreaking III: quadruples average durability - essential whichever way you go on Infinity vs Mending.",
       "Flame: sets targets on fire - extra damage over time and it lights TNT and campfires at range.",
       "Punch II: massive knockback - knocks mobs off cliffs and keeps creepers at distance.",
-      "Getting them: Power, Punch, Flame and Infinity all come from the table; finish with anvil combinations or librarian books."
+      "Getting them: Power, Punch, Flame and Infinity all come from the table; finish with anvil combinations or librarian books.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "The normal enchantment choices work in both editions. Spectral arrows exist only in Java. Infinity does not save tipped arrows or spectral arrows. Mending and Infinity cannot coexist through normal Survival enchanting.",
@@ -31247,7 +31436,54 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Bow enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Best source"
+      ],
+      "rows": [
+        [
+          "Power",
+          "V",
+          "+150% arrow damage at V (25% x level+1)",
+          "Table or books"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "Table"
+        ],
+        [
+          "Infinity",
+          "I",
+          "Unlimited normal arrows while you carry one",
+          "Table (conflicts with Mending)"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the bow - the forever-bow choice",
+          "Treasure only (conflicts with Infinity)"
+        ],
+        [
+          "Punch",
+          "II",
+          "Knocks targets back, buys distance",
+          "Table"
+        ],
+        [
+          "Flame",
+          "I",
+          "Sets targets on fire",
+          "Table"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-axe-enchantments",
@@ -31267,7 +31503,8 @@
       "Fortune III: more drops from leaves (saplings, apples) and melons - worth it on a wood-farm axe.",
       "Silk Touch (alternative): harvests beehives with bees inside, bookshelves and glass - conflicts with Fortune, pick per axe.",
       "Combat note (Java): an axe can disable a raised shield. This is different from sword sweeping; an axe has no sweep attack.",
-      "Combat note (Bedrock): swords out-damage axes - enchant the axe as a pure tool there."
+      "Combat note (Bedrock): swords out-damage axes - enchant the axe as a pure tool there.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "Java axes have high damage per hit but slower attack speed than swords. Bedrock combat differs, and swords are normally the stronger dedicated melee choice. Choose the axe enchantments for your intended mining or combat use, rather than assuming one build fits both editions.",
@@ -31291,7 +31528,54 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Axe enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Best source"
+      ],
+      "rows": [
+        [
+          "Efficiency",
+          "V",
+          "+26 mining/chopping speed at V",
+          "Table"
+        ],
+        [
+          "Sharpness",
+          "V",
+          "Combat axe: +3 damage in Java (+6 in Bedrock)",
+          "Books; combine two IV on an anvil"
+        ],
+        [
+          "Fortune",
+          "III",
+          "More drops from leaves, crops and melons",
+          "Table (conflicts with Silk Touch)"
+        ],
+        [
+          "Silk Touch",
+          "I",
+          "Mines beehives, glass and bookshelves intact",
+          "Table (conflicts with Fortune)"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "Table"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the axe",
+          "Treasure only"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-elytra-enchantments",
@@ -31335,7 +31619,42 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Every elytra enchantment",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Effect",
+        "Worth it"
+      ],
+      "rows": [
+        [
+          "Unbreaking",
+          "III",
+          "About 4x flight time before breaking",
+          "Yes - core of the setup"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the elytra while worn",
+          "Yes - makes them effectively permanent"
+        ],
+        [
+          "Curse of Binding",
+          "I",
+          "Cannot be removed until death",
+          "Avoid"
+        ],
+        [
+          "Curse of Vanishing",
+          "I",
+          "Elytra disappear on death",
+          "Avoid"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-trident-enchantments",
@@ -31355,7 +31674,8 @@
       "Travel build: Riptide III launches you through water or rain - pair it with elytra for rain-day flight without rockets.",
       "Impaling V adds damage to qualifying targets: aquatic mobs in Java, or mobs and players in water or rain in Bedrock. V adds 12.5 HP in Java or 12 HP after rounding in Bedrock.",
       "Mending repairs the damaged trident when held while collecting XP; other damaged equipment can receive an orb. Unbreaking III gives weapons about four times their usual lifespan on average, not an unbreakable guarantee.",
-      "Skip Curse of Vanishing books from loot - the trident disappears on death."
+      "Skip Curse of Vanishing books from loot - the trident disappears on death.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "Java Impaling targets aquatic mobs, not drowned. Bedrock applies it to wet targets, including players. Channeling needs sky exposure and a valid target; Bedrock lightning rods can trigger it in ordinary rain. Loyalty has void and return limits.",
@@ -31383,7 +31703,54 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Trident enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Conflicts"
+      ],
+      "rows": [
+        [
+          "Loyalty",
+          "III",
+          "Trident returns after each throw, faster per level",
+          "Riptide"
+        ],
+        [
+          "Channeling",
+          "I",
+          "Lightning on hit during thunderstorms - mob-head farming",
+          "Riptide"
+        ],
+        [
+          "Riptide",
+          "III",
+          "Launch yourself in water or rain; pairs with elytra",
+          "Loyalty + Channeling"
+        ],
+        [
+          "Impaling",
+          "V",
+          "+2.5 damage per level - Java: aquatic mobs only; Bedrock: anything in water or rain",
+          "-"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "-"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the trident",
+          "-"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-crossbow-enchantments",
@@ -31403,7 +31770,8 @@
       "Multishot can launch three firework rockets for one rocket item. Add firework stars for damage. In Java they explode on impact; do not assume the same impact behavior or guaranteed burst damage in Bedrock.",
       "Unbreaking reduces durability loss. A normal arrow shot costs 1 durability, a Multishot arrow shot 3; rocket shots cost 3, or 9 with Multishot, before Unbreaking checks.",
       "Mending repairs the damaged crossbow when held while collecting XP. Other damaged Mending equipment can receive an orb, and the crossbow can still break without enough repair XP.",
-      "Power, Flame, Punch and Infinity cannot normally be applied to crossbows in Survival. Command-only behavior is separate from a normal build."
+      "Power, Flame, Punch and Infinity cannot normally be applied to crossbows in Survival. Command-only behavior is separate from a normal build.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "Multishot spreads three projectiles in both editions. Java arrows from one shot do not all damage the same mob, and Java rockets explode on impact. Piercing is for arrows, not rockets. Choose by ammunition and target layout rather than assuming one highest-damage build.",
@@ -31427,7 +31795,48 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Crossbow enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Conflicts"
+      ],
+      "rows": [
+        [
+          "Quick Charge",
+          "III",
+          "Loads in 0.5s instead of 1.25s",
+          "-"
+        ],
+        [
+          "Multishot",
+          "I",
+          "Fires 3 projectiles for the cost of 1",
+          "Piercing"
+        ],
+        [
+          "Piercing",
+          "IV",
+          "Arrows pass through up to 5 mobs and ignore shields",
+          "Multishot"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "-"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the crossbow",
+          "-"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-fishing-rod-enchantments",
@@ -31446,7 +31855,9 @@
       "They stack: Lure gets you more rolls, Luck of the Sea makes each roll better.",
       "Mending repairs the damaged held rod when you collect XP. Fishing supplies XP, but other damaged Mending equipment can receive an orb instead; missed XP and other rod uses can also leave it damaged. Do not assume it is unbreakable.",
       "Unbreaking III: insurance so the rod survives long enough to start self-repairing.",
-      "Skip Curse of Vanishing loot rods - combine two good rods on an anvil instead."
+      "Skip Curse of Vanishing loot rods - combine two good rods on an anvil instead.",
+      "Treasure loot only counts in open water (Java): the bobber needs open sky above and about 2 blocks of clear water around it. A covered 1x1 pool catches fish but never treasure, so Luck of the Sea does nothing there.",
+      "Anvil order matters: combine books with each other first (two I make II, two II make III), then apply the cheapest books to the item first. Every anvil job on an item raises its prior-work penalty, and once a single job would cost more than 39 levels the anvil refuses with 'Too Expensive!' - so build books before touching the item."
     ],
     "versions": "Describes the current Java and Bedrock releases. See the edition note for differences.",
     "editionNote": "The same core enchantment setup works in both editions, but Java treasure needs qualifying open water and Bedrock does not. An AFK design must actually meet the relevant conditions; a compact pool does not guarantee treasure books.",
@@ -31470,7 +31881,42 @@
         "label": "Enchantments",
         "url": "/enchantments/"
       }
-    ]
+    ],
+    "table": {
+      "heading": "Fishing rod enchantments at a glance",
+      "columns": [
+        "Enchantment",
+        "Max",
+        "Why it makes the list",
+        "Best source"
+      ],
+      "rows": [
+        [
+          "Luck of the Sea",
+          "III",
+          "Treasure rises from 5% to 11.3% of catches; less junk",
+          "Table"
+        ],
+        [
+          "Lure",
+          "III",
+          "5 seconds less wait per level",
+          "Table"
+        ],
+        [
+          "Unbreaking",
+          "III",
+          "About 4x effective durability",
+          "Table"
+        ],
+        [
+          "Mending",
+          "I",
+          "XP repairs the rod - great with XP from fishing itself",
+          "Treasure only"
+        ]
+      ]
+    }
   },
   {
     "slug": "best-boots-enchantments",
