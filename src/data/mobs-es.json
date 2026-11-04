@@ -21,7 +21,7 @@
     "tameOrBreed": "No se puede domesticar ni criar. Los aldeanos zombi se curan con Debilidad + manzana dorada.",
     "notes": [
       "Comida de emergencia; comercia con aldeanos clérigos",
-      "2,5% en total de soltar uno de ellos (~0,83% cada uno); 5,5% en total con Saqueo III",
+      "2,5% en total de soltar uno de ellos (~0,83% cada uno); 5,5% en total con Botín III",
       "Los zombis con equipamiento lo sueltan (8,5% base en spawns naturales)"
     ]
   },
@@ -87,7 +87,7 @@
     "type": "Pacífico",
     "where": "Casi todos los biomas con hierba del Overworld, salvo llanuras nevadas, prados, cerezos, manglares y jardines pálidos.",
     "spawnConditions": "Sobre bloques de hierba bien iluminados con al menos dos bloques de espacio encima. Manadas de cuatro en Java y de 2-3 en Bedrock. También en corrales de aldeas al generar el mundo.",
-    "howToKill": "Cualquier arma; huye al recibir daño. Saqueo aumenta los drops de cuero y ternera.",
+    "howToKill": "Cualquier arma; huye al recibir daño. Botín aumenta los drops de cuero y ternera.",
     "behavior": "Deambula, sigue a jugadores con trigo a menos de seis bloques y se ordeña con un cubo. Tres variantes (templada, fría, cálida). Las crías no sueltan nada. Fuente: minecraft.wiki Cow.",
     "tameOrBreed": "Cría a dos adultos con trigo.",
     "notes": [
@@ -184,8 +184,8 @@
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Drop estándar de la familia zombi",
-      "11% de probabilidad en ambas ediciones, +2% por nivel de Saqueo: la única fuente renovable de cobre",
-      "Solo de drowned que llevan uno. Java: 6,25% aparecen con tridente, 8,5% de drop (+1% por Saqueo). Bedrock: 15% aparecen con uno, 25% de drop (+4% por Saqueo)",
+      "11% de probabilidad en ambas ediciones, +2% por nivel de Botín: la única fuente renovable de cobre",
+      "Solo de drowned que llevan uno. Java: 6,25% aparecen con tridente, 8,5% de drop (+1% por Botín). Bedrock: 15% aparecen con uno, 25% de drop (+4% por Botín)",
       "Objeto en mano raro en Java, 8,5% de drop cuando lo lleva"
     ]
   },
@@ -209,7 +209,7 @@
     "behavior": "Neutral: hostil salvo que lleves armadura de oro. Los adultos aparecen con espada de oro (45%), lanza de oro (5%) o ballesta (50%), y 10% por pieza de armadura. Los piglins bebé nunca crecen, son pasivos y aceptan oro sin dar nada. Fuente: minecraft.wiki Piglin.",
     "tameOrBreed": "No se puede domesticar. Los adultos hacen trueque por lingotes de oro; los bebés cogen el oro pero no dan nada.",
     "notes": [
-      "8,5% de probabilidad, +1% por nivel de Saqueo",
+      "8,5% de probabilidad, +1% por nivel de Botín",
       "No es un drop: lanza un lingote de oro a un piglin adulto y te devuelve objetos: ender pearls, obsidiana, cuarzo, hilo, fire charges, pepitas de hierro, libros de Soul Speed y más"
     ]
   },
@@ -244,7 +244,7 @@
     "behavior": "Armado con ballesta; ataca a jugadores, aldeanos, mercaderes errantes y golems de hierro. La ballesta se rompe tras 465 usos sin Irrompibilidad, y un saqueador sin arma es pasivo. Fuente: minecraft.wiki Pillager.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "8,5% de probabilidad, +1% por nivel de Saqueo",
+      "8,5% de probabilidad, +1% por nivel de Botín",
       "Solo de capitanes (los que llevan estandarte). Bébetelo para Bad Omen, que inicia una raid al entrar en una aldea",
       "De capitanes; trofeo cosmético"
     ]
@@ -279,11 +279,11 @@
     "where": "Cabañas de pantano, cualquier sitio del Overworld con luz 0 (salvo mushroom fields y deep dark), asaltos y aldeanos alcanzados por un rayo.",
     "spawnConditions": "Cabañas de pantano (volumen de 7x7x9 en Java), luz 0 en el Overworld (siempre solas), asaltos desde la oleada 3 o 4 (Java) o la 4 (Bedrock) y aldeanos alcanzados por un rayo a menos de cuatro bloques.",
     "howToKill": "Ve a por ella antes de que beba: las brujas beben Pociones de Curación (4 corazones), Resistencia al fuego, Respiración acuática y Rapidez. Un arco desde fuera de su rango de pociones también funciona. Nunca dejes que te salpique cerca de otros mobs.",
-    "behavior": "Lanza pociones arrojadizas y bebe pociones para defenderse. Puede soltar la poción que bebía: 8,5% y +1% por nivel de Saqueo. No abre puertas. Fuente: minecraft.wiki Witch.",
+    "behavior": "Lanza pociones arrojadizas y bebe pociones para defenderse. Puede soltar la poción que bebía: 8,5% y +1% por nivel de Botín. No abre puertas. Fuente: minecraft.wiki Witch.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Las granjas de brujas producen todo esto, sobre todo redstone y glowstone",
-      "8,5% de probabilidad (+1% por Saqueo) si la matas mientras bebe"
+      "8,5% de probabilidad (+1% por Botín) si la matas mientras bebe"
     ]
   },
   "phantom": {
@@ -301,13 +301,13 @@
     "type": "Hostil",
     "where": "Fortalezas del Nether, dentro del área de la fortaleza con nivel de luz 0-7.",
     "spawnConditions": "Solo fortalezas del Nether, sobre ladrillos del Nether, nivel de luz 7 o menos (Java), cualquier luz en las áreas de Bedrock.",
-    "howToKill": "Su altura de 2,4 bloques se atasca bajo techos de 2 bloques: lucha en pasillos de fortaleza con techos de losas o desde un hueco de 2 bloques de alto. Su espada de piedra inflige el efecto Wither, así que la leche o un escudo ayudan. Saqueo III es imprescindible para cazar cabezas.",
+    "howToKill": "Su altura de 2,4 bloques se atasca bajo techos de 2 bloques: lucha en pasillos de fortaleza con techos de losas o desde un hueco de 2 bloques de alto. Su espada de piedra inflige el efecto Wither, así que la leche o un escudo ayudan. Botín III es imprescindible para cazar cabezas.",
     "behavior": "Corre hacia los jugadores y taja con una espada de piedra, infligiendo 10 segundos de efecto Wither (la barra de vida se vuelve negra y baja). Inmune al fuego y la lava. Se pelea con los piglins que lo atacan primero.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Hasta 4 con Saqueo III",
-      "Hasta 5 con Saqueo III",
-      "El premio: necesaria para invocar al Wither; la probabilidad sube con Saqueo",
+      "Hasta 4 con Botín III",
+      "Hasta 5 con Botín III",
+      "El premio: necesaria para invocar al Wither; la probabilidad sube con Botín",
       "Drop ocasional de equipamiento"
     ]
   },
@@ -320,7 +320,7 @@
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Siempre: la única fuente renovable de tótems",
-      "Más con Saqueo"
+      "Más con Botín"
     ]
   },
   "vindicator": {
@@ -331,7 +331,7 @@
     "behavior": "Corre hacia sus objetivos con un hacha de hierro. En Normal y Difícil puede llevar un hacha encantada; en asaltos puede tener Filo I, o Filo II desde la oleada 6. En Java puede unirse a una patrulla si está cerca del capitán. Fuente: minecraft.wiki Vindicator.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Hasta 4 con Saqueo III",
+      "Hasta 4 con Botín III",
       "Drop ocasional de equipamiento"
     ]
   },
@@ -354,7 +354,7 @@
     "behavior": "Vuela a través de cualquier bloque, incluida la roca madre. Ataca a jugadores, aldeanos adultos, golems de hierro y mercaderes errantes; sin arma sigue atacándolos pero no hace daño. Suelta 5 de XP si lo mata un jugador o lobo domesticado; la espada de hierro nunca cae. Fuente: minecraft.wiki Vex.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Su espada en mano tiene 0% de drop base, y solo sube con Saqueo"
+      "Su espada en mano tiene 0% de drop base, y solo sube con Botín"
     ]
   },
   "elder-guardian": {
@@ -366,8 +366,8 @@
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
       "Siempre: la única fuente de esponjas",
-      "Más con Saqueo",
-      "Más con Saqueo",
+      "Más con Botín",
+      "Más con Botín",
       "O un pez aleatorio",
       "Desde la 1.20; se puede duplicar con diamantes y prismarina"
     ]
@@ -380,7 +380,7 @@
     "behavior": "Salta hacia los jugadores y se divide en copias más pequeñas al morir. Inmune al fuego y la lava, recibe daño en el agua. Las ranas se comen el tamaño más pequeño y producen froglights.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Hasta 4 con Saqueo III; sirve para pociones de resistencia al fuego",
+      "Hasta 4 con Botín III; sirve para pociones de resistencia al fuego",
       "Cuando una rana se come un magma cube pequeño: el color depende del tipo de rana"
     ]
   },
@@ -400,7 +400,7 @@
     "where": "Muchos biomas con hierba del Overworld (llanuras, bosques y más).",
     "spawnConditions": "Java: 4 ovejas sobre hierba con luz 9 o más, incluso en taigas nevadas pero no en jardines pálidos. Bedrock: 2-3 al generar el mundo, luz 7 o más, no en jardines pálidos, llanuras nevadas, picos de hielo ni badlands boscosos. Seis colores naturales.",
     "howToKill": "Uno o dos golpes de espada, pero esquilar es mejor que matar.",
-    "behavior": "Pasta bloques de hierba (los convierte en tierra) y hierba corta, lo que regenera el vellón esquilado. Esquilar da 1-3 de lana sin dañarla y Fortune o Saqueo no influyen. Las crías no sueltan nada. Fuente: minecraft.wiki Sheep.",
+    "behavior": "Pasta bloques de hierba (los convierte en tierra) y hierba corta, lo que regenera el vellón esquilado. Esquilar da 1-3 de lana sin dañarla y Fortune o Botín no influyen. Las crías no sueltan nada. Fuente: minecraft.wiki Sheep.",
     "tameOrBreed": "Cría dos ovejas con trigo; criar suelta 1-7 de XP. Cualquier tinte cambia el color de la lana de una oveja sin esquilar.",
     "notes": [
       "Del color de su vellón; nada si está esquilada",
@@ -411,12 +411,12 @@
     "type": "Pacífico",
     "where": "Biomas con hierba del Overworld en todas partes; también nace de huevos lanzados.",
     "spawnConditions": "Bloques de hierba con nivel de luz 9+ en la mayoría de biomas del Overworld. Los huevos lanzados eclosionan 1 de cada 8 veces. Los raros chicken jockeys aparecen cuando un zombi bebé aparece montando una gallina.",
-    "howToKill": "Un golpe de cualquier cosa. Una espada con Saqueo da más plumas y carne.",
+    "howToKill": "Un golpe de cualquier cosa. Una espada con Botín da más plumas y carne.",
     "behavior": "Deambula, aletea despacio hasta el suelo (no recibe daño por caída) y pone un huevo cada 5-10 minutos. Sigue semillas. Ocelotes y zorros las cazan.",
     "tameOrBreed": "Cría con cualquier semilla (trigo, calabaza, sandía, remolacha, torchflower). Los huevos lanzados eclosionan 1 de 8 veces (y 1/256 para 4 pollitos a la vez).",
     "notes": [
-      "Hasta 5 con Saqueo III: las flechas las necesitan",
-      "Cocinado si muere por fuego; más con Saqueo",
+      "Hasta 5 con Botín III: las flechas las necesitan",
+      "Cocinado si muere por fuego; más con Botín",
       "Los pone en vida: la base de toda granja de gallinas"
     ]
   },
@@ -450,8 +450,8 @@
     "behavior": "Una araña más pequeña y venenosa: su mordisco inflige Veneno durante 7 segundos en Normal (15 en Difícil), bajando la vida a medio corazón. Neutral con luz brillante, hostil en la oscuridad. Escala paredes como las arañas.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Hasta 5 con Saqueo III",
-      "Hasta 4 con Saqueo III; ingrediente de pociones"
+      "Hasta 5 con Botín III",
+      "Hasta 4 con Botín III; ingrediente de pociones"
     ]
   },
   "stray": {
@@ -462,9 +462,9 @@
     "behavior": "Variante de esqueleto que dispara flechas de Lentitud y no se congela en nieve en polvo. Se quema con el sol. Un esqueleto 7 segundos en nieve en polvo tiembla y se convierte en stray 15 segundos después. Suelta hueso, flecha y a veces flecha de Lentitud; 5 de XP si lo mata un jugador o lobo domesticado. Fuente: minecraft.wiki Stray.",
     "tameOrBreed": "No se puede domesticar ni criar.",
     "notes": [
-      "Hasta 5 con Saqueo III",
-      "Hasta 5 con Saqueo III",
-      "Solo con Saqueo; flechas con efecto para tu propio uso"
+      "Hasta 5 con Botín III",
+      "Hasta 5 con Botín III",
+      "Solo con Botín; flechas con efecto para tu propio uso"
     ]
   },
   "wandering-trader": {
@@ -486,8 +486,8 @@
     "behavior": "Esquilarlo suelta 5 setas y lo convierte en vaca; no vuelven a crecer. Un rayo a menos de 4 bloques cambia entre rojo y marrón. Con cubo da leche, con cuenco estofado de setas; un mooshroom marrón alimentado con una flor pequeña da estofado sospechoso en el siguiente ordeño con cuenco. Fuente: minecraft.wiki Mooshroom.",
     "tameOrBreed": "Se cría con trigo (no con vacas). Dos mooshrooms rojos tienen 1/1024 de cría marrón; rojo x marrón da 50% de cada variante.",
     "notes": [
-      "Filete si muere por fuego; más con Saqueo",
-      "Hasta 5 con Saqueo III",
+      "Filete si muere por fuego; más con Botín",
+      "Hasta 5 con Botín III",
       "Ordeña una mooshroom roja con un cuenco; estofado sospechoso con una marrón tras darle una flor"
     ]
   },
@@ -513,7 +513,7 @@
     "tameOrBreed": "No se puede domesticar ni criar.",
     "keywords": "breeze trial chambers wind charge desviar breeze rod salto hostil 1.21",
     "notes": [
-      "Más con Saqueo; fabrica wind charges, el armor trim flow y la maza (con un heavy core)"
+      "Más con Botín; fabrica wind charges, el armor trim flow y la maza (con un heavy core)"
     ]
   },
   "creaking": {
@@ -537,9 +537,9 @@
     "tameOrBreed": "No se puede domesticar ni criar.",
     "keywords": "bogged variante skeleton pantano flecha poison esquilar setas musgo 1.21",
     "notes": [
-      "Más con Saqueo",
-      "Más con Saqueo",
-      "Al matarlo un jugador; Saqueo aumenta la probabilidad",
+      "Más con Botín",
+      "Más con Botín",
+      "Al matarlo un jugador; Botín aumenta la probabilidad",
       "Esquílalo una vez para 2 setas, cada una marrón o roja con la misma probabilidad"
     ]
   },
@@ -627,7 +627,7 @@
     "tameOrBreed": "Se doma montándolo repetidamente con la mano vacía. Solo los domados se pueden criar, ensillar o equipar con armadura.",
     "keywords": "horse tamear saddle horse armor criar golden carrot velocidad salto estadísticas plains savanna",
     "notes": [
-      "Más con Saqueo",
+      "Más con Botín",
       "Solo si el horse llevaba saddle",
       "Solo si el horse la llevaba equipada",
       "Solo si lo mata un jugador o un wolf tameado"
@@ -642,7 +642,7 @@
     "tameOrBreed": "No se puede domesticar. Cría dos turtles con seagrass; la cría tarda un día de Minecraft (20 minutos) en crecer, un 10% menos por seagrass, y suelta un turtle scute al hacerse adulta.",
     "keywords": "turtle huevo playa natal seagrass scute casco respiración acuática criar silk touch",
     "notes": [
-      "Más con Saqueo; no si la mata un rayo en Bedrock",
+      "Más con Botín; no si la mata un rayo en Bedrock",
       "Solo en Bedrock, cuando la mata un rayo",
       "No es un drop de muerte: la cría suelta uno al hacerse adulta",
       "Solo si la mata un jugador o un wolf tameado"
@@ -657,7 +657,7 @@
     "tameOrBreed": "No se puede domesticar. Dale bamboo a dos pandas para criar, pero solo con plantas de bamboo cerca: al menos una en un área de 7x7x3 en Java, u 8 plantas a 5 bloques de cada panda en Bedrock.",
     "keywords": "panda bamboo jungle criar personalidad brown weak lazy aggressive estornudo slimeball",
     "notes": [
-      "Más con Saqueo en Bedrock",
+      "Más con Botín en Bedrock",
       "Raro: un estornudo de cría tiene 1/700 de soltar una",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
@@ -671,7 +671,7 @@
     "tameOrBreed": "Tamea montando una y otra vez (alimentar ayuda). Cría dos donkeys tameados con golden apples o golden carrots; cruza un donkey tameado con un horse tameado para conseguir una mule, que es estéril.",
     "keywords": "donkey chest 15 huecos mule criar horse tamear saddle plains meadow animal de carga",
     "notes": [
-      "Más con Saqueo",
+      "Más con Botín",
       "Solo si llevaba saddle",
       "Solo si el donkey llevaba una chest",
       "Solo si lo mata un jugador o un wolf tameado"
@@ -686,7 +686,7 @@
     "tameOrBreed": "Tamea con cualquier seeds (wheat, melon, pumpkin, beetroot, torchflower) o pitcher pods - cada intento tiene 1/10 de probabilidad. No pueden criar; la única forma de tener más parrots es encontrar más.",
     "keywords": "parrot tamear seeds jungle bailar jukebox hombro cookie veneno imitar sonidos cinco colores",
     "notes": [
-      "Más con Saqueo en Java",
+      "Más con Botín en Java",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
   },
@@ -712,7 +712,7 @@
     "tameOrBreed": "No se puede tamear - pero se puede CURAR: lánzale Weakness (poción splash/lingering o arrow of Weakness) y luego usa una golden apple normal. La cura tarda 3-5 minutos, acelerada ~4,2% rodeándolo de hasta 14 iron bars o beds (las copper bars no cuentan). El villager curado da descuentos permanentes y conserva su profesión y trueques si los tenía.",
     "keywords": "zombie villager curar weakness golden apple descuento trueques convertir villager abandoned village igloo",
     "notes": [
-      "Más con Saqueo",
+      "Más con Botín",
       "2,5% de probabilidad, solo si lo mata un jugador",
       "2,5% cada uno, solo si lo mata un jugador; baked potato si arde en Java",
       "12 si es cría, más 1-3 por pieza de equipo"
@@ -727,7 +727,7 @@
     "tameOrBreed": "No se puede tamear ni criar. Las glow ink sacs sirven para texto brillante en signs y glow item frames: esa es toda la razón de farmearlas.",
     "keywords": "glow squid glow ink sac agua oscura aquifer nivel de luz 0 sign brillo glow item frame axolotl",
     "notes": [
-      "Más con Saqueo; es la única fuente",
+      "Más con Botín; es la única fuente",
       "Solo si lo mata un jugador o un wolf tameado"
     ]
   },
@@ -754,10 +754,10 @@
     "tameOrBreed": "No se puede tamear ni criar. Farméalos: las granjas de oro aprovechan su spawn en manada sobre el techo del Nether o sobre océanos de lava.",
     "keywords": "zombified piglin granja de oro nugget enfado perdón neutral nether fortress zombie pigman",
     "notes": [
-      "Más con Saqueo",
-      "Más con Saqueo",
+      "Más con Botín",
+      "Más con Botín",
       "2,5% de probabilidad, solo si lo mata un jugador",
-      "Si apareció con una: 8,5% Java, 25% Bedrock, más con Saqueo"
+      "Si apareció con una: 8,5% Java, 25% Bedrock, más con Botín"
     ]
   },
   "llama": {
@@ -769,7 +769,7 @@
     "tameOrBreed": "Tamea montando una y otra vez. Cría dos llamas tameadas con hay bales; la cría hereda una fuerza cercana a la del padre más fuerte.",
     "keywords": "llama caravana chest huecos fuerza carpet tamear escupir hay bale wandering trader",
     "notes": [
-      "Más con Saqueo",
+      "Más con Botín",
       "Solo si la llevaba equipada; la chest no se puede quitar de otra forma",
       "Solo si la mata un jugador o un wolf tameado"
     ]
@@ -795,7 +795,7 @@
     "tameOrBreed": "No se puede tamear, criar ni hacer bartering. Mata o evita.",
     "keywords": "piglin brute bastion remnant golden axe sin barter armadura de oro daño no renovable",
     "notes": [
-      "8,5%, +1% por nivel de Saqueo (11,5% máx); a veces encantada en Java",
+      "8,5%, +1% por nivel de Botín (11,5% máx); a veces encantada en Java",
       "El mayor drop de XP de un mob hostil común que no es boss"
     ]
   },
@@ -808,7 +808,7 @@
     "tameOrBreed": "No se puede tamear ni criar. A las crías se les puede dar golden dandelions; para la guía de tesoros basta raw cod o salmon.",
     "keywords": "dolphin grace tesoro shipwreck ruin dar raw cod salmon grupo ocean lead",
     "notes": [
-      "Más con Saqueo; cocinado si muere por fuego",
+      "Más con Botín; cocinado si muere por fuego",
       "Solo con crédito de muerte del jugador"
     ]
   },
@@ -832,7 +832,7 @@
     "behavior": "Camina sobre lava. Pasivo con los jugadores. Un strider ensillado se dirige con un warped fungus on a stick, y el boost consume durabilidad. Fuera de la lava tiembla, se vuelve morado y se mueve lento. La lluvia le hace daño.",
     "tameOrBreed": "Cría dos adultos con warped fungus. Ensilla uno para montarlo por los lagos de lava: quítale la saddle con shears desde 1.21.6.",
     "notes": [
-      "Saqueo añade 0-1 por nivel solo en Java: en Bedrock los drops ignoran Saqueo"
+      "Botín añade 0-1 por nivel solo en Java: en Bedrock los drops ignoran Botín"
     ]
   },
   "snow-golem": {
@@ -855,7 +855,7 @@
     "behavior": "Ataca a jugadores y a casi todos los mobs excepto creepers, ghasts y otros zoglins - incluidos hoglins y zombified piglins. Los adultos atacan cada 2 segundos en Java (1 segundo las crías; en Bedrock ambos cada segundo). Las crías de zoglin nunca crecen. Los piglins huyen de él. Se puede atar con lead.",
     "tameOrBreed": "No se puede domesticar, criar ni repeler con warped fungus: los repelentes de hoglins no hacen nada.",
     "notes": [
-      "Saqueo añade 0-1 por nivel"
+      "Botín añade 0-1 por nivel"
     ]
   },
   "copper-golem": {
