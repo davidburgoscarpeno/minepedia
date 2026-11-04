@@ -33,7 +33,7 @@ const S = lang === 'es' ? {
     <h1>{S.h1}</h1>
     <p class="sub">{S.sub}</p>
     <SearchBox placeholder={S.placeholder} lang={lang} />
-    <GameShot id="biomes-frozen-ocean" />
+    <GameShot lang={lang} id="biomes-frozen-ocean" />
     <div class="grid-cards">
       {biomes.map(b => (
         <a class="card" href={lang === 'es' ? `/es/biomes/${b.slug}/` : `/biomes/${b.slug}/`}>

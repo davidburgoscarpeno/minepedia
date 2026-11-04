@@ -53,7 +53,7 @@ const L = isES ? {
         </div>)}
       </div>
     </section>
-    <GameShot id="guides-block-breaking" />
+    <GameShot lang={lang} id="guides-block-breaking" />
     <div class="grid-cards" style="margin-top:24px">
       {list.map((g: any) => {
         const ov = isES ? (guidesEs as any)[g.slug] : null;

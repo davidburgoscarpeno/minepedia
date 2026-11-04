@@ -62,7 +62,7 @@ const jsonLd = [
     <h1>{b.name}</h1>
     <p><span class="badge">{category}</span></p>
     <p>{description}</p>
-    {shotId ? <GameShot id={shotId} /> : <BiomeArt slug={b.slug} name={b.name} />}
+    {shotId ? <GameShot lang={lang} id={shotId} /> : <BiomeArt slug={b.slug} name={b.name} />}
     <h2>{L.resourcesH}</h2>
     <ul>{resources.map(r => <li>{r}</li>)}</ul>
     <h2>{L.mobsH}</h2>

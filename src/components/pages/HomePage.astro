@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import commands from '../../data/commands.json';
+import commandsEs from '../../data/commands-es.json';
 import recipes from '../../data/recipes.json';
 import enchantments from '../../data/enchantments.json';
 import mobs from '../../data/mobs.json';
@@ -14,6 +15,7 @@ import Icon from '../../components/Icon.astro';
 import { iconPath } from '../../utils/icon';
 interface Props { lang?: 'en' | 'es' }
 const { lang = 'en' } = Astro.props;
+const isES = lang === 'es';
 const BIOME_SHOTS: Record<string, string> = { 'lush-caves': 'biomes-lush-caves', 'jungle': 'biomes-jungle', 'taiga': 'biomes-taiga', 'deep-dark': 'biomes-deep-dark', 'nether-wastes': 'guides-nether', 'the-end': 'structures-end-city', 'plains': 'biomes-plains', 'desert': 'structures-desert-temple', 'windswept-hills': 'biomes-windswept-hills', 'forest': 'biomes-forest', 'mushroom-fields': 'biomes-mushroom-fields', 'swamp': 'biomes-swamp', 'ice-spikes': 'biomes-frozen-ocean' };
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
@@ -91,7 +93,7 @@ const S = lang === 'es' ? {
       <h1>{S.h1}</h1>
       <p>{S.heroP}</p>
       <SearchBox autofocus={true} placeholder={S.placeholder} lang={lang} />
-      <p class="herov2-credit">Screenshot: <a href="https://commons.wikimedia.org/wiki/File:Diagonal_obsidian_bridge_over_water.png">KittyKot</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a></p>
+      <p class="herov2-credit">{isES ? 'Captura' : 'Screenshot'}: <a href="https://commons.wikimedia.org/wiki/File:Diagonal_obsidian_bridge_over_water.png">KittyKot</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></p>
     </div>
   </section>
   <div class="container">
@@ -241,11 +243,11 @@ const S = lang === 'es' ? {
       )}
       <div class="grid-cards">
         {commands.slice(0, 6).map(c => (
-          <a class="card" href={`${P}/commands/${c.slug}/`}><img class="pixel-icon" src={iconPath(c.slug, 'book')} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{c.summary}</p></a>
+          <a class="card" href={`${P}/commands/${c.slug}/`}><img class="pixel-icon" src={iconPath(c.slug, 'book')} alt="" width="34" height="34" style="margin-bottom:12px" /><h3>{c.name}</h3><p>{isES ? ((commandsEs as any)[c.slug]?.summary ?? c.summary) : c.summary}</p></a>
         ))}
       </div>
     </section>
-    <GameShot id="biomes-forest" />
+    <GameShot lang={lang} id="biomes-forest" />
   </div>
   <style>
     .herov2{position:relative;overflow:hidden;border-bottom:1px solid #232a35}

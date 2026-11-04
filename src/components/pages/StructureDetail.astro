@@ -71,7 +71,7 @@ const jsonLd = [
     <nav class="crumbs"><a href={L.homeHref}>{L.home}</a> / <a href={L.crumbHref}>{L.crumb}</a> / {s.name}</nav>
     <h1>{s.name}</h1>
     <p><span class="badge">{s.dimension}</span></p>
-    {shotId && <GameShot id={shotId} />}
+    {shotId && <GameShot lang={lang} id={shotId} />}
     <h2>{L.findH}</h2>
     <ul>{howToFind.map((h: string) => <li>{h}</li>)}</ul>
     <h2>{L.lootH}</h2>

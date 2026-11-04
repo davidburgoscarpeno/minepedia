@@ -14,7 +14,34 @@ const spawnConditions = ov?.spawnConditions ?? m.spawnConditions;
 const howToKill = ov?.howToKill ?? m.howToKill;
 const behavior = ov?.behavior ?? m.behavior;
 const tameOrBreed = ov?.tameOrBreed ?? m.tameOrBreed;
-const drops = m.drops.map((d: any, i: number) => ({ ...d, notes: ov?.notes?.[i] ?? d.notes }));
+const QTY_ES: Record<string, string> = {
+  '0-1 (Java: 50%, +6.25% per Looting level; Bedrock: 0-1 up to 4 with Looting III)': '0-1 (Java: 50%, +6,25% por nivel de Botín; Bedrock: 0-1 hasta 4 con Botín III)',
+  '0-1 (big), 0-1 (medium)': '0-1 (grande), 0-1 (mediano)',
+  '0-1 (up to 4 with Looting III)': '0-1 (hasta 4 con Botín III)',
+  '0-1 rare drop': '0-1 drop raro',
+  '0-1, 50% (up to 0-4 with Looting III)': '0-1, 50% (hasta 0-4 con Botín III)',
+  '0-2 (up to 5 with Looting III)': '0-2 (hasta 5 con Botín III)',
+  '0-2 from tiny slimes (up to 5 with Looting III)': '0-2 de slimes diminutos (hasta 5 con Botín III)',
+  '1 (from small cubes)': '1 (de cubos pequeños)',
+  '1 each': '1 de cada',
+  '1 every 5-10 minutes': '1 cada 5-10 minutos',
+  '1-3 (up to 6 with Looting III)': '1-3 (hasta 6 con Botín III)',
+  '2 (by shearing)': '2 (esquileando)',
+  '2-4 (up to 7 with Looting III)': '2-4 (hasta 7 con Botín III)',
+  '3-5 (Looting does not increase it)': '3-5 (Botín no lo aumenta)',
+  '4-8 item types, 0-2 each (Looting adds more)': '4-8 tipos de objeto, 0-2 de cada (Botín añade más)',
+  'Chance': 'Probabilidad',
+  'Rarely': 'Raramente',
+  'Rarely with Looting': 'Raramente, con Botín',
+  'Unlimited': 'Ilimitado',
+  'always if picked up': 'siempre si se recoge',
+  'rare': 'raro',
+  'varies': 'varía',
+  '~2.5% chance': '~2,5% de probabilidad',
+  '~20% chance': '~20% de probabilidad',
+  '~8.5% chance': '~8,5% de probabilidad'
+};
+const drops = m.drops.map((d: any, i: number) => ({ ...d, notes: ov?.notes?.[i] ?? d.notes, qty: isES ? (QTY_ES[d.qty] ?? d.qty) : d.qty }));
 const dropList = drops.map((d: any) => d.item.split('(')[0].trim()).join(', ');
 
 const PIXEL = new Set(['allay','armadillo','axolotl','bat','bee','blaze','bogged','breeze','camel','cat','cave-spider','chicken','cod','copper-golem','cow','creaking','creeper','dolphin','donkey','drowned','elder-guardian','ender-dragon','enderman','endermite','evoker','fox','frog','ghast','glow-squid','goat','guardian','happy-ghast','hoglin','horse','husk','iron-golem','llama','magma-cube','mooshroom','mule','nautilus','ocelot','panda','parched','parrot','phantom','pig','piglin','piglin-brute','pillager','polar-bear','pufferfish','rabbit','ravager','salmon','sheep','shulker','silverfish','skeleton','skeleton-horse','slime','sniffer','snow-golem','spider','squid','stray','strider','sulfur-cube','tadpole','tropical-fish','turtle','vex','villager','vindicator','wandering-trader','warden','witch','wither','wither-skeleton','wolf','zoglin','zombie','zombie-nautilus','zombie-villager','zombified-piglin']);

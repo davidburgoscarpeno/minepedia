@@ -8,6 +8,13 @@ const { c, lang } = Astro.props;
 const isES = lang === 'es';
 const ov: any = isES ? (commandsEs as any)[c.slug] : null;
 const summary = ov?.summary ?? c.summary;
+const SYNTAX_BR_ES: Record<string, string> = {
+  '(Java Edition only - use world settings in Bedrock)': '(solo Java Edition - en Bedrock se usa la configuración del mundo)',
+  '(Java Edition only - check world settings in Bedrock)': '(solo Java Edition - en Bedrock consulta la configuración del mundo)',
+  '(Java Edition only)': '(solo Java Edition)',
+  '(Java Edition only - Bedrock uses /replaceitem)': '(solo Java Edition - Bedrock usa /replaceitem)'
+};
+const syntaxBedrock = isES ? (SYNTAX_BR_ES[c.syntaxBedrock] ?? c.syntaxBedrock) : c.syntaxBedrock;
 const description = ov?.description ?? c.description;
 const targets = ov?.targets ?? c.targets;
 const permission = ov?.permission ?? c.permission;
@@ -70,7 +77,7 @@ const jsonLd = [
     <table class="data">
       <tr><th>{L.edition}</th><th>{L.syntaxCol}</th></tr>
       <tr><td>Java</td><td><code>{c.syntax}</code></td></tr>
-      <tr><td>Bedrock</td><td><code>{c.syntaxBedrock}</code></td></tr>
+      <tr><td>Bedrock</td><td><code>{syntaxBedrock}</code></td></tr>
     </table>
     <p><strong>{L.targetsLabel}</strong> {targets}. <strong>{L.requiresLabel}</strong> {permission}.</p>
     <h2>{L.examplesH}</h2>

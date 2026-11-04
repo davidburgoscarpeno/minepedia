@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import items from '../../data/items.json';
+import itemsEs from '../../data/items-es.json';
 
 interface Props { lang: 'en' | 'es'; }
 const { lang } = Astro.props;
@@ -44,7 +45,7 @@ const L = isES ? {
           <span class="mob-tile" style={`--tile-a:${a};--tile-b:${b}`}>{initials(i.name)}</span>
           <div>
             <h3>{i.name}<span class="type-chip type-neutral">{isES ? (CAT_ES[i.category] || i.category) : i.category}</span></h3>
-            <p class="meta"><b>{L.getL}</b> {i.howToGet[0].split(' - ')[0].split(':')[0]}</p>
+            <p class="meta"><b>{L.getL}</b> {(isES ? (((itemsEs as any)[i.slug]?.howToGet?.[0]) ?? i.howToGet[0]) : i.howToGet[0]).split(' - ')[0].split(':')[0]}</p>
           </div>
         </a>
       )})}

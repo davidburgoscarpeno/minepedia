@@ -35,7 +35,7 @@ const S = lang === 'es' ? {
     <h1>{S.h1}</h1>
     <p class="sub">{S.sub}</p>
     <SearchBox placeholder={S.placeholder} lang={lang} />
-    <GameShot id="enchantments-table" />
+    <GameShot lang={lang} id="enchantments-table" />
     <div class="grid-cards" style="margin-top:24px">
       {ench.map(e => (
         <a class="card" href={lang === 'es' ? `/es/enchantments/${e.slug}/` : `/enchantments/${e.slug}/`}>

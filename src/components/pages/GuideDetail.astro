@@ -66,7 +66,7 @@ const jsonLd = [
     <h1>{name}</h1>
     <p><span class="badge">{L.guideBadge}</span> <span class="badge java">Java</span> <span class="badge bedrock">Bedrock</span></p>
     <div class="quick-answer"><strong>{L.quick}</strong> {quickAnswer}</div>
-    {shotId && <GameShot id={shotId} />}
+    {shotId && <GameShot lang={lang} id={shotId} />}
     <h2>{L.needH}</h2>
     <ul>{materials.map((m: string) => <li>{m}</li>)}</ul>
     <h2>{L.stepsH}</h2>
